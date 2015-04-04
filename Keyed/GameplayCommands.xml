@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CommandForbiddenDesc>Prohibido - los colonos no interactuarán con esto.</CommandForbiddenDesc>
+	<CommandNotForbiddenDesc>Permitido - los colonos interactuarán con esto.</CommandNotForbiddenDesc>
+
+  <!-- Power -->
+  <CommandTogglePowerLabel>Alternar energía</CommandTogglePowerLabel>
+  <CommandTogglePowerDesc>Alternar encendido/apagado.</CommandTogglePowerDesc>
+  
+  <CommandDesignateTogglePowerLabel>Designar alternar energía</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerDesc>Designa esto para que sea encendido/apagado. Un colono vendrá a alternar el interruptor si está asignado como Controlador en el menú de prioridades de trabajo.</CommandDesignateTogglePowerDesc>
+
+  <CommandTryReconnectLabel>Reconectar</CommandTryReconnectLabel>
+  <CommandTryReconnectDesc>Intenta conectar a una red eléctrica diferente dentro del radio de conexión. Esto es útil cuando se está conectado a una red desactivada pero hay otra funcionando en las cercanías.</CommandTryReconnectDesc>
+  
+  <CommandGatherSpotToggleLabel>Punto de reunión</CommandGatherSpotToggleLabel>
+  <CommandGatherSpotToggleDescActive>Activo - los colonos se reunirán junto a este objeto.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>Inactivo - los colonos no se reunirán junto a este objeto.</CommandGatherSpotToggleDescInactive>
+  
+  
+   <!-- Drafting -->
+  <CommandDraftLabel>Reclutar</CommandDraftLabel>
+  <CommandUndraftLabel>Licenciar</CommandUndraftLabel>
+  <CommandToggleDraftDesc>Alterna el reclutamiento.\n\nLos reclutas recibirán órdenes y lucharán. Pero no trabajarán, comerán, o descansarán.</CommandToggleDraftDesc>
+  <IsIncapped>{0} está incapacitado.</IsIncapped>
+ 
+  
+  <CommandCancelConstructionLabel>Cancelar</CommandCancelConstructionLabel>
+  <CommandCancelConstructionDesc>Cancela esta construcción.</CommandCancelConstructionDesc>
+  
+  <CommandGetOutOfBedLabel>Salir de la cama</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedDesc>Manda salir de la cama actual.</CommandGetOutOfBedDesc>
+
+  <CommandBedSetOwnerLabel>Asignar propietario</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>Asignar esta cama como propiedad otro colono.</CommandBedSetOwnerDesc>
+  <BedAssign>Asignar</BedAssign>
+  <CommandBedSetForPrisonersLabel>Asignar para prisioneros</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersDesc>Asigna las camas de esta habitación para uso por prisioneros.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>No puedes asignar camas en el exterior para uso por prisioneros.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForColonistsLabel>Asignar para colonos</CommandBedSetForColonistsLabel>
+  <CommandBedSetForColonistsDesc>Asigna las camas de esta habitación para uso de tus colonos.</CommandBedSetForColonistsDesc>
+  <CommandBedSetAsMedicalLabel>Asignar como cama hospitalaria</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc>Asigna esta cama para uso hospitalario.</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsNonMedicalLabel>Asignar como cama extrahospitalaria</CommandBedSetAsNonMedicalLabel>
+  <CommandBedSetAsNonMedicalDesc>Asigna esta cama para uso extrahospitalario.</CommandBedSetAsNonMedicalDesc>
+  <TurningOnPrisonerBedWarning>Activar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorios.\n\nEsta gente perderá sus camas:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Desactivar el modo prisionero afecta a toda la habitación, pues colonos y prisioneros no pueden compartir dormitorios.\n\nEsta gente perderá sus camas:</TurningOffPrisonerBedWarning>
+  <AreYouSure>¿Estás seguro de que quieres hacer esto?</AreYouSure>
+
+  
+  
+  <CommandDetonateDesc>Empezar la cuenta atrás para la detonación.</CommandDetonateDesc>
+  <CommandDetonateLabel>Detonar</CommandDetonateLabel>
+
+  <CommandRenameZoneDesc>Renombrar esta zona.</CommandRenameZoneDesc>
+  <CommandRenameZoneLabel>Renombrar</CommandRenameZoneLabel>
+
+  <CommandHideZoneDesc>Esconder/revelar esta zona.</CommandHideZoneDesc>
+  <CommandHideZoneLabel>Esconder</CommandHideZoneLabel>
+  <CommandUnhideZoneLabel>Revelar</CommandUnhideZoneLabel>
+
+  <CommandDeleteZoneDesc>Borrar esta zona.</CommandDeleteZoneDesc>
+  <CommandDeleteZoneLabel>Borrar</CommandDeleteZoneLabel>
+    
+  
+  <!-- Artillery -->
+  <CommandSetForceAttackTarget>Forzar ataque</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>Asigna un objetivo que ésta torreta deberá atacar mientras le sea posible.</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>Detener el ataque forzado</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>Detiene el ataque forzado y permite a la torreta disparar libremente cuando haya enemigos cerca.</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>Actualmente no se está forzando el ataque.</CommandStopAttackFailNotForceAttacking>
+  <MessageTargetBeyondMaximumRange>El objetivo está más allá del alcance máximo.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>El objetivo está por debajo del alcance mínimo.</MessageTargetBelowMinimumRange>
+  
+  
+  <!-- Ship computer core -->
+  <CommandShipLaunch>Lanzar nave</CommandShipLaunch>
+  <CommandShipLaunchDesc>Inicia la secuencia de lanzamiento de la nave usando la configuración actual.</CommandShipLaunchDesc>
+  <CommandShipLaunchReport>Mostrar el informe de lanzamiento</CommandShipLaunchReport>
+  <CommandShipLaunchReportDesc>Muestra un informe sobre la capacidad de la nave para el lanzamiento.</CommandShipLaunchReportDesc>
+
+
+  <!-- Pod -->
+  <CommandPodEject>Eyectar durmientes</CommandPodEject>
+  <CommandPodEjectDesc>Despierta a los criodurmientes y los eyecta.</CommandPodEjectDesc>
+  <CommandPodEjectFailEmpty>No contiene a nadie.</CommandPodEjectFailEmpty>
+  
+  <!-- Door -->
+  <CommandToggleDoorLock>Bloquear</CommandToggleDoorLock>
+  <CommandToggleDoorLockDesc>Bloquea o desbloquea la puerta. Una puerta bloqueada no se abrirá a nadie hasta que sea destruida o desbloqueada.</CommandToggleDoorLockDesc>
+  
+  <!-- Temperature control -->
+  <CommandResetTemp>Restablecer</CommandResetTemp>
+  <CommandResetTempDesc>Reajustar la temperatura deseada a la temperatura de la habitación.</CommandResetTempDesc>
+  <CommandRaiseTempDesc>Subir la temperatura deseada.</CommandRaiseTempDesc>
+  <CommandLowerTempDesc>Bajar la temperatura deseada.</CommandLowerTempDesc>
+
+  <!-- Art -->
+  <CommandInstall>Instalar</CommandInstall>
+  <CommandInstallDesc>Este objeto está actualmente etiquetado para ser almacenado o transportado. Usa este comando para instalar este objeto en un lugar definitivo donde podrá ser observado o usado.</CommandInstallDesc>
+   
+    <!-- Trade beacon -->
+  <CommandMakeBeaconStockpileDesc>Crea una reserva alrededor de esta estructura con la misma forma que el radio de lanzamiento de la sonda.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileLabel>Crear reserva</CommandMakeBeaconStockpileLabel>
+  
+</LanguageData>

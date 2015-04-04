@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+
+  <Confirm>Confirmar</Confirm>
+  <GoBack>Atrás</GoBack>
+  <OK>Entendido</OK>
+  
+  <!-- Save/load -->
+  <SaveGameButton>Guardar</SaveGameButton>
+  <OverwriteButton>Sobrescribir</OverwriteButton>
+  <LoadGameButton>Cargar</LoadGameButton>
+  <ConfirmDelete>¿Deseas realmente borrar {0}?</ConfirmDelete>
+  <DeleteThisSavegame>Borrar esta partida guardada.</DeleteThisSavegame>
+  <SavedAs>Guardado como {0}.</SavedAs>
+  <NeedAName>Por favor introduce un nombre.</NeedAName>
+  <LoadingLongEvent>Cargando...</LoadingLongEvent>
+  
+  
+  <!-- Colony naming-->
+  <NameColonyMessage>Todos saben que no quieren permanecer en esta roca por mucho tiempo, aun así {0} sugiere que le coloquen un nombre a la colonia.\n\n¿Como debería llamarse?</NameColonyMessage>
+  <ColonyGainsName>A partir de ahora se conocerá a la colonia como {0}.</ColonyGainsName>
+  <ColonyNameIsInvalid>Ese nombre no es válido.</ColonyNameIsInvalid>
+
+  <!-- Zone naming -->
+  <ZoneGainsName>A partir de ahora se conocerá esta zona como {0}.</ZoneGainsName>
+  <ZoneNameIsInvalid>Por favor introduce un nombre válido.</ZoneNameIsInvalid>
+  
+   <!-- Pawn naming -->
+  <PawnGainsName>El alias del colono es ahora {0}.</PawnGainsName>
+
+  <!-- Save game incompatible warning -->
+  <VersionMismatch>Version no coincidente</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Atención: Este mapa fue guardado en la versión {0}, mientras que la versión en funcionamiento es {1}.\n\n Cargar esta partida posiblemente cause errores y cierres del juego.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Atención: Este mundo fue generado con la versión {0}, y la versión actual es {1}.\n\nCargar este mundo posiblemente generará errores y cierres del juego. Deberías crear un mundo nuevo.</WorldFileVersionMismatch>
+  
+  
+  <!-- Resolution change dialog -->
+  <ConfirmResolutionChange>Has cambiado la resolución de pantalla. ¿Deseas mantener esta resolución?\n\nRegresando a la resolución anteiror en {0}...</ConfirmResolutionChange>
+  <ResolutionKeep>Mantener</ResolutionKeep>
+  <ResolutionRevert>Revertir</ResolutionRevert>
+
+  <!-- Overview -->
+  <OverviewOf>Supervisión de {0}</OverviewOf>
+
+  <!-- Research -->
+  <Research>Investigación</Research>
+  <Researched>Investigado</Researched>
+  <Unresearched>Por investigar</Unresearched>
+  <Finished>Finalizado</Finished>
+  <InProgress>En progreso</InProgress>
+  <ResearchMenuWithoutBench>Hasta que no construyas una MESA DE INVESTIGACIÓN, tu colonos no podrán investigar nada.\n\nSin embargo, seguirás siendo capaz de ver y escoger un proyecto de investigación.</ResearchMenuWithoutBench>
+
+  <!-- Advanced game start options -->
+  
+  <MapTemperatureDangerWarning>Aviso: Aterrizarás en una zona congelada. Puede ser difícil o casi imposible sobrevivir. Si no es tu intención afrontar un desafío extremo escoge otra zona diferente u otra fecha.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Aviso: Puedes sufrir pérdidas de rendimiento con mapas grandes a menos que tu computador pueda manejarlo.\n\nSi tu computador no es tan potente, escoge Pequeño.\n\nEl tamaño Ludeonicro no ha sido probado y muy probablemente no funcionará bien.</MapSizePerformanceWarning>
+  <MapSize>Tamaño del mapa</MapSize>
+  <MapSizeDesc>{0}x{0} ({1} casillas)</MapSizeDesc>
+  <MapSizeSmall>Pequeño</MapSizeSmall>
+  <MapSizeMedium>Medio</MapSizeMedium>
+  <MapSizeLarge>Grande</MapSizeLarge>
+  <MapSizeExtreme>Ludeonicro</MapSizeExtreme>
+  <MapStartMonth>Mes de inicio:</MapStartMonth>
+  <MapStartMonthDefault>Auto</MapStartMonthDefault>
+
+  
+  <!-- Bill config -->
+  <Suspended>Suspendido</Suspended>
+  <NotSuspended>Sin suspender</NotSuspended>
+  <SuspendedAllCaps>SUSPENDIDO</SuspendedAllCaps>
+  <RepeatCount>Repetir: {0}</RepeatCount>
+  <Forever>Constante</Forever>
+  <IngredientSearchRadius>Radio de búsqueda de ingredientes</IngredientSearchRadius>
+  <CurrentlyHave>Actualmente tiene</CurrentlyHave>
+  <CountingProducts>Contando</CountingProducts>
+  <Infinite>Infinito</Infinite>
+
+  <RecipeCannotHaveTargetCount>(Esta receta no puede tener un número determinado de productos por tener múltiples o impredecibles productos.)</RecipeCannotHaveTargetCount>
+  <PermittedIngredients>Ingredientes permitidos</PermittedIngredients>
+  <WorkAmount>Cantidad de trabajo</WorkAmount>
+  <MinimumSkills>Habilidades mínimas:</MinimumSkills>
+  <BillRequires>Requiere {0} {1}</BillRequires>
+  <BillRequiresMayVary>(La cantidad de materia prima puede variar en caso de ser un objeto con volumen no estandar, como el oro.)</BillRequiresMayVary>
+  <ThisIsSmallVolume>Este es un ingrediente de volumen reducido. Esto significa que cada 'unidad' cuenta como 1/20 que un ingrendiente de volumen normal. Así que para completar los requisitos de ingredientes necesitaras un cantidad 20 veces superior a la normal.</ThisIsSmallVolume>
+  <UsableIngredients>ingredientes utilizables</UsableIngredients>
+  <DoXTimes>Hacer X veces</DoXTimes>
+  <DoUntilYouHaveX>Hacer hasta que haya X</DoUntilYouHaveX>
+  <DoForever>Repetir constantemente</DoForever>
+  <BillRepeatTargetCountShort>Hacia {0}</BillRepeatTargetCountShort>
+  <BillStoreMode_DropOnFloor>Dejar en el suelo</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>Llevar a la mejor reserva</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Llevar a la reserva más cercana</BillStoreMode_NearestStockpileAnyPriority>
+  
+  <!-- Info card -->
+  <Damage>Daño</Damage>
+  <Accuracy>Precisión</Accuracy>
+  <BurstShotCount>Disparos por ráfaga</BurstShotCount>
+  <WarmupTime>Calentamiento</WarmupTime>
+  <CooldownTime>Enfriamiento</CooldownTime>
+  <BurstShotFireRate>Velocidad de disparo</BurstShotFireRate>
+  <Range>Alcance</Range>
+  <GrowsWild>Crece salvaje</GrowsWild>
+  <Harvestable>Cosechable</Harvestable>
+  <LimitedLifespan>Esperanza de vida limitada</LimitedLifespan>
+  <GrowingTime>Tiempo de crecimiento</GrowingTime>
+  <GrowingTimeDesc>Las plantas solo crecen durante una parte del día y solo cuando están iluminadas. Esta informacion mide el tiempo que la planta necesita estar creciendo hasta llegar a su maximo tamaño. El tiempo real de crecimiento será aproximadamente el doble del indicado. Las temperaturas bajas tambien ralentizan el crecimiento de las plantas.</GrowingTimeDesc>
+  <Days>días</Days>
+  <FertilityRequirement>Requisitos de fertilidad</FertilityRequirement>
+  <LightRequirement>Requisitos lumínicos</LightRequirement>
+  <Attributes>Atributos</Attributes>
+  <LifeSpan>Esperanza de vida</LifeSpan>
+  <Nutrition>Nutrición</Nutrition>
+  <FoodQuality>Calidad de la comida</FoodQuality>
+  <WalkSpeedProperty>Velocidad caminando</WalkSpeedProperty>
+  <MeleeDamage>Daño cuerpo a cuerpo</MeleeDamage>
+  <MeatAmount>Cantidad de carne</MeatAmount>
+  <MinFoodQuality>Calidad mínima de la comida</MinFoodQuality>
+  <Diet>Dieta</Diet>
+  <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
+  <baseMarketValue>Precio base</baseMarketValue>
+  <Covers>Cobertura</Covers>
+  <BodyPartEfficiency>Eficiencia de la parte corporal</BodyPartEfficiency>
+  
+  <!-- Trade -->
+  <DragToTrade>Arrastra para comerciar</DragToTrade>
+  <BuyPriceDesc>Precio que pagas por comprar este objeto.</BuyPriceDesc>
+  <SellPriceDesc>Precio que cobras por vender este objeto.</SellPriceDesc>
+  <PriceTypeDesc>El precio por este objeto es {0}.</PriceTypeDesc>
+  <ColonyCount>Cuantas existencias de este objeto posee la colonia listas para negociar.\n\nSólo puedes vender objetos que estén en el exterior y cerca de una sonda de comercio orbital.</ColonyCount>
+  <TraderCount>Cuantas existencias de este objeto posee el comerciante para negociar.</TraderCount>
+  <AcceptButton>Aceptar</AcceptButton>
+  <ResetButton>Reiniciar</ResetButton>
+  <CancelButton>Cancelar</CancelButton>
+  <YourTradeableSilver>Tus existencias de plata: {0}</YourTradeableSilver>
+  <YourTradeableSilverTip>Sólo puedes comerciar con plata que esté en una zona cerca de una sonda de comercio y sin ningún techo encima.</YourTradeableSilverTip>
+  <TraderHasNoMore>Al comerciante no le quedan existencias.</TraderHasNoMore>
+  <ColonyHasNoMore>A la colonia no le quedan existencias.</ColonyHasNoMore>
+  <TraderWillNotTrade>El comerciante no desea comerciar con este objeto.</TraderWillNotTrade>
+
+   <!-- Comms -->
+  <SocialSkillIs>Habilidad social: {0}</SocialSkillIs>
+
+  <!--Research-->
+  <ResearchFinished>Investigación finalizada: {0}</ResearchFinished>
+  <ResearchScreen>Pantalla de investigación</ResearchScreen>
+	  
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>¿Deseas cargar tus datos de juego al servidor de Rimworld con el fin de ayudar a los desarrolladores a equilibrar el juego? Si accedes, tus datos serán cargados cada {0} días (y en ciertas ocasiones como el final de una partida). Más adelante, podrás cambiar tus preferencias de privacidad en el menú de opciones.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Aunque la historia es enviada de forma anónima, puedes añadir tu nombre.</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>Permitir la carga de datos de juego</HistoryUploadYes>
+  <HistoryUploadNo>No permitir la carga de datos de juego</HistoryUploadNo>
+  <HistoryUploadYesOnce>Cargar sólo ésta vez</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>No cargar ésta vez, pregúntame más adelante</HistoryUploadNoOnce>
+	
+</LanguageData>
