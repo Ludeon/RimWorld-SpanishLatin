@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Forbidding.label>Permitir recursos</Forbidding.label>
+  <rep>
+    <path>Forbidding.helpTexts[0]</path>
+    <trans>Los colonos no utilizarán objetos marcados como PROHIBIDO.\n\nSelecciona la comida y el metal cercano a tu lugar de aterizaje y presiona F para quitar la marca de PROHIBIDO.</trans>
+  </rep>
+  
+  <Stockpiles.label>Necesitas zona de reserva</Stockpiles.label>
+  <rep>
+	<path>Stockpiles.helpTexts[0]</path>
+	<trans>Tus colonos necesitan un lugar donde almacenar sus objetos. Designa unas RESERVA para ello.\n\nEncontrarás la reserva en la sección ZONAS del menú ARQUITECTO en la esquina inferior izquierda.</trans>
+  </rep>
+  
+  <GrowingFood.label>Necesitas cultivos</GrowingFood.label>
+  <rep>
+    <path>GrowingFood.helpTexts[0]</path>
+    <trans>Para cultivar comida, delimita ZONAS DE CULTIVO utilizando el menú de Arquitecto.\n\nSólo podrán ser ubicadas en terrenos cultivables, y sólo crecerán en áreas iluminadas.</trans>
+  </rep>
+   
+  <EquippingWeapons.label>Equipar armas</EquippingWeapons.label>
+  <rep>
+	<path>EquippingWeapons.helpTexts[0]</path>
+	<trans>Tus colonos llegaron con algunas armas. Equípalas seleccionando a cada uno de ellos y haz clic derecho en el arma a equipar.</trans>
+  </rep>
+  
+  <CameraZoom.label>Aprende a hacer zoom</CameraZoom.label>
+   <rep>
+	<path>CameraZoom.helpTexts[0]</path>
+	<trans>Haz zoom utilizando la RUEDA DEL RATÓN o con las teclas T y G.</trans>
+  </rep>
+  
+  <WorkOverview.label>Configurar opciones de trabajo</WorkOverview.label>
+    <rep>
+	  <path>WorkOverview.helpTexts[0]</path>
+	  <trans>Puedes asignar trabajos a cada colono en el menú SUPERVISIÓN en la parte inferior derecha de la pantalla.\n\nEllos siempre realizarán primero las tareas con mayor prioridad que encuentren.\n\nSi no hay nadie con un cierto tipo de trabajo asignado, o si estan ocupados con tareas más prioritarias, esta obra nunca se hará</trans>
+	</rep>
+
+  <TimeControls.label>Controles de velocidad</TimeControls.label>
+  <rep>
+	<path>TimeControls.helpTexts[0]</path>
+	<trans>Puedes acelerar, normalizar o parar el tiempo utilizando los controles de la parte inferior derecha.</trans>
+  </rep>
+  
+  <InfoCard.label>Abrir ventana de información</InfoCard.label>
+   <rep>
+	<path>InfoCard.helpTexts[0]</path>
+	<trans>La ventana de informacion muestra estadísticas detalladas de cualquier objeto, persona o estructura.\n\nSelecciona a una persona u objeto y abre su ventana de información pulsando el botón 'i' en el panel de inspección.</trans>
+  </rep>
+  
+  <SpacePause.label>Pausar con la barra espaciadora</SpacePause.label>
+  <rep>
+    <path>SpacePause.helpTexts[0]</path>
+    <trans>Pulsa ESPACIO para pausar o reanudar la partida.\n\nPuedes dar ordenes con el juego en pausa.\n\nRecuerda esto que puedes pausar durante emergencias.</trans>
+  </rep>
+
+  <StorageTab.label>Pestaña de Almacén</StorageTab.label>
+  <rep>
+    <path>StorageTab.helpTexts[0]</path>
+    <trans>Puedes seleccionar opciones de las zonas de reserva y estructuras de almacenamiento seleccionandolas y abriendo la pestaña de RESERVA en la parte izquierda justo encima del panel de inspección.</trans>
+  </rep>
+
+  <MedicalOperations.label>Aprende operaciones médicas</MedicalOperations.label>
+  <rep>
+    <path>MedicalOperations.helpTexts[0]</path>
+    <trans>Para asignar una operación médica, como la extracción de organos o instalación de protesis, abre la pestaña de SALUD de un colono y luego selecciona la subpestaña de OPERACIONES.</trans>
+  </rep>
+  
+  <HomeRegion.label>Aprende a usar zonas residenciales </HomeRegion.label>
+    <rep>
+    <path>HomeRegion.helpTexts[0]</path>
+    <trans>Las ZONAS RESIDENCIALES indican las áreas donde se apagarán fuegos o se limpiará regularmente.\n\nDesigna una ZONA RESIDENCIAL utilizando la pestaña de ZONAS el menú de Arquitecto. Al construir se asignan automáticamente, así que también puedes remover las zonas donde no quieres que los colonos transiten regularmente.</trans>
+  </rep>
+  
+  <RightClickClearLetter.label>Descartar notificaciones con botón derecho</RightClickClearLetter.label>
+    <rep>
+    <path>RightClickClearLetter.helpTexts[0]</path>
+    <trans>Puedes descartar rapidamente las notificaciones nuevas haciendo click derecho sobre ellas.</trans>
+  </rep>
+
+  
+  <!-- Opportunity needer concepts -->
+
+  <BuildOrbitalTradeBeacon.label>Construye sonda de comercio orbitál</BuildOrbitalTradeBeacon.label>
+	<rep>
+      <path>BuildOrbitalTradeBeacon.helpTexts[0]</path>
+      <trans>Para enviar y recibir objetos con los comerciantes en orbita, debes construir una SONDA DE COMERCIO ORBITAL en un lugar sin techo y designar una zona de reserva a su alrededor.</trans>
+  </rep>
+  
+  <SetGrowingZonePlant.label>Aprende a configurar cultivos</SetGrowingZonePlant.label>
+  <rep>
+    <path>SetGrowingZonePlant.helpTexts[0]</path>
+    <trans>Puedes escoger qué deseas plantar en una zona de cultivo. También puedes plantar arboles. Sólo debes selecciona la zona de cultivo, abre la pestaña de Cultivo y haz click en el botón 'Planta'.</trans>
+  </rep>
+  
+  <PrisonerTab.label>Pestaña de prisionero</PrisonerTab.label>
+  <rep>
+    <path>PrisonerTab.helpTexts[0]</path>
+    <trans>Pulsa sobre el botón 'Prisionero' cuando un prisionero está seleccionado, para escoger como será tratado.\n\nNecesitarás un colono que trabaje en Vigilancia para ocuparse del prisionero.</trans>
+  </rep>
+  
+  <StoragePriority.label>Aprende prioridades de almacenaje</StoragePriority.label>
+  <rep>
+    <path>StoragePriority.helpTexts[0]</path>
+    <trans>Puedes cambiar la PRIORIDAD de almacenamiento. Los colonos intentarán llenar primero las zonas de reserva de mayor prioridad.</trans>
+  </rep>
+  
+</LanguageData>
