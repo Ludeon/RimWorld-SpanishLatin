@@ -18,6 +18,6 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 -
 
-Translations and adaptations by: Alfredo Mujica
+Translations and adaptations by: AM
 
 Thanks to -Gaesatae, Vhiden, Emsaic, Alvirolo and Mototron for original spanish translation.
