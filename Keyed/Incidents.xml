@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <LetterLabelAnimalInsanitySingle>Animal loco</LetterLabelAnimalInsanitySingle>
   <AnimalInsanitySingle>Una {0} ha enloquecido. Atacará a todo lo que vea.</AnimalInsanitySingle>
+  <LetterLabelAnimalInsanityMultiple>¡Animales locos!</LetterLabelAnimalInsanityMultiple>
   <AnimalInsanityMultiple>Algún tipo de onda psíquica ha golpeado la zona. Tus colonos están bien, pero parece que muchos de los {0}s en el área se han vuelto locos.</AnimalInsanityMultiple>
 
+  <LetterLabelCropBlight>Plaga</LetterLabelCropBlight>
   <CropBlight>Una misteriosa plaga ha destruido tus cultivos.</CropBlight>
 
-  
+  <LetterLabelEclipseIncident>Eclipse</LetterLabelEclipseIncident>
   <EclipseIncident>Una de las lunas se ha interpuesto entre el planeta y su estrella, provocando un eclipse solar.</EclipseIncident>
+  <LetterLabelMiracleHeal>Milagro</LetterLabelMiracleHeal>
   <MiracleHeal>¡{0} ha experimentado una recuperación milagrosa!</MiracleHeal>
 
   
   <!-- Enemy raids -->
+  <LetterLabelEnemyRaid>Ataque</LetterLabelEnemyRaid>
+  <LetterLabelSiege>Asedio</LetterLabelSiege>
   <EnemyRaidWalkIn>Un grupo de {0} de la facción {1} ha llegado a las cercanías.</EnemyRaidWalkIn>
   <EnemyRaidEdgeDrop>Un grupo de {0} de la facción {1} ha realizado un desembarco orbital en las cercanías.</EnemyRaidEdgeDrop>
   <EnemyRaidCenterDrop>¡Un grupo de {0} de la facción {1} ha realizado un desembarco orbital justo encima de la colonia!</EnemyRaidCenterDrop>
@@ -21,6 +27,7 @@
 
 
   <!-- Friendly raids -->
+  <LetterLabelFriendlyRaid>Aliados</LetterLabelFriendlyRaid>
   <FriendlyRaidWalkIn>Un grupo aliado de {0} de la facción {1} ha llegado a las cercanías.</FriendlyRaidWalkIn>
   <FriendlyRaidEdgeDrop>Un grupo aliado de {0} de la facción {1} ha realizado un desembarco orbital en las cercanías.</FriendlyRaidEdgeDrop>
   <FriendlyRaidCenterDrop>¡Un grupo aliado de  {0} de la facción {1} ha realizado un desembarco orbital justo encima de la colonia!</FriendlyRaidCenterDrop>
@@ -28,14 +35,15 @@
   <FriendlyRaidImmediateAttack>Van a ayudarlos inmediatamente.</FriendlyRaidImmediateAttack>
   <FriendlyRaidBesiege>Parece que pretenden usar tácticas de asedio para ayudarlos.</FriendlyRaidBesiege>
 
-  
+  <LetterLabelRefugeePodCrash>Capsula de escape</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>Has detectado una cápsula de escape estrellándose cerca de la base\n\nSi alguien ha sobrevivido al impacto estará gravemente herido.</RefugeePodCrash>
 
+    <LetterLabelCargoPodCrash>Capsulas de carga</LetterLabelCargoPodCrash>
   <CargoPodCrash>Has detectado un grupo de cápsulas de carga estrellándose cerca de la base.\n\nQuizás hallen algo de utilidad entre los restos.</CargoPodCrash>
-  <AnElectricalConduit>un circuito eléctrico</AnElectricalConduit>
+  <AnElectricalConduit>Circuito eléctrico</AnElectricalConduit>
   <AWallsPowerConduit>un circuito eléctrico de un muro</AWallsPowerConduit>
-  
-  <ShortCircuit>Un fallo en {0} ha causado un cortocircuito.\n\nUn total de {1} Wd de energía en las baterías conectadas a la red eléctrica ha sido descargado debido a una explosión.</ShortCircuit>
+ 
+    <ShortCircuit>Un fallo en {0} ha causado un cortocircuito.\n\nUn total de {1} Wd de energía en las baterías conectadas a la red eléctrica ha sido descargado debido a una explosión.</ShortCircuit>
   <ShortCircuitWasLarge>La gran cantidad de energía ha causado una explosión considerable.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>Que explosión tan fenomenal.</ShortCircuitWasHuge>
 
@@ -51,16 +59,19 @@
   <SingleTravelerPassing>Un {0} de {1} está de paso por la zona. HECAP se llama {2}.</SingleTravelerPassing>
   <GroupTravelersPassing>Un grupo de viajeros de {0} están de paso por la zona.</GroupTravelersPassing>
 
+  <LetterLabelSingleVisitorArrives>Visitante</LetterLabelSingleVisitorArrives>
   <SingleVisitorArrives>Un {0} de {1} está visitando la colonia.\n\nHECAP se llama {2}.</SingleVisitorArrives>
+  <LetterLabelGroupVisitorsArrive>Visitantes</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>Un grupo de {0} está visitando la colonia.</GroupVisitorsArrive>
   <VisitorsLeaving>Los visitantes de {0} se están marchando.</VisitorsLeaving>
 
+  <LetterLabelWandererJoin>Nomada se une</LetterLabelWandererJoin>
   <WandererJoin>Un {0} llamado NAME acaba de llegar y ha decidido unirse a la colonia. HECAP es un {1}.</WandererJoin>
     
   
 
   <!-- Crashed ship part-->
-
+  <LetterLabelSpaceshipPartCrash>Nave maldita</LetterLabelSpaceshipPartCrash>
   <SpaceshipPartCrash>Un pedazo importante de una antigua nave se ha estrellado en las cercanías.\n\nTus colonos pueden sentirlo por la perturbación en lo más profundo de sus mentes. La nave debe albergar alguna IA con capacidades de proyección psíquica. Y no es amistosa.\n\nDestrúyela tan pronto como sea posible.</SpaceshipPartCrash>
   <MessageAnimalInsanityPulse>La antigua estructura ha emitido un pulso psíquico que ha hecho enloquecer a los animales cercanos.</MessageAnimalInsanityPulse>
   <LetterShipPartDroveColonistInsane>La nave estrellada ha emitido un pulso psíquico concentrado que ha hecho enloquecer al colono {0}.</LetterShipPartDroveColonistInsane>
@@ -70,17 +81,19 @@
   <PsychicDroneLevelMedium>Medio</PsychicDroneLevelMedium>
   <PsychicDroneLevelHigh>Alto</PsychicDroneLevelHigh>
   <PsychicDroneLevelExtreme>Extremo</PsychicDroneLevelExtreme>
- 
+ <LetterLabelPsychicDroneLevelIncreased>Zumbido intensificado</LetterLabelPsychicDroneLevelIncreased>
  <LetterPsychicDroneLevelIncreased>La nave estrellada está emanando un ataque psíquico más potente. Todo humanoide en el área empieza a sentirse pertubado, aterrorizado y paranoico.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
+  ç<LetterLabelAgentRevealed>Agente</LetterLabelAgentRevealed>
   <LetterAgentRevealed>{0} ha sido descubierto como un agente del enemigo {1}.\n\nIntenta escapar.</LetterAgentRevealed>
   
   <!-- Distant psychic drone -->
+  <LetterLabelPsychicDrone>Zumbido psíquico</LetterLabelPsychicDrone>
   <LetterIncidentPsychicDrone>¡Un fuerte dolor de cabeza atraviesa los cráneos de los colonos como un cuchillo!\n\nAlguna entidad emanadora de odio está activada en algún lugar. Está proyectando un poderoso ataque psíquico sobre la región. El humor general será peor durante algunos días.</LetterIncidentPsychicDrone>
   
-  
-  
+  <!-- Beavers -->
+ <LetterLabelBeaversArrived>¡Castores!</LetterLabelBeaversArrived>
  <BeaversArrived>Un grupo de castores alfa acaban de llegar a tu region.\n\nIntenta cazarlos antes que se coman todos los árboles de la región.</BeaversArrived> 
   
   
