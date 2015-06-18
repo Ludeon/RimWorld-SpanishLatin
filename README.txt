@@ -3,7 +3,9 @@ Latin-American-Spanish-translation-of-Rimworld
 ===============================
 
 
-This is the Latin American Spanish translation of Rimworld.
+This is the Latin American Spanish translation of Rimworld 10f.
+
+Project currently paused due to conflicting schedule. Pledging to translate future versions. Sorry for the inconvenient.
 
 
 
