@@ -3,37 +3,41 @@
 
   <!-- ITab titles -->
   <TabBills>Proyectos</TabBills>
-  <TabGrowing>Cultivos</TabGrowing>
-  <TabCharacter>Personaje</TabCharacter>
+  <TabGrowing>Cultivo</TabGrowing>
+  <TabCharacter>Persona</TabCharacter>
+  <TabTraining>Adiestrar</TabTraining>
   <TabPrisoner>Prisionero</TabPrisoner>
   <TabGuest>Invitado</TabGuest>
   <TabGear>Equipo</TabGear>
-  <TabThoughts>Ideas</TabThoughts>
-  <TabStorage>Almacén</TabStorage>
+  <TabNeeds>Humor</TabNeeds>
+  <TabStorage>Opciones</TabStorage>
   <TabHealth>Salud</TabHealth>
-  <TabRace>Raza</TabRace>
-  <TabBasics>Basico</TabBasics>
-  <TabStats>Estadisticas</TabStats>
+  <TabRace>Especie</TabRace>
+  <TabBasics>Básicos</TabBasics>
+  <TabStats>Atributos</TabStats>
+  <TabRecords>Registros</TabRecords>  
   <TabArt>Arte</TabArt>
-  
+  <TabSocial>Social</TabSocial>  
+
   
   <!-- Bills tab  -->
   <AddBill>Añadir proyecto</AddBill>
-  <RecipeRequiresSkills>Para hacer {0} se requieren estas habilidades. Ninguno de tus colonos tiene estas habilidades, asi que nadie trabajara en este proyecto.</RecipeRequiresSkills>
-  <BillConfig>Configuración</BillConfig>
+  <RecipeRequiresSkills>La receta de {0} requiere las habilidades mostradas debajo. Ninguno de tus colonos las tiene, así que nadie trabajará en este proyecto.</RecipeRequiresSkills>
+  <MinimumSkill>Habilidad mínima</MinimumSkill>
   <SuspendedCaps>SUSPENDIDO</SuspendedCaps>
-  <PlantVerb>Plantar</PlantVerb>
+  <BoundWorkerIs>Trabajador: {0}</BoundWorkerIs>
+  <PlantVerb>Sembrar</PlantVerb>
 
-  
 
-  <!-- Prisoner tab -->
-  <RecruitmentDifficulty>Dificultad de reclutamiento </RecruitmentDifficulty>
-  <GetsFood>Recibe comida</GetsFood>
-  <DoctorsCare>Recibe cuidados médicos</DoctorsCare>
+  <!-- Guest/prisoner tab -->
+  <RecruitmentDifficulty>Dificultad de reclutamiento</RecruitmentDifficulty>
+  <GetsFood>Es alimentado(a)</GetsFood>
+  <DoctorsCare>Cuidados médicos</DoctorsCare>
   <GetsMedicine>Recibe medicina</GetsMedicine>
-  <ShouldTryToRecruit>Intentar reclutar</ShouldTryToRecruit>
-  <PrisonerNoInteraction>Sin interacción</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>Charlas amigables</PrisonerFriendlyChat>
+  <ShouldTryToRecruit>Reclutar</ShouldTryToRecruit>
+  <PrisonerNoInteraction>No interactuar</PrisonerNoInteraction>
+  <PrisonerFriendlyChat>Charla amistosa</PrisonerFriendlyChat>
+  <PrisonerAttemptRecruit>Charlar y reclutar</PrisonerAttemptRecruit>
   <PrisonerRelease>Liberar</PrisonerRelease>
   <PrisonerExecution>Ejecutar</PrisonerExecution>
 
@@ -41,53 +45,67 @@
   <!-- Medical - general -->
   <MoveSpeed>Velocidad de movimiento</MoveSpeed>
   <Efficiency>Eficiencia</Efficiency>
-  <MissingBodyPart>Ausente</MissingBodyPart>
-  <DestroyedBodyPart>Destrozado</DestroyedBodyPart>
-  <ShatteredBodyPart>Fracturado</ShatteredBodyPart>
-  <RemovedBodyPart>Amputado</RemovedBodyPart>
-  <Healthy>Sano</Healthy>
-  <InPain>Dolorido</InPain>
+  <MissingBodyPart>Perdida</MissingBodyPart>
+  <DestroyedBodyPart>Destruida</DestroyedBodyPart>
+  <ShatteredBodyPart>Destrozada</ShatteredBodyPart>
+  <RemovedBodyPart>Amputada</RemovedBodyPart>
+  <Healthy>Saludable</Healthy>
+  <InPain>Adolorido(a)</InPain>
   <PainLevel>Dolor</PainLevel>
-  <Dead>Muerto</Dead>
+  <Dead>Muerto(a)</Dead>
   <Unconscious>Inconsciente</Unconscious>
-  <PainShock>En estado de shock</PainShock>
-  <Injured>Herido</Injured>
-  <NoInjuries>(sin lesiones)</NoInjuries>
-  <WholeBody>Cuerpo</WholeBody>
-  <DataProcessing>Computación</DataProcessing>
+  <PainShock>Estado de shock</PainShock>
+  <Injured>Herido(a)</Injured>
+  <NoInjuries>(sin heridas)</NoInjuries>
+  <WholeBody>Cuerpo completo</WholeBody>
+  <DataProcessing>Procesando datos</DataProcessing>
   <Communication>Comunicación</Communication>
-  <AffectsLower>afecta a</AffectsLower>
-  <BleedingRate>Indice de sangrado</BleedingRate>
-  <HealthOverview>Resumen</HealthOverview>
+  <AffectsLower>Afecta</AffectsLower>
+  <BleedingRate>Tasa de sangrado</BleedingRate>
+  <HealthOverview>Reporte</HealthOverview>
   <MedicalOperationsShort>Operaciones ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Modificaciones ({0})</MedicalOperationsMechanoidsShort>
   <MedicalOperations>Operaciones médicas</MedicalOperations>
   <Amputate>Amputar</Amputate>
-  <Harvest>Extraer</Harvest>
+  <Harvest>Cosechar</Harvest>
+  <MemoryLower>memoria</MemoryLower>
+  <SocialInteractionsLower>interacciones sociales</SocialInteractionsLower>
+  <HungerRate>Tasa de hambre</HungerRate>
+  <Tiredness>Cansancio</Tiredness>  
   
   
-
   <!-- Medical - Body and activities condition -->
-  <None>Ninguno</None>
-  <VeryPoor>Muy mala</VeryPoor>
-  <Poor>Mala</Poor>
-  <Weakened>Debilitada</Weakened>
-  <GoodCondition>Bien</GoodCondition>
-  <Enhanced>Aumentado</Enhanced>
-  <SeriouslyImpaired>Seriamente dañado</SeriouslyImpaired>
-  <Impaired>Dañado</Impaired>
-  <SlightlyImpaired>Ligeramente dañado</SlightlyImpaired>
+  <None>Ninguno(a)</None>
+  <VeryPoor>Escaso(a)</VeryPoor>
+  <Poor>Poco(a)</Poor>
+  <Weakened>Débil</Weakened>
+  <GoodCondition>OK</GoodCondition>
+  <Enhanced>Mejorado(a)</Enhanced>
+  <SeriouslyImpaired>Dañado(a) seriamente</SeriouslyImpaired>
+  <Impaired>Dañado(a)</Impaired>
+  <SlightlyImpaired>Ligeramente dañado(a)</SlightlyImpaired>
   <NoPain>Ninguno</NoPain>
-  <LittlePain>Leve</LittlePain>
-  <MediumPain>Moderado</MediumPain>
-  <SeverePain>Serio</SeverePain>
+  <LittlePain>Poco</LittlePain>
+  <MediumPain>Medio</MediumPain>
+  <SeverePain>Severo</SeverePain>
   <ExtremePain>Extremo</ExtremePain>
 
 
+  <!-- Training tab-->
+  <TrainableIntelligence>Inteligencia entrenable</TrainableIntelligence>
+  <CannotTrainNotSmartEnough>Requiere inteligencia entrenable del {0}.</CannotTrainNotSmartEnough>
+  <CannotTrainTooSmall>{0} es demasiado pequeño(a) como para ser entrenado en ésto.</CannotTrainTooSmall>
 
+  <TrainingNeedsPrerequisite>Requisito necesario: {0}</TrainingNeedsPrerequisite>
 
-
-
-
+  <!-- Social tab -->
+  <NoRelationships>(sin relaciones)</NoRelationships>
+  <Kidnapped>Secuestrado</Kidnapped>
+  <Slave>Esclavo</Slave>
+  <FactionLeader>Líder de facción</FactionLeader>
+  <OpinionOf>Mi opinión de {0}</OpinionOf>
+  <SomeonesOpinionOfMe>La opinión de {0} de mi</SomeonesOpinionOfMe>
+  <IAmDead>Estoy muerto</IAmDead>
+  <IAmPsychopath>Soy un psicópata</IAmPsychopath>
 
 </LanguageData>
