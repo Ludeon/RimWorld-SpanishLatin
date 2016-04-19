@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-    <MaxHealth.label>Salud máxima</MaxHealth.label>
-    <MaxHealth.description>La salud o puntos de vida máximos de un objeto.</MaxHealth.description>
+    <MaxHitPoints.label>Salud máxima</MaxHitPoints.label>
+    <MaxHitPoints.description>La salud o puntos de daño máximos de un objeto.</MaxHitPoints.description>
     
+	<MarketValue.label>Valor de mercado</MarketValue.label>
+	<MarketValue.description>El valor de mercado de un objeto. El precio real de mercado será modificado por la habilidad de negociación y el estado de las relaciones.</MarketValue.description>
+
+	<SellPriceFactor.label>Multiplicador de precio de venta</SellPriceFactor.label>
+	<SellPriceFactor.description>Un multiplicador del precio al que puedes vender un objeto.</SellPriceFactor.description>
+	
     <Flammability.label>Inflamabilidad</Flammability.label>
-    <Flammability.description>La facilidad con la que un objeto empieza a arder y con que tan fuerte arde.</Flammability.description>
+    <Flammability.description>La facilidad con la que un objeto empieza a arder y con cuanta fuerza arde.</Flammability.description>
     
     <WorkToMake.label>Cantidad de trabajo</WorkToMake.label>
-    <WorkToMake.description>La cantidad base del trabajo que cuesta elaborar esto una vez que han sido reunidos todos los materiales necesarios.</WorkToMake.description>
+    <WorkToMake.description>La cantidad base de trabajo que cuesta elaborar esto una vez que han sido reunidos todos los materiales y herramientas.</WorkToMake.description>
     
-		<DeteriorationRate.label>Velocidad de deterioro</DeteriorationRate.label>
-	<DeteriorationRate.description>La velocidad a la que este objeto se deteriora cuando se encuentra expuesto a la intemperie.</DeteriorationRate.description>
+	<DeteriorationRate.label>Velocidad de deterioro</DeteriorationRate.label>
+	<DeteriorationRate.description>La velocidad a la que este objeto se deteriora cuando se encuentra expuesto al exterior, especialmente mientras llueve.</DeteriorationRate.description>
 	
 	<Beauty.label>Belleza</Beauty.label>
     <Beauty.description>La cantidad de disfrute que proporciona un objeto a las personas que lo observan o que se encuentran cerca de él.</Beauty.description>
-    
+	
+	<Cleanliness.label>Limpieza</Cleanliness.label>
+	<Cleanliness.description>Qué tan limpio está un objeto.</Cleanliness.description>
+		
+	<Comfort.label>Confort</Comfort.label>
+	<Comfort.description>La cantidad de comodidad que proporciona un objeto al recostarse o sentarse en él.</Comfort.description>
+
     
 </LanguageData>
