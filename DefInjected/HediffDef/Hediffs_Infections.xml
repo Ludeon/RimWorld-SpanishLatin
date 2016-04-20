@@ -1,131 +1,153 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    
-    <WoundInfection.label>infección</WoundInfection.label>
+
+    <GutWorms.label>gusanos intestinales</GutWorms.label>
 	
+    <MuscleParasites.label>parásitos musculares</MuscleParasites.label>
+
+    <FibrousMechanites.label>mecanitas fibrosos</FibrousMechanites.label>
 	<rep>
-	<path>WoundInfection.stagedProps.severityStages[0].label</path>
-	<trans>leve</trans>
+		<path>FibrousMechanites.stages[0].label</path>
+		<trans>dolor leve</trans>
 	</rep>
 	<rep>
-		<path>WoundInfection.stagedProps.severityStages[1].label</path>
+		<path>FibrousMechanites.stages[1].label</path>
+		<trans>dolor intenso</trans>
+	</rep>
+	
+    <SensoryMechanites.label>mecanitas sensoriales</SensoryMechanites.label>	
+	<rep>
+		<path>SensoryMechanites.stages[0].label</path>
+		<trans>dolor leve</trans>
+	</rep>
+	<rep>
+		<path>SensoryMechanites.stages[1].label</path>
+		<trans>dolor intenso</trans>
+	</rep>
+
+    
+    <WoundInfection.label>infección</WoundInfection.label>
+	<rep>
+		<path>WoundInfection.stages[0].label</path>
+		<trans>leve</trans>
+	</rep>
+	<rep>
+		<path>WoundInfection.stages[1].label</path>
 		<trans>moderada</trans>
 	</rep>
 	<rep>
-		<path>WoundInfection.stagedProps.severityStages[2].label</path>
+		<path>WoundInfection.stages[2].label</path>
 		<trans>grave</trans>
 	</rep>
 	<rep>
-		<path>WoundInfection.stagedProps.severityStages[3].label</path>
+		<path>WoundInfection.stages[3].label</path>
 		<trans>severa</trans>
 	</rep>
 	<rep>
-		<path>WoundInfection.stagedProps.severityStages[4].label</path>
+		<path>WoundInfection.stages[4].label</path>
 		<trans>extrema</trans>
 	</rep>
     
     <Flu.label>gripe</Flu.label>
-	
 	<rep>
-	<path>Flu.stagedProps.severityStages[0].label</path>
-	<trans>leve</trans>
+		<path>Flu.stages[0].label</path>
+		<trans>fase inicial</trans>
 	</rep>
 	<rep>
-		<path>Flu.stagedProps.severityStages[1].label</path>
+		<path>Flu.stages[1].label</path>
+		<trans>ligera</trans>
+	</rep>
+	<rep>
+		<path>Flu.stages[2].label</path>
 		<trans>moderada</trans>
 	</rep>
 	<rep>
-		<path>Flu.stagedProps.severityStages[2].label</path>
+		<path>Flu.stages[3].label</path>
 		<trans>grave</trans>
 	</rep>
 	<rep>
-		<path>Flu.stagedProps.severityStages[3].label</path>
-		<trans>severa</trans>
-	</rep>
-	<rep>
-		<path>Flu.stagedProps.severityStages[4].label</path>
+		<path>Flu.stages[4].label</path>
 		<trans>extrema</trans>
 	</rep>
     
 	
     <Plague.label>peste</Plague.label>
-	
 	<rep>
-	<path>Plague.stagedProps.severityStages[0].label</path>
-	<trans>leve</trans>
+		<path>Plague.stages[0].label</path>
+		<trans>fase inicial</trans>
 	</rep>
 	<rep>
-		<path>Plague.stagedProps.severityStages[1].label</path>
+		<path>Plague.stages[1].label</path>
+		<trans>ligera</trans>
+	</rep>
+	<rep>
+		<path>Plague.stages[2].label</path>
 		<trans>moderada</trans>
 	</rep>
 	<rep>
-		<path>Plague.stagedProps.severityStages[2].label</path>
+		<path>Plague.stages[3].label</path>
 		<trans>grave</trans>
 	</rep>
 	<rep>
-		<path>Plague.stagedProps.severityStages[3].label</path>
+		<path>Plague.stages[4].label</path>
 		<trans>severa</trans>
 	</rep>
 	<rep>
-		<path>Plague.stagedProps.severityStages[4].label</path>
-		<trans>extrema</trans>
-	</rep>
-	<rep>
-		<path>Plague.stagedProps.severityStages[5].label</path>
+		<path>Plague.stages[5].label</path>
 		<trans>extrema</trans>
 	</rep>
     
     <Malaria.label>malaria</Malaria.label>
-	
 	<rep>
-	<path>Malaria.stagedProps.severityStages[0].label</path>
-	<trans>leve</trans>
+		<path>Malaria.stages[0].label</path>
+		<trans>fase inicial</trans>
 	</rep>
 	<rep>
-		<path>Malaria.stagedProps.severityStages[1].label</path>
+		<path>Malaria.stages[1].label</path>
+		<trans>ligera</trans>
+	</rep>
+	<rep>
+		<path>Malaria.stages[2].label</path>
 		<trans>moderada</trans>
 	</rep>
 	<rep>
-		<path>Malaria.stagedProps.severityStages[2].label</path>
+		<path>Malaria.stages[3].label</path>
 		<trans>grave</trans>
 	</rep>
 	<rep>
-		<path>Malaria.stagedProps.severityStages[3].label</path>
-		<trans>severa</trans>
-	</rep>
-	<rep>
-		<path>Malaria.stagedProps.severityStages[4].label</path>
+		<path>Malaria.stages[4].label</path>
 		<trans>extrema</trans>
 	</rep>
 	
     
     <SleepingSickness.label>enfermedad del sueño</SleepingSickness.label>
-    <rep>
-	<path>SleepingSickness.stagedProps.severityStages[0].label</path>
-	<trans>leve</trans>
+	<rep>
+		<path>SleepingSickness.stages[0].label</path>
+		<trans>fase inicial</trans>
 	</rep>
 	<rep>
-		<path>SleepingSickness.stagedProps.severityStages[1].label</path>
+		<path>SleepingSickness.stages[1].label</path>
+		<trans>ligera</trans>
+	</rep>
+	<rep>
+		<path>SleepingSickness.stages[2].label</path>
 		<trans>moderada</trans>
 	</rep>
 	<rep>
-		<path>SleepingSickness.stagedProps.severityStages[2].label</path>
+		<path>SleepingSickness.stages[3].label</path>
 		<trans>grave</trans>
 	</rep>
 	<rep>
-		<path>SleepingSickness.stagedProps.severityStages[3].label</path>
-		<trans>severa</trans>
+		<path>SleepingSickness.stages[4].label</path>
+		<trans>muy grave</trans>
 	</rep>
 	<rep>
-		<path>SleepingSickness.stagedProps.severityStages[4].label</path>
+		<path>SleepingSickness.stages[5].label</path>
 		<trans>extrema</trans>
 	</rep>
 	<rep>
-		<path>SleepingSickness.stagedProps.severityStages[5].label</path>
-		<trans>extrema</trans>
+		<path>SleepingSickness.stages[6].label</path>
+		<trans>terminal</trans>
 	</rep>
-	<rep>
-		<path>SleepingSickness.stagedProps.severityStages[6].label</path>
-		<trans>extrema</trans>
-	</rep>
+	
 </LanguageData>

@@ -1,44 +1,41 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Audiovisuals -->
-  <Audiovisuals>Audiovisuales</Audiovisuals>
+  <Audiovisuals>Audio/Video</Audiovisuals>
   <GameVolume>Volumen del juego</GameVolume>
   <MusicVolume>Volumen de la música</MusicVolume>
-  <GraphicsQuality>Calidad gráfica</GraphicsQuality>
-  <GraphicsQualityNormal>Normal</GraphicsQualityNormal>
-  <GraphicsQualityGreat>Magnífica</GraphicsQualityGreat>
+  <Antialiasing>Anti-alias</Antialiasing>
 
-  
   <!-- Gameplay -->
-  <EdgeScreenScroll>Despl. de la pantalla con ratón</EdgeScreenScroll>
+  <EdgeScreenScroll>Desplazar pantalla con el ratón</EdgeScreenScroll>
   <PauseOnLoad>Pausar al cargar</PauseOnLoad>
   <CustomCursor>Cursor personalizado</CustomCursor>
-  <KeyboardConfig>Configuración de teclado</KeyboardConfig>
+  <KeyboardConfig>Configuración del teclado</KeyboardConfig>
   <ChooseLanguage>Escoger idioma</ChooseLanguage>
-  <AdaptiveTutor>Tutoriales</AdaptiveTutor>
-  <ResetAdaptiveTutor>Reiniciar los tutoriales</ResetAdaptiveTutor>
-  <AdaptiveTutorIsReset>Los tutoriales han sido reiniciados.</AdaptiveTutorIsReset>
-  <RunInBackground>Ejecutar en segundo plano</RunInBackground>
-  <DevelopmentMode>Modo de desarrollador</DevelopmentMode>
-  <LogVerbose>Log de programación</LogVerbose>
-  <OpenSaveGameDataFolder>Carpeta de partidas guardadas</OpenSaveGameDataFolder>
-  <NamesYouWantToSee>Apellidos del "Nombre en el Juego" o del "Trasfondo en el Juego" que quieres ver:</NamesYouWantToSee>
-  <ChangeStoryteller>Escoge narrador</ChangeStoryteller>
-  <AutosaveInterval>Intervalo de autoguardado</AutosaveInterval>
+  <AdaptiveTutor>Tutor adaptativo</AdaptiveTutor>
+  <ResetAdaptiveTutor>Reiniciar tutor adaptativo</ResetAdaptiveTutor>
+  <AdaptiveTutorIsReset>El tutor adaptativo se ha reiniciado. Ahora te enseñará todo desde el inicio.</AdaptiveTutorIsReset>
+  <RunInBackground>Correr en segundo plano</RunInBackground>
+  <DevelopmentMode>Modo de Desarrollo</DevelopmentMode>
+  <ResetModsConfigOnCrash>Reiniciar automáticamente la configuración de los mods al fallar el programa.</ResetModsConfigOnCrash>
+  <LogVerbose>Registro elocuente</LogVerbose>
+  <OpenSaveGameDataFolder>Abrir carpeta de juegos guardados</OpenSaveGameDataFolder>
+  <NamesYouWantToSee>Apellidos de los "Nombres en el juego" o los "Trasfondos en el juego" que deseas ver:</NamesYouWantToSee>
+  <ChangeStoryteller>Escoger IA cuentacuentos</ChangeStoryteller>
+  <AutosaveInterval>Autoguardado</AutosaveInterval>
+  <TemperatureMode>Temperatura</TemperatureMode>
+  <ShowRealtimeClock>Reloj de tiempo real</ShowRealtimeClock>
+  <MaxPermadeathAutosaveIntervalInfo>El máximo intervalo de autoguardado en el modo perma-muerte es de {0} días.</MaxPermadeathAutosaveIntervalInfo>  
 
   <!-- Resolution -->
   <Resolution>Resolución</Resolution>
   <Fullscreen>Pantalla completa</Fullscreen>
-  <CurrentRes>Actualmente {0}</CurrentRes>
-  <ChooseResolution>Escoge resolución</ChooseResolution>
-  
-  
-    <!-- Privacy-->
+
+  <!-- Privacy-->
   <Privacy>Privacidad</Privacy>
-  <UserName>Usuario</UserName>
-  <ChooseHistoryUploadPref>Pref. de subida de partida</ChooseHistoryUploadPref>
-  <CurrentHistoryUploadPref>Actualmente {0}</CurrentHistoryUploadPref> 
-  <AboutHistoryUpload>Los datos de juego de los usuarios ayudan a los desarrolladores a equilibrar el juego. Si estás de acuerdo, tu información será enviada cada {0} días de juego (y en algunas ocasiones excepcionales, como el final de una partida) al servidor de Rimworld para ser analizada. La información cargada consistirá exclusivamente en estadísticas y grabaciones históricas relacionadas con el juego. No se enviará información personal de ningún tipo a excepción del nombre de usuario, lo que significa que el proceso será completamente anónimo.</AboutHistoryUpload>
-    
+  <UserName>Nombre de usuario</UserName>
+  <ChooseHistoryUploadPref>Preferencia para el envío de datos de jugabilidad</ChooseHistoryUploadPref>
+  <AboutHistoryUpload>Los datos de jugabilidad de los usuarios ayudan a los desarrolladores a balancear el juego. Si aceptas, tu información será enviada cada {0} días de juego (así como en otros casos, como al finalizar una partida) al servidor de Rimworld para ser analizados. Los datos de jugabilidad enviados consisten solamente de estadísticas y archivos históricos relacionados con el juego - ninguna información personal es enviada excepto el nombre de usuario, lo que significa que es completamente anónimo.</AboutHistoryUpload>
+  
 </LanguageData>

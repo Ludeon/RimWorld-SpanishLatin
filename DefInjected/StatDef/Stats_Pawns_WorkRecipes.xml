@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
+  <!-- Artistic recipes - speed not affected by skill. -->
+
+	<SculptingSpeed.label>Velocidad de esculpido</SculptingSpeed.label>
+	<SculptingSpeed.description>La velocidad a la que esta persona crea esculturas.</SculptingSpeed.description>
+
+    <TailoringSpeed.label>Velocidad de sastrería</TailoringSpeed.label>
+    <TailoringSpeed.description>Velocidad a la que esta persona elabora ropa.</TailoringSpeed.description>
     
-    <CookSpeed.label>Velocidad de cocina</CookSpeed.label>
+    <SmithingSpeed.label>Velocidad de forja</SmithingSpeed.label>
+    <SmithingSpeed.description>Velocidad a la que esta persona forja armas y herramientas.</SmithingSpeed.description>
+	
+  <!-- Production recipes - speed affected by skill. -->	
+	
+    <CookSpeed.label>Velocidad de cocinado</CookSpeed.label>
     <CookSpeed.description>Velocidad a la que esta persona prepara comidas.</CookSpeed.description>
 	
 	<FoodPoisonChance.label>Probabilidad de intoxicar comida</FoodPoisonChance.label>
@@ -10,29 +23,23 @@
 	<BrewingSpeed.label>Velocidad de elaboración de cerveza</BrewingSpeed.label>
 	<BrewingSpeed.description>La velocidad a la que esta persona elabora cerveza.</BrewingSpeed.description>
     
-    <ButcheryFleshSpeed.label>Velocidad de descuartizamiento</ButcheryFleshSpeed.label>
-    <ButcheryFleshSpeed.description>Velocidad a la que esta persona descuartiza criaturas.</ButcheryFleshSpeed.description>
+    <ButcheryFleshSpeed.label>Velocidad de despieze</ButcheryFleshSpeed.label>
+    <ButcheryFleshSpeed.description>Velocidad a la que esta persona despieza animales.</ButcheryFleshSpeed.description>
     
-    <ButcheryFleshEfficiency.label>Eficiencia del descuartizamiento</ButcheryFleshEfficiency.label>
-    <ButcheryFleshEfficiency.description>Multiplicador aplicado a la cantidad de carne producida al descuartizar criaturas.</ButcheryFleshEfficiency.description>
+    <ButcheryFleshEfficiency.label>Eficiencia del despieze</ButcheryFleshEfficiency.label>
+    <ButcheryFleshEfficiency.description>Multiplicador aplicado a la cantidad de carne producida al despiezar criaturas.</ButcheryFleshEfficiency.description>
     
-    <ButcheryMechanoidSpeed.label>Velocidad de desmontaje de mecanoide</ButcheryMechanoidSpeed.label>
-    <ButcheryMechanoidSpeed.description>Velocidad a la que esta persona puede desensamblar un mechanoide.</ButcheryMechanoidSpeed.description>
+    <ButcheryMechanoidSpeed.label>Velocidad de desmontaje</ButcheryMechanoidSpeed.label>
+    <ButcheryMechanoidSpeed.description>Velocidad a la que esta persona puede desensamblar un mecanoide.</ButcheryMechanoidSpeed.description>
     
-    <ButcheryMechanoidEfficiency.label>Eficiencia de desmontaje de mecanoide</ButcheryMechanoidEfficiency.label>
+    <ButcheryMechanoidEfficiency.label>Eficiencia de desmontaje</ButcheryMechanoidEfficiency.label>
     <ButcheryMechanoidEfficiency.description>Multiplicador aplicado a la cantidad de materiales obtenidos cuando esta persona desensambla un mecanoide.</ButcheryMechanoidEfficiency.description>
     
     <StonecuttingSpeed.label>Velocidad de corte de rocas</StonecuttingSpeed.label>
-    <StonecuttingSpeed.description>Velocidad a la que esta persona produce bloques de piedra a partir de trozos de roca.</StonecuttingSpeed.description>
-    
-    <TailoringSpeed.label>Velocidad de sastrería</TailoringSpeed.label>
-    <TailoringSpeed.description>Velocidad a la que esta persona elabora ropa.</TailoringSpeed.description>
-    
-    <SmithingSpeed.label>Velocidad de forja</SmithingSpeed.label>
-    <SmithingSpeed.description>Velocidad a la que esta persona forja armas y herramientas.</SmithingSpeed.description>
+    <StonecuttingSpeed.description>Velocidad a la que esta persona produce bloques de piedra a partir de roca bruta.</StonecuttingSpeed.description>
     
     <SmeltingSpeed.label>Velocidad de fundición</SmeltingSpeed.label>
-    <SmeltingSpeed.description>Velocidad a la que esta persona funde cosas.</SmeltingSpeed.description>
-	
+    <SmeltingSpeed.description>Velocidad a la que esta persona funde objetos.</SmeltingSpeed.description>
+		
     
 </LanguageData>

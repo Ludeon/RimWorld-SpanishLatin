@@ -2,71 +2,107 @@
 <LanguageData>
 
   <!-- glow -->
-  <Dark>Oscuro</Dark>
-  <Lit>Iluminado</Lit>
-  <LitBrightly>Muy iluminado</LitBrightly>
-  
-  <!-- food quality -->
-  <NoneQuality>Ninguno</NoneQuality>
-  <PlantQuality>Planta</PlantQuality>
-  <RawQuality>Cruda</RawQuality>
-  <MealAwfulQuality>Horrible</MealAwfulQuality>
-  <MealSimpleQuality>Simple</MealSimpleQuality>
-  <MealFineQuality>Bueno</MealFineQuality>
-  <MealLavishLavish>Espléndido</MealLavishLavish>
-  
-  <!-- diet type -->
-  <NeverEats>No se alimenta</NeverEats>
-  <Omnivorous>Omnívoro</Omnivorous>
-  <Herbivorous>Herbívoro</Herbivorous>
-  <Carnivorous>Carnívoro</Carnivorous>
-  <Dendrovorous>Dendróvoro</Dendrovorous>
+  <Dark>Oscuridad</Dark>
+  <Lit>Iluminación</Lit>
+  <LitBrightly>Iluminación intensa</LitBrightly>
   
   <!-- history upload pref -->
-  <Unspecified>Indeciso</Unspecified>
-  <Always>Permite</Always>
-  <Never>No permite</Never>
+  <Unspecified>Sin decidir</Unspecified>
+  <Always>Permitida</Always>
+  <Never>No permitida</Never>
   
   <!-- Price types -->
-  <PriceTypeVeryCheap>muy barato</PriceTypeVeryCheap>
+  <PriceTypeVeryCheap>baratísimo</PriceTypeVeryCheap>
   <PriceTypeCheap>barato</PriceTypeCheap>
-  <PriceTypeNormal>normal</PriceTypeNormal>
+  <PriceTypeNormal>regular</PriceTypeNormal>
   <PriceTypeExpensive>caro</PriceTypeExpensive>
   <PriceTypeExorbitant>exorbitante</PriceTypeExorbitant>
 
+  <!-- Food type flags -->
+  <FoodTypeFlags_VegetableOrFruit>vegetaled</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_Meat>carne cruda</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Corpse>cadáveres</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Seeds>semillas</FoodTypeFlags_Seeds>
+  <FoodTypeFlags_AnimalProduct>productos animales</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Plant>plantas vivas</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Tree>árboles vivos</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Meal>comida cocinada</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>alimentos procesados</FoodTypeFlags_Processed>
+  <FoodTypeFlags_NutritionalDrug>licor</FoodTypeFlags_NutritionalDrug>
+  <FoodTypeFlags_AnimalKibble>croquetas</FoodTypeFlags_AnimalKibble>  
+  
   <!-- Quality category -->
-  <QualityCategory_Awful>horrible</QualityCategory_Awful>
-  <QualityCategory_Shoddy>mala</QualityCategory_Shoddy>
-  <QualityCategory_Poor>mediocre</QualityCategory_Poor>
-  <QualityCategory_Normal>normal</QualityCategory_Normal>
-  <QualityCategory_Good>buena</QualityCategory_Good>
-  <QualityCategory_Superior>superior</QualityCategory_Superior>
-  <QualityCategory_Excellent>excelente</QualityCategory_Excellent>
-  <QualityCategory_Masterwork>obra maestra</QualityCategory_Masterwork>
-  <QualityCategory_Legendary>legendaria</QualityCategory_Legendary>
+  <QualityCategory_Awful>Horrible</QualityCategory_Awful>
+  <QualityCategory_Shoddy>Malhecha</QualityCategory_Shoddy>
+  <QualityCategory_Poor>Mediocre</QualityCategory_Poor>
+  <QualityCategory_Normal>Normal</QualityCategory_Normal>
+  <QualityCategory_Good>Buena</QualityCategory_Good>
+  <QualityCategory_Superior>Superior</QualityCategory_Superior>
+  <QualityCategory_Excellent>Excelente</QualityCategory_Excellent>
+  <QualityCategory_Masterwork>Magistral</QualityCategory_Masterwork>
+  <QualityCategory_Legendary>Legendaria</QualityCategory_Legendary>
 
-<QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>mala</QualityCategoryShort_Shoddy>
-  <QualityCategoryShort_Poor>medi</QualityCategoryShort_Poor>
-  <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
-  <QualityCategoryShort_Good>buen</QualityCategoryShort_Good>
-  <QualityCategoryShort_Superior>super</QualityCategoryShort_Superior>
-  <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
-  <QualityCategoryShort_Masterwork>mast</QualityCategoryShort_Masterwork>
-  <QualityCategoryShort_Legendary>legd</QualityCategoryShort_Legendary>
+  <QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Shoddy>malh</QualityCategoryShort_Shoddy>
+  <QualityCategoryShort_Poor>mdio</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Normal>nrml</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Good>bien</QualityCategoryShort_Good>
+  <QualityCategoryShort_Superior>supe</QualityCategoryShort_Superior>
+  <QualityCategoryShort_Excellent>exlt</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Masterwork>mgst</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Legendary>lgnd</QualityCategoryShort_Legendary>
   
   
   <!-- Hunger -->
-  <HungerLevel_Starving>Desnutrido</HungerLevel_Starving>
-  <HungerLevel_UrgentlyHungry>Urgentemente hambriento</HungerLevel_UrgentlyHungry>
-  <HungerLevel_Hungry>Hambriento</HungerLevel_Hungry>
-  <HungerLevel_Fed>Alimentado</HungerLevel_Fed>
+  <HungerLevel_Starving>Inanición</HungerLevel_Starving>
+  <HungerLevel_UrgentlyHungry>Muy hambriento</HungerLevel_UrgentlyHungry>
+  <HungerLevel_Hungry>Hambiento</HungerLevel_Hungry>
+  <HungerLevel_Fed>Saciado</HungerLevel_Fed>
 
   <!-- -Fatigue -->
-  <HungerLevel_Exhausted>Agotado</HungerLevel_Exhausted>
-  <HungerLevel_VeryTired>Muy cansado</HungerLevel_VeryTired>
-  <HungerLevel_Tired>Cansado</HungerLevel_Tired>
-  <HungerLevel_Rested>Descansado</HungerLevel_Rested>
+  <HungerLevel_Exhausted>Exhausto(a)</HungerLevel_Exhausted>
+  <HungerLevel_VeryTired>Muy cansado(a)</HungerLevel_VeryTired>
+  <HungerLevel_Tired>Cansado(a)</HungerLevel_Tired>
+  <HungerLevel_Rested>Descansado(a)</HungerLevel_Rested>
+
+  <!-- Hilliness -->
+  <Hilliness_Flat>Llano</Hilliness_Flat>
+  <Hilliness_SmallHills>Colinas bajas</Hilliness_SmallHills>
+  <Hilliness_LargeHills>Colinas altas</Hilliness_LargeHills>
+  <Hilliness_Mountainous>Montañoso</Hilliness_Mountainous>
+  
+  <!-- Steam workshop interaction -->
+  <WorkshopInteractStage_CreatingItem>Creando</WorkshopInteractStage_CreatingItem>
+  <WorkshopInteractStage_SubmittingItem>Entregando</WorkshopInteractStage_SubmittingItem>
+  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Inválido</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Preparando datos de config.</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Preparando archivos de contenido</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Enviando contenido</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Enviando archivo previo</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Presentando cambios</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+
+  <!-- Trainable intelligence -->
+  <TrainableIntelligence_None>Ninguna</TrainableIntelligence_None>
+  <TrainableIntelligence_Simple>Simple</TrainableIntelligence_Simple>
+  <TrainableIntelligence_Intermediate>Intermedia</TrainableIntelligence_Intermediate>
+  <TrainableIntelligence_Advanced>Avanzada</TrainableIntelligence_Advanced>
+
+  <!-- Medical care category -->
+  <MedicalCareCategory_NoCare>No tratar</MedicalCareCategory_NoCare>
+  <MedicalCareCategory_NoMeds>Tratamiento médico, sin medicinas</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_HerbalOrWorse>Medicinas herbales o peores</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>Medicinas normales o peores</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_Best>El mejor tratamiento médico posible</MedicalCareCategory_Best>
+
+  <!-- Hostility response mode -->
+  <HostilityResponseMode_Ignore>Ignorar</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Attack>Atacar</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Flee>Huir</HostilityResponseMode_Flee>
+  
+  <!-- HediffGrowthMode -->
+  <HediffGrowthMode_Growing>creciendo</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Stable>estable</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Remission>remisión</HediffGrowthMode_Remission>
 
 
 </LanguageData>

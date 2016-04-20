@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Major breaks-->
+
+    <Berserk.label>Berserker</Berserk.label>
+    <Berserk.beginLetterLabel>Berserker</Berserk.beginLetterLabel>
+    <Berserk.beginLetter>¡{0} se ha puesto frenético!</Berserk.beginLetter>
+    <Berserk.recoveryMessage>La ira frenética de {0} se ha terminado.</Berserk.recoveryMessage>
+    <Berserk.inspectLine>Derrotado: Frenético</Berserk.inspectLine>
+
+  <!-- Minor breaks-->
+
+    <DazedWander.label>vagando aturdido</DazedWander.label>
+    <DazedWander.beginLetterLabel>Aturdido</DazedWander.beginLetterLabel>
+    <DazedWander.beginLetter>{0} ha colapsado mentalmente y está vagando por ahí, completamente aturdido(a).</DazedWander.beginLetter>
+    <DazedWander.recoveryMessage>{0} ya no está aturdido(a).</DazedWander.recoveryMessage>
+    <DazedWander.inspectLine>Derrotado: Aturdido</DazedWander.inspectLine>
+
+    <BingingAlcohol.label>embriagándose</BingingAlcohol.label>
+    <BingingAlcohol.beginLetterLabel>Borrachera</BingingAlcohol.beginLetterLabel>
+    <BingingAlcohol.beginLetter>{0} se está alcoholizando en exceso.</BingingAlcohol.beginLetter>
+    <BingingAlcohol.recoveryMessage>{0} ya no está borracho(a).</BingingAlcohol.recoveryMessage>
+    <BingingAlcohol.inspectLine>Derrotado: Borrachera</BingingAlcohol.inspectLine>
+
+  <!-- Special breaks-->
+
+    <ConfusedWander.label>vagando confundido</ConfusedWander.label>
+    <ConfusedWander.beginLetterLabel>Confusión</ConfusedWander.beginLetterLabel>
+    <ConfusedWander.beginLetter>{0} a colapsado mentalmente y está vagando por ahí, completamente confundido(a).</ConfusedWander.beginLetter>
+    <ConfusedWander.recoveryMessage>{0} ya no está confundido(a).</ConfusedWander.recoveryMessage>
+    <ConfusedWander.inspectLine>Derrotado: Confundido</ConfusedWander.inspectLine>
+  
+    <PanicFlee.label>huida despavorida</PanicFlee.label>
+    <PanicFlee.beginLetterLabel>Huida</PanicFlee.beginLetterLabel>
+    <PanicFlee.beginLetter>{0} está huyendo en pánico.</PanicFlee.beginLetter>
+    <PanicFlee.recoveryMessage>{0} ya no está huyendo en pánico.</PanicFlee.recoveryMessage>
+    <PanicFlee.inspectLine>Derrotado: Pánico</PanicFlee.inspectLine>
+
+    <Manhunter.label>cazahombres</label>
+    <Manhunter.beginLetterLabel>Cazahombres</Manhunter.beginLetterLabel>
+    <Manhunter.beginLetter>¡{0} se ha vuelto un cazahombres!</Manhunter.beginLetter>
+    <Manhunter.recoveryMessage>La sed de sangre humana de {0} se ha terminado.</Manhunter.recoveryMessage>
+    <Manhunter.inspectLine>Enloquecido: Cazahombres</Manhunter.inspectLine>
+	
+    <SocialFighting.label>Pelea</SocialFighting.label>
+    <SocialFighting.recoveryMessage>{0} y {1} ya no están peleando.</SocialFighting.recoveryMessage>
+    <SocialFighting.inspectLine>Pelea</SocialFighting.inspectLine>	
+
+  <!-- Unused? -->
+
+    <GiveUpExit.label>dándose por vencido</GiveUpExit.label>
+    <GiveUpExit.beginLetterLabel>Deserción</GiveUpExit.beginLetterLabel>
+    <GiveUpExit.beginLetter>{0} se ha dado por vencido(a) y está abandonando la colonia.</GiveUpExit.beginLetter>
+    <GiveUpExit.recoveryMessage>{0} ha cambiado de parecer y está regresando a la colonia.</GiveUpExit.recoveryMessage>
+    <GiveUpExit.inspectLine>Derrotado: Deserción</GiveUpExit.inspectLine>
+
+</LanguageData>

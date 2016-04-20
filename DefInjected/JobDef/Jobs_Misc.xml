@@ -1,47 +1,63 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-    <!--========= General ============-->
+    <Goto.reportString>Caminando.</Goto.reportString>
     
-    <Goto.reportString>Andando.</Goto.reportString>
-    
-    <SeekSafeTemperature.reportString>Buscando una temperatura segura.</SeekSafeTemperature.reportString>
+    <GotoSafeTemperature.reportString>Buscando una temperatura más cómoda.</GotoSafeTemperature.reportString>
 	
-	<GotoWander.reportString>Vagando.</GotoWander.reportString>
-    
+	<GotoWander.reportString>Deambulando.</GotoWander.reportString>
+
     <Wait.reportString>Esperando.</Wait.reportString>
+	
+	<WaitDowned.reportString>Derribado.</WaitDowned.reportString>
+		
+	<WaitSafeTemperature.reportString>Buscando una temperatura más cómoda.</WaitSafeTemperature.reportString>
+	
+	<WaitWander.reportString>Deambulando.</WaitWander.reportString>
 	
 	<WaitCombat.reportString>Buscando objetivos.</WaitCombat.reportString>
     
     <AttackStatic.reportString>Atacando a TargetA.</AttackStatic.reportString>
     
-    <AttackMelee.reportString>Atacando a TargetA a mano.</AttackMelee.reportString>
-    
-    <UseVerbOnThing.reportString>Utilizando verb.</UseVerbOnThing.reportString>
+    <AttackMelee.reportString>Atacando a TargetA cuerpo a cuerpo.</AttackMelee.reportString>
     
     <Equip.reportString>Equipando TargetA.</Equip.reportString>
-    
-    <!--============= Misc ============-->
+	
+	<TakeInventory.reportString>Tomando TargetA.</TakeInventory.reportString>
     
     <Wear.reportString>Vistiendo TargetA.</Wear.reportString>
+	
+    <RemoveApparel.reportString>Quitándose TargetA.</RemoveApparel.reportString>	
     
     <Strip.reportString>Desnudando a TargetA.</Strip.reportString>
+	
+	<Open.reportString>Abriendo TargetA.</Open.reportString>
+	
+	<RearmTrap.reportString>Rearmando TargetA.</RearmTrap.reportString>
+
+    <Refuel.reportString>Reabasteciendo TargetA.</Refuel.reportString>	
     
-    <Hunt.reportString>Cazando a TargetA.</Hunt.reportString>
-    
-    <ManTurret.reportString>Operando artillería.</ManTurret.reportString>
+    <ManTurret.reportString>Operando torreta.</ManTurret.reportString>
     
     <EnterCryptosleepCasket.reportString>Entrando en el sarcófago de criptosueño.</EnterCryptosleepCasket.reportString>
     
     <OpenCryptosleepCasket.reportString>Abriendo sarcófago de criptosueño.</OpenCryptosleepCasket.reportString>
     
-    <UseNeurotrainer.reportString>Usando neutroentrenador.</UseNeurotrainer.reportString>
+    <UseNeurotrainer.reportString>Usando neuroentrenador.</UseNeurotrainer.reportString>
+	
+	<UseArtifact.reportString>Activando artefacto.</UseArtifact.reportString>
+	
+    <TriggerFirefoamPopper.reportString>Activando espuma cortafuegos.</TriggerFirefoamPopper.reportString>	
     
-    <ClearSnow.reportString>Limpiando nieve.</ClearSnow.reportString>
+    <ClearSnow.reportString>Despejando nieve .</ClearSnow.reportString>
     
 	<Vomit.reportString>Vomitando.</Vomit.reportString>
 	
-	<TogglePower.reportString>Cambiando circuito.</TogglePower.reportString>
+	<Flick.reportString>Alternando interruptor.</Flick.reportString>
+	
+	<TradeWithPawn.reportString>Comerciando con TargetA.</TradeWithPawn.reportString>
+
+	<FleeAndCower.reportString>Huyendo.</FleeAndCower.reportString>	
 	
     <!--============ Fire ============-->
     
@@ -49,74 +65,16 @@
     
     <BeatFire.reportString>Extinguiendo fuego.</BeatFire.reportString>
     
-    <ExtinguishSelf.reportString>Extinguiendo fuego en uno mismo.</ExtinguishSelf.reportString>
+    <ExtinguishSelf.reportString>Extinguiendo fuego en sí mismo.</ExtinguishSelf.reportString>
     
     <!--============ Need satisfaction ============-->
     
     <Ingest.reportString>Comiendo TargetA.</Ingest.reportString>
     
-    <LayDown.reportString>Tumbandose.</LayDown.reportString>
-    
-    <!--============= Item hauling ===============-->
-    
-    <HaulToCell.reportString>Trasladando TargetA.</HaulToCell.reportString>
-    
-    <HaulToContainer.reportString>Trasladando TargetA.</HaulToContainer.reportString>
-    
-    <!--============= Pawn hauling ===============-->
-    
-    <Rescue.reportString>Rescatando a TargetA.</Rescue.reportString>
-    
-    <CarryToCryptosleepCasket.reportString>Llevando a TargetA al sarcófago de criptosueño.</CarryToCryptosleepCasket.reportString>
-    
-    <Capture.reportString>Capturando a TargetA.</Capture.reportString>
-    
-    <Arrest.reportString>Arrestando a TargetA.</Arrest.reportString>
-    
-    <ReleasePrisoner.reportString>Liberando TargetA.</ReleasePrisoner.reportString>
-    
-    <EscortPrisonerToBed.reportString>Escoltando a TargetA.</EscortPrisonerToBed.reportString>
-    
-    <TakeWoundedPrisonerToBed.reportString>Llevando al prisionero herido TargetA.</TakeWoundedPrisonerToBed.reportString>
-    
-    <TakeToBedToOperate.reportString>Llevando a TargetA a la cama.</TakeToBedToOperate.reportString>
-    
-    <Kidnap.reportString>Secuestrando a TargetA.</Kidnap.reportString>
-    
-    <DeliverFood.reportString>Alimentando a TargetB con TargetA.</DeliverFood.reportString>
-    
-    <FeedPatient.reportString>Alimentando a TargetB con TargetA.</FeedPatient.reportString>
-    
-    <TreatPatient.reportString>Curando a TargetA.</TreatPatient.reportString>
-    
-    <PlaceNoCostFrame.reportString>Construyendo TargetA.</PlaceNoCostFrame.reportString>
-    
-    <DoBill.reportString>Realizando tareas en TargetA.</DoBill.reportString>
-    
-    <Clean.reportString>Limpiando TargetA.</Clean.reportString>
-    
-    <Research.reportString>Investigando.</Research.reportString>
-    
-    <UseCommsConsole.reportString>Usando consola de comunicaciones.</UseCommsConsole.reportString>
-    
-    <Mine.reportString>Minando TargetA.</Mine.reportString>
-    
-    <SmoothFloor.reportString>Alisando suelo.</SmoothFloor.reportString>
-    
-    <Repair.reportString>Reparando TargetA.</Repair.reportString>
-    
-    <FinishFrame.reportString>Construyendo TargetA.</FinishFrame.reportString>
-    
-    <Sow.reportString>Sembrando TargetA.</Sow.reportString>
-    
-    <Harvest.reportString>Recolectando TargetA.</Harvest.reportString>
-    
-    <CutPlant.reportString>Cortando TargetA.</CutPlant.reportString>
-    
-    <Deconstruct.reportString>Desmontando TargetA.</Deconstruct.reportString>
-    
-    <PrisonerFriendlyChat.reportString>Charlando con el prisionero TargetA.</PrisonerFriendlyChat.reportString>
-    
-    <PrisonerExecution.reportString>Ejecutando a TargetA.</PrisonerExecution.reportString>
+    <LayDown.reportString>Recostándose.</LayDown.reportString>
+	
+  <!--============ Love ============-->
+
+    <Lovin.reportString>Amando.</Lovin.reportString>
     
 </LanguageData>
