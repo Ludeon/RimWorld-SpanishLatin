@@ -17,6 +17,14 @@
   <PriceTypeNormal>regular</PriceTypeNormal>
   <PriceTypeExpensive>caro</PriceTypeExpensive>
   <PriceTypeExorbitant>exorbitante</PriceTypeExorbitant>
+  
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>sin guardar</StoragePriorityUnstored>
+  <StoragePriorityLow>baja</StoragePriorityLow>
+  <StoragePriorityNormal>normal</StoragePriorityNormal>
+  <StoragePriorityPreferred>preferida</StoragePriorityPreferred>
+  <StoragePriorityImportant>importante</StoragePriorityImportant>
+  <StoragePriorityCritical>crítica</StoragePriorityCritical>  
 
   <!-- Food type flags -->
   <FoodTypeFlags_VegetableOrFruit>vegetales</FoodTypeFlags_VegetableOrFruit>
@@ -28,8 +36,8 @@
   <FoodTypeFlags_Tree>árboles vivos</FoodTypeFlags_Tree>
   <FoodTypeFlags_Meal>comida cocinada</FoodTypeFlags_Meal>
   <FoodTypeFlags_Processed>alimentos procesados</FoodTypeFlags_Processed>
-  <FoodTypeFlags_NutritionalDrug>licor</FoodTypeFlags_NutritionalDrug>
-  <FoodTypeFlags_AnimalKibble>croquetas</FoodTypeFlags_AnimalKibble>  
+  <FoodTypeFlags_Liquor>licor</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Kibble>croquetas</FoodTypeFlags_Kibble>
   
   <!-- Quality category -->
   <QualityCategory_Awful>Horrible</QualityCategory_Awful>
@@ -41,7 +49,6 @@
   <QualityCategory_Excellent>Excelente</QualityCategory_Excellent>
   <QualityCategory_Masterwork>Magistral</QualityCategory_Masterwork>
   <QualityCategory_Legendary>Legendaria</QualityCategory_Legendary>
-
   <QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
   <QualityCategoryShort_Shoddy>malh</QualityCategoryShort_Shoddy>
   <QualityCategoryShort_Poor>mdio</QualityCategoryShort_Poor>
@@ -51,7 +58,6 @@
   <QualityCategoryShort_Excellent>exlt</QualityCategoryShort_Excellent>
   <QualityCategoryShort_Masterwork>mgst</QualityCategoryShort_Masterwork>
   <QualityCategoryShort_Legendary>lgnd</QualityCategoryShort_Legendary>
-  
   
   <!-- Hunger -->
   <HungerLevel_Starving>Inanición</HungerLevel_Starving>
@@ -81,6 +87,10 @@
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Enviando archivo previo</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Presentando cambios</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
+  <!-- Mod sources -->
+  <ContentSource_LocalFolder>carpeta local</ContentSource_LocalFolder>
+  <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>  
+  
   <!-- Trainable intelligence -->
   <TrainableIntelligence_None>Ninguna</TrainableIntelligence_None>
   <TrainableIntelligence_Simple>Simple</TrainableIntelligence_Simple>
@@ -104,5 +114,33 @@
   <HediffGrowthMode_Stable>estable</HediffGrowthMode_Stable>
   <HediffGrowthMode_Remission>remisión</HediffGrowthMode_Remission>
 
+  <!-- TechLevel -->
+  <TechLevel_Animal>animal</TechLevel_Animal>
+  <TechLevel_Neolithic>neolítico</TechLevel_Neolithic>
+  <TechLevel_Medieval>medieval</TechLevel_Medieval>
+  <TechLevel_Industrial>industrial</TechLevel_Industrial>
+  <TechLevel_Spacer>espacial</TechLevel_Spacer>
+  <TechLevel_Ultra>ultra</TechLevel_Ultra>
+  <TechLevel_Transcendent>transcendental</TechLevel_Transcendent>
 
+  <!-- Player pawns arrive method -->
+  <PlayerPawnsArriveMethod_Standing>A pie</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_DropPods>Cápsulas de aterrizaje</PlayerPawnsArriveMethod_DropPods>
+
+  <!-- Pawn generation context -->
+  <PawnGenerationContext_All>todos los personajes</PawnGenerationContext_All>
+  <PawnGenerationContext_PlayerStarter>personajes iniciales del jugador</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_NonPlayer>personajes ajenos al jugador</PawnGenerationContext_NonPlayer>
+  
+  <!-- Animal name display mode -->
+  <ShowAnimalNames>Mostrar nombres de animales</ShowAnimalNames>
+  <AnimalNameDisplayMode_TameNamed>Domesticados (con nombre)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameAll>Domesticados (todos)</AnimalNameDisplayMode_TameAll>
+  
+  <!-- Temperature -->
+  <Celsius>Celsius</Celsius>
+  <Fahrenheit>Fahrenheit</Fahrenheit>
+  <Kelvin>Kelvin</Kelvin>  
+
+  
 </LanguageData>

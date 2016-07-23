@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
   <Confirm>Confirmar</Confirm>
   <GoBack>Regresar</GoBack>
   <OK>OK</OK>
@@ -19,6 +17,9 @@
   <ErrorWhileGeneratingMap>Un error ha ocurrido mientras se generaba el mapa. Revisa el registro para más información.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Error cargando el mapa</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Un error ha ocurrido mientras se cargaba el mapa. Revisa el registro para más información.</ErrorWhileLoadingMap>
+
+  <!-- Missing Steam -->
+  <SteamClientMissing>No se pudo inicializar la API de Steam. Causas probables:\n\n-Steam no está abierto.\n-Se abrió el juego fuera de Steam y el archivo steam_appid.txt no está en su lugar.\n-Se abrió el juego con privilegios diferentes de los del cliente de Setam ("como administrador").\n\nEsta versión del juego requiere Steam así que ahora se cerrará.</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>Inicializando interface</InitializingInterface>
@@ -34,8 +35,8 @@
   
   <!-- Save/load -->
   <SaveGameButton>Guardar</SaveGameButton>
+  <LoadGameButton>Cargar</LoadGameButton>  
   <OverwriteButton>Sobreescribir</OverwriteButton>
-  <LoadGameButton>Cargar</LoadGameButton>
   <ConfirmDelete>¿Realmente deseas borrar {0}?</ConfirmDelete>
   <DeleteThisSavegame>Borrar esta partida guardada.</DeleteThisSavegame>
   <SavedAs>Guardado como {0}.</SavedAs>
@@ -48,6 +49,7 @@
   <SaveIsFromThisGameBuild>Esta partida pertenece a la versión actual del juego y debería funcionar sin problemas.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Esta partida está en un formato desconocido y es casi seguro que no va a cargar apropiadamente.</SaveIsUnknownFormat>
   <ProblemSavingFile>Hubo un problema guardando el archivo {0}:\n\n{1}</ProblemSavingFile>
+  <LoadAnyway>Cargar de todos modos</LoadAnyway>
   
   <!-- Colony naming-->
   <NameColonyMessage>Parece que vas a estar aquí por un buen tiempo. {0} sugiere que sería más fácil si la colonia tuviera un nombre.\n\n¿Cómo debería llamarse?</NameColonyMessage>
@@ -66,6 +68,7 @@
   <VersionMismatch>Versión incorrecta</VersionMismatch>
   <SaveGameIncompatibleWarningText>Este mapa fue guardado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y colapsos.</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>Este archivo de planeta fue generado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y colapsos. Probablemente debieras generar un nuevo planeta desde cero.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>Este archivo fue guardado con la versión {0}\nActualmente estás corriendo la versión {1}\n\nCargar este archivo podría producir errores y caídas.</FileIncompatibleWarning>  
   <ModsMismatchWarningTitle>Mods incorrectos</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>Este mapa fue guardado con una selección de mods diferente a la actual. Esto podría o no causar problemas, dependiendo de lo que hagan, o no, estos mods.\n\nEl mapa fue guardado (en este orden) con :\n\n{0}\n\nActualmente corremos:\n\n{1}</ModsMismatchWarningText>
 
@@ -99,7 +102,6 @@
   <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
   <PermadeathMode>Modo perma-muerte</PermadeathMode>
   <PermadeathModeInfo>En modo perma-muerte, solo tienes una partida guardada y solo puedes guardar al salir. No puedes reiniciar el juego para arreglar tus errores y cuando la colonia muere, ahí acaba todo.\n\nÉsta es la manera en que RimWorld debe ser jugado, con cada decisión impactando el juego - para bien o para mal.</PermadeathModeInfo>
-
 
   <!-- Bill config -->
   <Suspended>Suspendido</Suspended>
@@ -145,7 +147,10 @@
   <GrowingTime>Tiempo</GrowingTime>
   <GrowingTimeDesc>Las plantas solamente crecen durante una parte del día y bajo iluminación. Esta estadística mide el tiempo de crecimiento que la planta necesita para llegar a su tamaño máximo. El tiempo real de crecimiento normalmente sería del doble. Las bajas temperaturas ralentizarán el crecimiento de las plantas.</GrowingTimeDesc>
   <Days>días</Days>
+  <MinGrowingSkillToSow>Habilidad mínima de agricultura para plantar</MinGrowingSkillToSow>  
   <FertilityRequirement>Requerimiento de fertilidad</FertilityRequirement>
+  <SoilFertilitySensitivityGrowthRate>Sensibilidad a la fertilidad del suelo (tasa de crecimiento)</SoilFertilitySensitivityGrowthRate>
+  <SoilFertilitySensitivityPlantChance>Sensibilidad a la fertilidad del suelo (probabilidad de siembra)</SoilFertilitySensitivityPlantChance>  
   <LightRequirement>Requerimiento de luz</LightRequirement>
   <Attributes>Atributos</Attributes>
   <LifeSpan>Esperanza de vida</LifeSpan>
@@ -158,6 +163,7 @@
   <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
   <MarketValue>Precio base</MarketValue>
   <Covers>Cubre</Covers>
+  <MedicineXpGainFactor>Factor de ganancia de experiencia</MedicineXpGainFactor>  
   <BodyPartEfficiency>Eficiencia del miembro</BodyPartEfficiency>
   <MoodChange>Cambio de humor</MoodChange>
   <Wildness>Estado salvaje</Wildness>
@@ -208,5 +214,8 @@
   <DeleteOutfit>Borrar vestimenta...</DeleteOutfit>
   <OutfitInUse>Vestimenta usada por {0}.</OutfitInUse>
   <NoOutfitSelected>Vestimenta sin seleccionar</NoOutfitSelected>
+  
+  <!-- Growing -->
+  <NoGrowerCanPlant>El/La {0} requiere {1} de habilidad en agricultura para sembrarse.\n\nNinguno de tus agricultores conscientes posee esta habilidad, así que no se sembrará ésto.</NoGrowerCanPlant>  
   
 </LanguageData>

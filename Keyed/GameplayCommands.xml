@@ -25,6 +25,8 @@
   <CommandToggleDraftDesc>Alterna el reclutamiento.\n\nLos colonos reclutados tomarán ordenes directas y lucharán. No trabajarán, comerán o descansarán.</CommandToggleDraftDesc>
   <IsIncapped>{0} está incapacitado(a).</IsIncapped>
 
+  <CommandClearPrioritizedWork>Borrar trabajo priorizado</CommandClearPrioritizedWork>
+  <CommandClearPrioritizedWorkDesc>Borra cualquier trabajo priorizado que hayas asignado. El personaje regresará a sus actividades usuales.</CommandClearPrioritizedWorkDesc>
   
   <CommandCancelConstructionLabel>Cancelar</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Cancela esta construcción.</CommandCancelConstructionDesc>
@@ -41,12 +43,8 @@
   <CommandBedSetForPrisonersLabel>Designar para prisioneros</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Designa las camas de esta habitación para uso de los prisioneros.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>No se pueden designar camas en exteriores para uso de los prisioneros.</CommandBedSetForPrisonersFailOutdoors>
-  <CommandBedSetForColonistsLabel>Designar para colonos</CommandBedSetForColonistsLabel>
-  <CommandBedSetForColonistsDesc>Designa las camas de esta habitación para el uso de los colonos.</CommandBedSetForColonistsDesc>
   <CommandBedSetAsMedicalLabel>Designar para uso médico</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>Designa esta cama para uso médico.</CommandBedSetAsMedicalDesc>
-  <CommandBedSetAsNonMedicalLabel>Designar como no médica</CommandBedSetAsNonMedicalLabel>
-  <CommandBedSetAsNonMedicalDesc>Designa esta cama para usos no médicos.</CommandBedSetAsNonMedicalDesc>
   <TurningOnPrisonerBedWarning>Alternar el modo prisión afecta a la habitación completa (pues colonos y prisioneros no pueden dormir en la misma).\n\nEstas personas perderán la propiedad sobre sus camas:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Alternar el modo prisión afecta a la habitación completa (pues colonos y prisioneros no pueden dormir en la misma).\n\nEstas personas perderán la propiedad sobre sus camas:</TurningOffPrisonerBedWarning>
   <AreYouSure>¿Estás seguro de querer hacer ésto?</AreYouSure>
@@ -82,13 +80,11 @@
   <MessageTargetBeyondMaximumRange>Atacar fuera del rango máximo.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Atacar dentro del rango mínimo.</MessageTargetBelowMinimumRange>
   
-  
   <!-- Ship computer core -->
   <CommandShipLaunch>Despegar la nave</CommandShipLaunch>
   <CommandShipLaunchDesc>Comienza la secuencia de despegue de la nave con la configuración actual.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Mostrar el reporte de despegue</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Muestra un reporte sobre la capacidad de despegue de la nave.</CommandShipLaunchReportDesc>
-
 
   <!-- Pod -->
   <CommandPodEject>Eyectar cápsula</CommandPodEject>
@@ -100,7 +96,6 @@
   <CommandToggleDoorForbidDesc>Cuando una puerta es prohibida, los colonos y los aliados no la atravezarán. Ésto no afectará las interacciones de los enemigos o los animales con ésta.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Mantener abierta</CommandToggleDoorHoldOpen>
   <CommandToggleDoorHoldOpenDesc>Cuando se activa, los colonos no cerrarán la puerta al atravezarla.</CommandToggleDoorHoldOpenDesc>
-
 
   <!-- Temperature control -->
   <CommandResetTemp>Reiniciar</CommandResetTemp>
@@ -134,5 +129,13 @@
   <CommandSquadAttack>Atacar</CommandSquadAttack>
   <CommandSquadAttackDesc>Ordena a los colonos seleccionados atacar un objetivo.</CommandSquadAttackDesc>
 
+  <!-- Hold fire -->
+  <CommandHoldFire>Cese el fuego</CommandHoldFire>
+  <CommandHoldFireDesc>Detiene los ataques.</CommandHoldFireDesc>
+  
+  <!-- Select plant to grow -->
+  <CommandSelectPlantToGrowMulti>Seleccionar planta para cultivar</CommandSelectPlantToGrowMulti>
+  <CommandSelectPlantToGrow>Sembrar: {0}</CommandSelectPlantToGrow>
+  <CommandSelectPlantToGrowDesc>Determina que planta debe sembrarse aquí.</CommandSelectPlantToGrowDesc>  
   
 </LanguageData>

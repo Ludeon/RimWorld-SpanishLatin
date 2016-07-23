@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-  
 	<CallOnRadio>Llamar a {0}</CallOnRadio>
   <CannotUseReason>No se puede usar ({0})</CannotUseReason>
 	<CannotUseSolarFlare>No se puede usar (Erupción solar)</CannotUseSolarFlare>
@@ -26,6 +24,7 @@
   <NoPath>no hay paso</NoPath>
 
 	<ForbiddenLower>prohibido</ForbiddenLower>
+	<ForbiddenOutsideAllowedAreaLower>fuera del área permitida</ForbiddenOutsideAllowedAreaLower>	
 	<SociallyImproperLower>socialmente indecoroso</SociallyImproperLower>
   <PrisonerRoomLower>celda de prisioneros</PrisonerRoomLower>
 	<BurningLower>quemando</BurningLower>
@@ -36,13 +35,13 @@
 	<NoEmptyGraveLower>no hay tumba disponible configurada para recibirlo(a)</NoEmptyGraveLower>
   <AnimalInteractedTooRecently>Este animal ya interactuó demasiado</AnimalInteractedTooRecently>
   <NoUsableFood>no hay nada comestible</NoUsableFood>
+  <NoFood>sin comida</NoFood>  
   <AnimalsSkillTooLow>Habilidad del animal demasiado baja</AnimalsSkillTooLow>
 	<NoComponentsToRepair>necesita componentes</NoComponentsToRepair>
 	<NoFuelToRefuel>necesita {0}</NoFuelToRefuel>  
 
   <ConsumeThing>Consumir {0}</ConsumeThing>
   <Teetotaler>abstemio</Teetotaler>
-  
   
   <CannotGoNoPath>No se puede llegar aquí (no hay camino)</CannotGoNoPath>
   <GoHere>Ir aquí</GoHere>
@@ -71,6 +70,8 @@
   <Incapable>incapaz</Incapable>
   <IncapableOfCapacity>incapaz de {0}</IncapableOfCapacity>
 
+  <MinSkill>hab. mínima</MinSkill>  
+  
   <Equip>Equipar {0}</Equip>
   <EquipWarningBrawler>(el luchador será muy infeliz)</EquipWarningBrawler>
   <CannotEquip>No se puede equipar el/la {0}</CannotEquip>
@@ -100,8 +101,6 @@
   <EnterCryptosleepCasket>Entrar al sacófago de criptosueño</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>Abrir sarcófago de criptosueño</OpenCryptosleepCasket>
 
-
-
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>No se puede {0}</CannotGenericWork>
 
@@ -115,7 +114,7 @@
   <CannotPrioritizeResearch>No se puede priorizar (investigar es una tarea a largo plazo)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>No se puede priorizar ({0} está prohibido(a))</CannotPrioritizeForbidden>
-  
+  <CannotPrioritizeForbiddenOutsideAllowedArea>No se puede priorizar ({0} está fuera del área permitida)</CannotPrioritizeForbiddenOutsideAllowedArea>  
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Priorizar {0} {1}</PrioritizeGeneric>

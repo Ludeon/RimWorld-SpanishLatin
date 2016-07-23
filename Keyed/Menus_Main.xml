@@ -5,8 +5,9 @@
   <CreateWorld>Crear Planeta</CreateWorld>
   <NewColony>Fundar Colonia</NewColony>
   <BackToGame>Volver al juego</BackToGame>
+  <ReviewScenario>Revisar escenario</ReviewScenario>  
   <Save>Guardar</Save>
-  <Load>Cargar</Load>
+  <LoadGame>Cargar partida</LoadGame>
   <Options>Opciones</Options>
   <Mods>Mods</Mods>
   <Credits>Créditos</Credits>
@@ -32,7 +33,6 @@
   <WorldSeed>Semilla</WorldSeed>
   <RandomizeSeed>Generar semilla aleatoria</RandomizeSeed>
 
-
   <!--=========== Select world ===================-->
   <SelectWorld>Seleccionar planeta</SelectWorld>
   <WorldChooseButton>Seleccionar</WorldChooseButton>
@@ -47,7 +47,7 @@
   <!--=========== World generator =========-->
   <GenerateWorld>Generar Planeta</GenerateWorld>
 
-  <!--=========== Mods screen ==========-->
+  <!--=========== Mods config ==========-->
   <OpenSteamWorkshop>Abrir Workshop de Steam </OpenSteamWorkshop>
   <GetModsFromForum>Conseguir mods del foro</GetModsFromForum>
   <OpenModsDataFolder>Abrir carpeta de mods</OpenModsDataFolder>
@@ -61,18 +61,38 @@
   <UpdateOnSteamWorkshop>Actualizar el Workshop de Steam </UpdateOnSteamWorkshop>
   <UploadAlreadyInProgress>Carga en progreso.</UploadAlreadyInProgress>
   <WorkshopSubmissionFailed>La entrega al Workshop ha fallado.\n\nRazón: {0}</WorkshopSubmissionFailed>
-  <YouAgreeToSteamWorkshopLegal>Al entregar este mod, estás aceptando los términos de servicio de Steam Workshop. Haz click aquí para más información.</YouAgreeToSteamWorkshopLegal>
-  <WorkshopUploadSucceeded>Carga exitosa {0}.</WorkshopUploadSucceeded>
-  <DownloadingMod>Descargando {0}</DownloadingMod>
+  <WorkshopUploadSucceeded>Se ha subido exitosamente {0}.</WorkshopUploadSucceeded>
+  <Downloading>Descargando</Downloading>
+  <Source>Fuente</Source>
+  <ModTargetVersion>Para la versión: {0}</ModTargetVersion>
+  <ModNotMadeForThisVersion>Este mod no fué hecho para esta versión de Rimworld y probablemente no funcione correctamente.</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Este mod necesita una versión objetivo con buen formato en About.xml. De esta forma: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+
+  <!--=========== Select scenario =============-->
+  <ChooseScenario>Escoger escenario</ChooseScenario>
+  <ScenariosCustom>Personalizado</ScenariosCustom>
+  <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
+  <ScenarioEditor>Editor de escenarios</ScenarioEditor>
+  <Delete>Borrar</Delete>
+  
+  <!--============ Scenario editor ===============-->
+  <Seed>semilla</Seed>
+  <Load>Cargar</Load>
+  <EditMode>modo edición</EditMode>
+  <Summary>Resumen</Summary>
+  <AddPart>Añadir parte</AddPart>
+  <TextFieldsMustBeFilled>Deben llenarse todos los campos de texto.</TextFieldsMustBeFilled>
+  <ConfirmSteamWorkshopUpload>¿Estás seguro(a) que quieres subir ésto a Steam Workshop?\n\nDebes aceptar los términos y condiciones de Steam Workshop. Puedes encontrar los términos completos en:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Obviamente solo debes subir contenido que hayas creado tú mismo(a).\n\n¿Tú mismo(a) lo has creado?</ConfirmContentAuthor>
+  <Incompatible>Incompatible</Incompatible>
+  <TooMany>Demasiado (max {0}): </TooMany>
+  <CanBeUpdatedOnWorkshop>Puedes actualizarlo en el Workshop, pues tú eres el autor.</CanBeUpdatedOnWorkshop>  
   
   <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>Escoge la IA cuentacuentos</ChooseAIStoryteller>
   <HowStorytellersWork>La IA cuentacuentos crea eventos como los ataques piratas, aparición de recursos o ataques animales. Sus decisiones afectarán la historia de tu colonia.</HowStorytellersWork>
   <MustChooseDifficulty>Por favor escoge una dificultad.</MustChooseDifficulty>
   <Difficulty>Dificultad</Difficulty>
-
-
-
 
   <!--=========== Landing site select =========-->
   <SelectLandingSite>Selecciona un lugar de aterrizaje</SelectLandingSite>
@@ -94,8 +114,8 @@
   <Elevation>Elevación</Elevation>
   <Fertility>Fertilidad</Fertility>
   <AvgTemp>Temp. media</AvgTemp>
-  <AvgJanTemp>Temp. media (Ene): {0}</AvgJanTemp>
-  <AvgJulTemp>Temp. media (Jul): {0}</AvgJulTemp>
+  <AvgWinterTemp>Temp. media (invierno): {0}</AvgWinterTemp>
+  <AvgSummerTemp>Temp. media (verano): {0}</AvgSummerTemp>
   <Rainfall>Lluvia</Rainfall>
   <HasCoast0>Costa norte</HasCoast0>
   <HasCoast1>Costa este</HasCoast1>
@@ -103,7 +123,6 @@
   <HasCoast3>Costa oeste</HasCoast3>
   <FactionBase>Asentamiento</FactionBase>
   <StoneTypesHere>Rocas disponibles</StoneTypesHere>
-
 
   <!--=========== Character chooser ==========-->
   <CreateCharacters>Crea los personajes</CreateCharacters>
@@ -125,8 +144,7 @@
   <Pain>Dolor</Pain>
   <Health>Salud</Health>
   <Relations>Relaciones</Relations>  
-  
-  
+   
   <!--=========== Misc ==========-->
   <Start>Iniciar</Start>
   <Advanced>Avanzado</Advanced>

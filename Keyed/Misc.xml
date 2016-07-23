@@ -19,6 +19,17 @@
   <CompiledOn>Compilado {0}</CompiledOn>
   <LoggedIntoSteamAs>Conectado a Steam como {0}</LoggedIntoSteamAs>
 
+  <!-- General-use words -->
+  <Yes>Si</Yes>
+  <No>No</No>
+  <min>min</min>
+  <max>max</max>
+  <chance>probabilidad</chance>
+  <context>contexto</context>
+  <multiplier>factor</multiplier>
+  <damage>daño</damage>
+  <radius>radio</radius>
+  <durationDays>duración (días)</durationDays>
   
   <!-- Content generation-->
   
@@ -47,9 +58,8 @@
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{1} de {0}</ThingMadeOfStuffLabel>
 
-  <!-- To express ownership. -->
-  <!-- For example Jack's Bedroom -->
-  <SomeonesSomething>{1} de {0}</SomeonesSomething>
+  <SomeonesRoom>{1} de {0}</SomeonesRoom>
+  <CouplesRoom>{2} de {0} y {1}</CouplesRoom>
   
   <VariousLabel>(varios)</VariousLabel>
 

@@ -57,17 +57,20 @@
   
   <LetterLeadersDeathLabel>Muerte del líder</LetterLeadersDeathLabel>
   <LetterLeadersDeath>{0}, el líder de {1}, ha muerto y ha sido reemplazado(a) por {2}.</LetterLeadersDeath>
+
+  <MentalBreakLetterLabel>Colapso mental</MentalBreakLetterLabel>
+  <MentalBreakReason>Razón: {0}.</MentalBreakReason>
   
   <!-- Family -->
   <LetterLabelNoticedFamilyMembers>Familia</LetterLabelNoticedFamilyMembers>
-  <LetterFamilyMembersRaidEnemy>Hay parientes de tus colonos o prisioneros en el grupo de {0} que ha llegado.\n\nToma en cuenta que, aunque esten emparentados, aún así se atacarán debido a las malas relaciones entre las facciones.\n\nLos parientes son:</LetterFamilyMembersRaidEnemy>
-  <LetterFamilyMembersRaidFriendly>Hay parientes de tus colonos o prisioneros en el grupo de {0} que ha llegado:</LetterFamilyMembersRaidFriendly>
-  <LetterFamilyMembersNeutralGroup>Hay parientes de tus colonos o prisioneros en el grupo de que ha llegado:</LetterFamilyMembersNeutralGroup>
-  <LetterFamilyMembersTraderShipSlaves>La nave de comercio está vendiendo algunos parientes de tus colonos o prisioneros:</LetterFamilyMembersTraderShipSlaves>
+  <LetterRelatedPawnsRaidEnemy>Hay parientes de tus colonos o prisioneros en el grupo de {0} que ha llegado.\n\nToma en cuenta que, aunque esten emparentados, aún así se atacarán debido a las malas relaciones entre las facciones.\n\nLos parientes son:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>Hay parientes de tus colonos o prisioneros en el grupo de {0} que ha llegado:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>Hay parientes de tus colonos o prisioneros en el grupo de que ha llegado:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>La nave de comercio está vendiendo algunos parientes de tus colonos o prisioneros:</LetterRelatedPawnsTradeShip>
   
-  <FamilyLetterAppendedSuffix>(familia)</FamilyLetterAppendedSuffix>
-  <FamilyLetterAppendedTextColonist>NAME es pariente de un colono. HECAP es {1} de {0}.</FamilyLetterAppendedTextColonist>
-  <FamilyLetterAppendedTextPrisoner>NAME es pariente de uno de tus prisioneros. HECAP es {1} de {0}.</FamilyLetterAppendedTextPrisoner>
+  <RelationshipAppendedLetterSuffix>(relación)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterTextColonist>NAME tiene relación con un colono. HECAP es {1} de {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>NAME tiene relación con uno de tus prisioneros. HECAP es {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>Romance</LetterLabelAffair>
@@ -75,6 +78,7 @@
   <LetterLabelNewLovers>Nueva pareja</LetterLabelNewLovers>
   <LetterNewLovers>{0} y {1} ahora son pareja.</LetterNewLovers>
   <LetterNoLongerLovers>{0} y {1} ya no están en una relación.</LetterNoLongerLovers>
+  <LetterLabelBreakup>Rompimiento</LetterLabelBreakup>  
   <LetterLabelAcceptedProposal>¡Matrimonio!</LetterLabelAcceptedProposal>
   <LetterLabelRejectedProposal>Propuesta rechazada</LetterLabelRejectedProposal>
   <LetterAcceptedProposal>{1} ha aceptado la propuesta de matrimonio de {0}.\n\nEn algún punto de los siguientes días o estaciones, tendrán una ceremonia de matrimonio e invitarán a todos los colonos. Considera designar un punto de matrimonios si quieres controlar donde se llevará a cabo la ceremonia.</LetterAcceptedProposal>

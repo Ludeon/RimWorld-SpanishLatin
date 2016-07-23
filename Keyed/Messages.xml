@@ -1,21 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
- 
   <MessageSiegersAssaulting>Los {0} de {1} que te asedian están asaltando la colonia.</MessageSiegersAssaulting>
 
   <MessageRaidersBeginningAssault>Los {0} de {1} están comenzando su asalto.</MessageRaidersBeginningAssault>
   <MessageRaidersDetectedEarlyAssault>Los {0} de {1} te han detectado y han adelantado su asalto.</MessageRaidersDetectedEarlyAssault>
   <MessageRaidersKidnapping>Los {0} de {1} han decidido secuestrar a quien puedan e irse.</MessageRaidersKidnapping>
+  <MessageRaidersStealing>Los {0} de {1} han decidido robar lo que puedan e irse.</MessageRaidersStealing>
 
-  <MessageRaidersLeaving>Los {0} de {1} ya se van.</MessageRaidersLeaving>
-	<MessageRaidersGivenUpLeaving>Los {0} de {1} se han dado por vencidos y ya se van.</MessageRaidersGivenUpLeaving>
+  <MessageRaidersLeaving>Los {0} de {1} se están yendo.</MessageRaidersLeaving>  
+  <MessageRaidersGivenUpLeaving>Los {0} de {1} se han dado por vencidos y ya se van.</MessageRaidersGivenUpLeaving>
   <MessageRaidersSatisfiedLeaving>Los {0} de {1} están satisfechos con el daño que te han causado y ya se van.</MessageRaidersSatisfiedLeaving>
 
   <MessageFightersFleeing>Los {0} de {1} están huyendo.</MessageFightersFleeing>
   <MessageFriendlyFightersLeaving>Los {0} amistosos de {1} ya se van.</MessageFriendlyFightersLeaving>
 
   <MessageVisitorsTakingWounded>Los {0} de {1} se llevan a un invitado herido.</MessageVisitorsTakingWounded>
+  <MessageVisitorsTrappedLeaving>Los {0} de {1} han quedado atrapados y están excavando para escapar.</MessageVisitorsTrappedLeaving>  
   
   <MessageWornApparelDeterioratedAway>Un(a) {0} que {1} vestía se ha deshecho por completo.</MessageWornApparelDeterioratedAway>
   
@@ -38,11 +39,8 @@
   
   <LetterLabelMessageRecruitSuccess>Nuevo recluta</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{0} ha reclutado con éxito a {1} (chance del {2}).</MessageRecruitSuccess>
-	<MessageRecruitFail>{0} ha fallado en reclutar a {1} (chance del {2}).</MessageRecruitFail>
-	<MessageRecruitFailBecauseMood>{0} ha fallado en reclutar a {1} (humor del prisionero menor al {2} necesario).</MessageRecruitFailBecauseMood>
   <MessageTameSuccess>{0} ha domesticado con éxito un(a) {1} (chance del {2}).</MessageTameSuccess>
   <MessageTameAndNameSuccess>{0} ha domesticado con éxito un(a) {1} (chance del {2}) y le ha nombrado {3}.</MessageTameAndNameSuccess>
-
 
   <MessageColonyCannotAfford>La colonia no puede costear ésto.</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>No tienes suficiente plata para comerciar.</MessageColonyNotEnoughSilver>
@@ -67,7 +65,8 @@
   <MessageRefusedArrest>¡{0} se ha rehusado a ser arrestado(a)!</MessageRefusedArrest>
   
   <MessageNoMedicalBeds>No hay camas hospitalarias disponibles.</MessageNoMedicalBeds>
-  <MessageNoAnimalBeds>No hay camas animales disponibles.</MessageNoAnimalBeds>  
+  <MessageNoAnimalBeds>No hay camas animales disponibles.</MessageNoAnimalBeds>
+  <MessageTooLowMedCare>La operación requiere un nivel de medicina de {0} o mejor, pero {1} solo llega al "{2}".</MessageTooLowMedCare>  
   
   <PawnDiedBecauseOf>{0} a muerto de {1}.</PawnDiedBecauseOf>
 
@@ -121,5 +120,11 @@
   
   <MessagePartyCalledOff>La fiesta se ha cancelado.</MessagePartyCalledOff>
   <MessagePartyFinished>La fiesta ha terminado.</MessagePartyFinished>
+  
+  <MessageCannotSellItemsReason>Algunos objetos no pueden comercializarse porque: </MessageCannotSellItemsReason>
+
+  <MessageConstructionFailed>{1} ha fallado contruyendo el/la {0}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
+
+  <MessageScreenshotSavedAs>Captura de pantalla guardada como: {0}</MessageScreenshotSavedAs>  
   
 </LanguageData>

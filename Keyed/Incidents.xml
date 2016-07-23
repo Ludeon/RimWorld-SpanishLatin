@@ -16,11 +16,13 @@
   <EnemyRaidWalkIn>Un grupo de {0} de {1} a llegado a un lugar cercano.</EnemyRaidWalkIn>
   <EnemyRaidEdgeDrop>Un grupo de {0} de {1} ha llegado en cápsulas orbitales cerca de aquí.</EnemyRaidEdgeDrop>
   <EnemyRaidCenterDrop>¡Un grupo de {0} de {1} ha caído directamente sobre tí!</EnemyRaidCenterDrop>
+  <EnemyRaidLeaderPresent>Uno de los {0} - {1}, es el líder de la facción.</EnemyRaidLeaderPresent>  
 
   <!-- Friendly raids -->
   <FriendlyRaidWalkIn>Un grupo de {0} amistosos de {1} ha llegado a un lugar cercano.</FriendlyRaidWalkIn>
   <FriendlyRaidEdgeDrop>Un grupo de {0} amistosos de {1} ha llegado en cápsulas orbitales cerca de aquí.</FriendlyRaidEdgeDrop>
   <FriendlyRaidCenterDrop>¡Un grupo de {0} amistosos de {1} ha aterrizado directamente sobre ti!</FriendlyRaidCenterDrop>
+  <FriendlyRaidLeaderPresent>Uno de los {0} - {1}, es el líder de la facción.</FriendlyRaidLeaderPresent>  
 
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>Has detectado una cápsula de escape que se estrelló cerca de aquí.\n\nSi alguien sobrevivió el impacto, estará malherido.</RefugeePodCrash>
@@ -40,10 +42,12 @@
 
   <LetterLabelSingleVisitorArrives>Visitante</LetterLabelSingleVisitorArrives>
   <SingleVisitorArrives>Un {0} de {1} está visitando la colonia.\n\nHECAP se llama {2}.</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nHECAP parece tener mercancías para comerciar.</SingleVisitorArrivesTraderInfo>  
+  <SingleVisitorArrivesTraderInfo>\n\nHECAP parece tener mercancías para comerciar.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\nHECAP es el líder de la facción.</SingleVisitorArrivesLeaderInfo>  
   <LetterLabelGroupVisitorsArrive>Visitantes</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>Un grupo que viene de {0} está visitando la colonia.</GroupVisitorsArrive>
-  <GroupVisitorsArriveTraderInfo>\n\nParecen tener mercancías para comerciar.</GroupVisitorsArriveTraderInfo>  
+  <GroupVisitorsArriveTraderInfo>\n\nParecen tener mercancías para comerciar.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\nUno de los visitantes - {0}, es el líder de la facción.</GroupVisitorsArriveLeaderInfo>  
   <VisitorsLeaving>Los visitantes de {0} ya se van.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Un viajero se une</LetterLabelWandererJoin>
@@ -106,5 +110,10 @@
   <!-- Building breaks down -->
   <LetterLabelBuildingBrokenDown>Avería: {0}</LetterLabelBuildingBrokenDown>
   <LetterBuildingBrokenDown>Una de tus máquinas ({0}) se ha averiado. No va a funcionar hasta que un colono con el trabajo REPARAR activado vaya y lo arregle.</LetterBuildingBrokenDown>
+
+  <!-- Ransom demand -->
+  <RansomDemand>{1} te contacta por radio. Tienen secuestrado(a) a {0}.\n\nEstán dispuestos a regresarle a cambio de {2} de plata.</RansomDemand>
+  <RansomDemand_Accept>Aceptar</RansomDemand_Accept>
+  <RansomDemand_Reject>Rechazar</RansomDemand_Reject>
   
 </LanguageData>

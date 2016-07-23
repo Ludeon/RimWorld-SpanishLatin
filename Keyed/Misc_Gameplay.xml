@@ -15,6 +15,7 @@
   <Unowned>Sin dueño</Unowned>
   <DeadTime>Muerto {0}</DeadTime>
   <WalkSpeed>Factor de velocidad: {0}</WalkSpeed>
+  <FertShort>fert.</FertShort>  
   <DyingLower>muriendo</DyingLower>
   <FilthOnFeet>Mugre en los pies:</FilthOnFeet>
   <NotEnoughStoredLower>no hay suficiente</NotEnoughStoredLower>
@@ -41,7 +42,6 @@
   <Off>Apagado</Off>
   <PowerSwitch_Power>Corriente</PowerSwitch_Power>
   <JoyTolerances>Tolerancias</JoyTolerances>
-  <BrokenLetterLabel>Roto</BrokenLetterLabel>
   <MilkFullness>Producción de leche</MilkFullness>
   <WoolGrowth>Producción de lana</WoolGrowth>
   <EggProgress>Producción de huevo</EggProgress>
@@ -53,25 +53,32 @@
   <HiveReproducesIn>Se reproduce en</HiveReproducesIn>
   <BrokenDown>Averiado</BrokenDown>
   <BondBrackets>(vínculo)</BondBrackets>
-  <Fuel>Combustible</Fuel>  
+  <Fuel>Combustible</Fuel>
+  <Enemies>enemigos</Enemies>
+  <TimePassed>tiempo transcurrido</TimePassed>
+  <CurrentRadius>radio presente</CurrentRadius>
+  <RadiusExpandsIn>radio se expande en</RadiusExpandsIn>
+  <Permanent>permanente</Permanent>  
   
   <!--TextMotes-->
   <Headshot>Disparo a la cabeza</Headshot>
   <TreatQuality>Calidad del tratamiento del {0}</TreatQuality>
   <PoorResult>Mal resultado</PoorResult>
   <GoodResult>Buen resultado</GoodResult>
-  <TextMote_TreatSuccess>¡Tratamiento exitoso! posibilidad\n{0}</TextMote_TreatSuccess>
-  <TextMote_TreatFailed>Tratamiento fallido, posibilidad\n{0}</TextMote_TreatFailed>
+  <TextMote_TreatSuccess>¡Tratamiento exitoso! probabilidad del \n{0}</TextMote_TreatSuccess>
+  <TextMote_TreatFailed>Tratamiento fallido, probabilidad del \n{0}</TextMote_TreatFailed>
   <HarvestFailed>Cosecha\nfallida</HarvestFailed>
-  <TextMote_TameFail>Domesticación fallida, posibilidad\n{0}</TextMote_TameFail>
-  <TextMote_TameSuccess>¡Domesticado! posibilidad\n{0} </TextMote_TameSuccess>
-  <TextMote_TrainFail>Entrenamiento fallido: posibilidad{0}\n{1}</TextMote_TrainFail>
-  <TextMote_TrainSuccess>Entrenado: posibilidad{0}\n{1}</TextMote_TrainSuccess>
+  <TextMote_RecruitFail>Reclutamiento fallido probabilidad del \n{0}</TextMote_RecruitFail>  
+  <TextMote_TameFail>Domesticación fallida, probabilidad del \n{0}</TextMote_TameFail>
+  <TextMote_TameSuccess>¡Domesticado! probabilidad del \n{0}</TextMote_TameSuccess>
+  <TextMote_TrainFail>Entrenamiento fallido: probabilidad del {0}\n{1}</TextMote_TrainFail>
+  <TextMote_TrainSuccess>Entrenado: probabilidad del {0}\n{1}</TextMote_TrainSuccess>
   <TextMote_FixBrokenDownBuildingFail>Reparación\nfallida</TextMote_FixBrokenDownBuildingFail>  
 
 
   <!-- Areas -->
   <Home>Hogar</Home>
+  <BuildRoof>Construir techo</BuildRoof>  
   <NoRoof>Sin techo</NoRoof>
   <SnowClear>Sin nieve</SnowClear>
   <AreaDefaultLabel>Área {0}</AreaDefaultLabel>
@@ -111,10 +118,16 @@
   <WatchingSunset>Admirando el atardecer</WatchingSunset>
   <Stargazing>Mirando las estrellas</Stargazing>
   <WatchingEclipse>Mirando el eclipse</WatchingEclipse>
-  <DeliveringFood>Entregando comida a {0}.</DeliveringFood>
   <UsingVerb>Usando {0} en {1}.</UsingVerb>
   <AreaLower>área</AreaLower>
-  <ReportCowering>acobardándose.</ReportCowering>  
+  <ReportCowering>acobardándose.</ReportCowering>
+  <ReportStanding>de pie.</ReportStanding>
+  <ReportExtinguishingFire>extinguiendo el fuego.</ReportExtinguishingFire>
+  <ReportExtinguishingFireOn>extinguiendo el fuego en {0}.</ReportExtinguishingFireOn>
+
+  <!-- Lord job reports -->
+  <LordReportAttendingMarriageCeremony>Asistiendo a ceremonia de matrimonio</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingParty>Asistiendo a fiesta</LordReportAttendingParty>  
   
 	<!-- Shooting report -->
   <WeaponMissRadius>Radio de fallo del arma</WeaponMissRadius>
@@ -127,6 +140,7 @@
 	<ShootingCover>Cobertura</ShootingCover>
 	<CoverThingBlocksPercentOfShots>{0} detiene el {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>Sin cobertura</NoCoverLower>
+  <Execution>Ejecución</Execution>	
 	
   <!-- Generated recipes -->
   <RecipeMake>Fabricar {0}</RecipeMake>
@@ -136,8 +150,9 @@
   <ThoughtExpiresIn>Expira en: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Empieza a expirar en: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Termina de expirar en: {0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThresholdHard>Límite de colapso mental agudo</MentalBreakThresholdHard>
-  <MentalBreakThresholdSoft>Límite de colapso mental ligero</MentalBreakThresholdSoft>
+  <MentalBreakThresholdExtreme>Límite de colapso mental extremo</MentalBreakThresholdExtreme>
+  <MentalBreakThresholdMajor>Límite de colapso mental mayor</MentalBreakThresholdMajor>
+  <MentalBreakThresholdMinor>Límite de colapso mental menor</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
   <PawnMainDescGendered>{1} {0}</PawnMainDescGendered>
@@ -189,14 +204,6 @@
   <ShotBy>Probabilidad de \nacierto de {0}</ShotBy>
   <CannotHit>Imposible impactar el objetivo.</CannotHit>
 
-  <!-- Storage priority labels -->
-  <StoragePriorityUnstored>No guardar</StoragePriorityUnstored>
-  <StoragePriorityLow>Baja</StoragePriorityLow>
-  <StoragePriorityNormal>Normal</StoragePriorityNormal>
-  <StoragePriorityPreferred>Preferente</StoragePriorityPreferred>
-  <StoragePriorityImportant>Importante</StoragePriorityImportant>
-  <StoragePriorityCritical>Crítica</StoragePriorityCritical>
-
   <!-- Rotting -->
   <CurrentlyFrozen>Congelado (no se pudrirá)</CurrentlyFrozen>
   <CurrentlyRefrigerated>Refrigerado (se pudre en {0})</CurrentlyRefrigerated>
@@ -245,6 +252,7 @@
   <ZoneVisibilityToggleButton>Alterna la visibilidad de las áreas.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Alterna la visualización de belleza.\n\nPresenta la belleza del mundo desde el punto de vista de alguien situado donde se posa el cursor.</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>Alterna la visualización de estadísticas habitacionales.\n\nPresenta las estadísticas de la habitación donde se posa el cursor.</ShowRoomStatsToggleButton>
+  <ShowColonistBarToggleButton>Alternar barra de colonos.\n\nMuestra los íconos y el estado básico de todos los colonos en la parte superior de la pantalla.</ShowColonistBarToggleButton>  
   <AutoHomeAreaToggleButton>Alterna la expansión automática del área del hogar alrededor de construcciones nuevas.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Alterna el modo categorizado de la lista de recursos.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Alterna la visualización de los nombres de los animales domésticos.</ShowAnimalNamesToggleButton>
@@ -257,6 +265,8 @@
  
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Condiciones especiales que afectan el área en estos momentos.</MapConditionsTip>
+  <TimeLeft>tiempo restante</TimeLeft>
+  <ImpactDate>fecha de impacto</ImpactDate>  
 
   <!-- Building placement -->
   <NoStuffsToBuildWith>No tienes materiales disponibles para construir Esto.</NoStuffsToBuildWith>
@@ -276,7 +286,6 @@
 
   <!-- Cryptosleep casket -->
   <CasketContains>Contiene</CasketContains>
-  <CasketUnknownContents>Desconocido</CasketUnknownContents>
   <CasketWarning>¡Peligro!¡\n\nNAME es tu último colono en pie! Si lo dejas entrar en ése sarcófago no podrás seguir jugando. ¿Estás seguro que quieres continuar?</CasketWarning>
 
   <!-- Ship launch report -->
@@ -286,14 +295,7 @@
   <ShipReportNoFullPods>No hay sarcófagos de criptosueño ocupados</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
-  <UseNeurotrainer>Usar neuroentrenador para aprender {0}</UseNeurotrainer>
   <NeurotrainerUsed>{0} usó {1} neuroentrenador(es) para ir del nivel {2} al nivel {3}.</NeurotrainerUsed>
-  
-  <!-- Artifact -->
-  <UseArtifact>Activar</UseArtifact>
-  
-  <!-- Firefoam popper -->
-  <TriggerFirefoamPopper>Activar espuma contra incendios</TriggerFirefoamPopper>  
   
   <!-- Minification -->
   <Installed>Instalado</Installed>
@@ -324,6 +326,7 @@
   <!-- Game over -->
   <GameOverEveryoneDead>Todos los habitantes de la colonia han muerto o se han ido. Esta historia se acabó.\n\nTal vez alguien le encuentre un uso a estas ruinas en el futuro...</GameOverEveryoneDead>
   <GameOverShipLaunched>¡Haz lanzado la nave! Estos colonos escaparon:\n\n{0}\nEstos colonos se han quedado atrás:\n\n{1}\nAhora la IA intentará guiar a la nave hacia un lugar seguro. Podría encontrar un planeta próspero en este mismo sistema o podría realizar un viaje de siglos hacia otra estrella. Incluso podría decidir quedarse bajo un asteroide por unos cuantos miles de años, esperando que alguien convierta este planeta en un mundobrillante.\n\nLo sabrás cuando despiertes...</GameOverShipLaunched>
+  <GameOverPlanetkillerImpact>A casi la velocidad de la luz, el arma destruyeplanetas se estrelló contra el suelo con la energía de un trillón de bombas de hidrógeno. Como si fuera un globo con agua al que le han disparado con un rifle, el planeta se licúa con el impacto y dispersa su interior líquido a travéz del cosmos.\n\nUna parte de {0} ahora es un cinturón de asteroides. El resto es un páramo radioactivo e infernal azotado constantemente por terremotos de nivel planetario.\n\nNo sobreviviste.</GameOverPlanetkillerImpact>  
   <GameOverKeepPlaying>Seguir jugando</GameOverKeepPlaying>
   <GameOverMainMenu>Menú principal</GameOverMainMenu>
   
@@ -342,5 +345,28 @@
   <DiseaseGrowthModeChanged_Growing>El {1} de {0} está creciendo.</DiseaseGrowthModeChanged_Growing>
   <DiseaseGrowthModeChanged_Stable>El {1} de {0} está estable.</DiseaseGrowthModeChanged_Stable>
   <DiseaseGrowthModeChanged_Remission>El {1} de {0} está en remisión.</DiseaseGrowthModeChanged_Remission>
+  
+  <!-- Marriage spot -->
+  <MarriageSpotUsable>Usable.</MarriageSpotUsable>
+  <MarriageSpotNotUsable>No usable: {0}.</MarriageSpotNotUsable>
+  <MarriageSpotNotStandable>bloqueado</MarriageSpotNotStandable>
+  <MarriageSpotDangerous>demasiado peligroso para {0}</MarriageSpotDangerous>
+  <MarriageSpotForbidden>prohibido para {0}</MarriageSpotForbidden>
+  <MarriageSpotReserved>reservado</MarriageSpotReserved>
+  <MarriageSpotUnreachable>inalcanzable para {0}</MarriageSpotUnreachable>
+  <MarriageSpotInPrisonCell>en prisión</MarriageSpotInPrisonCell>
+  <NotEnjoyableOutsideTemperature>temperatura incómoda</NotEnjoyableOutsideTemperature>
+  
+  <!-- Colonist bar -->
+  <ActivityIconMedicalRest>Descanso médico</ActivityIconMedicalRest>
+  <ActivityIconSleeping>Durmiendo</ActivityIconSleeping>
+  <ActivityIconFleeing>Huyendo</ActivityIconFleeing>
+  <ActivityIconAttacking>Luchando</ActivityIconAttacking>
+  <ActivityIconIdle>Ocioso</ActivityIconIdle>
+  <ActivityIconBurning>Quemándose</ActivityIconBurning>
+
+  <!-- Maintainable -->
+  <DueForMaintenance>Necesita mantenimiento.</DueForMaintenance>
+  <DeterioratingDueToLackOfMaintenance>Deteriorándose debido a la falta de mantenimiento.</DeterioratingDueToLackOfMaintenance>  
   
 </LanguageData>
