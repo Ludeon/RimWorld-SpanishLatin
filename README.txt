@@ -2,7 +2,7 @@ Latin-American-Spanish-translation-of-Rimworld
 
 ===============================
 
-This is the Latin American Spanish translation of Rimworld 0.13.1135 rev816
+This is the Latin American Spanish translation of Rimworld 0.14.1234 rev79
 
 See this page for license info:
 
