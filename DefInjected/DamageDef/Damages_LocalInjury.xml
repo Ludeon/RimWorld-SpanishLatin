@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    
-    <!-- Local injuries -->
-    
+
     <Cut.label>cortante</Cut.label>
 	<Cut.deathMessage>{0} ha recibido un corte mortal.</Cut.deathMessage>
     
@@ -26,6 +24,9 @@
     
     <Bite.label>mordisco</Bite.label>
 	<Bite.deathMessage>{0} ha muerto a mordidas.</Bite.deathMessage>
+	
+	<ToxicBite.label>mordida tóxica</ToxicBite.label>
+	<ToxicBite.deathMessage>{0} ha muerto por una mordida tóxica.</ToxicBite.deathMessage>	
     
     <Bomb.label>explosión</Bomb.label>
 	<Bomb.deathMessage>{0} ha muerto en una explosión.</Bomb.deathMessage>
@@ -33,13 +34,16 @@
     <Flame.label>llama</Flame.label>
     <Flame.deathMessage>{0} ha muerto incinerado(a).</Flame.deathMessage>
 	
+    <Burn.label>quemadura</Burn.label>
+    <Burn.deathMessage>{0} se ha quemado.</Burn.deathMessage>
+
+    <Frostbite.label>congelación</Frostbite.label>
+	<Frostbite.deathMessage>{0} ha muerto congelado(a).</Frostbite.deathMessage>	
+	
     <SurgicalCut.label>corte quirúrgico</SurgicalCut.label>
 	<SurgicalCut.deathMessage>{0} ha muerto durante la cirugía.</SurgicalCut.deathMessage>
     
-    <Frostbite.label>congelación</Frostbite.label>
-	<Frostbite.deathMessage>{0} ha muerto congelado(a).</Frostbite.deathMessage>
-	
-	<ToxicBite.label>mordida tóxica</ToxicBite.label>
-	<ToxicBite.deathMessage>{0} ha muerto por una mordida tóxica.</ToxicBite.deathMessage>
+  <ExecutionCut.label>ejecución</ExecutionCut.label>
+  <ExecutionCut.deathMessage>{0} ha sido ejecutado(a).</ExecutionCut.deathMessage>
 	
     </LanguageData>
