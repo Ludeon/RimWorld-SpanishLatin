@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Mental breaks: extreme -->
+
+    <Berserk.label>berserker</Berserk.label>
+    <Berserk.beginLetterLabel>Berserker</Berserk.beginLetterLabel>
+    <Berserk.beginLetter>¡{0} se ha puesto frenético!</Berserk.beginLetter>
+    <Berserk.recoveryMessage>La ira frenética de {0} se ha terminado.</Berserk.recoveryMessage>
+    <Berserk.inspectLine>Estado Mental: Frenético</Berserk.inspectLine>
+	
+	<FireStartingSpree.label>piromanía</FireStartingSpree.label>
+	<FireStartingSpree.beginLetterLabel>Piromanía</FireStartingSpree.beginLetterLabel>
+	<FireStartingSpree.beginLetter>{0} tiene un ataque de piromanía.</FireStartingSpree.beginLetter>
+	<FireStartingSpree.recoveryMessage>Se ha calmado el ataque de piromanía de {0}.</FireStartingSpree.recoveryMessage>
+	<FireStartingSpree.inspectLine>Estado Mental: Piromanía</FireStartingSpree.inspectLine>	
+
+    <GiveUpExit.label>dándose por vencido</GiveUpExit.label>
+    <GiveUpExit.beginLetterLabel>Deserción</GiveUpExit.beginLetterLabel>
+    <GiveUpExit.beginLetter>{0} se ha dado por vencido(a) y está abandonando la colonia.</GiveUpExit.beginLetter>
+    <GiveUpExit.recoveryMessage>{0} ha cambiado de parecer y está regresando a la colonia.</GiveUpExit.recoveryMessage>
+    <GiveUpExit.inspectLine>Estado Mental: Deserción</GiveUpExit.inspectLine>	
+
+  <!-- Mental breaks: serious -->
+
+    <BingingAlcohol.label>embriagándose</BingingAlcohol.label>
+    <BingingAlcohol.beginLetterLabel>Borrachera</BingingAlcohol.beginLetterLabel>
+    <BingingAlcohol.beginLetter>{0} se está alcoholizando en exceso.</BingingAlcohol.beginLetter>
+    <BingingAlcohol.recoveryMessage>{0} ya no está borracho(a).</BingingAlcohol.recoveryMessage>
+    <BingingAlcohol.inspectLine>Estado Mental: Borrachera</BingingAlcohol.inspectLine>  
+  
+    <WanderPsychotic.label>vagando aturdido</WanderPsychotic.label>
+    <WanderPsychotic.beginLetterLabel>Aturdido</WanderPsychotic.beginLetterLabel>
+    <WanderPsychotic.beginLetter>{0} ha colapsado mentalmente y está vagando por ahí, completamente aturdido(a).</WanderPsychotic.beginLetter>
+    <WanderPsychotic.recoveryMessage>{0} ya no está aturdido(a).</WanderPsychotic.recoveryMessage>
+    <WanderPsychotic.inspectLine>Estado Mental: Aturdido</WanderPsychotic.inspectLine>
+
+  <!-- Mental breaks: minor -->
+
+	<BingingFood.label>atracón de comida</BingingFood.label>
+	<BingingFood.beginLetterLabel>Atracón</BingingFood.beginLetterLabel>
+	<BingingFood.beginLetter>{0} se está tragantando toda la comida.</BingingFood.beginLetter>
+	<BingingFood.recoveryMessage>{0} dejó de atragantarse toda la comida.</BingingFood.recoveryMessage>
+	<BingingFood.inspectLine>Estado Mental: Atracón</BingingFood.inspectLine> 
+
+	<WanderSad.label>vagando triste</WanderSad.label>
+	<WanderSad.beginLetterLabel>Tristeza</WanderSad.beginLetterLabel>
+	<WanderSad.beginLetter>{0} está vagando por ahí, embargado(a) de tristeza.</WanderSad.beginLetter>
+	<WanderSad.recoveryMessage>{0} ha dejado de vagar por ahí.</WanderSad.recoveryMessage>
+	<WanderSad.inspectLine>Estado Mental: Tristeza</WanderSad.inspectLine>
+
+	<WanderOwnRoom.label>encerrado en su habitación</WanderOwnRoom.label>
+	<WanderOwnRoom.beginLetterLabel>Encerrado(a)</WanderOwnRoom.beginLetterLabel>
+	<WanderOwnRoom.beginLetter>{0} se ha encerrado(a) en su habitación.</WanderOwnRoom.beginLetter>
+	<WanderOwnRoom.recoveryMessage>{0} ya no está encerrado(a) en su habitación.</WanderOwnRoom.recoveryMessage>
+	<WanderOwnRoom.inspectLine>Estado Mental: Encerrado(a)</WanderOwnRoom.inspectLine>	
+  
+    <ConfusedWander.label>vagando confundido</ConfusedWander.label>
+    <ConfusedWander.beginLetterLabel>Confusión</ConfusedWander.beginLetterLabel>
+    <ConfusedWander.beginLetter>{0} a colapsado mentalmente y está vagando por ahí, completamente confundido(a).</ConfusedWander.beginLetter>
+    <ConfusedWander.recoveryMessage>{0} ya no está confundido(a).</ConfusedWander.recoveryMessage>
+    <ConfusedWander.inspectLine>Estado Mental: Confundido</ConfusedWander.inspectLine>
+  
+    <PanicFlee.label>huida despavorida</PanicFlee.label>
+    <PanicFlee.beginLetterLabel>Huida</PanicFlee.beginLetterLabel>
+    <PanicFlee.beginLetter>{0} está huyendo en pánico.</PanicFlee.beginLetter>
+    <PanicFlee.recoveryMessage>{0} ya no está huyendo en pánico.</PanicFlee.recoveryMessage>
+    <PanicFlee.inspectLine>Estado Mental: Pánico</PanicFlee.inspectLine>
+
+    <Manhunter.label>cazahombres</label>
+    <Manhunter.beginLetterLabel>Cazahombres</Manhunter.beginLetterLabel>
+    <Manhunter.beginLetter>¡{0} se ha vuelto un cazahombres!</Manhunter.beginLetter>
+    <Manhunter.recoveryMessage>La sed de sangre humana de {0} se ha terminado.</Manhunter.recoveryMessage>
+    <Manhunter.inspectLine>Enloquecido: Cazahombres</Manhunter.inspectLine>
+	
+    <SocialFighting.label>Pelea</SocialFighting.label>
+    <SocialFighting.recoveryMessage>{0} y {1} ya no están peleando.</SocialFighting.recoveryMessage>
+    <SocialFighting.inspectLine>Pelea</SocialFighting.inspectLine>	
+
+  <!-- Unused? -->
+
+
+
+</LanguageData>

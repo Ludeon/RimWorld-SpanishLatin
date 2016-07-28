@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Special mental states -->
+
+    <WanderConfused.label>vagando confundido</WanderConfused.label>
+    <WanderConfused.beginLetterLabel>Confusión</WanderConfused.beginLetterLabel>
+    <WanderConfused.beginLetter>{0} a colapsado mentalmente y está vagando por ahí, completamente confundido(a).</WanderConfused.beginLetter>
+    <WanderConfused.recoveryMessage>{0} ya no está confundido(a).</WanderConfused.recoveryMessage>
+    <WanderConfused.inspectLine>Derrotado: Confundido</WanderConfused.inspectLine>
+  
+    <PanicFlee.label>huida despavorida</PanicFlee.label>
+    <PanicFlee.beginLetterLabel>Huida</PanicFlee.beginLetterLabel>
+    <PanicFlee.beginLetter>{0} está huyendo en pánico.</PanicFlee.beginLetter>
+    <PanicFlee.recoveryMessage>{0} ya no está huyendo en pánico.</PanicFlee.recoveryMessage>
+    <PanicFlee.inspectLine>Derrotado: Pánico</PanicFlee.inspectLine>
+
+    <Manhunter.label>cazahombres</label>
+    <Manhunter.beginLetterLabel>Cazahombres</Manhunter.beginLetterLabel>
+    <Manhunter.beginLetter>¡{0} se ha vuelto un cazahombres!</Manhunter.beginLetter>
+    <Manhunter.recoveryMessage>La sed de sangre humana de {0} se ha terminado.</Manhunter.recoveryMessage>
+    <Manhunter.inspectLine>Enloquecido: Cazahombres</Manhunter.inspectLine>
+	
+    <SocialFighting.label>Pelea</SocialFighting.label>
+    <SocialFighting.recoveryMessage>{0} y {1} ya no están peleando.</SocialFighting.recoveryMessage>
+    <SocialFighting.inspectLine>Pelea</SocialFighting.inspectLine>	
+
+</LanguageData>
