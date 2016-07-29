@@ -9,18 +9,9 @@
     
     <CommsConsole.label>Consola de comunicaciones</CommsConsole.label>
     <CommsConsole.description>En este lugar puedes ponerte en contacto con facciones y naves cercanas para negociar y comerciar.</CommsConsole.description>
-    
-    <Grave.label>Tumba</Grave.label>
-    <Grave.description>Coloca a los muertos en tumbas para darles un lugar de descanso definitivo decente.</Grave.description>
-	
-	<Sarcophagus.label>Sarcófago</Sarcophagus.label>
-	<Sarcophagus.description>Un lugar de descanso final bellamente decorado para los muertos honrados.</Sarcophagus.description>	
-	
-    <FirefoamPopper.label>Espuma cortafuegos</FirefoamPopper.label>
-    <FirefoamPopper.description>Cuando es tocado po el fuego o activado a mano, este objeto revienta y llena de espuma cortafuegos un área circular a su alrededor.</FirefoamPopper.description>
-	
-  <!-- Passive equipment -->
-  
+
+  <!-- Facilities -->
+
 	<MultiAnalyzer.label>Multi-analizador</MultiAnalyzer.label>
 	<MultiAnalyzer.description>Aumenta la velocidad de la investigación. Debe ser colocado al lado de una mesa de la investigación. Cada mesa de investigación solo puede tener asignado un multi-analizador.</MultiAnalyzer.description>
 	
@@ -28,15 +19,26 @@
 	<VitalsMonitor.description>Mejora la calidad del tratamiento médico. Debe ser colocado al lado de una cama hospitalaria. Cada cama hospitalaria sólo se puede conectar con un monitor de vitalidad.</VitalsMonitor.description>
 	
 	<ToolCabinet.label>Gabinete para herramientas</ToolCabinet.label>
-	<ToolCabinet.description>Aumenta la velocidad de trabajo. Debe ser colocado al lado de una mesa de trabajo. Cada mesa de trabajo solo puede tener asignado un armario de herramientas.</ToolCabinet.description>    
-    
+	<ToolCabinet.description>Aumenta la velocidad de trabajo. Debe ser colocado al lado de una mesa de trabajo. Cada mesa de trabajo solo puede tener asignado un armario de herramientas.</ToolCabinet.description> 
+
+    <FirefoamPopper.label>Espuma cortafuegos</FirefoamPopper.label>
+    <FirefoamPopper.description>Cuando es tocado po el fuego o activado a mano, este objeto revienta y llena de espuma cortafuegos un área circular a su alrededor.</FirefoamPopper.description>
+
+	<MoisturePump.label>Bomba de humedad</MoisturePump.label>
+	<MoisturePump.description>Lentamente remueve la humedad del terreno cercano, convirtiendo ciénagas y aguas poco profundas en suelo seco. No afecta aguas profundas.</MoisturePump.description>
+
+  <!-- =================================================== -->
+	
+    <Grave.label>Tumba</Grave.label>
+    <Grave.description>Coloca a los muertos en tumbas para darles un lugar de descanso definitivo decente.</Grave.description>
+	
+	<Sarcophagus.label>Sarcófago</Sarcophagus.label>
+	<Sarcophagus.description>Un lugar de descanso final bellamente decorado para los muertos honrados.</Sarcophagus.description>	
+
     <!-- Cryptosleep casket -->
     
     <CryptosleepCasket.label>Sarcófago de criptosueño</CryptosleepCasket.label>
     <CryptosleepCasket.description>Un sarcófago autoalimentado y diseñado para mantener a una persona con vida en un estado de animación suspendida durante muchos años.</CryptosleepCasket.description>
-    
-    <AncientCryptosleepCasket.label>Sarcófago de criptosueño antiguo</AncientCryptosleepCasket.label>
-    <AncientCryptosleepCasket.description>Este sarcófago de criptosueño tiene la apariencia de haber estado en este lugar desde hace mucho tiempo. ¿Quién sabe qué habrá en su interior?</AncientCryptosleepCasket.description>
 
     <MarriageSpot.label>Altar</MarriageSpot.label>
     <MarriageSpot.Description>Designa un lugar donde las ceremonias de matrimonio se llevarán a cabo. El público observará desde ambos lados.</MarriageSpot.Description>
