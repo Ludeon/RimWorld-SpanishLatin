@@ -41,7 +41,6 @@
 	<NoFuelToRefuel>necesita {0}</NoFuelToRefuel>  
 
   <ConsumeThing>Consumir {0}</ConsumeThing>
-  <Teetotaler>abstemio</Teetotaler>
   
   <CannotGoNoPath>No se puede llegar aquí (no hay camino)</CannotGoNoPath>
   <GoHere>Ir aquí</GoHere>
@@ -109,12 +108,14 @@
 
   <CannotGenericAlreadyAm>Ya se está {0}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeIsNotA>No se puede priorizar ({0} no es un(a) {1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeWorkTypeDisabled>No se puede priorizar (jamás {0})</CannotPrioritizeWorkTypeDisabled>
+  
+  <CannotPrioritizeNotAssignedToWorkType>No se puede priorizar (no asignado a {0})</CannotPrioritizeNotAssignedToWorkType>
 
-  <CannotPrioritizeResearch>No se puede priorizar (investigar es una tarea a largo plazo)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>No se puede priorizar (la investigación es una tarea a largo plazo)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>No se puede priorizar ({0} está prohibido(a))</CannotPrioritizeForbidden>
-  <CannotPrioritizeForbiddenOutsideAllowedArea>No se puede priorizar ({0} está fuera del área permitida)</CannotPrioritizeForbiddenOutsideAllowedArea>  
+  <CannotPrioritizeForbiddenOutsideAllowedArea>No se puede priorizar ({0} está fuera del área permitida)</CannotPrioritizeForbiddenOutsideAllowedArea>
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Priorizar {0} {1}</PrioritizeGeneric>

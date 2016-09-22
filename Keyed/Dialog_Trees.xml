@@ -7,18 +7,23 @@
 
   <Disconnect>Desconectarse</Disconnect>
 
+  <!-- gift offer -->
   <OfferGift>Ofrecer regalo</OfferGift>
   <NeedSilverLaunchable>necesita {0} de plata cerca de una baliza de comercio</NeedSilverLaunchable>
   <NotEnoughSilver>No hay suficiente plata.</NotEnoughSilver>
   <SilverForGoodwill>{0} de plata por {1} de buena voluntad</SilverForGoodwill>
   <SilverGiftSent>El representante de {0} te agradece.\n\n(Buena voluntad mejorada en {1}).</SilverGiftSent>
 
-
+  <!-- trade caravan request -->
+  <RequestTrader>Solicitar caravana mercante (costo: {0} de plata)</RequestTrader>
+  <ChooseTraderKind>{0} pregunta que clase de caravana mercante necesitas.</ChooseTraderKind>
+  <TraderSent>{0} acepta enviarte la caravana. Llegará en unos pocos días.</TraderSent>
+ 
+  <!-- military aid request -->
   <RequestMilitaryAid>Solicita apoyo militar inmediato ({0} de buena voluntad)</RequestMilitaryAid>
   <MilitaryAidConfirmMutualEnemy>{0} no te ayudará a pelear con otras facciones que no sean sus enemigos. Esto incluye algunas que te amenazan actualmente, {1}. ¿Aún quieres pedir ayuda?</MilitaryAidConfirmMutualEnemy>
   <CallConfirm>Si, llamémoslos de todos modos.</CallConfirm>
   <CallCancel>No, olvídalo.</CallCancel>
   <MilitaryAidSent>El representante de {0} acepta mandarte apoyo militar.</MilitaryAidSent>
-  
-  
+   
 </LanguageData>

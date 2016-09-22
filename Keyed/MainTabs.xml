@@ -12,20 +12,22 @@
   <IncapableOfWorkTypeBecauseOfCapacities>Este colono no puede hacer trabajo de este tipo por un problema de salud.</IncapableOfWorkTypeBecauseOfCapacities>
   <EmergencyWorkMarker>E</EmergencyWorkMarker>  
 
-  <!-- Outfits tab -->
+  <!-- Assign tab -->
   <CurrentOutfit>Vestimenta actual</CurrentOutfit>
   <ManageOutfits>Administrar vestimentas</ManageOutfits>
   <ClearForcedApparel>Desasignar forzadas</ClearForcedApparel>
   <ApparelForcedLower>forzada</ApparelForcedLower>
   <ForcedApparel>Atuendo forzado</ForcedApparel>
-  <OutfitEdit>Editar...</OutfitEdit>
+  <AssignTabEdit>Editar...</AssignTabEdit>
+  <CurrentDrugPolicies>Política de drogas presente</CurrentDrugPolicies>
+  <ManageDrugPolicies>Administrar políticas de drogas</ManageDrugPolicies>
   
-   <!-- Restrictions tab -->
+  <!-- Restrictions tab -->
   <Copy>Copiar</Copy>
   <Paste>Pegar</Paste>
   <AllowedArea>Permitir área</AllowedArea>
   
-   <!-- Animals tab -->
+  <!-- Animals tab -->
   <Master>Amo</Master>
   <PregnantIconDesc>Embarazo ({0} / {1})</PregnantIconDesc>  
     
@@ -33,8 +35,22 @@
   <Hostile>Hostil</Hostile>
   <HostileTo>Enemigo de {0}</HostileTo>
   <CurrentGoodwill>Buena voluntad actual con esta facción.</CurrentGoodwill>
+
+  <!-- History tab - subtabs -->
+  <Graph>Gráfica</Graph>
+  <Statistics>Estadísticas</Statistics>
   
-  <!-- Statistics tab -->
+  <!-- History tab - Graphs -->
+  <SelectGraph>Seleccionar gráfica</SelectGraph>
+  <Last30Days>30 días</Last30Days>
+  <Last100Days>100 días</Last100Days>
+  <Last300Days>300 días</Last300Days>
+  <AllDays>Todos</AllDays>
+  <Day>Día</Day>
+  <Value>Valor</Value>
+  <External>Externo</External>
+  
+  <!-- History tab - Statistics -->
   <Playtime>Tiempo de juego</Playtime>
   <Storyteller>Cuentacuentos</Storyteller>
   <ColonyWealthTotal>Riqueza de la colonia</ColonyWealthTotal>
@@ -45,16 +61,6 @@
   <DamageTaken>Daño recibido</DamageTaken>
   <ColonistsKilled>Colonos asesinados</ColonistsKilled>
   <ColonistsLaunched>Colonos lanzados al espacio</ColonistsLaunched>
-
-  <!-- History tab -->
-  <SelectGraph>Seleccionar gráfica</SelectGraph>
-  <Last30Days>30 días</Last30Days>
-  <Last100Days>100 días</Last100Days>
-  <Last300Days>300 días</Last300Days>
-  <AllDays>Todos</AllDays>
-  <Day>Día</Day>
-  <Value>Valor</Value>
-  <External>Externo</External>
   
   <!-- Research tab -->
   <ProjectTechLevel>nivel tecnológico del proyecto</ProjectTechLevel>

@@ -4,6 +4,11 @@
   <Confirm>Confirmar</Confirm>
   <GoBack>Regresar</GoBack>
   <OK>OK</OK>
+
+  <!-- Game updated to new version -->
+  <GameUpdatedToNewVersionInitial>RimWorld se ha actualizado de la versión {0} a la {1}.\n\nEsto puede causar que las partidas guardadas y los mods de la versión anterior dejen de funcionar.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionNonSteam>Ya que esta es una copia libre de protección anti-piratería, puedes instalar el juego dos veces en diferentes carpetas, para que puedas jugar tanto con la versión nueva como la anterior.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>Si deseas continuar con la versión anterior, puedes optar por usar la opción de "Betas" de Steam.\n\n  1. En la librería de Steam, haz click derecho en Rimworld.\n  2. Da click en propiedades.\n  3. Selecciona la pestaña de betas.\n  4. Selecciona la versión que desees del menú.\n\nLas versiones antiguas se irán borrando de la lista con el tiempo. No queríamos destruir partidas en progreso.\n\nToma nota de que si los autores de un mod lo actualizan a una versión nueva, probablemente deje de funcionar para las anteriores. Podrías querer apagar las actualizaciones automáticas para prevenirlo.</GameUpdatedToNewVersionSteam>
   
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>El juego se ha recuperado de un error de incompatibilidad o corrupción del mod</RecoveredFromErrorsDialogTitle>
@@ -18,6 +23,9 @@
   <ErrorWhileLoadingMapTitle>Error cargando el mapa</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Un error ha ocurrido mientras se cargaba el mapa. Revisa el registro para más información.</ErrorWhileLoadingMap>
 
+  <!-- Unloaded mod with an assembly -->
+  <ModWithAssemblyWasUnloaded>El juego no puede dejar de usar código de mods desactivados, así que aún podría estar activo.\n\nSe recomienda que reinicies el juego para que todos los mods se carguen limpiamente.</ModWithAssemblyWasUnloaded>  
+  
   <!-- Missing Steam -->
   <SteamClientMissing>No se pudo inicializar la API de Steam. Causas probables:\n\n-Steam no está abierto.\n-Se abrió el juego fuera de Steam y el archivo steam_appid.txt no está en su lugar.\n-Se abrió el juego con privilegios diferentes de los del cliente de Setam ("como administrador").\n\nEsta versión del juego requiere Steam así que ahora se cerrará.</SteamClientMissing>
   
@@ -114,7 +122,7 @@
   <CurrentlyHave>Actualmente tienes</CurrentlyHave>
   <CountingProducts>Contando</CountingProducts>
   <Infinite>Infinito</Infinite>
-  <MinimumSkillLevel>Hab. de {0} mínima</MinimumSkillLevel>
+  <AllowedSkillRange>Hab. de {0} mínima</AllowedSkillRange>
   
   <RecipeCannotHaveTargetCount>(Esta receta no puede tener una cantidad objetivo porque tiene muchos posibles productos o son impredecibles)</RecipeCannotHaveTargetCount>
   <WorkAmount>Cantidad de trabajo</WorkAmount>
@@ -162,7 +170,9 @@
   <Diet>Dieta</Diet>
   <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
   <MarketValue>Precio base</MarketValue>
-  <Covers>Cubre</Covers>
+  <Covers>Cobertura</Covers>
+  <CoverEffectiveness>Efectividad de cobertura</CoverEffectiveness>
+  <CoverEffectivenessExplanation>Que tan efectiva es cuando se usa como cobertura durante un tiroteo. Un porcentaje más alto detendrá más disparos.</CoverEffectivenessExplanation>  
   <MedicineXpGainFactor>Factor de ganancia de experiencia</MedicineXpGainFactor>  
   <BodyPartEfficiency>Eficiencia del miembro</BodyPartEfficiency>
   <MoodChange>Cambio de humor</MoodChange>
@@ -172,9 +182,10 @@
   <AnimalFilthRateExplanation>Los animales producen suciedad al moverse por ahí en pisos artificiales. Ésta es la cantidad promedio de tal suciedad producida por cada {0} celdas caminadas por esta creatura.\n\nLos animales más grandes o menos domesticables producen más suciedad.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Tiempo</TimeRecordsCategory>
   <MiscRecordsCategory>Varios</MiscRecordsCategory>
+  <Addictiveness>Potencial de adicción</Addictiveness>  
   
   <!-- Trade -->
-  <DragToTrade>Cantidad de cada objeto\na comerciar</DragToTrade>
+  <PositiveBuysNegativeSells>Números positivos compran.\nNúmeros negativos venden.</PositiveBuysNegativeSells>  
   <BuyPriceDesc>Precio que pagarás por esto.</BuyPriceDesc>
   <SellPriceDesc>Precio que recibirás por esto.</SellPriceDesc>
   <PriceTypeDesc>Por este objeto, el precio es {0}.</PriceTypeDesc>
@@ -183,6 +194,7 @@
   <AcceptButton>Aceptar</AcceptButton>
   <ResetButton>Reiniciar</ResetButton>
   <CancelButton>Cancelar</CancelButton>
+  <CloseButton>Cerrar</CloseButton>  
   <YourTradeableSilver>Plata disponible: {0}</YourTradeableSilver>
 	<YourTradeableSilverTip>Solamente podrás comerciar con la plata que se encuentre en exteriores y cerca de una baliza de comercio orbital.</YourTradeableSilverTip>
   <TraderHasNoMore>Agotado.</TraderHasNoMore>
@@ -214,6 +226,39 @@
   <DeleteOutfit>Borrar vestimenta...</DeleteOutfit>
   <OutfitInUse>Vestimenta usada por {0}.</OutfitInUse>
   <NoOutfitSelected>Vestimenta sin seleccionar</NoOutfitSelected>
+
+  <!-- Drug policy management -->
+  <DrugPolicy>Política de drogas</DrugPolicy>
+  <SelectDrugPolicy>Seleccionar política...</SelectDrugPolicy>
+  <NewDrugPolicy>Nueva política</NewDrugPolicy>
+  <DeleteDrugPolicy>Borrar política...</DeleteDrugPolicy>
+  <DrugPolicyInUse>Política en uso por {0}.</DrugPolicyInUse>
+  <SocialDrugs>Drogas sociales</SocialDrugs>
+  <NoDrugs>Sin drogas</NoDrugs>
+  <OneDrinkPerDay>Una bebida al día</OneDrinkPerDay>
+  <Unrestricted>Sin restricción</Unrestricted>
+  <NoDrugPolicySelected>Sin política seleccionada</NoDrugPolicySelected>
+  <AddDrug>Añadir droga...</AddDrug>
+  <DrugColumnLabel>Droga</DrugColumnLabel>
+  <DrugUsageColumnLabel>Uso</DrugUsageColumnLabel>
+  <FrequencyColumnLabel>Frecuencia</FrequencyColumnLabel>
+  <MoodThresholdColumnLabel>Humor por debajo de</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Humor por encima de</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>Cargar al inventario</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(sin drogas)</NoDrugsBrackets>
+  <EveryDay>Cada día</EveryDay>
+  <TimesPerDay>{0} veces al día</TimesPerDay>
+  <EveryDays>Cada {0} días</EveryDays>
+  <NoDrugUseRequirement>Cualquiera</NoDrugUseRequirement>
+  <DeleteDrugTooltip>Borrar esta droga.</DeleteDrugTooltip>
+  <DrugNameColumnDesc>El nombre de la droga.</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>Cómo se permite usar la droga.</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>Qué tan seguido los colonos probarán esta droga.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>Los colonos tomarán esta droga solo si su humor está por debajo de este nivel.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Los colonos tomarán esta droga solo si su diversión está por debajo de este nivel.</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>La cantidad extra de droga que se tomará para consumo, para evitar que el colono tenga que visitar el almacén cada vez.</TakeToInventoryColumnDesc>
+  <DrugUsageTipForJoy>Por diversión\n\nUsar esta droga para diversión, socialización y para satisfacer necesidades de adicción, como se requiera.\n\nAunque se desactive, algunos personajes con rasgos específicos, o en medio de un colapso mental, podrían usarlas de todas formas.</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>Agendada\n\nUsar esta droga con un horario específico, cuando se cumplan las condiciones.</DrugUsageTipScheduled>
   
   <!-- Growing -->
   <NoGrowerCanPlant>El/La {0} requiere {1} de habilidad en agricultura para sembrarse.\n\nNinguno de tus agricultores conscientes posee esta habilidad, así que no se sembrará ésto.</NoGrowerCanPlant>  

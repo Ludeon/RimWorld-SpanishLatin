@@ -58,7 +58,18 @@
   <TimePassed>tiempo transcurrido</TimePassed>
   <CurrentRadius>radio presente</CurrentRadius>
   <RadiusExpandsIn>radio se expande en</RadiusExpandsIn>
-  <Permanent>permanente</Permanent>  
+  <Permanent>permanente</Permanent>
+  <Temperature>Temperatura</Temperature>
+  <BadTemperature>mala temperatura</BadTemperature>
+  <IdealFermentingTemperature>Temperatura ideal de fermentación</IdealFermentingTemperature>
+  <DrugEffectMultiplier>multiplicador de efecto {0}</DrugEffectMultiplier>  
+
+  <!-- Fermentation barrel -->
+  <ContainsWort>Contiene {0} / {1} de mosto.</ContainsWort>
+  <ContainsBeer>Contiene {0} / {1} de cerveza.</ContainsBeer>
+  <Fermented>Fermentado</Fermented>
+  <FermentationProgress>Progreso: {0} (se termina en {1}).</FermentationProgress>
+  <FermentationBarrelOutOfIdealTemperature>Temperatura no ideal. Multiplicador de velocidad de fermentación: {0}</FermentationBarrelOutOfIdealTemperature>
   
   <!--TextMotes-->
   <Headshot>Disparo a la cabeza</Headshot>
@@ -73,8 +84,8 @@
   <TextMote_TameSuccess>¡Domesticado! probabilidad del \n{0}</TextMote_TameSuccess>
   <TextMote_TrainFail>Entrenamiento fallido: probabilidad del {0}\n{1}</TextMote_TrainFail>
   <TextMote_TrainSuccess>Entrenado: probabilidad del {0}\n{1}</TextMote_TrainSuccess>
-  <TextMote_FixBrokenDownBuildingFail>Reparación\nfallida</TextMote_FixBrokenDownBuildingFail>  
-
+  <TextMote_FixBrokenDownBuildingFail>Reparación\nfallida</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_ConstructionFail>Construcción\nfallida</TextMote_ConstructionFail>  
 
   <!-- Areas -->
   <Home>Hogar</Home>
@@ -249,6 +260,7 @@
   <Undiscovered>Sin descubrir</Undiscovered>
   
   <!-- Buttons -->
+  <ShowLearningHelperWhenEmptyToggleButton>Alterna la visibilidad del asistente de aprendizaje cuando está vacío.\n\nEl asistente de aprendizaje siempre está visible si hay algún concepto activado para aprendizaje. Esto lo hace desaparecer cuando ningún concepto está activo.</ShowLearningHelperWhenEmptyToggleButton>  
   <ZoneVisibilityToggleButton>Alterna la visibilidad de las áreas.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Alterna la visualización de belleza.\n\nPresenta la belleza del mundo desde el punto de vista de alguien situado donde se posa el cursor.</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>Alterna la visualización de estadísticas habitacionales.\n\nPresenta las estadísticas de la habitación donde se posa el cursor.</ShowRoomStatsToggleButton>
@@ -256,6 +268,7 @@
   <AutoHomeAreaToggleButton>Alterna la expansión automática del área del hogar alrededor de construcciones nuevas.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Alterna el modo categorizado de la lista de recursos.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Alterna la visualización de los nombres de los animales domésticos.</ShowAnimalNamesToggleButton>
+  <ShowRoofOverlayToggleButton>Alternar visibilidad de techos.</ShowRoofOverlayToggleButton>  
   
   <!-- Fire -->
   <Fire>Fuego</Fire>
@@ -368,5 +381,15 @@
   <!-- Maintainable -->
   <DueForMaintenance>Necesita mantenimiento.</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>Deteriorándose debido a la falta de mantenimiento.</DeterioratingDueToLackOfMaintenance>  
+
+  <!-- Deep drill -->
+  <ProgressToNextLump>Progreso hacia el siguiente lote</ProgressToNextLump>
+  <ResourceBelow>Recursos debajo</ResourceBelow>
+  
+  <!-- Learning helper -->
+  <LearningHelper>Asistende de aprendizaje</LearningHelper>
+  <MarkLearned>Marcar como aprendido</MarkLearned>
+  <AlreadyLearned>Ya aprendido</AlreadyLearned>
+  <Filter>Filtro</Filter>
   
 </LanguageData>

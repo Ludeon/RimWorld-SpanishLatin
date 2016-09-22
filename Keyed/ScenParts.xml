@@ -19,6 +19,9 @@
   <ScenPart_PawnsHaveHediff>{0} tiene una probabilidad de {1} de empezar con {2}.</ScenPart_PawnsHaveHediff>
   <ConfigurableSeverity>severidad: {0}</ConfigurableSeverity>
 
+  <ScenPart_SetNeed>{0} tiene un {1} de probabilidad de tener su {2} entre {3} y {4}.</ScenPart_SetNeed>
+  <ConfigurableLevel>nivel: {0}</ConfigurableLevel>  
+
   <ScenPart_PawnsHaveTrait>{0} tiene una probabilidad de {1} de empezar con el rasgo: {2}</ScenPart_PawnsHaveTrait>
   <ScenPart_OnPawnDeathExplode>Personajes y creaturas explotan al morir ({0}, radio {1}).</ScenPart_OnPawnDeathExplode>
 
@@ -34,6 +37,7 @@
   <ScenPart_MapScatteredWith>En el mapa se han dispersado los siguientes objetos</ScenPart_MapScatteredWith>
   <ScenPart_PermaMapCondition>Condiciones permanentes del mapa</ScenPart_PermaMapCondition>
   <ScenPart_DisableIncident>Incidentes desactivados</ScenPart_DisableIncident>
+  <ScenPart_CreateIncident>Incidentes creados</ScenPart_CreateIncident>  
   <ScenPart_DisallowBuilding>Construcción desactivada</ScenPart_DisallowBuilding>
 
 </LanguageData>
