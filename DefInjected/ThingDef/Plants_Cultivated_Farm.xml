@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!--=========================== Crops ==============================-->
+  <!--=========================== Food Crops ==============================-->
 
     <PlantPotato.label>Papa</PlantPotato.label>
     <PlantPotato.description>Una simple y altamente nutritiva planta tuberculosa. Crece bien incluso en suelos pobres.</PlantPotato.description>
@@ -17,9 +17,8 @@
 	
     <PlantStrawberry.label>Fresa</PlantStrawberry.label>
     <PlantStrawberry.description>Posee un fruto sabroso pero frágil. Delicioso incluso crudo.</PlantStrawberry.description>
-	
-	<PlantHops.label>Lúpulo</PlantHops.label>
-	<PlantHops.description>Una planta cuyas flores son esenciales para la elaboracion de la cerveza.</PlantHops.description>
+
+	<!--=========================== Production crops ==============================-->
     
     <PlantCotton.label>Algodón</PlantCotton.label>
     <PlantCotton.description>Produce algodón, una fibra orgánica decente utilizada para fabricar ropa.</PlantCotton.description>
@@ -29,5 +28,16 @@
     
     <PlantHealroot.label>Xerigia</PlantHealroot.label>
     <PlantHealroot.description>Esta planta ha sido cruzada selectivamente por colonos durante siglos. También es conocida como &quot;Mano de curandero&quot; por culturas indígenas - un apodo surgido de sus cinco principales virtudes medicinales.</PlantHealroot.description>
+	
+	<!--=========================== Drug crops ==============================-->	
+		
+	<PlantHops.label>Lúpulo</PlantHops.label>
+	<PlantHops.description>Una planta cuyas flores son esenciales para la elaboracion de la cerveza.</PlantHops.description>
 
+	<PlantPsychoid.label>Psicoide</PlantPsychoid.label>
+	<PlantPsychoid.description>Una planta de abundantes hojas. Sus hojas se pueden refinar para convertirse en las drogas flaca y yaya.</PlantPsychoid.description>
+  
+	<PlantSmokeleaf.label>Viejo Toby</PlantSmokeleaf.label>
+	<PlantSmokeleaf.description>Una planta de abundantes hojas cultivada por sus efectos psicológicos. Sus hojas se pueden enrrollar en churros fumables en la zona de artesanía.</PlantSmokeleaf.description>	
+	
 </LanguageData>
