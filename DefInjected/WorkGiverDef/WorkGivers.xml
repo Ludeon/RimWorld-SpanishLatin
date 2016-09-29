@@ -27,7 +27,7 @@
   <DoBillsMedicalHumanOperation.verb>operar a</DoBillsMedicalHumanOperation.verb>
   <DoBillsMedicalHumanOperation.gerund>operación de</DoBillsMedicalHumanOperation.gerund>
   
-  <DoBillsMedicalAnimalOperation.label>operar animalesn</DoBillsMedicalAnimalOperation.label>
+  <DoBillsMedicalAnimalOperation.label>operar animales</DoBillsMedicalAnimalOperation.label>
   <DoBillsMedicalAnimalOperation.verb>operar a</DoBillsMedicalAnimalOperation.verb>
   <DoBillsMedicalAnimalOperation.gerund>operación de</DoBillsMedicalAnimalOperation.gerund>
 
@@ -87,7 +87,7 @@
 
   <!-- ============= Handling ============= -->
 
-  <Slaughter.label>sacrificio de animales</Slaughter.label>
+  <Slaughter.label>sacrificar animales</Slaughter.label>
   <Slaughter.verb>sacrificar a</Slaughter.verb>
   <Slaughter.gerund>sacrificio de</Slaughter.gerund>
   
@@ -178,15 +178,15 @@
   <FixBrokenDownBuilding.label>reparar estructuras</FixBrokenDownBuilding.label>
   <FixBrokenDownBuilding.verb>reparar</FixBrokenDownBuilding.verb>
   <FixBrokenDownBuilding.gerund>reparación de</FixBrokenDownBuilding.gerund>
-  
-  <Repair.label>reparar objetos</Repair.label>
-  <Repair.verb>reparar</Repair.verb>
-  <Repair.gerund>reparación de</Repair.gerund>
 
   <DoBillsMedicalMechanoidOperation.label>operar mecanoides</DoBillsMedicalMechanoidOperation.label>
   <DoBillsMedicalMechanoidOperation.verb>modificar</DoBillsMedicalMechanoidOperation.verb>
   <DoBillsMedicalMechanoidOperation.gerund>modificación de</DoBillsMedicalMechanoidOperation.gerund>
-  
+   
+  <Repair.label>reparar objetos</Repair.label>
+  <Repair.verb>reparar</Repair.verb>
+  <Repair.gerund>reparación de</Repair.gerund>
+
   <!-- ============= Growing ============= -->
 
   <GrowerHarvest.label>cosecha de cultivos</GrowerHarvest.label>
@@ -202,6 +202,10 @@
   <Mine.label>minar</Mine.label>
   <Mine.verb>minar</Mine.verb>
   <Mine.gerund>minado de</Mine.gerund>
+
+  <Drill.label>taladrar</Drill.label>
+  <Drill.verb>taladrar</Drill.verb>
+  <Drill.gerund>taladrado</Drill.gerund>
   
   <!-- ============= PlantCutting ============= -->
   
@@ -248,6 +252,11 @@
   <DoBillsSmelter.label>fundir objetos</DoBillsSmelter.label>
   <DoBillsSmelter.verb>fundir</DoBillsSmelter.verb>
   <DoBillsSmelter.gerund>fundición de</DoBillsSmelter.gerund>
+
+  <DoBillsProduceDrugs.label>producir drogas</DoBillsProduceDrugs.label>
+  <DoBillsProduceDrugs.verb>producir</DoBillsProduceDrugs.verb>
+  <DoBillsProduceDrugs.gerund>producción de</DoBillsProduceDrugs.gerund>
+ 
   
   <!-- ============= Hauling ============= -->
   
@@ -266,10 +275,22 @@
   <Open.label>abrir contenedores</Open.label>
   <Open.verb>abrir</Open.verb>
   <Open.gerund>apertura de</Open.gerund>
+
+  <TakeBeerOutOfFermentingBarrel.label>recolectar cerveza del fermentador</TakeBeerOutOfFermentingBarrel.label>
+  <TakeBeerOutOfFermentingBarrel.verb>recolectar</TakeBeerOutOfFermentingBarrel.verb>
+  <TakeBeerOutOfFermentingBarrel.gerund>recolectado de</TakeBeerOutOfFermentingBarrel.gerund>
   
+  <FillFermentingBarrel.label>llenar barril fermentador</FillFermentingBarrel.label>
+  <FillFermentingBarrel.verb>llenar</FillFermentingBarrel.verb>
+  <FillFermentingBarrel.gerund>llenado de</FillFermentingBarrel.gerund>
+   
   <DoBillsCremate.label>cremar cuerpos</DoBillsCremate.label>
   <DoBillsCremate.verb>cremar a</DoBillsCremate.verb>
   <DoBillsCremate.gerund>cremación de</DoBillsCremate.gerund>
+
+  <DoBillsHaulCampfire.label>trabajar en la fogata</DoBillsHaulCampfire.label>
+  <DoBillsHaulCampfire.verb>trabajar aquí</DoBillsHaulCampfire.verb>
+  <DoBillsHaulCampfire.gerund>trabajo en la</DoBillsHaulCampfire.gerund>
   
   <BuryCorpses.label>enterrar cuerpos</BuryCorpses.label>
   <BuryCorpses.verb>enterrar a</BuryCorpses.verb>
