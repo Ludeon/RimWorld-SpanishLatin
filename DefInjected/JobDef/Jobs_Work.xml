@@ -5,8 +5,12 @@
     
     <HaulToCell.reportString>Acarreando TargetA.</HaulToCell.reportString>    
     <HaulToContainer.reportString>Acarreando TargetA.</HaulToContainer.reportString>
-	<Steal.reportString>Robando TargetA.</Steal.reportString>	
-    
+
+  <!--============= Special hauling ===============-->
+
+	<Steal.reportString>Robando TargetA.</Steal.reportString>
+	<Kidnap.reportString>Secuestrando a TargetA.</Kidnap.reportString>
+  
     <!--============= Pawn hauling ===============-->
     
     <Rescue.reportString>Rescatando a TargetA.</Rescue.reportString>   
@@ -17,7 +21,6 @@
     <EscortPrisonerToBed.reportString>Escoltando a TargetA.</EscortPrisonerToBed.reportString>
     <TakeWoundedPrisonerToBed.reportString>Llevando al prisionero herido TargetA.</TakeWoundedPrisonerToBed.reportString>
     <TakeToBedToOperate.reportString>Llevando a TargetA a operar.</TakeToBedToOperate.reportString>
-    <Kidnap.reportString>Secuestrando a TargetA.</Kidnap.reportString>
 
 	<!--============= Animal handling ===============-->
 	
@@ -61,5 +64,6 @@
 	<PrisonerAttemptRecruit.reportString>Intentando reclutar a TargetA.</PrisonerAttemptRecruit.reportString>  
     <PrisonerExecution.reportString>Ejecutando a TargetA.</PrisonerExecution.reportString>
 	<BuryCorpse.reportString>Enterrando a TargetA.</BuryCorpse.reportString>
+  <OperateDeepDrill.reportString>Taladrando en TargetA.</OperateDeepDrill.reportString>
     
 </LanguageData>
