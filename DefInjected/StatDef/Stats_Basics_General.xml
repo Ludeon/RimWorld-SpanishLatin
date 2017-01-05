@@ -3,10 +3,15 @@
     
     <MaxHitPoints.label>Salud máxima</MaxHitPoints.label>
     <MaxHitPoints.description>La salud o puntos de daño máximos de un objeto.</MaxHitPoints.description>
-    
+ 
+	<Mass.label>Peso</Mass.label>
+	<Mass.description>El peso de un objeto.</Mass.description>
+	<Mass.formatString>{0} kg</Mass.formatString>
+ 
 	<MarketValue.label>Valor de mercado</MarketValue.label>
 	<MarketValue.description>El valor de mercado de un objeto. El precio real de mercado será modificado por la habilidad de negociación y el estado de las relaciones.</MarketValue.description>
-
+	<MarketValue.formatString>${0}</MarketValue.formatString>
+	
 	<SellPriceFactor.label>Multiplicador de precio de venta</SellPriceFactor.label>
 	<SellPriceFactor.description>Un multiplicador del precio al que puedes vender un objeto.</SellPriceFactor.description>
 	
@@ -15,9 +20,13 @@
     
     <WorkToMake.label>Cantidad de trabajo</WorkToMake.label>
     <WorkToMake.description>La cantidad base de trabajo que cuesta elaborar esto una vez que han sido reunidos todos los materiales y herramientas.</WorkToMake.description>
+
+	<WorkToBuild.label>Cantidad de trabajo</WorkToBuild.label>
+	<WorkToBuild.description>La cantidad base de trabajo que cuesta construir esto una vez que han sido reunidos todos los materiales y herramientas.</WorkToBuild.description>
     
 	<DeteriorationRate.label>Velocidad de deterioro</DeteriorationRate.label>
 	<DeteriorationRate.description>La velocidad a la que este objeto se deteriora cuando se encuentra expuesto al exterior, especialmente mientras llueve.</DeteriorationRate.description>
+	<DeteriorationRate.formatString>{0} / día</DeteriorationRate.formatString>
 	
 	<Beauty.label>Belleza</Beauty.label>
     <Beauty.description>La cantidad de disfrute que proporciona un objeto a las personas que lo observan o que se encuentran cerca de él.</Beauty.description>
