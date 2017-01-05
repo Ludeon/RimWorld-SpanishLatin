@@ -57,17 +57,22 @@
   
   <LetterLeadersDeathLabel>Muerte del líder</LetterLeadersDeathLabel>
   <LetterLeadersDeath>{0}, el líder de {1}, ha muerto y ha sido reemplazado(a) por {2}.</LetterLeadersDeath>
+  
+	<LetterLeaderChangedLabel>Nuevo líder {1}: {0}</LetterLeaderChangedLabel>
+	<LetterLeaderChanged>{0} ya no es el {3} de {1}.\n\nEl nuevo {3} es {2}.</LetterLeaderChanged>  
 
   <MentalBreakLetterLabel>Colapso mental</MentalBreakLetterLabel>
   <MentalBreakReason>Razón: {0}.</MentalBreakReason>
   
   <!-- Related pawns -->
-  <LetterLabelNoticedFamilyMembers>Familia</LetterLabelNoticedFamilyMembers>
+  <LetterLabelNoticedRelatedPawns>Familia</LetterLabelNoticedRelatedPawns>
   <LetterRelatedPawnsRaidEnemy>Hay parientes de tus colonos o prisioneros en el grupo de {0} que ha llegado.\n\nToma en cuenta que, aunque esten emparentados, aún así se atacarán debido a las malas relaciones entre las facciones.\n\nLos parientes son:</LetterRelatedPawnsRaidEnemy>
   <LetterRelatedPawnsRaidFriendly>Hay parientes de tus colonos o prisioneros en el grupo de {0} que ha llegado:</LetterRelatedPawnsRaidFriendly>
   <LetterRelatedPawnsNeutralGroup>Hay parientes de tus colonos o prisioneros en el grupo de que ha llegado:</LetterRelatedPawnsNeutralGroup>
   <LetterRelatedPawnsTradeShip>La nave de comercio está vendiendo algunos parientes de tus colonos o prisioneros:</LetterRelatedPawnsTradeShip>
-  
+  <LetterRelatedPawnsTradingWithFactionBase>El asentamiento está vendiendo personas que tienen una relación con tus colonos o prisioneros:</LetterRelatedPawnsTradingWithFactionBase>
+  <LetterRelatedPawnsTradingWithOtherCaravan>La caravana está vendiendo personas que tienen una relación con tus colonos o prisioneros:</LetterRelatedPawnsTradingWithOtherCaravan>
+    
   <RelationshipAppendedLetterSuffix>(relación)</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>NAME tiene relación con un colono. HECAP es {1} de {0}.</RelationshipAppendedLetterTextColonist>
   <RelationshipAppendedLetterTextPrisoner>NAME tiene relación con uno de tus prisioneros. HECAP es {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
@@ -111,6 +116,31 @@
   
   <!-- Drug binge -->
   <LetterLabelDrugBinge>{0} binge</LetterLabelDrugBinge>
-  <LetterDrugBinge>{0} is binging on {1}.</LetterDrugBinge>  
+  <LetterDrugBinge>{0} is binging on {1}.</LetterDrugBinge>
+
+  <!-- Formed caravan -->
+  <LetterLabelFormedCaravan>Caravana lista</LetterLabelFormedCaravan>
+  <LetterFormedCaravan>Tu caravana se ha formado y espera órdenes en el mapa planetario.</LetterFormedCaravan>
+  
+  <!-- Caravan destroyed -->
+  <LetterLabelAllCaravanColonistsDied>Caravana destruida</LetterLabelAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Todos los miembros de tu caravana han muerto.</LetterAllCaravanColonistsDied>
+  
+  <!-- Caravan entered ambush map -->
+  <LetterLabelCaravanEnteredAmbushMap>La caravana ha caído en una emboscada</LetterLabelCaravanEnteredAmbushMap>
+  <LetterCaravanEnteredAmbushMap>{0} ha caído en una emboscada.</LetterCaravanEnteredAmbushMap>
+  
+  <!-- Caravan entered enemy base -->
+  <LetterLabelCaravanEnteredEnemyBase>Ataque iniciado</LetterLabelCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0} ha llegado a {1} y está lista para iniciar el ataque.</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} ha llegado a {1} y está lista para comenzar el ataque.\n\nDebido a tu acción agresiva, {2} ahora es hostil hacia tí.</LetterCaravanEnteredEnemyBaseBecameHostile>
+  
+  <!-- Faction base defeated -->
+  <LetterLabelFactionBaseDefeated>Asentamiento destruido</LetterLabelFactionBaseDefeated>
+  <LetterFactionBaseDefeated>El asentamiento enemigo de {0} ha sido destruido.\n\nTienes {1} hora(s) para recoger objetos antes de que tus colonos reformen la caravana.</LetterFactionBaseDefeated>  <LetterFactionBaseDefeated_FactionDestroyed>This was the last base of {0}, which means the faction does not exist anymore.</LetterFactionBaseDefeated_FactionDestroyed>
+  
+  <!-- Pawns lost due to map countdown -->
+  <LetterLabelPawnsLostDueToMapCountdown>Abandonado</LetterLabelPawnsLostDueToMapCountdown>
+  <LetterPawnsLostDueToMapCountdown>Algunos de tus animales o prisioneros han sido abandonados en la naturaleza:\n\n{0}</LetterPawnsLostDueToMapCountdown>  
 
 </LanguageData>

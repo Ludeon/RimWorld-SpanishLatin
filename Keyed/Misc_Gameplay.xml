@@ -22,9 +22,8 @@
   <NothingLower>nada</NothingLower>
   <Adapted>Adaptado</Adapted>
   <FreshMissingBodyPart>fresco</FreshMissingBodyPart>
-  <UntreatedLower>sin tratar</UntreatedLower>
   <DevelopedImmunityLower>inmunidad desarrollada</DevelopedImmunityLower>
-  <InjuryRequiresTreatment>Requiere tratamiento para sanar</InjuryRequiresTreatment>
+  <NeedsTendingNow>Necesita tratamiento ahora</NeedsTendingNow>
   <NextTreatmentIn>El siguiente tratamiento es en {0}</NextTreatmentIn>
   <MissingMedicalBillIngredient>no {0}</MissingMedicalBillIngredient>
   <Immunity>Inmunidad</Immunity>
@@ -40,7 +39,7 @@
   <UnknownLower>desconocido</UnknownLower>
   <On>Encendido</On>
   <Off>Apagado</Off>
-  <PowerSwitch_Power>Corriente</PowerSwitch_Power>
+  <PowerSwitch_Power>Energía</PowerSwitch_Power>
   <JoyTolerances>Tolerancias</JoyTolerances>
   <MilkFullness>Producción de leche</MilkFullness>
   <WoolGrowth>Producción de lana</WoolGrowth>
@@ -48,21 +47,61 @@
   <Fertilized>Fertilizado</Fertilized>
   <ProgressStoppedUntilFertilized>Producción detenida hasta la fertilización</ProgressStoppedUntilFertilized>
   <SkillTooLow>necesita {0} nivel {2}, tiene {1}</SkillTooLow>
-  <EggDamagedEmbryo>embrión dañado</EggDamagedEmbryo>
-  <CorpsePercentMissing>Partes del cuerpo faltantes</CorpsePercentMissing>
-  <HiveReproducesIn>Se reproduce en</HiveReproducesIn>
-  <BrokenDown>Averiado</BrokenDown>
-  <BondBrackets>(vínculo)</BondBrackets>
-  <Fuel>Combustible</Fuel>
-  <Enemies>enemigos</Enemies>
-  <TimePassed>tiempo transcurrido</TimePassed>
-  <CurrentRadius>radio presente</CurrentRadius>
-  <RadiusExpandsIn>radio se expande en</RadiusExpandsIn>
-  <Permanent>permanente</Permanent>
-  <Temperature>Temperatura</Temperature>
-  <BadTemperature>mala temperatura</BadTemperature>
-  <IdealFermentingTemperature>Temperatura ideal de fermentación</IdealFermentingTemperature>
-  <DrugEffectMultiplier>multiplicador de efecto {0}</DrugEffectMultiplier>  
+	<Freezing>Congelándose</Freezing>
+	<Overheating>Sobrecalentándose</Overheating>
+	<RuinedByTemperature>Arruinado por la temperatura.</RuinedByTemperature>
+	<CorpsePercentMissing>Partes del cuerpo faltantes</CorpsePercentMissing>
+	<HiveReproducesIn>Se reproduce en</HiveReproducesIn>
+	<BrokenDown>Averiado</BrokenDown>
+	<BondBrackets>(vínculo)</BondBrackets>
+	<Fuel>Combustible</Fuel>
+  <FuelLevelGizmoLabel>Combustible</FuelLevelGizmoLabel>
+  <SetTargetFuelLevel>Designar nivel de combustible a {0}</SetTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Designar nivel de combustible a {0}\nMax. distancia: {1} casillas</SetPodLauncherTargetFuelLevel>
+  <ConfiguredTargetFuelLevel>Nivel de combustible objetivo: {0}</ConfiguredTargetFuelLevel>	
+	<Enemies>enemigos</Enemies>
+	<TimePassed>tiempo transcurrrido</TimePassed>
+	<CurrentRadius>radio actual</CurrentRadius>
+	<RadiusExpandsIn>radio se expande en</RadiusExpandsIn>
+	<Permanent>permanente</Permanent>
+	<CaravanResting>Descansando.</CaravanResting>
+  <CaravanEstimatedTimeToDestination>Tiempo de llegada: {0}</CaravanEstimatedTimeToDestination>
+  <CaravanImmobilizedByMass>Inmobilizada: peso excesivo.</CaravanImmobilizedByMass>
+  <CaravanOutOfFood>Sin comida.</CaravanOutOfFood>
+  <CaravanDaysOfFood>Queda comida para {0} días</CaravanDaysOfFood>
+	<CaravanMemberMentalBreak>Detenida: {0} tiene un colapso mental.</CaravanMemberMentalBreak>
+	<AllCaravanMembersDowned>Detenida: todos están inconscientes.</AllCaravanMembersDowned>
+	<CaravanTraveling>Viajando.</CaravanTraveling>
+	<CaravanWaiting>Esperando.</CaravanWaiting>
+	<CaravanHoursPerTile>hr/casilla</CaravanHoursPerTile>
+	<CaravanBaseMovementTime>Velocidad base</CaravanBaseMovementTime>
+	<CurrentTileMovementTime>Velocidad actual</CurrentTileMovementTime>
+	<Temperature>Temperatura</Temperature>
+	<BadTemperature>mala temperatura</BadTemperature>
+	<IdealFermentingTemperature>Temperatura de fermentación ideal</IdealFermentingTemperature>
+	<DrugEffectMultiplier>multiplicador de efecto de {0}</DrugEffectMultiplier>
+	<CaravanVisiting>Visitando {0}.</CaravanVisiting>
+	<CaravanEntering>Entrando {0}.</CaravanEntering>
+	<CaravanAttacking>Atacando {0}.</CaravanAttacking>
+	<WasWornByCorpse>Fue sacado de un cadáver.</WasWornByCorpse>
+	<WornByCorpseChar>D</WornByCorpseChar>
+	<DeterioratingDueToBeingUnroofed>Deteriorating due to being unroofed.</DeterioratingDueToBeingUnroofed>
+  <Map>Mapa</Map>
+  <ForceExitAndRemoveMapCountdown>{0} hora para salida</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>Tus colonos automáticamente reformarán la caravana y abandonarán el área al pasar {0} horas.</ForceExitAndRemoveMapCountdownTip>
+	<Room>Habitación</Room>
+	<BeautyHere>Belleza aquí</BeautyHere>
+	<NoPower>Sin energía</NoPower>
+	<WorkSpeedPenalty>Penalización de velocidad de trabajo</WorkSpeedPenalty>
+  <DisabledCommand>DESACTIVADO</DisabledCommand>
+  <ReadyForLaunch>Lista para el despegue.</ReadyForLaunch>
+  <NotReadyForLaunch>No lista para el despegue</NotReadyForLaunch>
+  <NotAllInGroupConnectedToFuelingPort>sin puerto de recarga</NotAllInGroupConnectedToFuelingPort>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>sin combustible</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <TransportPodInGroupHasSomethingLeftToLoad>carga en progreso</TransportPodInGroupHasSomethingLeftToLoad>
+  <TransportPodDestinationBeyondMaximumRange>Mas allá del rango máximo</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodNotEnoughFuel>Sin combustible suficiente</TransportPodNotEnoughFuel>
+  <FactionBaseTrader>{0} de {1}</FactionBaseTrader>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Contiene {0} / {1} de mosto.</ContainsWort>
@@ -73,9 +112,6 @@
   
   <!--TextMotes-->
   <Headshot>Disparo a la cabeza</Headshot>
-  <TreatQuality>Calidad del tratamiento del {0}</TreatQuality>
-  <PoorResult>Mal resultado</PoorResult>
-  <GoodResult>Buen resultado</GoodResult>
   <TextMote_TreatSuccess>¡Tratamiento exitoso! probabilidad del \n{0}</TextMote_TreatSuccess>
   <TextMote_TreatFailed>Tratamiento fallido, probabilidad del \n{0}</TextMote_TreatFailed>
   <HarvestFailed>Cosecha\nfallida</HarvestFailed>
@@ -156,6 +192,8 @@
   <!-- Generated recipes -->
   <RecipeMake>Fabricar {0}</RecipeMake>
   <RecipeMakeJobString>Haciendo {0}.</RecipeMakeJobString>
+	<RecipeAdminister>administrar {0}</RecipeAdminister>
+	<RecipeAdministerJobString>Administrando {0}.</RecipeAdministerJobString>  
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>Expira en: {0}</ThoughtExpiresIn>
@@ -172,7 +210,10 @@
   <Faction>Facción</Faction>
   <Equipped>Equipamiento</Equipped>
   <EquippedNothing>Nada</EquippedNothing>
-  <Incapacitated>Incapacitado</Incapacitated>
+	<Dead>Muerto</Dead>
+	<Unconscious>Inconsciente</Unconscious>
+	<PainShock>En shock por el dolor</PainShock>
+	<Incapacitated>Incapacitado</Incapacitated>
   <InRestraints>Encadenado (ralentizado)</InRestraints>
   <Carrying>Llevando</Carrying>
 
@@ -188,16 +229,16 @@
 	<OfLower>de</OfLower>
 
 	<!-- Power readout -->
-	<PowerNotConnected>Sin corriente.</PowerNotConnected>
-  <PowerConnectedRateStored>Corriente usada/almacenada: {0} W / {1} Wd</PowerConnectedRateStored>
-  <PowerNeeded>Corriente necesaria</PowerNeeded>
-  <PowerOutput>Salida de corriente</PowerOutput>
-  <PowerBatteryStored>Almacenada</PowerBatteryStored>
+	<PowerNotConnected>Sin energía.</PowerNotConnected>
+  <PowerConnectedRateStored>Energía sobrante/almacenada: {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerNeeded>Energía necesaria</PowerNeeded>
+  <PowerOutput>Energía generada</PowerOutput>
+  <PowerBatteryStored>Energía almacenada</PowerBatteryStored>
   <PowerBatteryEfficiency>Eficiencia</PowerBatteryEfficiency>
 
   <!-- Temperature control -->
   <TargetTemperature>Temperatura objetivo</TargetTemperature>
-  <PowerConsumptionMode>Uso de corriente actual</PowerConsumptionMode>
+  <PowerConsumptionMode>Uso de energía actual</PowerConsumptionMode>
   <PowerConsumptionHigh>Alto</PowerConsumptionHigh>
   <PowerConsumptionLow>Bajo</PowerConsumptionLow>
   
@@ -235,12 +276,11 @@
   <OutOfIdealTemperatureRangeNotGrowing>Fuera del rango ideal de temperatura (no está creciendo)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Lista para cosechar.</ReadyToHarvest>
   <Mature>Madura.</Mature>
-  <SeedLabel>{0} semilla</SeedLabel>
   <OutdoorGrowingPeriod>Periodo de crecimiento: {0}</OutdoorGrowingPeriod>
   <NoGrowingPeriod>Nunca</NoGrowingPeriod>
   <GrowYearRound>Todo el año</GrowYearRound>
   <GrowSeasonHereNow>Temporada de cultivo: Ahora.</GrowSeasonHereNow>
-  <CannotGrowTooCold>Imposible crecer - estación fría.</CannotGrowTooCold>
+  <CannotGrowBadSeasonTemperature>Imposible crecer (pésima temperatura).</CannotGrowBadSeasonTemperature>
 
   <!-- Zones -->
   <Zone>Área</Zone>
@@ -260,15 +300,17 @@
   <Undiscovered>Sin descubrir</Undiscovered>
   
   <!-- Buttons -->
-  <ShowLearningHelperWhenEmptyToggleButton>Alterna la visibilidad del asistente de aprendizaje cuando está vacío.\n\nEl asistente de aprendizaje siempre está visible si hay algún concepto activado para aprendizaje. Esto lo hace desaparecer cuando ningún concepto está activo.</ShowLearningHelperWhenEmptyToggleButton>  
-  <ZoneVisibilityToggleButton>Alterna la visibilidad de las áreas.</ZoneVisibilityToggleButton>
-  <ShowBeautyToggleButton>Alterna la visualización de belleza.\n\nPresenta la belleza del mundo desde el punto de vista de alguien situado donde se posa el cursor.</ShowBeautyToggleButton>
-  <ShowRoomStatsToggleButton>Alterna la visualización de estadísticas habitacionales.\n\nPresenta las estadísticas de la habitación donde se posa el cursor.</ShowRoomStatsToggleButton>
-  <ShowColonistBarToggleButton>Alternar barra de colonos.\n\nMuestra los íconos y el estado básico de todos los colonos en la parte superior de la pantalla.</ShowColonistBarToggleButton>  
-  <AutoHomeAreaToggleButton>Alterna la expansión automática del área del hogar alrededor de construcciones nuevas.</AutoHomeAreaToggleButton>
-  <CategorizedResourceReadoutToggleButton>Alterna el modo categorizado de la lista de recursos.</CategorizedResourceReadoutToggleButton>
-  <ShowAnimalNamesToggleButton>Alterna la visualización de los nombres de los animales domésticos.</ShowAnimalNamesToggleButton>
-  <ShowRoofOverlayToggleButton>Alternar visibilidad de techos.</ShowRoofOverlayToggleButton>  
+  <ShowLearningHelperWhenEmptyToggleButton>Alternar la visibilidad del asistente de aprendizaje cuando está vacío.\n\nEl asistente de aprendizaje siempre está visible si hay algún concepto activado para aprendizaje. Esto lo hace desaparecer cuando ningún concepto está activo.</ShowLearningHelperWhenEmptyToggleButton>  
+  <ZoneVisibilityToggleButton>Alternar la visibilidad de las áreas.</ZoneVisibilityToggleButton>
+  <ShowEnvironmentToggleButton>Alternar la visualización ambiental.\n\nPresenta la belleza y las estadísticas del ambiente cercano como lo percibiría un personaje situado donde se sitúa el cursor.</ShowEnvironmentToggleButton>
+  <ShowColonistBarToggleButton>Alternar barra de colonos.\n\nMuestra los íconos y el estado básico de todos los colonos en la parte superior de la pantalla.</ShowColonistBarToggleButton>    
+  <AutoHomeAreaToggleButton>Alternar la expansión automática del área del hogar alrededor de construcciones nuevas.</AutoHomeAreaToggleButton>
+  <CategorizedResourceReadoutToggleButton>Alternar el modo categorizado de la lista de recursos.</CategorizedResourceReadoutToggleButton> 
+  <ShowAnimalNamesToggleButton>Alternar la visualización de los nombres de los animales domésticos.</ShowAnimalNamesToggleButton>
+  <ShowRoofOverlayToggleButton>Alternar visibilidad de techos.</ShowRoofOverlayToggleButton> 
+  <LockNorthUpToggleButton>Impide la rotación de la cámara para que el polo norte siempre se encuentre arriba.</LockNorthUpToggleButton>
+  <UsePlanetDayNightSystemToggleButton>Alternar el sistema de iluminación día/noche.</UsePlanetDayNightSystemToggleButton>
+  <ExpandingIconsToggleButton>Alternar la visualización de íconos expandidos para objetos distantes.</ExpandingIconsToggleButton>
   
   <!-- Fire -->
   <Fire>Fuego</Fire>
@@ -285,6 +327,7 @@
   <NoStuffsToBuildWith>No tienes materiales disponibles para construir Esto.</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
+	<WillGetWorkSpeedPenalty>{0} tendrá una penalización a la velocidad de trabajo.</WillGetWorkSpeedPenalty>  
   <MustPlaceUnroofed>No se puede ubicar bajo techo.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>Se debe ubicar con el frente adyacente a la viga estructural de una nave.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Se debe ubicar adyacente a un aparato que necesite una tolva.</MustPlaceNextToHopperAccepter>
@@ -292,6 +335,7 @@
   <MustPlaceCoolerWithFreeSpaces>Ambos lados del refrigerador deben estar libres.</MustPlaceCoolerWithFreeSpaces>
 	<MustPlaceVentWithFreeSpaces>Ambos lados deben estar libres para que el aire pueda circular.</MustPlaceVentWithFreeSpaces>
 	<MustPlaceAdjacentStandable>Debe colocarse con espacio libre en todos los lados.</MustPlaceAdjacentStandable>
+	<MustPlaceNearFuelingPort>Se debe situar a un costado de un puerto de recarga de una lanzadera de cápsulas.</MustPlaceNearFuelingPort>	
 	
 	<!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Bloqueado por</WindTurbine_WindPathIsBlockedBy>
@@ -340,6 +384,7 @@
   <GameOverEveryoneDead>Todos los habitantes de la colonia han muerto o se han ido. Esta historia se acabó.\n\nTal vez alguien le encuentre un uso a estas ruinas en el futuro...</GameOverEveryoneDead>
   <GameOverShipLaunched>¡Haz lanzado la nave! Estos colonos escaparon:\n\n{0}\nEstos colonos se han quedado atrás:\n\n{1}\nAhora la IA intentará guiar a la nave hacia un lugar seguro. Podría encontrar un planeta próspero en este mismo sistema o podría realizar un viaje de siglos hacia otra estrella. Incluso podría decidir quedarse bajo un asteroide por unos cuantos miles de años, esperando que alguien convierta este planeta en un mundobrillante.\n\nLo sabrás cuando despiertes...</GameOverShipLaunched>
   <GameOverPlanetkillerImpact>A casi la velocidad de la luz, el arma destruyeplanetas se estrelló contra el suelo con la energía de un trillón de bombas de hidrógeno. Como si fuera un globo con agua al que le han disparado con un rifle, el planeta se licúa con el impacto y dispersa su interior líquido a travéz del cosmos.\n\nUna parte de {0} ahora es un cinturón de asteroides. El resto es un páramo radioactivo e infernal azotado constantemente por terremotos de nivel planetario.\n\nNo sobreviviste.</GameOverPlanetkillerImpact>  
+  <GameOverArrivedAtJourneyDestination>Al subir a bordo de la nave, te saluda la tripulación con los brazos abiertos. Parecen alegrarse de poder tener al menos una persona más con ellos.\n\nThese colonists escaped:\n\n{0}\nEstos colonos fueron abandonados:\n\n{1}\nLa IA ahora intentará guiar a la nave a un lugar seguro. Podría encontrarte un planeta prospero en éste mismo sistema o podría realizar un viaje de varios siglos hacia otra estrella. Incluso podría decidir quedarse bajo un asteroide por unos cuantos miles de años, esperando que alguien convierta este planeta en un mundobrillante.\n\nLo sabrás cuando despiertes...</GameOverArrivedAtJourneyDestination>  
   <GameOverKeepPlaying>Seguir jugando</GameOverKeepPlaying>
   <GameOverMainMenu>Menú principal</GameOverMainMenu>
   
@@ -391,5 +436,8 @@
   <MarkLearned>Aprendido</MarkLearned>
   <AlreadyLearned>Ya aprendido</AlreadyLearned>
   <Filter>Filtro</Filter>
-  
+
+	<!-- Compass -->
+	<CompassTip>Muestra la dirección del norte. Haz click para rotar la cámara de manera que el norte se encuentre arriba.</CompassTip>
+	
 </LanguageData>

@@ -4,10 +4,11 @@
 	<CallOnRadio>Llamar a {0}</CallOnRadio>
   <CannotUseReason>No se puede usar ({0})</CannotUseReason>
 	<CannotUseSolarFlare>No se puede usar (Erupción solar)</CannotUseSolarFlare>
-	<CannotUseNoPower>No se puede usar (sin corriente)</CannotUseNoPower>
+	<CannotUseNoPower>No se puede usar (sin energía)</CannotUseNoPower>
 	<CannotUseNoPath>No se puede usar (no hay paso)</CannotUseNoPath>
   <CannotUseReserved>No se puede usar (reservado)</CannotUseReserved>
   <CannotUseFull>No se puede usar (lleno)</CannotUseFull>
+ 	<LeaderUnavailable>El líder {0} no está disponible</LeaderUnavailable> 
   
   <FireAt>Disparar a {0}</FireAt>
 
@@ -24,7 +25,8 @@
   <NoPath>no hay paso</NoPath>
 
 	<ForbiddenLower>prohibido</ForbiddenLower>
-	<ForbiddenOutsideAllowedAreaLower>fuera del área permitida</ForbiddenOutsideAllowedAreaLower>	
+	<ForbiddenOutsideAllowedAreaLower>fuera del área permitida</ForbiddenOutsideAllowedAreaLower>
+	<NotInHomeArea>fuera del área del hogar</NotInHomeArea>	
 	<SociallyImproperLower>socialmente indecoroso</SociallyImproperLower>
   <PrisonerRoomLower>celda de prisioneros</PrisonerRoomLower>
 	<BurningLower>quemando</BurningLower>
@@ -38,7 +40,8 @@
   <NoFood>sin comida</NoFood>  
   <AnimalsSkillTooLow>Habilidad del animal demasiado baja</AnimalsSkillTooLow>
 	<NoComponentsToRepair>necesita componentes</NoComponentsToRepair>
-	<NoFuelToRefuel>necesita {0}</NoFuelToRefuel>  
+	<NoFuelToRefuel>necesita {0}</NoFuelToRefuel>
+  <NoWort>necesita mosto</NoWort>	
 
   <ConsumeThing>Consumir {0}</ConsumeThing>
   
@@ -65,25 +68,40 @@
   <Reserved>Reservado por alguien más</Reserved>
   <ReservedBy>Reservado por {0}</ReservedBy>
   <IsReservedBy>{0} está reservado por {1}</IsReservedBy>
-
+  <TooHeavy>muy pesado</TooHeavy>
+  
   <Incapable>incapaz</Incapable>
   <IncapableOfCapacity>incapaz de {0}</IncapableOfCapacity>
 
   <MinSkill>hab. mínima</MinSkill>  
   
   <Equip>Equipar {0}</Equip>
-  <EquipWarningBrawler>(el luchador será muy infeliz)</EquipWarningBrawler>
-  <CannotEquip>No se puede equipar el/la {0}</CannotEquip>
+  <EquipWarningBrawler>(e hará infeliz: Luchador)</EquipWarningBrawler>
+  <CannotEquip>{0} no se puede equipar</CannotEquip>
   
-  <ForceWear>Vestir {0} a la fuerza</ForceWear>
-  <CannotWear>No se puede vestir con {0}</CannotWear>
-  <CannotWearBecauseOfMissingBodyParts>faltan partes del cuerpo suficientes</CannotWearBecauseOfMissingBodyParts>  
+  <ForceWear>Forzar a vestir {0}</ForceWear>
+  <CannotWear>No se puede vestir {0}</CannotWear>
+  <CannotWearBecauseOfMissingBodyParts>partes del cuerpo faltantes</CannotWearBecauseOfMissingBodyParts> 
+
+  <CannotPickUp>{0} no se puede recoger</CannotPickUp>
+  <CannotPickUpAll>{0} no se puede recoger (todos)</CannotPickUpAll>
+  <PickUp>Recoger {0}</PickUp>
+  <PickUpAll>Recoger {0} (todos)</PickUpAll>
+  <PickUpSome>Recoger {0}...</PickUpSome>
+  <PickUpCount>Recoger {0} x{{0}}</PickUpCount>
+  
+  <CannotGiveToPackAnimal>No se puede cargar {0} en el animal de carga</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimalAll>No se puede cargar {0} (todos) en el animal de carga</CannotGiveToPackAnimalAll>
+  <GiveToPackAnimal>Dar {0} al animal de carga</GiveToPackAnimal>
+  <GiveToPackAnimalAll>Dar {0} (todos) al animal de carga</GiveToPackAnimalAll>
+  <GiveToPackAnimalSome>Dar {0} al animal de carga...</GiveToPackAnimalSome>
+  <GiveToPackAnimalCount>Tomar {0} x{{0}}</GiveToPackAnimalCount>
+
+  <CannotCarryToExit>Imposible cargar a {0} y dejar el área</CannotCarryToExit>
+  <CarryToExit>Cargar a {0} y dejar el área</CarryToExit>
   
   <Strip>Desvestir a {0}</Strip>
   <CannotStrip>No se puede desvestir a {0}</CannotStrip>
-
-  <Deposit>Depositar {0} en {1}</Deposit>
-  <CannotDeposit>No se puede depositar {0} en {1}</CannotDeposit>
 
   <SelfDestructHere>Auto-destruirse aquí</SelfDestructHere>
   
@@ -95,6 +113,10 @@
   
   <TradeWith>Comerciar con {0}</TradeWith>
   <CannotTrade>No puede comerciar</CannotTrade>
+  
+  <EnterMap>Entrar {0}</EnterMap>
+  <VisitFactionBase>Visitar {0}</VisitFactionBase>
+  <AttackFactionBase>Atacar {0}</AttackFactionBase>  
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>Entrar al sacófago de criptosueño</EnterCryptosleepCasket>
@@ -119,5 +141,8 @@
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Priorizar {0} {1}</PrioritizeGeneric>
-  
+
+  <DropAtEdge>Tirar en el borde</DropAtEdge>
+  <DropInCenter>Tirar en el centro</DropInCenter>
+    
 </LanguageData>

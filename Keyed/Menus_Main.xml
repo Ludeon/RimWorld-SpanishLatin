@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!--=========== Main menu ==========-->
-  <LearnToPlay>Aprender a jugar</LearnToPlay>  
+  <Tutorial>Aprender a jugar</Tutorial>  
   <NewColony>Fundar Colonia</NewColony>
   <BackToGame>Volver al juego</BackToGame>
   <ReviewScenario>Revisar escenario</ReviewScenario>  
@@ -30,9 +30,18 @@
   <WorldGenerate>Generar planeta</WorldGenerate>
   <WorldSaveAndFinish>Guardar y Finalizar</WorldSaveAndFinish>
   <Reset>Reiniciar</Reset>
-  <WorldSize>Tamaño</WorldSize>
+  <PlanetCoverage>Superficie generada</PlanetCoverage>
+  <PlanetRainfall>Precipitación media</PlanetRainfall>
+  <PlanetTemperature>Temperatura media</PlanetTemperature>
+  <PlanetRainfall_Low>Baja</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>Normal</PlanetRainfall_Normal>
+  <PlanetRainfall_High>Alta</PlanetRainfall_High>
+  <PlanetTemperature_Low>Baja</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>Normal</PlanetTemperature_Normal>
+  <PlanetTemperature_High>Alta</PlanetTemperature_High>
   <WorldSeed>Semilla</WorldSeed>
-  <RandomizeSeed>Generar semilla aleatoria</RandomizeSeed>
+  <RandomizeSeed>Semilla aleatoria</RandomizeSeed>
+  <PlanetCoverageTip>El planeta tiene siempre el mismo diámetro, pero ya que es mucho más grande de lo que se necesita realmente para jugar, no generamos la superficie completa pues ésto lleva mucho tiempo. Éste es el porcentaje de la superficie que quieres que se genere.</PlanetCoverageTip>
 
   <!--=========== Select world ===================-->
   <SelectWorld>Seleccionar planeta</SelectWorld>
@@ -80,7 +89,7 @@
   <!--============ Scenario editor ===============-->
   <Seed>semilla</Seed>
   <Load>Cargar</Load>
-  <EditMode>modo edición</EditMode>
+  <EditMode>Modo edición</EditMode>
   <Summary>Resumen</Summary>
   <AddPart>Añadir característica</AddPart>
   <TextFieldsMustBeFilled>Deben llenarse todos los campos de texto.</TextFieldsMustBeFilled>
@@ -102,29 +111,27 @@
   <SelectSite>Seleccionar lugar</SelectSite>
   <MustSelectLandingSite>Por favor selecciona un sitio de aterrizaje.</MustSelectLandingSite>
   <CannotLandBiome>No puedes aterrizar en este bioma: {0}</CannotLandBiome>
-  <WorldRenderMode>Visualizar</WorldRenderMode>
-  <WorldRenderModeFull>Completo</WorldRenderModeFull>
-  <WorldRenderModeTemperature>Temperatura</WorldRenderModeTemperature>
-  <WorldRenderModeElevation>Elevación</WorldRenderModeElevation>
-  <WorldRenderModeFertility>Fertilidad</WorldRenderModeFertility>
-  <WorldRenderModeRainfall>Lluvia</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>Biomas</WorldRenderModeBiomes>
   <BiomeNotImplemented>Bioma no implementado</BiomeNotImplemented>
-  <BaseAlreadyThere>{0} ya tiene base aquí.</BaseAlreadyThere>
+  <CannotLandImpassableMountains>No puedes aterrizar en montañas impasables.</CannotLandImpassableMountains>
+  <BaseAlreadyThere>{0} ya tiene un asentamiento aquí.</BaseAlreadyThere>
   <Biome>Bioma</Biome>
   <Terrain>Terreno</Terrain>
   <Elevation>Elevación</Elevation>
   <Fertility>Fertilidad</Fertility>
-  <AvgTemp>Temp. media</AvgTemp>
-  <AvgWinterTemp>Temp. media (invierno): {0}</AvgWinterTemp>
-  <AvgSummerTemp>Temp. media (verano): {0}</AvgSummerTemp>
-  <Rainfall>Lluvia</Rainfall>
-  <HasCoast0>Costa norte</HasCoast0>
-  <HasCoast1>Costa este</HasCoast1>
-  <HasCoast2>Costa sur</HasCoast2>
-  <HasCoast3>Costa oeste</HasCoast3>
-  <FactionBase>Asentamiento</FactionBase>
-  <StoneTypesHere>Rocas disponibles</StoneTypesHere>
+  <AvgTemp>Temperatura promedio</AvgTemp>
+  <AvgSummerTemp>Temperatura en verano</AvgSummerTemp>
+	<AvgWinterTemp>Temperatura en invierno</AvgWinterTemp>
+	<Rainfall>Precipitación</Rainfall>
+  <HasCoast0>Costa al norte</HasCoast0>
+  <HasCoast1>Costa al este</HasCoast1>
+  <HasCoast2>Costa al sur</HasCoast2>
+  <HasCoast3>Costa al oeste</HasCoast3>
+  <FactionBase>Asentamiento de facción</FactionBase>
+  <StoneTypesHere>Tipo de roca</StoneTypesHere>
+  <TimeZone>Huso horario</TimeZone>
+	<MovementTimeNow>Velocidad de movimiento</MovementTimeNow>
+	<MovementTimeSummer>Velocidad de movimiento en verano</MovementTimeSummer>
+	<MovementTimeWinter>Velocidad de movimiento en invierno</MovementTimeWinter>
 
   <!--=========== Character chooser ==========-->
   <CreateCharacters>Crea los personajes</CreateCharacters>
@@ -141,8 +148,8 @@
   <NoneLower>Ninguna</NoneLower>
   <Adulthood>Adultez</Adulthood>
   <Childhood>Infancia</Childhood>
-  <Male>Macho</Male>
-  <Female>Hembra</Female>
+  <Male>masculino</Male>
+  <Female>femenino</Female>
   <Pain>Dolor</Pain>
   <Health>Salud</Health>
   <Relations>Relaciones</Relations>  
@@ -152,14 +159,15 @@
   <Advanced>Avanzado</Advanced>
   <Next>Siguiente</Next>
   <Back>Atrás</Back>
-  
   <Gameplay>Jugabilidad</Gameplay>
-
-  <ConfirmQuit>¿Realmente quieres salir? Perderás todo el progreso no guardado.</ConfirmQuit>
+  <ConfirmQuit>¿Realmente deseas cerrar? Perderás el progreso no guardado.</ConfirmQuit>
+  <EveryoneNeedsValidName>Cada persona necesita un nombre válido.</EveryoneNeedsValidName>
+  <Quit>Cerrar</Quit>
+  <Ignore>Ignorar</Ignore>
   
-  <EveryoneNeedsValidName>Todos los personajes necesitan un nombre válido.</EveryoneNeedsValidName>
-
-  <GeneratingWorld>Generando planeta...</GeneratingWorld>
-  <GeneratingMap>Generando mapa...</GeneratingMap>
+  <!--============ Progress bar==============-->
+  <GeneratingWorld>Generando planeta</GeneratingWorld>
+  <GeneratingMap>Generando mapa</GeneratingMap>
+  <GeneratingMapForNewEncounter>Generando mapa de encuentro</GeneratingMapForNewEncounter>
 
 </LanguageData>

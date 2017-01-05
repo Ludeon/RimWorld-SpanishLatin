@@ -40,6 +40,7 @@
   <PrisonerAttemptRecruit>Charlar y reclutar</PrisonerAttemptRecruit>
   <PrisonerRelease>Liberar</PrisonerRelease>
   <PrisonerExecution>Ejecutar</PrisonerExecution>
+  	<ConsideredGuilty>Considerado culpable (expira en {0})</ConsideredGuilty>
 
 
   <!-- Medical - general -->
@@ -52,20 +53,19 @@
   <Healthy>Saludable</Healthy>
   <InPain>Adolorido(a)</InPain>
   <PainLevel>Dolor</PainLevel>
-  <Dead>Muerto(a)</Dead>
-  <Unconscious>Inconsciente</Unconscious>
-  <PainShock>Estado de shock</PainShock>
   <Injured>Herido(a)</Injured>
   <NoInjuries>(sin heridas)</NoInjuries>
   <WholeBody>Cuerpo completo</WholeBody>
-  <DataProcessing>Procesando datos</DataProcessing>
-  <Communication>Comunicación</Communication>
-  <AffectsLower>Afecta</AffectsLower>
+  <DataProcessing>Procesamiento de datos</DataProcessing>
+  <Communication>Comunicación</Communication>  
+  <Affects>Afecta</Affects>
   <BleedingRate>Tasa de sangrado</BleedingRate>
-  <HealthOverview>Reporte</HealthOverview>
+  <TimeToDeath>morirá en {0}</TimeToDeath>
+  <WontBleedOutSoon>sin peligro inmediato</WontBleedOutSoon>
+  <HealthOverview>Resumen</HealthOverview>
   <MedicalOperationsShort>Operaciones ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Modificaciones ({0})</MedicalOperationsMechanoidsShort>
-  <MedicalOperations>Operaciones médicas</MedicalOperations>
+  <MedicalOperations>Operaciones médicas</MedicalOperations>  
   <Amputate>Amputar</Amputate>
   <Harvest>Cosechar</Harvest>
   <RemoveOrgan>Remover</RemoveOrgan>  
@@ -113,6 +113,7 @@
   
   <!-- Gear tab -->
   <AverageArmor>Armadura promedio</AverageArmor>
+  <MassCarried>Peso cargado: {0} / {1} kg</MassCarried>  
   <ComfyTemperatureRange>Rango de temperaturas cómodas</ComfyTemperatureRange>
   <ArmorBlunt>Contundente</ArmorBlunt>
   <ArmorSharp>Cortante</ArmorSharp>

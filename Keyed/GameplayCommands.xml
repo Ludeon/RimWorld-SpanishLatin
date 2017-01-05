@@ -1,18 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <!-- Forbid -->
+  <CommandForbid>Prohibir</CommandForbid>
 	<CommandForbiddenDesc>Prohibido - Los colonos no interactuarán con ésto.</CommandForbiddenDesc>
 	<CommandNotForbiddenDesc>No está prohibido - Los colonos podrán interactuar con ésto.</CommandNotForbiddenDesc>
 
   <!-- Power -->
-  <CommandTogglePowerLabel>Alternar corriente</CommandTogglePowerLabel>
-  <CommandTogglePowerDesc>Alterna la corriente eléctrica.</CommandTogglePowerDesc>
+  <CommandTogglePowerLabel>Alternar energía</CommandTogglePowerLabel>
+  <CommandTogglePowerDesc>Alterna la energía eléctrica.</CommandTogglePowerDesc>
   
-  <CommandDesignateTogglePowerLabel>Alternar corriente</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerLabel>Alternar energía</CommandDesignateTogglePowerLabel>
   <CommandDesignateTogglePowerDesc>Enciende o apaga éste objeto. Un colono vendrá pronto a mover el apagador.</CommandDesignateTogglePowerDesc>
   
   <CommandTryReconnectLabel>Reconectar</CommandTryReconnectLabel>
-  <CommandTryReconnectDesc>Reconecta este objeto a otra red de energía dentro de su radio de conexión. Ésto es útil si está conectado a una red sin corriente pero hay otra cerca que sí la tiene.</CommandTryReconnectDesc>
+  <CommandTryReconnectDesc>Reconecta este objeto a otra red de energía dentro de su radio de conexión. Ésto es útil si está conectado a una red sin energía pero hay otra cerca que sí la tiene.</CommandTryReconnectDesc>
 
   <CommandGatherSpotToggleLabel>Lugar de reunión</CommandGatherSpotToggleLabel>
   <CommandGatherSpotToggleDescActive>Activo - Los colonos se reunirán alrededor de este objeto.</CommandGatherSpotToggleDescActive>
@@ -24,6 +26,9 @@
   <CommandUndraftLabel>Licenciar</CommandUndraftLabel>
   <CommandToggleDraftDesc>Alterna el reclutamiento.\n\nLos colonos reclutados tomarán ordenes directas y lucharán. No trabajarán, comerán o descansarán.</CommandToggleDraftDesc>
   <IsIncapped>{0} está incapacitado(a).</IsIncapped>
+
+  	<CommandAllowFiringLabel>Permitir disparos</CommandAllowFiringLabel>
+	<CommandAllowFiringDesc>Alterna el permiso de dispara.\n\nCuando se desactiva, este personaje no disparará automáticamente a objetivos a distancia. No afecta el combate cuerpo a cuerpo.</CommandAllowFiringDesc>
 
   <CommandClearPrioritizedWork>Borrar trabajo priorizado</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>Borra cualquier trabajo priorizado que hayas asignado. El personaje regresará a sus actividades usuales.</CommandClearPrioritizedWorkDesc>
@@ -140,6 +145,86 @@
 
   <!-- Build copy -->
   <CommandBuildCopy>Construir copia</CommandBuildCopy>
-  <CommandBuildCopyDesc>Construir una copia de este edificio.</CommandBuildCopyDesc>  
+  <CommandBuildCopyDesc>Construir una copia de este edificio.</CommandBuildCopyDesc>
+
+  <!-- Form caravan -->
+  <CommandFormCaravan>Formar caravana</CommandFormCaravan>
+  <CommandFormCaravanDesc>Forma un grupo de colonos con capacidad para viajar a nuevas áreas. Los colonos recogerán todas las vituallas asignadas, los animales de compañía y abandonarán el área actual, aguardando nuevas órdenes.</CommandFormCaravanDesc>
+  
+  <!-- Reform caravan -->
+  <CommandReformCaravan>Reformar caravana</CommandReformCaravan>
+  <CommandReformCaravanDesc>Reforma un grupo de colonos. Los colonos dejarán el área actual y esperarán nuevas órdenes.</CommandReformCaravanDesc>
+  <CommandReformCaravanFailHostilePawns>Aún hay algunos enemigos en el área.</CommandReformCaravanFailHostilePawns>
+  
+  <!-- Split caravan -->
+  <CommandSplitCaravan>Dividir</CommandSplitCaravan>
+  <CommandSplitCaravanDesc>Divide la caravana en dos. Las caravanas despues se pueden volver a unir, siempre y cuando estén cerca.</CommandSplitCaravanDesc>
+  
+  <!-- Merge caravan -->
+  <CommandMergeCaravans>Unir</CommandMergeCaravans>
+  <CommandMergeCaravansDesc>Une las caravanas seleccionadas.</CommandMergeCaravansDesc>
+  
+  <!-- Settle -->
+  <CommandSettle>Asentarse</CommandSettle>
+  <CommandSettleDesc>Coloniza esta área. Los colonos entrarán al área y podrás comenzar a construir un nuevo hogar.</CommandSettleDesc>
+  <CommandSettleFailOtherWorldObjectsHere>Tu caravana debe ser el único objeto en ésta celda para poder asentarse.</CommandSettleFailOtherWorldObjectsHere>
+  <CommandSettleFailAlreadyHaveBase>Tu facción sólo puede tener un asentamiento.</CommandSettleFailAlreadyHaveBase>
+  <CommandSettleFailReachedMaximumNumberOfBases>Máximo número de colonias alcanzado.</CommandSettleFailReachedMaximumNumberOfBases>
+  
+  <!-- Abandon home -->
+  <CommandAbandonHome>Abandonar</CommandAbandonHome>
+  <CommandAbandonHomeDesc>Abandona esta área. El área se volverá inaccesible y no podrás regresar nunca más. Después de abandonar tu hogar, podrás ordenarle a una de tus caravanas que se asiente en una nueva área.</CommandAbandonHomeDesc>
+  <CommandAbandonHomeFailAllColonistsThere>Todos tus colonos están aquí.</CommandAbandonHomeFailAllColonistsThere>
+  
+  <!-- Cancel forming caravan -->
+  <CommandCancelFormingCaravan>Cancelar formación de caravana</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravanDesc>Termina el proceso de formación de la caravana.</CommandCancelFormingCaravanDesc>
+  
+  <!-- Show map -->
+  <CommandShowMap>Acercar la vista</CommandShowMap>
+  <CommandShowMapDesc>Acerca la vista a ésta área.</CommandShowMapDesc>
+  
+  <!-- Trade -->
+  <CommandTrade>Comerciar</CommandTrade>
+  <CommandTradeDesc>Comerciar con esta facción.</CommandTradeDesc>
+  <CommandTradeFailNoNegotiator>No hay ningún negociador consciente.</CommandTradeFailNoNegotiator>
+  
+  <!-- Take off -->
+  <CommandTakeOff>Despegar</CommandTakeOff>
+  <CommandTakeOffDesc>Aborda la nave y escapa del planeta.</CommandTakeOffDesc>
+  <CommandTakeOffConfirmation>¿Estás seguro que deséas lanzar la nave?\n\nTodos en ésta área escaparán del planeta. Todos los demás serán abandonados.</CommandTakeOffConfirmation>
+  
+  <!-- Set target fuel level -->
+  <CommandSetTargetFuelLevel>Designar nivel de combustible</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevelDesc>Designa el nivel de combustible. Los colonos intentarán llenar el tanque hasta el nivel designado.</CommandSetTargetFuelLevelDesc>
+  
+  <!-- Cancel load -->
+  <CommandCancelLoad>Cancelar carga</CommandCancelLoad>
+  <CommandCancelLoadDesc>Cancela la carga depersonas y objetos. Se eyectará todo lo que ya se haya cargado.</CommandCancelLoadDesc>
+  
+  <!-- Launch group -->
+  <CommandLaunchGroup>Lanzar grupo</CommandLaunchGroup>
+  <CommandLaunchGroupDesc>Inicia el proceso de trayectorización para lanzar un grupo de cápsulas de transporte. El próximo paso es escoger un objetivo. Las cápsulas despegarán y aterrizarán juntas.</CommandLaunchGroupDesc>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>Algunas de las cápsulas de transporte de este grupo no están conectadas a un puerto de recarga.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNoFuel>Algunas lanzadera de cápsulas de este grupo no tiene combustible.</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailUnderRoof>Alguna lanzadera de cápsulas está bajo techo.</CommandLaunchGroupFailUnderRoof>
+  
+  <!-- Load transporter -->
+  <CommandLoadTransporter>Cargar grupo de despegue {0}</CommandLoadTransporter>
+  <CommandLoadTransporterDesc>Define las cápsulas seleccionadas como un grupo de despegue. Abre el diálogo de carga para que puedas decidir quién y qué será cargado.</CommandLoadTransporterDesc>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>La cápsula de carga no está conectada a un puerto de recarga.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNoFuel>La lanzadera de cápsulas no tiene combustible.</CommandLoadTransporterFailNoFuel>
+  
+  <!-- Select previous transporter -->
+  <CommandSelectPreviousTransporter>Seleccionar cápsula previa</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporterDesc>Selecciona la cápsula previa dentro del mismo grupo de despegue.</CommandSelectPreviousTransporterDesc>
+  
+  <!-- Select all transporters -->
+  <CommandSelectAllTransporters>Seleccionar grupo de despegue</CommandSelectAllTransporters>
+  <CommandSelectAllTransportersDesc>Selecciona todas las cápsulas de transporte en éste grupo de despegue.</CommandSelectAllTransportersDesc>
+  
+  <!-- Select next transporter -->
+  <CommandSelectNextTransporter>Seleccionar cápsula siguiente</CommandSelectNextTransporter>
+  <CommandSelectNextTransporterDesc>Selecciona la cápsula siguiente dentro del mismo grupo de despegue.</CommandSelectNextTransporterDesc>  
   
 </LanguageData>

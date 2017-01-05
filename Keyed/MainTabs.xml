@@ -29,13 +29,21 @@
   
   <!-- Animals tab -->
   <Master>Amo</Master>
-  <PregnantIconDesc>Embarazo ({0} / {1})</PregnantIconDesc>  
+  <PregnantIconDesc>Embarazo ({0} / {1})</PregnantIconDesc>
+	<FollowDraftedTip>Seguir al amo mientras está reclutado.</FollowDraftedTip>
+	<FollowFieldworkTip>Seguir al amo mientras hace trabajo de campo (cazar o domesticar animales).</FollowFieldworkTip>  
     
   <!-- Factions tab -->
   <Hostile>Hostil</Hostile>
+  <DefeatedLower>derrotado</DefeatedLower>  
   <HostileTo>Enemigo de {0}</HostileTo>
   <CurrentGoodwill>Buena voluntad actual con esta facción.</CurrentGoodwill>
 
+	<!-- Social tab -->
+	<Friend>Amigo</Friend>
+	<Rival>Rival</Rival>
+	<Acquaintance>Conocido</Acquaintance>  
+  
   <!-- History tab - subtabs -->
   <Graph>Gráfica</Graph>
   <Statistics>Estadísticas</Statistics>
@@ -53,12 +61,12 @@
   <!-- History tab - Statistics -->
   <Playtime>Tiempo de juego</Playtime>
   <Storyteller>Cuentacuentos</Storyteller>
-  <ColonyWealthTotal>Riqueza de la colonia</ColonyWealthTotal>
-  <ColonyWealthItems>Riqueza de la colonia (objetos)</ColonyWealthItems>
-  <ColonyWealthBuildings>Riqueza de la colonia (edificios)</ColonyWealthBuildings>
+  <ThisMapColonyWealthTotal>Riqueza de la colonia (este mapa)</ThisMapColonyWealthTotal>
+  <ThisMapColonyWealthItems>Riqueza de la colonia (objetos) (este mapa)</ThisMapColonyWealthItems>
+  <ThisMapColonyWealthBuildings>Riqueza de la colonia (edificios) (este mapa)</ThisMapColonyWealthBuildings>
   <NumThreatBigs>Amenazas mayores</NumThreatBigs>
   <NumEnemyRaids>Ataques enemigos</NumEnemyRaids>
-  <DamageTaken>Daño recibido</DamageTaken>
+  <ThisMapDamageTaken>Daño recibido (este mapa)</ThisMapDamageTaken>
   <ColonistsKilled>Colonos asesinados</ColonistsKilled>
   <ColonistsLaunched>Colonos lanzados al espacio</ColonistsLaunched>
   

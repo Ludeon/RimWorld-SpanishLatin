@@ -27,7 +27,7 @@
   <ModWithAssemblyWasUnloaded>El juego no puede dejar de usar código de mods desactivados, así que aún podría estar activo.\n\nSe recomienda que reinicies el juego para que todos los mods se carguen limpiamente.</ModWithAssemblyWasUnloaded>  
   
   <!-- Missing Steam -->
-  <SteamClientMissing>No se pudo inicializar la API de Steam. Causas probables:\n\n-Steam no está abierto.\n-Se abrió el juego fuera de Steam y el archivo steam_appid.txt no está en su lugar.\n-Se abrió el juego con privilegios diferentes de los del cliente de Setam ("como administrador").\n\nEsta versión del juego requiere Steam así que ahora se cerrará.</SteamClientMissing>
+  <SteamClientMissing>No se pudo inicializar la API de Steam. Causas probables:\n\n-Steam no está abierto.\n-Se abrió el juego fuera de Steam y el archivo steam_appid.txt no está en su lugar.\n-Se abrió el juego con privilegios diferentes de los del cliente de Steam ("como administrador").\n\nEsta versión del juego requiere Steam así que ahora se cerrará.</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>Inicializando interface</InitializingInterface>
@@ -40,6 +40,7 @@
   <LoadingMap>Cargando mapa</LoadingMap>
   <InitializingMap>Inicializando mapa</InitializingMap>
   <SpawningAllThings>Creando todas las cosas</SpawningAllThings>
+  <SpawningColonists>Creando colonos</SpawningColonists>  
   
   <!-- Save/load -->
   <SaveGameButton>Guardar</SaveGameButton>
@@ -59,11 +60,20 @@
   <ProblemSavingFile>Hubo un problema guardando el archivo {0}:\n\n{1}</ProblemSavingFile>
   <LoadAnyway>Cargar de todos modos</LoadAnyway>
   
-  <!-- Colony naming-->
-  <NameColonyMessage>Parece que vas a estar aquí por un buen tiempo. {0} sugiere que sería más fácil si la colonia tuviera un nombre.\n\n¿Cómo debería llamarse?</NameColonyMessage>
-  <ColonyGainsName>Esta colonia ahora se conoce como {0}.</ColonyGainsName>
-  <ColonyNameIsInvalid>Ése no es un nombre válido para una colonia.</ColonyNameIsInvalid>
+  <!-- Player faction naming -->
+  <NamePlayerFactionMessage>{0} piensa que tu facción debería tener un nombre. ¿Cómo se llamará?</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>Tu facción ahora se llama {0}.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>Ese nombre no es válido.</PlayerFactionNameIsInvalid>
 
+  <!-- Player faction base naming -->
+  <NamePlayerFactionBaseMessage>Como se nota que vas a estar aquí un buen tiempo, {0} piensa que el asentamiento debería tener un nombre. ¿Cómo se va a llamar?</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>El asentamiento ahora se llama {0}.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>Ese nombre no es válido.</PlayerFactionBaseNameIsInvalid>  
+
+  <!-- Player faction and faction base naming -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>Como se nota que vas a estar aquí un buen tiempo, {0} piensa que también el asentamiento debería tener un nombre. ¿Cómo se va a llamar?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>Tu facción ahora se llama {0}, y el asentamiento, {1}.</PlayerFactionAndBaseGainsName>
+  
   <!-- Renaming -->
   <NameIsInvalid>Escriba un nombre válido.</NameIsInvalid>
   <NameIsInUse>Ése nombre ya está usado.</NameIsInUse>
@@ -157,8 +167,7 @@
   <Days>días</Days>
   <MinGrowingSkillToSow>Habilidad mínima de agricultura para plantar</MinGrowingSkillToSow>  
   <FertilityRequirement>Requerimiento de fertilidad</FertilityRequirement>
-  <SoilFertilitySensitivityGrowthRate>Sensibilidad a la fertilidad del suelo (tasa de crecimiento)</SoilFertilitySensitivityGrowthRate>
-  <SoilFertilitySensitivityPlantChance>Sensibilidad a la fertilidad del suelo (probabilidad de siembra)</SoilFertilitySensitivityPlantChance>  
+  <FertilitySensitivity>Sensibilidad a la fertilidad</FertilitySensitivity>
   <LightRequirement>Requerimiento de luz</LightRequirement>
   <Attributes>Atributos</Attributes>
   <LifeSpan>Esperanza de vida</LifeSpan>
@@ -168,6 +177,7 @@
   <WalkSpeedProperty>Velocidad de movimiento</WalkSpeedProperty>
   <MinFoodQuality>Calidad</MinFoodQuality>
   <Diet>Dieta</Diet>
+	<BodySize>Tamaño corporal</BodySize>  
   <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
   <MarketValue>Precio base</MarketValue>
   <Covers>Cobertura</Covers>
@@ -182,7 +192,9 @@
   <AnimalFilthRateExplanation>Los animales producen suciedad al moverse por ahí en pisos artificiales. Ésta es la cantidad promedio de tal suciedad producida por cada {0} celdas caminadas por esta creatura.\n\nLos animales más grandes o menos domesticables producen más suciedad.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Tiempo</TimeRecordsCategory>
   <MiscRecordsCategory>Varios</MiscRecordsCategory>
-  <Addictiveness>Potencial de adicción</Addictiveness>  
+  <Addictiveness>Potencial de adicción</Addictiveness>
+	<PackAnimal>Animal de carga</PackAnimal>
+	<PackAnimalExplanation>Determina si este animal es apropiado para cargar objetos en una caravana por grandes distancias.</PackAnimalExplanation>  
   
   <!-- Trade -->
   <PositiveBuysNegativeSells>Números positivos compran.\nNúmeros negativos venden.</PositiveBuysNegativeSells>  
@@ -203,6 +215,70 @@
   <NegotiatorTalkingImpaired>{0}, tu negociador, no puede hablar bien debido a un problema de salud.\n\nEsto afectará los negativamente los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>El comerciante no tiene suficiente plata para completar esta transacción. ¿Aún asi deseas continuar?</ConfirmTraderShortFunds>
   <SortBy>Ordenar</SortBy>
+	<TraderTypePrice>tipo de mercader</TraderTypePrice>
+	<Selling>vendiendo</Selling>
+	<Buying>comprando</Buying>
+	<ItemSellPriceFactor>multiplicador de precio de venta de objeto</ItemSellPriceFactor>
+	<DifficultyLevel>nivel de dificultad</DifficultyLevel>
+	<PostCurve>curva post-proceso global</PostCurve>
+	<YourNegotiatorBonus>Tu bono de negociador</YourNegotiatorBonus>
+	<TradeWithFactionBaseBonus>Bono base de comercio con esta facción</TradeWithFactionBaseBonus>
+	<minimum>mínimo</minimum>
+	<FinalPrice>Precio final</FinalPrice>
+  <TradeMassUsageTooltip>Uso de peso y capacidad de peso resultantes.</TradeMassUsageTooltip>  
+
+  <!-- Form caravan -->
+  <FormCaravan>Formar caravana</FormCaravan>
+  <FormCaravanColonyThingCountTip>Cuantos objetos de este tipo tiene listos la colonia para cargar en la caravana.</FormCaravanColonyThingCountTip>
+  <PawnsTab>Personas y animales</PawnsTab>
+  <ItemsTab>Equipo</ItemsTab>
+  <CaravanConfigTab>Configuración</CaravanConfigTab>
+  <CaravanMustHaveAtLeastOneColonist>Debes asignar al menos un colono consciente.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>No se pudo encontrar ninguna dirección de salida válida.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Peligro: algunos de los colonos asignados son incapaces de llegar al lugar de salida.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>Ninguno de los colonos asignados puede llegar hasta {0}.</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>Ninguno de los colonos asignados puede llegar hasta el/la {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>Ninguno de los colonos asignados puede llegar hasta {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>La caravana no puede cargar tanto peso.</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>Uso de peso y capacidad de peso resultantes.\n\nEl uso de peso incluye las vituallas de la caravana asignada así como el equipo de los colonos.\n\nNo puedes enviar a la caravana si el uso de peso excede la capacidad.</CaravanMassUsageTooltip>
+  <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
+  <DaysWorthOfFoodInfo>Quedan {0} días de comida</DaysWorthOfFoodInfo>
+  <InfiniteDaysWorthOfFoodInfo>Nunca se quedará sin comida</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>Un número de días aproximado antes de que la caravana se quede sin comida.\n\nÉsto toma en cuenta tanto la comida para humanos como para animales y te muestra el peor escenario posible. Ésto significa que después de esta cantidad de días, al menos una persona o animal se habrá quedado sin comida.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodWarningDialog>Tu caravana tiene tan sólo {0} días de comida y se pondrá hambrienta muy rápidamente.\n\n¿Estás seguro que quieres formar esta caravana?</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Tu caravana no tiene comida y se pondrá hambrienta muy rápidamente.\n\n¿Estás seguro que quieres formar esta caravana?</DaysWorthOfFoodWarningDialog_NoFood>
+  <NoExitDirectionForCaravanChosen>Debes escoger una dirección de salida para la caravana.</NoExitDirectionForCaravanChosen>
+  <NoCaravanExitDirectionAvailable>(no hay dirección de salida disponible)</NoCaravanExitDirectionAvailable>
+  <ExitDirection>Dirección de salida</ExitDirection>
+  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <ItemWeightTip>Peso de este objeto.</ItemWeightTip>
+  <MarketValueTip>Valor de mercado</MarketValueTip>
+  <MassCapacity>Capacidad de peso</MassCapacity>
+  <Mass>Peso</Mass>
+  <EquipmentAndApparelMass>Peso del equipo y la vestimenta</EquipmentAndApparelMass>
+  <InventoryMass>Peso del inventario</InventoryMass>
+  <CaravanFormationProcessStarted>Tus colonos ahora se cargarán con todos los objetos designados y procederán a dejar el área tan pronto como sea posible.</CaravanFormationProcessStarted>
+  <ReformCaravan>Reformar caravana</ReformCaravan>
+  <ColonistsSection>Colonos</ColonistsSection>
+  <PrisonersSection>Prisioneros</PrisonersSection>
+  <AnimalsSection>Animales</AnimalsSection>
+  
+  <!-- Split caravan -->
+  <SplitCaravan>Dividir caravana</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>Debes dejar al menos un colono consciente.</SourceCaravanMustHaveAtLeastOneColonist>
+  <CaravanSplitSourceLabel>Presente</CaravanSplitSourceLabel>
+  <CaravanSplitDestLabel>Nueva</CaravanSplitDestLabel>
+  <SplitCaravanThingCountTip>Cuantos de estos objetos la caravana presente tiene listos para pasar a la nueva.</SplitCaravanThingCountTip>
+  <SplitCaravanMassUsageTooltip>Uso de peso y capacidad de peso presentes.</SplitCaravanMassUsageTooltip>
+  
+  <!-- Load transporters -->
+  <LoadTransporters>Cargar {0}</LoadTransporters>
+  <TooBigTransportersMassUsage>Las personas y objetos asignadas son demasiado pesados para las cápsulas de transporte.</TooBigTransportersMassUsage>
+  <CantSendEmptyTransportPods>No puedes enviar una cápsula de transporte vacía.</CantSendEmptyTransportPods>
+  <PawnCantReachTransporters>{0} no puede llegar hasta las cápsulas de transporte.</PawnCantReachTransporters>
+  <TransporterItemIsUnreachableSingle>No hay camino disponible entre las cápsulas de transporte y el/la {0}.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti>No hay camino disponible entre las cápsulas de transporte y {0}x {1}.</TransporterItemIsUnreachableMulti>
+  <TransportersMassUsageTooltip>Uso de peso y capacidad de peso presentes.\n\nNo podrás enviar las cápsulas de transporte si el uso de peso excede la capacidad.</TransportersMassUsageTooltip>
   
   <!-- Comms -->
   <SocialSkillIs>Habilidad social: {0}</SocialSkillIs>
@@ -258,9 +334,26 @@
   <JoyThresholdColumnDesc>Los colonos tomarán esta droga solo si su diversión está por debajo de este nivel.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>La cantidad extra de droga que se tomará para consumo, para evitar que el colono tenga que visitar el almacén cada vez.</TakeToInventoryColumnDesc>
   <DrugUsageTipForJoy>Por diversión\n\nUsar esta droga para diversión, socialización y para satisfacer necesidades de adicción, como se requiera.\n\nAunque se desactive, algunos personajes con rasgos específicos, o en medio de un colapso mental, podrían usarlas de todas formas.</DrugUsageTipForJoy>
+  <DrugUsageTipForAddiction>Para adicciones\n\nUsar esta droga para alimentar las necesidades de adicciones ya presentes.\n\nAún si se desactiva, algunos personajes con rasgos específicos, o con un colapso mental, podrían usar la droga de todas maneras.</DrugUsageTipForAddiction>  
   <DrugUsageTipScheduled>Agendada\n\nUsar esta droga con un horario específico, cuando se cumplan las condiciones.</DrugUsageTipScheduled>
   
   <!-- Growing -->
   <NoGrowerCanPlant>El/La {0} requiere {1} de habilidad en agricultura para sembrarse.\n\nNinguno de tus agricultores conscientes posee esta habilidad, así que no se sembrará ésto.</NoGrowerCanPlant>  
+
+  <!-- Abandon home -->
+  <ConfirmAbandonHomeWithColonyPawns>Algunos de tus colonos o animales siguen en esta área. ¿Estás seguro que deseas abanonarlo(s)?\n\nLas siguientes personas y animales se perderán:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <ConfirmLeavePrisonersOrAnimalsBehind>Aún hay algunos prisioneros o animales en esta área y esta es la única caravana a la que pueden unirse en este momento.\n\nSi mueves la caravana, no podrán salir del área hasta que regreses. Los prisioneros comenzarán a escapar y los animales se quedarán, esperándote.\n\nSi decides esperar, ellos tratarán de unirse a tu caravana tan pronto como sea posible.\n\n¿Estás seguro que deseas moverla?</ConfirmLeavePrisonersOrAnimalsBehind>
+  
+  <!-- Abandon pawn -->
+  <ConfirmAbandonPawnDialog>¿De verdad deseas abandonar a {0}?</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog_LeftToDie>Lo más seguro es que {0} muera.</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} se llevará los siguientes objetos con HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>Todos los colonos tendrán los siguientes pensamientos:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>Abandonar a {0} causará que las siguientes personas tengan los siguientes pensamientos:</ConfirmAbandonPawnDialog_IndividualThoughts>
+  
+  <!-- Send transport pods which are not completely loaded -->
+  <ConfirmSendNotCompletelyLoadedPods>El grupo de cápsulas no ha sido cargado por completo. Falta {0}. ¿Lanzar de todos modos?</ConfirmSendNotCompletelyLoadedPods>
   
 </LanguageData>
