@@ -26,6 +26,12 @@
 
 	<GroundPenetratingScanner.label>Escáner de profundidad</GroundPenetratingScanner.label>
 	<GroundPenetratingScanner.description>Un radar dirigido a las profundidades de la tierra, equipado también con sonas y un sensor de imágenes magnético. Permite descubrir vetas minerales escondidas bajo tierra (aunque no su naturaleza exacta). Nota: Requiere mucha energía.</GroundPenetratingScanner.description>	
+
+  <PodLauncher.label>Lanzadera de cápsulas</PodLauncher.label>
+  <PodLauncher.description>Un puerto para la carga de combustible y el despegue de una cápsula de transporte. Las lanzaderas pueden despegar las cápsulas como un grupo - pero para ello deben ser construidas una junto a la otra.</PodLauncher.description>
+  
+  <TransportPod.label>Cápsula de transporte</TransportPod.label>
+  <TransportPod.description>Una cápsula de transporte sub-orbital capaz de transportar personas, animales y objetos. Puede ser usada para transporte, ataques sorpresa o para enviar refuerzos a una batalla.</TransportPod.description>
 	
   <!-- =================================================== -->
 	
@@ -40,10 +46,13 @@
     <CryptosleepCasket.label>Sarcófago de criptosueño</CryptosleepCasket.label>
     <CryptosleepCasket.description>Un sarcófago autoalimentado y diseñado para mantener a una persona con vida en un estado de animación suspendida durante muchos años.</CryptosleepCasket.description>
 
+  <AncientCryptosleepCasket.label>Sarcófago de criptosueño antiguo</AncientCryptosleepCasket.label>
+  <AncientCryptosleepCasket.description>Un antiguo sarcófago de criptosueño. ¿Quién podría estar suspendido ahí?</AncientCryptosleepCasket.description>
+  
     <MarriageSpot.label>Altar</MarriageSpot.label>
-    <MarriageSpot.Description>Designa un lugar donde las ceremonias de matrimonio se llevarán a cabo. El público observará desde ambos lados.</MarriageSpot.Description>
+    <MarriageSpot.description>Designa un lugar donde las ceremonias de matrimonio se llevarán a cabo. El público observará desde ambos lados.</MarriageSpot.description>
 	
     <PartySpot.label>Lugar de fiestas</PartySpot.label>
-    <PartySpot.Description>Designa un lugar alrededor del cual se centrarán las fiestas.</PartySpot.Description>	
+    <PartySpot.description>Designa un lugar alrededor del cual se centrarán las fiestas.</PartySpot.description>	
     
 </LanguageData>
