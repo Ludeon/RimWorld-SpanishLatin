@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <LandedInPod.label>Aterrizaje en cápsula</LandedInPod.label>
   <LandedInPod.rulePack.rulesStrings.0>tale_noun->el aterrizaje de [pawn_nameShortDef] en una cápsula de descenso</LandedInPod.rulePack.rulesStrings.0>
   <LandedInPod.rulePack.rulesStrings.1>image->[pawn_nameFull] aterrizando en una cápsula de aterrrizaje [circumstance_group]</LandedInPod.rulePack.rulesStrings.1>
   <LandedInPod.rulePack.rulesStrings.2>image->[pawn_nameFull] bajando de la cápsula de aterrizaje [circumstance_group]</LandedInPod.rulePack.rulesStrings.2>
@@ -23,7 +24,7 @@
   <LandedInPod.rulePack.rulesStrings.19>desc_sentence->Hya un(a) [terrainfeature] en el fondo.</LandedInPod.rulePack.rulesStrings.19>
   <LandedInPod.rulePack.rulesStrings.20>desc_sentence->Un [outlander] mira silenciosamente a la distancia.</LandedInPod.rulePack.rulesStrings.20>
 
-  
+  <Vomited.label>Vomitado</Vomited.label>  
   <Vomited.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] vomitando</Vomited.rulePack.rulesStrings.0>
   <Vomited.rulePack.rulesStrings.1>image->[pawn_nameFull] vomitando violentamente en el piso [circumstance_group]</Vomited.rulePack.rulesStrings.1>
   <Vomited.rulePack.rulesStrings.2>image->[pawn_nameFull] observando disgustado(a) un charco de vómito en el suelo [circumstance_group]</Vomited.rulePack.rulesStrings.2>
@@ -42,7 +43,7 @@
   <Vomited.rulePack.rulesStrings.15>desc_sentence->[pawn_pronoun] está rodeado(a) de un halo artístico de mugre.</Vomited.rulePack.rulesStrings.15>
   <Vomited.rulePack.rulesStrings.16>desc_sentence->Un [animal] observa desde la distancia.</Vomited.rulePack.rulesStrings.16>
 
-  
+	<Drunk.label>Borracho</Drunk.label>  
   <Drunk.rulePack.rulesStrings.0>tale_noun->la borrachera extrema de [pawn_nameShortDef]</Drunk.rulePack.rulesStrings.0>
   <Drunk.rulePack.rulesStrings.1>image->[pawn_nameFull] tambaléandose de ebrio(a) [circumstance_group]</Drunk.rulePack.rulesStrings.1>
   <Drunk.rulePack.rulesStrings.2>image->[pawn_nameFull] atragantándose con licor [circumstance_group]</Drunk.rulePack.rulesStrings.2>
@@ -73,6 +74,7 @@
   <Drunk.rulePack.rulesStrings.27>desc_sentence->[pawn_pronoun] parece haber perdido un zapato.</Drunk.rulePack.rulesStrings.27>
   <Drunk.rulePack.rulesStrings.28>desc_sentence->su cabello está todo alborotado.</Drunk.rulePack.rulesStrings.28>
 
+  	<WasOnFire.label>En llamas</WasOnFire.label>
   <WasOnFire.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] incendiándose</WasOnFire.rulePack.rulesStrings.0>  
   <WasOnFire.rulePack.rulesStrings.1>image->[pawn_nameFull] intenta apagar frenéticamente un incendio en su cuerpo [circumstance_group]</WasOnFire.rulePack.rulesStrings.1>
   <WasOnFire.rulePack.rulesStrings.2>image->[pawn_nameFull] envuelto(a) en llamas [circumstance_group]</WasOnFire.rulePack.rulesStrings.2>
@@ -92,7 +94,7 @@
   <WasOnFire.rulePack.rulesStrings.16>desc_sentence->Una columna de humo sube hacia el cielo desde su cuerpo.</WasOnFire.rulePack.rulesStrings.16>
   <WasOnFire.rulePack.rulesStrings.17>desc_sentence->[pawn_pronoun] ya casi se ve como un cadáver.</WasOnFire.rulePack.rulesStrings.17>
 
-  
+	<MentalStateBerserk.label>Berserker</MentalStateBerserk.label>  
   <MentalStateBerserk.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] poniéndose berserker</MentalStateBerserk.rulePack.rulesStrings.0>
   <MentalStateBerserk.rulePack.rulesStrings.1>image->[pawn_nameFull] experimentando una ira berserker [circumstance_group]</MentalStateBerserk.rulePack.rulesStrings.1>
   <MentalStateBerserk.rulePack.rulesStrings.2>image->[pawn_nameFull] volviéndose loco(a), violéntamente demente [circumstance_group]</MentalStateBerserk.rulePack.rulesStrings.2>
@@ -117,7 +119,7 @@
   <MentalStateBerserk.rulePack.rulesStrings.21>desc_sentence->[pawn_possessive] cara tiene una serenidad confusa.</MentalStateBerserk.rulePack.rulesStrings.21>
   <MentalStateBerserk.rulePack.rulesStrings.22>desc_sentence->Un sola lágrima cae por su rostro.</MentalStateBerserk.rulePack.rulesStrings.22>
 
-  
+	<MentalStateGaveUp.label>Desesperación</MentalStateGaveUp.label>  
   <MentalStateGaveUp.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] dejándose llevar por la desesperación</MentalStateGaveUp.rulePack.rulesStrings.0>
   <MentalStateGaveUp.rulePack.rulesStrings.1>image->[pawn_nameFull] finalmente dándose por vencido(a) [circumstance_group]</MentalStateGaveUp.rulePack.rulesStrings.1>
   <MentalStateGaveUp.rulePack.rulesStrings.2>image->[pawn_nameFull] llorando incontrolablemente [circumstance_group]</MentalStateGaveUp.rulePack.rulesStrings.2>
@@ -138,7 +140,7 @@
   <MentalStateGaveUp.rulePack.rulesStrings.17>desc_sentence->[pawn_pronoun] parece haber perdido un zapato.</MentalStateGaveUp.rulePack.rulesStrings.17>
   <MentalStateGaveUp.rulePack.rulesStrings.18>desc_sentence->con el cabello completamente alborotado.</MentalStateGaveUp.rulePack.rulesStrings.18>
 
-  
+	<WalkedNaked.label>Desnudez</WalkedNaked.label>  
   <WalkedNaked.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] paseándose desnudo(a)</WalkedNaked.rulePack.rulesStrings.0>
   <WalkedNaked.rulePack.rulesStrings.1>image->[pawn_nameFull] [nude_action] de manera totalmente natural [circumstance_group]</WalkedNaked.rulePack.rulesStrings.1>
   <WalkedNaked.rulePack.rulesStrings.2>image->[pawn_nameFull] [nude_action] sin más que sus zapatos [circumstance_group]</WalkedNaked.rulePack.rulesStrings.2>
@@ -163,7 +165,7 @@
   <WalkedNaked.rulePack.rulesStrings.21>desc_sentence->[pawn_nameShortDef] parece completamente exaltado(a).</WalkedNaked.rulePack.rulesStrings.21>
   <WalkedNaked.rulePack.rulesStrings.22>desc_sentence->[pawn_nameShortDef] está detras de un arbusto estratégicamente situado.</WalkedNaked.rulePack.rulesStrings.22>
   
-  
+	<AteRawHumanlikeMeat.label>Canibalismo</AteRawHumanlikeMeat.label>  
   <AteRawHumanlikeMeat.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] comiendo carne humana</AteRawHumanlikeMeat.rulePack.rulesStrings.0>
   <AteRawHumanlikeMeat.rulePack.rulesStrings.1>image->[pawn_nameFull] [eat_gerund] la carne de un humanoide [circumstance_group]</AteRawHumanlikeMeat.rulePack.rulesStrings.1>
   <AteRawHumanlikeMeat.rulePack.rulesStrings.2>image->[pawn_nameFull] [eat_gerund] un brazo humanoide [circumstance_group]</AteRawHumanlikeMeat.rulePack.rulesStrings.2>
@@ -189,7 +191,7 @@
   <AteRawHumanlikeMeat.rulePack.rulesStrings.22>desc_sentence->La carne se ve increíblemente suculenta.</AteRawHumanlikeMeat.rulePack.rulesStrings.22>
   <AteRawHumanlikeMeat.rulePack.rulesStrings.23>desc_sentence->Pedazos de carne caen al suelo a su alrededor.</AteRawHumanlikeMeat.rulePack.rulesStrings.23>
   
-
+	<CraftedArt.label>Creación de arte</CraftedArt.label>
   <CraftedArt.rulePack.rulesStrings.0>tale_noun->la vez que [pawn_nameShortDef] fabricó  [thing_labelIndefinite]</CraftedArt.rulePack.rulesStrings.0>
   <CraftedArt.rulePack.rulesStrings.1>image->[pawn_nameFull] fabricando [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</CraftedArt.rulePack.rulesStrings.1>
   <CraftedArt.rulePack.rulesStrings.2>image->[pawn_nameFull] completando su trabajo en [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</CraftedArt.rulePack.rulesStrings.2>
@@ -216,7 +218,7 @@
   <CraftedArt.rulePack.rulesStrings.23>title_sentence->[thing_labelDefinite] tiene grabado(a) su nombre: [thing_title]</CraftedArt.rulePack.rulesStrings.23>
   <CraftedArt.rulePack.rulesStrings.24>title_sentence->El nombre de [thing_labelDefinite], [thing_title], cuelga en el fondo.</CraftedArt.rulePack.rulesStrings.24>
 
-  
+	<StruckMineable.label>Descubrimiento de minerales</StruckMineable.label>  
   <StruckMineable.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] minando [thing_label]</StruckMineable.rulePack.rulesStrings.0>
   <StruckMineable.rulePack.rulesStrings.1>image->[pawn_nameFull] picando [thing_label] [circumstance_group]</StruckMineable.rulePack.rulesStrings.1>
   <StruckMineable.rulePack.rulesStrings.2>circumstance_phrase->mientras mina</StruckMineable.rulePack.rulesStrings.2>
@@ -232,7 +234,7 @@
   <StruckMineable.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef] está muy sudado(a) de tanto trabajar.</StruckMineable.rulePack.rulesStrings.12>
   <StruckMineable.rulePack.rulesStrings.13>desc_sentence->[pawn_nameShortDef] está muy sucio(a).</StruckMineable.rulePack.rulesStrings.13>
  
- 
+	<FinishedResearchProject.label>Investigación completada</FinishedResearchProject.label> 
   <FinishedResearchProject.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] terminando su investigación sobre [project_label]</FinishedResearchProject.rulePack.rulesStrings.0>
   <FinishedResearchProject.rulePack.rulesStrings.1>image->[pawn_nameFull] trabajando en el proyecto de [project_label] [circumstance_group]</FinishedResearchProject.rulePack.rulesStrings.1>
   <FinishedResearchProject.rulePack.rulesStrings.2>image->[pawn_nameFull] estudiando los secretos de [project_label] [circumstance_group]</FinishedResearchProject.rulePack.rulesStrings.2>
