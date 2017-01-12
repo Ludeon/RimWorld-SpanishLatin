@@ -9,11 +9,19 @@
     
     <AllowRotten.label>Permitir podrido</AllowRotten.label>
     <AllowRotten.description>Permite materia orgánica que ya ha empezado a pudrirse.</AllowRotten.description>
-	
-	<AllowNonSmeltableWeapons.label>Permitir armas no-derretibles</AllowNonSmeltableWeapons.label>
-	<AllowNonSmeltableWeapons.description>Permite armas no-derretibles, las cuales no puede fundirse para reciclarse.</AllowNonSmeltableWeapons.description>
-	
+
 	<AllowPlantFood.label>Permitir comida de plantas</AllowPlantFood.label>
 	<AllowPlantFood.description>Permite alimentos que son de la calidad de una planta sin cosechar, como la paja.</AllowPlantFood.description>
+
+	<!-- Always hidden -->
+	<AllowSmeltable.label>Permitir derretibles</AllowSmeltable.label>
+	<AllowSmeltable.description>Permite armas derretibles, las cuales se pueden fundir para reciclarse.</AllowSmeltable.description>
+	<AllowNonSmeltableWeapons.label>Permitir armas no-derretibles.</AllowNonSmeltableWeapons.label>
+	<AllowNonSmeltableWeapons.description>Permite armas no-derretibles, las cuales no puede fundirse para reciclarse.</AllowNonSmeltableWeapons.description>
+	<AllowNonDeadmansApparel.label>Permitir ropa no saqueada</AllowNonDeadmansApparel.label>
+	<AllowNonDeadmansApparel.description>Permite ropa normal, del tipo que no has saqueado de un cadáver.</AllowNonDeadmansApparel.description>	
+
+	
+
     
 </LanguageData>
