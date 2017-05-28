@@ -2,9 +2,12 @@
 <LanguageData>
 
   <!-- Missing body part -->
+
   <MissingBodyPart.label>parte faltante</MissingBodyPart.label>
 
+
   <!-- Injuries -->
+
   <Misc.label>varios</Misc.label>
   <Misc.comps.0.labelTendedWell>vendado</Misc.comps.0.labelTendedWell>
   <Misc.comps.0.labelTendedWellInner>suturado</Misc.comps.0.labelTendedWellInner>
@@ -32,7 +35,7 @@
   <Crack.comps.0.labelSolidTendedWell>alineado</Crack.comps.0.labelSolidTendedWell>
   <Crack.injuryProps.destroyedLabel>aplastado</Crack.injuryProps.destroyedLabel>
 
-  <Cut.label>corte</Cut.label>
+  <Cut.label>corte</Cut.label<name />
   <Cut.comps.0.labelTendedWell>vendado</Cut.comps.0.labelTendedWell>
   <Cut.comps.0.labelTendedWellInner>suturado</Cut.comps.0.labelTendedWellInner>
   <Cut.comps.0.labelSolidTendedWell>enyesado</Cut.comps.0.labelSolidTendedWell>
@@ -45,8 +48,6 @@
   <SurgicalCut.comps.0.labelTendedWellInner>suturado</SurgicalCut.comps.0.labelTendedWellInner>
   <SurgicalCut.comps.0.labelSolidTendedWell>enyesado</SurgicalCut.comps.0.labelSolidTendedWell>
   <SurgicalCut.comps.1.oldLabel>cicatriz quirúrgica</SurgicalCut.comps.1.oldLabel>
-  <SurgicalCut.injuryProps.destroyedLabel>amputado</SurgicalCut.injuryProps.destroyedLabel>
-  <SurgicalCut.injuryProps.destroyedOutLabel>amputado</SurgicalCut.injuryProps.destroyedOutLabel>
 
   <Scratch.label>arañazo</Scratch.label>
   <Scratch.comps.0.labelTendedWell>vendado</Scratch.comps.0.labelTendedWell>
@@ -77,7 +78,7 @@
   <Gunshot.comps.0.labelTendedWellInner>suturado</Gunshot.comps.0.labelTendedWellInner>
   <Gunshot.comps.0.labelSolidTendedWell>enyesado</Gunshot.comps.0.labelSolidTendedWell>
   <Gunshot.comps.2.oldLabel>cicatriz</Gunshot.comps.2.oldLabel>
-  <Gunshot.comps.2.instantlyOldLabel>herida permanente de disparo</Gunshot.comps.2.instantlyOldLabel>  
+  <Gunshot.comps.2.instantlyOldLabel>herida permanente de disparo</Gunshot.comps.2.instantlyOldLabel>
   <Gunshot.injuryProps.destroyedLabel>destrozado</Gunshot.injuryProps.destroyedLabel>
   <Gunshot.injuryProps.destroyedOutLabel>perdido</Gunshot.injuryProps.destroyedOutLabel>
 
@@ -94,7 +95,6 @@
   <Bruise.comps.0.labelTendedWellInner>suturado</Bruise.comps.0.labelTendedWellInner>
   <Bruise.comps.0.labelSolidTendedWell>enyesado</Bruise.comps.0.labelSolidTendedWell>
   <Bruise.injuryProps.destroyedLabel>destrozado</Bruise.injuryProps.destroyedLabel>
-  <Bruise.injuryProps.destroyedOutLabel>perdido</Bruise.injuryProps.destroyedOutLabel>
 
   <Frostbite.label>congelación</Frostbite.label>
   <Frostbite.comps.0.labelTendedWell>vendado</Frostbite.comps.0.labelTendedWell>
