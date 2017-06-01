@@ -1,29 +1,25 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-    
-    <MakeStoneBlocksAny.label>producir bloques de piedra</MakeStoneBlocksAny.label>
-    <MakeStoneBlocksAny.description>Corta los trozos de roca en bloques aprovechables.</MakeStoneBlocksAny.description>
-	<MakeStoneBlocksAny.jobString>Produciendo bloques de piedra.</MakeStoneBlocksAny.jobString>
-    
-    <ExtractMetalFromSlag.label>fundir metal de escombros metálicos</ExtractMetalFromSlag.label>
-    <ExtractMetalFromSlag.description>Utiliza el calor y potentes electroimanes para extraer el metal aprovechable de los escombros metalicos.</ExtractMetalFromSlag.description>
-    <ExtractMetalFromSlag.jobString>Fundiendo metal.</ExtractMetalFromSlag.jobString>
-	
-    <SmeltWeapon.label>fundir metal de armas</SmeltWeapon.label>
-    <SmeltWeapon.description>Utiliza el calor y potentes electroimanes para extraer el metal aprovechable de armas metálicas.</SmeltWeapon.description>
-    <SmeltWeapon.jobString>Fundiendo arma.</SmeltWeapon.jobString>
+
+  <ExtractMetalFromSlag.label>fundir metal de escombros metálicos</ExtractMetalFromSlag.label>
+  <ExtractMetalFromSlag.description>Utiliza el calor y potentes electroimanes para extraer el metal aprovechable de los escombros metalicos.</ExtractMetalFromSlag.description>
+  <ExtractMetalFromSlag.jobString>Fundiendo metal.</ExtractMetalFromSlag.jobString>
+
+  <SmeltWeapon.label>fundir metal de armas</SmeltWeapon.label>
+  <SmeltWeapon.description>Utiliza el calor y potentes electroimanes para extraer el metal aprovechable de armas metálicas.</SmeltWeapon.description>
+  <SmeltWeapon.jobString>Fundiendo arma.</SmeltWeapon.jobString>
 
 	<DestroyWeapon.label>destruir arma</DestroyWeapon.label>
 	<DestroyWeapon.description>Utiliza el calor para destruir armar no deseadas. Es más rápido que fundirlas y funciona con cualquier objeto aunque no sea derretible, pero no produce ningún recurso.</DestroyWeapon.description>
 	<DestroyWeapon.jobString>Destruyendo arma.</DestroyWeapon.jobString>
-	
+
 	<MakeMortarShell.label>producir obuses para artillería</MakeMortarShell.label>
 	<MakeMortarShell.description>Fabrica un obús para la artillería.</MakeMortarShell.description>
-	<MakeMortarShell.jobString>Produciendo obuses.</MakeMortarShell.jobString>	
+	<MakeMortarShell.jobString>Produciendo obuses.</MakeMortarShell.jobString>
 
 	<MakeComponent.label>fabricar componentes</MakeComponent.label>
 	<MakeComponent.description>Fabrica componentes.</MakeComponent.description>
-	<MakeComponent.jobString>Fabricando componentes.</MakeComponent.jobString>	
+	<MakeComponent.jobString>Fabricando componentes.</MakeComponent.jobString>
 
 	<MakeChemfuelFromWood.label>producir biocombustible con madera</MakeChemfuelFromWood.label>
 	<MakeChemfuelFromWood.description>Produce un lote de biocombustible al gasificar troncos de madera.</MakeChemfuelFromWood.description>
@@ -33,24 +29,5 @@
 	<MakeChemfuelFromOrganics.description>Produce un lote de biocombustible a partir de materia orgánica.</MakeChemfuelFromOrganics.description>
 	<MakeChemfuelFromOrganics.jobString>Refinando biocombustible con orgánicos.</MakeChemfuelFromOrganics.jobString>
 
-	<MakeStoneBlocksSandstone.label>producir bloques de arenisca</MakeStoneBlocksSandstone.label>
-	<MakeStoneBlocksSandstone.description>Corta los trozos de arenisca en bloques aprovechables.</MakeStoneBlocksSandstone.description>
-	<MakeStoneBlocksSandstone.jobString>Produciendo bloques de arenisca.</MakeStoneBlocksSandstone.jobString>
 
-	<MakeStoneBlocksGranite.label>producir bloques de granito</MakeStoneBlocksGranite.label>
-	<MakeStoneBlocksGranite.description>Corta los trozos de granito en bloques aprovechables.</MakeStoneBlocksGranite.description>
-	<MakeStoneBlocksGranite.jobString>Produciendo bloques de granito.</MakeStoneBlocksGranite.jobString>
-
-	<MakeStoneBlocksLimestone.label>producir bloques de caliza</MakeStoneBlocksLimestone.label>
-	<MakeStoneBlocksLimestone.description>Corta los trozos de caliza en bloques aprovechables.</MakeStoneBlocksLimestone.description>
-	<MakeStoneBlocksLimestone.jobString>Produciendo bloques de caliza.</MakeStoneBlocksLimestone.jobString>
-
-	<MakeStoneBlocksSlate.label>producir bloques de pizarra</MakeStoneBlocksSlate.label>
-	<MakeStoneBlocksSlate.description>Corta los trozos pizarra en bloques aprovechables.</MakeStoneBlocksSlate.description>
-	<MakeStoneBlocksSlate.jobString>Produciendo bloques de pizarra.</MakeStoneBlocksSlate.jobString>
-
-	<MakeStoneBlocksMarble.label>producir bloques de mármol</MakeStoneBlocksMarble.label>
-	<MakeStoneBlocksMarble.description>Corta los trozos de mármol en bloques aprovechables.</MakeStoneBlocksMarble.description>
-	<MakeStoneBlocksMarble.jobString>Produciendo bloques de mármol.</MakeStoneBlocksMarble.jobString>
-	
 </LanguageData>
