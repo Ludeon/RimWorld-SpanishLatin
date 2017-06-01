@@ -1,30 +1,36 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-    
+
     <ArmorRating_Blunt.label>Armadura - Contundente</ArmorRating_Blunt.label>
     <ArmorRating_Blunt.description>Protección contra daño contundente como ataques con porras, desprendimientos de roca o explosiones.</ArmorRating_Blunt.description>
-    
+
     <ArmorRating_Sharp.label>Armadura - Cortante</ArmorRating_Sharp.label>
     <ArmorRating_Sharp.description>Protección contra daño cortante y punzante, como por ejemplo balas, cortes de cuchillas o mordiscos de animales.</ArmorRating_Sharp.description>
-    
+
     <ArmorRating_Heat.label>Armadura - Calor</ArmorRating_Heat.label>
     <ArmorRating_Heat.description>Protección contra daños relacionados con la temperatura, como las quemaduras.</ArmorRating_Heat.description>
-    
+
     <ArmorRating_Electric.label>Armadura - Eléctrico</ArmorRating_Electric.label>
     <ArmorRating_Electric.description>Protección contra daños de tipo electrico, como los PEM.</ArmorRating_Electric.description>
-    
-	<Insulation_Cold.label>Aislamiento - Frío</Insulation_Cold.label>
-	<Insulation_Cold.description>Qué tanto esta vestimenta cambia la mínima temperatura cómoda para éste personaje.</Insulation_Cold.description>
-	
-	<Insulation_Heat.label>Aislamiento - Calor</Insulation_Heat.label>
-	<Insulation_Heat.description>Qué tanto esta vestimenta cambia la máxima temperatura cómoda para éste personaje.</Insulation_Heat.description>
-	
-	<PersonalShieldEnergyMax.label>Energía máxima del escudo</PersonalShieldEnergyMax.label>
-	<PersonalShieldEnergyMax.description>La energía máxima que un escudo personal puede tener en un momento dado. Más energía absorbe más daño.</PersonalShieldEnergyMax.description>
-	
-	<PersonalShieldRechargeRate.label>Tiempo de recarga del escudo</PersonalShieldRechargeRate.label>
-	<PersonalShieldRechargeRate.description>La tasa de recarga de la energía de un escudo mientras aún funcione.</PersonalShieldRechargeRate.description>
-	
-	
-	
+
+  	<Insulation_Cold.label>Aislamiento - Frío</Insulation_Cold.label>
+  	<Insulation_Cold.description>Qué tanto esta vestimenta cambia la mínima temperatura cómoda para éste personaje.</Insulation_Cold.description>
+
+  	<Insulation_Heat.label>Aislamiento - Calor</Insulation_Heat.label>
+  	<Insulation_Heat.description>Qué tanto esta vestimenta cambia la máxima temperatura cómoda para éste personaje.</Insulation_Heat.description>
+
+  	<EnergyShieldEnergyMax.label>Energía máxima del escudo</EnergyShieldEnergyMax.label>
+  	<EnergyShieldEnergyMax.description>La energía máxima que un escudo personal puede tener en un momento dado. Más energía absorbe más daño.</EnergyShieldEnergyMax.description>
+
+  	<EnergyShieldRechargeRate.label>Tiempo de recarga del escudo</EnergyShieldRechargeRate.label>
+  	<EnergyShieldRechargeRate.description>La tasa de recarga de la energía de un escudo mientras aún funcione.</EnergyShieldRechargeRate.description>
+    <EnergyShieldRechargeRate.formatString>{0}/s</EnergyShieldRechargeRate.formatString>
+
+    <!-- String sin traducir -->
+
+    <SmokepopBeltRadius.label>Smokepop belt radius</SmokepopBeltRadius.label>
+    <SmokepopBeltRadius.description>The area obscured when a smokepop belt detonates.</SmokepopBeltRadius.description>
+    <SmokepopBeltRadius.formatString>{0} c</SmokepopBeltRadius.formatString>
+
+
 </LanguageData>
