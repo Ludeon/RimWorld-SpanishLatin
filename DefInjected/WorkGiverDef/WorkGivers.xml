@@ -1,58 +1,78 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- ============= Firefighter ============= -->
+  <!-- ============= Bombero ============= -->
   
   <FightFires.label>combatir incendios</FightFires.label>
   <FightFires.verb>extinguir</FightFires.verb>
   <FightFires.gerund>extinción</FightFires.gerund>
+
   
-  <!-- ============= PatientEmergency ============= -->
+  <!-- ============= Paciente ============= -->
   
-  <PatientGoToBedEmergency.label>recibir tratamiento de emergencia</PatientGoToBedEmergency.label>
-  <PatientGoToBedEmergency.verb>recibir tratamiento en</PatientGoToBedEmergency.verb>
-  <PatientGoToBedEmergency.gerund>recostarse</PatientGoToBedEmergency.gerund>
-  
+  <PatientGoToBedEmergencyTreatment.label>recibir tratamiento de emergencia</PatientGoToBedEmergencyTreatment.label>
+  <PatientGoToBedEmergencyTreatment.verb>recibir tratamiento en</PatientGoToBedEmergencyTreatment.verb>
+  <PatientGoToBedEmergencyTreatment.gerund>recostarse</PatientGoToBedEmergencyTreatment.gerund>
+
+  <PatientGoToBedTreatment.label>recuperárse en cama</PatientGoToBedTreatment.label>
+  <PatientGoToBedTreatment.verb>recuperarse</PatientGoToBedTreatment.verb>
+  <PatientGoToBedTreatment.gerund>recuperación</PatientGoToBedTreatment.gerund>
+
+
   <!-- ============= Doctor ============= -->
   
   <DoctorTreatEmergency.label>tratamiento de emergencia</DoctorTreatEmergency.label>
   <DoctorTreatEmergency.verb>tratar a</DoctorTreatEmergency.verb>
-  <DoctorTreatEmergency.gerund>tratamiento a</DoctorTreatEmergency.gerund>
+  <DoctorTreatEmergency.gerund>tratando a</DoctorTreatEmergency.gerund>
   
   <DoctorRescue.label>rescate de emergencia</DoctorRescue.label>
   <DoctorRescue.verb>rescatar a</DoctorRescue.verb>
-  <DoctorRescue.gerund>rescate de</DoctorRescue.gerund>
+  <DoctorRescue.gerund>rescatando a</DoctorRescue.gerund>
   
   <DoBillsMedicalHumanOperation.label>operar humanoides</DoBillsMedicalHumanOperation.label>
   <DoBillsMedicalHumanOperation.verb>operar a</DoBillsMedicalHumanOperation.verb>
-  <DoBillsMedicalHumanOperation.gerund>operación de</DoBillsMedicalHumanOperation.gerund>
-  
+  <DoBillsMedicalHumanOperation.gerund>operando a</DoBillsMedicalHumanOperation.gerund>
+
+  <DoctorTendToHumanlikes.label>atender a los pacientes</DoctorTendToHumanlikes.label>
+  <DoctorTendToHumanlikes.verb>atender a</DoctorTendToHumanlikes.verb>
+  <DoctorTendToHumanlikes.gerund>atendiendo a</DoctorTendToHumanlikes.gerund>
+
+  <DoctorTendToSelf.label>autotratamiento</DoctorTendToSelf.label>
+  <DoctorTendToSelf.verb>autoatenderse</DoctorTendToSelf.verb>
+  <DoctorTendToSelf.gerund>autotendiéndose</DoctorTendToSelf.gerund>
+
+  <DoctorFeedHumanLikes.label>alimentar pacientes</DoctorFeedHumanLikes.label>
+  <DoctorFeedHumanLikes.verb>alimentar a</DoctorFeedHumanLikes.verb>
+  <DoctorFeedHumanLikes.gerund>alimentando a</DoctorFeedHumanLikes.gerund>
+
   <DoBillsMedicalAnimalOperation.label>operar animales</DoBillsMedicalAnimalOperation.label>
   <DoBillsMedicalAnimalOperation.verb>operar a</DoBillsMedicalAnimalOperation.verb>
-  <DoBillsMedicalAnimalOperation.gerund>operación de</DoBillsMedicalAnimalOperation.gerund>
+  <DoBillsMedicalAnimalOperation.gerund>operando a</DoBillsMedicalAnimalOperation.gerund>
 
-  <DoctorTreat.label>tratar pacientes</DoctorTreat.label>
-  <DoctorTreat.verb>tratar a</DoctorTreat.verb>
-  <DoctorTreat.gerund>tratamiento de</DoctorTreat.gerund>
-  
-  <DoctorFeed.label>alimentar pacientes</DoctorFeed.label>
-  <DoctorFeed.verb>alimentar a</DoctorFeed.verb>
-  <DoctorFeed.gerund>alimentación de</DoctorFeed.gerund>
+  <DoctorTendToAnimals.label>atender a los animales</DoctorTendToAnimals.label>
+  <DoctorTendToAnimals.verb>atender a</DoctorTendToAnimals.verb>
+  <DoctorTendToAnimals.gerund>atendiendo a</DoctorTendToAnimals.gerund>
+
+  <DoctorFeedAnimals.label>alimentar animales</DoctorFeedAnimals.label>
+  <DoctorFeedAnimals.verb>alimentar</DoctorFeedAnimals.verb>
+  <DoctorFeedAnimals.gerund>alimentando</DoctorFeedAnimals.gerund>
   
   <TakeToBedToOperate.label>llevar pacientes a operar</TakeToBedToOperate.label>
   <TakeToBedToOperate.verb>llevar a operar a</TakeToBedToOperate.verb>
-  <TakeToBedToOperate.gerund>operación de</TakeToBedToOperate.gerund>
+  <TakeToBedToOperate.gerund>llevando a operar a</TakeToBedToOperate.gerund>
   
   <VisitSickPawn.label>visitar pacientes</VisitSickPawn.label>
   <VisitSickPawn.verb>visitar a</VisitSickPawn.verb>
-  <VisitSickPawn.gerund>visita de</VisitSickPawn.gerund>
-  
-  <!-- ============= PatientBedRest ============= -->
-  
-  <PatientGoToBed.label>recuperárse en cama</PatientGoToBed.label>
-  <PatientGoToBed.verb>recuperarse</PatientGoToBed.verb>
-  <PatientGoToBed.gerund>recuperación</PatientGoToBed.gerund>
-  
+  <VisitSickPawn.gerund>visitando</VisitSickPawn.gerund>
+
+
+  <!-- ========== PatientBedRest ============ -->
+
+  <PatientGoToBedRecuperate.label>recuperárse en cama</PatientGoToBedRecuperate.label>
+  <PatientGoToBedRecuperate.verb>recuperarse</PatientGoToBedRecuperate.verb>
+  <PatientGoToBedRecuperate.gerund>recuperación</PatientGoToBedRecuperate.gerund>
+
+
   <!-- ============= Flicker ============= -->
 
   <Flick.label>alternar interruptores</Flick.label>
@@ -135,7 +155,39 @@
   <HunterHunt.verb>cazar</HunterHunt.verb>
   <HunterHunt.gerund>caza de</HunterHunt.gerund>
   
+
+  <!-- ============= Repair ============= -->
+
+  <FixBrokenDownBuilding.label>reparar estructuras</FixBrokenDownBuilding.label>
+  <FixBrokenDownBuilding.verb>reparar</FixBrokenDownBuilding.verb>
+  <FixBrokenDownBuilding.gerund>reparación de</FixBrokenDownBuilding.gerund>
+
+  <Repair.label>reparar objetos</Repair.label>
+  <Repair.verb>reparar</Repair.verb>
+  <Repair.gerund>reparación de</Repair.gerund>
+
+
   <!-- ============= Construction ============= -->
+
+  <BuildRoofs.label>construir techos</BuildRoofs.label>
+  <BuildRoofs.verb>construir</BuildRoofs.verb>
+  <BuildRoofs.gerund>construcción de </BuildRoofs.gerund>
+
+  <RemoveRoofs.label>remover techos</RemoveRoofs.label>
+  <RemoveRoofs.verb>remover</RemoveRoofs.verb>
+  <RemoveRoofs.gerund>remoción de</RemoveRoofs.gerund>
+
+  <ConstructFinishFrames.label>construir objetos</ConstructFinishFrames.label>
+  <ConstructFinishFrames.verb>construir</ConstructFinishFrames.verb>
+  <ConstructFinishFrames.gerund>construcción de</ConstructFinishFrames.gerund>
+
+  <ConstructDeliverResourcesToFrames.label>acarreo de recursos para construir edificios</ConstructDeliverResourcesToFrames.label>
+  <ConstructDeliverResourcesToFrames.verb>acarrear</ConstructDeliverResourcesToFrames.verb>
+  <ConstructDeliverResourcesToFrames.gerund>acarreo de</ConstructDeliverResourcesToFrames.gerund>
+
+  <ConstructDeliverResourcesToBlueprints.label>acarreo de recursos para construir muebles</ConstructDeliverResourcesToBlueprints.label>
+  <ConstructDeliverResourcesToBlueprints.verb>acarrear</ConstructDeliverResourcesToBlueprints.verb>
+  <ConstructDeliverResourcesToBlueprints.gerund>acarreo de</ConstructDeliverResourcesToBlueprints.gerund>
 
   <Deconstruct.label>desarmar objetos</Deconstruct.label>
   <Deconstruct.verb>desarmar</Deconstruct.verb>
@@ -145,26 +197,6 @@
   <Uninstall.verb>desinstalar</Uninstall.verb>
   <Uninstall.gerund>desinstalación</Uninstall.gerund>
   
-  <ConstructFinishFrames.label>construir objetos</ConstructFinishFrames.label>
-  <ConstructFinishFrames.verb>construir</ConstructFinishFrames.verb>
-  <ConstructFinishFrames.gerund>construcción de</ConstructFinishFrames.gerund>
-  
-  <ConstructDeliverResourcesToFrames.label>acarreo de recursos para construir edificios</ConstructDeliverResourcesToFrames.label>
-  <ConstructDeliverResourcesToFrames.verb>acarrear</ConstructDeliverResourcesToFrames.verb>
-  <ConstructDeliverResourcesToFrames.gerund>acarreo de</ConstructDeliverResourcesToFrames.gerund>
-  
-  <ConstructDeliverResourcesToBlueprints.label>acarreo de recursos para construir muebles</ConstructDeliverResourcesToBlueprints.label>
-  <ConstructDeliverResourcesToBlueprints.verb>acarrear</ConstructDeliverResourcesToBlueprints.verb>
-  <ConstructDeliverResourcesToBlueprints.gerund>acarreo de</ConstructDeliverResourcesToBlueprints.gerund>
-  
-  <BuildRoofs.label>construir techos</BuildRoofs.label>
-  <BuildRoofs.verb>construir</BuildRoofs.verb>
-  <BuildRoofs.gerund>construcción de </BuildRoofs.gerund>
-  
-  <RemoveRoofs.label>remover techos</RemoveRoofs.label>
-  <RemoveRoofs.verb>remover</RemoveRoofs.verb>
-  <RemoveRoofs.gerund>remoción de</RemoveRoofs.gerund>  
-  
   <ConstructRemoveFloors.label>remover pisos</ConstructRemoveFloors.label>
   <ConstructRemoveFloors.verb>remover</ConstructRemoveFloors.verb>
   <ConstructRemoveFloors.gerund>remoción de</ConstructRemoveFloors.gerund>
@@ -172,20 +204,7 @@
   <ConstructSmoothFloors.label>desbastar suelos</ConstructSmoothFloors.label>
   <ConstructSmoothFloors.verb>desbastar</ConstructSmoothFloors.verb>
   <ConstructSmoothFloors.gerund>desbaste de</ConstructSmoothFloors.gerund>
-  
-  <!-- ============= Repair ============= -->
 
-  <FixBrokenDownBuilding.label>reparar estructuras</FixBrokenDownBuilding.label>
-  <FixBrokenDownBuilding.verb>reparar</FixBrokenDownBuilding.verb>
-  <FixBrokenDownBuilding.gerund>reparación de</FixBrokenDownBuilding.gerund>
-
-  <DoBillsMedicalMechanoidOperation.label>operar mecanoides</DoBillsMedicalMechanoidOperation.label>
-  <DoBillsMedicalMechanoidOperation.verb>modificar</DoBillsMedicalMechanoidOperation.verb>
-  <DoBillsMedicalMechanoidOperation.gerund>modificación de</DoBillsMedicalMechanoidOperation.gerund>
-   
-  <Repair.label>reparar objetos</Repair.label>
-  <Repair.verb>reparar</Repair.verb>
-  <Repair.gerund>reparación de</Repair.gerund>
 
   <!-- ============= Growing ============= -->
 
@@ -196,23 +215,26 @@
   <GrowerSow.label>siembra de cultivos</GrowerSow.label>
   <GrowerSow.verb>sembrar</GrowerSow.verb>
   <GrowerSow.gerund>siembra de</GrowerSow.gerund>
-  
+
+
   <!-- ============= Mining ============= -->
 
   <Mine.label>minar</Mine.label>
   <Mine.verb>minar</Mine.verb>
-  <Mine.gerund>minado de</Mine.gerund>
+  <Mine.gerund>minando</Mine.gerund>
 
   <Drill.label>taladrar</Drill.label>
   <Drill.verb>taladrar</Drill.verb>
-  <Drill.gerund>taladrado</Drill.gerund>
-  
+  <Drill.gerund>taladrando</Drill.gerund>
+
+
   <!-- ============= PlantCutting ============= -->
   
-  <PlantsCut.label>cortar/talar plantas</PlantsCut.label>
-  <PlantsCut.verb>talar</PlantsCut.verb>
-  <PlantsCut.gerund>tala de</PlantsCut.gerund>
-  
+  <PlantsCut.label>cortar plantas</PlantsCut.label>
+  <PlantsCut.verb>corte</PlantsCut.verb>
+  <PlantsCut.gerund>corte de</PlantsCut.gerund>
+
+
   <!-- ============= Smithing ============= -->
   
   <DoBillsMakeWeapons.label>fabricación de armas</DoBillsMakeWeapons.label>
@@ -226,24 +248,39 @@
   <DoBillsComponentAssemblyBench.label>ensamble de componentes</DoBillsComponentAssemblyBench.label>
   <DoBillsComponentAssemblyBench.verb>ensamblar</DoBillsComponentAssemblyBench.verb>
   <DoBillsComponentAssemblyBench.gerund>ensamble de</DoBillsComponentAssemblyBench.gerund>
-  
+
+
   <!-- ============= Tailoring ============= -->
   
   <DoBillsMakeApparel.label>confeccionar ropa</DoBillsMakeApparel.label>
   <DoBillsMakeApparel.verb>confeccionar</DoBillsMakeApparel.verb>
   <DoBillsMakeApparel.gerund>confección de</DoBillsMakeApparel.gerund>
-  
+
+
   <!-- ============= Art ============= -->
   
   <DoBillsSculpt.label>esculpir arte</DoBillsSculpt.label>
   <DoBillsSculpt.verb>esculpir</DoBillsSculpt.verb>
   <DoBillsSculpt.gerund>esculpido de</DoBillsSculpt.gerund>
-  
+
+
   <!-- ============= Crafting ============= -->
-  
+
+  <DoBillsMedicalMechanoidOperation.label>operación de mecanoides</DoBillsMedicalMechanoidOperation.label>
+  <DoBillsMedicalMechanoidOperation.verb>modificar</DoBillsMedicalMechanoidOperation.verb>
+  <DoBillsMedicalMechanoidOperation.gerund>modificando</DoBillsMedicalMechanoidOperation.gerund>
+
   <DoBillsUseCraftingSpot.label>manufacturar</DoBillsUseCraftingSpot.label>
   <DoBillsUseCraftingSpot.verb>fabricar</DoBillsUseCraftingSpot.verb>
   <DoBillsUseCraftingSpot.gerund>fabricación de</DoBillsUseCraftingSpot.gerund>
+
+  <DoBillsRefinery.label>trabajo de refineria</DoBillsRefinery.label>
+  <DoBillsRefinery.verb>refinar productos químicos</DoBillsRefinery.verb>
+  <DoBillsRefinery.gerund>refinado de productos químicos</DoBillsRefinery.gerund>
+
+  <DoBillsProduceDrugs.label>producir drogas</DoBillsProduceDrugs.label>
+  <DoBillsProduceDrugs.verb>producir</DoBillsProduceDrugs.verb>
+  <DoBillsProduceDrugs.gerund>producción de</DoBillsProduceDrugs.gerund>
 
   <DoBillsStonecut.label>cortar rocas</DoBillsStonecut.label>
   <DoBillsStonecut.verb>cortar</DoBillsStonecut.verb>
@@ -253,13 +290,37 @@
   <DoBillsSmelter.verb>fundir</DoBillsSmelter.verb>
   <DoBillsSmelter.gerund>fundición de</DoBillsSmelter.gerund>
 
-  <DoBillsProduceDrugs.label>producir drogas</DoBillsProduceDrugs.label>
-  <DoBillsProduceDrugs.verb>producir</DoBillsProduceDrugs.verb>
-  <DoBillsProduceDrugs.gerund>producción de</DoBillsProduceDrugs.gerund>
- 
   
   <!-- ============= Hauling ============= -->
-  
+
+  <UnloadCarriers.label>descarga de acarreo</UnloadCarriers.label>
+  <UnloadCarriers.verb>descarga</UnloadCarriers.verb>
+  <UnloadCarriers.gerund>descargando</UnloadCarriers.gerund>
+
+  <LoadTransporters.label>cargar en transporte</LoadTransporters.label>
+  <LoadTransporters.verb>carga</LoadTransporters.verb>
+  <LoadTransporters.gerund>cargando</LoadTransporters.gerund>
+
+  <HelpGatheringItemsForCaravan.label>cargar en caravana</HelpGatheringItemsForCaravan.label>
+  <HelpGatheringItemsForCaravan.verb>cargar</HelpGatheringItemsForCaravan.verb>
+  <HelpGatheringItemsForCaravan.gerund>cargando</HelpGatheringItemsForCaravan.gerund>
+
+  <Strip.label>desvestir cuerpos</Strip.label>
+  <Strip.verb>desvestir a</Strip.verb>
+  <Strip.gerund>desvistiendo</Strip.gerund>
+
+  <BuryCorpses.label>enterrar cuerpos</BuryCorpses.label>
+  <BuryCorpses.verb>enterrar a</BuryCorpses.verb>
+  <BuryCorpses.gerund>entierro de</BuryCorpses.gerund>
+
+  <HaulCorpses.label>acarrear cadáveres</HaulCorpses.label>
+  <HaulCorpses.verb>acarrear</HaulCorpses.verb>
+  <HaulCorpses.gerund>acarreo de</HaulCorpses.gerund>
+
+  <Open.label>abrir contenedores</Open.label>
+  <Open.verb>abrir</Open.verb>
+  <Open.gerund>apertura de</Open.gerund>
+
   <Refuel.label>reabastecer de combustible</Refuel.label>
   <Refuel.verb>reabastecer</Refuel.verb>
   <Refuel.gerund>reabastecimiento de</Refuel.gerund>
@@ -267,14 +328,10 @@
   <RearmTraps.label>rearmar trampas</RearmTraps.label>
   <RearmTraps.verb>rearmar</RearmTraps.verb>
   <RearmTraps.gerund>rearmado de</RearmTraps.gerund>
-  
-  <Strip.label>desvestir cuerpos</Strip.label>
-  <Strip.verb>desvestir a</Strip.verb>
-  <Strip.gerund>desvestido de</Strip.gerund>
-  
-  <Open.label>abrir contenedores</Open.label>
-  <Open.verb>abrir</Open.verb>
-  <Open.gerund>apertura de</Open.gerund>
+
+  <DoBillsCremate.label>cremar cuerpos</DoBillsCremate.label>
+  <DoBillsCremate.verb>cremar a</DoBillsCremate.verb>
+  <DoBillsCremate.gerund>cremación de</DoBillsCremate.gerund>
 
   <TakeBeerOutOfFermentingBarrel.label>recolectar cerveza del fermentador</TakeBeerOutOfFermentingBarrel.label>
   <TakeBeerOutOfFermentingBarrel.verb>recolectar</TakeBeerOutOfFermentingBarrel.verb>
@@ -283,26 +340,11 @@
   <FillFermentingBarrel.label>llenar barril fermentador</FillFermentingBarrel.label>
   <FillFermentingBarrel.verb>llenar</FillFermentingBarrel.verb>
   <FillFermentingBarrel.gerund>llenado de</FillFermentingBarrel.gerund>
-   
-  <DoBillsCremate.label>cremar cuerpos</DoBillsCremate.label>
-  <DoBillsCremate.verb>cremar a</DoBillsCremate.verb>
-  <DoBillsCremate.gerund>cremación de</DoBillsCremate.gerund>
 
-  <DoBillsHaulCampfire.label>trabajar en la fogata</DoBillsHaulCampfire.label>
-  <DoBillsHaulCampfire.verb>trabajar aquí</DoBillsHaulCampfire.verb>
-  <DoBillsHaulCampfire.gerund>trabajo en la</DoBillsHaulCampfire.gerund>
-  
-  <BuryCorpses.label>enterrar cuerpos</BuryCorpses.label>
-  <BuryCorpses.verb>enterrar a</BuryCorpses.verb>
-  <BuryCorpses.gerund>entierro de</BuryCorpses.gerund>
-  
-  <HaulCorpses.label>acarrear cadáveres</HaulCorpses.label>
-  <HaulCorpses.verb>acarrear</HaulCorpses.verb>
-  <HaulCorpses.gerund>acarreo de</HaulCorpses.gerund>
-  
   <HaulGeneral.label>acarreo de objetos</HaulGeneral.label>
   <HaulGeneral.verb>acarrear</HaulGeneral.verb>
   <HaulGeneral.gerund>acarreo de</HaulGeneral.gerund>
+
   
   <!-- ============= Cleaning ============= -->
   
@@ -313,6 +355,7 @@
   <CleanFilth.label>limpieza</CleanFilth.label>
   <CleanFilth.verb>limpiar</CleanFilth.verb>
   <CleanFilth.gerund>limpieza de</CleanFilth.gerund>
+
   
   <!-- ============= Research ============= -->
   
