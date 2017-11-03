@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-    <WealthTotal.label>riqueza (total)</WealthTotal.label>  
-    <WealthItems.label>riqueza (objetos)</WealthItems.label>   
-    <WealthBuildings.label>riqueza (estructuras)</WealthBuildings.label>
-    <FreeColonists.label>colonos libres</FreeColonists.label>
-    <Prisoners.label>prisioneros</Prisoners.label>
-    <ColonistMood.label>estado de ánimo</ColonistMood.label>
+    <WealthTotal.label>Riqueza (total)</WealthTotal.label>
+    <WealthTotal.graphLabelY>Cantidad</WealthTotal.graphLabelY>
+
+    <WealthItems.label>Riqueza (objetos)</WealthItems.label>
+    <WealthItems.graphLabelY>Cantidad</WealthItems.graphLabelY>
+
+    <WealthBuildings.label>Riqueza (estructuras)</WealthBuildings.label>
+    <WealthBuildings.graphLabelY>Cantidad</WealthBuildings.graphLabelY>
+
+    <FreeColonists.label>Colonos libres</FreeColonists.label>
+    <FreeColonists.graphLabelY>Colonos</FreeColonists.graphLabelY>
+
+    <Prisoners.label>Prisioneros</Prisoners.label>
+    <Prisoners.graphLabelY>Prisioneros</Prisoners.graphLabelY>
+
+    <ColonistMood.label>Estado de ánimo</ColonistMood.label>
+    <ColonistMood.graphLabelY>Porcentaje</ColonistMood.graphLabelY>
     
 </LanguageData>
