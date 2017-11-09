@@ -1,123 +1,125 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- ITab titles -->
-  <TabBills>Proyectos</TabBills>
-  <TabGrowing>Cultivo</TabGrowing>
-  <TabCharacter>Persona</TabCharacter>
-  <TabTraining>Adiestrar</TabTraining>
-  <TabPrisoner>Prisionero</TabPrisoner>
-  <TabGuest>Invitado</TabGuest>
-  <TabGear>Equipo</TabGear>
-  <TabNeeds>Humor</TabNeeds>
-  <TabStorage>Opciones</TabStorage>
-  <TabHealth>Salud</TabHealth>
-  <TabRace>Especie</TabRace>
-  <TabBasics>Básicos</TabBasics>
-  <TabStats>Atributos</TabStats>
-  <TabRecords>Registros</TabRecords>  
-  <TabArt>Arte</TabArt>
-  <TabSocial>Social</TabSocial>  
-
-  
-  <!-- Bills tab  -->
-  <AddBill>Añadir proyecto</AddBill>
-  <RecipeRequiresSkills>La receta de {0} requiere las habilidades mostradas debajo. Ninguno de tus colonos las tiene, así que nadie trabajará en este proyecto.</RecipeRequiresSkills>
-  <MinimumSkill>Habilidad mínima</MinimumSkill>
-  <SuspendedCaps>SUSPENDIDO</SuspendedCaps>
-  <BoundWorkerIs>Trabajador: {0}</BoundWorkerIs>
-  <PlantVerb>Sembrar</PlantVerb>
+    <!-- ITab titles -->
+    <TabBills>Proyectos</TabBills>
+    <TabGrowing>Cultivo</TabGrowing>
+    <TabCharacter>Persona</TabCharacter>
+    <TabTraining>Adiestrar</TabTraining>
+    <TabPrisoner>Prisionero</TabPrisoner>
+    <TabGuest>Invitado</TabGuest>
+    <TabGear>Equipo</TabGear>
+    <TabNeeds>Humor</TabNeeds>
+    <TabStorage>Opciones</TabStorage>
+    <TabShells>Proyectiles</TabShells>
+    <TabHealth>Salud</TabHealth>
+    <TabRace>Especie</TabRace>
+    <TabBasics>Básicos</TabBasics>
+    <TabStats>Atributos</TabStats>
+    <TabRecords>Registros</TabRecords>
+    <TabArt>Arte</TabArt>
+    <TabSocial>Social</TabSocial>
+    <TabCombat>Combate</TabCombat>
 
 
-  <!-- Guest/prisoner tab -->
-  <RecruitmentDifficulty>Dificultad de reclutamiento</RecruitmentDifficulty>
-  <GetsFood>Es alimentado(a)</GetsFood>
-  <DoctorsCare>Cuidados médicos</DoctorsCare>
-  <GetsMedicine>Recibe medicina</GetsMedicine>
-  <ShouldTryToRecruit>Reclutar</ShouldTryToRecruit>
-  <PrisonerNoInteraction>No interactuar</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>Charla amistosa</PrisonerFriendlyChat>
-  <PrisonerAttemptRecruit>Charlar y reclutar</PrisonerAttemptRecruit>
-  <PrisonerRelease>Liberar</PrisonerRelease>
-  <PrisonerExecution>Ejecutar</PrisonerExecution>
-  	<ConsideredGuilty>Considerado culpable (expira en {0})</ConsideredGuilty>
+    <!-- Bills tab  -->
+    <AddBill>Añadir proyecto</AddBill>
+    <RecipeRequiresSkills>La receta de {0} requiere las habilidades mostradas debajo. Ninguno de tus colonos las tiene, así que nadie trabajará en este proyecto.</RecipeRequiresSkills>
+    <MinimumSkill>Habilidad mínima</MinimumSkill>
+    <SuspendedCaps>SUSPENDIDO</SuspendedCaps>
+    <BoundWorkerIs>Trabajador: {0}</BoundWorkerIs>
+    <PlantVerb>Sembrar</PlantVerb>
 
 
-  <!-- Medical - general -->
-  <MoveSpeed>Velocidad de movimiento</MoveSpeed>
-  <Efficiency>Eficiencia</Efficiency>
-  <MissingBodyPart>Perdida</MissingBodyPart>
-  <DestroyedBodyPart>Destruida</DestroyedBodyPart>
-  <ShatteredBodyPart>Destrozada</ShatteredBodyPart>
-  <RemovedBodyPart>Amputada</RemovedBodyPart>
-  <Healthy>Saludable</Healthy>
-  <InPain>Adolorido(a)</InPain>
-  <PainLevel>Dolor</PainLevel>
-  <Injured>Herido(a)</Injured>
-  <NoInjuries>(sin heridas)</NoInjuries>
-  <WholeBody>Cuerpo completo</WholeBody>
-  <DataProcessing>Procesamiento de datos</DataProcessing>
-  <Communication>Comunicación</Communication>  
-  <Affects>Afecta</Affects>
-  <BleedingRate>Tasa de sangrado</BleedingRate>
-  <TimeToDeath>morirá en {0}</TimeToDeath>
-  <WontBleedOutSoon>sin peligro inmediato</WontBleedOutSoon>
-  <HealthOverview>Resumen</HealthOverview>
-  <MedicalOperationsShort>Operaciones ({0})</MedicalOperationsShort>
-  <MedicalOperationsMechanoidsShort>Modificaciones ({0})</MedicalOperationsMechanoidsShort>
-  <MedicalOperations>Operaciones médicas</MedicalOperations>  
-  <Amputate>Amputar</Amputate>
-  <Harvest>Cosechar</Harvest>
-  <RemoveOrgan>Remover</RemoveOrgan>  
-  <MemoryLower>memoria</MemoryLower>
-  <SocialInteractionsLower>interacciones sociales</SocialInteractionsLower>
-  <HungerRate>Tasa de hambre</HungerRate>
-  <Tiredness>Cansancio</Tiredness>
-  <PainFactor>Dolor</PainFactor>
-  <PreventsInfection>Previene infecciones</PreventsInfection>  
-  
-  
-  <!-- Medical - Body and activities condition -->
-  <None>Ninguno(a)</None>
-  <VeryPoor>Escaso(a)</VeryPoor>
-  <Poor>Poco(a)</Poor>
-  <Weakened>Débil</Weakened>
-  <GoodCondition>OK</GoodCondition>
-  <Enhanced>Mejorado(a)</Enhanced>
-  <SeriouslyImpaired>Dañado(a) seriamente</SeriouslyImpaired>
-  <Impaired>Dañado(a)</Impaired>
-  <SlightlyImpaired>Ligeramente dañado(a)</SlightlyImpaired>
-  <NoPain>Ninguno</NoPain>
-  <LittlePain>Poco</LittlePain>
-  <MediumPain>Medio</MediumPain>
-  <SeverePain>Severo</SeverePain>
-  <ExtremePain>Extremo</ExtremePain>
+    <!-- Guest/prisoner tab -->
+    <RecruitmentDifficulty>Dificultad de reclutamiento</RecruitmentDifficulty>
+    <GetsFood>Es alimentado(a)</GetsFood>
+    <DoctorsCare>Cuidados médicos</DoctorsCare>
+    <GetsMedicine>Recibe medicina</GetsMedicine>
+    <ShouldTryToRecruit>Reclutar</ShouldTryToRecruit>
+    <ConsideredGuilty>Considerado culpable (expira en {0})</ConsideredGuilty>
 
 
-  <!-- Training tab-->
-  <TrainableIntelligence>Inteligencia entrenable</TrainableIntelligence>
-  <CannotTrainNotSmartEnough>Requiere inteligencia entrenable del {0}.</CannotTrainNotSmartEnough>
-  <CannotTrainTooSmall>{0} es demasiado pequeño(a) como para ser entrenado en ésto.</CannotTrainTooSmall>
+    <!-- Medical - general -->
+    <MoveSpeed>Velocidad de movimiento</MoveSpeed>
+    <Efficiency>Eficiencia</Efficiency>
+    <PartEfficiency>Parte eficiente</PartEfficiency>
+    <BodyPartEfficiency>Parte del cuerpo eficiente</BodyPartEfficiency>
+    <MissingBodyPart>Perdida</MissingBodyPart>
+    <DestroyedBodyPart>Destruida</DestroyedBodyPart>
+    <ShatteredBodyPart>Destrozada</ShatteredBodyPart>
+    <RemovedBodyPart>Amputada</RemovedBodyPart>
+    <Healthy>Saludable</Healthy>
+    <InPain>Adolorido(a)</InPain>
+    <PainLevel>Dolor</PainLevel>
+    <Injured>Herido(a)</Injured>
+    <NoInjuries>(sin heridas)</NoInjuries>
+    <WholeBody>Cuerpo completo</WholeBody>
+    <DataProcessing>Procesamiento de datos</DataProcessing>
+    <Communication>Comunicación</Communication>
+    <Affects>Afecta</Affects>
+    <BleedingRate>Tasa de sangrado</BleedingRate>
+    <TimeToDeath>morirá en {0}</TimeToDeath>
+    <WontBleedOutSoon>sin peligro inmediato</WontBleedOutSoon>
+    <HealthOverview>Resumen</HealthOverview>
+    <MedicalOperationsShort>Operaciones ({0})</MedicalOperationsShort>
+    <MedicalOperationsMechanoidsShort>Modificaciones ({0})</MedicalOperationsMechanoidsShort>
+    <MedicalOperations>Operaciones médicas</MedicalOperations>
+    <Amputate>Amputar</Amputate>
+    <Harvest>Cosechar</Harvest>
+    <RemoveOrgan>Remover</RemoveOrgan>
+    <MemoryLower>memoria</MemoryLower>
+    <SocialInteractionsLower>interacciones sociales</SocialInteractionsLower>
+    <HungerRate>Tasa de hambre</HungerRate>
+    <Tiredness>Cansancio</Tiredness>
+    <PainFactor>Dolor</PainFactor>
+    <PreventsInfection>Previene infecciones</PreventsInfection>
+    <SelfTend>Auto-atenderse</SelfTend>
+    <SelfTendTip>{0} con la opción de auto-atenderse activada, se atendera el o ella mismo(a) con una eficiencia de {1} por sobre la eficiencia normal.</SelfTendTip>
 
-  <TrainingNeedsPrerequisite>Requisito necesario: {0}</TrainingNeedsPrerequisite>
 
-  <!-- Social tab -->
-  <NoRelationships>(sin relaciones)</NoRelationships>
-  <Kidnapped>Secuestrado</Kidnapped>
-  <Slave>Esclavo</Slave>
-  <FactionLeader>Líder de facción</FactionLeader>
-  <OpinionOf>Mi opinión de {0}</OpinionOf>
-  <SomeonesOpinionOfMe>La opinión de {0} de mi</SomeonesOpinionOfMe>
-  <IAmDead>Estoy muerto</IAmDead>
-  <IAmPsychopath>Soy un psicópata</IAmPsychopath>
-  
-  <!-- Gear tab -->
-  <AverageArmor>Armadura promedio</AverageArmor>
-  <MassCarried>Peso cargado: {0} / {1} kg</MassCarried>  
-  <ComfyTemperatureRange>Rango de temperaturas cómodas</ComfyTemperatureRange>
-  <ArmorBlunt>Contundente</ArmorBlunt>
-  <ArmorSharp>Cortante</ArmorSharp>
-  <ArmorHeat>Calor</ArmorHeat>
-  <ArmorElectric>Electricidad</ArmorElectric>  
+    <!-- Medical - Body and activities condition -->
+    <None>Ninguno(a)</None>
+    <VeryPoor>Escaso(a)</VeryPoor>
+    <Poor>Poco(a)</Poor>
+    <Weakened>Débil</Weakened>
+    <GoodCondition>OK</GoodCondition>
+    <Enhanced>Mejorado(a)</Enhanced>
+    <SeriouslyImpaired>Dañado(a) seriamente</SeriouslyImpaired>
+    <Impaired>Dañado(a)</Impaired>
+    <SlightlyImpaired>Ligeramente dañado(a)</SlightlyImpaired>
+    <NoPain>Ninguno</NoPain>
+    <LittlePain>Poco</LittlePain>
+    <MediumPain>Medio</MediumPain>
+    <SeverePain>Severo</SeverePain>
+    <ExtremePain>Extremo</ExtremePain>
+
+
+    <!-- Training tab-->
+    <TrainableIntelligence>Inteligencia entrenable</TrainableIntelligence>
+    <CannotTrainNotSmartEnough>Requiere inteligencia entrenable del {0}.</CannotTrainNotSmartEnough>
+    <CannotTrainTooSmall>{0} es demasiado pequeño(a) como para ser entrenado en ésto.</CannotTrainTooSmall>
+
+    <TrainingNeedsPrerequisite>Requisito necesario: {0}</TrainingNeedsPrerequisite>
+
+    <!-- Social tab -->
+    <NoRelationships>(sin relaciones)</NoRelationships>
+    <Kidnapped>Secuestrado</Kidnapped>
+    <Missing>Fallando</Missing>
+    <Slave>Esclavo</Slave>
+    <FactionLeader>Líder de facción</FactionLeader>
+    <OpinionOf>Mi opinión de {0}</OpinionOf>
+    <SomeonesOpinionOfMe>La opinión de {0} de mi</SomeonesOpinionOfMe>
+    <IAmDead>Estoy muerto</IAmDead>
+    <IAmPsychopath>Soy un psicópata</IAmPsychopath>
+
+    <!-- Gear tab -->
+    <AverageArmor>Armadura promedio</AverageArmor>
+    <MassCarried>Peso cargado: {0} / {1} kg</MassCarried>
+    <ComfyTemperatureRange>Rango de temperaturas cómodas</ComfyTemperatureRange>
+    <ArmorBlunt>Contundente</ArmorBlunt>
+    <ArmorSharp>Cortante</ArmorSharp>
+    <ArmorHeat>Calor</ArmorHeat>
+    <ArmorElectric>Electricidad</ArmorElectric>
 
 </LanguageData>
