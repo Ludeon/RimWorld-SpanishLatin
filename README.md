@@ -15,6 +15,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 Current translation and adaptation by:
 * __Etaglibash (Inactivo)__
+* __Mora145 (Inactivo)__
 * __Andres6936__
 
 Thanks to AM for the 10f. version.
