@@ -1,37 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- WITab titles -->
-  <TabTerrain>Terreno</TabTerrain>
-  <TabPlanet>Planeta</TabPlanet>
-  <TabCaravanSocial>Social</TabCaravanSocial>
-  <TabCaravanHealth>Salud</TabCaravanHealth>
-  <TabCaravanNeeds>Humor</TabCaravanNeeds>
-  <TabCaravanGear>Equipo</TabCaravanGear>
-  <TabCaravanItems>Objetos</TabCaravanItems>
-  
-  <!-- Misc -->
-  <AbandonSliderText>Abandonar {{0}}x {0}</AbandonSliderText>
-  <ConfirmAbandonItemDialog>¿Realmente deseas abandonar {0}?\n\nLos objetos abandonados se desvanecerán y no podrán ser recuperados jamás.</ConfirmAbandonItemDialog>
-  <AbandonTip>Abandonar</AbandonTip>
-  <AbandonSpecificCountTip>Abandonar número específico</AbandonSpecificCountTip>
-  <AbandonAllTip>Abandonar (todos)</AbandonAllTip>
-  <AbandonItemTipExtraText>Los objetos abandonados se desvanecerán y no podrán ser recuperados jamás.</AbandonItemTipExtraText>
-  <AbandonTipWillDie>{0} morirá probablemente.</AbandonTipWillDie>
-  
-  <!-- Caravan inspect -->
-  <CaravanColonists>Colonos</CaravanColonists>
-  <CaravanPrisonersAndAnimals>Prisioneros y animales</CaravanPrisonersAndAnimals>
-  <CaravanItems>Inventario</CaravanItems>
-  <OpenSpecificTabButtonTip>Haz click para abrir una pestaña con más detalles.</OpenSpecificTabButtonTip>
-  <CaravanPrisoners>Prisioneros</CaravanPrisoners>
-  <CaravanWeaponsAndApparel>Inventario</CaravanWeaponsAndApparel>
-  
-  <!-- Caravan gear -->
-  <DragToRearrange>Arrastra para reacomodar.</DragToRearrange>
-  
-  <!-- Planet -->
-  <PlanetSeed>Semilla</PlanetSeed>
-  <PlanetCoverageShort>Superficie</PlanetCoverageShort>
+    <!-- WITab titles -->
+    <TabTerrain>Terreno</TabTerrain>
+    <TabPlanet>Planeta</TabPlanet>
+    <TabCaravanSocial>Social</TabCaravanSocial>
+    <TabCaravanHealth>Salud</TabCaravanHealth>
+    <TabCaravanNeeds>Humor</TabCaravanNeeds>
+    <TabCaravanGear>Equipo</TabCaravanGear>
+    <TabCaravanItems>Objetos</TabCaravanItems>
+
+    <!-- Misc -->
+    <AbandonSliderText>Abandonar {{0}}x {0}</AbandonSliderText>
+    <ConfirmAbandonItemDialog>¿Realmente deseas abandonar {0}?\n\nLos objetos abandonados se desvanecerán y no podrán ser recuperados jamás.</ConfirmAbandonItemDialog>
+    <AbandonTip>Abandonar</AbandonTip>
+    <BanishTip>Desterrar</BanishTip>
+    <AbandonSpecificCountTip>Abandonar número específico</AbandonSpecificCountTip>
+    <AbandonAllTip>Abandonar (todos)</AbandonAllTip>
+    <AbandonItemTipExtraText>Los objetos abandonados se desvanecerán y no podrán ser recuperados jamás.</AbandonItemTipExtraText>
+    <BanishTipWillDie>{0} morirá probablemente.</BanishTipWillDie>
+
+    <!-- Caravan inspect -->
+    <CaravanColonists>Colonos</CaravanColonists>
+    <CaravanPrisonersAndAnimals>Prisioneros y animales</CaravanPrisonersAndAnimals>
+    <CaravanItems>Inventario</CaravanItems>
+    <OpenSpecificTabButtonTip>Haz click para abrir una pestaña con más detalles.</OpenSpecificTabButtonTip>
+    <CaravanPrisoners>Prisioneros</CaravanPrisoners>
+    <CaravanWeaponsAndApparel>Inventario</CaravanWeaponsAndApparel>
+    <NoneCapable>No hay nadie preparado</NoneCapable>
+
+    <!-- Caravan gear -->
+    <DragToRearrange>Arrastra para reacomodar.</DragToRearrange>
+
+    <!-- Planet -->
+    <PlanetSeed>Semilla</PlanetSeed>
+    <PlanetCoverageShort>Superficie</PlanetCoverageShort>
 
 </LanguageData>

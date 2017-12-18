@@ -3,25 +3,26 @@
 
     <!-- In-game camera -->
 
-    <MapDollyUp.label>arriba</MapDollyUp.label>
-    <MapDollyDown.label>abajo</MapDollyDown.label>
-    <MapDollyLeft.label>izquierda</MapDollyLeft.label>
-    <MapDollyRight.label>derecha</MapDollyRight.label>
-    <MapZoomIn.label>acercar la vista</MapZoomIn.label>
-    <MapZoomOut.label>alejar la vista</MapZoomOut.label>
+    <MapDollyUp.label>Arriba</MapDollyUp.label>
+    <MapDollyDown.label>Abajo</MapDollyDown.label>
+    <MapDollyLeft.label>Izquierda</MapDollyLeft.label>
+    <MapDollyRight.label>Derecha</MapDollyRight.label>
+    <MapZoomIn.label>Acercar la vista</MapZoomIn.label>
+    <MapZoomOut.label>Alejar la vista</MapZoomOut.label>
 
    <!-- Map play -->
 
-    <ToggleScreenshotMode.label>alternar Modo de Captura de Pantalla</ToggleScreenshotMode.label>
-    <TakeScreenshot.label>hacer captura de pantalla</TakeScreenshot.label>
-    <SelectNextInCell.label>seleccionar siguiente objeto en la celda</SelectNextInCell.label>
-    <TogglePause.label>pausar/reanudar</TogglePause.label>
-    <TimeSpeedNormal.label>velocidad del juego: normal</TimeSpeedNormal.label>
-    <TimeSpeedFast.label>velocidad del juego: rápido</TimeSpeedFast.label>
-    <TimeSpeedSuperfast.label>velocidad del juego: súper rápido</TimeSpeedSuperfast.label>
-    <TimeSpeedUltrafast.label>velocidad del juego: ultra rápido (debug)</TimeSpeedUltrafast.label>
-    <PreviousColonist.label>colono anterior</PreviousColonist.label>
-    <NextColonist.label>colono siguiente</NextColonist.label>
+    <TakeScreenshot.label>Tomar captura de pantalla</TakeScreenshot.label>
+    <ToggleScreenshotMode.label>Alternar Modo de Captura de Pantalla</ToggleScreenshotMode.label>
+    <SelectNextInCell.label>Seleccionar siguiente objeto en la celda</SelectNextInCell.label>
+    <TogglePause.label>Pausar/Reanudar</TogglePause.label>
+    <TimeSpeedNormal.label>Velocidad del juego: normal</TimeSpeedNormal.label>
+    <TimeSpeedFast.label>Velocidad del juego: rápido</TimeSpeedFast.label>
+    <TimeSpeedSuperfast.label>Velocidad del juego: súper rápido</TimeSpeedSuperfast.label>
+    <TimeSpeedUltrafast.label>Velocidad del juego: ultra rápido (debug)</TimeSpeedUltrafast.label>
+    <PreviousColonist.label>Colono anterior</PreviousColonist.label>
+    <NextColonist.label>Colono siguiente</NextColonist.label>
+
 
     <!-- Misc (re-used) -->
 
@@ -38,40 +39,38 @@
     <Misc11.label>Misc 11</Misc11.label>
     <Misc12.label>Misc 12</Misc12.label>
 
+
     <!-- Selection special -->
 
     <CommandTogglePower.label>Alternar corriente</CommandTogglePower.label>
     <CommandItemForbid.label>Prohibir si/no</CommandItemForbid.label>
     <CommandColonistDraft.label>Reclutar</CommandColonistDraft.label>
-    <ModifierIncrement10x.label>incrementar 10x</ModifierIncrement10x.label>
-    <ModifierIncrement100x.label>incrementar 100x</ModifierIncrement100x.label>
+
 
     <!-- Architect: Common -->
 
-    <DesignatorCancel.label>cancelar</DesignatorCancel.label>
-    <DesignatorDeconstruct.label>desarmar</DesignatorDeconstruct.label>
-    <DesignatorRotateLeft.label>girar a la izquierda</DesignatorRotateLeft.label>
-    <DesignatorRotateRight.label>girar a la derecha</DesignatorRotateRight.label>
+    <DesignatorCancel.label>Cancelar</DesignatorCancel.label>
+    <DesignatorDeconstruct.label>Desarmar</DesignatorDeconstruct.label>
+    <DesignatorRotateLeft.label>Girar a la izquierda</DesignatorRotateLeft.label>
+    <DesignatorRotateRight.label>Girar a la derecha</DesignatorRotateRight.label>
+
+
+    <!-- Modifiers -->
+
+    <ModifierIncrement10x.label>Incrementar 10x</ModifierIncrement10x.label>
+    <ModifierIncrement100x.label>Incrementar 100x</ModifierIncrement100x.label>
+    <QueueOrder.label>Cola de ordenes</QueueOrder.label>
+
 
     <!-- Debug -->
 
     <TickOnce.label>Un tick (debug)</TickOnce.label>
     <ToggleGodMode.label>Alternar Modo Dios</ToggleGodMode.label>
     <ToggleDebugLog.label>Alternar registro</ToggleDebugLog.label>
-    <ToggleDebugActionsMenu.label>Menú de acciones debug</ToggleDebugActionsMenu.label>
-    <ToggleDebugLogMenu.label>Registro debug</ToggleDebugLogMenu.label>
-    <ToggleDebugInspector.label>Inspector debug</ToggleDebugInspector.label>
-    <ToggleDebugSettingsMenu.label>Opciones debug</ToggleDebugSettingsMenu.label>
+    <ToggleDebugActionsMenu.label>Abrir/Cerrar Menú de acciones debug</ToggleDebugActionsMenu.label>
+    <ToggleDebugLogMenu.label>Abrir/Cerrar Registro debug</ToggleDebugLogMenu.label>
+    <ToggleDebugInspector.label>Abrir/Cerrar Inspector debug</ToggleDebugInspector.label>
+    <ToggleDebugSettingsMenu.label>Abrir/Cerrar Opciones debug</ToggleDebugSettingsMenu.label>
 
-	<!-- Main Tabs -->
-
-	<MainTab_Architect.label>ARQUITECTO abrir/cerrar</MainTab_Architect.label>
-	<MainTab_Work.label>TRABAJO abrir/cerrar</MainTab_Work.label>
-	<MainTab_Restrict.label>HORARIOS abrir/cerrar</MainTab_Restrict.label>
-	<MainTab_Assign.label>POLÍTICAS abrir/cerrar</MainTab_Assign.label>
-	<MainTab_Animals.label>ANIMALES abrir/cerrar</MainTab_Animals.label>
-	<MainTab_World.label>PLANETA abrir/cerrar</MainTab_World.label>
-	<MainTab_History.label>HISTORIA abrir/cerrar</MainTab_History.label>
-	<MainTab_Factions.label>FACCIONES abrir/cerrar</MainTab_Factions.label>
 
 </LanguageData>
