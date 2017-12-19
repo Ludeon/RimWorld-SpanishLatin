@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- glow -->
   <Dark>Oscuridad</Dark>
   <Lit>Iluminación</Lit>
   <LitBrightly>Iluminación intensa</LitBrightly>
-  
+
   <!-- history upload pref -->
   <Unspecified>Sin decidir</Unspecified>
   <Always>Permitida</Always>
   <Never>No permitida</Never>
-  
+
   <!-- Price types -->
   <PriceTypeVeryCheap>baratísimo</PriceTypeVeryCheap>
   <PriceTypeCheap>barato</PriceTypeCheap>
   <PriceTypeNormal>regular</PriceTypeNormal>
   <PriceTypeExpensive>caro</PriceTypeExpensive>
   <PriceTypeExorbitant>exorbitante</PriceTypeExorbitant>
-  
+
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>sin guardar</StoragePriorityUnstored>
   <StoragePriorityLow>baja</StoragePriorityLow>
   <StoragePriorityNormal>normal</StoragePriorityNormal>
   <StoragePriorityPreferred>preferida</StoragePriorityPreferred>
   <StoragePriorityImportant>importante</StoragePriorityImportant>
-  <StoragePriorityCritical>crítica</StoragePriorityCritical>  
+  <StoragePriorityCritical>crítica</StoragePriorityCritical>
 
   <!-- Food type flags -->
   <FoodTypeFlags_VegetableOrFruit>vegetales o frutas</FoodTypeFlags_VegetableOrFruit>
@@ -38,7 +38,7 @@
   <FoodTypeFlags_Processed>alimentos procesados</FoodTypeFlags_Processed>
   <FoodTypeFlags_Liquor>licor</FoodTypeFlags_Liquor>
   <FoodTypeFlags_Kibble>croquetas</FoodTypeFlags_Kibble>
-  
+
   <!-- Quality category -->
   <QualityCategory_Awful>Horrible</QualityCategory_Awful>
   <QualityCategory_Shoddy>Malhecha</QualityCategory_Shoddy>
@@ -58,7 +58,7 @@
   <QualityCategoryShort_Excellent>exlt</QualityCategoryShort_Excellent>
   <QualityCategoryShort_Masterwork>mgst</QualityCategoryShort_Masterwork>
   <QualityCategoryShort_Legendary>lgnd</QualityCategoryShort_Legendary>
-  
+
   <!-- Hunger -->
   <HungerLevel_Starving>Inanición</HungerLevel_Starving>
   <HungerLevel_UrgentlyHungry>Muy hambriento</HungerLevel_UrgentlyHungry>
@@ -76,8 +76,8 @@
   <Hilliness_SmallHills>Colinas bajas</Hilliness_SmallHills>
   <Hilliness_LargeHills>Colinas altas</Hilliness_LargeHills>
   <Hilliness_Mountainous>Montañoso</Hilliness_Mountainous>
-  <Hilliness_Impassable>Impasable</Hilliness_Impassable>  
-  
+  <Hilliness_Impassable>Impasable</Hilliness_Impassable>
+
   <!-- Steam workshop interaction -->
   <WorkshopInteractStage_CreatingItem>Creando</WorkshopInteractStage_CreatingItem>
   <WorkshopInteractStage_SubmittingItem>Entregando</WorkshopInteractStage_SubmittingItem>
@@ -90,13 +90,7 @@
 
   <!-- Mod sources -->
   <ContentSource_LocalFolder>carpeta local</ContentSource_LocalFolder>
-  <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>  
-  
-  <!-- Trainable intelligence -->
-  <TrainableIntelligence_None>Ninguna</TrainableIntelligence_None>
-  <TrainableIntelligence_Simple>Simple</TrainableIntelligence_Simple>
-  <TrainableIntelligence_Intermediate>Intermedia</TrainableIntelligence_Intermediate>
-  <TrainableIntelligence_Advanced>Avanzada</TrainableIntelligence_Advanced>
+  <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
 
   <!-- Medical care category -->
   <MedicalCareCategory_NoCare>No tratar</MedicalCareCategory_NoCare>
@@ -109,7 +103,7 @@
   <HostilityResponseMode_Ignore>Ignorar</HostilityResponseMode_Ignore>
   <HostilityResponseMode_Attack>Atacar</HostilityResponseMode_Attack>
   <HostilityResponseMode_Flee>Huir</HostilityResponseMode_Flee>
-  
+
   <!-- HediffGrowthMode -->
   <HediffGrowthMode_Growing>creciendo</HediffGrowthMode_Growing>
   <HediffGrowthMode_Stable>estable</HediffGrowthMode_Stable>
@@ -132,16 +126,16 @@
   <PawnGenerationContext_All>todos los personajes</PawnGenerationContext_All>
   <PawnGenerationContext_PlayerStarter>personajes iniciales</PawnGenerationContext_PlayerStarter>
   <PawnGenerationContext_NonPlayer>personajes ajenos al jugador</PawnGenerationContext_NonPlayer>
-  
+
   <!-- Animal name display mode -->
   <ShowAnimalNames>Nomb. de animales</ShowAnimalNames>
   <AnimalNameDisplayMode_TameNamed>Domesticados (con nombre)</AnimalNameDisplayMode_TameNamed>
   <AnimalNameDisplayMode_TameAll>Domesticados (todos)</AnimalNameDisplayMode_TameAll>
-  
+
   <!-- Temperature -->
   <Celsius>Celsius</Celsius>
   <Fahrenheit>Fahrenheit</Fahrenheit>
-  <Kelvin>Kelvin</Kelvin>  
+  <Kelvin>Kelvin</Kelvin>
 
   <!-- Direction8Way -->
   <Direction8Way_North_Short>N</Direction8Way_North_Short>
@@ -152,5 +146,11 @@
   <Direction8Way_SouthWest_Short>SO</Direction8Way_SouthWest_Short>
   <Direction8Way_West_Short>O</Direction8Way_West_Short>
   <Direction8Way_NorthWest_Short>NO</Direction8Way_NorthWest_Short>
-  
+
+  <!-- Trainable intelligence -->
+  <!--<TrainableIntelligence_None>Ninguna</TrainableIntelligence_None>-->
+  <!--<TrainableIntelligence_Simple>Simple</TrainableIntelligence_Simple>-->
+  <!--<TrainableIntelligence_Intermediate>Intermedia</TrainableIntelligence_Intermediate>-->
+  <!--<TrainableIntelligence_Advanced>Avanzada</TrainableIntelligence_Advanced>-->
+
 </LanguageData>

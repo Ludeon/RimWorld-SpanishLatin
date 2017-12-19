@@ -1,152 +1,153 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <LetterLabelAnimalInsanitySingle>Animal asesino</LetterLabelAnimalInsanitySingle>
-  <AnimalInsanitySingle>Un {0} local se ha vuelto loco. Atacará a todas las personas que vea.</AnimalInsanitySingle>
-  <LetterLabelAnimalInsanityMultiple>¡Animales asesinos!</LetterLabelAnimalInsanityMultiple>
-  <AnimalInsanityMultiple>Alguna especie de onda psíquica ha barrido el área. Tus colonos están bien, pero...\n\nParece que muchos de los {0}s en el área se han vuelto locos.</AnimalInsanityMultiple>
+  <LetterLabelAnimalInsanitySingle>Animal loco</LetterLabelAnimalInsanitySingle>
+  <AnimalInsanitySingle>Un {0} ha enloquecido. Atacará a todo lo que vea.</AnimalInsanitySingle>
+  <LetterLabelAnimalInsanityMultiple>¡Animales locos!</LetterLabelAnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Algún tipo de onda psíquica ha barrido la zona. Tus colonos están bien, pero...\n\nParece que muchos de los {0}s en el área se han vuelto locos.</AnimalInsanityMultiple>
 
   <LetterLabelCropBlight>Plaga</LetterLabelCropBlight>
-  <CropBlight>Una plaga misteriosa a destruido tus cultivos.</CropBlight>
+  <CropBlight>Una misteriosa plaga ha destruido tus cultivos.</CropBlight>
 
-  <LetterLabelMiracleHeal>¡Milagro!</LetterLabelMiracleHeal>
-  <MiracleHeal>!{0} a experimentado una recuperación milagrosa!</MiracleHeal>
+  <LetterLabelMiracleHeal>Milagro</LetterLabelMiracleHeal>
+  <MiracleHeal>¡{0} ha experimentado una recuperación milagrosa!</MiracleHeal>
 
   <!-- Enemy raids -->
-  <EnemyRaidWalkIn>Un grupo de {0} de {1} a llegado a un lugar cercano.</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>Un grupo de {0} de {1} ha llegado en cápsulas orbitales cerca de aquí.</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>¡Un grupo de {0} de {1} ha caído directamente sobre tí!</EnemyRaidCenterDrop>
-  <EnemyRaidLeaderPresent>Uno de los {0} - {1}, es el líder de la facción.</EnemyRaidLeaderPresent>  
+  <EnemyRaidWalkIn>Un grupo de {0} de la facción {1} ha llegado a las cercanías.</EnemyRaidWalkIn>
+  <EnemyRaidEdgeDrop>Un grupo de {0} de la facción {1} ha realizado un desembarco orbital en las cercanías.</EnemyRaidEdgeDrop>
+  <EnemyRaidCenterDrop>¡Un grupo de {0} de {1} ha realizado un desembarco orbital justo encima de vosotros!</EnemyRaidCenterDrop>
+  <EnemyRaidLeaderPresent>Uno de los {0} - {1}, es el lider de la faccion.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <FriendlyRaidWalkIn>Un grupo de {0} amistosos de {1} ha llegado a un lugar cercano.</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>Un grupo de {0} amistosos de {1} ha llegado en cápsulas orbitales cerca de aquí.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>¡Un grupo de {0} amistosos de {1} ha aterrizado directamente sobre ti!</FriendlyRaidCenterDrop>
-  <FriendlyRaidLeaderPresent>Uno de los {0} - {1}, es el líder de la facción.</FriendlyRaidLeaderPresent>  
+  <FriendlyRaidWalkIn>Un grupo aliado de {0} de la facción {1} ha llegado a las cercanías.</FriendlyRaidWalkIn>
+  <FriendlyRaidEdgeDrop>Un grupo aliado de {0} de la facción {1} ha realizado un desembarco orbital en las cercanías.</FriendlyRaidEdgeDrop>
+  <FriendlyRaidCenterDrop>¡Un grupo aliado de  {0} de la facción {1} ha realizado un desembarco orbital justo encima de vosotros!</FriendlyRaidCenterDrop>
+  <FriendlyRaidLeaderPresent>Uno de los {0} - {1}, es el lider de la faccion.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
-  <RefugeePodCrash>Has detectado una cápsula de escape que se estrelló cerca de aquí.\n\nSi alguien sobrevivió el impacto, estará malherido.</RefugeePodCrash>
+  <RefugeePodCrash>Hemos detectado una cápsula de escape estrellándose en las cercanías\n\nSi alguien ha sobrevivido al impacto estará gravemente herido.</RefugeePodCrash>
 
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
-  <CargoPodCrash>Has detectado que un grupo de cápsulas de transporte se han estrellado cerca de aquí.\n\nTal vez encuentres algo útil en los escombros.</CargoPodCrash>
+  <CargoPodCrash>Hemos detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nSi cualquier persona ha sobrevivido al impacto, estara gravemente herido.\n\nPodras rescatarlos y enviarles por su camino. Ó capturarlos con fines de reclutamiento o esclavitud.</CargoPodCrash>
 
-  <AnElectricalConduit>un cable eléctrico</AnElectricalConduit>
-  <ShortCircuit>Una fallo en {0} ha causado un corto circuito.</ShortCircuit>
-  <ShortCircuitStartedFire>Un fallo en {0} ha causado un cortocircuito que ha provocado un incendio.</ShortCircuitStartedFire>
-  <ShortCircuitDischargedEnergy>La totalidad de los {0} Wd de electricidad, que las baterías a esta red guardaban, se ha descargado en la explosión.</ShortCircuitDischargedEnergy>
-  <ShortCircuitWasLarge>Esta gran cantidad de energía ha creado una explosión de tamaño considerable.</ShortCircuitWasLarge>
-  <ShortCircuitWasHuge>Ha sido una explosión enorme. Increíble.</ShortCircuitWasHuge>
+  <AnElectricalConduit>un circuito eléctrico</AnElectricalConduit>
+  <ShortCircuit>Un fallo en {0} ha causado un cortocircuito.\n\nUn total de {1} Wd de energía en las baterías conectadas a la red eléctrica ha sido descargado debido a una explosión.</ShortCircuit>
+  <ShortCircuitWasLarge>La gran cantidad de energía ha causado una explosión considerable.</ShortCircuitWasLarge>
+  <ShortCircuitWasHuge>Eso si que ha sido una explosión de verdad. Guau.</ShortCircuitWasHuge>
 
-  <TraderArrival>Una nave comercial está de paso por aquí.\n\nSe llama {0}. Es un {1}.</TraderArrival>
+  <TraderArrival>Hay una nave comercial en las cercanías.\n\nSe les conoce como {0}. Son {1}.</TraderArrival>
 
-  <SingleTravelerPassing>Una {0} de {1} está de paso por aquí. HECAP se llama {2}.</SingleTravelerPassing>
-  <GroupTravelersPassing>Un grupo de viajeros de {0} está pasando por aquí.</GroupTravelersPassing>
+  <SingleTravelerPassing>Un {0} de {1} está de paso por la zona. HECAP se llama {2}.</SingleTravelerPassing>
+  <GroupTravelersPassing>Un grupo de viajeros de {0} están de paso por la zona..</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Visitante</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>Un {0} de {1} está visitando la colonia.\n\nHECAP se llama {2}.</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nHECAP parece tener mercancías para comerciar.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nHECAP es el líder de la facción.</SingleVisitorArrivesLeaderInfo>  
+  <SingleVisitorArrives>Un {0} de {1} está visitando la colonia.\n\nHECAP se llama {2}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\nHECAP parece tener algunos objetos para el comercio.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\nHECAP es el líder de la facción.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Visitantes</LetterLabelGroupVisitorsArrive>
-  <GroupVisitorsArrive>Un grupo que viene de {0} está visitando la colonia.</GroupVisitorsArrive>
-  <GroupVisitorsArriveTraderInfo>\n\nParecen tener mercancías para comerciar.</GroupVisitorsArriveTraderInfo>
-  <GroupVisitorsArriveLeaderInfo>\n\nUno de los visitantes - {0}, es el líder de la facción.</GroupVisitorsArriveLeaderInfo>  
-  <VisitorsLeaving>Los visitantes de {0} ya se van.</VisitorsLeaving>
+  <GroupVisitorsArrive>Un grupo de {0} está visitando la colonia.{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArriveTraderInfo>\n\nParece que tienen algunos objetos para el comercio.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\nUno de los visitantes - {0}, es el lider de la facción.</GroupVisitorsArriveLeaderInfo>
+  <VisitorsLeaving>Los visitantes de {0} se están marchando.</VisitorsLeaving>
 
-  <LetterLabelWandererJoin>Un viajero se une</LetterLabelWandererJoin>
-  <WandererJoin>Un {0} llamado NAME ha llegado y se ha unido a la colonia. HECAP es un(a) {1}.</WandererJoin>
+  <LetterLabelWandererJoin>Nomada se une</LetterLabelWandererJoin>
+  <WandererJoin>Un {0} llamado NAME acaba de llegar y ha decidido unirse a la colonia. HECAP es un {1}.</WandererJoin>
 
-  <LetterLabelManhunterPackArrived>Manada de cazahombres</LetterLabelManhunterPackArrived>
-  <ManhunterPackArrived>Una manada de {0}s cazahombres ha llegado al área. Vagarán por la región en busca de carne humanoide.\n\nNo pueden abrir o romper las puertas, así que si te quedas detrás de las murallas, deberías estar bien. No atacarán torretas inactivas, así que sería mejor que las apagues si quieres conservarlas.\n\nSe irán de aquí en unos días.</ManhunterPackArrived>
-  
+  <LetterLabelManhunterPackArrived>Manada de animales caza hombres</LetterLabelManhunterPackArrived>
+  <ManhunterPackArrived>Una manada de {0}, caza humanos, ha entrado en el área. Ellos recorrerán la región, en busca de carne humanoide\n\nEllos no pueden pasar las puertas, por lo que si te quedas detrás de las paredes deberas estar a salvo. No van a atacar a las torretas inactivas, por lo que pasarán de tus torretas desconectadas, si es que deseas salvarlas.\n\nVan a dejar la zona en pocos días.</ManhunterPackArrived>
+
   <!-- Crashed ship part-->
-  <MessageAnimalInsanityPulse>La estructura antigua ha emitido un pulso psíquico que ha vuelto locos a los animales cercanos.</MessageAnimalInsanityPulse>
-  <LetterShipPartDroveColonistInsane>El escombro de nave espacial ha emitido un pulso psíquico enfocado que ha vuelto loco al colono {0}.</LetterShipPartDroveColonistInsane>
+  <MessageAnimalInsanityPulse>La antigua estructura ha emitido un pulso psíquico que ha hecho enloquecer a los animales cercanos.</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>La nave estrellada ha emitido un pulso psíquico concentrado que ha hecho enloquecer al colono {0}.</LetterShipPartDroveColonistInsane>
   <AwokeDaysAgo>Despertó hace {0} días</AwokeDaysAgo>
-  <PsychicDroneLevel>Nivel del zumbido psíquico: {0}</PsychicDroneLevel>
+  <PsychicDroneLevel>Nivel de zumbido psíquico: {0}</PsychicDroneLevel>
   <PsychicDroneLevelLow>Bajo</PsychicDroneLevelLow>
   <PsychicDroneLevelMedium>Medio</PsychicDroneLevelMedium>
   <PsychicDroneLevelHigh>Alto</PsychicDroneLevelHigh>
   <PsychicDroneLevelExtreme>Extremo</PsychicDroneLevelExtreme>
-  <LetterLabelPsychicDroneLevelIncreased>El zumbido se intensifica</LetterLabelPsychicDroneLevelIncreased>
-  <LetterPsychicDroneLevelIncreased>El escombro de nave espacial ahora emana un zumbido psíquico aún más poderoso. Cada humanoide en el área ahora se siente perturbado, aterrorizado y paranoico.</LetterPsychicDroneLevelIncreased>
-  
+  <LetterLabelPsychicDroneLevelIncreased>Zumbido psíquico instensificado</LetterLabelPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>La nave estrellada está emanando un zumbido psíquico más potente. Todo humanoide en el área empieza a sentirse perturbado, aterrorizado y paranoide.</LetterPsychicDroneLevelIncreased>
+
   <!-- Agent revealed -->
   <LetterLabelAgentRevealed>Agente</LetterLabelAgentRevealed>
-  <LetterAgentRevealed>{0} ha sido delatado como un agente de tu enemigo {1}.\n\nEstá intentando escapar en este momento.</LetterAgentRevealed>
+  <LetterAgentRevealed>{0} ha sido descubierto como un agente de vuestro enemigo {1}.\n\nIntentan escapar.</LetterAgentRevealed>
 
   <!-- Distant psychic drone -->
   <LetterLabelPsychicDrone>Zumbido psíquico</LetterLabelPsychicDrone>
-  <LetterIncidentPsychicDrone>¡Cada colono de sexo {0} se retuerce de dolor!\n\nAlguna lejana fuente de odio se está activando. Está proyectando un zumbido psíquico poderoso sobre esta región, en una frecuencia que parece solo afectar al sexo {0}. Por algunos pocos días, sus ánimos estarán peor de lo habitual.</LetterIncidentPsychicDrone>
+  <LetterIncidentPsychicDrone>¡Cada colono {0} de este sexo se retuerce de dolor!\n\nAlguna lejana fuente de odio se está activando. Se está proyectando un potente zumbido psíquico en toda esta región, en una frecuencia que sólo parece afectar a {0} de este sexo. Durante unos días, el estado de ánimo de algunas personas será un poco peor.</LetterIncidentPsychicDrone>
 
-  <LetterLabelPsychicSoothe>Alivio psíquico</LetterLabelPsychicSoothe>
-  <LetterIncidentPsychicSoothe>¡Cada colono de sexo {0} sonríe con alegría!\n\nAlguna lejana fuente de felicidad se está activando. Está proyectando un alivio psíquico poderoso sobre esta región, en una frecuencia que parece solo afectar al sexo {0}. Por algunos pocos días, sus ánimos estarán mejor de lo habitual.</LetterIncidentPsychicSoothe>
+  <LetterLabelPsychicSoothe>Calma psíquica</LetterLabelPsychicSoothe>
+  <LetterIncidentPsychicSoothe>¡Cada colono {0} de este sexo sonríe con satisfacción!\n\nAlguna lejana fuente de felicidad se está despertando. Se está proyectando un potente zumbido psíquica en toda esta región, en una frecuencia que sólo parece afectar a {0} de este sexo. Durante unos días, el estado de ánimo de algunas personas va a ser un poco mejor.</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
   <LetterLabelBeaversArrived>¡Castores!</LetterLabelBeaversArrived>
-  <BeaversArrived>Un grupo hambrientos alfacastores ha llegado.\n\nElimínalos antes de que acaben con todos y cada uno de los árboles de la región.</BeaversArrived>
-  
+  <BeaversArrived>Un grupo hambriento de alfacastores acaba de llegar a tu region.\n\nIntenta deshacerte de ellos antes de que acaben con todos los árboles de la region.</BeaversArrived>
+
   <!-- Refugee chased -->
-  <RefugeeChasedInitial>Un {1} llamado(a) {0} te está llamando. ¡HECAP es perseguido(a) por {2} de {3}!\n\nHECAP te ruega por protección y ofrece unirse a tu colonia. Biológicamente, HE tiene {4} años.\n\nPero cuidado - si le aceptas, tendrás que pelear con aquellos {2} que le persiguen.</RefugeeChasedInitial>
-  <RefugeeChasedInitial_Accept>Ofrecer protección</RefugeeChasedInitial_Accept>
-  <RefugeeChasedInitial_Reject>Ignorar mensaje</RefugeeChasedInitial_Reject>
-  <RefugeeChasedRejected>Escuchas los terribles gritos de {0} a traves del altavoz, justo antes de cortar la transmisión.</RefugeeChasedRejected>
+  <RefugeeChasedTitle>Refugiado perseguido por {0}</RefugeeChasedTitle>
+  <RefugeeChasedInitial>Un {1} llamado {0} te ha llamado desde las cercanías. HECAP está siendo perseguido por {2} de {3}!\n\nHECAP solicita seguridad y ofrece unirse a nuestra colonia. Biologicamente EL tiene {4} de edad.\n\nTen cuidado - si le aceptas, tendrás que luchar contra {2} que LE va pisando los talones.</RefugeeChasedInitial>
+  <RefugeeChasedInitial_Accept>Oferta de salvamento</RefugeeChasedInitial_Accept>
+  <RefugeeChasedInitial_Reject>Ignorar el mensaje</RefugeeChasedInitial_Reject>
+  <RefugeeChasedRejected>Antes de cortar la transmisión, oyes gritos de pánico de {0} a través del pequeño altavoz.</RefugeeChasedRejected>
 
   <!-- Self-tame -->
-  <LetterLabelAnimalSelfTame>{0} amansado</LetterLabelAnimalSelfTame>
-  <LetterAnimalSelfTame>{0} se ha vuelto manso(a).</LetterAnimalSelfTame>
-  <LetterAnimalSelfTameAndNameNumerical>{0} se ha vuelto manso(a). Ahora se llama {1}.</LetterAnimalSelfTameAndNameNumerical>
-  <LetterAnimalSelfTameAndName>{0} se ha vuelto manso(a). Los colonos han decidido llamarle {1}.</LetterAnimalSelfTameAndName>
+  <LetterLabelAnimalSelfTame>{0} auto-domesticado</LetterLabelAnimalSelfTame>
+  <LetterAnimalSelfTame>{0} ha sido domesticado.</LetterAnimalSelfTame>
+  <LetterAnimalSelfTameAndNameNumerical>{0} ha sido domesticado. Ahora es designado {1}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndName>{0} ha sido domesticado. Los colonos han decidido nombrarlo {1}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
-  <LetterLabelFarmAnimalsWanderIn>Unas {0}s se unen</LetterLabelFarmAnimalsWanderIn>
-  <LetterFarmAnimalsWanderIn>Un grupo de {0}s, abandonadas o perdidas, han llegado al área.\n\nParecen acostumbradas al contacto humano y se han unido a la colonia.</LetterFarmAnimalsWanderIn>
-  
+  <LetterLabelFarmAnimalsWanderIn>{0} se ha unido</LetterLabelFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>Un grupo de {0}, abandonados o perdidos, se extraviaron en la zona.\n\nEllos parecen acostumbrados al contacto humano y se están uniendo a la colonia.</LetterFarmAnimalsWanderIn>
+
   <!-- Thrumbo passes -->
-  <LetterLabelThrumboPasses>¡Trumbos!</LetterLabelThrumboPasses>
-  <LetterThrumboPasses>Una pequeña manada de trumbos han llegado al área.\n\nPacíficos por naturaleza, estas criaturas son extremadamente peligrosas cuando se les confronta. Algunos mercaderes pagarían muchísimo dinero por su cuero y su cuerno.\n\nSe irán de aquí en unos días.</LetterThrumboPasses>
+  <LetterLabelThrumboPasses>Thrumbos raros</LetterLabelThrumboPasses>
+  <LetterThrumboPasses>Un pequeño rebaño de thrumbos se extravió en la zona.\n\nPacíficos por naturaleza, estas criaturas raras son extremadamente peligrosas si son atacados. Algunos comerciantes están dispuestos a pagar mucho dinero por su precioso cuero y cuerno.\n\nThrumbos pueden dejar el area en unos dias.</LetterThrumboPasses>
 
   <!-- Trader caravan -->
-  <LetterLabelTraderCaravanArrival>Comerciante de {0}</LetterLabelTraderCaravanArrival>
-  <LetterTraderCaravanArrival>Una caravana mercante de {0} se acerca.\n\nVan a pasearse por la colonia por unos días antes de irse. Podrías atacarlos - pero harías enojar a su facción...</LetterTraderCaravanArrival>
-  
+  <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
+  <LetterTraderCaravanArrival>Una caravana de comerciantes {0} se aproxima.Ellos son {1}\n\n¡Se quedarán en la vecindad de la colonia durante unos días antes de irse. Puedes atacarlos - pero esto va a enfadar a su facción!</LetterTraderCaravanArrival>
+
   <!-- Building breaks down -->
   <LetterLabelBuildingBrokenDown>Avería: {0}</LetterLabelBuildingBrokenDown>
-  <LetterBuildingBrokenDown>Una de tus máquinas ({0}) se ha averiado. No va a funcionar hasta que un colono con el trabajo REPARAR activado vaya y lo arregle.</LetterBuildingBrokenDown>
+  <LetterBuildingBrokenDown>Una de tus máquinas de ({0}) se ha roto. No funcionará hasta que un colono con el tipo de trabajo de Reparar vaya y lo arregle.</LetterBuildingBrokenDown>
 
   <!-- Ransom demand -->
+  <RansomDemandTitle>Ransom demand at {0}</RansomDemandTitle>
   <RansomDemand>{1} te contacta por radio. Tienen secuestrado(a) a {0}.\n\nEstán dispuestos a regresarle a cambio de {2} de plata.</RansomDemand>
   <RansomDemand_Accept>Aceptar</RansomDemand_Accept>
   <RansomDemand_Reject>Rechazar</RansomDemand_Reject>
 
   <!-- Journey -->
-  <JourneyOffer>Una IA amistosa que conociste en el pasado, llamada Carlota, te ha enviado un mensaje\n\nElla te revela que tiene una nave espacial escondida en el planeta y te envía las coordenadas.\n\nSi viajas a la nave, Carlota te dejará despegar con ella para que puedas escapar de éste planeta.</JourneyOffer>
+  <JourneyOffer>¡Un IA amigable de tu pasado llamado Charlon Whitestone te ha enviado un mensaje!\n\nÉl revela que tiene una nave estelar escondida en este planeta, y te envía sus coordenadas del mundo.\n\nSi viajas en la nave, Charlon te llevará fuera de este RimWorld, a las estrellas.</JourneyOffer>
 
   <!-- Caravan meeting -->
+  <CaravanMeetingTitle>Encuentro de caravana con {0}</CaravanMeetingTitle>
   <CaravanMeeting>Tu caravana se he encontrado con otra proveniente de {0}. La otra caravana está compuesta por:\n\n{1}</CaravanMeeting>
   <CaravanMeeting_Trade>Comerciar</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Atacar</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Seguir de largo</CaravanMeeting_MoveOn>
-    
+
   <!-- Caravan request -->
-  <LetterLabelCaravanRequest>Caravan request</LetterLabelCaravanRequest>
-  <LetterCaravanRequest>A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1}\n\nIn return, they offer:\n\n  {2}\n\nThis request expires after: {3}\n\nIf you want to make the trade, send a caravan with the requested supplies. You can review this offer by selecting {0} on the world map.</LetterCaravanRequest>
-  <CaravanRequestInfo>Requesting: {0}, Reward: {1} ({2} left)</CaravanRequestInfo>
+  <LetterLabelCaravanRequest>Solicitud de caravana</LetterLabelCaravanRequest>
+  <LetterCaravanRequest>Un asentamiento cercano, {0}, te contacta con una solicitud especial de comercio. En cambio, ofrecen:\n\n{2}\n\nEsta solicitud caduca después de: {3}\n\nSi desea realizar el comercio , envie una caravana con los suministros solicitados. Puede revisar esta oferta seleccionando {0} en el mapa mundial.</LetterCaravanRequest>
+  <CaravanRequestInfo>Solicitando: {0}, Recompensa: {1} ({2} dias restantes)</CaravanRequestInfo>
 
   <!-- Caravan demand -->
-  <CaravanDemandTitle>Caravan demand by {0}</CaravanDemandTitle>
-  <CaravanDemand>Your caravan has been ambushed by a group of {1} {3} from {0}. They will attack unless you give them:\n\n{2}</CaravanDemand>
-  <CaravanDemand_Give>Give and pass</CaravanDemand_Give>
-  <CaravanDemand_Fight>Refuse and fight</CaravanDemand_Fight>
+  <CaravanDemandTitle>Demanda de caravanas de {0}</CaravanDemandTitle>
+  <CaravanDemand>Su caravana ha sido emboscada por un grupo de {1} {3} de {0}. Ellos atacarán a menos que les des:\n\n{2}</CaravanDemand>
+  <CaravanDemand_Give>Dar y pasar</CaravanDemand_Give>
+  <CaravanDemand_Fight>Rechazar y luchar</CaravanDemand_Fight>
 
   <!-- Temporary item stash -->
-  <ItemStashQuestTitle>Item stash opportunity</ItemStashQuestTitle>
-  <ItemStashQuest_Accept>Accept</ItemStashQuest_Accept>
-  <ItemStashQuest_Reject>Reject</ItemStashQuest_Reject>
-  <ItemStashQuestFeeDemand>{0} is willing to tell us the location of the stash in exchange for {1} silver.</ItemStashQuestFeeDemand>
-  <ItemStashSitePart_Unknown>Unfortunately, {0} has no idea who or what - if anything - might be guarding the stash.</ItemStashSitePart_Unknown>
-  <ItemStashSitePart_Nothing>{0} says that the stash is unguarded.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Part>{0} says that {1}.</ItemStashSitePart_Part>
+  <ItemStashQuestTitle>Oportunidad de encontrar artículos</ItemStashQuestTitle>
+  <ItemStashQuest_Accept>Aceptar</ItemStashQuest_Accept>
+  <ItemStashQuest_Reject>Rechazar</ItemStashQuest_Reject>
+  <ItemStashQuestFeeDemand>{0} está dispuesto a decirnos la ubicación del escondite a cambio de {1} de plata.</ItemStashQuestFeeDemand>
+  <ItemStashSitePart_Unknown>Desafortunadamente, {0} no tiene ni idea de quién o qué (si lo hubiese) podría estar cuidando el escondite.</ItemStashSitePart_Unknown>
+  <ItemStashSitePart_Nothing>{0} dice que el escondite no está vigilado.</ItemStashSitePart_Nothing>
+  <ItemStashSitePart_Outpost>{0} dice que cerca hay un puesto enemigo avanzado.</ItemStashSitePart_Outpost>
+  <ItemStashSitePart_Turrets>{0} dice que el escondite está rodeado de torretas enemigas.</ItemStashSitePart_Turrets>
+  <ItemStashSitePart_Manhunters>{0} dice que hay un grupo de animales cazadores vagando cerca.</ItemStashSitePart_Manhunters>
 
-
-  
 </LanguageData>
