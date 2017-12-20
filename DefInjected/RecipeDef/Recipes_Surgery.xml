@@ -5,17 +5,17 @@
 
     <RemoveBodyPart.label>Amputar miembro</RemoveBodyPart.label>
     <RemoveBodyPart.description>Amputa un miembro corporal.</RemoveBodyPart.description>
-	  <RemoveBodyPart.jobString>Amputando miembro.</RemoveBodyPart.jobString>
+	<RemoveBodyPart.jobString>Amputando miembro.</RemoveBodyPart.jobString>
 
     <RemoveMechanoidBodyPart.label>Extraer miembro</RemoveMechanoidBodyPart.label>
     <RemoveMechanoidBodyPart.description>Extrae un miembro corporal.</RemoveMechanoidBodyPart.description>
-	  <RemoveMechanoidBodyPart.jobString>Extrayendo miembro corporal.</RemoveMechanoidBodyPart.jobString>
+	<RemoveMechanoidBodyPart.jobString>Extrayendo miembro corporal.</RemoveMechanoidBodyPart.jobString>
 
     <!-- Anesthetize -->
 
-    <Anesthetize.label>anesthetize</Anesthetize.label>
-    <Anesthetize.description>Makes a creature unconscious by administering an anesthetic.</Anesthetize.description>
-    <Anesthetize.jobString>Anesthetizing.</Anesthetize.jobString>
+    <Anesthetize.label>Anesteciar</Anesthetize.label>
+    <Anesthetize.description>Hace que una criatura quede inconsciente al administrarle un anestésico.</Anesthetize.description>
+    <Anesthetize.jobString>Anesteciando.</Anesthetize.jobString>
 
 
   	<!-- Euthanization -->
@@ -30,9 +30,15 @@
 
   	<!-- removing hediffs (e.g. diseases) -->
 
-  	<ExciseCarcinoma.label>extirpar carcinoma</ExciseCarcinoma.label>
+  	<ExciseCarcinoma.label>Extirpar carcinoma</ExciseCarcinoma.label>
   	<ExciseCarcinoma.description>Extirpa un carcinoma.</ExciseCarcinoma.description>
   	<ExciseCarcinoma.jobString>Extirpando un carcinoma.</ExciseCarcinoma.jobString>
   	<ExciseCarcinoma.successfullyRemovedHediffMessage>{0} ha extirpado el carcinoma de {1}.</ExciseCarcinoma.successfullyRemovedHediffMessage>
+	
+	 <!-- special administer -->
+
+	<AdministerMechSerumHealer.label>Administrar suero sanador mech</AdministerMechSerumHealer.label>
+	<AdministerMechSerumHealer.description>Administra suero sanador mech.</AdministerMechSerumHealer.description>
+	<AdministerMechSerumHealer.jobString>Administrando suero sanador mech.</AdministerMechSerumHealer.jobString>
 
 </LanguageData>
