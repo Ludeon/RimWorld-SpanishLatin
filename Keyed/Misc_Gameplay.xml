@@ -253,17 +253,20 @@
     <Dead>Muerto</Dead>
     <Unconscious>Inconsciente</Unconscious>
     <PainShock>En shock por el dolor</PainShock>
+	<PainShockShort>Shock por panico</PainShockShort>
     <Incapacitated>Incapacitado</Incapacitated>
     <InRestraints>Encadenado (ralentizado)</InRestraints>
     <Carrying>Llevando</Carrying>
+	<AffectedBy>Afectado por:</AffectedBy>
+	<Queued>En cola</Queued>
 
     <!-- Inspector general stuff -->
     <SelectNextInSquareTip>Selecciona la siguiente cosa en el mismo cuadro.\n\nTecla de atajo: {0}\n\nPuedes hacer esto al hacer click lentamente en el mismo cuadro repetidas veces.</SelectNextInSquareTip>
     <DefInfoTip>Ver información sobre este objeto.</DefInfoTip>
 
     <!-- Hostility response -->
-    <HostilityReponseTip>Change how to react to nearby enemies when the colonist is not drafted.</HostilityReponseTip>
-    <HostilityResponseCurrentMode>Current mode</HostilityResponseCurrentMode>
+    <HostilityReponseTip>Cambia cómo reaccionar a los enemigos cercanos cuando el colono no está reclutado.</HostilityReponseTip>
+    <HostilityResponseCurrentMode>Modo actual</HostilityResponseCurrentMode>
 
     <!-- like 'Blood of John' -->
     <OfLower>de</OfLower>
@@ -275,6 +278,7 @@
     <PowerOutput>Energía generada</PowerOutput>
     <PowerBatteryStored>Energía almacenada</PowerBatteryStored>
     <PowerBatteryEfficiency>Eficiencia</PowerBatteryEfficiency>
+	<SelfDischarging>Autodescarga</SelfDischarging>
 
     <!-- Temperature control -->
     <TargetTemperature>Temperatura objetivo</TargetTemperature>
@@ -321,7 +325,9 @@
     <GrowYearRound>Todo el año</GrowYearRound>
     <GrowSeasonHereNow>Temporada de cultivo: Ahora.</GrowSeasonHereNow>
     <CannotGrowBadSeasonTemperature>Imposible crecer (pésima temperatura).</CannotGrowBadSeasonTemperature>
-
+	<Blighted>Marchito</Blighted>
+    <DyingBecauseExposedToLight>Muriendo porque está expuesto a la luz</DyingBecauseExposedToLight>
+	
     <!-- Zones -->
     <Zone>Área</Zone>
     <GrowingZone>Área de cultivo</GrowingZone>
@@ -350,9 +356,10 @@
     <ShowRoofOverlayToggleButton>Alternar visibilidad de techos.</ShowRoofOverlayToggleButton>
     <LockNorthUpToggleButton>Impide la rotación de la cámara para que el polo norte siempre se encuentre arriba.</LockNorthUpToggleButton>
     <UsePlanetDayNightSystemToggleButton>Alternar el sistema de iluminación día/noche.</UsePlanetDayNightSystemToggleButton>
-    <ExpandingIconsToggleButton>Alternar la visualización de íconos expandidos para objetos distantes.</ExpandingIconsToggleButton>
+    <ShowExpandingIconsToggleButton>Alternar la visualización de íconos desplegables en lugar de los íconos regulares para objetos distantes</ShowExpandingIconsToggleButton>
+    <ShowWorldFeaturesToggleButton>Alternar la visibilidad de los nombres de los accidentes geográficos.</ShowWorldFeaturesToggleButton>
 
-    <!-- Fire -->
+	<!-- Fire -->
     <Fire>Fuego</Fire>
     <FireOn>Fuego en {0}</FireOn>
     <Burning>Quemándose</Burning>
@@ -389,8 +396,14 @@
     <ShipReportCannotLaunch>Imposible lanzar.</ShipReportCannotLaunch>
     <ShipReportCanLaunch>Listo para el lanzamiento.</ShipReportCanLaunch>
     <ShipReportMissingPart>Falta un componente crítico</ShipReportMissingPart>
-    <ShipReportNoFullPods>No hay sarcófagos de criptosueño ocupados</ShipReportNoFullPods>
-
+    <ShipReportMissingPartRequires>requiere</ShipReportMissingPartRequires>
+	<ShipReportNoFullPods>No hay sarcófagos de criptosueño ocupados</ShipReportNoFullPods>
+	<ShipReportHibernating>Componente de hibernación</ShipReportHibernating>
+	<ShipReportNotReady>Componente aún no está listo</ShipReportNotReady>
+	<HibernateWarning>Carlota está listo para comenzar la secuencia de recuperación de la hibernación del reactor.\n\nAdvierte que el proceso tomará alrededor de 15 días, y la firma de la energía será detectable desde una gran distancia. Este tipo de firma de energía indica capacidad de vuelo interestelar y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
+	<HibernateCompleteLabel>Reactor listo</HibernateCompleteLabel>
+	<HibernateComplete>Carlota ha terminado la secuencia de recuperación de la hibernación del reactor. El reactor ahora está listo para impulsar un despegue.</HibernateComplete>
+	
     <!-- Neurotrainer -->
     <NeurotrainerUsed>{0} usó {1} neuroentrenador(es) para ir del nivel {2} al nivel {3}.</NeurotrainerUsed>
 
@@ -480,4 +493,27 @@
     <!-- Compass -->
     <CompassTip>Muestra la dirección del norte. Haz click para rotar la cámara de manera que el norte se encuentre arriba.</CompassTip>
 
+	<!-- Distance measure -->
+	<RoutePlannerButtonTip>Haga clic para ingresar al modo de planificación donde puede planificar su viaje y calcular la distancia entre puntos de referencia.</RoutePlannerButtonTip>
+	<RoutePlannerAddTwoOrMoreWaypoints>Agregar dos o más puntos.</RoutePlannerAddTwoOrMoreWaypoints>
+	<RoutePlannerAddOneOrMoreWaypoints>Agregar uno o más puntos.</RoutePlannerAddOneOrMoreWaypoints>
+	<RoutePlannerEstTimeToFinalDest>Tiempo total de la ruta: {0}</RoutePlannerEstTimeToFinalDest>
+	<RoutePlannerUsingAverageTicksPerMoveWarning>El modo de planificación usa la velocidad de la caravana predeterminada. Tu velocidad puede variar.</RoutePlannerUsingAverageTicksPerMoveWarning>
+	<RoutePlannerUsingTicksPerMoveOfCaravan>Calculando para: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+	<RoutePlannerPressRMBToAddAndRemoveWaypoints>Botón derecho del mouse: Agregar/eliminar waypoints.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+	<RoutePlannerPressEscapeToExit>ESC: Salir del modo de planeación.</RoutePlannerPressEscapeToExit>
+	<RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Retornar al diálogo de formación de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+	<EstimatedTimeToThisWaypoint>Tiempo est. para este punto: {0}</EstimatedTimeToThisWaypoint>
+	<EstimatedTimeToThisWaypointFromPrevious>Tiempo est. entre este y el punto previo: {0}</EstimatedTimeToThisWaypointFromPrevious>
+
+	<!-- Outfits -->
+	<OutfitAnything>Cualquier cosa</OutfitAnything>
+	<OutfitWorker>Trabajador</OutfitWorker>
+	<OutfitSoldier>Soldado</OutfitSoldier>
+	<OutfitNudist>Nudista</OutfitNudist>
+
+	<!-- Hibernatable -->
+	<HibernatableHibernating>Hibernando</HibernatableHibernating>
+	<HibernatableStartingUp>Empezando</HibernatableStartingUp>
+	
 </LanguageData>
