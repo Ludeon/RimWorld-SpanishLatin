@@ -17,6 +17,7 @@ Current translation and adaptation by:
 * __Etaglibash (Inactivo)__
 * __Mora145__
 * __Andres6936__
+* __Destiny609__
 
 Thanks to AM for the 10f. version.
 
@@ -29,4 +30,3 @@ Thanks for original spanish translation.
 * __Mototron (Inactivo)__
 
 - - -
-
