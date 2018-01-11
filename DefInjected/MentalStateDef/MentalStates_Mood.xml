@@ -54,35 +54,35 @@
   <WanderPsychotic.recoveryMessage>{0} ya no está aturdido(a).</WanderPsychotic.recoveryMessage>
   <WanderPsychotic.baseInspectLine>Estado Mental: Aturdido</WanderPsychotic.baseInspectLine>
 
-  <Tantrum.label>tantrum</Tantrum.label>
-  <Tantrum.beginLetter>{0} is having a tantrum.</Tantrum.beginLetter>
-  <Tantrum.beginLetterLabel>tantrum</Tantrum.beginLetterLabel>
-  <Tantrum.recoveryMessage>{0} is no longer having a tantrum.</Tantrum.recoveryMessage>
-  <Tantrum.baseInspectLine>Estado mental: Tantrum</Tantrum.baseInspectLine>
+  <Tantrum.label>Rabieta</Tantrum.label>
+  <Tantrum.beginLetter>{0} está teniendo una rabieta.</Tantrum.beginLetter>
+  <Tantrum.beginLetterLabel>Rabieta</Tantrum.beginLetterLabel>
+  <Tantrum.recoveryMessage>{0} ya no está teniendo una rabieta.</Tantrum.recoveryMessage>
+  <Tantrum.baseInspectLine>Estado mental: Rabieta</Tantrum.baseInspectLine>
 
-  <TargetedTantrum.label>tantrum</TargetedTantrum.label>
-  <TargetedTantrum.beginLetter>{0} is having a tantrum. HECAP is going to destroy {1}.</TargetedTantrum.beginLetter>
-  <TargetedTantrum.beginLetterLabel>tantrum</TargetedTantrum.beginLetterLabel>
-  <TargetedTantrum.recoveryMessage>{0} is no longer having a tantrum.</TargetedTantrum.recoveryMessage>
-  <TargetedTantrum.baseInspectLine>Estado mental: Tantrum</TargetedTantrum.baseInspectLine>
+  <TargetedTantrum.label>Rabieta</TargetedTantrum.label>
+  <TargetedTantrum.beginLetter>{0} está teniendo una rabieta, HECAP va a destruir {1}.</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetterLabel>Rabieta</TargetedTantrum.beginLetterLabel>
+  <TargetedTantrum.recoveryMessage>{0} ya no está teniendo una rabieta.</TargetedTantrum.recoveryMessage>
+  <TargetedTantrum.baseInspectLine>Estado mental: Rabieta</TargetedTantrum.baseInspectLine>
 
-  <BedroomTantrum.label>tantrum</BedroomTantrum.label>
-  <BedroomTantrum.beginLetter>{0} is having a tantrum. HECAP is going to smash furniture in HIS room.</BedroomTantrum.beginLetter>
-  <BedroomTantrum.beginLetterLabel>tantrum</BedroomTantrum.beginLetterLabel>
-  <BedroomTantrum.recoveryMessage>{0} is no longer having a tantrum.</BedroomTantrum.recoveryMessage>
-  <BedroomTantrum.baseInspectLine>Estado mental: Tantrum</BedroomTantrum.baseInspectLine>
+  <BedroomTantrum.label>Rabieta</BedroomTantrum.label>
+  <BedroomTantrum.beginLetter>{0} está teniendo una rabieta, HECAP va a destruir los muebles de HIS habitación.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetterLabel>Rabieta</BedroomTantrum.beginLetterLabel>
+  <BedroomTantrum.recoveryMessage>{0} ya no está teniendo una rabieta.</BedroomTantrum.recoveryMessage>
+  <BedroomTantrum.baseInspectLine>Estado mental: Rabieta</BedroomTantrum.baseInspectLine>
 
-  <SadisticRage.label>sadistic rage</SadisticRage.label>
-  <SadisticRage.beginLetter>{0} is in a sadistic rage. HECAP is going to vent HIS anger on the prisoners.</SadisticRage.beginLetter>
-  <SadisticRage.beginLetterLabel>sadistic rage</SadisticRage.beginLetterLabel>
-  <SadisticRage.recoveryMessage>{0} is no longer in a sadistic rage.</SadisticRage.recoveryMessage>
-  <SadisticRage.baseInspectLine>Estado mental: Sadistic rage</SadisticRage.baseInspectLine>
+  <SadisticRage.label>Rabia Sádica</SadisticRage.label>
+  <SadisticRage.beginLetter>{0} está teniendo una rabia sádica, HECAP va a desquitar HIS ira en los prisioneros.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetterLabel>Rabia Sádica</SadisticRage.beginLetterLabel>
+  <SadisticRage.recoveryMessage>{0} ya no está en una rabia sádica.</SadisticRage.recoveryMessage>
+  <SadisticRage.baseInspectLine>Estado mental: Rabia Sádica</SadisticRage.baseInspectLine>
 
-  <CorpseObsession.label>corpse obsession</CorpseObsession.label>
-  <CorpseObsession.beginLetter>{0} is having a corpse obsession. HECAP is going to dig up a corpse.</CorpseObsession.beginLetter>
-  <CorpseObsession.beginLetterLabel>corpse obsession</CorpseObsession.beginLetterLabel>
-  <CorpseObsession.recoveryMessage>{0} is no longer having a corpse obsession.</CorpseObsession.recoveryMessage>
-  <CorpseObsession.baseInspectLine>Estado mental: Corpse obsession</CorpseObsession.baseInspectLine>
+  <CorpseObsession.label>Obsesión hacia cadáveres</CorpseObsession.label>
+  <CorpseObsession.beginLetter>{0} se ha obsesionado con un cadáver, HECAP va a desenterrarlo.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetterLabel>Obsesión hacia cadáveres</CorpseObsession.beginLetterLabel>
+  <CorpseObsession.recoveryMessage>{0} ya no está obsesionado/a hacia los cadáveres.</CorpseObsession.recoveryMessage>
+  <CorpseObsession.baseInspectLine>Estado mental: Obsesión hacia cadáveres</CorpseObsession.baseInspectLine>
 
 
   <!-- Mental breaks: minor -->
@@ -105,16 +105,16 @@
   <WanderOwnRoom.recoveryMessage>{0} ya no está encerrado(a) en su habitación.</WanderOwnRoom.recoveryMessage>
   <WanderOwnRoom.baseInspectLine>Estado Mental: Encerrado(a)</WanderOwnRoom.baseInspectLine>
 
-  <InsultingSpree.label>insulting spree</InsultingSpree.label>
-  <InsultingSpree.beginLetter>{0} is on an insulting spree.</InsultingSpree.beginLetter>
-  <InsultingSpree.beginLetterLabel>insulting spree</InsultingSpree.beginLetterLabel>
-  <InsultingSpree.recoveryMessage>{0} is no longer on an insulting spree.</InsultingSpree.recoveryMessage>
-  <InsultingSpree.baseInspectLine>Estado mental: Insulting spree</InsultingSpree.baseInspectLine>
+  <InsultingSpree.label>Alboroto</InsultingSpree.label>
+  <InsultingSpree.beginLetter>{0} está haciendo un alboroto insultando a todo aquel que pase.</InsultingSpree.beginLetter>
+  <InsultingSpree.beginLetterLabel>Alboroto</InsultingSpree.beginLetterLabel>
+  <InsultingSpree.recoveryMessage>{0} ya no está haciendo un alboroto.</InsultingSpree.recoveryMessage>
+  <InsultingSpree.baseInspectLine>Estado mental: Alboroto</InsultingSpree.baseInspectLine>
 
-  <TargetedInsultingSpree.label>insulting spree</TargetedInsultingSpree.label>
-  <TargetedInsultingSpree.beginLetter>{0} is on an insulting spree against {1}.</TargetedInsultingSpree.beginLetter>
-  <TargetedInsultingSpree.beginLetterLabel>insulting spree</TargetedInsultingSpree.beginLetterLabel>
-  <TargetedInsultingSpree.recoveryMessage></TargetedInsultingSpree.recoveryMessage>
-  <TargetedInsultingSpree.baseInspectLine>Estado mental: Insulting spree against {0}</TargetedInsultingSpree.baseInspectLine>
+  <TargetedInsultingSpree.label>Alboroto</TargetedInsultingSpree.label>
+  <TargetedInsultingSpree.beginLetter>{0} está haciendo un alboroto contra {1}.</TargetedInsultingSpree.beginLetter>
+  <TargetedInsultingSpree.beginLetterLabel>Alboroto</TargetedInsultingSpree.beginLetterLabel>
+  <TargetedInsultingSpree.recoveryMessage>{0} ya no está haciendo un alboroto</TargetedInsultingSpree.recoveryMessage>
+  <TargetedInsultingSpree.baseInspectLine>Estado mental: Alboroto contra {0}</TargetedInsultingSpree.baseInspectLine>
 
 </LanguageData>
