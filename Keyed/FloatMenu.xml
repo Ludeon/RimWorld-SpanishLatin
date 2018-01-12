@@ -16,16 +16,16 @@
   <OutOfRange>fuera de rango</OutOfRange>
   <CannotHitTarget>no se puede acertar en el objetivo</CannotHitTarget>
   <IsIncapableOfViolenceLower>{0} es incapaz de violencia</IsIncapableOfViolenceLower>
-  <IncapableOfViolenceLower>incapable of violence</IncapableOfViolenceLower>
+  <IncapableOfViolenceLower>incapaz de ser violento(a)</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0} no está reclutado(a)</IsNotDraftedLower>
-  <CannotOrderNonControlledLower>no se puede dar órdenes a unidades ajenas</CannotOrderNonControlledLower>
+  <CannotOrderNonControlledLower>no puedes ordenar a unidades no reclutadas</CannotOrderNonControlledLower>
   <CannotAttackSelf>no puedo atacarme a mí mismo</CannotAttackSelf>
 
   <OrderManThing>Operar {0}</OrderManThing>
 
-  <MeleeAttack>Atacar {0} cuerpo a cuerpo </MeleeAttack>
-  <MeleeAttackToDeath>Atacar {0} cuerpo a cuerpo hasta la muerte</MeleeAttackToDeath>
-  <NoPath>no hay paso</NoPath>
+  <MeleeAttack>Atacar cuerpo a cuerpo a {0}</MeleeAttack>
+  <MeleeAttackToDeath>Atacar cuerpo a cuerpo a {0} hasta la muerte</MeleeAttackToDeath>
+  <NoPath>sin camino</NoPath>
 
   <ForbiddenLower>prohibido</ForbiddenLower>
   <ForbiddenOutsideAllowedAreaLower>fuera del área permitida</ForbiddenOutsideAllowedAreaLower>
@@ -144,13 +144,13 @@
 
   <CannotGenericAlreadyAm>Ya se está {0}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeWorkTypeDisabled>No se puede priorizar (nunca hara {0})</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>No se puede priorizar (nunca hará {0})</CannotPrioritizeWorkTypeDisabled>
 
   <CannotPrioritizeWorkGiverDisabled>No se puede priorizar (nunca hará {0})</CannotPrioritizeWorkGiverDisabled>
 
   <CannotPrioritizeNotAssignedToWorkType>No se puede priorizar (no asignado a {0})</CannotPrioritizeNotAssignedToWorkType>
 
-  <CannotPrioritizeResearch>No se puede priorizar (la investigación es una tarea a largo plazo)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>No se puede priorizar (la investigación es una tarea que dura mucho tiempo)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>No se puede priorizar ({0} está prohibido(a))</CannotPrioritizeForbidden>
   <CannotPrioritizeForbiddenOutsideAllowedArea>No se puede priorizar ({0} está fuera del área permitida)</CannotPrioritizeForbiddenOutsideAllowedArea>
@@ -164,8 +164,8 @@
   <VomitingLower>Vomitando</VomitingLower>
   <NotInterruptibleLower>no interrumpible</NotInterruptibleLower>
 
-  <AddWaypoint>Agregar nuevo punto aqui</AddWaypoint>
-  <RemoveWaypoint>Remover este punto</RemoveWaypoint>
+  <AddWaypoint>Añadir un nuevo punto de espera aquí</AddWaypoint>
+  <RemoveWaypoint>Eliminar este punto de espera</RemoveWaypoint>
 
   <!--<SociallyImproperLower>socialmente indecoroso</SociallyImproperLower>-->
   <!--<PrisonerRoomLower>celda de prisioneros</PrisonerRoomLower>-->
