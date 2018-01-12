@@ -4,18 +4,18 @@
     <!-- ITab titles -->
     <TabBills>Proyectos</TabBills>
     <TabGrowing>Cultivo</TabGrowing>
-    <TabCharacter>Persona</TabCharacter>
+    <TabCharacter>Personaje</TabCharacter>
     <TabTraining>Adiestrar</TabTraining>
     <TabPrisoner>Prisionero</TabPrisoner>
     <TabGuest>Invitado</TabGuest>
     <TabGear>Equipo</TabGear>
-    <TabNeeds>Humor</TabNeeds>
-    <TabStorage>Opciones</TabStorage>
+    <TabNeeds>Necesidad</TabNeeds>
+    <TabStorage>Almacen</TabStorage>
     <TabShells>Proyectiles</TabShells>
     <TabHealth>Salud</TabHealth>
     <TabRace>Especie</TabRace>
     <TabBasics>Básicos</TabBasics>
-    <TabStats>Atributos</TabStats>
+    <TabStats>Estadisticas</TabStats>
     <TabRecords>Registros</TabRecords>
     <TabArt>Arte</TabArt>
     <TabSocial>Social</TabSocial>
@@ -36,7 +36,12 @@
     <GetsFood>Es alimentado(a)</GetsFood>
     <DoctorsCare>Cuidados médicos</DoctorsCare>
     <GetsMedicine>Recibe medicina</GetsMedicine>
-    <ShouldTryToRecruit>Reclutar</ShouldTryToRecruit>
+  <ShouldTryToRecruit>Intentar reclutar</ShouldTryToRecruit>
+  <PrisonerNoInteraction>Sin interacción</PrisonerNoInteraction>
+  <PrisonerFriendlyChat>Charlas amigables</PrisonerFriendlyChat>
+  <PrisonerAttemptRecruit>Intentar reclutar</PrisonerAttemptRecruit>
+  <PrisonerRelease>Liberar</PrisonerRelease>
+  <PrisonerExecution>Ejecutar</PrisonerExecution>
     <ConsideredGuilty>Considerado culpable (expira en {0})</ConsideredGuilty>
 
 
