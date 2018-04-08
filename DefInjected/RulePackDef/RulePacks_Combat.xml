@@ -12,16 +12,16 @@
   <Combat_MeleeIncludes.rulePack.rulesStrings.8>implement(implementOwnerType==hediff,p=2)->[initiator_possessive] [weapon_label]'s [tool_label]</Combat_MeleeIncludes.rulePack.rulesStrings.8>
   <Combat_MeleeIncludes.rulePack.rulesStrings.9>implement(implementOwnerType==hediff,p=1)->[initiator_possessive] [weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.9>
   <Combat_MeleeIncludes.rulePack.rulesStrings.10>implement(implementOwnerType==hediff,p=1)->[initiator_possessive] [tool_label]</Combat_MeleeIncludes.rulePack.rulesStrings.10>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.11>bodypart_adjective->hard</Combat_MeleeIncludes.rulePack.rulesStrings.11>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.12>bodypart_adjective->strong</Combat_MeleeIncludes.rulePack.rulesStrings.12>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.13>bodypart_adjective->powerful</Combat_MeleeIncludes.rulePack.rulesStrings.13>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.14>bodypart_adjective->forceful</Combat_MeleeIncludes.rulePack.rulesStrings.14>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.15>bodypart_adjective->mighty</Combat_MeleeIncludes.rulePack.rulesStrings.15>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.16>bodypart_adjective->rugged</Combat_MeleeIncludes.rulePack.rulesStrings.16>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.17>bodypart_adjective->stout</Combat_MeleeIncludes.rulePack.rulesStrings.17>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.18>bodypart_adjective->sturdy</Combat_MeleeIncludes.rulePack.rulesStrings.18>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.19>bodypart_adjective->solid</Combat_MeleeIncludes.rulePack.rulesStrings.19>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.20>bodypart_adjective->tough</Combat_MeleeIncludes.rulePack.rulesStrings.20>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.11>bodypart_adjective->duro</Combat_MeleeIncludes.rulePack.rulesStrings.11>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.12>bodypart_adjective->fuerte</Combat_MeleeIncludes.rulePack.rulesStrings.12>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.13>bodypart_adjective->poderoso</Combat_MeleeIncludes.rulePack.rulesStrings.13>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.14>bodypart_adjective->forzoso</Combat_MeleeIncludes.rulePack.rulesStrings.14>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.15>bodypart_adjective->poderoso</Combat_MeleeIncludes.rulePack.rulesStrings.15>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.16>bodypart_adjective->rústico</Combat_MeleeIncludes.rulePack.rulesStrings.16>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.17>bodypart_adjective->morrudo</Combat_MeleeIncludes.rulePack.rulesStrings.17>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.18>bodypart_adjective->morrudo</Combat_MeleeIncludes.rulePack.rulesStrings.18>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.19>bodypart_adjective->sólido</Combat_MeleeIncludes.rulePack.rulesStrings.19>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.20>bodypart_adjective->duro</Combat_MeleeIncludes.rulePack.rulesStrings.20>
   <Combat_MeleeIncludes.rulePack.rulesStrings.21>bodypart_adjective(initiator_flesh==True)->calloused</Combat_MeleeIncludes.rulePack.rulesStrings.21>
   <Combat_MeleeIncludes.rulePack.rulesStrings.22>bodypart_adjective->firm</Combat_MeleeIncludes.rulePack.rulesStrings.22>
   <Combat_MeleeIncludes.rulePack.rulesStrings.23>targetlist(recipient_part_count==1)->[recipient_part0_label]</Combat_MeleeIncludes.rulePack.rulesStrings.23>
@@ -217,10 +217,10 @@
   <Combat_RangedFire.rulePack.rulesStrings.12>shotat(p=0.5)->tried to shoot [aburst] at</Combat_RangedFire.rulePack.rulesStrings.12>
   <Combat_RangedFire.rulePack.rulesStrings.13>shotat(p=0.3)->took a shot at</Combat_RangedFire.rulePack.rulesStrings.13>
   <Combat_RangedFire.rulePack.rulesStrings.14>shotat(p=0.2)->took a [shotadjective] shot at</Combat_RangedFire.rulePack.rulesStrings.14>
-  <Combat_RangedFire.rulePack.rulesStrings.15>shotat->fired [aburst] at</Combat_RangedFire.rulePack.rulesStrings.15>
+  <Combat_RangedFire.rulePack.rulesStrings.15>shotat->disparó [aburst] contra</Combat_RangedFire.rulePack.rulesStrings.15>
   <Combat_RangedFire.rulePack.rulesStrings.16>shotat->fired [aburst] [shotadverb] at</Combat_RangedFire.rulePack.rulesStrings.16>
-  <Combat_RangedFire.rulePack.rulesStrings.17>shotat(p=0.5)->aimed and fired [aburst] at</Combat_RangedFire.rulePack.rulesStrings.17>
-  <Combat_RangedFire.rulePack.rulesStrings.18>shotat(p=0.3)->opened fire at</Combat_RangedFire.rulePack.rulesStrings.18>
+  <Combat_RangedFire.rulePack.rulesStrings.17>shotat(p=0.5)->apuntó y disparó [aburst] contra</Combat_RangedFire.rulePack.rulesStrings.17>
+  <Combat_RangedFire.rulePack.rulesStrings.18>shotat(p=0.3)->abrió fuego contra</Combat_RangedFire.rulePack.rulesStrings.18>
   <Combat_RangedFire.rulePack.rulesStrings.19>aburst-></Combat_RangedFire.rulePack.rulesStrings.19>
   <Combat_RangedFire.rulePack.rulesStrings.20>aburst(burst==True,p=3)->a burst</Combat_RangedFire.rulePack.rulesStrings.20>
   <Combat_RangedFire.rulePack.rulesStrings.21>burst-></Combat_RangedFire.rulePack.rulesStrings.21>
@@ -231,13 +231,13 @@
   <Combat_RangedFire.rulePack.rulesStrings.26>shotadverb->carefully</Combat_RangedFire.rulePack.rulesStrings.26>
   <Combat_RangedFire.rulePack.rulesStrings.27>shotadverb->quickly</Combat_RangedFire.rulePack.rulesStrings.27>
   <Combat_RangedFire.rulePack.rulesStrings.28>shotadverb->precisely</Combat_RangedFire.rulePack.rulesStrings.28>
-  <Combat_RangedFire.rulePack.rulesStrings.29>shotadverb->deliberately</Combat_RangedFire.rulePack.rulesStrings.29>
+  <Combat_RangedFire.rulePack.rulesStrings.29>shotadverb->deliberadamente</Combat_RangedFire.rulePack.rulesStrings.29>
   <Combat_RangedFire.rulePack.rulesStrings.30>shotadverb(initiator_flesh!=Mechanoid)->gingerly</Combat_RangedFire.rulePack.rulesStrings.30>
   <Combat_RangedFire.rulePack.rulesStrings.31>shotadverb->precisely</Combat_RangedFire.rulePack.rulesStrings.31>
   <Combat_RangedFire.rulePack.rulesStrings.32>shotadverb(initiator_flesh!=Mechanoid)->warily</Combat_RangedFire.rulePack.rulesStrings.32>
   <Combat_RangedFire.rulePack.rulesStrings.33>shotadjective->careful</Combat_RangedFire.rulePack.rulesStrings.33>
   <Combat_RangedFire.rulePack.rulesStrings.34>shotadjective->quick</Combat_RangedFire.rulePack.rulesStrings.34>
-  <Combat_RangedFire.rulePack.rulesStrings.35>shotadjective->deliberate</Combat_RangedFire.rulePack.rulesStrings.35>
+  <Combat_RangedFire.rulePack.rulesStrings.35>shotadjective->deliberado</Combat_RangedFire.rulePack.rulesStrings.35>
   <Combat_RangedFire.rulePack.rulesStrings.36>shotadjective->precise</Combat_RangedFire.rulePack.rulesStrings.36>
   <Combat_RangedFire.rulePack.rulesStrings.37>shotadjective(initiator_flesh!=Mechanoid)->wary</Combat_RangedFire.rulePack.rulesStrings.37>
 
