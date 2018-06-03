@@ -1,42 +1,78 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-    <Sandbags.label>Bolsas de arena</Sandbags.label>
-	<Sandbags.description>Ofrecen cobertura contra disparos.</Sandbags.description>
-    
-    <!--=============== Improvised turret ===============-->
+  <Sandbags.label>Bolsas de arena</Sandbags.label>
+  <Sandbags.description>Ofrecen cobertura contra disparos.</Sandbags.description>
+  <Sandbags_Blueprint.label>>Bolsas de arena (anteproyecto)</Sandbags_Blueprint.label>
+  <Sandbags_Frame.label>>Bolsas de arena (a medias)</Sandbags_Frame.label>
+  <Sandbags_Frame.description>Ofrecen cobertura contra disparos.</Sandbags_Frame.description>
 
-	<TurretGun.label>Torreta improvisada</TurretGun.label>
-	<TurretGun.description>Una débil torreta improvisada que dispara automáticamente a los enemigos cercanos. Explota al ser dañada de gravedad. La IA de control no es muy inteligente y no se puede manejar directamente así que ten cuidado con el fuego amigo.</TurretGun.description>
-	
-	
-	<Bullet_TurretImprovised.label>Munición de torreta</Bullet_TurretImprovised.label>
-	<Gun_TurretImprovised.label>Torreta improvisada</Gun_TurretImprovised.label>
-	<Gun_TurretImprovised.description>Una débil torreta improvisada que dispara automáticamente a los enemigos cercanos. Explota al ser dañada de gravedad. La IA de control no es muy inteligente y no se puede manejar directamente así que ten cuidado con el fuego amigo.</Gun_TurretImprovised.description>  
-  
-    <!--=============== Mortar turret ===============-->
-    
-    <Turret_MortarIncendiary.label>Mortero incendiario</Turret_MortarIncendiary.label>
-    <Turret_MortarIncendiary.description>Un mortero que dispara obuses incendiarios. Debe ser operado por un colono. Explota al ser dañado de gravedad.</Turret_MortarIncendiary.description>
 
-    <!--=============== Mortar turret ===============-->
-    
-    <Turret_MortarBomb.label>Mortero</Turret_MortarBomb.label>
-    <Turret_MortarBomb.description>Un mortero que dispara obuses explosivos. Debe ser operado por un colono. Explota al ser dañado de gravedad.</Turret_MortarBomb.description>
+  <!-- Improvised turret -->
 
-    <!--=============== Mortar turret ===============-->
-    
-    <Turret_MortarEMP.label>Mortero PEM</Turret_MortarEMP.label>
-    <Turret_MortarEMP.description>Un mortero que dispara obuses PEM. Debe ser operado por un colono. Explota al ser dañado de gravedad.</Turret_MortarEMP.description>
-	
-	<TrapDeadfall.label>Trampa de peso muerto</TrapDeadfall.label>
-	<TrapDeadfall.description>Un peso con picos suspendido por un gatillo muy delicado. Cuando la víctima perturba el gatillo, el peso es liberado y cae sobre su cabeza o torso.</TrapDeadfall.description>
+  <TurretGun.label>Torreta improvisada</TurretGun.label>
+  <TurretGun.description>Una débil torreta improvisada que dispara automáticamente a los enemigos cercanos. Explota al ser dañada de gravedad. La IA de control no es muy inteligente y no se puede manejar directamente así que ten cuidado con el fuego amigo.</TurretGun.description>
+  <TurretGun_Blueprint.label>Torreta improvisada (anteproyecto)</TurretGun_Blueprint.label>
+  <TurretGun_Blueprint_Install.label>Torreta improvisada (anteproyecto)</TurretGun_Blueprint_Install.label>
+  <TurretGun_Frame.label>Torreta improvisada (a medias)</TurretGun_Frame.label>
+  <TurretGun_Frame.description>Una débil torreta improvisada que dispara automáticamente a los enemigos cercanos. Explota al ser dañada de gravedad. La IA de control no es muy inteligente y no se puede manejar directamente así que ten cuidado con el fuego amigo.</TurretGun_Frame.description>
 
-	<TrapIEDBomb.label>Trampa explosiva improvisada</TrapIEDBomb.label>
-	<TrapIEDBomb.description>Un obús de artillería conectado a un gatillo improvisado. Cuando alguien perturba el gatiullo, el obús explota. El gatillo improvisado tiene un retraso aleatorio que podría dejar a la víctima escapar.</TrapIEDBomb.description>
+  <Bullet_TurretImprovised.label>Munición de torreta</Bullet_TurretImprovised.label>
 
-	<TrapIEDIncendiary.label>Bomba incendiaria improvisada</TrapIEDIncendiary.label>
-	<TrapIEDIncendiary.description>Explosivos mezclados con una pasta incendiaria con un gatillo químico. El gatillo es muy simple y confiable.</TrapIEDIncendiary.description>
+  <Gun_TurretImprovised.label>Torreta improvisada</Gun_TurretImprovised.label>
+  <Gun_TurretImprovised.description>Una débil torreta improvisada que dispara automáticamente a los enemigos cercanos. Explota al ser dañada de gravedad. La IA de control no es muy inteligente y no se puede manejar directamente así que ten cuidado con el fuego amigo.</Gun_TurretImprovised.description>
+
+
+  <!-- Mortar turret -->
+
+  <Turret_Mortar.label>Mortero</Turret_Mortar.label>
+  <Turret_Mortar.description>Un mortero que lanza todo tipo de proyectiles. Debe estar tripulado. Explotan cuando están dañados.</Turret_Mortar.description>
+  <Turret_Mortar_Blueprint.label>Mortero (anteproyecto)</Turret_Mortar_Blueprint.label>
+  <Turret_Mortar_Blueprint_Install.label>Mortero (anteproyecto)</Turret_Mortar_Blueprint_Install.label>
+  <Turret_Mortar_Frame.label>Mortero (a medias)</Turret_Mortar_Frame.label>
+  <Turret_Mortar_Frame.description>Un mortero que lanza todo tipo de proyectiles. Debe estar tripulado. Explotan cuando están dañados.</Turret_Mortar_Frame.description>
+
+  <Artillery_Mortar.label>Mortero</Artillery_Mortar.label>
+  <Artillery_Mortar.description>Un mortero que lanza todo tipo de proyectiles. Debe estar tripulado. Explotan cuando están dañados.</Artillery_Mortar.description>
+
+
+  <!-- Traps -->
+
+  <TrapDeadfall.label>Trampa de peso muerto</TrapDeadfall.label>
+  <TrapDeadfall.description>Un peso con picos suspendido por un gatillo muy delicado. Cuando la víctima perturba el gatillo, el peso es liberado y cae sobre su cabeza o torso.</TrapDeadfall.description>
+  <TrapDeadfall_Blueprint.label>Trampa de peso muerto (anteproyecto)</TrapDeadfall_Blueprint.label>
+  <TrapDeadfall_Frame.label>Trampa de peso muerto (a medias)</TrapDeadfall_Frame.label>
+  <TrapDeadfall_Frame.description>Un peso con picos suspendido por un gatillo muy delicado. Cuando la víctima perturba el gatillo, el peso es liberado y cae sobre su cabeza o torso.</TrapDeadfall_Frame.description>
+
+  <TrapIED_HighExplosive.label>Mina</TrapIED_HighExplosive.label>
+  <TrapIED_HighExplosive.description>Una bala de mortero conectada a un gatillo casero. Cuando alguien altera el gatillo, el proyectil explota. El disparador improvisado tiene un retardo aleatorio que puede permitir que un enemigo ágil escape.</TrapIED_HighExplosive.description>
+  <TrapIED_HighExplosive_Blueprint.label>Mina (anteproyecto)</TrapIED_HighExplosive_Blueprint.label>
+  <TrapIED_HighExplosive_Frame.label>Mina (a medias)</TrapIED_HighExplosive_Frame.label>
+  <TrapIED_HighExplosive_Frame.description>Una bala de mortero conectada a un gatillo casero. Cuando alguien altera el gatillo, el proyectil explota. El disparador improvisado tiene un retardo aleatorio que puede permitir que un enemigo ágil escape.</TrapIED_HighExplosive_Frame.description>
+
+  <TrapIED_Incendiary.label>Mina Incendiaria</TrapIED_Incendiary.label>
+  <TrapIED_Incendiary.description>Explosivos mezclados en una pasta incendiaria con un detonante químico para su dispersión. Su disparador químico es simple y confiable.</TrapIED_Incendiary.description>
+  <TrapIED_Incendiary_Blueprint.label>Mina Incendiaria (anteproyecto)</TrapIED_Incendiary_Blueprint.label>
+  <TrapIED_Incendiary_Frame.label>Mina Incendiaria (a medias)</TrapIED_Incendiary_Frame.label>
+  <TrapIED_Incendiary_Frame.description>Explosivos mezclados en una pasta incendiaria con un detonante químico para su dispersión. Su disparador químico es simple y confiable.</TrapIED_Incendiary_Frame.description>
+
+  <TrapIED_EMP.label>Mina PEM</TrapIED_EMP.label>
+  <TrapIED_EMP.description>Una simple trampa que consiste en un cartucho PEM y un gatillo casero. La explosión puede paralizar criaturas mecánicas durante unos segundos. Puede ser disparado incluso por aquellos que no son afectados por explosiones PEM.</TrapIED_EMP.description>
+  <TrapIED_EMP_Blueprint.label>Mina PEM (anteproyecto)</TrapIED_EMP_Blueprint.label>
+  <TrapIED_EMP_Frame.label>Mina PEM (a medias)</TrapIED_EMP_Frame.label>
+  <TrapIED_EMP_Frame.description>Una simple trampa que consiste en un cartucho PEM y un gatillo casero. La explosión puede paralizar criaturas mecánicas durante unos segundos. Puede ser disparado incluso por aquellos que no son afectados por explosiones PEM.</TrapIED_EMP_Frame.description>
+
+  <TrapIED_Firefoam.label>Mina de Espuma CortaFuego</TrapIED_Firefoam.label>
+  <TrapIED_Firefoam.description>Cuando alguien toca el gatillo, la trampa explota y rocía una espuma extintora de fuego a su alrededor.</TrapIED_Firefoam.description>
+  <TrapIED_Firefoam_Blueprint.label>Mina de Espuma CortaFuego (anteproyecto)</TrapIED_Firefoam_Blueprint.label>
+  <TrapIED_Firefoam_Frame.label>Mina de Espuma CortaFuego (a medias)</TrapIED_Firefoam_Frame.label>
+  <TrapIED_Firefoam_Frame.description>Cuando alguien toca el gatillo, la trampa explota y rocía una espuma extintora de fuego a su alrededor.</TrapIED_Firefoam_Frame.description>
+
+  <TrapIED_AntigrainWarhead.label>Mina de AntiMateria</TrapIED_AntigrainWarhead.label>
+  <TrapIED_AntigrainWarhead.description>Una pequeña cabeza de antimateria conectada a un gatillo casero. Crea una enorme explosión e inicia incendios alrededor de sí mismo cuando es perturbado.</TrapIED_AntigrainWarhead.description>
+  <TrapIED_AntigrainWarhead_Blueprint.label>Mina de AntiMateria (anteproyecto)</TrapIED_AntigrainWarhead_Blueprint.label>
+  <TrapIED_AntigrainWarhead_Frame.label>Mina de AntiMateria (a medias)</TrapIED_AntigrainWarhead_Frame.label>
+  <TrapIED_AntigrainWarhead_Frame.description>Una pequeña cabeza de antimateria conectada a un gatillo casero. Crea una enorme explosión e inicia incendios alrededor de sí mismo cuando es perturbado.</TrapIED_AntigrainWarhead_Frame.description>
 
 
 </LanguageData>
