@@ -1,67 +1,72 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!--=============== Pure stuffs: Basics ====================-->
-    
-    <Silver.label>plata</Silver.label>
-    <Silver.description>Este metal se usa generalmente como dinero. Tambien puede ser usado para hacer atractivos elementos decorativos.</Silver.description>
-    <Silver.stuffProps.stuffAdjective>plata</Silver.stuffProps.stuffAdjective>
-	
-    <Gold.label>oro</Gold.label>
-    <Gold.description>El metal más seductor de todos los metales. Millones han muerto intentando saciar la interminable sed de los humanos por el oro. Este metal blando tiene pocos usos por si mismo, pero es impresionantemente bello y escaso.</Gold.description>
-    <Gold.stuffProps.stuffAdjective>oro</Gold.stuffProps.stuffAdjective>
+  <!-- Pure stuffs: Basics -->
 
-    <Steel.label>acero</Steel.label>
-    <Steel.description>Una aleación de hierro y carbono utilizada para construir estructuras, herramientas y armas.</Steel.description>
-    <Steel.stuffProps.stuffAdjective>acero</Steel.stuffProps.stuffAdjective>
-	
-    <Plasteel.label>plastiacero</Plasteel.label>
-    <Plasteel.description>Material estructural de avanzada tecnología proveniente de los Espaciales. El plastiacero es extremadamento resistente debido a su estructura molecular única.</Plasteel.description>
-    
-    <WoodLog.label>madera</WoodLog.label>
-    <WoodLog.description>Madera de árboles u otras plantas. Útil para la construcción de estructuras, armas e incluso prótesis sencillas. Una rama de madera puede convertirse en un arma en cualquier momento.</WoodLog.description>
-    <WoodLog.stuffProps.stuffAdjective>madera</WoodLog.stuffProps.stuffAdjective>
-	
-    <Uranium.label>uranio</Uranium.label>
-    <Uranium.description>Alimenta los reactores nucleares.</Uranium.description>
-	<Uranium.stuffProps.stuffAdjective>uranio</Uranium.stuffProps.stuffAdjective>
-	
-    <Jade.label>jade</Jade.label>
-    <Jade.description>Un piedra dura y verde. Por su belleza y rareza, el jade se usa comúnmente para ornamentos y decoraciones. Su dureza y densidad también lo vuelven un buen material para armas contundentes.</Jade.description>	
-	<Jade.stuffProps.stuffAdjective>jade</Jade.stuffProps.stuffAdjective>
-  
-    <!--=============== Pure stuffs: Fabric, leather, etc  ====================-->
-    
-    <Cloth.label>algodón</Cloth.label>
-    <Cloth.description>Tela tejida con fibras orgánicas de la planta del algodón.</Cloth.description>
-    
-    <Synthread.label>tela sintética</Synthread.label>
-    <Synthread.description>Tejido sintético creado por los Espaciales, diseñado para fabricar ropa corriente. Es suave, ligera, resistente y es buen aislante.</Synthread.description>
-    
-    <DevilstrandCloth.label>hilodiablo</DevilstrandCloth.label>
-    <DevilstrandCloth.description>Tejido extremadamente resistente extraído directamente de las setas Hilodiablo. Muy resistente, pero no aisla más que el algodón.</DevilstrandCloth.description>
-    
-    <Hyperweave.label>hipertejido</Hyperweave.label>
-    <Hyperweave.description>Láminas tejidas con nanofibras de alta tecnología. Es algo pesada pero es sorprendentemente difícil de romper. Los secretos de su producción solo son conocidos por las culturas más avanzadas de los Mundobrillantes.</Hyperweave.description>
+  <Silver.label>Plata</Silver.label>
+  <Silver.description>Este metal se usa generalmente como dinero. Tambien puede ser usado para hacer atractivos elementos decorativos.</Silver.description>
+  <Silver.stuffProps.stuffAdjective>Plata</Silver.stuffProps.stuffAdjective>
 
-  <!--=====================================================================-->
-  <!--=============================== Wool ================================-->
-  <!--=====================================================================-->
+  <Gold.label>Oro</Gold.label>
+  <Gold.description>El metal más seductor de todos los metales. Millones han muerto intentando saciar la interminable sed de los humanos por el oro. Este metal blando tiene pocos usos por si mismo, pero es impresionantemente bello y escaso.</Gold.description>
+  <Gold.stuffProps.stuffAdjective>Oro</Gold.stuffProps.stuffAdjective>
 
-	<MegaslothWool.label>lana de megaterio</MegaslothWool.label>
-	<MegaslothWool.description>Aunque un poco gruesa, las largas fibras de la lana de megaterio la vuelven muy fuerte. Es muy tibia.</MegaslothWool.description>
-	<MegaslothWool.stuffProps.stuffAdjective>lana de megaterio</MegaslothWool.stuffProps.stuffAdjective>
-  
-	<MuffaloWool.label>lana de múfalo</MuffaloWool.label>
-	<MuffaloWool.description>Suave, ligera y tiene es un muy buen aislante. La ropa hecha con esta lana puede mantener caliente el cuerpo, incluso en condiciones extremas.</MuffaloWool.description>
-	<MuffaloWool.stuffProps.stuffAdjective>lana de múfalo</MuffaloWool.stuffProps.stuffAdjective>
-  
-	<CamelHair.label>pelo de camello</CamelHair.label>
-	<CamelHair.description>La ropa hecha de pelo de camello es normalmente usada por los viajeros del desierto para protegerse del calor. Es un excelente aislante debido a sus propiedades termostáticas.</CamelHair.description>
-	<CamelHair.stuffProps.stuffAdjective>pelo de camello</CamelHair.stuffProps.stuffAdjective>
-  
-	<AlpacaWool.label>lana de alpaca</AlpacaWool.label>
-	<AlpacaWool.description>La lana de las alpacas es increíblemente suave.</AlpacaWool.description>	
-	<AlpacaWool.stuffProps.stuffAdjective>lana de alpaca</AlpacaWool.stuffProps.stuffAdjective>
-  
+  <Steel.label>Acero</Steel.label>
+  <Steel.description>Una aleación de hierro y carbono utilizada para construir estructuras, herramientas y armas.</Steel.description>
+  <Steel.stuffProps.stuffAdjective>Acero</Steel.stuffProps.stuffAdjective>
+
+  <Plasteel.label>Plastiacero</Plasteel.label>
+  <Plasteel.description>Material estructural de avanzada tecnología proveniente de los Espaciales. El plastiacero es extremadamento resistente debido a su estructura molecular única.</Plasteel.description>
+  <Plasteel.stuffProps.stuffAdjective>Plastiacero</Plasteel.stuffProps.stuffAdjective>
+
+  <WoodLog.label>Madera</WoodLog.label>
+  <WoodLog.description>Madera de árboles u otras plantas. Útil para la construcción de estructuras, armas e incluso prótesis sencillas. Una rama de madera puede convertirse en un arma en cualquier momento.</WoodLog.description>
+  <WoodLog.stuffProps.stuffAdjective>Madera</WoodLog.stuffProps.stuffAdjective>
+
+  <Uranium.label>Uranio</Uranium.label>
+  <Uranium.description>Alimenta los reactores nucleares.</Uranium.description>
+  <Uranium.stuffProps.stuffAdjective>Uranio</Uranium.stuffProps.stuffAdjective>
+
+  <Jade.label>Jade</Jade.label>
+  <Jade.description>Un piedra dura y verde. Por su belleza y rareza, el jade se usa comúnmente para ornamentos y decoraciones. Su dureza y densidad también lo vuelven un buen material para armas contundentes.</Jade.description>
+  <Jade.stuffProps.stuffAdjective>Jade</Jade.stuffProps.stuffAdjective>
+
+
+  <!-- Pure stuffs: Fabric, leather, etc -->
+
+  <Cloth.label>Algodón</Cloth.label>
+  <Cloth.description>Tela tejida con fibras orgánicas de la planta del algodón.</Cloth.description>
+  <Cloth.stuffProps.stuffAdjective>Algodón</Cloth.stuffProps.stuffAdjective>
+
+  <Synthread.label>Tela Sintética</Synthread.label>
+  <Synthread.description>Tejido sintético creado por los Espaciales, diseñado para fabricar ropa corriente. Es suave, ligera, resistente y es buen aislante.</Synthread.description>
+  <Synthread.stuffProps.stuffAdjective>Tela Sintética</Synthread.stuffProps.stuffAdjective>
+
+  <DevilstrandCloth.label>Hilodiablo</DevilstrandCloth.label>
+  <DevilstrandCloth.description>Tejido extremadamente resistente extraído directamente de las setas Hilodiablo. Muy resistente, pero no aisla más que el algodón.</DevilstrandCloth.description>
+  <DevilstrandCloth.stuffProps.stuffAdjective>Hilodiablo</DevilstrandCloth.stuffProps.stuffAdjective>
+
+  <Hyperweave.label>Hipertejido</Hyperweave.label>
+  <Hyperweave.description>Láminas tejidas con nanofibras de alta tecnología. Es algo pesada pero es sorprendentemente difícil de romper. Los secretos de su producción solo son conocidos por las culturas más avanzadas de los Mundobrillantes.</Hyperweave.description>
+  <Hyperweave.stuffProps.stuffAdjective>Hipertejido</Hyperweave.stuffProps.stuffAdjective>
+
+
+  <!-- Wool -->
+
+  <WoolMegasloth.label>Lana de Megaterio</WoolMegasloth.label>
+  <WoolMegasloth.description>Aunque un poco gruesa, las largas fibras de la lana de megaterio la vuelven muy fuerte. Es muy tibia.</WoolMegasloth.description>
+  <WoolMegasloth.stuffProps.stuffAdjective>Lana de Megaterio</WoolMegasloth.stuffProps.stuffAdjective>
+
+  <WoolMuffalo.label>Lana de Múfalo</WoolMuffalo.label>
+  <WoolMuffalo.description>Suave, ligera y tiene es un muy buen aislante. La ropa hecha con esta lana puede mantener caliente el cuerpo, incluso en condiciones extremas.</WoolMuffalo.description>
+  <WoolMuffalo.stuffProps.stuffAdjective>Lana de Múfalo</WoolMuffalo.stuffProps.stuffAdjective>
+
+  <WoolCamel.label>Pelo de Camello</WoolCamel.label>
+  <WoolCamel.description>La ropa de pelo de camello es usualmente usada por los viajeros del desierto para protegerlos del calor. Proporciona un excelente aislamiento debido a sus propiedades termostáticas.</WoolCamel.description>
+  <WoolCamel.stuffProps.stuffAdjective>Pelo de Camello</WoolCamel.stuffProps.stuffAdjective>
+
+  <WoolAlpaca.label>Lana de Alpaca</WoolAlpaca.label>
+  <WoolAlpaca.description>La lana de las alpacas es increíblemente suave.</WoolAlpaca.description>
+  <WoolAlpaca.stuffProps.stuffAdjective>Lana de Alpaca</WoolAlpaca.stuffProps.stuffAdjective>	
+
 </LanguageData>
