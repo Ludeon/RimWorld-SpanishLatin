@@ -4,14 +4,14 @@
     <Firefighter.label>Bombero</Firefighter.label>
     <Firefighter.description>Los bomberos se encargan de apagar fuegos en la colonia.</Firefighter.description>
     <Firefighter.labelShort>Bombero</Firefighter.labelShort>
-	<Firefighter.pawnLabel>Bombero</Firefighter.pawnLabel>
+    <Firefighter.pawnLabel>Bombero</Firefighter.pawnLabel>
     <Firefighter.gerundLabel>Combatir incendios</Firefighter.gerundLabel>
     <Firefighter.verb>Extinguir</Firefighter.verb>
 
     <Patient.label>Paciente</Patient.label>
     <Patient.description>Los pacientes se dirigen a las camas hospitalarias si necesitan recibir tratamiento.</Patient.description>
     <Patient.labelShort>Paciente</Patient.labelShort>
-	<Patient.pawnLabel>Paciente</Patient.pawnLabel>
+    <Patient.pawnLabel>Paciente</Patient.pawnLabel>
     <Patient.gerundLabel>Recepción de tratamiento de emergencia</Patient.gerundLabel>
     <Patient.verb>Ir a tratamiento</Patient.verb>
 
@@ -22,33 +22,33 @@
     <Doctor.gerundLabel>Tratamiento médico</Doctor.gerundLabel>
     <Doctor.verb>Tratar a</Doctor.verb>		
 
-    <PatientBedRest.label>Paciente</PatientBedRest.label>
-    <PatientBedRest.description>Recuperarse en una cama para curarse problemas médicos no graves.</PatientBedRest.description>
-    <PatientBedRest.labelShort>Paciente</PatientBedRest.labelShort>
-    <PatientBedRest.pawnLabel>Paciente</PatientBedRest.pawnLabel>
+    <PatientBedRest.label>Reposo</PatientBedRest.label>
+    <PatientBedRest.description>Recuperarse en una cama para curarse problemas médicos.</PatientBedRest.description>
+    <PatientBedRest.labelShort>Reposo</PatientBedRest.labelShort>
+    <PatientBedRest.pawnLabel>Reposo</PatientBedRest.pawnLabel>
     <PatientBedRest.gerundLabel>Recepción de tratamiento no urgente</PatientBedRest.gerundLabel>
     <PatientBedRest.verb>Descansar</PatientBedRest.verb>
 
     <Flicker.label>Control</Flicker.label>
     <Flicker.description>Los operadores se encargan de los interruptores designados. Por ejemplo cuando decides apagar/encender un torreta manualmente o cualquier dispositivo con interruptores.</Flicker.description>
     <Flicker.labelShort>Control</Flicker.labelShort>
-	<Flicker.pawnLabel>Operador</Flicker.pawnLabel>
-	<Flicker.gerundLabel>Control de los interruptores</Flicker.gerundLabel>
-	<Flicker.verb>Alternar</Flicker.verb>	
+    <Flicker.pawnLabel>Operador</Flicker.pawnLabel>
+    <Flicker.gerundLabel>Control de los interruptores</Flicker.gerundLabel>
+    <Flicker.verb>Alternar</Flicker.verb>	
 
     <Warden.label>Carcelero</Warden.label>
     <Warden.description>Los carceleros visitan a los prisioneros para charlar con ellos, intentar reclutarlos, darles palizas, o ejecutarlos - lo que tú hayas decidido. Los carceleros tambien llevan la comida a los prisioneros.</Warden.description>
     <Warden.labelShort>Prisión</Warden.labelShort>
-	<Warden.pawnLabel>Carcelero</Warden.pawnLabel>
+    <Warden.pawnLabel>Carcelero</Warden.pawnLabel>
     <Warden.gerundLabel>Vigilancia de prisioneros</Warden.gerundLabel>
     <Warden.verb>Vigilar</Warden.verb>	
 
     <Handling.label>Domador</Handling.label>
     <Handling.description>Los domadores domestican, entrenan, cuidan y cosechan recursos de los animales domésticos. También los sacrifican.</Handling.description>
     <Handling.labelShort>Doma</Handling.labelShort>
-	<Handling.pawnLabel>Domador</Handling.pawnLabel>
-	<Handling.gerundLabel>Adiestramiento de animales</Handling.gerundLabel>
-	<Handling.verb>Adiestrar</Handling.verb>
+    <Handling.pawnLabel>Domador</Handling.pawnLabel>
+    <Handling.gerundLabel>Adiestramiento de animales</Handling.gerundLabel>
+    <Handling.verb>Adiestrar</Handling.verb>
 
     <Cooking.label>Cocinero</Cooking.label>
     <Cooking.description>Los cocineros preparan la comida y llenan los dispensadores de pasta nutritiva.</Cooking.description>
@@ -60,7 +60,7 @@
     <Hunting.label>Cazador</Hunting.label>
     <Hunting.description>Los cazadores matan a los animales designados para ser cazados.</Hunting.description>
     <Hunting.labelShort>Caza</Hunting.labelShort>
-	<Hunting.pawnLabel>Cazador</Hunting.pawnLabel>
+    <Hunting.pawnLabel>Cazador</Hunting.pawnLabel>
     <Hunting.gerundLabel>Caza de animales</Hunting.gerundLabel>
     <Hunting.verb>Cazar</Hunting.verb>	
 
@@ -74,7 +74,7 @@
     <Growing.label>Agricultor</Growing.label>
     <Growing.description>Los agricultores siembran semillas y cosechan cultivos maduros.</Growing.description>
     <Growing.labelShort>Cultivo</Growing.labelShort>
-	<Growing.pawnLabel>Agricultor</Growing.pawnLabel>
+    <Growing.pawnLabel>Agricultor</Growing.pawnLabel>
     <Growing.gerundLabel>Agricultura</Growing.gerundLabel>
     <Growing.verb>Cultivar</Growing.verb>
 
@@ -88,7 +88,7 @@
     <PlantCutting.label>Leñador</PlantCutting.label>
     <PlantCutting.description>Los leñadores talan y cortan las plantas silvestres que has designado.</PlantCutting.description>
     <PlantCutting.labelShort>Tala</PlantCutting.labelShort>
-	<PlantCutting.pawnLabel>Leñador</PlantCutting.pawnLabel>
+    <PlantCutting.pawnLabel>Leñador</PlantCutting.pawnLabel>
     <PlantCutting.gerundLabel>Tala de árboles</PlantCutting.gerundLabel>
     <PlantCutting.verb>Talar</PlantCutting.verb>	
 
@@ -123,21 +123,21 @@
     <Hauling.label>Acarreador</Hauling.label>
     <Hauling.description>Los acarreadores llevan las cosas de un lugar a otro.</Hauling.description>
     <Hauling.labelShort>Acarreo</Hauling.labelShort>
-	<Hauling.pawnLabel>Acarreador</Hauling.pawnLabel>
+    <Hauling.pawnLabel>Acarreador</Hauling.pawnLabel>
     <Hauling.gerundLabel>Acarreo de objetos</Hauling.gerundLabel>
     <Hauling.verb>Acarrear</Hauling.verb>	
 
     <Cleaning.label>Conserje</Cleaning.label>
     <Cleaning.description>Los conserjes se ocupan de quitar la nieve y limpiar la suciedad en el área del hogar.</Cleaning.description>
     <Cleaning.labelShort>Limpieza</Cleaning.labelShort>
-	<Cleaning.pawnLabel>Conserje</Cleaning.pawnLabel>
+    <Cleaning.pawnLabel>Conserje</Cleaning.pawnLabel>
     <Cleaning.gerundLabel>Limpieza de suciedad</Cleaning.gerundLabel>
     <Cleaning.verb>Limpiar</Cleaning.verb>	
 
     <Research.label>Investigador</Research.label>
     <Research.description>Los investigadores realizan trabajos de investigación.</Research.description>
     <Research.labelShort>Invest.</Research.labelShort>
-	<Research.pawnLabel>Investigador</Research.pawnLabel>
+    <Research.pawnLabel>Investigador</Research.pawnLabel>
     <Research.gerundLabel>Investigaciones</Research.gerundLabel>
     <Research.verb>Investigar en</Research.verb>		
 
