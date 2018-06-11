@@ -39,19 +39,18 @@
   <DesignatorPlanRemoveDesc>Borra los anteproyectos dibujados.</DesignatorPlanRemoveDesc>
 
   <DesignatorAreaHomeExpand>Expandir área del hogar</DesignatorAreaHomeExpand>
-  <DesignatorAreaHomeExpandDesc>Los colonos repararán edificios, limpiarán el piso y extinguirán el fuego solamente en el área del hogar.</DesignatorAreaHomeExpandDesc> 
+  <DesignatorAreaHomeExpandDesc>Los colonos repararán edificios, limpiarán el piso y extinguirán el fuego solamente en el área del hogar.</DesignatorAreaHomeExpandDesc>
   <DesignatorAreaHomeClear>Borrar área del hogar</DesignatorAreaHomeClear>
   <DesignatorAreaHomeClearDesc>Borra un área del hogar. Los colonos ya no harán limpieza, repararán objetos o extinguirán fuegos aquí.</DesignatorAreaHomeClearDesc>
-  
+
   <DesignatorAreaBuildRoofExpand>Expandir área con techo</DesignatorAreaBuildRoofExpand>
-  <DesignatorAreaBuildRoofExpandDesc>Los colonos construirán techos en ésta área.</DesignatorAreaBuildRoofExpandDesc> 
-  <DesignatorAreaBuildRoofClear>Borrar área con techo</DesignatorAreaBuildRoofClear>
-  <DesignatorAreaBuildRoofClearDesc>Borra el área donde los colonos construirán techos. Los techos existentes permanecerán, pero los colonos no construirán más.</DesignatorAreaBuildRoofClearDesc> 
+  <DesignatorAreaBuildRoofExpandDesc>Los colonos construirán techos en ésta área.</DesignatorAreaBuildRoofExpandDesc>
 
   <DesignatorAreaNoRoofExpand>Expandir área sin techo</DesignatorAreaNoRoofExpand>
   <DesignatorAreaNoRoofExpandDesc>Crea un área donde no se generan techos. Esto también destruirá los techos ya existentes.</DesignatorAreaNoRoofExpandDesc>
-  <DesignatorAreaNoRoofClear>Borrar área sin techo</DesignatorAreaNoRoofClear>
-  <DesignatorAreaNoRoofClearDesc>Borra un área sin techo. El área podrá volver a generar techos y los ya existentes no se destruirán.</DesignatorAreaNoRoofClearDesc>
+
+  <DesignatorAreaIgnoreRoofExpand>Ignorar el área del techo</DesignatorAreaIgnoreRoofExpand>
+  <DesignatorAreaIgnoreRoofExpandDesc>Los colonos ignorarán los techos en esta área.</DesignatorAreaIgnoreRoofExpandDesc>
 
   <DesignatorAreaSnowClearExpand>Expandir área sin nieve</DesignatorAreaSnowClearExpand>
   <DesignatorAreaSnowClearExpandDesc>Crea un área que los colonos tratarán de mantener sin nieve.</DesignatorAreaSnowClearExpandDesc>
@@ -72,7 +71,7 @@
 
   <DesignatorZoneDelete>Borrar áreas</DesignatorZoneDelete>
   <DesignatorZoneDeleteDesc>Borra áreas como almacenes, vertederos y zonas de cultivos.</DesignatorZoneDeleteDesc>
-  
+
   <DesignatorClaim>Reclamar</DesignatorClaim>
   <DesignatorClaimDesc>Reclama estructuras neutrales para la colonia como antiguas ruinas o bases abandonadas. Las estructuras reclamadas serán reparadas y mantenidas por tus colonos.</DesignatorClaimDesc>
 
@@ -87,7 +86,7 @@
 
   <DesignatorOpen>Abrir</DesignatorOpen>
   <DesignatorOpenDesc>Abre tumbas y otros contenedores ocupados.</DesignatorOpenDesc>
-  
+
   <DesignatorSlaughter>Sacrificar</DesignatorSlaughter>
   <DesignatorSlaughterDesc>Sacrifica un animal domesticado.</DesignatorSlaughterDesc>
 
@@ -112,13 +111,13 @@
   <SpaceAlreadyOccupied>Espacio ya ocupado.</SpaceAlreadyOccupied>
   <SpaceBeingSmoothed>Espacio siendo alisado.</SpaceBeingSmoothed>
   <TerrainMustBeRemovable>Debes designar un piso removible.</TerrainMustBeRemovable>
-  
-  
+
+
   <!-- Mouse attachments -->
   <ExpandOrCreateZone>Expandir {0} o\nCrear nuevo {1}</ExpandOrCreateZone>
   <CreateNewZone>Crear nuevo {0}</CreateNewZone>
-  
-  
+
+
   <!-- Desc helpers -->
   <TransmitsPower>Transmite electricidad</TransmitsPower>
   <ConstructionNeeded>Necesita construcción</ConstructionNeeded>
