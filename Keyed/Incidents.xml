@@ -7,7 +7,7 @@
   <AnimalInsanityMultiple>Algún tipo de onda psíquica ha barrido la zona. Tus colonos están bien, pero...\n\nParece que muchos de los {0}s en el área se han vuelto locos.</AnimalInsanityMultiple>
 
   <LetterLabelCropBlight>Plaga</LetterLabelCropBlight>
-  <CropBlight>Una misteriosa plaga ha destruido tus cultivos.</CropBlight>
+  <LetterCropBlight>¡Un colono ha notado una plaga en sus cosechas! Usted debe cortar o quemar las plantas arruinadas antes de que la plaga se propague.</LetterCropBlight>
 
   <LetterLabelMiracleHeal>Milagro</LetterLabelMiracleHeal>
   <MiracleHeal>¡{0} ha experimentado una recuperación milagrosa!</MiracleHeal>
@@ -115,13 +115,17 @@
   <LetterBuildingBrokenDown>Una de tus máquinas de ({0}) se ha roto. No funcionará hasta que un colono con el tipo de trabajo de Reparar vaya y lo arregle.</LetterBuildingBrokenDown>
 
   <!-- Ransom demand -->
-  <RansomDemandTitle>Ransom demand at {0}</RansomDemandTitle>
+  <RansomDemandTitle>Demanda de rescate a {0}</RansomDemandTitle>
   <RansomDemand>{1} te contacta por radio. Tienen secuestrado(a) a {0}.\n\nEstán dispuestos a regresarle a cambio de {2} de plata.</RansomDemand>
   <RansomDemand_Accept>Aceptar</RansomDemand_Accept>
   <RansomDemand_Reject>Rechazar</RansomDemand_Reject>
 
-  <!-- Journey -->
+  <!-- Journey-related -->
   <JourneyOffer>¡Un IA amigable de tu pasado llamado Charlon Whitestone te ha enviado un mensaje!\n\nÉl revela que tiene una nave estelar escondida en este planeta, y te envía sus coordenadas del mundo.\n\nSi viajas en la nave, Charlon te llevará fuera de este RimWorld, a las estrellas.</JourneyOffer>
+  <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
+  <EscapeShipFound>Ha alcanzado las coordenadas enviadas por Charlon Whitestone y ha descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\nCharlon Whitestone le advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrese de que sus defensas estén preparadas primero.</EscapeShipFound>
+  <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
+  <EscapeShipLost>Charlon Whitestone te envía un mensaje.\n\nVe que has perdido el control de la nave. Para evitar que caiga en las manos equivocadas, ha sido forzado a activar el mecanismo de autodestrucción de la nave. La nave es ahora un cráter.\n\nNecesitarás encontrar otra forma de salir de este planeta.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <CaravanMeetingTitle>Encuentro de caravana con {0}</CaravanMeetingTitle>
@@ -129,6 +133,7 @@
   <CaravanMeeting_Trade>Comerciar</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Atacar</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Seguir de largo</CaravanMeeting_MoveOn>
+  <CaravanMeeting_TradeIncapable>Ningún miembro de la caravana capaz de comerciar</CaravanMeeting_TradeIncapable>
 
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Solicitud de caravana</LetterLabelCaravanRequest>
@@ -148,8 +153,6 @@
   <ItemStashQuestFeeDemand>{0} está dispuesto a decirnos la ubicación del escondite a cambio de {1} de plata.</ItemStashQuestFeeDemand>
   <ItemStashSitePart_Unknown>Desafortunadamente, {0} no tiene ni idea de quién o qué (si lo hubiese) podría estar cuidando el escondite.</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0} dice que el escondite no está vigilado.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Outpost>{0} dice que cerca hay un puesto enemigo avanzado.</ItemStashSitePart_Outpost>
-  <ItemStashSitePart_Turrets>{0} dice que el escondite está rodeado de torretas enemigas.</ItemStashSitePart_Turrets>
-  <ItemStashSitePart_Manhunters>{0} dice que hay un grupo de animales cazadores vagando cerca.</ItemStashSitePart_Manhunters>
+  <ItemStashSitePart_Part>{0} dice que {1}.</ItemStashSitePart_Part>
 
 </LanguageData>
