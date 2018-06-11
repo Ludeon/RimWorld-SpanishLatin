@@ -249,7 +249,7 @@
   <CaravanConfigTab>Configuración</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>Debes asignar al menos un colono consciente.</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>No se pudo encontrar ninguna dirección de salida válida.</CaravanCouldNotFindExitSpot>
-  <CaravanCouldNotFindPackingSpot>Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible.</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindPackingSpot>No he podido encontrar ningún punto de embalaje válido. Asegúrese de que la ubicación de salida elegida ({0}) es accesible.</CaravanCouldNotFindPackingSpot>
   <CaravanCouldNotFindReachableExitSpot>Peligro: algunos de los colonos asignados son incapaces de llegar al lugar de salida.</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>Ninguno de los colonos asignados puede llegar hasta {0}.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Ninguno de los colonos asignados puede llegar hasta el/la {0}.</CaravanItemIsUnreachableSingle>
@@ -390,19 +390,5 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>El grupo de cápsulas no ha sido cargado por completo. Falta {0}. ¿Lanzar de todos modos?</ConfirmSendNotCompletelyLoadedPods>
-
-  <!--<ModWithAssemblyWasUnloaded>El juego no puede dejar de usar código de mods desactivados, así que aún podría estar activo.\n\nSe recomienda que reinicies el juego para que todos los mods se carguen limpiamente.</ModWithAssemblyWasUnloaded>-->
-  <!--<DoXTimes>Hacer X veces</DoXTimes>-->
-  <!--<DoUntilYouHaveX>Hacer hasta tener X</DoUntilYouHaveX>-->
-  <!--<DoForever>Hacer para siempre</DoForever>-->
-  <!--<BillStoreMode_DropOnFloor>Arrojar al suelo</BillStoreMode_DropOnFloor>-->
-  <!--<BillStoreMode_BestStockpile>Enviar al mejor almacén</BillStoreMode_BestStockpile>-->
-  <!--<BillStoreMode_NearestStockpileAnyPriority>Enviar al almacén más cercano</BillStoreMode_NearestStockpileAnyPriority>-->
-  <!--<BodyPartEfficiency>Eficiencia del miembro</BodyPartEfficiency>-->
-  <!--<ConfirmAbandonPawnDialog>¿De verdad deseas abandonar a {0}?</ConfirmAbandonPawnDialog>-->
-  <!--<ConfirmAbandonPawnDialog_LeftToDie>Lo más seguro es que {0} muera.</ConfirmAbandonPawnDialog_LeftToDie>-->
-  <!--<ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} se llevará los siguientes objetos con HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>-->
-  <!--<ConfirmAbandonPawnDialog_AllColonistsThoughts>Todos los colonos tendrán los siguientes pensamientos:</ConfirmAbandonPawnDialog_AllColonistsThoughts>-->
-  <!--<ConfirmAbandonPawnDialog_IndividualThoughts>Abandonar a {0} causará que las siguientes personas tengan los siguientes pensamientos:</ConfirmAbandonPawnDialog_IndividualThoughts>-->
 
 </LanguageData>
