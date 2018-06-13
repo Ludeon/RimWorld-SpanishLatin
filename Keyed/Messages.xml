@@ -233,7 +233,7 @@
   <MessageSiteCountdownBecauseNoMoreEnemies>Has vencido a todos los enemigos. En {0}, la caravana será reformada automáticamente.</MessageSiteCountdownBecauseNoMoreEnemies>
   <MessageSiteCountdownBecauseNoEnemiesInitially>En {0}, la caravana será reformada automáticamente. Puedes reformar la caravana ahora desde la pestaña del Planeta.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
-  <MessageCantBanishDownedPawn>No se puede expulsar a {0} ya que HE no puede caminar.</MessageCantBanishDownedPawn>
+  <MessageCantBanishDownedPawn>No se puede expulsar a {0} ya que [PAWN_pronoun] no puede caminar.</MessageCantBanishDownedPawn>
 
   <MessageSleepingPawnsWokenUp>{0} se han despertado.</MessageSleepingPawnsWokenUp>
 
@@ -248,7 +248,7 @@
   <MessageFailedToRescueRelative>Has fallado en el rescate de {0}. Esto hará que {1} sea un colon triste.</MessageFailedToRescueRelative>
   <MessageRescuedRelative>Has rescatado a {0}. Esto hará que {1} se sienta feliz.</MessageRescuedRelative>
 
-  <MessagePrisonerRescued>Has rescatado a NAME y HE se ha unido a tu colonia.</MessagePrisonerRescued>
+  <MessagePrisonerRescued>Has rescatado a [PAWN_nameDef] y [PAWN_pronoun] se ha unido a tu colonia.</MessagePrisonerRescued>
 
   <MessageTornadoLeftMap>El tornado ha dejado el planeta.</MessageTornadoLeftMap>
   <MessageTornadoDissipated>El tornado se ha disipado..</MessageTornadoDissipated>
@@ -257,8 +257,8 @@
 
   <MessageWarningCavePlantsExposedToLight>Advertencia: {0} no puede vivir cuando se expone a la luz.</MessageWarningCavePlantsExposedToLight>
 
-  <MessageTargetedTantrumChangedTarget>{0} no puedo alcanzar a {1} así que HE decidio reorientar HIS ira hacia {2}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{0} no puedo alcanzar a {1} así que [PAWN_pronoun] decidio reorientar [PAWN_possessive] ira hacia {2}.</MessageTargetedTantrumChangedTarget>
 
-  <MessageTargetedInsultingSpreeChangedTarget>{0} no puedo alcanzar a {1} así que HE decidio reorientar HIS insultos hacia {2}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{0} no puedo alcanzar a {1} así que [PAWN_pronoun] decidio reorientar [PAWN_possessive] insultos hacia {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
 </LanguageData>

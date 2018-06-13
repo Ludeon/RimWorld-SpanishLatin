@@ -39,13 +39,13 @@
 
   <TraderArrival>Hay una nave comercial en las cercanías.\n\nSe les conoce como {0}. Son {1}.</TraderArrival>
 
-  <SingleTravelerPassing>Un {0} de {1} está de paso por la zona. HECAP se llama {2}.</SingleTravelerPassing>
+  <SingleTravelerPassing>Un {0} de {1} está de paso por la zona. [PAWN_pronoun] se llama {2}.</SingleTravelerPassing>
   <GroupTravelersPassing>Un grupo de viajeros de {0} están de paso por la zona..</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Visitante</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>Un {0} de {1} está visitando la colonia.\n\nHECAP se llama {2}.{3}{4}</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nHECAP parece tener algunos objetos para el comercio.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nHECAP es el líder de la facción.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrives>Un {0} de {1} está visitando la colonia.\n\n[PAWN_pronoun] se llama {2}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun] parece tener algunos objetos para el comercio.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] es el líder de la facción.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Visitantes</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>Un grupo de {0} está visitando la colonia.{1}{2}</GroupVisitorsArrive>
   <GroupVisitorsArriveTraderInfo>\n\nParece que tienen algunos objetos para el comercio.</GroupVisitorsArriveTraderInfo>
@@ -53,7 +53,7 @@
   <VisitorsLeaving>Los visitantes de {0} se están marchando.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Nomada se une</LetterLabelWandererJoin>
-  <WandererJoin>Un {0} llamado NAME acaba de llegar y ha decidido unirse a la colonia. HECAP es un {1}.</WandererJoin>
+  <WandererJoin>Un {0} llamado [PAWN_nameDef] acaba de llegar y ha decidido unirse a la colonia. [PAWN_pronoun] es un {1}.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Manada de animales caza hombres</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>Una manada de {0}, caza humanos, ha entrado en el área. Ellos recorrerán la región, en busca de carne humanoide\n\nEllos no pueden pasar las puertas, por lo que si te quedas detrás de las paredes deberas estar a salvo. No van a atacar a las torretas inactivas, por lo que pasarán de tus torretas desconectadas, si es que deseas salvarlas.\n\nVan a dejar la zona en pocos días.</ManhunterPackArrived>
@@ -87,7 +87,7 @@
 
   <!-- Refugee chased -->
   <RefugeeChasedTitle>Refugiado perseguido por {0}</RefugeeChasedTitle>
-  <RefugeeChasedInitial>Un {1} llamado {0} te ha llamado desde las cercanías. HECAP está siendo perseguido por {2} de {3}!\n\nHECAP solicita seguridad y ofrece unirse a nuestra colonia. Biologicamente EL tiene {4} de edad.\n\nTen cuidado - si le aceptas, tendrás que luchar contra {2} que LE va pisando los talones.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Un {1} llamado {0} te ha llamado desde las cercanías. [PAWN_pronoun] está siendo perseguido por {2} de {3}!\n\n[PAWN_pronoun] solicita seguridad y ofrece unirse a nuestra colonia. Biologicamente EL tiene {4} de edad.\n\nTen cuidado - si le aceptas, tendrás que luchar contra {2} que LE va pisando los talones.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Oferta de salvamento</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignorar el mensaje</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>Antes de cortar la transmisión, oyes gritos de pánico de {0} a través del pequeño altavoz.</RefugeeChasedRejected>

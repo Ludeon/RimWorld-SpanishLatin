@@ -30,7 +30,7 @@
   <RecruitSuccess>{0} ha reclutado con éxito a {1} (chance del {2}).</RecruitSuccess>
   <RecruitFail>{0} no ha podido reclutar a {1} (chance del {2}).</RecruitFail>
 
-  <RelatedPawnInvolvedInQuest>NAME es {1} de {0}. Si NAME muere, {0} sufrirá un largo y duradero dolor por la pérdida. Sin embargo, si consigues rescatar a NAME, {0} gozará de una gran alegría que se mantendra por mucho tiempo.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>[PAWN_nameDef] es {1} de {0}. Si [PAWN_nameDef] muere, {0} sufrirá un largo y duradero dolor por la pérdida. Sin embargo, si consigues rescatar a [PAWN_nameDef], {0} gozará de una gran alegría que se mantendra por mucho tiempo.</RelatedPawnInvolvedInQuest>
 
   <LetterLabelBirthday>Cumpleaños</LetterLabelBirthday>
   <BirthdayChronological>¡Hoy es el cumpleaños cronológico de {0}! Biológicamente, {1} tiene {3} años.\n\nCronologicamente, {1} ha cumplido {2} años.\n\nToma en cuenta que como las personas no envejecen durante el criptosueño, el cumpleaños cronológico es diferente del biológico.</BirthdayChronological>
@@ -45,7 +45,7 @@
   <PrisonerRescueTimeout>El campamento desaparecerá dentro de {0} días. Si pierdes esta oportunidad, es posible que no vuelvas a escuchar de {1} de nuevo.</PrisonerRescueTimeout>
 
   <LetterLabelAncientShrineWarning>Peligro antiguo</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>{0} al acercarse a aquella construcción antigua, un presentimiento aterrador le pasa por la mente. HECAP no está seguro(a) de porqué, pero siente que esta estructura polvorienta esconde un gran peligro.</AncientShrineWarning>
+  <AncientShrineWarning>{0} al acercarse a aquella construcción antigua, un presentimiento aterrador le pasa por la mente. [PAWN_pronoun] no está seguro(a) de porqué, pero siente que esta estructura polvorienta esconde un gran peligro.</AncientShrineWarning>
 
   <StruckMineable>¡Hemos encontrado {0}!</StruckMineable>
 
@@ -82,8 +82,8 @@
   <LetterRelatedPawnsTradingWithOtherCaravan>La caravana está vendiendo personas que tienen una relación con tus colonos o prisioneros:</LetterRelatedPawnsTradingWithOtherCaravan>
 
   <RelationshipAppendedLetterSuffix>(relación)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME tiene relación con un colono. HECAP es {1} de {0}.</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>NAME tiene relación con uno de tus prisioneros. HECAP es {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] tiene relación con un colono. [PAWN_pronoun] es {1} de {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] tiene relación con uno de tus prisioneros. [PAWN_pronoun] es {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>Romance</LetterLabelAffair>
@@ -120,7 +120,7 @@
 
   <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>Adicción al {0}</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0} ha desarrollado una adicción al {1}.\n\nHECAP ahora necesita {1}, visible en su pestaña de humor. HECAP ahora automáticamente consumirá la droga para cumplir su necesidad. Si no puede conseguir {1}, HE va a desarrollar síndrome de abstinencia.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{0} ha desarrollado una adicción al {1}.\n\n[PAWN_pronoun] ahora necesita {1}, visible en su pestaña de humor. [PAWN_pronoun] ahora automáticamente consumirá la droga para cumplir su necesidad. Si no puede conseguir {1}, [PAWN_pronoun] va a desarrollar síndrome de abstinencia.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <LetterLabelDrugBinge>borrachera de {0}</LetterLabelDrugBinge>
