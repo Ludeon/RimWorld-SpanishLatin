@@ -2,15 +2,27 @@
 <LanguageData>
 
   <BuildRapport.label>charla</BuildRapport.label>
-  <BuildRapport.logRulesInitiator.rulesStrings.0>logentry->Intentó ganarse la confianza de [other_nameShortIndef].</BuildRapport.logRulesInitiator.rulesStrings.0>
-  <BuildRapport.logRulesRecipient.rulesStrings.0>logentry->Escuchó a [other_nameShortIndef] intentando ganarse su confianza.</BuildRapport.logRulesRecipient.rulesStrings.0>
+	<BuildRapport.logRulesInitiator.rulesStrings>
+		<li>logentry->Intentó ganarse la confianza de [other_nameShortIndef].</li>
+	</BuildRapport.logRulesInitiator.rulesStrings>
+	<BuildRapport.logRulesRecipient.rulesStrings>
+		<li>logentry->Escuchó a [other_nameShortIndef] intentando ganarse su confianza.</li>
+	</BuildRapport.logRulesRecipient.rulesStrings>
 
   <RecruitAttempt.label>intento de reclutamiento</RecruitAttempt.label>
-  <RecruitAttempt.logRulesInitiator.rulesStrings.0>logentry->Intentó reclutar a [other_nameShortIndef].</RecruitAttempt.logRulesInitiator.rulesStrings.0>
-  <RecruitAttempt.logRulesRecipient.rulesStrings.0>logentry->Escuchó un intento de reclutamiento de [other_nameShortIndef].</RecruitAttempt.logRulesRecipient.rulesStrings.0>
+	<RecruitAttempt.logRulesInitiator.rulesStrings>
+		<li>logentry->Intentó reclutar a [other_nameShortIndef].</li>
+	</RecruitAttempt.logRulesInitiator.rulesStrings>
+	<RecruitAttempt.logRulesRecipient.rulesStrings>
+		<li>logentry->Escuchó un intento de reclutamiento de [other_nameShortIndef].</li>
+	</RecruitAttempt.logRulesRecipient.rulesStrings>
 
   <SparkJailbreak.label>provocar una fuga</SparkJailbreak.label>
-  <SparkJailbreak.logRulesInitiator.rulesStrings.0>logentry->Incitando [other_nameShortIndef] para escapar.</SparkJailbreak.logRulesInitiator.rulesStrings.0>
-  <SparkJailbreak.logRulesRecipient.rulesStrings.0>logentry->Fue incitado para escapar [other_nameShortIndef].</SparkJailbreak.logRulesRecipient.rulesStrings.0>
+	<SparkJailbreak.logRulesInitiator.rulesStrings>
+		<li>logentry->Incitando [other_nameShortIndef] para escapar.</li>
+	</SparkJailbreak.logRulesInitiator.rulesStrings>
+	<SparkJailbreak.logRulesRecipient.rulesStrings>
+		<li>logentry->Fue incitado para escapar [other_nameShortIndef].</li>
+	</SparkJailbreak.logRulesRecipient.rulesStrings>
 
 </LanguageData>
