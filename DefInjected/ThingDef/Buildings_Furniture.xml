@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-      <!-- Beds -->
+  <!-- Beds -->
 
   <SleepingSpot.label>Lugar para dormir</SleepingSpot.label>
   <SleepingSpot.description>Designa un lugar en el suelo donde la gente dormirá. No es cómodo. Efectividad del descanso: 7/10</SleepingSpot.description>
   <SleepingSpot_Blueprint.label>Lugar para dormir (anteproyecto)</SleepingSpot_Blueprint.label>
   <SleepingSpot_Frame.label>Lugar para domir (anteproyecto)</SleepingSpot_Frame.label>
   <SleepingSpot_Frame.description>Un lugar en el suelo donde la gente dormirá. No es cómodo.</SleepingSpot_Frame.description>
+
+  <DoubleSleepingSpot.label>Doble lugar para dormir</DoubleSleepingSpot.label>
+  <DoubleSleepingSpot.description>Designa un lugar en el suelo donde dos personas deben dormir juntas. No es cómodo.</DoubleSleepingSpot.description>
+  <DoubleSleepingSpot_Blueprint.label>Doble lugar para dormir (anteproyecto)</DoubleSleepingSpot_Blueprint.label>
+  <DoubleSleepingSpot_Frame.label>Doble lugar para dormir (a medias)</DoubleSleepingSpot_Frame.label>
+  <DoubleSleepingSpot_Frame.description>Designa un lugar en el suelo donde dos personas deben dormir juntas. No es cómodo.</DoubleSleepingSpot_Frame.description>
 
   <Bed.label>Cama</Bed.label>
   <Bed.description>Un cómodo colchón con sábanas sobre una estructura para descansar. Efectividad del descanso: 10/10</Bed.description>
@@ -182,7 +188,7 @@
 
   <SunLamp.label>Lámpara solar</SunLamp.label>
   <SunLamp.description>Ilumina un área lo suficiente como para que crezcan plantas.</SunLamp.description>
-  <SunLamp.comps.3.offMessage>Off for plant resting period</SunLamp.comps.3.offMessage>
+  <SunLamp.comps.3.offMessage>Desactivado para el período de descanso de la planta</SunLamp.comps.3.offMessage>
   <SunLamp_Blueprint.label>Lámpara solar (anteproyecto)</SunLamp_Blueprint.label>
   <SunLamp_Blueprint_Install.label>Lámpara solar (anteproyecto)</SunLamp_Blueprint_Install.label>
   <SunLamp_Frame.label>Lámpara solar (a medias)</SunLamp_Frame.label>
