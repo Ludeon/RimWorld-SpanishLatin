@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    
-    <!-- ============================ Mechanoids ========================== -->
-    
-    <!-- Centipede -->
-    
-    <Mechanoid_Centipede.label>Centípedo</Mechanoid_Centipede.label>
-    <Mechanoid_Centipede.description>Mecanoide de combate pesado que se desliza sobre docenas de pequeñas piernas. Su blindaje y potencia de fuego los hace muy efectivos contra defensores estáticos amontonados. Son algo vulnerables a tácticas de guerrilla.</Mechanoid_Centipede.description>
-	<Mechanoid_Centipede_Corpse.label>centípedo desactivado</Mechanoid_Centipede_Corpse.label>
-	<Mechanoid_Centipede_Corpse.description>Un mecanoide centípedo desactivado definitivamente.</Mechanoid_Centipede_Corpse.description>
 	
-    <!-- Scyther -->
-    
-    <Mechanoid_Scyther.label>Segador</Mechanoid_Scyther.label>
-    <Mechanoid_Scyther.description>Un rápido mecanoide de combate de tamaño humano y larguiducho. Generalmente llevan un arma a distancia y su cuerpo está adornado con múltiples protuberancias cortantes semejantes a cuchillos que los convierte en mortiferos combatientes cuerpo a cuerpo. Nunca se ponen a cubierto. La mejor forma de enfrentarse a ellos es usando una fuerza aplastante concentrada.</Mechanoid_Scyther.description>
-	<Mechanoid_Scyther_Corpse.label>segador desactivado</Mechanoid_Scyther_Corpse.label>
-	<Mechanoid_Scyther_Corpse.description>Un mecanoide segador desactivado definitivamente.</Mechanoid_Scyther_Corpse.description>
+  <!-- Centipede -->
+
+  <Mech_Centipede.label>Centípedo</Mech_Centipede.label>
+  <Mech_Centipede.description>Mecanoides de combate pesados que se deslizan sobre docenas de pequeñas piernas. Su gruesa carpintería y su potencia de fuego los hacen muy eficaces contra los defensores estáticos atados. Son algo vulnerables a las tácticas móviles de atropello y fuga.</Mech_Centipede.description>
+  <Mech_Centipede.tools.0.label>cabeza</Mech_Centipede.tools.0.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Mech_Centipede_Corpse.label>cuerpo de centípedo</Mech_Centipede_Corpse.label>
+  <Mech_Centipede_Corpse.description>cuerpo de centípedo</Mech_Centipede_Corpse.description>
+
+
+  <!-- Lancer - fast sniper -->
+
+  <Mech_Lancer.label>Lancero</Mech_Lancer.label>
+  <Mech_Lancer.description>Un mecanoide de combate de tamaño humano con enormes sensores ópticos en la cara para apuntar armas a larga distancia. Aunque es eficaz a distancia, es más débil en el combate cuerpo a cuerpo. Los veteranos de las guerras mecanoides saben que a menudo, lo más seguro contra un lancero es cargar.</Mech_Lancer.description>
+  <Mech_Lancer.tools.0.label>puño izquierdo</Mech_Lancer.tools.0.label>
+  <Mech_Lancer.tools.1.label>puño derecho</Mech_Lancer.tools.1.label>
+  <Mech_Lancer.tools.2.label>cabeza</Mech_Lancer.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Mech_Lancer_Corpse.label>cuerpo de lancero</Mech_Lancer_Corpse.label>
+  <Mech_Lancer_Corpse.description>cuerpo de lancero</Mech_Lancer_Corpse.description>
+
+
+  <!-- Scyther - fast melee -->
+
+  <Mech_Scyther.label>Segador</Mech_Scyther.label>
+  <Mech_Scyther.description>Mecanoides de combate rápidos, delgados y de tamaño humano, especializados en el combate de aproximación rápida y a corta distancia. Sus cuerpos están cubiertos de puntas y espadas, pero en la mayoría de los casos utilizan dos espadas de brazo para cortar extremidades o destripar a sus víctimas vivas.</Mech_Scyther.description>
+  <Mech_Scyther.tools.0.label>cuchilla izquierda</Mech_Scyther.tools.0.label>
+  <Mech_Scyther.tools.1.label>cuchilla derecha</Mech_Scyther.tools.1.label>
+  <Mech_Scyther.tools.2.label>cabeza</Mech_Scyther.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Mech_Scyther_Corpse.label>cuerpo de segador</Mech_Scyther_Corpse.label>
+  <Mech_Scyther_Corpse.description>cuerpo de segador</Mech_Scyther_Corpse.description>
 	
 </LanguageData>
