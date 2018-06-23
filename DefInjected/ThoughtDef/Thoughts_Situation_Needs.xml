@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <NeedFood.stages.0.label>Hambriento</NeedFood.stages.0.label>
@@ -7,6 +7,14 @@
   <NeedFood.stages.1.description>Me están dando calambres en el estómago de tanta hambre. Si no como algo, pronto me empezaré a desnutrir.</NeedFood.stages.1.description>
   <NeedFood.stages.2.label>Inanición</NeedFood.stages.2.label>
   <NeedFood.stages.2.description>¡Solo quiero comer algo, lo que sea! Puedo sentir mi cuerpo quedándose en los huesos. Duele...</NeedFood.stages.2.description>
+  <NeedFood.stages.3.label>Hambriento (menor)</NeedFood.stages.3.label>
+  <NeedFood.stages.3.description>Puedo sentir mi cuerpo consumiéndose. Me duele el estómago como nunca antes.</NeedFood.stages.3.description>
+  <NeedFood.stages.4.label>Hambriento (moderado)</NeedFood.stages.4.label>
+  <NeedFood.stages.4.description>Apenas puedo pensar en otra cosa que en comida. Mi piel se está estirando sobre mis huesos. ¿Voy a morir?</NeedFood.stages.4.description>
+  <NeedFood.stages.5.label>Hambriento (severo)</NeedFood.stages.5.label>
+  <NeedFood.stages.5.description>Apenas puedo moverme o pensar en otra cosa que no sea comida. Me duele el estómago como nunca antes. Siento que me voy a desmayar.</NeedFood.stages.5.description>
+  <NeedFood.stages.6.label>Hambriento (extremo)</NeedFood.stages.6.label>
+  <NeedFood.stages.6.description>Comida... comida... sólo un bocado para comer... cualquier cosa... por favor....</NeedFood.stages.6.description>
 
   <NeedRest.stages.0.label>Cansado</NeedRest.stages.0.label>
   <NeedRest.stages.0.description>Hace tiempo que no duermo.</NeedRest.stages.0.description>
@@ -42,17 +50,31 @@
   <NeedBeauty.stages.1.label>Ambiente muy desagradable</NeedBeauty.stages.1.label>
   <NeedBeauty.stages.1.description>Este lugar es muy desagradable. No quiero estar aquí.</NeedBeauty.stages.1.description>
   <NeedBeauty.stages.2.label>Ambiente desagradable</NeedBeauty.stages.2.label>
-  <NeedBeauty.stages.2.description>Estar en este lugar es insoportable. ¡Sáquenme de aquí!</NeedBeauty.stages.2.description> 
+  <NeedBeauty.stages.2.description>Estar en este lugar es insoportable. ¡Sáquenme de aquí!</NeedBeauty.stages.2.description>
   <NeedBeauty.stages.3.label>Ambiente agradable</NeedBeauty.stages.3.label>
   <NeedBeauty.stages.3.description>Este lugar es agradable.</NeedBeauty.stages.3.description>
   <NeedBeauty.stages.4.label>Ambiente muy agradable</NeedBeauty.stages.4.label>
   <NeedBeauty.stages.4.description>Este lugar me gusta. Es muy bonito.</NeedBeauty.stages.4.description>
+  <NeedBeauty.stages.5.label>Entorno precioso</NeedBeauty.stages.5.label>
+  <NeedBeauty.stages.5.description>Este lugar es hermoso. Me levanta y me hace amar la vida.</NeedBeauty.stages.5.description>
 
-  <NeedSpace.stages.0.label>Ambiente estrecho</NeedSpace.stages.0.label>
-  <NeedSpace.stages.0.description>Este lugar es muy cerrado y estrecho. Siento que no tengo espacio para respirar.</NeedSpace.stages.0.description>
-  <NeedSpace.stages.1.label>Ambiente muy estrecho</NeedSpace.stages.1.label>
-  <NeedSpace.stages.1.description>Tengo claustrofobia aquí dentro. Casi no me puedo mover. Me siento como una rata en una jaula demasiado pequeña.</NeedSpace.stages.1.description>
-  <NeedSpace.stages.2.label>Interior espacioso</NeedSpace.stages.2.label>
-  <NeedSpace.stages.2.description>Este lugar está muy holgado. Me gusta.</NeedSpace.stages.2.description>
-  
+  <NeedRoomSize.stages.0.label>Interior limitado</NeedRoomSize.stages.0.label>
+  <NeedRoomSize.stages.0.description>Este espacio es tan pequeño. Me siento como una rata en una jaula.</NeedRoomSize.stages.0.description>
+  <NeedRoomSize.stages.1.label>Interior estrecho</NeedRoomSize.stages.1.label>
+  <NeedRoomSize.stages.1.description>Esta habitación es demasiado pequeña. Desearía tener más espacio para moverme y respirar.</NeedRoomSize.stages.1.description>
+  <NeedRoomSize.stages.2.label>Interior espacioso</NeedRoomSize.stages.2.label>
+  <NeedRoomSize.stages.2.description>Esta habitación es tan amplia que me siento libre.</NeedRoomSize.stages.2.description>
+
+  <NeedOutdoors.stages.0.label>Enterrado bajo tierra</NeedOutdoors.stages.0.label>
+  <NeedOutdoors.stages.0.description>He estado bajo tierra demasiado tiempo. Siento que el peso de esta montaña me está aplastando. Necesito ver el cielo y sentir el viento.</NeedOutdoors.stages.0.description>
+  <NeedOutdoors.stages.1.label>Atrapado bajo tierra</NeedOutdoors.stages.1.label>
+  <NeedOutdoors.stages.1.description>¿Cuánto tiempo he estado bajo tierra? Necesito salir al aire libre y pasar algún tiempo bajo el cielo.</NeedOutdoors.stages.1.description>
+  <NeedOutdoors.stages.2.label>Claustrofobia</NeedOutdoors.stages.2.label>
+  <NeedOutdoors.stages.2.description>He pasado tanto tiempo dentro que siento como si el techo estuviera presionando. Necesito salir y ver el cielo.</NeedOutdoors.stages.2.description>
+  <NeedOutdoors.stages.3.label>Atrapado en el interior</NeedOutdoors.stages.3.label>
+  <NeedOutdoors.stages.3.description>It's been too long since I've seen the sky.</NeedOutdoors.stages.3.description>
+  <NeedOutdoors.stages.4.label>Encerrado en casa</NeedOutdoors.stages.4.label>
+  <NeedOutdoors.stages.4.description>Me gustaría salir a tomar un poco de aire fresco.</NeedOutdoors.stages.4.description>
+
+
 </LanguageData>

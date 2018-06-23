@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <AteWithoutTable.stages.0.label>Ha comido en el suelo</AteWithoutTable.stages.0.label>
   <AteWithoutTable.stages.0.description>He tenido que comer en el suelo. ¿No podemos poner una mesa por aquí?</AteWithoutTable.stages.0.description>
-  
+
   <SleepDisturbed.stages.0.label>Sueño perturbado</SleepDisturbed.stages.0.label>
   <SleepDisturbed.stages.0.description>No podía dormir en paz con tanta gente pasando por ahí...</SleepDisturbed.stages.0.description>
 
@@ -35,13 +35,10 @@
   <KnowColonistOrganHarvested.stages.0.description>Alguien tomó algunos órganos de uno de los nuestros. Es horrible, desmontar a una persona así, sin su consentimiento...</KnowColonistOrganHarvested.stages.0.description>
 
   <MyOrganHarvested.stages.0.label>Órgano extraído</MyOrganHarvested.stages.0.label>
-  <MyOrganHarvested.stages.0.description>¡La colonia me ha extraído un organo! ¡Me están desmontando como a un motor viejo!</MyOrganHarvested.stages.0.description> 
+  <MyOrganHarvested.stages.0.description>¡La colonia me ha extraído un organo! ¡Me están desmontando como a un motor viejo!</MyOrganHarvested.stages.0.description>
 
   <WasImprisoned.stages.0.label>Ha sido encarcelado</WasImprisoned.stages.0.label>
   <WasImprisoned.stages.0.description>La colonia me encarceló durante un tiempo, como a un animal enjaulado.</WasImprisoned.stages.0.description>
-
-  <GreenThumbHappy.stages.0.label>Ha sembrado una planta</GreenThumbHappy.stages.0.label>
-  <GreenThumbHappy.stages.0.description>¡Lo que el mundo necesita son más plantas!</GreenThumbHappy.stages.0.description>
 
   <Catharsis.stages.0.label>Catársis</Catharsis.stages.0.label>
   <Catharsis.stages.0.description>¿Qué acaba de pasar? Ese no era yo. Se que puedo hacerlo mejor.</Catharsis.stages.0.description>
@@ -51,7 +48,10 @@
 
   <KnowBuriedInSarcophagus.stages.0.label>Entierro en sarcófago</KnowBuriedInSarcophagus.stages.0.label>
   <KnowBuriedInSarcophagus.stages.0.description>La colonia ha enterrado a alguien en un bonito sargófago. Descanse en paz.</KnowBuriedInSarcophagus.stages.0.description>
-  
+
+  <SoakingWet.stages.0.label>Empapado</SoakingWet.stages.0.label>
+  <SoakingWet.stages.0.description>Caminé por el agua y ahora estoy empapado.</SoakingWet.stages.0.description>
+
 
   <!-- Human corpse butchering -->
 
@@ -60,7 +60,7 @@
 
   <KnowButcheredHumanlikeCorpse.stages.0.label>Hemos descuartizado a un humano</KnowButcheredHumanlikeCorpse.stages.0.label>
   <KnowButcheredHumanlikeCorpse.stages.0.description>Hemos descuartizado a alguien como a un animal.</KnowButcheredHumanlikeCorpse.stages.0.description>
-  
+
 
   <!-- Combat -->
 
@@ -76,10 +76,43 @@
   <WitnessedDeathNonAlly.stages.0.label>Presenciado muerte de forastero</WitnessedDeathNonAlly.stages.0.label>
   <WitnessedDeathNonAlly.stages.0.description>He presenciado la muerte de alguien. Estaba vivo y un momento después, muerto.</WitnessedDeathNonAlly.stages.0.description>
 
+  <WitnessedDeathFamily.stages.0.label>Presenció la muerte de un miembro de la familia</WitnessedDeathFamily.stages.0.label>
+  <WitnessedDeathFamily.stages.0.description>Vi morir a un miembro de mi familia. Mi propia carne y sangre...</WitnessedDeathFamily.stages.0.description>
+
   <WitnessedDeathBloodlust.stages.0.label>Presenciado muerte (sed de sangre)</WitnessedDeathBloodlust.stages.0.label>
   <WitnessedDeathBloodlust.stages.0.description>He visto a alguien morir. ¡Ha sido intenso!</WitnessedDeathBloodlust.stages.0.description>
 
   <KilledHumanlikeBloodlust.stages.0.label>Ha matado a alguien (sed de sangre)</KilledHumanlikeBloodlust.stages.0.label>
   <KilledHumanlikeBloodlust.stages.0.description>He matado a alguien. ¡Qué subidón!</KilledHumanlikeBloodlust.stages.0.description>
+
+  <DefeatedHostileFactionLeader.stages.0.label>Derrotó a un líder hostil {0}</DefeatedHostileFactionLeader.stages.0.label>
+  <DefeatedHostileFactionLeader.stages.0.description>Ellos lideraban los esfuerzos para destruirnos, ¡y yo los derribé!</DefeatedHostileFactionLeader.stages.0.description>
+
+  <DefeatedHostileFactionLeaderOpinion.stages.0.label>defeated hostile leader</DefeatedHostileFactionLeaderOpinion.stages.0.label>
+
+
+  <!-- Banishing pawns -->
+
+  <ColonistBanished.stages.0.label>Colono desterrado</ColonistBanished.stages.0.label>
+  <ColonistBanished.stages.0.description>Acabamos de desterrar a alguien. Espero que lo logren, pero estoy afligido.</ColonistBanished.stages.0.description>
+
+  <ColonistBanishedToDie.stages.0.label>Colono desterrado y abandonado a su suerte</ColonistBanishedToDie.stages.0.label>
+  <ColonistBanishedToDie.stages.0.description>Desterramos a alguien de tal manera que casi no hay forma de que sobreviva.</ColonistBanishedToDie.stages.0.description>
+
+  <PrisonerBanishedToDie.stages.0.label>Prisionero desterrado y abandonado a su suerte</PrisonerBanishedToDie.stages.0.label>
+  <PrisonerBanishedToDie.stages.0.description>Desterramos a un prisionero de tal manera que casi no hay forma de que sobrevivan.</PrisonerBanishedToDie.stages.0.description>
+
+  <BondedAnimalBanished.stages.0.label>Animal con vinculo {0} desterrado</BondedAnimalBanished.stages.0.label>
+  <BondedAnimalBanished.stages.0.description>¡Mi animal fue desterrado!</BondedAnimalBanished.stages.0.description>
+
+
+  <!-- Rescue quest -->
+
+  <FailedToRescueRelative.stages.0.label>Rescate fallido {0}</FailedToRescueRelative.stages.0.label>
+  <FailedToRescueRelative.stages.0.description>Fallamos en rescatar a uno de mis parientes. Saber que podría haberle ayudado hace que sea aún más difícil sobrellevar la muerte de mi ser querido.</FailedToRescueRelative.stages.0.description>
+
+  <RescuedRelative.stages.0.label>Rescatado {0}</RescuedRelative.stages.0.label>
+  <RescuedRelative.stages.0.description>Rescatamos a uno de mis parientes. Ahora que sé que está a salvo, finalmente puedo respirar con alivio.</RescuedRelative.stages.0.description>
+
 
 </LanguageData>

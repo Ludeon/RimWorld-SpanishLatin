@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <MakeStoneBlocksAny.label>Producir bloques de piedra</MakeStoneBlocksAny.label>
+  <MakeStoneBlocksAny.description>Corta los trozos de roca en bloques aprovechables.</MakeStoneBlocksAny.description>
+  <MakeStoneBlocksAny.jobString>Produciendo bloques de piedra.</MakeStoneBlocksAny.jobString>
 
   <ExtractMetalFromSlag.label>Fundir metal de escombros metálicos</ExtractMetalFromSlag.label>
   <ExtractMetalFromSlag.description>Utiliza el calor y potentes electroimanes para extraer el metal aprovechable de los escombros metalicos.</ExtractMetalFromSlag.description>
@@ -9,27 +13,22 @@
   <SmeltWeapon.description>Utiliza el calor y potentes electroimanes para extraer el metal aprovechable de armas metálicas.</SmeltWeapon.description>
   <SmeltWeapon.jobString>Fundiendo arma.</SmeltWeapon.jobString>
 
-	<DestroyWeapon.label>Destruir arma</DestroyWeapon.label>
-	<DestroyWeapon.description>Utiliza el calor para destruir armar no deseadas. Es más rápido que fundirlas y funciona con cualquier objeto aunque no sea derretible, pero no produce ningún recurso.</DestroyWeapon.description>
-	<DestroyWeapon.jobString>Destruyendo arma.</DestroyWeapon.jobString>
+  <DestroyWeapon.label>Destruir arma</DestroyWeapon.label>
+  <DestroyWeapon.description>Utiliza el calor para destruir armar no deseadas. Es más rápido que fundirlas y funciona con cualquier objeto aunque no sea derretible, pero no produce ningún recurso.</DestroyWeapon.description>
+  <DestroyWeapon.jobString>Destruyendo arma.</DestroyWeapon.jobString>
 
-	<MakeMortarShell.label>Producir obuses para artillería</MakeMortarShell.label>
-	<MakeMortarShell.description>Fabrica un obús para la artillería.</MakeMortarShell.description>
-	<MakeMortarShell.jobString>Produciendo obuses.</MakeMortarShell.jobString>
+  <MakeChemfuelFromWood.label>Producir biocombustible con madera</MakeChemfuelFromWood.label>
+  <MakeChemfuelFromWood.description>Produce un lote de biocombustible al gasificar troncos de madera.</MakeChemfuelFromWood.description>
+  <MakeChemfuelFromWood.jobString>Refinando biocombustible con madera.</MakeChemfuelFromWood.jobString>
 
-	<MakeComponent.label>Fabricar componentes</MakeComponent.label>
-	<MakeComponent.description>Fabrica componentes.</MakeComponent.description>
-	<MakeComponent.jobString>Fabricando componentes.</MakeComponent.jobString>
+  <MakeChemfuelFromOrganics.label>Producir biocombustible con orgánicos</MakeChemfuelFromOrganics.label>
+  <MakeChemfuelFromOrganics.description>Produce un lote de biocombustible a partir de materia orgánica.</MakeChemfuelFromOrganics.description>
+  <MakeChemfuelFromOrganics.jobString>Refinando biocombustible con orgánicos.</MakeChemfuelFromOrganics.jobString>
 
-	<MakeChemfuelFromWood.label>Producir biocombustible con madera</MakeChemfuelFromWood.label>
-	<MakeChemfuelFromWood.description>Produce un lote de biocombustible al gasificar troncos de madera.</MakeChemfuelFromWood.description>
-	<MakeChemfuelFromWood.jobString>Refinando biocombustible con madera.</MakeChemfuelFromWood.jobString>
+  <MakeComponent.label>Fabricar componentes</MakeComponent.label>
+  <MakeComponent.description>Fabrica componentes.</MakeComponent.description>
+  <MakeComponent.jobString>Fabricando componentes.</MakeComponent.jobString>
 
-	<MakeChemfuelFromOrganics.label>Producir biocombustible con orgánicos</MakeChemfuelFromOrganics.label>
-	<MakeChemfuelFromOrganics.description>Produce un lote de biocombustible a partir de materia orgánica.</MakeChemfuelFromOrganics.description>
-	<MakeChemfuelFromOrganics.jobString>Refinando biocombustible con orgánicos.</MakeChemfuelFromOrganics.jobString>
-	
-	
   <MakeAdvancedComponent.label>Producir componentes avanzados</MakeAdvancedComponent.label>
   <MakeAdvancedComponent.description>Produce componentes avanzados.</MakeAdvancedComponent.description>
   <MakeAdvancedComponent.jobString>Produciendo componentes avanzados.</MakeAdvancedComponent.jobString>

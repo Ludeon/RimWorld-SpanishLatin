@@ -25,7 +25,7 @@
     <FreshMissingBodyPart>fresco</FreshMissingBodyPart>
     <DevelopedImmunityLower>inmunidad desarrollada</DevelopedImmunityLower>
     <NeedsTendingNow>Necesita tratamiento ahora</NeedsTendingNow>
-    <NextTreatmentIn>El siguiente tratamiento es en {0}</NextTreatmentIn>
+    <NextTendIn>El siguiente tratamiento es en {0}</NextTendIn>
     <MissingMedicalBillIngredient>no {0}</MissingMedicalBillIngredient>
     <Immunity>Inmunidad</Immunity>
     <Race>Especie</Race>
@@ -320,7 +320,7 @@
     <OutOfIdealTemperatureRangeNotGrowing>Fuera del rango ideal de temperatura (no está creciendo)</OutOfIdealTemperatureRangeNotGrowing>
     <ReadyToHarvest>Lista para cosechar.</ReadyToHarvest>
     <Mature>Madura.</Mature>
-    <OutdoorGrowingPeriod>Periodo de crecimiento: {0}</OutdoorGrowingPeriod>
+    <OutdoorGrowingPeriod>Periodo de crecimiento</OutdoorGrowingPeriod>
     <NoGrowingPeriod>Nunca</NoGrowingPeriod>
     <GrowYearRound>Todo el año</GrowYearRound>
     <GrowSeasonHereNow>Temporada de cultivo: Ahora.</GrowSeasonHereNow>
@@ -366,7 +366,7 @@
     <FireSizeLower>tamaño del fuego {0}</FireSizeLower>
 
     <!-- Map conditions (eclipse, solar flare, etc )-->
-    <MapConditionsTip>Condiciones especiales que afectan el área en estos momentos.</MapConditionsTip>
+    <GameConditionsTip>Condiciones especiales que afectan el área en estos momentos.</GameConditionsTip>
     <TimeLeft>tiempo restante</TimeLeft>
     <ImpactDate>fecha de impacto</ImpactDate>
 
@@ -390,7 +390,7 @@
 
     <!-- Cryptosleep casket -->
     <CasketContains>Contiene</CasketContains>
-    <CasketWarning>¡Peligro!¡\n\nNAME es tu último colono en pie! Si lo dejas entrar en ése sarcófago no podrás seguir jugando. ¿Estás seguro que quieres continuar?</CasketWarning>
+    <CasketWarning>¡Peligro!¡\n\n[PAWN_nameDef] es tu último colono en pie! Si lo dejas entrar en ése sarcófago no podrás seguir jugando. ¿Estás seguro que quieres continuar?</CasketWarning>
 
     <!-- Ship launch report -->
     <ShipReportCannotLaunch>Imposible lanzar.</ShipReportCannotLaunch>

@@ -1,58 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <WorkSpeedGlobal.label>Velocidad de trabajo general</WorkSpeedGlobal.label>
-    <WorkSpeedGlobal.description>Un multiplicador sobre la velocidad general de cualquier trabajo.</WorkSpeedGlobal.description>
+  <WorkSpeedGlobal.label>Velocidad de trabajo general</WorkSpeedGlobal.label>
+  <WorkSpeedGlobal.description>Un multiplicador sobre la velocidad general de cualquier trabajo.</WorkSpeedGlobal.description>
 
-    <MiningSpeed.label>Velocidad de minería</MiningSpeed.label>
-    <MiningSpeed.description>Un multiplicador sobre la velocidad a la que esta persona mina las rocas.</MiningSpeed.description>
+  <MiningSpeed.label>Velocidad de minería</MiningSpeed.label>
+  <MiningSpeed.description>Un multiplicador sobre la velocidad a la que esta persona mina las rocas.</MiningSpeed.description>
 
-    <!-- String sin traducir -->
+  <MiningYield.label>Rendimiento minero</MiningYield.label>
+  <MiningYield.description>El porcentaje de rendimiento que un minero alcanzará. Esto se aplica tanto a la minería de paredes como a la minería de perforación profunda. Esto no afecta la tasa de extracción de trozos de roca.</MiningYield.description>
 
-    <MiningYield.label>mining yield</MiningYield.label>
-    <MiningYield.description>The percentage yield a miner will achieve. This applies to both wall mining and deep drill mining. This doesn't affect the rate of mining rock chunks.</MiningYield.description>
+  <SmoothingSpeed.label>Velocidad de desbastado</SmoothingSpeed.label>
+  <SmoothingSpeed.description>Un multiplicador sobre a la velocidad a la que esta persona desbasta el suelo.</SmoothingSpeed.description>
 
-    <SmoothingSpeed.label>Velocidad de desbastado</SmoothingSpeed.label>
-    <SmoothingSpeed.description>Un multiplicador sobre a la velocidad a la que esta persona desbasta el suelo.</SmoothingSpeed.description>
+  <ResearchSpeed.label>Velocidad de investigación</ResearchSpeed.label>
+  <ResearchSpeed.description>Un multiplicador sobre a la velocidad a la que esta persona investiga.</ResearchSpeed.description>
 
-    <ResearchSpeed.label>Velocidad de investigación</ResearchSpeed.label>
-    <ResearchSpeed.description>Un multiplicador sobre a la velocidad a la que esta persona investiga.</ResearchSpeed.description>
+  <AnimalGatherSpeed.label>Velocidad de recogida de animales</AnimalGatherSpeed.label>
+  <AnimalGatherSpeed.description>La velocidad a la que esta persona ordeña, corta y recoge recursos de los animales.</AnimalGatherSpeed.description>
 
-    <!-- String sin traducir -->
+  <AnimalGatherYield.label>Rendimiento de recolección de animales</AnimalGatherYield.label>
+  <AnimalGatherYield.description>El porcentaje de rendimiento que alguien recibe cuando esquila, ordeña o de otra manera reúne recursos de un animal vivo. Los porcentajes más altos reducen la posibilidad de desperdiciar el producto.</AnimalGatherYield.description>
 
-    <AnimalGatherSpeed.label>animal gather speed</AnimalGatherSpeed.label>
-    <AnimalGatherSpeed.description>The speed at which this person milks, shears, and otherwise gathers resources from animals.</AnimalGatherSpeed.description>
+  <PlantWorkSpeed.label>Velocidad de agricultura</PlantWorkSpeed.label>
+  <PlantWorkSpeed.description>Un multiplicador sobre a la velocidad a la que esta persona planta y cosecha las plantas.</PlantWorkSpeed.description>
 
-    <AnimalGatherYield.label>animal gather yield</AnimalGatherYield.label>
-    <AnimalGatherYield.description>The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal. Higher percentages reduce the chance of wasting the product.</AnimalGatherYield.description>
+  <PlantHarvestYield.label>Rendimiento de la cosecha vegetal</PlantHarvestYield.label>
+  <PlantHarvestYield.description>El rendimiento que alguien obtiene al cosechar plantas. Los bajos rendimientos dan la posibilidad de que esta persona accidentalmente desperdicie la cosecha.</PlantHarvestYield.description>
 
-    <ConstructionSpeed.label>Velocidad de construcción</ConstructionSpeed.label>
-    <ConstructionSpeed.description>Un multiplicador sobre a la velocidad a la que esta persona construye estructuras.</ConstructionSpeed.description>
+  <ConstructionSpeed.label>Velocidad de construcción</ConstructionSpeed.label>
+  <ConstructionSpeed.description>Un multiplicador sobre a la velocidad a la que esta persona construye estructuras.</ConstructionSpeed.description>
 
-    <!-- String sin traducir -->
+  <ConstructSuccessChance.label>Posibilidad de construcción con éxito</ConstructSuccessChance.label>
+  <ConstructSuccessChance.description>La posibilidad de que esta persona tenga éxito en la construcción de algo. Fracasar significa perder tiempo y recursos.</ConstructSuccessChance.description>
 
-    <ConstructSuccessChance.label>construct success chance</ConstructSuccessChance.label>
-    <ConstructSuccessChance.description>The chance that this person will succeed in constructing something. Failing means wasting time and resources.</ConstructSuccessChance.description>
-
-    <PlantWorkSpeed.label>Velocidad de agricultura</PlantWorkSpeed.label>
-    <PlantWorkSpeed.description>Un multiplicador sobre a la velocidad a la que esta persona planta y cosecha las plantas.</PlantWorkSpeed.description>
-
-    <!-- String sin traducir -->
-
-    <PlantHarvestYield.label>plant harvest yield</PlantHarvestYield.label>
-    <PlantHarvestYield.description>The yield someone gets when harvesting plants. Low yields give a chance that this person will accidentally waste the harvest.</PlantHarvestYield.description>
-
-    <!-- Etiqueta posiblemente descontinuada -->
-
-  	<HarvestFailChance.label>Probabilidad de fallo en la cosecha</HarvestFailChance.label>
-  	<HarvestFailChance.description>La probabilidad de que ésta persona accidentalmente destruya el producto de las plantas que cosecha.</HarvestFailChance.description>
-
-    <!-- Etiqueta posiblemente descontinuada -->
-
-  	<ConstructFailChance.label>Probabilidad de fallo en la construcción</ConstructFailChance.label>
-  	<ConstructFailChance.description>La probabilidad de que esta persona falle al construir algo, desperdiciando el tiempo y los recursos.</ConstructFailChance.description>
-
-  	<FixBrokenDownBuildingFailChance.label>Probabilidad de fallo en la reparación</FixBrokenDownBuildingFailChance.label>
-  	<FixBrokenDownBuildingFailChance.description>La probabilidad de que esta persona falle al reparar un objeto.</FixBrokenDownBuildingFailChance.description>
+  <FixBrokenDownBuildingSuccessChance.label>Oportunidad de éxito de la reparación</FixBrokenDownBuildingSuccessChance.label>
+  <FixBrokenDownBuildingSuccessChance.description>La posibilidad de que esta persona repare con éxito un edificio averiado utilizando un componente. Fracasar significa perder tiempo y recursos. Tenga en cuenta que esto sólo se aplica a la reparación de averías, que es diferente de la reparación de daños.</FixBrokenDownBuildingSuccessChance.description>
 
 </LanguageData>

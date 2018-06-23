@@ -1,45 +1,74 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-    <!-- =========== Misc chunks =========== -->
-    
-    <ChunkSlagSteel.label>Escombro metálico</ChunkSlagSteel.label>
-    
-    <!-- =========== Stone solids, chunks, and blocks =========== -->
-    
-    <Sandstone.label>Arenisca</Sandstone.label>
-    <Sandstone.description>Una roca sedimentaria compuesta por partículas de arena comprimidas.</Sandstone.description>   
-    <ChunkSandstone.label>Trozo de arenisca</ChunkSandstone.label>   
-    <BlocksSandstone.label>Bloques de arenisca</BlocksSandstone.label>
-    <BlocksSandstone.description>Bloques de arenisca macizos. La arenisca es relativamente blanda y se quiebra fácilmente.</BlocksSandstone.description>
-	<BlocksSandstone.stuffProps.stuffAdjective>Arenisca</BlocksSandstone.stuffProps.stuffAdjective>
-    
-    <Granite.label>Granito</Granite.label>
-    <Granite.description>Una roca ígnea muy dura.</Granite.description>    
-    <ChunkGranite.label>Trozo de granito</ChunkGranite.label>    
-    <BlocksGranite.label>Bloques de granito</BlocksGranite.label>
-    <BlocksGranite.description>Bloques de granito macizo. El granito una piedra muy dura.</BlocksGranite.description>
-	<BlocksGranite.stuffProps.stuffAdjective>Granito</BlocksGranite.stuffProps.stuffAdjective>
-    
-    <Limestone.label>Caliza</Limestone.label>
-    <Limestone.description>Una roca sedimentaria compuesta por los restos compactados de antiguas conchas marinas.</Limestone.description>   
-    <ChunkLimestone.label>Trozo de caliza</ChunkLimestone.label>  
-    <BlocksLimestone.label>Bloques de caliza</BlocksLimestone.label>
-    <BlocksLimestone.description>Bloques macizos de caliza.</BlocksLimestone.description>
-    <BlocksLimestone.stuffProps.stuffAdjective>Caliza</BlocksLimestone.stuffProps.stuffAdjective>
+  <!-- Misc chunks -->
 
-    <Slate.label>Pizarra</Slate.label>
-    <Slate.description>Una roca metamórfica de coloración oscura. Sus finas capas son un ejemplo representativo de la caracteristica geológica llamada pizarrosidad.</Slate.description>  
-    <ChunkSlate.label>Trozo de pizarra</ChunkSlate.label>   
-    <BlocksSlate.label>Bloques de pizarra</BlocksSlate.label>
-    <BlocksSlate.description>Bloques de pizarra maciza. Una roca de apariencia anodina que se quiebra fácilmente.</BlocksSlate.description>
-    <BlocksSlate.stuffProps.stuffAdjective>Pizarra</BlocksSlate.stuffProps.stuffAdjective>
+  <ChunkSlagSteel.label>Escombro metálico</ChunkSlagSteel.label>
+  <ChunkSlagSteel.description>Un trozo de chatarra de acero. No es muy útil en su forma actual pero es posible obtener acero a partir de él.</ChunkSlagSteel.description>
 
-    <Marble.label>Mármol</Marble.label>
-    <Marble.description>Una roca metamórfica blanda.</Marble.description>   
-    <ChunkMarble.label>Trozo de mármol</ChunkMarble.label>  
-    <BlocksMarble.label>Bloques de mármol</BlocksMarble.label>
-    <BlocksMarble.description>Bloques de mármol macizo. El mármol es una piedra blanda y bonita, conocida por ser fácil de esculpir.</BlocksMarble.description>
-    <BlocksMarble.stuffProps.stuffAdjective>Mármol</BlocksMarble.stuffProps.stuffAdjective>
+
+  <!-- Sandstone -->
+
+  <Sandstone.label>Arenisca</Sandstone.label>
+  <Sandstone.description>Una roca sedimentaria compuesta por partículas de arena comprimidas.</Sandstone.description>
+
+  <ChunkSandstone.label>Trozo de arenisca</ChunkSandstone.label>
+  <ChunkSandstone.description>Un trozo de roca. Es posible cortar bloques de piedra utilizables.</ChunkSandstone.description>
+
+  <BlocksSandstone.label>Bloques de arenisca</BlocksSandstone.label>
+  <BlocksSandstone.description>Bloques de arenisca macizos. La arenisca es relativamente blanda y se quiebra fácilmente.</BlocksSandstone.description>
+  <BlocksSandstone.stuffProps.stuffAdjective>Arenisca</BlocksSandstone.stuffProps.stuffAdjective>
+
+
+  <!-- Granite -->
+
+  <Granite.label>Granito</Granite.label>
+  <Granite.description>Una roca ígnea muy dura.</Granite.description>
+
+  <ChunkGranite.label>Trozo de granito</ChunkGranite.label>
+  <ChunkGranite.description>Un trozo de roca. Es posible cortar bloques de piedra utilizables.</ChunkGranite.description>
+
+  <BlocksGranite.label>Bloques de granito</BlocksGranite.label>
+  <BlocksGranite.description>Bloques de granito macizo. El granito una piedra muy dura.</BlocksGranite.description>
+  <BlocksGranite.stuffProps.stuffAdjective>Granito</BlocksGranite.stuffProps.stuffAdjective>
+
+
+  <!-- Limestone -->
+
+  <Limestone.label>Caliza</Limestone.label>
+  <Limestone.description>Una roca sedimentaria compuesta por los restos compactados de antiguas conchas marinas.</Limestone.description>
+
+  <ChunkLimestone.label>Trozo de caliza</ChunkLimestone.label>
+  <ChunkLimestone.description>Un trozo de roca. Es posible cortar bloques de piedra utilizables.</ChunkLimestone.description>
+
+  <BlocksLimestone.label>Bloques de caliza</BlocksLimestone.label>
+  <BlocksLimestone.description>Bloques macizos de caliza.</BlocksLimestone.description>
+  <BlocksLimestone.stuffProps.stuffAdjective>Caliza</BlocksLimestone.stuffProps.stuffAdjective>
+
+
+  <!-- Slate -->
+
+  <Slate.label>Pizarra</Slate.label>
+  <Slate.description>Una roca metamórfica de coloración oscura. Sus finas capas son un ejemplo representativo de la caracteristica geológica llamada pizarrosidad.</Slate.description>
+
+  <ChunkSlate.label>Trozo de pizarra</ChunkSlate.label>
+  <ChunkSlate.description>Un trozo de roca. Es posible cortar bloques de piedra utilizables.</ChunkSlate.description>
+
+  <BlocksSlate.label>Bloques de pizarra</BlocksSlate.label>
+  <BlocksSlate.description>Bloques de pizarra maciza. Una roca de apariencia anodina que se quiebra fácilmente.</BlocksSlate.description>
+  <BlocksSlate.stuffProps.stuffAdjective>Pizarra</BlocksSlate.stuffProps.stuffAdjective>
+
+
+  <!-- Marble -->
+
+  <Marble.label>Mármol</Marble.label>
+  <Marble.description>Una roca metamórfica blanda.</Marble.description>
+
+  <ChunkMarble.label>Trozo de mármol</ChunkMarble.label>
+  <ChunkMarble.description>Un trozo de roca. Es posible cortar bloques de piedra utilizables.</ChunkMarble.description>
+
+  <BlocksMarble.label>Bloques de mármol</BlocksMarble.label>
+  <BlocksMarble.description>Bloques de mármol macizo. El mármol es una piedra blanda y bonita, conocida por ser fácil de esculpir.</BlocksMarble.description>
+  <BlocksMarble.stuffProps.stuffAdjective>Mármol</BlocksMarble.stuffProps.stuffAdjective>
 
 </LanguageData>

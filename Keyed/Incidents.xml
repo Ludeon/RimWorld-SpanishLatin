@@ -7,7 +7,7 @@
   <AnimalInsanityMultiple>Algún tipo de onda psíquica ha barrido la zona. Tus colonos están bien, pero...\n\nParece que muchos de los {0}s en el área se han vuelto locos.</AnimalInsanityMultiple>
 
   <LetterLabelCropBlight>Plaga</LetterLabelCropBlight>
-  <CropBlight>Una misteriosa plaga ha destruido tus cultivos.</CropBlight>
+  <LetterCropBlight>¡Un colono ha notado una plaga en sus cosechas! Usted debe cortar o quemar las plantas arruinadas antes de que la plaga se propague.</LetterCropBlight>
 
   <LetterLabelMiracleHeal>Milagro</LetterLabelMiracleHeal>
   <MiracleHeal>¡{0} ha experimentado una recuperación milagrosa!</MiracleHeal>
@@ -39,13 +39,13 @@
 
   <TraderArrival>Hay una nave comercial en las cercanías.\n\nSe les conoce como {0}. Son {1}.</TraderArrival>
 
-  <SingleTravelerPassing>Un {0} de {1} está de paso por la zona. HECAP se llama {2}.</SingleTravelerPassing>
+  <SingleTravelerPassing>Un {0} de {1} está de paso por la zona. [PAWN_pronoun] se llama {2}.</SingleTravelerPassing>
   <GroupTravelersPassing>Un grupo de viajeros de {0} están de paso por la zona..</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Visitante</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>Un {0} de {1} está visitando la colonia.\n\nHECAP se llama {2}.{3}{4}</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nHECAP parece tener algunos objetos para el comercio.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nHECAP es el líder de la facción.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrives>Un {0} de {1} está visitando la colonia.\n\n[PAWN_pronoun] se llama {2}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun] parece tener algunos objetos para el comercio.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] es el líder de la facción.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Visitantes</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>Un grupo de {0} está visitando la colonia.{1}{2}</GroupVisitorsArrive>
   <GroupVisitorsArriveTraderInfo>\n\nParece que tienen algunos objetos para el comercio.</GroupVisitorsArriveTraderInfo>
@@ -53,7 +53,7 @@
   <VisitorsLeaving>Los visitantes de {0} se están marchando.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Nomada se une</LetterLabelWandererJoin>
-  <WandererJoin>Un {0} llamado NAME acaba de llegar y ha decidido unirse a la colonia. HECAP es un {1}.</WandererJoin>
+  <WandererJoin>Un {0} llamado [PAWN_nameDef] acaba de llegar y ha decidido unirse a la colonia. [PAWN_pronoun] es un {1}.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Manada de animales caza hombres</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>Una manada de {0}, caza humanos, ha entrado en el área. Ellos recorrerán la región, en busca de carne humanoide\n\nEllos no pueden pasar las puertas, por lo que si te quedas detrás de las paredes deberas estar a salvo. No van a atacar a las torretas inactivas, por lo que pasarán de tus torretas desconectadas, si es que deseas salvarlas.\n\nVan a dejar la zona en pocos días.</ManhunterPackArrived>
@@ -87,7 +87,7 @@
 
   <!-- Refugee chased -->
   <RefugeeChasedTitle>Refugiado perseguido por {0}</RefugeeChasedTitle>
-  <RefugeeChasedInitial>Un {1} llamado {0} te ha llamado desde las cercanías. HECAP está siendo perseguido por {2} de {3}!\n\nHECAP solicita seguridad y ofrece unirse a nuestra colonia. Biologicamente EL tiene {4} de edad.\n\nTen cuidado - si le aceptas, tendrás que luchar contra {2} que LE va pisando los talones.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Un {1} llamado {0} te ha llamado desde las cercanías. [PAWN_pronoun] está siendo perseguido por {2} de {3}!\n\n[PAWN_pronoun] solicita seguridad y ofrece unirse a nuestra colonia. Biologicamente EL tiene {4} de edad.\n\nTen cuidado - si le aceptas, tendrás que luchar contra {2} que LE va pisando los talones.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Oferta de salvamento</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignorar el mensaje</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>Antes de cortar la transmisión, oyes gritos de pánico de {0} a través del pequeño altavoz.</RefugeeChasedRejected>
@@ -115,13 +115,17 @@
   <LetterBuildingBrokenDown>Una de tus máquinas de ({0}) se ha roto. No funcionará hasta que un colono con el tipo de trabajo de Reparar vaya y lo arregle.</LetterBuildingBrokenDown>
 
   <!-- Ransom demand -->
-  <RansomDemandTitle>Ransom demand at {0}</RansomDemandTitle>
+  <RansomDemandTitle>Demanda de rescate a {0}</RansomDemandTitle>
   <RansomDemand>{1} te contacta por radio. Tienen secuestrado(a) a {0}.\n\nEstán dispuestos a regresarle a cambio de {2} de plata.</RansomDemand>
   <RansomDemand_Accept>Aceptar</RansomDemand_Accept>
   <RansomDemand_Reject>Rechazar</RansomDemand_Reject>
 
-  <!-- Journey -->
+  <!-- Journey-related -->
   <JourneyOffer>¡Un IA amigable de tu pasado llamado Charlon Whitestone te ha enviado un mensaje!\n\nÉl revela que tiene una nave estelar escondida en este planeta, y te envía sus coordenadas del mundo.\n\nSi viajas en la nave, Charlon te llevará fuera de este RimWorld, a las estrellas.</JourneyOffer>
+  <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
+  <EscapeShipFound>Ha alcanzado las coordenadas enviadas por Charlon Whitestone y ha descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\nCharlon Whitestone le advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrese de que sus defensas estén preparadas primero.</EscapeShipFound>
+  <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
+  <EscapeShipLost>Charlon Whitestone te envía un mensaje.\n\nVe que has perdido el control de la nave. Para evitar que caiga en las manos equivocadas, ha sido forzado a activar el mecanismo de autodestrucción de la nave. La nave es ahora un cráter.\n\nNecesitarás encontrar otra forma de salir de este planeta.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <CaravanMeetingTitle>Encuentro de caravana con {0}</CaravanMeetingTitle>
@@ -129,6 +133,7 @@
   <CaravanMeeting_Trade>Comerciar</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Atacar</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Seguir de largo</CaravanMeeting_MoveOn>
+  <CaravanMeeting_TradeIncapable>Ningún miembro de la caravana capaz de comerciar</CaravanMeeting_TradeIncapable>
 
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Solicitud de caravana</LetterLabelCaravanRequest>
@@ -148,8 +153,6 @@
   <ItemStashQuestFeeDemand>{0} está dispuesto a decirnos la ubicación del escondite a cambio de {1} de plata.</ItemStashQuestFeeDemand>
   <ItemStashSitePart_Unknown>Desafortunadamente, {0} no tiene ni idea de quién o qué (si lo hubiese) podría estar cuidando el escondite.</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0} dice que el escondite no está vigilado.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Outpost>{0} dice que cerca hay un puesto enemigo avanzado.</ItemStashSitePart_Outpost>
-  <ItemStashSitePart_Turrets>{0} dice que el escondite está rodeado de torretas enemigas.</ItemStashSitePart_Turrets>
-  <ItemStashSitePart_Manhunters>{0} dice que hay un grupo de animales cazadores vagando cerca.</ItemStashSitePart_Manhunters>
+  <ItemStashSitePart_Part>{0} dice que {1}.</ItemStashSitePart_Part>
 
 </LanguageData>

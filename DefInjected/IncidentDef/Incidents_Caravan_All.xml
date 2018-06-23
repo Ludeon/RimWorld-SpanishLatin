@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<Ambush.label>Emboscada</Ambush.label>
-	<Ambush.letterText>¡Tu caravana está siendo emboscada por {0} de {1}!</Ambush.letterText>
-	<Ambush.letterLabel>Caravana emboscada</Ambush.letterLabel>
+  <!-- Threats -->
 
-    <ManhunterAmbush.label>Emboscada de cazahombres</ManhunterAmbush.label>
-    <ManhunterAmbush.letterText>¡Tu caravana está siendo emboscada por {0} cazahombres!</ManhunterAmbush.letterText>
-    <ManhunterAmbush.letterLabel>Caravana emboscada(cazahombres)</ManhunterAmbush.letterLabel>
+  <Ambush.label>Emboscada</Ambush.label>
+  <Ambush.letterText>¡Tu caravana está siendo emboscada por {0} de {1}!</Ambush.letterText>
+  <Ambush.letterLabel>Caravana emboscada</Ambush.letterLabel>
 
-	<CaravanMeeting.label>Caravana encontrada</CaravanMeeting.label>
+  <ManhunterAmbush.label>Emboscada de cazahombres</ManhunterAmbush.label>
+  <ManhunterAmbush.letterText>¡Tu caravana está siendo emboscada por {0} cazahombres!</ManhunterAmbush.letterText>
+  <ManhunterAmbush.letterLabel>Caravana emboscada(cazahombres)</ManhunterAmbush.letterLabel>
 
-	<CaravanDemand.label>Demanda de pago</CaravanDemand.label>
-    <CaravanDemand.letterText>¡Tu caravana está siendo emboscada por {0} de {1}!</CaravanDemand.letterText>
-    <CaravanDemand.letterLabel>Caravana emboscada</CaravanDemand.letterLabel>
+
+  <!-- Good -->
+
+  <CaravanMeeting.label>Caravana encontrada</CaravanMeeting.label>
+
+
+  <!-- Bad -->
+
+  <CaravanDemand.label>Demanda de pago</CaravanDemand.label>
 
 
 </LanguageData>
