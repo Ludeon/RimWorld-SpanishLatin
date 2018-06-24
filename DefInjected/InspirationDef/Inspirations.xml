@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <WorkFrenzy.label>Frenesí de Trabajo</WorkFrenzy.label>
-    <WorkFrenzy.beginLetter>{0} acaba de inspirarse. [PAWN_pronoun] trabajara 2,5 veces más rápido durante las próximas 24 horas.</WorkFrenzy.beginLetter>
-    <WorkFrenzy.beginLetterLabel>Inspirado/a: Frenesí de Trabajo</WorkFrenzy.beginLetterLabel>
-    <WorkFrenzy.endMessage>{0} ya no está inspirado/a (Frenesí de Trabajo).</WorkFrenzy.endMessage>
-    <WorkFrenzy.baseInspectLine>Inspirado/a: Frenesí de Trabajo</WorkFrenzy.baseInspectLine>
+  <Frenzy_Work.label>Frenesí de Trabajo</Frenzy_Work.label>
+  <Frenzy_Work.beginLetter>{0} acaba de inspirarse. [PAWN_pronoun] trabajara 2,5 veces más rápido durante las próximas 24 horas.</Frenzy_Work.beginLetter>
+  <Frenzy_Work.beginLetterLabel>Inspirado/a: Frenesí de Trabajo</Frenzy_Work.beginLetterLabel>
+  <Frenzy_Work.endMessage>{0} ya no está inspirado/a (Frenesí de Trabajo).</Frenzy_Work.endMessage>
+  <Frenzy_Work.baseInspectLine>Inspirado/a: Frenesí de Trabajo</Frenzy_Work.baseInspectLine>
 
-    <GoFrenzy.label>Frenesí de Movimiento</GoFrenzy.label>
-    <GoFrenzy.beginLetter>{0} acaba de inspirarse. [PAWN_pronoun] se moverá 1,5 veces más rápido durante las próximas 24 horas.</GoFrenzy.beginLetter>
-    <GoFrenzy.beginLetterLabel>Inspirado/a: Frenesí de Movimiento</GoFrenzy.beginLetterLabel>
-    <GoFrenzy.endMessage>{0} ya no está inspirado/a (Frenesí de Movimiento).</GoFrenzy.endMessage>
-    <GoFrenzy.baseInspectLine>Inspirado/a: Frenesí de Movimiento</GoFrenzy.baseInspectLine>
+  <Frenzy_Go.label>Hiperactivo/a</Frenzy_Go.label>
+  <Frenzy_Go.beginLetter>{0} acaba de inspirarse. [PAWN_pronoun] se moverá 1,5 veces más rápido durante los próximos 2 días.</Frenzy_Go.beginLetter>
+  <Frenzy_Go.beginLetterLabel>Inspirado/a: Hiperactivo/a</Frenzy_Go.beginLetterLabel>
+  <Frenzy_Go.endMessage>{0} ya no está inspirado/a (Hiperactivo/a).</Frenzy_Go.endMessage>
+  <Frenzy_Go.baseInspectLine>Inspirado/a: Hiperactivo/a</Frenzy_Go.baseInspectLine>
 
-    <ShootFrenzy.label>Frenesí de Disparó</ShootFrenzy.label>
-    <ShootFrenzy.beginLetter>{0} acaba de inspirase. [PAWN_pronoun] tendrá una mejor precisión de disparó durante los próximos 3 días.</ShootFrenzy.beginLetter>
-    <ShootFrenzy.beginLetterLabel>Inspirado/a: Frenesí de Disparó</ShootFrenzy.beginLetterLabel>
-    <ShootFrenzy.endMessage>{0} ya no está inspirado (Frenesí de Disparó).</ShootFrenzy.endMessage>
-    <ShootFrenzy.baseInspectLine>Inspirado/a: Frenesí de Disparó</ShootFrenzy.baseInspectLine>
+  <Frenzy_Shoot.label>Pistolero/a</Frenzy_Shoot.label>
+  <Frenzy_Shoot.beginLetter>{0} acaba de inspirase. [PAWN_possessive] tendrá una mejor precisión de disparó durante los próximos 3 días.</Frenzy_Shoot.beginLetter>
+  <Frenzy_Shoot.beginLetterLabel>Inspirado/a: Pistolero/a</Frenzy_Shoot.beginLetterLabel>
+  <Frenzy_Shoot.endMessage>{0} ya no está inspirado (Pistolero/a).</Frenzy_Shoot.endMessage>
+  <Frenzy_Shoot.baseInspectLine>Inspirado/a: Pistolero/a</Frenzy_Shoot.baseInspectLine>
 
-    <InspiredTrade.label>Comercio Inspirado</InspiredTrade.label>
-    <InspiredTrade.beginLetter>{0} acaba de inspirase. [PAWN_pronoun] recibirá una importante bonificación de socialización en su próximo acuerdo comercial.\n\nLa inspiración acabara después de 8 días o cuando se realice un comercio.</InspiredTrade.beginLetter>
-    <InspiredTrade.beginLetterLabel>Inspirado/a: Negociación</InspiredTrade.beginLetterLabel>
-    <InspiredTrade.endMessage>{0} ya no está inspirado (Negociación).</InspiredTrade.endMessage>
-    <InspiredTrade.baseInspectLine>Inspirado/a: Negociación</InspiredTrade.baseInspectLine>
+  <Inspired_Trade.label>Negociante</Inspired_Trade.label>
+  <Inspired_Trade.beginLetter>{0} acaba de inspirase. [PAWN_pronoun] recibirá una importante bonificación en [PAWN_possessive] próximo acuerdo comercial.\n\nLa inspiración acabara después de 8 días o cuando se realice un comercio.</Inspired_Trade.beginLetter>
+  <Inspired_Trade.beginLetterLabel>Inspirado/a: Negociante</Inspired_Trade.beginLetterLabel>
+  <Inspired_Trade.endMessage>{0} ya no está inspirado (Negociación).</Inspired_Trade.endMessage>
+  <Inspired_Trade.baseInspectLine>Inspirado/a: Negociación</Inspired_Trade.baseInspectLine>
 
-    <InspiredRecruitment.label>Reclutamiento Inspirado</InspiredRecruitment.label>
-    <InspiredRecruitment.beginLetter>{0} acaba de inspirase. [PAWN_pronoun] tendrá éxito con el próximo prisionero sin importar la dificultad.\n\nLa inspiración acabara después de 8 días o cuando un prisionero sea reclutado.</InspiredRecruitment.beginLetter>
-    <InspiredRecruitment.beginLetterLabel>Inspirado/a: Reclutamiento</InspiredRecruitment.beginLetterLabel>
-    <InspiredRecruitment.endMessage>{0} ya no está inspirado (Reclutamiento).</InspiredRecruitment.endMessage>
-    <InspiredRecruitment.baseInspectLine>Inspirado/a: Reclutamiento</InspiredRecruitment.baseInspectLine>
+  <Inspired_Recruitment.label>Politico/a</Inspired_Recruitment.label>
+  <Inspired_Recruitment.beginLetter>{0} acaba de inspirase. [PAWN_pronoun] tendrá éxito con el próximo prisionero sin importar la dificultad.\n\nLa inspiración acabara después de 8 días o cuando un prisionero sea reclutado.</Inspired_Recruitment.beginLetter>
+  <Inspired_Recruitment.beginLetterLabel>Inspirado/a: Politico/a</Inspired_Recruitment.beginLetterLabel>
+  <Inspired_Recruitment.endMessage>{0} ya no está inspirado (Reclutamiento).</Inspired_Recruitment.endMessage>
+  <Inspired_Recruitment.baseInspectLine>Inspirado/a: Reclutamiento</Inspired_Recruitment.baseInspectLine>
 
-    <InspiredSurgery.label>Operación Inspirada</InspiredSurgery.label>
-    <InspiredSurgery.beginLetter>{0} acaba de inspirase. La probabilidad de fracaso de la próxima operación realizada por [PAWN_objective] será 10 veces menor.\n\nLa inspiración acabara después de 8 días o cuando realice una operación.</InspiredSurgery.beginLetter>
-    <InspiredSurgery.beginLetterLabel>Inspirado/a: Operaciones</InspiredSurgery.beginLetterLabel>
-    <InspiredSurgery.endMessage>{0} ya no está inspirado/a (Operación Inspirada).</InspiredSurgery.endMessage>
-    <InspiredSurgery.baseInspectLine>Inspirado/a: Operaciones</InspiredSurgery.baseInspectLine>
+  <Inspired_Surgery.label>Cirujano/a</Inspired_Surgery.label>
+  <Inspired_Surgery.beginLetter>{0} acaba de inspirase. La probabilidad de fracaso de la próxima operación realizada por [PAWN_objective] será 10 veces menor.\n\nLa inspiración acabara después de 8 días o cuando realice una operación.</Inspired_Surgery.beginLetter>
+  <Inspired_Surgery.beginLetterLabel>Inspirado/a: Cirujano/a</Inspired_Surgery.beginLetterLabel>
+  <Inspired_Surgery.endMessage>{0} ya no está inspirado/a (Cirugía).</Inspired_Surgery.endMessage>
+  <Inspired_Surgery.baseInspectLine>Inspirado/a: Cirugía</Inspired_Surgery.baseInspectLine>
 
-    <InspiredArt.label>Arte Inspirado</InspiredArt.label>
-    <InspiredArt.beginLetter>{0} acaba de inspirase. Cualquier pieza de arte terminada tendrá 3 niveles de calidad más altos de lo normal.\n\nLa inspiración acabara después de 8 días o cuando se complete una obra de arte.</InspiredArt.beginLetter>
-    <InspiredArt.beginLetterLabel>Inspirado/a: Arte</InspiredArt.beginLetterLabel>
-    <InspiredArt.endMessage>{0} ya no está inspirado/a (Arte Inspirado).</InspiredArt.endMessage>
-    <InspiredArt.baseInspectLine>Inspirado/a: Arte</InspiredArt.baseInspectLine>
+  <Inspired_Creativity.label>Artista</Inspired_Creativity.label>
+  <Inspired_Creativity.beginLetter>{0} acaba de inspirase. Cualquier pieza de arte terminada tendrá 2 niveles de calidad más altos de lo normal.\n\nLa inspiración acabara después de 8 días o cuando se complete una obra de arte.</Inspired_Creativity.beginLetter>
+  <Inspired_Creativity.beginLetterLabel>Inspirado/a: Artista</Inspired_Creativity.beginLetterLabel>
+  <Inspired_Creativity.endMessage>{0} ya no está inspirado/a (Arte).</Inspired_Creativity.endMessage>
+  <Inspired_Creativity.baseInspectLine>Inspirado/a: Arte</Inspired_Creativity.baseInspectLine>
 
 
 </LanguageData>
