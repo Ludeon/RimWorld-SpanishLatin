@@ -19,7 +19,7 @@
   <Make_Flake.jobString>Produciendo Flaca.</Make_Flake.jobString>
 
 
-  <!-- Recipe Users: CraftingSpot -->
+  <!-- Recipe Users: CraftingSpot, DrugLab -->
 
   <Make_PsychoidPekoe.label>Fabricar Té Psicoide</Make_PsychoidPekoe.label>
   <Make_PsychoidPekoe.description>Produciendo Té Psicoide.</Make_PsychoidPekoe.description>
@@ -33,7 +33,7 @@
   <Make_Yayo.jobString>Produciendo Yaya.</Make_Yayo.jobString>
 
 
-  <!-- Recipe Users: CraftingSpot -->
+  <!-- Recipe Users: CraftingSpot, DrugLab -->
 
   <Make_SmokeleafJoint.label>Enrollar Churro de Viejo Toby</Make_SmokeleafJoint.label>
   <Make_SmokeleafJoint.description>Enrollar Churro de Viejo Toby.</Make_SmokeleafJoint.description>
@@ -62,11 +62,61 @@
   <Make_SculptureGrand.jobString>Produciendo Escultura Grande.</Make_SculptureGrand.jobString>
 
 
+  <!-- Recipe Users: TableMachining -->
+
+  <Make_SimpleProstheticLeg.label>Fabricar Pierna Protésica</Make_SimpleProstheticLeg.label>
+  <Make_SimpleProstheticLeg.description>Fabricar Pierna Protésica.</Make_SimpleProstheticLeg.description>
+  <Make_SimpleProstheticLeg.jobString>Produciendo Pierna Protésica.</Make_SimpleProstheticLeg.jobString>
+
+  <Make_SimpleProstheticArm.label>Fabricar Brazo Protésico</Make_SimpleProstheticArm.label>
+  <Make_SimpleProstheticArm.description>Fabricar Brazo Protésico.</Make_SimpleProstheticArm.description>
+  <Make_SimpleProstheticArm.jobString>Produciendo Brazo Protésico.</Make_SimpleProstheticArm.jobString>
+
+  <Make_SimpleProstheticHeart.label>Fabricar Corazón Protésico</Make_SimpleProstheticHeart.label>
+  <Make_SimpleProstheticHeart.description>Fabricar Corazón Protésico.</Make_SimpleProstheticHeart.description>
+  <Make_SimpleProstheticHeart.jobString>Produciendo Corazón Protésico.</Make_SimpleProstheticHeart.jobString>
+
+  <Make_CochlearImplant.label>Fabricar Implante Auditivo</Make_CochlearImplant.label>
+  <Make_CochlearImplant.description>Fabricar Implante Auditivo.</Make_CochlearImplant.description>
+  <Make_CochlearImplant.jobString>Produciendo Implante Auditivo.</Make_CochlearImplant.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench -->
+
+  <Make_BionicEye.label>Fabricar Ojo Biónico</Make_BionicEye.label>
+  <Make_BionicEye.description>Fabricar Ojo Biónico.</Make_BionicEye.description>
+  <Make_BionicEye.jobString>Produciendo Ojo Biónico.</Make_BionicEye.jobString>
+
+  <Make_BionicArm.label>Fabricar Brazo Biónico</Make_BionicArm.label>
+  <Make_BionicArm.description>Fabricar Brazo Biónico.</Make_BionicArm.description>
+  <Make_BionicArm.jobString>Produciendo Brazo Biónico.</Make_BionicArm.jobString>
+
+  <Make_BionicLeg.label>Fabricar Pierna Biónica</Make_BionicLeg.label>
+  <Make_BionicLeg.description>Fabricar Pierna Biónica.</Make_BionicLeg.description>
+  <Make_BionicLeg.jobString>Produciendo Pierna Biónica.</Make_BionicLeg.jobString>
+
+  <Make_BionicSpine.label>Fabricar Columna Biónica</Make_BionicSpine.label>
+  <Make_BionicSpine.description>Fabricar Columna Biónica.</Make_BionicSpine.description>
+  <Make_BionicSpine.jobString>Produciendo Columna Biónica.</Make_BionicSpine.jobString>
+
+  <Make_BionicHeart.label>Fabricar Corazón Biónico</Make_BionicHeart.label>
+  <Make_BionicHeart.description>Fabricar Corazón Biónico.</Make_BionicHeart.description>
+  <Make_BionicHeart.jobString>Produciendo Corazón Biónico.</Make_BionicHeart.jobString>
+
+  <Make_BionicStomach.label>Fabricar Estómago Biónico</Make_BionicStomach.label>
+  <Make_BionicStomach.description>Fabricar Estómago Biónico.</Make_BionicStomach.description>
+  <Make_BionicStomach.jobString>Produciendo Estómago Biónico.</Make_BionicStomach.jobString>
+
+  <Make_BionicEar.label>Fabricar Oído Biónico</Make_BionicEar.label>
+  <Make_BionicEar.description>Fabricar Oído Biónico.</Make_BionicEar.description>
+  <Make_BionicEar.jobString>Produciendo Oído Biónico.</Make_BionicEar.jobString>
+
+
   <!-- Recipe Users: DrugLab -->
 
-  <Make_Medicine.label>Fabricar Medicina</Make_Medicine.label>
-  <Make_Medicine.description>Produciendo Medicina.</Make_Medicine.description>
-  <Make_Medicine.jobString>Produciendo Medicina.</Make_Medicine.jobString>
+  <Make_MedicineIndustrial.label>Fabricar Medicina</Make_MedicineIndustrial.label>
+  <Make_MedicineIndustrial.description>Fabricar Medicina.</Make_MedicineIndustrial.description>
+  <Make_MedicineIndustrial.jobString>Produciendo Medicina.</Make_MedicineIndustrial.jobString>
 
 
   <!-- Recipe Users: TableMachining -->
@@ -87,9 +137,9 @@
   <Make_Shell_Firefoam.description>Fabricar Obús CortaFuego.</Make_Shell_Firefoam.description>
   <Make_Shell_Firefoam.jobString>Fabricando Obús CortaFuego.</Make_Shell_Firefoam.jobString>
 
-  <Make_Apparel_ShieldBelt.label>Fabricar Escudo Persona</Make_Apparel_ShieldBelt.label>
-  <Make_Apparel_ShieldBelt.description>Fabricar Escudo Persona.</Make_Apparel_ShieldBelt.description>
-  <Make_Apparel_ShieldBelt.jobString>Fabricando Escudo Persona.</Make_Apparel_ShieldBelt.jobString>
+  <Make_Apparel_ShieldBelt.label>Fabricar Escudo Personal</Make_Apparel_ShieldBelt.label>
+  <Make_Apparel_ShieldBelt.description>Fabricar Escudo Personal.</Make_Apparel_ShieldBelt.description>
+  <Make_Apparel_ShieldBelt.jobString>Fabricando Escudo Personal.</Make_Apparel_ShieldBelt.jobString>
 
   <Make_Apparel_SmokepopBelt.label>Fabricar Cinturon de Humo</Make_Apparel_SmokepopBelt.label>
   <Make_Apparel_SmokepopBelt.description>Fabricar Cinturón de Humo.</Make_Apparel_SmokepopBelt.description>
@@ -142,6 +192,9 @@
   <Make_Apparel_AdvancedHelmet.description>Produciendo Casco Avanzado.</Make_Apparel_AdvancedHelmet.description>
   <Make_Apparel_AdvancedHelmet.jobString>Produciendo Casco Avanzado.</Make_Apparel_AdvancedHelmet.jobString>
 
+
+  <!-- Recipe Users: TableMachining, FabricationBench -->
+
   <Make_Apparel_PowerArmorHelmet.label>Fabricar Casco de ServoArmadura</Make_Apparel_PowerArmorHelmet.label>
   <Make_Apparel_PowerArmorHelmet.description>Produciendo un Casco de ServoArmadura.</Make_Apparel_PowerArmorHelmet.description>
   <Make_Apparel_PowerArmorHelmet.jobString>Produciendo un Casco de ServoArmadura.</Make_Apparel_PowerArmorHelmet.jobString>
@@ -181,15 +234,69 @@
   <Make_Apparel_Jacket.jobString>Produciendo Chaqueta.</Make_Apparel_Jacket.jobString>
 
 
+  <!-- Recipe Users: TableMachining, ElectricSmithy, FueledSmithy -->
+
+  <Make_Apparel_PlateArmor.label>Fabricar Armadura de Placa</Make_Apparel_PlateArmor.label>
+  <Make_Apparel_PlateArmor.description>Fabricar Armadura de Placa.</Make_Apparel_PlateArmor.description>
+  <Make_Apparel_PlateArmor.jobString>Produciendo Armadura de Placa.</Make_Apparel_PlateArmor.jobString>
+
+
   <!-- Recipe Users: TableMachining -->
 
-  <Make_Apparel_VestPlate.label>Fabricar Chaleco AntiBalas</Make_Apparel_VestPlate.label>
-  <Make_Apparel_VestPlate.description>Produciendo un Chaleco AntiBalas.</Make_Apparel_VestPlate.description>
-  <Make_Apparel_VestPlate.jobString>Produciendo un Chaleco AntiBalas.</Make_Apparel_VestPlate.jobString>
+  <Make_Apparel_FlakVest.label>Fabricar Chaleco Antibalas</Make_Apparel_FlakVest.label>
+  <Make_Apparel_FlakVest.description>Fabricar Chaleco Antibalas.</Make_Apparel_FlakVest.description>
+  <Make_Apparel_FlakVest.jobString>Produciendo Chaleco Antibalas.</Make_Apparel_FlakVest.jobString>
+
+  <Make_Apparel_FlakPants.label>Fabricar Pantalones Antibalas</Make_Apparel_FlakPants.label>
+  <Make_Apparel_FlakPants.description>Fabricar Pantalones Antibalas.</Make_Apparel_FlakPants.description>
+  <Make_Apparel_FlakPants.jobString>Produciendo Pantalones Antibalas.</Make_Apparel_FlakPants.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench -->
 
   <Make_Apparel_PowerArmor.label>Fabricar ServoArmadura</Make_Apparel_PowerArmor.label>
   <Make_Apparel_PowerArmor.description>Fabricar una ServoArmadura.</Make_Apparel_PowerArmor.description>
   <Make_Apparel_PowerArmor.jobString>Fabricando una ServoArmadura.</Make_Apparel_PowerArmor.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
+
+  <Make_MeleeWeapon_Mace.label>Fabricar Maza</Make_MeleeWeapon_Mace.label>
+  <Make_MeleeWeapon_Mace.description>Produciendo Maza.</Make_MeleeWeapon_Mace.description>
+  <Make_MeleeWeapon_Mace.jobString>Produciendo Maza.</Make_MeleeWeapon_Mace.jobString>
+
+  <Make_MeleeWeapon_Gladius.label>Fabricar Gladius</Make_MeleeWeapon_Gladius.label>
+  <Make_MeleeWeapon_Gladius.description>Produciendo Gladius.</Make_MeleeWeapon_Gladius.description>
+  <Make_MeleeWeapon_Gladius.jobString>Produciendo Gladius.</Make_MeleeWeapon_Gladius.jobString>
+
+  <Make_MeleeWeapon_LongSword.label>Fabricar Espada Larga</Make_MeleeWeapon_LongSword.label>
+  <Make_MeleeWeapon_LongSword.description>Produciendo Espada Larga.</Make_MeleeWeapon_LongSword.description>
+  <Make_MeleeWeapon_LongSword.jobString>Produciendo Espada Larga.</Make_MeleeWeapon_LongSword.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot -->
+
+  <Make_MeleeWeapon_Club.label>Fabricar Porra</Make_MeleeWeapon_Club.label>
+  <Make_MeleeWeapon_Club.description>Produciendo Porra.</Make_MeleeWeapon_Club.description>
+  <Make_MeleeWeapon_Club.jobString>Produciendo Porra.</Make_MeleeWeapon_Club.jobString>
+
+  <Make_MeleeWeapon_Knife.label>Fabricar Cuchillo</Make_MeleeWeapon_Knife.label>
+  <Make_MeleeWeapon_Knife.description>Produciendo Cuchillo.</Make_MeleeWeapon_Knife.description>
+  <Make_MeleeWeapon_Knife.jobString>Produciendo Cuchillo.</Make_MeleeWeapon_Knife.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
+
+  <Make_MeleeWeapon_Ikwa.label>Fabricar Ikwa</Make_MeleeWeapon_Ikwa.label>
+  <Make_MeleeWeapon_Ikwa.description>Produciendo Ikwa.</Make_MeleeWeapon_Ikwa.description>
+  <Make_MeleeWeapon_Ikwa.jobString>Produciendo Ikwa.</Make_MeleeWeapon_Ikwa.jobString>
+
+  <Make_MeleeWeapon_Spear.label>Fabricar Lanza</Make_MeleeWeapon_Spear.label>
+  <Make_MeleeWeapon_Spear.description>Produciendo Lanza.</Make_MeleeWeapon_Spear.description>
+  <Make_MeleeWeapon_Spear.jobString>Produciendo Lanza.</Make_MeleeWeapon_Spear.jobString>
+
+
+  <!-- Recipe Users: TableMachining -->
 
   <Make_Gun_Revolver.label>Fabricar Revólver</Make_Gun_Revolver.label>
   <Make_Gun_Revolver.description>Fabricar Revólver.</Make_Gun_Revolver.description>
@@ -199,9 +306,17 @@
   <Make_Gun_Autopistol.description>Fabricar Pistola Automática.</Make_Gun_Autopistol.description>
   <Make_Gun_Autopistol.jobString>Fabricando Pistola Automática.</Make_Gun_Autopistol.jobString>
 
+  <Make_Gun_MachinePistol.label>Fabricar SubFusil Compacto </Make_Gun_MachinePistol.label>
+  <Make_Gun_MachinePistol.description>Fabricar un SubFusil Compacto.</Make_Gun_MachinePistol.description>
+  <Make_Gun_MachinePistol.jobString>Fabricando un SubFusil Compacto.</Make_Gun_MachinePistol.jobString>
+
   <Make_Gun_IncendiaryLauncher.label>Fabricar Lanzador Incendiario T-9</Make_Gun_IncendiaryLauncher.label>
   <Make_Gun_IncendiaryLauncher.description>Fabricar un Lanzador Incendiario T-9.</Make_Gun_IncendiaryLauncher.description>
   <Make_Gun_IncendiaryLauncher.jobString>Fabricando un Lanzador Incendiario T-9.</Make_Gun_IncendiaryLauncher.jobString>
+
+  <Make_Gun_BoltActionRifle.label>Fabricar Rifle de Cerrojo</Make_Gun_BoltActionRifle.label>
+  <Make_Gun_BoltActionRifle.description>Fabricar Rifle de Cerrojo.</Make_Gun_BoltActionRifle.description>
+  <Make_Gun_BoltActionRifle.jobString>Fabricando Rifle de Cerrojo.</Make_Gun_BoltActionRifle.jobString>
 
   <Make_Gun_PumpShotgun.label>Fabricar Escopeta</Make_Gun_PumpShotgun.label>
   <Make_Gun_PumpShotgun.description>Fabricar una Escopeta.</Make_Gun_PumpShotgun.description>
@@ -210,14 +325,6 @@
   <Make_Gun_ChainShotgun.label>Fabricar Escopeta Automática</Make_Gun_ChainShotgun.label>
   <Make_Gun_ChainShotgun.description>Fabricar Escopeta Automática.</Make_Gun_ChainShotgun.description>
   <Make_Gun_ChainShotgun.jobString>Fabricando Escopeta Automática.</Make_Gun_ChainShotgun.jobString>
-
-  <Make_Gun_BoltActionRifle.label>Fabricar Rifle de Cerrojo</Make_Gun_BoltActionRifle.label>
-  <Make_Gun_BoltActionRifle.description>Fabricar Rifle de Cerrojo.</Make_Gun_BoltActionRifle.description>
-  <Make_Gun_BoltActionRifle.jobString>Fabricando Rifle de Cerrojo.</Make_Gun_BoltActionRifle.jobString>
-
-  <Make_Gun_MachinePistol.label>Fabricar SubFusil Compacto </Make_Gun_MachinePistol.label>
-  <Make_Gun_MachinePistol.description>Fabricar un SubFusil Compacto.</Make_Gun_MachinePistol.description>
-  <Make_Gun_MachinePistol.jobString>Fabricando un SubFusil Compacto.</Make_Gun_MachinePistol.jobString>
 
   <Make_Gun_HeavySMG.label>Fabricar SubFusil Pesado</Make_Gun_HeavySMG.label>
   <Make_Gun_HeavySMG.description>Fabricar un SubFusil Pesado.</Make_Gun_HeavySMG.description>
@@ -231,10 +338,6 @@
   <Make_Gun_AssaultRifle.description>Fabricar un Rifle de Asalto.</Make_Gun_AssaultRifle.description>
   <Make_Gun_AssaultRifle.jobString>Fabricando un Rifle de Asalto.</Make_Gun_AssaultRifle.jobString>
 
-  <Make_Gun_ChargeRifle.label>Fabricar Rifle de Cargas R-4</Make_Gun_ChargeRifle.label>
-  <Make_Gun_ChargeRifle.description>Fabricar un Rifle de Cargas R-4.</Make_Gun_ChargeRifle.description>
-  <Make_Gun_ChargeRifle.jobString>Fabricando un Rifle de Cargas R-4.</Make_Gun_ChargeRifle.jobString>
-
   <Make_Gun_SniperRifle.label>Fabricar Rifle de Francotirador</Make_Gun_SniperRifle.label>
   <Make_Gun_SniperRifle.description>Fabricar un Rifle de Francotirador.</Make_Gun_SniperRifle.description>
   <Make_Gun_SniperRifle.jobString>Fabricando un Rifle de Francotirador.</Make_Gun_SniperRifle.jobString>
@@ -243,77 +346,56 @@
   <Make_Gun_Minigun.description>Fabricar una Minigun.</Make_Gun_Minigun.description>
   <Make_Gun_Minigun.jobString>Fabricando una Minigun.</Make_Gun_Minigun.jobString>
 
+  <Make_Weapon_GrenadeFrag.label>Fabricar Granadas de Fragmentación</Make_Weapon_GrenadeFrag.label>
+  <Make_Weapon_GrenadeFrag.description>Fabricar Granadas de Fragmentación.</Make_Weapon_GrenadeFrag.description>
+  <Make_Weapon_GrenadeFrag.jobString>Fabricando Granadas de Fragmentación.</Make_Weapon_GrenadeFrag.jobString>
 
-  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
+  <Make_Weapon_GrenadeMolotov.label>Fabricar Cócteles Molotov</Make_Weapon_GrenadeMolotov.label>
+  <Make_Weapon_GrenadeMolotov.description>Fabricar Cócteles Molotov.</Make_Weapon_GrenadeMolotov.description>
+  <Make_Weapon_GrenadeMolotov.jobString>Fabricando Cócteles Molotov.</Make_Weapon_GrenadeMolotov.jobString>
 
-  <Make_MeleeWeapon_Shiv.label>Fabricar Cuchillo Improvisado</Make_MeleeWeapon_Shiv.label>
-  <Make_MeleeWeapon_Shiv.description>Produciendo Cuchillo Improvisado.</Make_MeleeWeapon_Shiv.description>
-  <Make_MeleeWeapon_Shiv.jobString>Produciendo Cuchillo Improvisado.</Make_MeleeWeapon_Shiv.jobString>
-
-
-  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
-
-  <Make_MeleeWeapon_Knife.label>Fabricar Cuchillo</Make_MeleeWeapon_Knife.label>
-  <Make_MeleeWeapon_Knife.description>Produciendo Cuchillo.</Make_MeleeWeapon_Knife.description>
-  <Make_MeleeWeapon_Knife.jobString>Produciendo Cuchillo.</Make_MeleeWeapon_Knife.jobString>
+  <Make_Weapon_GrenadeEMP.label>Fabricar Granadas PEM</Make_Weapon_GrenadeEMP.label>
+  <Make_Weapon_GrenadeEMP.description>Fabricar Granadas PEM.</Make_Weapon_GrenadeEMP.description>
+  <Make_Weapon_GrenadeEMP.jobString>Fabricando Granadas PEM.</Make_Weapon_GrenadeEMP.jobString>
 
 
-  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
-
-  <Make_MeleeWeapon_Club.label>Fabricar Porra</Make_MeleeWeapon_Club.label>
-  <Make_MeleeWeapon_Club.description>Produciendo Porra.</Make_MeleeWeapon_Club.description>
-  <Make_MeleeWeapon_Club.jobString>Produciendo Porra.</Make_MeleeWeapon_Club.jobString>
-
-
-  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
-
-  <Make_MeleeWeapon_Mace.label>Fabricar Maza</Make_MeleeWeapon_Mace.label>
-  <Make_MeleeWeapon_Mace.description>Produciendo Maza.</Make_MeleeWeapon_Mace.description>
-  <Make_MeleeWeapon_Mace.jobString>Produciendo Maza.</Make_MeleeWeapon_Mace.jobString>
-
-  <Make_MeleeWeapon_Gladius.label>Fabricar Gladius</Make_MeleeWeapon_Gladius.label>
-  <Make_MeleeWeapon_Gladius.description>Produciendo Gladius.</Make_MeleeWeapon_Gladius.description>
-  <Make_MeleeWeapon_Gladius.jobString>Produciendo Gladius.</Make_MeleeWeapon_Gladius.jobString>
-
-  <Make_MeleeWeapon_Ikwa.label>Fabricar Ikwa</Make_MeleeWeapon_Ikwa.label>
-  <Make_MeleeWeapon_Ikwa.description>Produciendo Ikwa.</Make_MeleeWeapon_Ikwa.description>
-  <Make_MeleeWeapon_Ikwa.jobString>Produciendo Ikwa.</Make_MeleeWeapon_Ikwa.jobString>
-
-  <Make_MeleeWeapon_Spear.label>Fabricar Lanza</Make_MeleeWeapon_Spear.label>
-  <Make_MeleeWeapon_Spear.description>Produciendo Lanza.</Make_MeleeWeapon_Spear.description>
-  <Make_MeleeWeapon_Spear.jobString>Produciendo Lanza.</Make_MeleeWeapon_Spear.jobString>
-
-  <Make_MeleeWeapon_LongSword.label>Fabricar Espada Larga</Make_MeleeWeapon_LongSword.label>
-  <Make_MeleeWeapon_LongSword.description>Produciendo Espada Larga.</Make_MeleeWeapon_LongSword.description>
-  <Make_MeleeWeapon_LongSword.jobString>Produciendo Espada Larga.</Make_MeleeWeapon_LongSword.jobString>
-
-
-  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot -->
 
   <Make_Bow_Short.label>Fabricar Arco Corto</Make_Bow_Short.label>
-  <Make_Bow_Short.description>Produciendo Arco Corto.</Make_Bow_Short.description>
+  <Make_Bow_Short.description>Fabricar Arco Corto.</Make_Bow_Short.description>
   <Make_Bow_Short.jobString>Produciendo Arco Corto.</Make_Bow_Short.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
   <Make_Pila.label>Fabricar Jabalina</Make_Pila.label>
-  <Make_Pila.description>Produciendo Jabalina.</Make_Pila.description>
+  <Make_Pila.description>Fabricar Jabalina.</Make_Pila.description>
   <Make_Pila.jobString>Produciendo Jabalina.</Make_Pila.jobString>
 
 
-  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot -->
 
   <Make_Bow_Recurve.label>Fabricar Arco Recurvo</Make_Bow_Recurve.label>
-  <Make_Bow_Recurve.description>Produciendo Arco Recurvo.</Make_Bow_Recurve.description>
+  <Make_Bow_Recurve.description>Fabricar Arco Recurvo.</Make_Bow_Recurve.description>
   <Make_Bow_Recurve.jobString>Produciendo Arco Recurvo.</Make_Bow_Recurve.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
   <Make_Bow_Great.label>Fabricar Arco Largo</Make_Bow_Great.label>
-  <Make_Bow_Great.description>Produciendo Arco Largo.</Make_Bow_Great.description>
+  <Make_Bow_Great.description>Fabricar Arco Largo.</Make_Bow_Great.description>
   <Make_Bow_Great.jobString>Produciendo Arco Largo.</Make_Bow_Great.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench -->
+
+  <Make_Gun_ChargeRifle.label>Fabricar Rifle de Cargas R-4</Make_Gun_ChargeRifle.label>
+  <Make_Gun_ChargeRifle.description>Fabricar un Rifle de Cargas R-4.</Make_Gun_ChargeRifle.description>
+  <Make_Gun_ChargeRifle.jobString>Fabricando un Rifle de Cargas R-4.</Make_Gun_ChargeRifle.jobString>
+
+  <Make_Gun_ChargeLance.label>Fabricar lanzador de cargas</Make_Gun_ChargeLance.label>
+  <Make_Gun_ChargeLance.description>Fabricar Lanzador de Cargas.</Make_Gun_ChargeLance.description>
+  <Make_Gun_ChargeLance.jobString>Fabricando Lanzador de Cargas.</Make_Gun_ChargeLance.jobString>
 
 
 </LanguageData>
