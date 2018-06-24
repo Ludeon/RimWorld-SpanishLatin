@@ -41,20 +41,16 @@
 
   <!-- Quality category -->
   <QualityCategory_Awful>Horrible</QualityCategory_Awful>
-  <QualityCategory_Shoddy>Malhecha</QualityCategory_Shoddy>
   <QualityCategory_Poor>Mediocre</QualityCategory_Poor>
   <QualityCategory_Normal>Normal</QualityCategory_Normal>
   <QualityCategory_Good>Buena</QualityCategory_Good>
-  <QualityCategory_Superior>Superior</QualityCategory_Superior>
   <QualityCategory_Excellent>Excelente</QualityCategory_Excellent>
   <QualityCategory_Masterwork>Magistral</QualityCategory_Masterwork>
   <QualityCategory_Legendary>Legendaria</QualityCategory_Legendary>
   <QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>malh</QualityCategoryShort_Shoddy>
   <QualityCategoryShort_Poor>mdio</QualityCategoryShort_Poor>
   <QualityCategoryShort_Normal>nrml</QualityCategoryShort_Normal>
   <QualityCategoryShort_Good>bien</QualityCategoryShort_Good>
-  <QualityCategoryShort_Superior>supe</QualityCategoryShort_Superior>
   <QualityCategoryShort_Excellent>exlt</QualityCategoryShort_Excellent>
   <QualityCategoryShort_Masterwork>mgst</QualityCategoryShort_Masterwork>
   <QualityCategoryShort_Legendary>lgnd</QualityCategoryShort_Legendary>
@@ -116,7 +112,7 @@
   <TechLevel_Industrial>industrial</TechLevel_Industrial>
   <TechLevel_Spacer>espacial</TechLevel_Spacer>
   <TechLevel_Ultra>ultra</TechLevel_Ultra>
-  <TechLevel_Transcendent>transcendental</TechLevel_Transcendent>
+  <TechLevel_Archotech>arqueotécnico</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <PlayerPawnsArriveMethod_Standing>A pie</PlayerPawnsArriveMethod_Standing>
@@ -146,5 +142,19 @@
   <Direction8Way_SouthWest_Short>SO</Direction8Way_SouthWest_Short>
   <Direction8Way_West_Short>O</Direction8Way_West_Short>
   <Direction8Way_NorthWest_Short>NO</Direction8Way_NorthWest_Short>
+
+  <!-- Diet category -->
+  <DietCategory_NeverEats>Nunca come</DietCategory_NeverEats>
+  <DietCategory_Herbivorous>Herbívoro</DietCategory_Herbivorous>
+  <DietCategory_Dendrovorous>Dendrovorosa</DietCategory_Dendrovorous>
+  <DietCategory_Ovivorous>Ovivoroso</DietCategory_Ovivorous>
+  <DietCategory_Omnivorous>Omnívoro</DietCategory_Omnivorous>
+  <DietCategory_Carnivorous>Carnívoro</DietCategory_Carnivorous>
+  <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
+  <DietCategory_Herbivorous_Short>H</DietCategory_Herbivorous_Short>
+  <DietCategory_Dendrovorous_Short>D</DietCategory_Dendrovorous_Short>
+  <DietCategory_Ovivorous_Short>Ov</DietCategory_Ovivorous_Short>
+  <DietCategory_Omnivorous_Short>O</DietCategory_Omnivorous_Short>
+  <DietCategory_Carnivorous_Short>C</DietCategory_Carnivorous_Short>
 
 </LanguageData>
