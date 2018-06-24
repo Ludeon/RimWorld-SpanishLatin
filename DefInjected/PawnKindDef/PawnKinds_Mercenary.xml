@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <GrenadierDestructive.label>granadero</GrenadierDestructive.label>
-    <GrenadierDestructive.labelPlural>granaderos</GrenadierDestructive.labelPlural>
+  <!-- Low merc tier - grenadiers -->
 
-    <GrenadierEMP.label>electro-granadero</GrenadierEMP.label>
-    <GrenadierEMP.labelPlural>electro-granaderos</GrenadierEMP.labelPlural>
+  <Grenadier_Destructive.label>granadero</Grenadier_Destructive.label>
+  <Grenadier_Destructive.labelPlural>granaderos</Grenadier_Destructive.labelPlural>
 
-    <MercenaryGunner.label>mercenario artillero</MercenaryGunner.label>
-    <MercenaryGunner.labelPlural>mercenarios artilleros</MercenaryGunner.labelPlural>
+  <Grenadier_EMP.label>electro-granadero</Grenadier_EMP.label>
+  <Grenadier_EMP.labelPlural>electro-granaderos</Grenadier_EMP.labelPlural>
 
-    <MercenarySniper.label>mercenario francotirador</MercenarySniper.label>
-	  <MercenarySniper.labelPlural>mercenarios francotiradores</MercenarySniper.labelPlural>
 
-    <MercenarySlasher.label>mercenario tajador</MercenarySlasher.label>
-    <MercenarySlasher.labelPlural>mercenarios tajadores</MercenarySlasher.labelPlural>
+  <!-- Mid merc tier - gunner, slasher, sniper, heavy -->
 
-	  <MercenaryHeavy.label>mercenario pesado</MercenaryHeavy.label>
-    <MercenaryHeavy.labelPlural>mercenarios pesados</MercenaryHeavy.labelPlural>
+  <Mercenary_Gunner.label>artillero mercenario</Mercenary_Gunner.label>
+  <Mercenary_Gunner.labelPlural>artilleros mercenarios</Mercenary_Gunner.labelPlural>
 
-    <PirateBoss.label>jefe pirata</PirateBoss.label>
-    <PirateBoss.labelPlural>jefes piratas</PirateBoss.labelPlural>
+  <Mercenary_Sniper.label>francotirador mercenario</Mercenary_Sniper.label>
+  <Mercenary_Sniper.labelPlural>francotiradores mercenarios</Mercenary_Sniper.labelPlural>
 
-    <MercenaryElite.label>mercenario élite</MercenaryElite.label>
-    <MercenaryElite.labelPlural>mercenarios élite</MercenaryElite.labelPlural>
+  <Mercenary_Slasher.label>destructor mercenario</Mercenary_Slasher.label>
+  <Mercenary_Slasher.labelPlural>destructores mercenarios</Mercenary_Slasher.labelPlural>
 
+  <Mercenary_Heavy.label>mercenario pesado</Mercenary_Heavy.label>
+  <Mercenary_Heavy.labelPlural>mercenarios pesados</Mercenary_Heavy.labelPlural>
+
+
+  <!-- Elite tier - merc elite, pirate boss -->
+
+  <PirateBoss.label>jefe pirata</PirateBoss.label>
+  <PirateBoss.labelPlural>jefes piratas</PirateBoss.labelPlural>
+
+  <Mercenary_Elite.label>mercenario de élite</Mercenary_Elite.label>
+  <Mercenary_Elite.labelPlural>mercenarios de élite</Mercenary_Elite.labelPlural>
 
 </LanguageData>
