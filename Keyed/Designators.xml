@@ -29,14 +29,20 @@
   <DesignatorMine>Minar</DesignatorMine>
   <DesignatorMineDesc>Designa paredes de roca para excavar.</DesignatorMineDesc>
 
-  <DesignatorSmoothFloor>Desbastar suelo</DesignatorSmoothFloor>
-  <DesignatorSmoothFloorDesc>Designa suelo de roca irregular para desbastar.</DesignatorSmoothFloorDesc>
+  <DesignatorSmoothSurface>Alisar Superficie</DesignatorSmoothSurface>
+  <DesignatorSmoothSurfaceDesc>Designe el terreno áspero de la piedra para alisarla.</DesignatorSmoothSurfaceDesc>
 
   <DesignatorPlan>Planificación</DesignatorPlan>
   <DesignatorPlanDesc>Dibuja un anteproyecto. Esto no hace nada excepto ayudarte visualmente a planificar las futuras construcciones.</DesignatorPlanDesc>
 
   <DesignatorPlanRemove>Borrar planificación</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Borra los anteproyectos dibujados.</DesignatorPlanRemoveDesc>
+
+  <DesignatorForbid>Prohibir</DesignatorForbid>
+  <DesignatorForbidDesc>Marque los artículos como prohibidos. Los colonos no podrán interactuar con los objetos designados.</DesignatorForbidDesc>
+
+  <DesignatorUnforbid>Sin prohibición</DesignatorUnforbid>
+  <DesignatorUnforbidDesc>Marque los artículos como no prohibidos. Los colonos podrán interactuar con los objetos designados.</DesignatorUnforbidDesc>
 
   <DesignatorAreaHomeExpand>Expandir área del hogar</DesignatorAreaHomeExpand>
   <DesignatorAreaHomeExpandDesc>Los colonos repararán edificios, limpiarán el piso y extinguirán el fuego solamente en el área del hogar.</DesignatorAreaHomeExpandDesc>
@@ -70,13 +76,19 @@
   <DesignatorZoneCreateStorageDumpingDesc>Crea un vertedero donde los colonos guardarán la chatarra. Esta herramienta también puede expandir vertederos ya existentes.</DesignatorZoneCreateStorageDumpingDesc>
 
   <DesignatorZoneDelete>Borrar áreas</DesignatorZoneDelete>
+  <DesignatorZoneDeleteSingular>Zona de restricción</DesignatorZoneDeleteSingular>
   <DesignatorZoneDeleteDesc>Borra áreas como almacenes, vertederos y zonas de cultivos.</DesignatorZoneDeleteDesc>
+
+  <DesignatorZoneExpand>Expandir zona</DesignatorZoneExpand>
 
   <DesignatorClaim>Reclamar</DesignatorClaim>
   <DesignatorClaimDesc>Reclama estructuras neutrales para la colonia como antiguas ruinas o bases abandonadas. Las estructuras reclamadas serán reparadas y mantenidas por tus colonos.</DesignatorClaimDesc>
 
   <DesignatorRemoveFloor>Remover piso</DesignatorRemoveFloor>
   <DesignatorRemoveFloorDesc>Remueve piso artificial y revela el terreno subyacente.</DesignatorRemoveFloorDesc>
+
+  <DesignatorRemoveBridge>Retirar plataforma</DesignatorRemoveBridge>
+  <DesignatorRemoveBridgeDesc>Retire las plataformas para revelar el terreno que hay debajo.</DesignatorRemoveBridgeDesc>
 
   <DesignatorStrip>Desvestir</DesignatorStrip>
   <DesignatorStripDesc>Remueve todos los objetos de un cadáver, prisionero o un paciente.</DesignatorStripDesc>
@@ -104,13 +116,14 @@
   <InteractionSpotWillBeBlocked>Un punto de interacción será bloqueado por {0}.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} bloquearía Un punto de interacción de {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>El terreno aquí ya es {0}.</TerrainIsAlready>
-  <TerrainBeingSmoothed>Este terreno ya está designado para desbastado.</TerrainBeingSmoothed>
+  <SurfaceBeingSmoothed>La superficie ya está marcada para el alisado.</SurfaceBeingSmoothed>
   <IdenticalThingExists>Aquí ya existe algo idéntico.</IdenticalThingExists>
   <IdenticalBlueprintExists>Aquí ya existe un anteproyecto idéntico.</IdenticalBlueprintExists>
   <TerrainCannotSupport>El tipo de terreno no es el adecuado.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Espacio ya ocupado.</SpaceAlreadyOccupied>
   <SpaceBeingSmoothed>Espacio siendo alisado.</SpaceBeingSmoothed>
   <TerrainMustBeRemovable>Debes designar un piso removible.</TerrainMustBeRemovable>
+  <MustBeOnMovingWater>La turbina debe estar sobre el agua en movimiento.</MustBeOnMovingWater>
 
 
   <!-- Mouse attachments -->
@@ -121,6 +134,8 @@
   <!-- Desc helpers -->
   <TransmitsPower>Transmite electricidad</TransmitsPower>
   <ConstructionNeeded>Necesita construcción</ConstructionNeeded>
+  <NoColonistWithConstructionSkillTip>Ninguno de tus {0} tienen esta habilidad.</NoColonistWithConstructionSkillTip>
+  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Todos tus {0} que tienen esta habilidad no están asignados a {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
 
 
 </LanguageData>
