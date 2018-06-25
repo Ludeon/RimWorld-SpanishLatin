@@ -8,13 +8,14 @@
   <LetterLabelFirstSummerWarning>Verano</LetterLabelFirstSummerWarning>
   <FirstSummerWarning>¡El verano ha comenzado! Pero el invierno se acerca.\n\nTus cultivos no crecerán durante el frío invierno. Asegúrate de guardar varios meses de comida, mientras aún puedes.\n\nRecuerda que puedes construir un cuarto refrigerador para prevenir que la comida se heche a perder.\n\nY por favor, ponte alguna chamarra antes de salir a exteriores.</FirstSummerWarning>
 
-  <RelationsBrokenDown>Las relaciones con {0} se han estropeado. Ahora son hostiles hacia ti.</RelationsBrokenDown>
-  <RelationsWarmed>Las relaciones con {0} han mejorado. Ya no son hostiles hacia ti.</RelationsWarmed>
+  <LetterRelationsChange_Hostile>Las relaciones con {0} se han roto completamente. Ahora son hostiles contigo.\n\nLlevarán a cabo redadas periódicas en su colonia y caravanas, y se negarán a comerciar con usted. Si quieres mejorar las relaciones, todavía puedes ofrecerles regalos en caravanas o capsulas de transporte.\n\nEsto sucedió porque la buena voluntad ({1}) ha caído por debajo {2}. Para restablecer relaciones neutrales, la buena voluntad debe alcanzar {3} de nuevo.</LetterRelationsChange_Hostile>
+  <LetterRelationsChange_NeutralFromHostile>Las relaciones con {0} se han acalorado. Ahora te consideran neutral y ya no te atacarán.\n\nEsto sucedió porque la buena voluntad ({1}) se ha levantado en el pasado {2}. Si las relaciones caen por debajo de {3}, {0} se volverá hostil de nuevo. Si las relaciones se elevan por encima de {4}, se convertirán en tus aliados y lucharán por ti.</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromAlly>Las relaciones con {0} se han enfriado. Ahora te consideran neutral en lugar de aliado.\n\nAunque seguirán interactuando pacíficamente con usted, ya no enviarán combatientes para ayudarle cuando esté bajo amenaza.\n\nEsto sucedió porque la buena voluntad ({1}) ha caído por debajo {2}. Si las relaciones caen por debajo de {3}, {0} se volverá hostil. Si las relaciones se elevan por encima de {4}, se aliarán de nuevo.</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_Ally>Las relaciones con {0} se han vuelto muy íntimas. Ahora te consideran un aliado.\n\nLos aliados a veces llegan para ayudar a luchar contra tus enemigos cuando estás bajo ataque. También puede llamarlos para pedirles ayuda en cualquier momento, a un costo de buena voluntad.\n\nSe han convertido en aliados porque su buena voluntad ({1}) se ha levantado en el pasado {2}. Si la buena voluntad cae por debajo de {3}, las relaciones volverán a ser neutrales.</LetterRelationsChange_Ally>
 
-  <RelationsBrokenCapture>Por haber capturado a {0}, {1} se ha declarado tu enemigo.</RelationsBrokenCapture>
-
-  <ColonyGoodwill>Buena voluntad de la colonia</ColonyGoodwill>
+  <goodwill>Buena Voluntad</goodwill>
   <Neutral>Neutral</Neutral>
+  <Death>Hostil</Death>
 
   <ShortCircuitRain>Un(a) {0} ha sufrido un corto circuito por la lluvia y se ha incendiado.</ShortCircuitRain>
 
@@ -39,6 +40,8 @@
   <LetterLabelNewDisease>Enfermedad</LetterLabelNewDisease>
   <NewDisease>{0} se ha enfermado de {1}.\n\nAsegúrate de tener a la mano una cama hospitalaria y un doctor. Asegúrate de que {2} reciba un tratamiento adecuado y descanse lo más posible.</NewDisease>
   <NewPartDisease>{0} se ha enfermado de {3} y ha desarrollado una infección en su {1}.\n\nAsegúrate de tener a la mano una cama hospitalaria y un doctor. Asegúrate de que {2} reciba un tratamiento adecuado y descanse lo más posible.</NewPartDisease>
+  <NewDiseaseAnimal>{0} ha desarrollado una enfermedad: {1}</NewDiseaseAnimal>
+  <NewPartDiseaseAnimal>{0} ha desarrollado una enfermedad: {3} en [PAWN_possessive] {1}</NewPartDiseaseAnimal>
 
   <PawnWasFormerlyColonist>{0} formaba parte de tu facción.</PawnWasFormerlyColonist>
   <PawnHasTheseRelationshipsWithColonists>{0} tiene estas relaciones con tus colonos:</PawnHasTheseRelationshipsWithColonists>
@@ -71,6 +74,10 @@
 
   <MentalBreakLetterLabel>Colapso mental</MentalBreakLetterLabel>
   <FinalStraw>El colmo fue: {0}.</FinalStraw>
+  <LastFactionRelationsEvent>The last event was</LastFactionRelationsEvent>
+
+  <ReadMore>Leer más</ReadMore>
+  <LastEventsInLife>Los últimos eventos en la vida de {0}</LastEventsInLife>
 
   <!-- Related pawns -->
   <LetterLabelNoticedRelatedPawns>Familia</LetterLabelNoticedRelatedPawns>
@@ -80,6 +87,10 @@
   <LetterRelatedPawnsTradeShip>La nave de comercio está vendiendo algunos parientes de tus colonos o prisioneros:</LetterRelatedPawnsTradeShip>
   <LetterRelatedPawnsTradingWithSettlement>El asentamiento está vendiendo personas que tienen relaciones con sus colonos o prisioneros:</LetterRelatedPawnsTradingWithSettlement>
   <LetterRelatedPawnsTradingWithOtherCaravan>La caravana está vendiendo personas que tienen una relación con tus colonos o prisioneros:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsGroupGeneric>Hay personas que tienen relaciones con su {0} o prisioneros en el grupo:</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsInMapWherePlayerLanded>Hay personas que tienen relaciones con su {0} o prisioneros en el área donde su {0} han aterrizado.</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsSettlement>Hay personas que tienen relaciones con su {0} o prisioneros en este asentamiento:</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSite>Hay personas que tienen relaciones con su {0} o prisioneros en esta área:</LetterRelatedPawnsSite>
 
   <RelationshipAppendedLetterSuffix>(relación)</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] tiene relación con un colono. [PAWN_pronoun] es {1} de {0}.</RelationshipAppendedLetterTextColonist>
@@ -89,7 +100,6 @@
   <LetterLabelAffair>Romance</LetterLabelAffair>
   <LetterAffair>{0}, que está casado(a) con {1}, ha comenzado un romance con {2}.</LetterAffair>
   <LetterLabelNewLovers>Nueva pareja</LetterLabelNewLovers>
-  <LetterNewLovers>{0} y {1} ahora son pareja.</LetterNewLovers>
   <LetterNoLongerLovers>{0} y {1} ya no están en una relación.</LetterNoLongerLovers>
   <LetterLabelBreakup>Rompimiento</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>¡Matrimonio!</LetterLabelAcceptedProposal>
@@ -98,17 +108,17 @@
   <LetterRejectedProposal>{1} ha rechazado la propuesta de matrimonio de {0}. {0} no va a estar muy feliz con esto.</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
-  <LetterLabelRelationsChangeGood>Buena voluntad</LetterLabelRelationsChangeGood>
-  <LetterLabelRelationsChangeBad>Mala voluntad</LetterLabelRelationsChangeBad>
+  <LetterLabelRelationsChange_Hostile>Hostil: {0}</LetterLabelRelationsChange_Hostile>
+  <LetterLabelRelationsChange_Ally>Aliado: {0}</LetterLabelRelationsChange_Ally>
+  <LetterLabelRelationsChange_NeutralFromHostile>Enemigo ahora es neutral: {0}</LetterLabelRelationsChange_NeutralFromHostile>
+  <LetterLabelRelationsChange_NeutralFromAlly>Aliado ahora es neutral: {0}</LetterLabelRelationsChange_NeutralFromAlly>
   <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
   <LetterLabelMentalBreakdown>Colapso mental</LetterLabelMentalBreakdown>
 
   <!-- Bonded animals -->
-  <LetterLabelBondedAnimalDied>Mascota muerta</LetterLabelBondedAnimalDied>
-  <LetterBondedAnimalDied>{0}, mascota de {1}, ha muerto. Ésto afectará el humor de {1}.</LetterBondedAnimalDied>
-  <LetterNamedBondedAnimalDied>{1}, mascota de {2}, ha muerto. Ésto afectará el humor de {2}.</LetterNamedBondedAnimalDied>
-  <LetterBondedAnimalDiedMulti>{0} ha muerto. Afectará el humor de las siguientes personas:\n\n{1}</LetterBondedAnimalDiedMulti>
-  <LetterNamedBondedAnimalDiedMulti>{1} ha muerto. Afectará el humor de las siguientes personas:\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+  <LetterLabelSuffixBondedAnimalDied>Animal Vinculado</LetterLabelSuffixBondedAnimalDied>
+  <LetterPartBondedAnimalDied>{0} estaba vinculado a {1}. Afectará el estado de ánimo de {1}.</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDiedMulti>Afecta el estado de ánimo de las siguientes personas:\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
   <!-- Prison break -->
   <LetterLabelPrisonBreak>Fuga</LetterLabelPrisonBreak>
@@ -123,12 +133,8 @@
   <LetterNewlyAddicted>{0} ha desarrollado una adicción al {1}.\n\n[PAWN_pronoun] ahora necesita {1}, visible en su pestaña de humor. [PAWN_pronoun] ahora automáticamente consumirá la droga para cumplir su necesidad. Si no puede conseguir {1}, [PAWN_pronoun] va a desarrollar síndrome de abstinencia.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
-  <LetterLabelDrugBinge>borrachera de {0}</LetterLabelDrugBinge>
+  <LetterLabelDrugBinge>Borrachera de {0}</LetterLabelDrugBinge>
   <LetterDrugBinge>{0} está teniendo un atracon de {1}.</LetterDrugBinge>
-
-  <!-- Formed caravan -->
-  <LetterLabelFormedCaravan>Caravana lista</LetterLabelFormedCaravan>
-  <LetterFormedCaravan>Tu caravana se ha formado y espera órdenes en el mapa planetario.</LetterFormedCaravan>
 
   <!-- Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Caravana destruida</LetterLabelAllCaravanColonistsDied>
@@ -141,16 +147,15 @@
   <!-- Caravan entered enemy base -->
   <LetterLabelCaravanEnteredEnemyBase>Ataque iniciado</LetterLabelCaravanEnteredEnemyBase>
   <LetterCaravanEnteredEnemyBase>{0} ha llegado a {1} y está lista para iniciar el ataque.</LetterCaravanEnteredEnemyBase>
-  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} ha llegado a {1} y está lista para comenzar el ataque.\n\nDebido a tu acción agresiva, {2} ahora es hostil hacia tí.</LetterCaravanEnteredEnemyBaseBecameHostile>
+
+  <!-- Transport pods landed in enemy base -->
+  <LetterLabelTransportPodsLandedInEnemyBase>Comenzó el ataque</LetterLabelTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>Sus cápsulas de transporte han llegado a {0}.</LetterTransportPodsLandedInEnemyBase>
 
   <!-- Faction base defeated -->
   <LetterLabelFactionBaseDefeated>Asentamiento destruido</LetterLabelFactionBaseDefeated>
   <LetterFactionBaseDefeated>El asentamiento enemigo de {0} ha sido destruido.\n\nTienes {1} hora(s) para recoger objetos antes de que tus colonos reformen la caravana.</LetterFactionBaseDefeated>
   <LetterFactionBaseDefeated_FactionDestroyed>Esta fue la última base de {0}, lo que significa que la facción ya no existirá.</LetterFactionBaseDefeated_FactionDestroyed>
-
-  <!-- Pawns lost due to map countdown -->
-  <LetterLabelPawnsLostDueToMapCountdown>Abandonado</LetterLabelPawnsLostDueToMapCountdown>
-  <LetterPawnsLostDueToMapCountdown>Algunos de tus animales o prisioneros han sido abandonados en la naturaleza:\n\n{0}</LetterPawnsLostDueToMapCountdown>
 
   <!-- Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>Misión completada</LetterLabelDefeatAllEnemiesQuestCompleted>
@@ -159,10 +164,6 @@
   <!-- Found lump of precious resources -->
   <LetterLabelFoundPreciousLump>Minerales preciosos encontrados</LetterLabelFoundPreciousLump>
   <LetterFoundPreciousLump>Su escáner de minerales de largo alcance ha encontrado cerca un montón de recursos valiosos.\n\nNo sabemos quién o qué -si acaso- podría estar vigilándolo.</LetterFoundPreciousLump>
-
-  <!-- Sleeping mechanoids -->
-  <LetterLabelSleepingMechanoids>Mecanoides durmientes</LetterLabelSleepingMechanoids>
-  <LetterSleepingMechanoids>Hay unos pocos mecanoides hostiles dormidos en esta área.\n\nLos mecanoides pueden o no despertarse cuando te acerques a ellos, así que ten cuidado.</LetterSleepingMechanoids>
 
   <!-- Ambush -->
   <LetterLabelAmbushInExistingMap>Emboscada</LetterLabelAmbushInExistingMap>
@@ -186,5 +187,41 @@
 
   <!-- Catatonic mental break -->
   <LetterCatatonicMentalBreak>{0} tiene un colapso catatónico que durará varios días.</LetterCatatonicMentalBreak>
+
+  <LetterLabelAICoreOffer>Oferta de IA</LetterLabelAICoreOffer>
+  <LetterAICoreOffer>{0} de {1} se pone en contacto con usted con una oferta de información: la ubicación de un núcleo de persona IA, que necesitará para construir una nave espacial. Le informan que este artículo es bastante raro y por lo general sus propietarios lo tienen bajo fuerte vigilancia.\n\nLlámalos con tu consola de comunicaciones si estás interesado.</LetterAICoreOffer>
+
+  <LetterCraftedLegendaryLabel>Trabajo legendario</LetterCraftedLegendaryLabel>
+  <LetterCraftedLegendaryMessage>{0} ha creado un {1}.\n\nLas noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessage>
+
+  <!-- Pawns lost because map closed -->
+  <LetterLabelPawnsLostBecauseMapClosed_Caravan>Caravana perdida</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+  <LetterPawnsLostBecauseMapClosed_Caravan>Su caravana se ha perdido. Las siguientes personas y animales se han perdido con él</LetterPawnsLostBecauseMapClosed_Caravan>
+  <LetterLabelPawnsLostBecauseMapClosed_Home>Población abandonada</LetterLabelPawnsLostBecauseMapClosed_Home>
+  <LetterPawnsLostBecauseMapClosed_Home>Las siguientes personas y animales han sido abandonados</LetterPawnsLostBecauseMapClosed_Home>
+
+  <!-- Hibernate complete -->
+  <LetterLabelHibernateComplete>Reactor listo</LetterLabelHibernateComplete>
+  <LetterHibernateComplete>Charlon Whitestone ha terminado la secuencia de recuperación de hibernación del reactor. El reactor está listo para despegar.</LetterHibernateComplete>
+  <LetterHibernateCompleteStandalone>La secuencia de encendido del reactor está completa. Ahora está listo para impulsar un despegue.</LetterHibernateCompleteStandalone>
+
+  <!-- Visitors gave gift -->
+  <LetterLabelVisitorsGaveGift>Regalo</LetterLabelVisitorsGaveGift>
+  <LetterVisitorsGaveGift>Ya que lo estás pasando mal, te estamos ayudando.</LetterVisitorsGaveGift>
+
+  <!-- Faction base proximity -->
+  <LetterLabelFactionBaseProximity>Proximidad de la base de la facción</LetterLabelFactionBaseProximity>
+  <LetterFactionBaseProximity>Como estás tan cerca de otras facciones, sienten que estás invadiendo su territorio.\n\nPara el último quadrum, las relaciones entre las facciones se han reducido en:</LetterFactionBaseProximity>
+
+  <!-- Caravans battlefield victory -->
+  <LetterLabelCaravansBattlefieldVictory>Batalla de caravanas ganada</LetterLabelCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>Tu caravana ha ganado la batalla.\n\nEn {0}, la caravana se reformará automáticamente. Ahora puede reformar la caravana en la pantalla Mundo seleccionando el campo de batalla y la opción "Reformar caravana".</LetterCaravansBattlefieldVictory>
+
+  <!-- Rescue quest -->
+  <LetterLabelRescueQuestFinished>El rescatado se une</LetterLabelRescueQuestFinished>
+  <LetterRescueQuestFinished>Has rescatado a [PAWN_nameDef] y [PAWN_pronoun] se ha unido a tu grupo.\n\nUsted puede tomar [PAWN_objective] reformando la caravana en la pantalla Mundo seleccionando esta zona y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinished>
+
+  <!-- Player entered site (generic label) -->
+  <LetterLabelPlayerEnteredNewSiteGeneric>Llegada al sitio</LetterLabelPlayerEnteredNewSiteGeneric>
   
 </LanguageData>
