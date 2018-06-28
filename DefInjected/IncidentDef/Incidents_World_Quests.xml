@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <QuestBanditCamp.label>Oportunidad: Campamento Bandido</QuestBanditCamp.label>
-    <QuestBanditCamp.letterText>{0}, {1} de {2}, Nos ha enviado un mensaje.\n\nAl parecer los bandidos instalados en un campamento cercano han estado asaltando sus caravanas y nos han pedido que la destruyamos, lo que significa eliminar todos los enemigos y torretas.\n\nSi tenemos éxito nuestras relaciones con ellos mejorarán y nos enviaran esta recompensa:\n\n{3}</QuestBanditCamp.letterText>
-    <QuestBanditCamp.letterLabel>Oportunidad: Campamento Bandido</QuestBanditCamp.letterLabel>
+  <Quest_TradeRequest.label>Solicitud de Comercio</Quest_TradeRequest.label>
 
-    <QuestItemStash.label>Oportunidad: Almacén con Artilugios</QuestItemStash.label>
-    <QuestItemStash.letterText>{0}, {1} de {2}, Nos ha informado de una colección de artículos valiosos no muy lejos de nosotros, la colección consiste en:\n\n{3}\n\nDesafortunadamente no durará, otras bandas tomarán los artículos en {4} días si no lo hacemos.\n\nCuidado, los artículos de valor tienden a atraer el peligro.{5}</QuestItemStash.letterText>
-    <QuestItemStash.letterLabel>Oportunidad: Almacén con Artilugios</QuestItemStash.letterLabel>
+  <Quest_BanditCamp.label>Campamento Bandido</Quest_BanditCamp.label>
+  <Quest_BanditCamp.letterText>{0}, {1} de {2}, Nos ha enviado un mensaje.\n\nAl parecer, los bandidos que viven en un campamento cercano han estado atacando sus caravanas. Nos han pedido que los acabemos, lo que significa eliminar a todos los enemigos y torretas.\n\nSi tenemos éxito, sus relaciones mejorarán, y nos enviarán esta recompensa:\n\n{3}</Quest_BanditCamp.letterText>
+  <Quest_BanditCamp.letterLabel>Campamento Bandido</Quest_BanditCamp.letterLabel>
 
-    <QuestDownedRefugee.label>Oportunidad: Refugiado Discapacitado</QuestDownedRefugee.label>
-    <QuestDownedRefugee.letterText>{0} Nos contacta por radio y solicita nuestra ayuda. [PAWN_pronoun] está herido/a y no puede moverse. Sin nuestra ayuda morirá en {1} días.\n\nPodría ser peligroso, así que ve con cuidado.</QuestDownedRefugee.letterText>
-    <QuestDownedRefugee.letterLabel>Oportunidad: Refugiado Discapacitado</QuestDownedRefugee.letterLabel>
+  <Quest_ItemStash.label>Almacén con Artilugios</Quest_ItemStash.label>
+  <Quest_ItemStash.letterText>{0}, {1} de {2}, nos ha informado de un almacén de objetos de valor no muy lejos de nosotros. La colección consta de:\n\n{3}\n\nDesafortunadamente no durará, otras bandas tomarán los artículos en {4} días si no lo hacemos.\n\nCuidado, los almacénes tienden a atraer el peligro. {5}</Quest_ItemStash.letterText>
+  <Quest_ItemStash.letterLabel>Almacén con Artilugios</Quest_ItemStash.letterLabel>
 
-    <QuestPrisonerWillingToJoin.label>Oportunidad: Rescate de Prisionero</QuestPrisonerWillingToJoin.label>
-    <QuestPrisonerWillingToJoin.letterText>Un prisionero capturado por {0} consiguió robar una radio y llamarte.\n\n[PAWN_nameDef] está siendo retenido en un campamento cercano con una guardia armada. Rescatalo/la y se unirá a tu colonia. [PAWN_pronoun] tiene {1} años y es un/a {2}.</QuestPrisonerWillingToJoin.letterText>
-    <QuestPrisonerWillingToJoin.letterLabel>Oportunidad: Rescate de Prisionero</QuestPrisonerWillingToJoin.letterLabel>
 
-    <QuestPeaceTalks.label>Oportunidad: Diálogo de Paz</QuestPeaceTalks.label>
-    <QuestPeaceTalks.letterText>[PAWN_nameDef], {0} de {1}, Nos ha enviado un mensaje. [PAWN_pronoun] quiere hablar con nosotros en un puesto cercano.\n\nPodría ser una gran oportunidad para mejorar las relaciones con su facción, pero ten cuidado un negociador sin experiencia puede causar más daño que bien, e incluso hacerlos enojar.\n\nLa oferta expirará después de {2} días.</QuestPeaceTalks.letterText>
-    <QuestPeaceTalks.letterLabel>Oportunidad: Diálogo de Paz</QuestPeaceTalks.letterLabel>
+  <!-- Used as a utility incident def for the core-requesting faction option -->
+
+  <Quest_ItemStashAICore.label>Almacén con Artilugios (Nucleo IA)</Quest_ItemStashAICore.label>
+  <Quest_ItemStashAICore.letterText>{0}, {1} de {2}, nos ha informado de un almacén de objetos de valor no muy lejos de nosotros. La colección consta de:\n\n{3}\n\nDesafortunadamente no durará, otras bandas tomarán los artículos en {4} días si no lo hacemos.\n\nCuidado, los almacénes tienden a atraer el peligro. {5}</Quest_ItemStashAICore.letterText>
+  <Quest_ItemStashAICore.letterLabel>Almacén con Artilugios (Nucleo IA)</Quest_ItemStashAICore.letterLabel>
+
+  <Quest_DownedRefugee.label>Refugiado Discapacitado</Quest_DownedRefugee.label>
+  <Quest_DownedRefugee.letterText>[PAWN_nameDef] Nos contacta por radio y solicita nuestra ayuda. [PAWN_pronoun] está herido e incapaz de moverse. Sin tu ayuda, [PAWN_pronoun] morirá en {0} días.\n\n[PAWN_nameDef] tiene {1} años y es un/a {2}. [PAWN_pronoun] promete unirse a ustedes si logras rescatarlo/a. [PAWN_objective].\n\nPuede ser peligroso allí, así que ten cuidado.</Quest_DownedRefugee.letterText>
+  <Quest_DownedRefugee.letterLabel>Refugiado Discapacitado</Quest_DownedRefugee.letterLabel>
+
+  <Quest_PrisonerRescue.label>Rescate de Prisionero</Quest_PrisonerRescue.label>
+  <Quest_PrisonerRescue.letterText>Un prisionero capturado por {0} consiguió robar una radio y llamarte.\n\n[PAWN_nameDef] está siendo retenido en un campamento cercano bajo custodia armada. Rescate [PAWN_objective], y [PAWN_pronoun] se unirá a tu colonia. [PAWN_pronoun] tiene {1} años y es {2}.</Quest_PrisonerRescue.letterText>
+  <Quest_PrisonerRescue.letterLabel>Rescate de Prisionero</Quest_PrisonerRescue.letterLabel>
+
+  <Quest_PeaceTalks.label>Diálogo de Paz</Quest_PeaceTalks.label>
+  <Quest_PeaceTalks.letterText>[PAWN_nameDef], {0} de {1}, Nos ha enviado un mensaje. [PAWN_pronoun] quiere hablar con nosotros en un puesto cercano.\n\nPodría ser una gran oportunidad para mejorar las relaciones con su facción, pero ten cuidado un negociador sin experiencia puede causar más daño que bien, e incluso hacerlos enojar.\n\nLa oferta expirará después de {2} días.</Quest_PeaceTalks.letterText>
+  <Quest_PeaceTalks.letterLabel>Diálogo de Paz</Quest_PeaceTalks.letterLabel>
+
+
+  <!-- Main quests -->
+
+  <Quest_JourneyOffer.label>Nave de Escape</Quest_JourneyOffer.label>
 
 
 </LanguageData>

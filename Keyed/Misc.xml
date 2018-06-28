@@ -1,75 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <Autosaving>Autoguardado</Autosaving>
-    <GameStartDialog>Ustedes tres despiertan, en su sarcófago de criptosueño, con el sonido de las sirenas de emergencia y el crujido del metal. Apenas logran llegar a las cápsulas de escape antes de que la nave se despedace.\n\nUn tiempo después, aterrizan en éste desconocido planeta fronterizo.\n\nMientras las piezas de la nave destrozada siguen cayendo a su alrededor, comienzan a planear cómo sobrevivir.</GameStartDialog>
-    <Colony>Colonia</Colony>
-    <ChangeLanguageFromMainMenu>Solamente puedes cambiar el idioma desde el menú de opciones del menú principal.</ChangeLanguageFromMainMenu>
-    <AndLower>y</AndLower>
-    <DisabledLower>deshabilitado</DisabledLower>
+  <Autosaving>Autoguardado</Autosaving>
+  <GameStartDialog>Ustedes tres despiertan, en su sarcófago de criptosueño, con el sonido de las sirenas de emergencia y el crujido del metal. Apenas logran llegar a las cápsulas de escape antes de que la nave se despedace.\n\nUn tiempo después, aterrizan en éste desconocido planeta fronterizo.\n\nMientras las piezas de la nave destrozada siguen cayendo a su alrededor, comienzan a planear cómo sobrevivir.</GameStartDialog>
+  <Colony>Colonia</Colony>
+  <ChangeLanguageFromMainMenu>Solamente puedes cambiar el idioma desde el menú de opciones del menú principal.</ChangeLanguageFromMainMenu>
+  <AndLower>y</AndLower>
+  <DisabledLower>Deshabilitado</DisabledLower>
 
 
-    <VersionIndicator>Versión {0}</VersionIndicator>
-    <DevelopmentBuildLower>development build</DevelopmentBuildLower>
-    <CompiledOn>Compilado {0}</CompiledOn>
-    <LoggedIntoSteamAs>Conectado a Steam como {0}</LoggedIntoSteamAs>
+  <VersionIndicator>Versión {0}</VersionIndicator>
+  <DevelopmentBuildLower>Construcción de Desarrollo</DevelopmentBuildLower>
+  <CompiledOn>Compilado {0}</CompiledOn>
+  <LoggedIntoSteamAs>Conectado a Steam como {0}</LoggedIntoSteamAs>
 
-    <!-- General-use words -->
-    <Yes>Si</Yes>
-    <No>No</No>
-    <min>min</min>
-    <max>max</max>
-    <chance>Probabilidad</chance>
-    <context>Contexto</context>
-    <multiplier>Factor</multiplier>
-    <damage>Daño</damage>
-    <radius>Radio</radius>
-    <durationDays>duración (días)</durationDays>
-    <intervalDays>intervalo (días)</intervalDays>
-    <repeat>repetir</repeat>
-    <default>defecto</default>
-    <distance>distancia</distance>
+  <!-- General-use words -->
+  <Yes>Si</Yes>
+  <No>No</No>
+  <min>min</min>
+  <max>max</max>
+  <chance>Probabilidad</chance>
+  <context>Contexto</context>
+  <multiplier>Factor</multiplier>
+  <damage>Daño</damage>
+  <radius>Radio</radius>
+  <durationDays>duración (días)</durationDays>
+  <intervalDays>intervalo (días)</intervalDays>
+  <repeat>repetir</repeat>
+  <default>defecto</default>
+  <distance>distancia</distance>
+  <YesUppercase>SI</YesUppercase>
+  <NoUppercase>NO</NoUppercase>
+  <kg>kg</kg>
+  <Day>Día</Day>
+  <day>Día</day>
+  <Default>Predeterminado</Default>
+  <Average>Promedio</Average>
 
-    <!-- Content generation-->
+  <!-- Content generation-->
 
-    <MeatLabel>Carne de {0}</MeatLabel>
-    <MeatDesc>Carne cruda de un(a) {0}.</MeatDesc>
+  <MeatLabel>Carne de {0}</MeatLabel>
+  <MeatDesc>Carne cruda de un(a) {0}.</MeatDesc>
+  <MeatInsectDesc>Carne cruda masacrada. Si es necesario, puede ser cocinado en las comidas, o incluso consumido crudo. Extremadamente poco apetecible.</MeatInsectDesc>
+  <MeatHumanDesc>Carne cruda masacrada. Puede ser cocinado en comidas o consumido crudo, aunque a la mayoría de los humanos no les gusta la idea.</MeatHumanDesc>
 
-    <LeatherLabel>Cuero de {0}</LeatherLabel>
-    <LeatherDesc>Cuero hecho con la piel de un(a) {0}.</LeatherDesc>
+  <CorpseLabel>Cadáver de {0}</CorpseLabel>
+  <CorpseDesc>El cadáver de un(a) {0}.</CorpseDesc>
+  <DeadLabel>{0} (muerto)</DeadLabel>
 
-    <CorpseLabel>Cadáver de {0}</CorpseLabel>
-    <CorpseDesc>El cadáver de un(a) {0}.</CorpseDesc>
-    <DeadLabel>{0} (muerto)</DeadLabel>
-
-    <RoughStoneTerrainLabel>{0} en bruto</RoughStoneTerrainLabel>
-    <RoughStoneTerrainDesc>Suelo de {0} en bruto.</RoughStoneTerrainDesc>
-    <RoughHewnStoneTerrainLabel>{0} irregular</RoughHewnStoneTerrainLabel>
+  <RoughStoneTerrainLabel>{0} en bruto</RoughStoneTerrainLabel>
+  <RoughStoneTerrainDesc>Suelo de {0} en bruto.</RoughStoneTerrainDesc>
+  <RoughHewnStoneTerrainLabel>{0} irregular</RoughHewnStoneTerrainLabel>
   <RoughHewnStoneTerrainDesc>Suelo natural de {0} toscamente alisado.</RoughHewnStoneTerrainDesc>
   <SmoothStoneTerrainLabel>{0} liso</SmoothStoneTerrainLabel>
   <SmoothStoneTerrainDesc>Suelo natural de {0} finamente alisado.</SmoothStoneTerrainDesc>
 
-    <BlueprintLabelExtra> (anteproyecto)</BlueprintLabelExtra>
+  <BlueprintLabelExtra> (anteproyecto)</BlueprintLabelExtra>
   <FrameLabelExtra>(en construcción)</FrameLabelExtra>
 
+  <FactionUnaffiliated>No afiliado</FactionUnaffiliated>
 
-    <!-- For things made of stuff, e.g. "Stone bed" -->
-    <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
-    <ThingMadeOfStuffLabel>{1} de {0}</ThingMadeOfStuffLabel>
 
-    <SomeonesRoom>{1} de {0}</SomeonesRoom>
-    <CouplesRoom>{2} de {0} y {1}</CouplesRoom>
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{1} de {0}</ThingMadeOfStuffLabel>
 
-    <VariousLabel>(varios)</VariousLabel>
+  <SomeonesRoom>{1} de {0}</SomeonesRoom>
+  <CouplesRoom>{2} de {0} y {1}</CouplesRoom>
 
-    <!-- History events -->
-    <ColonistDied>Colono muerto</ColonistDied>
+  <VariousLabel>(varios)</VariousLabel>
 
-    <!-- Rotation -->
-    <North>Norte</North>
-    <South>Sur</South>
-    <West>Oeste</West>
-    <East>Este</East>
+  <!-- History events -->
+  <ColonistDied>Colono muerto</ColonistDied>
+
+  <!-- Rotation -->
+  <North>Norte</North>
+  <South>Sur</South>
+  <West>Oeste</West>
+  <East>Este</East>
 
 
 </LanguageData>

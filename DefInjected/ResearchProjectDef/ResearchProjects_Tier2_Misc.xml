@@ -18,8 +18,11 @@
   <LongBlades.label>Espadas largas</LongBlades.label>
   <LongBlades.description>Fabrica espadas largas y lanzas.</LongBlades.description>
 
-  <Greatbows.label>Arcos largos</Greatbows.label>
-  <Greatbows.description>Aprenda a producir arcos largos muy potentes.</Greatbows.description>
+  <PlateArmor.label>Blindaje de placas</PlateArmor.label>
+  <PlateArmor.description>Trajes de protección hechas de placas metalicas o madera.</PlateArmor.description>
+
+  <Greatbow.label>Arcos largos</Greatbow.label>
+  <Greatbow.description>Crea arcos largos para matar enemigos a gran distancia.</Greatbow.description>
 
 
   <!-- Tier 2: Basic electricity -->
@@ -27,8 +30,11 @@
   <Batteries.label>Baterías</Batteries.label>
   <Batteries.description>Te permite construir baterías, que te permiten alamacenar electricidad.</Batteries.description>
 
-  <Refining.label>Refinado</Refining.label>
-  <Refining.description>Te permite construir refinerías, que te permiten transformar la madera en biocombustible.</Refining.description>
+  <BiofuelRefining.label>Refinerías de biocombustibles</BiofuelRefining.label>
+  <BiofuelRefining.description>Construir refinerías para hacer biocombustible a partir de materia biológica como la madera o los alimentos.</BiofuelRefining.description>
+
+  <Waterproofing.label>Conducto impermeable</Waterproofing.label>
+  <Waterproofing.description>Construir conductos eléctricos subacuáticos.</Waterproofing.description>
 
   <NutrientPaste.label>Pasta nutricional</NutrientPaste.label>
   <NutrientPaste.description>Construye dispensadores de pasta nutricional, que producen comida eficientemente a partir de materia prima cruda.</NutrientPaste.description>
@@ -48,7 +54,7 @@
   <ElectricSmelting.label>Fundición eléctrica</ElectricSmelting.label>
   <ElectricSmelting.description>Te permite construir fundiciones eléctricas que utilizaran el calor y potentes electroimanes para extraer el metal aprovechable de los escombros metálicos y otros objetos.</ElectricSmelting.description>
 
-  <PackagedSurvivalMeal.label>Comida empaquetada de supervivencia</PackagedSurvivalMeal.label>
+  <PackagedSurvivalMeal.label>Comida de supervivencia</PackagedSurvivalMeal.label>
   <PackagedSurvivalMeal.description>Aprenda a producir comidas de supervivencia empaquetadas, un alimento preservado y sellado que nunca se pudre. Genial para viajar.</PackagedSurvivalMeal.description>
 
   <ElectricCremation.label>Cremación eléctrica</ElectricCremation.label>
@@ -57,17 +63,26 @@
   <ColoredLights.label>Luces de colores</ColoredLights.label>
   <ColoredLights.description>Permite a los colonos construir luces de colores para fines decorativos.</ColoredLights.description>
 
+  <IEDs.label>Minas</IEDs.label>
+  <IEDs.description>Permite a los colonos construir minas a partir de obuses de mortero.</IEDs.description>
+
+  <GeothermalPower.label>Energía geotérmica</GeothermalPower.label>
+  <GeothermalPower.description>Te permite construir plantas geotérmicas sobre géisers de vapor para un suministro eléctrico ininterrumpido.</GeothermalPower.description>
+
+
+  <!-- Machining and its children sub-tier -->
+
   <Machining.label>Maquinado</Machining.label>
   <Machining.description>Te permite construir mesas de maquinado para desmontar mecanoides o fabricar armas de fuego</Machining.description>
 
-  <IEDs.label>IEDs</IEDs.label>
-  <IEDs.description>Permite a los colonos construir trampas improvisadas a partir de explosivos, EMP, espuma de fuego y proyectiles de mortero antigrain.</IEDs.description>
-
-  <IEDIncendiary.label>Bombas incendiarias</IEDIncendiary.label>
-  <IEDIncendiary.description>Permite a los colonos construir bombas incendiarias con obuses..</IEDIncendiary.description>
-
   <Mortars.label>Morteros</Mortars.label>
-  <Mortars.description>Aprende a construir morteros, los cuales disparan bombas por encima de obstáculos y a largas distancias.</Mortars.description>
+  <Mortars.description>Aprende a construir morteros, los cuales disparan obuses por encima de obstáculos y a largas distancias.</Mortars.description>
+
+  <SmokepopBelt.label>Cinturones de humo</SmokepopBelt.label>
+  <SmokepopBelt.description>Aprende a construir cinturones de humo que puedan proporcionar una cortina de humo automática y defensiva.</SmokepopBelt.description>
+
+  <Prosthetics.label>Prótesis</Prosthetics.label>
+  <Prosthetics.description>Fabrique prótesis baratas para reemplazar las extremidades perdidas. Requiere que un médico experto lo instale.</Prosthetics.description>
 
   <Gunsmithing.label>Armería</Gunsmithing.label>
   <Gunsmithing.description>Fabrica armas simples operadas manualmente como revólveres, escopetas, rifles de cerrojo y lanzadores incendiarios.</Gunsmithing.description>
@@ -81,26 +96,19 @@
   <PrecisionRifling.label>Rifles de precisión</PrecisionRifling.label>
   <PrecisionRifling.description>Fabrica fusiles de asalto y rifles de francotirador.</PrecisionRifling.description>
 
-  <SmokepopBelt.label>Cinturones de humo</SmokepopBelt.label>
-  <SmokepopBelt.description>Aprende a construir cinturones de humo que puedan proporcionar una cortina de humo automática y defensiva.</SmokepopBelt.description>
+
+  <!-- Tier 2.5 Microelectronics -->
 
   <MicroelectronicsBasics.label>Microelectrónicos básicos</MicroelectronicsBasics.label>
   <MicroelectronicsBasics.description>Los conocimientos básicos para poder trabajar con los delicados y complejos electrónicos. Ésto desbloquea la mesa de trabajo de avanzada, la consola de comunicaciones y otros proyectos de investigación como las televisiones y los sarcófagos de cryptosueño.</MicroelectronicsBasics.description>
 
-
-  <!-- Tier 2.5 Microelectronics -->
-
   <TubeTelevision.label>Televisión de rayos catódicos</TubeTelevision.label>
   <TubeTelevision.description>Permite la construcción de televisiones.</TubeTelevision.description>
 
-  <GunTurrets.label>Torretas automáticas</GunTurrets.label>
+  <GunTurrets.label>Torreta automática</GunTurrets.label>
   <GunTurrets.description>Permite la producción de torretas automáticas para la defensa de la colonia.</GunTurrets.description>
 
-
-  <!--================================ Tier 2: Non-electric ====================================-->
-  <!--================================ Tier 2: Basic electricity ====================================-->
-  <!--<IEDBomb.label>Trampas explosivas improvisadas</IEDBomb.label>-->
-  <!--<IEDBomb.description>Permite a los colonos construir trampas explosivas improvisadas con obuses.</IEDBomb.description>-->
-  <!--=============================== Tier 2.5 Microelectronics ===================================-->
+  <HeavyTurrets.label>Cañon automático</HeavyTurrets.label>
+  <HeavyTurrets.description>Permite la producción de coñones automáticos de largo alcance para la defensa de la colonia.</HeavyTurrets.description>
 
 </LanguageData>

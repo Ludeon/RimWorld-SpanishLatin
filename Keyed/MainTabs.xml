@@ -1,76 +1,94 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-    <!-- Work tab -->
-    <ManualPriorities>Prioridad manual</ManualPriorities>
-    <HigherPriority>más prioridad</HigherPriority>
-    <LowerPriority>menos prioridad</LowerPriority>
-    <RelevantSkills>Habilidades relevantes: {0}\nPromedio de habilidades relevantes: {1} / {2}</RelevantSkills>
-    <ClickToJumpTo>Haz click para ir a:</ClickToJumpTo>
-    <CannotDoThisWork>{0} no puede hacer este tipo de trabajo.</CannotDoThisWork>
-    <NoneBrackets>(ninguno)</NoneBrackets>
-    <IncapableOfWorkTypeBecauseOfCapacities>Este colono no puede hacer trabajo de este tipo por un problema de salud.</IncapableOfWorkTypeBecauseOfCapacities>
-    <EmergencyWorkMarker>E</EmergencyWorkMarker>
-    <SelectedWorkTypeWithVeryBadSkill>Advertencia: el promedio de las habilidades necesarias es muy bajo.</SelectedWorkTypeWithVeryBadSkill>
+  <!-- Work tab -->
+  <ManualPriorities>Prioridad manual</ManualPriorities>
+  <HigherPriority>Más prioridad</HigherPriority>
+  <LowerPriority>Menos prioridad</LowerPriority>
+  <RelevantSkills>Habilidades relevantes: {0}\nPromedio de habilidades relevantes: {1} / {2}</RelevantSkills>
+  <ClickToJumpTo>Haz click para ir a:</ClickToJumpTo>
+  <CannotDoThisWork>{0} no puede hacer este tipo de trabajo.</CannotDoThisWork>
+  <NoneBrackets>(ninguno)</NoneBrackets>
+  <IncapableOfWorkTypeBecauseOfCapacities>Este colono no puede hacer trabajo de este tipo por un problema de salud.</IncapableOfWorkTypeBecauseOfCapacities>
+  <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <SelectedWorkTypeWithVeryBadSkill>Advertencia: el promedio de las habilidades necesarias es muy bajo.</SelectedWorkTypeWithVeryBadSkill>
 
-    <!-- Assign tab -->
-    <ManageOutfits>Administrar vestimentas</ManageOutfits>
-    <ClearForcedApparel>Desasignar forzadas</ClearForcedApparel>
-    <ApparelForcedLower>forzada</ApparelForcedLower>
-    <ForcedApparel>Atuendo forzado</ForcedApparel>
-    <AssignTabEdit>Editar...</AssignTabEdit>
-    <ManageDrugPolicies>Administrar políticas de drogas</ManageDrugPolicies>
+  <!-- Assign tab -->
+  <ManageOutfits>Administrar vestimentas</ManageOutfits>
+  <ClearForcedApparel>Desasignar forzadas</ClearForcedApparel>
+  <ApparelForcedLower>forzada</ApparelForcedLower>
+  <ForcedApparel>Atuendo forzado</ForcedApparel>
+  <AssignTabEdit>Editar...</AssignTabEdit>
+  <ManageDrugPolicies>Administrar políticas de drogas</ManageDrugPolicies>
 
-    <!-- Restrictions tab -->
-    <Copy>Copiar</Copy>
-    <Paste>Pegar</Paste>
-    <AllowedArea>Permitir área</AllowedArea>
+  <!-- Restrictions tab -->
+  <Copy>Copiar</Copy>
+  <Paste>Pegar</Paste>
+  <AllowedArea>Permitir área</AllowedArea>
 
-    <!-- Animals tab -->
-    <Master>Amo</Master>
-    <PregnantIconDesc>Embarazo ({0} / {1})</PregnantIconDesc>
+  <!-- Animals tab -->
+  <Master>Amo</Master>
+  <PregnantIconDesc>Embarazo ({0} / {1})</PregnantIconDesc>
+  <BondedTo>Vinculado a</BondedTo>
 
-    <!-- Factions tab -->
-    <Hostile>Hostil</Hostile>
-    <DefeatedLower>derrotado</DefeatedLower>
-    <HostileTo>Enemigo de {0}</HostileTo>
-    <CurrentGoodwill>Buena voluntad actual con esta facción.</CurrentGoodwill>
+  <!-- Wildlife tab -->
+  <IsPredator>Esta criatura es un depredador. Cuando tiene hambre, cazará criaturas más pequeñas, posiblemente incluyendo personas.</IsPredator>
 
-    <!-- Social tab -->
-    <Friend>Amigo</Friend>
-    <Rival>Rival</Rival>
-    <Acquaintance>Conocido</Acquaintance>
+  <!-- Factions tab -->
+  <Hostile>Hostil</Hostile>
+  <Ally>Aliado</Ally>
+  <DefeatedLower>Derrotado</DefeatedLower>
+  <HostileTo>Enemigo de {0}</HostileTo>
+  <CurrentGoodwillTip>Situación actual de buena voluntad y relaciones con esta facción.</CurrentGoodwillTip>
+  <CurrentGoodwillTip_PermanentEnemy>Esta facción es permanentemente hostil. Asaltarán sus asentamientos y caravanas. Las relaciones con ellos nunca mejorarán por ningún motivo.</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_Ally>Esta facción está aliada. Enviarán combatientes para ayudarte cuando puedan. Si las relaciones caen por debajo de {0}, se volverán neutrales.</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Neutral>Esta facción es neutral. Ellos intercambiarán y hablarán con usted libremente. Si las relaciones caen por debajo de {0}, se volverán hostiles. Si las relaciones se elevan por encima de {1}, se aliarán y empezarán a trabajar activamente para ayudarle.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Hostile>Esta facción es hostil. Asaltarán sus asentamientos y caravanas. Si las relaciones se elevan por encima de {0}, se volverán neutrales.</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_NaturalGoodwill>Esta facción tiene un rango natural de buena voluntad de {0} a {1}. Si la buena voluntad es superior a {1}, disminuirá {3} por día. Si la buena voluntad está por debajo de {0}, aumentará en {2} por día.</CurrentGoodwillTip_NaturalGoodwill>
 
-    <!-- History tab - subtabs -->
-    <Graph>Gráfica</Graph>
-    <Statistics>Estadísticas</Statistics>
 
-    <!-- History tab - Graphs -->
-    <SelectGraph>Seleccionar gráfica</SelectGraph>
-    <Last30Days>Últimos 30 días</Last30Days>
-    <Last100Days>Últimos 100 días</Last100Days>
-    <Last300Days>Últimos 300 días</Last300Days>
-    <AllDays>Todos</AllDays>
-    <Day>Día</Day>
-    <Value>Valor</Value>
-    <External>Externo</External>
+  <!-- Social tab -->
+  <Friend>Amigo</Friend>
+  <Rival>Rival</Rival>
+  <Acquaintance>Conocido</Acquaintance>
 
-    <!-- History tab - Statistics -->
-    <Playtime>Tiempo de juego</Playtime>
-    <Storyteller>Cuentacuentos</Storyteller>
-    <ThisMapColonyWealthTotal>Riqueza de la colonia (este mapa)</ThisMapColonyWealthTotal>
-    <ThisMapColonyWealthItems>Riqueza de la colonia (objetos) (este mapa)</ThisMapColonyWealthItems>
-    <ThisMapColonyWealthBuildings>Riqueza de la colonia (edificios) (este mapa)</ThisMapColonyWealthBuildings>
-    <NumThreatBigs>Amenazas mayores</NumThreatBigs>
-    <NumEnemyRaids>Ataques enemigos</NumEnemyRaids>
-    <ThisMapDamageTaken>Daño recibido (este mapa)</ThisMapDamageTaken>
-    <ColonistsKilled>Colonos asesinados</ColonistsKilled>
-    <ColonistsLaunched>Colonos lanzados al espacio</ColonistsLaunched>
+  <!-- History tab - subtabs -->
+  <Graph>Gráfica</Graph>
+  <Messages>Mensajes</Messages>
+  <Statistics>Estadísticas</Statistics>
 
-    <!-- Research tab -->
-    <ProjectTechLevel>nivel tecnológico del proyecto</ProjectTechLevel>
-    <YourTechLevel>tu nivel tecnológico</YourTechLevel>
-    <ResearchCostMultiplier>multiplicador de costo</ResearchCostMultiplier>
-    <ResearchCostComparison>El costo base del proyecto {0} se convierte en {1} debido a tu nivel tecnológico.</ResearchCostComparison>
+  <!-- History tab - Graphs -->
+  <SelectGraph>Seleccionar gráfica</SelectGraph>
+  <Last30Days>Últimos 30 días</Last30Days>
+  <Last100Days>Últimos 100 días</Last100Days>
+  <Last300Days>Últimos 300 días</Last300Days>
+  <AllDays>Todos</AllDays>
+  <Value>Valor</Value>
+  <External>Externo</External>
+
+  <!-- History tab - Messages -->
+  <ShowLetters>Mostrar Cartas</ShowLetters>
+  <ShowMessages>Mostrar Mensajes</ShowMessages>
+  <PinArchivableTip>Anclar o desanclar este mensaje.\n\nLos mensajes no anclados más antiguos se eliminarán automáticamente de la lista después de alcanzar el límite de {0} mensajes.</PinArchivableTip>
+  <NoMessages>Sin Mensajes</NoMessages>
+
+  <!-- History tab - Statistics -->
+  <Playtime>Tiempo de juego</Playtime>
+  <Storyteller>Cuentacuentos</Storyteller>
+  <ThisMapColonyWealthTotal>Riqueza de la colonia (este mapa)</ThisMapColonyWealthTotal>
+  <ThisMapColonyWealthItems>Riqueza de la colonia (objetos) (este mapa)</ThisMapColonyWealthItems>
+  <ThisMapColonyWealthBuildings>Riqueza de la colonia (edificios) (este mapa)</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthTameAnimals>Riqueza de la colonia (animales) (este mapa)</ThisMapColonyWealthTameAnimals>
+  <NumThreatBigs>Amenazas mayores</NumThreatBigs>
+  <NumEnemyRaids>Ataques enemigos</NumEnemyRaids>
+  <ThisMapDamageTaken>Daño recibido (este mapa)</ThisMapDamageTaken>
+  <ColonistsKilled>Colonos asesinados</ColonistsKilled>
+  <ColonistsLaunched>Colonos lanzados al espacio</ColonistsLaunched>
+
+  <!-- Research tab -->
+  <ProjectTechLevel>Nivel tecnológico del proyecto</ProjectTechLevel>
+  <YourTechLevel>Tu nivel tecnológico</YourTechLevel>
+  <ResearchCostMultiplier>Multiplicador de costo</ResearchCostMultiplier>
+  <ResearchCostComparison>El costo base del proyecto {0} se convierte en {1} debido a tu nivel tecnológico.</ResearchCostComparison>
 
 </LanguageData>

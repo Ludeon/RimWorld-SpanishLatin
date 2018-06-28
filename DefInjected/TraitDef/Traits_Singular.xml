@@ -28,21 +28,12 @@
   <Masochist.degreeDatas.0.label>Masoquista</Masochist.degreeDatas.0.label>
   <Masochist.degreeDatas.0.description>[PAWN_nameDef] encuentra algo emocionante en ser herido. [PAWN_pronoun] no sabe por qué, [PAWN_possessive] cerebro está programado de manera diferente.</Masochist.degreeDatas.0.description>
 
-  <Prosthophile.degreeDatas.0.label>Prostéfilo</Prosthophile.degreeDatas.0.label>
-  <Prosthophile.degreeDatas.0.description>[PAWN_nameDef] se siente limitado por su ineficaz cuerpo humano. [PAWN_pronoun] sueña con tener, algún día, un cuerpo con partes biónicas.</Prosthophile.degreeDatas.0.description>
-
-  <Prosthophobe.degreeDatas.0.label>Prostefóbico</Prosthophobe.degreeDatas.0.label>
-  <Prosthophobe.degreeDatas.0.description>[PAWN_nameDef] cree en que hay razones por las que el cuerpo humano está limitado. Para [PAWN_pronoun] las partes corporales biónicas son inmorales.</Prosthophobe.degreeDatas.0.description>
-
-  <GreenThumb.degreeDatas.0.label>Manos verdes</GreenThumb.degreeDatas.0.label>
-  <GreenThumb.degreeDatas.0.description>[PAWN_nameDef] es un apasionado de la jardinería. [PAWN_pronoun] mejorará su estado de ánimo cada vez que plante algo.</GreenThumb.degreeDatas.0.description>
-
   <NightOwl.degreeDatas.0.label>Nocturno</NightOwl.degreeDatas.0.label>
   <NightOwl.degreeDatas.0.description>[PAWN_nameDef] prefiere trabajar de noche. [PAWN_pronoun] tiene una bonificación de humor cuando es de noche, y una deducción cuando es de día.</NightOwl.degreeDatas.0.description>
 
   <Greedy.degreeDatas.0.label>Codicioso</Greedy.degreeDatas.0.label>
   <Greedy.degreeDatas.0.description>[PAWN_nameDef] necesita un dormitorio realmente impresionante. [PAWN_pronoun] tendrá una deducción al humor si no obtiene lo que quiere.</Greedy.degreeDatas.0.description>
-  
+
   <Jealous.degreeDatas.0.label>Celoso</Jealous.degreeDatas.0.label>
   <Jealous.degreeDatas.0.description>Para [PAWN_nameDef] es degradante tener un dormitorio menos impresionante que el de alguien más. [PAWN_pronoun] tendrá una deducción al humor mientras algún otro colono tenga un dormitorio mejor que el suyo.</Jealous.degreeDatas.0.description>
 
@@ -51,12 +42,6 @@
 
   <Gay.degreeDatas.0.label>Homosexual</Gay.degreeDatas.0.label>
   <Gay.degreeDatas.0.description>A [PAWN_nameDef] le atrae la gente de su propio sexo.</Gay.degreeDatas.0.description>
-
-  <DislikesMen.degreeDatas.0.label>Odia a los hombres</DislikesMen.degreeDatas.0.label>
-  <DislikesMen.degreeDatas.0.description>[PAWN_nameDef] realmente odia y desconfía de los hombres.</DislikesMen.degreeDatas.0.description>
-
-  <DislikesWomen.degreeDatas.0.label>Odia a las mujeres</DislikesWomen.degreeDatas.0.label>
-  <DislikesWomen.degreeDatas.0.description>[PAWN_nameDef] realmente odia y desconfía de las mujeres.</DislikesWomen.degreeDatas.0.description>
 
   <AnnoyingVoice.degreeDatas.0.label>Voz chillona</AnnoyingVoice.degreeDatas.0.label>
   <AnnoyingVoice.degreeDatas.0.description>La voz de [PAWN_nameDef] tiene una cualidad aguda y nasal terriblemente incómoda al oído humano. Ésto predispone a los demás contra [PAWN_pronoun].</AnnoyingVoice.degreeDatas.0.description>
@@ -76,8 +61,35 @@
   <FastLearner.degreeDatas.0.label>Aprendiz rápido</FastLearner.degreeDatas.0.label>
   <FastLearner.degreeDatas.0.description>[PAWN_nameDef] tiene un don para aprender. [PAWN_pronoun] capta las cosas mucho más rápido que otros.</FastLearner.degreeDatas.0.description>
 
-  <SuperImmune.degreeDatas.0.label>Super-inmune</SuperImmune.degreeDatas.0.label>
-  <SuperImmune.degreeDatas.0.description>[PAWN_nameDef] tiene un sistema inmune naturalmente potente. [PAWN_pronoun] ganará inmunidad mucho más rápido que una persona normal, y puede sobrevivir a enfermedades que matarían a otros.</SuperImmune.degreeDatas.0.description>
+  <Tunneler.degreeDatas.0.label>Tunelero</Tunneler.degreeDatas.0.label>
+  <Tunneler.degreeDatas.0.description>[PAWN_nameDef] no necesita tanto espacio. [PAWN_pronoun] nunca se sentirá encerrado o tendrá claustrofobia, no importa cuánto tiempo [PAWN_pronoun] permanece en interiores.</Tunneler.degreeDatas.0.description>
+
+
+  <!-- The below really probably should've been spectrum traits -->
+
+  <Transhumanist.degreeDatas.0.label>Transhumanista</Transhumanist.degreeDatas.0.label>
+  <Transhumanist.degreeDatas.0.description>[PAWN_nameDef] se siente limitado en [PAWN_possessive] débil cuerpo humano. [PAWN_pronoun] a menudo sueña con ser realzado por partes artificiales del cuerpo.</Transhumanist.degreeDatas.0.description>
+
+  <BodyPurist.degreeDatas.0.label>Purista</BodyPurist.degreeDatas.0.label>
+  <BodyPurist.degreeDatas.0.description>[PAWN_nameDef] cree que el cuerpo humano está limitado por una razón. Para [PAWN_objective], las partes artificiales del cuerpo son poco éticas y repugnantes.</BodyPurist.degreeDatas.0.description>
+
+  <DislikesMen.degreeDatas.0.label>Odia a los hombres</DislikesMen.degreeDatas.0.label>
+  <DislikesMen.degreeDatas.0.description>[PAWN_nameDef] realmente odia y desconfía de los hombres.</DislikesMen.degreeDatas.0.description>
+
+  <DislikesWomen.degreeDatas.0.label>Odia a las mujeres</DislikesWomen.degreeDatas.0.label>
+  <DislikesWomen.degreeDatas.0.description>[PAWN_nameDef] realmente odia y desconfía de las mujeres.</DislikesWomen.degreeDatas.0.description>
+
+  <GreatMemory.degreeDatas.0.label>Memoria a Largo Plazo</GreatMemory.degreeDatas.0.label>
+  <GreatMemory.degreeDatas.0.description>[PAWN_nameDef] tiene una memoria fantástica para los detalles. [PAWN_pronoun] perderá habilidades no utilizadas a la mitad del ritmo de otras personas.</GreatMemory.degreeDatas.0.description>
+
+  <Tough.degreeDatas.0.label>Resistente</Tough.degreeDatas.0.label>
+  <Tough.degreeDatas.0.description>[PAWN_nameDef] tiene piel gruesa, carne densa y huesos fuertes. [PAWN_pronoun] recibe mucho menos daño que otras personas por los mismos golpes. [PAWN_pronoun] es extremadamente difícil de matar.</Tough.degreeDatas.0.description>
+
+  <Gourmand.degreeDatas.0.label>Glotón</Gourmand.degreeDatas.0.label>
+  <Gourmand.degreeDatas.0.description>[PAWN_nameDef] su vida gira en torno a la comida. [PAWN_pronoun] tiene hambre rápidamente, y si [PAWN_pronoun] está de mal humor, [PAWN_pronoun] a menudo satisface [PAWN_objective]de sí mismo comiendo.</Gourmand.degreeDatas.0.description>
+
+  <QuickSleeper.degreeDatas.0.label>Sueño Rápido</QuickSleeper.degreeDatas.0.label>
+  <QuickSleeper.degreeDatas.0.description>[PAWN_nameDef] no necesita dormir tanto como una persona normal. Si [PAWN_pronoun] está durmiendo en una cama o en el suelo, [PAWN_pronoun] estará completamente descansado en dos tercios del tiempo habitual.</QuickSleeper.degreeDatas.0.description>
 
 
 </LanguageData>

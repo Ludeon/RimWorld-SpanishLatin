@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- Basic recipes - speed not affected by skill because there's no skill involved -->
+
+  <UnskilledLaborSpeed.label>Velocidad de la mano de obra no calificada</UnskilledLaborSpeed.label>
+  <UnskilledLaborSpeed.description>La velocidad a la cual esta persona realiza trabajo no calificado como hacer bloques de piedra, hacer biocombustible en una refinería o quemar artículos.</UnskilledLaborSpeed.description>
+
+
   <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
 
   <SculptingSpeed.label>Velocidad de esculpido</SculptingSpeed.label>
@@ -15,8 +21,8 @@
 
   <!-- Production recipes - speed affected by skill because there is no output quality -->
 
-  <DrugProductionSpeed.label>Velocidad de producción de drogas</DrugProductionSpeed.label>
-  <DrugProductionSpeed.description>Velocidad a la que esta persona produce drogas.</DrugProductionSpeed.description>
+  <DrugSynthesisSpeed.label>Velocidad de sintetización de drogas</DrugSynthesisSpeed.label>
+  <DrugSynthesisSpeed.description>La rapidez con la que este personaje sintetiza drogas químicas complejas.</DrugSynthesisSpeed.description>
 
   <CookSpeed.label>Velocidad de cocinado</CookSpeed.label>
   <CookSpeed.description>Velocidad a la que esta persona prepara comidas.</CookSpeed.description>
@@ -24,17 +30,14 @@
   <FoodPoisonChance.label>Probabilidad de intoxicar comida</FoodPoisonChance.label>
   <FoodPoisonChance.description>Las probabilidades que tiene este personaje de intoxicar la comida involuntariamente mientras cocina.</FoodPoisonChance.description>
 
-  <BrewingSpeed.label>Velocidad de elaboración de cerveza</BrewingSpeed.label>
-  <BrewingSpeed.description>La velocidad a la que esta persona elabora cerveza.</BrewingSpeed.description>
+  <DrugCookingSpeed.label>Velocidad de cocción de la droga</DrugCookingSpeed.label>
+  <DrugCookingSpeed.description>La velocidad a la que esta persona elabora cerveza y té, o fabrica productos de drogas simples como curros de Viejo Tovi.</DrugCookingSpeed.description>
 
   <ButcheryFleshSpeed.label>Velocidad de despieze</ButcheryFleshSpeed.label>
   <ButcheryFleshSpeed.description>Velocidad a la que esta persona despieza animales.</ButcheryFleshSpeed.description>
 
   <ButcheryMechanoidSpeed.label>Velocidad de desmontaje</ButcheryMechanoidSpeed.label>
   <ButcheryMechanoidSpeed.description>Velocidad a la que esta persona puede desensamblar un mecanoide.</ButcheryMechanoidSpeed.description>
-
-  <MechanoidOperationSuccessChance.label>Oportunidad de éxito de la operación mecanoide</MechanoidOperationSuccessChance.label>
-  <MechanoidOperationSuccessChance.description>La posibilidad de que un personaje realice una operación en un mecanoide con éxito. Las fallas pueden resultar en la pérdida de partes cosechadas y daños al objeto.</MechanoidOperationSuccessChance.description>
 
   <ButcheryFleshEfficiency.label>Eficiencia del despieze</ButcheryFleshEfficiency.label>
   <ButcheryFleshEfficiency.description>Multiplicador aplicado a la cantidad de carne producida al despiezar criaturas.</ButcheryFleshEfficiency.description>

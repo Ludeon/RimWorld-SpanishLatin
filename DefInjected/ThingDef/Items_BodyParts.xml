@@ -1,43 +1,75 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-    <!-- natural -->
-    
-    <Heart.label>Corazón</Heart.label>
-    <Heart.description>Abastece de sangre y oxígeno a todas las partes del organismo. Listo para encontrar un nuevo dueño.</Heart.description>
-    
-    <Lung.label>Pulmón</Lung.label>
-    <Lung.description>Parte esencial del sistema respiratorio.</Lung.description>
-    
-    <Kidney.label>Riñon</Kidney.label>
-    <Kidney.description>Filtra y elimina deshechos de la sangre.</Kidney.description>
-    
-    <Liver.label>Hígado</Liver.label>
-    <Liver.description>Desempeña un importante papel en el metabolismo.</Liver.description>
-    
-    <!-- artificial - simple prosthetics -->
-    
-    <SimpleProstheticLeg.label>Pierna prostética sencilla</SimpleProstheticLeg.label>
-    <SimpleProstheticLeg.description>Una sencilla prótesis para reemplazar piernas amputadas. No muy cómoda, pero efectiva.</SimpleProstheticLeg.description>
-    
-    <SimpleProstheticArm.label>Brazo prostético sencillo</SimpleProstheticArm.label>
-    <SimpleProstheticArm.description>Sencilla pero duradera prótesis para el brazo.</SimpleProstheticArm.description>
-    
-    <!-- artificial - bionics -->
-    
-    <BionicEye.label>Ojo biónico</BionicEye.label>
-    <BionicEye.description>Un avanzado dispositivo tecnológico diseñado no solo para reemplazar completamente un ojo natural, sino también proporcionar capacidades de visión sobrenaturales.</BionicEye.description>
-    
-    <BionicArm.label>Brazo biónico</BionicArm.label>
-    <BionicArm.description>Una de las prótesis de brazo más sofisticadas. Proporciona una fuerza extrema al usuario.</BionicArm.description>
-    
-    <BionicLeg.label>Pierna biónica</BionicLeg.label>
-    <BionicLeg.description>La pierna biónica utiliza tecnología de punta para proporcionar a su dueño un enorme grado de fuerza y comodidad al caminar.</BionicLeg.description>
-    
-    <PowerClaw.label>Garra hidráulica</PowerClaw.label>
-    <PowerClaw.description>Potente sustitución para la mano, consiste en tres mortiferas garras.</PowerClaw.description>
-    
-    <ScytherBlade.label>Cuchilla de Segador</ScytherBlade.label>
-    <ScytherBlade.description>Reemplazo para la mano consistente en una cuchilla. No es nada cómoda, pero bastante efectiva como un arma cuerpo a cuerpo.</ScytherBlade.description>
+  <!-- natural -->
+
+  <Heart.label>Corazón</Heart.label>
+  <Heart.description>Abastece de sangre y oxígeno a todas las partes del organismo. Listo para encontrar un nuevo dueño.</Heart.description>
+
+  <Lung.label>Pulmón</Lung.label>
+  <Lung.description>Parte esencial del sistema respiratorio.</Lung.description>
+
+  <Kidney.label>Riñon</Kidney.label>
+  <Kidney.description>Filtra y elimina deshechos de la sangre.</Kidney.description>
+
+  <Liver.label>Hígado</Liver.label>
+  <Liver.description>Desempeña un importante papel en el metabolismo.</Liver.description>
+
+
+  <!-- simple prosthetics (industrial tech) -->
+
+  <SimpleProstheticLeg.label>Pierna prostética sencilla</SimpleProstheticLeg.label>
+  <SimpleProstheticLeg.description>Una sencilla prótesis para reemplazar piernas amputadas. No muy cómoda, pero efectiva.</SimpleProstheticLeg.description>
+
+  <SimpleProstheticArm.label>Brazo prostético sencillo</SimpleProstheticArm.label>
+  <SimpleProstheticArm.description>Sencilla pero duradera prótesis para el brazo.</SimpleProstheticArm.description>
+
+  <SimpleProstheticHeart.label>Corazón protésico</SimpleProstheticHeart.label>
+  <SimpleProstheticHeart.description>Una prótesis cardíaca. Contiene un motor eléctrico que bombea sangre suavemente alrededor del cuerpo. Los usuarios a menudo informan que se sienten cansados, pero es mejor que la alternativa.</SimpleProstheticHeart.description>
+
+  <CochlearImplant.label>Oído protésico</CochlearImplant.label>
+  <CochlearImplant.description>Un implante que reemplaza la audición normal. Un micrófono externo transmite una señal de sonido a los electrodos que rodean los nervios auditivos del oído interno. Los electrodos estimulan los nervios según el sonido, creando una sensación de audición. No es tan bueno como un oído natural, pero es mucho mejor que ser sordo.</CochlearImplant.description>
+
+
+  <!-- bionics (spacer tech) -->
+
+  <BionicEye.label>Ojo biónico</BionicEye.label>
+  <BionicEye.description>Un avanzado dispositivo tecnológico diseñado no solo para reemplazar completamente un ojo natural, sino también proporcionar capacidades de visión sobrenaturales.</BionicEye.description>
+
+  <BionicArm.label>Brazo biónico</BionicArm.label>
+  <BionicArm.description>Una de las prótesis de brazo más sofisticadas. Proporciona una fuerza extrema al usuario.</BionicArm.description>
+
+  <BionicLeg.label>Pierna biónica</BionicLeg.label>
+  <BionicLeg.description>La pierna biónica utiliza tecnología de punta para proporcionar a su dueño un enorme grado de fuerza y comodidad al caminar.</BionicLeg.description>
+
+  <BionicSpine.label>Columna Vertebral biónica</BionicSpine.label>
+  <BionicSpine.description>Una columna vertebral artificial avanzada. Un haz de nervios de biogel recorre un núcleo de plastiacero articulado, rodeado por un sistema de curación de polvo en forma de red. Coincide con el rendimiento de una columna vertebral biológica.</BionicSpine.description>
+
+  <BionicHeart.label>Corazón biónico</BionicHeart.label>
+  <BionicHeart.description>Un corazón artificial avanzado. Tiene fibras musculares sintéticas para un latido realista del corazón, además de una bomba de alto flujo para una circulación rápida durante el estrés. Es mejor que un corazón biológico en casi todos los sentidos.</BionicHeart.description>
+
+  <BionicStomach.label>Estómago biónico</BionicStomach.label>
+  <BionicStomach.description>Un estómago artificial avanzado. Un conjunto de sensores y sintetizadores químicos digieren eficientemente casi todos los alimentos que contienen energía. Un sistema integrado de cicatrización de polvo en forma de rejilla repara automáticamente cualquier daño causado por los poderosos ácidos. Es mejor que un estómago biológico en casi todos los sentidos.</BionicStomach.description>
+
+  <BionicEar.label>Oído biónico</BionicEar.label>
+  <BionicEar.description>Un implante de oído artificial avanzado. Una colección de micrófonos subdérmicos invisibles captan el sonido y lo transmiten a una interfaz nerviosa de biogel que se conecta directamente con el nervio auditivo. Es lo suficientemente sensible como para escuchar a un gato antes de que usted lo vea, no puede ser dañado por ruidos fuertes, y automáticamente se sintoniza a sí mismo para seleccionar sonidos significativos en ambientes ruidosos.</BionicEar.description>
+
+
+  <!-- bionic non-makeable -->
+
+  <PowerClaw.label>Garra hidráulica</PowerClaw.label>
+  <PowerClaw.description>Potente sustitución para la mano, consiste en tres mortiferas garras.</PowerClaw.description>
+
+
+  <!-- archotech -->
+
+  <ArchotechEye.label>Ojo arqueotécnico</ArchotechEye.label>
+  <ArchotechEye.description>Un ojo artificial construido por un arqueólogo. Percibe todo tipo de radiación electromagnética, incluyendo ondas de radio, infrarrojos, luz, rayos X y rayos gamma. Su agudeza visual es lo suficientemente precisa como para leer la escritura a veinte metros de distancia. Puede emitir varias longitudes de onda de radiación como una linterna, y tiene una subpersona AI interna que ayuda a resaltar información visual útil. Externamente, parece un ojo humano natural, excepto que puede cambiar de color a voluntad. Su funcionamiento interno es un misterio para todas las mentes humanas.</ArchotechEye.description>
+
+  <ArchotechArm.label>Brazo arqueotécnico</ArchotechArm.label>
+  <ArchotechArm.description>Un brazo artificial construido por un arqueólogo. Es lo suficientemente fuerte como para aplastar una gruesa rama de madera dura en su mano, y lo suficientemente preciso como para escribir un soneto en un grano de arroz. Parece y se siente como carne natural, pero es más difícil de dañar que el plastiacero. Incluso si se daña, se repara a sí misma con el tiempo. Su funcionamiento interno es un misterio para todas las mentes humanas.</ArchotechArm.description>
+
+  <ArchotechLeg.label>Pierna arqueotécnica</ArchotechLeg.label>
+  <ArchotechLeg.description>Una pierna artificial construida por un arqueólogo. Parece y se siente como carne natural, pero un par de estos puede mover al usuario tan rápido como un coche decente, y es más difícil de dañar que el plastiacero. Incluso si se daña, se repara a sí misma con el tiempo. Su funcionamiento interno es un misterio para todas las mentes humanas.</ArchotechLeg.description>
     
 </LanguageData>

@@ -3,28 +3,22 @@
 
   <!-- Mental breaks: extreme -->
 
-  <Berserk.label>frenético</Berserk.label>
+  <Berserk.label>Frenético</Berserk.label>
   <Berserk.beginLetter>¡{0} se ha puesto frenético!</Berserk.beginLetter>
   <Berserk.beginLetterLabel>Frenético</Berserk.beginLetterLabel>
   <Berserk.recoveryMessage>La ira frenética de {0} se ha terminado.</Berserk.recoveryMessage>
   <Berserk.baseInspectLine>Estado Mental: Frenético</Berserk.baseInspectLine>
 
-  <FireStartingSpree.label>piromanía</FireStartingSpree.label>
+  <FireStartingSpree.label>Piromanía</FireStartingSpree.label>
   <FireStartingSpree.beginLetter>{0} tiene un ataque piromaniaco.</FireStartingSpree.beginLetter>
   <FireStartingSpree.beginLetterLabel>Piromanía</FireStartingSpree.beginLetterLabel>
   <FireStartingSpree.recoveryMessage>Se ha calmado el ataque de piromanía de {0}.</FireStartingSpree.recoveryMessage>
   <FireStartingSpree.baseInspectLine>Estado Mental: Piromanía</FireStartingSpree.baseInspectLine>
 
-  <GiveUpExit.label>deserción</GiveUpExit.label>
-  <GiveUpExit.beginLetter>{0} se ha dado por vencido(a) y está abandonando la colonia.</GiveUpExit.beginLetter>
-  <GiveUpExit.beginLetterLabel>Deserción</GiveUpExit.beginLetterLabel>
-  <GiveUpExit.recoveryMessage>{0} ha cambiado de parecer y está regresando a la colonia.</GiveUpExit.recoveryMessage>
-  <GiveUpExit.baseInspectLine>Estado Mental: Deserción</GiveUpExit.baseInspectLine>
+  <Binging_DrugExtreme.label>Atracón de drogas</Binging_DrugExtreme.label>
+  <Binging_DrugExtreme.baseInspectLine>Estado mental: Drograndose con {0}</Binging_DrugExtreme.baseInspectLine>
 
-  <BingingDrugExtreme.label>atracón de droga extremo</BingingDrugExtreme.label>
-  <BingingDrugExtreme.baseInspectLine>Estado Mental: Sobredosis extremo de droga</BingingDrugExtreme.baseInspectLine>
-
-  <Jailbreaker.label>Incitando escape de prisionero</Jailbreaker.label>
+  <Jailbreaker.label>Incitando fuga</Jailbreaker.label>
   <Jailbreaker.beginLetter>{0} tiene un colapso mental y va a incitar a los prisioneros a escapar.</Jailbreaker.beginLetter>
   <Jailbreaker.beginLetterLabel>Incitando fuga</Jailbreaker.beginLetterLabel>
   <Jailbreaker.recoveryMessage>{0} ya no está incitando a los prisioneros a escapar.</Jailbreaker.recoveryMessage>
@@ -42,17 +36,23 @@
   <MurderousRage.recoveryMessage>{0} ya no tiene Ira Asesina.</MurderousRage.recoveryMessage>
   <MurderousRage.baseInspectLine>Estado Mental: Ira Asesina</MurderousRage.baseInspectLine>
 
+  <GiveUpExit.label>Deserción</GiveUpExit.label>
+  <GiveUpExit.beginLetter>{0} se ha dado por vencido(a) y está abandonando la colonia.</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetterLabel>Deserción</GiveUpExit.beginLetterLabel>
+  <GiveUpExit.recoveryMessage>{0} ha cambiado de parecer y está regresando a la colonia.</GiveUpExit.recoveryMessage>
+  <GiveUpExit.baseInspectLine>Estado Mental: Deserción</GiveUpExit.baseInspectLine>
+
 
   <!-- Mental breaks: major -->
 
-  <BingingDrugMajor.label>atracón de droga</BingingDrugMajor.label>
-  <BingingDrugMajor.baseInspectLine>Estado Mental: Drograndose con {0}</BingingDrugMajor.baseInspectLine>
+  <Binging_DrugMajor.label>Atracón de Droga Extremo</Binging_DrugMajor.label>
+  <Binging_DrugMajor.baseInspectLine>Estado mental: Drograndose con {0}</Binging_DrugMajor.baseInspectLine>
 
-  <WanderPsychotic.label>vagando aturdido</WanderPsychotic.label>
-  <WanderPsychotic.beginLetter>{0} ha colapsado mentalmente y está vagando por ahí, completamente aturdido(a).</WanderPsychotic.beginLetter>
-  <WanderPsychotic.beginLetterLabel>Aturdido</WanderPsychotic.beginLetterLabel>
-  <WanderPsychotic.recoveryMessage>{0} ya no está aturdido(a).</WanderPsychotic.recoveryMessage>
-  <WanderPsychotic.baseInspectLine>Estado Mental: Aturdido</WanderPsychotic.baseInspectLine>
+  <Wander_Psychotic.label>Vagando Aturdido</Wander_Psychotic.label>
+  <Wander_Psychotic.beginLetter>{0} ha colapsado mentalmente y está vagando por ahí, completamente aturdido/a.</Wander_Psychotic.beginLetter>
+  <Wander_Psychotic.beginLetterLabel>Aturdido</Wander_Psychotic.beginLetterLabel>
+  <Wander_Psychotic.recoveryMessage>{0} ya no está aturdido.</Wander_Psychotic.recoveryMessage>
+  <Wander_Psychotic.baseInspectLine>Estado Mental: Aturdido</Wander_Psychotic.baseInspectLine>
 
   <Tantrum.label>Rabieta</Tantrum.label>
   <Tantrum.beginLetter>{0} está teniendo una rabieta.</Tantrum.beginLetter>
@@ -87,23 +87,23 @@
 
   <!-- Mental breaks: minor -->
 
-  <BingingFood.label>atracón de comida</BingingFood.label>
-  <BingingFood.beginLetter>{0} se está tragantando toda la comida.</BingingFood.beginLetter>
-  <BingingFood.beginLetterLabel>Atracón</BingingFood.beginLetterLabel>
-  <BingingFood.recoveryMessage>{0} dejó de atragantarse toda la comida.</BingingFood.recoveryMessage>
-  <BingingFood.baseInspectLine>Estado Mental: Atracón</BingingFood.baseInspectLine>
+  <Binging_Food.label>Atracón de Comida</Binging_Food.label>
+  <Binging_Food.beginLetter>{0} se está tragantando toda la comida.</Binging_Food.beginLetter>
+  <Binging_Food.beginLetterLabel>Atracón</Binging_Food.beginLetterLabel>
+  <Binging_Food.recoveryMessage>{0} dejó de atragantarse toda la comida.</Binging_Food.recoveryMessage>
+  <Binging_Food.baseInspectLine>Estado Mental: Atracón</Binging_Food.baseInspectLine>
 
-  <WanderSad.label>vagando triste</WanderSad.label>
-  <WanderSad.beginLetter>{0} está vagando por ahí, embargado(a) de tristeza.</WanderSad.beginLetter>
-  <WanderSad.beginLetterLabel>Tristeza</WanderSad.beginLetterLabel>
-  <WanderSad.recoveryMessage>{0} ha dejado de vagar por ahí.</WanderSad.recoveryMessage>
-  <WanderSad.baseInspectLine>Estado Mental: Tristeza</WanderSad.baseInspectLine>
+  <Wander_Sad.label>Vagando Triste</Wander_Sad.label>
+  <Wander_Sad.beginLetter>{0} está vagando por ahí, sufriendo de tristeza.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetterLabel>Tristeza</Wander_Sad.beginLetterLabel>
+  <Wander_Sad.recoveryMessage>{0} ha dejado de vagar por ahí.</Wander_Sad.recoveryMessage>
+  <Wander_Sad.baseInspectLine>Estado Mental: Tristeza</Wander_Sad.baseInspectLine>
 
-  <WanderOwnRoom.label>encerrado en su habitación</WanderOwnRoom.label>
-  <WanderOwnRoom.beginLetter>{0} se ha encerrado(a) en su habitación.</WanderOwnRoom.beginLetter>
-  <WanderOwnRoom.beginLetterLabel>Encerrado(a)</WanderOwnRoom.beginLetterLabel>
-  <WanderOwnRoom.recoveryMessage>{0} ya no está encerrado(a) en su habitación.</WanderOwnRoom.recoveryMessage>
-  <WanderOwnRoom.baseInspectLine>Estado Mental: Encerrado(a)</WanderOwnRoom.baseInspectLine>
+  <Wander_OwnRoom.label>Encerrado en su Habitación</Wander_OwnRoom.label>
+  <Wander_OwnRoom.beginLetter>{0} está escondido en [PAWN_possessive] habitación.</Wander_OwnRoom.beginLetter>
+  <Wander_OwnRoom.beginLetterLabel>Encerrado/a</Wander_OwnRoom.beginLetterLabel>
+  <Wander_OwnRoom.recoveryMessage>{0} ya no está escondido en [PAWN_possessive] habitación.</Wander_OwnRoom.recoveryMessage>
+  <Wander_OwnRoom.baseInspectLine>Estado Mental: Encerrado/a</Wander_OwnRoom.baseInspectLine>
 
   <InsultingSpree.label>Alboroto</InsultingSpree.label>
   <InsultingSpree.beginLetter>{0} está haciendo un alboroto insultando a todo aquel que pase.</InsultingSpree.beginLetter>

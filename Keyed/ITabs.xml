@@ -19,7 +19,8 @@
   <TabRecords>Registros</TabRecords>
   <TabArt>Arte</TabArt>
   <TabSocial>Social</TabSocial>
-  <TabCombat>Combate</TabCombat>
+  <TabLog>Registro</TabLog>
+  <TabFormingCaravan>Caravan</TabFormingCaravan>
 
 
   <!-- Bills tab  -->
@@ -29,6 +30,14 @@
   <SuspendedCaps>SUSPENDIDO</SuspendedCaps>
   <BoundWorkerIs>Trabajador: {0}</BoundWorkerIs>
   <PlantVerb>Sembrar</PlantVerb>
+  <ClipboardBillNotAvailableHere>La facturas copiadas no se pueden pegar aquí.</ClipboardBillNotAvailableHere>
+  <ReorderBillUpTip>Desplazar hacia arriba</ReorderBillUpTip>
+  <ReorderBillDownTip>Desplazar hacia abajo</ReorderBillDownTip>
+  <DeleteBillTip>Borrar</DeleteBillTip>
+  <CopyBillTip>Copiar al portapapeles</CopyBillTip>
+  <SuspendBillTip>Suspender</SuspendBillTip>
+  <PasteBillTip>Pegar</PasteBillTip>
+  <PasteBillTip_LimitReached>no puede añadir más</PasteBillTip_LimitReached>
 
 
   <!-- Guest/prisoner tab -->
@@ -53,7 +62,7 @@
   <InPain>Adolorido(a)</InPain>
   <PainLevel>Dolor</PainLevel>
   <Injured>Herido(a)</Injured>
-  <NoInjuries>(sin heridas)</NoInjuries>
+  <NoHealthConditions>Ningún problema de salud</NoHealthConditions>
   <WholeBody>Cuerpo completo</WholeBody>
   <DataProcessing>Procesamiento de datos</DataProcessing>
   <Communication>Comunicación</Communication>
@@ -66,10 +75,10 @@
   <MedicalOperationsMechanoidsShort>Modificaciones ({0})</MedicalOperationsMechanoidsShort>
   <MedicalOperations>Operaciones médicas</MedicalOperations>
   <Amputate>Amputar</Amputate>
-  <Harvest>Cosechar</Harvest>
+  <HarvestOrgan>Cosechar</HarvestOrgan>
   <RemoveOrgan>Remover</RemoveOrgan>
-  <MemoryLower>memoria</MemoryLower>
-  <SocialInteractionsLower>interacciones sociales</SocialInteractionsLower>
+  <MemoryLower>Memoria</MemoryLower>
+  <SocialInteractionsLower>Interacciones sociales</SocialInteractionsLower>
   <HungerRate>Tasa de hambre</HungerRate>
   <Tiredness>Cansancio</Tiredness>
   <PainFactor>Dolor</PainFactor>
@@ -95,8 +104,8 @@
   <ExtremePain>Extremo</ExtremePain>
 
 
-  <!-- Training tab-->
-  <TrainableIntelligence>Inteligencia entrenable</TrainableIntelligence>
+  <!-- Training tab -->
+  <Trainability>Inteligencia entrenable</Trainability>
   <CannotTrainNotSmartEnough>Requiere inteligencia entrenable del {0}.</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>{0} es demasiado pequeño(a) como para ser entrenado en ésto.</CannotTrainTooSmall>
 
@@ -114,12 +123,35 @@
   <IAmPsychopath>Soy un psicópata</IAmPsychopath>
 
   <!-- Gear tab -->
-  <AverageArmor>Armadura promedio</AverageArmor>
+  <OverallArmor>Blindaje general</OverallArmor>
   <MassCarried>Peso cargado: {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>Rango de temperaturas cómodas</ComfyTemperatureRange>
   <ArmorBlunt>Contundente</ArmorBlunt>
   <ArmorSharp>Cortante</ArmorSharp>
   <ArmorHeat>Calor</ArmorHeat>
-  <ArmorElectric>Electricidad</ArmorElectric>
+
+  <!-- Log tab -->
+  <ShowAll>Mostrar todos</ShowAll>
+  <ShowCombat>Mostrar combate</ShowCombat>
+  <ShowSocial>Mostrar social</ShowSocial>
+  <NoRecentEntries>no hay entradas recientes</NoRecentEntries>
+  <CopyLogTip>Copiar registro en el portapapeles.</CopyLogTip>
+
+  <!-- Forming caravan tab -->
+  <FormingCaravanStatus_GatheringAnimals>Recogida de animales</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>Recogida de animales (Esperando)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringItems>Recogida de artículos</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems_Pause>Recogida de artículos (Esperando)</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringSlaves>Reunir prisioneros</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>Reunir prisioneros (Esperando)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <FormingCaravanStatus_Leaving>Saliendo</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving_Pause>Saliendo (Esperando)</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Waiting>Esperando</FormingCaravanStatus_Waiting>
+  <CaravanMembers>Miembros</CaravanMembers>
+  <CaravanAnimals>Animales</CaravanAnimals>
+  <ItemsToLoad>Artículos a cargar</ItemsToLoad>
+  <LoadedItems>Artículos cargados</LoadedItems>
+  <PackAnimalsCountLower>Animales de carga</PackAnimalsCountLower>
+  <InMentalStateCountLower>Mentalmente incapacitado</InMentalStateCountLower>
 
 </LanguageData>

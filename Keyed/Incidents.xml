@@ -13,24 +13,19 @@
   <MiracleHeal>¡{0} ha experimentado una recuperación milagrosa!</MiracleHeal>
 
   <!-- Enemy raids -->
-  <EnemyRaidWalkIn>Un grupo de {0} de la facción {1} ha llegado a las cercanías.</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>Un grupo de {0} de la facción {1} ha realizado un desembarco orbital en las cercanías.</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>¡Un grupo de {0} de {1} ha realizado un desembarco orbital justo encima de vosotros!</EnemyRaidCenterDrop>
   <EnemyRaidLeaderPresent>Uno de los {0} - {1}, es el lider de la faccion.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <FriendlyRaidWalkIn>Un grupo aliado de {0} de la facción {1} ha llegado a las cercanías.</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>Un grupo aliado de {0} de la facción {1} ha realizado un desembarco orbital en las cercanías.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>¡Un grupo aliado de  {0} de la facción {1} ha realizado un desembarco orbital justo encima de vosotros!</FriendlyRaidCenterDrop>
   <FriendlyRaidLeaderPresent>Uno de los {0} - {1}, es el lider de la faccion.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>Hemos detectado una cápsula de escape estrellándose en las cercanías\n\nSi alguien ha sobrevivido al impacto estará gravemente herido.</RefugeePodCrash>
+  <RefugeePodCrashFactionWarning>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturando [PAWN_objective] los enfurecerá, mientras rescata y sana [PAWN_objective] mejorará las relaciones entre las facciones.</RefugeePodCrashFactionWarning>
 
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
   <CargoPodCrash>Hemos detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nSi cualquier persona ha sobrevivido al impacto, estara gravemente herido.\n\nPodras rescatarlos y enviarles por su camino. Ó capturarlos con fines de reclutamiento o esclavitud.</CargoPodCrash>
 
-  <AnElectricalConduit>un circuito eléctrico</AnElectricalConduit>
+  <AnElectricalConduit>Un circuito eléctrico</AnElectricalConduit>
   <ShortCircuit>Un fallo en {0} ha causado un cortocircuito.</ShortCircuit>
   <ShortCircuitStartedFire>Una falla en {0} ha causado un cortocircuito y ha iniciado un incendio.</ShortCircuitStartedFire>
   <ShortCircuitDischargedEnergy>Un total de {0} Wd de energía en las baterías conectadas a la red eléctrica han sido descargadas debido a una explosión.</ShortCircuitDischargedEnergy>
@@ -147,12 +142,14 @@
   <CaravanDemand_Fight>Rechazar y luchar</CaravanDemand_Fight>
 
   <!-- Temporary item stash -->
-  <ItemStashQuestTitle>Oportunidad de encontrar artículos</ItemStashQuestTitle>
-  <ItemStashQuest_Accept>Aceptar</ItemStashQuest_Accept>
-  <ItemStashQuest_Reject>Rechazar</ItemStashQuest_Reject>
-  <ItemStashQuestFeeDemand>{0} está dispuesto a decirnos la ubicación del escondite a cambio de {1} de plata.</ItemStashQuestFeeDemand>
   <ItemStashSitePart_Unknown>Desafortunadamente, {0} no tiene ni idea de quién o qué (si lo hubiese) podría estar cuidando el escondite.</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0} dice que el escondite no está vigilado.</ItemStashSitePart_Nothing>
   <ItemStashSitePart_Part>{0} dice que {1}.</ItemStashSitePart_Part>
+
+  <!-- Site no longer hostile -->
+  <LetterLabelSiteNoLongerHostile>Misión ya no disponible</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostileMulti>Misión ya no disponible</LetterLabelSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostile>Porque ya no eres hostil con {0}, el {1} ya no está disponible.</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostileMulti>Porque ya no eres hostil con {0}, los siguientes sitios ya no están disponibles</LetterSiteNoLongerHostileMulti>
 
 </LanguageData>

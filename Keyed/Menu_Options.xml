@@ -1,54 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!-- Audiovisuals -->
-    <Audiovisuals>Audio/Video</Audiovisuals>
-    <GameVolume>Volumen del juego</GameVolume>
-    <MusicVolume>Volumen de la música</MusicVolume>
-    <AmbientVolume>Volumen del ambiente</AmbientVolume>
-    <Antialiasing>Anti-alias</Antialiasing>
+  <!-- Audiovisuals -->
+  <Audiovisuals>Audio/Video</Audiovisuals>
+  <GameVolume>Volumen del juego</GameVolume>
+  <MusicVolume>Volumen de la música</MusicVolume>
+  <AmbientVolume>Volumen del ambiente</AmbientVolume>
+  <Antialiasing>Anti-alias</Antialiasing>
 
-    <!-- Gameplay -->
-    <EdgeScreenScroll>Desplazar pantalla con el ratón</EdgeScreenScroll>
-    <PauseOnLoad>Pausar al cargar</PauseOnLoad>
-    <PauseOnUrgentLetter>Pausa de aviso urgente</PauseOnUrgentLetter>
-    <CustomCursor>Cursor personalizado</CustomCursor>
-    <HatsShownOnlyOnMap>Mostrar leyendas únicamente en el mapa del juego</HatsShownOnlyOnMap>
+  <!-- Gameplay -->
+  <EdgeScreenScroll>Desplazar pantalla con el ratón</EdgeScreenScroll>
+  <PauseOnLoad>Pausar al cargar</PauseOnLoad>
+  <PauseOnUrgentLetter>Pausa de aviso urgente</PauseOnUrgentLetter>
+  <CustomCursor>Cursor personalizado</CustomCursor>
+  <HatsShownOnlyOnMap>Mostrar leyendas únicamente en el mapa del juego</HatsShownOnlyOnMap>
   <UIScale>Escala de interfaz</UIScale>
-    <KeyboardConfig>Configuración del teclado</KeyboardConfig>
-    <ChooseLanguage>Escoger idioma</ChooseLanguage>
-    <ResetAdaptiveTutor>Reiniciar tutor adaptativo</ResetAdaptiveTutor>
-    <AdaptiveTutorIsReset>El tutor adaptativo se ha reiniciado. Ahora te enseñará todo desde el inicio.</AdaptiveTutorIsReset>
-    <RunInBackground>Correr en segundo plano</RunInBackground>
-    <DevelopmentMode>Modo de Desarrollo</DevelopmentMode>
-    <ResetModsConfigOnCrash>Reiniciar mods por fallo</ResetModsConfigOnCrash>
-    <LogVerbose>Registro elocuente</LogVerbose>
-    <OpenSaveGameDataFolder>Abrir carpeta de juegos guardados</OpenSaveGameDataFolder>
-    <NamesYouWantToSee>Apellidos de los "Nombres en el juego" o los "Trasfondos en el juego" que deseas ver:</NamesYouWantToSee>
-    <AddName>Añadir nombre</AddName>
-    <TypeFirstNickOrLastName>Escribe el nombre, apodo o apellido.</TypeFirstNickOrLastName>
-    <MessageAlreadyPreferredName>Este nombre ya está en la lista de preferidos.</MessageAlreadyPreferredName>
-    <ChangeStoryteller>Escoger IA cuentacuentos</ChangeStoryteller>
-    <AutosaveInterval>Autoguardado</AutosaveInterval>
-    <TemperatureMode>Temperatura</TemperatureMode>
-    <ShowRealtimeClock>Reloj de tiempo real</ShowRealtimeClock>
-    <MaxNumberOfPlayerHomes>Número máximo de asentamientos: {0}</MaxNumberOfPlayerHomes>
-    <PlantWindSway>Vaivén de plantas por viento</PlantWindSway>
-    <MaxPermadeathAutosaveIntervalInfo>El máximo intervalo de autoguardado en el modo perma-muerte es de {0} días.</MaxPermadeathAutosaveIntervalInfo>
-    <ModSettings>Configurar Mod</ModSettings>
+  <KeyboardConfig>Configuración del teclado</KeyboardConfig>
+  <ChooseLanguage>Escoger idioma</ChooseLanguage>
+  <ResetAdaptiveTutor>Reiniciar tutor adaptativo</ResetAdaptiveTutor>
+  <AdaptiveTutorIsReset>El tutor adaptativo se ha reiniciado. Ahora te enseñará todo desde el inicio.</AdaptiveTutorIsReset>
+  <RunInBackground>Correr en segundo plano</RunInBackground>
+  <DevelopmentMode>Modo de Desarrollo</DevelopmentMode>
+  <ResetModsConfigOnCrash>Reiniciar mods por fallo</ResetModsConfigOnCrash>
+  <LogVerbose>Registro elocuente</LogVerbose>
+  <OpenSaveGameDataFolder>Abrir carpeta de juegos guardados</OpenSaveGameDataFolder>
+  <ShowSaveGameDataLocation>Mostrar la ubicación de los datos guardados</ShowSaveGameDataLocation>
+  <NamesYouWantToSee>Apellidos de los "Nombres en el juego" o los "Trasfondos en el juego" que deseas ver:</NamesYouWantToSee>
+  <AddName>Añadir nombre</AddName>
+  <TypeFirstNickOrLastName>Escribe el nombre, apodo o apellido.</TypeFirstNickOrLastName>
+  <MessageAlreadyPreferredName>Este nombre ya está en la lista de preferidos.</MessageAlreadyPreferredName>
+  <ChangeStoryteller>Escoger IA cuentacuentos</ChangeStoryteller>
+  <AutosaveInterval>Autoguardado</AutosaveInterval>
+  <TemperatureMode>Temperatura</TemperatureMode>
+  <ShowRealtimeClock>Reloj de tiempo real</ShowRealtimeClock>
+  <MaxNumberOfPlayerHomes>Número máximo de asentamientos: {0}</MaxNumberOfPlayerHomes>
+  <PlantWindSway>Vaivén de plantas por viento</PlantWindSway>
+  <EnableTestMapSizes>Habilitar tamaños de mapa de pruebas</EnableTestMapSizes>
+  <MaxPermadeathAutosaveIntervalInfo>El máximo intervalo de autoguardado en el modo perma-muerte es de {0} días.</MaxPermadeathAutosaveIntervalInfo>
+  <ModSettings>Configurar Mod</ModSettings>
+  <PermanentlyDisableDevMode>Permanently disable development mode</PermanentlyDisableDevMode>
 
-    <!-- Resolution -->
-    <Resolution>Resolución</Resolution>
-    <Fullscreen>Pantalla completa</Fullscreen>
+  <!-- Resolution -->
+  <Resolution>Resolución</Resolution>
+  <Fullscreen>Pantalla completa</Fullscreen>
 
-    <!-- Privacy-->
-    <Privacy>Privacidad</Privacy>
-    <UserName>Nombre de usuario</UserName>
-    <ChooseHistoryUploadPref>Preferencia para el envío de datos de jugabilidad</ChooseHistoryUploadPref>
-    <AboutHistoryUpload>Los datos de jugabilidad de los usuarios ayudan a los desarrolladores a balancear el juego. Si aceptas, tu información será enviada cada {0} días de juego (así como en otros casos, como al finalizar una partida) al servidor de Rimworld para ser analizados. Los datos de jugabilidad enviados consisten solamente de estadísticas y archivos históricos relacionados con el juego - ninguna información personal es enviada excepto el nombre de usuario, lo que significa que es completamente anónimo.</AboutHistoryUpload>
+  <!-- Privacy -->
+  <Privacy>Privacidad</Privacy>
+  <UserName>Nombre de usuario</UserName>
+  <ChooseHistoryUploadPref>Preferencia para el envío de datos de jugabilidad</ChooseHistoryUploadPref>
+  <AboutHistoryUpload>Los datos de jugabilidad de los usuarios ayudan a los desarrolladores a balancear el juego. Si aceptas, tu información será enviada cada {0} días de juego (así como en otros casos, como al finalizar una partida) al servidor de Rimworld para ser analizados. Los datos de jugabilidad enviados consisten solamente de estadísticas y archivos históricos relacionados con el juego - ninguna información personal es enviada excepto el nombre de usuario, lo que significa que es completamente anónimo.</AboutHistoryUpload>
 
-    <!-- Mods -->
-    <SelectMod>Seleccionar mod...</SelectMod>
-    <NoConfigurableMods>No hay ningún mods configurado.</NoConfigurableMods>
+  <!-- Mods -->
+  <SelectMod>Seleccionar mod...</SelectMod>
+  <NoConfigurableMods>No hay ningún mods configurado.</NoConfigurableMods>
+
+  <!-- Options reset -->
+  <RestoreToDefaultSettings>Restablecer la configuración predeterminada</RestoreToDefaultSettings>
+  <ResetAndRestart>Sus opciones han sido reajustadas. El juego se reiniciará automáticamente.</ResetAndRestart>
 
 </LanguageData>

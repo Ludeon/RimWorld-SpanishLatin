@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <Tool>Herramienta</Tool>
+  <DamageLower>Daño</DamageLower>
+  <SecondsPerAttackLower>Segundos por ataque</SecondsPerAttackLower>
+
   <StatsReport_BaseValue>Valor base</StatsReport_BaseValue>
   <StatsReport_RelevantTraits>Rasgos relevantes</StatsReport_RelevantTraits>
   <StatsReport_RelevantGear>Equipamiento</StatsReport_RelevantGear>
@@ -14,7 +18,7 @@
   <HealthFactorPercentImpact>Importancia del {0}</HealthFactorPercentImpact>
   <HealthOffsetScale>{0} impacto</HealthOffsetScale>
   <HealthFactorMaxImpact>máx. {0}</HealthFactorMaxImpact>
-  <HealthFactorAllowedDefect>por debajo de {0}</HealthFactorAllowedDefect>
+  <HealthFactorAllowedDefect>Por debajo de {0}</HealthFactorAllowedDefect>
   <StatsReport_PostProcessed>Curva post-procesada</StatsReport_PostProcessed>
   <StatsReport_FinalValue>Valor final</StatsReport_FinalValue>
   <StatsReport_MarketValueFromStuffsAndWork>Valor de mercado base calculado a partir de los materiales de construcción y la cantidad del trabajo.</StatsReport_MarketValueFromStuffsAndWork>
@@ -36,11 +40,19 @@
   <StatsReport_MissingBodyParts>Multiplicador por partes del cuerpo perdidas</StatsReport_MissingBodyParts>
   <StatsReport_GearAndInventoryMass>Masa del equipo e inventario</StatsReport_GearAndInventoryMass>
   <StatsReport_WornByCorpse>Multiplicador por saqueo de cadáver</StatsReport_WornByCorpse>
-  <AverageOfAllAttacks>promedio de todos los ataques</AverageOfAllAttacks>
+  <AverageOfAllAttacks>Promedio de todos los ataques</AverageOfAllAttacks>
   <StatsReport_ScenarioFactor>Escenario</StatsReport_ScenarioFactor>
   <StatsReport_IngredientsMass>Ingredientes</StatsReport_IngredientsMass>
   <StatsReport_PermanentlyDisabled>Deshabilitado permanentemente.</StatsReport_PermanentlyDisabled>
   <StatsReport_Inspiration>{0}</StatsReport_Inspiration>
   <StatsReport_AddedBodyPartsMass>Partes del cuerpo añadidas</StatsReport_AddedBodyPartsMass>
+  <StatsReport_StuffEffectMultiplier>Material effect multiplier</StatsReport_StuffEffectMultiplier>
+  <StatsReport_Resting>Descansar</StatsReport_Resting>
+  <StatsReport_JoyKind>Tipo de recreación</StatsReport_JoyKind>
+  <StatsReport_PlantGrowth>Multiplicador para el crecimiento {0}</StatsReport_PlantGrowth>
+  <StatsReport_PlantGrowth_Wild>Escalado por ser salvaje</StatsReport_PlantGrowth_Wild>
+  <StatsReport_NotFlesh>No carne</StatsReport_NotFlesh>
+  <StatsReport_NotFresh>No fresco</StatsReport_NotFresh>
+  <StatsReport_WildMan>Hombre salvaje</StatsReport_WildMan>
 
 </LanguageData>

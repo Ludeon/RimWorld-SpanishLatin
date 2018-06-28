@@ -2,6 +2,7 @@
 <LanguageData>
 
   <FactionGreetingHostile>{0} escupe ciertas comparaciones groseras hacia el monitor y se desconecta.</FactionGreetingHostile>
+  <FactionGreetingHostileAppreciative>{0} exige que usted haga un gesto de buena voluntad, como llevar regalos a uno de los [PAWN_possessive] asentamientos o liberar [PAWN_possessive] los prisioneros de la facción ilesos. Hasta entonces, [PAWN_pronoun] no está dispuesto a hablar.\n\nMurmurar un insulto, [PAWN_pronoun] se desconecta.</FactionGreetingHostileAppreciative>
   <FactionGreetingWary>{0} saluda a {1} con cautela y pregunta por sus propios asuntos.</FactionGreetingWary>
   <FactionGreetingWarm>{0} saluda a {1} afectuosamente y pregunta por el estado de la colonia.</FactionGreetingWarm>
 
@@ -9,6 +10,8 @@
 
   <!-- gift offer -->
   <OfferGift>Ofrecer regalo</OfferGift>
+  <MustBeAlly>Debe ser un aliado</MustBeAlly>
+  <NeedGoodwill>necesitas {0} de buena voluntad</NeedGoodwill>
   <NeedSilverLaunchable>Necesitas {0} de plata cerca de una baliza de comercio</NeedSilverLaunchable>
   <NotEnoughSilver>No hay suficiente plata.</NotEnoughSilver>
   <SilverForGoodwill>{0} de plata por {1} de buena voluntad</SilverForGoodwill>
@@ -19,12 +22,18 @@
   <ChooseTraderKind>{0} pregunta que clase de caravana mercante necesitas.</ChooseTraderKind>
   <TraderSent>{0} acepta enviarte la caravana. Llegará en unos pocos días.</TraderSent>
   <WaitTime>espera {0}</WaitTime>
- 
+
+  <!-- AI core request -->
+  <RequestAICoreInformation>Solicite la ubicación de un {0} (costo: {1} de plata)</RequestAICoreInformation>
+  <RequestAICoreInformationResult>{0} envía la información solicitada y le desea buena suerte.</RequestAICoreInformationResult>
+  <NoKnownAICore>No se conocen más lugares</NoKnownAICore>
+
   <!-- military aid request -->
   <RequestMilitaryAid>Solicita apoyo militar inmediato ({0} de buena voluntad)</RequestMilitaryAid>
   <MilitaryAidConfirmMutualEnemy>{0} no te ayudará a pelear con otras facciones que no sean sus enemigos. Esto incluye algunas que te amenazan actualmente, {1}. ¿Aún quieres pedir ayuda?</MilitaryAidConfirmMutualEnemy>
   <CallConfirm>Si, llamémoslos de todos modos.</CallConfirm>
   <CallCancel>No, olvídalo.</CallCancel>
   <MilitaryAidSent>El representante de {0} acepta mandarte apoyo militar.</MilitaryAidSent>
+  <CantSendMilitaryAidInTime>{0} se disculpa y dice que no podrán llegar a tiempo.\n\n(El nivel tecnológico de esta facción es demasiado bajo para los módulos de transporte)</CantSendMilitaryAidInTime>
    
 </LanguageData>

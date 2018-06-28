@@ -3,24 +3,38 @@
     
   <Sandbags.label>Bolsas de arena</Sandbags.label>
   <Sandbags.description>Ofrecen cobertura contra disparos.</Sandbags.description>
-  <Sandbags_Blueprint.label>>Bolsas de arena (anteproyecto)</Sandbags_Blueprint.label>
-  <Sandbags_Frame.label>>Bolsas de arena (a medias)</Sandbags_Frame.label>
+  <Sandbags_Blueprint.label>&gt;Bolsas de arena (anteproyecto)</Sandbags_Blueprint.label>
+  <Sandbags_Frame.label>&gt;Bolsas de arena (a medias)</Sandbags_Frame.label>
   <Sandbags_Frame.description>Ofrecen cobertura contra disparos.</Sandbags_Frame.description>
 
 
-  <!-- Improvised turret -->
+  <!-- Mini-turret -->
 
-  <TurretGun.label>Torreta improvisada</TurretGun.label>
-  <TurretGun.description>Una débil torreta improvisada que dispara automáticamente a los enemigos cercanos. Explota al ser dañada de gravedad. La IA de control no es muy inteligente y no se puede manejar directamente así que ten cuidado con el fuego amigo.</TurretGun.description>
-  <TurretGun_Blueprint.label>Torreta improvisada (anteproyecto)</TurretGun_Blueprint.label>
-  <TurretGun_Blueprint_Install.label>Torreta improvisada (anteproyecto)</TurretGun_Blueprint_Install.label>
-  <TurretGun_Frame.label>Torreta improvisada (a medias)</TurretGun_Frame.label>
-  <TurretGun_Frame.description>Una débil torreta improvisada que dispara automáticamente a los enemigos cercanos. Explota al ser dañada de gravedad. La IA de control no es muy inteligente y no se puede manejar directamente así que ten cuidado con el fuego amigo.</TurretGun_Frame.description>
+  <Turret_MiniTurret.label>Torreta</Turret_MiniTurret.label>
+  <Turret_MiniTurret.description>Una pequeña torreta automática de corto alcance. Requiere que el barril de acero sea reemplazado después de un uso intenso. Puede explotar si está dañado. Su estúpido cerebro de IA no puede ser controlado directamente, así que ten cuidado con el fuego amigo.</Turret_MiniTurret.description>
+  <Turret_MiniTurret_Blueprint.label>Torreta (anteproyecto)</Turret_MiniTurret_Blueprint.label>
+  <Turret_MiniTurret_Blueprint_Install.label>Torreta (anteproyecto)</Turret_MiniTurret_Blueprint_Install.label>
+  <Turret_MiniTurret_Frame.label>Torreta (a medias)</Turret_MiniTurret_Frame.label>
+  <Turret_MiniTurret_Frame.description>Una pequeña torreta automática de corto alcance. Requiere que el barril de acero sea reemplazado después de un uso intenso. Puede explotar si está dañado. Su estúpido cerebro de IA no puede ser controlado directamente, así que ten cuidado con el fuego amigo.</Turret_MiniTurret_Frame.description>
 
-  <Bullet_TurretImprovised.label>Munición de torreta</Bullet_TurretImprovised.label>
+  <Bullet_MiniTurret.label>bala de torreta</Bullet_MiniTurret.label>
 
-  <Gun_TurretImprovised.label>Torreta improvisada</Gun_TurretImprovised.label>
-  <Gun_TurretImprovised.description>Una débil torreta improvisada que dispara automáticamente a los enemigos cercanos. Explota al ser dañada de gravedad. La IA de control no es muy inteligente y no se puede manejar directamente así que ten cuidado con el fuego amigo.</Gun_TurretImprovised.description>
+  <Gun_MiniTurret.label>cañon de torreta</Gun_MiniTurret.label>
+  <Gun_MiniTurret.description>Una simple pistola automática hecha para ser montada en una torreta.</Gun_MiniTurret.description>
+
+
+  <!-- Autocannon turret -->
+
+  <Turret_Autocannon.label>Cañón</Turret_Autocannon.label>
+  <Turret_Autocannon.description>Un cañon automático de largo alcance. Sus carcasas de gran calibre causan grandes daños a grandes distancias, pero requiere cambios de cañón frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado.</Turret_Autocannon.description>
+  <Turret_Autocannon_Blueprint.label>Cañón (anteproyecto)</Turret_Autocannon_Blueprint.label>
+  <Turret_Autocannon_Frame.label>Cañón (a medias)</Turret_Autocannon_Frame.label>
+  <Turret_Autocannon_Frame.description>Un cañon automático de largo alcance. Sus carcasas de gran calibre causan grandes daños a grandes distancias, pero requiere cambios de cañón frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado.</Turret_Autocannon_Frame.description>
+
+  <Bullet_AutocannonTurret.label>obus de cañon</Bullet_AutocannonTurret.label>
+
+  <Gun_AutocannonTurret.label>cañon</Gun_AutocannonTurret.label>
+  <Gun_AutocannonTurret.description>Cañón autocargador de gran calibre diseñado para acoplarse a una torreta.</Gun_AutocannonTurret.description>
 
 
   <!-- Mortar turret -->

@@ -44,6 +44,7 @@
   <CommandGraveAssignColonistLabel>Asignar colono</CommandGraveAssignColonistLabel>
   <CommandGraveAssignColonistDesc>Asigna a esta tumba un dueño específico.</CommandGraveAssignColonistDesc>
   <BuildingAssign>Asignar</BuildingAssign>
+  <BuildingReassign>Reasignar</BuildingReassign>
   <BuildingUnassign>Desasignar</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>Designar para prisioneros</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Designa las camas de esta habitación para uso de los prisioneros.</CommandBedSetForPrisonersDesc>
@@ -84,7 +85,6 @@
   <CommandStopAttackFailNotForceAttacking>No está atacando ningún blanco obligado.</CommandStopAttackFailNotForceAttacking>
   <CommandExtractShell>Extraer proyectil</CommandExtractShell>
   <CommandExtractShellDesc>Descarga el el proyectil actual para que pueda ser reemplazado por munición diferente.</CommandExtractShellDesc>
-  <CommandExtractShellFailNoShell>Proyectil no cargado.</CommandExtractShellFailNoShell>
   <MessageTargetBeyondMaximumRange>Atacar fuera del rango máximo.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Atacar dentro del rango mínimo.</MessageTargetBelowMinimumRange>
   <MessageTurretWontFireBecauseHoldFire>Advertencia: el mortero no se disparará porque está configurado para "Alto al fuego".</MessageTurretWontFireBecauseHoldFire>
@@ -192,6 +192,14 @@
   <CommandCancelFormingCaravan>Cancelar formación de caravana</CommandCancelFormingCaravan>
   <CommandCancelFormingCaravanDesc>Termina el proceso de formación de la caravana.</CommandCancelFormingCaravanDesc>
 
+  <!-- Remove from caravan -->
+  <CommandRemoveFromCaravan>Quitar de la caravana</CommandRemoveFromCaravan>
+  <CommandRemoveFromCaravanDesc>Retire a esta persona o animal de la caravana.</CommandRemoveFromCaravanDesc>
+
+  <!-- Add to caravan -->
+  <CommandAddToCaravan>Añadir a la caravana</CommandAddToCaravan>
+  <CommandAddToCaravanDesc>Añada a esta persona o animal a la caravana en formación.</CommandAddToCaravanDesc>
+
   <!-- Show map -->
   <CommandShowMap>Acercar la vista</CommandShowMap>
   <CommandShowMapDesc>Acerca la vista a ésta área.</CommandShowMapDesc>
@@ -201,9 +209,13 @@
   <CommandTradeDesc>Comerciar con esta facción.</CommandTradeDesc>
   <CommandTradeFailNoNegotiator>No hay ningún negociador consciente.</CommandTradeFailNoNegotiator>
 
+  <!-- Offer gifts -->
+  <CommandOfferGifts>Ofrecer regalos</CommandOfferGifts>
+  <CommandOfferGiftsDesc>Ofrece regalos a esta facción.</CommandOfferGiftsDesc>
+
   <!-- Fulfill request -->
   <CommandFulfillTradeOffer>Cumplir con la oferta comercial</CommandFulfillTradeOffer>
-  <CommandFulfillTradeOfferDesc>Cumplir con la solicitud de liquidación de los bienes y reclamar su recompensa.</CommandFulfillTradeOfferDesc>
+  <CommandFulfillTradeOfferDesc>Cumplir con la solicitud de los bienes y reclamar su recompensa.</CommandFulfillTradeOfferDesc>
   <CommandFulfillTradeOfferFailInsufficient>Tu caravana debe tener {0} para cumplir con esta oferta comercial.</CommandFulfillTradeOfferFailInsufficient>
   <CommandFulfillTradeOfferConfirm>Oferta {0} por {1}?</CommandFulfillTradeOfferConfirm>
 
@@ -252,5 +264,17 @@
   <!-- Remove waypoint -->
   <CommandRemoveWaypointLabel>Remover</CommandRemoveWaypointLabel>
   <CommandRemoveWaypointDesc>Eliminar este punto.</CommandRemoveWaypointDesc>
+
+  <!-- Pause caravan -->
+  <CommandPauseCaravan>Pausa</CommandPauseCaravan>
+  <CommandToggleCaravanPauseDesc>Detenga el movimiento de la caravana. Esto tiene las siguientes ventajas:\n\n  - Las personas pueden interactuar socialmente\n  - Forraje para la alimentación {0} veces más rápido\n  - Visibilidad multiplicada por {1}</CommandToggleCaravanPauseDesc>
+
+  <!-- Show sellable items -->
+  <CommandShowSellableItems>Mostrar lo que comprará</CommandShowSellableItems>
+  <CommandShowSellableItemsDesc>Muestre todo lo que este comerciante quiere comprar.</CommandShowSellableItemsDesc>
+
+  <!-- Attack settlement -->
+  <CommandAttackSettlement>Atacar</CommandAttackSettlement>
+  <CommandAttackSettlementDesc>Atacar este asentamiento.</CommandAttackSettlementDesc>
 
 </LanguageData>
