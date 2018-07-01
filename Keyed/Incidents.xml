@@ -20,7 +20,9 @@
 
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>Hemos detectado una cápsula de escape estrellándose en las cercanías\n\nSi alguien ha sobrevivido al impacto estará gravemente herido.</RefugeePodCrash>
-  <RefugeePodCrashFactionWarning>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturando [PAWN_objective] los enfurecerá, mientras rescata y sana [PAWN_objective] mejorará las relaciones entre las facciones.</RefugeePodCrashFactionWarning>
+  <RefugeePodCrash_NonHostileOrFactionless>Puedes rescatar [PAWN_objective] y enviarlo [PAWN_objective] en [PAWN_possessive] camino. O bien, capturar [PAWN_objective] para fines de reclutamiento o esclavitud.</RefugeePodCrash_NonHostileOrFactionless>
+  <RefugeePodCrash_Hostile>Puede capturar [PAWN_objective] for recruitment para fines de reclutamiento o esclavitud. [PAWN_pronoun] es de [PAWN_factionName].</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_NonHostile>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturando [PAWN_objective] los enfadará, mientras que rescatar y curar [PAWN_objective] mejorará las relaciones entre las facciones.</RefugeePodCrash_NonHostile>
 
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
   <CargoPodCrash>Hemos detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nSi cualquier persona ha sobrevivido al impacto, estara gravemente herido.\n\nPodras rescatarlos y enviarles por su camino. Ó capturarlos con fines de reclutamiento o esclavitud.</CargoPodCrash>
@@ -134,17 +136,13 @@
   <LetterLabelCaravanRequest>Solicitud de caravana</LetterLabelCaravanRequest>
   <LetterCaravanRequest>Un asentamiento cercano, {0}, te contacta con una solicitud especial de comercio. En cambio, ofrecen:\n\n{2}\n\nEsta solicitud caduca después de: {3}\n\nSi desea realizar el comercio , envie una caravana con los suministros solicitados. Puede revisar esta oferta seleccionando {0} en el mapa mundial.</LetterCaravanRequest>
   <CaravanRequestInfo>Solicitando: {0}, Recompensa: {1} ({2} dias restantes)</CaravanRequestInfo>
+  <NormalQualityOrBetter>Calidad Normal o Mejor</NormalQualityOrBetter>
 
   <!-- Caravan demand -->
   <CaravanDemandTitle>Demanda de caravanas de {0}</CaravanDemandTitle>
   <CaravanDemand>Su caravana ha sido emboscada por un grupo de {1} {3} de {0}. Ellos atacarán a menos que les des:\n\n{2}</CaravanDemand>
   <CaravanDemand_Give>Dar y pasar</CaravanDemand_Give>
   <CaravanDemand_Fight>Rechazar y luchar</CaravanDemand_Fight>
-
-  <!-- Temporary item stash -->
-  <ItemStashSitePart_Unknown>Desafortunadamente, {0} no tiene ni idea de quién o qué (si lo hubiese) podría estar cuidando el escondite.</ItemStashSitePart_Unknown>
-  <ItemStashSitePart_Nothing>{0} dice que el escondite no está vigilado.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Part>{0} dice que {1}.</ItemStashSitePart_Part>
 
   <!-- Site no longer hostile -->
   <LetterLabelSiteNoLongerHostile>Misión ya no disponible</LetterLabelSiteNoLongerHostile>
