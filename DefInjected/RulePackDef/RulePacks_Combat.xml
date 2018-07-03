@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<Combat_MeleeIncludes.rulePack.rulesStrings>
+	<Combat_MeleeIncludes.rulePack.rulesStrings><Combat_MeleeIncludes.rulePack.rulesStrings>
 		<li>r_logentry->[action], [result].</li>
 		<li>r_logentry(p=0.2)->[action].</li>
 		<li>implement(implementOwnerType==weapon,p=2)->[initiator_possessive] [weapon_label]'s [tool_label]</li>
@@ -92,9 +92,9 @@
 		<li>initiator_definite->[initiator_nameShortDef]</li>
 		<li>recipient_definite->[recipient_labelDefinite]</li>
 		<li>recipient_definite->[recipient_nameShortDef]</li>
-	</Combat_MeleeIncludes.rulePack.rulesStrings>
+	</Combat_MeleeIncludes.rulePack.rulesStrings><Combat_MeleeIncludes.rulePack.rulesStrings>
 
-	<Combat_WoundIncludes.rulePack.rulesStrings>
+	<Combat_WoundIncludes.rulePack.rulesStrings><Combat_WoundIncludes.rulePack.rulesStrings>
 		<li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
 		<li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] y [recipient_part_destroyed1_label]</li>
 		<li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], y [recipient_part_destroyed2_label]</li>
@@ -143,9 +143,9 @@
 		<li>expert->inteligente</li>
 		<li>expert->maestro</li>
 		<li>expert->artista</li>
-	</Combat_WoundIncludes.rulePack.rulesStrings>
+	</Combat_WoundIncludes.rulePack.rulesStrings><Combat_WoundIncludes.rulePack.rulesStrings>
 
-	<Combat_Hit.rulePack.rulesStrings>
+	<Combat_Hit.rulePack.rulesStrings><Combat_Hit.rulePack.rulesStrings>
 		<li>r_logentry(p=0.3)->[initiator_definite] [damaged_past] [recipient_definite] en el [recipient_part0_label].</li>
 		<li>r_logentry(p=0.1)->[initiator_definite] [damaged_past] [recipient_definite] en el [recipient_part0_label] [flavortextadverb].</li>
 		<li>r_logentry(p=0.1)->[initiator_definite] [damaged_past] [recipient_definite] en el [recipient_part0_label] [flavortextsituation].</li>
@@ -162,9 +162,9 @@
 		<li>action(p=0.3)->[initiator_definite] usó [implement] para [damaged_inf] a [recipient_definite]</li>
 		<li>action->[initiator_definite] [damaged_past] [recipient_definite] con [implement]</li>
 		<li>action(p=0.6)->[initiator_definite] [damaged_past] [recipient_definite]</li>
-	</Combat_Hit.rulePack.rulesStrings>
+	</Combat_Hit.rulePack.rulesStrings></Combat_Hit.rulePack.rulesStrings>
 
-	<Combat_FailIncludes.rulePack.rulesStrings>
+	<Combat_FailIncludes.rulePack.rulesStrings><Combat_FailIncludes.rulePack.rulesStrings>
 		<li>action->[initiator_definite] [tried] [damaged_inf] un [recipient_definite]</li>
 		<li>action->[initiator_definite] [tried] [damaged_inf] [recipient_definite] con [implement]</li>
 		<li>action->[initiator_definite] [tried] usar [implement] para [damaged_inf] un [recipient_definite]</li>
@@ -179,7 +179,7 @@
 		<li>genericattackverb->golpeado</li><!-- thrashed -->
 		<li>tried->intentó</li>
 		<li>tried->intentó</li>
-	</Combat_FailIncludes.rulePack.rulesStrings>
+	</Combat_FailIncludes.rulePack.rulesStrings></Combat_FailIncludes.rulePack.rulesStrings>
 
 	<Combat_Miss.rulePack.rulesStrings>
 		<li>r_logentry(p=0.2)->[recipient_definite] ha evitado [damaged_inf] de [initiator_definite] con [weapon_label] .</li>
@@ -197,26 +197,26 @@
 		<li>result->pero el 'swing' fue ancho</li>
 		<li>result->pero tropezó en el último segundo</li>
 		<li>result(initiator_flesh!=Mechanoid)->pero vaciló en el último segundo</li>
-	</Combat_Miss.rulePack.rulesStrings>
+	</Combat_Miss.rulePack.rulesStrings><Combat_Miss.rulePack.rulesStrings>
 
-	<Combat_Dodge.rulePack.rulesStrings>
+	<Combat_Dodge.rulePack.rulesStrings><Combat_Dodge.rulePack.rulesStrings>
 		<li>r_logentry(p=0.2)->[recipient_definite] ha esquivado [damaged_inf] de [initiator_definite] con [implement].</li>
 		<li>r_logentry(p=0.2)->[recipient_definite] ha esquivado [damaged_inf] de [initiator_definite].</li>
 		<li>result->pero [recipient_definite] saltó fuera del camino</li>
 		<li>result->pero fue engañado por una finta de [recipient_definite].</li>
 		<li>result->pero el ataque fue inteligentemente evitado</li>
-	</Combat_Dodge.rulePack.rulesStrings>
+	</Combat_Dodge.rulePack.rulesStrings></Combat_Dodge.rulePack.rulesStrings>
 
-	<Combat_RangedIncludes.rulePack.rulesStrings>
+	<Combat_RangedIncludes.rulePack.rulesStrings><Combat_RangedIncludes.rulePack.rulesStrings>
 		<li>initiator_definite->[initiator_labelDefinite]</li>
 		<li>initiator_definite->[initiator_nameShortDef]</li>
 		<li>recipient_definite->[recipient_labelDefinite]</li>
 		<li>recipient_definite->[recipient_nameShortDef]</li>
 		<li>originalTarget_definite->[originalTarget_labelDefinite]</li>
 		<li>originalTarget_definite->[originalTarget_nameShortDef]</li>
-	</Combat_RangedIncludes.rulePack.rulesStrings>
+	</Combat_RangedIncludes.rulePack.rulesStrings><Combat_RangedIncludes.rulePack.rulesStrings>
 
-	<Combat_RangedFire.rulePack.rulesStrings>
+	<Combat_RangedFire.rulePack.rulesStrings><Combat_RangedFire.rulePack.rulesStrings>
 		<li>r_logentry->[initiator_definite] [shotat] [recipient_definite] con [initiator_possessive] [weapon_label].</li>
 		<li>r_logentry->[initiator_definite] [shot] [initiator_possessive] [weapon_label] a [recipient_definite].</li>
 		<li>r_logentry->[initiator_definite] [shotat] [recipient_definite].</li>
@@ -255,9 +255,9 @@
 		<li>shotadjective->deliberado</li>
 		<li>shotadjective->preciso</li>
 		<li>shotadjective(initiator_flesh!=Mechanoid)->cauteloso</li>
-	</Combat_RangedFire.rulePack.rulesStrings>
+	</Combat_RangedFire.rulePack.rulesStrings><Combat_RangedFire.rulePack.rulesStrings>
 
-	<Combat_RangedDamage.rulePack.rulesStrings>
+	<Combat_RangedDamage.rulePack.rulesStrings><Combat_RangedDamage.rulePack.rulesStrings>
 		<li>r_logentry->[initiator_definite]'s [weapon_projectile_label] [destroyed_past] [recipient_definite]'s [destroyed_targets].</li>
 		<li>r_logentry->[initiator_definite]'s [weapon_projectile_label] [destroyed_past] [recipient_definite]'s [destroyed_targets] [to] [destroyed_suffix].</li>
 		<li>r_logentry->[initiator_definite]'s [weapon_projectile_label] [destroyed_past] [recipient_definite]'s [destroyed_targets] [expertly].</li>
@@ -317,9 +317,9 @@
 		<li>to->en</li>
 		<li>missed->fallado</li>
 		<li>missed->fallado por poco</li>
-	</Combat_RangedDamage.rulePack.rulesStrings>
+	</Combat_RangedDamage.rulePack.rulesStrings><Combat_RangedDamage.rulePack.rulesStrings>
 
-	<Combat_RangedMiss.rulePack.rulesStrings>
+	<Combat_RangedMiss.rulePack.rulesStrings><Combat_RangedMiss.rulePack.rulesStrings>
 		<li>r_logentry->El/la [weapon_projectile_label] de [initiator_definite] y [missed].</li>
 		<li>r_logentry->[initiator_definite] falló a [originalTarget_definite].</li>
 		<li>r_logentry->[originalTarget_definite] [avoidance], haciendo que el/la [weapon_projectile_label] de [initiator_definite]  [missing].</li>
@@ -355,7 +355,7 @@
 		<li>avoidance(originalTarget_mobile==True)->arrojó a [originalTarget_objective] al suelo</li>
 		<li>avoidance(originalTarget_mobile==True,p=0.3)->escondió detrás de la cobertura más cercana</li>
 		<li>avoidance(originalTarget_mobile==True,p=0.3)->saltó detrás de la cobertura más cercana</li>
-	</Combat_RangedMiss.rulePack.rulesStrings>
+	</Combat_RangedMiss.rulePack.rulesStrings><Combat_RangedMiss.rulePack.rulesStrings>
 
 	<Combat_ExplosionImpact.rulePack.rulesStrings>
 		<li>prefix->El [blast] [fromof] [initiator_definite]'s [weapon_projectile_label]</li>
@@ -392,7 +392,7 @@
 		<li>blast->impacto</li>
 		<li>fromof->de</li><!-- from -->
 		<li>fromof->de</li><!-- of -->
-	</Combat_ExplosionImpact.rulePack.rulesStrings>
+	</Combat_ExplosionImpact.rulePack.rulesStrings><Combat_ExplosionImpact.rulePack.rulesStrings>
 
 
 </LanguageData>
