@@ -1,253 +1,258 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.0>r_name->[metaprefix] [standardname]</WorldFeatureNamerCommon.rulePack.rulesStrings.0>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.1>r_name(p=0.05)->[storyname] [terrain_word]</WorldFeatureNamerCommon.rulePack.rulesStrings.1>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.2>standardname->[narrative_name] [terrain_word]</WorldFeatureNamerCommon.rulePack.rulesStrings.2>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.0>r_name->[standardname] [metaprefix]</WorldFeatureNamerCommon.rulePack.rulesStrings.0>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.1>r_name(p=0.05)->[terrain_word] [storyname]</WorldFeatureNamerCommon.rulePack.rulesStrings.1>
+  
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.2>standardname->[terrain_word] [narrative_name]</WorldFeatureNamerCommon.rulePack.rulesStrings.2>
+  
   <WorldFeatureNamerCommon.rulePack.rulesStrings.3>metaprefix(p=10)-></WorldFeatureNamerCommon.rulePack.rulesStrings.3>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.4>metaprefix->[Direction]</WorldFeatureNamerCommon.rulePack.rulesStrings.4>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.4>metaprefix-></WorldFeatureNamerCommon.rulePack.rulesStrings.4>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.5>metaprefix->[basic_adjective]</WorldFeatureNamerCommon.rulePack.rulesStrings.5>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.6>basic_adjective->great</WorldFeatureNamerCommon.rulePack.rulesStrings.6>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.7>basic_adjective->greater</WorldFeatureNamerCommon.rulePack.rulesStrings.7>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.8>basic_adjective->lesser</WorldFeatureNamerCommon.rulePack.rulesStrings.8>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.9>basic_adjective->grand</WorldFeatureNamerCommon.rulePack.rulesStrings.9>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.10>basic_adjective->new</WorldFeatureNamerCommon.rulePack.rulesStrings.10>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.11>basic_adjective->old</WorldFeatureNamerCommon.rulePack.rulesStrings.11>
+  
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.6>basic_adjective->grande</WorldFeatureNamerCommon.rulePack.rulesStrings.6>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.7>basic_adjective->cruel</WorldFeatureNamerCommon.rulePack.rulesStrings.7>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.8>basic_adjective->mayor</WorldFeatureNamerCommon.rulePack.rulesStrings.8>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.9>basic_adjective->menor</WorldFeatureNamerCommon.rulePack.rulesStrings.9>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.10>basic_adjective->del Sol</WorldFeatureNamerCommon.rulePack.rulesStrings.10>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.11>basic_adjective->de la Paz</WorldFeatureNamerCommon.rulePack.rulesStrings.11>
+  
   <WorldFeatureNamerCommon.rulePack.rulesStrings.12>narrative_name(p=12)->[WordTribal]</WorldFeatureNamerCommon.rulePack.rulesStrings.12>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.13>narrative_name(p=12)->[PlaceOutlander]</WorldFeatureNamerCommon.rulePack.rulesStrings.13>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.14>narrative_name->[Color][NaturalObject]</WorldFeatureNamerCommon.rulePack.rulesStrings.14>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.15>narrative_name->[AdjectiveNatural][BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.15>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.14>narrative_name->de la [ConceptBadass]</WorldFeatureNamerCommon.rulePack.rulesStrings.14>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.15>narrative_name->[BodyPart] [AdjectiveNatural]</WorldFeatureNamerCommon.rulePack.rulesStrings.15>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.16>narrative_name->[Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.16>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.17>narrative_name->[Color]</WorldFeatureNamerCommon.rulePack.rulesStrings.17>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.18>narrative_name->[Color][Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.18>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.19>narrative_name->[AdjectiveNatural][Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.19>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.20>narrative_name->[Animal][BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.20>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.21>narrative_name->[Color] [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.21>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.22>narrative_name->[AdjectiveNatural] [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.22>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.23>narrative_name->[Animal] [BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.23>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.24>storyname(p=50)->[subject]'s [maybe_basic_adjective] [story_result]</WorldFeatureNamerCommon.rulePack.rulesStrings.24>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.25>storyname(p=2)->[subject]'s [BodyPart]</WorldFeatureNamerCommon.rulePack.rulesStrings.25>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.26>storyname->[subject]'s [Gore]</WorldFeatureNamerCommon.rulePack.rulesStrings.26>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.18>narrative_name->del [Animal] [Color]</WorldFeatureNamerCommon.rulePack.rulesStrings.18>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.19>narrative_name->del [AnimalBadass] [AdjectiveNatural]</WorldFeatureNamerCommon.rulePack.rulesStrings.19>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.20>narrative_name->[BodyPart] del [AnimalBadass]</WorldFeatureNamerCommon.rulePack.rulesStrings.20>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.21>narrative_name->del [AdjectiveNatural]</WorldFeatureNamerCommon.rulePack.rulesStrings.21>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.22>narrative_name->del [Animal] [AdjectiveNatural]</WorldFeatureNamerCommon.rulePack.rulesStrings.22>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.23>narrative_name->[BodyPart] de [Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.23>
+  
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.24>storyname(p=50)->[maybe_basic_adjective] [story_result] de [subject]</WorldFeatureNamerCommon.rulePack.rulesStrings.24>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.25>storyname(p=2)->[BodyPart] de [subject]</WorldFeatureNamerCommon.rulePack.rulesStrings.25>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.26>storyname->[Gore] de [subject]</WorldFeatureNamerCommon.rulePack.rulesStrings.26>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.27>maybe_basic_adjective-></WorldFeatureNamerCommon.rulePack.rulesStrings.27>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.28>maybe_basic_adjective(p=0.1)->[basic_adjective]</WorldFeatureNamerCommon.rulePack.rulesStrings.28>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.29>subject(p=5)->[NamePerson]</WorldFeatureNamerCommon.rulePack.rulesStrings.29>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.30>subject->[Animal]</WorldFeatureNamerCommon.rulePack.rulesStrings.30>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.31>subject->[WordTribal]</WorldFeatureNamerCommon.rulePack.rulesStrings.31>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.32>subject->[PlaceOutlander]</WorldFeatureNamerCommon.rulePack.rulesStrings.32>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.33>story_result->folly</WorldFeatureNamerCommon.rulePack.rulesStrings.33>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.34>story_result->vice</WorldFeatureNamerCommon.rulePack.rulesStrings.34>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.35>story_result->lunacy</WorldFeatureNamerCommon.rulePack.rulesStrings.35>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.36>story_result->mistake</WorldFeatureNamerCommon.rulePack.rulesStrings.36>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.37>story_result->fault</WorldFeatureNamerCommon.rulePack.rulesStrings.37>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.38>story_result->misstep</WorldFeatureNamerCommon.rulePack.rulesStrings.38>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.39>story_result->delusion</WorldFeatureNamerCommon.rulePack.rulesStrings.39>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.40>story_result->joy</WorldFeatureNamerCommon.rulePack.rulesStrings.40>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.41>story_result->delight</WorldFeatureNamerCommon.rulePack.rulesStrings.41>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.42>story_result->wonder</WorldFeatureNamerCommon.rulePack.rulesStrings.42>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.43>story_result->pride</WorldFeatureNamerCommon.rulePack.rulesStrings.43>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.44>story_result->jewel</WorldFeatureNamerCommon.rulePack.rulesStrings.44>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.45>story_result->prize</WorldFeatureNamerCommon.rulePack.rulesStrings.45>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.46>story_result->bounty</WorldFeatureNamerCommon.rulePack.rulesStrings.46>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.33>story_result->locura</WorldFeatureNamerCommon.rulePack.rulesStrings.33>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.34>story_result->vicio</WorldFeatureNamerCommon.rulePack.rulesStrings.34>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.35>story_result->disparate</WorldFeatureNamerCommon.rulePack.rulesStrings.35>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.36>story_result->error</WorldFeatureNamerCommon.rulePack.rulesStrings.36>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.37>story_result->falla</WorldFeatureNamerCommon.rulePack.rulesStrings.37>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.38>story_result->mal paso</WorldFeatureNamerCommon.rulePack.rulesStrings.38>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.39>story_result->decepción</WorldFeatureNamerCommon.rulePack.rulesStrings.39>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.40>story_result->alegría</WorldFeatureNamerCommon.rulePack.rulesStrings.40>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.41>story_result->delicia</WorldFeatureNamerCommon.rulePack.rulesStrings.41>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.42>story_result->disfrute</WorldFeatureNamerCommon.rulePack.rulesStrings.42>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.43>story_result->orgullo</WorldFeatureNamerCommon.rulePack.rulesStrings.43>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.44>story_result->joya</WorldFeatureNamerCommon.rulePack.rulesStrings.44>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.45>story_result->premio</WorldFeatureNamerCommon.rulePack.rulesStrings.45>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.46>story_result->premio</WorldFeatureNamerCommon.rulePack.rulesStrings.46>
   <WorldFeatureNamerCommon.rulePack.rulesStrings.47>story_result->honor</WorldFeatureNamerCommon.rulePack.rulesStrings.47>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.48>story_result->jackpot</WorldFeatureNamerCommon.rulePack.rulesStrings.48>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.49>story_result->trophy</WorldFeatureNamerCommon.rulePack.rulesStrings.49>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.50>story_result->conceit</WorldFeatureNamerCommon.rulePack.rulesStrings.50>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.51>story_result->arrogance</WorldFeatureNamerCommon.rulePack.rulesStrings.51>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.52>story_result->stand</WorldFeatureNamerCommon.rulePack.rulesStrings.52>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.53>story_result->loss</WorldFeatureNamerCommon.rulePack.rulesStrings.53>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.54>story_result->debt</WorldFeatureNamerCommon.rulePack.rulesStrings.54>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.55>story_result->collapse</WorldFeatureNamerCommon.rulePack.rulesStrings.55>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.56>story_result->destruction</WorldFeatureNamerCommon.rulePack.rulesStrings.56>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.57>story_result->cataclysm</WorldFeatureNamerCommon.rulePack.rulesStrings.57>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.58>story_result->ruin</WorldFeatureNamerCommon.rulePack.rulesStrings.58>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.59>story_result->ruination</WorldFeatureNamerCommon.rulePack.rulesStrings.59>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.60>story_result->undoing</WorldFeatureNamerCommon.rulePack.rulesStrings.60>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.61>story_result->downfall</WorldFeatureNamerCommon.rulePack.rulesStrings.61>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.62>story_result->end</WorldFeatureNamerCommon.rulePack.rulesStrings.62>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.63>story_result->retirement</WorldFeatureNamerCommon.rulePack.rulesStrings.63>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.64>story_result->achievement</WorldFeatureNamerCommon.rulePack.rulesStrings.64>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.65>story_result->finale</WorldFeatureNamerCommon.rulePack.rulesStrings.65>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.66>story_result->bluff</WorldFeatureNamerCommon.rulePack.rulesStrings.66>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.67>story_result->ruse</WorldFeatureNamerCommon.rulePack.rulesStrings.67>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.68>story_result->deception</WorldFeatureNamerCommon.rulePack.rulesStrings.68>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.69>story_result->facade</WorldFeatureNamerCommon.rulePack.rulesStrings.69>
-  <WorldFeatureNamerCommon.rulePack.rulesStrings.70>story_result->fraud</WorldFeatureNamerCommon.rulePack.rulesStrings.70>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.48>story_result->tesoro</WorldFeatureNamerCommon.rulePack.rulesStrings.48>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.49>story_result->trofeo</WorldFeatureNamerCommon.rulePack.rulesStrings.49>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.50>story_result->gloria</WorldFeatureNamerCommon.rulePack.rulesStrings.50>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.51>story_result->arrogancia</WorldFeatureNamerCommon.rulePack.rulesStrings.51>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.52>story_result->defensa</WorldFeatureNamerCommon.rulePack.rulesStrings.52>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.53>story_result->pérdida</WorldFeatureNamerCommon.rulePack.rulesStrings.53>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.54>story_result->deuda</WorldFeatureNamerCommon.rulePack.rulesStrings.54>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.55>story_result->colapso</WorldFeatureNamerCommon.rulePack.rulesStrings.55>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.56>story_result->destrucción</WorldFeatureNamerCommon.rulePack.rulesStrings.56>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.57>story_result->cataclismo</WorldFeatureNamerCommon.rulePack.rulesStrings.57>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.58>story_result->ruina</WorldFeatureNamerCommon.rulePack.rulesStrings.58>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.59>story_result->ruina</WorldFeatureNamerCommon.rulePack.rulesStrings.59>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.60>story_result->perdición</WorldFeatureNamerCommon.rulePack.rulesStrings.60>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.61>story_result->caída</WorldFeatureNamerCommon.rulePack.rulesStrings.61>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.62>story_result->final</WorldFeatureNamerCommon.rulePack.rulesStrings.62>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.63>story_result->retiro</WorldFeatureNamerCommon.rulePack.rulesStrings.63>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.64>story_result->logro</WorldFeatureNamerCommon.rulePack.rulesStrings.64>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.65>story_result->funeral</WorldFeatureNamerCommon.rulePack.rulesStrings.65>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.66>story_result->batalla</WorldFeatureNamerCommon.rulePack.rulesStrings.66>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.67>story_result->engaño</WorldFeatureNamerCommon.rulePack.rulesStrings.67>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.68>story_result->mentira</WorldFeatureNamerCommon.rulePack.rulesStrings.68>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.69>story_result->trampa</WorldFeatureNamerCommon.rulePack.rulesStrings.69>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings.70>story_result->fraude</WorldFeatureNamerCommon.rulePack.rulesStrings.70>
 
-  <NamerMountainRange.rulePack.rulesStrings.0>standardname(p=0.2)->mount [narrative_name]</NamerMountainRange.rulePack.rulesStrings.0>
-  <NamerMountainRange.rulePack.rulesStrings.1>terrain_word(p=5)->mountains</NamerMountainRange.rulePack.rulesStrings.1>
-  <NamerMountainRange.rulePack.rulesStrings.2>terrain_word(p=2)->range</NamerMountainRange.rulePack.rulesStrings.2>
-  <NamerMountainRange.rulePack.rulesStrings.3>terrain_word->peaks</NamerMountainRange.rulePack.rulesStrings.3>
-  <NamerMountainRange.rulePack.rulesStrings.4>terrain_word->hills</NamerMountainRange.rulePack.rulesStrings.4>
-  <NamerMountainRange.rulePack.rulesStrings.5>terrain_word->cliffs</NamerMountainRange.rulePack.rulesStrings.5>
+  <NamerMountainRange.rulePack.rulesStrings.0>standardname(p=0.2)->cordillera [narrative_name]</NamerMountainRange.rulePack.rulesStrings.0>
+  <NamerMountainRange.rulePack.rulesStrings.1>terrain_word(p=5)->montañas</NamerMountainRange.rulePack.rulesStrings.1>
+  <NamerMountainRange.rulePack.rulesStrings.2>terrain_word(p=2)->sierra</NamerMountainRange.rulePack.rulesStrings.2>
+  <NamerMountainRange.rulePack.rulesStrings.3>terrain_word->alpes</NamerMountainRange.rulePack.rulesStrings.3>
+  <NamerMountainRange.rulePack.rulesStrings.4>terrain_word->colinas</NamerMountainRange.rulePack.rulesStrings.4>
+  <NamerMountainRange.rulePack.rulesStrings.5>terrain_word->acantilado</NamerMountainRange.rulePack.rulesStrings.5>
 
-  <NamerArchipelago.rulePack.rulesStrings.0>standardname(p=0.2)->isle [narrative_name]</NamerArchipelago.rulePack.rulesStrings.0>
-  <NamerArchipelago.rulePack.rulesStrings.1>terrain_word(p=4)->islands</NamerArchipelago.rulePack.rulesStrings.1>
-  <NamerArchipelago.rulePack.rulesStrings.2>terrain_word(p=3)->isles</NamerArchipelago.rulePack.rulesStrings.2>
-  <NamerArchipelago.rulePack.rulesStrings.3>terrain_word(p=3)->archipelago</NamerArchipelago.rulePack.rulesStrings.3>
-  <NamerArchipelago.rulePack.rulesStrings.4>terrain_word->reef</NamerArchipelago.rulePack.rulesStrings.4>
-  <NamerArchipelago.rulePack.rulesStrings.5>terrain_word->atoll</NamerArchipelago.rulePack.rulesStrings.5>
-  <NamerArchipelago.rulePack.rulesStrings.6>terrain_word->rocks</NamerArchipelago.rulePack.rulesStrings.6>
-  <NamerArchipelago.rulePack.rulesStrings.7>terrain_word->islets</NamerArchipelago.rulePack.rulesStrings.7>
-  <NamerArchipelago.rulePack.rulesStrings.8>terrain_word->points</NamerArchipelago.rulePack.rulesStrings.8>
-  <NamerArchipelago.rulePack.rulesStrings.9>terrain_word->chain</NamerArchipelago.rulePack.rulesStrings.9>
+  <NamerArchipelago.rulePack.rulesStrings.0>standardname(p=0.2)->isla [narrative_name]</NamerArchipelago.rulePack.rulesStrings.0>
+  <NamerArchipelago.rulePack.rulesStrings.1>terrain_word(p=4)->islas</NamerArchipelago.rulePack.rulesStrings.1>
+  <NamerArchipelago.rulePack.rulesStrings.2>terrain_word(p=3)->islas</NamerArchipelago.rulePack.rulesStrings.2>
+  <NamerArchipelago.rulePack.rulesStrings.3>terrain_word(p=3)->archipielago</NamerArchipelago.rulePack.rulesStrings.3>
+  <NamerArchipelago.rulePack.rulesStrings.4>terrain_word->arrecife</NamerArchipelago.rulePack.rulesStrings.4>
+  <NamerArchipelago.rulePack.rulesStrings.5>terrain_word->atolón</NamerArchipelago.rulePack.rulesStrings.5>
+  <NamerArchipelago.rulePack.rulesStrings.6>terrain_word->atolón</NamerArchipelago.rulePack.rulesStrings.6>
+  <NamerArchipelago.rulePack.rulesStrings.7>terrain_word->islotes</NamerArchipelago.rulePack.rulesStrings.7>
+  <NamerArchipelago.rulePack.rulesStrings.8>terrain_word->islotes</NamerArchipelago.rulePack.rulesStrings.8>
+  <NamerArchipelago.rulePack.rulesStrings.9>terrain_word->arrecife</NamerArchipelago.rulePack.rulesStrings.9>
 
-  <NamerIsland.rulePack.rulesStrings.0>standardname(p=0.2)->isle [narrative_name]</NamerIsland.rulePack.rulesStrings.0>
-  <NamerIsland.rulePack.rulesStrings.1>terrain_word(p=4)->island</NamerIsland.rulePack.rulesStrings.1>
-  <NamerIsland.rulePack.rulesStrings.2>terrain_word(p=2)->isle</NamerIsland.rulePack.rulesStrings.2>
-  <NamerIsland.rulePack.rulesStrings.3>terrain_word->reef</NamerIsland.rulePack.rulesStrings.3>
-  <NamerIsland.rulePack.rulesStrings.4>terrain_word->atoll</NamerIsland.rulePack.rulesStrings.4>
-  <NamerIsland.rulePack.rulesStrings.5>terrain_word->rock</NamerIsland.rulePack.rulesStrings.5>
-  <NamerIsland.rulePack.rulesStrings.6>terrain_word->islet</NamerIsland.rulePack.rulesStrings.6>
-  <NamerIsland.rulePack.rulesStrings.7>terrain_word->point</NamerIsland.rulePack.rulesStrings.7>
+  <NamerIsland.rulePack.rulesStrings.0>standardname(p=0.2)->isla [narrative_name]</NamerIsland.rulePack.rulesStrings.0>
+  <NamerIsland.rulePack.rulesStrings.1>terrain_word(p=4)->isla</NamerIsland.rulePack.rulesStrings.1>
+  <NamerIsland.rulePack.rulesStrings.2>terrain_word(p=2)->isla</NamerIsland.rulePack.rulesStrings.2>
+  <NamerIsland.rulePack.rulesStrings.3>terrain_word->arrecife</NamerIsland.rulePack.rulesStrings.3>
+  <NamerIsland.rulePack.rulesStrings.4>terrain_word->atolón</NamerIsland.rulePack.rulesStrings.4>
+  <NamerIsland.rulePack.rulesStrings.5>terrain_word->islote</NamerIsland.rulePack.rulesStrings.5>
+  <NamerIsland.rulePack.rulesStrings.6>terrain_word->islote</NamerIsland.rulePack.rulesStrings.6>
+  <NamerIsland.rulePack.rulesStrings.7>terrain_word->farallón</NamerIsland.rulePack.rulesStrings.7>
 
-  <NamerPeninsula.rulePack.rulesStrings.0>standardname(p=0.2)->point [narrative_name]</NamerPeninsula.rulePack.rulesStrings.0>
-  <NamerPeninsula.rulePack.rulesStrings.1>standardname(p=0.2)->cape [narrative_name]</NamerPeninsula.rulePack.rulesStrings.1>
-  <NamerPeninsula.rulePack.rulesStrings.2>terrain_word(p=5)->peninsula</NamerPeninsula.rulePack.rulesStrings.2>
-  <NamerPeninsula.rulePack.rulesStrings.3>terrain_word(p=2)->point</NamerPeninsula.rulePack.rulesStrings.3>
-  <NamerPeninsula.rulePack.rulesStrings.4>terrain_word->cape</NamerPeninsula.rulePack.rulesStrings.4>
-  <NamerPeninsula.rulePack.rulesStrings.5>terrain_word->headland</NamerPeninsula.rulePack.rulesStrings.5>
-  <NamerPeninsula.rulePack.rulesStrings.6>terrain_word->horn</NamerPeninsula.rulePack.rulesStrings.6>
+  <NamerPeninsula.rulePack.rulesStrings.0>standardname(p=0.2)->punta [narrative_name]</NamerPeninsula.rulePack.rulesStrings.0>
+  <NamerPeninsula.rulePack.rulesStrings.1>standardname(p=0.2)->cabo [narrative_name]</NamerPeninsula.rulePack.rulesStrings.1>
+  <NamerPeninsula.rulePack.rulesStrings.2>terrain_word(p=5)->península</NamerPeninsula.rulePack.rulesStrings.2>
+  <NamerPeninsula.rulePack.rulesStrings.3>terrain_word(p=2)->península</NamerPeninsula.rulePack.rulesStrings.3>
+  <NamerPeninsula.rulePack.rulesStrings.4>terrain_word->cabo</NamerPeninsula.rulePack.rulesStrings.4>
+  <NamerPeninsula.rulePack.rulesStrings.5>terrain_word->punta</NamerPeninsula.rulePack.rulesStrings.5>
+  <NamerPeninsula.rulePack.rulesStrings.6>terrain_word->cuerno</NamerPeninsula.rulePack.rulesStrings.6>
 
-  <NamerBay.rulePack.rulesStrings.0>standardname(p=0.2)->gulf of [narrative_name]</NamerBay.rulePack.rulesStrings.0>
-  <NamerBay.rulePack.rulesStrings.1>terrain_word(p=6)->bay</NamerBay.rulePack.rulesStrings.1>
-  <NamerBay.rulePack.rulesStrings.2>terrain_word->bight</NamerBay.rulePack.rulesStrings.2>
-  <NamerBay.rulePack.rulesStrings.3>terrain_word->gulf</NamerBay.rulePack.rulesStrings.3>
-  <NamerBay.rulePack.rulesStrings.4>terrain_word->anchorage</NamerBay.rulePack.rulesStrings.4>
-  <NamerBay.rulePack.rulesStrings.5>terrain_word->cove</NamerBay.rulePack.rulesStrings.5>
+  <NamerBay.rulePack.rulesStrings.0>standardname(p=0.2)->golfo de [narrative_name]</NamerBay.rulePack.rulesStrings.0>
+  <NamerBay.rulePack.rulesStrings.1>terrain_word(p=6)->bahía</NamerBay.rulePack.rulesStrings.1>
+  <NamerBay.rulePack.rulesStrings.2>terrain_word->ensenada</NamerBay.rulePack.rulesStrings.2>
+  <NamerBay.rulePack.rulesStrings.3>terrain_word->golfo</NamerBay.rulePack.rulesStrings.3>
+  <NamerBay.rulePack.rulesStrings.4>terrain_word->fondeadero</NamerBay.rulePack.rulesStrings.4>
+  <NamerBay.rulePack.rulesStrings.5>terrain_word->golfo</NamerBay.rulePack.rulesStrings.5>
 
-  <NamerLake.rulePack.rulesStrings.0>standardname->lake [narrative_name]</NamerLake.rulePack.rulesStrings.0>
-  <NamerLake.rulePack.rulesStrings.1>terrain_word(p=6)->lake</NamerLake.rulePack.rulesStrings.1>
-  <NamerLake.rulePack.rulesStrings.2>terrain_word->sea</NamerLake.rulePack.rulesStrings.2>
-  <NamerLake.rulePack.rulesStrings.3>terrain_word->pond</NamerLake.rulePack.rulesStrings.3>
-  <NamerLake.rulePack.rulesStrings.4>terrain_word->basin</NamerLake.rulePack.rulesStrings.4>
-  <NamerLake.rulePack.rulesStrings.5>terrain_word->reservoir</NamerLake.rulePack.rulesStrings.5>
-  <NamerLake.rulePack.rulesStrings.6>terrain_word(p=0.3)->puddle</NamerLake.rulePack.rulesStrings.6>
-  <NamerLake.rulePack.rulesStrings.7>terrain_word(p=0.3)->lagoon</NamerLake.rulePack.rulesStrings.7>
-  <NamerLake.rulePack.rulesStrings.8>terrain_word(p=0.3)->loch</NamerLake.rulePack.rulesStrings.8>
+  <NamerLake.rulePack.rulesStrings.0>standardname->lago [narrative_name]</NamerLake.rulePack.rulesStrings.0>
+  <NamerLake.rulePack.rulesStrings.1>terrain_word(p=6)->lago</NamerLake.rulePack.rulesStrings.1>
+  <NamerLake.rulePack.rulesStrings.2>terrain_word->laguna</NamerLake.rulePack.rulesStrings.2>
+  <NamerLake.rulePack.rulesStrings.3>terrain_word->lago</NamerLake.rulePack.rulesStrings.3>
+  <NamerLake.rulePack.rulesStrings.4>terrain_word->cuenca</NamerLake.rulePack.rulesStrings.4>
+  <NamerLake.rulePack.rulesStrings.5>terrain_word->reservorio</NamerLake.rulePack.rulesStrings.5>
+  <NamerLake.rulePack.rulesStrings.6>terrain_word(p=0.3)->laguna</NamerLake.rulePack.rulesStrings.6>
+  <NamerLake.rulePack.rulesStrings.7>terrain_word(p=0.3)->laguna</NamerLake.rulePack.rulesStrings.7>
+  <NamerLake.rulePack.rulesStrings.8>terrain_word(p=0.3)->lago</NamerLake.rulePack.rulesStrings.8>
 
-  <NamerSea.rulePack.rulesStrings.0>standardname(p=0.1)->lake [narrative_name]</NamerSea.rulePack.rulesStrings.0>
-  <NamerSea.rulePack.rulesStrings.1>terrain_word(p=6)->sea</NamerSea.rulePack.rulesStrings.1>
-  <NamerSea.rulePack.rulesStrings.2>terrain_word->ocean</NamerSea.rulePack.rulesStrings.2>
-  <NamerSea.rulePack.rulesStrings.3>terrain_word->lake</NamerSea.rulePack.rulesStrings.3>
+  <NamerSea.rulePack.rulesStrings.0>standardname(p=0.1)->mar [narrative_name]</NamerSea.rulePack.rulesStrings.0>
+  <NamerSea.rulePack.rulesStrings.1>terrain_word(p=6)->mar</NamerSea.rulePack.rulesStrings.1>
+  <NamerSea.rulePack.rulesStrings.2>terrain_word->océano</NamerSea.rulePack.rulesStrings.2>
+  <NamerSea.rulePack.rulesStrings.3>terrain_word->océano</NamerSea.rulePack.rulesStrings.3>
 
-  <NamerOcean.rulePack.rulesStrings.0>standardname(p=0.4)->[ocean_adjective] [narrative_name]</NamerOcean.rulePack.rulesStrings.0>
-  <NamerOcean.rulePack.rulesStrings.1>ocean_adjective->blue</NamerOcean.rulePack.rulesStrings.1>
-  <NamerOcean.rulePack.rulesStrings.2>ocean_adjective->white</NamerOcean.rulePack.rulesStrings.2>
-  <NamerOcean.rulePack.rulesStrings.3>ocean_adjective->gray</NamerOcean.rulePack.rulesStrings.3>
-  <NamerOcean.rulePack.rulesStrings.4>ocean_adjective->clear</NamerOcean.rulePack.rulesStrings.4>
-  <NamerOcean.rulePack.rulesStrings.5>ocean_adjective->windy</NamerOcean.rulePack.rulesStrings.5>
-  <NamerOcean.rulePack.rulesStrings.6>ocean_adjective->stormy</NamerOcean.rulePack.rulesStrings.6>
-  <NamerOcean.rulePack.rulesStrings.7>ocean_adjective->calm</NamerOcean.rulePack.rulesStrings.7>
-  <NamerOcean.rulePack.rulesStrings.8>ocean_adjective->broad</NamerOcean.rulePack.rulesStrings.8>
-  <NamerOcean.rulePack.rulesStrings.9>ocean_adjective->endless</NamerOcean.rulePack.rulesStrings.9>
-  <NamerOcean.rulePack.rulesStrings.10>ocean_adjective->flat</NamerOcean.rulePack.rulesStrings.10>
-  <NamerOcean.rulePack.rulesStrings.11>ocean_adjective->still</NamerOcean.rulePack.rulesStrings.11>
-  <NamerOcean.rulePack.rulesStrings.12>ocean_adjective->wavy</NamerOcean.rulePack.rulesStrings.12>
-  <NamerOcean.rulePack.rulesStrings.13>ocean_adjective->gentle</NamerOcean.rulePack.rulesStrings.13>
-  <NamerOcean.rulePack.rulesStrings.14>terrain_word(p=6)->ocean</NamerOcean.rulePack.rulesStrings.14>
-  <NamerOcean.rulePack.rulesStrings.15>terrain_word(p=3)->sea</NamerOcean.rulePack.rulesStrings.15>
-  <NamerOcean.rulePack.rulesStrings.16>terrain_word->expanse</NamerOcean.rulePack.rulesStrings.16>
+  <NamerOcean.rulePack.rulesStrings.0>standardname(p=0.4)->[narrative_name] [ocean_adjective]</NamerOcean.rulePack.rulesStrings.0>
+  <NamerOcean.rulePack.rulesStrings.1>ocean_adjective->azul</NamerOcean.rulePack.rulesStrings.1>
+  <NamerOcean.rulePack.rulesStrings.2>ocean_adjective->blanco</NamerOcean.rulePack.rulesStrings.2>
+  <NamerOcean.rulePack.rulesStrings.3>ocean_adjective->gris</NamerOcean.rulePack.rulesStrings.3>
+  <NamerOcean.rulePack.rulesStrings.4>ocean_adjective->negro</NamerOcean.rulePack.rulesStrings.4>
+  <NamerOcean.rulePack.rulesStrings.5>ocean_adjective->de brisas</NamerOcean.rulePack.rulesStrings.5>
+  <NamerOcean.rulePack.rulesStrings.6>ocean_adjective->de tormentas</NamerOcean.rulePack.rulesStrings.6>
+  <NamerOcean.rulePack.rulesStrings.7>ocean_adjective->calmado</NamerOcean.rulePack.rulesStrings.7>
+  <NamerOcean.rulePack.rulesStrings.8>ocean_adjective->ancho</NamerOcean.rulePack.rulesStrings.8>
+  <NamerOcean.rulePack.rulesStrings.9>ocean_adjective->sin fin</NamerOcean.rulePack.rulesStrings.9>
+  <NamerOcean.rulePack.rulesStrings.10>ocean_adjective->tranquilo</NamerOcean.rulePack.rulesStrings.10>
+  <NamerOcean.rulePack.rulesStrings.11>ocean_adjective->sereno</NamerOcean.rulePack.rulesStrings.11>
+  <NamerOcean.rulePack.rulesStrings.12>ocean_adjective->inquieto</NamerOcean.rulePack.rulesStrings.12>
+  <NamerOcean.rulePack.rulesStrings.13>ocean_adjective->gentil</NamerOcean.rulePack.rulesStrings.13>
+  <NamerOcean.rulePack.rulesStrings.14>terrain_word(p=6)->océano</NamerOcean.rulePack.rulesStrings.14>
+  <NamerOcean.rulePack.rulesStrings.15>terrain_word(p=3)->mar</NamerOcean.rulePack.rulesStrings.15>
+  <NamerOcean.rulePack.rulesStrings.16>terrain_word->océano</NamerOcean.rulePack.rulesStrings.16>
 
-  <NamerDesert.rulePack.rulesStrings.0>standardname(p=0.4)->[desert_adjective] [narrative_name]</NamerDesert.rulePack.rulesStrings.0>
-  <NamerDesert.rulePack.rulesStrings.1>desert_adjective->flat</NamerDesert.rulePack.rulesStrings.1>
-  <NamerDesert.rulePack.rulesStrings.2>desert_adjective->white</NamerDesert.rulePack.rulesStrings.2>
-  <NamerDesert.rulePack.rulesStrings.3>desert_adjective->endless</NamerDesert.rulePack.rulesStrings.3>
-  <NamerDesert.rulePack.rulesStrings.4>desert_adjective->heartless</NamerDesert.rulePack.rulesStrings.4>
-  <NamerDesert.rulePack.rulesStrings.5>desert_adjective->parched</NamerDesert.rulePack.rulesStrings.5>
-  <NamerDesert.rulePack.rulesStrings.6>desert_adjective->dry</NamerDesert.rulePack.rulesStrings.6>
-  <NamerDesert.rulePack.rulesStrings.7>desert_adjective->long</NamerDesert.rulePack.rulesStrings.7>
-  <NamerDesert.rulePack.rulesStrings.8>desert_adjective->sunburned</NamerDesert.rulePack.rulesStrings.8>
-  <NamerDesert.rulePack.rulesStrings.9>desert_adjective->sunny</NamerDesert.rulePack.rulesStrings.9>
-  <NamerDesert.rulePack.rulesStrings.10>desert_adjective->dazzling</NamerDesert.rulePack.rulesStrings.10>
-  <NamerDesert.rulePack.rulesStrings.11>desert_adjective->hot</NamerDesert.rulePack.rulesStrings.11>
-  <NamerDesert.rulePack.rulesStrings.12>desert_adjective->sweaty</NamerDesert.rulePack.rulesStrings.12>
-  <NamerDesert.rulePack.rulesStrings.13>desert_adjective->sandy</NamerDesert.rulePack.rulesStrings.13>
-  <NamerDesert.rulePack.rulesStrings.14>desert_adjective->rocky</NamerDesert.rulePack.rulesStrings.14>
-  <NamerDesert.rulePack.rulesStrings.15>terrain_word(p=6)->desert</NamerDesert.rulePack.rulesStrings.15>
-  <NamerDesert.rulePack.rulesStrings.16>terrain_word->plateau</NamerDesert.rulePack.rulesStrings.16>
-  <NamerDesert.rulePack.rulesStrings.17>terrain_word->flats</NamerDesert.rulePack.rulesStrings.17>
-  <NamerDesert.rulePack.rulesStrings.18>terrain_word->basin</NamerDesert.rulePack.rulesStrings.18>
-  <NamerDesert.rulePack.rulesStrings.19>terrain_word->wastes</NamerDesert.rulePack.rulesStrings.19>
-  <NamerDesert.rulePack.rulesStrings.20>terrain_word->wasteland</NamerDesert.rulePack.rulesStrings.20>
-  <NamerDesert.rulePack.rulesStrings.21>terrain_word->barrens</NamerDesert.rulePack.rulesStrings.21>
+  <NamerDesert.rulePack.rulesStrings.0>standardname(p=0.4)->[narrative_name] [desert_adjective]</NamerDesert.rulePack.rulesStrings.0>
+  <NamerDesert.rulePack.rulesStrings.1>desert_adjective->llano</NamerDesert.rulePack.rulesStrings.1>
+  <NamerDesert.rulePack.rulesStrings.2>desert_adjective->blanco</NamerDesert.rulePack.rulesStrings.2>
+  <NamerDesert.rulePack.rulesStrings.3>desert_adjective->sin fin</NamerDesert.rulePack.rulesStrings.3>
+  <NamerDesert.rulePack.rulesStrings.4>desert_adjective->cruel</NamerDesert.rulePack.rulesStrings.4>
+  <NamerDesert.rulePack.rulesStrings.5>desert_adjective->maldito</NamerDesert.rulePack.rulesStrings.5>
+  <NamerDesert.rulePack.rulesStrings.6>desert_adjective->espinoso</NamerDesert.rulePack.rulesStrings.6>
+  <NamerDesert.rulePack.rulesStrings.7>desert_adjective->del muerto</NamerDesert.rulePack.rulesStrings.7>
+  <NamerDesert.rulePack.rulesStrings.8>desert_adjective->requemado</NamerDesert.rulePack.rulesStrings.8>
+  <NamerDesert.rulePack.rulesStrings.9>desert_adjective->iluminado</NamerDesert.rulePack.rulesStrings.9>
+  <NamerDesert.rulePack.rulesStrings.10>desert_adjective->deslumbrante</NamerDesert.rulePack.rulesStrings.10>
+  <NamerDesert.rulePack.rulesStrings.11>desert_adjective->caliente</NamerDesert.rulePack.rulesStrings.11>
+  <NamerDesert.rulePack.rulesStrings.12>desert_adjective->ahumado</NamerDesert.rulePack.rulesStrings.12>
+  <NamerDesert.rulePack.rulesStrings.13>desert_adjective->arenoso</NamerDesert.rulePack.rulesStrings.13>
+  <NamerDesert.rulePack.rulesStrings.14>desert_adjective->rocoso</NamerDesert.rulePack.rulesStrings.14>
+  <NamerDesert.rulePack.rulesStrings.15>terrain_word(p=6)->desierto</NamerDesert.rulePack.rulesStrings.15>
+  <NamerDesert.rulePack.rulesStrings.16>terrain_word->altiplano</NamerDesert.rulePack.rulesStrings.16>
+  <NamerDesert.rulePack.rulesStrings.17>terrain_word->planicie</NamerDesert.rulePack.rulesStrings.17>
+  <NamerDesert.rulePack.rulesStrings.18>terrain_word->tierras baldías</NamerDesert.rulePack.rulesStrings.18>
+  <NamerDesert.rulePack.rulesStrings.19>terrain_word->erial</NamerDesert.rulePack.rulesStrings.19>
+  <NamerDesert.rulePack.rulesStrings.20>terrain_word->baldío</NamerDesert.rulePack.rulesStrings.20>
+  <NamerDesert.rulePack.rulesStrings.21>terrain_word->yermo</NamerDesert.rulePack.rulesStrings.21>
 
-  <NamerSwamp.rulePack.rulesStrings.0>standardname(p=0.1)->fen [narrative_name]</NamerSwamp.rulePack.rulesStrings.0>
-  <NamerSwamp.rulePack.rulesStrings.1>standardname(p=0.3)->[swamp_adjective] [narrative_name]</NamerSwamp.rulePack.rulesStrings.1>
-  <NamerSwamp.rulePack.rulesStrings.2>swamp_adjective->wet</NamerSwamp.rulePack.rulesStrings.2>
-  <NamerSwamp.rulePack.rulesStrings.3>swamp_adjective->steamy</NamerSwamp.rulePack.rulesStrings.3>
-  <NamerSwamp.rulePack.rulesStrings.4>swamp_adjective->choking</NamerSwamp.rulePack.rulesStrings.4>
-  <NamerSwamp.rulePack.rulesStrings.5>swamp_adjective->rotten</NamerSwamp.rulePack.rulesStrings.5>
-  <NamerSwamp.rulePack.rulesStrings.6>swamp_adjective->rotting</NamerSwamp.rulePack.rulesStrings.6>
-  <NamerSwamp.rulePack.rulesStrings.7>swamp_adjective->overgrown</NamerSwamp.rulePack.rulesStrings.7>
-  <NamerSwamp.rulePack.rulesStrings.8>swamp_adjective->tangled</NamerSwamp.rulePack.rulesStrings.8>
-  <NamerSwamp.rulePack.rulesStrings.9>swamp_adjective->viny</NamerSwamp.rulePack.rulesStrings.9>
-  <NamerSwamp.rulePack.rulesStrings.10>swamp_adjective->thorny</NamerSwamp.rulePack.rulesStrings.10>
-  <NamerSwamp.rulePack.rulesStrings.11>terrain_word(p=6)->swamp</NamerSwamp.rulePack.rulesStrings.11>
-  <NamerSwamp.rulePack.rulesStrings.12>terrain_word->basin</NamerSwamp.rulePack.rulesStrings.12>
-  <NamerSwamp.rulePack.rulesStrings.13>terrain_word->wetlands</NamerSwamp.rulePack.rulesStrings.13>
-  <NamerSwamp.rulePack.rulesStrings.14>terrain_word->bayou</NamerSwamp.rulePack.rulesStrings.14>
-  <NamerSwamp.rulePack.rulesStrings.15>terrain_word->bog</NamerSwamp.rulePack.rulesStrings.15>
-  <NamerSwamp.rulePack.rulesStrings.16>terrain_word->marsh</NamerSwamp.rulePack.rulesStrings.16>
-  <NamerSwamp.rulePack.rulesStrings.17>terrain_word->fen</NamerSwamp.rulePack.rulesStrings.17>
+  <NamerSwamp.rulePack.rulesStrings.0>standardname(p=0.1)->pantano [narrative_name]</NamerSwamp.rulePack.rulesStrings.0>
+  <NamerSwamp.rulePack.rulesStrings.1>standardname(p=0.3)->[narrative_name] [swamp_adjective]</NamerSwamp.rulePack.rulesStrings.1>
+  <NamerSwamp.rulePack.rulesStrings.2>swamp_adjective->húmedo</NamerSwamp.rulePack.rulesStrings.2>
+  <NamerSwamp.rulePack.rulesStrings.3>swamp_adjective->nebuloso</NamerSwamp.rulePack.rulesStrings.3>
+  <NamerSwamp.rulePack.rulesStrings.4>swamp_adjective->asfixiante</NamerSwamp.rulePack.rulesStrings.4>
+  <NamerSwamp.rulePack.rulesStrings.5>swamp_adjective->podrido</NamerSwamp.rulePack.rulesStrings.5>
+  <NamerSwamp.rulePack.rulesStrings.6>swamp_adjective->gris</NamerSwamp.rulePack.rulesStrings.6>
+  <NamerSwamp.rulePack.rulesStrings.7>swamp_adjective->verde</NamerSwamp.rulePack.rulesStrings.7>
+  <NamerSwamp.rulePack.rulesStrings.8>swamp_adjective->enredado</NamerSwamp.rulePack.rulesStrings.8>
+  <NamerSwamp.rulePack.rulesStrings.9>swamp_adjective->turbio</NamerSwamp.rulePack.rulesStrings.9>
+  <NamerSwamp.rulePack.rulesStrings.10>swamp_adjective->espinoso</NamerSwamp.rulePack.rulesStrings.10>
+  <NamerSwamp.rulePack.rulesStrings.11>terrain_word(p=6)->pantano</NamerSwamp.rulePack.rulesStrings.11>
+  <NamerSwamp.rulePack.rulesStrings.12>terrain_word->cenagal</NamerSwamp.rulePack.rulesStrings.12>
+  <NamerSwamp.rulePack.rulesStrings.13>terrain_word->humedal</NamerSwamp.rulePack.rulesStrings.13>
+  <NamerSwamp.rulePack.rulesStrings.14>terrain_word->fangal</NamerSwamp.rulePack.rulesStrings.14>
+  <NamerSwamp.rulePack.rulesStrings.15>terrain_word->humedal</NamerSwamp.rulePack.rulesStrings.15>
+  <NamerSwamp.rulePack.rulesStrings.16>terrain_word->cenagal</NamerSwamp.rulePack.rulesStrings.16>
+  <NamerSwamp.rulePack.rulesStrings.17>terrain_word->lodazal</NamerSwamp.rulePack.rulesStrings.17>
 
-  <NamerTropicalRainforest.rulePack.rulesStrings.0>standardname(p=0.3)->[rainforest_adjective] [narrative_name]</NamerTropicalRainforest.rulePack.rulesStrings.0>
-  <NamerTropicalRainforest.rulePack.rulesStrings.1>rainforest_adjective->wet</NamerTropicalRainforest.rulePack.rulesStrings.1>
-  <NamerTropicalRainforest.rulePack.rulesStrings.2>rainforest_adjective->steamy</NamerTropicalRainforest.rulePack.rulesStrings.2>
-  <NamerTropicalRainforest.rulePack.rulesStrings.3>rainforest_adjective->choking</NamerTropicalRainforest.rulePack.rulesStrings.3>
-  <NamerTropicalRainforest.rulePack.rulesStrings.4>rainforest_adjective->overgrown</NamerTropicalRainforest.rulePack.rulesStrings.4>
-  <NamerTropicalRainforest.rulePack.rulesStrings.5>rainforest_adjective->tangled</NamerTropicalRainforest.rulePack.rulesStrings.5>
-  <NamerTropicalRainforest.rulePack.rulesStrings.6>rainforest_adjective->viny</NamerTropicalRainforest.rulePack.rulesStrings.6>
-  <NamerTropicalRainforest.rulePack.rulesStrings.7>rainforest_adjective->thorny</NamerTropicalRainforest.rulePack.rulesStrings.7>
-  <NamerTropicalRainforest.rulePack.rulesStrings.8>terrain_word(p=6)->rainforest</NamerTropicalRainforest.rulePack.rulesStrings.8>
-  <NamerTropicalRainforest.rulePack.rulesStrings.9>terrain_word(p=3)->jungle</NamerTropicalRainforest.rulePack.rulesStrings.9>
-  <NamerTropicalRainforest.rulePack.rulesStrings.10>terrain_word->forest</NamerTropicalRainforest.rulePack.rulesStrings.10>
-  <NamerTropicalRainforest.rulePack.rulesStrings.11>terrain_word->grove</NamerTropicalRainforest.rulePack.rulesStrings.11>
-  <NamerTropicalRainforest.rulePack.rulesStrings.12>terrain_word->woodland</NamerTropicalRainforest.rulePack.rulesStrings.12>
-  <NamerTropicalRainforest.rulePack.rulesStrings.13>terrain_word->tangle</NamerTropicalRainforest.rulePack.rulesStrings.13>
+  <NamerTropicalRainforest.rulePack.rulesStrings.0>standardname(p=0.3)->[narrative_name] [rainforest_adjective]</NamerTropicalRainforest.rulePack.rulesStrings.0>
+  <NamerTropicalRainforest.rulePack.rulesStrings.1>rainforest_adjective->húmeda</NamerTropicalRainforest.rulePack.rulesStrings.1>
+  <NamerTropicalRainforest.rulePack.rulesStrings.2>rainforest_adjective->grande</NamerTropicalRainforest.rulePack.rulesStrings.2>
+  <NamerTropicalRainforest.rulePack.rulesStrings.3>rainforest_adjective->virgen</NamerTropicalRainforest.rulePack.rulesStrings.3>
+  <NamerTropicalRainforest.rulePack.rulesStrings.4>rainforest_adjective->negra</NamerTropicalRainforest.rulePack.rulesStrings.4>
+  <NamerTropicalRainforest.rulePack.rulesStrings.5>rainforest_adjective->perdida</NamerTropicalRainforest.rulePack.rulesStrings.5>
+  <NamerTropicalRainforest.rulePack.rulesStrings.6>rainforest_adjective->ominosa</NamerTropicalRainforest.rulePack.rulesStrings.6>
+  <NamerTropicalRainforest.rulePack.rulesStrings.7>rainforest_adjective->espinosa</NamerTropicalRainforest.rulePack.rulesStrings.7>
+  <NamerTropicalRainforest.rulePack.rulesStrings.8>terrain_word(p=6)->jungla</NamerTropicalRainforest.rulePack.rulesStrings.8>
+  <NamerTropicalRainforest.rulePack.rulesStrings.9>terrain_word(p=3)->selva</NamerTropicalRainforest.rulePack.rulesStrings.9>
+  <NamerTropicalRainforest.rulePack.rulesStrings.10>terrain_word->selva</NamerTropicalRainforest.rulePack.rulesStrings.10>
+  <NamerTropicalRainforest.rulePack.rulesStrings.11>terrain_word->jungla</NamerTropicalRainforest.rulePack.rulesStrings.11>
+  <NamerTropicalRainforest.rulePack.rulesStrings.12>terrain_word->jungla</NamerTropicalRainforest.rulePack.rulesStrings.12>
+  <NamerTropicalRainforest.rulePack.rulesStrings.13>terrain_word->selva</NamerTropicalRainforest.rulePack.rulesStrings.13>
 
-  <NamerForest.rulePack.rulesStrings.0>terrain_word(p=6)->forest</NamerForest.rulePack.rulesStrings.0>
-  <NamerForest.rulePack.rulesStrings.1>terrain_word->grove</NamerForest.rulePack.rulesStrings.1>
-  <NamerForest.rulePack.rulesStrings.2>terrain_word->woodland</NamerForest.rulePack.rulesStrings.2>
-  <NamerForest.rulePack.rulesStrings.3>terrain_word->thicket</NamerForest.rulePack.rulesStrings.3>
+  <NamerForest.rulePack.rulesStrings.0>terrain_word(p=6)->bosque</NamerForest.rulePack.rulesStrings.0>
+  <NamerForest.rulePack.rulesStrings.1>terrain_word->parque</NamerForest.rulePack.rulesStrings.1>
+  <NamerForest.rulePack.rulesStrings.2>terrain_word->matorral</NamerForest.rulePack.rulesStrings.2>
+  <NamerForest.rulePack.rulesStrings.3>terrain_word->bosquecillo</NamerForest.rulePack.rulesStrings.3>
 
-  <NamerBorealForest.rulePack.rulesStrings.0>terrain_word(p=6)->forest</NamerBorealForest.rulePack.rulesStrings.0>
+  <NamerBorealForest.rulePack.rulesStrings.0>terrain_word(p=6)->bosque</NamerBorealForest.rulePack.rulesStrings.0>
   <NamerBorealForest.rulePack.rulesStrings.1>terrain_word(p=3)->taiga</NamerBorealForest.rulePack.rulesStrings.1>
-  <NamerBorealForest.rulePack.rulesStrings.2>terrain_word->grove</NamerBorealForest.rulePack.rulesStrings.2>
-  <NamerBorealForest.rulePack.rulesStrings.3>terrain_word->woodland</NamerBorealForest.rulePack.rulesStrings.3>
-  <NamerBorealForest.rulePack.rulesStrings.4>terrain_word->woods</NamerBorealForest.rulePack.rulesStrings.4>
-  <NamerBorealForest.rulePack.rulesStrings.5>terrain_word->tangle</NamerBorealForest.rulePack.rulesStrings.5>
-  <NamerBorealForest.rulePack.rulesStrings.6>terrain_word->thicket</NamerBorealForest.rulePack.rulesStrings.6>
+  <NamerBorealForest.rulePack.rulesStrings.2>terrain_word->parque</NamerBorealForest.rulePack.rulesStrings.2>
+  <NamerBorealForest.rulePack.rulesStrings.3>terrain_word->matorral</NamerBorealForest.rulePack.rulesStrings.3>
+  <NamerBorealForest.rulePack.rulesStrings.4>terrain_word->matorral</NamerBorealForest.rulePack.rulesStrings.4>
+  <NamerBorealForest.rulePack.rulesStrings.5>terrain_word->parque</NamerBorealForest.rulePack.rulesStrings.5>
+  <NamerBorealForest.rulePack.rulesStrings.6>terrain_word->bosquecillo</NamerBorealForest.rulePack.rulesStrings.6>
 
-  <NamerAridShrubland.rulePack.rulesStrings.0>terrain_word(p=4)->shrubland</NamerAridShrubland.rulePack.rulesStrings.0>
-  <NamerAridShrubland.rulePack.rulesStrings.1>terrain_word(p=4)->scrubland</NamerAridShrubland.rulePack.rulesStrings.1>
-  <NamerAridShrubland.rulePack.rulesStrings.2>terrain_word(p=2)->plateau</NamerAridShrubland.rulePack.rulesStrings.2>
-  <NamerAridShrubland.rulePack.rulesStrings.3>terrain_word(p=2)->scrub</NamerAridShrubland.rulePack.rulesStrings.3>
-  <NamerAridShrubland.rulePack.rulesStrings.4>terrain_word->desert</NamerAridShrubland.rulePack.rulesStrings.4>
-  <NamerAridShrubland.rulePack.rulesStrings.5>terrain_word->bush</NamerAridShrubland.rulePack.rulesStrings.5>
-  <NamerAridShrubland.rulePack.rulesStrings.6>terrain_word->brush</NamerAridShrubland.rulePack.rulesStrings.6>
-  <NamerAridShrubland.rulePack.rulesStrings.7>terrain_word->barrens</NamerAridShrubland.rulePack.rulesStrings.7>
+  <NamerAridShrubland.rulePack.rulesStrings.0>terrain_word(p=4)->matorral</NamerAridShrubland.rulePack.rulesStrings.0>
+  <NamerAridShrubland.rulePack.rulesStrings.1>terrain_word(p=4)->matorral</NamerAridShrubland.rulePack.rulesStrings.1>
+  <NamerAridShrubland.rulePack.rulesStrings.2>terrain_word(p=2)->planicie</NamerAridShrubland.rulePack.rulesStrings.2>
+  <NamerAridShrubland.rulePack.rulesStrings.3>terrain_word(p=2)->páramo</NamerAridShrubland.rulePack.rulesStrings.3>
+  <NamerAridShrubland.rulePack.rulesStrings.4>terrain_word->desierto</NamerAridShrubland.rulePack.rulesStrings.4>
+  <NamerAridShrubland.rulePack.rulesStrings.5>terrain_word->yermo</NamerAridShrubland.rulePack.rulesStrings.5>
+  <NamerAridShrubland.rulePack.rulesStrings.6>terrain_word->páramo</NamerAridShrubland.rulePack.rulesStrings.6>
+  <NamerAridShrubland.rulePack.rulesStrings.7>terrain_word->despoblado</NamerAridShrubland.rulePack.rulesStrings.7>
 
-  <NamerIceSheet.rulePack.rulesStrings.0>terrain_word->sheet</NamerIceSheet.rulePack.rulesStrings.0>
-  <NamerIceSheet.rulePack.rulesStrings.1>terrain_word->expanse</NamerIceSheet.rulePack.rulesStrings.1>
-  <NamerIceSheet.rulePack.rulesStrings.2>terrain_word(p=0.5)->reach</NamerIceSheet.rulePack.rulesStrings.2>
-  <NamerIceSheet.rulePack.rulesStrings.3>terrain_word(p=0.3)->field</NamerIceSheet.rulePack.rulesStrings.3>
-  <NamerIceSheet.rulePack.rulesStrings.4>terrain_word(p=0.3)->span</NamerIceSheet.rulePack.rulesStrings.4>
-  <NamerIceSheet.rulePack.rulesStrings.5>terrain_word(p=0.3)->field</NamerIceSheet.rulePack.rulesStrings.5>
-  <NamerIceSheet.rulePack.rulesStrings.6>terrain_word(p=0.3)->stretch</NamerIceSheet.rulePack.rulesStrings.6>
-  <NamerIceSheet.rulePack.rulesStrings.7>terrain_word(p=0.3)->tract</NamerIceSheet.rulePack.rulesStrings.7>
+  <NamerIceSheet.rulePack.rulesStrings.0>terrain_word->glaciar</NamerIceSheet.rulePack.rulesStrings.0>
+  <NamerIceSheet.rulePack.rulesStrings.1>terrain_word->macizo</NamerIceSheet.rulePack.rulesStrings.1>
+  <NamerIceSheet.rulePack.rulesStrings.2>terrain_word(p=0.5)->macizo</NamerIceSheet.rulePack.rulesStrings.2>
+  <NamerIceSheet.rulePack.rulesStrings.3>terrain_word(p=0.3)->glaciar</NamerIceSheet.rulePack.rulesStrings.3>
+  <NamerIceSheet.rulePack.rulesStrings.4>terrain_word(p=0.3)->fiordo</NamerIceSheet.rulePack.rulesStrings.4>
+  <NamerIceSheet.rulePack.rulesStrings.5>terrain_word(p=0.3)->fiordo</NamerIceSheet.rulePack.rulesStrings.5>
+  <NamerIceSheet.rulePack.rulesStrings.6>terrain_word(p=0.3)->macizo</NamerIceSheet.rulePack.rulesStrings.6>
+  <NamerIceSheet.rulePack.rulesStrings.7>terrain_word(p=0.3)->hielo perpetuo</NamerIceSheet.rulePack.rulesStrings.7>
 
-  <NamerTundra.rulePack.rulesStrings.0>terrain_word(p=4)->plateau</NamerTundra.rulePack.rulesStrings.0>
-  <NamerTundra.rulePack.rulesStrings.1>terrain_word(p=4)->barrens</NamerTundra.rulePack.rulesStrings.1>
+  <NamerTundra.rulePack.rulesStrings.0>terrain_word(p=4)->meseta</NamerTundra.rulePack.rulesStrings.0>
+  <NamerTundra.rulePack.rulesStrings.1>terrain_word(p=4)->tundra</NamerTundra.rulePack.rulesStrings.1>
   <NamerTundra.rulePack.rulesStrings.2>terrain_word(p=2)->taiga</NamerTundra.rulePack.rulesStrings.2>
-  <NamerTundra.rulePack.rulesStrings.3>terrain_word->scrub</NamerTundra.rulePack.rulesStrings.3>
-  <NamerTundra.rulePack.rulesStrings.4>terrain_word->shrubland</NamerTundra.rulePack.rulesStrings.4>
-  <NamerTundra.rulePack.rulesStrings.5>terrain_word->scrubland</NamerTundra.rulePack.rulesStrings.5>
-  <NamerTundra.rulePack.rulesStrings.6>terrain_word->bush</NamerTundra.rulePack.rulesStrings.6>
-  <NamerTundra.rulePack.rulesStrings.7>terrain_word->brush</NamerTundra.rulePack.rulesStrings.7>
-  <NamerTundra.rulePack.rulesStrings.8>terrain_word->barrens</NamerTundra.rulePack.rulesStrings.8>
-  <NamerTundra.rulePack.rulesStrings.9>terrain_word->expanse</NamerTundra.rulePack.rulesStrings.9>
-  <NamerTundra.rulePack.rulesStrings.10>terrain_word->prairie</NamerTundra.rulePack.rulesStrings.10>
-  <NamerTundra.rulePack.rulesStrings.11>terrain_word->flats</NamerTundra.rulePack.rulesStrings.11>
+  <NamerTundra.rulePack.rulesStrings.3>terrain_word->planicie</NamerTundra.rulePack.rulesStrings.3>
+  <NamerTundra.rulePack.rulesStrings.4>terrain_word->planicie</NamerTundra.rulePack.rulesStrings.4>
+  <NamerTundra.rulePack.rulesStrings.5>terrain_word->llanura</NamerTundra.rulePack.rulesStrings.5>
+  <NamerTundra.rulePack.rulesStrings.6>terrain_word->pradera</NamerTundra.rulePack.rulesStrings.6>
+  <NamerTundra.rulePack.rulesStrings.7>terrain_word->expansión</NamerTundra.rulePack.rulesStrings.7>
+  <NamerTundra.rulePack.rulesStrings.8>terrain_word->tundra</NamerTundra.rulePack.rulesStrings.8>
+  <NamerTundra.rulePack.rulesStrings.9>terrain_word->expansión</NamerTundra.rulePack.rulesStrings.9>
+  <NamerTundra.rulePack.rulesStrings.10>terrain_word->pradera</NamerTundra.rulePack.rulesStrings.10>
+  <NamerTundra.rulePack.rulesStrings.11>terrain_word->llanura</NamerTundra.rulePack.rulesStrings.11>
 
 
 </LanguageData>

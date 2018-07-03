@@ -14,7 +14,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 - - -
 
 Current translation and adaptation by:
-* __Etaglibash (Inactivo)__
+* __Etaglibash__
 * __Mora145__
 * __Andres6936__
 * __Destiny609__
