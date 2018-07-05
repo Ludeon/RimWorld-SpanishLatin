@@ -4,9 +4,9 @@
   <Wounded.label>wounded</Wounded.label>
 	<Wounded.rulePack.rulesStrings>
 		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</li>
-		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [weapon_label]</li>
+		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [WEAPON_label]</li>
 		<li>tale_noun->the [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef]</li>
-		<li>tale_noun->the [wound_name_present] of [victim_nameShortDef] with a [weapon_label]</li>
+		<li>tale_noun->the [wound_name_present] of [victim_nameShortDef] with a [WEAPON_label]</li>
 		<li>tale_noun->the [wound_name_present] of [victim_nameShortDef]</li>
 		<li>image->[victim_nameFull] being [wound_name_past] by [killer_nameFull] [weapon_optional]</li>
 		<li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</li>
@@ -22,7 +22,7 @@
 		<li>wound_name_present->hurting</li>
 		<li>wound_name_present->assaulting</li>
 		<li>wound_name_present->attacking</li>
-		<li>weapon_optional->with a [weapon_label] [circumstance_group]</li>
+		<li>weapon_optional->with a [WEAPON_label] [circumstance_group]</li>
 		<li>weapon_optional->[circumstance_group]</li>
 		<li>circumstance_phrase->seemingly without remorse</li>
 		<li>circumstance_phrase->with cold efficiency</li>
@@ -48,9 +48,9 @@
   <Downed.label>downed</Downed.label>
 	<Downed.rulePack.rulesStrings>
 		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</li>
-		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [weapon_label]</li>
+		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [WEAPON_label]</li>
 		<li>tale_noun->the [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef]</li>
-		<li>tale_noun->the [wound_name_present] of [victim_nameShortDef] with a [weapon_label]</li>
+		<li>tale_noun->the [wound_name_present] of [victim_nameShortDef] with a [WEAPON_label]</li>
 		<li>tale_noun->the [wound_name_present] of [victim_nameShortDef]</li>
 		<li>image->[victim_nameFull] being [wound_name_past] by [killer_nameFull] [weapon_optional]</li>
 		<li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</li>
@@ -64,7 +64,7 @@
 		<li>wound_name_present->harming</li>
 		<li>wound_name_present->knocking unconscious</li>
 		<li>wound_name_present->disabling</li>
-		<li>weapon_optional->with a [weapon_label] [circumstance_group]</li>
+		<li>weapon_optional->with a [WEAPON_label] [circumstance_group]</li>
 		<li>weapon_optional->[circumstance_group]</li>
 		<li>circumstance_phrase->seemingly without remorse</li>
 		<li>circumstance_phrase->with cold efficiency</li>
@@ -87,9 +87,9 @@
   <KilledLongRange.label>killed at distance</KilledLongRange.label>
 	<KilledLongRange.rulePack.rulesStrings>
 		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] at extreme distance</li>
-		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] at extreme distance with a [weapon_label]</li>
+		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] at extreme distance with a [WEAPON_label]</li>
 		<li>tale_noun->long distance [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef]</li>
-		<li>tale_noun->long distance [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef] with a [weapon_label]</li>
+		<li>tale_noun->long distance [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef] with a [WEAPON_label]</li>
 		<li>image->[killer_nameFull] aiming at [victim_nameFull] [weapon_optional]</li>
 		<li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</li>
 		<li>image->[killer_nameFull] coldly [wound_name_present] [victim_nameFull] [weapon_optional]</li>
@@ -101,7 +101,7 @@
 		<li>wound_name_present->slaying</li>
 		<li>wound_name_present->slaughtering</li>
 		<li>wound_name_present->eliminating</li>
-		<li>weapon_optional->with a [weapon_label] [circumstance_group]</li>
+		<li>weapon_optional->with a [WEAPON_label] [circumstance_group]</li>
 		<li>weapon_optional->[circumstance_group]</li>
 		<li>circumstance_phrase->seemingly without remorse</li>
 		<li>circumstance_phrase->with cold efficiency</li>
@@ -124,9 +124,9 @@
   <KilledMelee.label>killed in melee</KilledMelee.label>
 	<KilledMelee.rulePack.rulesStrings>
 		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] in close combat</li>
-		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] in melee with a [weapon_label]</li>
+		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] in melee with a [WEAPON_label]</li>
 		<li>tale_noun->melee [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef]</li>
-		<li>tale_noun->close combat [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef] with a [weapon_label]</li>
+		<li>tale_noun->close combat [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef] with a [WEAPON_label]</li>
 		<li>image->[victim_nameFull] being [wound_name_past] by [killer_nameFull] [weapon_optional]</li>
 		<li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</li>
 		<li>image->[killer_nameFull] brutally [wound_name_present] [victim_nameFull] [weapon_optional]</li>
@@ -139,7 +139,7 @@
 		<li>wound_name_present->slaying</li>
 		<li>wound_name_present->slaughtering</li>
 		<li>wound_name_present->mutilating</li>
-		<li>weapon_optional->with a [weapon_label] [circumstance_group]</li>
+		<li>weapon_optional->with a [WEAPON_label] [circumstance_group]</li>
 		<li>weapon_optional->[circumstance_group]</li>
 		<li>circumstance_phrase->seemingly without remorse</li>
 		<li>circumstance_phrase->with cold efficiency</li>
@@ -164,9 +164,9 @@
   <KilledMajorThreat.label>killed major threat</KilledMajorThreat.label>
 	<KilledMajorThreat.rulePack.rulesStrings>
 		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</li>
-		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [weapon_label]</li>
+		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [WEAPON_label]</li>
 		<li>tale_noun->[wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef]</li>
-		<li>tale_noun->[wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef] with a [weapon_label]</li>
+		<li>tale_noun->[wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef] with a [WEAPON_label]</li>
 		<li>image->[victim_nameFull] being [wound_name_past] by [killer_nameFull] [weapon_optional]</li>
 		<li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</li>
 		<li>image->[killer_nameFull] brutally [wound_name_present] [victim_nameFull] [weapon_optional]</li>
@@ -177,7 +177,7 @@
 		<li>wound_name_present->slaying</li>
 		<li>wound_name_present->defeating</li>
 		<li>wound_name_present->overcoming</li>
-		<li>weapon_optional->with a [weapon_label] [circumstance_group]</li>
+		<li>weapon_optional->with a [WEAPON_label] [circumstance_group]</li>
 		<li>weapon_optional->[circumstance_group]</li>
 		<li>circumstance_phrase->with cold efficiency</li>
 		<li>circumstance_phrase->with quick, efficient movements</li>
@@ -204,7 +204,7 @@
   <KilledCapacity.label>killed</KilledCapacity.label>
 	<KilledCapacity.rulePack.rulesStrings>
 		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</li>
-		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [weapon_label]</li>
+		<li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [WEAPON_label]</li>
 		<li>image->[killer_nameFull] [cap_removal] [victim_nameFull]'s capacity for [capacity_label] [weapon_optional]</li>
 		<li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] by [cap_removal] their [capacity_label] [weapon_optional]</li>
 		<li>cap_removal->destroying</li>
@@ -218,7 +218,7 @@
 		<li>wound_name_present->executing</li>
 		<li>wound_name_present->assassinating</li>
 		<li>wound_name_present->eliminating</li>
-		<li>weapon_optional->with a [weapon_label] [circumstance_group]</li>
+		<li>weapon_optional->with a [WEAPON_label] [circumstance_group]</li>
 		<li>weapon_optional->[circumstance_group]</li>
 		<li>circumstance_phrase->seemingly without remorse</li>
 		<li>circumstance_phrase->with cold efficiency</li>

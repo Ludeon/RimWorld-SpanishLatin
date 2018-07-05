@@ -3,26 +3,27 @@
 
   <BuildRapport.label>Charla</BuildRapport.label>
 	<BuildRapport.logRulesInitiator.rulesStrings>
-		<li>logentry->Intentó ganarse la confianza de [other_nameShortIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] intentó ganarse la confianza de [OTHER_nameIndef].</li>
 	</BuildRapport.logRulesInitiator.rulesStrings>
 	<BuildRapport.logRulesRecipient.rulesStrings>
-		<li>logentry->Escuchó a [other_nameShortIndef] intentando ganarse su confianza.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] escuchó a [OTHER_nameIndef] intentando ganarse su confianza.</li>
 	</BuildRapport.logRulesRecipient.rulesStrings>
 
-  <RecruitAttempt.label>Intento de reclutamiento</RecruitAttempt.label>
+  <RecruitAttempt.label>[INITIATOR_nameIndef] intento de reclutamiento</RecruitAttempt.label>
 	<RecruitAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Intentó reclutar a [other_nameShortIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] intentó reclutar a [OTHER_nameIndef].</li>
 	</RecruitAttempt.logRulesInitiator.rulesStrings>
 	<RecruitAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->Escuchó un intento de reclutamiento de [other_nameShortIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] escuchó un intento de reclutamiento de [OTHER_nameIndef].</li>
 	</RecruitAttempt.logRulesRecipient.rulesStrings>
 
   <SparkJailbreak.label>Provocar una fuga</SparkJailbreak.label>
 	<SparkJailbreak.logRulesInitiator.rulesStrings>
-		<li>logentry->Incitando [other_nameShortIndef] para escapar.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] esta incitando a [OTHER_nameIndef] para escapar.</li>
 	</SparkJailbreak.logRulesInitiator.rulesStrings>
+	
 	<SparkJailbreak.logRulesRecipient.rulesStrings>
-		<li>logentry->Fue incitado para escapar [other_nameShortIndef].</li>
+		<li>r_logentry->[OTHER_nameIndef] fue incitado por [INITIATOR_nameIndef] para escapar.</li>
 	</SparkJailbreak.logRulesRecipient.rulesStrings>
 
 </LanguageData>

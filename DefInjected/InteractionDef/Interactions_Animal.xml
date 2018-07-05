@@ -3,34 +3,34 @@
 
   <AnimalChat.label>Charla animal</AnimalChat.label>
 	<AnimalChat.logRulesInitiator.rulesStrings>
-		<li>logentry->Se ha comunicado con [other_nameShortIndef], en un intento por lograr un entendimiento.</li>
+		<li>r_logentry->Se ha comunicado con [OTHER_nameIndef], en un intento por lograr un entendimiento.</li>
 	</AnimalChat.logRulesInitiator.rulesStrings>
 	<AnimalChat.logRulesRecipient.rulesStrings>
-		<li>logentry->Respondió a la comunicación amistosa de [other_nameShortIndef].</li>
+		<li>r_logentry->Respondió a la comunicación amistosa de [OTHER_nameIndef].</li>
 	</AnimalChat.logRulesRecipient.rulesStrings>
 
   <TrainAttempt.label>Intento de entrenamiento</TrainAttempt.label>
 	<TrainAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha entrenado a [other_nameShortIndef].</li>
+		<li>r_logentry->Ha entrenado a [OTHER_nameIndef].</li>
 	</TrainAttempt.logRulesInitiator.rulesStrings>
 	<TrainAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->Fué entrenado por [other_nameShortIndef].</li>
+		<li>r_logentry->Fué entrenado por [OTHER_nameIndef].</li>
 	</TrainAttempt.logRulesRecipient.rulesStrings>
 
   <TameAttempt.label>Intento de doma</TameAttempt.label>
 	<TameAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha domado a [other_nameShortIndef].</li>
+		<li>r_logentry->Ha domado a [OTHER_nameIndef].</li>
 	</TameAttempt.logRulesInitiator.rulesStrings>
 	<TameAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->Observa el intento de [other_nameShortIndef] de domarle.</li>
+		<li>r_logentry->Observa el intento de [OTHER_nameIndef] de domarle.</li>
 	</TameAttempt.logRulesRecipient.rulesStrings>
   
   <Nuzzle.label>Caricia</Nuzzle.label>
 	<Nuzzle.logRulesInitiator.rulesStrings>
-		<li>logentry->Acaricia a [other_nameShortIndef] con el hocico.</li>
+		<li>r_logentry->Acaricia a [OTHER_nameIndef] con el hocico.</li>
 	</Nuzzle.logRulesInitiator.rulesStrings>
 	<Nuzzle.logRulesRecipient.rulesStrings>
-		<li>logentry->Fue acariciado con el hocico por [other_nameShortIndef].</li>
+		<li>r_logentry->Fue acariciado con el hocico por [OTHER_nameIndef].</li>
 	</Nuzzle.logRulesRecipient.rulesStrings>  
 
 </LanguageData>

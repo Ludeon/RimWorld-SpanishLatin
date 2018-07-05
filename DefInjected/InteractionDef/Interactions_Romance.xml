@@ -2,27 +2,33 @@
 <LanguageData>
 
   <RomanceAttempt.label>Coqueteo</RomanceAttempt.label>
-	<RomanceAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Intentó inciar un romance con [other_nameShortIndef].</li>
-	</RomanceAttempt.logRulesInitiator.rulesStrings>
-	<RomanceAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->Le ha coqueteado [other_nameShortIndef].</li>
-	</RomanceAttempt.logRulesRecipient.rulesStrings>
+		
+		<RomanceAttempt.logRulesInitiator.rulesStrings>
+			<li>r_logentry->[INITIATOR_nameIndef] intentó inciar un romance con [OTHER_nameIndef].</li>
+		</RomanceAttempt.logRulesInitiator.rulesStrings>
+		
+		<RomanceAttempt.logRulesRecipient.rulesStrings>
+			<li>r_logentry->[OTHER_nameIndef] recibió un coqueteo de [INITIATOR_nameIndef].</li>
+		</RomanceAttempt.logRulesRecipient.rulesStrings>
 
   <Breakup.label>Rompimiento</Breakup.label>
-	<Breakup.logRulesInitiator.rulesStrings>
-		<li>logentry->Rompió el romance con [other_nameShortIndef].</li>
-	</Breakup.logRulesInitiator.rulesStrings>
-	<Breakup.logRulesRecipient.rulesStrings>
-		<li>logentry->[other_nameShortIndef] ha roto el romance.</li>
-	</Breakup.logRulesRecipient.rulesStrings>
+	
+		<Breakup.logRulesInitiator.rulesStrings>
+			<li>r_logentry->[INITIATOR_nameIndef] rompió el romance con [OTHER_nameIndef].</li>
+		</Breakup.logRulesInitiator.rulesStrings>
+		
+		<Breakup.logRulesRecipient.rulesStrings>
+			<li>r_logentry->[OTHER_nameIndef] ha roto el romance.</li>
+		</Breakup.logRulesRecipient.rulesStrings>
 
   <MarriageProposal.label>Proposición</MarriageProposal.label>
-	<MarriageProposal.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha propuesto matrimonio a [other_nameShortIndef].</li>
-	</MarriageProposal.logRulesInitiator.rulesStrings>
-	<MarriageProposal.logRulesRecipient.rulesStrings>
-		<li>logentry->[other_nameShortIndef] le ha propuesto matrimonio.</li>
-	</MarriageProposal.logRulesRecipient.rulesStrings>
+		
+		<MarriageProposal.logRulesInitiator.rulesStrings>
+			<li>r_logentry->[INITIATOR_nameIndef] ha propuesto matrimonio a [OTHER_nameIndef].</li>
+		</MarriageProposal.logRulesInitiator.rulesStrings>
+		
+		<MarriageProposal.logRulesRecipient.rulesStrings>
+			<li>r_logentry->[OTHER_nameIndef] recibió una propuesta de matrimonio de [INITIATOR_nameIndef].</li>
+		</MarriageProposal.logRulesRecipient.rulesStrings>
 
 </LanguageData>
