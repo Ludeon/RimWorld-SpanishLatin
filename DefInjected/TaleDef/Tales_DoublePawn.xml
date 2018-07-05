@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Captured.label>Persona Capturada</Captured.label>
+	<Captured.label>persona capturada</Captured.label>
 	<Captured.rulePack.rulesStrings>
 		<li>tale_noun->la captura de [prisoner_nameShortDef]</li>
 		<li>image->la captura de [prisoner_nameFull] por [capturer_nameFull] [circumstance_group]</li>
@@ -26,7 +26,7 @@
 		<li>desc_sentence->[capturer_nameShortDef] patea a [prisoner_nameShortDef] sin una razón.</li>
 	</Captured.rulePack.rulesStrings>
 
-	<Recruited.label>Persona Reclutada</Recruited.label>
+	<Recruited.label>persona reclutada</Recruited.label>
 	<Recruited.rulePack.rulesStrings>
 		<li>tale_noun->el reclutamiento de [joiner_nameShortDef]</li>
 		<li>image->[recruiter_nameFull] reclutando a [joiner_nameFull] [circumstance_group]</li>
@@ -43,7 +43,7 @@
 		<li>desc_sentence->[joiner_nameShortDef] parece feliz.</li>
 	</Recruited.rulePack.rulesStrings>
 
-	<Hunted.label>Animal Cazado</Hunted.label>
+	<Hunted.label>animal cazado</Hunted.label>
 	<Hunted.rulePack.rulesStrings>
 		<li>tale_noun->la caza exitosa de [hunter_nameShortDef]</li>
 		<li>image->[prey_nameFull] siendo cazado por [hunter_nameFull] [circumstance_group]</li>
@@ -57,7 +57,7 @@
 		<li>desc_sentence->[prey_nameShortDef] mira alrededor, como presintiendo el peligro.</li>
 	</Hunted.rulePack.rulesStrings>
 
-	<DidSurgery.label>Cirugía Realizada</DidSurgery.label>
+	<DidSurgery.label>cirugía realizada</DidSurgery.label>
 	<DidSurgery.rulePack.rulesStrings>
 		<li>tale_noun->la operación de [patient_nameShortDef]</li>
 		<li>image->[surgeon_nameFull] poniendo a [patient_nameFull] a dormir con anestesia [circumstance_group]</li>
@@ -73,7 +73,7 @@
 		<li>desc_sentence->[patient_nameShortDef] tiembla y se sacude.</li>
 	</DidSurgery.rulePack.rulesStrings>
 
-	<ExecutedPrisoner.label>Prisionero Ejecutado</ExecutedPrisoner.label>
+	<ExecutedPrisoner.label>prisionero ejecutado</ExecutedPrisoner.label>
 	<ExecutedPrisoner.rulePack.rulesStrings>
 		<li>tale_noun->la ejecución de [prisoner_nameShortDef]</li>
 		<li>image->[warden_nameFull] ejecutando a [prisoner_nameFull] [circumstance_group]</li>
@@ -102,7 +102,7 @@
 		<li>desc_sentence->[prisoner_nameShortDef] parece desafiante.</li>
 	</ExecutedPrisoner.rulePack.rulesStrings>
 
-	<KidnappedColonist.label>Colono Secuestrado</KidnappedColonist.label>
+	<KidnappedColonist.label>colono secuestrado</KidnappedColonist.label>
 	<KidnappedColonist.rulePack.rulesStrings>
 		<li>tale_noun->el secuestro de [victim_nameShortDef]</li>
 		<li>image->[kidnapper_nameFull] arrastrando a [victim_nameFull] [circumstance_group] con dirección a [kidnapper_factionName]'</li>
@@ -123,7 +123,7 @@
 		<li>desc_sentence->[victim_nameShortDef] parece estar malherido(a).</li>
 	</KidnappedColonist.rulePack.rulesStrings>
 
-	<TamedAnimal.label>Animal Domesticado</TamedAnimal.label>
+	<TamedAnimal.label>animal domesticado</TamedAnimal.label>
 	<TamedAnimal.rulePack.rulesStrings>
 		<li>tale_noun->la domesticación de [animal_nameShortDef] por [human_nameShortDef]</li>
 		<li>image->[human_nameFull] domando [circumstance_group] a [animal_nameFull]</li>
@@ -141,7 +141,7 @@
 		<li>desc_sentence->[human_nameShortDef] proyecta mucho amor hacia [animal_nameShortDef].</li>
 	</TamedAnimal.rulePack.rulesStrings>
 
-	<KilledBy.label>Muerte</KilledBy.label>
+	<KilledBy.label>muerte</KilledBy.label>
 	<KilledBy.rulePack.rulesStrings>
 		<li>tale_noun->la muerte de [victim_nameShortDef]</li>
 		<li>tale_noun->el asesinato de [victim_nameShortDef] por [killer_nameShortDef]</li>
@@ -170,7 +170,7 @@
 		<li>desc_sentence->[killer_nameShortDef] parece triunfante.</li>
 	</KilledBy.rulePack.rulesStrings>
 
-	<SoldPrisoner.label>Prisionero Vendido</SoldPrisoner.label>
+	<SoldPrisoner.label>prisionero vendido</SoldPrisoner.label>
 	<SoldPrisoner.rulePack.rulesStrings>
 		<li>tale_noun->la venta de [prisoner_nameShortDef] a un esclavista</li>
 		<li>image->[trader_nameFull] comprandole a [prisoner_nameFull] a [seller_nameFull] [circumstance_group]</li>
@@ -192,7 +192,7 @@
 		<li>desc_sentence->Un aire de desesperación permea la situación.</li>
 	</SoldPrisoner.rulePack.rulesStrings>
 
-	<TrainedAnimal.label>Animal Entrenado</TrainedAnimal.label>
+	<TrainedAnimal.label>animal entrenado</TrainedAnimal.label>
 	<TrainedAnimal.rulePack.rulesStrings>
 		<li>tale_noun->el entrenamiento de [animal_nameShortDef]</li>
 		<li>image->[human_nameFull] [train_syn] [animal_nameFull] en [trainable_label] [circumstance_group]</li>
@@ -226,11 +226,10 @@
 		<li>desc_sentence->[human_nameShortDef] parece estarse convirtiendo en [animal_ShortDefinite].</li>
 	</TrainedAnimal.rulePack.rulesStrings>
 
-	<KilledColonist.label>Colono Asesinado</KilledColonist.label>
-	<KilledColonyAnimal.label>Animal de la colonia muerto</KilledColonyAnimal.label>
-	<KilledMajorColonyEnemy.label>Líder enemigo muerto</KilledMajorColonyEnemy.label>
+	<KilledColonist.label>Colono asesinado</KilledColonist.label>
+	<KilledColonyAnimal.label>Animal muerto</KilledColonyAnimal.label>
 
-	<TradedWith.label>Comercio</TradedWith.label>
+	<TradedWith.label>comercio</TradedWith.label>
 	<TradedWith.rulePack.rulesStrings>
 		<li>tale_noun->un intercambio entre [seller_fullName] y [buyer_fullName]</li>
 		<li>image->, como [buyer_nameFull] compró los productos de [seller_nameFull] [circumstance_group].</li>
