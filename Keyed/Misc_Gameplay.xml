@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Various -->
@@ -74,6 +74,8 @@
   <RadiusExpandsIn>Radio se expande en</RadiusExpandsIn>
   <Permanent>Permanente</Permanent>
   <CaravanResting>Descansando.</CaravanResting>
+  <UsingBedroll>usando 1 cama enrrollable</UsingBedroll>
+  <UsingBedrolls>usando {0} cama enrrollable</UsingBedrolls>
   <CaravanEstimatedTimeToDestination>Tiempo de llegada: {0}</CaravanEstimatedTimeToDestination>
   <CaravanEstimatedDaysToDestination>Días estimados de llegada: {0}</CaravanEstimatedDaysToDestination>
   <CaravanImmobilizedByMass>Inmobilizada: peso excesivo.</CaravanImmobilizedByMass>
@@ -169,6 +171,8 @@
   <ProximitySingleGoodwillChange>{0} con {1}</ProximitySingleGoodwillChange>
   <EnterCooldown>No puede volver a entrar por otros {0} días.</EnterCooldown>
   <Caravan>Caravana</Caravan>
+  <HiddenOrNoSitePartDescription>puede haber peligro allí</HiddenOrNoSitePartDescription>
+  <PreciousLumpLabel>pedazo de {0}</PreciousLumpLabel>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Contiene {0} / {1} de mosto.</ContainsWort>
@@ -431,6 +435,9 @@
   <WindTurbine_WindPathIsBlockedBy>Bloqueado por</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>Bloqueado por techo</WindTurbine_WindPathIsBlockedByRoof>
 
+  <!-- Watermill generator -->
+  <Watermill_WaterUsedTwice>Flujo reducido: Turbulencia de otros molinos de agua</Watermill_WaterUsedTwice>
+
   <!-- Cryptosleep casket -->
   <CasketContains>Contiene</CasketContains>
   <CasketWarning>¡Peligro!¡\n\n[PAWN_nameDef] es tu último colono en pie! Si lo dejas entrar en ése sarcófago no podrás seguir jugando. ¿Estás seguro que quieres continuar?</CasketWarning>
@@ -528,6 +535,7 @@
   <!-- Deep drill -->
   <ProgressToNextLump>Progreso hacia el siguiente lote</ProgressToNextLump>
   <ResourceBelow>Recursos debajo</ResourceBelow>
+  <ProgressToNextPortion>Progreso a la siguiente porción</ProgressToNextPortion>
   <DeepDrillNoResources>No hay recursos abajo.</DeepDrillNoResources>
   <DeepDrillExhausted>Se agotan los recursos de las perforaciones en profundidad.</DeepDrillExhausted>
   <DeepDrillExhaustedNoFallback>Recursos profundos de perforación agotados.</DeepDrillExhaustedNoFallback>
@@ -570,5 +578,4 @@
   <ClickToSeeAvailableOrders_WorldObject>{0}: Ver ordenes disponibles...</ClickToSeeAvailableOrders_WorldObject>
   <ClickToSeeAvailableOrders_Empty>Ver ordenes disponibles...</ClickToSeeAvailableOrders_Empty>
 
-	
 </LanguageData>

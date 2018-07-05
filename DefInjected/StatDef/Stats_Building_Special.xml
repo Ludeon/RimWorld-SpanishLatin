@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <WorkToBuild.label>Cantidad de trabajo</WorkToBuild.label>
+  <WorkToBuild.description>La cantidad base de trabajo que cuesta construir esto una vez que han sido reunidos todos los materiales y herramientas.</WorkToBuild.description>
 
   <DoorOpenSpeed.label>Velocidad de apertura de puerta</DoorOpenSpeed.label>
   <DoorOpenSpeed.description>La velocidad a la que se abre la puerta.</DoorOpenSpeed.description>
@@ -35,5 +38,6 @@
   <SurgerySuccessChanceFactor.label>Factor de probabilidad de éxito de la cirugía</SurgerySuccessChanceFactor.label>
   <SurgerySuccessChanceFactor.description>Un multiplicador de la probabilidad de que una cirugía tenga éxito cuando se realiza aquí. Las posibilidades de éxito de la cirugía también se ven afectadas por el cirujano y el medicamento utilizado.</SurgerySuccessChanceFactor.description>
   <SurgerySuccessChanceFactor.parts.0.customLabel>Limpieza de la habitación</SurgerySuccessChanceFactor.parts.0.customLabel>
+
 
 </LanguageData>
