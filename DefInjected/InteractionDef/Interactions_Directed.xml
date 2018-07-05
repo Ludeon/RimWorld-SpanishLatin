@@ -3,61 +3,67 @@
 
 <BuildRapport.label>charla amistosa</BuildRapport.label>
 
-<BuildRapport.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] [toldastoryabout] sobre [subject] a [RECIPIENT_nameIndef].</BuildRapport.logRulesInitiator.rulesStrings.0>
-<BuildRapport.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] habló a [RECIPIENT_nameIndef] sobre [subject].</BuildRapport.logRulesInitiator.rulesStrings.1>
-<BuildRapport.logRulesInitiator.rulesStrings.2>_logentry->[INITIATOR_nameIndef] preguntó a [RECIPIENT_nameIndef] sobre [subject].</BuildRapport.logRulesInitiator.rulesStrings.2>
-<BuildRapport.logRulesInitiator.rulesStrings.3>_logentry->[INITIATOR_nameIndef] alentó a [RECIPIENT_nameIndef] a [talkabout] sobre [subject].</BuildRapport.logRulesInitiator.rulesStrings.3>
-<BuildRapport.logRulesInitiator.rulesStrings.4>r_logentry->[INITIATOR_nameIndef] permitió a [RECIPIENT_nameIndef] [talkabout] sobre [subject].</BuildRapport.logRulesInitiator.rulesStrings.4>
-<BuildRapport.logRulesInitiator.rulesStrings.5>r_logentry->[INITIATOR_nameIndef] expresó interés en el/la [PersonalCharacteristic] de [RECIPIENT_nameIndef].</BuildRapport.logRulesInitiator.rulesStrings.5>
-<BuildRapport.logRulesInitiator.rulesStrings.6>r_logentry->[INITIATOR_nameIndef] ha preguntado a [RECIPIENT_nameIndef] sobre su [PersonalCharacteristic].</BuildRapport.logRulesInitiator.rulesStrings.6>
+	<BuildRapport.logRulesInitiator.rulesStrings>
+		<li>r_logentry->[INITIATOR_nameIndef] [toldastoryabout] sobre [subject] a [RECIPIENT_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] habló a [RECIPIENT_nameIndef] sobre [subject].</li>
+		<li>_logentry->[INITIATOR_nameIndef] preguntó a [RECIPIENT_nameIndef] sobre [subject].</li>
+		<li>_logentry->[INITIATOR_nameIndef] alentó a [RECIPIENT_nameIndef] a [talkabout] sobre [subject].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] permitió a [RECIPIENT_nameIndef] [talkabout] sobre [subject].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] expresó interés en el/la [PersonalCharacteristic] de [RECIPIENT_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] ha preguntado a [RECIPIENT_nameIndef] sobre su [PersonalCharacteristic].</li>
 
-<BuildRapport.logRulesInitiator.rulesStrings.7>toldastoryabout(p=2)->contó una historia</BuildRapport.logRulesInitiator.rulesStrings.7>
-<BuildRapport.logRulesInitiator.rulesStrings.8>toldastoryabout->contó una historia graciosa</BuildRapport.logRulesInitiator.rulesStrings.8>
-<BuildRapport.logRulesInitiator.rulesStrings.9>toldastoryabout->contó una historia honesta</BuildRapport.logRulesInitiator.rulesStrings.9>
-<BuildRapport.logRulesInitiator.rulesStrings.10>toldastoryabout->relató una vieja historia</BuildRapport.logRulesInitiator.rulesStrings.10>
-<BuildRapport.logRulesInitiator.rulesStrings.11>toldastoryabout->relató una historia familiar</BuildRapport.logRulesInitiator.rulesStrings.11>
-<BuildRapport.logRulesInitiator.rulesStrings.12>toldastoryabout->relató una historia de su niñez</BuildRapport.logRulesInitiator.rulesStrings.12>
-<BuildRapport.logRulesInitiator.rulesStrings.13>toldastoryabout->mencionó una anécdota</BuildRapport.logRulesInitiator.rulesStrings.13>
+		<li>toldastoryabout(p=2)->contó una historia</li>
+		<li>toldastoryabout->contó una historia graciosa</li>
+		<li>toldastoryabout->contó una historia honesta</li>
+		<li>toldastoryabout->relató una vieja historia</li>
+		<li>toldastoryabout->relató una historia familiar</li>
+		<li>toldastoryabout->relató una historia de su niñez</li>
+		<li>toldastoryabout->mencionó una anécdota</li>
 
-<BuildRapport.logRulesInitiator.rulesStrings.14>talkabout->hablar</BuildRapport.logRulesInitiator.rulesStrings.14>
-<BuildRapport.logRulesInitiator.rulesStrings.15>talkabout->discutir</BuildRapport.logRulesInitiator.rulesStrings.15>
-<BuildRapport.logRulesInitiator.rulesStrings.16>talkabout->debatir</BuildRapport.logRulesInitiator.rulesStrings.16>
-<BuildRapport.logRulesInitiator.rulesStrings.17>talkabout->preguntar</BuildRapport.logRulesInitiator.rulesStrings.17>
-<BuildRapport.logRulesInitiator.rulesStrings.18>talkabout->hablar</BuildRapport.logRulesInitiator.rulesStrings.18>
-<BuildRapport.logRulesInitiator.rulesStrings.19>talkabout->preguntar</BuildRapport.logRulesInitiator.rulesStrings.19>
+		<li>talkabout->hablar</li>
+		<li>talkabout->discutir</li>
+		<li>talkabout->debatir</li>
+		<li>talkabout->preguntar</li>
+		<li>talkabout->hablar</li>
+		<li>talkabout->preguntar</li>
 
-<BuildRapport.logRulesInitiator.rulesStrings.20>subject->la colonia</BuildRapport.logRulesInitiator.rulesStrings.20>
-<BuildRapport.logRulesInitiator.rulesStrings.21>subject->la comunidad</BuildRapport.logRulesInitiator.rulesStrings.21>
-<BuildRapport.logRulesInitiator.rulesStrings.22>subject->animales</BuildRapport.logRulesInitiator.rulesStrings.22>
-<BuildRapport.logRulesInitiator.rulesStrings.23>subject->negocios</BuildRapport.logRulesInitiator.rulesStrings.23>
-<BuildRapport.logRulesInitiator.rulesStrings.24>subject->amistad</BuildRapport.logRulesInitiator.rulesStrings.24>
-<BuildRapport.logRulesInitiator.rulesStrings.25>subject->viajes</BuildRapport.logRulesInitiator.rulesStrings.25>
-<BuildRapport.logRulesInitiator.rulesStrings.26>subject->religión</BuildRapport.logRulesInitiator.rulesStrings.26>
-<BuildRapport.logRulesInitiator.rulesStrings.27>subject->lealtad</BuildRapport.logRulesInitiator.rulesStrings.27>
-<BuildRapport.logRulesInitiator.rulesStrings.28>subject->su salud</BuildRapport.logRulesInitiator.rulesStrings.28>
-<BuildRapport.logRulesInitiator.rulesStrings.29>subject->su familia</BuildRapport.logRulesInitiator.rulesStrings.29>
-<BuildRapport.logRulesInitiator.rulesStrings.30>subject(p=4)->[ConceptPositive]</BuildRapport.logRulesInitiator.rulesStrings.30>
-<BuildRapport.logRulesInitiator.rulesStrings.31>subject(p=2)->su [PersonalCharacteristic]</BuildRapport.logRulesInitiator.rulesStrings.31>
-<BuildRapport.logRulesInitiator.rulesStrings.32>subject(p=8)->[TalkTopicLight]</BuildRapport.logRulesInitiator.rulesStrings.32>
+		<li>subject->la colonia</li>
+		<li>subject->la comunidad</li>
+		<li>subject->animales</li>
+		<li>subject->negocios</li>
+		<li>subject->amistad</li>
+		<li>subject->viajes</li>
+		<li>subject->religión</li>
+		<li>subject->lealtad</li>
+		<li>subject->su salud</li>
+		<li>subject->su familia</li>
+		<li>subject(p=4)->[ConceptPositive]</li>
+		<li>subject(p=2)->su [PersonalCharacteristic]</li>
+		<li>subject(p=8)->[TalkTopicLight]</li>
+	</BuildRapport.logRulesInitiator.rulesStrings>
 
 <RecruitAttempt.label>intento de reclutamiento</RecruitAttempt.label>
 
-<RecruitAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] ha pedido a [RECIPIENT_nameIndef] unirse a la comunidad.</RecruitAttempt.logRulesInitiator.rulesStrings.0>
-<RecruitAttempt.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] prometió [goodthing] a [RECIPIENT_nameIndef], y le ha pedido unirse a la comunidad.</RecruitAttempt.logRulesInitiator.rulesStrings.1>
+	<RecruitAttempt.logRulesInitiator.rulesStrings>
+		<li>r_logentry->[INITIATOR_nameIndef] ha pedido a [RECIPIENT_nameIndef] unirse a la comunidad.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] prometió [goodthing] a [RECIPIENT_nameIndef], y le ha pedido unirse a la comunidad.</li>
 
-<RecruitAttempt.logRulesInitiator.rulesStrings.2>goodthing(p=15)->[ConceptPositive]</RecruitAttempt.logRulesInitiator.rulesStrings.2>
-<RecruitAttempt.logRulesInitiator.rulesStrings.3>goodthing->comida limpia y fresca</RecruitAttempt.logRulesInitiator.rulesStrings.3>
+		<li>goodthing(p=15)->[ConceptPositive]</li>
+		<li>goodthing->comida limpia y fresca</li>
+	</RecruitAttempt.logRulesInitiator.rulesStrings>
 
 <SparkJailbreak.label>fuga de prisioneros</SparkJailbreak.label>
 
-<SparkJailbreak.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] habló sobre la alegría de la [freedom], y ofreció un medio para escapar.</SparkJailbreak.logRulesInitiator.rulesStrings.0>
-<SparkJailbreak.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] habló sobre la belleza del [TerrainFeature] y la libertad.</SparkJailbreak.logRulesInitiator.rulesStrings.1>
-<SparkJailbreak.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef] demostró un medio de escape a [RECIPIENT_nameIndef], y prometió [freedom].</SparkJailbreak.logRulesInitiator.rulesStrings.2>
-<SparkJailbreak.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef] convenció a [RECIPIENT_nameIndef] de que la seguridad es pobre y ha alentado una fuga.</SparkJailbreak.logRulesInitiator.rulesStrings.3>
+	<SparkJailbreak.logRulesInitiator.rulesStrings>
+		<li>r_logentry->[INITIATOR_nameIndef] habló sobre la alegría de la [freedom], y ofreció un medio para escapar.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] habló sobre la belleza del [TerrainFeature] y la libertad.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] demostró un medio de escape a [RECIPIENT_nameIndef], y prometió [freedom].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] convenció a [RECIPIENT_nameIndef] de que la seguridad es pobre y ha alentado una fuga.</li>
 
-<SparkJailbreak.logRulesInitiator.rulesStrings.4>freedom->libertad</SparkJailbreak.logRulesInitiator.rulesStrings.4>
-<SparkJailbreak.logRulesInitiator.rulesStrings.5>freedom->auto-determinación</SparkJailbreak.logRulesInitiator.rulesStrings.5>
-<SparkJailbreak.logRulesInitiator.rulesStrings.6>freedom->emancipación</SparkJailbreak.logRulesInitiator.rulesStrings.6>
-<SparkJailbreak.logRulesInitiator.rulesStrings.7>freedom->libertad</SparkJailbreak.logRulesInitiator.rulesStrings.7>
+		<li>freedom->libertad</li>
+		<li>freedom->auto-determinación</li>
+		<li>freedom->emancipación</li>
+		<li>freedom->libertad</li>
+	</SparkJailbreak.logRulesInitiator.rulesStrings>
 
 </LanguageData>
