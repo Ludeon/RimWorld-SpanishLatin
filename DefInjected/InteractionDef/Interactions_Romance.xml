@@ -9,7 +9,7 @@
 	<RomanceAttempt.logRulesInitiator.rulesStrings.3>wooed->intentó atraer a</RomanceAttempt.logRulesInitiator.rulesStrings.3>
 	<RomanceAttempt.logRulesInitiator.rulesStrings.4>wooed->intentó iniciar romance con</RomanceAttempt.logRulesInitiator.rulesStrings.4>
 	<RomanceAttempt.logRulesInitiator.rulesStrings.5>wooed->intentó seducir a</RomanceAttempt.logRulesInitiator.rulesStrings.5>
-	<RomanceAttempt.logRulesInitiator.rulesStrings.6>wooed->cortejó con</RomanceAttempt.logRulesInitiator.rulesStrings.6>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.6>wooed->cortejó a</RomanceAttempt.logRulesInitiator.rulesStrings.6>
 	<RomanceAttempt.logRulesInitiator.rulesStrings.7>wooed->trató de conquistar a</RomanceAttempt.logRulesInitiator.rulesStrings.7>
 	<RomanceAttempt.logRulesInitiator.rulesStrings.8>wooed->coqueteó con</RomanceAttempt.logRulesInitiator.rulesStrings.8>
 	<RomanceAttempt.logRulesInitiator.rulesStrings.9>wooed->trató de seducir a</RomanceAttempt.logRulesInitiator.rulesStrings.9>
@@ -67,14 +67,26 @@
 	<RomanceAttempt.logRulesInitiator.rulesStrings.56>romantic_noun(p=2)->[TerrainFeature]</RomanceAttempt.logRulesInitiator.rulesStrings.56>
 	<RomanceAttempt.logRulesInitiator.rulesStrings.57>romantic_noun(p=2)->[TerrainFeature]</RomanceAttempt.logRulesInitiator.rulesStrings.57>
 
-	
+	<Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.0>sent->[RECIPIENT_nameDef] se sintió atraído y ahora es pareja de [INITIATOR_nameDef].</Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.0>
+	<Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.1>sent->[RECIPIENT_nameDef] respondió bien y ahora es pareja de [INITIATOR_nameDef].</Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.1>
+	<Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.2>sent->[RECIPIENT_nameDef] se exitó y aceptó volverse amante de [INITIATOR_nameDef].</Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.2>
+
+	<Sentence_RomanceAttemptRejected.rulePack.rulesStrings.0>sent->[RECIPIENT_nameDef] rechazó el avance.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.0>
+	<Sentence_RomanceAttemptRejected.rulePack.rulesStrings.1>sent->[RECIPIENT_nameDef] ignoró el avance.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.1>
+	<Sentence_RomanceAttemptRejected.rulePack.rulesStrings.2>sent->[RECIPIENT_nameDef] rechazó a [RECIPIENT_possessive].</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.2>
+	<Sentence_RomanceAttemptRejected.rulePack.rulesStrings.3>sent->[RECIPIENT_nameDef] lo rechazó.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.3>
+	<Sentence_RomanceAttemptRejected.rulePack.rulesStrings.4>sent->[RECIPIENT_nameDef] a duras penas respondió.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.4>
+	<Sentence_RomanceAttemptRejected.rulePack.rulesStrings.5>sent->[RECIPIENT_nameDef] no respondió.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.5>
+	<Sentence_RomanceAttemptRejected.rulePack.rulesStrings.6>sent->[RECIPIENT_nameDef] rechazó la propuesta de [INITIATOR_objective].</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.6>
+
+	<Sentence_MarriageProposalAccepted.rulePack.rulesStrings.0>sent->[RECIPIENT_nameDef] aceptó y ahora los dos están comprometidos.</Sentence_MarriageProposalAccepted.rulePack.rulesStrings.0>
+	<Sentence_MarriageProposalRejected.rulePack.rulesStrings.0>sent->[RECIPIENT_nameDef] rechazó la propuesta.</Sentence_MarriageProposalRejected.rulePack.rulesStrings.0>
+	<Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings.0>sent->La relación no podía continuar y se ha terminado.</Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings.0>	
 
 	<MarriageProposal.label>Propuesta de Matrimonio</MarriageProposal.label>
 	<MarriageProposal.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] propuso matrimionio a [OTHER_nameIndef].</MarriageProposal.logRulesInitiator.rulesStrings.0>
 	<MarriageProposal.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] propuso un compromiso de por vida a [OTHER_nameIndef].</MarriageProposal.logRulesInitiator.rulesStrings.1>
 	<MarriageProposal.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef] a declarado que quiere pasar el resto de su vida con [OTHER_nameIndef].</MarriageProposal.logRulesInitiator.rulesStrings.2>
-
-
 
 	<Breakup.label>Ruptura</Breakup.label>
 	<Breakup.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] ha roto su relación con [OTHER_nameIndef].</Breakup.logRulesInitiator.rulesStrings.0>
