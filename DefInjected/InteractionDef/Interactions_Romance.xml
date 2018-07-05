@@ -1,34 +1,85 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <RomanceAttempt.label>Coqueteo</RomanceAttempt.label>
-		
-		<RomanceAttempt.logRulesInitiator.rulesStrings>
-			<li>r_logentry->[INITIATOR_nameIndef] intentó inciar un romance con [OTHER_nameIndef].</li>
-		</RomanceAttempt.logRulesInitiator.rulesStrings>
-		
-		<RomanceAttempt.logRulesRecipient.rulesStrings>
-			<li>r_logentry->[OTHER_nameIndef] recibió un coqueteo de [INITIATOR_nameIndef].</li>
-		</RomanceAttempt.logRulesRecipient.rulesStrings>
+	<RomanceAttempt.label>Coquetear</RomanceAttempt.label>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] [wooed] [OTHER_nameIndef] al [wootactic].</RomanceAttempt.logRulesInitiator.rulesStrings.0>
 
-  <Breakup.label>Rompimiento</Breakup.label>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.1>wooed->intentó coquetear con</RomanceAttempt.logRulesInitiator.rulesStrings.1>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.2>wooed->coqueteó con</RomanceAttempt.logRulesInitiator.rulesStrings.2>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.3>wooed->intentó atraer a</RomanceAttempt.logRulesInitiator.rulesStrings.3>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.4>wooed->intentó iniciar romance con</RomanceAttempt.logRulesInitiator.rulesStrings.4>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.5>wooed->intentó seducir a</RomanceAttempt.logRulesInitiator.rulesStrings.5>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.6>wooed->cortejó con</RomanceAttempt.logRulesInitiator.rulesStrings.6>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.7>wooed->trató de conquistar a</RomanceAttempt.logRulesInitiator.rulesStrings.7>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.8>wooed->coqueteó con</RomanceAttempt.logRulesInitiator.rulesStrings.8>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.9>wooed->trató de seducir a</RomanceAttempt.logRulesInitiator.rulesStrings.9>
+
+	<RomanceAttempt.logRulesInitiator.rulesStrings.10>wootactic(p=4)->[complimenting] su [PersonalCharacteristic]</RomanceAttempt.logRulesInitiator.rulesStrings.10>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.11>wootactic(p=2)->[boasting] su [PersonalCharacteristic]</RomanceAttempt.logRulesInitiator.rulesStrings.11>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.12>wootactic(p=2)->contar una historia sobre [TalkTopic_light]</RomanceAttempt.logRulesInitiator.rulesStrings.12>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.13>wootactic(p=2)->contar una historia sobre [TalkTopic_heavy]</RomanceAttempt.logRulesInitiator.rulesStrings.13>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.14>wootactic->comparar a [OTHER_objective] con una [romantic_adj] [romantic_noun]</RomanceAttempt.logRulesInitiator.rulesStrings.14>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.15>wootactic->describir a [OTHER_objective] como una [romantic_adj] [romantic_noun]</RomanceAttempt.logRulesInitiator.rulesStrings.15>
+
+	<RomanceAttempt.logRulesInitiator.rulesStrings.16>boasting->alardear sobre</RomanceAttempt.logRulesInitiator.rulesStrings.16>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.17>boasting->mencionar</RomanceAttempt.logRulesInitiator.rulesStrings.17>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.18>boasting->dar a entender cosas buenas sobre</RomanceAttempt.logRulesInitiator.rulesStrings.18>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.19>boasting->exagerar</RomanceAttempt.logRulesInitiator.rulesStrings.19>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.20>boasting->hablar sobre</RomanceAttempt.logRulesInitiator.rulesStrings.20>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.21>boasting->llamar la atención sobre</RomanceAttempt.logRulesInitiator.rulesStrings.21>
+
+	<RomanceAttempt.logRulesInitiator.rulesStrings.22>complimenting(p=3)->alabar</RomanceAttempt.logRulesInitiator.rulesStrings.22>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.23>complimenting->alabar sutilmente</RomanceAttempt.logRulesInitiator.rulesStrings.23>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.24>complimenting->elogiar</RomanceAttempt.logRulesInitiator.rulesStrings.24>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.25>complimenting->ensalzar</RomanceAttempt.logRulesInitiator.rulesStrings.25>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.26>complimenting->decir cosas buenas sobre</RomanceAttempt.logRulesInitiator.rulesStrings.26>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.27>complimenting(p=2)->bromear sobre</RomanceAttempt.logRulesInitiator.rulesStrings.27>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.28>complimenting->celebrar</RomanceAttempt.logRulesInitiator.rulesStrings.28>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.29>complimenting->bromear sobre</RomanceAttempt.logRulesInitiator.rulesStrings.29>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.30>complimenting->elogiar sutilmente</RomanceAttempt.logRulesInitiator.rulesStrings.30>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.31>complimenting->mofarse sobre</RomanceAttempt.logRulesInitiator.rulesStrings.31>
+
+	<RomanceAttempt.logRulesInitiator.rulesStrings.32>romantic_adj->hermosa</RomanceAttempt.logRulesInitiator.rulesStrings.32>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.33>romantic_adj->preciosa</RomanceAttempt.logRulesInitiator.rulesStrings.33>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.34>romantic_adj->bella</RomanceAttempt.logRulesInitiator.rulesStrings.34>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.35>romantic_adj->elegante</RomanceAttempt.logRulesInitiator.rulesStrings.35>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.36>romantic_adj->brillante</RomanceAttempt.logRulesInitiator.rulesStrings.36>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.37>romantic_adj->hermosa</RomanceAttempt.logRulesInitiator.rulesStrings.37>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.38>romantic_adj->deliciosa</RomanceAttempt.logRulesInitiator.rulesStrings.38>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.39>romantic_adj->delicada</RomanceAttempt.logRulesInitiator.rulesStrings.39>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.40>romantic_adj->magnífica</RomanceAttempt.logRulesInitiator.rulesStrings.40>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.41>romantic_adj->fina</RomanceAttempt.logRulesInitiator.rulesStrings.41>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.42>romantic_adj->maravillosa</RomanceAttempt.logRulesInitiator.rulesStrings.42>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.43>romantic_adj->exquisita</RomanceAttempt.logRulesInitiator.rulesStrings.43>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.44>romantic_adj->preciosa</RomanceAttempt.logRulesInitiator.rulesStrings.44>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.45>romantic_adj->espléndida</RomanceAttempt.logRulesInitiator.rulesStrings.45>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.46>romantic_adj(p=3)->[AdjectiveBadass]</RomanceAttempt.logRulesInitiator.rulesStrings.46>
+
+	<RomanceAttempt.logRulesInitiator.rulesStrings.47>romantic_noun->flor</RomanceAttempt.logRulesInitiator.rulesStrings.47>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.48>romantic_noun->estatua</RomanceAttempt.logRulesInitiator.rulesStrings.48>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.49>romantic_noun->nube</RomanceAttempt.logRulesInitiator.rulesStrings.49>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.50>romantic_noun->estrella</RomanceAttempt.logRulesInitiator.rulesStrings.50>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.51>romantic_noun->luna</RomanceAttempt.logRulesInitiator.rulesStrings.51>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.52>romantic_noun->aurora</RomanceAttempt.logRulesInitiator.rulesStrings.52>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.53>romantic_noun->flor</RomanceAttempt.logRulesInitiator.rulesStrings.53>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.54>romantic_noun->obra de arte</RomanceAttempt.logRulesInitiator.rulesStrings.54>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.55>romantic_noun->estatua</RomanceAttempt.logRulesInitiator.rulesStrings.55>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.56>romantic_noun(p=2)->[TerrainFeature]</RomanceAttempt.logRulesInitiator.rulesStrings.56>
+	<RomanceAttempt.logRulesInitiator.rulesStrings.57>romantic_noun(p=2)->[TerrainFeature]</RomanceAttempt.logRulesInitiator.rulesStrings.57>
+
 	
-		<Breakup.logRulesInitiator.rulesStrings>
-			<li>r_logentry->[INITIATOR_nameIndef] rompió el romance con [OTHER_nameIndef].</li>
-		</Breakup.logRulesInitiator.rulesStrings>
-		
-		<Breakup.logRulesRecipient.rulesStrings>
-			<li>r_logentry->[OTHER_nameIndef] ha roto el romance.</li>
-		</Breakup.logRulesRecipient.rulesStrings>
 
-  <MarriageProposal.label>Proposición</MarriageProposal.label>
-		
-		<MarriageProposal.logRulesInitiator.rulesStrings>
-			<li>r_logentry->[INITIATOR_nameIndef] ha propuesto matrimonio a [OTHER_nameIndef].</li>
-		</MarriageProposal.logRulesInitiator.rulesStrings>
-		
-		<MarriageProposal.logRulesRecipient.rulesStrings>
-			<li>r_logentry->[OTHER_nameIndef] recibió una propuesta de matrimonio de [INITIATOR_nameIndef].</li>
-		</MarriageProposal.logRulesRecipient.rulesStrings>
+	<MarriageProposal.label>Propuesta de Matrimonio</MarriageProposal.label>
+	<MarriageProposal.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] propuso matrimionio a [OTHER_nameIndef].</MarriageProposal.logRulesInitiator.rulesStrings.0>
+	<MarriageProposal.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] propuso un compromiso de por vida a [OTHER_nameIndef].</MarriageProposal.logRulesInitiator.rulesStrings.1>
+	<MarriageProposal.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef] a declarado que quiere pasar el resto de su vida con [OTHER_nameIndef].</MarriageProposal.logRulesInitiator.rulesStrings.2>
+
+
+
+	<Breakup.label>Ruptura</Breakup.label>
+	<Breakup.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] ha roto su relación con [OTHER_nameIndef].</Breakup.logRulesInitiator.rulesStrings.0>
+	<Breakup.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] ha pedido a [OTHER_nameIndef] un tiempo a solas.</Breakup.logRulesInitiator.rulesStrings.1>
+	<Breakup.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef] ha pedido a [OTHER_nameIndef] que lo mejor sería volver a ser amigos.</Breakup.logRulesInitiator.rulesStrings.2>
+	<Breakup.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef] ha terminado su relación romántica con [OTHER_nameIndef].</Breakup.logRulesInitiator.rulesStrings.3>
 
 </LanguageData>

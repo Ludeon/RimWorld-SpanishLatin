@@ -1,36 +1,96 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <AnimalChat.label>Charla animal</AnimalChat.label>
-	<AnimalChat.logRulesInitiator.rulesStrings>
-		<li>r_logentry->Se ha comunicado con [OTHER_nameIndef], en un intento por lograr un entendimiento.</li>
-	</AnimalChat.logRulesInitiator.rulesStrings>
-	<AnimalChat.logRulesRecipient.rulesStrings>
-		<li>r_logentry->Respondió a la comunicación amistosa de [OTHER_nameIndef].</li>
-	</AnimalChat.logRulesRecipient.rulesStrings>
+	<AnimalChat.label>charla animal</AnimalChat.label>
+	<AnimalChat.logRulesInitiator.rulesStrings.0>r_logentry(p=5)->[INITIATOR_nameIndef] [tamed] [RECIPIENT_nameIndef].</AnimalChat.logRulesInitiator.rulesStrings.0>
+	<AnimalChat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] se sentó junto a [RECIPIENT_nameIndef] y habló sobre [TalkTopicAny].</AnimalChat.logRulesInitiator.rulesStrings.1>
+	<AnimalChat.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef] se acercó a [RECIPIENT_nameIndef] mientras hablaba consigo mismo acerca de [TalkTopicAny]</AnimalChat.logRulesInitiator.rulesStrings.2>
+	<AnimalChat.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef] se acercó a [RECIPIENT_nameIndef] mientras murmuraba ideas sobre [TalkTopicAny].</AnimalChat.logRulesInitiator.rulesStrings.3>
 
-  <TrainAttempt.label>Intento de entrenamiento</TrainAttempt.label>
-	<TrainAttempt.logRulesInitiator.rulesStrings>
-		<li>r_logentry->Ha entrenado a [OTHER_nameIndef].</li>
-	</TrainAttempt.logRulesInitiator.rulesStrings>
-	<TrainAttempt.logRulesRecipient.rulesStrings>
-		<li>r_logentry->Fué entrenado por [OTHER_nameIndef].</li>
-	</TrainAttempt.logRulesRecipient.rulesStrings>
+	<AnimalChat.logRulesInitiator.rulesStrings.4>talktopic->[TalkTopic_heavy]</AnimalChat.logRulesInitiator.rulesStrings.4>
+	<AnimalChat.logRulesInitiator.rulesStrings.5>talktopic->[TalkTopic_light]</AnimalChat.logRulesInitiator.rulesStrings.5>
 
-  <TameAttempt.label>Intento de doma</TameAttempt.label>
-	<TameAttempt.logRulesInitiator.rulesStrings>
-		<li>r_logentry->Ha domado a [OTHER_nameIndef].</li>
-	</TameAttempt.logRulesInitiator.rulesStrings>
-	<TameAttempt.logRulesRecipient.rulesStrings>
-		<li>r_logentry->Observa el intento de [OTHER_nameIndef] de domarle.</li>
-	</TameAttempt.logRulesRecipient.rulesStrings>
-  
-  <Nuzzle.label>Caricia</Nuzzle.label>
-	<Nuzzle.logRulesInitiator.rulesStrings>
-		<li>r_logentry->Acaricia a [OTHER_nameIndef] con el hocico.</li>
-	</Nuzzle.logRulesInitiator.rulesStrings>
-	<Nuzzle.logRulesRecipient.rulesStrings>
-		<li>r_logentry->Fue acariciado con el hocico por [OTHER_nameIndef].</li>
-	</Nuzzle.logRulesRecipient.rulesStrings>  
+	<AnimalChat.logRulesInitiator.rulesStrings.6>tamed->hizo sonidos calmantes para</AnimalChat.logRulesInitiator.rulesStrings.6>
+	<AnimalChat.logRulesInitiator.rulesStrings.7>tamed->hizo ademanes amistos</AnimalChat.logRulesInitiator.rulesStrings.7>
+	<AnimalChat.logRulesInitiator.rulesStrings.8>tamed->cayó a</AnimalChat.logRulesInitiator.rulesStrings.8>
+	<AnimalChat.logRulesInitiator.rulesStrings.9>tamed->hizo sonidos agudos hacia</AnimalChat.logRulesInitiator.rulesStrings.9>
+	<AnimalChat.logRulesInitiator.rulesStrings.10>tamed->hizo ademanes amistosos y se acercó a</AnimalChat.logRulesInitiator.rulesStrings.10>
+	<AnimalChat.logRulesInitiator.rulesStrings.11>tamed->se acercó lentamente a</AnimalChat.logRulesInitiator.rulesStrings.11>
+	<AnimalChat.logRulesInitiator.rulesStrings.12>tamed->tocó gentilmente a</AnimalChat.logRulesInitiator.rulesStrings.12>
+	<AnimalChat.logRulesInitiator.rulesStrings.13>tamed->calmó y alentó a</AnimalChat.logRulesInitiator.rulesStrings.13>
+	<AnimalChat.logRulesInitiator.rulesStrings.14>tamed->acarició a</AnimalChat.logRulesInitiator.rulesStrings.14>
+	<AnimalChat.logRulesInitiator.rulesStrings.15>tamed->se agachó para acercarse a</AnimalChat.logRulesInitiator.rulesStrings.15>
+	<AnimalChat.logRulesInitiator.rulesStrings.16>tamed->no mostró miedo ni enojo hacia</AnimalChat.logRulesInitiator.rulesStrings.16>
+	<AnimalChat.logRulesInitiator.rulesStrings.17>tamed->fingió ignorar a </AnimalChat.logRulesInitiator.rulesStrings.17>
+	<AnimalChat.logRulesInitiator.rulesStrings.18>tamed->zumbó una canción hacia</AnimalChat.logRulesInitiator.rulesStrings.18>
+	<AnimalChat.logRulesInitiator.rulesStrings.19>tamed->cantó una vieja balada hacia</AnimalChat.logRulesInitiator.rulesStrings.19>
+	<AnimalChat.logRulesInitiator.rulesStrings.20>tamed->tocó suavemente a</AnimalChat.logRulesInitiator.rulesStrings.20>
+	<AnimalChat.logRulesInitiator.rulesStrings.21>tamed->mostró una actitud relajada hacia</AnimalChat.logRulesInitiator.rulesStrings.21>
+
+	
+	
+	<TameAttempt.label>intento de doma</TameAttempt.label>
+	<TameAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] intentó domar a [RECIPIENT_nameIndef].</TameAttempt.logRulesInitiator.rulesStrings.0>
+	<TameAttempt.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] intentó controlar a [RECIPIENT_nameIndef].</TameAttempt.logRulesInitiator.rulesStrings.1>
+    <TameAttempt.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef] intentó ponerle un collar a [RECIPIENT_nameIndef].</TameAttempt.logRulesInitiator.rulesStrings.2>
+    <TameAttempt.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef] demandó obediencia de [RECIPIENT_nameIndef].</TameAttempt.logRulesInitiator.rulesStrings.3>
+    <TameAttempt.logRulesInitiator.rulesStrings.4>r_logentry->[INITIATOR_nameIndef] llamó a [RECIPIENT_nameIndef] a acercarse.</TameAttempt.logRulesInitiator.rulesStrings.4>
+    <TameAttempt.logRulesInitiator.rulesStrings.5>r_logentry->[INITIATOR_nameIndef] intentó hacer que [RECIPIENT_nameIndef] se sentara.</TameAttempt.logRulesInitiator.rulesStrings.5>
+    <TameAttempt.logRulesInitiator.rulesStrings.6>r_logentry->[INITIATOR_nameIndef] agarró a [RECIPIENT_nameIndef] y vociferó una orden.</TameAttempt.logRulesInitiator.rulesStrings.6>
+    <TameAttempt.logRulesInitiator.rulesStrings.7>r_logentry->[INITIATOR_nameIndef] intentó mantener quieto a [RECIPIENT_nameIndef].</TameAttempt.logRulesInitiator.rulesStrings.7>
+    <TameAttempt.logRulesInitiator.rulesStrings.8>r_logentry->[INITIATOR_nameIndef] gritó una orden a [RECIPIENT_nameIndef].</TameAttempt.logRulesInitiator.rulesStrings.8>
+    <TameAttempt.logRulesInitiator.rulesStrings.9>r_logentry->[INITIATOR_nameIndef] abofeteó a [RECIPIENT_nameIndef] para mostrar superioridad.</TameAttempt.logRulesInitiator.rulesStrings.9>
+    <TameAttempt.logRulesInitiator.rulesStrings.10>r_logentry->[INITIATOR_nameIndef] dirigió a [RECIPIENT_nameIndef] hacia la comunidad.</TameAttempt.logRulesInitiator.rulesStrings.10>
+    <TameAttempt.logRulesInitiator.rulesStrings.11>r_logentry->[INITIATOR_nameIndef] llamó a [RECIPIENT_nameIndef] a regresar a la comunidad.</TameAttempt.logRulesInitiator.rulesStrings.11>
+    <TameAttempt.logRulesInitiator.rulesStrings.12>r_logentry->[INITIATOR_nameIndef] tocó una parte vulnerable de [RECIPIENT_nameIndef], y demandó obediencia.</TameAttempt.logRulesInitiator.rulesStrings.12>
+    <TameAttempt.logRulesInitiator.rulesStrings.13>r_logentry->[INITIATOR_nameIndef] apuntó hacia el suelo y demandó a [RECIPIENT_nameIndef] que fuera.</TameAttempt.logRulesInitiator.rulesStrings.13>
+    <TameAttempt.logRulesInitiator.rulesStrings.14>r_logentry->[INITIATOR_nameIndef] dio una orden a [RECIPIENT_nameIndef].</TameAttempt.logRulesInitiator.rulesStrings.14>
+
+	
+
+	<TrainAttempt.label>intento de entrenamiento</TrainAttempt.label>
+	<TrainAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] [trained] [RECIPIENT_nameIndef].</TrainAttempt.logRulesInitiator.rulesStrings.0>
+
+	<TrainAttempt.logRulesInitiator.rulesStrings.1>trained(p=2)->[tried] entrenar a</TrainAttempt.logRulesInitiator.rulesStrings.1>
+	<TrainAttempt.logRulesInitiator.rulesStrings.2>trained->[tried] mostrar un nuevo truco a</TrainAttempt.logRulesInitiator.rulesStrings.2>
+	<TrainAttempt.logRulesInitiator.rulesStrings.3>trained->[tried] disciplinar a</TrainAttempt.logRulesInitiator.rulesStrings.3>
+	<TrainAttempt.logRulesInitiator.rulesStrings.4>trained->[tried] instruir a</TrainAttempt.logRulesInitiator.rulesStrings.4>
+	<TrainAttempt.logRulesInitiator.rulesStrings.5>trained->[tried] enseñar una nueva habilidad a</TrainAttempt.logRulesInitiator.rulesStrings.5>
+	<TrainAttempt.logRulesInitiator.rulesStrings.6>trained->demostrar un truco a</TrainAttempt.logRulesInitiator.rulesStrings.6>
+	<TrainAttempt.logRulesInitiator.rulesStrings.7>trained->enseñar algo a</TrainAttempt.logRulesInitiator.rulesStrings.7>
+
+	<TrainAttempt.logRulesInitiator.rulesStrings.8>tried->intentó</TrainAttempt.logRulesInitiator.rulesStrings.8>
+	<TrainAttempt.logRulesInitiator.rulesStrings.9>tried->trató</TrainAttempt.logRulesInitiator.rulesStrings.9>
+
+	
+	
+	<Nuzzle.label>caricia</Nuzzle.label>
+	<Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry(p=2)->[INITIATOR_nameIndef] [nuzzled] [nuzzleadverb] a [RECIPIENT_nameIndef].</Nuzzle.logRulesInitiator.rulesStrings.0>
+	<Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] acarició [nuzzleadverb] con su nariz la [rubbedpart] de [RECIPIENT_nameIndef].</Nuzzle.logRulesInitiator.rulesStrings.1>
+
+	<Nuzzle.logRulesInitiator.rulesStrings.2>nuzzled(p=2)->acarició</Nuzzle.logRulesInitiator.rulesStrings.2>
+	<Nuzzle.logRulesInitiator.rulesStrings.3>nuzzled->acarició</Nuzzle.logRulesInitiator.rulesStrings.3>
+
+	<Nuzzle.logRulesInitiator.rulesStrings.4>nuzzleadverb(p=4)-></Nuzzle.logRulesInitiator.rulesStrings.4>
+	<Nuzzle.logRulesInitiator.rulesStrings.5>nuzzleadverb->gentilmente</Nuzzle.logRulesInitiator.rulesStrings.5>
+	<Nuzzle.logRulesInitiator.rulesStrings.6>nuzzleadverb->suavemente</Nuzzle.logRulesInitiator.rulesStrings.6>
+	<Nuzzle.logRulesInitiator.rulesStrings.7>nuzzleadverb->felizmente</Nuzzle.logRulesInitiator.rulesStrings.7>
+	<Nuzzle.logRulesInitiator.rulesStrings.8>nuzzleadverb->suavemente</Nuzzle.logRulesInitiator.rulesStrings.8>
+	<Nuzzle.logRulesInitiator.rulesStrings.9>nuzzleadverb->ligeramente</Nuzzle.logRulesInitiator.rulesStrings.9>
+	<Nuzzle.logRulesInitiator.rulesStrings.10>nuzzleadverb->ligeramente</Nuzzle.logRulesInitiator.rulesStrings.10>
+	<Nuzzle.logRulesInitiator.rulesStrings.11>nuzzleadverb->tiernamente</Nuzzle.logRulesInitiator.rulesStrings.11>
+	<Nuzzle.logRulesInitiator.rulesStrings.12>nuzzleadverb->tiernamente</Nuzzle.logRulesInitiator.rulesStrings.12>
+	<Nuzzle.logRulesInitiator.rulesStrings.13>nuzzleadverb->amistosamente</Nuzzle.logRulesInitiator.rulesStrings.13>
+	<Nuzzle.logRulesInitiator.rulesStrings.14>nuzzleadverb->amistosamente</Nuzzle.logRulesInitiator.rulesStrings.14>
+
+	<Nuzzle.logRulesInitiator.rulesStrings.15>rubbedpart->pierna</Nuzzle.logRulesInitiator.rulesStrings.15>
+	<Nuzzle.logRulesInitiator.rulesStrings.16>rubbedpart->mano</Nuzzle.logRulesInitiator.rulesStrings.16>
+	<Nuzzle.logRulesInitiator.rulesStrings.17>rubbedpart->rodilla</Nuzzle.logRulesInitiator.rulesStrings.17>
+	<Nuzzle.logRulesInitiator.rulesStrings.18>rubbedpart->cara</Nuzzle.logRulesInitiator.rulesStrings.18>
+	<Nuzzle.logRulesInitiator.rulesStrings.19>rubbedpart->espalda</Nuzzle.logRulesInitiator.rulesStrings.19>
+	<Nuzzle.logRulesInitiator.rulesStrings.20>rubbedpart->panza</Nuzzle.logRulesInitiator.rulesStrings.20>
+	<Nuzzle.logRulesInitiator.rulesStrings.21>rubbedpart->cadera</Nuzzle.logRulesInitiator.rulesStrings.21>
+	<Nuzzle.logRulesInitiator.rulesStrings.22>rubbedpart->mano</Nuzzle.logRulesInitiator.rulesStrings.22>
+	<Nuzzle.logRulesInitiator.rulesStrings.23>rubbedpart->cabeza</Nuzzle.logRulesInitiator.rulesStrings.23>
 
 </LanguageData>
