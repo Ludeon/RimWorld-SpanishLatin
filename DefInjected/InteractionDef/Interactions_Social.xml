@@ -4,8 +4,8 @@
 	<!-- Random social interactions -->
 
 	<Chitchat.label>Charla</Chitchat.label>
-	<Chitchat.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [TalkTopic_light].</Chitchat.logRulesInitiator.rulesStrings.0>
-	<Chitchat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [TalkTopic_light].</Chitchat.logRulesInitiator.rulesStrings.1>
+	<Chitchat.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [subject].</Chitchat.logRulesInitiator.rulesStrings.0>
+	<Chitchat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [subject].</Chitchat.logRulesInitiator.rulesStrings.1>
 
 	<Chitchat.logRulesInitiator.rulesStrings.2>talkedabout(p=4)->hablaron sobre</Chitchat.logRulesInitiator.rulesStrings.2>
 	<Chitchat.logRulesInitiator.rulesStrings.3>talkedabout->platicaron sobre</Chitchat.logRulesInitiator.rulesStrings.3>
@@ -32,8 +32,8 @@
 	<DeepTalk.logRulesInitiator.rulesStrings.10>talkedabout->compartieron sus ideas sobre</DeepTalk.logRulesInitiator.rulesStrings.10>
 	<DeepTalk.logRulesInitiator.rulesStrings.11>talkedabout->hablaron acerca de</DeepTalk.logRulesInitiator.rulesStrings.11>
 
-	<DeepTalk.logRulesInitiator.rulesStrings.12>subject(p=2)->[TalkTopic_heavy]</DeepTalk.logRulesInitiator.rulesStrings.12>
-	<DeepTalk.logRulesInitiator.rulesStrings.13>subject->[TalkTopic_light]</DeepTalk.logRulesInitiator.rulesStrings.13>
+	<DeepTalk.logRulesInitiator.rulesStrings.12>subject(p=2)->[TalkTopicHeavy]</DeepTalk.logRulesInitiator.rulesStrings.12>
+	<DeepTalk.logRulesInitiator.rulesStrings.13>subject->[TalkTopicLight]</DeepTalk.logRulesInitiator.rulesStrings.13>
 
 
 
