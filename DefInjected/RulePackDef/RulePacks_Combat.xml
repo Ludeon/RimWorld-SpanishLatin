@@ -44,7 +44,7 @@
 		<li>result(p=0.5)->[damaged_present] a [RECIPIENT_possessive] en [targetlist]</li>
 		<li>result(p=0.2)->[damaged_present] a [RECIPIENT_possessive] en [targetlist] [flavortextadverb]</li>
 		<li>result(p=10000)->[damaged_present] a [RECIPIENT_possessive] en [targetlist] [flavortextsituation]</li>
-		<li>result(p=0.2)->[damaged_present] a [RECIPIENT_possessive] en [targetlist] y [flavortextconsequence]</li>
+		<li>result(p=0.2)->[damaged_present] a [RECIPIENT_possessive] en [targetlist] [flavortextconsequence]</li>
 		
 		<li>flavortextadverb->pocamente</li>
 		<li>flavortextadverb->brutalmente</li>
@@ -57,27 +57,29 @@
 		<li>flavortextadverb->sin piedad</li>
 		<li>flavortextadverb->despiadadamente</li>
 		
-		<li>flavortextsituation(recipient_flesh!=Mechanoid)->en una explosión de sangre</li>
-		<li>flavortextsituation(recipient_flesh==Mechanoid)->en una explosión de chatarra</li>
+		<li>flavortextsituation(recipient_flesh!=Mechanoid)->provocando una explosión de sangre</li>
+		<li>flavortextsituation(recipient_flesh==Mechanoid)->provocando una explosión de chatarra</li>
+		
 		<li>flavortextsituation->sin emoción</li>
 		<li>flavortextsituation->mientras viste de blanco</li><!--while wearing a blank look -->
+		
 		<li>flavortextsituation(initiator_flesh==Normal)->mientras viste salvajemente</li><!-- while wearing a savage look -->
-		<li>flavortextsituation(initiator_flesh==Normal)->mientras llevas puesto un [badassadjective] aspecto</li>
+		<li>flavortextsituation(initiator_flesh==Normal)->mientras lleva puesto un [badassadjective] aspecto</li>
 		<li>flavortextsituation(initiator_flesh==Normal)->mientras hace muecas</li>
 		<li>flavortextsituation(initiator_flesh==Normal)->mientras rie</li>
 		<li>flavortextsituation(initiator_flesh==Normal)->mientras sonríe</li>
 		
 		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->dejando una herida desagradable</li>
 		<li>flavortextconsequence->dejando una herida horrible</li>
-		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->haciendo que [RECIPIENT_objective] [wince] [painevent]</li>
+		<li>flavortextconsequence(recipient_flesh!=Mechanoid)->haciendo que [RECIPIENT_objective] [wince] de [painevent]</li>
 		<li>flavortextconsequence(p=0.2)->sacando a [RECIPIENT_objective] de balance</li><!-- throwing [RECIPIENT_objective] off balance -->
 		
-		<li>wince(recipient_flesh==Normal)->se contrae de dolor</li>
-		<li>wince(recipient_flesh==Normal)->mueca</li>
+		<li>wince(recipient_flesh==Normal)->se contraiga de dolor</li>
+		<li>wince(recipient_flesh==Normal)->haga mueca</li>
 		<li>wince(recipient_flesh==Normal)->grite</li>
 		<li>wince(recipient_flesh==Normal)->gima</li>
-		<li>wince(recipient_flesh!=Mechanoid)->grita</li>
-		<li>wince(recipient_flesh!=Mechanoid)->chillido</li>
+		<li>wince(recipient_flesh!=Mechanoid)->grite</li>
+		<li>wince(recipient_flesh!=Mechanoid)->chille</li>
 		<li>wince->retrocede</li>
 		<li>wince->titubea</li>
 		
@@ -164,24 +166,24 @@
 	</Combat_WoundIncludes.rulePack.rulesStrings>
 
 	<Combat_Hit.rulePack.rulesStrings>
-		<li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] en el [RECIPIENT_part0_label].</li>
-		<li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] en el [RECIPIENT_part0_label] [flavortextadverb].</li>
-		<li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] en el [RECIPIENT_part0_label] [flavortextsituation].</li>
-		<li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] en el [RECIPIENT_part0_label], [flavortextconsequence].</li>
-		<li>r_logentry(p=0.4)->[INITIATOR_definite], empuñando [INITIATOR_possessive] [WEAPON_label] [expertly], [flavortextadverb] [damaged_past] [RECIPIENT_definite] en el [RECIPIENT_part0_label].</li>
-		<li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]s [destroyed_targets].</li>
-		<li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]s [destroyed_targets] [destroyed_suffix].</li>
-		<li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]s [destroyed_targets] [expertly].</li>
-		<li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]s [destroyed_targets] con [implement].</li>
+		<li>r_logentry(p=0.3)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite] en el/la [RECIPIENT_part0_label].</li>
+		<li>r_logentry(p=0.1)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite] en el/la [RECIPIENT_part0_label], [flavortextadverb].</li>
+		<li>r_logentry(p=0.1)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite] en el/la [RECIPIENT_part0_label], [flavortextsituation].</li>
+		<li>r_logentry(p=0.1)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite] en el/la [RECIPIENT_part0_label], [flavortextconsequence].</li>
+		<li>r_logentry(p=0.4)->[INITIATOR_definite], empuñando [INITIATOR_possessive] [WEAPON_label] [expertly], ha [damaged_past] [flavortextadverb] a [RECIPIENT_definite] en el/la [RECIPIENT_part0_label].</li>
+		<li>r_logentry(p=0.3)->[INITIATOR_definite] ha [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
+		<li>r_logentry(p=0.3)->[INITIATOR_definite] ha [destroyed_past] en [destroyed_suffix] el [destroyed_targets] de [RECIPIENT_definite] .</li>
+		<li>r_logentry(p=0.3)->[INITIATOR_definite] ha [destroyed_past] [expertly] el [destroyed_targets] de [RECIPIENT_definite].</li>
+		<li>r_logentry(p=0.3)->[INITIATOR_definite] ha [destroyed_past] el [destroyed_targets] de [RECIPIENT_definite] con [implement].</li>
 		
-		<li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets]</li>
-		<li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
-		<li>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] y [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
+		<li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] el [destroyed_targets] de [RECIPIENT_possessive] </li>
+		<li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] el [damaged_targets] de [RECIPIENT_possessive] </li>
+		<li>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] e [damaged_present] [damaged_targets] de [RECIPIENT_possessive] </li>
 	
 		<li>action(p=0.3)->[INITIATOR_definite] golpea a [RECIPIENT_definite] con [implement] causando [damaged_inf] </li>
 		<li>action(p=0.3)->[INITIATOR_definite] usó [implement] para [damaged_inf] a [RECIPIENT_definite]</li>
 		<li>action->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] con [implement]</li>
-		<li>action(p=0.6)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
+		<li>action(p=0.6)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite]</li>
 	</Combat_Hit.rulePack.rulesStrings>
 
 	<Combat_FailIncludes.rulePack.rulesStrings>
