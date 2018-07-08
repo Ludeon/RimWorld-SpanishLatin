@@ -3,79 +3,79 @@
 
   <LaunchedShip.label>Nave Lanzada</LaunchedShip.label>
 	<LaunchedShip.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] escapando del planeta</li>
-		<li>tale_noun->[pawn_nameShortDef] despegando en una nave espacial</li>
-		<li>image->[pawn_nameFull] siendo lanzado hacia las estrellas [circumstance_group]</li>
-		<li>image->[pawn_nameFull] avanzando hacia el cielo [circumstance_group]</li>
-		<li>image->[pawn_nameFull] acelerando para tener velocidad de escape [circumstance_group]</li>
-		<li>image->[pawn_nameFull] pilotando un cohete [circumstance_group]</li>
-		<li>circumstance_phrase->delante de un [terrainfeature]</li>
+		<li>tale_noun->[PAWN_nameDef] escapando del planeta</li>
+		<li>tale_noun->[PAWN_nameDef] despegando en una nave espacial</li>
+		<li>image->[PAWN_nameFull] siendo lanzado hacia las estrellas [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] avanzando hacia el cielo [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] acelerando para tener velocidad de escape [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] pilotando un cohete [circumstance_group]</li>
+		<li>circumstance_phrase->delante de un [Terrainfeature]</li>
 		<li>circumstance_phrase->con una fuerza increíble</li>
 		<li>circumstance_phrase->en una columna de polvo y rocas</li>
 		<li>circumstance_phrase->con los cohetes encendidos dramáticamente</li>
 		<li>circumstance_phrase->en un despegue de precisión</li>
-		<li>desc_sentence->[pawn_pronoun] se concentra intensamente en los controles.</li>
-		<li>desc_sentence->[pawn_pronoun] tiene [pawn_possessive] ojos cerrados y parece seguro de sí mismo.</li>
-		<li>desc_sentence->[pawn_pronoun] está durmiendo, con [pawn_possessive] ojos cerrados en paz.</li>
-		<li>desc_sentence->[pawn_pronoun] está sonriendo con desalentadora alegría.</li>
-		<li>desc_sentence->[pawn_pronoun] parece tener el control total de la situación.</li>
+		<li>desc_sentence->[PAWN_pronoun] se concentra intensamente en los controles.</li>
+		<li>desc_sentence->[PAWN_pronoun] tiene [PAWN_possessive] ojos cerrados y parece seguro de sí mismo.</li>
+		<li>desc_sentence->[PAWN_pronoun] está durmiendo, con [PAWN_possessive] ojos cerrados en paz.</li>
+		<li>desc_sentence->[PAWN_pronoun] está sonriendo con desalentadora alegría.</li>
+		<li>desc_sentence->[PAWN_pronoun] parece tener el control total de la situación.</li>
 		<li>desc_sentence->Hay un rastro de llamas saliendo de la parte trasera de la nave.</li>
-		<li>desc_sentence->Un cercano [animal] está mirando hacia arriba, sorprendido.</li>
-		<li>desc_sentence->Un [animal] huye del lanzamiento con miedo.</li>
-		<li>desc_sentence->Hay una [terrainfeature] en el fondo.</li>
-		<li>desc_sentence->Un [outlander] mira silenciosamente desde lejos.</li>
+		<li>desc_sentence->Un cercano [Animal] está mirando hacia arriba, sorprendido.</li>
+		<li>desc_sentence->Un [Animal] huye del lanzamiento con miedo.</li>
+		<li>desc_sentence->Hay una [Terrainfeature] en el fondo.</li>
+		<li>desc_sentence->Un [PersonJob] mira silenciosamente desde lejos.</li>
 	</LaunchedShip.rulePack.rulesStrings>
 
   <SocialFight.label>Pelea Social</SocialFight.label>
 	<SocialFight.rulePack.rulesStrings>
-		<li>tale_noun->[pawna_nameShortDef] [fight_name_present] [pawnb_nameShortDef]</li>
-		<li>image->[pawna_nameFull] insulta [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] desafia [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] amenaza [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] intimida [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] ataca [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] violenta [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] golpea [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] patada [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] acobardado por [pawnb_nameFull] [circumstance_group]</li>
+		<li>tale_noun->[INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
+		<li>image->[INITIATOR_nameFull] insulta [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->[INITIATOR_nameFull] desafia [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->[INITIATOR_nameFull] amenaza [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->[INITIATOR_nameFull] intimida [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->[INITIATOR_nameFull] ataca [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->[INITIATOR_nameFull] violenta [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->[INITIATOR_nameFull] golpea [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->[INITIATOR_nameFull] patada [RESPONDER_nameFull] [circumstance_group]</li>
+		<li>image->[INITIATOR_nameFull] acobardado por [RESPONDER_nameFull] [circumstance_group]</li>
 		<li>fight_name_present->violento</li>
 		<li>fight_name_present->ataca</li>
 		<li>fight_name_present->pelea</li>
-		<li>circumstance_phrase->mientras [pawnb_nameShortDef] insulta [pawna_objective]</li>
-		<li>circumstance_phrase->mientras [pawnb_nameShortDef] burla [pawna_objective]</li>
-		<li>circumstance_phrase->mientras [pawnb_nameShortDef] amenaza [pawna_objective]</li>
-		<li>circumstance_phrase->mientras [pawnb_nameShortDef] intimida [pawna_objective]</li>
-		<li>circumstance_phrase->mientras [pawnb_nameShortDef] ataca [pawna_objective]</li>
-		<li>circumstance_phrase->mientras [pawnb_nameShortDef] violenta [pawna_objective]</li>
-		<li>circumstance_phrase->mientras [pawnb_nameShortDef] golpea [pawna_objective]</li>
-		<li>circumstance_phrase->mientras [pawnb_nameShortDef] patea [pawna_objective]</li>
-		<li>circumstance_phrase->mientras [pawnb_nameShortDef] acobarda por [pawna_objective]</li>
+		<li>circumstance_phrase->mientras [RESPONDER_nameDef] insulta [INITIATOR_objective]</li>
+		<li>circumstance_phrase->mientras [RESPONDER_nameDef] burla [INITIATOR_objective]</li>
+		<li>circumstance_phrase->mientras [RESPONDER_nameDef] amenaza [INITIATOR_objective]</li>
+		<li>circumstance_phrase->mientras [RESPONDER_nameDef] intimida [INITIATOR_objective]</li>
+		<li>circumstance_phrase->mientras [RESPONDER_nameDef] ataca [INITIATOR_objective]</li>
+		<li>circumstance_phrase->mientras [RESPONDER_nameDef] violenta [INITIATOR_objective]</li>
+		<li>circumstance_phrase->mientras [RESPONDER_nameDef] golpea [INITIATOR_objective]</li>
+		<li>circumstance_phrase->mientras [RESPONDER_nameDef] patea [INITIATOR_objective]</li>
+		<li>circumstance_phrase->mientras [RESPONDER_nameDef] acobarda por [INITIATOR_objective]</li>
 		<li>desc_sentence->[target] aparece sin remordimientos.</li>
 		<li>desc_sentence->[target] está consumido por la rabia.</li>
 		<li>desc_sentence->[target] no tiene emoción o expresión.</li>
-		<li>desc_sentence->[target] su cuerpo cubierto en [gore].</li>
+		<li>desc_sentence->[target] su cuerpo cubierto en [Gore].</li>
 		<li>desc_sentence->[target] está gritando furiosamente.</li>
 		<li>desc_sentence->[target] está visiblemente herido.</li>
-		<li>desc_sentence->[target] sus ojos brillan de [color].</li>
-		<li>target->[pawna_nameShortDef]</li>
-		<li>target->[pawnb_nameShortDef]</li>
+		<li>desc_sentence->[target] sus ojos brillan de [Color].</li>
+		<li>target->[INITIATOR_nameDef]</li>
+		<li>target->[RESPONDER_nameDef]</li>
 	</SocialFight.rulePack.rulesStrings>
 
   <CollapseDodged.label>Derrumbe Evitado</CollapseDodged.label>
 	<CollapseDodged.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] esquivando un derrumbe</li>
-		<li>tale_noun->[pawn_nameShortDef] casi fue aplastado por la caída de objetos</li>
-		<li>image->[pawn_nameFull] saliendo de un derrumbe de escombros [circumstance_group]</li>
-		<li>image->[pawn_nameFull] evitando por poco un derrumbe [circumstance_group]</li>
-		<li>image->[pawn_nameFull] evita la caída del techo [circumstance_group]</li>
-		<li>image->[pawn_nameFull] evitar una muerte segura por la caída de una roca [circumstance_group]</li>
+		<li>tale_noun->[PAWN_nameDef] esquivando un derrumbe</li>
+		<li>tale_noun->[PAWN_nameDef] casi fue aplastado por la caída de objetos</li>
+		<li>image->[PAWN_nameFull] saliendo de un derrumbe de escombros [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] evitando por poco un derrumbe [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] evita la caída del techo [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] evitar una muerte segura por la caída de una roca [circumstance_group]</li>
 		<li>circumstance_phrase->que desaparece detrás de una cortina de escombros y polvo</li>
 		<li>circumstance_phrase->que pulveriza todo lo que hay debajo</li>
 		<li>circumstance_phrase->que impacta con una fuerza increíble</li>
-		<li>desc_sentence->[pawn_pronoun] está sudando de esfuerzo.</li>
-		<li>desc_sentence->[pawn_pronoun] parece estar aterrorizado.</li>
-		<li>desc_sentence->[pawn_pronoun] está rasguñado y sangrando.</li>
-		<li>desc_sentence->[pawn_pronoun] ha perdido [pawn_possessive] contrapeso.</li>
+		<li>desc_sentence->[PAWN_pronoun] está sudando de esfuerzo.</li>
+		<li>desc_sentence->[PAWN_pronoun] parece estar aterrorizado.</li>
+		<li>desc_sentence->[PAWN_pronoun] está rasguñado y sangrando.</li>
+		<li>desc_sentence->[PAWN_pronoun] ha perdido [PAWN_possessive] contrapeso.</li>
 	</CollapseDodged.rulePack.rulesStrings>
 
 

@@ -3,72 +3,72 @@
 
  	  <BondedWithAnimal.label>Vínculo Creado</BondedWithAnimal.label>
 	<BondedWithAnimal.rulePack.rulesStrings>
-		<li>tale_noun->[human_nameShortDef] ha creado un vínculo con [animal_nameShortDef]</li>
-		<li>image->[human_nameFull] se encariña con [animal_nameFull] [circumstance_group]</li>
-		<li>image->[human_nameFull] forma un vínculo profundo con [animal_nameFull] [circumstance_group]</li>
-		<li>image->[human_nameFull] se da cuenta de su amor por [animal_nameFull] [circumstance_group]</li>
-		<li>circumstance_phrase->mientras otros animales observan</li>
-		<li>circumstance_phrase->mientras [human_pronoun] mira a [animal_nameShortDef] a los ojos</li>
+		<li>tale_noun->[TRAINER_nameDef] ha creado un vínculo con [ANIMAL_nameDef]</li>
+		<li>image->[TAMER_nameFull] se encariña con [ANIMAL_nameFull] [circumstance_group]</li>
+		<li>image->[TAMER_nameFull] forma un vínculo profundo con [ANIMAL_nameFull] [circumstance_group]</li>
+		<li>image->[TAMER_nameFull] se da cuenta de su amor por [ANIMAL_nameFull] [circumstance_group]</li>
+		<li>circumstance_phrase->mientras otros Animales observan</li>
+		<li>circumstance_phrase->mientras [human_pronoun] mira a [ANIMAL_nameDef] a los ojos</li>
 		<li>circumstance_phrase->con cara de satisfacción</li>
-		<li>desc_sentence->[animal_nameShortDef] se restriega contra [human_nameShortDef].</li>
-		<li>desc_sentence->[animal_nameShortDef] parece borracho de amor.</li>
-		<li>desc_sentence->[animal_nameShortDef] aparenta nobleza de corazón.</li>
-		<li>desc_sentence->[animal_nameShortDef] responde positivamente.</li>
+		<li>desc_sentence->[ANIMAL_nameDef] se restriega contra [TRAINER_nameDef].</li>
+		<li>desc_sentence->[ANIMAL_nameDef] parece borracho de amor.</li>
+		<li>desc_sentence->[ANIMAL_nameDef] aparenta nobleza de corazón.</li>
+		<li>desc_sentence->[ANIMAL_nameDef] responde positivamente.</li>
 	</BondedWithAnimal.rulePack.rulesStrings>
 
  	  <BecameLover.label>Nuevo Amorío</BecameLover.label>
 	<BecameLover.rulePack.rulesStrings>
-		<li>tale_noun->[firstPawn_nameShortDef] y [secondPawn_nameShortDef] se volvieron amantes</li>
-		<li>image->[firstPawn_nameFull] susurra cosas dulces al oído de [secondPawn_nameFull] [circumstance_group]</li>
-		<li>image->[firstPawn_nameFull] lleva a [secondPawn_nameFull] de la mano hacia la cama [circumstance_group]</li>
-		<li>image->[firstPawn_nameFull] brincando en la cama con [secondPawn_nameFull] [circumstance_group]</li>
-		<li>image->[firstPawn_nameFull] besando tiernamente a [secondPawn_nameFull] [circumstance_group]</li>
+		<li>tale_noun->[PURSUER_nameDef] y [ACCEPTER_nameDef] se volvieron amantes</li>
+		<li>image->[PURSUER_nameFull] susurra cosas dulces al oído de [ACCEPTER_nameFull] [circumstance_group]</li>
+		<li>image->[PURSUER_nameFull] lleva a [ACCEPTER_nameFull] de la mano hacia la cama [circumstance_group]</li>
+		<li>image->[PURSUER_nameFull] brincando en la cama con [ACCEPTER_nameFull] [circumstance_group]</li>
+		<li>image->[PURSUER_nameFull] besando tiernamente a [ACCEPTER_nameFull] [circumstance_group]</li>
 		<li>circumstance_phrase->en una cama irrealmente grande</li>
 		<li>circumstance_phrase->entre las sábanas</li>
 		<li>circumstance_phrase->con poca ropa a la vista</li>
 		<li>circumstance_phrase->ambos bañados en sudor</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] se acurruca en [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] y [secondPawn_nameShortDef] se miran a los ojos.</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] sopla al oído de [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] está abrazando a [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] está oliendo el cabello de [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] abraza agresivamente a [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[PURSUER_nameFull] se acurruca en [ACCEPTER_nameFull].</li>
+		<li>desc_sentence->[PURSUER_nameFull] y [ACCEPTER_nameFull] se miran a los ojos.</li>
+		<li>desc_sentence->[PURSUER_nameFull] sopla al oído de [ACCEPTER_nameFull].</li>
+		<li>desc_sentence->[PURSUER_nameFull] está abrazando a [ACCEPTER_nameFull].</li>
+		<li>desc_sentence->[PURSUER_nameFull] está oliendo el cabello de [ACCEPTER_nameFull].</li>
+		<li>desc_sentence->[PURSUER_nameFull] abraza agresivamente a [ACCEPTER_nameFull].</li>
 	</BecameLover.rulePack.rulesStrings>
 
  	  <Breakup.label>Rompimiento</Breakup.label>
 	<Breakup.rulePack.rulesStrings>
-		<li>tale_noun->el rompimiento de [firstPawn_nameShortDef] y [secondPawn_nameShortDef]</li>
-		<li>image->[firstPawn_nameFull] sentando a [secondPawn_nameFull] a la mesa para una charla poco placentera [circumstance_group]</li>
-		<li>image->[firstPawn_nameFull] está de pie a corta distancia de [secondPawn_nameFull] [circumstance_group]</li>
-		<li>image->[firstPawn_nameFull] empujando a [secondPawn_nameFull] fuera de la cama [circumstance_group]</li>
-		<li>image->[firstPawn_nameFull] rechazando un abrazo de [secondPawn_nameFull] [circumstance_group]</li>
+		<li>tale_noun->el rompimiento de [DUMPER_nameDef] y [REJECTED_nameDef]</li>
+		<li>image->[DUMPER_nameDef] sentando a [REJECTED_nameFull] a la mesa para una charla poco placentera [circumstance_group]</li>
+		<li>image->[DUMPER_nameDef] está de pie a corta distancia de [REJECTED_nameFull] [circumstance_group]</li>
+		<li>image->[DUMPER_nameDef] empujando a [REJECTED_nameFull] fuera de la cama [circumstance_group]</li>
+		<li>image->[DUMPER_nameDef] rechazando un abrazo de [REJECTED_nameFull] [circumstance_group]</li>
 		<li>circumstance_phrase->en un momento de gran tristeza</li>
 		<li>circumstance_phrase->mientras otros observan incómodamente</li>
 		<li>circumstance_phrase->mientras otros observan</li>
-		<li>desc_sentence->[secondPawn_nameShortDef] está llorando incontrolablemente.</li>
-		<li>desc_sentence->[secondPawn_nameShortDef] llora y se arranca los cabellos al mismo tiempo.</li>
-		<li>desc_sentence->[secondPawn_nameShortDef] tiene cara de shock.</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] está separado estilísticamente de [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[secondPawn_nameShortDef] a colapsado en el suelo y está temblando.</li>
-		<li>desc_sentence->[secondPawn_nameShortDef] gesticula iracundamente hacia [firstPawn_nameShortDef].</li>
+		<li>desc_sentence->[REJECTED_nameDef] está llorando incontrolablemente.</li>
+		<li>desc_sentence->[REJECTED_nameDef] llora y se arranca los cabellos al mismo tiempo.</li>
+		<li>desc_sentence->[REJECTED_nameDef] tiene cara de shock.</li>
+		<li>desc_sentence->[DUMPER_nameDef] está separado estilísticamente de [REJECTED_nameDef].</li>
+		<li>desc_sentence->[REJECTED_nameDef] a colapsado en el suelo y está temblando.</li>
+		<li>desc_sentence->[REJECTED_nameDef] gesticula iracundamente hacia [DUMPER_nameDef].</li>
 	</Breakup.rulePack.rulesStrings>
 
  	  <Marriage.label>Matrimonio</Marriage.label>
 	<Marriage.rulePack.rulesStrings>
-		<li>tale_noun->el matrimonio de [firstPawn_nameShortDef] y [secondPawn_nameShortDef]</li>
-		<li>image->[firstPawn_nameFull] casándose con [secondPawn_nameFull] [circumstance_group]</li>
-		<li>image->[firstPawn_nameFull] diciendo sus votos matrimoniales a [secondPawn_nameFull] [circumstance_group]</li>
-		<li>image->[firstPawn_nameFull] caminando hacia el altar matrimonial con [secondPawn_nameFull] [circumstance_group]</li>
-		<li>image->[firstPawn_nameFull] agarrándose de las manos con [secondPawn_nameFull] durante la ceremonia de matrimonio [circumstance_group]</li>
+		<li>tale_noun->el matrimonio de [SPOUSE1_nameDef] y [SPOUSE2_nameDef]</li>
+		<li>image->[SPOUSE1_nameFull] casándose con [SPOUSE2_nameFull] [circumstance_group]</li>
+		<li>image->[SPOUSE1_nameFull] diciendo sus votos matrimoniales a [SPOUSE2_nameFull] [circumstance_group]</li>
+		<li>image->[SPOUSE1_nameFull] caminando hacia el altar matrimonial con [SPOUSE2_nameFull] [circumstance_group]</li>
+		<li>image->[SPOUSE1_nameFull] agarrándose de las manos con [SPOUSE2_nameFull] durante la ceremonia de matrimonio [circumstance_group]</li>
 		<li>circumstance_phrase->en una digna ceremonia</li>
 		<li>circumstance_phrase->mientras ambos sonríen</li>
 		<li>circumstance_phrase->mientras los demás observan sonrientes</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] se acurruca con [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] y [secondPawn_nameShortDef] cruzan miradas.</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] susurra al oído de [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] está estilísticamente unido(a) con [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] acaricia el cabello de [secondPawn_nameShortDef].</li>
-		<li>desc_sentence->[firstPawn_nameShortDef] besa apasionadamente a [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameDef] se acurruca con [SPOUSE2_nameDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameDef] y [SPOUSE2_nameDef] cruzan miradas.</li>
+		<li>desc_sentence->[SPOUSE1_nameDef] susurra al oído de [SPOUSE2_nameDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameDef] está estilísticamente unido(a) con [SPOUSE2_nameDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameDef] acaricia el cabello de [SPOUSE2_nameDef].</li>
+		<li>desc_sentence->[SPOUSE1_nameDef] besa apasionadamente a [SPOUSE2_nameDef].</li>
 	</Marriage.rulePack.rulesStrings>
 
 

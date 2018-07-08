@@ -18,14 +18,14 @@
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s wander the area.</li>
 		<li>desc_sentence->There is a [Community] in the background.</li>
 		<li>desc_sentence->[Quantity_adjphrase] further veins are visible in the distance.</li>
-		<li>desc_sentence->A [TerrainFeature] is visible in the distance.</li>
+		<li>desc_sentence->A [Terrainfeature] is visible in the distance.</li>
 		<li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
 	</MinedValuable.rulePack.rulesStrings>
 
   <CompletedLongConstructionProject.label>completed long construction project</CompletedLongConstructionProject.label>
 	<CompletedLongConstructionProject.rulePack.rulesStrings>
 		<li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
-		<li>image->[PAWN_nameFull] assembling a complicated appartus inside a [OBJECT_label] [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] assembling a complicated apparatus inside a [OBJECT_label] [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] inscribing their name on a [OBJECT_label] [circumstance_group]</li>
@@ -44,7 +44,7 @@
   <CompletedLongCraftingProject.label>completed long crafting project</CompletedLongCraftingProject.label>
 	<CompletedLongCraftingProject.rulePack.rulesStrings>
 		<li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
-		<li>image->[PAWN_nameFull] assembling a complicated appartus inside a [OBJECT_label] [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] assembling a complicated apparatus inside a [OBJECT_label] [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] inscribing their name on a [OBJECT_label] [circumstance_group]</li>
@@ -82,7 +82,7 @@
   <Meditated.label>meditated</Meditated.label>
 	<Meditated.rulePack.rulesStrings>
 		<li>tale_noun->[PAWN_nameDef] meditating</li>
-		<li>image->[PAWN_nameFull] sitting under a [TreeType] tree, [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] sitting under a [TreeTypeType] TreeType, [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] sitting quietly, [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
@@ -131,7 +131,7 @@
 		<li>desc_sentence->A [Color] aurora shines in the background.</li>
 		<li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
 		<li>desc_sentence->A field of [Vegetable]s is barely visible through the snow.</li>
-		<li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
+		<li>desc_sentence->A snow-covered [Terrainfeature] can be seen far away.</li>
 	</BuiltSnowman.rulePack.rulesStrings>
 
   <VisitedGrave.label>visited grave</VisitedGrave.label>
@@ -145,7 +145,7 @@
 		<li>image->[PAWN_nameFull] looking at the art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
 		<li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
 		<li>circumstance_phrase->and consumed in thought</li>
-		<li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+		<li>circumstance_phrase->while gazing at a faraway [Terrainfeature]</li>
 		<li>circumstance_phrase->and talking quietly to the memorial</li>
 		<li>desc_sentence->A [Color] aurora shines in the background.</li>
 		<li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
@@ -156,10 +156,10 @@
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
 	</VisitedGrave.rulePack.rulesStrings>
 
-  <PlayedGame.label>played game</PlayedGame.label>
+  <PlayedGame.label>played Game</PlayedGame.label>
 	<PlayedGame.rulePack.rulesStrings>
 		<li>tale_noun->[PAWN_nameDef] relaxing at a [OBJECT_label]</li>
-		<li>tale_noun->[PAWN_nameDef] playing games at a [OBJECT_label]</li>
+		<li>tale_noun->[PAWN_nameDef] playing Games at a [OBJECT_label]</li>
 		<li>image->[PAWN_nameFull] waiting in a chair, [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] poised over the [OBJECT_label], [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] sitting next to the [OBJECT_label], [circumstance_group]</li>
@@ -174,7 +174,7 @@
 		<li>circumstance_phrase->[angstyverb]</li>
 		<li>desc_sentence->A [Color] aurora shines in the background.</li>
 		<li>desc_sentence->In the distance, a [Community] is visible.</li>
-		<li>desc_sentence->In the distance, a [TerrainFeature] is visible.</li>
+		<li>desc_sentence->In the distance, a [Terrainfeature] is visible.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are playing as well.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
 		<li>desc_sentence->[PAWN_nameDef] is glowing with a [Color] aura.</li>
@@ -195,7 +195,7 @@
 		<li>image->[DIGGER_nameFull] placing [CORPSE_nameFull]'s body within a grave [circumstance_group]</li>
 		<li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
 		<li>circumstance_phrase->and consumed in thought</li>
-		<li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+		<li>circumstance_phrase->while gazing at a faraway [Terrainfeature]</li>
 		<li>circumstance_phrase->and talking quietly to the memorial</li>
 		<li>desc_sentence->A [Color] aurora shines in the background.</li>
 		<li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
@@ -215,7 +215,7 @@
 		<li>image->[PAWN_nameFull] looking through the wall of a cryptosleep casket at a world they're about to leave [circumstance_group]</li>
 		<li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
 		<li>circumstance_phrase->while consumed in thought</li>
-		<li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+		<li>circumstance_phrase->while gazing at a faraway [Terrainfeature]</li>
 		<li>circumstance_phrase->and talking quietly to themselves</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
@@ -234,9 +234,9 @@
 		<li>image->[CARRIER_nameFull] walking away as [SLEEPER_nameDef] looks through the wall of a cryptosleep casket [circumstance_group]</li>
 		<li>circumstance_phrase->with a [AdjectiveAny] expression</li>
 		<li>circumstance_phrase->with a [AdjectiveFriendly] expression</li>
-		<li>circumstance_phrase->with a [badassadjective] expression</li>
+		<li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
 		<li>circumstance_phrase->while consumed in thought</li>
-		<li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+		<li>circumstance_phrase->while gazing at a faraway [Terrainfeature]</li>
 		<li>circumstance_phrase->with visible tension between the two</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
@@ -253,7 +253,7 @@
 		<li>tale_noun->[TAKER_nameDef] stripping [STRIPPED_nameDef]</li>
 		<li>image->[TAKER_nameFull] disrobing [STRIPPED_nameFull] in public [circumstance_group]</li>
 		<li>image->[TAKER_nameFull] removing the clothes of [STRIPPED_nameFull] [circumstance_group]</li>
-		<li>image->[TAKER_nameFull] holding an armful of [apparel]s while standing next to [STRIPPED_nameFull], who is completely naked [circumstance_group]</li>
+		<li>image->[TAKER_nameFull] holding an armful of [Apparel]s while standing next to [STRIPPED_nameFull], who is completely naked [circumstance_group]</li>
 		<li>image->[TAKER_nameFull] waiting patiently as [STRIPPED_nameFull] removes [stripped_possessive] clothes [circumstance_group]</li>
 		<li>circumstance_phrase->with a sense of purpose</li>
 		<li>circumstance_phrase->with no hint of shame</li>
@@ -316,10 +316,10 @@
 		<li>tale_noun->[HUMAN_nameDef] recruiting yet another Animal to their growing [Animalgroup]</li>
 		<li>tale_noun->[HUMAN_nameDef] followed around by a [Animalgroup]</li>
 		<li>tale_noun->[HUMAN_nameDef]'s taming of [ANIMAL_nameDef]</li>
-		<li>image->[human_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
-		<li>image->[human_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
-		<li>image->[human_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
-		<li>image->[human_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
+		<li>image->[TAMER_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
+		<li>image->[TAMER_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
+		<li>image->[TAMER_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
+		<li>image->[TAMER_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
 		<li>circumstance_phrase->with great care and caution</li>
 		<li>circumstance_phrase->with a smile</li>
 		<li>circumstance_phrase->while exhausted but happy</li>
