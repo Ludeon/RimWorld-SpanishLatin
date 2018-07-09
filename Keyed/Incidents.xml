@@ -21,9 +21,9 @@
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>Hemos detectado una cápsula de escape estrellándose en las cercanías\n\nSi alguien ha sobrevivido al impacto estará gravemente herido.</RefugeePodCrash>
   <RefugeePodCrash_NonHostileOrFactionless>Puedes rescatar [PAWN_objective] y enviarlo [PAWN_objective] en [PAWN_possessive] camino. O bien, capturar [PAWN_objective] para fines de reclutamiento o esclavitud.</RefugeePodCrash_NonHostileOrFactionless>
-  <RefugeePodCrash_Hostile>Puede capturar [PAWN_objective] for recruitment para fines de reclutamiento o esclavitud. [PAWN_pronoun] es de [PAWN_factionName].</RefugeePodCrash_Hostile>
-  <RefugeePodCrashFactionWarning>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturando [PAWN_objective] los enfadará, mientras que rescatar y curar [PAWN_objective] mejorará las relaciones entre las facciones.</RefugeePodCrashFactionWarning>
-  
+  <RefugeePodCrash_Hostile>Puede capturarle [PAWN_objective] para fines de reclutamiento o esclavitud. [PAWN_pronoun] es de [PAWN_factionName].</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_NonHostile>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturarlo [PAWN_objective] los enfadará, mientras que rescatar y curar [PAWN_objective] mejorará las relaciones entre las facciones.</RefugeePodCrash_NonHostile>
+
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
   <CargoPodCrash>Hemos detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nSi cualquier persona ha sobrevivido al impacto, estara gravemente herido.\n\nPodras rescatarlos y enviarles por su camino. Ó capturarlos con fines de reclutamiento o esclavitud.</CargoPodCrash>
 
@@ -76,7 +76,7 @@
   <LetterIncidentPsychicDrone>¡Cada colono {0} de este sexo se retuerce de dolor!\n\nAlguna lejana fuente de odio se está activando. Se está proyectando un potente zumbido psíquico en toda esta región, en una frecuencia que sólo parece afectar a {0} de este sexo. Durante unos días, el estado de ánimo de algunas personas será un poco peor.</LetterIncidentPsychicDrone>
 
   <LetterLabelPsychicSoothe>Calma psíquica</LetterLabelPsychicSoothe>
-  <LetterIncidentPsychicSoothe>¡Cada colono {0} de este sexo sonríe con satisfacción!\n\nAlguna lejana fuente de felicidad se está despertando. Se está proyectando un potente zumbido psíquica en toda esta región, en una frecuencia que sólo parece afectar a {0} de este sexo. Durante unos días, el estado de ánimo de algunas personas va a ser un poco mejor.</LetterIncidentPsychicSoothe>
+  <LetterIncidentPsychicSoothe>¡Cada colono {0} sonríe con satisfacción!\n\nAlguna lejana fuente de felicidad se está despertando. Se está proyectando un potente zumbido psíquica en toda esta región, en una frecuencia que sólo parece afectar a {0} de este sexo. Durante unos días, el estado de ánimo de algunas personas va a ser un poco mejor.</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
   <LetterLabelBeaversArrived>¡Castores!</LetterLabelBeaversArrived>
@@ -143,16 +143,18 @@
   <CaravanDemand>Tu caravana ha sido emboscada por un grupo de {1}. Ellos atacarán a menos que les des:\n\n{3}</CaravanDemand>
   <CaravanDemand_Give>Dar y pasar</CaravanDemand_Give>
   <CaravanDemand_Fight>Rechazar y luchar</CaravanDemand_Fight>
-  
-    <!-- Temporary item stash -->
-  <ItemStashSitePart_Unknown>Desafortunadamente, {0} no tiene idea - si algo - podría estar guardando el almacén.</ItemStashSitePart_Unknown>
-  <ItemStashSitePart_Nothing>{0} dice que el almacén está desprotegido.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Part>{0} dice que {1}.</ItemStashSitePart_Part>
 
   <!-- Site no longer hostile -->
   <LetterLabelSiteNoLongerHostile>Misión ya no disponible</LetterLabelSiteNoLongerHostile>
   <LetterLabelSiteNoLongerHostileMulti>Misión ya no disponible</LetterLabelSiteNoLongerHostileMulti>
   <LetterSiteNoLongerHostile>Porque ya no eres hostil con {0}, el {1} ya no está disponible.</LetterSiteNoLongerHostile>
   <LetterSiteNoLongerHostileMulti>Porque ya no eres hostil con {0}, los siguientes sitios ya no están disponibles</LetterSiteNoLongerHostileMulti>
+
+
+  <!--<RefugeePodCrashFactionWarning>Nota: [PAWN_nameDef]  [PAWN_factionName].  [PAWN_objective]  [PAWN_objective] </RefugeePodCrashFactionWarning>-->
+  <!-- Temporary item stash -->
+  <!--<ItemStashSitePart_Unknown>Desafortunadamente, {0} no tiene idea - si algo - podría estar guardando el almacén.</ItemStashSitePart_Unknown>-->
+  <!--<ItemStashSitePart_Nothing>{0} dice que el almacén está desprotegido.</ItemStashSitePart_Nothing>-->
+  <!--<ItemStashSitePart_Part>{0} dice que {1}.</ItemStashSitePart_Part>-->
 
 </LanguageData>
