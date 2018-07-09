@@ -172,7 +172,7 @@
 		<li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] a [RECIPIENT_definite] en: [RECIPIENT_part0_label], [flavortextadverb].</li>
 		<li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] a [RECIPIENT_definite] en: [RECIPIENT_part0_label], [flavortextsituation].</li>
 		<li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] a [RECIPIENT_definite] en: [RECIPIENT_part0_label], [flavortextconsequence].</li>
-		<li>r_logentry(p=0.4)->[INITIATOR_definite] empuñando [INITIATOR_possessive] [WEAPON_label] [expertly],  [damaged_past] [flavortextadverb] a [RECIPIENT_definite] en: [RECIPIENT_part0_label].</li>
+		<li>r_logentry(p=0.4)->[INITIATOR_definite] [INITIATOR_possessive] [WEAPON_label] [expertly],  [damaged_past] [flavortextadverb] a [RECIPIENT_definite] en: [RECIPIENT_part0_label].</li>
 		<li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
 		<li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past]: [destroyed_targets] de [RECIPIENT_definite] en [destroyed_suffix].</li>
 		<li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] [expertly]: [destroyed_targets] de [RECIPIENT_definite].</li>
@@ -192,7 +192,7 @@
 		<li>action->[INITIATOR_definite] [tried] [damaged_inf] a [RECIPIENT_definite]</li>
 		<li>action->[INITIATOR_definite] [tried] [damaged_inf] a [RECIPIENT_definite] con [implement]</li>
 		<li>action->[INITIATOR_definite] [tried] usar [implement] para [damaged_inf] a [RECIPIENT_definite]</li>
-		<li>action->[INITIATOR_definite] [genericattackverb] [WEAPON_label] [INITIATOR_possessive] a [RECIPIENT_definite]</li>	<!-- <li>action->[INITIATOR_definite] balanceado [WEAPON_label] [INITIATOR_possessive] a [RECIPIENT_definite]</li> -->
+		<li>action->[INITIATOR_definite] [genericattackverb] [INITIATOR_possessive] [WEAPON_label] a [RECIPIENT_definite]</li>	<!-- <li>action->[INITIATOR_definite] balanceado [WEAPON_label] [INITIATOR_possessive] a [RECIPIENT_definite]</li> -->
 		
 		<li>action(p=0.3)->[INITIATOR_definite] ha [genericattackverb] con [implement] [towardsat] [RECIPIENT_definite].</li>
 		<li>action(p=0.3)->[INITIATOR_definite] ha [genericattackverb] [towardsat] [RECIPIENT_definite]</li>
@@ -251,7 +251,7 @@
 	</Combat_RangedIncludes.rulePack.rulesStrings>
 
 	<Combat_RangedFire.rulePack.rulesStrings>
-		<li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] con [WEAPON_label] [INITIATOR_possessive] .</li>
+		<li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] con [INITIATOR_possessive] [WEAPON_label].</li>
 		<li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] a [RECIPIENT_definite].</li>
 		<li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
 		<li>r_logentry->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label] [burst] a [RECIPIENT_definite].</li>
@@ -346,7 +346,7 @@
 		<li>destroyed_present->perforando</li>
 		<li>destroyed_present->perforando</li>
 		
-		<li>destroyed_suffix->piezas</li>
+		<li>destroyed_suffix->pedazos</li>
 		<li>destroyed_suffix->pedacitos</li>
 		<li>destroyed_suffix->una fina niebla</li>
 		<li>destroyed_suffix->fragmentos</li>
