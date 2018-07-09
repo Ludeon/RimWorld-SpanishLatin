@@ -34,12 +34,15 @@
 		<li>storyname(p=50)->[maybe_basic_adjective] [story_result] de [subject]</li>
 		<li>storyname(p=2)->[BodyPart] de [subject]</li>
 		<li>storyname->[Gore] de [subject]</li>
+		
 		<li>maybe_basic_adjective-></li>
 		<li>maybe_basic_adjective(p=0.1)->[basic_adjective]</li>
+		
 		<li>subject(p=5)->[NamePerson]</li>
 		<li>subject->[Animal]</li>
 		<li>subject->[WordTribal]</li>
 		<li>subject->[PlaceOutlander]</li>
+		
 		<li>story_result->locura</li>
 		<li>story_result->vicio</li>
 		<li>story_result->disparate</li>
@@ -82,6 +85,7 @@
 
 	<NamerMountainRange.rulePack.rulesStrings>
 		<li>standardname(p=0.2)->cordillera [narrative_name]</li>
+		
 		<li>terrain_word(p=5)->montañas</li>
 		<li>terrain_word(p=2)->sierra</li>
 		<li>terrain_word->alpes</li>
@@ -91,6 +95,7 @@
 
 	<NamerArchipelago.rulePack.rulesStrings>
 		<li>standardname(p=0.2)->isla [narrative_name]</li>
+		
 		<li>terrain_word(p=4)->islas</li>
 		<li>terrain_word(p=3)->islas</li>
 		<li>terrain_word(p=3)->archipielago</li>
@@ -104,6 +109,7 @@
 
 	<NamerIsland.rulePack.rulesStrings>
 		<li>standardname(p=0.2)->isla [narrative_name]</li>
+		
 		<li>terrain_word(p=4)->isla</li>
 		<li>terrain_word(p=2)->isla</li>
 		<li>terrain_word->arrecife</li>
@@ -116,6 +122,7 @@
 	<NamerPeninsula.rulePack.rulesStrings>
 		<li>standardname(p=0.2)->punta [narrative_name]</li>
 		<li>standardname(p=0.2)->cabo [narrative_name]</li>
+		
 		<li>terrain_word(p=5)->península</li>
 		<li>terrain_word(p=2)->península</li>
 		<li>terrain_word->cabo</li>
@@ -134,6 +141,7 @@
 
 	<NamerLake.rulePack.rulesStrings>
 		<li>standardname->lago [narrative_name]</li>
+		
 		<li>terrain_word(p=6)->lago</li>
 		<li>terrain_word->laguna</li>
 		<li>terrain_word->lago</li>
@@ -146,6 +154,7 @@
 
 	<NamerSea.rulePack.rulesStrings>
 		<li>standardname(p=0.1)->mar [narrative_name]</li>
+		
 		<li>terrain_word(p=6)->mar</li>
 		<li>terrain_word->océano</li>
 		<li>terrain_word->océano</li>
@@ -153,6 +162,7 @@
 
 	<NamerOcean.rulePack.rulesStrings>
 		<li>standardname(p=0.4)->[narrative_name] [ocean_adjective]</li>
+		
 		<li>ocean_adjective->azul</li>
 		<li>ocean_adjective->blanco</li>
 		<li>ocean_adjective->gris</li>
@@ -166,6 +176,7 @@
 		<li>ocean_adjective->sereno</li>
 		<li>ocean_adjective->inquieto</li>
 		<li>ocean_adjective->gentil</li>
+		
 		<li>terrain_word(p=6)->océano</li>
 		<li>terrain_word(p=3)->mar</li>
 		<li>terrain_word->océano</li>
@@ -173,6 +184,7 @@
 
 	<NamerDesert.rulePack.rulesStrings>
 		<li>standardname(p=0.4)->[narrative_name] [desert_adjective]</li>
+		
 		<li>desert_adjective->llano</li>
 		<li>desert_adjective->blanco</li>
 		<li>desert_adjective->sin fin</li>
@@ -187,6 +199,7 @@
 		<li>desert_adjective->ahumado</li>
 		<li>desert_adjective->arenoso</li>
 		<li>desert_adjective->rocoso</li>
+		
 		<li>terrain_word(p=6)->desierto</li>
 		<li>terrain_word->altiplano</li>
 		<li>terrain_word->planicie</li>
@@ -199,6 +212,7 @@
 	<NamerSwamp.rulePack.rulesStrings>
 		<li>standardname(p=0.1)->pantano [narrative_name]</li>
 		<li>standardname(p=0.3)->[narrative_name] [swamp_adjective]</li>
+		
 		<li>swamp_adjective->húmedo</li>
 		<li>swamp_adjective->nebuloso</li>
 		<li>swamp_adjective->asfixiante</li>
@@ -208,6 +222,7 @@
 		<li>swamp_adjective->enredado</li>
 		<li>swamp_adjective->turbio</li>
 		<li>swamp_adjective->espinoso</li>
+		
 		<li>terrain_word(p=6)->pantano</li>
 		<li>terrain_word->cenagal</li>
 		<li>terrain_word->humedal</li>
@@ -219,6 +234,7 @@
 
 	<NamerTropicalRainforest.rulePack.rulesStrings>
 		<li>standardname(p=0.3)->[narrative_name] [rainforest_adjective]</li>
+		
 		<li>rainforest_adjective->húmeda</li>
 		<li>rainforest_adjective->grande</li>
 		<li>rainforest_adjective->virgen</li>
@@ -226,6 +242,7 @@
 		<li>rainforest_adjective->perdida</li>
 		<li>rainforest_adjective->ominosa</li>
 		<li>rainforest_adjective->espinosa</li>
+		
 		<li>terrain_word(p=6)->jungla</li>
 		<li>terrain_word(p=3)->selva</li>
 		<li>terrain_word->selva</li>

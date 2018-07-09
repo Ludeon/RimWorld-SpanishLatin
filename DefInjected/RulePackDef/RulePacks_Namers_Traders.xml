@@ -14,6 +14,7 @@
 		<li>r_name(p=0.2)->[maybe_adjective] [TreeType] [businesstype]</li>
 		<li>r_name(p=0.2)->[maybe_adjective] [Vegetable] [businesstype]</li>
 		<li>r_name(p=0.2)->[Direction] [businesstype]</li>
+		
 		<li>maybe_adjective-></li>
 		<li>maybe_adjective->[Color]</li>
 		<li>maybe_adjective->[AdjectiveFriendly]</li>

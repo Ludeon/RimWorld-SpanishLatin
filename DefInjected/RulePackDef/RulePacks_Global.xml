@@ -6,10 +6,12 @@
 		<li>Trans->para</li>
 		<li>Trans->por</li>
 		<li>Trans->con</li>
+		
 		<li>Character(p=6)->[PersonJob]</li>
 		<li>Character(p=4)->[Animal]</li>
 		<li>Character(p=3)->[Enemy]</li>
 		<li>Character->[Mechanoid]</li>
+		
 		<li>Quantity_adjphrase->dos</li>
 		<li>Quantity_adjphrase->tres</li>
 		<li>Quantity_adjphrase->cuatro</li>
@@ -26,6 +28,7 @@
 		<li>Quantity_adjphrase->cientos de</li>
 		<li>Quantity_adjphrase->mil</li>
 		<li>Quantity_adjphrase->miles de</li>
+		
 		<li>Shape->triángulo</li>
 		<li>Shape->cuadrado</li>
 		<li>Shape->rectángulo</li>
@@ -35,10 +38,12 @@
 		<li>Shape->estrella</li>
 		<li>Shape->círculo</li>
 		<li>Shape->elipse</li>
+		
 		<li>AdjectiveAny->[AdjectiveBadass]</li>
 		<li>AdjectiveAny->[AdjectiveAngsty]</li>
 		<li>AdjectiveAny->[AdjectiveFriendly]</li>
 		<li>AdjectiveAny->[AdjectiveNatural]</li>
+		
 		<li>ConceptAny->[ConceptPositive]</li>
 		<li>ConceptAny->[ConceptBadass]</li>
 		<li>ConceptAny->[ConceptAngsty]</li>
@@ -47,10 +52,12 @@
 	<TalkTopicsUtility.rulePack.rulesStrings>
 		<li>TalkTopicAny->[TalkTopicLight]</li>
 		<li>TalkTopicAny->[TalkTopicHeavy]</li>
+		
 		<li>TalkTopicHeavy->[talktopicheavyfile]</li>
 		<li>TalkTopicHeavy(p=0.08)->el vínculo entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
 		<li>TalkTopicHeavy(p=0.08)->la conexión entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
 		<li>TalkTopicHeavy(p=0.08)->la relación entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
+		
 		<li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
 		<li>TalkTopicLight->[Vegetable]s</li>
 		<li>TalkTopicLight->comer [Vegetable]s</li>
