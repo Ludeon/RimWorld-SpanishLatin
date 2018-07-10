@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Shooting -->
@@ -8,15 +8,15 @@
 
   <MeleeArmorPenetration.label>Penetración de armadura cuerpo a cuerpo</MeleeArmorPenetration.label>
   <MeleeArmorPenetration.description>Penetración media de armadura de todos los ataques en combate cuerpo a cuerpo. Esta estadística incluye el arma usada actualmente.</MeleeArmorPenetration.description>
-  
+
   <MeleeHitChance.label>Posibilidades de golpear cuerpo a cuerpo</MeleeHitChance.label>
   <MeleeHitChance.description>Valor base de las posibilidades de golpear a un objetivo cuerpo a cuerpo.</MeleeHitChance.description>
 
   <MeleeDodgeChance.label>Probabilidad de esquivar el ataque cuerpo a cuerpo</MeleeDodgeChance.label>
   <MeleeDodgeChance.description>Probabilidad de esquivar un ataque cuerpo a cuerpo que de otro modo habría golpeado. Los personajes no esquivarán mientras apunten o disparen un arma a distancia.</MeleeDodgeChance.description>
 
-  <ShootingAccuracy.label>Precisión</ShootingAccuracy.label>
-  <ShootingAccuracy.description>Valor que representa las posibilidades de no fallar por cada celda de distancia de disparo.</ShootingAccuracy.description>
+  <ShootingAccuracyPawn.label>Precisión de disparo</ShootingAccuracyPawn.label>
+  <ShootingAccuracyPawn.description>Probabilidad mínima de no fallar por celda de distancia de disparo. La posibilidad de un golpe también se ve afectada por muchos otros factores. La explicación de la probabilidad de impacto de cualquier disparo se puede ver seleccionando un tirador y pasando el ratón por encima de un objetivo.</ShootingAccuracyPawn.description>
 
   <AimingDelayFactor.label>Tiempo de puntería</AimingDelayFactor.label>
   <AimingDelayFactor.description>Cuanto se tarda en volver a apuntar después de disparar.</AimingDelayFactor.description>

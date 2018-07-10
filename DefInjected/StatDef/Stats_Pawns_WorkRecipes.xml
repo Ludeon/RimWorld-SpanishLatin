@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <!-- Basic recipes - speed not affected by skill because there's no skill involved -->
+
+  <UnskilledLaborSpeed.label>Velocidad de trabajo no especializado</UnskilledLaborSpeed.label>
+  <UnskilledLaborSpeed.description>La velocidad a la cual esta persona realiza trabajo no calificado como hacer bloques de piedra, hacer biocombustible en una refinería o quemar artículos.</UnskilledLaborSpeed.description>
+
 
   <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
 
@@ -15,11 +21,17 @@
 
   <!-- Production recipes - speed affected by skill because there is no output quality -->
 
+  <DrugSynthesisSpeed.label>Velocidad de sintetizado</DrugSynthesisSpeed.label>
+  <DrugSynthesisSpeed.description>La rapidez con la que este personaje sintetiza drogas químicas complejas.</DrugSynthesisSpeed.description>
+
   <CookSpeed.label>Velocidad de cocinado</CookSpeed.label>
   <CookSpeed.description>Velocidad a la que esta persona prepara comidas.</CookSpeed.description>
 
   <FoodPoisonChance.label>Probabilidad de intoxicar comida</FoodPoisonChance.label>
   <FoodPoisonChance.description>Las probabilidades que tiene este personaje de intoxicar la comida involuntariamente mientras cocina.</FoodPoisonChance.description>
+
+  <DrugCookingSpeed.label>Velocidad de preparación de la droga</DrugCookingSpeed.label>
+  <DrugCookingSpeed.description>La velocidad a la que esta persona elabora cerveza y té, o fabrica productos de drogas simples como churros de viejo toby.</DrugCookingSpeed.description>
 
   <ButcheryFleshSpeed.label>Velocidad de despieze</ButcheryFleshSpeed.label>
   <ButcheryFleshSpeed.description>Velocidad a la que esta persona despieza animales.</ButcheryFleshSpeed.description>
@@ -38,5 +50,6 @@
 
   <SmeltingSpeed.label>Velocidad de fundición</SmeltingSpeed.label>
   <SmeltingSpeed.description>Velocidad a la que esta persona funde objetos.</SmeltingSpeed.description>
+
 
 </LanguageData>
