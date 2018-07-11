@@ -118,7 +118,7 @@
   <RansomDemand_Reject>Rechazar</RansomDemand_Reject>
 
   <!-- Journey-related -->
-  <JourneyOffer>¡Una amigable IA de tu pasado llamada Charlon Whitestone te ha enviado un mensaje!\n\Te revela que tiene una nave estelar escondida en este planeta, y te envía las coordenadas.\n\nSi viajas hasta la nave, Charlon te llevará fuera de este mundo fronterizo, a las estrellas.</JourneyOffer>
+  <JourneyOffer>¡Una amigable IA de tu pasado llamada Charlon Whitestone te ha enviado un mensaje!\n\nTe revela que tiene una nave estelar escondida en este planeta, y te envía las coordenadas.\n\nSi viajas hasta la nave, Charlon te llevará fuera de este mundo fronterizo, a las estrellas.</JourneyOffer>
   <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
   <EscapeShipFound>Has alcanzado las coordenadas enviadas por Charlon Whitestone y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\nCharlon Whitestone te advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas esten preparadas primero.</EscapeShipFound>
   <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
@@ -134,8 +134,8 @@
 
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Solicitud de caravana</LetterLabelCaravanRequest>
-  <LetterCaravanRequest>Un asentamiento cercano, {0}, te contacta con una solicitud especial de comercio. En cambio, ofrecen:\n\n{2}\n\nEsta solicitud caduca después de: {3}\n\nSi desea realizar el comercio , envie una caravana con los suministros solicitados. Puede revisar esta oferta seleccionando {0} en el mapa mundial.</LetterCaravanRequest>
-  <CaravanRequestInfo>Solicitando: {0}, Recompensa: {1} ({2} dias restantes)</CaravanRequestInfo>
+  <LetterCaravanRequest>Una colonia cercana, {0}, se pone en contacto con usted con una solicitud comercial. Ellos quieren comprar:\n\n  {1} (valor {2})\n\nA cambio, ofrecen:\n\n  {3} (valor {4})\n\nEsta solicitud expira después de: {5}\n\nSi desea realizar el comercio, envíe una caravana con los suministros solicitados. El tiempo estimado de viaje es de {6}. Puede revisar esta oferta seleccionando {0} en el mapa del planeta.</LetterCaravanRequest>
+  <CaravanRequestInfo>Solicitado: {0}, Recompensa: {1} ({2} dias restantes)</CaravanRequestInfo>
   <NormalQualityOrBetter>Calidad Normal o Mejor</NormalQualityOrBetter>
 
   <!-- Caravan demand -->
@@ -149,5 +149,6 @@
   <LetterLabelSiteNoLongerHostileMulti>Misión ya no disponible</LetterLabelSiteNoLongerHostileMulti>
   <LetterSiteNoLongerHostile>Porque ya no eres hostil con {0}, el {1} ya no está disponible.</LetterSiteNoLongerHostile>
   <LetterSiteNoLongerHostileMulti>Porque ya no eres hostil con {0}, los siguientes sitios ya no están disponibles</LetterSiteNoLongerHostileMulti>
+
 
 </LanguageData>

@@ -94,6 +94,8 @@
   <CaravanTraveling>Viajando.</CaravanTraveling>
   <CaravanPaused>Pausado.</CaravanPaused>
   <CaravanWaiting>Esperando.</CaravanWaiting>
+  <BeingCarriedDueToIllness>Siendo cargado por enfermedad</BeingCarriedDueToIllness>
+  <UsingBedrollsDueToIllness>Usando sacos de dormir debido a una enfermedad</UsingBedrollsDueToIllness>
   <CurrentTileMovementTime>Velocidad actual</CurrentTileMovementTime>
   <Visibility>Visibilidad</Visibility>
   <Temperature>Temperatura</Temperature>
@@ -134,7 +136,6 @@
   <WorldObjectTimeout>Tiempo restante: {0}</WorldObjectTimeout>
   <LongRangeMineralScannerEfficiency>Eficiencia: {0}</LongRangeMineralScannerEfficiency>
   <ItemStashContents>Contenidos: {0}.</ItemStashContents>
-  <SomeItemStashContents>Algunos contenidos: {0}.</SomeItemStashContents>
   <ClickToSortByThisColumn>Clic para ordenar por esta columna.</ClickToSortByThisColumn>
   <WorkPriorityShiftClickTip>Shift + clic: Incrementar la prioridad\nShift + clic derecho: Disminuir la prioridad</WorkPriorityShiftClickTip>
   <WorkPriorityShiftClickEnableDisableTip>Shift + clic: Activar todo\nShift + clic derecho: Desactivar todo</WorkPriorityShiftClickEnableDisableTip>
@@ -152,6 +153,7 @@
   <Impassable>Impasable</Impassable>
   <CaravanMovementSpeedFull>Velocidad de movimiento de la caravana</CaravanMovementSpeedFull>
   <DownedLower>Derribado</DownedLower>
+  <Carried>Cargado</Carried>
   <AverageCaravanMemberMoveSpeed>Velocidad media de movimiento de la persona</AverageCaravanMemberMoveSpeed>
   <MultiplierForCarriedMass>Multiplicador de la masa transportada: {0}</MultiplierForCarriedMass>
   <FinalCaravanPawnsMovementSpeed>Velocidad de los miembros de la caravana</FinalCaravanPawnsMovementSpeed>
@@ -577,5 +579,6 @@
   <!-- Transport pods -->
   <ClickToSeeAvailableOrders_WorldObject>{0}: Ver ordenes disponibles...</ClickToSeeAvailableOrders_WorldObject>
   <ClickToSeeAvailableOrders_Empty>Ver ordenes disponibles...</ClickToSeeAvailableOrders_Empty>
+
 
 </LanguageData>
