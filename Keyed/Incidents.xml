@@ -21,8 +21,8 @@
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>Hemos detectado una cápsula de escape estrellándose en las cercanías\n\nSi alguien ha sobrevivido al impacto estará gravemente herido.</RefugeePodCrash>
   <RefugeePodCrash_NonHostileOrFactionless>Puedes rescatar [PAWN_objective] y enviarlo [PAWN_objective] en [PAWN_possessive] camino. O bien, capturar [PAWN_objective] para fines de reclutamiento o esclavitud.</RefugeePodCrash_NonHostileOrFactionless>
-  <RefugeePodCrash_Hostile>Puede capturarle [PAWN_objective] para fines de reclutamiento o esclavitud. [PAWN_pronoun] es de [PAWN_factionName].</RefugeePodCrash_Hostile>
-  <RefugeePodCrash_NonHostile>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturarlo [PAWN_objective] los enfadará, mientras que rescatar y curar [PAWN_objective] mejorará las relaciones entre las facciones.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_Hostile>Puede capturar [PAWN_objective] for recruitment para fines de reclutamiento o esclavitud. [PAWN_pronoun] es de [PAWN_factionName].</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_NonHostile>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturando [PAWN_objective] los enfadará, mientras que rescatar y curar [PAWN_objective] mejorará las relaciones entre las facciones.</RefugeePodCrash_NonHostile>
 
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
   <CargoPodCrash>Hemos detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nSi cualquier persona ha sobrevivido al impacto, estara gravemente herido.\n\nPodras rescatarlos y enviarles por su camino. Ó capturarlos con fines de reclutamiento o esclavitud.</CargoPodCrash>
@@ -60,6 +60,10 @@
   <LetterShipPartDroveColonistInsane>La nave estrellada ha emitido un pulso psíquico concentrado que ha hecho enloquecer al colono {0}.</LetterShipPartDroveColonistInsane>
   <AwokeDaysAgo>Despertó hace {0} días</AwokeDaysAgo>
   <PsychicDroneLevel>Nivel de zumbido psíquico: {0}</PsychicDroneLevel>
+  <PsychicDroneLevelLow>Bajo</PsychicDroneLevelLow>
+  <PsychicDroneLevelMedium>Medio</PsychicDroneLevelMedium>
+  <PsychicDroneLevelHigh>Alto</PsychicDroneLevelHigh>
+  <PsychicDroneLevelExtreme>Extremo</PsychicDroneLevelExtreme>
   <LetterLabelPsychicDroneLevelIncreased>Zumbido psíquico instensificado</LetterLabelPsychicDroneLevelIncreased>
   <LetterPsychicDroneLevelIncreased>La nave estrellada está emanando un zumbido psíquico más potente. Todo humanoide en el área empieza a sentirse perturbado, aterrorizado y paranoide.</LetterPsychicDroneLevelIncreased>
 
@@ -72,7 +76,7 @@
   <LetterIncidentPsychicDrone>¡Cada colono {0} de este sexo se retuerce de dolor!\n\nAlguna lejana fuente de odio se está activando. Se está proyectando un potente zumbido psíquico en toda esta región, en una frecuencia que sólo parece afectar a {0} de este sexo. Durante unos días, el estado de ánimo de algunas personas será un poco peor.</LetterIncidentPsychicDrone>
 
   <LetterLabelPsychicSoothe>Calma psíquica</LetterLabelPsychicSoothe>
-  <LetterIncidentPsychicSoothe>¡Cada colono {0} sonríe con satisfacción!\n\nAlguna lejana fuente de felicidad se está despertando. Se está proyectando un potente zumbido psíquica en toda esta región, en una frecuencia que sólo parece afectar a {0} de este sexo. Durante unos días, el estado de ánimo de algunas personas va a ser un poco mejor.</LetterIncidentPsychicSoothe>
+  <LetterIncidentPsychicSoothe>¡Cada colono {0} de este sexo sonríe con satisfacción!\n\nAlguna lejana fuente de felicidad se está despertando. Se está proyectando un potente zumbido psíquica en toda esta región, en una frecuencia que sólo parece afectar a {0} de este sexo. Durante unos días, el estado de ánimo de algunas personas va a ser un poco mejor.</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
   <LetterLabelBeaversArrived>¡Castores!</LetterLabelBeaversArrived>
@@ -114,7 +118,7 @@
   <RansomDemand_Reject>Rechazar</RansomDemand_Reject>
 
   <!-- Journey-related -->
-  <JourneyOffer>¡Una amigable IA de tu pasado llamada Charlon Whitestone te ha enviado un mensaje!\n\nTe revela que tiene una nave estelar escondida en este planeta, y te envía las coordenadas.\n\nSi viajas hasta la nave, Charlon te llevará fuera de este mundo fronterizo, a las estrellas.</JourneyOffer>
+  <JourneyOffer>¡Una amigable IA de tu pasado llamada Charlon Whitestone te ha enviado un mensaje!\n\Te revela que tiene una nave estelar escondida en este planeta, y te envía las coordenadas.\n\nSi viajas hasta la nave, Charlon te llevará fuera de este mundo fronterizo, a las estrellas.</JourneyOffer>
   <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
   <EscapeShipFound>Has alcanzado las coordenadas enviadas por Charlon Whitestone y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\nCharlon Whitestone te advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas esten preparadas primero.</EscapeShipFound>
   <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
@@ -130,13 +134,13 @@
 
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Solicitud de caravana</LetterLabelCaravanRequest>
-  <LetterCaravanRequest>Una colonia cercana, {0}, se pone en contacto con usted con una solicitud comercial. Ellos quieren comprar:\n\n  {1} (valor {2})\n\nA cambio, ofrecen:\n\n  {3} (valor {4})\n\nEsta solicitud expira después de: {5}\n\nSi desea realizar el comercio, envíe una caravana con los suministros solicitados. El tiempo estimado de viaje es de {6}. Puede revisar esta oferta seleccionando {0} en el mapa del planeta.</LetterCaravanRequest>
-  <CaravanRequestInfo>Solicitado: {0}, Recompensa: {1} ({2} dias restantes)</CaravanRequestInfo>
+  <LetterCaravanRequest>Un asentamiento cercano, {0}, te contacta con una solicitud especial de comercio. A cambio, ofrecen:\n\n{2}\n\nEsta solicitud caduca después de: {3} días.\n\nSi deseas comerciar , envía una caravana con los suministros solicitados. Puede revisar la oferta seleccionando {0} en el mapa mundial.</LetterCaravanRequest>
+  <CaravanRequestInfo>Solicitando: {0}, Recompensa: {1} ({2} dias restantes)</CaravanRequestInfo>
   <NormalQualityOrBetter>Calidad Normal o Mejor</NormalQualityOrBetter>
 
   <!-- Caravan demand -->
   <CaravanDemandTitle>Demanda de caravanas de {0}</CaravanDemandTitle>
-  <CaravanDemand>Tu caravana ha sido emboscada por un grupo de {1}. Ellos atacarán a menos que les des:\n\n{3}</CaravanDemand>
+  <CaravanDemand>Su caravana ha sido emboscada por un grupo de {1} {3} de {0}. Ellos atacarán a menos que les des:\n\n{2}</CaravanDemand>
   <CaravanDemand_Give>Dar y pasar</CaravanDemand_Give>
   <CaravanDemand_Fight>Rechazar y luchar</CaravanDemand_Fight>
 
@@ -145,6 +149,5 @@
   <LetterLabelSiteNoLongerHostileMulti>Misión ya no disponible</LetterLabelSiteNoLongerHostileMulti>
   <LetterSiteNoLongerHostile>Porque ya no eres hostil con {0}, el {1} ya no está disponible.</LetterSiteNoLongerHostile>
   <LetterSiteNoLongerHostileMulti>Porque ya no eres hostil con {0}, los siguientes sitios ya no están disponibles</LetterSiteNoLongerHostileMulti>
-
 
 </LanguageData>
