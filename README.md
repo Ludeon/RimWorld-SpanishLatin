@@ -14,6 +14,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 - - -
 
 Grupo Discord de traduccion: https://discord.gg/PdwjvDA
+- - -
 
 Current translation and adaptation by:
 * __Etaglibash__
