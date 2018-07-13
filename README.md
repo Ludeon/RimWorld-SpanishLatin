@@ -5,13 +5,15 @@
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 0.18.1712 (Development Build)
+This is the Latin American Spanish translation of Rimworld 1.0.1956 (Development Build)
 
 See this page for license info:
 
 http://ludeon.com/forums/index.php?topic=2933.0
 
 - - -
+
+Grupo Discord de traduccion: https://discord.gg/PdwjvDA
 
 Current translation and adaptation by:
 * __Etaglibash__
