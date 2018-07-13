@@ -16,7 +16,10 @@
   <Turret_MiniTurret_Blueprint_Install.label>Torreta (anteproyecto)</Turret_MiniTurret_Blueprint_Install.label>
   <Turret_MiniTurret_Frame.label>Torreta (a medias)</Turret_MiniTurret_Frame.label>
   <Turret_MiniTurret_Frame.description>Una pequeña torreta automática de corto alcance. Requiere que el barril de acero sea reemplazado después de un uso intenso. Puede explotar si está dañado. Su estúpido cerebro de IA no puede ser controlado directamente, así que ten cuidado con el fuego amigo.</Turret_MiniTurret_Frame.description>
-
+  <Turret_MiniTurret.comps.5.fuelGizmoLabel>Durabilidad del Cañón</Turret_MiniTurret.comps.5.fuelGizmoLabel>
+  <Turret_MiniTurret.comps.5.fuelLabel>Disparos hasta el cambio de cañón</Turret_MiniTurret.comps.5.fuelLabel>
+  <Turret_MiniTurret.comps.5.outOfFuelMessage>No puede disparar: Necesita un cañón nuevo</Turret_MiniTurret.comps.5.outOfFuelMessage>
+  
   <Bullet_MiniTurret.label>bala de torreta</Bullet_MiniTurret.label>
 
   <Gun_MiniTurret.label>cañon de torreta</Gun_MiniTurret.label>
@@ -30,7 +33,10 @@
   <Turret_Autocannon_Blueprint.label>Cañón (anteproyecto)</Turret_Autocannon_Blueprint.label>
   <Turret_Autocannon_Frame.label>Cañón (a medias)</Turret_Autocannon_Frame.label>
   <Turret_Autocannon_Frame.description>Un cañon automático de largo alcance. Sus carcasas de gran calibre causan grandes daños a grandes distancias, pero requiere cambios de cañón frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado.</Turret_Autocannon_Frame.description>
-
+  <Turret_Autocannon.comps.5.fuelGizmoLabel>Durabilidad del Cañón</Turret_Autocannon.comps.5.fuelGizmoLabel>
+  <Turret_Autocannon.comps.5.fuelLabel>Disparos hasta el cambio de cañón</Turret_Autocannon.comps.5.fuelLabel>
+  <Turret_Autocannon.comps.5.outOfFuelMessage>No puede disparar: Necesita un cañón nuevo</Turret_Autocannon.comps.5.outOfFuelMessage>
+  
   <Bullet_AutocannonTurret.label>obus de cañon</Bullet_AutocannonTurret.label>
 
   <Gun_AutocannonTurret.label>cañon</Gun_AutocannonTurret.label>
@@ -44,7 +50,10 @@
   <Turret_Sniper_Blueprint.label>Torreta de Francotirador (anteproyecto)</Turret_Sniper_Blueprint.label>
   <Turret_Sniper_Frame.label>Torreta de Francotirador (a medias)</Turret_Sniper_Frame.label>
   <Turret_Sniper_Frame.description>Una torreta de francotirador automática de muy largo alcance. Sus proyectiles de alta velocidad causan grandes daños en distancias muy largas, pero requiere cambios de barril frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado.</Turret_Sniper_Frame.description>
-
+  <Turret_Sniper.comps.5.fuelGizmoLabel>Durabilidad del Cañón</Turret_Sniper.comps.5.fuelGizmoLabel>
+  <Turret_Sniper.comps.5.fuelLabel>Disparos hasta el cambio de cañón</Turret_Sniper.comps.5.fuelLabel>
+  <Turret_Sniper.comps.5.outOfFuelMessage>No puede disparar: Necesita un cañón nuevo</Turret_Sniper.comps.5.outOfFuelMessage>
+  
   <Bullet_TurretSniper.label>bala de francotirador</Bullet_TurretSniper.label>
 
   <Gun_TurretSniper.label>cañon de francotirador</Gun_TurretSniper.label>

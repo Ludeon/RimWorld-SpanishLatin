@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <Outpost.label>Puesto de avanzada</Outpost.label>
-    <Outpost.description>Un pequeño puesto de avanzada.</Outpost.description>
-    <Outpost.descriptionDialogue>Hay un puesto de avanzada enemigo en el sitio</Outpost.descriptionDialogue>
-
+  <Outpost.label>Puesto de avanzada</Outpost.label>
+  <Outpost.description>Un pequeño puesto de avanzada.</Outpost.description>
+  <Outpost.approachingReportString>Atacando {0}</Outpost.approachingReportString>
+  <Outpost.approachOrderString>Atacar {0}</Outpost.approachOrderString>
+  <Outpost.arrivedLetter>Hay un puesto de avanzada enemigo en esta zona.</Outpost.arrivedLetter>
+  <Outpost.arrivedLetterLabel>Puesto de avanzada</Outpost.arrivedLetterLabel>
+  <Outpost.descriptionDialogue>Hay un puesto de avanzada enemigo en el sitio custodiado por {0} enemigos</Outpost.descriptionDialogue>
 
 </LanguageData>
