@@ -14,7 +14,12 @@
 		<li>talkedabout->cuchichearon sobre</li>
 		<li>talkedabout->hablaron sobre</li>
 		<li>talkedabout->bromearon sobre</li>
-		<li>talkedabout->charlaron sobre</li>
+		<li>talkedabout->burlaron sobre</li>
+		<li>commentedabout->dijo algo sobre</li>
+		<li>commentedabout->dijo una palabra sobre</li>
+		<li>commentedabout->hizo un comentario sobre</li>
+		<li>commentedabout->comentó sobre</li>
+		<li>commentedabout->contó un chiste sobre</li>
 	</Chitchat.logRulesInitiator.rulesStrings>
 
 
@@ -35,8 +40,8 @@
 		<li>talkedabout->compartieron sus ideas sobre</li>
 		<li>talkedabout->hablaron acerca de</li>
 
-		<li>subject(p=2)->[TalkTopicHeavy]</li>
-		<li>subject->[TalkTopicLight]</li>
+		<li>subject->[TalkTopicHeavy]</li>
+
 	</DeepTalk.logRulesInitiator.rulesStrings>
 
 
@@ -47,10 +52,11 @@
 
 		<li>target(p=4)->[RECIPIENT_nameDef]</li>
 		<li>target->la [Family] de [RECIPIENT_nameDef]</li>
-
+		<li>madefunof->se burló</li>
 		<li>madefunof->se burló</li>
 		<li>madefunof->hizo un chiste</li>
 		<li>madefunof->se burló</li>
+		<li>madefunof->habló mal</li>
 		<li>madefunof->habló negativamente</li>
 		<li>madefunof->se rió</li>
 		<li>madefunof->carcajeó</li>
@@ -58,8 +64,7 @@
 		<li>madefunof->habló burlonamente</li>
 		<li>madefunof->hizo un comentario burlón</li>
 		<li>madefunof->habló negativamente</li>
-		<li>madefunof->se burló</li>
-		<li>madefunof->se rió</li>
+
 	</Slight.logRulesInitiator.rulesStrings>
 
 
@@ -93,8 +98,8 @@
 	<KindWords.label>Amabilidad</KindWords.label>
 	<KindWords.logRulesInitiator.rulesStrings>
 		<li>r_logentry->[INITIATOR_nameDef] [complimented] el/la [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
-
 		<li>complimented(p=3)->alabó</li>
+		<li>complimented->alabó</li>
 		<li>complimented->elogió</li>
 		<li>complimented->exaltó</li>
 		<li>complimented->aplaudió</li>
