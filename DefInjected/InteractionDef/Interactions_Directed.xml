@@ -4,13 +4,13 @@
 <BuildRapport.label>charla amistosa</BuildRapport.label>
 
 	<BuildRapport.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] [toldastoryabout] sobre [subject] a [RECIPIENT_nameIndef].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] habló a [RECIPIENT_nameIndef] sobre [subject].</li>
-		<li>_logentry->[INITIATOR_nameIndef] preguntó a [RECIPIENT_nameIndef] sobre [subject].</li>
-		<li>_logentry->[INITIATOR_nameIndef] alentó a [RECIPIENT_nameIndef] a [talkabout] sobre [subject].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] permitió a [RECIPIENT_nameIndef] [talkabout] sobre [subject].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] expresó interés en el/la [PersonalCharacteristic] de [RECIPIENT_nameIndef].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] ha preguntado a [RECIPIENT_nameIndef] sobre su [PersonalCharacteristic].</li>
+		<li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] sobre [subject] a [RECIPIENT_nameDef].</li>
+		<li>r_logentry->[INITIATOR_nameDef] habló a [RECIPIENT_nameDef] sobre [subject].</li>
+		<li>_logentry->[INITIATOR_nameDef] preguntó a [RECIPIENT_nameDef] sobre [subject].</li>
+		<li>_logentry->[INITIATOR_nameDef] alentó a [RECIPIENT_nameDef] a [talkabout] sobre [subject].</li>
+		<li>r_logentry->[INITIATOR_nameDef] permitió a [RECIPIENT_nameDef] [talkabout] sobre [subject].</li>
+		<li>r_logentry->[INITIATOR_nameDef] expresó interés en el/la [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
+		<li>r_logentry->[INITIATOR_nameDef] ha preguntado a [RECIPIENT_nameDef] sobre su [PersonalCharacteristic].</li>
 
 		<li>toldastoryabout(p=2)->contó una historia</li>
 		<li>toldastoryabout->contó una historia graciosa</li>
@@ -45,8 +45,8 @@
 <RecruitAttempt.label>intento de reclutamiento</RecruitAttempt.label>
 
 	<RecruitAttempt.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] ha pedido a [RECIPIENT_nameIndef] unirse a la comunidad.</li>
-		<li>r_logentry->[INITIATOR_nameIndef] prometió [goodthing] a [RECIPIENT_nameIndef], y le ha pedido unirse a la comunidad.</li>
+		<li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] unirse a la comunidad.</li>
+		<li>r_logentry->[INITIATOR_nameDef] prometió [goodthing] a [RECIPIENT_nameDef], y le ha pedido unirse a la comunidad.</li>
 
 		<li>goodthing(p=15)->[ConceptPositive]</li>
 		<li>goodthing->comida limpia y fresca</li>
@@ -55,10 +55,10 @@
 <SparkJailbreak.label>fuga de prisioneros</SparkJailbreak.label>
 
 	<SparkJailbreak.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] habló sobre la alegría de la [freedom], y ofreció un medio para escapar.</li>
-		<li>r_logentry->[INITIATOR_nameIndef] habló sobre la belleza del [TerrainFeature] y la libertad.</li>
-		<li>r_logentry->[INITIATOR_nameIndef] demostró una forma de escape a [RECIPIENT_nameIndef], y prometió [freedom].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] convenció a [RECIPIENT_nameIndef] de que la seguridad es pobre y ha alentado una fuga.</li>
+		<li>r_logentry->[INITIATOR_nameDef] habló sobre la alegría de la [freedom], y ofreció un medio para escapar.</li>
+		<li>r_logentry->[INITIATOR_nameDef] habló sobre la belleza del [TerrainFeature] y la libertad.</li>
+		<li>r_logentry->[INITIATOR_nameDef] demostró una forma de escape a [RECIPIENT_nameDef], y prometió [freedom].</li>
+		<li>r_logentry->[INITIATOR_nameDef] convenció a [RECIPIENT_nameDef] de que la seguridad es pobre y ha alentado una fuga.</li>
 
 		<li>freedom->libertad</li>
 		<li>freedom->auto-determinación</li>

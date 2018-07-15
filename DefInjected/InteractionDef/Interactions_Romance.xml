@@ -3,7 +3,7 @@
 
 	<RomanceAttempt.label>Coquetear</RomanceAttempt.label>
 	<RomanceAttempt.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] [wooed] [OTHER_nameIndef] al [wootactic].</li>
+		<li>r_logentry->[INITIATOR_nameDef] [wooed] [OTHER_nameDef] al [wootactic].</li>
 
 		<li>wooed->intentó coquetear con</li>
 		<li>wooed->coqueteó con</li>
@@ -97,17 +97,17 @@
 
 	<MarriageProposal.label>Propuesta de Matrimonio</MarriageProposal.label>
 	<MarriageProposal.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] propuso matrimionio a [OTHER_nameIndef].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] propuso un compromiso de por vida a [OTHER_nameIndef].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] a declarado que quiere pasar el resto de su vida con [OTHER_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameDef] propuso matrimionio a [OTHER_nameDef].</li>
+		<li>r_logentry->[INITIATOR_nameDef] propuso un compromiso de por vida a [OTHER_nameDef].</li>
+		<li>r_logentry->[INITIATOR_nameDef] a declarado que quiere pasar el resto de su vida con [OTHER_nameDef].</li>
 	</MarriageProposal.logRulesInitiator.rulesStrings>
 
 	<Breakup.label>Ruptura</Breakup.label>
 	<Breakup.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] ha roto su relación con [OTHER_nameIndef].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] ha pedido a [OTHER_nameIndef] un tiempo a solas.</li>
-		<li>r_logentry->[INITIATOR_nameIndef] ha pedido a [OTHER_nameIndef] que lo mejor sería volver a ser amigos.</li>
-		<li>r_logentry->[INITIATOR_nameIndef] ha terminado su relación romántica con [OTHER_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameDef] ha roto su relación con [OTHER_nameDef].</li>
+		<li>r_logentry->[INITIATOR_nameDef] ha pedido a [OTHER_nameDef] un tiempo a solas.</li>
+		<li>r_logentry->[INITIATOR_nameDef] ha pedido a [OTHER_nameDef] que lo mejor sería volver a ser amigos.</li>
+		<li>r_logentry->[INITIATOR_nameDef] ha terminado su relación romántica con [OTHER_nameDef].</li>
 	</Breakup.logRulesInitiator.rulesStrings>
 
 </LanguageData>

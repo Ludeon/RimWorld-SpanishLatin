@@ -4,10 +4,10 @@
   <!-- RulePacks included in various places but which are not global -->
 
 	<TribalWordUtility.rulePack.rulesStrings>
-		<li>WordTribal->[tribal_word_file]</li>
-		<li>WordTribal->[SylG][SylG]</li>
-		<li>WordTribal->[SylG]-[SylG][SylG]</li>
-		<li>WordTribal->[SylG][SylG][SylG]</li>
+		<li>WordTribal(p=3)->[tribal_word_file]</li>
+		<li>WordTribal(p=3)->[SylG][SylG]</li>
+		<li>WordTribal(p=2)->[SylG][SylG][SylG]</li>
+		<li>WordTribal->[SylG][SylG][SylG][SylG]</li>
 	</TribalWordUtility.rulePack.rulesStrings>
 
 	<OutlanderPlaceNameUtility.rulePack.rulesStrings>
@@ -15,8 +15,8 @@
 		<li>PlaceOutlander->[SylE][place_end]</li>
 		<li>PlaceOutlander->[SylE][place_end]</li>
 		<li>PlaceOutlander->[SylE][SylE][place_end]</li>
-		<li>PlaceOutlander->[SylE][SylE]</li>
-		<li>PlaceOutlander->[SylE][SylE][SylE]</li>
+		<li>PlaceOutlander->[SylE][SylE][place_end]</li>
+		<li>PlaceOutlander->[SylE][SylE][SylE][place_end]</li>
 	</OutlanderPlaceNameUtility.rulePack.rulesStrings>
 
 

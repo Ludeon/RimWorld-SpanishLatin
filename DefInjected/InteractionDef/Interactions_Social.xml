@@ -5,8 +5,8 @@
 
 	<Chitchat.label>Charla</Chitchat.label>
 	<Chitchat.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [TalkTopicLight].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [TalkTopicLight].</li>
+		<li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+		<li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
 
 		<li>talkedabout(p=4)->hablaron sobre</li>
 		<li>talkedabout->platicaron sobre</li>
@@ -21,8 +21,8 @@
 
 	<DeepTalk.label>Charla profunda</DeepTalk.label>
 	<DeepTalk.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [subject].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [subject].</li>
+		<li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+		<li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [subject].</li>
 
 		<li>talkedabout->compartieron ideas sobre</li>
 		<li>talkedabout->intercambiaron opiniones sobre</li>
@@ -43,10 +43,10 @@
 
 	<Slight.label>Ofensa</Slight.label>
 	<Slight.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] [madefunof] del [PersonalCharacteristic] de [target].</li>
+		<li>r_logentry->[INITIATOR_nameDef] [madefunof] del [PersonalCharacteristic] de [target].</li>
 
-		<li>target(p=4)->[RECIPIENT_nameIndef]</li>
-		<li>target->la [Family] de [RECIPIENT_nameIndef]</li>
+		<li>target(p=4)->[RECIPIENT_nameDef]</li>
+		<li>target->la [Family] de [RECIPIENT_nameDef]</li>
 
 		<li>madefunof->se burló</li>
 		<li>madefunof->hizo un chiste</li>
@@ -66,12 +66,12 @@
 
 	<Insult.label>Insulto</Insult.label>
 	<Insult.logRulesInitiator.rulesStrings>
-		<li>r_logentry(p=3)->[INITIATOR_nameIndef] [insulted] el/la [PersonalCharacteristic] de [target].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] comparó a [target] con un(a) [insultcomparison].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] llamó a [target] un(a) [insultcomparison].</li>
+		<li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] el/la [PersonalCharacteristic] de [target].</li>
+		<li>r_logentry->[INITIATOR_nameDef] comparó a [target] con un(a) [insultcomparison].</li>
+		<li>r_logentry->[INITIATOR_nameDef] llamó a [target] un(a) [insultcomparison].</li>
 
-		<li>target(p=4)->[RECIPIENT_nameIndef]</li>
-		<li>target->la [Family] de [RECIPIENT_nameIndef]</li>
+		<li>target(p=4)->[RECIPIENT_nameDef]</li>
+		<li>target->la [Family] de [RECIPIENT_nameDef]</li>
 
 		<li>insulted(p=3)->insultó</li>
 		<li>insulted->insultó abiertamente</li>
@@ -92,7 +92,7 @@
 	
 	<KindWords.label>Amabilidad</KindWords.label>
 	<KindWords.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] [complimented] el/la [PersonalCharacteristic] de [RECIPIENT_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameDef] [complimented] el/la [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
 
 		<li>complimented(p=3)->alabó</li>
 		<li>complimented->elogió</li>
