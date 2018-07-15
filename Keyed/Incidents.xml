@@ -2,7 +2,7 @@
 <LanguageData>
 
   <LetterLabelAnimalInsanitySingle>Animal loco</LetterLabelAnimalInsanitySingle>
-  <AnimalInsanitySingle>Un {0} ha enloquecido. Atacará a todo lo que vea.</AnimalInsanitySingle>
+  <AnimalInsanitySingle>Un {0} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
   <LetterLabelAnimalInsanityMultiple>¡Animales locos!</LetterLabelAnimalInsanityMultiple>
   <AnimalInsanityMultiple>Algún tipo de onda psíquica ha barrido la zona. Tus colonos están bien, pero...\n\nParece que muchos de los {0}s en el área se han vuelto locos.</AnimalInsanityMultiple>
 
@@ -20,14 +20,14 @@
 
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>Hemos detectado una cápsula de escape estrellándose en las cercanías\n\nSi alguien ha sobrevivido al impacto estará gravemente herido.</RefugeePodCrash>
-  <RefugeePodCrash_NonHostileOrFactionless>Puedes rescatar [PAWN_objective] y enviarlo [PAWN_objective] en [PAWN_possessive] camino. O bien, capturar [PAWN_objective] para fines de reclutamiento o esclavitud.</RefugeePodCrash_NonHostileOrFactionless>
-  <RefugeePodCrash_Hostile>Puede capturarle [PAWN_objective] para fines de reclutamiento o esclavitud. [PAWN_pronoun] es de [PAWN_factionName].</RefugeePodCrash_Hostile>
-  <RefugeePodCrash_NonHostile>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturarlo [PAWN_objective] los enfadará, mientras que si lo rescatas y curas [PAWN_objective] mejorará las relaciones entre las facciones.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostileOrFactionless>Puedes rescatar a [PAWN_objective] y enviarlo [PAWN_objective] en [PAWN_possessive] camino. O bien, capturar a [PAWN_objective] para fines de reclutamiento o esclavitud.</RefugeePodCrash_NonHostileOrFactionless>
+  <RefugeePodCrash_Hostile>Puedes capturar a [PAWN_objective] para fines de reclutamiento o esclavitud. [PAWN_pronoun] es de [PAWN_factionName].</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_NonHostile>Nota: [PAWN_nameDef] es de [PAWN_factionName]. Capturar a [PAWN_objective] los enfadará, mientras que si rescatas y curas a [PAWN_objective] mejorará las relaciones entre las facciones.</RefugeePodCrash_NonHostile>
 
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
   <CargoPodCrash>Hemos detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nSi cualquier persona ha sobrevivido al impacto, estara gravemente herido.\n\nPodras rescatarlos y enviarles por su camino. Ó capturarlos con fines de reclutamiento o esclavitud.</CargoPodCrash>
 
-  <AnElectricalConduit>Un circuito eléctrico</AnElectricalConduit>
+  <AnElectricalConduit>Un cortocircuito eléctrico</AnElectricalConduit>
   <ShortCircuit>Un fallo en {0} ha causado un cortocircuito.</ShortCircuit>
   <ShortCircuitStartedFire>Una falla en {0} ha causado un cortocircuito y ha iniciado un incendio.</ShortCircuitStartedFire>
   <ShortCircuitDischargedEnergy>Un total de {0} Wd de energía en las baterías conectadas a la red eléctrica han sido descargadas debido a una explosión.</ShortCircuitDischargedEnergy>
@@ -52,7 +52,7 @@
   <LetterLabelWandererJoin>Nomada se une</LetterLabelWandererJoin>
   <WandererJoin>Un {0} llamado [PAWN_nameDef] acaba de llegar y ha decidido unirse a la colonia. [PAWN_pronoun] es un {1}.</WandererJoin>
 
-  <LetterLabelManhunterPackArrived>Manada de animales caza hombres</LetterLabelManhunterPackArrived>
+  <LetterLabelManhunterPackArrived>Manada de animales caza humanos</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>Una manada de {0}, caza humanos, ha entrado en el área. Ellos recorrerán la región, en busca de carne humanoide\n\nEllos no pueden pasar las puertas, por lo que si te quedas detrás de las paredes deberas estar a salvo. No van a atacar a las torretas inactivas, por lo que pasarán de tus torretas desconectadas, si es que deseas salvarlas.\n\nVan a dejar la zona en pocos días.</ManhunterPackArrived>
 
   <!-- Crashed ship part-->
@@ -80,7 +80,7 @@
 
   <!-- Refugee chased -->
   <RefugeeChasedTitle>Refugiado perseguido por {0}</RefugeeChasedTitle>
-  <RefugeeChasedInitial>Un {1} llamado {0} te ha llamado desde las cercanías. [PAWN_pronoun] está siendo perseguido por {2} de {3}!\n\n[PAWN_pronoun] solicita seguridad y ofrece unirse a nuestra colonia. Biologicamente EL tiene {4} de edad.\n\nTen cuidado - si le aceptas, tendrás que luchar contra {2} que LE va pisando los talones.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Un {1} llamado {0} te ha contactado desde las cercanías. [PAWN_pronoun] está siendo perseguido por {2} de {3}!\n\n[PAWN_pronoun] solicita seguridad y ofrece unirse a nuestra colonia. Biologicamente tiene {4} de edad.\n\nTen cuidado - si le aceptas, tendrás que luchar contra {2} que len van pisando los talones.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Oferta de salvamento</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignorar el mensaje</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>Antes de cortar la transmisión, oyes gritos de pánico de {0} a través del pequeño altavoz.</RefugeeChasedRejected>
@@ -93,7 +93,7 @@
 
   <!-- Farm animals wander in -->
   <LetterLabelFarmAnimalsWanderIn>{0} se ha unido</LetterLabelFarmAnimalsWanderIn>
-  <LetterFarmAnimalsWanderIn>Un grupo de {0}, abandonados o perdidos, se extraviaron en la zona.\n\nEllos parecen acostumbrados al contacto humano y se están uniendo a la colonia.</LetterFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>Un grupo de {0}s abandonados o perdidos, se extraviaron en la zona.\n\nEllos parecen acostumbrados al contacto humano y se están uniendo a la colonia.</LetterFarmAnimalsWanderIn>
 
   <!-- Thrumbo passes -->
   <LetterLabelThrumboPasses>Thrumbos raros</LetterLabelThrumboPasses>

@@ -27,8 +27,8 @@
   <ErrorWhileLoadingMap>Un error ha ocurrido mientras se cargaba el mapa. Revisa el registro para más información.</ErrorWhileLoadingMap>
 
   <!-- Unloaded mod with an assembly -->
-  <ModsChanged>La lista de mods ha cambiado. El juego ahora se reiniciará automáticamente.</ModsChanged>
-  <FailedToRestart>Algo salió mal al reiniciar el juego. El juego no puede descargar completamente el código modificado de las modificaciones desactivadas, por lo que el código de las modificaciones desactivadas aún puede estar activo.\n\nSe recomienda que salgas y reinicies el juego ahora para cargar todas las modificaciones limpiamente.</FailedToRestart>
+  <ModsChanged>La lista de mods ha cambiado. Ahora el juego se reiniciará automáticamente.</ModsChanged>
+  <FailedToRestart>Algo salió mal al reiniciar el juego. El juego no puede descargar completamente el código modificado de los mods desactivados, por lo que el código de los mods desactivados aún puede estar activo.\n\nSe recomienda que salgas y reinicies el juego ahora para cargar todos los mods limpiamente.</FailedToRestart>
   <Restarting>Reiniciando</Restarting>
 
   <!-- Missing Steam -->
@@ -88,7 +88,7 @@
 
   <!-- Pawn naming -->
   <PawnGainsName>El nuevo apodo de este colono es {0}.</PawnGainsName>
-  <AnimalGainsName>El nombre del animal es ahora {0}.</AnimalGainsName>
+  <AnimalGainsName>El nombre del animal ahora es {0}.</AnimalGainsName>
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Versión incorrecta</VersionMismatch>
@@ -257,7 +257,7 @@
   <ColonyHasNoMore>Agotado.</ColonyHasNoMore>
   <TraderWillNotTrade>El comerciante no desea comerciar con este objeto.</TraderWillNotTrade>
   <Negotiator>Negociador</Negotiator>
-  <NegotiatorTalkingImpaired>{0}, tu negociador, no puede hablar bien debido a un problema de salud.\n\nEsto afectará los negativamente los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>{0}, tu negociador no puede hablar bien debido a un problema de salud.\n\nEsto afectará los negativamente los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
   <NegotiatorHearingImpaired>Tu negociador {0} no puede escuchar correctamente debido a su mala salud.</NegotiatorHearingImpaired>
   <NegotiatorCapacityImpaired>Esto afectará los precios del comercio.\n\nConsidere usar un negociador más saludable.</NegotiatorCapacityImpaired>
   <ConfirmTraderShortFunds>El comerciante no tiene suficiente plata para completar esta transacción. ¿Aún asi deseas continuar?</ConfirmTraderShortFunds>
@@ -286,7 +286,7 @@
   <ItemsTab>Equipo</ItemsTab>
   <CaravanMustHaveAtLeastOneColonist>Debes asignar al menos un colono consciente.</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>No se pudo encontrar ninguna dirección de salida válida.</CaravanCouldNotFindExitSpot>
-  <CaravanCouldNotFindPackingSpot>No he podido encontrar ningún punto de embalaje válido. Asegúrese de que la ubicación de salida elegida ({0}) es accesible.</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindPackingSpot>La caravana no pudo encontrar el lugar donde empacar. Asegúrese de que la ubicación de salida elegida ({0}) es accesible.</CaravanCouldNotFindPackingSpot>
   <CaravanCouldNotFindReachableExitSpot>Peligro: algunos de los colonos asignados son incapaces de llegar al lugar de salida.</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>Ninguno de los colonos asignados puede llegar hasta {0}.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Ninguno de los colonos asignados puede llegar hasta el/la {0}.</CaravanItemIsUnreachableSingle>
