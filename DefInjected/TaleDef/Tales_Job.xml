@@ -136,8 +136,8 @@
 
   <VisitedGrave.label>tumba visitada</VisitedGrave.label>
 	<VisitedGrave.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] visitando la tumba de [CORPSE_nameDef]</li>
-		<li>tale_noun->[PAWN_nameDef] visitando a [CORPSE_nameDef] en su tumba</li>
+		<li>tale_noun->[PAWN_nameDef] visitó la tumba de [CORPSE_nameDef]</li>
+		<li>tale_noun->[PAWN_nameDef] visitó a [CORPSE_nameDef] en su tumba</li>
 		<li>image->[PAWN_nameFull] de pie junto a la tumba de [CORPSE_nameFull] [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] sentándose junto a la tumba de [CORPSE_nameFull] [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] recargándose en la tumba de [CORPSE_nameFull] [circumstance_group]</li>
@@ -185,8 +185,8 @@
 
   <BuriedCorpse.label>cuerpo enterrado</BuriedCorpse.label>
 	<BuriedCorpse.rulePack.rulesStrings>
-		<li>tale_noun->[DIGGER_nameDef] enterrando a [CORPSE_nameDef]</li>
-		<li>tale_noun->[DIGGER_nameDef] sepultando a [CORPSE_nameDef]</li>
+		<li>tale_noun->[DIGGER_nameDef] enterró a [CORPSE_nameDef]</li>
+		<li>tale_noun->[DIGGER_nameDef] sepultó a [CORPSE_nameDef]</li>
 		<li>image->[DIGGER_nameFull] de pie junto a la tumba de [CORPSE_nameFull] [circumstance_group]</li>
 		<li>image->[DIGGER_nameFull] sentpandose junto a la tumba de [CORPSE_nameFull] [circumstance_group]</li>
 		<li>image->[DIGGER_nameFull] recargándose en la tumba de [CORPSE_nameFull] [circumstance_group]</li>
@@ -314,7 +314,7 @@
 		<li>tale_noun->[HUMAN_nameDef] añadió otro animal a su creciente [Animalgroup]</li>
 		<li>tale_noun->[HUMAN_nameDef] sumó otro animal a su creciente [Animalgroup]</li>
 		<li>tale_noun->[HUMAN_nameDef] incorporó otro animal a su creciente [Animalgroup]</li>
-		<li>tale_noun->[HUMAN_nameDef] seguido por sus [Animalgroup]s</li>
+		<li>tale_noun->[HUMAN_nameDef] domesticó otro animal</li>
 		<li>tale_noun->[HUMAN_nameDef] domesticó a [ANIMAL_nameDef]</li>
 		<li>image->[TAMER_nameFull] domesticando a [ANIMAL_nameFull] [circumstance_group]</li>
 		<li>image->[TAMER_nameFull] ofreciendo una golosina a [ANIMAL_nameFull] [circumstance_group]</li>
