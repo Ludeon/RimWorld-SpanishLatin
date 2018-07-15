@@ -5,7 +5,7 @@
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 1.0.1956 (Development Build)
+This is the Latin American Spanish translation of Rimworld 1.0.1962 (Development Build)
 
 See this page for license info:
 
