@@ -3,8 +3,8 @@
 
   <LandedInPod.label>Aterrizaje en cápsula</LandedInPod.label>
 	<LandedInPod.rulePack.rulesStrings>
-		<li>tale_noun->el aterrizaje de [PAWN_nameDef] en una cápsula de descenso</li>
-		<li>image->[PAWN_nameFull] aterrizando en una cápsula de aterrrizaje [circumstance_group]</li>
+		<li>tale_noun->[PAWN_nameDef] aterrizó en una cápsula de descenso</li>
+		<li>image->[PAWN_nameFull] aterrizó en una cápsula de aterrizaje [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] bajando de la cápsula de aterrizaje [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] golpeando la tierra con la cápsula de aterrizaje [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] mirando por la ventana de una cápsula de aterrizaje [circumstance_group]</li>
@@ -28,7 +28,7 @@
 
   <Vomited.label>Vomitado</Vomited.label>
 	<Vomited.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] vomitando</li>
+		<li>tale_noun->[PAWN_nameDef] vomitó</li>
 		<li>image->[PAWN_nameFull] vomitando violentamente en el piso [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] observando disgustado(a) un charco de vómito en el suelo [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] doblado de dolor mientras vomita [circumstance_group]</li>
@@ -49,7 +49,7 @@
 
 	<Drunk.label>Borracho</Drunk.label>
 	<Drunk.rulePack.rulesStrings>
-		<li>tale_noun->la borrachera extrema de [PAWN_nameDef]</li>
+		<li>tale_noun->[PAWN_nameDef] tuvo una borrachera extrema</li>
 		<li>image->[PAWN_nameFull] tambaléandose de ebrio(a) [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] atragantándose con licor [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] acaparando avariciosamente las botellas de licor [circumstance_group]</li>
@@ -82,7 +82,7 @@
 
   <WasOnFire.label>En llamas</WasOnFire.label>
 	<WasOnFire.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] incendiándose</li>
+		<li>tale_noun->[PAWN_nameDef] se incendió</li>
 		<li>image->[PAWN_nameFull] intenta apagar frenéticamente un incendio en su cuerpo [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] envuelto(a) en llamas [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] de rodillas, con las manos en la cabeza intentando apagar las llamas que le envuelven [circumstance_group]</li>
@@ -104,7 +104,7 @@
 
 	<MentalStateBerserk.label>Berserker</MentalStateBerserk.label>
 	<MentalStateBerserk.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] poniéndose berserker</li>
+		<li>tale_noun->[PAWN_nameDef] se puso berserker</li>
 		<li>image->[PAWN_nameFull] experimentando una ira berserker [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] volviéndose loco(a), violéntamente demente [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] tambaleándose hacia el frente con una mirada psicótica en su rostro [circumstance_group]</li>
@@ -131,7 +131,7 @@
 
 	<MentalStateGaveUp.label>Desesperación</MentalStateGaveUp.label>
 	<MentalStateGaveUp.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] dejándose llevar por la desesperación</li>
+		<li>tale_noun->[PAWN_nameDef] se dejó llevar por la desesperación</li>
 		<li>image->[PAWN_nameFull] finalmente dándose por vencido(a) [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] llorando incontrolablemente [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] tambaleándose con una expresión derrotada en el rostro [circumstance_group]</li>
@@ -154,7 +154,7 @@
 
 	<WalkedNaked.label>Desnudez</WalkedNaked.label>
 	<WalkedNaked.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] paseándose desnudo(a)</li>
+		<li>tale_noun->[PAWN_nameDef] se paseó desnudo(a)</li>
 		<li>image->[PAWN_nameFull] [nude_action] de manera totalmente natural [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] [nude_action] sin más que sus zapatos [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] [nude_action], desnudo(a), [circumstance_group]</li>
@@ -181,7 +181,7 @@
 
 	<AteRawHumanlikeMeat.label>Canibalismo</AteRawHumanlikeMeat.label>
 	<AteRawHumanlikeMeat.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] comiendo carne humana</li>
+		<li>tale_noun->[PAWN_nameDef] comió carne humana</li>
 		<li>image->[PAWN_nameFull] [eat_gerund] la carne de un humanoide [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] [eat_gerund] un brazo humanoide [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] [eat_gerund] una gran pierna asada humanoide [circumstance_group]</li>
@@ -209,11 +209,11 @@
 
 	<CraftedArt.label>Creación de Arte</CraftedArt.label>
 	<CraftedArt.rulePack.rulesStrings>
-		<li>tale_noun->la vez que [PAWN_nameDef] fabricó  [thing_labelIndefinite]</li>
-		<li>image->[PAWN_nameFull] fabricando [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+		<li>tale_noun->[PAWN_nameDef] fabricó un(a) [thing_labelIndefinite]</li>
+		<li>image->[PAWN_nameFull] fabricando un(a) [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
 		<li>image->[PAWN_nameFull] completando su trabajo en [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
 		<li>image->[PAWN_nameFull] trabajando en [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-		<li>image->[PAWN_nameFull] haciendo [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+		<li>image->[PAWN_nameFull] haciendo un(a) [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
 		<li>circumstance_phrase->con total concentración</li>
 		<li>circumstance_phrase->con cara de satisfacción en su rostro</li>
 		<li>circumstance_phrase->en una mesa de trabajo</li>
@@ -238,7 +238,7 @@
 
 	<StruckMineable.label>Descubrimiento de Minerales</StruckMineable.label>
 	<StruckMineable.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] minando [thing_label]</li>
+		<li>tale_noun->[PAWN_nameDef] minó [thing_label]</li>
 		<li>image->[PAWN_nameFull] picando [thing_label] [circumstance_group]</li>
 		<li>circumstance_phrase->mientras mina</li>
 		<li>circumstance_phrase->mientras excava</li>
@@ -256,7 +256,7 @@
 
 	<FinishedResearchProject.label>Investigación Completada</FinishedResearchProject.label>
 	<FinishedResearchProject.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] terminando su investigación sobre [project_label]</li>
+		<li>tale_noun->[PAWN_nameDef] terminó su investigación sobre [project_label]</li>
 		<li>image->[PAWN_nameFull] trabajando en el proyecto de [project_label] [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] estudiando los secretos de [project_label] [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] investigando [project_label] [circumstance_group]</li>

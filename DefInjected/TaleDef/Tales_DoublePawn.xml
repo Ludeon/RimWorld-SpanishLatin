@@ -3,7 +3,7 @@
 
 	<Captured.label>persona capturada</Captured.label>
 	<Captured.rulePack.rulesStrings>
-		<li>tale_noun->la captura de [PRISONER_nameDef]</li>
+		<li>tale_noun->[PRISONER_nameDef] fue capturado(a)</li>
 		<li>image->la captura de [PRISONER_nameFull] por [CAPTURER_nameFull] [circumstance_group]</li>
 		<li>image->[CAPTURER_nameFull] pone los grilletes en las manos de [PRISONER_nameFull] [circumstance_group]</li>
 		<li>image->[CAPTURER_nameFull] capturando a [PRISONER_nameFull]</li>
@@ -28,7 +28,7 @@
 
 	<Recruited.label>persona reclutada</Recruited.label>
 	<Recruited.rulePack.rulesStrings>
-		<li>tale_noun->el reclutamiento de [JOINER_nameDef]</li>
+		<li>tale_noun->[JOINER_nameDef] fue reclutado(a)</li>
 		<li>image->[RECRUITER_nameFull] reclutando a [JOINER_nameFull] [circumstance_group]</li>
 		<li>image->[RECRUITER_nameFull], dando la bienvenida a [JOINER_nameFull] [circumstance_group]</li>
 		<li>image->[RECRUITER_nameFull] convenciendo a [JOINER_nameFull] [circumstance_group]</li>
@@ -45,7 +45,7 @@
 
 	<Hunted.label>Animal cazado</Hunted.label>
 	<Hunted.rulePack.rulesStrings>
-		<li>tale_noun->la caza exitosa de [hunter_nameShortDef]</li>
+		<li>tale_noun->[hunter_nameShortDef] cazó un [prey_nameFull] exitosamente</li>
 		<li>image->[prey_nameFull] siendo cazado por [hunter_nameFull] [circumstance_group]</li>
 		<li>image->[hunter_nameFull] acechando a [prey_nameFull] desde lejos</li>
 		<li>image->[hunter_nameFull] [circumstance_group] cazando a [prey_nameFull]</li>
@@ -59,7 +59,7 @@
 
 	<DidSurgery.label>cirugía realizada</DidSurgery.label>
 	<DidSurgery.rulePack.rulesStrings>
-		<li>tale_noun->la operación de [patient_nameShortDef]</li>
+		<li>tale_noun->[patient_nameShortDef] fue operado(a)</li>
 		<li>image->[surgeon_nameFull] poniendo a [patient_nameFull] a dormir con anestesia [circumstance_group]</li>
 		<li>image->[surgeon_nameFull] con el brazo hasta el codo [circumstance_group], dentro del cuerpo de [patient_nameFull]</li>
 		<li>image->[surgeon_nameFull] [circumstance_group] abriendo a [patient_nameFull] con un bisturí [circumstance_group]</li>
@@ -75,7 +75,7 @@
 
 	<ExecutedPrisoner.label>prisionero ejecutado</ExecutedPrisoner.label>
 	<ExecutedPrisoner.rulePack.rulesStrings>
-		<li>tale_noun->la ejecución de [PRISONER_nameDef]</li>
+		<li>tale_noun->[PRISONER_nameDef] fue ejecutado(a)</li>
 		<li>image->[warden_nameFull] ejecutando a [PRISONER_nameFull] [circumstance_group]</li>
 		<li>image->[warden_nameFull] matando a [warden_pronoun] [PRISONER_nameFull] [circumstance_group]</li>
 		<li>image->[warden_nameFull] preparándose para ejecutar a [PRISONER_nameFull] [circumstance_group]</li>
@@ -104,7 +104,7 @@
 
 	<KidnappedColonist.label>colono secuestrado</KidnappedColonist.label>
 	<KidnappedColonist.rulePack.rulesStrings>
-		<li>tale_noun->el secuestro de [VICTIM_nameDef]</li>
+		<li>tale_noun->[VICTIM_nameDef] fue secuestrado(a)</li>
 		<li>image->[KIDNAPPER_nameFull] arrastrando a [VICTIM_nameFull] [circumstance_group] con dirección a [KIDNAPPER_factionName]'</li>
 		<li>image->[KIDNAPPER_nameFull] de [KIDNAPPER_factionName] secuestrando a [VICTIM_nameFull] [circumstance_group]</li>
 		<li>image->[KIDNAPPER_nameFull] secuestrando a [VICTIM_nameFull] [circumstance_group]</li>
@@ -125,7 +125,7 @@
 
 	<TamedAnimal.label>Animal domesticado</TamedAnimal.label>
 	<TamedAnimal.rulePack.rulesStrings>
-		<li>tale_noun->la domesticación de [ANIMAL_nameDef] por [TRAINER_nameDef]</li>
+		<li>tale_noun->[TRAINER_nameDef] domesticó a [ANIMAL_nameDef]</li>
 		<li>image->[TAMER_nameFull] domando [circumstance_group] a [ANIMAL_nameFull]</li>
 		<li>image->[TAMER_nameFull] domando a [ANIMAL_nameFull] [circumstance_group]</li>
 		<li>image->[TAMER_nameFull] hablando [circumstance_group] a [ANIMAL_nameFull]</li>
@@ -143,9 +143,9 @@
 
 	<KilledBy.label>muerte</KilledBy.label>
 	<KilledBy.rulePack.rulesStrings>
-		<li>tale_noun->la muerte de [VICTIM_nameDef]</li>
-		<li>tale_noun->el asesinato de [VICTIM_nameDef] por [KILLER_nameDef]</li>
-		<li>tale_noun->la muerte de [VICTIM_nameDef]</li>
+		<li>tale_noun->[VICTIM_nameDef] murió</li>
+		<li>tale_noun->[KILLER_nameDef] asesinó a [VICTIM_nameDef]</li>
+		<li>tale_noun->[VICTIM_nameDef] fue asesinado(a)</li>
 		<li>image->[VICTIM_nameFull] siendo asesinado(a) por [KILLER_nameFull] [circumstance_group]</li>
 		<li>image->[KILLER_nameFull] matando [circumstance_group] a [VICTIM_nameFull]</li>
 		<li>image->[KILLER_nameFull] acabando [circumstance_group] con la vida de [VICTIM_nameFull]</li>
@@ -172,7 +172,7 @@
 
 	<SoldPrisoner.label>prisionero vendido</SoldPrisoner.label>
 	<SoldPrisoner.rulePack.rulesStrings>
-		<li>tale_noun->la venta de [PRISONER_nameDef] a un esclavista</li>
+		<li>tale_noun->[PRISONER_nameDef] fue vendido(a) a un esclavista</li>
 		<li>image->[TRADER_nameFull] comprandole a [PRISONER_nameFull] a [SELLER_nameFull] [circumstance_group]</li>
 		<li>image->[SELLER_nameFull] vendiendo a [PRISONER_nameFull] a [SELLER_nameFull] [circumstance_group]</li>
 		<li>circumstance_phrase->mientras los demás colonos observan con desapruebo</li>
@@ -194,7 +194,7 @@
 
 	<TrainedAnimal.label>Animal entrenado</TrainedAnimal.label>
 	<TrainedAnimal.rulePack.rulesStrings>
-		<li>tale_noun->el entrenamiento de [ANIMAL_nameDef]</li>
+		<li>tale_noun->[ANIMAL_nameDef] terminó su entrenamiento</li>
 		<li>image->[TAMER_nameFull] [train_syn] [ANIMAL_nameFull] en [TRAINABLE_label] [circumstance_group]</li>
 		<li>image->[TAMER_nameFull] enseñando [TRAINABLE_label] a [ANIMAL_nameFull] [circumstance_group]</li>
 		<li>image->[TAMER_nameFull] practicando [TRAINABLE_label] con [ANIMAL_nameFull] [circumstance_group]</li>
@@ -231,7 +231,7 @@
 
 	<TradedWith.label>comercio</TradedWith.label>
 	<TradedWith.rulePack.rulesStrings>
-		<li>tale_noun->un intercambio entre [SELLER_nameFull] y [BUYER_nameFull]</li>
+		<li>tale_noun->ocurrió un intercambio entre [SELLER_nameFull] y [BUYER_nameFull]</li>
 		<li>image->, como [BUYER_nameFull] compró los productos de [SELLER_nameFull] [circumstance_group].</li>
 		<li>image->[SELLER_nameFull] vendía los productos de [BUYER_nameFull] [circumstance_group].</li>
 		<li>circumstance_phrase->con avaricia</li>

@@ -3,8 +3,8 @@
 
   <CaravanFormed.label>Caravana Formada</CaravanFormed.label>
 	<CaravanFormed.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] partiendo hacia la aventura</li>
-		<li>tale_noun->[PAWN_nameDef] formando una caravana</li>
+		<li>tale_noun->[PAWN_nameDef] partió hacia la aventura</li>
+		<li>tale_noun->[PAWN_nameDef] formó una caravana</li>
 		<li>image->[PAWN_nameFull] avanzando hacia adelante [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] mirando hacia el horizonte [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] empaquetar suministros para un viaje [circumstance_group]</li>
@@ -24,10 +24,10 @@
 
   <CaravanFled.label>Caravana: Huyendo</CaravanFled.label>
 	<CaravanFled.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] huyendo por su vida</li>
-		<li>tale_noun->[PAWN_nameDef] escapando del peligro</li>
-		<li>tale_noun->[PAWN_nameDef] escapando por poco del peligro</li>
-		<li>tale_noun->[PAWN_nameDef] siendo perseguido(a) por los enemigos</li>
+		<li>tale_noun->[PAWN_nameDef] huyó por su vida</li>
+		<li>tale_noun->[PAWN_nameDef] escapó del peligro</li>
+		<li>tale_noun->[PAWN_nameDef] escapó por poco del peligro</li>
+		<li>tale_noun->[PAWN_nameDef] fue perseguido(a) por los enemigos</li>
 		<li>image->[PAWN_nameFull] corriendo frenéticamente [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] corriendo [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] detrás de un [Terrainfeature], oculto [circumstance_group]</li>
@@ -48,8 +48,8 @@
 
   <CaravanAmbushDefeated.label>Caravana: Emboscada Derrotada</CaravanAmbushDefeated.label>
 	<CaravanAmbushDefeated.rulePack.rulesStrings>
-		<li>tale_noun->Una defensa exitosa de la caravana de [PAWN_nameDef].</li>
-		<li>tale_noun->[PAWN_nameDef] luchando contra una emboscada.</li>
+		<li>tale_noun->la caravana de [PAWN_nameDef] se defendió de forma exitosa.</li>
+		<li>tale_noun->[PAWN_nameDef] luchó contra una emboscada.</li>
 		<li>image->[PAWN_nameFull] organiza la resistencia, mientras [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] empuñando un(a) [Weapon] defensivamente mientras [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] tomando represalias con un(a) [Weapon] mientras [circumstance_group]</li>
@@ -74,7 +74,7 @@
 
   <CaravanRemoteMining.label>Caravana: Minado Remoto</CaravanRemoteMining.label>
 	<CaravanRemoteMining.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] minando una rica veta de [material_label] en una tierra lejana</li>
+		<li>tale_noun->[PAWN_nameDef] minó una rica veta de [material_label] en una tierra lejana</li>
 		<li>image->[PAWN_nameFull] trabajando una pared de [material_label] con herramientas de minería, [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] sosteniendo un pedazo de [material_label], [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] descansando en una pared de [material_label], [circumstance_group]</li>
@@ -95,7 +95,7 @@
 
   <CaravanAssaultSuccessful.label>Caravana: Éxito en el ataque</CaravanAssaultSuccessful.label>
 	<CaravanAssaultSuccessful.rulePack.rulesStrings>
-		<li>tale_noun->La caravana de [PAWN_nameDef] derrotando un emplazamiento enemigo</li>
+		<li>tale_noun->la caravana de [PAWN_nameDef] derrotó un emplazamiento enemigo</li>
 		<li>image->[PAWN_nameFull] corriendo hacia un [Enemy], [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] blandiendo un(a) [Weapon], [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] atacando con un(a) [Weapon], [circumstance_group]</li>

@@ -3,8 +3,8 @@
 
   <LaunchedShip.label>Nave Lanzada</LaunchedShip.label>
 	<LaunchedShip.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] escapando del planeta</li>
-		<li>tale_noun->[PAWN_nameDef] despegando en una nave espacial</li>
+		<li>tale_noun->[PAWN_nameDef] escapó del planeta</li>
+		<li>tale_noun->[PAWN_nameDef] despegó en una nave espacial</li>
 		<li>image->[PAWN_nameFull] siendo lanzado hacia las estrellas [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] avanzando hacia el cielo [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] acelerando para tener velocidad de escape [circumstance_group]</li>
@@ -28,7 +28,7 @@
 
   <SocialFight.label>Pelea Social</SocialFight.label>
 	<SocialFight.rulePack.rulesStrings>
-		<li>tale_noun->[INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
+		<li>tale_noun->[INITIATOR_nameDef] [fight_name_present] a [RESPONDER_nameDef]</li>
 		<li>image->[INITIATOR_nameFull] insulta [RESPONDER_nameFull] [circumstance_group]</li>
 		<li>image->[INITIATOR_nameFull] desafia [RESPONDER_nameFull] [circumstance_group]</li>
 		<li>image->[INITIATOR_nameFull] amenaza [RESPONDER_nameFull] [circumstance_group]</li>
@@ -38,9 +38,9 @@
 		<li>image->[INITIATOR_nameFull] golpea [RESPONDER_nameFull] [circumstance_group]</li>
 		<li>image->[INITIATOR_nameFull] patada [RESPONDER_nameFull] [circumstance_group]</li>
 		<li>image->[INITIATOR_nameFull] acobardado por [RESPONDER_nameFull] [circumstance_group]</li>
-		<li>fight_name_present->violento</li>
-		<li>fight_name_present->ataca</li>
-		<li>fight_name_present->pelea</li>
+		<li>fight_name_present->violentó</li>
+		<li>fight_name_present->atacó</li>
+		<li>fight_name_present->agredió</li>
 		<li>circumstance_phrase->mientras [RESPONDER_nameDef] insulta [INITIATOR_objective]</li>
 		<li>circumstance_phrase->mientras [RESPONDER_nameDef] burla [INITIATOR_objective]</li>
 		<li>circumstance_phrase->mientras [RESPONDER_nameDef] amenaza [INITIATOR_objective]</li>
@@ -63,8 +63,8 @@
 
   <CollapseDodged.label>Derrumbe Evitado</CollapseDodged.label>
 	<CollapseDodged.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] esquivando un derrumbe</li>
-		<li>tale_noun->[PAWN_nameDef] casi fue aplastado por la caída de objetos</li>
+		<li>tale_noun->[PAWN_nameDef] esquivó un derrumbe</li>
+		<li>tale_noun->[PAWN_nameDef] casi fue aplastado por la caída de unos objetos</li>
 		<li>image->[PAWN_nameFull] saliendo de un derrumbe de escombros [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] evitando por poco un derrumbe [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] evita la caída del techo [circumstance_group]</li>

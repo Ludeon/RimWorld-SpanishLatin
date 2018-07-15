@@ -3,7 +3,7 @@
 
  	  <BondedWithAnimal.label>Vínculo Creado</BondedWithAnimal.label>
 	<BondedWithAnimal.rulePack.rulesStrings>
-		<li>tale_noun->[TRAINER_nameDef] ha creado un vínculo con [ANIMAL_nameDef]</li>
+		<li>tale_noun->[TRAINER_nameDef] creó un vínculo con [ANIMAL_nameDef]</li>
 		<li>image->[TAMER_nameFull] se encariña con [ANIMAL_nameFull] [circumstance_group]</li>
 		<li>image->[TAMER_nameFull] forma un vínculo profundo con [ANIMAL_nameFull] [circumstance_group]</li>
 		<li>image->[TAMER_nameFull] se da cuenta de su amor por [ANIMAL_nameFull] [circumstance_group]</li>
@@ -37,7 +37,7 @@
 
  	  <Breakup.label>Rompimiento</Breakup.label>
 	<Breakup.rulePack.rulesStrings>
-		<li>tale_noun->el rompimiento de [DUMPER_nameDef] y [REJECTED_nameDef]</li>
+		<li>tale_noun->[DUMPER_nameDef] y [REJECTED_nameDef] rompieron su relación</li>
 		<li>image->[DUMPER_nameDef] sentando a [REJECTED_nameFull] a la mesa para una charla poco placentera [circumstance_group]</li>
 		<li>image->[DUMPER_nameDef] está de pie a corta distancia de [REJECTED_nameFull] [circumstance_group]</li>
 		<li>image->[DUMPER_nameDef] empujando a [REJECTED_nameFull] fuera de la cama [circumstance_group]</li>
@@ -55,7 +55,7 @@
 
  	  <Marriage.label>Matrimonio</Marriage.label>
 	<Marriage.rulePack.rulesStrings>
-		<li>tale_noun->el matrimonio de [SPOUSE1_nameDef] y [SPOUSE2_nameDef]</li>
+		<li>tale_noun->[SPOUSE1_nameDef] y [SPOUSE2_nameDef] se casaron</li>
 		<li>image->[SPOUSE1_nameFull] casándose con [SPOUSE2_nameFull] [circumstance_group]</li>
 		<li>image->[SPOUSE1_nameFull] diciendo sus votos matrimoniales a [SPOUSE2_nameFull] [circumstance_group]</li>
 		<li>image->[SPOUSE1_nameFull] caminando hacia el altar matrimonial con [SPOUSE2_nameFull] [circumstance_group]</li>
