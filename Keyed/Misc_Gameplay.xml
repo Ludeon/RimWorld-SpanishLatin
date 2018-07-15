@@ -4,7 +4,7 @@
   <!-- Various -->
   <HitPointsBasic>Puntos de ataque</HitPointsBasic>
   <WorkLeft>Trabajo restante</WorkLeft>
-  <Contents>Contentido</Contents>
+  <Contents>Contenidos</Contents>
   <ContainedResources>Recursos contenidos</ContainedResources>
   <ForPrisonerUse>Para uso de prisioneros</ForPrisonerUse>
   <InPrisonCell>En una celda de prisión: Para uso de los prisioneros</InPrisonCell>
@@ -28,8 +28,8 @@
   <DevelopedImmunityLower>Inmunidad desarrollada</DevelopedImmunityLower>
   <NeedsTendingNow>Necesita tratamiento ahora</NeedsTendingNow>
   <CanTendNow>Puede atender ahora</CanTendNow>
-  <TreatmentExpiresIn>Tratamiento expira en {0}</TreatmentExpiresIn>
-  <NextTendIn>El siguiente tratamiento es en {0}</NextTendIn>
+  <TreatmentExpiresIn>El tratamiento expira en {0}</TreatmentExpiresIn>
+  <NextTendIn>La siguiente dosis debe ser en {0}</NextTendIn>
   <TendQuality>Calidad del tratamiento</TendQuality>
   <MissingMedicalBillIngredient>No {0}</MissingMedicalBillIngredient>
   <Immunity>Inmunidad</Immunity>
@@ -78,12 +78,12 @@
   <UsingBedrolls>usando {0} cama enrrollable</UsingBedrolls>
   <CaravanEstimatedTimeToDestination>Tiempo de llegada: {0}</CaravanEstimatedTimeToDestination>
   <CaravanEstimatedDaysToDestination>Días estimados de llegada: {0}</CaravanEstimatedDaysToDestination>
-  <CaravanImmobilizedByMass>Inmobilizada: peso excesivo.</CaravanImmobilizedByMass>
+  <CaravanImmobilizedByMass>Inmobilizada: Peso excesivo.</CaravanImmobilizedByMass>
   <CaravanOutOfFood>Sin comida.</CaravanOutOfFood>
   <CaravanDaysOfFood>Queda comida para {0} días</CaravanDaysOfFood>
   <CaravanDaysOfFoodRot>Queda comida para: {0} días, se pudre en {1} días</CaravanDaysOfFoodRot>
-  <AllCaravanMembersDowned>Detenida: todos están inconscientes.</AllCaravanMembersDowned>
-  <AllCaravanMembersMentalBreak>Detenida: todos tiene un colapso mental.</AllCaravanMembersMentalBreak>
+  <AllCaravanMembersDowned>Detenida: Todos están inconscientes.</AllCaravanMembersDowned>
+  <AllCaravanMembersMentalBreak>Detenida: Todos tienen un colapso mental.</AllCaravanMembersMentalBreak>
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
   <CaravanAnimal>1 animal</CaravanAnimal>
   <CaravanAnimalsCount>{0} animal</CaravanAnimalsCount>
@@ -106,7 +106,7 @@
   <CaravanEntering>Entrando {0}.</CaravanEntering>
   <CaravanAttacking>Atacando {0}.</CaravanAttacking>
   <CaravanOfferingGifts>Ofreciendo regalos a {0}.</CaravanOfferingGifts>
-  <WasWornByCorpse>Fue sacado de un cadáver.</WasWornByCorpse>
+  <WasWornByCorpse>Fue llevado por un cadaver.</WasWornByCorpse>
   <WornByCorpseChar>D</WornByCorpseChar>
   <DeterioratingUnroofed>Sin techo</DeterioratingUnroofed>
   <DeterioratingOutdoors>Exteriores</DeterioratingOutdoors>
@@ -134,7 +134,6 @@
   <EquippedBy>Equipado por {0}</EquippedBy>
   <QuestTargetDestroyInspectString>{0} quiere que esto sea destruido.\n Recompensa: {1}.</QuestTargetDestroyInspectString>
   <WorldObjectTimeout>Tiempo restante: {0}</WorldObjectTimeout>
-  <LongRangeMineralScannerEfficiency>Eficiencia: {0}</LongRangeMineralScannerEfficiency>
   <ItemStashContents>Contenidos: {0}.</ItemStashContents>
   <ClickToSortByThisColumn>Clic para ordenar por esta columna.</ClickToSortByThisColumn>
   <WorkPriorityShiftClickTip>Shift + clic: Incrementar la prioridad\nShift + clic derecho: Disminuir la prioridad</WorkPriorityShiftClickTip>
@@ -149,7 +148,7 @@
   <Relationship>{0} de {1}</Relationship>
   <Prisoner>Prisionero</Prisoner>
   <Refugee>Refugiado</Refugee>
-  <TileMovementDifficulty>Dificultad en el movimiento del terreno</TileMovementDifficulty>
+  <TileMovementDifficulty>Dificultad en el movimiento por el terreno</TileMovementDifficulty>
   <Impassable>Impasable</Impassable>
   <CaravanMovementSpeedFull>Velocidad de movimiento de la caravana</CaravanMovementSpeedFull>
   <DownedLower>Derribado</DownedLower>
@@ -175,6 +174,7 @@
   <Caravan>Caravana</Caravan>
   <HiddenOrNoSitePartDescription>Puede haber peligro allí</HiddenOrNoSitePartDescription>
   <PreciousLumpLabel>pedazo de {0}</PreciousLumpLabel>
+  <NoActiveResearchProjectToFinish>ningún proyecto de investigación activo</NoActiveResearchProjectToFinish>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Contiene {0} / {1} de mosto.</ContainsWort>
@@ -357,7 +357,7 @@
   <Ingredients>Ingredientes</Ingredients>
 
   <!-- Plants -->
-  <PercentGrowth>Crecimiento del {0}</PercentGrowth>
+  <PercentGrowth>Crecimiento al {0}</PercentGrowth>
   <GrowthRate>Tasa de crecimiento actual</GrowthRate>
   <FullyGrownIn>Crecerá por completo al {0} de crecimiento.</FullyGrownIn>
   <PlantNeedsLightLevel>Necesita más luz</PlantNeedsLightLevel>
@@ -370,9 +370,9 @@
   <NoGrowingPeriod>Nunca</NoGrowingPeriod>
   <GrowYearRound>Todo el año</GrowYearRound>
   <GrowSeasonHereNow>Temporada de cultivo: Ahora.</GrowSeasonHereNow>
-  <CannotGrowBadSeasonTemperature>Imposible crecer (pésima temperatura).</CannotGrowBadSeasonTemperature>
-  <Blighted>Marchito</Blighted>
-  <DyingBecauseExposedToLight>Muriendo porque está expuesto a la luz</DyingBecauseExposedToLight>
+  <CannotGrowBadSeasonTemperature>Crecimiento imposible (pésima temperatura).</CannotGrowBadSeasonTemperature>
+  <Blighted>Marchita</Blighted>
+  <DyingBecauseExposedToLight>Muriendo porque está expuesta a la luz</DyingBecauseExposedToLight>
 
   <!-- Zones -->
   <Zone>Área</Zone>
@@ -445,7 +445,7 @@
   <CasketWarning>¡Peligro!¡\n\n[PAWN_nameDef] es tu último colono en pie! Si lo dejas entrar en ése sarcófago no podrás seguir jugando. ¿Estás seguro que quieres continuar?</CasketWarning>
 
   <!-- Ship launch report -->
-  <ShipReportCannotLaunch>Imposible lanzar.</ShipReportCannotLaunch>
+  <ShipReportCannotLaunch>Lanzamiento imposible.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Listo para el lanzamiento.</ShipReportCanLaunch>
   <ShipReportMissingPart>Falta un componente crítico</ShipReportMissingPart>
   <ShipReportMissingPartRequires>Requiere</ShipReportMissingPartRequires>

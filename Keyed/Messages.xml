@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MessageSiegersAssaulting>Los {0} de {1} que te asedian están asaltando la colonia.</MessageSiegersAssaulting>
+  <MessageSiegersAssaulting>Los {0} de {1} que te asediaban, están asaltando la colonia.</MessageSiegersAssaulting>
 
   <MessageRaidersBeginningAssault>Los {0} de {1} están comenzando su asalto.</MessageRaidersBeginningAssault>
   <MessageRaidersDetectedEarlyAssault>Los {0} de {1} te han detectado y han adelantado su asalto.</MessageRaidersDetectedEarlyAssault>
@@ -19,7 +19,7 @@
   <MessageVisitorsTrappedLeaving>Los {0} de {1} han quedado atrapados y están excavando para escapar.</MessageVisitorsTrappedLeaving>
   <MessageVisitorsDangerousTemperature>Los {0} de {1} estan abandonando el mapa por las temperaturas peligrosas.</MessageVisitorsDangerousTemperature>
 
-  <MessageWornApparelDeterioratedAway>Un(a) {0} que {1} vestía se ha deshecho por completo.</MessageWornApparelDeterioratedAway>
+  <MessageWornApparelDeterioratedAway>El/la {1} que vestía {0} se ha deshecho por completo.</MessageWornApparelDeterioratedAway>
 
   <MessageSeasonBegun>Ahora es {0}.</MessageSeasonBegun>
 
@@ -27,7 +27,7 @@
 
   <MessageNeedBeaconToTradeWithShip>Necesitas una baliza de comercio orbital para comerciar con una nave.</MessageNeedBeaconToTradeWithShip>
 
-  <MessageBillComplete>Proyecto completo: {0}.</MessageBillComplete>
+  <MessageBillComplete>Proyecto completado: {0}.</MessageBillComplete>
 
   <MessageFullyHealed>{0} ha sanado por completo.</MessageFullyHealed>
 
@@ -48,8 +48,8 @@
 
   <MessageCriticalAlert>Alerta crítica: {0}</MessageCriticalAlert>
 
-  <MessageMustDesignateHarvestable>Debes designar plantas cosechables suficientemente crecidas.</MessageMustDesignateHarvestable>
-  <MessageMustDesignateHarvestableWood>Debes designar plantas maderables suficientemente crecidas.</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignateHarvestable>Debes designar plantas cosechables suficientemente maduras.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestableWood>Debes designar plantas talables suficientemente maduras.</MessageMustDesignateHarvestableWood>
   <MessageMustDesignatePlants>Debes designar plantas.</MessageMustDesignatePlants>
   <MessageMustDesignateHaulable>Debes designar objetos trasladables.</MessageMustDesignateHaulable>
   <MessageMustDesignateMineable>Debes designar paredes de roca minable.</MessageMustDesignateMineable>
@@ -76,7 +76,7 @@
 
   <MessageNoLongerDowned>{0} ya no es incapaz de caminar.</MessageNoLongerDowned>
 
-  <MessageInvoluntarySleep>{0} ha colapsado debido a un agotamiento extremo.</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>{0} ha colapsado debido al agotamiento extremo.</MessageInvoluntarySleep>
 
   <MessageMedicalOperationFailureMinor>{0} se ha equivocado un poco mientras operaba a {1}.</MessageMedicalOperationFailureMinor>
   <MessageMedicalOperationFailureCatastrophic>{0} se ha equivocado catastróficamente mientras operaba a {1}.</MessageMedicalOperationFailureCatastrophic>
@@ -150,10 +150,10 @@
 
   <MessageMaxPlanetCoveragePerformanceWarning>Peligro: Puede llevar mucho tiempo generar un planeta completo.</MessageMaxPlanetCoveragePerformanceWarning>
 
-  <MessagePlantDiedOfCold>Una planta de {0} ha muerto de frío.</MessagePlantDiedOfCold>
-  <MessagePlantDiedOfRot_LeftUnharvested>Una planta de {0} ha muerto de pudrición por no haber sido cosechada a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfCold>Una planta de {0} ha muerto por la baja temperatura.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfRot_LeftUnharvested>Una planta de {0} se ha podrido por no haber sido cosechada a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
   <MessagePlantDiedOfRot_ExposedToLight>{0} ha muerto por no estar expuesta a la luz.</MessagePlantDiedOfRot_ExposedToLight>
-  <MessagePlantDiedOfRot>{0} se ha podrido debido a que se quedó sin cosechar.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot>{0} se ha podrido debido a que quedó sin cosechar.</MessagePlantDiedOfRot>
   <MessagePlantDiedOfPoison>Una planta de {0} ha muerto a causa del veneno.</MessagePlantDiedOfPoison>
   <MessagePlantDiedOfBlight>Una planta de {0} ha muerto debido a una plaga.</MessagePlantDiedOfBlight>
 
@@ -239,7 +239,7 @@
 
   <MessagePawnResurrected>¡{0} ha vuelto a la vida!</MessagePawnResurrected>
 
-  <MessageFailedToRescueRelative>Has fallado en el rescate de {0}. Esto hará que {1} sea un colon triste.</MessageFailedToRescueRelative>
+  <MessageFailedToRescueRelative>Has fallado en el rescate de {0}. Esto hará que {1} se sienta triste.</MessageFailedToRescueRelative>
   <MessageRescuedRelative>Has rescatado a {0}. Esto hará que {1} se sienta feliz.</MessageRescuedRelative>
 
   <MessageTornadoLeftMap>El tornado ha dejado la zona.</MessageTornadoLeftMap>
@@ -248,14 +248,13 @@
   <MessagePeaceTalksNoDiplomat>No hay ningún diplomático competente y capaz.</MessagePeaceTalksNoDiplomat>
 
   <MessageWarningCavePlantsExposedToLight>Advertencia: {0} no puede vivir cuando se expone a la luz.</MessageWarningCavePlantsExposedToLight>
-
-  <MessageTargetedTantrumChangedTarget>{0} no puedo alcanzar a {1} así que [PAWN_pronoun] decidio reorientar [PAWN_possessive] ira hacia {2}.</MessageTargetedTantrumChangedTarget>
-
-  <MessageTargetedInsultingSpreeChangedTarget>{0} no puedo alcanzar a {1} así que [PAWN_pronoun] decidio reorientar [PAWN_possessive] insultos hacia {2}.</MessageTargetedInsultingSpreeChangedTarget>
+  
+  <MessageTargetedTantrumChangedTarget>{0} no puedo alcanzar a {1} así que [PAWN_pronoun] decidió reorientar [PAWN_possessive] ira hacia {2}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{0} no puedo alcanzar a {1} así que [PAWN_pronoun] decidió reorientar [PAWN_possessive] insultos hacia {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
   <MessageMurderousRageChangedTarget>{0} ha decidido redirigir [PAWN_possessive] rabia hacia {1}.</MessageMurderousRageChangedTarget>
 
-  <MessagePlantIncompatibleWithRoof>{0} no puede crecer bajo un techo.</MessagePlantIncompatibleWithRoof>
+  <MessagePlantIncompatibleWithRoof>{0} no puede crecer bajo techo.</MessagePlantIncompatibleWithRoof>
   <MessageRoofIncompatibleWithPlant>No puede construir un techo sobre {0}.</MessageRoofIncompatibleWithPlant>
 
   <MessageChoseRoute>La caravana se desplazará automáticamente hasta el primer punto intermedio.</MessageChoseRoute>
@@ -274,10 +273,10 @@
   <GoodwillChangedReason_CapturedPawn>Capturar {0}</GoodwillChangedReason_CapturedPawn>
   <GoodwillChangedReason_PawnCrushed>{0} aplastados</GoodwillChangedReason_PawnCrushed>
   <GoodwillChangedReason_PawnDied>{0} muerto</GoodwillChangedReason_PawnDied>
-  <GoodwillChangedReason_Traded>Comerciado</GoodwillChangedReason_Traded>
+  <GoodwillChangedReason_Traded>Comercializado</GoodwillChangedReason_Traded>
   <GoodwillChangedReason_AttackedCaravan>Atacó una caravana</GoodwillChangedReason_AttackedCaravan>
   <GoodwillChangedReason_NaturallyOverTime>tendencia natural a alcanzar {0} con el tiempo</GoodwillChangedReason_NaturallyOverTime>
-  <GoodwillChangedReason_ExitedMapHealthy>{0} salió del mapa sano</GoodwillChangedReason_ExitedMapHealthy>
+  <GoodwillChangedReason_ExitedMapHealthy>{0} salió sano del mapa</GoodwillChangedReason_ExitedMapHealthy>
   <GoodwillChangedReason_Tended>Tendió a {0}</GoodwillChangedReason_Tended>
   <GoodwillChangedReason_ReceivedGift>Recibió un regalo</GoodwillChangedReason_ReceivedGift>
   <GoodwillChangedReason_FulfilledTradeRequest>Cumplió una oferta comercial</GoodwillChangedReason_FulfilledTradeRequest>
@@ -300,7 +299,7 @@
   <MessageAnimalReturnedWild>Debido a la falta de manutención, {0} ha regresado a la naturaleza.</MessageAnimalReturnedWild>
   <MessageAnimalLostSkill>Debido a la falta de entrenamiento, {0} ha perdido una habilidad: {1}</MessageAnimalLostSkill>
 
-  <MessageTranslationReportSaved>Informe de traducción escrito en {0}</MessageTranslationReportSaved>
+  <MessageTranslationReportSaved>Informe de traducción guardado en {0}</MessageTranslationReportSaved>
 
   <MessageCaravanArrivalActionNoLongerValid>{0} no pudo llegar a su destino.</MessageCaravanArrivalActionNoLongerValid>
 
