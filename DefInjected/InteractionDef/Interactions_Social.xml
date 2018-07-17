@@ -7,7 +7,7 @@
 	<Chitchat.logRulesInitiator.rulesStrings>
 		<li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
 		<li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-
+		<li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef].</li>
 		<li>talkedabout(p=4)->hablaron sobre</li>
 		<li>talkedabout->platicaron sobre</li>
 		<li>talkedabout->charlaron sobre</li>
@@ -51,7 +51,7 @@
 		<li>r_logentry->[INITIATOR_nameDef] [madefunof] del [PersonalCharacteristic] de [target].</li>
 
 		<li>target(p=4)->[RECIPIENT_nameDef]</li>
-		<li>target->la [Family] de [RECIPIENT_nameDef]</li>
+		<li>target->la [PersonFamily] de [RECIPIENT_nameDef]</li>
 		<li>madefunof->se burló</li>
 		<li>madefunof->se burló</li>
 		<li>madefunof->hizo un chiste</li>
@@ -76,7 +76,7 @@
 		<li>r_logentry->[INITIATOR_nameDef] llamó a [target] un(a) [insultcomparison].</li>
 
 		<li>target(p=4)->[RECIPIENT_nameDef]</li>
-		<li>target->la [Family] de [RECIPIENT_nameDef]</li>
+		<li>target->la [PersonFamily] de [RECIPIENT_nameDef]</li>
 
 		<li>insulted(p=3)->insultó</li>
 		<li>insulted->insultó abiertamente</li>
@@ -107,7 +107,6 @@
 		<li>complimented->expresó cosas buenas sobre</li>
 		<li>complimented->expresó apreciación sobre</li>
 		<li>complimented->dijo cosas buenas sobre</li>
-		<li>complimented->alabó</li>
 		<li>complimented->elogió</li>
 		<li>complimented->aplaudió</li>
 		<li>complimented->expresó cosas buenas sobre</li>

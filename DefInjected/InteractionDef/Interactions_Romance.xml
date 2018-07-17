@@ -14,21 +14,20 @@
 		<li>wooed->trató de conquistar a</li>
 		<li>wooed->coqueteó con</li>
 		<li>wooed->trató de seducir a</li>
-
 		<li>wootactic(p=4)->[complimenting] su [PersonalCharacteristic]</li>
-		<li>wootactic(p=2)->[boasting] su [PersonalCharacteristic]</li>
-		<li>wootactic(p=2)->contar una historia sobre [TalkTopicLight]</li>
-		<li>wootactic(p=2)->contar una historia sobre [TalkTopicHeavy]</li>
+		<li>wootactic->telling a story about [TalkTopicAny]</li>
+		<li>wootactic->contar una historia sobre [TalkTopicAny]</li>
+		<li>wootactic->joking about [TalkTopicAny]</li>
+		<li>wootactic->contar una historia sobre [TalkTopicAny]</li>
+		<li>wootactic->[boasting] [INITIATOR_possessive] own [PersonalCharacteristic]</li>
 		<li>wootactic->comparar a [OTHER_objective] con una [romantic_adj] [romantic_noun]</li>
 		<li>wootactic->describir a [OTHER_objective] como una [romantic_adj] [romantic_noun]</li>
-
 		<li>boasting->alardear sobre</li>
 		<li>boasting->mencionar</li>
 		<li>boasting->dar a entender cosas buenas sobre</li>
 		<li>boasting->exagerar</li>
 		<li>boasting->hablar sobre</li>
 		<li>boasting->llamar la atención sobre</li>
-
 		<li>complimenting(p=3)->alabar</li>
 		<li>complimenting->alabar sutilmente</li>
 		<li>complimenting->elogiar</li>
@@ -39,7 +38,6 @@
 		<li>complimenting->bromear sobre</li>
 		<li>complimenting->elogiar sutilmente</li>
 		<li>complimenting->mofarse sobre</li>
-
 		<li>romantic_adj->hermosa</li>
 		<li>romantic_adj->preciosa</li>
 		<li>romantic_adj->bella</li>
@@ -55,18 +53,17 @@
 		<li>romantic_adj->preciosa</li>
 		<li>romantic_adj->espléndida</li>
 		<li>romantic_adj(p=3)->[AdjectiveBadass]</li>
-
 		<li>romantic_noun->flor</li>
 		<li>romantic_noun->estatua</li>
 		<li>romantic_noun->nube</li>
 		<li>romantic_noun->estrella</li>
+		<li>romantic_noun->moon</li>
 		<li>romantic_noun->luna</li>
+		<li>romantic_noun->house</li>
 		<li>romantic_noun->aurora</li>
-		<li>romantic_noun->flor</li>
-		<li>romantic_noun->obra de arte</li>
-		<li>romantic_noun->estatua</li>
+		<li>romantic_noun->[TreeType] tree</li>
 		<li>romantic_noun(p=2)->[TerrainFeature]</li>
-		<li>romantic_noun(p=2)->[TerrainFeature]</li>
+		<li>romantic_noun(p=2)->[NaturalObject]</li>
 	</RomanceAttempt.logRulesInitiator.rulesStrings>
 
 	<Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
