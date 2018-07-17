@@ -1,7 +1,7 @@
 # Latin American Spanish Translation of RimWorld
 
 ![Logo](https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/LangIcon.png?raw=true) <br>
-![VRim](https://img.shields.io/badge/RimWorld-0.18.1712-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.0.19XX.svg?style=for-the-badge)
 
 _ _ _
 
