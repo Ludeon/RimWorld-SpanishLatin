@@ -191,6 +191,7 @@
   <TextMote_YieldWasted>Producción\nfallida</TextMote_YieldWasted>
   <TextMote_ProductWasted>Producción\nfallida</TextMote_ProductWasted>
   <TextMote_RecruitFail>Reclutamiento fallido probabilidad del \n{0}</TextMote_RecruitFail>
+  <TextMote_ResistanceReduced>Resistance\n{0} to {1}</TextMote_ResistanceReduced>
   <TextMote_TameFail>Domesticación fallida, probabilidad del \n{0}</TextMote_TameFail>
   <TextMote_TameSuccess>¡Domesticado! probabilidad del \n{0}</TextMote_TameSuccess>
   <TextMote_TrainFail>Entrenamiento fallido: probabilidad del {0}\n{1}</TextMote_TrainFail>
@@ -199,6 +200,8 @@
   <TextMote_ConstructionFail>Construcción\nfallida</TextMote_ConstructionFail>
   <TextMote_Dodge>Esquivar</TextMote_Dodge>
   <TextMote_Tended>{0} atendido(a)</TextMote_Tended>
+  <lowMood>low mood</lowMood>
+  <lowOpinion>low opinion</lowOpinion>
 
   <!-- Areas -->
   <Home>Hogar</Home>
@@ -340,18 +343,16 @@
   <RotStateFresh>Fresco</RotStateFresh>
   <RotStateRotting>Podrido</RotStateRotting>
   <RotStateDessicated>Desecado</RotStateDessicated>
-
-  <!-- Shooting tooltip -->
-  <ShotBy>Probabilidad de \nacierto de {0}</ShotBy>
-  <CannotHit>Imposible impactar el objetivo.</CannotHit>
-  <ManhunterPerHit>Probabilidad de cazahombres por impacto</ManhunterPerHit>
-
-  <!-- Rotting -->
   <CurrentlyFrozen>Congelado (no se pudrirá)</CurrentlyFrozen>
   <CurrentlyRefrigerated>Refrigerado (se pudre en {0})</CurrentlyRefrigerated>
   <NotRefrigerated>Sin refrigerar (se pudre en {0})</NotRefrigerated>
   <OverADecade>Más de una década</OverADecade>
   <LessThanADay>Menos de un día</LessThanADay>
+
+  <!-- Shooting tooltip -->
+  <ShotBy>Probabilidad de \nacierto de {0}</ShotBy>
+  <CannotHit>Imposible impactar el objetivo.</CannotHit>
+  <ManhunterPerHit>Probabilidad de cazahombres por impacto</ManhunterPerHit>
 
   <!-- Meal -->
   <Ingredients>Ingredientes</Ingredients>
