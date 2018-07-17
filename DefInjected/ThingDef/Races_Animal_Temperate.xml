@@ -1,46 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<!-- ============================ Cold weather animals ========================== -->
+  <Deer.label>Venado</Deer.label>
+  <Deer.description>Un animal herbívoro de tamaño medio que se mueve en manadas. Normalmente pacífico mientras no se le moleste.</Deer.description>
+  <Deer.tools.0.label>left hoof</Deer.tools.0.label>
+  <Deer.tools.1.label>right hoof</Deer.tools.1.label>
+  <Deer.tools.2.label>teeth</Deer.tools.2.label>
+  <Deer.tools.3.label>head</Deer.tools.3.label>
+  <Deer_Leather.label>deer leather</Deer_Leather.label>
+  <Deer_Leather.description>deer leather</Deer_Leather.description>
+  <Deer_Leather.stuffProps.stuffAdjective>deer leather</Deer_Leather.stuffProps.stuffAdjective>
+  <Deer_Meat.label>carne de venado</Deer_Meat.label>
+  <Deer_Meat.description>La carne de un venado.</Deer_Meat.description>
+  <Deer_Corpse.label>cadáver de venado</Deer_Corpse.label>
+  <Deer_Corpse.description>El cuerpo sin vida de un venado.</Deer_Corpse.description>
 
-	<Deer.label>Venado</Deer.label>
-	<Deer.description>Un animal herbívoro de tamaño medio que se mueve en manadas. Normalmente pacífico mientras no se le moleste.</Deer.description>
-	<Deer_Meat.label>carne de venado</Deer_Meat.label>
-	<Deer_Meat.description>La carne de un venado.</Deer_Meat.description>
-	<Deer_Corpse.label>cadáver de venado</Deer_Corpse.label>
-	<Deer_Corpse.description>El cuerpo sin vida de un venado.</Deer_Corpse.description>
-	
-	<Ibex.label>Íbice</Ibex.label>
-	<Ibex.description>El ancestro salvaje de la cabra domesticada. Los íbices viven en territorios marginales donde la mayoría de los antílopes no podrían sobrevivir, comiendo líquenes y las escasas plantas de las montañas. Son famosos por sus habilidosos saltos de roca en roca en peligrosos riscos - y por sus violentas cornadas.</Ibex.description>
-	<Ibex_Meat.label>carne de íbice</Ibex_Meat.label>
-	<Ibex_Meat.description>La carne de un íbice.</Ibex_Meat.description>
-	<Ibex_Corpse.label>cadáver de íbice</Ibex_Corpse.label>
-	<Ibex_Corpse.description>El cuerpo sin vida de un íbice.</Ibex_Corpse.description>	
+  <Ibex.label>Íbice</Ibex.label>
+  <Ibex.description>El ancestro salvaje de la cabra domesticada. Los íbices viven en territorios marginales donde la mayoría de los antílopes no podrían sobrevivir, comiendo líquenes y las escasas plantas de las montañas. Son famosos por sus habilidosos saltos de roca en roca en peligrosos riscos - y por sus violentas cornadas.</Ibex.description>
+  <Ibex.tools.0.label>left hoof</Ibex.tools.0.label>
+  <Ibex.tools.1.label>right hoof</Ibex.tools.1.label>
+  <Ibex.tools.3.label>head</Ibex.tools.3.label>
+  <Ibex_Leather.label>ibex leather</Ibex_Leather.label>
+  <Ibex_Leather.description>ibex leather</Ibex_Leather.description>
+  <Ibex_Leather.stuffProps.stuffAdjective>ibex leather</Ibex_Leather.stuffProps.stuffAdjective>
+  <Ibex_Meat.label>carne de íbice</Ibex_Meat.label>
+  <Ibex_Meat.description>La carne de un íbice.</Ibex_Meat.description>
+  <Ibex_Corpse.label>cadáver de íbice</Ibex_Corpse.label>
+  <Ibex_Corpse.description>El cuerpo sin vida de un íbice.</Ibex_Corpse.description>
 
-	<Elk.label>Alce</Elk.label>
-	<Elk.description>Un animal de gran tamaño de la familia de los venados, bien adaptado la vida en climas fríos.</Elk.description>
-	<Elk_Meat.label>carne de alce</Elk_Meat.label>
-	<Elk_Meat.description>La carne de un alce.</Elk_Meat.description>
-	<Elk_Corpse.label>cadáver de alce</Elk_Corpse.label>
-	<Elk_Corpse.description>El cuerpo sin vida de un alce.</Elk_Corpse.description>
-	
-	<Caribou.label>Reno</Caribou.label>
-	<Caribou.description>Un pariente de gran tamaño de los venados, bien adaptado a los climas fríos.</Caribou.description>
-	<Caribou_Meat.label>carne de reno</Caribou_Meat.label>
-	<Caribou_Meat.description>La carne de un reno.</Caribou_Meat.description>
-	<Caribou_Corpse.label>cadáver de reno</Caribou_Corpse.label>
-	<Caribou_Corpse.description>El cuerpo sin vida de un reno.</Caribou_Corpse.description>	
+  <Elk.label>Alce</Elk.label>
+  <Elk.description>Un animal de gran tamaño de la familia de los venados, bien adaptado la vida en climas fríos.</Elk.description>
+  <Elk.tools.0.label>left hoof</Elk.tools.0.label>
+  <Elk.tools.1.label>right hoof</Elk.tools.1.label>
+  <Elk.tools.3.label>head</Elk.tools.3.label>
+  <Elk_Leather.label>elk leather</Elk_Leather.label>
+  <Elk_Leather.description>elk leather</Elk_Leather.description>
+  <Elk_Leather.stuffProps.stuffAdjective>elk leather</Elk_Leather.stuffProps.stuffAdjective>
+  <Elk_Meat.label>carne de alce</Elk_Meat.label>
+  <Elk_Meat.description>La carne de un alce.</Elk_Meat.description>
+  <Elk_Corpse.label>cadáver de alce</Elk_Corpse.label>
+  <Elk_Corpse.description>El cuerpo sin vida de un alce.</Elk_Corpse.description>
 
-	<WildBoar.label>Jabalí</WildBoar.label>
-	<WildBoar.description>Aunque son considerados impuros por algunas culturas, esta peluda especie primitiva, de la que deriva el cerdo doméstico, es preciada por el fuerte sabor de su carne.</WildBoar.description>
-	<WildBoar_Corpse.label>cadáver de jabalí</WildBoar_Corpse.label>
-	<WildBoar_Corpse.description>El cuerpo sin vida de un jabalí.</WildBoar_Corpse.description>
+  <Caribou.label>Reno</Caribou.label>
+  <Caribou.description>Un pariente de gran tamaño de los venados, bien adaptado a los climas fríos.</Caribou.description>
+  <Caribou.tools.0.label>left hoof</Caribou.tools.0.label>
+  <Caribou.tools.1.label>right hoof</Caribou.tools.1.label>
+  <Caribou.tools.3.label>head</Caribou.tools.3.label>
+  <Caribou_Leather.label>caribou leather</Caribou_Leather.label>
+  <Caribou_Leather.description>caribou leather</Caribou_Leather.description>
+  <Caribou_Leather.stuffProps.stuffAdjective>caribou leather</Caribou_Leather.stuffProps.stuffAdjective>
+  <Caribou_Meat.label>carne de reno</Caribou_Meat.label>
+  <Caribou_Meat.description>La carne de un reno.</Caribou_Meat.description>
+  <Caribou_Corpse.label>cadáver de reno</Caribou_Corpse.label>
+  <Caribou_Corpse.description>El cuerpo sin vida de un reno.</Caribou_Corpse.description>
 
-	<Tortoise.label>Tortuga</Tortoise.label>
-	<Tortoise.description>Este blindado reptil terrestre es conocido por su lenta velocidad de movimiento y sus mordiscos sorprendentes feroces.</Tortoise.description>
-	<Tortoise_Meat.label>carne de tortuga</Tortoise_Meat.label>
-	<Tortoise_Meat.description>La carne de una tortuga.</Tortoise_Meat.description>
-	<Tortoise_Corpse.label>cadáver de tortuga</Tortoise_Corpse.label>
-	<Tortoise_Corpse.description>El cuerpo sin vida de una tortuga.</Tortoise_Corpse.description>
+  <WildBoar.label>Jabalí</WildBoar.label>
+  <WildBoar.description>Aunque son considerados impuros por algunas culturas, esta peluda especie primitiva, de la que deriva el cerdo doméstico, es preciada por el fuerte sabor de su carne.</WildBoar.description>
+  <WildBoar.tools.0.label>tusk</WildBoar.tools.0.label>
+  <WildBoar.tools.2.label>head</WildBoar.tools.2.label>
+  <WildBoar_Leather.label>wild boar leather</WildBoar_Leather.label>
+  <WildBoar_Leather.description>wild boar leather</WildBoar_Leather.description>
+  <WildBoar_Leather.stuffProps.stuffAdjective>wild boar leather</WildBoar_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Pig -->
+  <WildBoar_Corpse.label>cadáver de jabalí</WildBoar_Corpse.label>
+  <WildBoar_Corpse.description>El cuerpo sin vida de un jabalí.</WildBoar_Corpse.description>
+
+  <Tortoise.label>Tortuga</Tortoise.label>
+  <Tortoise.description>Este blindado reptil terrestre es conocido por su lenta velocidad de movimiento y sus mordiscos sorprendentes feroces.</Tortoise.description>
+  <Tortoise.tools.0.label>beak</Tortoise.tools.0.label>
+  <Tortoise.tools.1.label>head</Tortoise.tools.1.label>
+  <Tortoise_Leather.label>tortoise leather</Tortoise_Leather.label>
+  <Tortoise_Leather.description>tortoise leather</Tortoise_Leather.description>
+  <Tortoise_Leather.stuffProps.stuffAdjective>tortoise leather</Tortoise_Leather.stuffProps.stuffAdjective>
+  <Tortoise_Meat.label>carne de tortuga</Tortoise_Meat.label>
+  <Tortoise_Meat.description>La carne de una tortuga.</Tortoise_Meat.description>
+  <Tortoise_Corpse.label>cadáver de tortuga</Tortoise_Corpse.label>
+  <Tortoise_Corpse.description>El cuerpo sin vida de una tortuga.</Tortoise_Corpse.description>
 
 </LanguageData>

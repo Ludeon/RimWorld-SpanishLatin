@@ -13,11 +13,11 @@
 		<li>circumstance_phrase->y equipados para sobrevivir</li>
 		<li>circumstance_phrase->y equipados para la exploración</li>
 		<li>circumstance_phrase->con una mirada ansiosa</li>
-		<li>circumstance_phrase->con una mirada [adjective] en [PAWN_possessive] ojos</li>
-		<li>desc_sentence->[Quantity_adjphrase] [Ally]s vigilan los preparativos.</li>
-		<li>desc_sentence->[Quantity_adjphrase] [Ally]s ayudan con los preparativos.</li>
+		<li>circumstance_phrase->con una mirada [AdjectiveAny] en [PAWN_possessive] ojos</li>
+		<li>desc_sentence->[Quantity_adjphrase] [ally]s vigilan los preparativos.</li>
+		<li>desc_sentence->[Quantity_adjphrase] [ally]s ayudan con los preparativos.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Enemy]s se alejan de la escena.</li>
-		<li>desc_sentence->Un [Terrainfeature] es visible a lo lejos.</li>
+		<li>desc_sentence->Un [TerrainFeature] es visible a lo lejos.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observan desde la distancia.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s vagan pacíficamente.</li>
 	</CaravanFormed.rulePack.rulesStrings>
@@ -30,7 +30,7 @@
 		<li>tale_noun->[PAWN_nameDef] fue perseguido(a) por los enemigos</li>
 		<li>image->[PAWN_nameFull] corriendo frenéticamente [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] corriendo [circumstance_group]</li>
-		<li>image->[PAWN_nameFull] detrás de un [Terrainfeature], oculto [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] detrás de un [TerrainFeature], oculto [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] preparando una retirada del combate [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] paseando casualmente [circumstance_group]</li>
 		<li>circumstance_phrase->a pesar de los [Quantity_adjphrase] [Enemy]s que le persiguen</li>
@@ -74,22 +74,22 @@
 
   <CaravanRemoteMining.label>Caravana: Minado Remoto</CaravanRemoteMining.label>
 	<CaravanRemoteMining.rulePack.rulesStrings>
-		<li>tale_noun->[PAWN_nameDef] minó una rica veta de [material_label] en una tierra lejana</li>
-		<li>image->[PAWN_nameFull] trabajando una pared de [material_label] con herramientas de minería, [circumstance_group]</li>
-		<li>image->[PAWN_nameFull] sosteniendo un pedazo de [material_label], [circumstance_group]</li>
-		<li>image->[PAWN_nameFull] descansando en una pared de [material_label], [circumstance_group]</li>
-		<li>image->[PAWN_nameFull] coordinando un equipo de excavación para trabajar en una rica veta de [material_label], [circumstance_group]</li>
-		<li>image->[PAWN_nameFull] inspeccionando cuidadosamente una rica veta de [material_label], [circumstance_group]</li>
+		<li>tale_noun->[PAWN_nameDef] minó una rica veta de [MATERIAL_label] en una tierra lejana</li>
+		<li>image->[PAWN_nameFull] trabajando una pared de [MATERIAL_label] con herramientas de minería, [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] sosteniendo un pedazo de [MATERIAL_label], [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] descansando en una pared de [MATERIAL_label], [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] coordinando un equipo de excavación para trabajar en una rica veta de [MATERIAL_label], [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] inspeccionando cuidadosamente una rica veta de [MATERIAL_label], [circumstance_group]</li>
 		<li>circumstance_phrase->sudando mucho</li>
 		<li>circumstance_phrase->con expresión [AdjectiveFriendly]</li>
 		<li>circumstance_phrase->sonriendo orgullosamente</li>
 		<li>circumstance_phrase->con una expresión de satisfacción en la cara de [PAWN_possessive]</li>
 		<li>circumstance_phrase->revisando los alrededores en busca de peligro</li>
-		<li>desc_sentence->[Quantity_adjphrase] [Ally]s ayudan.</li>
+		<li>desc_sentence->[Quantity_adjphrase] [ally]s ayudan.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s viven en el área.</li>
 		<li>desc_sentence->Hay un refugio improvisado en el fondo.</li>
 		<li>desc_sentence->[Quantity_adjphrase] otras vetas son visibles en la distancia.</li>
-		<li>desc_sentence->Un [Terrainfeature] es visible a la distancia.</li>
+		<li>desc_sentence->Un [TerrainFeature] es visible a la distancia.</li>
 		<li>desc_sentence->[PAWN_nameDef] está sudado(a) y sucio(a) de tanto trabajar.</li>
 	</CaravanRemoteMining.rulePack.rulesStrings>
 

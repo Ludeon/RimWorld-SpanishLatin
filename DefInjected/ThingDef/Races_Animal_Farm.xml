@@ -1,34 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
+
+  <Chicken.label>Pollo</Chicken.label>
+  <Chicken.description>El ave más tradicional de una granja. Los pollos se crían por su carne y sus huevos.</Chicken.description>
+  <Chicken.tools.0.label>claws</Chicken.tools.0.label>
+  <Chicken.tools.1.label>beak</Chicken.tools.1.label>
+  <Chicken.tools.2.label>head</Chicken.tools.2.label>
+  <!-- Leather Amount: 0 -->
+  <Chicken_Meat.label>carne de pollo</Chicken_Meat.label>
+  <Chicken_Meat.description>La carne de un pollo.</Chicken_Meat.description>
+  <Chicken_Corpse.label>cadáver de pollo</Chicken_Corpse.label>
+  <Chicken_Corpse.description>El cuerpo sin vida de un pollo.</Chicken_Corpse.description>
+
+  <Pig.label>Cerdo</Pig.label>
+  <Pig.description>Aunque algunas culturas lo consideran impuro, el cerdo doméstico todavía se cría comúnmente por su carne.</Pig.description>
+  <Pig.tools.1.label>head</Pig.tools.1.label>
+  <Pig_Leather.label>pig leather</Pig_Leather.label>
+  <Pig_Leather.description>pig leather</Pig_Leather.description>
+  <Pig_Leather.stuffProps.stuffAdjective>pig leather</Pig_Leather.stuffProps.stuffAdjective>
+  <Pig_Meat.label>carne de cerdo</Pig_Meat.label>
+  <Pig_Meat.description>La carne de un cerdo.</Pig_Meat.description>
+  <Pig_Corpse.label>cadáver de cerdo</Pig_Corpse.label>
+  <Pig_Corpse.description>El cuerpo sin vida de un cerdo.</Pig_Corpse.description>
+
+  <Cow.label>Vaca</Cow.label>
+  <Cow.description>Un animal doméstico común. Puede producir grandes cantidades de leche, o ser sacrificada por su deliciosa carne.</Cow.description>
+  <Cow.tools.1.label>head</Cow.tools.1.label>
+  <Cow.tools.2.label>left hoof</Cow.tools.2.label>
+  <Cow.tools.3.label>right hoof</Cow.tools.3.label>
+  <Cow_Leather.label>cow leather</Cow_Leather.label>
+  <Cow_Leather.description>cow leather</Cow_Leather.description>
+  <Cow_Leather.stuffProps.stuffAdjective>cow leather</Cow_Leather.stuffProps.stuffAdjective>
+  <Cow_Meat.label>carne de vaca</Cow_Meat.label>
+  <Cow_Meat.description>La carne de una vaca.</Cow_Meat.description>
+  <Cow_Corpse.label>cadáver de vaca</Cow_Corpse.label>
+  <Cow_Corpse.description>El cuerpo sin vida de una vaca.</Cow_Corpse.description>
+
+  <Alpaca.label>Alpaca</Alpaca.label>
+  <Alpaca.description>Un ungulado de tamaño medio y pariente cercano de las llamas, la alpaca a menudo se cría por su lana increíblemente suave.</Alpaca.description>
+  <Alpaca.tools.0.label>left hoof</Alpaca.tools.0.label>
+  <Alpaca.tools.1.label>right hoof</Alpaca.tools.1.label>
+  <Alpaca.tools.3.label>head</Alpaca.tools.3.label>
+  <Alpaca_Leather.label>alpaca leather</Alpaca_Leather.label>
+  <Alpaca_Leather.description>alpaca leather</Alpaca_Leather.description>
+  <Alpaca_Leather.stuffProps.stuffAdjective>alpaca leather</Alpaca_Leather.stuffProps.stuffAdjective>
+  <Alpaca_Meat.label>carne de alpaca</Alpaca_Meat.label>
+  <Alpaca_Meat.description>La carne de una alpaca.</Alpaca_Meat.description>
+  <Alpaca_Corpse.label>cadáver de alpaca</Alpaca_Corpse.label>
+  <Alpaca_Corpse.description>El cuerpo sin vida de una alpaca.</Alpaca_Corpse.description>
+
+
   <!-- =============================== Farm animals ============================= -->
-  
-	<Chicken.label>Pollo</Chicken.label>
-	<Chicken.description>El ave más tradicional de una granja. Los pollos se crían por su carne y sus huevos.</Chicken.description>	
-	<Chicken_Meat.label>carne de pollo</Chicken_Meat.label>
-	<Chicken_Meat.description>La carne de un pollo.</Chicken_Meat.description>
-	<Chicken_Corpse.label>cadáver de pollo</Chicken_Corpse.label>
-	<Chicken_Corpse.description>El cuerpo sin vida de un pollo.</Chicken_Corpse.description>
-  
-	<Pig.label>Cerdo</Pig.label>
-	<Pig.description>Aunque algunas culturas lo consideran impuro, el cerdo doméstico todavía se cría comúnmente por su carne.</Pig.description>
-	<Pig_Meat.label>carne de cerdo</Pig_Meat.label>
-	<Pig_Meat.description>La carne de un cerdo.</Pig_Meat.description>
-	<Pig_Corpse.label>cadáver de cerdo</Pig_Corpse.label>
-	<Pig_Corpse.description>El cuerpo sin vida de un cerdo.</Pig_Corpse.description>
-	
-	<Cow.label>Vaca</Cow.label>
-	<Cow.description>Un animal doméstico común. Puede producir grandes cantidades de leche, o ser sacrificada por su deliciosa carne.</Cow.description>
-	<Cow_Meat.label>carne de vaca</Cow_Meat.label>
-	<Cow_Meat.description>La carne de una vaca.</Cow_Meat.description>
-	<Cow_Corpse.label>cadáver de vaca</Cow_Corpse.label>
-	<Cow_Corpse.description>El cuerpo sin vida de una vaca.</Cow_Corpse.description>
-	
-	<Alpaca.label>Alpaca</Alpaca.label>
-	<Alpaca.description>Un ungulado de tamaño medio y pariente cercano de las llamas, la alpaca a menudo se cría por su lana increíblemente suave.</Alpaca.description>
-	<Alpaca_Meat.label>carne de alpaca</Alpaca_Meat.label>
-	<Alpaca_Meat.description>La carne de una alpaca.</Alpaca_Meat.description>
-	<Alpaca_Corpse.label>cadáver de alpaca</Alpaca_Corpse.label>
-	<Alpaca_Corpse.description>El cuerpo sin vida de una alpaca.</Alpaca_Corpse.description>
-  
+
 </LanguageData>

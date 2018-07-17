@@ -62,8 +62,8 @@
 		<li>desc_sentence->[Quantity_adjphrase] [PersonJob]s están [event].</li>
 		<li>desc_sentence->[Quantity_adjphrase] [PersonJob]s están [event].</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s rodean al grupo.</li>
-		<li>desc_sentence->El sol se posa detrás de un [Terrainfeature].</li>
-		<li>desc_sentence->El sol sala detrás de un [Terrainfeature].</li>
+		<li>desc_sentence->El sol se posa detrás de un [TerrainFeature].</li>
+		<li>desc_sentence->El sol sala detrás de un [TerrainFeature].</li>
 		<li>desc_sentence->A la distancia, un [PersonJob] observa.</li>
 		<li>event->organizando una fiesta</li>
 		<li>event->comiendo carnes asadas</li>
@@ -81,15 +81,15 @@
 		<li>image->[PAWN_nameFull] pensando [circumstance_group]</li>
 		<li>image->[PAWN_nameFull] observando [circumstance_group]</li>
 		<li>image->[PAWN_nameFull], recibiendo insultos de un [PersonJob], [circumstance_group]</li>
-		<li>image->[PAWN_nameFull] blandiendo un(a)  [weapon] [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] blandiendo un(a)  [Weapon] [circumstance_group]</li>
 		<li>circumstance_phrase->con semblante [AdjectiveBadass]</li>
 		<li>circumstance_phrase->con un semblante [AdjectiveAngsty]</li>
 		<li>circumstance_phrase->mientras otros observan</li>
 		<li>circumstance_phrase->mientras es amenanazado(a) por [Enemy]s</li>
 		<li>desc_sentence->[PAWN_nameDef] está rodeado(a) por [Enemy]s.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Enemy]s están cerca, [action].</li>
-		<li>desc_sentence->El sol se oculta detrás de un [Terrainfeature].</li>
-		<li>desc_sentence->El sol sale detrás de un [Terrainfeature].</li>
+		<li>desc_sentence->El sol se oculta detrás de un [TerrainFeature].</li>
+		<li>desc_sentence->El sol sale detrás de un [TerrainFeature].</li>
 		<li>desc_sentence->A la distancia, un [PersonJob] observa.</li>
 		<li>action->afilando sus armas</li>
 		<li>action->vigilando</li>
@@ -139,7 +139,7 @@
 		<li>circumstance_phrase->con patrones que parecen huesos</li>
 		<li>circumstance_phrase->esperando que el veneno se detenga</li>
 		<li>desc_sentence->[PAWN_nameDef] yace en el suelo, su cuerpo retorcido de forma inusual.</li>
-		<li>desc_sentence->[PAWN_nameDef] se esconde cerca de un [Terrainfeature], mirando con semblante [AdjectiveAngsty].</li>
+		<li>desc_sentence->[PAWN_nameDef] se esconde cerca de un [TerrainFeature], mirando con semblante [AdjectiveAngsty].</li>
 		<li>desc_sentence->[PAWN_nameDef] observa en estado de shock.</li>
 		<li>desc_sentence->[PAWN_nameDef] descansa apaciblemente con una capa de sudor en su rostro.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s muertos cubren el suelo.</li>
@@ -152,7 +152,7 @@
 		<li>tale_noun->un invierno volcánico comenzó en la comunidad de [PAWN_nameDef] [Community]</li>
 		<li>image->un cielo frío y oscuro, [circumstance_group]</li>
 		<li>image->el aire llenándose de ceniza, [circumstance_group]</li>
-		<li>image->un [Terrainfeature] congelado y oscuro [circumstance_group]</li>
+		<li>image->un [TerrainFeature] congelado y oscuro [circumstance_group]</li>
 		<li>image->[Quantity_adjphrase] campos de plantas cubiertas de ceniza [circumstance_group]</li>
 		<li>circumstance_phrase->sin rastros de vida a la vista</li>
 		<li>circumstance_phrase->apenas iluminados por débiles rayos de luz</li>
@@ -160,7 +160,7 @@
 		<li>desc_sentence->[PAWN_nameDef] está descansando junto a una fogata.</li>
 		<li>desc_sentence->Para mantenerse caliente, [PAWN_nameDef] viste [Quantity_adjphrase] [Apparel]s.</li>
 		<li>desc_sentence->[PAWN_nameDef] está sentado(a) cerca, visiblemente exhausto(a) por el asunto.</li>
-		<li>desc_sentence->[PAWN_nameDef] se esconde cerca de un [Terrainfeature], observando con semblante [AdjectiveAngsty].</li>
+		<li>desc_sentence->[PAWN_nameDef] se esconde cerca de un [TerrainFeature], observando con semblante [AdjectiveAngsty].</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s hambrientos rodean la escena.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s temblando rodean la escena.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s muertos cubren el suelo.</li>
@@ -177,14 +177,14 @@
 		<li>image->una red de luces de color [Color] [circumstance_phrase]</li>
 		<li>image->arcos de color [Color] cruzando el cielo [circumstance_phrase]</li>
 		<li>image->luces de color [Color] danzando [circumstance_group]</li>
-		<li>circumstance_phrase->sobre un [Terrainfeature]</li>
-		<li>circumstance_phrase->iluminando un [Terrainfeature]</li>
+		<li>circumstance_phrase->sobre un [TerrainFeature]</li>
+		<li>circumstance_phrase->iluminando un [TerrainFeature]</li>
 		<li>circumstance_phrase->sobre un [Community]</li>
-		<li>circumstance_phrase->entre un [Terrainfeature] y un [Terrainfeature]</li>
+		<li>circumstance_phrase->entre un [TerrainFeature] y un [TerrainFeature]</li>
 		<li>desc_sentence->Debajo, [PAWN_nameDef] juega [Game] con semblante [AdjectiveFriendly].</li>
 		<li>desc_sentence->[PAWN_nameDef] observa con expresión de asombro.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observan desde abajo.</li>
-		<li>desc_sentence->[PAWN_nameDef] está sentado cerca de un [Terrainfeature], observando el cielo.</li>
+		<li>desc_sentence->[PAWN_nameDef] está sentado cerca de un [TerrainFeature], observando el cielo.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s pasean pacíficamente.</li>
 		<li>desc_sentence->No hay [Enemy]s a la vista.</li>
 	</Aurora.rulePack.rulesStrings>
@@ -203,8 +203,8 @@
 		<li>behavior->una impresionante</li>
 		<li>circumstance_phrase->avanzando hacia un [Community]</li>
 		<li>circumstance_phrase->debajo de una nube intimidante</li>
-		<li>circumstance_phrase->cubriendo un [Terrainfeature] casi completamente</li>
-		<li>circumstance_phrase->cubriendo [Quantity_adjphrase] [Terrainfeature]s casi completamente</li>
+		<li>circumstance_phrase->cubriendo un [TerrainFeature] casi completamente</li>
+		<li>circumstance_phrase->cubriendo [Quantity_adjphrase] [TerrainFeature]s casi completamente</li>
 		<li>desc_sentence->[PAWN_nameDef] observa con temor.</li>
 		<li>desc_sentence->[PAWN_nameDef] observa con asombro.</li>
 		<li>desc_sentence->[PAWN_nameDef] está coordinando las medidas defensivas.</li>
@@ -247,16 +247,16 @@
 		<li>image->una fuerza invasora [circumstance_phrase]</li>
 		<li>image->estandartes de color [Color] [circumstance_phrase]</li>
 		<li>image->un enorme [Enemy] [circumstance_phrase]</li>
-		<li>circumstance_phrase->avanzando cerca de un [Terrainfeature]</li>
+		<li>circumstance_phrase->avanzando cerca de un [TerrainFeature]</li>
 		<li>circumstance_phrase->rodeando completamente un [Community]</li>
 		<li>circumstance_phrase->atacando a [Quantity_adjphrase] [PersonJob]s</li>
 		<li>circumstance_phrase->rugiendo con emoción</li>
-		<li>circumstance_phrase->blandiendo [weapon]s</li>
+		<li>circumstance_phrase->blandiendo [Weapon]s</li>
 		<li>circumstance_phrase->cubiertos en sangre</li>
 		<li>desc_sentence->[PAWN_nameDef] organiza una resistencia mientras [defender_circumstance].</li>
-		<li>desc_sentence->[PAWN_nameDef] blande un(a)[weapon] defensivamente mientras [defender_circumstance].</li>
+		<li>desc_sentence->[PAWN_nameDef] blande un(a)[Weapon] defensivamente mientras [defender_circumstance].</li>
 		<li>desc_sentence->[PAWN_nameDef] yace en el suelo, herido(a).</li>
-		<li>desc_sentence->[PAWN_nameDef] se defiende con un(a) [weapon] mientras [defender_circumstance].</li>
+		<li>desc_sentence->[PAWN_nameDef] se defiende con un(a) [Weapon] mientras [defender_circumstance].</li>
 		<li>desc_sentence->[PAWN_nameDef] se yergue tan alto(a) como un edificio, y [defender_circumstance].</li>
 		<li>desc_sentence->[PAWN_nameDef] tiene un semblante [AdjectiveBadass].</li>
 		<li>desc_sentence->[PAWN_nameDef] tiene un semblante [AdjectiveAngsty].</li>
@@ -276,15 +276,15 @@
 		<li>image->[Quantity_adjphrase] megarañas [circumstance_phrase]</li>
 		<li>image->una marea abrumadora de insectos de color [Color] [circumstance_phrase]</li>
 		<li>image->una densa niebla de manchas negras [circumstance_phrase]</li>
-		<li>circumstance_phrase->avanzando sobre un [Terrainfeature]</li>
+		<li>circumstance_phrase->avanzando sobre un [TerrainFeature]</li>
 		<li>circumstance_phrase->rodeando completamente un [Community]</li>
 		<li>circumstance_phrase->atacando a [Quantity_adjphrase] [PersonJob]s</li>
 		<li>circumstance_phrase->saliendo del suelo</li>
 		<li>circumstance_phrase->masacrando a [Quantity_adjphrase] [Animal]s</li>
 		<li>desc_sentence->[PAWN_nameDef] organiza una resistencia.</li>
-		<li>desc_sentence->[PAWN_nameDef] blande un(a) [weapon] defensivamente.</li>
+		<li>desc_sentence->[PAWN_nameDef] blande un(a) [Weapon] defensivamente.</li>
 		<li>desc_sentence->[PAWN_nameDef] yace en el suelo, herido(a).</li>
-		<li>desc_sentence->[PAWN_nameDef] toma represalias con un(a) [weapon].</li>
+		<li>desc_sentence->[PAWN_nameDef] toma represalias con un(a) [Weapon].</li>
 		<li>desc_sentence->[PAWN_nameDef] tiene un semblante [AdjectiveBadass].</li>
 		<li>desc_sentence->[PAWN_nameDef] tiene un semblante [AdjectiveAngsty].</li>
 		<li>desc_sentence->El suelo está cubierto de [Gore]s.</li>
@@ -301,7 +301,7 @@
 		<li>image->un [huge] [Animal] [circumstance_phrase]</li>
 		<li>image->[Quantity_adjphrase] figuras sombrías [circumstance_phrase]</li>
 		<li>image->[Quantity_adjphrase] cuadrúpedos sombríos [circumstance_phrase]</li>
-		<li>circumstance_phrase->avanzando sobre un [Terrainfeature]</li>
+		<li>circumstance_phrase->avanzando sobre un [TerrainFeature]</li>
 		<li>circumstance_phrase->rodeando por completo un [Community]</li>
 		<li>circumstance_phrase->atacando a [Quantity_adjphrase] [PersonJob]s</li>
 		<li>circumstance_phrase->masacrando a [Quantity_adjphrase] [Animal]s</li>
@@ -311,9 +311,9 @@
 		<li>hate_emotion->el enojo</li>
 		<li>hate_emotion->la furia</li>
 		<li>desc_sentence->[PAWN_nameDef] organiza una resistencia.</li>
-		<li>desc_sentence->[PAWN_nameDef] blande un(a) [weapon] defensivamente.</li>
+		<li>desc_sentence->[PAWN_nameDef] blande un(a) [Weapon] defensivamente.</li>
 		<li>desc_sentence->[PAWN_nameDef] yace en el suelo, herido(a).</li>
-		<li>desc_sentence->[PAWN_nameDef] toma represalias con un(a) [weapon].</li>
+		<li>desc_sentence->[PAWN_nameDef] toma represalias con un(a) [Weapon].</li>
 		<li>desc_sentence->[PAWN_nameDef] tiene un semblante [AdjectiveBadass].</li>
 		<li>desc_sentence->[PAWN_nameDef] tiene un semblante [AdjectiveAngsty].</li>
 		<li>desc_sentence->El suelo está cubierto de [Gore]s.</li>
@@ -332,16 +332,16 @@
 		<li>image->un [huge] [Mechanoid] [circumstance_phrase]</li>
 		<li>image->[Quantity_adjphrase] siluetas de [Mechanoid]s [circumstance_phrase]</li>
 		<li>image->[Quantity_adjphrase] [Mechanoid]s con sensores brillando de color [Color] [circumstance_phrase]</li>
-		<li>circumstance_phrase->avanzando sobre un [Terrainfeature]</li>
+		<li>circumstance_phrase->avanzando sobre un [TerrainFeature]</li>
 		<li>circumstance_phrase->rodeando por completo un [Community]</li>
 		<li>circumstance_phrase->atacando a [Quantity_adjphrase] [PersonJob]s</li>
 		<li>circumstance_phrase->masacrando a [Quantity_adjphrase] [Animal]s</li>
 		<li>circumstance_phrase->cubiertos de [Gore]s</li>
 		<li>circumstance_phrase->abollados y chisporroteantes</li>
 		<li>desc_sentence->[PAWN_nameDef] organiza una resistencia.</li>
-		<li>desc_sentence->[PAWN_nameDef] blande un(a) [weapon] defensivamente.</li>
+		<li>desc_sentence->[PAWN_nameDef] blande un(a) [Weapon] defensivamente.</li>
 		<li>desc_sentence->[PAWN_nameDef] yace en el suelo, herido(a).</li>
-		<li>desc_sentence->[PAWN_nameDef] toma represalias con un(a) [weapon].</li>
+		<li>desc_sentence->[PAWN_nameDef] toma represalias con un(a) [Weapon].</li>
 		<li>desc_sentence->[PAWN_nameDef] tiene un semblante [AdjectiveBadass].</li>
 		<li>desc_sentence->[PAWN_nameDef] tiene un semblante [AdjectiveAngsty].</li>
 		<li>desc_sentence->[PAWN_nameDef] se yergue alto(a) como un edificio, mientras [defender_circumstance].</li>		
@@ -363,13 +363,13 @@
 		<li>image->una luna, rodeada por un ténua círculo de luz solar, [circumstance_phrase]</li>
 		<li>image->[Quantity_adjphrase] [Animal]s observando con incertidumbre en la oscuridad, [circumstance_phrase]</li>
 		<li>circumstance_phrase->el aire está quieto</li>
-		<li>circumstance_phrase->un atardecer cubriendo un [Terrainfeature]</li>
-		<li>circumstance_phrase->un crepúsculo cobriendo [Quantity_adjphrase] [Terrainfeature]s</li>
+		<li>circumstance_phrase->un atardecer cubriendo un [TerrainFeature]</li>
+		<li>circumstance_phrase->un crepúsculo cobriendo [Quantity_adjphrase] [TerrainFeature]s</li>
 		<li>circumstance_phrase->con estrellas visibles</li>
 		<li>desc_sentence->Debajo, [PAWN_nameDef] juega [Game] con semblante [AdjectiveFriendly].</li>
 		<li>desc_sentence->[PAWN_nameDef] observa con asombro.</li>
 		<li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observan desde abajo.</li>
-		<li>desc_sentence->[PAWN_nameDef] está sentado(a) junto a un [Terrainfeature], observando el cielo.</li>
+		<li>desc_sentence->[PAWN_nameDef] está sentado(a) junto a un [TerrainFeature], observando el cielo.</li>
 		<li>desc_sentence->Un [Community] de espectadores observan el cielo en paz.</li>
 		<li>desc_sentence->No hay ningún enemigo a la vista.</li>
 	</Eclipse.rulePack.rulesStrings>
@@ -392,15 +392,15 @@
 		<li>transmission_source->una señal de baja potencia</li>
 		<li>transmission_source->una señal de largo alcance</li>
 		<li>transmission_source->una señal misteriosa</li>
-		<li>circumstance_phrase->se sienta junto a un [Terrainfeature]</li>
-		<li>circumstance_phrase->explora un [Terrainfeature]</li>
+		<li>circumstance_phrase->se sienta junto a un [TerrainFeature]</li>
+		<li>circumstance_phrase->explora un [TerrainFeature]</li>
 		<li>circumstance_phrase->atiende los cultivos</li>
 		<li>circumstance_phrase->un(a) [Animal] se pasea cerca</li>
 		<li>circumstance_phrase->jugando [Game]</li>
 		<li>desc_sentence->[Quantity_adjphrase] [Animal]s se pasean cerca, sin preocuparse.</li>
 		<li>desc_sentence->Mientras [PAWN_pronoun] lee, [PAWN_pronoun] comienza a [VerbFriendly].</li>
 		<li>desc_sentence->Un [PersonJob] espectral observa desde las nubes.</li>
-		<li>desc_sentence->[PAWN_nameDef] se sienta junto a un [Terrainfeature].</li>
+		<li>desc_sentence->[PAWN_nameDef] se sienta junto a un [TerrainFeature].</li>
 		<li>desc_sentence->Un [Community] se ve a la distancia.</li>
 		<li>desc_sentence->Una nave espacial se ve a la distancia.</li>
 	</JourneyOffer.rulePack.rulesStrings>

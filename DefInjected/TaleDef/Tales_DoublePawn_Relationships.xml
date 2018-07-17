@@ -3,10 +3,10 @@
 
  	  <BondedWithAnimal.label>Vínculo Creado</BondedWithAnimal.label>
 	<BondedWithAnimal.rulePack.rulesStrings>
-		<li>tale_noun->[TRAINER_nameDef] creó un vínculo con [ANIMAL_nameDef]</li>
-		<li>image->[TAMER_nameFull] se encariña con [ANIMAL_nameFull] [circumstance_group]</li>
-		<li>image->[TAMER_nameFull] forma un vínculo profundo con [ANIMAL_nameFull] [circumstance_group]</li>
-		<li>image->[TAMER_nameFull] se da cuenta de su amor por [ANIMAL_nameFull] [circumstance_group]</li>
+		<li>tale_noun->[HUMAN_nameDef] creó un vínculo con [ANIMAL_nameDef]</li>
+		<li>image->[HUMAN_nameFull] se encariña con [ANIMAL_nameFull] [circumstance_group]</li>
+		<li>image->[HUMAN_nameFull] forma un vínculo profundo con [ANIMAL_nameFull] [circumstance_group]</li>
+		<li>image->[HUMAN_nameFull] se da cuenta de su amor por [ANIMAL_nameFull] [circumstance_group]</li>
 		<li>circumstance_phrase->mientras otros Animales observan</li>
 		<li>circumstance_phrase->mientras [human_pronoun] mira a [ANIMAL_nameDef] a los ojos</li>
 		<li>circumstance_phrase->con cara de satisfacción</li>
@@ -27,21 +27,21 @@
 		<li>circumstance_phrase->entre las sábanas</li>
 		<li>circumstance_phrase->con poca ropa a la vista</li>
 		<li>circumstance_phrase->ambos bañados en sudor</li>
-		<li>desc_sentence->[PURSUER_nameFull] se acurruca en [ACCEPTER_nameFull].</li>
-		<li>desc_sentence->[PURSUER_nameFull] y [ACCEPTER_nameFull] se miran a los ojos.</li>
-		<li>desc_sentence->[PURSUER_nameFull] sopla al oído de [ACCEPTER_nameFull].</li>
-		<li>desc_sentence->[PURSUER_nameFull] está abrazando a [ACCEPTER_nameFull].</li>
-		<li>desc_sentence->[PURSUER_nameFull] está oliendo el cabello de [ACCEPTER_nameFull].</li>
-		<li>desc_sentence->[PURSUER_nameFull] abraza agresivamente a [ACCEPTER_nameFull].</li>
+		<li>desc_sentence->[PURSUER_nameDef] se acurruca en [ACCEPTER_nameDef].</li>
+		<li>desc_sentence->[PURSUER_nameDef] y [ACCEPTER_nameDef] se miran a los ojos.</li>
+		<li>desc_sentence->[PURSUER_nameDef] sopla al oído de [ACCEPTER_nameDef].</li>
+		<li>desc_sentence->[PURSUER_nameDef] está abrazando a [ACCEPTER_nameDef].</li>
+		<li>desc_sentence->[PURSUER_nameDef] está oliendo el cabello de [ACCEPTER_nameDef].</li>
+		<li>desc_sentence->[PURSUER_nameDef] abraza agresivamente a [ACCEPTER_nameDef].</li>
 	</BecameLover.rulePack.rulesStrings>
 
  	  <Breakup.label>Rompimiento</Breakup.label>
 	<Breakup.rulePack.rulesStrings>
 		<li>tale_noun->[DUMPER_nameDef] y [REJECTED_nameDef] rompieron su relación</li>
-		<li>image->[DUMPER_nameDef] sentando a [REJECTED_nameFull] a la mesa para una charla poco placentera [circumstance_group]</li>
-		<li>image->[DUMPER_nameDef] está de pie a corta distancia de [REJECTED_nameFull] [circumstance_group]</li>
-		<li>image->[DUMPER_nameDef] empujando a [REJECTED_nameFull] fuera de la cama [circumstance_group]</li>
-		<li>image->[DUMPER_nameDef] rechazando un abrazo de [REJECTED_nameFull] [circumstance_group]</li>
+		<li>image->[DUMPER_nameFull] sentando a [REJECTED_nameFull] a la mesa para una charla poco placentera [circumstance_group]</li>
+		<li>image->[DUMPER_nameFull] está de pie a corta distancia de [REJECTED_nameFull] [circumstance_group]</li>
+		<li>image->[DUMPER_nameFull] empujando a [REJECTED_nameFull] fuera de la cama [circumstance_group]</li>
+		<li>image->[DUMPER_nameFull] rechazando un abrazo de [REJECTED_nameFull] [circumstance_group]</li>
 		<li>circumstance_phrase->en un momento de gran tristeza</li>
 		<li>circumstance_phrase->mientras otros observan incómodamente</li>
 		<li>circumstance_phrase->mientras otros observan</li>
