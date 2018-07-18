@@ -1,69 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <Muffalo.label>Múfalo</Muffalo.label>
-  <Muffalo.description>Un animal herbívoro de gran tamaño que se mueve en manadas, descendiente del búfalo y adaptado a ambientes exóticos. Pacífico mientras no se le moleste.</Muffalo.description>
-  <Muffalo.tools.0.label>cabeza</Muffalo.tools.0.label>
-  <Muffalo.tools.1.label>pezuña izquierda</Muffalo.tools.1.label>
-  <Muffalo.tools.2.label>pezuña derecha</Muffalo.tools.2.label>
-  <Muffalo_Leather.label>muffalo cuero</Muffalo_Leather.label>
-  <Muffalo_Leather.description>cuero de mufalo </Muffalo_Leather.description>
-  <Muffalo_Leather.stuffProps.stuffAdjective>cuero de mufalo </Muffalo_Leather.stuffProps.stuffAdjective>
-  <Muffalo_Meat.label>carne de múfalo</Muffalo_Meat.label>
-  <Muffalo_Meat.description>La carne de un múfalo.</Muffalo_Meat.description>
-  <Muffalo_Corpse.label>cadáver de múfalo</Muffalo_Corpse.label>
-  <Muffalo_Corpse.description>El cuerpo sin vida de un múfalo.</Muffalo_Corpse.description>
+	<!-- ============================ Cold weather animals ========================== -->
 
-  <Gazelle.label>Gacela</Gazelle.label>
-  <Gazelle.description>Un antílope pequeño y extremadamente rápido conocido por sus grandes saltos.</Gazelle.description>
-  <Gazelle.tools.0.label>pezuña izquierda</Gazelle.tools.0.label>
-  <Gazelle.tools.1.label>pezuña derecha</Gazelle.tools.1.label>
-  <Gazelle.tools.3.label>cabeza</Gazelle.tools.3.label>
-  <Gazelle_Leather.label>gazela cuero</Gazelle_Leather.label>
-  <Gazelle_Leather.description>cuero de gazelacuero</Gazelle_Leather.description>
-  <Gazelle_Leather.stuffProps.stuffAdjective>cuero de gazelacuero</Gazelle_Leather.stuffProps.stuffAdjective>
-  <Gazelle_Meat.label>carne de gacela</Gazelle_Meat.label>
-  <Gazelle_Meat.description>La carne de una gacela.</Gazelle_Meat.description>
-  <Gazelle_Corpse.label>cadáver de gacela</Gazelle_Corpse.label>
-  <Gazelle_Corpse.description>El cuerpo sin vida de una gacela.</Gazelle_Corpse.description>
+	<Muffalo.label>Múfalo</Muffalo.label>
+	<Muffalo.description>Un animal herbívoro de gran tamaño que se mueve en manadas, descendiente del búfalo y adaptado a ambientes exóticos. Pacífico mientras no se le moleste.</Muffalo.description>
+	<Muffalo_Meat.label>carne de múfalo</Muffalo_Meat.label>
+	<Muffalo_Meat.description>La carne de un múfalo.</Muffalo_Meat.description>
+	<Muffalo_Corpse.label>cadáver de múfalo</Muffalo_Corpse.label>
+	<Muffalo_Corpse.description>El cuerpo sin vida de un múfalo.</Muffalo_Corpse.description>
 
-  <Iguana.label>Iguana</Iguana.label>
-  <Iguana.description>Estos grandes lagartos normalmente se alimentan de plantas. De cualquier forma, si se les enfada, su gruesa piel y sus garras afiladas pueden hacerles bastante peligrosos.</Iguana.description>
-  <Iguana.tools.0.label>garra izquierda</Iguana.tools.0.label>
-  <Iguana.tools.1.label>garra derecha</Iguana.tools.1.label>
-  <Iguana.tools.3.label>cabeza</Iguana.tools.3.label>
-  <Iguana_Leather.label>iguana cuero</Iguana_Leather.label>
-  <Iguana_Leather.description>iguana cuero</Iguana_Leather.description>
-  <Iguana_Leather.stuffProps.stuffAdjective>iguana cuero</Iguana_Leather.stuffProps.stuffAdjective>
-  <Iguana_Meat.label>carne de iguana</Iguana_Meat.label>
-  <Iguana_Meat.description>La carne de una iguana.</Iguana_Meat.description>
-  <Iguana_Corpse.label>cadáver de iguana</Iguana_Corpse.label>
-  <Iguana_Corpse.description>El cuerpo sin vida de una iguana.</Iguana_Corpse.description>
+	<Gazelle.label>Gacela</Gazelle.label>
+	<Gazelle.description>Un antílope pequeño y extremadamente rápido conocido por sus grandes saltos.</Gazelle.description>
+	<Gazelle_Meat.label>carne de gacela</Gazelle_Meat.label>
+	<Gazelle_Meat.description>La carne de una gacela.</Gazelle_Meat.description>
+	<Gazelle_Corpse.label>cadáver de gacela</Gazelle_Corpse.label>
+	<Gazelle_Corpse.description>El cuerpo sin vida de una gacela.</Gazelle_Corpse.description>	
+	
+	<Iguana.label>Iguana</Iguana.label>
+	<Iguana.description>Estos grandes lagartos normalmente se alimentan de plantas. De cualquier forma, si se les enfada, su gruesa piel y sus garras afiladas pueden hacerles bastante peligrosos.</Iguana.description>
+	<Iguana_Meat.label>carne de iguana</Iguana_Meat.label>
+	<Iguana_Meat.description>La carne de una iguana.</Iguana_Meat.description>
+	<Iguana_Corpse.label>cadáver de iguana</Iguana_Corpse.label>
+	<Iguana_Corpse.description>El cuerpo sin vida de una iguana.</Iguana_Corpse.description>
+	
+	<Rhinoceros.label>Rinoceronte</Rhinoceros.label>
+	<Rhinoceros.description>Este gran animal terrestre es generalmente bastante pacifico, pero no dudará en atacar con su cuerno para expulsar a los intrusos.</Rhinoceros.description>
+	<Rhinoceros_Meat.label>carne de rinoceronte</Rhinoceros_Meat.label>
+	<Rhinoceros_Meat.description>La carne de un rinoceronte.</Rhinoceros_Meat.description>
+	<Rhinoceros_Corpse.label>cadáver de rinoceronte</Rhinoceros_Corpse.label>
+	<Rhinoceros_Corpse.description>El cuerpo sin vida de un rinoceronte.</Rhinoceros_Corpse.description>
 
-  <Rhinoceros.label>Rinoceronte</Rhinoceros.label>
-  <Rhinoceros.description>Este gran animal terrestre es generalmente bastante pacifico, pero no dudará en atacar con su cuerno para expulsar a los intrusos.</Rhinoceros.description>
-  <Rhinoceros.tools.0.label>cuerno</Rhinoceros.tools.0.label>
-  <Rhinoceros.tools.1.label>cuerno</Rhinoceros.tools.1.label>
-  <Rhinoceros.tools.3.label>cabeza</Rhinoceros.tools.3.label>
-  <Rhinoceros_Leather.label>cuero de rinoceronte</Rhinoceros_Leather.label>
-  <Rhinoceros_Leather.description>cuero de rinoceronte</Rhinoceros_Leather.description>
-  <Rhinoceros_Leather.stuffProps.stuffAdjective>cuero de rinoceronte</Rhinoceros_Leather.stuffProps.stuffAdjective>
-  <Rhinoceros_Meat.label>carne de rinoceronte</Rhinoceros_Meat.label>
-  <Rhinoceros_Meat.description>La carne de un rinoceronte.</Rhinoceros_Meat.description>
-  <Rhinoceros_Corpse.label>cadáver de rinoceronte</Rhinoceros_Corpse.label>
-  <Rhinoceros_Corpse.description>El cuerpo sin vida de un rinoceronte.</Rhinoceros_Corpse.description>
-
-  <Dromedary.label>Dromedario</Dromedary.label>
-  <Dromedary.description>Adaptado para sobrevivir en ambientes áridos, este familiar lejano del caballo puede pasar semanas sin beber agua.</Dromedary.description>
-  <Dromedary.tools.0.label>pezuña izquierda</Dromedary.tools.0.label>
-  <Dromedary.tools.1.label>pezuña derecha</Dromedary.tools.1.label>
-  <Dromedary.tools.3.label>cabeza</Dromedary.tools.3.label>
-  <Dromedary_Leather.label>cuero de dromedario</Dromedary_Leather.label>
-  <Dromedary_Leather.description>cuero de dromedario</Dromedary_Leather.description>
-  <Dromedary_Leather.stuffProps.stuffAdjective>cuero de dromedario</Dromedary_Leather.stuffProps.stuffAdjective>
-  <Dromedary_Meat.label>carne de dromedario</Dromedary_Meat.label>
-  <Dromedary_Meat.description>La carne de un dromedario.</Dromedary_Meat.description>
-  <Dromedary_Corpse.label>cadáver de dromedario</Dromedary_Corpse.label>
-  <Dromedary_Corpse.description>El cuerpo sin vida de un dromedario.</Dromedary_Corpse.description>
+	<Dromedary.label>Dromedario</Dromedary.label>
+	<Dromedary.description>Adaptado para sobrevivir en ambientes áridos, este familiar lejano del caballo puede pasar semanas sin beber agua.</Dromedary.description>
+	<Dromedary_Meat.label>carne de dromedario</Dromedary_Meat.label>
+	<Dromedary_Meat.description>La carne de un dromedario.</Dromedary_Meat.description>
+	<Dromedary_Corpse.label>cadáver de dromedario</Dromedary_Corpse.label>
+	<Dromedary_Corpse.description>El cuerpo sin vida de un dromedario.</Dromedary_Corpse.description>
 
 </LanguageData>

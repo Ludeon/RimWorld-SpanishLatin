@@ -1,121 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Warg -->
+	<Warg.label>Wargo</Warg.label>
+	<Warg.description>Una creatura parecida a un lobo, de gran musculatura. Los científicos dicen que son los descendientes de un animal militar creado específicamente para la reducción de la población. Los supersticiosos lo ven como la herramienta de un Dios enojado.</Warg.description>
+	<Warg_Meat.label>carne de wargo</Warg_Meat.label>
+	<Warg_Meat.description>La carne de un wargo.</Warg_Meat.description>
+	<Warg_Corpse.label>cadáver de wargo</Warg_Corpse.label>
+	<Warg_Corpse.description>El cuerpo sin vida de un wargo.</Warg_Corpse.description>
 
-  <Warg.label>Wargo</Warg.label>
-  <Warg.description>Una creatura parecida a un lobo, de gran musculatura. Los científicos dicen que son los descendientes de un animal militar creado específicamente para la reducción de la población. Los supersticiosos lo ven como la herramienta de un Dios enojado.</Warg.description>
-  <Warg.tools.0.label>garra izquierda</Warg.tools.0.label>
-  <Warg.tools.1.label>garra derecha</Warg.tools.1.label>
-  <Warg.tools.2.label>razorfangs</Warg.tools.2.label>
-  <Warg.tools.3.label>cabeza</Warg.tools.3.label>
-  <Warg_Leather.label>cuero de wargo</Warg_Leather.label>
-  <Warg_Leather.description>cuero de wargo</Warg_Leather.description>
-  <Warg_Leather.stuffProps.stuffAdjective>cuero de wargo</Warg_Leather.stuffProps.stuffAdjective>
-  <Warg_Meat.label>carne de wargo</Warg_Meat.label>
-  <Warg_Meat.description>La carne de un wargo.</Warg_Meat.description>
-  <Warg_Corpse.label>cadáver de wargo</Warg_Corpse.label>
-  <Warg_Corpse.description>El cuerpo sin vida de un wargo.</Warg_Corpse.description>
+	<WolfTimber.label>Lobo</WolfTimber.label>
+	<WolfTimber.description>Un rudo depredador temido por las antiguas culturas de la tierra. Como cazadores en grupo, los lobos tienen una compleja vida social y son bastante inteligentes.</WolfTimber.description>
+	<WolfTimber_Meat.label>carne de lobo</WolfTimber_Meat.label>
+	<WolfTimber_Meat.description>La carne de un lobo.</WolfTimber_Meat.description>
+	<WolfTimber_Corpse.label>cadáver de lobo</WolfTimber_Corpse.label>
+	<WolfTimber_Corpse.description>El cuerpo sin vida.</WolfTimber_Corpse.description>
 
+	<WolfArctic.label>Lobo ártico</WolfArctic.label>
+	<WolfArctic.description>Una variante ártica del lobo terretre. Como cazadores en grupo, los lobos tienen una compleja vida social y son bastante inteligentes.</WolfArctic.description>
+	<WolfArctic_Corpse.label>cadáver de lobo ártico</WolfArctic_Corpse.label>
+	<WolfArctic_Corpse.description>El cuerpo sin vida de un lob ártico.</WolfArctic_Corpse.description>
 
-  <!-- Wolves -->
+	<FoxFennec.label>Fénec</FoxFennec.label>
+	<FoxFennec.description>Un pequeño zorro originario del norte del continente africano de la Tierra. Caza pequeñas criaturas y tiene orejas muy grandes.</FoxFennec.description>
+	<FoxFennec_Meat.label>carne de fénec</FoxFennec_Meat.label>
+	<FoxFennec_Meat.description>La carne de un fénec.</FoxFennec_Meat.description>
+	<FoxFennec_Corpse.label>cadáver de fénec</FoxFennec_Corpse.label>
+	<FoxFennec_Corpse.description>El cuerpo sin vida de un fénec.</FoxFennec_Corpse.description>
 
-  <Wolf_Timber.label>Lobo</Wolf_Timber.label>
-  <Wolf_Timber.description>Un rudo depredador temido por las antiguas culturas de la tierra. Como cazadores en grupo, los lobos tienen una compleja vida social y son bastante inteligentes.</Wolf_Timber.description>
-  <Wolf_Timber.tools.0.label>garra izquierda</Wolf_Timber.tools.0.label>
-  <Wolf_Timber.tools.1.label>garra derecha</Wolf_Timber.tools.1.label>
-  <Wolf_Timber.tools.3.label>cabeza</Wolf_Timber.tools.3.label>
-  <Wolf_Timber_Leather.label>cuero de lobo</Wolf_Timber_Leather.label>
-  <Wolf_Timber_Leather.description>cuero de lobo</Wolf_Timber_Leather.description>
-  <Wolf_Timber_Leather.stuffProps.stuffAdjective>cuero de lobo</Wolf_Timber_Leather.stuffProps.stuffAdjective>
-  <Wolf_Timber_Meat.label>carne de lobo</Wolf_Timber_Meat.label>
-  <Wolf_Timber_Meat.description>La carne de un lobo</Wolf_Timber_Meat.description>
-  <Wolf_Timber_Corpse.label>cadáver de lobo</Wolf_Timber_Corpse.label>
-  <Wolf_Timber_Corpse.description>El cuerpo sin vida de un lobo.</Wolf_Timber_Corpse.description>
+	<FoxRed.label>Zorro rojo</FoxRed.label>
+	<FoxRed.description>Un canino pequeño y solitario que ha evolucionado para cazar presas pequeñas en climas templados.</FoxRed.description>
+	<FoxRed_Corpse.label>cadáver de zorro rojo</FoxRed_Corpse.label>
+	<FoxRed_Corpse.description>El cuerpo sin vida de un zorro rojo.</FoxRed_Corpse.description>
 
-  <Wolf_Arctic.label>lobo ártico</Wolf_Arctic.label>
-  <Wolf_Arctic.description>Una variante ártica del lobo terretre. Como cazadores en grupo, los lobos tienen una compleja vida social y son bastante inteligentes.</Wolf_Arctic.description>
-  <Wolf_Arctic.tools.0.label>garra izquierda</Wolf_Arctic.tools.0.label>
-  <Wolf_Arctic.tools.1.label>garra derecha</Wolf_Arctic.tools.1.label>
-  <Wolf_Arctic.tools.3.label>cabeza</Wolf_Arctic.tools.3.label>
-  <Wolf_Arctic_Leather.label>cuero de lobo ártico </Wolf_Arctic_Leather.label>
-  <Wolf_Arctic_Leather.description>cuero de lobo ártico</Wolf_Arctic_Leather.description>
-  <Wolf_Arctic_Leather.stuffProps.stuffAdjective>arctic wolf cuero de</Wolf_Arctic_Leather.stuffProps.stuffAdjective>
-  <!-- Use Meat From: Wolf_Timber -->
-  <Wolf_Arctic_Corpse.label>cadáver de lobo ártico</Wolf_Arctic_Corpse.label>
-  <Wolf_Arctic_Corpse.description>El cuerpo sin vida de un lob ártico.</Wolf_Arctic_Corpse.description>
-
-
-  <!-- Fox fennec -->
-
-  <Fox_Fennec.label>zorro fénec</Fox_Fennec.label>
-  <Fox_Fennec.description>Un pequeño zorro originario del norte del continente africano de la Tierra. Caza pequeñas criaturas y tiene orejas muy grandes.</Fox_Fennec.description>
-  <Fox_Fennec.tools.0.label>garra izquierda</Fox_Fennec.tools.0.label>
-  <Fox_Fennec.tools.1.label>garra derecha</Fox_Fennec.tools.1.label>
-  <Fox_Fennec.tools.3.label>cabeza</Fox_Fennec.tools.3.label>
-  <Fox_Fennec_Leather.label>cuero de de zorro fénec </Fox_Fennec_Leather.label>
-  <Fox_Fennec_Leather.description>cuero de de zorro fénec</Fox_Fennec_Leather.description>
-  <Fox_Fennec_Leather.stuffProps.stuffAdjective>cuero de zorro fénec</Fox_Fennec_Leather.stuffProps.stuffAdjective>
-  <Fox_Fennec_Meat.label>carne de zorro</Fox_Fennec_Meat.label>
-  <Fox_Fennec_Meat.description>carne de zorro</Fox_Fennec_Meat.description>
-  <Fox_Fennec_Corpse.label>cadáver de fénec</Fox_Fennec_Corpse.label>
-  <Fox_Fennec_Corpse.description>El cuerpo sin vida de un zorro fénec.</Fox_Fennec_Corpse.description>
-
-
-  <!-- Fox red -->
-
-  <Fox_Red.label>zorro rojo</Fox_Red.label>
-  <Fox_Red.description>Un canino pequeño y solitario que ha evolucionado para cazar presas pequeñas en climas templados.</Fox_Red.description>
-  <Fox_Red.tools.0.label>garra izquierda</Fox_Red.tools.0.label>
-  <Fox_Red.tools.1.label>garra derecha</Fox_Red.tools.1.label>
-  <Fox_Red.tools.3.label>cabeza</Fox_Red.tools.3.label>
-  <Fox_Red_Leather.label>cuero de zorro rojo</Fox_Red_Leather.label>
-  <Fox_Red_Leather.description>cuero de zorro rojo</Fox_Red_Leather.description>
-  <Fox_Red_Leather.stuffProps.stuffAdjective>cuero de zorro rojo</Fox_Red_Leather.stuffProps.stuffAdjective>
-  <!-- Use Meat From: Fox_Fennec -->
-  <Fox_Red_Corpse.label>cadáver de zorro rojo</Fox_Red_Corpse.label>
-  <Fox_Red_Corpse.description>El cuerpo sin vida de un zorro rojo.</Fox_Red_Corpse.description>
-
-
-  <!-- Fox arctic -->
-
-  <Fox_Arctic.label>Zorro ártico</Fox_Arctic.label>
-  <Fox_Arctic.description>Un pequeño canino depredador adaptado al frío extremo. Usualmente caza presas pequeñas como ratones y musarañas, a veces enterrándose bajo un metro de nieve para encontrar a su presa.</Fox_Arctic.description>
-  <Fox_Arctic.tools.0.label>garra izquierda</Fox_Arctic.tools.0.label>
-  <Fox_Arctic.tools.1.label>garra derecha</Fox_Arctic.tools.1.label>
-  <Fox_Arctic.tools.3.label>cabeza</Fox_Arctic.tools.3.label>
-  <Fox_Arctic_Leather.label>cuero de de zorro ártico</Fox_Arctic_Leather.label>
-  <Fox_Arctic_Leather.description>cuero de de zorro ártico</Fox_Arctic_Leather.description>
-  <Fox_Arctic_Leather.stuffProps.stuffAdjective>cuero de zorro ártico</Fox_Arctic_Leather.stuffProps.stuffAdjective>
-  <!-- Use Meat From: Fox_Fennec -->
-  <Fox_Arctic_Corpse.label>cadáver de zorro ártico</Fox_Arctic_Corpse.label>
-  <Fox_Arctic_Corpse.description>El cuerpo sin vida de un zorro ártico.</Fox_Arctic_Corpse.description>
-
-
-  <!--<WolfTimber.label>Lobo</WolfTimber.label>-->
-  <!--<WolfTimber.description>Un rudo depredador temido por las antiguas culturas de la tierra. Como cazadores en grupo, los lobos tienen una compleja vida social y son bastante inteligentes.</WolfTimber.description>-->
-  <!--<WolfTimber_Meat.label>carne de lobo</WolfTimber_Meat.label>-->
-  <!--<WolfTimber_Meat.description>La carne de un lobo.</WolfTimber_Meat.description>-->
-  <!--<WolfTimber_Corpse.label>cadáver de lobo</WolfTimber_Corpse.label>-->
-  <!--<WolfTimber_Corpse.description>El cuerpo sin vida.</WolfTimber_Corpse.description>-->
-  <!--<WolfArctic.label>Lobo ártico</WolfArctic.label>-->
-  <!--<WolfArctic.description>Una variante ártica del lobo terretre. Como cazadores en grupo, los lobos tienen una compleja vida social y son bastante inteligentes.</WolfArctic.description>-->
-  <!--<WolfArctic_Corpse.label>cadáver de lobo ártico</WolfArctic_Corpse.label>-->
-  <!--<WolfArctic_Corpse.description>El cuerpo sin vida de un lob ártico.</WolfArctic_Corpse.description>-->
-  <!--<FoxFennec.label>Fénec</FoxFennec.label>-->
-  <!--<FoxFennec.description>Un pequeño zorro originario del norte del continente africano de la Tierra. Caza pequeñas criaturas y tiene orejas muy grandes.</FoxFennec.description>-->
-  <!--<FoxFennec_Meat.label>carne de fénec</FoxFennec_Meat.label>-->
-  <!--<FoxFennec_Meat.description>La carne de un fénec.</FoxFennec_Meat.description>-->
-  <!--<FoxFennec_Corpse.label>cadáver de fénec</FoxFennec_Corpse.label>-->
-  <!--<FoxFennec_Corpse.description>El cuerpo sin vida de un fénec.</FoxFennec_Corpse.description>-->
-  <!--<FoxRed.label>Zorro rojo</FoxRed.label>-->
-  <!--<FoxRed.description>Un canino pequeño y solitario que ha evolucionado para cazar presas pequeñas en climas templados.</FoxRed.description>-->
-  <!--<FoxRed_Corpse.label>cadáver de zorro rojo</FoxRed_Corpse.label>-->
-  <!--<FoxRed_Corpse.description>El cuerpo sin vida de un zorro rojo.</FoxRed_Corpse.description>-->
-  <!--<FoxArctic.label>Zorro ártico</FoxArctic.label>-->
-  <!--<FoxArctic.description>Un pequeño canino depredador adaptado al frío extremo. Usualmente caza presas pequeñas como ratones y musarañas, a veces enterrándose bajo un metro de nieve para encontrar a su presa.</FoxArctic.description>-->
-  <!--<FoxArctic_Corpse.label>cadáver de zorro ártico</FoxArctic_Corpse.label>-->
-  <!--<FoxArctic_Corpse.description>El cuerpo sin vida de un zorro ártico.</FoxArctic_Corpse.description>-->
+	<FoxArctic.label>Zorro ártico</FoxArctic.label>
+	<FoxArctic.description>Un pequeño canino depredador adaptado al frío extremo. Usualmente caza presas pequeñas como ratones y musarañas, a veces enterrándose bajo un metro de nieve para encontrar a su presa.</FoxArctic.description>
+	<FoxArctic_Corpse.label>cadáver de zorro ártico</FoxArctic_Corpse.label>
+	<FoxArctic_Corpse.description>El cuerpo sin vida de un zorro ártico.</FoxArctic_Corpse.description>
 
 
 </LanguageData>
