@@ -1,52 +1,88 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Shooting.label>Tiro</Shooting.label>
-  <Shooting.description>El uso de cualquier tipo de armas a distancia.</Shooting.description>
-  <Shooting.skillLabel>Tiro</Shooting.skillLabel>
-
-  <Melee.label>Cuerpo a cuerpo</Melee.label>
-  <Melee.description>El uso de todo tipo de armas cuerpo a cuerpo.</Melee.description>
-  <Melee.skillLabel>Cuerpo a cuerpo</Melee.skillLabel>
-
-  <Social.label>Socialización</Social.label>
-  <Social.description>La habilidad de persuadir, manipular, dirigir y animar a otros.</Social.description>
-  <Social.skillLabel>Socialización</Social.skillLabel>
-
-  <Animals.label>Animales</Animals.label>
-  <Animals.description>Domesticar, entrenar, manejar y controlar a los animales.</Animals.description>
+  
+  <!-- EN: animals -->
   <Animals.skillLabel>Animales</Animals.skillLabel>
-
-  <Medicine.label>Medicina</Medicine.label>
-  <Medicine.description>El tratamiento de heridas, enfermedades y habilidad de hacer cirugías.</Medicine.description>
-  <Medicine.skillLabel>Medicina</Medicine.skillLabel>
-
-  <Cooking.label>Cocina</Cooking.label>
-  <Cooking.description>Preparar comidas a partir de ingredientes crudos.</Cooking.description>
-  <Cooking.skillLabel>Cocina</Cooking.skillLabel>
-
-  <Construction.label>Construcción</Construction.label>
-  <Construction.description>Mejores constructores producen objetos y edificios más rápido y de mejor calidad.</Construction.description>
-  <Construction.skillLabel>Construcción</Construction.skillLabel>
-
-  <Growing.label>Agricultura</Growing.label>
-  <Growing.description>Sembrar, cuidar y cosechar los cultivos, y buscar comida mientras se viaja.</Growing.description>
-  <Growing.skillLabel>Agricultura</Growing.skillLabel>
-
-  <Mining.label>Minería</Mining.label>
-  <Mining.description>Excavar túneles y extraer los recursos minerales.</Mining.description>
-  <Mining.skillLabel>Minería</Mining.skillLabel>
-
-  <Artistic.label>Arte</Artistic.label>
-  <Artistic.description>Crear arte.</Artistic.description>
+  <!-- EN: animals -->
+  <Animals.label>Animales</Animals.label>
+  <!-- EN: Taming, training, and controlling animals. -->
+  <Animals.description>Domesticar, entrenar, manejar y controlar a los animales.</Animals.description>
+  
+  <!-- EN: artistic -->
   <Artistic.skillLabel>Arte</Artistic.skillLabel>
-
-  <Crafting.label>Fabricación</Crafting.label>
-  <Crafting.description>Fabricar objetos como vestimenta, armas, herramientas, etc.</Crafting.description>
+  <!-- EN: artistic -->
+  <Artistic.label>Arte</Artistic.label>
+  <!-- EN: Crafting art. -->
+  <Artistic.description>Crear arte.</Artistic.description>
+  
+  <!-- EN: construction -->
+  <Construction.skillLabel>Construcción</Construction.skillLabel>
+  <!-- EN: construction -->
+  <Construction.label>Construcción</Construction.label>
+  <!-- EN: Constructing and deconstructing structures and furniture. -->
+  <Construction.description>Mejores constructores producen objetos y edificios más rápido y de mejor calidad.</Construction.description>
+  
+  <!-- EN: cooking -->
+  <Cooking.skillLabel>Cocina</Cooking.skillLabel>
+  <!-- EN: cooking -->
+  <Cooking.label>Cocina</Cooking.label>
+  <!-- EN: Creating meals from raw ingredients quickly and without accidental food poisoning. -->
+  <Cooking.description>Preparar comidas a partir de ingredientes crudos.</Cooking.description>
+  
+  <!-- EN: crafting -->
   <Crafting.skillLabel>Fabricación</Crafting.skillLabel>
-
-  <Intellectual.label>Inteletual</Intellectual.label>
-  <Intellectual.description>Investigación de pruebas, establecer conexiones, calcular y usar la lógica.</Intellectual.description>
+  <!-- EN: crafting -->
+  <Crafting.label>Fabricación</Crafting.label>
+  <!-- EN: Crafting general items including weapons, components, and refined resources. -->
+  <Crafting.description>Fabricar objetos como vestimenta, armas, herramientas, etc.</Crafting.description>
+  
+  <!-- EN: intellectual -->
   <Intellectual.skillLabel>Intelectual</Intellectual.skillLabel>
-
+  <!-- EN: intellectual -->
+  <Intellectual.label>Inteletual</Intellectual.label>
+  <!-- EN: Researching and drug synthesis. -->
+  <Intellectual.description>Investigación de pruebas, establecer conexiones, calcular y usar la lógica.</Intellectual.description>
+  
+  <!-- EN: medical -->
+  <Medicine.skillLabel>Medicina</Medicine.skillLabel>
+  <!-- EN: medical -->
+  <Medicine.label>Medicina</Medicine.label>
+  <!-- EN: Tending wounds and diseases and performing surgery. -->
+  <Medicine.description>El tratamiento de heridas, enfermedades y habilidad de hacer cirugías.</Medicine.description>
+  
+  <!-- EN: melee -->
+  <Melee.skillLabel>Cuerpo a cuerpo</Melee.skillLabel>
+  <!-- EN: melee -->
+  <Melee.label>Cuerpo a cuerpo</Melee.label>
+  <!-- EN: Melee combat, both armed and unarmed. -->
+  <Melee.description>El uso de todo tipo de armas cuerpo a cuerpo.</Melee.description>
+  
+  <!-- EN: mining -->
+  <Mining.skillLabel>Minería</Mining.skillLabel>
+  <!-- EN: mining -->
+  <Mining.label>Minería</Mining.label>
+  <!-- EN: Digging tunnels and extracting buried resources. -->
+  <Mining.description>Excavar túneles y extraer los recursos minerales.</Mining.description>
+  
+  <!-- EN: plants -->
+  <Plants.skillLabel>Agricultura</Plants.skillLabel>
+  <!-- EN: plants -->
+  <Plants.label>Agricultura</Plants.label>
+  <!-- EN: Sowing, caring for and harvesting crops, and foraging for food while traveling. -->
+  <Plants.description>Sembrar, cuidar y cosechar los cultivos, y buscar comida mientras se viaja.</Plants.description>
+  
+  <!-- EN: shooting -->
+  <Shooting.skillLabel>Tiro</Shooting.skillLabel>
+  <!-- EN: shooting -->
+  <Shooting.label>Tiro</Shooting.label>
+  <!-- EN: Ranged combat, with both high-tech and low-tech weapons. -->
+  <Shooting.description>El uso de cualquier tipo de armas a distancia.</Shooting.description>
+  
+  <!-- EN: social -->
+  <Social.skillLabel>Socialización</Social.skillLabel>
+  <!-- EN: social -->
+  <Social.label>Socialización</Social.label>
+  <!-- EN: Negotiating, convincing, manipulating, leading, and cheering up others. -->
+  <Social.description>La habilidad de persuadir, manipular, dirigir y animar a otros.</Social.description>
+  
 </LanguageData>

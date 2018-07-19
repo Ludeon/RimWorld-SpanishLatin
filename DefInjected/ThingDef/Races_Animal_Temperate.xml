@@ -1,46 +1,70 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-	<!-- ============================ Cold weather animals ========================== -->
-
-	<Deer.label>Venado</Deer.label>
-	<Deer.description>Un animal herbívoro de tamaño medio que se mueve en manadas. Normalmente pacífico mientras no se le moleste.</Deer.description>
-	<Deer_Meat.label>carne de venado</Deer_Meat.label>
-	<Deer_Meat.description>La carne de un venado.</Deer_Meat.description>
-	<Deer_Corpse.label>cadáver de venado</Deer_Corpse.label>
-	<Deer_Corpse.description>El cuerpo sin vida de un venado.</Deer_Corpse.description>
-	
-	<Ibex.label>Íbice</Ibex.label>
-	<Ibex.description>El ancestro salvaje de la cabra domesticada. Los íbices viven en territorios marginales donde la mayoría de los antílopes no podrían sobrevivir, comiendo líquenes y las escasas plantas de las montañas. Son famosos por sus habilidosos saltos de roca en roca en peligrosos riscos - y por sus violentas cornadas.</Ibex.description>
-	<Ibex_Meat.label>carne de íbice</Ibex_Meat.label>
-	<Ibex_Meat.description>La carne de un íbice.</Ibex_Meat.description>
-	<Ibex_Corpse.label>cadáver de íbice</Ibex_Corpse.label>
-	<Ibex_Corpse.description>El cuerpo sin vida de un íbice.</Ibex_Corpse.description>	
-
-	<Elk.label>Alce</Elk.label>
-	<Elk.description>Un animal de gran tamaño de la familia de los venados, bien adaptado la vida en climas fríos.</Elk.description>
-	<Elk_Meat.label>carne de alce</Elk_Meat.label>
-	<Elk_Meat.description>La carne de un alce.</Elk_Meat.description>
-	<Elk_Corpse.label>cadáver de alce</Elk_Corpse.label>
-	<Elk_Corpse.description>El cuerpo sin vida de un alce.</Elk_Corpse.description>
-	
-	<Caribou.label>Reno</Caribou.label>
-	<Caribou.description>Un pariente de gran tamaño de los venados, bien adaptado a los climas fríos.</Caribou.description>
-	<Caribou_Meat.label>carne de reno</Caribou_Meat.label>
-	<Caribou_Meat.description>La carne de un reno.</Caribou_Meat.description>
-	<Caribou_Corpse.label>cadáver de reno</Caribou_Corpse.label>
-	<Caribou_Corpse.description>El cuerpo sin vida de un reno.</Caribou_Corpse.description>	
-
-	<WildBoar.label>Jabalí</WildBoar.label>
-	<WildBoar.description>Aunque son considerados impuros por algunas culturas, esta peluda especie primitiva, de la que deriva el cerdo doméstico, es preciada por el fuerte sabor de su carne.</WildBoar.description>
-	<WildBoar_Corpse.label>cadáver de jabalí</WildBoar_Corpse.label>
-	<WildBoar_Corpse.description>El cuerpo sin vida de un jabalí.</WildBoar_Corpse.description>
-
-	<Tortoise.label>Tortuga</Tortoise.label>
-	<Tortoise.description>Este blindado reptil terrestre es conocido por su lenta velocidad de movimiento y sus mordiscos sorprendentes feroces.</Tortoise.description>
-	<Tortoise_Meat.label>carne de tortuga</Tortoise_Meat.label>
-	<Tortoise_Meat.description>La carne de una tortuga.</Tortoise_Meat.description>
-	<Tortoise_Corpse.label>cadáver de tortuga</Tortoise_Corpse.label>
-	<Tortoise_Corpse.description>El cuerpo sin vida de una tortuga.</Tortoise_Corpse.description>
-
+  
+  <!-- EN: left hoof -->
+  <Caribou.tools.left_hoof.label>TODO</Caribou.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Caribou.tools.right_hoof.label>TODO</Caribou.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Caribou.tools.head.label>TODO</Caribou.tools.head.label>
+  <!-- EN: caribou -->
+  <Caribou.label>Reno</Caribou.label>
+  <!-- EN: A large member of the deer family, well-adapted to life in cold climates. Caribou can be milked, but refuse to carry packs. -->
+  <Caribou.description>Un pariente de gran tamaño de los venados, bien adaptado a los climas fríos.</Caribou.description>
+  
+  <!-- EN: left hoof -->
+  <Deer.tools.left_hoof.label>TODO</Deer.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Deer.tools.right_hoof.label>TODO</Deer.tools.right_hoof.label>
+  <!-- EN: teeth -->
+  <Deer.tools.teeth.label>TODO</Deer.tools.teeth.label>
+  <!-- EN: head -->
+  <Deer.tools.head.label>TODO</Deer.tools.head.label>
+  <!-- EN: venison -->
+  <Deer.race.meatLabel>TODO</Deer.race.meatLabel>
+  <!-- EN: deer -->
+  <Deer.label>Venado</Deer.label>
+  <!-- EN: A medium-sized herding herbivore which prefers to live in mixed forests and plains. Deer are very quick. Being very docile by nature, deer don't attack even if harmed. -->
+  <Deer.description>Un animal herbívoro de tamaño medio que se mueve en manadas. Normalmente pacífico mientras no se le moleste.</Deer.description>
+  
+  <!-- EN: left hoof -->
+  <Elk.tools.left_hoof.label>TODO</Elk.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Elk.tools.right_hoof.label>TODO</Elk.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Elk.tools.head.label>TODO</Elk.tools.head.label>
+  <!-- EN: elk -->
+  <Elk.label>Alce</Elk.label>
+  <!-- EN: A large member of the deer family, well-adapted to life in cold climates. Domesticated elk can be milked, but refuse to carry packs. -->
+  <Elk.description>Un animal de gran tamaño de la familia de los venados, bien adaptado la vida en climas fríos.</Elk.description>
+  
+  <!-- EN: left hoof -->
+  <Ibex.tools.left_hoof.label>TODO</Ibex.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Ibex.tools.right_hoof.label>TODO</Ibex.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Ibex.tools.head.label>TODO</Ibex.tools.head.label>
+  <!-- EN: ibex -->
+  <Ibex.label>Íbice</Ibex.label>
+  <!-- EN: The wild ancestor of the domesticated goat. Ibexes live on marginal territory where most antelopes couldn't survive, eating lichens and sparse mountain plants. They're famous for dextrously hopping across bare cliff faces - and for their violent ramming attack. -->
+  <Ibex.description>El ancestro salvaje de la cabra domesticada. Los íbices viven en territorios marginales donde la mayoría de los antílopes no podrían sobrevivir, comiendo líquenes y las escasas plantas de las montañas. Son famosos por sus habilidosos saltos de roca en roca en peligrosos riscos - y por sus violentas cornadas.</Ibex.description>
+  
+  <!-- EN: beak -->
+  <Tortoise.tools.beak.label>TODO</Tortoise.tools.beak.label>
+  <!-- EN: head -->
+  <Tortoise.tools.head.label>TODO</Tortoise.tools.head.label>
+  <!-- EN: tortoise -->
+  <Tortoise.label>Tortuga</Tortoise.label>
+  <!-- EN: This heavily armored land-dwelling reptile is known for its slow moving speed and surprisingly vicious bite. Because of its natural armor, it is tough to kill and can do serious damage during drawn-out melee fights. -->
+  <Tortoise.description>Este blindado reptil terrestre es conocido por su lenta velocidad de movimiento y sus mordiscos sorprendentes feroces.</Tortoise.description>
+  
+  <!-- EN: tusk -->
+  <WildBoar.tools.tusk.label>TODO</WildBoar.tools.tusk.label>
+  <!-- EN: head -->
+  <WildBoar.tools.head.label>TODO</WildBoar.tools.head.label>
+  <!-- EN: wild boar -->
+  <WildBoar.label>Jabalí</WildBoar.label>
+  <!-- EN: This hairy omnivore is descended from escaped pigs and evolved for living in the wild.\n\nIts tusks make it a better fighter than its domesticated pig cousins. Unfortunately, it is too unruly to be trained in the most complex tasks. -->
+  <WildBoar.description>Aunque son considerados impuros por algunas culturas, esta peluda especie primitiva, de la que deriva el cerdo doméstico, es preciada por el fuerte sabor de su carne.</WildBoar.description>
+  
 </LanguageData>

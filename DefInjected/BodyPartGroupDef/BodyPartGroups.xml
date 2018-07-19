@@ -1,57 +1,111 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Torso.label>Torso</Torso.label>
-  <UpperHead.label>Cabeza Superior</UpperHead.label>
-  <FullHead.label>Cabeza Entera</FullHead.label>
-  <Eyes.label>Ojos</Eyes.label>
-  <Teeth.label>Dientes</Teeth.label>
-  <Mouth.label>Boca</Mouth.label>
-  <Neck.label>Cuello</Neck.label>
+  
+  <!-- EN: arms -->
   <Arms.label>Brazos</Arms.label>
-  <Shoulders.label>Hombros</Shoulders.label>
-  <Hands.label>Manos</Hands.label>
-
-  <LeftHand.label>Mano izquierdo</LeftHand.label>
-  <LeftHand.labelShort>Mano</LeftHand.labelShort>
-
-  <RightHand.label>Mano derecho</RightHand.label>
-  <RightHand.labelShort>Mano</RightHand.labelShort>
-
-  <Waist.label>Cintura</Waist.label>
-  <Legs.label>Piernas</Legs.label>
-  <Feet.label>Pies</Feet.label>
-
-  <FrontLeftPaw.label>Pata frontal izquierda</FrontLeftPaw.label>
-  <FrontLeftPaw.labelShort>Pata</FrontLeftPaw.labelShort>
-
-  <FrontRightPaw.label>Pata frontal derecha</FrontRightPaw.label>
-  <FrontRightPaw.labelShort>Pata</FrontRightPaw.labelShort>
-
-  <HeadAttackTool.label>Cabeza</HeadAttackTool.label>
-
-  <FrontLeftLeg.label>Pierna frontal izquierda</FrontLeftLeg.label>
-  <FrontLeftLeg.labelShort>Pierna</FrontLeftLeg.labelShort>
-
-  <FrontRightLeg.label>Pierna frontal derecha</FrontRightLeg.label>
-  <FrontRightLeg.labelShort>Pierna</FrontRightLeg.labelShort>
-
-  <FrontLeftClaws.label>Garras izquierdas frontales</FrontLeftClaws.label>
-  <FrontLeftClaws.labelShort>Garras</FrontLeftClaws.labelShort>
-
-  <FrontRightClaws.label>Garras derechas frontales</FrontRightClaws.label>
-  <FrontRightClaws.labelShort>Garras</FrontRightClaws.labelShort>
-
-  <LeftBlade.label>Cuchilla izquierda</LeftBlade.label>
-  <LeftBlade.labelShort>Cuchilla</LeftBlade.labelShort>
-
-  <RightBlade.label>cuchilla derecha</RightBlade.label>
-  <RightBlade.labelShort>Cuchilla</RightBlade.labelShort>
-
-  <TuskAttackTool.label>Colmillos</TuskAttackTool.label>
-  <HornAttackTool.label>Cuerno</HornAttackTool.label>
-  <HeadClaw.label>Garra Craneal</HeadClaw.label>
-  <TurtleBeakAttackTool.label>Pico</TurtleBeakAttackTool.label>
+  
+  <!-- EN: beak -->
   <Beak.label>Pico</Beak.label>
-
+  
+  <!-- EN: eyes -->
+  <Eyes.label>Ojos</Eyes.label>
+  
+  <!-- EN: feet -->
+  <Feet.label>Pies</Feet.label>
+  
+  <!-- EN: claws -->
+  <FrontLeftClaws.labelShort>Garras</FrontLeftClaws.labelShort>
+  <!-- EN: front left claws -->
+  <FrontLeftClaws.label>Garras izquierdas frontales</FrontLeftClaws.label>
+  
+  <!-- EN: leg -->
+  <FrontLeftLeg.labelShort>Pierna</FrontLeftLeg.labelShort>
+  <!-- EN: front left leg -->
+  <FrontLeftLeg.label>Pierna frontal izquierda</FrontLeftLeg.label>
+  
+  <!-- EN: paw -->
+  <FrontLeftPaw.labelShort>Pata</FrontLeftPaw.labelShort>
+  <!-- EN: front left paw -->
+  <FrontLeftPaw.label>Pata frontal izquierda</FrontLeftPaw.label>
+  
+  <!-- EN: claws -->
+  <FrontRightClaws.labelShort>Garras</FrontRightClaws.labelShort>
+  <!-- EN: front right claws -->
+  <FrontRightClaws.label>Garras derechas frontales</FrontRightClaws.label>
+  
+  <!-- EN: leg -->
+  <FrontRightLeg.labelShort>Pierna</FrontRightLeg.labelShort>
+  <!-- EN: front right leg -->
+  <FrontRightLeg.label>Pierna frontal derecha</FrontRightLeg.label>
+  
+  <!-- EN: paw -->
+  <FrontRightPaw.labelShort>Pata</FrontRightPaw.labelShort>
+  <!-- EN: front right paw -->
+  <FrontRightPaw.label>Pata frontal derecha</FrontRightPaw.label>
+  
+  <!-- EN: full head -->
+  <FullHead.label>Cabeza Entera</FullHead.label>
+  
+  <!-- EN: hands -->
+  <Hands.label>Manos</Hands.label>
+  
+  <!-- EN: head -->
+  <HeadAttackTool.label>Cabeza</HeadAttackTool.label>
+  
+  <!-- EN: claw -->
+  <HeadClaw.label>Garra Craneal</HeadClaw.label>
+  
+  <!-- EN: horn -->
+  <HornAttackTool.label>Cuerno</HornAttackTool.label>
+  
+  <!-- EN: blade -->
+  <LeftBlade.labelShort>Cuchilla</LeftBlade.labelShort>
+  <!-- EN: left blade -->
+  <LeftBlade.label>Cuchilla izquierda</LeftBlade.label>
+  
+  <!-- EN: fist -->
+  <LeftHand.labelShort>Mano</LeftHand.labelShort>
+  <!-- EN: left fist -->
+  <LeftHand.label>Mano izquierdo</LeftHand.label>
+  
+  <!-- EN: legs -->
+  <Legs.label>Piernas</Legs.label>
+  
+  <!-- EN: mouth -->
+  <Mouth.label>Boca</Mouth.label>
+  
+  <!-- EN: neck -->
+  <Neck.label>Cuello</Neck.label>
+  
+  <!-- EN: blade -->
+  <RightBlade.labelShort>Cuchilla</RightBlade.labelShort>
+  <!-- EN: right blade -->
+  <RightBlade.label>cuchilla derecha</RightBlade.label>
+  
+  <!-- EN: fist -->
+  <RightHand.labelShort>Mano</RightHand.labelShort>
+  <!-- EN: right fist -->
+  <RightHand.label>Mano derecho</RightHand.label>
+  
+  <!-- EN: shoulders -->
+  <Shoulders.label>Hombros</Shoulders.label>
+  
+  <!-- EN: teeth -->
+  <Teeth.label>Dientes</Teeth.label>
+  
+  <!-- EN: torso -->
+  <Torso.label>Torso</Torso.label>
+  
+  <!-- EN: beak -->
+  <TurtleBeakAttackTool.label>Pico</TurtleBeakAttackTool.label>
+  
+  <!-- EN: tusks -->
+  <TuskAttackTool.label>Colmillos</TuskAttackTool.label>
+  
+  <!-- EN: upper head -->
+  <UpperHead.label>Cabeza Superior</UpperHead.label>
+  
+  <!-- EN: waist -->
+  <Waist.label>Cintura</Waist.label>
+  
 </LanguageData>

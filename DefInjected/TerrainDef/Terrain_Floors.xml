@@ -1,51 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Misc -->
-
-  <Concrete.label>Cemento</Concrete.label>
-  <Concrete.description>Cemento vertido rápidamente. Se camina rapido sobre él, pero es bastante feo. Necesitarás ser capaz de excavar el terreno para verter el cemento.</Concrete.description>
-
-  <PavedTile.label>Losetas de cemento</PavedTile.label>
-  <PavedTile.description>Losetas funcionales de cemento. Es fácil y rápido andar sobre ellas pero no son muy bonitas.</PavedTile.description>
-
-  <WoodPlankFloor.label>Piso de madera</WoodPlankFloor.label>
-  <WoodPlankFloor.description>Piso construido de tablas de madera. Para dar esa sensación cálida y hogareña.</WoodPlankFloor.description>
-
-
-  <!-- Tiles -->
-
-  <MetalTile.label>Losetas metálicas</MetalTile.label>
-  <MetalTile.description>Losetas metálicas, para dar ese aspecto de nave espacial.</MetalTile.description>
-
-  <SilverTile.label>Losetas de plata</SilverTile.label>
-  <SilverTile.description>Muy caras y tardadas en su construcción, pero se ven muy bien. Convierte cualquier habitación en una de lujo.</SilverTile.description>
-
-  <GoldTile.label>Losetas de oro</GoldTile.label>
-  <GoldTile.description>La mejor y más absolutamente impresionante manera de engalanar una habitación. Pero es muy cara y lleva mucho tiempo para construir.</GoldTile.description>
-
-  <SterileTile.label>Losetas estériles</SterileTile.label>
-  <SterileTile.description>Azulejos especiales que ayudan a mantener un ambiente limpio. Muy útil en los hospitales para reducir el riesgo de infección de los pacientes. Se ve neutro y toma mucho tiempo construirlo.</SterileTile.description>
-
-
-  <!-- Carpets -->
-
-  <CarpetRed.label>Alfombra roja</CarpetRed.label>
-  <CarpetRed.description>Alfombra aterciopelada de un agradable tono rosáceo.</CarpetRed.description>
-
-  <CarpetGreen.label>Alfombra verde</CarpetGreen.label>
-  <CarpetGreen.description>Alfombra de tonos verdes naturales.</CarpetGreen.description>
-
+  
+  <!-- EN: blue carpet -->
   <CarpetBlue.label>Alfombra azul</CarpetBlue.label>
+  <!-- EN: Toe-hugging plush carpet in a cool blue color. -->
   <CarpetBlue.description>Alfombra afelpada de un fresco color azul.</CarpetBlue.description>
-
+  
+  <!-- EN: cream carpet -->
   <CarpetCream.label>Alfombra color crema</CarpetCream.label>
+  <!-- EN: Inviting cream-colored carpet. -->
   <CarpetCream.description>Alfombra de color crema acogedor.</CarpetCream.description>
-
+  
+  <!-- EN: dark carpet -->
   <CarpetDark.label>Alfombra oscura</CarpetDark.label>
+  <!-- EN: Professional-looking dark gray carpet. -->
   <CarpetDark.description>Una alfombra de color gris oscuro de aspecto profesional.</CarpetDark.description>
-
-
-  <!-- Misc Tile -->
-
+  
+  <!-- EN: green carpet -->
+  <CarpetGreen.label>Alfombra verde</CarpetGreen.label>
+  <!-- EN: Naturalistic-feeling green carpet. Earth tones, dude. -->
+  <CarpetGreen.description>Alfombra de tonos verdes naturales.</CarpetGreen.description>
+  
+  <!-- EN: red carpet -->
+  <CarpetRed.label>Alfombra roja</CarpetRed.label>
+  <!-- EN: Plush carpet in a lovely rose hue. -->
+  <CarpetRed.description>Alfombra aterciopelada de un agradable tono rosáceo.</CarpetRed.description>
+  
+  <!-- EN: concrete -->
+  <Concrete.label>Cemento</Concrete.label>
+  <!-- EN: Rough concrete. It is fast to walk on, cheap, and quick to build, but quite ugly. -->
+  <Concrete.description>Cemento vertido rápidamente. Se camina rapido sobre él, pero es bastante feo. Necesitarás ser capaz de excavar el terreno para verter el cemento.</Concrete.description>
+  
+  <!-- EN: gold tile -->
+  <GoldTile.label>Losetas de oro</GoldTile.label>
+  <!-- EN: For overbearing extravagance, nothing beats gold tiles. They are exceptionally expensive, and exceptionally beautiful, and people will think you're exceptionally snobbish if you actually live on them. -->
+  <GoldTile.description>La mejor y más absolutamente impresionante manera de engalanar una habitación. Pero es muy cara y lleva mucho tiempo para construir.</GoldTile.description>
+  
+  <!-- EN: metal tile -->
+  <MetalTile.label>Losetas metálicas</MetalTile.label>
+  <!-- EN: Metal tiles, for that spaceship look. They are pretty, and the smooth tile surface gets a bonus to cleanliness. -->
+  <MetalTile.description>Losetas metálicas, para dar ese aspecto de nave espacial.</MetalTile.description>
+  
+  <!-- EN: paved tile -->
+  <PavedTile.label>Losetas de cemento</PavedTile.label>
+  <!-- EN: Concrete tiles. Cheap and quick to move around on, but neutral in terms of looks and slow to build. -->
+  <PavedTile.description>Losetas funcionales de cemento. Es fácil y rápido andar sobre ellas pero no son muy bonitas.</PavedTile.description>
+  
+  <!-- EN: silver tile -->
+  <SilverTile.label>Losetas de plata</SilverTile.label>
+  <!-- EN: For a futuristic but royal look, silver tiles fit perfectly into luxurious rooms. They get a bonus to cleanliness. -->
+  <SilverTile.description>Muy caras y tardadas en su construcción, pero se ven muy bien. Convierte cualquier habitación en una de lujo.</SilverTile.description>
+  
+  <!-- EN: sterile tile -->
+  <SterileTile.label>Losetas estériles</SterileTile.label>
+  <!-- EN: Sterile tiles with special cleanliness-enhancing properties. Extra-clean rooms improve outcomes in hospitals and research labs. This tile is very slow to build. -->
+  <SterileTile.description>Azulejos especiales que ayudan a mantener un ambiente limpio. Muy útil en los hospitales para reducir el riesgo de infección de los pacientes. Se ve neutro y toma mucho tiempo construirlo.</SterileTile.description>
+  
+  <!-- EN: wood floor -->
+  <WoodPlankFloor.label>Piso de madera</WoodPlankFloor.label>
+  <!-- EN: Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable. -->
+  <WoodPlankFloor.description>Piso construido de tablas de madera. Para dar esa sensación cálida y hogareña.</WoodPlankFloor.description>
+  
 </LanguageData>

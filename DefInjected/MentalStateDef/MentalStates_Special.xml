@@ -1,33 +1,53 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Special mental states not from mental breaks -->
-
-  <WanderConfused.label>Vagando Confundido</WanderConfused.label>
-  <WanderConfused.beginLetter>{0} a colapsado mentalmente y está vagando por ahí, completamente confundido(a).</WanderConfused.beginLetter>
-  <WanderConfused.beginLetterLabel>Confusión</WanderConfused.beginLetterLabel>
-  <WanderConfused.recoveryMessage>{0} ya no está confundido(a).</WanderConfused.recoveryMessage>
-  <WanderConfused.baseInspectLine>Vagando confundido</WanderConfused.baseInspectLine>
-
-  <PanicFlee.label>Huida Despavorida</PanicFlee.label>
-  <PanicFlee.beginLetter>{0} está huyendo en pánico.</PanicFlee.beginLetter>
-  <PanicFlee.beginLetterLabel>Huida</PanicFlee.beginLetterLabel>
-  <PanicFlee.recoveryMessage>{0} ya no está huyendo en pánico.</PanicFlee.recoveryMessage>
-  <PanicFlee.baseInspectLine>Huyendo en pánico</PanicFlee.baseInspectLine>
-
-  <Manhunter.label>Cazahombres</Manhunter.label>
+  
+  <!-- EN: {0} has become a manhunter! -->
   <Manhunter.beginLetter>¡{0} se ha vuelto cazahombres!</Manhunter.beginLetter>
+  <!-- EN: manhunter -->
   <Manhunter.beginLetterLabel>Cazahombres</Manhunter.beginLetterLabel>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
   <Manhunter.recoveryMessage>La sed de sangre humana de {0} se ha terminado.</Manhunter.recoveryMessage>
+  <!-- EN: Maddened: Manhunter -->
   <Manhunter.baseInspectLine>Enloquecido: Cazahombres</Manhunter.baseInspectLine>
-
-  <ManhunterPermanent.label>Cazahombres</ManhunterPermanent.label>
+  <!-- EN: manhunter -->
+  <Manhunter.label>Cazahombres</Manhunter.label>
+  
+  <!-- EN: {0} has become a manhunter! -->
   <ManhunterPermanent.beginLetter>¡{0} se ha vuelto cazahombres!</ManhunterPermanent.beginLetter>
+  <!-- EN: manhunter -->
   <ManhunterPermanent.beginLetterLabel>Cazahombres</ManhunterPermanent.beginLetterLabel>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
   <ManhunterPermanent.recoveryMessage>La sed de sangre humana de {0} se ha terminado.</ManhunterPermanent.recoveryMessage>
+  <!-- EN: Maddened: Manhunter -->
   <ManhunterPermanent.baseInspectLine>Enloquecido: Cazahombres</ManhunterPermanent.baseInspectLine>
-
-  <SocialFighting.label>Pelea</SocialFighting.label>
+  <!-- EN: manhunter -->
+  <ManhunterPermanent.label>Cazahombres</ManhunterPermanent.label>
+  
+  <!-- EN: {0} is fleeing in panic. -->
+  <PanicFlee.beginLetter>{0} está huyendo en pánico.</PanicFlee.beginLetter>
+  <!-- EN: flee -->
+  <PanicFlee.beginLetterLabel>Huida</PanicFlee.beginLetterLabel>
+  <!-- EN: {0} is no longer fleeing in panic. -->
+  <PanicFlee.recoveryMessage>{0} ya no está huyendo en pánico.</PanicFlee.recoveryMessage>
+  <!-- EN: Mental state: Fleeing in panic -->
+  <PanicFlee.baseInspectLine>Huyendo en pánico</PanicFlee.baseInspectLine>
+  <!-- EN: panic fleeing -->
+  <PanicFlee.label>Huida Despavorida</PanicFlee.label>
+  
+  <!-- EN: Mental state: Social fighting -->
   <SocialFighting.baseInspectLine>Peleando</SocialFighting.baseInspectLine>
-
+  <!-- EN: social fighting -->
+  <SocialFighting.label>Pelea</SocialFighting.label>
+  
+  <!-- EN: {0} has broken down and is wandering around confused. -->
+  <WanderConfused.beginLetter>{0} a colapsado mentalmente y está vagando por ahí, completamente confundido(a).</WanderConfused.beginLetter>
+  <!-- EN: confusion -->
+  <WanderConfused.beginLetterLabel>Confusión</WanderConfused.beginLetterLabel>
+  <!-- EN: {0} is no longer confused. -->
+  <WanderConfused.recoveryMessage>{0} ya no está confundido(a).</WanderConfused.recoveryMessage>
+  <!-- EN: Mental state: Confused and wandering -->
+  <WanderConfused.baseInspectLine>Vagando confundido</WanderConfused.baseInspectLine>
+  <!-- EN: confused wandering -->
+  <WanderConfused.label>Vagando Confundido</WanderConfused.label>
+  
 </LanguageData>

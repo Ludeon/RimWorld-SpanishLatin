@@ -1,35 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Deep -->
-
-  <WaterDeep.label>aguas profundas</WaterDeep.label>
-  <WaterDeep.tools.0.label>agua</WaterDeep.tools.0.label>
-
-  <WaterOceanDeep.label>agua oceánica profunda</WaterOceanDeep.label>
-  <WaterOceanDeep.tools.0.label>agua</WaterOceanDeep.tools.0.label>
-
-
-  <!-- Chest-deep -->
-
-  <WaterMovingChestDeep.label>agua en movimiento hasta el pecho</WaterMovingChestDeep.label>
-  <WaterMovingChestDeep.tools.0.label>agua</WaterMovingChestDeep.tools.0.label>
-
-
-  <!-- Shallow -->
-
-  <WaterShallow.label>aguas poco profundas</WaterShallow.label>
-  <WaterShallow.tools.0.label>agua</WaterShallow.tools.0.label>
-
-  <WaterOceanShallow.label>agua oceánica poco profunda</WaterOceanShallow.label>
-  <WaterOceanShallow.tools.0.label>agua</WaterOceanShallow.tools.0.label>
-
-  <WaterMovingShallow.label>agua corriente superficial</WaterMovingShallow.label>
-  <WaterMovingShallow.tools.0.label>agua</WaterMovingShallow.tools.0.label>
-
+  
+  <!-- EN: water -->
+  <Marsh.tools.water.label>barro</Marsh.tools.water.label>
+  <!-- EN: mud -->
+  <Marsh.tools.mud.label>fango</Marsh.tools.mud.label>
+  <!-- EN: marsh -->
   <Marsh.label>ciénaga</Marsh.label>
-  <Marsh.tools.0.label>barro</Marsh.tools.0.label>
-  <Marsh.tools.1.label>fango</Marsh.tools.1.label>
-
-
+  
+  <!-- EN: water -->
+  <WaterDeep.tools.water.label>agua</WaterDeep.tools.water.label>
+  <!-- EN: deep water -->
+  <WaterDeep.label>aguas profundas</WaterDeep.label>
+  
+  <!-- EN: water -->
+  <WaterMovingChestDeep.tools.water.label>agua</WaterMovingChestDeep.tools.water.label>
+  <!-- EN: chest-deep moving water -->
+  <WaterMovingChestDeep.label>agua en movimiento hasta el pecho</WaterMovingChestDeep.label>
+  
+  <!-- EN: water -->
+  <WaterMovingShallow.tools.water.label>agua</WaterMovingShallow.tools.water.label>
+  <!-- EN: shallow moving water -->
+  <WaterMovingShallow.label>agua corriente superficial</WaterMovingShallow.label>
+  
+  <!-- EN: water -->
+  <WaterOceanDeep.tools.water.label>agua</WaterOceanDeep.tools.water.label>
+  <!-- EN: deep ocean water -->
+  <WaterOceanDeep.label>agua oceánica profunda</WaterOceanDeep.label>
+  
+  <!-- EN: water -->
+  <WaterOceanShallow.tools.water.label>agua</WaterOceanShallow.tools.water.label>
+  <!-- EN: shallow ocean water -->
+  <WaterOceanShallow.label>agua oceánica poco profunda</WaterOceanShallow.label>
+  
+  <!-- EN: water -->
+  <WaterShallow.tools.water.label>agua</WaterShallow.tools.water.label>
+  <!-- EN: shallow water -->
+  <WaterShallow.label>aguas poco profundas</WaterShallow.label>
+  
 </LanguageData>

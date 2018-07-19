@@ -1,19 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-      <YayoHigh.label>Yaya</YayoHigh.label>
-      <YayoHigh.labelNoun>una hojuela de yaya</YayoHigh.labelNoun>
-
-      <!-- Psychite addiction -->
-
-    <PsychiteTolerance.label>Tolerancia a la Yaya</PsychiteTolerance.label>
-    <PsychiteTolerance.stages.0.label>mínima</PsychiteTolerance.stages.0.label>
-    <PsychiteTolerance.stages.1.label>leve</PsychiteTolerance.stages.1.label>
-    <PsychiteTolerance.stages.2.label>moderada</PsychiteTolerance.stages.2.label>
-    <PsychiteTolerance.stages.3.label>extrema</PsychiteTolerance.stages.3.label>
-
-    <PsychiteAddiction.label>Adicción a la Yaya</PsychiteAddiction.label>
-    <PsychiteAddiction.stages.1.label>Abstinencia</PsychiteAddiction.stages.1.label>
-
-
+  
+  <!-- EN: withdrawal -->
+  <PsychiteAddiction.stages.withdrawal.label>Abstinencia</PsychiteAddiction.stages.withdrawal.label>
+  <!-- EN: psychite addiction -->
+  <PsychiteAddiction.label>Adicción a la Yaya</PsychiteAddiction.label>
+  
+  <!-- EN: small -->
+  <PsychiteTolerance.stages.small-0.label>mínima</PsychiteTolerance.stages.small-0.label>
+  <!-- EN: small -->
+  <PsychiteTolerance.stages.small-1.label>leve</PsychiteTolerance.stages.small-1.label>
+  <!-- EN: large -->
+  <PsychiteTolerance.stages.large.label>moderada</PsychiteTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <PsychiteTolerance.stages.massive.label>extrema</PsychiteTolerance.stages.massive.label>
+  <!-- EN: psychite tolerance -->
+  <PsychiteTolerance.label>Tolerancia a la Yaya</PsychiteTolerance.label>
+  
+  <!-- EN: a yayo high -->
+  <YayoHigh.labelNoun>una hojuela de yaya</YayoHigh.labelNoun>
+  <!-- EN: high on yayo -->
+  <YayoHigh.label>Yaya</YayoHigh.label>
+  
 </LanguageData>

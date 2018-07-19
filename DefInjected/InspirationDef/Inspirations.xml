@@ -1,47 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Frenzy_Work.label>Frenesí de Trabajo</Frenzy_Work.label>
-  <Frenzy_Work.beginLetter>{0} acaba de inspirarse. [PAWN_pronoun] trabajara 2,5 veces más rápido durante las próximas 24 horas.</Frenzy_Work.beginLetter>
-  <Frenzy_Work.beginLetterLabel>Inspirado/a: Frenesí de Trabajo</Frenzy_Work.beginLetterLabel>
-  <Frenzy_Work.endMessage>{0} ya no está inspirado/a (Frenesí de Trabajo).</Frenzy_Work.endMessage>
-  <Frenzy_Work.baseInspectLine>Inspirado/a: Frenesí de Trabajo</Frenzy_Work.baseInspectLine>
-
-  <Frenzy_Go.label>Hiperactivo/a</Frenzy_Go.label>
+  
+  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will move faster for the next 8 days. -->
   <Frenzy_Go.beginLetter>{0} acaba de inspirarse. [PAWN_pronoun] se moverá 1,5 veces más rápido durante los próximos 2 días.</Frenzy_Go.beginLetter>
+  <!-- EN: Inspiration: Go frenzy -->
   <Frenzy_Go.beginLetterLabel>Inspirado/a: Hiperactivo/a</Frenzy_Go.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (go frenzy). -->
   <Frenzy_Go.endMessage>{0} ya no está inspirado/a (Hiperactivo/a).</Frenzy_Go.endMessage>
+  <!-- EN: Inspired: Go frenzy -->
   <Frenzy_Go.baseInspectLine>Inspirado/a: Hiperactivo/a</Frenzy_Go.baseInspectLine>
-
-  <Frenzy_Shoot.label>Pistolero/a</Frenzy_Shoot.label>
+  <!-- EN: go frenzy -->
+  <Frenzy_Go.label>Hiperactivo/a</Frenzy_Go.label>
+  
+  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_possessive] shoot more accurately for the next 8 days. -->
   <Frenzy_Shoot.beginLetter>{0} acaba de inspirase. [PAWN_possessive] tendrá una mejor precisión de disparó durante los próximos 3 días.</Frenzy_Shoot.beginLetter>
+  <!-- EN: Inspiration: Shoot frenzy -->
   <Frenzy_Shoot.beginLetterLabel>Inspirado/a: Pistolero/a</Frenzy_Shoot.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (shoot frenzy). -->
   <Frenzy_Shoot.endMessage>{0} ya no está inspirado (Pistolero/a).</Frenzy_Shoot.endMessage>
+  <!-- EN: Inspired: Shoot frenzy -->
   <Frenzy_Shoot.baseInspectLine>Inspirado/a: Pistolero/a</Frenzy_Shoot.baseInspectLine>
-
-  <Inspired_Trade.label>Negociante</Inspired_Trade.label>
-  <Inspired_Trade.beginLetter>{0} acaba de inspirase. [PAWN_pronoun] recibirá una importante bonificación en [PAWN_possessive] próximo acuerdo comercial.\n\nLa inspiración acabara después de 8 días o cuando se realice un comercio.</Inspired_Trade.beginLetter>
-  <Inspired_Trade.beginLetterLabel>Inspirado/a: Negociante</Inspired_Trade.beginLetterLabel>
-  <Inspired_Trade.endMessage>{0} ya no está inspirado (Negociación).</Inspired_Trade.endMessage>
-  <Inspired_Trade.baseInspectLine>Inspirado/a: Negociación</Inspired_Trade.baseInspectLine>
-
-  <Inspired_Recruitment.label>Politico/a</Inspired_Recruitment.label>
-  <Inspired_Recruitment.beginLetter>{0} acaba de inspirase. [PAWN_pronoun] tendrá éxito con el próximo prisionero sin importar la dificultad.\n\nLa inspiración acabara después de 8 días o cuando un prisionero sea reclutado.</Inspired_Recruitment.beginLetter>
-  <Inspired_Recruitment.beginLetterLabel>Inspirado/a: Politico/a</Inspired_Recruitment.beginLetterLabel>
-  <Inspired_Recruitment.endMessage>{0} ya no está inspirado (Reclutamiento).</Inspired_Recruitment.endMessage>
-  <Inspired_Recruitment.baseInspectLine>Inspirado/a: Reclutamiento</Inspired_Recruitment.baseInspectLine>
-
-  <Inspired_Surgery.label>Cirujano/a</Inspired_Surgery.label>
-  <Inspired_Surgery.beginLetter>{0} acaba de inspirase. La probabilidad de fracaso de la próxima operación realizada por [PAWN_objective] será 10 veces menor.\n\nLa inspiración acabara después de 8 días o cuando realice una operación.</Inspired_Surgery.beginLetter>
-  <Inspired_Surgery.beginLetterLabel>Inspirado/a: Cirujano/a</Inspired_Surgery.beginLetterLabel>
-  <Inspired_Surgery.endMessage>{0} ya no está inspirado/a (Cirugía).</Inspired_Surgery.endMessage>
-  <Inspired_Surgery.baseInspectLine>Inspirado/a: Cirugía</Inspired_Surgery.baseInspectLine>
-
-  <Inspired_Creativity.label>Artista</Inspired_Creativity.label>
+  <!-- EN: shoot frenzy -->
+  <Frenzy_Shoot.label>Pistolero/a</Frenzy_Shoot.label>
+  
+  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will work faster for the next 8 days. -->
+  <Frenzy_Work.beginLetter>{0} acaba de inspirarse. [PAWN_pronoun] trabajara 2,5 veces más rápido durante las próximas 24 horas.</Frenzy_Work.beginLetter>
+  <!-- EN: Inspiration: Work frenzy -->
+  <Frenzy_Work.beginLetterLabel>Inspirado/a: Frenesí de Trabajo</Frenzy_Work.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (work frenzy). -->
+  <Frenzy_Work.endMessage>{0} ya no está inspirado/a (Frenesí de Trabajo).</Frenzy_Work.endMessage>
+  <!-- EN: Inspired: Work frenzy -->
+  <Frenzy_Work.baseInspectLine>Inspirado/a: Frenesí de Trabajo</Frenzy_Work.baseInspectLine>
+  <!-- EN: work frenzy -->
+  <Frenzy_Work.label>Frenesí de Trabajo</Frenzy_Work.label>
+  
+  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\nThe next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed. -->
   <Inspired_Creativity.beginLetter>{0} acaba de inspirase. Cualquier pieza de arte terminada tendrá 2 niveles de calidad más altos de lo normal.\n\nLa inspiración acabara después de 8 días o cuando se complete una obra de arte.</Inspired_Creativity.beginLetter>
+  <!-- EN: Inspiration: Inspired creativity -->
   <Inspired_Creativity.beginLetterLabel>Inspirado/a: Artista</Inspired_Creativity.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (inspired creativity). -->
   <Inspired_Creativity.endMessage>{0} ya no está inspirado/a (Arte).</Inspired_Creativity.endMessage>
+  <!-- EN: Inspired: Inspired creativity -->
   <Inspired_Creativity.baseInspectLine>Inspirado/a: Arte</Inspired_Creativity.baseInspectLine>
-
-
+  <!-- EN: inspired creativity -->
+  <Inspired_Creativity.label>Artista</Inspired_Creativity.label>
+  
+  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited. -->
+  <Inspired_Recruitment.beginLetter>{0} acaba de inspirase. [PAWN_pronoun] tendrá éxito con el próximo prisionero sin importar la dificultad.\n\nLa inspiración acabara después de 8 días o cuando un prisionero sea reclutado.</Inspired_Recruitment.beginLetter>
+  <!-- EN: Inspiration: Inspired recruitment -->
+  <Inspired_Recruitment.beginLetterLabel>Inspirado/a: Politico/a</Inspired_Recruitment.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (inspired recruitment). -->
+  <Inspired_Recruitment.endMessage>{0} ya no está inspirado (Reclutamiento).</Inspired_Recruitment.endMessage>
+  <!-- EN: Inspired: Inspired recruitment -->
+  <Inspired_Recruitment.baseInspectLine>Inspirado/a: Reclutamiento</Inspired_Recruitment.baseInspectLine>
+  <!-- EN: inspired recruitment -->
+  <Inspired_Recruitment.label>Politico/a</Inspired_Recruitment.label>
+  
+  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\nThe surgery failure chance for the next surgery performed by [PAWN_objective] will be 10 times smaller.\n\nThe inspiration will end after 8 days, or when the surgery is performed. -->
+  <Inspired_Surgery.beginLetter>{0} acaba de inspirase. La probabilidad de fracaso de la próxima operación realizada por [PAWN_objective] será 10 veces menor.\n\nLa inspiración acabara después de 8 días o cuando realice una operación.</Inspired_Surgery.beginLetter>
+  <!-- EN: Inspiration: Inspired surgery -->
+  <Inspired_Surgery.beginLetterLabel>Inspirado/a: Cirujano/a</Inspired_Surgery.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (inspired surgery). -->
+  <Inspired_Surgery.endMessage>{0} ya no está inspirado/a (Cirugía).</Inspired_Surgery.endMessage>
+  <!-- EN: Inspired: Inspired surgery -->
+  <Inspired_Surgery.baseInspectLine>Inspirado/a: Cirugía</Inspired_Surgery.baseInspectLine>
+  <!-- EN: inspired surgery -->
+  <Inspired_Surgery.label>Cirujano/a</Inspired_Surgery.label>
+  
+  <!-- EN: [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done. -->
+  <Inspired_Trade.beginLetter>{0} acaba de inspirase. [PAWN_pronoun] recibirá una importante bonificación en [PAWN_possessive] próximo acuerdo comercial.\n\nLa inspiración acabara después de 8 días o cuando se realice un comercio.</Inspired_Trade.beginLetter>
+  <!-- EN: Inspiration: Inspired trade -->
+  <Inspired_Trade.beginLetterLabel>Inspirado/a: Negociante</Inspired_Trade.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (inspired trade). -->
+  <Inspired_Trade.endMessage>{0} ya no está inspirado (Negociación).</Inspired_Trade.endMessage>
+  <!-- EN: Inspired: Inspired trade -->
+  <Inspired_Trade.baseInspectLine>Inspirado/a: Negociación</Inspired_Trade.baseInspectLine>
+  <!-- EN: inspired trade -->
+  <Inspired_Trade.label>Negociante</Inspired_Trade.label>
+  
 </LanguageData>
