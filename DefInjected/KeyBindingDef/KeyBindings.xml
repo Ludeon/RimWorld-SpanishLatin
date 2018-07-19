@@ -1,151 +1,81 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
-  <!-- EN: accept -->
-  <Accept.label>Aceptar</Accept.label>
-  
-  <!-- EN: cancel -->
-  <Cancel.label>Cancelar</Cancel.label>
-  
-  <!-- EN: draft -->
-  <Command_ColonistDraft.label>Reclutar</Command_ColonistDraft.label>
-  
-  <!-- EN: toggle forbidden -->
-  <Command_ItemForbid.label>Prohibir si/no</Command_ItemForbid.label>
-  
-  <!-- EN: toggle power -->
-  <Command_TogglePower.label>Alternar Corriente</Command_TogglePower.label>
-  
-  <!-- EN: cancel -->
-  <Designator_Cancel.label>Cancelar</Designator_Cancel.label>
-  
-  <!-- EN: deconstruct -->
-  <Designator_Deconstruct.label>Desarmar</Designator_Deconstruct.label>
-  
-  <!-- EN: rotate left -->
-  <Designator_RotateLeft.label>Girar a la izquierda</Designator_RotateLeft.label>
-  
-  <!-- EN: rotate right -->
-  <Designator_RotateRight.label>Girar a la derecha</Designator_RotateRight.label>
-  
-  <!-- EN: tick once -->
-  <Dev_TickOnce.label>Un Tick (debug)</Dev_TickOnce.label>
-  
-  <!-- EN: toggle debug actions menu -->
-  <Dev_ToggleDebugActionsMenu.label>Abrir/Cerrar Menú de acciones debug</Dev_ToggleDebugActionsMenu.label>
-  
-  <!-- EN: toggle debug inspector -->
-  <Dev_ToggleDebugInspector.label>Abrir/Cerrar Inspector debug</Dev_ToggleDebugInspector.label>
-  
-  <!-- EN: toggle debug log -->
-  <Dev_ToggleDebugLog.label>Alternar registro</Dev_ToggleDebugLog.label>
-  
-  <!-- EN: toggle debug log menu -->
-  <Dev_ToggleDebugLogMenu.label>Abrir/Cerrar Registro debug</Dev_ToggleDebugLogMenu.label>
-  
-  <!-- EN: toggle debug settings menu -->
-  <Dev_ToggleDebugSettingsMenu.label>Abrir/Cerrar Opciones debug</Dev_ToggleDebugSettingsMenu.label>
-  
-  <!-- EN: toggle god mode -->
-  <Dev_ToggleGodMode.label>Alternar Modo Dios</Dev_ToggleGodMode.label>
-  
-  <!-- EN: dolly down -->
-  <MapDolly_Down.label>Abajo</MapDolly_Down.label>
-  
-  <!-- EN: dolly left -->
-  <MapDolly_Left.label>Izquierda</MapDolly_Left.label>
-  
-  <!-- EN: dolly right -->
-  <MapDolly_Right.label>Derecha</MapDolly_Right.label>
-  
-  <!-- EN: dolly up -->
+
+  <!-- In-game camera -->
+
   <MapDolly_Up.label>Arriba</MapDolly_Up.label>
-  
-  <!-- EN: zoom in -->
+  <MapDolly_Down.label>Abajo</MapDolly_Down.label>
+  <MapDolly_Left.label>Izquierda</MapDolly_Left.label>
+  <MapDolly_Right.label>Derecha</MapDolly_Right.label>
   <MapZoom_In.label>Acercar la vista</MapZoom_In.label>
-  
-  <!-- EN: zoom out -->
   <MapZoom_Out.label>Alejar la vista</MapZoom_Out.label>
-  
-  <!-- EN: Misc 1 -->
-  <Misc1.label>Misc 1</Misc1.label>
-  
-  <!-- EN: Misc 10 -->
-  <Misc10.label>Misc 10</Misc10.label>
-  
-  <!-- EN: Misc 11 -->
-  <Misc11.label>Misc 11</Misc11.label>
-  
-  <!-- EN: Misc 12 -->
-  <Misc12.label>Misc 12</Misc12.label>
-  
-  <!-- EN: Misc 2 -->
-  <Misc2.label>Misc 2</Misc2.label>
-  
-  <!-- EN: Misc 3 -->
-  <Misc3.label>Misc 3</Misc3.label>
-  
-  <!-- EN: Misc 4 -->
-  <Misc4.label>Misc 4</Misc4.label>
-  
-  <!-- EN: Misc 5 -->
-  <Misc5.label>Misc 5</Misc5.label>
-  
-  <!-- EN: Misc 6 -->
-  <Misc6.label>Misc 6</Misc6.label>
-  
-  <!-- EN: Misc 7 -->
-  <Misc7.label>Misc 7</Misc7.label>
-  
-  <!-- EN: Misc 8 -->
-  <Misc8.label>Misc 8</Misc8.label>
-  
-  <!-- EN: Misc 9 -->
-  <Misc9.label>Misc 9</Misc9.label>
-  
-  <!-- EN: increment 100x -->
-  <ModifierIncrement_100x.label>Incrementar 100x</ModifierIncrement_100x.label>
-  
-  <!-- EN: increment 10x -->
-  <ModifierIncrement_10x.label>Incrementar 10x</ModifierIncrement_10x.label>
-  
-  <!-- EN: next colonist -->
-  <NextColonist.label>Colono siguiente</NextColonist.label>
-  
-  <!-- EN: previous colonist -->
-  <PreviousColonist.label>Colono anterior</PreviousColonist.label>
-  
-  <!-- EN: queue order -->
-  <QueueOrder.label>Cola de ordenes</QueueOrder.label>
-  
-  <!-- EN: select next in cell -->
-  <SelectNextInCell.label>Seleccionar siguiente objeto en la celda</SelectNextInCell.label>
-  
-  <!-- EN: take screenshot -->
+
+
+  <!-- Map play -->
+
+  <Accept.label>Aceptar</Accept.label>
+  <Cancel.label>Cancelar</Cancel.label>
   <TakeScreenshot.label>Tomar captura de pantalla</TakeScreenshot.label>
-  
-  <!-- EN: game speed: Fast -->
-  <TimeSpeed_Fast.label>Velocidad del juego: Rápido</TimeSpeed_Fast.label>
-  
-  <!-- EN: game speed: Normal -->
-  <TimeSpeed_Normal.label>Velocidad del juego: Normal</TimeSpeed_Normal.label>
-  
-  <!-- EN: game speed: Super fast -->
-  <TimeSpeed_Superfast.label>Velocidad del juego: Súper Rápido</TimeSpeed_Superfast.label>
-  
-  <!-- EN: game speed: Ultra fast (debug) -->
-  <TimeSpeed_Ultrafast.label>Velocidad del juego: Ultra Rápido (debug)</TimeSpeed_Ultrafast.label>
-  
-  <!-- EN: toggle beauty display -->
-  <ToggleBeautyDisplay.label>toggle beauty display</ToggleBeautyDisplay.label>
-  
-  <!-- EN: pause/resume game -->
-  <TogglePause.label>Pausar/Reanudar</TogglePause.label>
-  
-  <!-- EN: toggle room stats display -->
-  <ToggleRoomStatsDisplay.label>toggle room stats display</ToggleRoomStatsDisplay.label>
-  
-  <!-- EN: toggle screenshot mode -->
   <ToggleScreenshotMode.label>Alternar Modo de Captura de Pantalla</ToggleScreenshotMode.label>
-  
+  <SelectNextInCell.label>Seleccionar siguiente objeto en la celda</SelectNextInCell.label>
+  <TogglePause.label>Pausar/Reanudar</TogglePause.label>
+  <TimeSpeed_Normal.label>Velocidad del juego: Normal</TimeSpeed_Normal.label>
+  <TimeSpeed_Fast.label>Velocidad del juego: Rápido</TimeSpeed_Fast.label>
+  <TimeSpeed_Superfast.label>Velocidad del juego: Súper Rápido</TimeSpeed_Superfast.label>
+  <TimeSpeed_Ultrafast.label>Velocidad del juego: Ultra Rápido (debug)</TimeSpeed_Ultrafast.label>
+  <PreviousColonist.label>Colono anterior</PreviousColonist.label>
+  <NextColonist.label>Colono siguiente</NextColonist.label>
+  <ToggleRoomStatsDisplay.label>toggle room stats display</ToggleRoomStatsDisplay.label>
+  <ToggleBeautyDisplay.label>toggle beauty display</ToggleBeautyDisplay.label>
+
+
+  <!-- Misc (re-used) -->
+
+  <Misc1.label>Misc 1</Misc1.label>
+  <Misc2.label>Misc 2</Misc2.label>
+  <Misc3.label>Misc 3</Misc3.label>
+  <Misc4.label>Misc 4</Misc4.label>
+  <Misc5.label>Misc 5</Misc5.label>
+  <Misc6.label>Misc 6</Misc6.label>
+  <Misc7.label>Misc 7</Misc7.label>
+  <Misc8.label>Misc 8</Misc8.label>
+  <Misc9.label>Misc 9</Misc9.label>
+  <Misc10.label>Misc 10</Misc10.label>
+  <Misc11.label>Misc 11</Misc11.label>
+  <Misc12.label>Misc 12</Misc12.label>
+
+
+  <!-- Selection special -->
+
+  <Command_TogglePower.label>Alternar Corriente</Command_TogglePower.label>
+  <Command_ItemForbid.label>Prohibir si/no</Command_ItemForbid.label>
+  <Command_ColonistDraft.label>Reclutar</Command_ColonistDraft.label>
+
+
+  <!-- Architect: Common -->
+
+  <Designator_Cancel.label>Cancelar</Designator_Cancel.label>
+  <Designator_Deconstruct.label>Desarmar</Designator_Deconstruct.label>
+  <Designator_RotateLeft.label>Girar a la izquierda</Designator_RotateLeft.label>
+  <Designator_RotateRight.label>Girar a la derecha</Designator_RotateRight.label>
+
+
+  <!-- Modifiers -->
+
+  <ModifierIncrement_10x.label>Incrementar 10x</ModifierIncrement_10x.label>
+  <ModifierIncrement_100x.label>Incrementar 100x</ModifierIncrement_100x.label>
+  <QueueOrder.label>Cola de ordenes</QueueOrder.label>
+
+
+  <!-- Debug -->
+
+  <Dev_TickOnce.label>Un Tick (debug)</Dev_TickOnce.label>
+  <Dev_ToggleGodMode.label>Alternar Modo Dios</Dev_ToggleGodMode.label>
+  <Dev_ToggleDebugLog.label>Alternar registro</Dev_ToggleDebugLog.label>
+  <Dev_ToggleDebugActionsMenu.label>Abrir/Cerrar Menú de acciones debug</Dev_ToggleDebugActionsMenu.label>
+  <Dev_ToggleDebugLogMenu.label>Abrir/Cerrar Registro debug</Dev_ToggleDebugLogMenu.label>
+  <Dev_ToggleDebugInspector.label>Abrir/Cerrar Inspector debug</Dev_ToggleDebugInspector.label>
+  <Dev_ToggleDebugSettingsMenu.label>Abrir/Cerrar Opciones debug</Dev_ToggleDebugSettingsMenu.label>
+
+
 </LanguageData>

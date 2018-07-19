@@ -1,24 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: {0} has burned to death. -->
-  <Burn.deathMessage>{0} se ha quemado hasta morir.</Burn.deathMessage>
-  <!-- EN: burn -->
-  <Burn.label>Quemadura</Burn.label>
-  
-  <!-- EN: {0} has burned to death. -->
-  <Flame.deathMessage>{0} ha muerto incinerado(a).</Flame.deathMessage>
-  <!-- EN: flame -->
+
   <Flame.label>Llama</Flame.label>
-  
-  <!-- EN: {0} has succumbed to frostbite. -->
-  <Frostbite.deathMessage>{0} ha muerto congelado(a).</Frostbite.deathMessage>
-  <!-- EN: frostbite -->
+  <Flame.deathMessage>{0} ha muerto incinerado(a).</Flame.deathMessage>
+
+
+  <!-- Burn is like Flame, but doesn't ignite anything -->
+
+  <Burn.label>Quemadura</Burn.label>
+  <Burn.deathMessage>{0} se ha quemado hasta morir.</Burn.deathMessage>
+
   <Frostbite.label>Congelación</Frostbite.label>
-  
-  <!-- EN: {0} has been killed by a tornado. -->
-  <TornadoScratch.deathMessage>{0} ha muerto por un rayo.</TornadoScratch.deathMessage>
-  <!-- EN: scratch -->
+  <Frostbite.deathMessage>{0} ha muerto congelado(a).</Frostbite.deathMessage>
+
   <TornadoScratch.label>Rayo</TornadoScratch.label>
-  
+  <TornadoScratch.deathMessage>{0} ha muerto por un rayo.</TornadoScratch.deathMessage>
+
+
 </LanguageData>

@@ -1,134 +1,98 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: air conditioning -->
-  <AirConditioning.label>Aire Acondicionado</AirConditioning.label>
-  <!-- EN: Build coolers to make people comfortable in hot weather, or to construct freezers for storing perishable goods. -->
-  <AirConditioning.description>Construye sistemas de aire acondicionado, que termiten calentar o refrigerar habitaciones cerradas.</AirConditioning.description>
-  
-  <!-- EN: autodoor -->
-  <Autodoors.label>Puertas Automáticas</Autodoors.label>
-  <!-- EN: Build autodoors which automatically open when someone approaches, without slowing anyone down. -->
-  <Autodoors.description>Construye puertas automáticas que permiten el libre paso sin enlentecer a los usuarios.</Autodoors.description>
-  
-  <!-- EN: battery -->
-  <Batteries.label>Baterías</Batteries.label>
-  <!-- EN: Build batteries for storing electricity. -->
-  <Batteries.description>Te permite construir baterías, que te permiten alamacenar electricidad.</Batteries.description>
-  
-  <!-- EN: biofuel refining -->
-  <BiofuelRefining.label>Refinerías de Biocombustibles</BiofuelRefining.label>
-  <!-- EN: Build biofuel refineries to make chemfuel from biological matter like wood or foodstuffs. -->
-  <BiofuelRefining.description>Construir refinerías para hacer biocombustible a partir de materia biológica como la madera o los alimentos.</BiofuelRefining.description>
-  
-  <!-- EN: blowback operation -->
-  <BlowbackOperation.label>Manejo del Retroceso</BlowbackOperation.label>
-  <!-- EN: Craft low-power blowback-operated guns like autopistols, machine pistols, and heavy SMGs. -->
-  <BlowbackOperation.description>Fabrica armas simples semiautomáticas y automáticas como pistolas automáticas, pistolas ametralladoras y SMG pesados.</BlowbackOperation.description>
-  
-  <!-- EN: electric cremation -->
-  <ElectricCremation.label>Cremación Eléctrica</ElectricCremation.label>
-  <!-- EN: Build crematoriums for vaporizing unwanted corpses. -->
-  <ElectricCremation.description>Te permite construir crematorios para deshacerte de los cuerpos indeseables.</ElectricCremation.description>
-  
-  <!-- EN: electricity -->
+
   <Electricity.label>Electricidad</Electricity.label>
-  <!-- EN: Harness the power of electricity for a hundred different tasks. -->
   <Electricity.description>Generar y usar electricidad para cocinar y otras tareas sencillas.</Electricity.description>
-  
-  <!-- EN: electric smelting -->
-  <ElectricSmelting.label>Fundición Eléctrica</ElectricSmelting.label>
-  <!-- EN: Build electric smithy and smelters.\n\nThe electric smithy allows smithing items without fuel. The electric smelter extracts useful metal from slag chunks and other items. -->
-  <ElectricSmelting.description>Te permite construir fundiciones eléctricas que utilizaran el calor y potentes electroimanes para extraer el metal aprovechable de los escombros metálicos y otros objetos.</ElectricSmelting.description>
-  
-  <!-- EN: firefoam -->
-  <Firefoam.label>Espuma CortaFuegos</Firefoam.label>
-  <!-- EN: Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames. -->
-  <Firefoam.description>Permite la construcción de los dispensadores de espuma cortafuegos, objetos que automáticamente dispersan espuma cortafuegos al detectar la presencia de un incendio o ser activados manualmente.</Firefoam.description>
-  
-  <!-- EN: flak armor -->
-  <FlakArmor.label>Ropa AntiBalas</FlakArmor.label>
-  <!-- EN: Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly. -->
-  <FlakArmor.description>Ropa artesanal con armadura de metal cosida para resistir balas y explosiones. Esta armadura de peso ralentiza un poco el movimiento.</FlakArmor.description>
-  
-  <!-- EN: gas operation -->
-  <GasOperation.label>Manejo de Gas</GasOperation.label>
-  <!-- EN: Craft high-power guns like chain shotguns and LMGs. -->
-  <GasOperation.description>Diseñe pistolas automáticas y semiautomáticas más avanzadas, como escopetas de cadena y LMG.</GasOperation.description>
-  
-  <!-- EN: geothermal power -->
-  <GeothermalPower.label>Energía Geotérmica</GeothermalPower.label>
-  <!-- EN: Build geothermal power plants on top of steam geysers, for uninterrupted power. -->
-  <GeothermalPower.description>Te permite construir plantas geotérmicas sobre géisers de vapor para un suministro eléctrico ininterrumpido.</GeothermalPower.description>
-  
-  <!-- EN: gunsmithing -->
-  <Gunsmithing.label>Armería</Gunsmithing.label>
-  <!-- EN: Craft simple manually-operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers. -->
-  <Gunsmithing.description>Fabrica armas simples operadas manualmente como revólveres, escopetas, rifles de cerrojo y lanzadores incendiarios.</Gunsmithing.description>
-  
-  <!-- EN: gun turrets -->
-  <GunTurrets.label>Torreta Automática</GunTurrets.label>
-  <!-- EN: Produce simple automated gun turrets. -->
-  <GunTurrets.description>Permite la producción de torretas automáticas para la defensa de la colonia.</GunTurrets.description>
-  
-  <!-- EN: hydroponics -->
-  <Hydroponics.label>Hidroponia</Hydroponics.label>
-  <!-- EN: Build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside. -->
-  <Hydroponics.description>Te permite construir contenedores hidropónicos para cultivar plantas en espacios cerrados.</Hydroponics.description>
-  
-  <!-- EN: IEDs -->
-  <IEDs.label>Minas</IEDs.label>
-  <!-- EN: Build improvised traps from any kind of mortar shell. -->
-  <IEDs.description>Permite a los colonos construir minas a partir de obuses de mortero.</IEDs.description>
-  
-  <!-- EN: machining -->
-  <Machining.label>Maquinado</Machining.label>
-  <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to disassemble dead mechanoids for resources. -->
-  <Machining.description>Te permite construir mesas de maquinado para desmontar mecanoides o fabricar armas de fuego</Machining.description>
-  
-  <!-- EN: mortars -->
-  <Mortars.label>Morteros</Mortars.label>
-  <!-- EN: Build mortars which can lob shells long distances - even over walls. -->
-  <Mortars.description>Aprende a construir morteros, los cuales disparan obuses por encima de obstáculos y a largas distancias.</Mortars.description>
-  
-  <!-- EN: nutrient paste -->
-  <NutrientPaste.label>Pasta Nutricional</NutrientPaste.label>
-  <!-- EN: Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all. -->
-  <NutrientPaste.description>Construye dispensadores de pasta nutricional, que producen comida eficientemente a partir de materia prima cruda.</NutrientPaste.description>
-  
-  <!-- EN: packaged survival meal -->
-  <PackagedSurvivalMeal.label>Comida de Supervivencia</PackagedSurvivalMeal.label>
-  <!-- EN: Produce packaged survival meals which never go bad. Great for traveling. -->
-  <PackagedSurvivalMeal.description>Aprenda a producir comidas de supervivencia empaquetadas, un alimento preservado y sellado que nunca se pudre. Genial para viajar.</PackagedSurvivalMeal.description>
-  
-  <!-- EN: prosthetics -->
-  <Prosthetics.label>Prótesis</Prosthetics.label>
-  <!-- EN: Build inexpensive prosthetic body parts to replace lost limbs. Requires a skilled doctor to attach. -->
-  <Prosthetics.description>Fabrique prótesis baratas para reemplazar las extremidades perdidas. Requiere que un médico experto lo instale.</Prosthetics.description>
-  
-  <!-- EN: smokepop belts -->
-  <SmokepopBelt.label>Cinturones de Humo</SmokepopBelt.label>
-  <!-- EN: Build smokepop belts which generate an automatic defensive smokescreen when the user is shot. -->
-  <SmokepopBelt.description>Aprende a construir cinturones de humo que puedan proporcionar una cortina de humo automática y defensiva.</SmokepopBelt.description>
-  
-  <!-- EN: solar panel -->
-  <SolarPanels.label>Paneles Solares</SolarPanels.label>
-  <!-- EN: Build solar panels for electricity generation. -->
-  <SolarPanels.description>Construye paneles solares, para producir electricidad a partir de la luz del sol.</SolarPanels.description>
-  
-  <!-- EN: sterile materials -->
-  <SterileMaterials.label>Material Estéril</SterileMaterials.label>
-  <!-- EN: Construct sterile tiles to make cleanrooms for safer and more effective medical treatment, research, and cooking. -->
-  <SterileMaterials.description>Construir baldosas estériles para hacer salas limpias para un tratamiento médico más eficaz.</SterileMaterials.description>
-  
-  <!-- EN: tube television -->
-  <TubeTelevision.label>Televisión de Rayos Catódicos</TubeTelevision.label>
-  <!-- EN: Produce tube televisions for recreational watching. -->
-  <TubeTelevision.description>Permite la construcción de televisiones.</TubeTelevision.description>
-  
-  <!-- EN: watermill generator -->
+
+  <Batteries.label>Baterías</Batteries.label>
+  <Batteries.description>Te permite construir baterías, que te permiten alamacenar electricidad.</Batteries.description>
+
+  <BiofuelRefining.label>Refinerías de Biocombustibles</BiofuelRefining.label>
+  <BiofuelRefining.description>Construir refinerías para hacer biocombustible a partir de materia biológica como la madera o los alimentos.</BiofuelRefining.description>
+
   <WatermillGenerator.label>Molino de Agua</WatermillGenerator.label>
-  <!-- EN: Build watermill generators on rivers to generate a steady supply of power. -->
   <WatermillGenerator.description>Construir molinos de agua en los ríos para generar un suministro constante de energía.</WatermillGenerator.description>
-  
+
+  <NutrientPaste.label>Pasta Nutricional</NutrientPaste.label>
+  <NutrientPaste.description>Construye dispensadores de pasta nutricional, que producen comida eficientemente a partir de materia prima cruda.</NutrientPaste.description>
+
+  <SolarPanels.label>Paneles Solares</SolarPanels.label>
+  <SolarPanels.description>Construye paneles solares, para producir electricidad a partir de la luz del sol.</SolarPanels.description>
+
+  <AirConditioning.label>Aire Acondicionado</AirConditioning.label>
+  <AirConditioning.description>Construye sistemas de aire acondicionado, que termiten calentar o refrigerar habitaciones cerradas.</AirConditioning.description>
+
+  <Autodoors.label>Puertas Automáticas</Autodoors.label>
+  <Autodoors.description>Construye puertas automáticas que permiten el libre paso sin enlentecer a los usuarios.</Autodoors.description>
+
+  <Hydroponics.label>Hidroponia</Hydroponics.label>
+  <Hydroponics.description>Te permite construir contenedores hidropónicos para cultivar plantas en espacios cerrados.</Hydroponics.description>
+
+  <ElectricSmelting.label>Fundición Eléctrica</ElectricSmelting.label>
+  <ElectricSmelting.description>Te permite construir fundiciones eléctricas que utilizaran el calor y potentes electroimanes para extraer el metal aprovechable de los escombros metálicos y otros objetos.</ElectricSmelting.description>
+
+  <TubeTelevision.label>Televisión de Rayos Catódicos</TubeTelevision.label>
+  <TubeTelevision.description>Permite la construcción de televisiones.</TubeTelevision.description>
+
+  <PackagedSurvivalMeal.label>Comida de Supervivencia</PackagedSurvivalMeal.label>
+  <PackagedSurvivalMeal.description>Aprenda a producir comidas de supervivencia empaquetadas, un alimento preservado y sellado que nunca se pudre. Genial para viajar.</PackagedSurvivalMeal.description>
+
+  <ElectricCremation.label>Cremación Eléctrica</ElectricCremation.label>
+  <ElectricCremation.description>Te permite construir crematorios para deshacerte de los cuerpos indeseables.</ElectricCremation.description>
+
+  <Firefoam.label>Espuma CortaFuegos</Firefoam.label>
+  <Firefoam.description>Permite la construcción de los dispensadores de espuma cortafuegos, objetos que automáticamente dispersan espuma cortafuegos al detectar la presencia de un incendio o ser activados manualmente.</Firefoam.description>
+
+  <IEDs.label>Minas</IEDs.label>
+  <IEDs.description>Permite a los colonos construir minas a partir de obuses de mortero.</IEDs.description>
+
+  <GeothermalPower.label>Energía Geotérmica</GeothermalPower.label>
+  <GeothermalPower.description>Te permite construir plantas geotérmicas sobre géisers de vapor para un suministro eléctrico ininterrumpido.</GeothermalPower.description>
+
+  <SterileMaterials.label>Material Estéril</SterileMaterials.label>
+  <SterileMaterials.description>Construir baldosas estériles para hacer salas limpias para un tratamiento médico más eficaz.</SterileMaterials.description>
+
+
+  <!-- Machining and its children sub-tier -->
+
+  <Machining.label>Maquinado</Machining.label>
+  <Machining.description>Te permite construir mesas de maquinado para desmontar mecanoides o fabricar armas de fuego</Machining.description>
+
+  <SmokepopBelt.label>Cinturones de Humo</SmokepopBelt.label>
+  <SmokepopBelt.description>Aprende a construir cinturones de humo que puedan proporcionar una cortina de humo automática y defensiva.</SmokepopBelt.description>
+
+  <Prosthetics.label>Prótesis</Prosthetics.label>
+  <Prosthetics.description>Fabrique prótesis baratas para reemplazar las extremidades perdidas. Requiere que un médico experto lo instale.</Prosthetics.description>
+
+  <Gunsmithing.label>Armería</Gunsmithing.label>
+  <Gunsmithing.description>Fabrica armas simples operadas manualmente como revólveres, escopetas, rifles de cerrojo y lanzadores incendiarios.</Gunsmithing.description>
+
+  <FlakArmor.label>Ropa AntiBalas</FlakArmor.label>
+  <FlakArmor.description>Ropa artesanal con armadura de metal cosida para resistir balas y explosiones. Esta armadura de peso ralentiza un poco el movimiento.</FlakArmor.description>
+
+  <Mortars.label>Morteros</Mortars.label>
+  <Mortars.description>Aprende a construir morteros, los cuales disparan obuses por encima de obstáculos y a largas distancias.</Mortars.description>
+
+  <BlowbackOperation.label>Manejo del Retroceso</BlowbackOperation.label>
+  <BlowbackOperation.description>Fabrica armas simples semiautomáticas y automáticas como pistolas automáticas, pistolas ametralladoras y SMG pesados.</BlowbackOperation.description>
+
+  <GasOperation.label>Manejo de Gas</GasOperation.label>
+  <GasOperation.description>Diseñe pistolas automáticas y semiautomáticas más avanzadas, como escopetas de cadena y LMG.</GasOperation.description>
+
+  <GunTurrets.label>Torreta Automática</GunTurrets.label>
+  <GunTurrets.description>Permite la producción de torretas automáticas para la defensa de la colonia.</GunTurrets.description>
+
+  <PrecisionRifling.label>Rifles de Precisión</PrecisionRifling.label>
+  <PrecisionRifling.description>Fabrica fusiles de asalto y rifles de francotirador.</PrecisionRifling.description>
+
+  <HeavyTurrets.label>Cañon Automático</HeavyTurrets.label>
+  <HeavyTurrets.description>Permite la producción de coñones automáticos de largo alcance para la defensa de la colonia.</HeavyTurrets.description>
+
+  <MultibarrelWeapons.label>Armas Multibarril</MultibarrelWeapons.label>
+  <MultibarrelWeapons.description>Te permite construir miniguns.</MultibarrelWeapons.description>
+
+  <SniperTurret.label>Torreta de Francotirador</SniperTurret.label>
+  <SniperTurret.description>Produce la torreta de francotirador de muy largo alcance.</SniperTurret.description>
+
+
 </LanguageData>

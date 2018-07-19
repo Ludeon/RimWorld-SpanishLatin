@@ -1,78 +1,50 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: create incident -->
-  <CreateIncident.label>Crear incidente</CreateIncident.label>
-  
-  <!-- EN: disable incident -->
-  <DisableIncident.label>Desactivar incidentes</DisableIncident.label>
-  
-  <!-- EN: forced health condition -->
-  <ForcedHediff.label>Rasgo de salud forzado</ForcedHediff.label>
-  
-  <!-- EN: forced trait -->
-  <ForcedTrait.label>Rasgo forzado</ForcedTrait.label>
-  
-  <!-- EN: planetkiller weapon incoming -->
-  <GameCondition_Planetkiller.label>Destruyeplanetas en camino</GameCondition_Planetkiller.label>
-  
-  <!-- EN: game start dialog -->
+
+  <!-- player pawn filters -->
+
   <GameStartDialog.label>Introducción</GameStartDialog.label>
-  
-  <!-- EN: naked -->
-  <Naked.label>Desnudo</Naked.label>
-  
-  <!-- EN: characters explode on death -->
-  <OnPawnDeathExplode.label>Explotar al morir</OnPawnDeathExplode.label>
-  
-  <!-- EN: allowed age range -->
   <PawnFilter_Age.label>Rango de edades</PawnFilter_Age.label>
-  
-  <!-- EN: permanent game condition -->
-  <PermanentGameCondition.label>Condición planetaria permanente</PermanentGameCondition.label>
-  
-  <!-- EN: disallow building -->
-  <Rule_DisallowBuilding.label>Desactivar construcción</Rule_DisallowBuilding.label>
-  
-  <!-- EN: cannot hunt -->
-  <Rule_DisallowDesignator_Hunt.label>Sin cacería</Rule_DisallowDesignator_Hunt.label>
-  <!-- EN: Cannot hunt. -->
-  <Rule_DisallowDesignator_Hunt.description>No podrás cazar animales.</Rule_DisallowDesignator_Hunt.description>
-  
-  <!-- EN: cannot mine -->
-  <Rule_DisallowDesignator_Mine.label>Sin minería</Rule_DisallowDesignator_Mine.label>
-  <!-- EN: Cannot mine. -->
-  <Rule_DisallowDesignator_Mine.description>No podrás minar nada.</Rule_DisallowDesignator_Mine.description>
-  
-  <!-- EN: cannot tame -->
-  <Rule_DisallowDesignator_Tame.label>Sin domesticación</Rule_DisallowDesignator_Tame.label>
-  <!-- EN: Cannot tame animals. -->
-  <Rule_DisallowDesignator_Tame.description>No podrás domesticar animales.</Rule_DisallowDesignator_Tame.description>
-  
-  <!-- EN: cannot sow -->
-  <Rule_DisallowDesignator_ZoneAdd_Growing.label>Sin agricultura</Rule_DisallowDesignator_ZoneAdd_Growing.label>
-  <!-- EN: Cannot sow plants on the ground. -->
-  <Rule_DisallowDesignator_ZoneAdd_Growing.description>No podrás cultivar nada.</Rule_DisallowDesignator_ZoneAdd_Growing.description>
-  
-  <!-- EN: scattered randomly -->
-  <ScatterThingsAnywhere.label>Dispersar en todo el mapa</ScatterThingsAnywhere.label>
-  
-  <!-- EN: start near -->
-  <ScatterThingsNearPlayerStart.label>Dispersar cerca</ScatterThingsNearPlayerStart.label>
-  
-  <!-- EN: set need level -->
+
+
+  <!-- player pawn modifier -->
+
+  <OnPawnDeathExplode.label>Explotar al morir</OnPawnDeathExplode.label>
+  <ForcedTrait.label>Rasgo forzado</ForcedTrait.label>
+  <ForcedHediff.label>Rasgo de salud forzado</ForcedHediff.label>
+  <Naked.label>Desnudo</Naked.label>
   <SetNeedLevel.label>Nivel de necesidades</SetNeedLevel.label>
-  
-  <!-- EN: start with animal(s) -->
-  <StartingAnimal.label>Animales iniciales</StartingAnimal.label>
-  
-  <!-- EN: start with research -->
   <StartingResearch.label>Investigación inicial</StartingResearch.label>
-  
-  <!-- EN: start with -->
-  <StartingThing_Defined.label>Objetos iniciales</StartingThing_Defined.label>
-  
-  <!-- EN: stat multiplier -->
+  <GameCondition_Planetkiller.label>Destruyeplanetas en camino</GameCondition_Planetkiller.label>
+
+
+  <!-- rules changes -->
+
+  <Rule_DisallowDesignator_ZoneAdd_Growing.label>Sin agricultura</Rule_DisallowDesignator_ZoneAdd_Growing.label>
+  <Rule_DisallowDesignator_ZoneAdd_Growing.description>No podrás cultivar nada.</Rule_DisallowDesignator_ZoneAdd_Growing.description>
+
+  <Rule_DisallowDesignator_Mine.label>Sin minería</Rule_DisallowDesignator_Mine.label>
+  <Rule_DisallowDesignator_Mine.description>No podrás minar nada.</Rule_DisallowDesignator_Mine.description>
+
+  <Rule_DisallowDesignator_Hunt.label>Sin cacería</Rule_DisallowDesignator_Hunt.label>
+  <Rule_DisallowDesignator_Hunt.description>No podrás cazar animales.</Rule_DisallowDesignator_Hunt.description>
+
+  <Rule_DisallowDesignator_Tame.label>Sin domesticación</Rule_DisallowDesignator_Tame.label>
+  <Rule_DisallowDesignator_Tame.description>No podrás domesticar animales.</Rule_DisallowDesignator_Tame.description>
+
   <StatFactor.label>Multiplicador de factores</StatFactor.label>
-  
+
+
+  <!-- grouped -->
+
+  <DisableIncident.label>Desactivar incidentes</DisableIncident.label>
+  <CreateIncident.label>Crear incidente</CreateIncident.label>
+  <Rule_DisallowBuilding.label>Desactivar construcción</Rule_DisallowBuilding.label>
+  <PermanentGameCondition.label>Condición planetaria permanente</PermanentGameCondition.label>
+  <StartingAnimal.label>Animales iniciales</StartingAnimal.label>
+  <StartingThing_Defined.label>Objetos iniciales</StartingThing_Defined.label>
+  <ScatterThingsNearPlayerStart.label>Dispersar cerca</ScatterThingsNearPlayerStart.label>
+  <ScatterThingsAnywhere.label>Dispersar en todo el mapa</ScatterThingsAnywhere.label>
+
+
 </LanguageData>

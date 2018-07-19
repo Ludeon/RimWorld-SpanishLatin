@@ -1,49 +1,35 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
-  <!-- EN: Days -->
-  <Adaptation.graphLabelY>Dias</Adaptation.graphLabelY>
-  <!-- EN: adaptation -->
-  <Adaptation.label>adaptación</Adaptation.label>
-  
-  <!-- EN: Percent -->
-  <ColonistMood.graphLabelY>Porcentaje</ColonistMood.graphLabelY>
-  <!-- EN: mood -->
-  <ColonistMood.label>Estado de ánimo</ColonistMood.label>
-  
-  <!-- EN: Colonists -->
-  <FreeColonists.graphLabelY>Colonos</FreeColonists.graphLabelY>
-  <!-- EN: free colonists -->
-  <FreeColonists.label>Colonos libres</FreeColonists.label>
-  
-  <!-- EN: Prisoners -->
-  <Prisoners.graphLabelY>Prisioneros</Prisoners.graphLabelY>
-  <!-- EN: prisoners -->
-  <Prisoners.label>Prisioneros</Prisoners.label>
-  
-  <!-- EN: Points -->
-  <ThreatPoints.graphLabelY>Puntos</ThreatPoints.graphLabelY>
-  <!-- EN: fun points / 10 -->
-  <ThreatPoints.label>puntos de diversión / 10</ThreatPoints.label>
-  
-  <!-- EN: Amount -->
-  <Wealth_Buildings.graphLabelY>Cantidad</Wealth_Buildings.graphLabelY>
-  <!-- EN: wealth (buildings) -->
-  <Wealth_Buildings.label>Riqueza (estructuras)</Wealth_Buildings.label>
-  
-  <!-- EN: Amount -->
-  <Wealth_Items.graphLabelY>Cantidad</Wealth_Items.graphLabelY>
-  <!-- EN: wealth (items) -->
-  <Wealth_Items.label>Riqueza (objetos)</Wealth_Items.label>
-  
-  <!-- EN: Amount -->
-  <Wealth_TameAnimals.graphLabelY>Cantidad</Wealth_TameAnimals.graphLabelY>
-  <!-- EN: wealth (animals) -->
-  <Wealth_TameAnimals.label>Riqueza (animal)</Wealth_TameAnimals.label>
-  
-  <!-- EN: Amount -->
-  <Wealth_Total.graphLabelY>Cantidad</Wealth_Total.graphLabelY>
-  <!-- EN: wealth (total) -->
+    
   <Wealth_Total.label>Riqueza (total)</Wealth_Total.label>
-  
+  <Wealth_Total.graphLabelY>Cantidad</Wealth_Total.graphLabelY>
+
+  <Wealth_Items.label>Riqueza (objetos)</Wealth_Items.label>
+  <Wealth_Items.graphLabelY>Cantidad</Wealth_Items.graphLabelY>
+
+  <Wealth_Buildings.label>Riqueza (estructuras)</Wealth_Buildings.label>
+  <Wealth_Buildings.graphLabelY>Cantidad</Wealth_Buildings.graphLabelY>
+
+  <Wealth_TameAnimals.label>Riqueza (animal)</Wealth_TameAnimals.label>
+  <Wealth_TameAnimals.graphLabelY>Cantidad</Wealth_TameAnimals.graphLabelY>
+
+  <FreeColonists.label>Colonos libres</FreeColonists.label>
+  <FreeColonists.graphLabelY>Colonos</FreeColonists.graphLabelY>
+
+  <Prisoners.label>Prisioneros</Prisoners.label>
+  <Prisoners.graphLabelY>Prisioneros</Prisoners.graphLabelY>
+
+  <ColonistMood.label>Estado de ánimo</ColonistMood.label>
+  <ColonistMood.graphLabelY>Porcentaje</ColonistMood.graphLabelY>
+
+
+  <!-- Debug -->
+
+  <Adaptation.label>adaptación</Adaptation.label>
+  <Adaptation.graphLabelY>Dias</Adaptation.graphLabelY>
+
+  <ThreatPoints.label>puntos de diversión / 10</ThreatPoints.label>
+  <ThreatPoints.graphLabelY>Puntos</ThreatPoints.graphLabelY>
+
+
 </LanguageData>

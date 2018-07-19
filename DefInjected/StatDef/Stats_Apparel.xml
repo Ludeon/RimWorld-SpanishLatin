@@ -1,64 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: Armor - Blunt -->
-  <ArmorRating_Blunt.label>Armadura - Contundente</ArmorRating_Blunt.label>
-  <!-- EN: The chance to affect blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor percentage is the chance the armor will affect the damage.\n\nIf the damage is affected, there is a 50% chance it will deflect harmlessly, and a 50% chance it will be mitigated. If it's mitigated, the damage is reduced by half.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
-  <ArmorRating_Blunt.description>Protección contra daño contundente como ataques con porras, desprendimientos de roca o explosiones.</ArmorRating_Blunt.description>
-  
-  <!-- EN: Armor - Heat -->
-  <ArmorRating_Heat.label>Armadura - Calor</ArmorRating_Heat.label>
-  <!-- EN: The chance to affect temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor percentage is the chance the armor will affect the damage.\n\nIf the damage is affected, there is a 50% chance it will deflect harmlessly, and a 50% chance it will be mitigated. If it's mitigated, the damage is reduced by half.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
-  <ArmorRating_Heat.description>Protección contra daños relacionados con la temperatura, como las quemaduras.</ArmorRating_Heat.description>
-  
-  <!-- EN: Armor - Sharp -->
-  <ArmorRating_Sharp.label>Armadura - Cortante</ArmorRating_Sharp.label>
-  <!-- EN: The chance to affect sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor percentage is the chance the armor will affect the damage.\n\nIf the damage is affected, there is a 50% chance it will deflect harmlessly, and a 50% chance it will be mitigated. If it's mitigated, the damage is converted into blunt damage and reduced by half.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
-  <ArmorRating_Sharp.description>Protección contra daño cortante y punzante, como por ejemplo balas, cortes de cuchillas o mordiscos de animales.</ArmorRating_Sharp.description>
-  
-  <!-- EN: Shield max energy -->
-  <EnergyShieldEnergyMax.label>Energía máxima del escudo</EnergyShieldEnergyMax.label>
-  <!-- EN: The maximum energy a shield belt can have at one time. More energy absorbs more damage. -->
-  <EnergyShieldEnergyMax.description>La energía máxima que un escudo personal puede tener en un momento dado. Más energía absorbe más daño.</EnergyShieldEnergyMax.description>
-  
-  <!-- EN: {0}/s -->
-  <EnergyShieldRechargeRate.formatString>{0}/s</EnergyShieldRechargeRate.formatString>
-  <!-- EN: Shield recharge rate -->
-  <EnergyShieldRechargeRate.label>Tiempo de recarga del escudo</EnergyShieldRechargeRate.label>
-  <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
-  <EnergyShieldRechargeRate.description>La tasa de recarga de la energía de un escudo mientras aún funcione.</EnergyShieldRechargeRate.description>
-  
-  <!-- EN: {0} s -->
-  <EquipDelay.formatString>{0} s</EquipDelay.formatString>
-  <!-- EN: equip delay -->
-  <EquipDelay.label>Retraso de equipo</EquipDelay.label>
-  <!-- EN: The time it takes to equip and unequip this item. -->
-  <EquipDelay.description>El tiempo que toma equipar y desequipar este artículo.</EquipDelay.description>
-  
-  <!-- EN: Insulation - Cold -->
-  <Insulation_Cold.label>Aislamiento - Frío</Insulation_Cold.label>
-  <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature. Greater values allow surviving in colder temperatures. -->
-  <Insulation_Cold.description>Qué tanto esta vestimenta cambia la mínima temperatura cómoda para éste personaje.</Insulation_Cold.description>
-  
-  <!-- EN: Insulation - Heat -->
-  <Insulation_Heat.label>Aislamiento - Calor</Insulation_Heat.label>
-  <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature. Greater values allow surviving in warmer temperatures. -->
-  <Insulation_Heat.description>Qué tanto esta vestimenta cambia la máxima temperatura cómoda para éste personaje.</Insulation_Heat.description>
-  
-  <!-- EN: {0} c -->
-  <SmokepopBeltRadius.formatString>{0}/s</SmokepopBeltRadius.formatString>
-  <!-- EN: Smokepop belt radius -->
-  <SmokepopBeltRadius.label>Bomba de humo</SmokepopBeltRadius.label>
-  <!-- EN: The area obscured when a smokepop belt detonates. -->
-  <SmokepopBeltRadius.description>El área alrededor de la detonación se torna nublada cuando se accioná la bomba de humo.</SmokepopBeltRadius.description>
-  
-  <!-- EN: Armor - Material effect multiplier -->
-  <StuffEffectMultiplierArmor.label>Armadura - Multiplicador de efecto material</StuffEffectMultiplierArmor.label>
-  
-  <!-- EN: Insulation - Cold - Material effect multiplier -->
+
   <StuffEffectMultiplierInsulation_Cold.label>Aislamiento - Frío - Multiplicador del efecto del material</StuffEffectMultiplierInsulation_Cold.label>
-  
-  <!-- EN: Insulation - Heat - Material effect multiplier -->
   <StuffEffectMultiplierInsulation_Heat.label>Aislamiento - Calor - Multiplicador del efecto del material</StuffEffectMultiplierInsulation_Heat.label>
-  
+  <StuffEffectMultiplierArmor.label>Armadura - Multiplicador de efecto material</StuffEffectMultiplierArmor.label>
+
+  <ArmorRating_Sharp.label>Armadura - Cortante</ArmorRating_Sharp.label>
+  <ArmorRating_Sharp.description>Protección contra daño cortante y punzante, como por ejemplo balas, cortes de cuchillas o mordiscos de animales.</ArmorRating_Sharp.description>
+
+  <ArmorRating_Blunt.label>Armadura - Contundente</ArmorRating_Blunt.label>
+  <ArmorRating_Blunt.description>Protección contra daño contundente como ataques con porras, desprendimientos de roca o explosiones.</ArmorRating_Blunt.description>
+
+  <ArmorRating_Heat.label>Armadura - Calor</ArmorRating_Heat.label>
+  <ArmorRating_Heat.description>Protección contra daños relacionados con la temperatura, como las quemaduras.</ArmorRating_Heat.description>
+
+  <Insulation_Cold.label>Aislamiento - Frío</Insulation_Cold.label>
+  <Insulation_Cold.description>Qué tanto esta vestimenta cambia la mínima temperatura cómoda para éste personaje.</Insulation_Cold.description>
+
+  <Insulation_Heat.label>Aislamiento - Calor</Insulation_Heat.label>
+  <Insulation_Heat.description>Qué tanto esta vestimenta cambia la máxima temperatura cómoda para éste personaje.</Insulation_Heat.description>
+
+  <EnergyShieldEnergyMax.label>Energía máxima del escudo</EnergyShieldEnergyMax.label>
+  <EnergyShieldEnergyMax.description>La energía máxima que un escudo personal puede tener en un momento dado. Más energía absorbe más daño.</EnergyShieldEnergyMax.description>
+
+  <EnergyShieldRechargeRate.label>Tiempo de recarga del escudo</EnergyShieldRechargeRate.label>
+  <EnergyShieldRechargeRate.description>La tasa de recarga de la energía de un escudo mientras aún funcione.</EnergyShieldRechargeRate.description>
+  <EnergyShieldRechargeRate.formatString>{0}/s</EnergyShieldRechargeRate.formatString>
+
+  <SmokepopBeltRadius.label>Bomba de humo</SmokepopBeltRadius.label>
+  <SmokepopBeltRadius.description>El área alrededor de la detonación se torna nublada cuando se accioná la bomba de humo.</SmokepopBeltRadius.description>
+  <SmokepopBeltRadius.formatString>{0}/s</SmokepopBeltRadius.formatString>
+
+  <EquipDelay.label>Retraso de equipo</EquipDelay.label>
+  <EquipDelay.description>El tiempo que toma equipar y desequipar este artículo.</EquipDelay.description>
+  <EquipDelay.formatString>{0} s</EquipDelay.formatString>
+
+
 </LanguageData>

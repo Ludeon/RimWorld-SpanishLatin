@@ -1,34 +1,58 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
-  <!-- EN: ship structural beam -->
+    
+  <!-- Beam -->
+
   <Ship_Beam.label>Viga Estrutural de Nave</Ship_Beam.label>
-  <!-- EN: A structural beam around which a starship can be constructed. Includes all the necessary conduits and transit pipes for communications, power, and materials transport. -->
   <Ship_Beam.description>Una viga estructural alrededor de la cual se puede contruir una nave espacial.</Ship_Beam.description>
-  
-  <!-- EN: ship computer core -->
-  <Ship_ComputerCore.label>Ordenador Central de Nave</Ship_ComputerCore.label>
-  <!-- EN: A computer core housing an AI persona who can guide a starship through any challenge during a multi-decade starflight. -->
-  <Ship_ComputerCore.description>El núcleo de un ordenador capaz de albergar una IA de inteligencia sobrehumana que podrá guiar a la nave por el espacio a pesar de cualquier dificultad.</Ship_ComputerCore.description>
-  
-  <!-- EN: ship cryptosleep casket -->
+  <Ship_Beam_Blueprint.label>Viga Estrutural de Nave (anteproyecto)</Ship_Beam_Blueprint.label>
+  <Ship_Beam_Frame.label>Viga Estrutural de Nave (a medias)</Ship_Beam_Frame.label>
+  <Ship_Beam_Frame.description>Una viga estructural alrededor de la cual se puede contruir una nave espacial.</Ship_Beam_Frame.description>
+
+
+  <!-- Cryptosleep casket -->
+
   <Ship_CryptosleepCasket.label>Sarcófago de Criptosueño de Nave</Ship_CryptosleepCasket.label>
-  <!-- EN: A cryptosleep casket hardened against the dangers of space. Capable of maintaining a person in cryptosleep for centuries and surviving atmospheric re-entry. -->
   <Ship_CryptosleepCasket.description>Un sarcófago de criptosueño reforzado contra los peligros del espacio. Capaz de mantener a una persona en estado de estasis durante siglos y capaz de sobrevivir una reentrada atmosférica.</Ship_CryptosleepCasket.description>
-  
-  <!-- EN: ship engine -->
-  <Ship_Engine.label>Motor de Nave</Ship_Engine.label>
-  <!-- EN: A reactionless Johnson-Tanaka drive capable of launching a ship into orbit, and crawling across the vast expanses between stars. -->
-  <Ship_Engine.description>Un motor de nave propulsado por antimateria. Capaz de poner a una nave en órbita y en trayectorias insterestelares.</Ship_Engine.description>
-  
-  <!-- EN: ship reactor -->
+  <Ship_CryptosleepCasket_Blueprint.label>Sarcófago de Criptosueño de Nave (anteproyecto)</Ship_CryptosleepCasket_Blueprint.label>
+  <Ship_CryptosleepCasket_Frame.label>Sarcófago de Criptosueño de Nave (a medias)</Ship_CryptosleepCasket_Frame.label>
+  <Ship_CryptosleepCasket_Frame.description>Un sarcófago de criptosueño reforzado contra los peligros del espacio. Capaz de mantener a una persona en estado de estasis durante siglos y capaz de sobrevivir una reentrada atmosférica.</Ship_CryptosleepCasket_Frame.description>
+
+
+  <!-- Computer core -->
+
+  <Ship_ComputerCore.label>Ordenador Central de Nave</Ship_ComputerCore.label>
+  <Ship_ComputerCore.description>El núcleo de un ordenador capaz de albergar una IA de inteligencia sobrehumana que podrá guiar a la nave por el espacio a pesar de cualquier dificultad.</Ship_ComputerCore.description>
+  <Ship_ComputerCore_Blueprint.label>Ordenador Central de Nave (anteproyecto)</Ship_ComputerCore_Blueprint.label>
+  <Ship_ComputerCore_Frame.label>Ordenador Central de Nave (a medias)</Ship_ComputerCore_Frame.label>
+  <Ship_ComputerCore_Frame.description>El núcleo de un ordenador capaz de albergar una IA de inteligencia sobrehumana que podrá guiar a la nave por el espacio a pesar de cualquier dificultad.</Ship_ComputerCore_Frame.description>
+
+
+  <!-- Reactor -->
+
   <Ship_Reactor.label>Reactor de Nave</Ship_Reactor.label>
-  <!-- EN: Powers a ship on its journey between stars. Takeoff requires a long powerup process that is likely to attract raiders. -->
   <Ship_Reactor.description>Produce energía para la nave durante su viaje a traves del espacio.</Ship_Reactor.description>
-  
-  <!-- EN: sensor cluster -->
+  <Ship_Reactor_Blueprint.label>Reactor de Nave (anteproyecto)</Ship_Reactor_Blueprint.label>
+  <Ship_Reactor_Frame.label>Reactor de Nave (a medias)</Ship_Reactor_Frame.label>
+  <Ship_Reactor_Frame.description>Produce energía para la nave durante su viaje a traves del espacio.</Ship_Reactor_Frame.description>
+
+
+  <!-- Engine -->
+
+  <Ship_Engine.label>Motor de Nave</Ship_Engine.label>
+  <Ship_Engine.description>Un motor de nave propulsado por antimateria. Capaz de poner a una nave en órbita y en trayectorias insterestelares.</Ship_Engine.description>
+  <Ship_Engine_Blueprint.label>Motor de Nave (anteproyecto)</Ship_Engine_Blueprint.label>
+  <Ship_Engine_Frame.label>Motor de Nave (a medias)</Ship_Engine_Frame.label>
+  <Ship_Engine_Frame.description>Un motor de nave propulsado por antimateria. Capaz de poner a una nave en órbita y en trayectorias insterestelares.</Ship_Engine_Frame.description>
+
+
+  <!-- Sensor cluster -->
+
   <Ship_SensorCluster.label>Módulo de Sensores</Ship_SensorCluster.label>
-  <!-- EN: A multi-function sensor module. Can scan and signal across the void for communications, threat detection, deception, jamming, and other purposes. -->
   <Ship_SensorCluster.description>Un módulo sensor, buscando en el vacío peligros y oportunidades.</Ship_SensorCluster.description>
-  
+  <Ship_SensorCluster_Blueprint.label>Módulo de Sensores (anteproyecto)</Ship_SensorCluster_Blueprint.label>
+  <Ship_SensorCluster_Frame.label>Módulo de Sensores (a medias)</Ship_SensorCluster_Frame.label>
+  <Ship_SensorCluster_Frame.description>Un módulo sensor, buscando en el vacío peligros y oportunidades.</Ship_SensorCluster_Frame.description>
+
+    
 </LanguageData>

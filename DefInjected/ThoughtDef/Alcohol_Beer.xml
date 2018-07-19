@@ -1,41 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: alcohol withdrawal -->
-  <AlcoholWithdrawal.stages.alcohol_withdrawal.label>Astinencia (alcohol)</AlcoholWithdrawal.stages.alcohol_withdrawal.label>
-  <!-- EN: Feeling shaky. Everything pisses me off. I keep thinking of drinking. -->
-  <AlcoholWithdrawal.stages.alcohol_withdrawal.description>Me siento débil. Todo me molesta. No puede dejar de pensar en la bebida.</AlcoholWithdrawal.stages.alcohol_withdrawal.description>
-  
-  <!-- EN: mild hangover -->
-  <Hungover.stages.mild_hangover.label>resaca (ligera)</Hungover.stages.mild_hangover.label>
-  <!-- EN: The headache is almost gone. -->
-  <Hungover.stages.mild_hangover.description>Ya casi se me pasa el dolor de cabeza.</Hungover.stages.mild_hangover.description>
-  <!-- EN: serious hangover -->
-  <Hungover.stages.serious_hangover.label>resaca (media)</Hungover.stages.serious_hangover.label>
-  <!-- EN: My head hurts from all that liquor. -->
-  <Hungover.stages.serious_hangover.description>Me duele la cabeza de tanto alcohol.</Hungover.stages.serious_hangover.description>
-  <!-- EN: pounding hangover -->
-  <Hungover.stages.pounding_hangover.label>resaca (fuerte)</Hungover.stages.pounding_hangover.label>
-  <!-- EN: It feels like a gaggle of geese are pecking at my skull. -->
-  <Hungover.stages.pounding_hangover.description>Siento como si un par de gansos me picotearan el cerebro por dentro, mientras cacarean el himno nacional...</Hungover.stages.pounding_hangover.description>
-  <!-- EN: hung over (hidden) -->
-  <Hungover.stages.hung_over_hidden.label>resaca (extrema)</Hungover.stages.hung_over_hidden.label>
-  
-  <!-- EN: alcohol warmth -->
-  <Inebriated.stages.alcohol_warmth.label>intoxicado (oculto)</Inebriated.stages.alcohol_warmth.label>
-  <!-- EN: I just feel a bit more relaxed after that drink. That's good. -->
-  <Inebriated.stages.alcohol_warmth.description>No debe ser visible.</Inebriated.stages.alcohol_warmth.description>
-  <!-- EN: quite inebriated -->
-  <Inebriated.stages.quite_inebriated.label>borrachera (ligera)</Inebriated.stages.quite_inebriated.label>
-  <!-- EN: I'm a bit wobbly! And this is quite enjoyable. -->
-  <Inebriated.stages.quite_inebriated.description>Después de beber un poco me siento un poco alegre. Eso es bueno.</Inebriated.stages.quite_inebriated.description>
-  <!-- EN: drunk -->
-  <Inebriated.stages.drunk.label>borrachera (alegre)</Inebriated.stages.drunk.label>
-  <!-- EN: I feel so uninhibited and unafraid! This is a great time! -->
-  <Inebriated.stages.drunk.description>Estoy un poco inestable. ¡Qué divertido!</Inebriated.stages.drunk.description>
-  <!-- EN: hammered -->
-  <Inebriated.stages.hammered.label>borrachera (ebrio)</Inebriated.stages.hammered.label>
-  <!-- EN: Wooo! What's going on? -->
-  <Inebriated.stages.hammered.description>¡Me siento tan libre y sin preocupaciones! ¡Me estoy divirtiendo mucho!</Inebriated.stages.hammered.description>
-  
+
+  <Inebriated.stages.0.label>intoxicado (oculto)</Inebriated.stages.0.label>
+  <Inebriated.stages.0.description>No debe ser visible.</Inebriated.stages.0.description>
+  <Inebriated.stages.1.label>borrachera (ligera)</Inebriated.stages.1.label>
+  <Inebriated.stages.1.description>Después de beber un poco me siento un poco alegre. Eso es bueno.</Inebriated.stages.1.description>
+  <Inebriated.stages.2.label>borrachera (alegre)</Inebriated.stages.2.label>
+  <Inebriated.stages.2.description>Estoy un poco inestable. ¡Qué divertido!</Inebriated.stages.2.description>
+  <Inebriated.stages.3.label>borrachera (ebrio)</Inebriated.stages.3.label>
+  <Inebriated.stages.3.description>¡Me siento tan libre y sin preocupaciones! ¡Me estoy divirtiendo mucho!</Inebriated.stages.3.description>
+
+  <Hungover.stages.0.label>resaca (ligera)</Hungover.stages.0.label>
+  <Hungover.stages.0.description>Ya casi se me pasa el dolor de cabeza.</Hungover.stages.0.description>
+  <Hungover.stages.1.label>resaca (media)</Hungover.stages.1.label>
+  <Hungover.stages.1.description>Me duele la cabeza de tanto alcohol.</Hungover.stages.1.description>
+  <Hungover.stages.2.label>resaca (fuerte)</Hungover.stages.2.label>
+  <Hungover.stages.2.description>Siento como si un par de gansos me picotearan el cerebro por dentro, mientras cacarean el himno nacional...</Hungover.stages.2.description>
+  <Hungover.stages.3.label>resaca (extrema)</Hungover.stages.3.label>
+
+
+  <!-- Alcohol addiction -->
+
+  <AlcoholWithdrawal.stages.1.label>Astinencia (alcohol)</AlcoholWithdrawal.stages.1.label>
+  <AlcoholWithdrawal.stages.1.description>Me siento débil. Todo me molesta. No puede dejar de pensar en la bebida.</AlcoholWithdrawal.stages.1.description>
+
+
 </LanguageData>

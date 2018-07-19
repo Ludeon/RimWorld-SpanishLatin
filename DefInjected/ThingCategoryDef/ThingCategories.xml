@@ -1,145 +1,88 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
-  <!-- EN: animal products -->
-  <AnimalProductRaw.label>Origen animal</AnimalProductRaw.label>
-  
-  <!-- EN: apparel -->
-  <Apparel.label>Vestimenta</Apparel.label>
-  
-  <!-- EN: artifacts -->
-  <Artifacts.label>Artefactos</Artifacts.label>
-  
-  <!-- EN: body parts -->
-  <BodyParts.label>Partes corporales</BodyParts.label>
-  
-  <!-- EN: artificial -->
-  <BodyPartsArtificial.label>Artificiales</BodyPartsArtificial.label>
-  
-  <!-- EN: natural -->
-  <BodyPartsNatural.label>Naturales</BodyPartsNatural.label>
-  
-  <!-- EN: buildings -->
-  <Buildings.label>Edificios</Buildings.label>
-  
-  <!-- EN: art -->
-  <BuildingsArt.label>Arte</BuildingsArt.label>
-  
-  <!-- EN: furniture -->
-  <BuildingsFurniture.label>Mobiliario</BuildingsFurniture.label>
-  
-  <!-- EN: recreation -->
-  <BuildingsJoy.label>Recreación</BuildingsJoy.label>
-  
-  <!-- EN: misc -->
-  <BuildingsMisc.label>Varios</BuildingsMisc.label>
-  
-  <!-- EN: power -->
-  <BuildingsPower.label>Energía</BuildingsPower.label>
-  
-  <!-- EN: production -->
-  <BuildingsProduction.label>Producción</BuildingsProduction.label>
-  
-  <!-- EN: security -->
-  <BuildingsSecurity.label>Seguridad</BuildingsSecurity.label>
-  
-  <!-- EN: special -->
-  <BuildingsSpecial.label>Especial</BuildingsSpecial.label>
-  
-  <!-- EN: temperature -->
-  <BuildingsTemperature.label>Temperatura</BuildingsTemperature.label>
-  
-  <!-- EN: chunks -->
-  <Chunks.label>Trozos</Chunks.label>
-  
-  <!-- EN: corpses -->
-  <Corpses.label>Cadáveres</Corpses.label>
-  
-  <!-- EN: animal corpses -->
-  <CorpsesAnimal.label>Cadáveres de animales</CorpsesAnimal.label>
-  
-  <!-- EN: humanlike corpses -->
-  <CorpsesHumanlike.label>Cadáveres humanoides</CorpsesHumanlike.label>
-  
-  <!-- EN: insect corpses -->
-  <CorpsesInsect.label>Cadáveres insectoides</CorpsesInsect.label>
-  
-  <!-- EN: mechanoid corpses -->
-  <CorpsesMechanoid.label>Cuerpos de mecanoides</CorpsesMechanoid.label>
-  
-  <!-- EN: drugs -->
-  <Drugs.label>Drogas</Drugs.label>
-  
-  <!-- EN: eggs (fert.) -->
-  <EggsFertilized.label>Huevos (fert.)</EggsFertilized.label>
-  
-  <!-- EN: eggs (unfert.) -->
-  <EggsUnfertilized.label>huevos (sin fert.)</EggsUnfertilized.label>
-  
-  <!-- EN: meals -->
-  <FoodMeals.label>Comida</FoodMeals.label>
-  
-  <!-- EN: raw food -->
-  <FoodRaw.label>Comida cruda</FoodRaw.label>
-  
-  <!-- EN: foods -->
-  <Foods.label>Alimentos</Foods.label>
-  
-  <!-- EN: grenades -->
-  <Grenades.label>Granadas</Grenades.label>
-  
-  <!-- EN: headgear -->
-  <Headgear.label>Tocados</Headgear.label>
-  
-  <!-- EN: items -->
-  <Items.label>Objetos</Items.label>
-  
-  <!-- EN: leathers -->
-  <Leathers.label>Cueros</Leathers.label>
-  
-  <!-- EN: manufactured -->
-  <Manufactured.label>Manufacturas</Manufactured.label>
-  
-  <!-- EN: meat -->
-  <MeatRaw.label>Carne</MeatRaw.label>
-  
-  <!-- EN: medicine -->
-  <Medicine.label>Medicina</Medicine.label>
-  
-  <!-- EN: mortar shells -->
-  <MortarShells.label>Proyectiles de mortero</MortarShells.label>
-  
-  <!-- EN: vegetarian -->
-  <PlantFoodRaw.label>Vegetales</PlantFoodRaw.label>
-  
-  <!-- EN: plant matter -->
-  <PlantMatter.label>Materia vegetal</PlantMatter.label>
-  
-  <!-- EN: raw resources -->
-  <ResourcesRaw.label>Materias prímas</ResourcesRaw.label>
-  
-  <!-- EN: root -->
+    
   <Root.label>Raíz</Root.label>
-  
-  <!-- EN: stone blocks -->
-  <StoneBlocks.label>Bloques de piedra</StoneBlocks.label>
-  
-  <!-- EN: stone chunks -->
-  <StoneChunks.label>Trozos de piedra</StoneChunks.label>
-  
-  <!-- EN: textiles -->
+
+
+  <!-- Foods -->
+
+  <Foods.label>Alimentos</Foods.label>
+  <FoodMeals.label>Comida</FoodMeals.label>
+  <FoodRaw.label>Comida cruda</FoodRaw.label>
+  <MeatRaw.label>Carne</MeatRaw.label>
+  <PlantFoodRaw.label>Vegetales</PlantFoodRaw.label>
+  <AnimalProductRaw.label>Origen animal</AnimalProductRaw.label>
+  <EggsUnfertilized.label>huevos (sin fert.)</EggsUnfertilized.label>
+  <EggsFertilized.label>Huevos (fert.)</EggsFertilized.label>
+
+
+  <!-- Manufactured -->
+
+  <Manufactured.label>Manufacturas</Manufactured.label>
   <Textiles.label>Textiles</Textiles.label>
-  
-  <!-- EN: unfinished -->
+  <Leathers.label>Cueros</Leathers.label>
+  <Medicine.label>Medicina</Medicine.label>
+  <Drugs.label>Drogas</Drugs.label>
+  <MortarShells.label>Proyectiles de mortero</MortarShells.label>
+
+
+  <!-- Raw resources -->
+
+  <ResourcesRaw.label>Materias prímas</ResourcesRaw.label>
+  <PlantMatter.label>Materia vegetal</PlantMatter.label>
+  <StoneBlocks.label>Bloques de piedra</StoneBlocks.label>
+
+
+  <!-- Items -->
+
+  <Items.label>Objetos</Items.label>
   <Unfinished.label>Sin terminar</Unfinished.label>
-  
-  <!-- EN: weapons -->
+  <Artifacts.label>Artefactos</Artifacts.label>
+  <BodyParts.label>Partes corporales</BodyParts.label>
+  <BodyPartsNatural.label>Naturales</BodyPartsNatural.label>
+  <BodyPartsArtificial.label>Artificiales</BodyPartsArtificial.label>
+
+
+  <!-- Weapons -->
+
   <Weapons.label>Armas</Weapons.label>
-  
-  <!-- EN: melee weapons -->
   <WeaponsMelee.label>Armas cuerpo a cuerpo</WeaponsMelee.label>
-  
-  <!-- EN: ranged weapons -->
   <WeaponsRanged.label>Armas a distancia</WeaponsRanged.label>
-  
+  <Grenades.label>Granadas</Grenades.label>
+
+
+  <!-- Apparel -->
+
+  <Apparel.label>Vestimenta</Apparel.label>
+  <Headgear.label>Tocados</Headgear.label>
+
+
+  <!-- Buildings -->
+
+  <Buildings.label>Edificios</Buildings.label>
+  <BuildingsArt.label>Arte</BuildingsArt.label>
+  <BuildingsProduction.label>Producción</BuildingsProduction.label>
+  <BuildingsFurniture.label>Mobiliario</BuildingsFurniture.label>
+  <BuildingsPower.label>Energía</BuildingsPower.label>
+  <BuildingsSecurity.label>Seguridad</BuildingsSecurity.label>
+  <BuildingsMisc.label>Varios</BuildingsMisc.label>
+  <BuildingsJoy.label>Recreación</BuildingsJoy.label>
+  <BuildingsTemperature.label>Temperatura</BuildingsTemperature.label>
+  <BuildingsSpecial.label>Especial</BuildingsSpecial.label>
+
+
+  <!-- Chunks -->
+
+  <Chunks.label>Trozos</Chunks.label>
+  <StoneChunks.label>Trozos de piedra</StoneChunks.label>
+
+
+  <!-- Corpses -->
+
+  <Corpses.label>Cadáveres</Corpses.label>
+  <CorpsesHumanlike.label>Cadáveres humanoides</CorpsesHumanlike.label>
+  <CorpsesAnimal.label>Cadáveres de animales</CorpsesAnimal.label>
+  <CorpsesInsect.label>Cadáveres insectoides</CorpsesInsect.label>
+  <CorpsesMechanoid.label>Cuerpos de mecanoides</CorpsesMechanoid.label>
+    
 </LanguageData>

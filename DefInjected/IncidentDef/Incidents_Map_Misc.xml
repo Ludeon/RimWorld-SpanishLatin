@@ -1,108 +1,69 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: alphabeavers -->
-  <Alphabeavers.label>Alfacastores</Alphabeavers.label>
-  
-  <!-- EN: A grove of the mysterious ambrosia bush has sprouted nearby! If you wait for the plants to grow, you'll be able to harvest the delicious, pleasurable, and slightly addictive fruit. -->
-  <AmbrosiaSprout.letterText>¡Unos arbustos de Ambrosia han brotado cerca! Si esperas que la planta crezca podrás cosechar la deliciosa, placentera, pero ligeramente adictiva fruta.</AmbrosiaSprout.letterText>
-  <!-- EN: Ambrosia sprout -->
-  <AmbrosiaSprout.letterLabel>Brote de Ambrosia</AmbrosiaSprout.letterLabel>
-  <!-- EN: ambrosia sprout -->
-  <AmbrosiaSprout.label>Brote de Ambrosia</AmbrosiaSprout.label>
-  
-  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
-  <ColdSnap.letterText>Un inusual frente frío ha comenzado. Cuidado con las averías por congelación, los cultivos y las hipotermias.</ColdSnap.letterText>
-  <!-- EN: Cold snap -->
-  <ColdSnap.letterLabel>Frente frío</ColdSnap.letterLabel>
-  <!-- EN: cold snap -->
-  <ColdSnap.label>Frente frío</ColdSnap.label>
-  
-  <!-- EN: crop blight -->
-  <CropBlight.label>Plaga</CropBlight.label>
-  
-  <!-- EN: farm animals wander in -->
-  <FarmAnimalsWanderIn.label>Animal doméstico se une</FarmAnimalsWanderIn.label>
-  
-  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
-  <Flashstorm.letterText>Un elevado número de rayos caerá sobre esta región. Cuidado con los incendios.</Flashstorm.letterText>
-  <!-- EN: Flashstorm -->
-  <Flashstorm.letterLabel>Tormenta eléctrica</Flashstorm.letterLabel>
-  <!-- EN: flashstorm -->
-  <Flashstorm.label>Tormenta eléctrica</Flashstorm.label>
-  
-  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can kill quickly if people start getting heatstroke. Stay cool by building a cooler or getting deep under a mountain. -->
-  <HeatWave.letterText>Una inusual ola de calor ha comenzado. Ten cuidado con las posibles insolaciones.</HeatWave.letterText>
-  <!-- EN: Heat wave -->
-  <HeatWave.letterLabel>Ola de calor</HeatWave.letterLabel>
-  <!-- EN: heat wave -->
-  <HeatWave.label>Ola de calor</HeatWave.label>
-  
-  <!-- EN: A group of {0} is passing through the area.\n\nThey won't attack unless provoked. -->
-  <HerdMigration.letterText>Una gran manada de {0} esta pasando por el área. No atacaran a menos que los provoques.</HerdMigration.letterText>
-  <!-- EN: Animal migration: {0} -->
-  <HerdMigration.letterLabel>Manada Migratoria: {0}</HerdMigration.letterLabel>
-  <!-- EN: herd migration -->
-  <HerdMigration.label>Manada Migratoria</HerdMigration.label>
-  
-  <!-- EN: A large meteorite has struck ground in the area. It has left behind a lump of {0}. -->
-  <MeteoriteImpact.letterText>Un gran Meteorito ha impactado en la zona. Y ha dejado ha dejado un gran trozo de {0}.</MeteoriteImpact.letterText>
-  <!-- EN: Meteorite -->
-  <MeteoriteImpact.letterLabel>Meteorito</MeteoriteImpact.letterLabel>
-  <!-- EN: meteorite impact -->
-  <MeteoriteImpact.label>Impacto de Meteoro</MeteoriteImpact.label>
-  
-  <!-- EN: psychic drone -->
-  <PsychicDrone.label>Zumbido psíquico</PsychicDrone.label>
-  
-  <!-- EN: psychic soothe -->
-  <PsychicSoothe.label>Calmante Psíquico</PsychicSoothe.label>
-  
-  <!-- EN: Ransom demand -->
-  <RansomDemand.letterLabel>Demanda de rescate</RansomDemand.letterLabel>
-  <!-- EN: ransom demand -->
-  <RansomDemand.label>Demanda de rescate</RansomDemand.label>
-  
-  <!-- EN: chased refugee -->
-  <RefugeeChased.label>Refugiado perseguido</RefugeeChased.label>
-  
-  <!-- EN: refugee pod crash -->
-  <RefugeePodCrash.label>Caída de cápsula con refugiado</RefugeePodCrash.label>
-  
-  <!-- EN: resource pod crash -->
+
+  <!-- Good -->
+
   <ResourcePodCrash.label>Cápsula de Recursos</ResourcePodCrash.label>
-  
-  <!-- EN: self-tame -->
+  <PsychicSoothe.label>Calmante Psíquico</PsychicSoothe.label>
   <SelfTame.label>Auto-domesticación</SelfTame.label>
-  
-  <!-- EN: short circuit -->
-  <ShortCircuit.label>Corto circuito</ShortCircuit.label>
-  
-  <!-- EN: thrumbos pass -->
-  <ThrumboPasses.label>Trumbos</ThrumboPasses.label>
-  
-  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a season. -->
-  <ToxicFallout.letterText>Un incendio químico en la distancia ha extendido una nube tóxica sobre la región. Cualquier persona o criatura que no esté protegida bajo techo, se envenenará lentamente al respirar el polvo tóxico. Podría durar desde unos pocos días hasta un mes.</ToxicFallout.letterText>
-  <!-- EN: Toxic fallout -->
-  <ToxicFallout.letterLabel>Cenizas tóxicas</ToxicFallout.letterLabel>
-  <!-- EN: toxic fallout -->
-  <ToxicFallout.label>Cenizas tóxicas</ToxicFallout.label>
-  
-  <!-- EN: A distant supervolcano has erupted and begun spewing millions of cubic kilometers of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
-  <VolcanicWinter.letterText>Un súper volcán ha entrado en erupción y arrojó millones de toneladas de ceniza a la atmósfera del planeta. La ceniza que flota en la atmósfera refleja algo de la luz del sol, dando como resultado un descenso en las temperaturas. Las plantas van a sufrir y posiblemente mueran debido a la falta de luz solar. Esta condición puede durar desde unas pocas semanas hasta meses.</VolcanicWinter.letterText>
-  <!-- EN: Volcanic winter -->
-  <VolcanicWinter.letterLabel>Invierno volcánico</VolcanicWinter.letterLabel>
-  <!-- EN: volcanic winter -->
-  <VolcanicWinter.label>Invierno volcánico</VolcanicWinter.label>
-  
-  <!-- EN: wanderer join -->
+
+  <AmbrosiaSprout.label>Brote de Ambrosia</AmbrosiaSprout.label>
+  <AmbrosiaSprout.letterText>¡Unos arbustos de Ambrosia han brotado cerca! Si esperas que la planta crezca podrás cosechar la deliciosa, placentera, pero ligeramente adictiva fruta.</AmbrosiaSprout.letterText>
+  <AmbrosiaSprout.letterLabel>Brote de Ambrosia</AmbrosiaSprout.letterLabel>
+
+  <FarmAnimalsWanderIn.label>Animal doméstico se une</FarmAnimalsWanderIn.label>
   <WandererJoin.label>Un viajero se une</WandererJoin.label>
-  
-  <!-- EN: A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective]. -->
-  <WildManWandersIn.letterText>Una persona que vive entre animales salvajes ha entrado en la zona. [PAWN_pronoun] se llama {0}.\n\nPuedes intentar domar a [PAWN_objective].</WildManWandersIn.letterText>
-  <!-- EN: Wild man wanders in -->
-  <WildManWandersIn.letterLabel>Humano Salvaje</WildManWandersIn.letterLabel>
-  <!-- EN: wild man wanders in -->
+  <RefugeePodCrash.label>Caída de cápsula con refugiado</RefugeePodCrash.label>
+
+
+  <!-- Neutral -->
+
+  <RefugeeChased.label>Refugiado perseguido</RefugeeChased.label>
+  <ThrumboPasses.label>Trumbos</ThrumboPasses.label>
+
+  <RansomDemand.label>Demanda de rescate</RansomDemand.label>
+  <RansomDemand.letterLabel>Demanda de rescate</RansomDemand.letterLabel>
+
+  <MeteoriteImpact.label>Impacto de Meteoro</MeteoriteImpact.label>
+  <MeteoriteImpact.letterText>Un gran Meteorito ha impactado en la zona. Y ha dejado ha dejado un gran trozo de {0}.</MeteoriteImpact.letterText>
+  <MeteoriteImpact.letterLabel>Meteorito</MeteoriteImpact.letterLabel>
+
+  <HerdMigration.label>Manada Migratoria</HerdMigration.label>
+  <HerdMigration.letterText>Una gran manada de {0} esta pasando por el área. No atacaran a menos que los provoques.</HerdMigration.letterText>
+  <HerdMigration.letterLabel>Manada Migratoria: {0}</HerdMigration.letterLabel>
+
   <WildManWandersIn.label>Humano Salvaje</WildManWandersIn.label>
-  
+  <WildManWandersIn.letterText>Una persona que vive entre animales salvajes ha entrado en la zona. [PAWN_pronoun] se llama {0}.\n\nPuedes intentar domar a [PAWN_objective].</WildManWandersIn.letterText>
+  <WildManWandersIn.letterLabel>Humano Salvaje</WildManWandersIn.letterLabel>
+
+
+  <!-- Bad -->
+
+  <PsychicDrone.label>Zumbido psíquico</PsychicDrone.label>
+
+  <ToxicFallout.label>Cenizas tóxicas</ToxicFallout.label>
+  <ToxicFallout.letterText>Un incendio químico en la distancia ha extendido una nube tóxica sobre la región. Cualquier persona o criatura que no esté protegida bajo techo, se envenenará lentamente al respirar el polvo tóxico. Podría durar desde unos pocos días hasta un mes.</ToxicFallout.letterText>
+  <ToxicFallout.letterLabel>Cenizas tóxicas</ToxicFallout.letterLabel>
+
+  <VolcanicWinter.label>Invierno volcánico</VolcanicWinter.label>
+  <VolcanicWinter.letterText>Un súper volcán ha entrado en erupción y arrojó millones de toneladas de ceniza a la atmósfera del planeta. La ceniza que flota en la atmósfera refleja algo de la luz del sol, dando como resultado un descenso en las temperaturas. Las plantas van a sufrir y posiblemente mueran debido a la falta de luz solar. Esta condición puede durar desde unas pocas semanas hasta meses.</VolcanicWinter.letterText>
+  <VolcanicWinter.letterLabel>Invierno volcánico</VolcanicWinter.letterLabel>
+
+  <HeatWave.label>Ola de calor</HeatWave.label>
+  <HeatWave.letterText>Una inusual ola de calor ha comenzado. Ten cuidado con las posibles insolaciones.</HeatWave.letterText>
+  <HeatWave.letterLabel>Ola de calor</HeatWave.letterLabel>
+
+  <ColdSnap.label>Frente frío</ColdSnap.label>
+  <ColdSnap.letterText>Un inusual frente frío ha comenzado. Cuidado con las averías por congelación, los cultivos y las hipotermias.</ColdSnap.letterText>
+  <ColdSnap.letterLabel>Frente frío</ColdSnap.letterLabel>
+
+  <Flashstorm.label>Tormenta eléctrica</Flashstorm.label>
+  <Flashstorm.letterText>Un elevado número de rayos caerá sobre esta región. Cuidado con los incendios.</Flashstorm.letterText>
+  <Flashstorm.letterLabel>Tormenta eléctrica</Flashstorm.letterLabel>
+
+  <ShortCircuit.label>Corto circuito</ShortCircuit.label>
+  <CropBlight.label>Plaga</CropBlight.label>
+  <Alphabeavers.label>Alfacastores</Alphabeavers.label>
+
+
 </LanguageData>

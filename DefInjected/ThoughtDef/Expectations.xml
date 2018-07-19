@@ -1,29 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: sky-high expectations -->
-  <LowExpectations.stages.skyhigh_expectations.label>Expectativas moderadas</LowExpectations.stages.skyhigh_expectations.label>
-  <!-- EN: This place is really rich. I should be made very comfortable here. -->
-  <LowExpectations.stages.skyhigh_expectations.description>No hay muchas riquezas en este lugar. No espero darme muchos caprichos.</LowExpectations.stages.skyhigh_expectations.description>
-  <!-- EN: high expectations -->
-  <LowExpectations.stages.high_expectations.label>Expectativas bajas</LowExpectations.stages.high_expectations.label>
-  <!-- EN: This place is almost rich. There's no reason I shouldn't have the things I want. -->
-  <LowExpectations.stages.high_expectations.description>Este lugar no tiene los recursos para muchos lujos. Necesito ser fuerte.</LowExpectations.stages.high_expectations.description>
-  <!-- EN: moderate expectations -->
-  <LowExpectations.stages.moderate_expectations.label>Expectativas muy bajas</LowExpectations.stages.moderate_expectations.label>
-  <!-- EN: This place isn't quite rich. I can't expect to be totally pampered. -->
-  <LowExpectations.stages.moderate_expectations.description>Este lugar es muy pobre. No puedo esperar ningún lujo aquí. Necesito ser fuerte.</LowExpectations.stages.moderate_expectations.description>
-  <!-- EN: low expectations -->
-  <LowExpectations.stages.low_expectations.label>Expectativas extremadamente bajas</LowExpectations.stages.low_expectations.label>
-  <!-- EN: This place doesn't have the wealth for many luxuries. I can't expect great comforts. -->
-  <LowExpectations.stages.low_expectations.description>Este lugar apenas tiene lo suficiente para protegerse de los elementos. Debo prepararme para lo que pueda ocurrir si quiero sobrevivir.</LowExpectations.stages.low_expectations.description>
-  <!-- EN: very low expectations -->
-  <LowExpectations.stages.very_low_expectations.label>Expectativas muy bajas</LowExpectations.stages.very_low_expectations.label>
-  <!-- EN: This place is poverty-stricken. I need to keep myself strong to survive. -->
-  <LowExpectations.stages.very_low_expectations.description>Este lugar está asolado por la pobreza. Necesito mantenerme fuerte para sobrevivir.</LowExpectations.stages.very_low_expectations.description>
-  <!-- EN: extremely low expectations -->
-  <LowExpectations.stages.extremely_low_expectations.label>Expectativas extremadamente bajas</LowExpectations.stages.extremely_low_expectations.label>
-  <!-- EN: There's nothing here to make me comfortable. I'd better steel myself to survive. -->
-  <LowExpectations.stages.extremely_low_expectations.description>No hay nada aquí que me haga sentir cómodo. Mejor me preparo para sobrevivir.</LowExpectations.stages.extremely_low_expectations.description>
-  
+
+  <!-- Some calculations for a retuning, Apr 3 2018
+
+-There are 8 joy kinds: 2 with no gear, 4 from buildings, 2 from consumables. You'll generally have 3-6 kinds availabel.
+-Joy falls 0.6 per day, but falls slower when low or very low.
+-Each tolerance falls independently at a rate of 0.0833 / day
+-Since tolerances fall independently, total tolerance fall rate for a pawn depends on the number of tolerances >0 at any time:
+    1 kind  live: 0.08 / day
+    2 kinds live: 0.17 / day
+    3 kinds live: 0.25 / day
+    4 kinds live: 0.33 / day
+    5 kinds live: 0.42 / day
+    6 kinds live: 0.50 / day
+
+-B18 tuning:    Tolerance gain per joy 0.4
+    You need to get 0.6 joy per day, thus gaining 0.24 tolerance per day.
+    So you only really need to use 3 joykinds to stay ahead of that and remain in the satisfied range.
+
+-1.0 tuning A:  Tolerance gain per joy 0.7
+    You need to get 0.6 joy per day, gaining 0.42 tolerance per day.
+    This is maintainable with 5 joy kinds.
+    Otherwise you'll be in the "low" range with 4 kinds.
+    And the very low range/low with 3 kinds.
+
+-1.0 tuning B:  Tolerance gain per joy 0.65
+    You need to get 0.6 joy per day, gaining 0.39 tolerance per day.
+    0.7 seems a bit harsh, and I want the upper thersholds to be possible, so here I set tolerance gain per joy to 0.65
+
+-1.0 tuning C:  Split tolerance drop rates per expectation level
+    Tolerances fall at different rates depending on the expectation level.
+    Low expectations retains the old behavior, others are easier and harder. -->
+
+  <LowExpectations.stages.0.label>Expectativas moderadas</LowExpectations.stages.0.label>
+  <LowExpectations.stages.0.description>No hay muchas riquezas en este lugar. No espero darme muchos caprichos.</LowExpectations.stages.0.description>
+  <LowExpectations.stages.1.label>Expectativas bajas</LowExpectations.stages.1.label>
+  <LowExpectations.stages.1.description>Este lugar no tiene los recursos para muchos lujos. Necesito ser fuerte.</LowExpectations.stages.1.description>
+  <LowExpectations.stages.2.label>Expectativas muy bajas</LowExpectations.stages.2.label>
+  <LowExpectations.stages.2.description>Este lugar es muy pobre. No puedo esperar ningún lujo aquí. Necesito ser fuerte.</LowExpectations.stages.2.description>
+  <LowExpectations.stages.3.label>Expectativas extremadamente bajas</LowExpectations.stages.3.label>
+  <LowExpectations.stages.3.description>Este lugar apenas tiene lo suficiente para protegerse de los elementos. Debo prepararme para lo que pueda ocurrir si quiero sobrevivir.</LowExpectations.stages.3.description>
+  <LowExpectations.stages.4.label>Expectativas muy bajas</LowExpectations.stages.4.label>
+  <LowExpectations.stages.4.description>Este lugar está asolado por la pobreza. Necesito mantenerme fuerte para sobrevivir.</LowExpectations.stages.4.description>
+  <LowExpectations.stages.5.label>Expectativas extremadamente bajas</LowExpectations.stages.5.label>
+  <LowExpectations.stages.5.description>No hay nada aquí que me haga sentir cómodo. Mejor me preparo para sobrevivir.</LowExpectations.stages.5.description>
+
+
 </LanguageData>

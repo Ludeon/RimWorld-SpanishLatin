@@ -1,41 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: Administering healer mech serum. -->
-  <AdministerMechSerumHealer.jobString>administrando suero sanador mecanoide.</AdministerMechSerumHealer.jobString>
-  <!-- EN: administer healer mech serum -->
-  <AdministerMechSerumHealer.label>Administrar Suero Sanador Mecanoide</AdministerMechSerumHealer.label>
-  <!-- EN: Administer a healer mech serum. -->
-  <AdministerMechSerumHealer.description>Administra Suero Sanador Mecanoide.</AdministerMechSerumHealer.description>
-  
-  <!-- EN: Anesthetizing. -->
-  <Anesthetize.jobString>anesteciando.</Anesthetize.jobString>
-  <!-- EN: anesthetize -->
+
+  <!-- Anesthetize -->
+
   <Anesthetize.label>Anesteciar</Anesthetize.label>
-  <!-- EN: Render a creature unconscious by administering general anesthetic. -->
   <Anesthetize.description>Hace que una criatura quede inconsciente al administrarle un anestésico.</Anesthetize.description>
-  
-  <!-- EN: Euthanizing by cutting. -->
-  <Euthanize.jobString>practicando eutanasia</Euthanize.jobString>
-  <!-- EN: euthanize by cut -->
+  <Anesthetize.jobString>anesteciando.</Anesthetize.jobString>
+
+
+  <!-- Euthanasia -->
+
   <Euthanize.label>Practicar Eutanasia</Euthanize.label>
-  <!-- EN: Euthanize a creature by cutting. -->
   <Euthanize.description>Practica la eutanasia a este paciente.</Euthanize.description>
-  
-  <!-- EN: Excising carcinoma. -->
-  <ExciseCarcinoma.jobString>extirpando un carcinoma.</ExciseCarcinoma.jobString>
-  <!-- EN: {0} has successfully excised {1}'s carcinoma. -->
-  <ExciseCarcinoma.successfullyRemovedHediffMessage>{0} ha extirpado el carcinoma de {1}.</ExciseCarcinoma.successfullyRemovedHediffMessage>
-  <!-- EN: excise carcinoma -->
+  <Euthanize.jobString>practicando eutanasia</Euthanize.jobString>
+
+
+  <!-- removing hediffs (e.g. diseases) -->
+
   <ExciseCarcinoma.label>Extirpar Carcinoma</ExciseCarcinoma.label>
-  <!-- EN: Excise a carcinoma. -->
   <ExciseCarcinoma.description>Extirpa un Carcinoma.</ExciseCarcinoma.description>
-  
-  <!-- EN: Removing body part. -->
-  <RemoveBodyPart.jobString>amputando miembro.</RemoveBodyPart.jobString>
-  <!-- EN: remove part -->
+  <ExciseCarcinoma.jobString>extirpando un carcinoma.</ExciseCarcinoma.jobString>
+  <ExciseCarcinoma.successfullyRemovedHediffMessage>{0} ha extirpado el carcinoma de {1}.</ExciseCarcinoma.successfullyRemovedHediffMessage>
+
+
+  <!-- removing body parts -->
+
   <RemoveBodyPart.label>Amputar Miembro</RemoveBodyPart.label>
-  <!-- EN: Remove a body part. -->
   <RemoveBodyPart.description>Amputa un miembro corporal.</RemoveBodyPart.description>
-  
+  <RemoveBodyPart.jobString>amputando miembro.</RemoveBodyPart.jobString>
+
+
+  <!-- special administer -->
+
+  <AdministerMechSerumHealer.label>Administrar Suero Sanador Mecanoide</AdministerMechSerumHealer.label>
+  <AdministerMechSerumHealer.description>Administra Suero Sanador Mecanoide.</AdministerMechSerumHealer.description>
+  <AdministerMechSerumHealer.jobString>administrando suero sanador mecanoide.</AdministerMechSerumHealer.jobString>
+
+
 </LanguageData>

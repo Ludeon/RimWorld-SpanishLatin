@@ -1,80 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: daughter -->
-  <Child.labelFemale>hija</Child.labelFemale>
-  <!-- EN: son -->
-  <Child.label>hijo</Child.label>
-  
-  <Cousin.labelFemale>prima</Cousin.labelFemale>
-  <!-- EN: cousin -->
-  <Cousin.label>primo</Cousin.label>
-  
-  <CousinOnceRemoved.labelFemale>prima en 2° grado</CousinOnceRemoved.labelFemale>
-  <!-- EN: cousin once removed -->
-  <CousinOnceRemoved.label>primo en 2° grado</CousinOnceRemoved.label>
-  
-  <!-- EN: granddaughter -->
-  <Grandchild.labelFemale>nieta</Grandchild.labelFemale>
-  <!-- EN: grandson -->
-  <Grandchild.label>nieto</Grandchild.label>
-  
-  <!-- EN: grandniece -->
-  <GrandnephewOrGrandniece.labelFemale>sobrina nieta</GrandnephewOrGrandniece.labelFemale>
-  <!-- EN: grandnephew -->
-  <GrandnephewOrGrandniece.label>sobrino nieto</GrandnephewOrGrandniece.label>
-  
-  <!-- EN: grandmother -->
-  <Grandparent.labelFemale>abuela</Grandparent.labelFemale>
-  <!-- EN: grandfather -->
-  <Grandparent.label>abuelo</Grandparent.label>
-  
-  <!-- EN: grandaunt -->
-  <GranduncleOrGrandaunt.labelFemale>tía abuela</GranduncleOrGrandaunt.labelFemale>
-  <!-- EN: granduncle -->
-  <GranduncleOrGrandaunt.label>tío abuelo</GranduncleOrGrandaunt.label>
-  
-  <!-- EN: great granddaughter -->
-  <GreatGrandchild.labelFemale>bisnieto</GreatGrandchild.labelFemale>
-  <!-- EN: great grandson -->
-  <GreatGrandchild.label>bisnieto</GreatGrandchild.label>
-  
-  <!-- EN: great grandmother -->
-  <GreatGrandparent.labelFemale>bisabuela</GreatGrandparent.labelFemale>
-  <!-- EN: great grandfather -->
-  <GreatGrandparent.label>bisabuelo</GreatGrandparent.label>
-  
-  <!-- EN: sister -->
-  <HalfSibling.labelFemale>media hermana</HalfSibling.labelFemale>
-  <!-- EN: brother -->
-  <HalfSibling.label>medio hermano</HalfSibling.label>
-  
-  <Kin.labelFemale>pariente</Kin.labelFemale>
-  <!-- EN: kin -->
-  <Kin.label>pariente</Kin.label>
-  
-  <!-- EN: niece -->
-  <NephewOrNiece.labelFemale>sobrina</NephewOrNiece.labelFemale>
-  <!-- EN: nephew -->
-  <NephewOrNiece.label>sobrino</NephewOrNiece.label>
-  
-  <!-- EN: mother -->
-  <Parent.labelFemale>madre</Parent.labelFemale>
-  <!-- EN: father -->
+
+  <!-- familiares cercanos -->
+
   <Parent.label>padre</Parent.label>
-  
-  <SecondCousin.labelFemale>prima en 3° grado</SecondCousin.labelFemale>
-  <!-- EN: second cousin -->
-  <SecondCousin.label>primo en 3° grado</SecondCousin.label>
-  
-  <!-- EN: sister -->
-  <Sibling.labelFemale>hermana</Sibling.labelFemale>
-  <!-- EN: brother -->
+  <Parent.labelFemale>madre</Parent.labelFemale>
+
+  <Child.label>hijo</Child.label>
+  <Child.labelFemale>hija</Child.labelFemale>
+
   <Sibling.label>hermano</Sibling.label>
-  
-  <!-- EN: aunt -->
-  <UncleOrAunt.labelFemale>tía</UncleOrAunt.labelFemale>
-  <!-- EN: uncle -->
+  <Sibling.labelFemale>hermana</Sibling.labelFemale>
+
+  <HalfSibling.label>medio hermano</HalfSibling.label>
+  <HalfSibling.labelFemale>media hermana</HalfSibling.labelFemale>
+
+  <Grandparent.label>abuelo</Grandparent.label>
+  <Grandparent.labelFemale>abuela</Grandparent.labelFemale>
+
+  <Grandchild.label>nieto</Grandchild.label>
+  <Grandchild.labelFemale>nieta</Grandchild.labelFemale>
+
+  <NephewOrNiece.label>sobrino</NephewOrNiece.label>
+  <NephewOrNiece.labelFemale>sobrina</NephewOrNiece.labelFemale>
+
   <UncleOrAunt.label>tío</UncleOrAunt.label>
-  
+  <UncleOrAunt.labelFemale>tía</UncleOrAunt.labelFemale>
+
+  <Cousin.label>primo</Cousin.label>
+  <Cousin.labelFemale>prima</Cousin.labelFemale>
+
+
+  <!-- distant family -->
+
+  <GreatGrandparent.label>bisabuelo</GreatGrandparent.label>
+  <GreatGrandparent.labelFemale>bisabuela</GreatGrandparent.labelFemale>
+
+  <GreatGrandchild.label>bisnieto</GreatGrandchild.label>
+  <GreatGrandchild.labelFemale>bisnieto</GreatGrandchild.labelFemale>
+
+  <GranduncleOrGrandaunt.label>tío abuelo</GranduncleOrGrandaunt.label>
+  <GranduncleOrGrandaunt.labelFemale>tía abuela</GranduncleOrGrandaunt.labelFemale>
+
+  <GrandnephewOrGrandniece.label>sobrino nieto</GrandnephewOrGrandniece.label>
+  <GrandnephewOrGrandniece.labelFemale>sobrina nieta</GrandnephewOrGrandniece.labelFemale>
+
+  <CousinOnceRemoved.label>primo en 2° grado</CousinOnceRemoved.label>
+  <CousinOnceRemoved.labelFemale>prima en 2° grado</CousinOnceRemoved.labelFemale>
+
+  <SecondCousin.label>primo en 3° grado</SecondCousin.label>
+  <SecondCousin.labelFemale>prima en 3° grado</SecondCousin.labelFemale>
+
+
+  <!-- kin -->
+
+  <Kin.label>pariente</Kin.label>
+  <Kin.labelFemale>pariente</Kin.labelFemale>
+
+
 </LanguageData>
