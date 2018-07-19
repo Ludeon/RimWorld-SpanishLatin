@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Temporary hack; ranged weapons need to use the old pre-flavorful-combat system to avoid a rebalance cascade. -->
-
-  <RangedStab.label>Punzante</RangedStab.label>
-  <RangedStab.deathMessage>{0} ha recibido una puñalada mortal.</RangedStab.deathMessage>
-
-  <Bullet.label>Bala</Bullet.label>
-  <Bullet.deathMessage>{0} ha muerto de un disparo.</Bullet.deathMessage>
-
-  <Arrow.label>Flecha</Arrow.label>
+  
+  <!-- EN: {0} has been shot to death by an arrow. -->
   <Arrow.deathMessage>{0} ha muerto de un flechazo.</Arrow.deathMessage>
-
-  <ArrowHighVelocity.label>Flecha</ArrowHighVelocity.label>
+  <!-- EN: arrow -->
+  <Arrow.label>Flecha</Arrow.label>
+  
+  <!-- EN: {0} has been shot to death by an arrow. -->
   <ArrowHighVelocity.deathMessage>{0} ha muerto de un flechazo.</ArrowHighVelocity.deathMessage>
-
-
+  <!-- EN: arrow -->
+  <ArrowHighVelocity.label>Flecha</ArrowHighVelocity.label>
+  
+  <!-- EN: {0} has been shot to death. -->
+  <Bullet.deathMessage>{0} ha muerto de un disparo.</Bullet.deathMessage>
+  <!-- EN: bullet -->
+  <Bullet.label>Bala</Bullet.label>
+  
+  <!-- EN: {0} has been stabbed to death. -->
+  <RangedStab.deathMessage>{0} ha recibido una puñalada mortal.</RangedStab.deathMessage>
+  <!-- EN: stab -->
+  <RangedStab.label>Punzante</RangedStab.label>
+  
 </LanguageData>

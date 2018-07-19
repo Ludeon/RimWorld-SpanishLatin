@@ -1,50 +1,82 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Common to various mechanoids -->
-
-  <MechanicalNeck.label>Cuello</MechanicalNeck.label>
-  <MechanicalHead.label>Cabeza</MechanicalHead.label>
+  
+  <!-- EN: artificial brain -->
   <ArtificialBrain.label>Cerebro Artificial</ArtificialBrain.label>
-  <SightSensor.label>Sensor Visual</SightSensor.label>
-  <HearingSensor.label>Sensor Auditivo</HearingSensor.label>
-  <SmellSensor.label>Sensor Olfativo</SmellSensor.label>
-  <MechanicalShoulder.label>Hombro</MechanicalShoulder.label>
-  <MechanicalArm.label>Brazo</MechanicalArm.label>
-  <MechanicalHand.label>Mano</MechanicalHand.label>
-  <MechanicalFinger.label>Dedo</MechanicalFinger.label>
-  <MechanicalLeg.label>Pierna</MechanicalLeg.label>
-  <MechanicalFoot.label>Pie</MechanicalFoot.label>
-
-
-  <!-- Human-like specific (lancer, scyther) -->
-
-  <MechanicalThorax.label>Tórax</MechanicalThorax.label>
-
-
-  <!-- Scyther specific -->
-
+  
+  <!-- EN: blade -->
   <Blade.label>Cuchilla</Blade.label>
-
-
-  <!-- Centipede specific -->
-
-  <MechanicalCentipedeBodyFirstRing.label>Primer Segmento Corporal</MechanicalCentipedeBodyFirstRing.label>
-  <MechanicalCentipedeBodyFirstRing.labelShort>Anillo del Cuerpo</MechanicalCentipedeBodyFirstRing.labelShort>
-
-  <MechanicalCentipedeBodySecondRing.label>Segundo Segmento Corporal</MechanicalCentipedeBodySecondRing.label>
-  <MechanicalCentipedeBodySecondRing.labelShort>Anillo del Cuerpo</MechanicalCentipedeBodySecondRing.labelShort>
-
-  <MechanicalCentipedeBodyThirdRing.label>Tercer Segmento Corporal</MechanicalCentipedeBodyThirdRing.label>
-  <MechanicalCentipedeBodyThirdRing.labelShort>Anillo del Cuerpo</MechanicalCentipedeBodyThirdRing.labelShort>
-
-  <MechanicalCentipedeBodyFourthRing.label>Cuarto Segmento Corporal</MechanicalCentipedeBodyFourthRing.label>
-  <MechanicalCentipedeBodyFourthRing.labelShort>Anillo del Cuerpo</MechanicalCentipedeBodyFourthRing.labelShort>
-
-  <MechanicalCentipedeBodyFifthRing.label>Quinto Segmento Corporal</MechanicalCentipedeBodyFifthRing.label>
+  
+  <!-- EN: fluid reprocessor -->
+  <FluidReprocessor.label>TODO</FluidReprocessor.label>
+  
+  <!-- EN: sound sensor -->
+  <HearingSensor.label>Sensor Auditivo</HearingSensor.label>
+  
+  <!-- EN: arm -->
+  <MechanicalArm.label>Brazo</MechanicalArm.label>
+  
+  <!-- EN: body ring -->
   <MechanicalCentipedeBodyFifthRing.labelShort>Anillo del Cuerpo</MechanicalCentipedeBodyFifthRing.labelShort>
-
-  <MechanicalCentipedeBodySixthRing.label>Sexto Segmento Corporal</MechanicalCentipedeBodySixthRing.label>
+  <!-- EN: fifth body ring -->
+  <MechanicalCentipedeBodyFifthRing.label>Quinto Segmento Corporal</MechanicalCentipedeBodyFifthRing.label>
+  
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFirstRing.labelShort>Anillo del Cuerpo</MechanicalCentipedeBodyFirstRing.labelShort>
+  <!-- EN: first body ring -->
+  <MechanicalCentipedeBodyFirstRing.label>Primer Segmento Corporal</MechanicalCentipedeBodyFirstRing.label>
+  
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFourthRing.labelShort>Anillo del Cuerpo</MechanicalCentipedeBodyFourthRing.labelShort>
+  <!-- EN: fourth body ring -->
+  <MechanicalCentipedeBodyFourthRing.label>Cuarto Segmento Corporal</MechanicalCentipedeBodyFourthRing.label>
+  
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodySecondRing.labelShort>Anillo del Cuerpo</MechanicalCentipedeBodySecondRing.labelShort>
+  <!-- EN: second body ring -->
+  <MechanicalCentipedeBodySecondRing.label>Segundo Segmento Corporal</MechanicalCentipedeBodySecondRing.label>
+  
+  <!-- EN: body ring -->
   <MechanicalCentipedeBodySixthRing.labelShort>Anillo del Cuerpo</MechanicalCentipedeBodySixthRing.labelShort>
-    
+  <!-- EN: sixth body ring -->
+  <MechanicalCentipedeBodySixthRing.label>Sexto Segmento Corporal</MechanicalCentipedeBodySixthRing.label>
+  
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyThirdRing.labelShort>Anillo del Cuerpo</MechanicalCentipedeBodyThirdRing.labelShort>
+  <!-- EN: third body ring -->
+  <MechanicalCentipedeBodyThirdRing.label>Tercer Segmento Corporal</MechanicalCentipedeBodyThirdRing.label>
+  
+  <!-- EN: finger -->
+  <MechanicalFinger.label>Dedo</MechanicalFinger.label>
+  
+  <!-- EN: foot -->
+  <MechanicalFoot.label>Pie</MechanicalFoot.label>
+  
+  <!-- EN: hand -->
+  <MechanicalHand.label>Mano</MechanicalHand.label>
+  
+  <!-- EN: head -->
+  <MechanicalHead.label>Cabeza</MechanicalHead.label>
+  
+  <!-- EN: leg -->
+  <MechanicalLeg.label>Pierna</MechanicalLeg.label>
+  
+  <!-- EN: neck -->
+  <MechanicalNeck.label>Cuello</MechanicalNeck.label>
+  
+  <!-- EN: shoulder -->
+  <MechanicalShoulder.label>Hombro</MechanicalShoulder.label>
+  
+  <!-- EN: thorax -->
+  <MechanicalThorax.label>Tórax</MechanicalThorax.label>
+  
+  <!-- EN: reactor -->
+  <Reactor.label>TODO</Reactor.label>
+  
+  <!-- EN: visual sensor -->
+  <SightSensor.label>Sensor Visual</SightSensor.label>
+  
+  <!-- EN: chemical analyzer -->
+  <SmellSensor.label>Sensor Olfativo</SmellSensor.label>
+  
 </LanguageData>

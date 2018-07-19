@@ -1,65 +1,54 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-    
-  <PowerConduit.label>Conducto Eléctrico</PowerConduit.label>
-  <PowerConduit.description>Un conjunto de cables eléctricos para mover la energía. Se puede colocar debajo de paredes y otros edificios.</PowerConduit.description>
-  <PowerConduit_Blueprint.label>Conducto Eléctrico (anteproyecto)</PowerConduit_Blueprint.label>
-  <PowerConduit_Frame.label>Conducto Eléctrico (a medias)</PowerConduit_Frame.label>
-  <PowerConduit_Frame.description>Un conjunto de cables eléctricos para mover la energía. Se puede colocar debajo de paredes y otros edificios.</PowerConduit_Frame.description>
-
-  <WaterproofConduit.label>Conducto Impermeable</WaterproofConduit.label>
-  <WaterproofConduit.description>Cables eléctricos aislados para la transmisión de energía bajo aguas poco profundas.</WaterproofConduit.description>
-  <WaterproofConduit_Blueprint.label>Conducto Impermeable (anteproyecto)</WaterproofConduit_Blueprint.label>
-  <WaterproofConduit_Frame.label>Conducto Impermeable (a medias)</WaterproofConduit_Frame.label>
-  <WaterproofConduit_Frame.description>Cables eléctricos aislados para la transmisión de energía bajo aguas poco profundas.</WaterproofConduit_Frame.description>
-
-  <PowerSwitch.label>Interruptor</PowerSwitch.label>
-  <PowerSwitch.description>Permite encender o apagar la electricidad.</PowerSwitch.description>
-  <PowerSwitch_Blueprint.label>Interruptor (anteproyecto)</PowerSwitch_Blueprint.label>
-  <PowerSwitch_Frame.label>Interruptor (a medias)</PowerSwitch_Frame.label>
-  <PowerSwitch_Frame.description>Interruptor ecendido/apagado.</PowerSwitch_Frame.description>
-
-  <WoodFiredGenerator.label>Generador a Leña</WoodFiredGenerator.label>
-  <WoodFiredGenerator.description>Produce energía consumiendo leña. Debe ser alimentado a mano.</WoodFiredGenerator.description>
-  <WoodFiredGenerator_Blueprint.label>Generador a Leña (anteproyecto)</WoodFiredGenerator_Blueprint.label>
-  <WoodFiredGenerator_Frame.label>Generador a Leña (a medias)</WoodFiredGenerator_Frame.label>
-  <WoodFiredGenerator_Frame.description>Produce energía consumiendo leña. Debe ser alimentado a mano.</WoodFiredGenerator_Frame.description>
-
-  <ChemfuelPoweredGenerator.label>Generador a Biocombustible</ChemfuelPoweredGenerator.label>
-  <ChemfuelPoweredGenerator.description>Produce energía consumiendo Biocombustible. Debe ser alimentado a mano.</ChemfuelPoweredGenerator.description>
-  <ChemfuelPoweredGenerator_Blueprint.label>Generador a Biocombustible (anteproyecto)</ChemfuelPoweredGenerator_Blueprint.label>
-  <ChemfuelPoweredGenerator_Frame.label>Generador a Biocombustible (a medias)</ChemfuelPoweredGenerator_Frame.label>
-  <ChemfuelPoweredGenerator_Frame.description>Produce energía consumiendo Biocombustible. Debe ser alimentado a mano.</ChemfuelPoweredGenerator_Frame.description>
-
-  <WindTurbine.label>Aeroturbina</WindTurbine.label>
-  <WindTurbine.description>Un generador de electricidad accionado por el viento. Para conseguir un flujo de aire óptimo necesita un gran espacio libre al frente y atrás.</WindTurbine.description>
-  <WindTurbine_Blueprint.label>Aeroturbina (anteproyecto)</WindTurbine_Blueprint.label>
-  <WindTurbine_Frame.label>Aeroturbina (a medias)</WindTurbine_Frame.label>
-  <WindTurbine_Frame.description>Un generador de electricidad accionado por el viento. Para conseguir un flujo de aire óptimo necesita un gran espacio libre al frente y atrás.</WindTurbine_Frame.description>
-
+  
+  <!-- EN: battery -->
   <Battery.label>Batería</Battery.label>
+  <!-- EN: Stores electricity for later use. Charged batteries explode when exposed to rain or fire. -->
   <Battery.description>Almacena electricidad cuando hay exceso de energia y la devuelve cuando no lo hay. Atención - las baterías cargadas corren riesgo de explosión cuando se calientan o se mojan.</Battery.description>
-  <Battery_Blueprint.label>Batería (anteproyecto)</Battery_Blueprint.label>
-  <Battery_Blueprint_Install.label>Batería (anteproyecto)</Battery_Blueprint_Install.label>
-  <Battery_Frame.label>Batería (a medias)</Battery_Frame.label>
-  <Battery_Frame.description>Almacena electricidad cuando hay exceso de energia y la devuelve cuando no lo hay. Atención - las baterías cargadas corren riesgo de explosión cuando se calientan o se mojan.</Battery_Frame.description>
-
-  <SolarGenerator.label>Paneles Solares</SolarGenerator.label>
-  <SolarGenerator.description>Producen electricidad gracias a la luz solar. No funcionan en la oscuridad.</SolarGenerator.description>
-  <SolarGenerator_Blueprint.label>Paneles Solares (anteproyecto)</SolarGenerator_Blueprint.label>
-  <SolarGenerator_Frame.label>Paneles Solares (a medias)</SolarGenerator_Frame.label>
-  <SolarGenerator_Frame.description>Producen electricidad gracias a la luz solar. No funcionan en la oscuridad.</SolarGenerator_Frame.description>
-
+  
+  <!-- EN: chemfuel powered generator -->
+  <ChemfuelPoweredGenerator.label>Generador a Biocombustible</ChemfuelPoweredGenerator.label>
+  <!-- EN: Produces power by consuming chemfuel. Must be periodically refueled by hand. -->
+  <ChemfuelPoweredGenerator.description>Produce energía consumiendo Biocombustible. Debe ser alimentado a mano.</ChemfuelPoweredGenerator.description>
+  
+  <!-- EN: geothermal generator -->
   <GeothermalGenerator.label>Generador Geotérmico</GeothermalGenerator.label>
+  <!-- EN: Produces electricity from geothermal steam geysers. Must be placed on a steam geyser. -->
   <GeothermalGenerator.description>Produce electricidad gracias a los géiseres de vapor. Debe ser ubicado sobre un géiser.</GeothermalGenerator.description>
-  <GeothermalGenerator_Blueprint.label>Generador Geotérmico (anteproyecto)</GeothermalGenerator_Blueprint.label>
-  <GeothermalGenerator_Frame.label>Generador Geotérmico (a medias)</GeothermalGenerator_Frame.label>
-  <GeothermalGenerator_Frame.description>Produce electricidad gracias a los géiseres de vapor. Debe ser ubicado sobre un géiser.</GeothermalGenerator_Frame.description>
-
+  
+  <!-- EN: power conduit -->
+  <PowerConduit.label>Conducto Eléctrico</PowerConduit.label>
+  <!-- EN: A bundle of electrical cables for moving power around. Can be placed under walls and other buildings. -->
+  <PowerConduit.description>Un conjunto de cables eléctricos para mover la energía. Se puede colocar debajo de paredes y otros edificios.</PowerConduit.description>
+  
+  <!-- EN: power switch -->
+  <PowerSwitch.label>Interruptor</PowerSwitch.label>
+  <!-- EN: Switches power on/off. -->
+  <PowerSwitch.description>Permite encender o apagar la electricidad.</PowerSwitch.description>
+  
+  <!-- EN: solar generator -->
+  <SolarGenerator.label>Paneles Solares</SolarGenerator.label>
+  <!-- EN: Produces electricity from sunlight. Does not work in the dark or under artificial light. -->
+  <SolarGenerator.description>Producen electricidad gracias a la luz solar. No funcionan en la oscuridad.</SolarGenerator.description>
+  
+  <!-- EN: watermill generator -->
   <WatermillGenerator.label>Molino de Agua</WatermillGenerator.label>
+  <!-- EN: Produces electricity from river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generated and reduces each other's power generation. -->
   <WatermillGenerator.description>Produce electricidad a partir de la corriente del río. Debe colocarse con su rueda sobre agua en movimiento.</WatermillGenerator.description>
-  <WatermillGenerator_Blueprint.label>Molino de Agua (anteproyecto)</WatermillGenerator_Blueprint.label>
-  <WatermillGenerator_Frame.label>Molino de Agua (a medias)</WatermillGenerator_Frame.label>
-  <WatermillGenerator_Frame.description>Produce electricidad a partir de la corriente del río. Debe colocarse con su rueda sobre agua en movimiento.</WatermillGenerator_Frame.description>
-	
+  
+  <!-- EN: waterproof conduit -->
+  <WaterproofConduit.label>Conducto Impermeable</WaterproofConduit.label>
+  <!-- EN: Insulated electrical cables for transmitting power under shallow water. -->
+  <WaterproofConduit.description>Cables eléctricos aislados para la transmisión de energía bajo aguas poco profundas.</WaterproofConduit.description>
+  
+  <!-- EN: wind turbine -->
+  <WindTurbine.label>Aeroturbina</WindTurbine.label>
+  <!-- EN: A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow. -->
+  <WindTurbine.description>Un generador de electricidad accionado por el viento. Para conseguir un flujo de aire óptimo necesita un gran espacio libre al frente y atrás.</WindTurbine.description>
+  
+  <!-- EN: wood-fired generator -->
+  <WoodFiredGenerator.label>Generador a Leña</WoodFiredGenerator.label>
+  <!-- EN: Produces power by consuming wood. Must be periodically loaded with wood fuel by hand. -->
+  <WoodFiredGenerator.description>Produce energía consumiendo leña. Debe ser alimentado a mano.</WoodFiredGenerator.description>
+  
 </LanguageData>

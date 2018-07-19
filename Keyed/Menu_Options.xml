@@ -2,60 +2,105 @@
 <LanguageData>
 
   <!-- Audiovisuals -->
+  <!-- EN: Audiovisuals -->
   <Audiovisuals>Audio/Video</Audiovisuals>
+  <!-- EN: Game volume -->
   <GameVolume>Volumen del juego</GameVolume>
+  <!-- EN: Music volume -->
   <MusicVolume>Volumen de la música</MusicVolume>
+  <!-- EN: Ambient volume -->
   <AmbientVolume>Volumen del ambiente</AmbientVolume>
+  <!-- EN: Anti-aliasing -->
   <Antialiasing>Anti-alias</Antialiasing>
 
   <!-- Gameplay -->
+  <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>Desplazar pantalla con el ratón</EdgeScreenScroll>
+  <!-- EN: Pause on load -->
   <PauseOnLoad>Pausar al cargar</PauseOnLoad>
+  <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>Pausa de aviso urgente</PauseOnUrgentLetter>
+  <!-- EN: Custom cursor -->
   <CustomCursor>Cursor personalizado</CustomCursor>
+  <!-- EN: Hats shown only on game map -->
   <HatsShownOnlyOnMap>Mostrar leyendas únicamente en el mapa del juego</HatsShownOnlyOnMap>
+  <!-- EN: UI scale -->
   <UIScale>Escala de interfaz</UIScale>
+  <!-- EN: Keyboard configuration -->
   <KeyboardConfig>Configuración del teclado</KeyboardConfig>
+  <!-- EN: Choose language -->
   <ChooseLanguage>Escoger idioma</ChooseLanguage>
+  <!-- EN: Reset learning helper -->
   <ResetAdaptiveTutor>Reiniciar tutor adaptativo</ResetAdaptiveTutor>
+  <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
   <AdaptiveTutorIsReset>El tutor adaptativo se ha reiniciado. Ahora te enseñará todo desde el inicio.</AdaptiveTutorIsReset>
+  <!-- EN: Run in background -->
   <RunInBackground>Correr en segundo plano</RunInBackground>
+  <!-- EN: Development mode -->
   <DevelopmentMode>Modo de Desarrollo</DevelopmentMode>
+  <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>Reiniciar mods por fallo</ResetModsConfigOnCrash>
+  <!-- EN: Verbose logging -->
   <LogVerbose>Registro elocuente</LogVerbose>
+  <!-- EN: Open save data folder -->
   <OpenSaveGameDataFolder>Abrir carpeta de juegos guardados</OpenSaveGameDataFolder>
+  <!-- EN: Show save data location -->
   <ShowSaveGameDataLocation>Mostrar la ubicación de los datos guardados</ShowSaveGameDataLocation>
+  <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
   <NamesYouWantToSee>Apellidos de los "Nombres en el juego" o los "Trasfondos en el juego" que deseas ver:</NamesYouWantToSee>
+  <!-- EN: Add name -->
   <AddName>Añadir nombre</AddName>
+  <!-- EN: Type the first name, nickname, or last name. -->
   <TypeFirstNickOrLastName>Escribe el nombre, apodo o apellido.</TypeFirstNickOrLastName>
+  <!-- EN: This name is already on the preferred list. -->
   <MessageAlreadyPreferredName>Este nombre ya está en la lista de preferidos.</MessageAlreadyPreferredName>
+  <!-- EN: Storyteller settings -->
   <ChangeStoryteller>Escoger IA cuentacuentos</ChangeStoryteller>
+  <!-- EN: Autosave interval -->
   <AutosaveInterval>Autoguardado</AutosaveInterval>
+  <!-- EN: Temperature mode -->
   <TemperatureMode>Temperatura</TemperatureMode>
+  <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Reloj de tiempo real</ShowRealtimeClock>
+  <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Número máximo de asentamientos: {0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Plant wind sway -->
   <PlantWindSway>Vaivén de plantas por viento</PlantWindSway>
+  <!-- EN: Enable test map sizes -->
   <EnableTestMapSizes>Habilitar tamaños de mapa de pruebas</EnableTestMapSizes>
+  <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
   <MaxPermadeathAutosaveIntervalInfo>El máximo intervalo de autoguardado en el modo perma-muerte es de {0} días.</MaxPermadeathAutosaveIntervalInfo>
+  <!-- EN: Mod Settings -->
   <ModSettings>Configurar Mod</ModSettings>
+  <!-- EN: Permanently disable development mode -->
   <PermanentlyDisableDevMode>Desactivar permanentemente el modo de desarrollo</PermanentlyDisableDevMode>
 
   <!-- Resolution -->
+  <!-- EN: Resolution -->
   <Resolution>Resolución</Resolution>
+  <!-- EN: Fullscreen -->
   <Fullscreen>Pantalla completa</Fullscreen>
 
   <!-- Privacy -->
+  <!-- EN: Privacy -->
   <Privacy>Privacidad</Privacy>
+  <!-- EN: User name -->
   <UserName>Nombre de usuario</UserName>
+  <!-- EN: Gameplay data upload pref. -->
   <ChooseHistoryUploadPref>Preferencia para el envío de datos de jugabilidad</ChooseHistoryUploadPref>
+  <!-- EN: Users gameplay data helps developers balance the game. If you agree, your information will be sent every {0} game days (and in some other rare cases like the end of the game) to the RimWorld server and then analyzed. Uploaded gameplay data consists only of statistics and history records related to the game - no personal information is sent, except for user name, which means it is completely anonymous. -->
   <AboutHistoryUpload>Los datos de jugabilidad de los usuarios ayudan a los desarrolladores a balancear el juego. Si aceptas, tu información será enviada cada {0} días de juego (así como en otros casos, como al finalizar una partida) al servidor de Rimworld para ser analizados. Los datos de jugabilidad enviados consisten solamente de estadísticas y archivos históricos relacionados con el juego - ninguna información personal es enviada excepto el nombre de usuario, lo que significa que es completamente anónimo.</AboutHistoryUpload>
 
   <!-- Mods -->
+  <!-- EN: Select mod... -->
   <SelectMod>Seleccionar mod...</SelectMod>
+  <!-- EN: No configurable mods loaded. -->
   <NoConfigurableMods>No hay ningún mods configurado.</NoConfigurableMods>
-
+  
   <!-- Options reset -->
+  <!-- EN: Restore to default settings -->
   <RestoreToDefaultSettings>Restablecer la configuración predeterminada</RestoreToDefaultSettings>
+  <!-- EN: Your options have been reset. The game will now restart automatically. -->
   <ResetAndRestart>Sus opciones han sido reajustadas. El juego se reiniciará automáticamente.</ResetAndRestart>
-
+  
 </LanguageData>

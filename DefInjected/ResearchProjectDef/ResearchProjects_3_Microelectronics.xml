@@ -1,31 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <MicroelectronicsBasics.label>Microelectrónicos Básicos</MicroelectronicsBasics.label>
-  <MicroelectronicsBasics.description>Los conocimientos básicos para poder trabajar con los delicados y complejos electrónicos. Ésto desbloquea la mesa de trabajo de avanzada, la consola de comunicaciones y otros proyectos de investigación como las televisiones y los sarcófagos de cryptosueño.</MicroelectronicsBasics.description>
-
-  <FlatscreenTelevision.label>Televisión de Pantalla Plana</FlatscreenTelevision.label>
-  <FlatscreenTelevision.description>Produzca televisores de pantalla plana de alta resolución para un mayor disfrute.</FlatscreenTelevision.description>
-
+  
+  <!-- EN: colored lights -->
   <ColoredLights.label>Luces de Colores</ColoredLights.label>
+  <!-- EN: Construct colored lights for decorative purposes. Cosmetic only. -->
   <ColoredLights.description>Permite a los colonos construir luces de colores para fines decorativos.</ColoredLights.description>
-
-  <MoisturePump.label>Bombas de Humedad</MoisturePump.label>
-  <MoisturePump.description>Permite la construcción de bombas de humedad, que permiten secar el suelo excesivamente húmedo.</MoisturePump.description>
-
+  
+  <!-- EN: flatscreen television -->
+  <FlatscreenTelevision.label>Televisión de Pantalla Plana</FlatscreenTelevision.label>
+  <!-- EN: Produce high-resolution flatscreen televisions for greater enjoyment. -->
+  <FlatscreenTelevision.description>Produzca televisores de pantalla plana de alta resolución para un mayor disfrute.</FlatscreenTelevision.description>
+  
+  <!-- EN: autocannon turret -->
+  <HeavyTurrets.label>Cañon Automático</HeavyTurrets.label>
+  <!-- EN: Produce the heavy, long-ranged autocannon turret. -->
+  <HeavyTurrets.description>Permite la producción de coñones automáticos de largo alcance para la defensa de la colonia.</HeavyTurrets.description>
+  
+  <!-- EN: hospital bed -->
   <HospitalBed.label>Camas Hospitalarias</HospitalBed.label>
+  <!-- EN: Construct hospital beds which improve medical outcomes. -->
   <HospitalBed.description>Permite a los colonos contruir camas hospitalarias que incrementan las posibilidades de tratamientos medicos exitosos en ellas.</HospitalBed.description>
-
-  <TransportPod.label>Cápsulas de Transporte</TransportPod.label>
-  <TransportPod.description>Te permite construir cápsulas de transporte que puedes usar para lanzar personas y objetos grandes distancias y a gran velocidad a traves de la superficie planetaria.</TransportPod.description>
-
-  <MedicineProduction.label>Producción de Medicinas</MedicineProduction.label>
-  <MedicineProduction.description>Produce medicinas a partir de herbolaria, neutroamina y tela.</MedicineProduction.description>
-
+  
+  <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>Escáner de Largo Alcance</LongRangeMineralScanner.label>
+  <!-- EN: Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct. -->
   <LongRangeMineralScanner.description>Permite la construcción de escáneres minerales de largo alcance que detectan automáticamente minerales preciosos como oro o jade en las áreas cercanas (pero no en las que se construyeron los escáneres).\n\nLos yacimientos se encuentran en promedio una vez cada 30 días dentro de un radio de 30 mosaicos.\n\nLa construcción de más de un escáner en la misma área o en áreas cercanas tiene poco o ningún efecto.</LongRangeMineralScanner.description>
-
+  
+  <!-- EN: medicine production -->
+  <MedicineProduction.label>Producción de Medicinas</MedicineProduction.label>
+  <!-- EN: Produce standard industrial-tech medicine by combining herbal medicine, neutroamine, and cloth. -->
+  <MedicineProduction.description>Produce medicinas a partir de herbolaria, neutroamina y tela.</MedicineProduction.description>
+  
+  <!-- EN: microelectronics -->
+  <MicroelectronicsBasics.label>Microelectrónicos Básicos</MicroelectronicsBasics.label>
+  <!-- EN: Work with complex microelectronics. This unlocks the high-tech research bench and comms console. -->
+  <MicroelectronicsBasics.description>Los conocimientos básicos para poder trabajar con los delicados y complejos electrónicos. Ésto desbloquea la mesa de trabajo de avanzada, la consola de comunicaciones y otros proyectos de investigación como las televisiones y los sarcófagos de cryptosueño.</MicroelectronicsBasics.description>
+  
+  <!-- EN: moisture pump -->
+  <MoisturePump.label>Bombas de Humedad</MoisturePump.label>
+  <!-- EN: Construct moisture pumps, which very slowly normalize the moisture in the ground around them. They can turn wet ground dry and convert soft sand into normal sand. -->
+  <MoisturePump.description>Permite la construcción de bombas de humedad, que permiten secar el suelo excesivamente húmedo.</MoisturePump.description>
+  
+  <!-- EN: multibarrel weapons -->
+  <MultibarrelWeapons.label>Armas Multibarril</MultibarrelWeapons.label>
+  <!-- EN: Assemble miniguns. -->
+  <MultibarrelWeapons.description>Te permite construir miniguns.</MultibarrelWeapons.description>
+  
+  <!-- EN: precision rifling -->
+  <PrecisionRifling.label>Rifles de Precisión</PrecisionRifling.label>
+  <!-- EN: Craft precisely-machined guns like assault rifles and sniper rifles. -->
+  <PrecisionRifling.description>Fabrica fusiles de asalto y rifles de francotirador.</PrecisionRifling.description>
+  
+  <!-- EN: shield belt -->
   <ShieldBelt.label>Escudo Personal</ShieldBelt.label>
+  <!-- EN: Build shield belts, which use momentun-repulsion technology to block ranged attacks coming in or going out. -->
   <ShieldBelt.description>La tecnología de campo Momentum-Repulsion le permite construir cinturones de protección, que bloquean los ataques a distancia que entran o salen.</ShieldBelt.description>
-
+  
+  <!-- EN: sniper turret -->
+  <SniperTurret.label>Torreta de Francotirador</SniperTurret.label>
+  <!-- EN: Produce the extremely long-ranged sniper cannon turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range. -->
+  <SniperTurret.description>Produce la torreta de francotirador de muy largo alcance.</SniperTurret.description>
+  
+  <!-- EN: transport pod -->
+  <TransportPod.label>Cápsulas de Transporte</TransportPod.label>
+  <!-- EN: Construct launchable transport pods that you can use to send people and supplies long distances across the planet's surface. Can be used for raiding, travel, sending gifts, and more. -->
+  <TransportPod.description>Te permite construir cápsulas de transporte que puedes usar para lanzar personas y objetos grandes distancias y a gran velocidad a traves de la superficie planetaria.</TransportPod.description>
+  
 </LanguageData>

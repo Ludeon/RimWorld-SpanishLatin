@@ -1,12 +1,22 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <PlayerColony.label>Colonia</PlayerColony.label>
-  <PlayerColony.description>Tu propia colonia.</PlayerColony.description>
+  
+  <!-- EN: colonist -->
+  <PlayerColony.pawnSingular>TODO</PlayerColony.pawnSingular>
+  <!-- EN: colonists -->
   <PlayerColony.pawnsPlural>Colonos</PlayerColony.pawnsPlural>
-
+  <!-- EN: New Arrivals -->
+  <PlayerColony.label>Colonia</PlayerColony.label>
+  <!-- EN: A colony of recently-arrived off-worlders. -->
+  <PlayerColony.description>Tu propia colonia.</PlayerColony.description>
+  
+  <!-- EN: tribesman -->
+  <PlayerTribe.pawnSingular>TODO</PlayerTribe.pawnSingular>
+  <!-- EN: tribespeople -->
+  <PlayerTribe.pawnsPlural>Tribales</PlayerTribe.pawnsPlural>
+  <!-- EN: New Tribe -->
   <PlayerTribe.label>Tribu</PlayerTribe.label>
+  <!-- EN: A small tribe. -->
   <PlayerTribe.description>Tu propia tribu.</PlayerTribe.description>
-  <PlayerTribe.pawnsPlural>Tribales</PlayerTribe.pawnsPlural>	
-
+  
 </LanguageData>

@@ -1,21 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <CookMealSimple.label>Cocinar Comida Sencilla</CookMealSimple.label>
-  <CookMealSimple.description>Cocina una comida sencilla usando un solo ingrediente.</CookMealSimple.description>
-  <CookMealSimple.jobString>cocinando comida sencilla.</CookMealSimple.jobString>
-
-  <CookMealFine.label>Cocinar Comida Buena</CookMealFine.label>
-  <CookMealFine.description>Cocina una comida más o menos compleja combinando ingredientes cárnicos y vegetales.</CookMealFine.description>
+  
+  <!-- EN: Cooking fine meal. -->
   <CookMealFine.jobString>cocinando comida buena.</CookMealFine.jobString>
-
-  <CookMealLavish.label>Cocinar Comida Gourmet</CookMealLavish.label>
-  <CookMealLavish.description>Cocina una comida muy elaborada combinando ingredientes cárnicos y vegetales. Gran parte de los ingredientes se desperdician.</CookMealLavish.description>
+  <!-- EN: cook fine meal -->
+  <CookMealFine.label>Cocinar Comida Buena</CookMealFine.label>
+  <!-- EN: Cook a somewhat complex meal from a combination of meat and plant ingredients. -->
+  <CookMealFine.description>Cocina una comida más o menos compleja combinando ingredientes cárnicos y vegetales.</CookMealFine.description>
+  
+  <!-- EN: Cooking lavish meal. -->
   <CookMealLavish.jobString>cocinando comida gourmet.</CookMealLavish.jobString>
-
-  <CookMealSurvival.label>Cocinar Comida de Supervivencia</CookMealSurvival.label>
-  <CookMealSurvival.description>Cocina una comida de supervivencia empaquetada a partir de una combinación de carne cruda e ingredientes de plantas crudas. Muchos de los ingredientes se desperdician.</CookMealSurvival.description>
+  <!-- EN: cook lavish meal -->
+  <CookMealLavish.label>Cocinar Comida Gourmet</CookMealLavish.label>
+  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted. -->
+  <CookMealLavish.description>Cocina una comida muy elaborada combinando ingredientes cárnicos y vegetales. Gran parte de los ingredientes se desperdician.</CookMealLavish.description>
+  
+  <!-- EN: Cooking simple meal. -->
+  <CookMealSimple.jobString>cocinando comida sencilla.</CookMealSimple.jobString>
+  <!-- EN: cook simple meal -->
+  <CookMealSimple.label>Cocinar Comida Sencilla</CookMealSimple.label>
+  <!-- EN: Cook a straightforward meal from one ingredient. -->
+  <CookMealSimple.description>Cocina una comida sencilla usando un solo ingrediente.</CookMealSimple.description>
+  
+  <!-- EN: Cooking survival meal. -->
   <CookMealSurvival.jobString>cocinando comida de supervivencia.</CookMealSurvival.jobString>
-
-
+  <!-- EN: cook packaged survival meal -->
+  <CookMealSurvival.label>Cocinar Comida de Supervivencia</CookMealSurvival.label>
+  <!-- EN: Prepare a packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
+  <CookMealSurvival.description>Cocina una comida de supervivencia empaquetada a partir de una combinación de carne cruda e ingredientes de plantas crudas. Muchos de los ingredientes se desperdician.</CookMealSurvival.description>
+  
 </LanguageData>

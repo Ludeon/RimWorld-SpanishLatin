@@ -1,19 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <SmokeleafHigh.label>Viejo Toby</SmokeleafHigh.label>
-  <SmokeleafHigh.labelNoun>un porro de viejo toby</SmokeleafHigh.labelNoun>
-
-  <!-- Smokeleaf addiction -->
-
-  <SmokeleafTolerance.label>Tolerancia al Viejo Toby</SmokeleafTolerance.label>
-  <SmokeleafTolerance.stages.0.label>mínima</SmokeleafTolerance.stages.0.label>
-  <SmokeleafTolerance.stages.1.label>leve</SmokeleafTolerance.stages.1.label>
-  <SmokeleafTolerance.stages.2.label>moderada</SmokeleafTolerance.stages.2.label>
-  <SmokeleafTolerance.stages.3.label>extrema</SmokeleafTolerance.stages.3.label>
-
+  
+  <!-- EN: withdrawal -->
+  <SmokeleafAddiction.stages.withdrawal.label>Abstinencia</SmokeleafAddiction.stages.withdrawal.label>
+  <!-- EN: smokeleaf dependence -->
   <SmokeleafAddiction.label>Adicción al Viejo Toby</SmokeleafAddiction.label>
-  <SmokeleafAddiction.stages.1.label>Abstinencia</SmokeleafAddiction.stages.1.label>
-
-
+  
+  <!-- EN: a smokeleaf high -->
+  <SmokeleafHigh.labelNoun>un porro de viejo toby</SmokeleafHigh.labelNoun>
+  <!-- EN: stoned on smokeleaf -->
+  <SmokeleafHigh.label>Viejo Toby</SmokeleafHigh.label>
+  
+  <!-- EN: small -->
+  <SmokeleafTolerance.stages.small-0.label>mínima</SmokeleafTolerance.stages.small-0.label>
+  <!-- EN: small -->
+  <SmokeleafTolerance.stages.small-1.label>leve</SmokeleafTolerance.stages.small-1.label>
+  <!-- EN: large -->
+  <SmokeleafTolerance.stages.large.label>moderada</SmokeleafTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <SmokeleafTolerance.stages.massive.label>extrema</SmokeleafTolerance.stages.massive.label>
+  <!-- EN: smokeleaf tolerance -->
+  <SmokeleafTolerance.label>Tolerancia al Viejo Toby</SmokeleafTolerance.label>
+  
 </LanguageData>
