@@ -4,7 +4,7 @@
   <!-- EN: Manhunting animals generally won't attack doors or inactive turrets.\n\nYou can escape them by getting inside or behind a wall. But they'll wait for you. -->
   <AnimalsDontAttackDoors.helpText>Los animales cazahombres generalmente no atacarán las puertas ni las torretas inactivas. Puedes escapar de ellos detrás de las murallas, pero te esperarán...</AnimalsDontAttackDoors.helpText>
   <!-- EN: Animals don't attack doors -->
-  <AnimalsDontAttackDoors.label>Animales y Puertas</AnimalsDontAttackDoors.label>
+  <AnimalsDontAttackDoors.label>Los animales no atacarán las puertas</AnimalsDontAttackDoors.label>
   
   <!-- EN: To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher. -->
   <BillsTab.helpText>Para hacer que los colonos utilicen las mesas de trabajo, selecciona una y pulsa la pestaña de PROYECTOS. Aquí podrás asignar qué comidas se cocinan, qué productos se elaboran y qué criaturas se despiezan.</BillsTab.helpText>
@@ -19,7 +19,7 @@
   <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
   <Capturing.helpText>Para tomar prisioneros, selecciona un colono, haz click derecho en un enemigo insconsciente y selecciona CAPTURAR en el menú contextual.\n\nPara esto necesitas una cama para prisioneros.</Capturing.helpText>
   <!-- EN: Capturing -->
-  <Capturing.label>Capturar</Capturing.label>
+  <Capturing.label>Capturando</Capturing.label>
   
   <!-- EN: Doors open at different speeds depending on what they're made of.\n\nWarning: Stone doors open very slowly. Anyone passing through will be significantly slowed down. -->
   <DoorOpenSpeed.helpText>Las puertas abren a diferentes velocidades dependiendo del material con el cual esten echas..\n\nAdvertencia: Las puertas de piedra se abren muy lentamente. Cualquiera que intente pasar a través de ella será relantizado significativamente.</DoorOpenSpeed.helpText>
@@ -29,12 +29,12 @@
   <!-- EN: To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\n\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy. -->
   <Drafting.helpText>Para controlar a los colonos directamente en combate, selecciónalos y pulsa el botón RECLUTAR.</Drafting.helpText>
   <!-- EN: Drafting for combat -->
-  <Drafting.label>Reclutamiento</Drafting.label>
+  <Drafting.label>Reclutamiento para combatir</Drafting.label>
   
   <!-- EN: You can inspect your colonists' desire to take a drug in their Needs tab.\n\nAs long as their need level is at zero, their addiction changes to a "withdrawal" state which can have various negative side effects.\n\nHowever, after long enough in withdrawal, their addiction will end and the drug need will disappear. -->
   <DrugAddiction.helpText>Puedes inspeccionar la necesidad de drogas de los colonos seleccionándolos y haciendo click en la pestaña de HUMOR.\n\nMientras su nivel se encuentre en ceros, la adicción cambia al estado de "Síndrome de abstinencia" que puede tener varios efectos negativos.\n\nSi la abstinencia se prolonga demasiado, la adicción podría llegar a su fin.</DrugAddiction.helpText>
   <!-- EN: Drug addiction -->
-  <DrugAddiction.label>Adicciones</DrugAddiction.label>
+  <DrugAddiction.label>Adiccion a drogas</DrugAddiction.label>
   
   <!-- EN: Drugs can be useful, but can also lead to harmful addictions.\n\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire. -->
   <DrugBurning.helpText>Las drogas pueden ser útiles, pero también pueden llevas a terribles adicciones.\n\nSi deseas evitar las drogas en tu colonia, tienes la opción de mandarlas a quemar en una fogata.</DrugBurning.helpText>
@@ -62,26 +62,26 @@
   <PrisonerTab.label>Prisioneros</PrisonerTab.label>
   
   <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
-  <QueueOrders.helpText>Al dar órdenes a peones, puede poner en cola varias órdenes manteniendo pulsada la tecla "shift". Esto también funciona cuando se da trabajo a peones sin trabajar.</QueueOrders.helpText>
+  <QueueOrders.helpText>Al dar órdenes a colonos, puede poner en cola varias órdenes manteniendo pulsada la tecla "shift". Esto también funciona cuando se da trabajo a colonos sin trabajar.</QueueOrders.helpText>
   <!-- EN: Order queueing -->
   <QueueOrders.label>Cola de órdenes</QueueOrders.label>
   
   <!-- EN: After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view. -->
   <ReformCaravan.helpText>Luego de un encuentro, puedes reformar tu caravana fácilmente usando el comando REFORMAR CARAVANA en la vista planetaria.</ReformCaravan.helpText>
   <!-- EN: Reforming caravans -->
-  <ReformCaravan.label>Reformar caravana</ReformCaravan.label>
+  <ReformCaravan.label>Reformando caravanas</ReformCaravan.label>
   
   <!-- EN: To rescue a wounded person, select a healthy colonist and the right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
-  <Rescuing.helpText>Para salvar a un colono inconsciente, selecciona a un colono saludable, haz click derecho en el colono inconsciente y escoge RESCATAR en el menú contextual.\n\nPara esto necesitas una cama en modo hospitalario.</Rescuing.helpText>
+  <Rescuing.helpText>Para rescatar a un herido, selecciona un colono sano y haz clic con el botón derecho en el herido.\n\nSi rescatas a un no colono, no necesariamente se unirán a tu colonia. Es posible que simplemente se alejen después de sanar. Si quieres garantizar que se unan, captúralos y reclútalos.</Rescuing.helpText>
   <!-- EN: Rescuing -->
-  <Rescuing.label>Rescate</Rescuing.label>
+  <Rescuing.label>Rescatando</Rescuing.label>
   
   <!-- EN: You can set what to plant in a growing zone. You can even grow trees!\n\nJust select the growing zone, open the Growing tab, and click the 'plant' button. -->
-  <SetGrowingZonePlant.helpText>Seleccionando un Área de cultivo, haz click en el botón "Sembrar: X" para designar un nuevo cultivo.</SetGrowingZonePlant.helpText>
+  <SetGrowingZonePlant.helpText>Puede establecer qué plantar en una zona de cultivo. Selecciona la zona de cultivo, abre la pestaña Cultivo y haz clic en el botón "plantar"..</SetGrowingZonePlant.helpText>
   <!-- EN: Set what plant to grow -->
-  <SetGrowingZonePlant.label>Cambio de cultivos</SetGrowingZonePlant.label>
+  <SetGrowingZonePlant.label>Establezca qué planta cultivar</SetGrowingZonePlant.label>
   
-  <!-- EN: Shield belts stop ranged attacks from coming in or out. They have no effect on melee attacks.\n\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand. -->
+  <!-- EN: Shield belts stop ranged at0tacks from coming in or out. They have no effect on melee attacks.\n\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand. -->
   <ShieldBelts.helpText>Los escudos personales de energía impiden que las balas puedan entrar o salir pero tienen efecto en los ataques cuerpo a cuerpo.\n\nPara luchar contra un oponente que porte un escudo personal, puedes enfocar todo tu poder de fuego en él hasta que se le agote, o atacarlo cuerpo a cuerpo.</ShieldBelts.helpText>
   <!-- EN: Shield belts -->
   <ShieldBelts.label>Escudos personales</ShieldBelts.label>

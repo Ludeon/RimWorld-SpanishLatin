@@ -7,14 +7,14 @@
   <Alerts.label>Alertas</Alerts.label>
   
   <!-- EN: Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the RESTRICT tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab. -->
-  <AllowedAreas.helpText>Los colonos y los animales domésticos pueden ser asignados a ÁREAS ASIGNABLES. Ésto les prohibe salir del área.\n\nÉsto se puede usar, por ejemplo, para evitar que un colono salga de un edificio o de la base.\n\nPuedes crear múltiples áreas asignables y asignar diferentes colonos y animales.\n\nCrea, borra y asigna éstas áreas en el menú POLÍTICAS.</AllowedAreas.helpText>
+  <AllowedAreas.helpText>Los colonos y los animales domésticos pueden ser asignados a ÁREAS PERMITIDAS. Ésto les prohibe salir del área.\n\nÉsto se puede usar, por ejemplo, para evitar que un colono salga de un edificio o de la base.\n\nPuedes crear múltiples áreas asignables y asignar diferentes colonos y animales.\n\nCrea, borra y asigna éstas áreas en el menú POLÍTICAS.</AllowedAreas.helpText>
   <!-- EN: Allowed areas -->
-  <AllowedAreas.label>Áreas asignables</AllowedAreas.label>
+  <AllowedAreas.label>Áreas permitidas</AllowedAreas.label>
   
   <!-- EN: You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts. -->
   <AnimalTaming.helpText>Puedes asignar colonos para domesticar animales salvajes que hayan sido designados para DOMAR.\n\nLos colonos ofrecerán comida al animal en sus intentos por domesticarlo.\n\nCuidado: algunos animales pueden responder de forma violenta ante los intentos fallidos.</AnimalTaming.helpText>
   <!-- EN: Animal taming -->
-  <AnimalTaming.label>Domesticación</AnimalTaming.label>
+  <AnimalTaming.label>Domesticación animal</AnimalTaming.label>
   
   <!-- EN: You can assign a tame animal to be trained in specific skills on its TRAINING tab.\n\nAnimals can't be trained continuously; they need time between training sessions. -->
   <AnimalTraining.helpText>Puedes asignar un animal doméstico para ser entrenado en diferentes habilidades específicas seleccionándolo y haciendo click en la pestaña de ADIESTRAR.\n\nLos animales no pueden ser entrenados todo el día; necesitan descansar entre sesiones de entrenamiento.</AnimalTraining.helpText>
@@ -49,7 +49,7 @@
   <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
   <EquippingWeapons.helpText>Tus colonos llegaron con algunas armas.\n\n!Equípalas!\n\nSelecciona un colono y haz click derecho en un arma para equiparla.</EquippingWeapons.helpText>
   <!-- EN: Equipping weapons -->
-  <EquippingWeapons.label>Equipar armas</EquippingWeapons.label>
+  <EquippingWeapons.label>Equipando armas</EquippingWeapons.label>
   
   <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
   <FirePreparation.helpText>Un incendio puede fácilmente acabar con una colonia entera. Para derrotarlos, debes prepararte con antelación.\n  \nEstos elementos de diseño pueden reducir el riesgo de daño por incendio:\n  \n1. En vez de construir un único súper-edificio, construye varios edificios separados por pequeñas distancias.\n  \n2. Usa materiales menos flamables. La madera es rápida y barata, pero muy flamable.\n  \n3. Construye contramedidas alrededor de tu base. Una línea de piso de concreto de 3 o 4 cuadros de ancho detendrá la mayoría de los incendios.\n  </FirePreparation.helpText>
@@ -134,17 +134,17 @@
   <!-- EN: Hit {Key:TogglePause} to pause or unpause the game.\n\nYou can give orders while paused.\n\nRemember this - if things get hectic, just hit {Key:TogglePause}! -->
   <Pause.helpText>Usa la tecla {Key:TogglePause} para pausar o reanudar el juego.\n\nPuedes dar órdenes mientras está pausado.\n\nRecuerda - si las cosas se ponen frenéticas !No dudes en pausar!</Pause.helpText>
   <!-- EN: Pausing -->
-  <Pause.label>Pausa</Pause.label>
+  <Pause.label>Pausando</Pause.label>
   
   <!-- EN: You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers. -->
   <ShotAccuracyTooltip.helpText>Puedes ver los cálculos exactos detrás de la puntería de cada disparo.\n\nPara hacerlo, selecciona al tirador y entonces posa el cursos sobre el objetivo. Un panel te mostrará la probabilidad de acierto y un desglose de los distintos multiplicadores involucrados.</ShotAccuracyTooltip.helpText>
   <!-- EN: Shot accuracy tooltip -->
-  <ShotAccuracyTooltip.label>Puntería</ShotAccuracyTooltip.label>
+  <ShotAccuracyTooltip.label>Sugerencias para la precisión al disparar</ShotAccuracyTooltip.label>
   
   <!-- EN: Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil. -->
   <SpoilageAndFreezers.helpText>La mayoría de los alimentos se echarán a perder después de un periodo corto de tiempo.\n\nPara prevenirlo, puedes construir un cuarto congelador.\n\nPara construir uno, construye un cuarto cerrado y agréga una o dos máquinas de refrigeración en las paredes. Asígnales una temperatura objetivo menor a los 0°C.\n\nLa comida congelada nunca se hechará a perder.</SpoilageAndFreezers.helpText>
   <!-- EN: Spoilage and freezers -->
-  <SpoilageAndFreezers.label>Refrigeración y desperdicio</SpoilageAndFreezers.label>
+  <SpoilageAndFreezers.label>Desperdicios y congeladores</SpoilageAndFreezers.label>
   
   <!-- EN: Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left. -->
   <Stockpiles.helpText>Los colonos necesitan un lugar donde almacenar los objetos. Designa un ALMACÉN para ello.\n\n Encontrarás el área del almacén en la sección ÁREAS del menú ARQUITECTO en la esquina inferior izquierda.</Stockpiles.helpText>
@@ -159,12 +159,12 @@
   <!-- EN: You can modify what time of day colonists should do different activities using the RESTRICT tab. -->
   <TimeAssignments.helpText>Puedes modificar el momento del día en que tus colonos realizarán sus actividades usando el menú HORARIOS.</TimeAssignments.helpText>
   <!-- EN: Time assignments -->
-  <TimeAssignments.label>Horarios</TimeAssignments.label>
+  <TimeAssignments.label>Asignaciones de horario</TimeAssignments.label>
   
   <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.helpText>Puedes acelerar, ralentizar o pausar el tiempo usando los controles de la parte inferior derecha o apretando las teclas 1,2,3 y espacio.</TimeControls.helpText>
   <!-- EN: Time controls -->
-  <TimeControls.label>Velocidad de tiempo</TimeControls.label>
+  <TimeControls.label>Controles de tiempo</TimeControls.label>
   
   <!-- EN: You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done. -->
   <WorkTab.helpText>Puedes seleccionar las opciones de trabajo de cada colono en el menú TRABAJO, en la parte inferior izquierda de la pantalla.\n\nLos colonos siempre realizarán primero las tareas de mayor prioridad que encuentren.\n\nSi no hay nadie con un cierto tipo de trabajo asignado, o si están ocupados con tareas más prioritarias, éste nunca se hará.</WorkTab.helpText>
