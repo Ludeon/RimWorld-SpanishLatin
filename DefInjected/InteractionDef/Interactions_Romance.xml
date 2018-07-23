@@ -156,37 +156,4 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
-  <!-- UNUSED -->
-  <Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] aceptó y ahora los dos están comprometidos.</li>
-  </Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Sentence_MarriageProposalRejected.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] rechazó la propuesta.</li>
-  </Sentence_MarriageProposalRejected.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
-    <li>sent->La relación no podía continuar y se ha terminado.</li>
-  </Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] se sintió atraído y ahora es pareja de [INITIATOR_nameDef].</li>
-    <li>sent->[RECIPIENT_nameDef] respondió bien y ahora es pareja de [INITIATOR_nameDef].</li>
-    <li>sent->[RECIPIENT_nameDef] se exitó y aceptó volverse amante de [INITIATOR_nameDef].</li>
-  </Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] rechazó el avance.</li>
-    <li>sent->[RECIPIENT_nameDef] ignoró el avance.</li>
-    <li>sent->[RECIPIENT_nameDef] rechazó a [RECIPIENT_possessive].</li>
-    <li>sent->[RECIPIENT_nameDef] lo rechazó.</li>
-    <li>sent->[RECIPIENT_nameDef] a duras penas respondió.</li>
-    <li>sent->[RECIPIENT_nameDef] no respondió.</li>
-    <li>sent->[RECIPIENT_nameDef] rechazó la propuesta de [INITIATOR_objective].</li>
-  </Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
-  
 </LanguageData>
