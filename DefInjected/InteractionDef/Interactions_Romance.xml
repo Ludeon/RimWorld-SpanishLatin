@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: breakup -->
+  <Breakup.label>Ruptura</Breakup.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for a break.</li>
     <li>r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for some space.</li>
@@ -13,9 +15,9 @@
     <li>r_logentry->[INITIATOR_nameDef] ha pedido a [OTHER_nameDef] que lo mejor sería volver a ser amigos.</li>
     <li>r_logentry->[INITIATOR_nameDef] ha terminado su relación romántica con [OTHER_nameDef].</li>
   </Breakup.logRulesInitiator.rulesStrings>
-  <!-- EN: breakup -->
-  <Breakup.label>Ruptura</Breakup.label>
   
+  <!-- EN: marriage proposal -->
+  <MarriageProposal.label>Propuesta de Matrimonio</MarriageProposal.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [OTHER_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [OTHER_nameDef].</li>
@@ -26,9 +28,9 @@
     <li>r_logentry->[INITIATOR_nameDef] propuso un compromiso de por vida a [OTHER_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] a declarado que quiere pasar el resto de su vida con [OTHER_nameDef].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
-  <!-- EN: marriage proposal -->
-  <MarriageProposal.label>Propuesta de Matrimonio</MarriageProposal.label>
   
+  <!-- EN: romance attempt -->
+  <RomanceAttempt.label>Coquetear</RomanceAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [wooed] [OTHER_nameDef] by [wootactic].</li>
     <li>wooed->tried to flirt with</li>
@@ -153,8 +155,6 @@
     <li>romantic_noun(p=2)->[TerrainFeature]</li>
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
-  <!-- EN: romance attempt -->
-  <RomanceAttempt.label>Coquetear</RomanceAttempt.label>
   
   <!-- UNUSED -->
   <Sentence_MarriageProposalAccepted.rulePack.rulesStrings>

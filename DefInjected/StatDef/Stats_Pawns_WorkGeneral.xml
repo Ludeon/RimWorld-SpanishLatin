@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: animal gather speed -->
@@ -25,6 +25,11 @@
   <FixBrokenDownBuildingSuccessChance.label>oportunidad de éxito de la reparación</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component. Failing means wasting time and resources. Note that this only applies to repairing breakdowns, which is different from repairing damage. -->
   <FixBrokenDownBuildingSuccessChance.description>La posibilidad de que esta persona repare con éxito un edificio averiado utilizando un componente. Fracasar significa perder tiempo y recursos. Tenga en cuenta que esto sólo se aplica a la reparación de averías, que es diferente de la reparación de daños.</FixBrokenDownBuildingSuccessChance.description>
+  
+  <!-- EN: hunting stealth -->
+  <HuntingStealth.label>sigilo de caza</HuntingStealth.label>
+  <!-- EN: This stat reduces the chance of hunted animals attacking the hunter. A 0% score means no reduction. A 100% score means animals never attack. -->
+  <HuntingStealth.description>Esta estadística reduce la posibilidad de que los animales cazados ataquen al cazador. Un puntaje de 0% significa que no hay reducción. Una puntuación del 100% significa que los animales nunca atacan.</HuntingStealth.description>
   
   <!-- EN: mining speed -->
   <MiningSpeed.label>velocidad de minería</MiningSpeed.label>

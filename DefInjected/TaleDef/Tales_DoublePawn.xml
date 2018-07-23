@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: person captured -->
+  <Captured.label>persona capturada</Captured.label>
   <!-- EN:
     <li>tale_noun->[CAPTURER_nameDef] capturing [PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef] being captured by [CAPTURER_nameDef]</li>
@@ -49,12 +51,12 @@
     <li>desc_sentence->[CAPTURER_nameDef] se carcajea mientras [PRISONER_nameDef] llora.</li>
     <li>desc_sentence->[CAPTURER_nameDef] patea a [PRISONER_nameDef] sin una razón.</li>
   </Captured.rulePack.rulesStrings>
-  <!-- EN: person captured -->
-  <Captured.label>persona capturada</Captured.label>
   
   <!-- EN: defeated hostile leader -->
   <DefeatedHostileFactionLeader.label>derrotó a un líder hostil</DefeatedHostileFactionLeader.label>
   
+  <!-- EN: surgery performed -->
+  <DidSurgery.label>cirugía realizada</DidSurgery.label>
   <!-- EN:
     <li>tale_noun->[SURGEON_nameDef] operating on [PATIENT_nameDef]</li>
     <li>tale_noun->[SURGEON_nameDef] performing a medical operation on [PATIENT_nameDef]</li>
@@ -87,9 +89,9 @@
     <li>desc_sentence->[SURGEON_nameDef] tiene sangre en su rostro.</li>
     <li>desc_sentence->[SURGEON_nameDef] tiembla y se sacude.</li>
   </DidSurgery.rulePack.rulesStrings>
-  <!-- EN: surgery performed -->
-  <DidSurgery.label>cirugía realizada</DidSurgery.label>
   
+  <!-- EN: prisoner executed -->
+  <ExecutedPrisoner.label>prisionero ejecutado</ExecutedPrisoner.label>
   <!-- EN:
     <li>tale_noun->[executioner] executing [PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef] being executed by [EXECUTIONER_nameDef]</li>
@@ -146,9 +148,9 @@
     <li>desc_sentence->[PRISONER_nameDef] ha cerrado sus ojos y se puesto a rezar.</li>
     <li>desc_sentence->[PRISONER_nameDef] parece desafiante.</li>
   </ExecutedPrisoner.rulePack.rulesStrings>
-  <!-- EN: prisoner executed -->
-  <ExecutedPrisoner.label>prisionero ejecutado</ExecutedPrisoner.label>
   
+  <!-- EN: animal hunted -->
+  <Hunted.label>Animal cazado</Hunted.label>
   <!-- EN:
     <li>tale_noun->[HUNTER_nameDef] hunting [PREY_nameDef]</li>
     <li>tale_noun->[PREY_nameDef] being hunted by [HUNTER_nameDef]</li>
@@ -177,9 +179,9 @@
     <li>desc_sentence->[HUNTER_nameDef] se aferra a su arma.</li>
     <li>desc_sentence->[PREY_nameDef] mira alrededor, como presintiendo el peligro.</li>
   </Hunted.rulePack.rulesStrings>
-  <!-- EN: animal hunted -->
-  <Hunted.label>Animal cazado</Hunted.label>
   
+  <!-- EN: colonist kidnapped -->
+  <KidnappedColonist.label>colono secuestrado</KidnappedColonist.label>
   <!-- EN:
     <li>tale_noun->[KIDNAPPER_nameDef] kidnapping [VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] being kidnapped by [KIDNAPPER_nameDef]</li>
@@ -222,9 +224,9 @@
     <li>desc_sentence->[VICTIM_nameDef] parece colapsado(a) y exhausto(a).</li>
     <li>desc_sentence->[VICTIM_nameDef] parece estar malherido(a).</li>
   </KidnappedColonist.rulePack.rulesStrings>
-  <!-- EN: colonist kidnapped -->
-  <KidnappedColonist.label>colono secuestrado</KidnappedColonist.label>
   
+  <!-- EN: death -->
+  <KilledBy.label>muerte</KilledBy.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] killing [VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] being killed by [KILLER_nameDef]</li>
@@ -281,8 +283,6 @@
     <li>desc_sentence->[KILLER_nameDef] parece complacido(a) con la situación.</li>
     <li>desc_sentence->[KILLER_nameDef] parece triunfante.</li>
   </KilledBy.rulePack.rulesStrings>
-  <!-- EN: death -->
-  <KilledBy.label>muerte</KilledBy.label>
   
   <!-- EN: colonist killed -->
   <KilledColonist.label>Colono asesinado</KilledColonist.label>
@@ -290,6 +290,8 @@
   <!-- EN: colony animal killed -->
   <KilledColonyAnimal.label>Animal muerto</KilledColonyAnimal.label>
   
+  <!-- EN: person recruited -->
+  <Recruited.label>persona reclutada</Recruited.label>
   <!-- EN:
     <li>tale_noun->[RECRUITER_nameDef] recruiting [JOINER_nameDef]</li>
     <li>tale_noun->[JOINER_nameDef] being recruited by [RECRUITER_nameDef]</li>
@@ -322,9 +324,9 @@
     <li>desc_sentence->[JOINER_nameDef] parece aliviado.</li>
     <li>desc_sentence->[JOINER_nameDef] parece feliz.</li>
   </Recruited.rulePack.rulesStrings>
-  <!-- EN: person recruited -->
-  <Recruited.label>persona reclutada</Recruited.label>
   
+  <!-- EN: prisoner sold -->
+  <SoldPrisoner.label>prisionero vendido</SoldPrisoner.label>
   <!-- EN:
     <li>tale_noun->the selling of [PRISONER_nameDef] to a trader</li>
     <li>tale_noun->[SELLER_nameDef] selling [PRISONER_nameDef] as a slave</li>
@@ -369,9 +371,9 @@
     <li>desc_sentence->[SELLER_nameDef] lleva a [PRISONER_nameDef] arrastrándolo(a) de las cadenas hacia [TRADER_nameDef].</li>
     <li>desc_sentence->Un aire de desesperación permea la situación.</li>
   </SoldPrisoner.rulePack.rulesStrings>
-  <!-- EN: prisoner sold -->
-  <SoldPrisoner.label>prisionero vendido</SoldPrisoner.label>
   
+  <!-- EN: animal tamed -->
+  <TamedAnimal.label>Animal domesticado</TamedAnimal.label>
   <!-- EN:
     <li>tale_noun->the taming of [ANIMAL_nameDef] by [TAMER_nameDef]</li>
     <li>tale_noun->[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
@@ -406,9 +408,9 @@
     <li>desc_sentence->[ANIMAL_nameDef] parece fascinado(a).</li>
     <li>desc_sentence->[TAMER_nameDef] proyecta mucho amor hacia [ANIMAL_nameDef].</li>
   </TamedAnimal.rulePack.rulesStrings>
-  <!-- EN: animal tamed -->
-  <TamedAnimal.label>Animal domesticado</TamedAnimal.label>
   
+  <!-- EN: traded with someone -->
+  <TradedWith.label>comercio</TradedWith.label>
   <!-- EN:
     <li>tale_noun->a trade between [SELLER_nameFull] and [BUYER_nameFull]</li>
     <li>image->[BUYER_nameFull] buying goods from [SELLER_nameFull] [circumstance_group]</li>
@@ -439,9 +441,9 @@
     <li>desc_sentence->[SELLER_nameDef] cuenta su dinero.</li>
     <li>desc_sentence->[BUYER_nameDef] acepta el precio.</li>
   </TradedWith.rulePack.rulesStrings>
-  <!-- EN: traded with someone -->
-  <TradedWith.label>comercio</TradedWith.label>
   
+  <!-- EN: animal trained -->
+  <TrainedAnimal.label>Animal entrenado</TrainedAnimal.label>
   <!-- EN:
     <li>tale_noun->[TRAINER_nameDef] training [ANIMAL_nameDef]</li>
     <li>tale_noun->the training of [ANIMAL_nameDef]</li>
@@ -510,7 +512,5 @@
     <li>desc_sentence->[TRAINER_nameDef] parece tener [quantity] brazos.</li>
     <li>desc_sentence->[TRAINER_nameDef] parece estarse convirtiendo en [ANIMAL_ShortDefinite].</li>
   </TrainedAnimal.rulePack.rulesStrings>
-  <!-- EN: animal trained -->
-  <TrainedAnimal.label>Animal entrenado</TrainedAnimal.label>
   
 </LanguageData>

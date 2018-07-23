@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: raw humanlike meat eaten -->
+  <AteRawHumanlikeMeat.label>Canibalismo</AteRawHumanlikeMeat.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s eating of human meat</li>
     <li>image->[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group]</li>
@@ -53,12 +55,12 @@
     <li>desc_sentence->La carne se ve increíblemente suculenta.</li>
     <li>desc_sentence->Pedazos de carne caen al suelo a su alrededor.</li>
   </AteRawHumanlikeMeat.rulePack.rulesStrings>
-  <!-- EN: raw humanlike meat eaten -->
-  <AteRawHumanlikeMeat.label>Canibalismo</AteRawHumanlikeMeat.label>
   
   <!-- EN: humanlike corpse butchered -->
   <ButcheredHumanlikeCorpse.label>Cadáver Humano Masacrado</ButcheredHumanlikeCorpse.label>
   
+  <!-- EN: art crafted -->
+  <CraftedArt.label>Creación de Arte</CraftedArt.label>
   <!-- EN:
     <li>tale_noun->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
     <li>image->[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
@@ -113,9 +115,9 @@
     <li>title_sentence->[THING_definite] tiene grabado(a) su nombre: [THING_title]</li>
     <li>title_sentence->El nombre de [THING_definite], [THING_title], cuelga en el fondo.</li>
   </CraftedArt.rulePack.rulesStrings>
-  <!-- EN: art crafted -->
-  <CraftedArt.label>Creación de Arte</CraftedArt.label>
   
+  <!-- EN: drunk -->
+  <Drunk.label>Borracho</Drunk.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s extreme drunkenness</li>
     <li>tale_noun->[PAWN_nameDef] getting extremely drunk</li>
@@ -180,9 +182,9 @@
     <li>desc_sentence->[PAWN_pronoun] parece haber perdido un zapato.</li>
     <li>desc_sentence->su cabello está todo alborotado.</li>
   </Drunk.rulePack.rulesStrings>
-  <!-- EN: drunk -->
-  <Drunk.label>Borracho</Drunk.label>
   
+  <!-- EN: research project finished -->
+  <FinishedResearchProject.label>Investigación Completada</FinishedResearchProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
     <li>image->[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group]</li>
@@ -211,9 +213,9 @@
     <li>desc_sentence->[PAWN_nameDef] está completamente rodeado(a) por herramientas y diversos aparatos.</li>
     <li>desc_sentence->[PAWN_nameDef] está observando su descubrimiento con placer.</li>
   </FinishedResearchProject.rulePack.rulesStrings>
-  <!-- EN: research project finished -->
-  <FinishedResearchProject.label>Investigación Completada</FinishedResearchProject.label>
   
+  <!-- EN: landed in pod -->
+  <LandedInPod.label>Aterrizaje en cápsula</LandedInPod.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s landing in a drop pod</li>
     <li>image->[PAWN_nameFull] landing in a drop pod [circumstance_group]</li>
@@ -260,9 +262,9 @@
     <li>desc_sentence->Hya un(a) [TerrainFeature] en el fondo.</li>
     <li>desc_sentence->Un [PersonJob] mira silenciosamente a la distancia.</li>
   </LandedInPod.rulePack.rulesStrings>
-  <!-- EN: landed in pod -->
-  <LandedInPod.label>Aterrizaje en cápsula</LandedInPod.label>
   
+  <!-- EN: berserk rage -->
+  <MentalStateBerserk.label>Berserker</MentalStateBerserk.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] going berserk</li>
     <li>image->[PAWN_nameFull] flying into a berserk rage [circumstance_group]</li>
@@ -313,9 +315,9 @@
     <li>desc_sentence->[PAWN_possessive] cara tiene una serenidad confusa.</li>
     <li>desc_sentence->Un sola lágrima cae por su rostro.</li>
   </MentalStateBerserk.rulePack.rulesStrings>
-  <!-- EN: berserk rage -->
-  <MentalStateBerserk.label>Berserker</MentalStateBerserk.label>
   
+  <!-- EN: gave up -->
+  <MentalStateGaveUp.label>Desesperación</MentalStateGaveUp.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] giving up in despair</li>
     <li>image->[PAWN_nameFull] finally giving up under stress [circumstance_group]</li>
@@ -358,9 +360,9 @@
     <li>desc_sentence->[PAWN_pronoun] parece haber perdido un zapato.</li>
     <li>desc_sentence->con el cabello completamente alborotado.</li>
   </MentalStateGaveUp.rulePack.rulesStrings>
-  <!-- EN: gave up -->
-  <MentalStateGaveUp.label>Desesperación</MentalStateGaveUp.label>
   
+  <!-- EN: struck mineable -->
+  <StruckMineable.label>Descubrimiento de Minerales</StruckMineable.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] striking [THING_label]</li>
     <li>image->[PAWN_nameFull] striking [THING_label] [circumstance_group]</li>
@@ -393,9 +395,9 @@
     <li>desc_sentence->[PAWN_nameDef] está muy sudado(a) de tanto trabajar.</li>
     <li>desc_sentence->[PAWN_nameDef] está muy sucio(a).</li>
   </StruckMineable.rulePack.rulesStrings>
-  <!-- EN: struck mineable -->
-  <StruckMineable.label>Descubrimiento de Minerales</StruckMineable.label>
   
+  <!-- EN: vomited -->
+  <Vomited.label>Vomitado</Vomited.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s vomiting</li>
     <li>image->[PAWN_nameFull] spewing vomit onto the ground [circumstance_group]</li>
@@ -434,9 +436,9 @@
     <li>desc_sentence->[PAWN_pronoun] está rodeado(a) de un halo artístico de mugre.</li>
     <li>desc_sentence->Un [Animal] observa desde la distancia.</li>
   </Vomited.rulePack.rulesStrings>
-  <!-- EN: vomited -->
-  <Vomited.label>Vomitado</Vomited.label>
   
+  <!-- EN: walked naked -->
+  <WalkedNaked.label>Desnudez</WalkedNaked.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] walking around naked</li>
     <li>image->[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group]</li>
@@ -487,9 +489,9 @@
     <li>desc_sentence->[PAWN_nameDef] parece completamente exaltado(a).</li>
     <li>desc_sentence->[PAWN_nameDef] está detras de un arbusto estratégicamente situado.</li>
   </WalkedNaked.rulePack.rulesStrings>
-  <!-- EN: walked naked -->
-  <WalkedNaked.label>Desnudez</WalkedNaked.label>
   
+  <!-- EN: on fire -->
+  <WasOnFire.label>En llamas</WasOnFire.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] catching fire</li>
     <li>image->[PAWN_nameFull] frantically beating out a fire attached to [PAWN_possessive] body [circumstance_group]</li>
@@ -530,7 +532,5 @@
     <li>desc_sentence->Una columna de humo sube hacia el cielo desde su cuerpo.</li>
     <li>desc_sentence->[PAWN_pronoun] ya casi se ve como un cadáver.</li>
   </WasOnFire.rulePack.rulesStrings>
-  <!-- EN: on fire -->
-  <WasOnFire.label>En llamas</WasOnFire.label>
   
 </LanguageData>

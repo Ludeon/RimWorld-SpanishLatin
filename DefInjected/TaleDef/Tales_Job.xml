@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: attended party -->
+  <AttendedParty.label>fiesta</AttendedParty.label>
   <!-- EN:
     <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s party</li>
     <li>tale_noun->[ATTENDER_nameDef] relaxing with [ORGANIZER_nameDef] at a party</li>
@@ -35,9 +37,9 @@
     <li>desc_sentence->El área está decorada con adornos de colores [Color] y [Color].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s juegan cerca.</li>
   </AttendedParty.rulePack.rulesStrings>
-  <!-- EN: attended party -->
-  <AttendedParty.label>fiesta</AttendedParty.label>
   
+  <!-- EN: built snowman -->
+  <BuiltSnowman.label>hombre de nieve</BuiltSnowman.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] building a snowman</li>
     <li>tale_noun->[PAWN_nameDef] playing in the snow</li>
@@ -70,9 +72,9 @@
     <li>desc_sentence->Un campo de [Vegetable]s apenas es visible a través de la nieve.</li>
     <li>desc_sentence->Un [TerrainFeature] cubierto de nieve se observa a lo lejos.</li>
   </BuiltSnowman.rulePack.rulesStrings>
-  <!-- EN: built snowman -->
-  <BuiltSnowman.label>hombre de nieve</BuiltSnowman.label>
   
+  <!-- EN: buried corpse -->
+  <BuriedCorpse.label>cuerpo enterrado</BuriedCorpse.label>
   <!-- EN:
     <li>tale_noun->[DIGGER_nameDef] burying [CORPSE_nameDef]</li>
     <li>tale_noun->[DIGGER_nameDef] laying [CORPSE_nameDef] to rest</li>
@@ -115,9 +117,9 @@
     <li>desc_sentence->La imagen fantasmagórica de [CORPSE_nameDef] está junto a [VISITOR_nameDef], con semblante [AdjectiveAngsty].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansan cerca de la escena.</li>
   </BuriedCorpse.rulePack.rulesStrings>
-  <!-- EN: buried corpse -->
-  <BuriedCorpse.label>cuerpo enterrado</BuriedCorpse.label>
   
+  <!-- EN: completed long construction project -->
+  <CompletedLongConstructionProject.label>proyecto de construcción completado</CompletedLongConstructionProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] assembling a complicated appartus inside a [OBJECT_label] [circumstance_group]</li>
@@ -152,9 +154,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s se maravillan con el/la [OBJECT_label].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observan con asombro.</li>
   </CompletedLongConstructionProject.rulePack.rulesStrings>
-  <!-- EN: completed long construction project -->
-  <CompletedLongConstructionProject.label>proyecto de construcción completado</CompletedLongConstructionProject.label>
   
+  <!-- EN: completed long crafting project -->
+  <CompletedLongCraftingProject.label>proyecto de manufactura terminado</CompletedLongCraftingProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] assembling a complicated appartus inside a [OBJECT_label] [circumstance_group]</li>
@@ -189,9 +191,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s se maravillan con el/la [OBJECT_label].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observan con asombro.</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
-  <!-- EN: completed long crafting project -->
-  <CompletedLongCraftingProject.label>proyecto de manufactura terminado</CompletedLongCraftingProject.label>
   
+  <!-- EN: entered cryptosleep -->
+  <EnteredCryptosleep.label>entrando al criptosueño</EnteredCryptosleep.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] entering cryptosleep</li>
     <li>image->[PAWN_nameFull] lying down inside a cryptosleep casket [circumstance_group]</li>
@@ -226,9 +228,9 @@
     <li>desc_sentence->Una aurora [Color] brilla en el fondo.</li>
     <li>desc_sentence->[Quantity_adjphrase] sarcófagos de criptosueño rodean la escena.</li>
   </EnteredCryptosleep.rulePack.rulesStrings>
-  <!-- EN: entered cryptosleep -->
-  <EnteredCryptosleep.label>entrando al criptosueño</EnteredCryptosleep.label>
   
+  <!-- EN: gained master skill -->
+  <GainedMasterSkillWithoutPassion.label>habilidad magistral</GainedMasterSkillWithoutPassion.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
     <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
@@ -265,9 +267,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s observan con asombro.</li>
     <li>desc_sentence->[Quantity_adjphrase] espíritus etéreos de antiguos maestros observan desde el cielo.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-  <!-- EN: gained master skill -->
-  <GainedMasterSkillWithoutPassion.label>habilidad magistral</GainedMasterSkillWithoutPassion.label>
   
+  <!-- EN: gained master skill with passion -->
+  <GainedMasterSkillWithPassion.label>habilidad magistral con pasión</GainedMasterSkillWithPassion.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
     <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
@@ -308,9 +310,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s observan con asombro.</li>
     <li>desc_sentence->[Quantity_adjphrase] espíritus etéreos de antiguos maestros observan desde el cielo.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
-  <!-- EN: gained master skill with passion -->
-  <GainedMasterSkillWithPassion.label>habilidad magistral con pasión</GainedMasterSkillWithPassion.label>
   
+  <!-- EN: increased menagerie -->
+  <IncreasedMenagerie.label>rebaño creciente</IncreasedMenagerie.label>
   <!-- EN:
     <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
     <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
@@ -349,9 +351,9 @@
     <li>desc_sentence->La escena tiene multitud de [Animal]s y [Animal]s.</li>
     <li>desc_sentence->Una fila de incontables [Animal]s esperan para ser domesticados por [HUMAN_nameDef].</li>
   </IncreasedMenagerie.rulePack.rulesStrings>
-  <!-- EN: increased menagerie -->
-  <IncreasedMenagerie.label>rebaño creciente</IncreasedMenagerie.label>
   
+  <!-- EN: meditated -->
+  <Meditated.label>meditación</Meditated.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] meditating</li>
     <li>image->[PAWN_nameFull] sitting under a [TreeType] tree, [circumstance_group]</li>
@@ -384,9 +386,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansan apaciblemente.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s están absortos por la escena.</li>
   </Meditated.rulePack.rulesStrings>
-  <!-- EN: meditated -->
-  <Meditated.label>meditación</Meditated.label>
   
+  <!-- EN: mined valuable -->
+  <MinedValuable.label>minerales valiosos</MinedValuable.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] mining a rich vein of [MATERIAL_label]</li>
     <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
@@ -425,9 +427,9 @@
     <li>desc_sentence->Un [TerrainFeature] se observa a la distancia.</li>
     <li>desc_sentence->[PAWN_nameDef] está sudado(a) y sucio(a) de tanto trabajar.</li>
   </MinedValuable.rulePack.rulesStrings>
-  <!-- EN: mined valuable -->
-  <MinedValuable.label>minerales valiosos</MinedValuable.label>
   
+  <!-- EN: played game -->
+  <PlayedGame.label>juego</PlayedGame.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] relaxing at a [OBJECT_label]</li>
     <li>tale_noun->[PAWN_nameDef] playing games at a [OBJECT_label]</li>
@@ -480,9 +482,9 @@
     <li>desc_sentence->[PAWN_nameDef] se impone sobre la escena.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s se ven derrotados.</li>
   </PlayedGame.rulePack.rulesStrings>
-  <!-- EN: played game -->
-  <PlayedGame.label>juego</PlayedGame.label>
   
+  <!-- EN: prayed -->
+  <Prayed.label>oraciones</Prayed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] praying</li>
     <li>tale_noun->[PAWN_nameDef] praying to a higher power</li>
@@ -517,9 +519,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansan apaciblemente.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s están absortos por la escena.</li>
   </Prayed.rulePack.rulesStrings>
-  <!-- EN: prayed -->
-  <Prayed.label>oraciones</Prayed.label>
   
+  <!-- EN: put into cryptosleep -->
+  <PutIntoCryptosleep.label>llevado a criptosueño</PutIntoCryptosleep.label>
   <!-- EN:
     <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
     <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
@@ -554,9 +556,9 @@
     <li>desc_sentence->[SLEEPER_nameDef] se ve exhausto(a).</li>
     <li>desc_sentence->[Quantity_adjphrase] sarcófagos de criptosueño rodean la escena.</li>
   </PutIntoCryptosleep.rulePack.rulesStrings>
-  <!-- EN: put into cryptosleep -->
-  <PutIntoCryptosleep.label>llevado a criptosueño</PutIntoCryptosleep.label>
   
+  <!-- EN: stripped -->
+  <Stripped.label>desnudado(a)</Stripped.label>
   <!-- EN:
     <li>tale_noun->[TAKER_nameDef] stripping [STRIPPED_nameDef]</li>
     <li>image->[TAKER_nameFull] disrobing [STRIPPED_nameFull] in public [circumstance_group]</li>
@@ -591,9 +593,9 @@
     <li>desc_sentence->[STRIPPED_nameDef] está manoseando un arbusto.</li>
     <li>desc_sentence->[STRIPPED_nameDef] tiene un semblante [AdjectiveAngsty].</li>
   </Stripped.rulePack.rulesStrings>
-  <!-- EN: stripped -->
-  <Stripped.label>desnudado(a)</Stripped.label>
   
+  <!-- EN: visited grave -->
+  <VisitedGrave.label>tumba visitada</VisitedGrave.label>
   <!-- EN:
     <li>tale_noun->[VISITOR_nameDef] visiting the grave of [CORPSE_nameDef]</li>
     <li>tale_noun->[VISITOR_nameDef] visiting [CORPSE_nameDef]'s grave</li>
@@ -634,7 +636,5 @@
     <li>desc_sentence->La imagen fantasmagórica de [CORPSE_nameDef] está junto a [VISITOR_nameDef], con semblante [AdjectiveAngsty].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansan cerca de la escena.</li>
   </VisitedGrave.rulePack.rulesStrings>
-  <!-- EN: visited grave -->
-  <VisitedGrave.label>tumba visitada</VisitedGrave.label>
   
 </LanguageData>

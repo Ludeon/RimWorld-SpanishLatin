@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: chitchat -->
+  <Chitchat.label>Charla</Chitchat.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
     <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef].</li>
@@ -35,9 +37,9 @@
     <li>commentedabout->comentó sobre</li>
     <li>commentedabout->contó un chiste sobre</li>
   </Chitchat.logRulesInitiator.rulesStrings>
-  <!-- EN: chitchat -->
-  <Chitchat.label>Charla</Chitchat.label>
   
+  <!-- EN: deep talk -->
+  <DeepTalk.label>Charla profunda</DeepTalk.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
@@ -68,9 +70,9 @@
     <li>talkedabout->hablaron acerca de</li>
     <li>subject->[TalkTopicHeavy]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
-  <!-- EN: deep talk -->
-  <DeepTalk.label>Charla profunda</DeepTalk.label>
   
+  <!-- EN: insult -->
+  <Insult.label>Insulto</Insult.label>
   <!-- EN:
     <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [PersonalCharacteristic].</li>
     <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
@@ -109,9 +111,9 @@
     <li>insultcomparison(p=2)->[Animal]</li>
     <li>insultcomparison->[Enemy]</li>
   </Insult.logRulesInitiator.rulesStrings>
-  <!-- EN: insult -->
-  <Insult.label>Insulto</Insult.label>
   
+  <!-- EN: kind words -->
+  <KindWords.label>Amabilidad</KindWords.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
     <li>complimented(p=3)->complimented</li>
@@ -144,9 +146,9 @@
     <li>complimented->expresó cosas buenas sobre</li>
     <li>complimented->dijo cosas buenas sobre</li>
   </KindWords.logRulesInitiator.rulesStrings>
-  <!-- EN: kind words -->
-  <KindWords.label>Amabilidad</KindWords.label>
   
+  <!-- EN: slight -->
+  <Slight.label>Ofensa</Slight.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
@@ -181,7 +183,5 @@
     <li>madefunof->hizo un comentario burlón</li>
     <li>madefunof->habló negativamente</li>
   </Slight.logRulesInitiator.rulesStrings>
-  <!-- EN: slight -->
-  <Slight.label>Ofensa</Slight.label>
   
 </LanguageData>

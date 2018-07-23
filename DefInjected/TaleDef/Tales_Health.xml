@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: downed -->
+  <Downed.label>inconsciente</Downed.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -75,9 +77,9 @@
     <li>desc_sentence->[KILLER_nameDef] se ve complacido(a) por la situación.</li>
     <li>desc_sentence->[KILLER_nameDef] se ve triunfante.</li>
   </Downed.rulePack.rulesStrings>
-  <!-- EN: downed -->
-  <Downed.label>inconsciente</Downed.label>
   
+  <!-- EN: exhausted -->
+  <Exhausted.label>agotamiento</Exhausted.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] collapsing from exhaustion</li>
     <li>image->[PAWN_nameFull] collapsing on the ground [circumstance_group]</li>
@@ -112,9 +114,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s yacen cerca en un estado similar.</li>
     <li>desc_sentence->La escena toma lugar dentro de un [Community] recientemente construido.</li>
   </Exhausted.rulePack.rulesStrings>
-  <!-- EN: exhausted -->
-  <Exhausted.label>agotamiento</Exhausted.label>
   
+  <!-- EN: gave birth -->
+  <GaveBirth.label>dando a luz</GaveBirth.label>
   <!-- EN:
     <li>tale_noun->[MOTHER_nameDef] giving birth to [CHILD_nameDef]</li>
     <li>image->[MOTHER_nameFull] giving birth to [circumstance_group]</li>
@@ -151,9 +153,9 @@
     <li>desc_sentence->Un [PersonJob] observa desde la distancia.</li>
     <li>desc_sentence->La escena toma lugar dentro de un [Community] recién construido.</li>
   </GaveBirth.rulePack.rulesStrings>
-  <!-- EN: gave birth -->
-  <GaveBirth.label>dando a luz</GaveBirth.label>
   
+  <!-- EN: heatstroke revealed -->
+  <HeatstrokeRevealed.label>insolación</HeatstrokeRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] getting heatstroke</li>
     <li>tale_noun->[PAWN_nameDef] overheating</li>
@@ -194,9 +196,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s inmóviles rodean la escena.</li>
     <li>desc_sentence->Hay [Quantity_adjphrase] [Animal]s agonizantes en el suelo.</li>
   </HeatstrokeRevealed.rulePack.rulesStrings>
-  <!-- EN: heatstroke revealed -->
-  <HeatstrokeRevealed.label>insolación</HeatstrokeRevealed.label>
   
+  <!-- EN: hypothermia revealed -->
+  <HypothermiaRevealed.label>hipotermia</HypothermiaRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] getting hypothermia</li>
     <li>tale_noun->[PAWN_nameDef] freezing to death</li>
@@ -237,9 +239,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s temblando rodean la escena.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s muriendo cubren el suelo.</li>
   </HypothermiaRevealed.rulePack.rulesStrings>
-  <!-- EN: hypothermia revealed -->
-  <HypothermiaRevealed.label>hipotermia</HypothermiaRevealed.label>
   
+  <!-- EN: illness revealed -->
+  <IllnessRevealed.label>enfermedad</IllnessRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] being stricken with [ILLNESS_label]</li>
     <li>image->[PAWN_nameFull] staggering through a field [circumstance_group]</li>
@@ -282,9 +284,9 @@
     <li>desc_sentence->La escena toma lugar dentro de un bosque de [TreeType]s.</li>
     <li>desc_sentence->Hay [Quantity_adjphrase] [Animal]s muriendo en el suelo.</li>
   </IllnessRevealed.rulePack.rulesStrings>
-  <!-- EN: illness revealed -->
-  <IllnessRevealed.label>enfermedad</IllnessRevealed.label>
   
+  <!-- EN: killed -->
+  <KilledCapacity.label>asesinado(a)</KilledCapacity.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -347,9 +349,9 @@
     <li>desc_sentence->[KILLER_nameDef] tiene una expresión salvaje.</li>
     <li>desc_sentence->[KILLER_nameDef] se ve [AdjectiveBadass].</li>
   </KilledCapacity.rulePack.rulesStrings>
-  <!-- EN: killed -->
-  <KilledCapacity.label>asesinado(a)</KilledCapacity.label>
   
+  <!-- EN: killed at distance -->
+  <KilledLongRange.label>asesinado(a) a distancia</KilledLongRange.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] at extreme distance</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] at extreme distance with a [WEAPON_label]</li>
@@ -420,9 +422,9 @@
     <li>desc_sentence->[KILLER_nameDef] se ve complacido(a) por la situación.</li>
     <li>desc_sentence->[KILLER_nameDef] se ve triunfante.</li>
   </KilledLongRange.rulePack.rulesStrings>
-  <!-- EN: killed at distance -->
-  <KilledLongRange.label>asesinado(a) a distancia</KilledLongRange.label>
   
+  <!-- EN: killed major threat -->
+  <KilledMajorThreat.label>amenaza mayor liquidada</KilledMajorThreat.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -499,9 +501,9 @@
     <li>desc_sentence->[KILLER_nameDef] se ve [AdjectiveBadass].</li>
     <li>desc_sentence->[KILLER_nameDef] brilla con un aura heroica.</li>
   </KilledMajorThreat.rulePack.rulesStrings>
-  <!-- EN: killed major threat -->
-  <KilledMajorThreat.label>amenaza mayor liquidada</KilledMajorThreat.label>
   
+  <!-- EN: killed in melee -->
+  <KilledMelee.label>asesinado(a) en combate cercano</KilledMelee.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in close combat</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in melee with a [WEAPON_label]</li>
@@ -578,9 +580,9 @@
     <li>desc_sentence->[KILLER_nameDef] se ve triunfante.</li>
     <li>desc_sentence->[KILLER_nameDef] tiene una expresión salvaje.</li>
   </KilledMelee.rulePack.rulesStrings>
-  <!-- EN: killed in melee -->
-  <KilledMelee.label>asesinado(a) en combate cercano</KilledMelee.label>
   
+  <!-- EN: killed with mortar -->
+  <KilledMortar.label>asesinado(a) con un mortero</KilledMortar.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a mortar</li>
     <li>tale_noun->[VICTIM_nameDef] being killed by [KILLER_nameDef]'s artillery</li>
@@ -625,9 +627,9 @@
     <li>desc_sentence->[KILLER_nameDef] se ve perturbado(a) por lo que está haciendo.</li>
     <li>desc_sentence->[KILLER_nameDef] se ve complacido(a) por la situación.</li>
   </KilledMortar.rulePack.rulesStrings>
-  <!-- EN: killed with mortar -->
-  <KilledMortar.label>asesinado(a) con un mortero</KilledMortar.label>
   
+  <!-- EN: toxicity revealed -->
+  <ToxicityRevealed.label>toxicidad</ToxicityRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s body becoming toxic</li>
     <li>tale_noun->[PAWN_nameDef] being poisoned by toxins</li>
@@ -672,9 +674,9 @@
     <li>desc_sentence->La escena toma lugar dentro de un bosque retorcido de [TreeType]s.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s agonizantes cubren el suelo.</li>
   </ToxicityRevealed.rulePack.rulesStrings>
-  <!-- EN: toxicity revealed -->
-  <ToxicityRevealed.label>toxicidad</ToxicityRevealed.label>
   
+  <!-- EN: wounded -->
+  <Wounded.label>herido(a)</Wounded.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -759,7 +761,5 @@
     <li>desc_sentence->[KILLER_nameDef] se ve complacido(a) por la situación.</li>
     <li>desc_sentence->[KILLER_nameDef] se ve triunfante.</li>
   </Wounded.rulePack.rulesStrings>
-  <!-- EN: wounded -->
-  <Wounded.label>herido(a)</Wounded.label>
   
 </LanguageData>

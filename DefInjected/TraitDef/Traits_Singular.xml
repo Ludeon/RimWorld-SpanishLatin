@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: abrasive -->
@@ -76,11 +76,6 @@
   <!-- EN: [PAWN_nameDef] needs a really impressive bedroom. [PAWN_pronoun] gets a mood loss if [PAWN_pronoun] doesn't get what [PAWN_pronoun] wants. -->
   <Greedy.degreeDatas.greedy.description>[PAWN_nameDef] necesita un dormitorio realmente impresionante. [PAWN_pronoun] tendrá una deducción al humor si no obtiene lo que quiere.</Greedy.degreeDatas.greedy.description>
   
-  <!-- EN: indoorsman -->
-  <Indoorsman.degreeDatas.indoorsman.label>tunelero</Indoorsman.degreeDatas.indoorsman.label>
-  <!-- EN: [PAWN_nameDef] has no need to experience the outdoors. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays inside. -->
-  <Indoorsman.degreeDatas.indoorsman.description>[PAWN_nameDef] no necesita tanto espacio. [PAWN_pronoun] nunca se sentirá encerrado o tendrá claustrofobia, no importa cuánto tiempo [PAWN_pronoun] permanece en interiores.</Indoorsman.degreeDatas.indoorsman.description>
-  
   <!-- EN: jealous -->
   <Jealous.degreeDatas.jealous.label>celoso</Jealous.degreeDatas.jealous.label>
   <!-- EN: For [PAWN_nameDef], it's degrading to have a less impressive bedroom than someone else. [PAWN_pronoun] gets a mood loss if any colonist has a more impressive bedroom. -->
@@ -140,6 +135,11 @@
   <Transhumanist.degreeDatas.transhumanist.label>transhumanista</Transhumanist.degreeDatas.transhumanist.label>
   <!-- EN: [PAWN_nameDef] feels limited in [PAWN_possessive] feeble human body. [PAWN_pronoun] often dreams of being enhanced by artificial body parts. -->
   <Transhumanist.degreeDatas.transhumanist.description>[PAWN_nameDef] se siente limitado en [PAWN_possessive] débil cuerpo humano. [PAWN_pronoun] a menudo sueña con ser realzado por partes artificiales del cuerpo.</Transhumanist.degreeDatas.transhumanist.description>
+  
+  <!-- EN: undergrounder -->
+  <Undergrounder.degreeDatas.undergrounder.label>tunelero</Undergrounder.degreeDatas.undergrounder.label>
+  <!-- EN: [PAWN_nameDef] has no need to experience the outdoors. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays inside. -->
+  <Undergrounder.degreeDatas.undergrounder.description>PAWN_nameDef] no necesita estar al aire libre. [PAWN_pronoun] nunca se sentirá encerrado ni tendrá claustrofobia, no importa cuánto tiempo se quede adentro.</Undergrounder.degreeDatas.undergrounder.description>
   
   <!-- EN: wimp -->
   <Wimp.degreeDatas.wimp.label>cobarde</Wimp.degreeDatas.wimp.label>

@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: collapse dodged -->
+  <CollapseDodged.label>Derrumbe Evitado</CollapseDodged.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] dodging a cave-in</li>
     <li>tale_noun->[PAWN_nameDef] nearly crushed by falling objects</li>
@@ -31,9 +33,9 @@
     <li>desc_sentence->[PAWN_pronoun] está rasguñado y sangrando.</li>
     <li>desc_sentence->[PAWN_pronoun] ha perdido [PAWN_possessive] contrapeso.</li>
   </CollapseDodged.rulePack.rulesStrings>
-  <!-- EN: collapse dodged -->
-  <CollapseDodged.label>Derrumbe Evitado</CollapseDodged.label>
   
+  <!-- EN: launched ship -->
+  <LaunchedShip.label>Nave Lanzada</LaunchedShip.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] escaping the planet</li>
     <li>tale_noun->[PAWN_nameDef] taking off in a spaceship</li>
@@ -80,9 +82,9 @@
     <li>desc_sentence->Hay una [TerrainFeature] en el fondo.</li>
     <li>desc_sentence->Un [PersonJob] mira silenciosamente desde lejos.</li>
   </LaunchedShip.rulePack.rulesStrings>
-  <!-- EN: launched ship -->
-  <LaunchedShip.label>Nave Lanzada</LaunchedShip.label>
   
+  <!-- EN: social fight -->
+  <SocialFight.label>Pelea Social</SocialFight.label>
   <!-- EN:
     <li>tale_noun->[INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
     <li>image->[INITIATOR_nameFull] insulting [RESPONDER_nameFull] [circumstance_group]</li>
@@ -149,7 +151,5 @@
     <li>target->[INITIATOR_nameDef]</li>
     <li>target->[RESPONDER_nameDef]</li>
   </SocialFight.rulePack.rulesStrings>
-  <!-- EN: social fight -->
-  <SocialFight.label>Pelea Social</SocialFight.label>
   
 </LanguageData>

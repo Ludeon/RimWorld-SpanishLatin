@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: animal chat -->
+  <AnimalChat.label>charla animal</AnimalChat.label>
   <!-- EN:
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>
@@ -9,7 +11,7 @@
     <li>tamed->made calming noises towards</li>
     <li>tamed->offered slow, friendly gestures to</li>
     <li>tamed->made shushing noises at</li>
-   <li>tamed->made happy clicking noises at</li>
+    <li>tamed->made happy clicking noises at</li>
     <li>tamed->gestured gently and approached</li>
     <li>tamed->slowly approached</li>
     <li>tamed->gently touched</li>
@@ -21,7 +23,7 @@
     <li>tamed->gently hummed a song at</li>
     <li>tamed->sang an old lullaby at</li>
     <li>tamed->firmly yet softly touched</li>
-   <li>tamed->showed a relaxed attitude towards</li>
+    <li>tamed->showed a relaxed attitude towards</li>
     <li>tamed->sat patiently near</li>
     <li>tamed->whispered a story about [TalkTopicAny] to</li>
   -->
@@ -49,9 +51,9 @@
     <li>tamed->se sentó pacientemente cerca de</li>
     <li>tamed->susurró una historia sobre [TalkTopicAny] a</li>
   </AnimalChat.logRulesInitiator.rulesStrings>
-  <!-- EN: animal chat -->
-  <AnimalChat.label>charla animal</AnimalChat.label>
   
+  <!-- EN: nuzzle -->
+  <Nuzzle.label>caricia</Nuzzle.label>
   <!-- EN:
     <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
@@ -81,7 +83,7 @@
   <Nuzzle.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzled] [nuzzleadverb] a [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] acarició [nuzzleadverb] con su nariz [rubbedpart] de [RECIPIENT_nameDef].</li>
-	<li>nuzzled(p=2)->acarició</li>
+    <li>nuzzled(p=2)->acarició</li>
     <li>nuzzled->se acurrucó</li>
     <li>nuzzleadverb(p=4)-></li>
     <li>nuzzleadverb->gentilmente</li>
@@ -104,9 +106,9 @@
     <li>rubbedpart->el costado</li>
     <li>rubbedpart->el brazo</li>
   </Nuzzle.logRulesInitiator.rulesStrings>
-  <!-- EN: nuzzle -->
-  <Nuzzle.label>caricia</Nuzzle.label>
   
+  <!-- EN: tame attempt -->
+  <TameAttempt.label>intento de doma</TameAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to tame [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] tried to bring [RECIPIENT_nameDef] under control.</li>
@@ -141,9 +143,9 @@
     <li>r_logentry->[INITIATOR_nameDef] apuntó hacia el suelo y demandó a [RECIPIENT_nameDef] que fuera.</li>
     <li>r_logentry->[INITIATOR_nameDef] dio una primera orden a [RECIPIENT_nameDef].</li>
   </TameAttempt.logRulesInitiator.rulesStrings>
-  <!-- EN: tame attempt -->
-  <TameAttempt.label>intento de doma</TameAttempt.label>
   
+  <!-- EN: train attempt -->
+  <TrainAttempt.label>intento de entrenamiento</TrainAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>
     <li>trained(p=2)->[tried] to train</li>
@@ -168,7 +170,5 @@
     <li>tried->intentó</li>
     <li>tried->trató de</li>
   </TrainAttempt.logRulesInitiator.rulesStrings>
-  <!-- EN: train attempt -->
-  <TrainAttempt.label>intento de entrenamiento</TrainAttempt.label>
   
 </LanguageData>
