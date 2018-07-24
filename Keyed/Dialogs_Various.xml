@@ -206,7 +206,7 @@
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>PELIGRO: Vas a aterrizar en un ambiente congelado. Podría ser muy difícil (sino que imposible) sobrevivir. Si no pretendes enfrentarte a un reto extremo, mejor escoge otro lugar o el mismo, pero en otra estación del año.</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>PELIGRO: El rendimiento podría verse afectado en mapas muy grandes. El tamaño Ludeonículo no se ha sometido a suficientes pruebas y es casi seguro que no va a correr bien.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>El juego está diseñado para jugar en mapas de tamaño mediano.\n\nEstos tamaños proporcionan mucho espacio! Los mapas de gran tamaño no sólo disminuyen el rendimiento, sino que también rompen el diseño del juego. La IA tomará decisiones estúpidas, y el equilibrio del juego se verá gravemente afectado de varias maneras. Estos tamaños se incluyen sólo por razones de tradición y pruebas, por favor no los use sin una razón específica.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>Tamaño del mapa</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -218,7 +218,7 @@
   <!-- EN: Large -->
   <MapSizeLarge>Grande</MapSizeLarge>
   <!-- EN: Extreme (test) -->
-  <MapSizeExtreme>Ludeonículo</MapSizeExtreme>
+  <MapSizeExtreme>Extremo(en prueba)</MapSizeExtreme>
   <!-- EN: Starting season -->
   <MapStartSeason>Estación inicial:</MapStartSeason>
   <!-- EN: Auto -->
@@ -230,7 +230,7 @@
   <!-- EN: Suspended -->
   <Suspended>Suspendido</Suspended>
   <!-- EN: Not suspended -->
-  <NotSuspended>Activo</NotSuspended>
+  <NotSuspended>No suspendido</NotSuspended>
   <!-- EN: SUSPENDED -->
   <SuspendedAllCaps>SUSPENDIDO</SuspendedAllCaps>
   <!-- EN: Repeat: -->
@@ -797,7 +797,7 @@
   <!-- EN: {0} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>{0} muy probablemente morirá.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {0} will take the following items with [PAWN_objective]: -->
-  <ConfirmBanishPawnDialog_Items>{0} al marcharse, tomará los siguientes artículos con él:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{0} al marcharse, tomará los siguientes artículos con [PAWN_objective]:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Todos los colonos tendrán los siguientes pensamientos:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {0} will cause the following people to get the following thoughts: -->
@@ -813,7 +813,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nAsegúrese de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto se hará - Agregar marcadores de posición para traducciones con clave que faltan, traducciones con inyección de desfase y retroalimentación\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todas las traducciones con clave y con inyección de desfase a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar nombres de definiciones compatibles con la retroalimentación\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerde reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrese de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tengo una copia de seguridad</ConfirmCleanupTranslationFiles_Confirm>
 
