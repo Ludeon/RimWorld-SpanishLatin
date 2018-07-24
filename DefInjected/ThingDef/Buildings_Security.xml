@@ -4,7 +4,7 @@
   <!-- EN: mortar -->
   <Artillery_Mortar.label>mortero</Artillery_Mortar.label>
   <!-- EN: Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged. -->
-  <Artillery_Mortar.description>Un mortero que lanza todo tipo de proyectiles. Debe estar tripulado. Explotan cuando están dañados.</Artillery_Mortar.description>
+  <Artillery_Mortar.description>Un mortero que lanza todo tipo de proyectiles. Muy inexacto, pero de largo alcance.</Artillery_Mortar.description>
   <!-- EN: mortar -->
   <Artillery_Mortar.verbs.Verb_Shoot.label>mortero</Artillery_Mortar.verbs.Verb_Shoot.label>
   
@@ -20,7 +20,7 @@
   <!-- EN: autocannon -->
   <Gun_AutocannonTurret.label>autocañon</Gun_AutocannonTurret.label>
   <!-- EN: A self-loading large-bore cannon designed to attach to a turret. -->
-  <Gun_AutocannonTurret.description>Cañón autocargador de gran calibre diseñado para acoplarse a una torreta.</Gun_AutocannonTurret.description>
+  <Gun_AutocannonTurret.description>Cañón automático de gran calibre diseñado para acoplarse a una torreta.</Gun_AutocannonTurret.description>
   <!-- EN: autocannon -->
   <Gun_AutocannonTurret.verbs.Verb_Shoot.label>autocañon</Gun_AutocannonTurret.verbs.Verb_Shoot.label>
   
@@ -34,44 +34,44 @@
   <!-- EN: sniper cannon -->
   <Gun_TurretSniper.label>cañon de francotirador</Gun_TurretSniper.label>
   <!-- EN: A self-loading sniper cannon designed to attach to a turret. Precise at range, it's not good at tracking close targets. -->
-  <Gun_TurretSniper.description>Un cañón de francotirador autocargador diseñado para acoplarse a una torreta.</Gun_TurretSniper.description>
+  <Gun_TurretSniper.description>Un cañón de francotirador automático diseñado para acoplarse a una torreta. Preciso a distancia, pero no es bueno para rastrear objetivos cercanos.</Gun_TurretSniper.description>
   <!-- EN: sniper cannon -->
   <Gun_TurretSniper.verbs.Verb_Shoot.label>torreta de francotirador</Gun_TurretSniper.verbs.Verb_Shoot.label>
   
   <!-- EN: sandbags -->
   <Sandbags.label>bolsas de arena</Sandbags.label>
   <!-- EN: Bags of locally-sourced dirt or sand held in place by steel rods. Sandbags are ugly, but provide excellent cover from ranged attacks. -->
-  <Sandbags.description>Ofrecen cobertura contra disparos.</Sandbags.description>
+  <Sandbags.description>Bolsas de suciedad o arena de la localidad mantenidas en su lugar por varillas de acero. Los sacos de arena son feos, pero proporcionan una excelente cobertura contra ataques a distancia.</Sandbags.description>
   
   <!-- EN: deadfall trap -->
   <TrapDeadfall.label>trampa de peso muerto</TrapDeadfall.label>
   <!-- EN: A collection of spikes under tension. When the victim disturbs the trigger, the spikes are released and spring forth, striking the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapDeadfall.description>Un peso con picos suspendido por un gatillo muy delicado. Cuando la víctima perturba el gatillo, el peso es liberado y cae sobre su cabeza o torso.</TrapDeadfall.description>
+  <TrapDeadfall.description>Una colección de puntas sometidas a tensión. Cuando la víctima perturba el gatillo, los pinchos se sueltan y saltan, golpeando a la víctima. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlos cuando están tranquilos.</TrapDeadfall.description>
   
   <!-- EN: IED antigrain warhead trap -->
   <TrapIED_AntigrainWarhead.label>mina de antimateria</TrapIED_AntigrainWarhead.label>
   <!-- EN: A high-tech antigraing warhead connected to a homemade trigger. When triggered, the antigrain warhead detonates, creating a massive antimatter explosion. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_AntigrainWarhead.description>Una pequeña cabeza de antimateria conectada a un gatillo casero. Crea una enorme explosión e inicia incendios alrededor de sí mismo cuando es perturbado.</TrapIED_AntigrainWarhead.description>
+  <TrapIED_AntigrainWarhead.description>Una ojiva anti-gravitación de alta tecnología conectada a un gatillo casero. Cuando se dispara, la ojiva anti-gravitación se detona, creando una explosión masiva de antimateria. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</TrapIED_AntigrainWarhead.description>
   
   <!-- EN: IED EMP trap -->
   <TrapIED_EMP.label>mina PEM</TrapIED_EMP.label>
   <!-- EN: A simple trap consisting of an EMP shell and a homemade trigger. The explosion can paralyze mechanoids for a few seconds. Can be triggered even by those who are unaffected by EMP explosions. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_EMP.description>Una simple trampa que consiste en un cartucho PEM y un gatillo casero. La explosión puede paralizar criaturas mecánicas durante unos segundos. Puede ser disparado incluso por aquellos que no son afectados por explosiones PEM.</TrapIED_EMP.description>
+  <TrapIED_EMP.description>Una simple trampa que consiste en un cartucho PEM y un gatillo casero. La explosión puede paralizar criaturas mecánicas durante unos segundos. Puede ser disparado incluso por aquellos que no son afectados por explosiones PEM. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</TrapIED_EMP.description>
   
   <!-- EN: IED firefoam trap -->
   <TrapIED_Firefoam.label>mina de espuma cortafuego</TrapIED_Firefoam.label>
   <!-- EN: When someone touches the trigger, the trap explodes and sprays a fire-extinguishing foam around itself. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_Firefoam.description>Cuando alguien toca el gatillo, la trampa explota y rocía una espuma extintora de fuego a su alrededor.</TrapIED_Firefoam.description>
+  <TrapIED_Firefoam.description>Cuando alguien toca el gatillo, la trampa explota y rocía una espuma extintora de fuego a su alrededor. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</TrapIED_Firefoam.description>
   
   <!-- EN: IED trap -->
   <TrapIED_HighExplosive.label>mina</TrapIED_HighExplosive.label>
   <!-- EN: A mortar shell connected to a trigger. When someone disturbs the trigger, the shell explodes. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_HighExplosive.description>Una bala de mortero conectada a un gatillo casero. Cuando alguien altera el gatillo, el proyectil explota. El disparador improvisado tiene un retardo aleatorio que puede permitir que un enemigo ágil escape.</TrapIED_HighExplosive.description>
+  <TrapIED_HighExplosive.description>Una bala de mortero conectada a un gatillo casero. Cuando alguien altera el gatillo, el proyectil explota. El disparador improvisado tiene un retardo aleatorio que puede permitir que un enemigo ágil escape. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</TrapIED_HighExplosive.description>
   
   <!-- EN: IED incendiary trap -->
   <TrapIED_Incendiary.label>mina incendiaria</TrapIED_Incendiary.label>
   <!-- EN: Explosives mixed into an incendiary paste with a chemical trigger for dispersal. Its chemical trigger is simple and reliable. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_Incendiary.description>Explosivos mezclados en una pasta incendiaria con un detonante químico para su dispersión. Su disparador químico es simple y confiable.</TrapIED_Incendiary.description>
+  <TrapIED_Incendiary.description>Explosivos mezclados en una pasta incendiaria con un detonante químico para su dispersión. Su disparador químico es simple y confiable. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</TrapIED_Incendiary.description>
   
   <!-- EN: autocannon turret -->
   <Turret_Autocannon.label>torreta autocañón</Turret_Autocannon.label>
@@ -98,7 +98,7 @@
   <!-- EN: mortar -->
   <Turret_Mortar.label>mortero</Turret_Mortar.label>
   <!-- EN: A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field. -->
-  <Turret_Mortar.description>Un mortero que lanza todo tipo de proyectiles. Debe estar tripulado. Explotan cuando están dañados.</Turret_Mortar.description>
+  <Turret_Mortar.description>Un mortero que lanza todo tipo de proyectiles. Aunque puede causar daños devastadores, la inexactitud inherente del mortero lo hace más útil para atacar grandes fortificaciones que grupos de enemigos en el campo.</Turret_Mortar.description>
   
   <!-- EN: sniper turret -->
   <Turret_Sniper.label>Torreta francotirador</Turret_Sniper.label>
