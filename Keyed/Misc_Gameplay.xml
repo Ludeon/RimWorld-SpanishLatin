@@ -262,12 +262,12 @@
   <WornBy>Usado por {0}</WornBy>
   <!-- EN: equipped by {0} -->
   <EquippedBy>Equipado por {0}</EquippedBy>
-  <!-- EN: {0} wants this destroyed.\n    Reward: {1}. -->
-  <QuestTargetDestroyInspectString>{0} quiere que esto sea destruido.\n Recompensa: {1}.</QuestTargetDestroyInspectString>
+  <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
+  <QuestTargetDestroyInspectString>{0} quiere que esto sea destruido.\n Recompensa: {1} ({2}).</QuestTargetDestroyInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Tiempo restante: {0}</WorldObjectTimeout>
-  <!-- EN: Contents: {0} -->
-  <ItemStashContents>Contenidos: {0}.</ItemStashContents>
+  <!-- EN: Contents: {0} ({1}) -->
+  <ItemStashContents>Contenidos: {0} ({1}).</ItemStashContents>
   <!-- EN: Click to sort by this column. -->
   <ClickToSortByThisColumn>Clic para ordenar por esta columna.</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
@@ -608,7 +608,7 @@
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>Sin energía.</PowerNotConnected>
-  <!-- EN: Grid usage/stored: {0} W / {1} Wd -->
+  <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
   <PowerConnectedRateStored>Energía sobrante/almacenada: {0} W / {1} Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>Energía necesaria</PowerNeeded>
