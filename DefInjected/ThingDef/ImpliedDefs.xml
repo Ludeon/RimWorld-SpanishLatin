@@ -550,9 +550,6 @@
   <!-- EN: cápsula de transporte (anteproyecto) -->
   <Blueprint_TransportPod.label>cápsula de transporte (anteproyecto)</Blueprint_TransportPod.label>
   
-  <!-- EN: trampa de peso muerto (anteproyecto) -->
-  <Blueprint_TrapDeadfall.label>trampa de peso muerto (anteproyecto)</Blueprint_TrapDeadfall.label>
-  
   <!-- EN: mina de antimateria (anteproyecto) -->
   <Blueprint_TrapIED_AntigrainWarhead.label>mina de antimateria (anteproyecto)</Blueprint_TrapIED_AntigrainWarhead.label>
   
@@ -581,7 +578,7 @@
   <Blueprint_Turret_Mortar.label>mortero (anteproyecto)</Blueprint_Turret_Mortar.label>
   
   <!-- EN: Torreta francotirador (anteproyecto) -->
-  <Blueprint_Turret_Sniper.label>torreta de francotirador (anteproyecto)</Blueprint_Turret_Sniper.label>
+  <Blueprint_Turret_Sniper.label>cañón de uranio (anteproyecto)</Blueprint_Turret_Sniper.label>
   
   <!-- EN: conducto de ventilación (anteproyecto) -->
   <Blueprint_Vent.label>conducto de ventilación (anteproyecto)</Blueprint_Vent.label>
@@ -1472,14 +1469,9 @@
   <!-- EN: Una cápsula de transporte sub-orbital capaz de transportar personas, animales y objetos. Puede ser usada para transporte, ataques sorpresa o para enviar refuerzos a una batalla. -->
   <Frame_TransportPod.description>Una cápsula de transporte sub-orbital capaz de transportar personas, animales y objetos. Puede ser usada para transporte, ataques sorpresa o para enviar refuerzos a una batalla.</Frame_TransportPod.description>
   
-  <!-- EN: trampa de peso muerto(en construcción) -->
-  <Frame_TrapDeadfall.label>Trampa de Peso Muerto (a medias)</Frame_TrapDeadfall.label>
-  <!-- EN: Una colección de puntas sometidas a tensión. Cuando la víctima perturba el gatillo, los pinchos se sueltan y saltan, golpeando a la víctima. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlos cuando están tranquilos. -->
-  <Frame_TrapDeadfall.description>Un peso con picos suspendido por un gatillo muy delicado. Cuando la víctima perturba el gatillo, el peso es liberado y cae sobre su cabeza o torso.</Frame_TrapDeadfall.description>
-  
   <!-- EN: mina de antimateria(en construcción) -->
   <Frame_TrapIED_AntigrainWarhead.label>Mina de AntiMateria (a medias)</Frame_TrapIED_AntigrainWarhead.label>
-  <!-- EN: Una ojiva anti-gravitación de alta tecnología conectada a un gatillo casero. Cuando se dispara, la ojiva anti-gravitación se detona, creando una explosión masiva de antimateria. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos. -->
+  <!-- EN: Una ojiva de antimateria de alta tecnología conectada a un gatillo casero. Cuando se dispara, la ojiva de antimateria se detona, creando una explosión masiva. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos. -->
   <Frame_TrapIED_AntigrainWarhead.description>Una pequeña cabeza de antimateria conectada a un gatillo casero. Crea una enorme explosión e inicia incendios alrededor de sí mismo cuando es perturbado.</Frame_TrapIED_AntigrainWarhead.description>
   
   <!-- EN: mina PEM(en construcción) -->
@@ -1523,9 +1515,9 @@
   <Frame_Turret_Mortar.description>Un mortero que lanza todo tipo de proyectiles. Aunque puede causar daños devastadores, la inexactitud inherente del mortero lo hace más útil para atacar grandes fortificaciones que grupos de enemigos en el campo.</Frame_Turret_Mortar.description>
   
   <!-- EN: Torreta francotirador(en construcción) -->
-  <Frame_Turret_Sniper.label>Torreta de Francotirador (a medias)</Frame_Turret_Sniper.label>
+  <Frame_Turret_Sniper.label>Cañón de uranio (a medias)</Frame_Turret_Sniper.label>
   <!-- EN: Una torreta francotirador automática de muy largo alcance. Sus proyectiles de alta velocidad causan grandes daños en distancias muy largas, pero requiere cambios de barril frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado. -->
-  <Frame_Turret_Sniper.description>Una torreta de francotirador automática de muy largo alcance. Sus proyectiles de alta velocidad causan grandes daños en distancias muy largas, pero requiere cambios de barril frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado.</Frame_Turret_Sniper.description>
+  <Frame_Turret_Sniper.description>Un cañón de uranio automático de muy largo alcance. Sus proyectiles de alta velocidad causan grandes daños en distancias muy largas, pero requiere cambios de barril frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado.</Frame_Turret_Sniper.description>
   
   <!-- EN: conducto de ventilación(en construcción) -->
   <Frame_Vent.label>Conducto de Ventilación (a medias)</Frame_Vent.label>
@@ -1544,7 +1536,7 @@
   
   <!-- EN: molino de agua(en construcción) -->
   <Frame_WatermillGenerator.label>Molino de Agua (a medias)</Frame_WatermillGenerator.label>
-  <!-- EN: Produce electricidad a partir de la corriente del río. Debe colocarse con su rueda sobre agua en movimiento. -->
+  <!-- EN: Produce electricidad a partir de la corriente de un río. Debe colocarse con la rueda en agua corriente. Si los molinos de agua se colocan demasiado cerca, la turbulencia que generan interferirá y reducirá la generación de energía. -->
   <Frame_WatermillGenerator.description>Produce electricidad a partir de la corriente del río. Debe colocarse con su rueda sobre agua en movimiento.</Frame_WatermillGenerator.description>
   
   <!-- EN: conducto impermeable(en construcción) -->
