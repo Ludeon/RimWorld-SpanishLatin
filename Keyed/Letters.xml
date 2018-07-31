@@ -23,7 +23,7 @@
   <LetterRelationsChange_Ally>Las relaciones con {0} se han vuelto muy íntimas. Ahora te consideran un aliado.\n\nLos aliados a veces llegan para ayudar a luchar contra tus enemigos cuando estás bajo ataque. También puede llamarlos para pedirles ayuda en cualquier momento, a un costo de buena voluntad.\n\nSe han convertido en aliados porque su buena voluntad ({1}) se ha levantado en el pasado {2}. Si la buena voluntad cae por debajo de {3}, las relaciones volverán a ser neutrales.</LetterRelationsChange_Ally>
 
   <!-- EN: goodwill -->
-  <goodwill>Buena Voluntad</goodwill>
+  <goodwill>Buena voluntad</goodwill>
   <!-- EN: Neutral -->
   <Neutral>Neutral</Neutral>
   <!-- EN: Death -->
@@ -49,9 +49,9 @@
   <LetterLabelRoofCollapsed>Techo colapsado</LetterLabelRoofCollapsed>
   
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
-  <RecruitSuccess>{0} ha reclutado con éxito a {1} (chance del {2}).</RecruitSuccess>
+  <RecruitSuccess>{0} ha reclutado con éxito a {1} (probabilidad del {2}).</RecruitSuccess>
   <!-- EN: {0} failed to recruit {1} ({2} chance). -->
-  <RecruitFail>{0} no ha podido reclutar a {1} (chance del {2}).</RecruitFail>
+  <RecruitFail>{0} no ha podido reclutar a {1} (probabilidad del {2}).</RecruitFail>
 
   <!-- EN: [PAWN_nameDef] is {0}'s {1}. If [PAWN_nameDef] dies, {0} will suffer from long-lasting grief. However, if you manage to rescue [PAWN_nameDef], {0} will be very happy for a long time. -->
   <RelatedPawnInvolvedInQuest>[PAWN_nameDef] es {1} de {0}. Si [PAWN_nameDef] muere, {0} sufrirá un largo y duradero dolor por la pérdida. Sin embargo, si consigues rescatar a [PAWN_nameDef], {0} gozará de una gran alegría que se mantendra por mucho tiempo.</RelatedPawnInvolvedInQuest>
@@ -92,9 +92,9 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} vengativo</LetterLabelAnimalManhunterRevenge>
   <!-- EN: [PAWN_indefinite] is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>¡Un(a) {0} se ha enfurecido luego de ser herido(a)!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>¡[PAWN_indefinite] se ha enfurecido luego de ser herido(a)!\n\nCazará cualquier humanoide que pueda encontrar. Se calmará cuando se vaya a dormir.</AnimalManhunterFromDamage>
   <!-- EN: [PAWN_indefinite] is attacking due to a botched taming attempt! -->
-  <AnimalManhunterFromTaming>¡Un(a) {0} se ha enfurecido luego de intentar ser domesticado(a)!</AnimalManhunterFromTaming>
+  <AnimalManhunterFromTaming>¡[PAWN_indefinite] está atacando debido a un intento fallido de domesticación!</AnimalManhunterFromTaming>
   <!-- EN: Other {0} nearby have also become enraged! -->
   <AnimalManhunterOthers>¡Los {0}s cercanos también se han enfurecido!</AnimalManhunterOthers>
 
@@ -104,19 +104,19 @@
   <LetterFriendlyTrapSprung>{0} ha caído accidentalmente en una trampa y ha sido herido(a).</LetterFriendlyTrapSprung>
 
   <!-- EN: {0} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>{0} ha desarrollado {1} al complicársele su {2}.</LetterHealthComplications>
+  <LetterHealthComplications>{0} ha desarrollado:\n\n  {1}\n\nEsto fue causado por:\n\n  {2}.</LetterHealthComplications>
   <!-- EN: {0}: {1} -->
   <LetterHealthComplicationsLabel>{0} sufre {1}</LetterHealthComplicationsLabel>
   
   <!-- EN: {0} has developed a health condition: {1}. -->
   <LetterHediffFromRandomHediffGiver>{0} ha desarrollado una condición médica: {1}.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {0}: {1} -->
-  <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
+  <LetterHediffFromRandomHediffGiverLabel>{0}: {1}</LetterHediffFromRandomHediffGiverLabel>
   
   <!-- EN: {1} died: {0} -->
-  <LetterLeadersDeathLabel>Muerte del líder</LetterLeadersDeathLabel>
+  <LetterLeadersDeathLabel>{1} murió: {0}</LetterLeadersDeathLabel>
   <!-- EN: {0}, {3} of {1}, has died.\n\nThe new {3} is {2}. -->
-  <LetterLeadersDeath>{0}, el líder de {1}, ha muerto y ha sido reemplazado(a) por {2}.</LetterLeadersDeath>
+  <LetterLeadersDeath>{0}, el líder de {1}, ha muerto\n\nEl nuevo {3} es {2}.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
   <LetterLeaderChangedLabel>Nuevo líder {1}: {0}</LetterLeaderChangedLabel>
@@ -202,7 +202,7 @@
   
   <!-- Bonded animals -->
   <!-- EN: bonded animal -->
-  <LetterLabelSuffixBondedAnimalDied>Animal Vinculado</LetterLabelSuffixBondedAnimalDied>
+  <LetterLabelSuffixBondedAnimalDied>animal vinculado</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {0} was bonded to {1}. It will affect {1}'s mood. -->
   <LetterPartBondedAnimalDied>{0} estaba vinculado a {1}. Afectará el estado de ánimo de {1}.</LetterPartBondedAnimalDied>
   <!-- EN: It will affect mood of the following people:\n\n{0} -->
@@ -230,19 +230,19 @@
   <!-- EN: {0} binge -->
   <LetterLabelDrugBinge>Borrachera de {0}</LetterLabelDrugBinge>
   <!-- EN: {0} is binging on {1}. -->
-  <LetterDrugBinge>{0} está teniendo un atracon de {1}.</LetterDrugBinge>
+  <LetterDrugBinge>{0} está teniendo una borrachera de {1}.</LetterDrugBinge>
   
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Caravana destruida</LetterLabelAllCaravanColonistsDied>
   <!-- EN: All members of {0} have died. -->
-  <LetterAllCaravanColonistsDied>Todos los miembros de tu caravana han muerto.</LetterAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Todos los miembros de {0} han muerto.</LetterAllCaravanColonistsDied>
   
   <!-- Caravan entered ambush map -->
   <!-- EN: Caravan arrived at ambush -->
   <LetterLabelCaravanEnteredAmbushMap>La caravana ha caído en una emboscada</LetterLabelCaravanEnteredAmbushMap>
   <!-- EN: {0} has arrived at the ambush site. -->
-  <LetterCaravanEnteredAmbushMap>{0} ha caído en una emboscada.</LetterCaravanEnteredAmbushMap>
+  <LetterCaravanEnteredAmbushMap>{0} ha llegado al lugar de la emboscada.</LetterCaravanEnteredAmbushMap>
   
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
@@ -260,7 +260,7 @@
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>Asentamiento destruido</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy base {0} has been destroyed.\n\nIn {1}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the destroyed base and choosing the "Reform caravan" option. -->
-  <LetterFactionBaseDefeated>El asentamiento enemigo de {0} ha sido destruido.\n\nTienes {1} hora(s) para recoger objetos antes de que tus colonos reformen la caravana.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>El asentamiento enemigo de {0} ha sido destruido.\n\nEn {1}, la caravana se reformará automáticamente. Puedes reformar la caravana ahora en la pantalla Mundo seleccionando la base destruida y eligiendo la opción "Reformar caravana".</LetterFactionBaseDefeated>
   <!-- EN: This was the last base of {0}, which means this faction doesn't exist anymore. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Esta fue la última base de {0}, lo que significa que la facción ya no existirá.</LetterFactionBaseDefeated_FactionDestroyed>
   
@@ -272,9 +272,9 @@
 
   <!-- Found lump of precious resources -->
   <!-- EN: Precious minerals found -->
-  <LetterLabelFoundPreciousLump>Minerales encontrados</LetterLabelFoundPreciousLump>
+  <LetterLabelFoundPreciousLump>Minerales preciosos encontrados</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {3} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Su escáner de minerales de largo alcance ha encontrado cerca un montón de recursos valiosos.\n\nNo sabemos quién o qué -si acaso- podría estar vigilándolo.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Usando su escáner de minerales de largo alcance, {3} ha encontrado cerca un cúmulo de {0}.\n\nDesafortunadamente, no durará - otros lo explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}</LetterFoundPreciousLump>
   
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -307,12 +307,12 @@
   <PeaceTalksSocialXPGain>{0}, su negociador, ha ganado {1} de experiencia social</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <!-- EN: {0} is fed up with civilization.\n\n[PAWN_pronoun] realized that wild creatures are always free. So, [PAWN_pronoun] has decided to leave your faction and live with the animals.\n\nYou can attempt to tame [PAWN_objective] to get [PAWN_objective] back. -->
-  <LetterRunWildMentalBreak>{0} ha decidido dejar tu facción y vivir con los animales.</LetterRunWildMentalBreak>
+  <!-- EN: {0} is fed up with civilization.\n\n[PAWN_pronoun] realized that wild creatures are always free. So, [PAWN_pronoun] has decided to leave your faction and live with the animals.\n\nYou can attempt to tame [PAWN_objective] to ge7t.0t [PAWN_objective] back. -->
+  <LetterRunWildMentalBreak>{0} está harto de la civilización.\n\n[PAWN_pronoun] se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, [PAWN_pronoun] ha decidido dejar su facción y vivir con los animales.\n\nPuedes intentar domar[PAWN_objetivo] para recuperar[PAWN_objetivo]. </LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. [PAWN_pronoun] will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0} tiene un colapso catatónico que durará varios días.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0} tiene un colapso catatónico que durará varios días. [PAWN_pronoun] se recuperará en varios días.</LetterCatatonicMentalBreak>
 
   <!-- EN: AI Core Offer -->
   <LetterLabelAICoreOffer>Oferta de IA</LetterLabelAICoreOffer>
@@ -362,13 +362,13 @@
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
-  <LetterLabelRescueQuestFinished>El rescatado se une</LetterLabelRescueQuestFinished>
+  <LetterLabelRescueQuestFinished>Rescatado(a) se une</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued [PAWN_nameDef] and [PAWN_pronoun] has joined your group.\n\nYou can take [PAWN_objective] with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
   <LetterRescueQuestFinished>Has rescatado a [PAWN_nameDef] y [PAWN_pronoun] se ha unido a tu grupo.\n\nUsted puede tomar [PAWN_objective] reformando la caravana en la pantalla Mundo seleccionando esta zona y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinished>
 
   <!-- Player entered site (generic label) -->
   <!-- EN: Arrived at site -->
-  <LetterLabelPlayerEnteredNewSiteGeneric>Llegada al sitio</LetterLabelPlayerEnteredNewSiteGeneric>
+  <LetterLabelPlayerEnteredNewSiteGeneric>Llegó al sitio</LetterLabelPlayerEnteredNewSiteGeneric>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {0} hunting {1} -->

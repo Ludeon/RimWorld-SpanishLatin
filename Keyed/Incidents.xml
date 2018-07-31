@@ -31,7 +31,7 @@
   <!-- EN: Escape pod -->
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
-  <RefugeePodCrash>Un [PAWN_title] llamado [PAWN_nameDef] se estrelló en un módulo de escape cercano. Si [PAWN_pronoun] sobrevive al impacto, [PAWN_pronoun] resultará gravemente herido(a).\n\nDependiendo de la facción de [PAWN_nameDef], podrás rescatar [PAWN_objective] y esperar que [PAWN_pronoun] se una libremente, o capturar [PAWN_objective] con fines de reclutamiento o esclavitud.</RefugeePodCrash>
+  <RefugeePodCrash>Un [PAWN_title] llamado [PAWN_nameDef] se está estrellando en las cercanías en una cápsula de escape. Si [PAWN_pronoun] sobrevive al impacto, resultará gravemente herido(a).</RefugeePodCrash>
   <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>[PAWN_nameDef] no está afiliado(a) a ninguna facción. Puede rescatar [PAWN_objective] y esperar que [PAWN_pronoun] se una libremente, o capturar [PAWN_objective] para fines de reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
   <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
@@ -42,7 +42,7 @@
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
   <!-- EN: You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage. -->
-  <CargoPodCrash>Hemos detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nSi cualquier persona ha sobrevivido al impacto, estara gravemente herido.\n\nPodras rescatarlos y enviarles por su camino. Ó capturarlos con fines de reclutamiento o esclavitud.</CargoPodCrash>
+  <CargoPodCrash>Hemos detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nSi cualquier persona ha sobrevivido al impacto, estara gravemente herido(a).\n\nPodras rescatarlos y enviarles por su camino. Ó capturarlos con fines de reclutamiento o esclavitud.</CargoPodCrash>
 
   <!-- EN: an electrical conduit -->
   <AnElectricalConduit>Un cortocircuito eléctrico</AnElectricalConduit>
@@ -107,7 +107,7 @@
   <!-- EN: Agent -->
   <LetterLabelAgentRevealed>Agente</LetterLabelAgentRevealed>
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
-  <LetterAgentRevealed>{0} ha sido descubierto como un agente de vuestro enemigo {1}.\n\nIntentan escapar.</LetterAgentRevealed>
+  <LetterAgentRevealed>{0} ha sido descubierto como un agente de tu enemigo {1}.\n\nEstan intentando escapar.</LetterAgentRevealed>
 
   <!-- Distant psychic drone -->
   <!-- EN: Psychic drone -->
@@ -128,7 +128,7 @@
   
   <!-- Refugee chased -->
   <!-- EN: Refugee chased at {0} -->
-  <RefugeeChasedTitle>Refugiado perseguido por {0}</RefugeeChasedTitle>
+  <RefugeeChasedTitle>Refugiado perseguido(a) por {0}</RefugeeChasedTitle>
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
   <RefugeeChasedInitial>Un [PAWN_title] llamado [PAWN_nameDef] le llama desde la cercanía. [PAWN_pronoun] esta siendo perseguido(a) por {2} de {3}\n\n[PAWN_pronoun] ruega por seguridad y se ofrece a unirse a su colonia. [PAWN_pronoun] le dice que biologicamente tiene {4} años, pero no hay tiempo para obtener más información.\n\nEsté alerta, si usted acepta, tendrá que luchar contra los {2} que len van pisando los talones. Su grupo está compuesto por:\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
@@ -184,11 +184,11 @@
   
   <!-- Journey-related -->
   <!-- EN: A friendly AI from your past named Charlon Whitestone has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars. -->
-  <JourneyOffer>¡Una amigable IA de tu pasado llamada Charlon Whitestone te ha enviado un mensaje!\n\nTe revela que tiene una nave estelar escondida en este planeta, y te envía las coordenadas.\n\nSi viajas hasta la nave, Charlon te llevará fuera de este mundo fronterizo, a las estrellas.</JourneyOffer>
+  <JourneyOffer>Una IA amistosa de tu pasado llamada Charlon Whitestone te ha enviado un mensaje!\n\nRevela que tiene una nave estelar escondida en este planeta, y les envía las coordenadas de su mundo.\n\nLa nave está en modo de hibernación profunda. Tendrás que hacerla arrancar cuando llegues, y luego defenderla de los invasores que intenten robarla hasta que la secuencia de arranque se complete.\n\nSi consigues que la nave despegue, Charlon te sacará de este mundo, hacia las estrellas.</JourneyOffer>
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Has alcanzado las coordenadas enviadas por Charlon Whitestone y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\nCharlon Whitestone te advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas esten preparadas primero.</EscapeShipFound>
+  <EscapeShipFound>Has alcanzado las coordenadas enviadas por Charlon Whitestone y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\nCharlon Whitestone te advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros.\n\nAsegúrate de que tus defensas esten preparadas primero.</EscapeShipFound>
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
   <!-- EN: Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
@@ -230,9 +230,9 @@
 
   <!-- Site no longer hostile -->
   <!-- EN: Quest no longer available -->
-  <LetterLabelSiteNoLongerHostile>Misión ya no disponible</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostile>Misión no disponible</LetterLabelSiteNoLongerHostile>
   <!-- EN: Quests no longer available -->
-  <LetterLabelSiteNoLongerHostileMulti>Misión ya no disponible</LetterLabelSiteNoLongerHostileMulti>
+  <LetterLabelSiteNoLongerHostileMulti>Misión no disponible</LetterLabelSiteNoLongerHostileMulti>
   <!-- EN: Because you are no longer hostile with {0}, the {1} site is no longer available. -->
   <LetterSiteNoLongerHostile>Porque ya no eres hostil con {0}, el {1} ya no está disponible.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->

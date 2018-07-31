@@ -57,18 +57,18 @@
   <MessageOutOfNearbyShellsFor>{0} no ha encontrado ningún obús sin reservar para el {1}.</MessageOutOfNearbyShellsFor>
 
   <!-- EN: Warning: {0} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
-  <MessageAnimalsGoPsychoHunted>Peligro: {0} tiene {1} posibilidad de atacar cuando es herido desde el campo de tiro. La probabilidad es mayor si se está más cerca, y menor con un buen escondite de cazador.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Peligro: {0} tiene {1} de posibilidad de atacar cuando es herido desde el campo de tiro. La probabilidad es mayor si se está más cerca, y menor con un buen escondite de cazador.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {0} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Peligro: Los {0} podrían atacar si el intento de domesticación falla (chance del {1}).</MessageAnimalManhuntsOnTameFailed>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nuevo recluta</LetterLabelMessageRecruitSuccess>
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
-  <MessageRecruitSuccess>{0} ha reclutado con éxito a {1} (chance del {2}).</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{0} ha reclutado con éxito a {1} (probabilidad del {2}).</MessageRecruitSuccess>
   <!-- EN: {0} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{0} ha domesticado con éxito un(a) {1} (chance del {2}).</MessageTameSuccess>
+  <MessageTameSuccess>{0} ha domesticado con éxito un(a) {1} (probabilidad del {2}).</MessageTameSuccess>
   <!-- EN: {0} successfully tamed {1} ({2} chance) and named [PAWN_objective] {3}. -->
-  <MessageTameAndNameSuccess>{0} ha domesticado con éxito un(a) {1} (chance del {2}) y le ha nombrado {3}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{0} ha domesticado con éxito un(a) {1} (probabilidad del {2}) y le ha nombrado {3}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>La colonia no puede costear ésto.</MessageColonyCannotAfford>
@@ -122,7 +122,7 @@
   <MessageTooLowMedCare>La operación requiere un nivel de medicina de {0} o mejor, pero {1} solo llega al "{2}".</MessageTooLowMedCare>
   
   <!-- EN: {0} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{0} a muerto de {1}.</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{0} a muerto. Causa: {1}.</PawnDiedBecauseOf>
   <!-- EN: {0} has died. -->
   <PawnDied>{0} ha muerto.</PawnDied>
 
@@ -152,7 +152,7 @@
   <MessageGaveBirth>{0} ha dado a luz.</MessageGaveBirth>
 
   <!-- EN: {0} has named {1} {2} after being nuzzled. -->
-  <MessageNuzzledPawnGaveNameTo>{0} ha nombrado a {1} {2} luego de ser acariciado.</MessageNuzzledPawnGaveNameTo>
+  <MessageNuzzledPawnGaveNameTo>{0} ha nombrado a {1}, {2}, luego de ser acariciado(a).</MessageNuzzledPawnGaveNameTo>
 
   <!-- EN: No handler can tame {0} (requires level {1} in {2}, best handler {3} has {4}). -->
   <MessageNoHandlerSkilledEnough>Ningún entrenador puede domesticar este(a) {0} (requiere nivel {1} en {2} y el mejor entrenador es {3} con {4}).</MessageNoHandlerSkilledEnough>
