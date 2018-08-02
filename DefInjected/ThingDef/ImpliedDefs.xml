@@ -76,8 +76,8 @@
   <!-- EN: cemento (anteproyecto) -->
   <Blueprint_Concrete.label>concreto (anteproyecto)</Blueprint_Concrete.label>
   
-  <!-- EN: refrigeración (anteproyecto) -->
-  <Blueprint_Cooler.label>refrigeración (anteproyecto)</Blueprint_Cooler.label>
+  <!-- EN: refrigerador (anteproyecto) -->
+  <Blueprint_Cooler.label>refrigerador (anteproyecto)</Blueprint_Cooler.label>
   
   <!-- EN: zona de artesanía (anteproyecto) -->
   <Blueprint_CraftingSpot.label>zona de artesanía (anteproyecto)</Blueprint_CraftingSpot.label>
@@ -911,8 +911,8 @@
   
   <!-- EN: batería(en construcción) -->
   <Frame_Battery.label>Batería (a medias)</Frame_Battery.label>
-  <!-- EN: Almacena electricidad cuando hay exceso de energia y la devuelve cuando no lo hay. Atención - las baterías cargadas corren riesgo de explosión cuando se calientan o se mojan. -->
-  <Frame_Battery.description>Almacena electricidad cuando hay exceso de energia y la devuelve cuando no lo hay. Atención - las baterías cargadas corren riesgo de explosión cuando se calientan o se mojan.</Frame_Battery.description>
+  <!-- EN: Almacena electricidad cuando hay exceso de energia y la devuelve cuando no lo hay. Atención - las baterías cargadas corren riesgo de explosión cuando se incendian o se mojan. -->
+  <Frame_Battery.description>Almacena electricidad cuando hay exceso de energia y la devuelve cuando no lo hay. Atención, las baterías cargadas corren riesgo de explosión cuando se incendian o se mojan.</Frame_Battery.description>
   
   <!-- EN: cama(en construcción) -->
   <Frame_Bed.label>Cama (a medias)</Frame_Bed.label>
@@ -991,7 +991,7 @@
   
   <!-- EN: generador a biocombustible(en construcción) -->
   <Frame_ChemfuelPoweredGenerator.label>Generador a Biocombustible (a medias)</Frame_ChemfuelPoweredGenerator.label>
-  <!-- EN: Produce energía consumiendo Biocombustible. Debe ser alimentado a mano. -->
+  <!-- EN: Produce energía consumiendo Biocombustible. Debe ser alimentado a mano periodicamente. -->
   <Frame_ChemfuelPoweredGenerator.description>Produce energía consumiendo Biocombustible. Debe ser alimentado a mano.</Frame_ChemfuelPoweredGenerator.description>
   
   <!-- EN: mesa de ajedrez(en construcción) -->
@@ -1009,8 +1009,8 @@
   <!-- EN: Terrain building in progress. -->
   <Frame_Concrete.description>Terreno en proceso de construcción.</Frame_Concrete.description>
   
-  <!-- EN: refrigeración(en construcción) -->
-  <Frame_Cooler.label>Refrigeración (a medias)</Frame_Cooler.label>
+  <!-- EN: refrigerador(en construcción) -->
+  <Frame_Cooler.label>Refrigerador (a medias)</Frame_Cooler.label>
   <!-- EN: Un dispositivo eléctrico que puede ser empotrado en un muro y enfría una habitación. Su tubo de escape produce mucho calor. Puede utilizarse para enfriar habitaciones durante el verano o para crear una habitación frigorífica. -->
   <Frame_Cooler.description>Un dispositivo eléctrico que puede ser empotrado en un muro y enfría una habitación. Su tubo de escape produce mucho calor. Puede utilizarse para enfriar habitaciones durante el verano o para crear una habitación frigorífica.</Frame_Cooler.description>
   
@@ -1061,8 +1061,8 @@
   
   <!-- EN: crematorio eléctrico(en construcción) -->
   <Frame_ElectricCrematorium.label>Crematorio Eléctrico (a medias)</Frame_ElectricCrematorium.label>
-  <!-- EN: Crema cadáveres. Necesita electricidad. -->
-  <Frame_ElectricCrematorium.description>Crema cadáveres. Necesita electricidad.</Frame_ElectricCrematorium.description>
+  <!-- EN: Un enorme crematorio de piedra que hace evaporar cadáveres con temperaturas extremadamente altas. -->
+  <Frame_ElectricCrematorium.description>Un enorme crematorio de piedra que hace evaporar cadáveres con temperaturas extremadamente altas.</Frame_ElectricCrematorium.description>
   
   <!-- EN: fundición eléctrica(en construcción) -->
   <Frame_ElectricSmelter.label>Fundición Eléctrica (a medias)</Frame_ElectricSmelter.label>
@@ -1081,7 +1081,7 @@
   
   <!-- EN: mesa de sastrería eléctrica(en construcción) -->
   <Frame_ElectricTailoringBench.label>Mesa de Sastrería Eléctrica (a medias)</Frame_ElectricTailoringBench.label>
-  <!-- EN: Una mesa de trabajo con una máquina de oser para confeccionar ropas rápidamente. Puede trabajar sin electricidad al 40% de la velocidad normal. -->
+  <!-- EN: Una mesa de trabajo con una máquina de oser para confeccionar ropas rápidamente. Puede trabajar sin electricidad al 50% de la velocidad normal. -->
   <Frame_ElectricTailoringBench.description>Una mesa de trabajo con una máquina de oser para confeccionar ropas rápidamente. Puede trabajar sin electricidad al 40% de la velocidad normal.</Frame_ElectricTailoringBench.description>
   
   <!-- EN: mesa auxiliar(en construcción) -->
@@ -1096,8 +1096,8 @@
   
   <!-- EN: barril fermentador(en construcción) -->
   <Frame_FermentingBarrel.label>Barril Fermentador (a medias)</Frame_FermentingBarrel.label>
-  <!-- EN: Un barril especial donde fermentar el mosto. -->
-  <Frame_FermentingBarrel.description>Un barril especial donde fermentar el mosto.</Frame_FermentingBarrel.description>
+  <!-- EN: Un barril para fermentar el mosto crudo y convertirlo en cerveza. -->
+  <Frame_FermentingBarrel.description>Un barril para fermentar el mosto crudo y convertirlo en cerveza.</Frame_FermentingBarrel.description>
   
   <!-- EN: espuma cortafuego(en construcción) -->
   <Frame_FirefoamPopper.label>Espuma CortaFuego (a medias)</Frame_FirefoamPopper.label>
@@ -1155,7 +1155,7 @@
   <Frame_GeothermalGenerator.description>Produce electricidad gracias a los géiseres de vapor. Debe ser ubicado sobre un géiser.</Frame_GeothermalGenerator.description>
   
   <!-- EN: losetas de oro(en construcción) -->
-  <Frame_GoldTile.label>Loseta de oro (a medias)</Frame_GoldTile.label>
+  <Frame_GoldTile.label>Loseta de Oro (a medias)</Frame_GoldTile.label>
   <!-- EN: Terrain building in progress. -->
   <Frame_GoldTile.description>Terreno en proceso de construcción.</Frame_GoldTile.description>
   
@@ -1171,8 +1171,8 @@
   
   <!-- EN: mesa de sastrería(en construcción) -->
   <Frame_HandTailoringBench.label>Mesa de Sastrería (a medias)</Frame_HandTailoringBench.label>
-  <!-- EN: Una mesa de trabajo para confeccionar ropa a mano. Trabaja al 40% de la velocidad de la mesa eléctrica. -->
-  <Frame_HandTailoringBench.description>Una mesa de trabajo para confeccionar ropa a mano. Trabaja al 40% de la velocidad de la mesa eléctrica.</Frame_HandTailoringBench.description>
+  <!-- EN: Una mesa de trabajo para confeccionar ropa a mano. Trabaja al 50% de la velocidad de la mesa eléctrica. -->
+  <Frame_HandTailoringBench.description>Una mesa de trabajo para confeccionar ropa a mano. Trabaja al 50% de la velocidad de la mesa eléctrica.</Frame_HandTailoringBench.description>
   
   <!-- EN: calefacción(en construcción) -->
   <Frame_Heater.label>Calefacción (a medias)</Frame_Heater.label>
@@ -1220,7 +1220,7 @@
   <Frame_MarriageSpot.description>Designa un lugar donde las ceremonias de matrimonio se llevarán a cabo. El público observará desde ambos lados.</Frame_MarriageSpot.description>
   
   <!-- EN: losetas metálicas(en construcción) -->
-  <Frame_MetalTile.label>Loseta de metal (a medias)</Frame_MetalTile.label>
+  <Frame_MetalTile.label>Loseta de Metal (a medias)</Frame_MetalTile.label>
   <!-- EN: Terrain building in progress. -->
   <Frame_MetalTile.description>Terreno en proceso de construcción.</Frame_MetalTile.description>
   
@@ -1255,7 +1255,7 @@
   <Frame_PassiveCooler.description>Un enfriamiento tradicional, que trabaja con la evaporación del agua. Al cabo de unos días, debe reponerse con madera.</Frame_PassiveCooler.description>
   
   <!-- EN: losetas de cemento(en construcción) -->
-  <Frame_PavedTile.label>Loseta de cemento (a medias)</Frame_PavedTile.label>
+  <Frame_PavedTile.label>Loseta de Cemento (a medias)</Frame_PavedTile.label>
   <!-- EN: Terrain building in progress. -->
   <Frame_PavedTile.description>Terreno en proceso de construcción.</Frame_PavedTile.description>
   
@@ -1335,7 +1335,7 @@
   <Frame_Ship_SensorCluster.description>Un módulo sensor, buscando en el vacío peligros y oportunidades.</Frame_Ship_SensorCluster.description>
   
   <!-- EN: losetas de plata(en construcción) -->
-  <Frame_SilverTile.label>Loseta de plata (a medias)</Frame_SilverTile.label>
+  <Frame_SilverTile.label>Loseta de Plata (a medias)</Frame_SilverTile.label>
   <!-- EN: Terrain building in progress. -->
   <Frame_SilverTile.description>Terreno en proceso de construcción.</Frame_SilverTile.description>
   
@@ -1375,7 +1375,7 @@
   <Frame_StandingLamp_Red.description>Una lámpara de pie capaz de iluminar un area con luz de color rojo.</Frame_StandingLamp_Red.description>
   
   <!-- EN: losetas estériles(en construcción) -->
-  <Frame_SterileTile.label>Loseta estéril (a medias)</Frame_SterileTile.label>
+  <Frame_SterileTile.label>Loseta Estéril (a medias)</Frame_SterileTile.label>
   <!-- EN: Terrain building in progress. -->
   <Frame_SterileTile.description>Terreno en proceso de construcción.</Frame_SterileTile.description>
   
@@ -1411,8 +1411,8 @@
   
   <!-- EN: mesa de carnicero(en construcción) -->
   <Frame_TableButcher.label>Mesa de Carnicero (a medias)</Frame_TableButcher.label>
-  <!-- EN: Un banco de trabajo para despiezar criaturas muertas en trozos de carne cruda. -->
-  <Frame_TableButcher.description>Un banco de trabajo para despiezar criaturas muertas en trozos de carne cruda.</Frame_TableButcher.description>
+  <!-- EN: Un banco de trabajo para despiezar criaturas muertas en trozos de Carne cruda. -->
+  <Frame_TableButcher.description>Un banco de trabajo para despiezar criaturas muertas en trozos de Carne cruda.</Frame_TableButcher.description>
   
   <!-- EN: mesa de maquinado(en construcción) -->
   <Frame_TableMachining.label>Mesa de Maquinado (a medias)</Frame_TableMachining.label>
@@ -1435,12 +1435,12 @@
   <Frame_TileGranite.description>Terreno en proceso de construcción.</Frame_TileGranite.description>
   
   <!-- EN: baldosa de caliza(en construcción) -->
-  <Frame_TileLimestone.label>Baldosa de piedra caliza (a medias)</Frame_TileLimestone.label>
+  <Frame_TileLimestone.label>Baldosa de Piedra Caliza (a medias)</Frame_TileLimestone.label>
   <!-- EN: Terrain building in progress. -->
   <Frame_TileLimestone.description>Terreno en proceso de construcción.</Frame_TileLimestone.description>
   
   <!-- EN: baldosa de mármol(en construcción) -->
-  <Frame_TileMarble.label>Baldosa de mármol (a medias)</Frame_TileMarble.label>
+  <Frame_TileMarble.label>Baldosa de Mármol (a medias)</Frame_TileMarble.label>
   <!-- EN: Terrain building in progress. -->
   <Frame_TileMarble.description>Terreno en proceso de construcción.</Frame_TileMarble.description>
   
@@ -1450,7 +1450,7 @@
   <Frame_TileSandstone.description>Terreno en proceso de construcción.</Frame_TileSandstone.description>
   
   <!-- EN: baldosa de pizarra(en construcción) -->
-  <Frame_TileSlate.label>Baldosa de pizarra (a medias)</Frame_TileSlate.label>
+  <Frame_TileSlate.label>Baldosa de Pizarra (a medias)</Frame_TileSlate.label>
   <!-- EN: Terrain building in progress. -->
   <Frame_TileSlate.description>Terreno en proceso de construcción.</Frame_TileSlate.description>
   
@@ -1515,7 +1515,7 @@
   <Frame_Turret_Mortar.description>Un mortero que lanza todo tipo de proyectiles. Aunque puede causar daños devastadores, la inexactitud inherente del mortero lo hace más útil para atacar grandes fortificaciones que grupos de enemigos en el campo.</Frame_Turret_Mortar.description>
   
   <!-- EN: cañón de uranio(en construcción) -->
-  <Frame_Turret_Sniper.label>Cañón de uranio (a medias)</Frame_Turret_Sniper.label>
+  <Frame_Turret_Sniper.label>Cañón de Uranio (a medias)</Frame_Turret_Sniper.label>
   <!-- EN: Una torreta francotirador automática de muy largo alcance. Sus proyectiles de alta velocidad causan grandes daños en distancias muy largas, pero requiere cambios de barril frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado. -->
   <Frame_Turret_Sniper.description>Un cañón de uranio automático de muy largo alcance. Sus proyectiles de alta velocidad causan grandes daños en distancias muy largas, pero requiere cambios de barril frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado.</Frame_Turret_Sniper.description>
   
@@ -1560,218 +1560,218 @@
   <Frame_WoodPlankFloor.description>Terreno en proceso de construcción.</Frame_WoodPlankFloor.description>
   
   <!-- EN: Carne de alpaca -->
-  <Meat_Alpaca.label>carne de alpaca</Meat_Alpaca.label>
-  <!-- EN: Carne cruda de un(a) alpaca. -->
-  <Meat_Alpaca.description>La carne de una alpaca.</Meat_Alpaca.description>
+  <Meat_Alpaca.label>Carne de alpaca</Meat_Alpaca.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Alpaca.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Alpaca.description>
   
   <!-- EN: Carne de alfacastor -->
-  <Meat_Alphabeaver.label>carne de alfacastor</Meat_Alphabeaver.label>
-  <!-- EN: Carne cruda de un(a) alfacastor. -->
-  <Meat_Alphabeaver.description>La carne de un alfacastor.</Meat_Alphabeaver.description>
+  <Meat_Alphabeaver.label>Carne de alfacastor</Meat_Alphabeaver.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Alphabeaver.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Alphabeaver.description>
   
-  <!-- EN: carne de oso -->
-  <Meat_Bear_Grizzly.label>carne de oso pardo</Meat_Bear_Grizzly.label>
-  <!-- EN: Carne cruda de un(a) oso pardo. -->
-  <Meat_Bear_Grizzly.description>La carne de un oso pardo.</Meat_Bear_Grizzly.description>
+  <!-- EN: Carne de oso -->
+  <Meat_Bear_Grizzly.label>Carne de oso pardo</Meat_Bear_Grizzly.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Bear_Grizzly.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Bear_Grizzly.description>
   
   <!-- EN: Carne de bumalope -->
-  <Meat_Boomalope.label>carne de bumalope</Meat_Boomalope.label>
-  <!-- EN: Carne cruda de un(a) bumalope. -->
-  <Meat_Boomalope.description>La carne de un bumalope.</Meat_Boomalope.description>
+  <Meat_Boomalope.label>Carne de bumalope</Meat_Boomalope.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Boomalope.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Boomalope.description>
   
   <!-- EN: Carne de rata-bum -->
-  <Meat_Boomrat.label>carne de rata-bum</Meat_Boomrat.label>
-  <!-- EN: Carne cruda de un(a) rata-bum. -->
-  <Meat_Boomrat.description>La carne de una rata-bum.</Meat_Boomrat.description>
+  <Meat_Boomrat.label>Carne de rata-bum</Meat_Boomrat.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Boomrat.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Boomrat.description>
   
   <!-- EN: Carne de capibara -->
-  <Meat_Capybara.label>carne de capibara</Meat_Capybara.label>
-  <!-- EN: Carne cruda de un(a) capibara. -->
-  <Meat_Capybara.description>La carne de un capibara.</Meat_Capybara.description>
+  <Meat_Capybara.label>Carne de capibara</Meat_Capybara.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Capybara.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Capybara.description>
   
   <!-- EN: Carne de reno -->
-  <Meat_Caribou.label>carne de reno</Meat_Caribou.label>
-  <!-- EN: Carne cruda de un(a) reno. -->
-  <Meat_Caribou.description>La carne de un reno.</Meat_Caribou.description>
+  <Meat_Caribou.label>Carne de reno</Meat_Caribou.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Caribou.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Caribou.description>
   
-  <!-- EN: carne de pájaro -->
-  <Meat_Cassowary.label>carne de casuario</Meat_Cassowary.label>
-  <!-- EN: Carne cruda de un(a) casuario. -->
-  <Meat_Cassowary.description>La carne de un casuario.</Meat_Cassowary.description>
+  <!-- EN: Carne de pájaro -->
+  <Meat_Cassowary.label>Carne de casuario</Meat_Cassowary.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Cassowary.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Cassowary.description>
   
   <!-- EN: Carne de gato -->
-  <Meat_Cat.label>carne de gato</Meat_Cat.label>
-  <!-- EN: Carne cruda de un(a) gato. -->
-  <Meat_Cat.description>La carne de un gato.</Meat_Cat.description>
+  <Meat_Cat.label>Carne de gato</Meat_Cat.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Cat.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Cat.description>
   
   <!-- EN: Carne de pollo -->
-  <Meat_Chicken.label>carne de pollo</Meat_Chicken.label>
-  <!-- EN: Carne cruda de un(a) pollo. -->
-  <Meat_Chicken.description>La carne de un pollo.</Meat_Chicken.description>
+  <Meat_Chicken.label>Carne de pollo</Meat_Chicken.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Chicken.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Chicken.description>
   
   <!-- EN: Carne de chinchilla -->
-  <Meat_Chinchilla.label>carne de chinchilla</Meat_Chinchilla.label>
-  <!-- EN: Carne cruda de un(a) chinchilla. -->
-  <Meat_Chinchilla.description>La carne de una chinchilla.</Meat_Chinchilla.description>
+  <Meat_Chinchilla.label>Carne de chinchilla</Meat_Chinchilla.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Chinchilla.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Chinchilla.description>
   
-  <!-- EN: carne de cobra -->
-  <Meat_Cobra.label>carne de cobra</Meat_Cobra.label>
-  <!-- EN: Carne cruda de un(a) cobra. -->
-  <Meat_Cobra.description>La carne de una cobra.</Meat_Cobra.description>
+  <!-- EN: Carne de cobra -->
+  <Meat_Cobra.label>Carne de cobra</Meat_Cobra.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Cobra.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Cobra.description>
   
   <!-- EN: Carne de puma -->
-  <Meat_Cougar.label>carne de puma</Meat_Cougar.label>
-  <!-- EN: Carne cruda de un(a) puma. -->
-  <Meat_Cougar.description>La carne de un puma.</Meat_Cougar.description>
+  <Meat_Cougar.label>Carne de puma</Meat_Cougar.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Cougar.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Cougar.description>
   
-  <!-- EN: carne de vaca -->
-  <Meat_Cow.label>carne de vaca</Meat_Cow.label>
-  <!-- EN: Carne cruda de un(a) vaca. -->
-  <Meat_Cow.description>La carne de una vaca.</Meat_Cow.description>
+  <!-- EN: Carne de vaca -->
+  <Meat_Cow.label>Carne de vaca</Meat_Cow.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Cow.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Cow.description>
   
-  <!-- EN: carne de venado -->
-  <Meat_Deer.label>carne de venado</Meat_Deer.label>
-  <!-- EN: Carne cruda de un(a) venado. -->
-  <Meat_Deer.description>La carne de un venado.</Meat_Deer.description>
+  <!-- EN: Carne de venado -->
+  <Meat_Deer.label>Carne de venado</Meat_Deer.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Deer.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Deer.description>
   
   <!-- EN: Carne de dromedario -->
-  <Meat_Dromedary.label>carne de dromedario</Meat_Dromedary.label>
-  <!-- EN: Carne cruda de un(a) dromedario. -->
-  <Meat_Dromedary.description>La carne de un dromedario.</Meat_Dromedary.description>
+  <Meat_Dromedary.label>Carne de dromedario</Meat_Dromedary.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Dromedary.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Dromedary.description>
   
   <!-- EN: Carne de elefante -->
-  <Meat_Elephant.label>carne de elefante</Meat_Elephant.label>
-  <!-- EN: Carne cruda de un(a) elefante. -->
-  <Meat_Elephant.description>La carne de un elefante.</Meat_Elephant.description>
+  <Meat_Elephant.label>Carne de elefante</Meat_Elephant.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Elephant.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Elephant.description>
   
   <!-- EN: Carne de alce -->
-  <Meat_Elk.label>carne de alce</Meat_Elk.label>
-  <!-- EN: Carne cruda de un(a) alce. -->
-  <Meat_Elk.description>La carne de un alce.</Meat_Elk.description>
+  <Meat_Elk.label>Carne de alce</Meat_Elk.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Elk.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Elk.description>
   
-  <!-- EN: carne de zorro -->
-  <Meat_Fox_Fennec.label>carne de fénec</Meat_Fox_Fennec.label>
-  <!-- EN: Carne cruda de un(a) fénec. -->
-  <Meat_Fox_Fennec.description>La carne de un fénec.</Meat_Fox_Fennec.description>
+  <!-- EN: Carne de zorro -->
+  <Meat_Fox_Fennec.label>Carne de zorro</Meat_Fox_Fennec.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Fox_Fennec.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Fox_Fennec.description>
   
   <!-- EN: Carne de gacela -->
-  <Meat_Gazelle.label>carne de gacela</Meat_Gazelle.label>
-  <!-- EN: Carne cruda de un(a) gacela. -->
-  <Meat_Gazelle.description>La carne de una gacela.</Meat_Gazelle.description>
+  <Meat_Gazelle.label>Carne de gacela</Meat_Gazelle.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Gazelle.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Gazelle.description>
   
   <!-- EN: Carne de liebre -->
-  <Meat_Hare.label>carne de liebre</Meat_Hare.label>
-  <!-- EN: Carne cruda de un(a) liebre. -->
-  <Meat_Hare.description>La carne de una liebre.</Meat_Hare.description>
+  <Meat_Hare.label>Carne de liebre</Meat_Hare.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Hare.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Hare.description>
   
   <!-- EN: Carne de humano -->
-  <Meat_Human.label>carne de humano</Meat_Human.label>
+  <Meat_Human.label>Carne de humano</Meat_Human.label>
   <!-- EN: Carne cruda. Puede ser cocinado en comidas o consumido crudo, aunque a la mayoría de los humanos no les gusta la idea. -->
-  <Meat_Human.description>La carne de un ser humano.</Meat_Human.description>
+  <Meat_Human.description>Carne cruda. Puede ser cocinado en comidas o consumido crudo, aunque a la mayoría de los humanos no les gusta la idea.</Meat_Human.description>
   
   <!-- EN: Carne de husky -->
-  <Meat_Husky.label>carne de husky</Meat_Husky.label>
-  <!-- EN: Carne cruda de un(a) husky. -->
-  <Meat_Husky.description>La carne de un Husky.</Meat_Husky.description>
+  <Meat_Husky.label>Carne de husky</Meat_Husky.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Husky.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Husky.description>
   
   <!-- EN: Carne de cabra -->
-  <Meat_Ibex.label>carne de cabra</Meat_Ibex.label>
-  <!-- EN: Carne cruda de un(a) cabra. -->
-  <Meat_Ibex.description>La carne de una cabra.</Meat_Ibex.description>
+  <Meat_Ibex.label>Carne de cabra</Meat_Ibex.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Ibex.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Ibex.description>
   
   <!-- EN: Carne de iguana -->
-  <Meat_Iguana.label>carne de iguana</Meat_Iguana.label>
-  <!-- EN: Carne cruda de un(a) iguana. -->
-  <Meat_Iguana.description>La carne de una iguana.</Meat_Iguana.description>
+  <Meat_Iguana.label>Carne de iguana</Meat_Iguana.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Iguana.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Iguana.description>
   
   <!-- EN: Carne de labrador -->
-  <Meat_LabradorRetriever.label>carne de labrador</Meat_LabradorRetriever.label>
-  <!-- EN: Carne cruda de un(a) labrador. -->
-  <Meat_LabradorRetriever.description>La carne de un labrador.</Meat_LabradorRetriever.description>
+  <Meat_LabradorRetriever.label>Carne de labrador</Meat_LabradorRetriever.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_LabradorRetriever.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_LabradorRetriever.description>
   
   <!-- EN: Carne de lince -->
-  <Meat_Lynx.label>carne de lince</Meat_Lynx.label>
-  <!-- EN: Carne cruda de un(a) lince. -->
-  <Meat_Lynx.description>La carne de un lince.</Meat_Lynx.description>
+  <Meat_Lynx.label>Carne de lince</Meat_Lynx.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Lynx.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Lynx.description>
   
   <!-- EN: Carne de megaterio -->
-  <Meat_Megasloth.label>carne de megaterio</Meat_Megasloth.label>
-  <!-- EN: Carne cruda de un(a) megaterio. -->
-  <Meat_Megasloth.description>La carne de un megaterio.</Meat_Megasloth.description>
+  <Meat_Megasloth.label>Carne de megaterio</Meat_Megasloth.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Megasloth.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Megasloth.description>
   
-  <!-- EN: carne de insecto -->
-  <Meat_Megaspider.label>carne de megaraña</Meat_Megaspider.label>
+  <!-- EN: Carne de insecto -->
+  <Meat_Megaspider.label>Carne de megaraña</Meat_Megaspider.label>
   <!-- EN: Carne cruda de un insecto. Si es necesario, puede ser cocinado en las comidas, o incluso consumido crudo. Extremadamente poco apetecible. -->
-  <Meat_Megaspider.description>La carne de una megaraña.</Meat_Megaspider.description>
+  <Meat_Megaspider.description>Carne cruda de un insecto. Si es necesario, puede ser cocinado en las comidas, o incluso consumido crudo. Extremadamente poco apetecible.</Meat_Megaspider.description>
   
   <!-- EN: Carne de mono -->
-  <Meat_Monkey.label>carne de mono</Meat_Monkey.label>
-  <!-- EN: Carne cruda de un(a) mono. -->
-  <Meat_Monkey.description>La carne de un mono.</Meat_Monkey.description>
+  <Meat_Monkey.label>Carne de mono</Meat_Monkey.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Monkey.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Monkey.description>
   
   <!-- EN: Carne de múfalo -->
-  <Meat_Muffalo.label>carne de múfalo</Meat_Muffalo.label>
-  <!-- EN: Carne cruda de un(a) múfalo. -->
-  <Meat_Muffalo.description>La carne de un múfalo.</Meat_Muffalo.description>
+  <Meat_Muffalo.label>Carne de múfalo</Meat_Muffalo.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Muffalo.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Muffalo.description>
   
   <!-- EN: Carne de pantera -->
-  <Meat_Panther.label>carne de pantera</Meat_Panther.label>
-  <!-- EN: Carne cruda de un(a) pantera. -->
-  <Meat_Panther.description>La carne de una pantera.</Meat_Panther.description>
+  <Meat_Panther.label>Carne de pantera</Meat_Panther.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Panther.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Panther.description>
   
-  <!-- EN: carne de cerdo -->
-  <Meat_Pig.label>carne de cerdo</Meat_Pig.label>
-  <!-- EN: Carne cruda de un(a) cerdo. -->
-  <Meat_Pig.description>La carne de un cerdo.</Meat_Pig.description>
+  <!-- EN: Carne de cerdo -->
+  <Meat_Pig.label>Carne de cerdo</Meat_Pig.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Pig.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Pig.description>
   
   <!-- EN: Carne de mapache -->
-  <Meat_Raccoon.label>carne de mapache</Meat_Raccoon.label>
-  <!-- EN: Carne cruda de un(a) mapache. -->
-  <Meat_Raccoon.description>La carne de un mapache.</Meat_Raccoon.description>
+  <Meat_Raccoon.label>Carne de mapache</Meat_Raccoon.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Raccoon.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Raccoon.description>
   
   <!-- EN: Carne de rata -->
-  <Meat_Rat.label>carne de rata</Meat_Rat.label>
-  <!-- EN: Carne cruda de un(a) rata. -->
-  <Meat_Rat.description>La carne de una rata.</Meat_Rat.description>
+  <Meat_Rat.label>Carne de rata</Meat_Rat.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Rat.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Rat.description>
   
   <!-- EN: Carne de rinoceronte -->
-  <Meat_Rhinoceros.label>carne de rinoceronte</Meat_Rhinoceros.label>
-  <!-- EN: Carne cruda de un(a) rinoceronte. -->
-  <Meat_Rhinoceros.description>La carne de un rinoceronte.</Meat_Rhinoceros.description>
+  <Meat_Rhinoceros.label>Carne de rinoceronte</Meat_Rhinoceros.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Rhinoceros.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Rhinoceros.description>
   
   <!-- EN: Carne de ardilla -->
-  <Meat_Squirrel.label>carne de ardilla</Meat_Squirrel.label>
-  <!-- EN: Carne cruda de un(a) ardilla. -->
-  <Meat_Squirrel.description>La carne de una ardilla.</Meat_Squirrel.description>
+  <Meat_Squirrel.label>Carne de ardilla</Meat_Squirrel.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Squirrel.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Squirrel.description>
   
   <!-- EN: Carne de thrumbo -->
-  <Meat_Thrumbo.label>carne de trumbo</Meat_Thrumbo.label>
-  <!-- EN: Carne cruda de un(a) thrumbo. -->
-  <Meat_Thrumbo.description>La carne de un trumbo.</Meat_Thrumbo.description>
+  <Meat_Thrumbo.label>Carne de trumbo</Meat_Thrumbo.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Thrumbo.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Thrumbo.description>
   
   <!-- EN: Carne de tortuga -->
-  <Meat_Tortoise.label>carne de tortuga</Meat_Tortoise.label>
-  <!-- EN: Carne cruda de un(a) tortuga. -->
-  <Meat_Tortoise.description>La carne de una tortuga.</Meat_Tortoise.description>
+  <Meat_Tortoise.label>Carne de tortuga</Meat_Tortoise.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Tortoise.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Tortoise.description>
   
   <!-- EN: Carne de pavo -->
-  <Meat_Turkey.label>carne de pavo</Meat_Turkey.label>
-  <!-- EN: Carne cruda de un(a) pavo. -->
-  <Meat_Turkey.description>La carne de un pavo.</Meat_Turkey.description>
+  <Meat_Turkey.label>Carne de pavo</Meat_Turkey.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Turkey.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Turkey.description>
   
   <!-- EN: Carne de wargo -->
-  <Meat_Warg.label>carne de wargo</Meat_Warg.label>
-  <!-- EN: Carne cruda de un(a) wargo. -->
-  <Meat_Warg.description>La carne de un wargo.</Meat_Warg.description>
+  <Meat_Warg.label>Carne de wargo</Meat_Warg.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Warg.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Warg.description>
   
-  <!-- EN: carne de lobo -->
-  <Meat_Wolf_Timber.label>carne de lobo</Meat_Wolf_Timber.label>
-  <!-- EN: Carne cruda de un(a) lobo pardo. -->
-  <Meat_Wolf_Timber.description>La carne de un lobo.</Meat_Wolf_Timber.description>
+  <!-- EN: Carne de lobo -->
+  <Meat_Wolf_Timber.label>Carne de lobo</Meat_Wolf_Timber.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_Wolf_Timber.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_Wolf_Timber.description>
   
   <!-- EN: Carne de yorkshire terrier -->
-  <Meat_YorkshireTerrier.label>carne de terrier</Meat_YorkshireTerrier.label>
-  <!-- EN: Carne cruda de un(a) yorkshire terrier. -->
-  <Meat_YorkshireTerrier.description>La carne de un Yorkshire Terrier.</Meat_YorkshireTerrier.description>
+  <Meat_YorkshireTerrier.label>Carne de terrier</Meat_YorkshireTerrier.label>
+  <!-- EN: Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda. -->
+  <Meat_YorkshireTerrier.description>Carne cruda descuartizada. Puede ser cocinado en las comidas, o consumirse cruda.</Meat_YorkshireTerrier.description>
   
 </LanguageData>

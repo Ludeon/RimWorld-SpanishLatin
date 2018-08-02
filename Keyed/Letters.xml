@@ -96,7 +96,7 @@
   <!-- EN: [PAWN_indefinite] is attacking due to a botched taming attempt! -->
   <AnimalManhunterFromTaming>¡[PAWN_indefinite] está atacando debido a un intento fallido de domesticación!</AnimalManhunterFromTaming>
   <!-- EN: Other {0} nearby have also become enraged! -->
-  <AnimalManhunterOthers>¡Los {0}s cercanos también se han enfurecido!</AnimalManhunterOthers>
+  <AnimalManhunterOthers>¡Los {0} cercanos también se han enfurecido!</AnimalManhunterOthers>
 
   <!-- EN: {0} hit trap -->
   <LetterFriendlyTrapSprungLabel>{0} cayó en la trampa</LetterFriendlyTrapSprungLabel>
@@ -202,7 +202,7 @@
   
   <!-- Bonded animals -->
   <!-- EN: bonded animal -->
-  <LetterLabelSuffixBondedAnimalDied>animal vinculado</LetterLabelSuffixBondedAnimalDied>
+  <LetterLabelSuffixBondedAnimalDied>Animal vinculado</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {0} was bonded to {1}. It will affect {1}'s mood. -->
   <LetterPartBondedAnimalDied>{0} estaba vinculado a {1}. Afectará el estado de ánimo de {1}.</LetterPartBondedAnimalDied>
   <!-- EN: It will affect mood of the following people:\n\n{0} -->
@@ -307,8 +307,8 @@
   <PeaceTalksSocialXPGain>{0}, su negociador, ha ganado {1} de experiencia social</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <!-- EN: {0} is fed up with civilization.\n\n[PAWN_pronoun] realized that wild creatures are always free. So, [PAWN_pronoun] has decided to leave your faction and live with the animals.\n\nYou can attempt to tame [PAWN_objective] to ge7t.0t [PAWN_objective] back. -->
-  <LetterRunWildMentalBreak>{0} está harto de la civilización.\n\n[PAWN_pronoun] se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, [PAWN_pronoun] ha decidido dejar su facción y vivir con los animales.\n\nPuedes intentar domar[PAWN_objetivo] para recuperar[PAWN_objetivo]. </LetterRunWildMentalBreak>
+  <!-- EN: {0} is fed up with civilization.\n\n[PAWN_pronoun] realized that wild creatures are always free. So, [PAWN_pronoun] has decided to leave your faction and live with the animals.\n\nYou can attempt to tame [PAWN_objective] to get [PAWN_objective] back. -->
+  <LetterRunWildMentalBreak>{0} está harto de la civilización.\n\n[PAWN_pronoun] se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, [PAWN_pronoun] ha decidido dejar su facción y vivir con los animales.\n\nPuedes intentar domar [PAWN_objetivo] para recuperar[PAWN_objetivo]. </LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. [PAWN_pronoun] will recover in several days. -->
@@ -375,5 +375,13 @@
   <LetterLabelPredatorHuntingColonist>{0} cazando a {1}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {0} is hunting {1} for food! -->
   <LetterPredatorHuntingColonist>¡{0} está cazando a {1} para alimentarse!</LetterPredatorHuntingColonist>
+
+  <!-- Disease -->
+  <!-- EN: {0} blocked {1} on: {2}. -->
+  <LetterDisease_Blocked>{0} bloqueado {1} con: {2}.</LetterDisease_Blocked>
+  <!-- EN: Disease ({0}) -->
+  <LetterLabelTraitDisease>Enfermedad ({0})</LetterLabelTraitDisease>
+  <!-- EN: {0} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that [PAWN_pronoun] gets proper treatment and spends as much time in bed as possible. -->
+  <LetterTraitDisease>{0} se ha enfermado de {1}.\n\nAsegúrese de tener una cama médica y un médico. Asegúrese de que [PAWN_pronoun] reciba el tratamiento adecuado y permanece en la cama el mayor tiempo posible.</LetterTraitDisease>
 
 </LanguageData>
