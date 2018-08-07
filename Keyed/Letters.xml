@@ -20,7 +20,7 @@
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied.\n\nWhile they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
   <LetterRelationsChange_NeutralFromAlly>Las relaciones con {0} se han enfriado. Ahora te consideran neutral en lugar de aliado.\n\nAunque seguirán interactuando pacíficamente con usted, ya no enviarán combatientes para ayudarle cuando esté bajo amenaza.\n\nEsto sucedió porque la buena voluntad ({1}) ha caído por debajo {2}. Si las relaciones caen por debajo de {3}, {0} se volverá hostil. Si las relaciones se elevan por encima de {4}, se aliarán de nuevo.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: Relations with {0} have become very close. They now consider you an ally.\n\nAllies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({1}) has risen past {2}. If goodwill falls below {3}, relations will return to neutral. -->
-  <LetterRelationsChange_Ally>Las relaciones con {0} se han vuelto muy íntimas. Ahora te consideran un aliado.\n\nLos aliados a veces llegan para ayudar a luchar contra tus enemigos cuando estás bajo ataque. También puede llamarlos para pedirles ayuda en cualquier momento, a un costo de buena voluntad.\n\nSe han convertido en aliados porque su buena voluntad ({1}) se ha levantado en el pasado {2}. Si la buena voluntad cae por debajo de {3}, las relaciones volverán a ser neutrales.</LetterRelationsChange_Ally>
+  <LetterRelationsChange_Ally>Las relaciones con {0} se han vuelto muy íntimas. Ahora te consideran un aliado.\n\nLos aliados a veces llegan para ayudar a luchar contra tus enemigos cuando estás bajo ataque. También puede llamarlos para pedirles ayuda en cualquier momento, a un costo de buena voluntad.\n\nSe han convertido en aliados porque su buena voluntad ({1}) se ha levantado en el pasado por encima de {2}. Si la buena voluntad cae por debajo de {3}, las relaciones volverán a ser neutrales.</LetterRelationsChange_Ally>
 
   <!-- EN: goodwill -->
   <goodwill>Buena voluntad</goodwill>
@@ -284,25 +284,25 @@
 
   <!-- Peace talks -->
   <!-- EN: Peace talks disaster -->
-  <LetterLabelPeaceTalks_Disaster>Conversaciones de paz desastrozas</LetterLabelPeaceTalks_Disaster>
+  <LetterLabelPeaceTalks_Disaster>Charlas de paz desastrozas</LetterLabelPeaceTalks_Disaster>
   <!-- EN: The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}. -->
-  <LetterPeaceTalks_Disaster>Las conversaciones fueron un desastre. Los delegados apenas dieron sus saludos iniciales antes de que la discusión se convirtiera en insultos y recriminaciones.\n\nDespués de que su caravana partió temprano, {0} de {1} la atrapó y atacó!\n\nRelaciones con {1}: {2}.</LetterPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>Las charlas fueron un desastre. Los delegados apenas dieron sus saludos iniciales antes de que la discusión se convirtiera en insultos y recriminaciones.\n\nDespués de que su caravana partió temprano, {0} de {1} lo(a) atrapó y atacó!\n\nRelaciones con {1}: {2}.</LetterPeaceTalks_Disaster>
   <!-- EN: Peace talks backfire -->
-  <LetterLabelPeaceTalks_Backfire>Las conversaciones de paz fracasaron</LetterLabelPeaceTalks_Backfire>
+  <LetterLabelPeaceTalks_Backfire>Las Charlas de paz fracasaron</LetterLabelPeaceTalks_Backfire>
   <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->
-  <LetterPeaceTalks_Backfire>Las conversaciones han fracasado. A pesar de intercambiar algunos cumplidos, los delegados no avanzaron en cuestiones sustantivas, y las múltiples declaraciones se interpretaron como insultos.\n\nRelaciones con {0}: {1}.</LetterPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>Las charlas han fracasado. A pesar de intercambiar algunos cumplidos, los delegados no avanzaron en cuestiones sustantivas, y las múltiples declaraciones se interpretaron como insultos.\n\nRelaciones con {0}: {1}.</LetterPeaceTalks_Backfire>
   <!-- EN: Peace talks flounder -->
-  <LetterLabelPeaceTalks_TalksFlounder>Conversaciones de paz estancadas</LetterLabelPeaceTalks_TalksFlounder>
+  <LetterLabelPeaceTalks_TalksFlounder>Charlas de paz estancadas</LetterLabelPeaceTalks_TalksFlounder>
   <!-- EN: The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged. -->
-  <LetterPeaceTalks_TalksFlounder>Las conversaciones fracasaron. Los delegados lograron comunicarse de manera clara y con respeto básico, pero no pudieron avanzar en ningún problema real.\n\nLas relaciones con {0} permanecen sin cambios.</LetterPeaceTalks_TalksFlounder>
+  <LetterPeaceTalks_TalksFlounder>Las charlas fracasaron. Los delegados lograron comunicarse de manera clara y con respeto básico, pero no pudieron avanzar en ningún problema real.\n\nLas relaciones con {0} permanecen sin cambios.</LetterPeaceTalks_TalksFlounder>
   <!-- EN: Peace talks success -->
-  <LetterLabelPeaceTalks_Success>Conversaciones de paz exitosas</LetterLabelPeaceTalks_Success>
+  <LetterLabelPeaceTalks_Success>Charlas de paz exitosas</LetterLabelPeaceTalks_Success>
   <!-- EN: The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}. -->
-  <LetterPeaceTalks_Success>Las conversaciones fueron un éxito. Los delegados alcanzaron una nueva comprensión mutua sobre varios asuntos importantes.\n\nLas relaciones con {0} mejoraron en {1}.</LetterPeaceTalks_Success>
+  <LetterPeaceTalks_Success>Las charlas fueron un éxito. Los delegados alcanzaron una nueva comprensión mutua sobre varios asuntos importantes.\n\nLas relaciones con {0} mejoraron en {1}.</LetterPeaceTalks_Success>
   <!-- EN: Peace talks triumph -->
-  <LetterLabelPeaceTalks_Triumph>Las conversaciones de paz triunfan</LetterLabelPeaceTalks_Triumph>
+  <LetterLabelPeaceTalks_Triumph>Las Charlas de paz triunfan</LetterLabelPeaceTalks_Triumph>
   <!-- EN: The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2} -->
-  <LetterPeaceTalks_Triumph>¡Las conversaciones fueron un gran triunfo! Los delegados se conectaron rápidamente a nivel personal y llegaron a ver realmente la perspectiva de los demás sobre los problemas más difíciles del día.\n\nLas relaciones con {0} mejoraron en {1}.\n\nComo su caravana partió, {0 } te ofreció un regalo: {2}.</LetterPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>¡Las charlas fueron un gran triunfo! Los delegados se conectaron rápidamente a nivel personal y llegaron a ver realmente la perspectiva de los demás sobre los problemas más difíciles del día.\n\nLas relaciones con {0} mejoraron en {1}.\n\nComo su caravana partió, {0 } te ofreció un regalo: {2}.</LetterPeaceTalks_Triumph>
   <!-- EN: {0}, your negotiator, has gained {1} social experience. -->
   <PeaceTalksSocialXPGain>{0}, su negociador, ha ganado {1} de experiencia social</PeaceTalksSocialXPGain>
 
