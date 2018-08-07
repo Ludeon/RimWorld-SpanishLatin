@@ -1,60 +1,113 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <MechanicalCentipede.label>Meca-Centípedo</MechanicalCentipede.label>
-  <MechanicalCentipede.corePart.parts.0.parts.1.customLabel>Sensor de visión izquierda</MechanicalCentipede.corePart.parts.0.parts.1.customLabel>
-  <MechanicalCentipede.corePart.parts.0.parts.2.customLabel>Sensor de visión derecha</MechanicalCentipede.corePart.parts.0.parts.2.customLabel>
-  <MechanicalCentipede.corePart.parts.0.parts.3.customLabel>Sensor auditivo izquierdo</MechanicalCentipede.corePart.parts.0.parts.3.customLabel>
-  <MechanicalCentipede.corePart.parts.0.parts.4.customLabel>Sensor auditivo derecho</MechanicalCentipede.corePart.parts.0.parts.4.customLabel>
-
+  
+  <!-- EN: lancer -->
   <Lancer.label>Lancero</Lancer.label>
-  <Lancer.corePart.parts.0.parts.0.parts.1.customLabel>Sensor de visión izquierda</Lancer.corePart.parts.0.parts.0.parts.1.customLabel>
-  <Lancer.corePart.parts.0.parts.0.parts.2.customLabel>Sensor de visión derecha</Lancer.corePart.parts.0.parts.0.parts.2.customLabel>
-  <Lancer.corePart.parts.0.parts.0.parts.3.customLabel>Sensor auditivo izquierdo</Lancer.corePart.parts.0.parts.0.parts.3.customLabel>
-  <Lancer.corePart.parts.0.parts.0.parts.4.customLabel>Sensor auditivo derecho</Lancer.corePart.parts.0.parts.0.parts.4.customLabel>
-  <Lancer.corePart.parts.1.parts.0.parts.0.parts.0.customLabel>Meñique izquierdo</Lancer.corePart.parts.1.parts.0.parts.0.parts.0.customLabel>
-  <Lancer.corePart.parts.1.parts.0.parts.0.parts.1.customLabel>Dedo medio izquierdo</Lancer.corePart.parts.1.parts.0.parts.0.parts.1.customLabel>
-  <Lancer.corePart.parts.1.parts.0.parts.0.parts.2.customLabel>Dedo índice izquierdo</Lancer.corePart.parts.1.parts.0.parts.0.parts.2.customLabel>
-  <Lancer.corePart.parts.1.parts.0.parts.0.parts.3.customLabel>Pulgar izquierdo</Lancer.corePart.parts.1.parts.0.parts.0.parts.3.customLabel>
-  <Lancer.corePart.parts.1.parts.0.parts.0.customLabel>Mano izquierda</Lancer.corePart.parts.1.parts.0.parts.0.customLabel>
-  <Lancer.corePart.parts.1.parts.0.customLabel>Brazo izquierdo</Lancer.corePart.parts.1.parts.0.customLabel>
-  <Lancer.corePart.parts.1.customLabel>Hombro izquierdo</Lancer.corePart.parts.1.customLabel>
-  <Lancer.corePart.parts.2.parts.0.parts.0.parts.0.customLabel>Meñique derecho</Lancer.corePart.parts.2.parts.0.parts.0.parts.0.customLabel>
-  <Lancer.corePart.parts.2.parts.0.parts.0.parts.1.customLabel>Dedo corazón derecho</Lancer.corePart.parts.2.parts.0.parts.0.parts.1.customLabel>
-  <Lancer.corePart.parts.2.parts.0.parts.0.parts.2.customLabel>Dedo índice derecho</Lancer.corePart.parts.2.parts.0.parts.0.parts.2.customLabel>
-  <Lancer.corePart.parts.2.parts.0.parts.0.parts.3.customLabel>Pulgar derecho</Lancer.corePart.parts.2.parts.0.parts.0.parts.3.customLabel>
-  <Lancer.corePart.parts.2.parts.0.parts.0.customLabel>Mano derecha</Lancer.corePart.parts.2.parts.0.parts.0.customLabel>
-  <Lancer.corePart.parts.2.parts.0.customLabel>Brazo derecho</Lancer.corePart.parts.2.parts.0.customLabel>
-  <Lancer.corePart.parts.2.customLabel>Hombro mecánico derecho</Lancer.corePart.parts.2.customLabel>
-  <Lancer.corePart.parts.3.parts.0.customLabel>Pie izquierdo</Lancer.corePart.parts.3.parts.0.customLabel>
-  <Lancer.corePart.parts.3.customLabel>Pierna izquierda</Lancer.corePart.parts.3.customLabel>
-  <Lancer.corePart.parts.4.parts.0.customLabel>Pie derecho</Lancer.corePart.parts.4.parts.0.customLabel>
-  <Lancer.corePart.parts.4.customLabel>Pierna derecha</Lancer.corePart.parts.4.customLabel>
-
+  <!-- EN: left sight sensor -->
+  <Lancer.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>Sensor de visión izquierda</Lancer.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <Lancer.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>Sensor de visión derecha</Lancer.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Lancer.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>Sensor auditivo izquierdo</Lancer.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Lancer.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>Sensor auditivo derecho</Lancer.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  <!-- EN: left shoulder -->
+  <Lancer.corePart.parts.left_shoulder.customLabel>Hombro izquierdo</Lancer.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left arm -->
+  <Lancer.corePart.parts.left_shoulder.parts.left_arm.customLabel>Brazo izquierdo</Lancer.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left hand -->
+  <Lancer.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>Mano izquierda</Lancer.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <Lancer.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>Meñique izquierdo</Lancer.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left middle finger -->
+  <Lancer.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>Dedo medio izquierdo</Lancer.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <Lancer.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>Dedo índice izquierdo</Lancer.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <Lancer.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>Pulgar izquierdo</Lancer.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right mechanical shoulder -->
+  <Lancer.corePart.parts.right_mechanical_shoulder.customLabel>Hombro mecánico derecho</Lancer.corePart.parts.right_mechanical_shoulder.customLabel>
+  <!-- EN: right arm -->
+  <Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.customLabel>Brazo derecho</Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right hand -->
+  <Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.customLabel>Mano derecha</Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>Meñique derecho</Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right middle finger -->
+  <Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>Dedo corazón derecho</Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>Dedo índice derecho</Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>Pulgar derecho</Lancer.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <Lancer.corePart.parts.left_leg.customLabel>Pierna izquierda</Lancer.corePart.parts.left_leg.customLabel>
+  <!-- EN: left foot -->
+  <Lancer.corePart.parts.left_leg.parts.left_foot.customLabel>Pie izquierdo</Lancer.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: right leg -->
+  <Lancer.corePart.parts.right_leg.customLabel>Pierna derecha</Lancer.corePart.parts.right_leg.customLabel>
+  <!-- EN: right foot -->
+  <Lancer.corePart.parts.right_leg.parts.right_foot.customLabel>Pie derecho</Lancer.corePart.parts.right_leg.parts.right_foot.customLabel>
+  
+  <!-- EN: mechanical centipede -->
+  <MechanicalCentipede.label>Meca-Centípedo</MechanicalCentipede.label>
+  <!-- EN: left sight sensor -->
+  <MechanicalCentipede.corePart.parts.MechanicalHead.parts.left_sight_sensor.customLabel>Sensor de visión izquierda</MechanicalCentipede.corePart.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <MechanicalCentipede.corePart.parts.MechanicalHead.parts.right_sight_sensor.customLabel>Sensor de visión derecha</MechanicalCentipede.corePart.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <MechanicalCentipede.corePart.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>Sensor auditivo izquierdo</MechanicalCentipede.corePart.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <MechanicalCentipede.corePart.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>Sensor auditivo derecho</MechanicalCentipede.corePart.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  
+  <!-- EN: scyther -->
   <Scyther.label>Segador</Scyther.label>
-  <Scyther.corePart.parts.0.parts.0.parts.1.customLabel>Sensor de visión izquierda</Scyther.corePart.parts.0.parts.0.parts.1.customLabel>
-  <Scyther.corePart.parts.0.parts.0.parts.2.customLabel>Sensor de visión derecha</Scyther.corePart.parts.0.parts.0.parts.2.customLabel>
-  <Scyther.corePart.parts.0.parts.0.parts.3.customLabel>Sensor auditivo izquierdo</Scyther.corePart.parts.0.parts.0.parts.3.customLabel>
-  <Scyther.corePart.parts.0.parts.0.parts.4.customLabel>Sensor auditivo derecho</Scyther.corePart.parts.0.parts.0.parts.4.customLabel>
-  <Scyther.corePart.parts.1.parts.0.parts.0.customLabel>Cuchilla izquierda</Scyther.corePart.parts.1.parts.0.parts.0.customLabel>
-  <Scyther.corePart.parts.1.parts.0.parts.1.parts.0.customLabel>Meñique izquierdo</Scyther.corePart.parts.1.parts.0.parts.1.parts.0.customLabel>
-  <Scyther.corePart.parts.1.parts.0.parts.1.parts.1.customLabel>Dedo medio izquierdo</Scyther.corePart.parts.1.parts.0.parts.1.parts.1.customLabel>
-  <Scyther.corePart.parts.1.parts.0.parts.1.parts.2.customLabel>Dedo índice izquierdo</Scyther.corePart.parts.1.parts.0.parts.1.parts.2.customLabel>
-  <Scyther.corePart.parts.1.parts.0.parts.1.parts.3.customLabel>Pulgar izquierdo</Scyther.corePart.parts.1.parts.0.parts.1.parts.3.customLabel>
-  <Scyther.corePart.parts.1.parts.0.parts.1.customLabel>Mano izquierda</Scyther.corePart.parts.1.parts.0.parts.1.customLabel>
-  <Scyther.corePart.parts.1.parts.0.customLabel>Brazo izquierdo</Scyther.corePart.parts.1.parts.0.customLabel>
-  <Scyther.corePart.parts.1.customLabel>Hombro izquierdo</Scyther.corePart.parts.1.customLabel>
-  <Scyther.corePart.parts.2.parts.0.parts.0.customLabel>Cuchilla derecha</Scyther.corePart.parts.2.parts.0.parts.0.customLabel>
-  <Scyther.corePart.parts.2.parts.0.parts.1.parts.0.customLabel>Meñique derecho</Scyther.corePart.parts.2.parts.0.parts.1.parts.0.customLabel>
-  <Scyther.corePart.parts.2.parts.0.parts.1.parts.1.customLabel>Dedo corazón derecho</Scyther.corePart.parts.2.parts.0.parts.1.parts.1.customLabel>
-  <Scyther.corePart.parts.2.parts.0.parts.1.parts.2.customLabel>Dedo índice derecho</Scyther.corePart.parts.2.parts.0.parts.1.parts.2.customLabel>
-  <Scyther.corePart.parts.2.parts.0.parts.1.parts.3.customLabel>Pulgar derecho</Scyther.corePart.parts.2.parts.0.parts.1.parts.3.customLabel>
-  <Scyther.corePart.parts.2.parts.0.parts.1.customLabel>Mano derecha</Scyther.corePart.parts.2.parts.0.parts.1.customLabel>
-  <Scyther.corePart.parts.2.parts.0.customLabel>Brazo derecho</Scyther.corePart.parts.2.parts.0.customLabel>
-  <Scyther.corePart.parts.2.customLabel>Hombro derecho</Scyther.corePart.parts.2.customLabel>
-  <Scyther.corePart.parts.3.parts.0.customLabel>Pie izquierdo</Scyther.corePart.parts.3.parts.0.customLabel>
-  <Scyther.corePart.parts.3.customLabel>Pierna izquierda</Scyther.corePart.parts.3.customLabel>
-  <Scyther.corePart.parts.4.parts.0.customLabel>Pie derecho</Scyther.corePart.parts.4.parts.0.customLabel>
-  <Scyther.corePart.parts.4.customLabel>Pierna derecha</Scyther.corePart.parts.4.customLabel>
-
+  <!-- EN: left sight sensor -->
+  <Scyther.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>Sensor de visión izquierda</Scyther.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <Scyther.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>Sensor de visión derecha</Scyther.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Scyther.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>Sensor auditivo izquierdo</Scyther.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Scyther.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>Sensor auditivo derecho</Scyther.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  <!-- EN: left shoulder -->
+  <Scyther.corePart.parts.left_shoulder.customLabel>Hombro izquierdo</Scyther.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left arm -->
+  <Scyther.corePart.parts.left_shoulder.parts.left_arm.customLabel>Brazo izquierdo</Scyther.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left blade -->
+  <Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_blade.customLabel>Cuchilla izquierda</Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_blade.customLabel>
+  <!-- EN: left hand -->
+  <Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>Mano izquierda</Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>Meñique izquierdo</Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left middle finger -->
+  <Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>Dedo medio izquierdo</Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>Dedo índice izquierdo</Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>Pulgar izquierdo</Scyther.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right shoulder -->
+  <Scyther.corePart.parts.right_shoulder.customLabel>Hombro derecho</Scyther.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right arm -->
+  <Scyther.corePart.parts.right_shoulder.parts.right_arm.customLabel>Brazo derecho</Scyther.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right blade -->
+  <Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_blade.customLabel>Cuchilla derecha</Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_blade.customLabel>
+  <!-- EN: right hand -->
+  <Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>Mano derecha</Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>Meñique derecho</Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right middle finger -->
+  <Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>Dedo corazón derecho</Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>Dedo índice derecho</Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>Pulgar derecho</Scyther.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <Scyther.corePart.parts.left_leg.customLabel>Pierna izquierda</Scyther.corePart.parts.left_leg.customLabel>
+  <!-- EN: left foot -->
+  <Scyther.corePart.parts.left_leg.parts.left_foot.customLabel>Pie izquierdo</Scyther.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: right leg -->
+  <Scyther.corePart.parts.right_leg.customLabel>Pierna derecha</Scyther.corePart.parts.right_leg.customLabel>
+  <!-- EN: right foot -->
+  <Scyther.corePart.parts.right_leg.parts.right_foot.customLabel>Pie derecho</Scyther.corePart.parts.right_leg.parts.right_foot.customLabel>
+  
 </LanguageData>
