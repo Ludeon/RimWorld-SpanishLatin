@@ -63,7 +63,7 @@
 		<li>damaged_past->inundado</li>
 		<li>damaged_past->espumeado</li><!-- foamed -->
 		<li>damaged_past->aplacado</li><!-- quenched -->
-		<li>destroyed_past->dañado</li>
+		<li>destroyed_past->damaged_past</li>
 	</Damage_Extinguish.rulePack.rulesStrings>
 
 	<Damage_Stun.rulePack.rulesStrings>
@@ -71,21 +71,21 @@
 		<li>damaged_past->confundido</li>
 		<li>damaged_past->detenido</li>
 		<li>damaged_past->mareado</li>
-		<li>destroyed_past->dañado</li>
+		<li>destroyed_past->damaged_past</li>
 	</Damage_Stun.rulePack.rulesStrings>
 
 	<Damage_EMP.rulePack.rulesStrings>
 		<li>damaged_past->electrificado</li>
 		<li>damaged_past->conmocionado</li>
 		<li>damaged_past->frito por corriente</li><!-- zapped -->
-		<li>destroyed_past->dañado</li>
+		<li>destroyed_past->damaged_past</li>
 	</Damage_EMP.rulePack.rulesStrings>
 
 	<Damage_Smoke.rulePack.rulesStrings>
 		<li>damaged_past->ahumado</li>
 		<li>damaged_past->empañado</li><!-- fogged -->
 		<li>damaged_past->nublado</li>
-		<li>destroyed_past->dañado</li>
+		<li>destroyed_past->damaged_past</li>
 	</Damage_Smoke.rulePack.rulesStrings>
 
 

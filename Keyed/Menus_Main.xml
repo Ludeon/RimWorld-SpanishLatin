@@ -3,9 +3,9 @@
 
   <!-- Main menu -->
   <!-- EN: Tutorial -->
-  <Tutorial>Aprender a jugar</Tutorial>
+  <Tutorial>Tutorial</Tutorial>
   <!-- EN: New colony -->
-  <NewColony>Fundar Colonia</NewColony>
+  <NewColony>Nueva colonia</NewColony>
   <!-- EN: Back to game -->
   <BackToGame>Volver al juego</BackToGame>
   <!-- EN: Review scenario -->
@@ -21,11 +21,11 @@
   <!-- EN: Save translation report -->
   <SaveTranslationReport>Guardar informe de traducción</SaveTranslationReport>
   <!-- EN: Generating translation report -->
-  <GeneratingTranslationReport>Generar informe de traducción</GeneratingTranslationReport>
+  <GeneratingTranslationReport>Generando informe de traducción</GeneratingTranslationReport>
   <!-- EN: Cleanup translation files -->
-  <CleanupTranslationFiles>Limpieza de archivos de traducción</CleanupTranslationFiles>
+  <CleanupTranslationFiles>Limpiar archivos de traducción</CleanupTranslationFiles>
   <!-- EN: Cleaning translation files -->
-  <CleaningTranslationFiles>Limpieza de los archivos de traducción</CleaningTranslationFiles>
+  <CleaningTranslationFiles>Limpiando archivos de traducción</CleaningTranslationFiles>
   <!-- EN: Credits -->
   <Credits>Créditos</Credits>
   <!-- EN: Quit to main menu -->
@@ -57,7 +57,7 @@
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>Todas las traducciones de RimWorld están hechas por fans. Esta traducción hecha por fans fue creada por los siguientes excelentes voluntarios.</TranslationThanks>
+  <TranslationThanks>Todas las traducciones de RimWorld están hechas por fans. Esta traducción hecha por fans fue creada por los siguientes excelentes voluntarios\n\n{0}</TranslationThanks>
   <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
   <TranslationHowToContribute>Usted también puede contribuir. Haga clic a continuación para obtener más información (abre el navegador web).</TranslationHowToContribute>
   <!-- EN: Learn more -->
@@ -225,17 +225,17 @@
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>Sólo se puede guardar cuando se abandona el juego.\n\nDado que RimWorld es un generador de historias, incluso perder a todos menos a una persona no es el final del juego - es parte de la historia.  El juego está diseñado para permitir la recuperación después de las pérdidas.\n\nRepresentar estas terribles situaciones hace una historia tanto con tragedia como con triunfo.  Es la forma en que RimWorld fue diseñado para jugarse.\n\nHay una razón por la que Luke Skywalker no se retiró y se recuperó cuando sus padres murieron - ¡la pérdida y la recuperación son dramáticas!</PermadeathModeInfo>
   <!-- EN: Storyteller and difficulty can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>El narrador y la dificultad pueden ser cambiados en cualquier momento.</CanChangeStorytellerSettingsDuringPlay>
+  <CanChangeStorytellerSettingsDuringPlay>Narrador y dificultad pueden ser cambiados en cualquier momento.</CanChangeStorytellerSettingsDuringPlay>
   <!-- EN: Merciless mode -->
   <UnlockExtremeDifficulty>Modo despiadado</UnlockExtremeDifficulty>
   <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
-  <ConfirmUnlockExtremeDifficulty>El modo despiadado es un modo de juego especial en el que cada desafío se eleva a niveles extremos.\n\nModo despiadado desbloquea automáticamente cuando se alcanzan hitos específicos. Sin embargo, puede desbloquearlo ahora. \n\nEsta opción sólo se recomienda una vez que ha jugado un juego de alta dificultad y quiere tener una buena oportunidad de morir a pesar de sus mejores esfuerzos.</ConfirmUnlockExtremeDifficulty>
+  <ConfirmUnlockExtremeDifficulty>El modo despiadado es un modo de juego especial en el que cada desafío se eleva a niveles extremos.\n\nModo despiadado desbloquea automáticamente cuando se alcanzan hitos específicos. Sin embargo, puede desbloquearlo ahora.\n\nEsta opción sólo se recomienda una vez que ha jugado un juego de alta dificultad y quiere tener una buena oportunidad de morir a pesar de sus mejores esfuerzos.</ConfirmUnlockExtremeDifficulty>
 
   <!-- Landing site select -->
   <!-- EN: Select landing site -->
   <SelectLandingSite>Selecciona un lugar de aterrizaje</SelectLandingSite>
   <!-- EN: Select random site -->
-  <SelectRandomSite>Seleccionar un lugar al azar</SelectRandomSite>
+  <SelectRandomSite>Selec. un lugar al azar</SelectRandomSite>
   <!-- EN: Select site -->
   <SelectSite>Seleccionar lugar</SelectSite>
   <!-- EN: Please select a landing site. -->
@@ -281,7 +281,7 @@
   <!-- EN: western coast -->
   <HasCoast3>Costa al oeste</HasCoast3>
   <!-- EN: caves -->
-  <HasCaves>cavernas</HasCaves>
+  <HasCaves>cuevas</HasCaves>
   <!-- EN: Faction base -->
   <FactionBase>Asentamiento de facción</FactionBase>
   <!-- EN: Stone types -->
@@ -303,7 +303,7 @@
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
-  <CreateCharacters>Crea los personajes</CreateCharacters>
+  <CreateCharacters>Crear personajes</CreateCharacters>
   <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
   <FirstNameDesc>El nombre del personaje.\n\nEste solo se mostrará en ciertos menús.</FirstNameDesc>
   <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
@@ -325,7 +325,7 @@
   <!-- EN: Skills -->
   <Skills>Habilidades</Skills>
   <!-- EN: none -->
-  <NoneLower>Ninguna</NoneLower>
+  <NoneLower>ninguno</NoneLower>
   <!-- EN: Adulthood -->
   <Adulthood>Adultez</Adulthood>
   <!-- EN: Childhood -->
@@ -333,13 +333,13 @@
   <!-- EN: Current -->
   <Current>Actual</Current>
   <!-- EN: male -->
-  <Male>Masculino</Male>
+  <Male>masculino</Male>
   <!-- EN: female -->
-  <Female>Femenino</Female>
+  <Female>femenino</Female>
   <!-- EN: male -->
-  <MaleAnimal>Macho</MaleAnimal>
+  <MaleAnimal>macho</MaleAnimal>
   <!-- EN: female -->
-  <FemaleAnimal>Hembra</FemaleAnimal>
+  <FemaleAnimal>hembra</FemaleAnimal>
   <!-- EN: Pain -->
   <Pain>Dolor</Pain>
   <!-- EN: Health -->
@@ -383,6 +383,6 @@
   <!-- EN: Generating map -->
   <GeneratingMap>Generando mapa</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
-  <GeneratingMapForNewEncounter>Generando mapa de encuentro</GeneratingMapForNewEncounter>
+  <GeneratingMapForNewEncounter>Generando mapa para nuevo encuentro</GeneratingMapForNewEncounter>
 
 </LanguageData>
