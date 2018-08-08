@@ -68,7 +68,7 @@
   <!-- EN: {0} successfully tamed {1} ({2} chance). -->
   <MessageTameSuccess>{0} ha domesticado con éxito un(a) {1} (probabilidad del {2}).</MessageTameSuccess>
   <!-- EN: {0} successfully tamed {1} ({2} chance) and named [PAWN_objective] {3}. -->
-  <MessageTameAndNameSuccess>{0} ha domesticado con éxito un(a) {1} (probabilidad del {2}) y le ha nombrado {3}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{0} ha domesticado con éxito un(a) {1} (probabilidad del {2}) y [PAWN_objective] ha nombrado {3}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>La colonia no puede costear ésto.</MessageColonyCannotAfford>
@@ -289,7 +289,7 @@
   <MessagePermanentWoundHealed>Debido a {1} el/la {2} ha sanado. Causa: {0}</MessagePermanentWoundHealed>
 
   <!-- EN: Since you rescued [PAWN_objective], {0} has joined your group! -->
-  <MessageRescueeJoined>Como le rescataste, {0} ha decidio unirse a tu asentamiento.</MessageRescueeJoined>
+  <MessageRescueeJoined>Como [PAWN_objective] rescataste, {0} ha decidio unirse a tu asentamiento.</MessageRescueeJoined>
   
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>No se puede llegar hasta algunas de las cápsulas de transporte.</MessageTransporterUnreachable>
