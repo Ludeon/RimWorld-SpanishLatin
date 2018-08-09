@@ -81,7 +81,7 @@
   <!-- EN: no food -->
   <NoFood>sin comida</NoFood>
   <!-- EN: animals skill too low - need {0} -->
-  <AnimalsSkillTooLow>Habilidad del animal demasiado baja</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>Habilidad del animal demasiado baja - necesitas {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
   <CantInteractAnimalDowned>animal sacrificado</CantInteractAnimalDowned>
   <!-- EN: animal sleeping -->
@@ -254,7 +254,7 @@
   <!-- EN: not injured -->
   <NotInjured>No está herido</NotInjured>
   <!-- EN: occupied by {0} -->
-  <SomeoneElseSleeping>Ocupado</SomeoneElseSleeping>
+  <SomeoneElseSleeping>ocupado por {0}</SomeoneElseSleeping>
   
   <!-- EN: Trade with {0} -->
   <TradeWith>Comerciar con {0}</TradeWith>
@@ -262,7 +262,7 @@
   <CannotTrade>No puede comerciar</CannotTrade>
   
   <!-- EN: Enter {0} -->
-  <EnterMap>Entrar {0}</EnterMap>
+  <EnterMap>Entrar a {0}</EnterMap>
   <!-- EN: Visit {0} -->
   <VisitSettlement>Visitar {0}</VisitSettlement>
   <!-- EN: Visit {0} -->
@@ -286,7 +286,7 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
-  <CannotGenericWork>No puede {0}</CannotGenericWork>
+  <CannotGenericWork>No puede {0} {1}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>No puede {0}</CannotGenericWorkCustom>
 
@@ -295,7 +295,7 @@
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {1} -->
-  <CannotGenericAlreadyAm>Ya se está {0}</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>Ya se está {0} {1}</CannotGenericAlreadyAm>
 
   <!-- EN: Cannot prioritize (will never do {0}) -->
   <CannotPrioritizeWorkTypeDisabled>No se puede priorizar (nunca hará {0})</CannotPrioritizeWorkTypeDisabled>

@@ -150,7 +150,7 @@
   
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. [PAWN_possessive] title is {1}. -->
-  <PawnGainsName>El nuevo apodo de este colono es {0}.</PawnGainsName>
+  <PawnGainsName>El nuevo apodo de este colono es {0}. [PAWN_possessive] titulo es {1}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>El nombre del animal ahora es {0}.</AnimalGainsName>
 
@@ -234,7 +234,7 @@
   <!-- EN: SUSPENDED -->
   <SuspendedAllCaps>SUSPENDIDO</SuspendedAllCaps>
   <!-- EN: Repeat: -->
-  <RepeatCount>Repetir: {0}</RepeatCount>
+  <RepeatCount>Repetir: </RepeatCount>
   <!-- EN: Forever -->
   <Forever>Para siempre</Forever>
   <!-- EN: Details -->
@@ -267,9 +267,9 @@
   <!-- EN: Requires {0} nutrition -->
   <BillRequiresNutrition>Requiere {0} de nutrición</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>Nota: Los ingredientes de bajo volúmen requerirán 20x la cantidad usual.</BillRequiresMayVary>
+  <BillRequiresMayVary>Nota: Los ingredientes de bajo volúmen requerirán {0}x la cantidad usual.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>Este es un ingrediente de bajo volúmen. Significa que cada 'unidad' será tan solo 1/20 parte de lo que sería un ingrediente normal. Por lo tanto, requerirás 20x la cantidad usual.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Este es un ingrediente de bajo volúmen. Significa que cada 'unidad' será tan solo 1/{0} parte de lo que sería un ingrediente normal. Por lo tanto, requerirás {0}x la cantidad usual.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>ingredientes</UsableIngredients>
   <!-- EN: To {0} -->
@@ -517,11 +517,11 @@
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Debes asignar al menos un colono consciente.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
-  <CaravanCouldNotFindExitSpot>No se pudo encontrar ninguna dirección de salida válida.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindExitSpot>La ubicación de salida elegida ({0}) es inaccesible.</CaravanCouldNotFindExitSpot>
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
   <CaravanCouldNotFindPackingSpot>La caravana no pudo encontrar el lugar donde empacar. Asegúrese de que la ubicación de salida elegida ({0}) es accesible.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
-  <CaravanCouldNotFindReachableExitSpot>Peligro: algunos de los colonos asignados son incapaces de llegar al lugar de salida.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Peligro: algunos de los colonos asignados son incapaces de llegar al lugar de salida ({0}).</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {0} is unreachable by any of the assigned colonists. -->
   <CaravanPawnIsUnreachable>Ninguno de los colonos asignados puede llegar hasta {0}.</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
@@ -613,13 +613,13 @@
   <!-- EN: Animals can graze -->
   <AnimalsCanGraze>Los animales pueden pastar</AnimalsCanGraze>
   <!-- EN: (for {0} more days) -->
-  <PossibleToGrazeFor>(por {0} mas días)</PossibleToGrazeFor>
+  <PossibleToGrazeFor>(por {0} días mas)</PossibleToGrazeFor>
   <!-- EN: (forever) -->
   <PossibleToGrazeForever>(siempre)</PossibleToGrazeForever>
   <!-- EN: ({0}) -->
   <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
-  <CantGrazeBecauseOfTemp>(demasiado frío para {0} mas días)</CantGrazeBecauseOfTemp>
+  <CantGrazeBecauseOfTemp>(demasiado frío para {0} días mas)</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
   <TotalNutrition>Nutrición total</TotalNutrition>
   <!-- EN: Not moving -->

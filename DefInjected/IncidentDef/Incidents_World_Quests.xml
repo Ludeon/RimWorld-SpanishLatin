@@ -13,7 +13,7 @@
   <!-- EN: Incapacitated refugee quest -->
   <Quest_DownedRefugee.letterLabel>Refugiado discapacitado</Quest_DownedRefugee.letterLabel>
   <!-- EN: [PAWN_nameDef] contacts you and requests help. [PAWN_pronoun] is wounded and unable to move. Without your help, [PAWN_pronoun] will die in {0} days.\n\n[PAWN_nameDef] is a {1}-year-old {2}. [PAWN_pronoun] promises to join you if you rescue [PAWN_objective].\n\n[PAWN_nameDef] says that {3}. -->
-  <Quest_DownedRefugee.letterText>[PAWN_nameDef] Nos contacta por radio y solicita nuestra ayuda. [PAWN_pronoun] está herido(a) e incapaz de moverse. Sin tu ayuda, [PAWN_pronoun] morirá en {0} días.\n\n[PAWN_nameDef] tiene {1} años y es un/a {2}. [PAWN_pronoun] promete unirse a ustedes si logras rescatarlo/a.\n\nPuede ser peligroso allí, así que ten cuidado.</Quest_DownedRefugee.letterText>
+  <Quest_DownedRefugee.letterText>[PAWN_nameDef] Nos contacta por radio y solicita nuestra ayuda. [PAWN_pronoun] está herido(a) e incapaz de moverse. Sin tu ayuda, [PAWN_pronoun] morirá en {0} días.\n\n[PAWN_nameDef] tiene {1} años y es un/a {2}. [PAWN_pronoun] promete unirse a ustedes si logras rescatar[PAWN_objective].\n\nPuede ser peligroso allí, así que ten cuidado.</Quest_DownedRefugee.letterText>
   
   <!-- EN: item stash quest -->
   <Quest_ItemStash.label>almacén con artilugios</Quest_ItemStash.label>
@@ -44,7 +44,7 @@
   <!-- EN: Prisoner rescue quest -->
   <Quest_PrisonerRescue.letterLabel>Rescate de prisionero</Quest_PrisonerRescue.letterLabel>
   <!-- EN: A prisoner being held by {0} has managed to steal a radio and call you!\n\n[PAWN_nameDef] is being held at a camp nearby under armed guard. Rescue [PAWN_objective], and [PAWN_pronoun] will join your colony. [PAWN_pronoun] is a {1}-year-old {2}. [PAWN_pronoun] says that {3}. -->
-  <Quest_PrisonerRescue.letterText>Un prisionero capturado por {0} consiguió robar una radio y llamarte.\n\n[PAWN_nameDef] está siendo retenido en un campamento cercano bajo custodia armada. Rescate [PAWN_objective], y [PAWN_pronoun] se unirá a tu colonia. [PAWN_pronoun] tiene {1} años y es {2}.</Quest_PrisonerRescue.letterText>
+  <Quest_PrisonerRescue.letterText>Un prisionero capturado por {0} consiguió robar una radio y llamarte.\n\n[PAWN_nameDef] está siendo retenido en un campamento cercano bajo custodia armada. Rescate[PAWN_objective], y [PAWN_pronoun] se unirá a tu colonia. [PAWN_pronoun] tiene {1} años y es {2}.</Quest_PrisonerRescue.letterText>
   
   <!-- EN: trade request -->
   <Quest_TradeRequest.label>solicitud de comercio</Quest_TradeRequest.label>

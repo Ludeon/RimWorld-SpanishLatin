@@ -2,11 +2,11 @@
 <LanguageData>
 
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanitySingle>Animal loco</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>{0} loco</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {0} has gone mad. It will attack everyone it sees. -->
   <AnimalInsanitySingle>Un {0} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanityMultiple>¡Animales locos!</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>¡{0}s locos!</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
   <AnimalInsanityMultiple>Algún tipo de onda psíquica ha barrido la zona. Tus colonos están bien, pero...\n\nParece que muchas de las(os)  {0} en el área se han vuelto locos.</AnimalInsanityMultiple>
 
@@ -35,7 +35,7 @@
   <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>[PAWN_nameDef] no está afiliado(a) a ninguna facción. Puedes rescatar[PAWN_objective] y esperar que [PAWN_pronoun] se una libremente, o capturar[PAWN_objective] para fines de reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
   <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>[PAWN_nameDef] es enemigo y proviene de [PAWN_factionName]. Puede capturar [PAWN_objective] para fines de reclutamiento o esclavitud..</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>[PAWN_nameDef] es enemigo y proviene de [PAWN_factionName]. Puedes capturar[PAWN_objective] para fines de reclutamiento o esclavitud.</RefugeePodCrash_Hostile>
   <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
   <RefugeePodCrash_NonHostile>[PAWN_nameDef] es de [PAWN_factionName]. Capturar[PAWN_objective] los enfadará, mientras que si [PAWN_objective] rescatas y curas, mejorará las relaciones entre las facciones.</RefugeePodCrash_NonHostile>
 
@@ -58,7 +58,7 @@
   <ShortCircuitWasHuge>Eso si que ha sido una explosión de verdad. Guau.</ShortCircuitWasHuge>
 
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}. -->
-  <TraderArrival>Hay una nave comercial en las cercanías.\n\nSe les conoce como {0}. Son {1}.</TraderArrival>
+  <TraderArrival>Hay una nave comercial en las cercanías.\n\nSe les conoce como {0}. Ellos son {1}.</TraderArrival>
 
   <!-- EN: A {0} from {1} is passing by. [PAWN_pronoun] is named {2}. -->
   <SingleTravelerPassing>Un {0} de {1} está de paso por la zona. [PAWN_pronoun] se llama {2}.</SingleTravelerPassing>
@@ -130,7 +130,7 @@
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>Refugiado perseguido(a) por {0}</RefugeeChasedTitle>
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>Un [PAWN_title] llamado [PAWN_nameDef] le llama desde la cercanía. [PAWN_pronoun] esta siendo perseguido(a) por {2} de {3}\n\n[PAWN_pronoun] ruega por seguridad y se ofrece a unirse a su colonia. [PAWN_pronoun] le dice que biologicamente tiene {4} años, pero no hay tiempo para obtener más información.\n\nEsté alerta, si usted acepta, tendrá que luchar contra los {2} que len van pisando los talones. Su grupo está compuesto por:\n\n{5}</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Un [PAWN_title] llamado [PAWN_nameDef] te llama desde la cercanía. [PAWN_pronoun] esta siendo perseguido(a) por {2} de {3}\n\n[PAWN_pronoun] ruega por seguridad y se ofrece a unirse a su colonia. [PAWN_pronoun] te dice que biologicamente tiene {4} años, pero no hay tiempo para obtener más información.\n\nEsté alerta, si usted acepta, tendrá que luchar contra los {2} que len van pisando los talones. Su grupo está compuesto por:\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Oferta de salvamento</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
@@ -170,7 +170,7 @@
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demanda de rescate a {0}</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {0} for ransom.\n\nThey're willing to release [PAWN_objective] back to you in exchange for {2} silver. -->
-  <RansomDemand>{1} te contacta por radio. Tienen secuestrado(a) a {0}.\n\nEstán dispuestos a regresarle a cambio de {2} de plata.</RansomDemand>
+  <RansomDemand>{1} te contacta por radio. Tienen secuestrado(a) a {0}.\n\nEstán dispuestos a regresar[PAWN_objective] a cambio de {2} de plata.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Aceptar</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -192,7 +192,7 @@
   <!-- EN: Caravan meeting by {0} -->
   <CaravanMeetingTitle>Encuentro de caravana con {0}</CaravanMeetingTitle>
   <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
-  <CaravanMeeting>Tu caravana se he encontrado con otra proveniente de {0}. La otra caravana está compuesta por:\n\n{1}</CaravanMeeting>
+  <CaravanMeeting>{0} se he encontrado con otra proveniente de {1}. La otra caravana está compuesta por:\n\n{2}</CaravanMeeting>
   <!-- EN: Trade -->
   <CaravanMeeting_Trade>Comerciar</CaravanMeeting_Trade>
   <!-- EN: Attack -->
@@ -216,7 +216,7 @@
   <!-- EN: Caravan demand by {0} -->
   <CaravanDemandTitle>Demanda de caravanas de {0}</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>Tu caravana ha sido emboscada por un grupo de {1}. Ellos atacarán a menos que les des:\n\n{3}</CaravanDemand>
+  <CaravanDemand>Tu caravana {0} ha sido emboscada por un grupo de {2} {4} de {1}. Ellos atacarán a menos que les des:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
   <CaravanDemand_Give>Dar y pasar</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->
