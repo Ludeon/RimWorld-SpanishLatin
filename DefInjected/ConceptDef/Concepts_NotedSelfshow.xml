@@ -9,7 +9,7 @@
   <!-- EN: Allowed areas -->
   <AllowedAreas.label>Áreas permitidas</AllowedAreas.label>
   <!-- EN: Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the RESTRICT tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab. -->
-  <AllowedAreas.helpText>Los colonos y los animales domésticos pueden ser asignados a ÁREAS PERMITIDAS. Ésto les prohibe salir del área.\n\nÉsto se puede usar, por ejemplo, para evitar que un colono salga de un edificio o de la base.\n\nPuedes crear múltiples áreas asignables y asignar diferentes colonos y animales.\n\nCrea, borra y asigna éstas áreas en el menú POLÍTICAS.</AllowedAreas.helpText>
+  <AllowedAreas.helpText>Los colonos y los animales domésticos pueden ser asignados a ÁREAS PERMITIDAS. Ésto les prohibe salir del área.\n\nÉsto se puede usar, por ejemplo, para evitar que un colono salga de un edificio o de la base.\n\nPuedes crear múltiples áreas asignables y asignar diferentes colonos y animales.\n\nCrea, borra y asigna éstas áreas en el menú POLÍTICAS.\n\nPinte las áreas permitidas en el mapa utilizando los indicadores EXPANDIR ÁREA PERMITIDA y BORRAR ÁREA PERMITIDA en la ficha Arquitecto.</AllowedAreas.helpText>
   
   <!-- EN: Animal taming -->
   <AnimalTaming.label>Domesticación animal</AnimalTaming.label>
@@ -157,7 +157,7 @@
   <!-- EN: Storage tab -->
   <StorageTab.label>Opciones de almacenaje</StorageTab.label>
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
-  <StorageTab.helpText>Puedes configurar los almacenes y estructuras de almacenamiento seleccionándolos y abriendo la pestaña de OPCIONES en la parte izquierda, justo encima del panel de inspección.</StorageTab.helpText>
+  <StorageTab.helpText>Puedes configurar los almacenes y estructuras de almacenamiento seleccionándolos y abriendo la pestaña de OPCIONES en la parte izquierda, justo encima del panel de inspección.\n\nEn la ficha Almacenamiento de una reserva, puede ampliar las categorías para permitir o denegar elementos específicos. Haga clic en los triángulos a la izquierda de los nombres de las categorías.\n\nPuede cambiar la PRIORIDAD de almacenamiento. Los colonos llenarán primero el almacenamiento de mayor prioridad y moverán los artículos de menor a mayor prioridad. </StorageTab.helpText>
   
   <!-- EN: Time assignments -->
   <TimeAssignments.label>Asignaciones de horario</TimeAssignments.label>
@@ -167,7 +167,7 @@
   <!-- EN: Time controls -->
   <TimeControls.label>Controles de tiempo</TimeControls.label>
   <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
-  <TimeControls.helpText>Puedes acelerar, ralentizar o pausar el tiempo usando los controles de la parte inferior derecha o apretando las teclas 1,2,3 y espacio.</TimeControls.helpText>
+  <TimeControls.helpText>Puedes acelerar, ralentizar o pausar el tiempo usando los controles de la parte inferior derecha o apretando las teclas {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, y {Key:TimeSpeed_Superfast} o con los controles de tiempo en la parte inferior derecha.</TimeControls.helpText>
   
   <!-- EN: Work settings -->
   <WorkTab.label>Opciones de trabajo</WorkTab.label>
