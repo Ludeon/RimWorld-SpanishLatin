@@ -11,7 +11,7 @@
   <!-- EN: build roofs -->
   <BuildRoofs.label>construir techos</BuildRoofs.label>
   <!-- EN: building roof -->
-  <BuildRoofs.gerund>construyendo</BuildRoofs.gerund>
+  <BuildRoofs.gerund>construyendo techo</BuildRoofs.gerund>
   <!-- EN: build roof -->
   <BuildRoofs.verb>construir</BuildRoofs.verb>
   
@@ -37,18 +37,18 @@
   <CleanFilth.verb>limpiar</CleanFilth.verb>
   
   <!-- EN: deliver resources to blueprints -->
-  <ConstructDeliverResourcesToBlueprints.label>acarreo de recursos para construir muebles</ConstructDeliverResourcesToBlueprints.label>
+  <ConstructDeliverResourcesToBlueprints.label>transporte de recursos a anteproyectos</ConstructDeliverResourcesToBlueprints.label>
   <!-- EN: working on -->
-  <ConstructDeliverResourcesToBlueprints.gerund>acarreando</ConstructDeliverResourcesToBlueprints.gerund>
+  <ConstructDeliverResourcesToBlueprints.gerund>transportando</ConstructDeliverResourcesToBlueprints.gerund>
   <!-- EN: work on -->
-  <ConstructDeliverResourcesToBlueprints.verb>acarrear</ConstructDeliverResourcesToBlueprints.verb>
+  <ConstructDeliverResourcesToBlueprints.verb>transportar</ConstructDeliverResourcesToBlueprints.verb>
   
   <!-- EN: deliver resources to frames -->
-  <ConstructDeliverResourcesToFrames.label>acarreo de recursos para construir edificios</ConstructDeliverResourcesToFrames.label>
+  <ConstructDeliverResourcesToFrames.label>transporte de recursos para construir edificios</ConstructDeliverResourcesToFrames.label>
   <!-- EN: working on -->
-  <ConstructDeliverResourcesToFrames.gerund>acarreando</ConstructDeliverResourcesToFrames.gerund>
+  <ConstructDeliverResourcesToFrames.gerund>transportando</ConstructDeliverResourcesToFrames.gerund>
   <!-- EN: work on -->
-  <ConstructDeliverResourcesToFrames.verb>acarrear</ConstructDeliverResourcesToFrames.verb>
+  <ConstructDeliverResourcesToFrames.verb>transportar</ConstructDeliverResourcesToFrames.verb>
   
   <!-- EN: construct placed frames -->
   <ConstructFinishFrames.label>construir objetos</ConstructFinishFrames.label>
@@ -72,7 +72,7 @@
   <ConstructSmoothFloors.verb>alisar</ConstructSmoothFloors.verb>
   
   <!-- EN: smooth walls -->
-  <ConstructSmoothWalls.label>alisar muro</ConstructSmoothWalls.label>
+  <ConstructSmoothWalls.label>alisar paredes</ConstructSmoothWalls.label>
   <!-- EN: smoothing -->
   <ConstructSmoothWalls.gerund>alisando</ConstructSmoothWalls.gerund>
   <!-- EN: smooth -->
@@ -149,11 +149,11 @@
   <DoBillsCremate.verb>cremar a</DoBillsCremate.verb>
   
   <!-- EN: fabricate things -->
-  <DoBillsFabricationBench.label>fabricar piezas</DoBillsFabricationBench.label>
+  <DoBillsFabricationBench.label>fabricar cosas</DoBillsFabricationBench.label>
   <!-- EN: fabricating things at -->
   <DoBillsFabricationBench.gerund>fabricando</DoBillsFabricationBench.gerund>
   <!-- EN: fabricating things -->
-  <DoBillsFabricationBench.verb>fabricar piezas</DoBillsFabricationBench.verb>
+  <DoBillsFabricationBench.verb>fabricar cosas</DoBillsFabricationBench.verb>
   
   <!-- EN: do bills at campfire -->
   <DoBillsHaulCampfire.label>hacer las tareas en la hoguera</DoBillsHaulCampfire.label>
@@ -258,7 +258,7 @@
   <!-- EN: rescuing -->
   <DoctorRescue.gerund>rescatando</DoctorRescue.gerund>
   <!-- EN: rescue -->
-  <DoctorRescue.verb>rescatar a</DoctorRescue.verb>
+  <DoctorRescue.verb>rescatar</DoctorRescue.verb>
   
   <!-- EN: tend to patients with urgent needs -->
   <DoctorTendEmergency.label>dar tratamiento de emergencia</DoctorTendEmergency.label>
@@ -359,18 +359,18 @@
   <HandlingFeedPatientAnimals.verb>alimentar</HandlingFeedPatientAnimals.verb>
   
   <!-- EN: haul corpses -->
-  <HaulCorpses.label>acarrear cadáveres</HaulCorpses.label>
+  <HaulCorpses.label>transportar cadáveres</HaulCorpses.label>
   <!-- EN: hauling -->
-  <HaulCorpses.gerund>acarreando</HaulCorpses.gerund>
+  <HaulCorpses.gerund>transportando</HaulCorpses.gerund>
   <!-- EN: haul -->
-  <HaulCorpses.verb>acarrear</HaulCorpses.verb>
+  <HaulCorpses.verb>transportar</HaulCorpses.verb>
   
   <!-- EN: haul general things -->
-  <HaulGeneral.label>acarreo de objetos</HaulGeneral.label>
+  <HaulGeneral.label>transporte de objetos</HaulGeneral.label>
   <!-- EN: hauling -->
-  <HaulGeneral.gerund>acarreando</HaulGeneral.gerund>
+  <HaulGeneral.gerund>transportando</HaulGeneral.gerund>
   <!-- EN: haul -->
-  <HaulGeneral.verb>acarrear</HaulGeneral.verb>
+  <HaulGeneral.verb>transportar</HaulGeneral.verb>
   
   <!-- EN: merge things -->
   <HaulMerge.label>mezclar los objetos</HaulMerge.label>
@@ -387,7 +387,7 @@
   <HelpGatheringItemsForCaravan.verb>cargar</HelpGatheringItemsForCaravan.verb>
   
   <!-- EN: hunt -->
-  <HunterHunt.label>cazar animales</HunterHunt.label>
+  <HunterHunt.label>cazar</HunterHunt.label>
   <!-- EN: hunting -->
   <HunterHunt.gerund>cazando</HunterHunt.gerund>
   <!-- EN: hunt -->
@@ -417,16 +417,16 @@
   <!-- EN: open containers -->
   <Open.label>abrir contenedores</Open.label>
   <!-- EN: opening -->
-  <Open.gerund>apertura de</Open.gerund>
+  <Open.gerund>abriendo</Open.gerund>
   <!-- EN: open -->
   <Open.verb>abrir</Open.verb>
   
   <!-- EN: go to bed for emergency treatment -->
-  <PatientGoToBedEmergencyTreatment.label>tratamiento de emergencia</PatientGoToBedEmergencyTreatment.label>
+  <PatientGoToBedEmergencyTreatment.label>ir a la cama para recibir tratamiento de emergencia</PatientGoToBedEmergencyTreatment.label>
   <!-- EN: receiving treatment in -->
-  <PatientGoToBedEmergencyTreatment.gerund>descansando</PatientGoToBedEmergencyTreatment.gerund>
+  <PatientGoToBedEmergencyTreatment.gerund>recibiendo tratamiento en</PatientGoToBedEmergencyTreatment.gerund>
   <!-- EN: receive treatment in -->
-  <PatientGoToBedEmergencyTreatment.verb>descansar</PatientGoToBedEmergencyTreatment.verb>
+  <PatientGoToBedEmergencyTreatment.verb>recibir tratamiento en</PatientGoToBedEmergencyTreatment.verb>
   
   <!-- EN: recuperate in bed -->
   <PatientGoToBedRecuperate.label>recuperárse en cama</PatientGoToBedRecuperate.label>
@@ -510,14 +510,14 @@
   <!-- EN: slaughtering -->
   <Slaughter.gerund>sacrificando</Slaughter.gerund>
   <!-- EN: slaughter -->
-  <Slaughter.verb>sacrificar a</Slaughter.verb>
+  <Slaughter.verb>sacrificar</Slaughter.verb>
   
   <!-- EN: strip corpses -->
   <Strip.label>desvestir cuerpos</Strip.label>
   <!-- EN: stripping -->
   <Strip.gerund>desvistiendo</Strip.gerund>
   <!-- EN: strip -->
-  <Strip.verb>desvestir a</Strip.verb>
+  <Strip.verb>desvestir</Strip.verb>
   
   <!-- EN: take beer out of fermenting barrels -->
   <TakeBeerOutOfFermentingBarrel.label>recolectar cerveza del fermentador</TakeBeerOutOfFermentingBarrel.label>
@@ -531,14 +531,14 @@
   <!-- EN: taking to bed -->
   <TakePrisonerToBed.gerund>llevando</TakePrisonerToBed.gerund>
   <!-- EN: take to bed -->
-  <TakePrisonerToBed.verb>llevar a</TakePrisonerToBed.verb>
+  <TakePrisonerToBed.verb>llevar a la cama</TakePrisonerToBed.verb>
   
   <!-- EN: take patients to bed for operations -->
   <TakeToBedToOperate.label>llevar pacientes a operar</TakeToBedToOperate.label>
   <!-- EN: taking to operate -->
   <TakeToBedToOperate.gerund>llevando a operar</TakeToBedToOperate.gerund>
   <!-- EN: take to operate -->
-  <TakeToBedToOperate.verb>llevar a operar a</TakeToBedToOperate.verb>
+  <TakeToBedToOperate.verb>llevar a operar</TakeToBedToOperate.verb>
   
   <!-- EN: tame animals -->
   <Tame.label>domesticar animales</Tame.label>
@@ -552,7 +552,7 @@
   <!-- EN: training -->
   <Train.gerund>entrenando</Train.gerund>
   <!-- EN: train -->
-  <Train.verb>entrenar a</Train.verb>
+  <Train.verb>entrenar</Train.verb>
   
   <!-- EN: uninstall structures -->
   <Uninstall.label>desinstalar objetos</Uninstall.label>
@@ -562,7 +562,7 @@
   <Uninstall.verb>desinstalar</Uninstall.verb>
   
   <!-- EN: unload carriers -->
-  <UnloadCarriers.label>descarga de acarreo</UnloadCarriers.label>
+  <UnloadCarriers.label>descarga de transporte</UnloadCarriers.label>
   <!-- EN: unloading -->
   <UnloadCarriers.gerund>descargando</UnloadCarriers.gerund>
   <!-- EN: unload -->
@@ -573,6 +573,6 @@
   <!-- EN: visiting -->
   <VisitSickPawn.gerund>visitando</VisitSickPawn.gerund>
   <!-- EN: visit -->
-  <VisitSickPawn.verb>visitar a</VisitSickPawn.verb>
+  <VisitSickPawn.verb>visitar</VisitSickPawn.verb>
   
 </LanguageData>
