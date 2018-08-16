@@ -582,6 +582,8 @@
   <MassCapacity>Capacidad de peso</MassCapacity>
   <!-- EN: Mass -->
   <Mass>Peso</Mass>
+  <!-- EN: Caravan mass -->
+  <CaravanMass>Peso de la caravana</CaravanMass>
   <!-- EN: Equipment and apparel mass -->
   <EquipmentAndApparelMass>Peso del equipo y la vestimenta</EquipmentAndApparelMass>
   <!-- EN: Inventory mass -->
@@ -794,7 +796,7 @@
   <ConfirmBanishPawnDialog>¿De verdad quieres desterrar a {0}?</ConfirmBanishPawnDialog>
   <!-- EN: {0} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>{0} muy probablemente morirá.</ConfirmBanishPawnDialog_LeftToDie>
-  <!-- EN: {0} will take the following items with [PAWN_objective]: Se cambio a prposito por PAWN_pronoun --> 
+  <!-- EN: {0} will take the following items with [PAWN_objective]: -->
   <ConfirmBanishPawnDialog_Items>{0} al marcharse, tomará los siguientes artículos con [PAWN_pronoun]:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Todos los colonos tendrán los siguientes pensamientos:</ConfirmBanishPawnDialog_AllColonistsThoughts>
@@ -814,5 +816,9 @@
   <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto se hará - Agregar marcadores de posición para traducciones con clave que faltan, traducciones con inyección de desfase y retroalimentación\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todas las traducciones con clave y con inyección de desfase a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar nombres de definiciones compatibles con la retroalimentación\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerde reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrese de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tengo una copia de seguridad</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>La caravana estará inmóvil si envías las cápsulas a una baldosa vacía. ¿Continuar de todos modos?</TransportersCaravanWillBeImmobile>
 
 </LanguageData>
