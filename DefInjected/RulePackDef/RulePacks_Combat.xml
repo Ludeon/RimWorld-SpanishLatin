@@ -24,26 +24,26 @@
     <li>scraped_past->slid</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=1)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] in the [RECIPIENT_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], wielding [INITIATOR_possessive] [WEAPON_label] [expertly], [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] with [implement] [deflected_result].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=1)->[INITIATOR_definite] ha [damaged_past] [at] [RECIPIENT_definite] [deflected_result] en el(la) [RECIPIENT_part0_label].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], blandiendo [INITIATOR_possessive] [WEAPON_label] [expertly], ha [damaged_past] a [RECIPIENT_definite] en el(la) [RECIPIENT_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] golpea a [RECIPIENT_definite] con un(a) [damaged_inf] de [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] usando [implement] ha [damaged_inf] a [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.6)->[INITIATOR_definite] ha [damaged_past] [at] [RECIPIENT_definite] con [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.6)->[INITIATOR_definite] ha [damaged_past] [at] [RECIPIENT_definite] [deflected_result].</li>
     <li>at-></li>
-    <li>at->at</li>
+    <li>at->a</li>
     <li>deflected_result-> [adverb_deflected]</li>
     <li>deflected_result->, [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
     <li>adverb_deflected_opt->[adverb_deflected]</li>
-    <li>adverb_deflected->harmlessly</li>
-    <li>adverb_deflected->uselessly</li>
-    <li>deflected_consequence->but the [TOOL_label] [scraped_past] off [adverb_deflected_opt]</li>
-    <li>deflected_consequence->[scraped_present] off [RECIPIENT_possessive] armor [adverb_deflected_opt]</li>
-    <li>scraped_present->scraping</li>
-    <li>scraped_present->sliding</li>
-    <li>scraped_past->scraped</li>
-    <li>scraped_past->slid</li>
+    <li>adverb_deflected->inofensivamente</li>
+    <li>adverb_deflected->inofensivamente</li>
+    <li>deflected_consequence->pero el(la) [TOOL_label] [scraped_past] [adverb_deflected_opt]</li>
+    <li>deflected_consequence->[scraped_present] [adverb_deflected_opt] en [RECIPIENT_possessive] armadura.</li>
+    <li>scraped_present->rasguñando</li>
+    <li>scraped_present->deslizando</li>
+    <li>scraped_past->rasguñado</li>
+    <li>scraped_past->deslizado</li>
   </Combat_Deflect.rulePack.rulesStrings>
   
   <!-- EN:
@@ -61,18 +61,18 @@
     <li>scraped_past->skated</li>
   -->
   <Combat_DeflectIncludes.rulePack.rulesStrings>
-    <li>scraped_present->glancing</li>
-    <li>scraped_present->bouncing</li>
-    <li>scraped_present->grazing</li>
-    <li>scraped_present->caroming</li>
-    <li>scraped_present->skipping</li>
-    <li>scraped_present->skating</li>
-    <li>scraped_past->glanced</li>
-    <li>scraped_past->bounced</li>
-    <li>scraped_past->grazed</li>
-    <li>scraped_past->caromed</li>
-    <li>scraped_past->skipped</li>
-    <li>scraped_past->skated</li>
+    <li>scraped_present->golpeandole y desviandose</li>
+    <li>scraped_present->rebotando</li>
+    <li>scraped_present->raspando</li>
+    <li>scraped_present->golpeando y rebotando</li>
+    <li>scraped_present->saltandose</li>
+    <li>scraped_present->pantiando en</li>
+    <li>scraped_past->le ha golpeado y se ha desviado</li>
+    <li>scraped_past->ha rebotado</li>
+    <li>scraped_past->le ha raspado</li>
+    <li>scraped_past->ha rebotado</li>
+    <li>scraped_past->le ha saltado</li>
+    <li>scraped_past->se ha deslizado</li>
   </Combat_DeflectIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -382,22 +382,22 @@
     <li>destroyed(p=0.5)->demolido</li>
     <li>destroyed(p=0.5)->arruinado</li>
     <li>destroyed(p=0.5)->destrozado</li>
-    <li>wince(recipient_flesh==Normal)->wince</li>
-    <li>wince(recipient_flesh==Normal)->grimace</li>
-    <li>wince(recipient_flesh==Normal)->cringe</li>
-    <li>wince(recipient_flesh==Normal)->groan</li>
-    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
-    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
-    <li>wince->recoil</li>
-    <li>wince->stumble</li>
-    <li>painstate->in</li>
-    <li>painstate->with</li>
-    <li>painstate->from the</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>wince(recipient_flesh==Normal)->haga una mueca</li>
+    <li>wince(recipient_flesh==Normal)->haga una mueca</li>
+    <li>wince(recipient_flesh==Normal)->se encoja</li>
+    <li>wince(recipient_flesh==Normal)->gima</li>
+    <li>wince(recipient_flesh!=Mechanoid)->chille</li>
+    <li>wince(recipient_flesh!=Mechanoid)->grite</li>
+    <li>wince->se retuerza</li>
+    <li>wince->tropieze</li>
+    <li>painstate->en</li>
+    <li>painstate->con</li>
+    <li>painstate->por el(la)</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] panico</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agonia</li>
     <li>painevent(recipient_flesh==Normal)->with misery</li>
-    <li>painevent->from the injury</li>
-    <li>painevent->from the wound</li>
+    <li>painevent->por la herida</li>
+    <li>painevent->por la herida</li>
     <li>to->to</li>
     <li>to->into</li>
   </Combat_MeleeIncludes.rulePack.rulesStrings>
@@ -721,29 +721,29 @@
     <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label] at [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [threw_a] [WEAPON_projectile_label] at [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a] [WEAPON_projectile_label].</li>
+    <li>r_logentry->[INITIATOR_definite] ha [threw] [INITIATOR_possessive] [WEAPON_projectile_label] a [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] ha [threw_a] [WEAPON_projectile_label] a [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] ha [threw] [INITIATOR_possessive] [WEAPON_projectile_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] ha [threw_a] [WEAPON_projectile_label].</li>
     <li>threw_a->[adverb_threw] [verb_threw] a</li>
     <li>threw_a(p=2)->[verb_threw] a</li>
     <li>threw(p=2)->[verb_threw]</li>
     <li>threw->[adverb_threw] [verb_threw]</li>
-    <li>verb_threw->threw</li>
-    <li>verb_threw->flung</li>
-    <li>verb_threw->launched</li>
-    <li>adverb_threw->carefully</li>
-    <li>adverb_threw->quickly</li>
-    <li>adverb_threw->precisely</li>
-    <li>adverb_threw->deliberately</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->gingerly</li>
-    <li>adverb_threw->precisely</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->warily</li>
-    <li>adjective_threw->careful</li>
-    <li>adjective_threw->quick</li>
-    <li>adjective_threw->deliberate</li>
-    <li>adjective_threw->precise</li>
-    <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
+    <li>verb_threw->arrojado</li>
+    <li>verb_threw->arrojado</li>
+    <li>verb_threw->lanzado</li>
+    <li>adverb_threw->cuidadosamente</li>
+    <li>adverb_threw->rapidamente</li>
+    <li>adverb_threw->precisamente</li>
+    <li>adverb_threw->deliberadamente</li>
+    <li>adverb_threw(initiator_flesh!=Mechanoid)->cautelosamente</li>
+    <li>adverb_threw->presisamente</li>
+    <li>adverb_threw(initiator_flesh!=Mechanoid)->cautelosamente</li>
+    <li>adjective_threw->meticuloso</li>
+    <li>adjective_threw->rapido</li>
+    <li>adjective_threw->deliberado</li>
+    <li>adjective_threw->preciso</li>
+    <li>adjective_threw(initiator_flesh!=Mechanoid)->cauteloso</li>
   </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
   <!-- EN:
@@ -900,7 +900,7 @@
     <li>expertly->con fuerza</li>
     <li>expertly->con destreza</li>
     <li>expertly->con maestría</li>
-    <li>expertly->con arte</li>
+    <li>expertly->con talento artístico</li>
     <li>expertly->con profesionalismo</li>
     <li>expertly->como un virtuoso</li>
     <li>expertly->como un experto</li>
