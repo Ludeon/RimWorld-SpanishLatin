@@ -36,11 +36,11 @@
   <!-- EN: Draft -->
   <CommandDraftLabel>Reclutar</CommandDraftLabel>
   <!-- EN: Undraft -->
-  <CommandUndraftLabel>Licenciar</CommandUndraftLabel>
+  <CommandUndraftLabel>Des-reclutar</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>Alterna el reclutamiento.\n\nLos colonos reclutados tomarán ordenes directas y lucharán. No trabajarán, comerán o descansarán.</CommandToggleDraftDesc>
   <!-- EN: {0} cannot walk. -->
-  <IsIncapped>{0} está incapacitado(a).</IsIncapped>
+  <IsIncapped>{0} no puede caminar.</IsIncapped>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Fuego a discreción</CommandFireAtWillLabel>
@@ -224,9 +224,9 @@
   
   <!-- Animal control -->
   <!-- EN: Release animals -->
-  <CommandReleaseAnimalsLabel>Enviar animal</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsLabel>Soltar animal</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
-  <CommandReleaseAnimalsDesc>Cuando está activado, los animales adiestrados serán enviados a atacar blancos distantes. Cuando está desactivado, permanecerán cerca de su amo y lo cuidarán.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>Cuando está activado, los animales adiestrados serán soltados para atacar blancos distantes. Cuando está desactivado, permanecerán cerca de su amo y lo cuidarán.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
   <CommandReleaseAnimalsFail_NoAnimals>No hay animales disponibles.</CommandReleaseAnimalsFail_NoAnimals>
   
