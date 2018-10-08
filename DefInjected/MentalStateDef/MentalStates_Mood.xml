@@ -6,7 +6,7 @@
   <!-- EN: Mental state: Tantrum -->
   <BedroomTantrum.baseInspectLine>Estado mental: Rabieta</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
-  <BedroomTantrum.beginLetter>{0} está teniendo una rabieta.\n\n[PAWN_pronoun] va a destruir los muebles de [PAWN_possessive] habitación.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetter>{0} está teniendo una rabieta.\n\n[PAWN_pronoun] va a destruir los muebles de la habitación de [PAWN_possessive]</BedroomTantrum.beginLetter>
   <BedroomTantrum.beginLetterLabel>rabieta</BedroomTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>{0} ya no está teniendo una rabieta.</BedroomTantrum.recoveryMessage>
@@ -34,13 +34,13 @@
   <!-- EN: binging on food -->
   <Binging_Food.label>compulsividad alimentaria</Binging_Food.label>
   <!-- EN: Mental state: Pigging out -->
-  <Binging_Food.baseInspectLine>Estado mental: Borrachera</Binging_Food.baseInspectLine>
+  <Binging_Food.baseInspectLine>Estado mental: compulsividad alimentaria</Binging_Food.baseInspectLine>
   <!-- EN: {0} is pigging out on food. -->
-  <Binging_Food.beginLetter>{0} se está tragantando toda la comida.</Binging_Food.beginLetter>
+  <Binging_Food.beginLetter>{0} se está tragando toda la comida.</Binging_Food.beginLetter>
   <!-- EN: food binge -->
   <Binging_Food.beginLetterLabel>compulsividad alimentaria</Binging_Food.beginLetterLabel>
   <!-- EN: {0} is no longer pigging out on food. -->
-  <Binging_Food.recoveryMessage>{0} dejó de atragantarse toda la comida.</Binging_Food.recoveryMessage>
+  <Binging_Food.recoveryMessage>{0} dejó de comerse toda la comida.</Binging_Food.recoveryMessage>
   
   <!-- EN: corpse obsession -->
   <CorpseObsession.label>obsesión con cadáveres</CorpseObsession.label>
@@ -109,7 +109,7 @@
   <!-- EN: Mental state: Sadistic rage -->
   <SadisticRage.baseInspectLine>Estado mental: Rabia Sádica</SadisticRage.baseInspectLine>
   <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
-  <SadisticRage.beginLetter>{0} está teniendo una rabia sádica.\n\n[PAWN_pronoun] va a desquitar [PAWN_possessive] ira en los prisioneros.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetter>{0} está teniendo una rabia sádica.\n\n[PAWN_pronoun] va a desquitar la ira de [PAWN_possessive] en los prisioneros.</SadisticRage.beginLetter>
   <SadisticRage.beginLetterLabel>rabia sádica</SadisticRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a sadistic rage. -->
   <SadisticRage.recoveryMessage>{0} ya no está en una rabia sádica.</SadisticRage.recoveryMessage>
