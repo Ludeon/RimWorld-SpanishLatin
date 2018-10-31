@@ -79,9 +79,9 @@
   <!-- EN: You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\n\nTry changing some settings now.\n\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is an important skill in RimWorld. So set the work settings carefully, and review them often! -->
   <ChangeWorkSettings.text>Puedes usar las casillas para decidir lo que hará cada colono. Los colonos harán los trabajos de izquierda a derecha.\n\nIntenta cambiar la configuración ahora.\n\nPrecaución: Los colonos seguirán las instrucciones al pie de la letra, incluso si ésto los hace tomar malas decisiones. Establecer un régimen de trabajo inteligente es una habilidad importante en RimWorld. Configúralas cuidadosamente y revísalas a menudo.</ChangeWorkSettings.text>
   
-  <!-- EN: Please choose a temperate forest landing site with flat terrain. -->
+  <!-- EN: Please choose a temperate forest site with flat terrain. -->
   <ChooseLandingSite.rejectInputMessage>Por favor selecciona un lugar con bosque templado y terreno llano.</ChooseLandingSite.rejectInputMessage>
-  <!-- EN: Here, you choose your landing site.\n\nThere are lots of biomes, but for now, let's start with a friendly one.\n\nClick a landing site with temperate forest biome and flat terrain, and click NEXT.\n\nYou can use the TERRAIN tab to view information about the selected tile. -->
+  <!-- EN: Here, you choose your starting site.\n\nThere are lots of biomes, but for now, let's start with a friendly one.\n\nClick a location with temperate forest biome and flat terrain, and click NEXT.\n\nYou can use the TERRAIN tab to view information about the selected tile. -->
   <ChooseLandingSite.text>Aquí, usted elige su sitio de aterrizaje.\n\nHay muchos biomas, pero por ahora, empecemos con uno amistoso.\n\nHaga clic en un sitio de aterrizaje con bioma de bosque templado y terreno plano, y haga clic en SIGUIENTE.\n\nPuede utilizar la ficha TERRENO para ver información sobre la baldosa seleccionada.</ChooseLandingSite.text>
   
   <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
@@ -199,11 +199,11 @@
   <!-- EN: Success! Now UNDRAFT all your colonists using the same command as before.\n\nThis will let them return to their own schedules. -->
   <UndraftAll.text>¡Viva! Ahora, puedes desreclutar a tus colonos de la misma forma que los reclutaste.\n\nDe esta forma regresarán a sus deberes cotidianos.</UndraftAll.text>
   
-  <!-- EN: Unforbid this -->
-  <UnforbidStartingResources.onMapInstruction>No prohibir esto</UnforbidStartingResources.onMapInstruction>
-  <!-- EN: Please unforbid your starting items. -->
-  <UnforbidStartingResources.rejectInputMessage>Por favor, retira la prohibición de todos los objetos.</UnforbidStartingResources.rejectInputMessage>
-  <!-- EN: Now, to allow your colonists to bring your items to the stockpile, you must unforbid the items.\n\n1. Clicking your starting items to select them.\n2. Click the FORBID toggle button to unforbid them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.) -->
+  <!-- EN: Allow this -->
+  <UnforbidStartingResources.onMapInstruction>Permitir</UnforbidStartingResources.onMapInstruction>
+  <!-- EN: Please allow your starting items. -->
+  <UnforbidStartingResources.rejectInputMessage>Por favor, permitir todos los objetos.</UnforbidStartingResources.rejectInputMessage>
+  <!-- EN: Now, to allow your colonists to bring your items to the stockpile, you must remove their "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.) -->
   <UnforbidStartingResources.text>Ahora, para permitir que tus colonos lleven los objetos al almacén, primero debes permitirlos.\n\n1. Haz click en los objetos iniciales para seleccionarlos.\n2. Haz click en el botón de PROHIBIDO para permitirlos de nuevo.\n\n(Nota: Puedes hacer doble click en un objeto para seleccionar todos los objetos del mismo tipo en pantalla.)</UnforbidStartingResources.text>
   
 </LanguageData>

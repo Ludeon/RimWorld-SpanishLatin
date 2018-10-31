@@ -18,10 +18,10 @@
   <TabCaravanItems>Objetos</TabCaravanItems>
   
   <!-- Misc -->
-  <!-- EN: Abandon {{0}}x {0} -->
-  <AbandonSliderText>Abandonar {{0}}x {0}</AbandonSliderText>
-  <!-- EN: Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered. -->
-  <ConfirmAbandonItemDialog>¿Realmente deseas abandonar {0}?\n\nLos objetos abandonados se desvanecerán y no podrán ser recuperados jamás.</ConfirmAbandonItemDialog>
+  <!-- EN: Abandon {{0}}x {1_labelShort} -->
+  <AbandonSliderText>Abandonar {{0}}x {1_labelShort}</AbandonSliderText>
+  <!-- EN: Do you really want to abandon {1_label}?\n\nAbandoned items vanish and can never be recovered. -->
+  <ConfirmAbandonItemDialog>¿Realmente deseas abandonar {1_label}?\n\nLos objetos abandonados se desvanecerán y no podrán ser recuperados jamás.</ConfirmAbandonItemDialog>
   <!-- EN: Abandon -->
   <AbandonTip>Abandonar</AbandonTip>
   <!-- EN: Banish -->
@@ -32,8 +32,8 @@
   <AbandonAllTip>Abandonar (todos)</AbandonAllTip>
   <!-- EN: Abandoned items vanish and can never be recovered. -->
   <AbandonItemTipExtraText>Los objetos abandonados se desvanecerán y no podrán ser recuperados jamás.</AbandonItemTipExtraText>
-  <!-- EN: {0} will most likely die. -->
-  <BanishTipWillDie>{0} probablemente morirá.</BanishTipWillDie>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <BanishTipWillDie>{1_labelShort} probablemente morirá.</BanishTipWillDie>
   
   <!-- Caravan inspect -->
   <!-- EN: Colonists -->

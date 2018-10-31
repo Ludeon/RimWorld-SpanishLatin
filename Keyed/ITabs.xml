@@ -52,8 +52,8 @@
   <MinimumSkill>Habilidad mínima</MinimumSkill>
   <!-- EN: SUSPENDED -->
   <SuspendedCaps>SUSPENDIDO</SuspendedCaps>
-  <!-- EN: Worker: {0} -->
-  <BoundWorkerIs>Trabajador: {0}</BoundWorkerIs>
+  <!-- EN: Worker: {1_labelShort} -->
+  <BoundWorkerIs>Trabajador: {1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
   <PlantVerb>Sembrar</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here. -->
@@ -196,8 +196,8 @@
   <Trainability>Adiestrabilidad</Trainability>
   <!-- EN: Requires trainability {0}. -->
   <CannotTrainNotSmartEnough>Requiere adiestrabilidad {0}.</CannotTrainNotSmartEnough>
-  <!-- EN: {0} is too small to train this. -->
-  <CannotTrainTooSmall>{0} es demasiado pequeño(a) como para ser entrenado en ésto.</CannotTrainTooSmall>
+  <!-- EN: {1_labelShort} is too small to train this. -->
+  <CannotTrainTooSmall>{1_labelShort} es demasiado pequeño(a) como para ser entrenado en ésto.</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Requisito necesario: {0}</TrainingNeedsPrerequisite>
@@ -213,10 +213,10 @@
   <Slave>Esclavo</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Líder de facción</FactionLeader>
-  <!-- EN: Opinion of {0} -->
-  <OpinionOf>Mi opinión de {0}</OpinionOf>
-  <!-- EN: {0}'s opinion of me -->
-  <SomeonesOpinionOfMe>La opinión de {0} de mi</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {1_labelShort} -->
+  <OpinionOf>Mi opinión de {1_labelShort}</OpinionOf>
+  <!-- EN: {1_labelShort}'s opinion of me -->
+  <SomeonesOpinionOfMe>La opinión de {1_labelShort} de mi</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Estoy muerto</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -261,6 +261,10 @@
   <FormingCaravanStatus_GatheringSlaves>Reunir prisioneros</FormingCaravanStatus_GatheringSlaves>
   <!-- EN: Gathering slaves (waiting) -->
   <FormingCaravanStatus_GatheringSlaves_Pause>Reunir prisioneros (Esperando)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <!-- EN: Gathering downed people -->
+  <FormingCaravanStatus_GatheringDownedPawns>Reunir a la gente abatida</FormingCaravanStatus_GatheringDownedPawns>
+  <!-- EN: Gathering downed people (waiting) -->
+  <FormingCaravanStatus_GatheringDownedPawns_Pause>Reunir a la gente abatida (Esperando)</FormingCaravanStatus_GatheringDownedPawns_Pause>
   <!-- EN: Leaving -->
   <FormingCaravanStatus_Leaving>Saliendo</FormingCaravanStatus_Leaving>
   <!-- EN: Leaving (waiting) -->

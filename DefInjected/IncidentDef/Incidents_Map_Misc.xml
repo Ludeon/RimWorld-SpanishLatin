@@ -99,14 +99,14 @@
   <WandererJoin.label>Un viajero se une</WandererJoin.label>
   <!-- EN: Wanderer joins -->
   <WandererJoin.letterLabel>Vagabundo se une</WandererJoin.letterLabel>
-  <!-- EN: A [PAWN_kind] named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a [PAWN_title].\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want [PAWN_nameDef], you can banish [PAWN_objective], sell [PAWN_objective] into slavery, or simply kill [PAWN_objective]. However, your other colonists may find this disturbing. -->
-  <WandererJoin.letterText>Un [PAWN_kind] llamado(a) [PAWN_nameDef] ha llegado y se ha unido a la colonia. [PAWN_pronoun] es un [PAWN_title].\n\n[PAWN_pronoun] está dispuesto a contribuir, pero no se irá voluntariamente. Si no quieres a [PAWN_nameDef], puedes desterrar[PAWN_objective] , vender[PAWN_objective] a la esclavitud, o simplemente matar[PAWN_objective]. Sin embargo, sus otros colonos pueden encontrar esto perturbador.</WandererJoin.letterText>
+  <!-- EN: A {PAWN_kind} named {PAWN_nameDef} has arrived and is joining the colony. {PAWN_pronoun} is a {PAWN_title}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
+  <WandererJoin.letterText>Un {PAWN_kind} llamado(a) {PAWN_nameDef} ha llegado y se ha unido a la colonia. {PAWN_pronoun} es un {PAWN_title}.\n\n[PAWN_pronoun] está dispuesto a contribuir, pero no se irá voluntariamente. Si no quieres a {PAWN_nameDef}, puedes desterrar{PAWN_objective} , vender{PAWN_objective} a la esclavitud, o simplemente matar{PAWN_objective}. Sin embargo, sus otros colonos pueden encontrar esto perturbador.</WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>hombre salvaje</WildManWandersIn.label>
-  <!-- EN: Wild man wanders in -->
-  <WildManWandersIn.letterLabel>Hombre salvaje</WildManWandersIn.letterLabel>
-  <!-- EN: A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective]. -->
-  <WildManWandersIn.letterText>Una persona que vive entre animales salvajes ha entrado en la zona. [PAWN_pronoun] se llama {0}.\n\nPuedes intentar domar[PAWN_objective].</WildManWandersIn.letterText>
+  <!-- EN: {PAWN_kind} wanders in -->
+  <WildManWandersIn.letterLabel>{PAWN_kind} deambula</WildManWandersIn.letterLabel>
+  <!-- EN: A person living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame or arrest {PAWN_objective}. -->
+  <WildManWandersIn.letterText>Una persona que vive entre animales salvajes ha entrado en la zona. {PAWN_pronoun} se llama {0}.\n\nPuedes intentar domar{PAWN_objective}.</WildManWandersIn.letterText>
   
 </LanguageData>

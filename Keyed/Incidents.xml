@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanitySingle>{0} loco</LetterLabelAnimalInsanitySingle>
-  <!-- EN: A local {0} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>Un {0} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
+  <!-- EN: Mad {ANIMAL_labelShort} -->
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} loco</LetterLabelAnimalInsanitySingle>
+  <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
+  <AnimalInsanitySingle>Un {ANIMAL_label} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>¡{0}s locos!</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
@@ -21,22 +21,22 @@
   <MiracleHeal>¡{0} ha experimentado una recuperación milagrosa!</MiracleHeal>
 
   <!-- Enemy raids -->
-  <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>Uno de los {0} de {1}, es el lider de la faccion.</EnemyRaidLeaderPresent>
+  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <EnemyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} de {LEADER_labelShort}, es el lider de la faccion.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>Uno de los {0} de {1}, es el lider de la faccion.</FriendlyRaidLeaderPresent>
+  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <FriendlyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} de {LEADER_labelShort}, es el lider de la faccion.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in a transport pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
-  <RefugeePodCrash>Un [PAWN_title] llamado [PAWN_nameDef] se está estrellando en las cercanías en una cápsula de escape. Si [PAWN_pronoun] sobrevive al impacto, resultará gravemente herido(a).</RefugeePodCrash>
-  <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
+  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
+  <RefugeePodCrash>Un [PAWN_titleIndef] llamado [PAWN_nameDef] se está estrellando en las cercanías en una cápsula de escape. Si [PAWN_pronoun] sobrevive al impacto, resultará gravemente herido(a).</RefugeePodCrash>
+  <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>[PAWN_nameDef] no está afiliado(a) a ninguna facción. Puedes rescatar[PAWN_objective] y esperar que [PAWN_pronoun] se una libremente, o capturar[PAWN_objective] para fines de reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
-  <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
+  <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>[PAWN_nameDef] es enemigo y proviene de [PAWN_factionName]. Puedes capturar[PAWN_objective] para fines de reclutamiento o esclavitud.</RefugeePodCrash_Hostile>
-  <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
+  <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
   <RefugeePodCrash_NonHostile>[PAWN_nameDef] es de [PAWN_factionName]. Capturar[PAWN_objective] los enfadará, mientras que si [PAWN_objective] rescatas y curas, mejorará las relaciones entre las facciones.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
@@ -60,27 +60,27 @@
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}. -->
   <TraderArrival>Hay una nave comercial en las cercanías.\n\nSe les conoce como {0}. Ellos son {1}.</TraderArrival>
 
-  <!-- EN: A {0} from {1} is passing by. [PAWN_pronoun] is named {2}. -->
-  <SingleTravelerPassing>Un {0} de {1} está de paso por la zona. [PAWN_pronoun] se llama {2}.</SingleTravelerPassing>
+  <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
+  <SingleTravelerPassing>Un {PAWN_title} de {1} está de paso por la zona. [PAWN_pronoun] se llama {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>Un grupo de viajeros de {0} están de paso por la zona..</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Visitante</LetterLabelSingleVisitorArrives>
-  <!-- EN: A {0} from {1} is visiting the colony.\n\n[PAWN_pronoun] is named {2}.{3}{4} -->
-  <SingleVisitorArrives>Un {0} de {1} está visitando la colonia.\n\n[PAWN_pronoun] se llama {2}.{3}{4}</SingleVisitorArrives>
-  <!-- EN: \n\n[PAWN_pronoun] seems to have a few items to trade. -->
+  <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
+  <SingleVisitorArrives>{PAWN_titleIndef} de {1} está visitando la colonia.\n\n[PAWN_pronoun] se llama {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun] parece tener algunos objetos para el comercio.</SingleVisitorArrivesTraderInfo>
-  <!-- EN: \n\n[PAWN_pronoun] is the leader of the faction. -->
+  <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
   <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] es el líder de la facción.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Visitantes</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
   <GroupVisitorsArrive>Un grupo de {0} está visitando la colonia.{1}{2}</GroupVisitorsArrive>
-  <!-- EN: \n\nThey seem to have a few items to trade. -->
+  <!-- EN: They seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>\n\nParece que tienen algunos objetos para el comercio.</GroupVisitorsArriveTraderInfo>
-  <!-- EN: \n\nOne of the visitors - {0}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\nUno de los visitantes - {0}, es el lider de la facción.</GroupVisitorsArriveLeaderInfo>
+  <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
+  <GroupVisitorsArriveLeaderInfo>\n\nUno de los visitantes, {1_labelShort}, es el lider de la facción.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Los visitantes de {0} se están marchando.</VisitorsLeaving>
 
@@ -129,24 +129,24 @@
   <!-- Refugee chased -->
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>Refugiado perseguido(a) por {0}</RefugeeChasedTitle>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>Un [PAWN_title] llamado [PAWN_nameDef] te llama desde la cercanía. [PAWN_pronoun] esta siendo perseguido(a) por {2} de {3}\n\n[PAWN_pronoun] ruega por seguridad y se ofrece a unirse a su colonia. [PAWN_pronoun] te dice que biologicamente tiene {4} años, pero no hay tiempo para obtener más información.\n\nEsté alerta, si usted acepta, tendrá que luchar contra los {2} que len van pisando los talones. Su grupo está compuesto por:\n\n{5}</RefugeeChasedInitial>
+  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
+  <RefugeeChasedInitial>Un [PAWN_titleIndef] llamado [PAWN_nameDef] te llama desde la cercanía. [PAWN_pronoun] esta siendo perseguido(a) por {2} de {3}\n\n[PAWN_pronoun] ruega por seguridad y se ofrece a unirse a su colonia. [PAWN_pronoun] te dice que biologicamente tiene {4} años, pero no hay tiempo para obtener más información.\n\nEsté alerta, si usted acepta, tendrá que luchar contra los {2} que len van pisando los talones. Su grupo está compuesto por:\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Oferta de salvamento</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
   <RefugeeChasedInitial_Reject>Ignorar el mensaje</RefugeeChasedInitial_Reject>
-  <!-- EN: {0} screams in panic through the tinny speaker before you cut off the transmission. -->
-  <RefugeeChasedRejected>Antes de cortar la transmisión, oyes gritos de pánico de {0} a través del pequeño altavoz.</RefugeeChasedRejected>
+  <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
+  <RefugeeChasedRejected>Antes de cortar la transmisión, oyes gritos de pánico de {1_labelShort} a través del pequeño altavoz.</RefugeeChasedRejected>
 
   <!-- Self-tame -->
-  <!-- EN: {0} self-tamed -->
-  <LetterLabelAnimalSelfTame>{0} auto-domesticado</LetterLabelAnimalSelfTame>
+  <!-- EN: {1_kind} self-tamed -->
+  <LetterLabelAnimalSelfTame>{1_kind} auto-domesticado</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0} ha sido domesticado.</LetterAnimalSelfTame>
-  <!-- EN: {0} has become tame. It is now designated {1}. -->
-  <LetterAnimalSelfTameAndNameNumerical>{0} ha sido domesticado. Ahora es designado {1}.</LetterAnimalSelfTameAndNameNumerical>
-  <!-- EN: {0} has become tame. Colonists have decided to name it {1}. -->
-  <LetterAnimalSelfTameAndName>{0} ha sido domesticado. Los colonos han decidido nombrarlo {1}.</LetterAnimalSelfTameAndName>
+  <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
+  <LetterAnimalSelfTameAndNameNumerical>{0} ha sido domesticado. Ahora es designado {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
+  <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
+  <LetterAnimalSelfTameAndName>{0} ha sido domesticado. Los colonos han decidido nombrarlo {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
@@ -169,8 +169,8 @@
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demanda de rescate a {0}</RansomDemandTitle>
-  <!-- EN: {1} contacts you on radio. They are holding former colonist {0} for ransom.\n\nThey're willing to release [PAWN_objective] back to you in exchange for {2} silver. -->
-  <RansomDemand>{1} te contacta por radio. Tienen secuestrado(a) a {0}.\n\nEstán dispuestos a regresar[PAWN_objective] a cambio de {2} de plata.</RansomDemand>
+  <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
+  <RansomDemand>{1} te contacta por radio. Tienen secuestrado(a) a {PAWN_labelShort}.\n\nEstán dispuestos a regresar[PAWN_objective] a cambio de {2} de plata.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Aceptar</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -211,6 +211,8 @@
   <CaravanRequestInfo>Solicitado: {0}, Recompensa: {1} ({4}) ({2} dias restantes)</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>calidad normal o mejor</NormalQualityOrBetter>
+  <!-- EN: not tainted -->
+  <NotTainted>no contaminado</NotTainted>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->
