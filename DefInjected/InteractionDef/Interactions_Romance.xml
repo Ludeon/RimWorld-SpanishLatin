@@ -10,10 +10,10 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] ha roto su relación con [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [OTHER_nameDef] un tiempo a solas.</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [OTHER_nameDef] que lo mejor sería volver a ser amigos.</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha terminado su relación romántica con [OTHER_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha roto su relación con [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] un tiempo a solas.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] que lo mejor sería volver a ser amigos.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha terminado su relación romántica con [RECIPIENT_nameDef].</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -24,9 +24,9 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] propuso matrimionio a [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] propuso un compromiso de por vida a [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] a declarado que quiere pasar el resto de su vida con [OTHER_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] propuso matrimionio a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] propuso un compromiso de por vida a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a declarado que quiere pasar el resto de su vida con [RECIPIENT_nameDef].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
@@ -94,7 +94,7 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [wooed] [OTHER_nameDef] al [wootactic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] al [wootactic].</li>
     <li>wooed->intentó coquetear con</li>
     <li>wooed->coqueteó con</li>
     <li>wooed->intentó atraer a</li>
@@ -110,8 +110,8 @@
     <li>wootactic->joking about [TalkTopicAny]</li>
     <li>wootactic->contar una historia sobre [TalkTopicAny]</li>
     <li>wootactic->[boasting] [INITIATOR_possessive] own [PersonalCharacteristic]</li>
-    <li>wootactic->comparar a [OTHER_objective] con una [romantic_adj] [romantic_noun]</li>
-    <li>wootactic->describir a [OTHER_objective] como una [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->comparar a [RECIPIENT_objective] con una [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->describir a [RECIPIENT_objective] como una [romantic_adj] [romantic_noun]</li>
     <li>boasting->alardear sobre</li>
     <li>boasting->mencionar</li>
     <li>boasting->dar a entender cosas buenas sobre</li>
