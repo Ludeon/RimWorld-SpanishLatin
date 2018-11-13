@@ -84,7 +84,7 @@
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Peligro antiguo</LetterLabelAncientShrineWarning>
   <!-- EN: As {0} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>{0} al acercarse a aquella construcción antigua, un presentimiento aterrador le pasa por la mente. [PAWN_pronoun] no está seguro(a) de porqué, pero siente que esta estructura polvorienta esconde un gran peligro.</AncientShrineWarning>
+  <AncientShrineWarning>{0} al acercarse a aquella construcción antigua, un presentimiento aterrador le pasa por la mente. {PAWN_pronoun} no está seguro(a) de porqué, pero siente que esta estructura polvorienta esconde un gran peligro.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>¡Hemos encontrado {0}!</StruckMineable>
@@ -376,9 +376,9 @@
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
-  <LetterLabelPredatorHuntingColonist>{0} cazando a {1}</LetterLabelPredatorHuntingColonist>
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} cazando a {PREY_definite}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>¡{0} está cazando a {1} para alimentarse!</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>¡{PREDATOR} está cazando a {PREY_definite} para alimentarse!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->

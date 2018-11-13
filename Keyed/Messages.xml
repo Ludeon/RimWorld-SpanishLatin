@@ -155,7 +155,7 @@
   <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull} ha nombrado a {1}, {NAMEE_nameFull}, luego de ser acariciado(a).</MessageNuzzledPawnGaveNameTo>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>Ningún entrenador puede domesticar este(a) {ANIMAL_kindBase} (requiere nivel {1} en {2} y el mejor entrenador es {3} con {4}).</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>Ningún entrenador puede domesticar este(a) {ANIMAL_kindBase} (requiere nivel {1} en {2} y el mejor entrenador es {HANDLER_labelShort} con {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} ha sido cazado por {PREDATOR}.</MessageEatenByPredator>
@@ -197,7 +197,7 @@
   <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageNamedBondedAnimalMentalBreak>{ANIMAL_kindIndef} llamado {ANIMAL_label} ha tenido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
   <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalsMentalBreak>{0} animales tienen un colapso mental debido a la muerte de {1}.</MessageBondedAnimalsMentalBreak>
+  <MessageBondedAnimalsMentalBreak>{0} animales tienen un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
   
   <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
   <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} he removido con éxito el {HEDIFF} de {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
@@ -406,7 +406,7 @@
   <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} no puedo alcanzar a {OLDTARGET_label} así que [PAWN_pronoun] decidió reorientar [PAWN_possessive] ira hacia {TARGET_label}.</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{0PAWN_labelShort no puedo alcanzar a {OLDTARGET_label} así que [PAWN_pronoun] decidió reorientar [PAWN_possessive] insultos hacia {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} no puedo alcanzar a {OLDTARGET_label} así que {PAWN_pronoun} decidió reorientar {PAWN_possessive} insultos hacia {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageMurderousRageChangedTarget>{PAWN_labelShort} ha decidido redirigir [PAWN_possessive] rabia hacia {TARGET_label}.</MessageMurderousRageChangedTarget>
