@@ -281,9 +281,7 @@
     <li>flavortext_situation(recipient_flesh==Mechanoid)->provocando una explosión de chatarra</li>
     <li>flavortext_situation->sin emoción</li>
     <li>flavortext_situation(p=0.4)->mientras viste de blanco</li>
-    <!--while wearing a blank look -->
     <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->mientras viste salvajemente</li>
-    <!-- while wearing a savage look -->
     <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->mientras lleva puesto un [AdjectiveBadass] aspecto</li>
     <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->mientras hace muecas</li>
     <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->mientras rie</li>
@@ -292,7 +290,6 @@
     <li>flavortext_consequence->dejando una herida horrible</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->haciendo que [RECIPIENT_objective] [wince] de [painevent]</li>
     <li>flavortext_consequence(p=0.2)->sacando a [RECIPIENT_objective] de balance</li>
-    <!-- throwing [RECIPIENT_objective] off balance -->
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -366,13 +363,13 @@
     <li>adjective_bodypart->vigoroso</li>
     <li>adjective_bodypart->poderoso</li>
     <li>adjective_bodypart->escabroso</li>
-    <li>adjective_bodypart->stout</li>
+    <li>adjective_bodypart->fornido</li>
     <li>adjective_bodypart->robusto</li>
     <li>adjective_bodypart->solido</li>
     <li>adjective_bodypart->duro</li>
     <li>adjective_bodypart(initiator_flesh==True)->calloso</li>
     <li>adjective_bodypart->firme</li>
-    <li>targetlist(recipient_part_count==1)->[RECIPIENT_part0_label]</li>
+    <li>targetlist(recipient_part_count==1Exploding)->[RECIPIENT_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->[RECIPIENT_part0_label] y [RECIPIENT_part1_label]</li>
     <li>targetlist(recipient_part_count==3)->[RECIPIENT_part0_label], [RECIPIENT_part1_label], y [RECIPIENT_part2_label]</li>
     <li>targetlist->[RECIPIENT_part0_label], [RECIPIENT_part1_label], [RECIPIENT_part2_label], y [RECIPIENT_part3_label]</li>
@@ -395,11 +392,11 @@
     <li>painstate->por el(la)</li>
     <li>painevent(recipient_flesh!=Mechanoid)->[painstate] panico</li>
     <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agonia</li>
-    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent(recipient_flesh==Normal)->con miseria</li>
     <li>painevent->por la herida</li>
     <li>painevent->por la herida</li>
-    <li>to->to</li>
-    <li>to->into</li>
+    <li>to->a</li>
+    <li>to->en</li>
   </Combat_MeleeIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -428,12 +425,11 @@
     <li>failtype->tropezó</li>
     <li>failtype->tropezó</li>
     <li>failtype->se agitó</li>
-    <!-- flailed -->
     <li>failtype->fracasó</li>
     <li>failtype->falló</li>
     <li>result->pero falló</li>
     <li>result->pero golpeó solo el aire</li>
-    <li>result->pero el balanceo fue ancho</li>
+    <li>result->pero el balanceo fue muy grande</li>
     <li>result->pero tropezó en el último segundo</li>
     <li>result(initiator_flesh!=Mechanoid)->pero vaciló en el último segundo</li>
   </Combat_Miss.rulePack.rulesStrings>
