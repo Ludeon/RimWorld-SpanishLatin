@@ -23,14 +23,14 @@
   <Chitchat.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
     <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] de [RECIPIENT_nameDef].</li>
     <li>talkedabout(p=4)->hablaron sobre</li>
     <li>talkedabout->platicaron sobre</li>
     <li>talkedabout->charlaron sobre</li>
     <li>talkedabout->cuchichearon sobre</li>
     <li>talkedabout->hablaron sobre</li>
     <li>talkedabout->bromearon sobre</li>
-    <li>talkedabout->burlaron sobre</li>
+    <li>talkedabout->hicieron un chiste sobre</li>
     <li>commentedabout->dijo algo sobre</li>
     <li>commentedabout->dijo una palabra sobre</li>
     <li>commentedabout->hizo un comentario sobre</li>
@@ -167,7 +167,7 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [madefunof] del [PersonalCharacteristic] de [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] de la [PersonalCharacteristic] de [target].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->la [PersonFamily] de [RECIPIENT_nameDef]</li>
     <li>madefunof->se burló</li>
