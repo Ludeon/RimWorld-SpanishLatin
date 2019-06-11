@@ -23,7 +23,7 @@
   <!-- EN: Please build wooden beds inside the room. -->
   <BuildBeds.rejectInputMessage>Por favor, construye tres camas dentro de la habitación.</BuildBeds.rejectInputMessage>
   <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
-  <BuildBeds.text>Ahora tus colonos construirán la habitación.\n\nTambién necesitarán donde dormir. Construye tres CAMAS dentro de la habitación.\n\nLas encontrarás en la sección MOBILIARIO del menú ARQUITECTO.</BuildBeds.text>
+  <BuildBeds.text>Ahora tus colonos construirán la habitación.\n\nTambién necesitarán donde dormir. Construye tres CAMAS dentro de la habitación.\n\nLas encontrarás en la sección MOBILIARIO del menú ARQUITECTO.\n\nPuedes usar las teclas {Key:Designator_RotateLeft} y {Key:Designator_RotateRight} para rotar los objetos.</BuildBeds.text>
   
   <!-- EN: Build a fueled stove inside the room -->
   <BuildFueledStove.onMapInstruction>Construye una estufa de leña dentro de la habitación</BuildFueledStove.onMapInstruction>
@@ -80,9 +80,9 @@
   <ChangeWorkSettings.text>Puedes usar las casillas para decidir lo que hará cada colono. Los colonos harán los trabajos de izquierda a derecha.\n\nIntenta cambiar la configuración ahora.\n\nPrecaución: Los colonos seguirán las instrucciones al pie de la letra, incluso si ésto los hace tomar malas decisiones. Establecer un régimen de trabajo inteligente es una habilidad importante en RimWorld. Configúralas cuidadosamente y revísalas a menudo.</ChangeWorkSettings.text>
   
   <!-- EN: Please choose a temperate forest site with no hills (light green with no brown dots). -->
-  <ChooseLandingSite.rejectInputMessage>Por favor selecciona un lugar con bosque templado y terreno llano.</ChooseLandingSite.rejectInputMessage>
+  <ChooseLandingSite.rejectInputMessage>Por favor, elija un bosque templado sin colinas (verde claro sin puntos marrones)</ChooseLandingSite.rejectInputMessage>
   <!-- EN: Here you choose your starting site.\n\nClick a spot with temperate forest biome and no hills. This will be a light green area with brown dots. Then click NEXT.\n\nOptionally, you can use the TERRAIN tab to view information about the selected tile. -->
-  <ChooseLandingSite.text>Aquí, usted elige su sitio de aterrizaje.\n\nHay muchos biomas, pero por ahora, empecemos con uno amistoso.\n\nHaga clic en un sitio de aterrizaje con bioma de bosque templado y terreno plano, y haga clic en SIGUIENTE.\n\nPuede utilizar la ficha TERRENO para ver información sobre la baldosa seleccionada.</ChooseLandingSite.text>
+  <ChooseLandingSite.text>Aquí, usted elige su sitio de aterrizaje.\n\Haga clic en un lugar con un bioma de bosque templado y sin colinas. Esta será un área verde claro con puntos marrones. Luego haga clic en SIGUIENTE.\n\nOpcionalmente, puede utilizar la ficha TERRENO para ver información sobre la baldosa seleccionada. </ChooseLandingSite.text>
   
   <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
   <ChooseStoryteller.rejectInputMessage>Por favor, cambie a un narrador normal para completar el tutorial.</ChooseStoryteller.rejectInputMessage>
@@ -170,19 +170,19 @@
   <Pause.text>También puedes pausar el tiempo.\n\nÉsto significa que nunca hay necesidad de apresurarse. Siempre puedes pausar y tomarte tu tiempo para dar las órdenes.\n\nIntenta pausar con la tecla {Key:TogglePause} o usando los controles de la parte inferior derecha de la pantalla.</Pause.text>
   
   <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
-  <RandomizeCharacter.rejectInputMessage>Por favor haz click en ALEATORIO primero.</RandomizeCharacter.rejectInputMessage>
+  <RandomizeCharacter.rejectInputMessage>Por favor, haga clic en el botón ALEATORIO para aleatorizar el personaje.</RandomizeCharacter.rejectInputMessage>
   <!-- EN: If you don't like a character, you can regenerate them!\n\nClick the RANDOMIZE button to randomize the character. -->
-  <RandomizeCharacter.text>Ahora crearás a los personajes.\n\nHaz click en ALEATORIO para generar un personaje nuevo con características al azar.</RandomizeCharacter.text>
+  <RandomizeCharacter.text>Si no te gusta un personaje, ¡puedes regenerarlo!\n\nHaga clic en el botón ALEATORIO para aleatorizar el personaje. </RandomizeCharacter.text>
   
   <!-- EN: Please drag a character from the "left behind" group (at the bottom-left) into the "selected" group (at the upper-left). -->
-  <ReorderCharacters.rejectInputMessage>Por favor, intenta elegir un personaje primero.</ReorderCharacters.rejectInputMessage>
+  <ReorderCharacters.rejectInputMessage>Arrastre un personaje del grupo "abandonados" (abajo a la izquierda) al grupo "seleccionados" (arriba a la izquierda).</ReorderCharacters.rejectInputMessage>
   <!-- EN: Now you choose which characters you want to use.\n\nDRAG a character from the "left behind" part of the character list (at the bottom) into the "selected" part (at the top).\n\nOptionally, clicking a character will allow you inspect him or her. -->
-  <ReorderCharacters.text>Ahora puedes elegir los personajes!\n\nHaga clic en el área de la izquierda para seleccionar entre los personajes disponibles. Si encuentras un personaje que te gusta, arrástralo a la sección superior con la etiqueta SELECCIONADO.</ReorderCharacters.text>
+  <ReorderCharacters.text>Ahora usted elige los personajes que desea utilizar.\n\nARRASTRE un personaje de la parte "izquierda" de la lista de personajes (en la parte inferior) a la parte "seleccionada" (en la parte superior).\n\nSi lo desea, puede hacer clic en un personaje para examinarlo.</ReorderCharacters.text>
   
   <!-- EN: Please choose a research project. -->
   <SelectResearchProject.rejectInputMessage>Por favor, designa un proyecto de investigación.</SelectResearchProject.rejectInputMessage>
   <!-- EN: Now just choose whatever you want to be researched first.\n\nYou might have to wait for the research bench to be constructed, or for trees to be chopped for wood.\n\nIf it's taking too long, use the WORK tab to assign more colonists to Construct. -->
-  <SelectResearchProject.text>Ahora debes decidir lo que se investigará primero.\n\nPrimero necesitas que se termine de construir la mesa de investigación.\n\nSi está tomando demasiado, recuerda que puedes priorizar su construcción o acelerar el tiempo.</SelectResearchProject.text>
+  <SelectResearchProject.text>Ahora debes decidir lo que se investigará primero.\n\nPrimero necesitas que se termine de construir la mesa de investigación,o que los árboles sean cortados para obtener madera\n\nSi está tomando demasiado tiempo, use la pestaña TRABAJO para asignar más colonos a Construir.</SelectResearchProject.text>
   
   <!-- EN: Set this growing zone to grow rice -->
   <SetToGrowRice.onMapInstruction>Designa el arroz como cultivo</SetToGrowRice.onMapInstruction>
