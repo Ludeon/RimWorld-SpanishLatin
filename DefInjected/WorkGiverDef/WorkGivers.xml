@@ -211,7 +211,7 @@
   <!-- EN: refine chemicals -->
   <DoBillsRefinery.verb>refinar productos químicos</DoBillsRefinery.verb>
   
-  <!-- EN: make sculptures -->
+  <!-- EN: make things at art bench -->
   <DoBillsSculpt.label>esculpir arte</DoBillsSculpt.label>
   <!-- EN: sculpting at -->
   <DoBillsSculpt.gerund>esculpiendo</DoBillsSculpt.gerund>
@@ -288,6 +288,13 @@
   <!-- EN: tend to -->
   <DoctorTendToSelf.verb>autoatenderse</DoctorTendToSelf.verb>
   
+  <!-- EN: tend to self -->
+  <DoctorTendToSelfEmergency.label>TODO</DoctorTendToSelfEmergency.label>
+  <!-- EN: tending to -->
+  <DoctorTendToSelfEmergency.gerund>TODO</DoctorTendToSelfEmergency.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToSelfEmergency.verb>TODO</DoctorTendToSelfEmergency.verb>
+  
   <!-- EN: execute prisoners -->
   <DoExecution.label>liquidar prisionero</DoExecution.label>
   <!-- EN: doing execution on -->
@@ -336,6 +343,13 @@
   <Flick.gerund>alternando</Flick.gerund>
   <!-- EN: flick switch on -->
   <Flick.verb>alternar</Flick.verb>
+  
+  <!-- EN: operate ground penetrating scanner -->
+  <GroundPenetratingScan.label>TODO</GroundPenetratingScan.label>
+  <!-- EN: scanning at -->
+  <GroundPenetratingScan.gerund>TODO</GroundPenetratingScan.gerund>
+  <!-- EN: scan -->
+  <GroundPenetratingScan.verb>TODO</GroundPenetratingScan.verb>
   
   <!-- EN: harvest crops -->
   <GrowerHarvest.label>cosecha de cultivos</GrowerHarvest.label>
@@ -399,6 +413,13 @@
   <LoadTransporters.gerund>cargando</LoadTransporters.gerund>
   <!-- EN: load -->
   <LoadTransporters.verb>carga</LoadTransporters.verb>
+  
+  <!-- EN: operate long range scanner -->
+  <LongRangeScan.label>TODO</LongRangeScan.label>
+  <!-- EN: scanning at -->
+  <LongRangeScan.gerund>TODO</LongRangeScan.gerund>
+  <!-- EN: scan -->
+  <LongRangeScan.verb>TODO</LongRangeScan.verb>
   
   <!-- EN: milk animals -->
   <Milk.label>ordeñar animales</Milk.label>
@@ -491,11 +512,9 @@
   <!-- EN: research -->
   <Research.verb>investigar</Research.verb>
   
-  <!-- EN: operate scanner -->
+  <!-- UNUSED -->
   <Scan.label>operar escáner</Scan.label>
-  <!-- EN: scanning at -->
   <Scan.gerund>escaneando en</Scan.gerund>
-  <!-- EN: scan -->
   <Scan.verb>escanear</Scan.verb>
   
   <!-- EN: shear animals -->

@@ -18,7 +18,7 @@
   <BreakRiskExtremeDesc>Estos colonos están extremadamente estresados y podrían tener un colapso mental grave (y posiblemente violento) en cualquier momento:\n\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
   <BreakRiskDescEnding>Revisa las necesidades de estos colonos en la pestaña de 'Humor' para ver qué es lo que necesitan.\n\nPara hacerlos sentir mejor, puedes hacer cosas como preparales comidas gourmet, darles más horas de ocio, mejorar la calidad de los objetos de ocio, mejorar su ambiente de trabajo, proporcionarles bebida, drogas, entre otras cosas más.</BreakRiskDescEnding>
-  
+
   <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>¡Un colono necesita rescate!</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
@@ -62,6 +62,11 @@
   <NeedColonistBeds>Se necesitan camas para colonos</NeedColonistBeds>
   <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
   <NeedColonistBedsDesc>Tienes más colonos que camas para dormir. Alguien tendrá que dormir en el suelo.\n\nConstruye más camas o reasigna la cama de un prisionero para uso de los colonos.\n\nSi no tienes recursos, los sitios para dormir son gratis y se crean instantáneamente.</NeedColonistBedsDesc>
+  
+  <!-- EN: Colonist left unburied -->
+  <AlertColonistLeftUnburied>TODO</AlertColonistLeftUnburied>
+  <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
+  <AlertColonistLeftUnburiedDesc>TODO</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Cazador no tiene arma a distancia</HunterLacksWeapon>
@@ -70,12 +75,12 @@
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Ropa desgastada</AlertTatteredApparel>
-  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
+  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
   <AlertTatteredApparelDesc>Estos colonos están vistiendo ropa desgastada, lo que los entristece:\n\n{0}\nEncuéntrales ropa que no esté tan rota.\n\nPuedes crearla en la mesa de sastrería o comprarla a un mercader.</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>Desnudez indeseada</AlertUnhappyNudity>
-  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
+  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
   <AlertUnhappyNudityDesc>Estos colonos están desnudos y no están felices al respecto:\n\n{0}\nEncuéntrales algo de ropa.\n\nPuedes fabricar vestimenta en la mesa de sastrería o comprarla a los mercaderes.</AlertUnhappyNudityDesc>
 
   <!-- EN: Starvation -->
@@ -140,11 +145,16 @@
   <NeedResearchProject>Investigación ociosa</NeedResearchProject>
   <!-- EN: You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project. -->
   <NeedResearchProjectDesc>Tienes el equipo para llevar a cabo investigaciones pero no haz seleccionado un proyecto.\n\nAbre el menú de INVESTIGACIONES y selecciona uno.</NeedResearchProjectDesc>
-  
+
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0} colono(s) ocioso(s)</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>Estos colonos están vagando sin nada que hacer:\n\n{0}\nDeberías encontrarles algo productivo que hacer.</ColonistsIdleDesc>
+  
+  <!-- EN: Caravan idle -->
+  <CaravanIdle>TODO</CaravanIdle>
+  <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
+  <CaravanIdleDesc>TODO</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Colonos necesitan tratamiento</ColonistNeedsTreatment>
@@ -153,7 +163,7 @@
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermia</AlertHypothermia>
-  <!-- EN: These colonists are suffering from hypothermia.\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
+  <!-- EN: These colonists are suffering from hypothermia:\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
   <AlertHypothermiaDesc>Estos colonos están sufriendo de hipotermia:\n\n{0}\nAsegúrate de que su ropa sea apropiada para la estación y de que haya un poco de calefacción en las habitaciones.</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
@@ -191,10 +201,48 @@
   <NeedWarmClothesDesc1All>A todos tus colonos les hará falta ropa de abrigo cuando llegue la estación fría.</NeedWarmClothesDesc1All>
   <!-- EN: The outdoor temperature is going to reach {0}.\n\nYou can tailor warm clothes at the tailoring bench, or buy them from traders. -->
   <NeedWarmClothesDesc2>La temperatura en exteriores llegará a {0}.\n\nPuedes fabricar ropa de abrigo en la mesa de sastrería o comprársela a un mercader.</NeedWarmClothesDesc2>
-  
+
   <!-- EN: Immobile caravan -->
   <ImmobileCaravan>Caravana detenida</ImmobileCaravan>
   <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
   <ImmobileCaravanDesc>Una de tus caravanas está inmóvil debido a que carga un sobrepeso.\n\nPuedes hacer que se mueva nuevamente abandonando algunos objetos en la pestaña EQUIPO.</ImmobileCaravanDesc>
+
+  <!-- EN: Building unusable due to roof -->
+  <BuildingCantBeUsedRoofed>TODO</BuildingCantBeUsedRoofed>
+  <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
+  <BuildingCantBeUsedRoofedDesc>TODO</BuildingCantBeUsedRoofedDesc>
+
+  <!-- EN: Heatstroke -->
+  <AlertHeatstroke>TODO</AlertHeatstroke>
+  <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
+  <AlertHeatstrokeDesc>TODO</AlertHeatstrokeDesc>
+
+  <!-- EN: Guest unhappy -->
+  <QuestPartMoodBelowThreshold>TODO</QuestPartMoodBelowThreshold>
+  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
+  <QuestPartMoodBelowThresholdDesc>TODO</QuestPartMoodBelowThresholdDesc>
   
+  <!-- EN: Shuttle leaving in {0} -->
+  <QuestPartShuttleLeaveDelay>TODO</QuestPartShuttleLeaveDelay>
+  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <QuestPartShuttleLeaveDelayDesc>TODO</QuestPartShuttleLeaveDelayDesc>
+
+  <!-- EN: Monument will be destroyed -->
+  <DisallowedBuildingInsideMonument>TODO</DisallowedBuildingInsideMonument>
+  <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
+  <DisallowedBuildingInsideMonumentDesc>TODO</DisallowedBuildingInsideMonumentDesc>
+
+  <!-- EN: Countdown activator {0} -->
+  <ActivatorCountdown>TODO</ActivatorCountdown>
+  <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDesc>TODO</ActivatorCountdownDesc>
+  <!-- EN: {0} countdown activators -->
+  <ActivatorCountdownMultiple>TODO</ActivatorCountdownMultiple>
+  <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDescMultiple>TODO</ActivatorCountdownDescMultiple>
+
+  <!-- EN: Quest expires in {0} -->
+  <QuestExpiresSoon>TODO</QuestExpiresSoon>
+  <!-- EN: The quest '{0}' will expire in {1}. -->
+  <QuestExpiresSoonDesc>TODO</QuestExpiresSoonDesc>
 </LanguageData>

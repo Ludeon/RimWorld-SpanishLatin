@@ -65,9 +65,11 @@
   <CommandGetOutOfBedDesc>Obliga al colono a levantarse de la cama.</CommandGetOutOfBedDesc>
 
   <!-- EN: Set owner -->
-  <CommandBedSetOwnerLabel>Asignar dueño</CommandBedSetOwnerLabel>
+  <CommandThingSetOwnerLabel>TODO</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific colonist. -->
   <CommandBedSetOwnerDesc>Asigna a esta cama un dueño específico.</CommandBedSetOwnerDesc>
+  <!-- EN: Assign this throne to be owned by a specific colonist. -->
+  <CommandThroneSetOwnerDesc>TODO</CommandThroneSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Asignar colono</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -267,7 +269,7 @@
   <CommandBuildCopy>Construir copia</CommandBuildCopy>
   <!-- EN: Build a copy of this building. -->
   <CommandBuildCopyDesc>Construir una copia de este edificio.</CommandBuildCopyDesc>
-  
+
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <CommandFormCaravan>Formar caravana</CommandFormCaravan>
@@ -349,6 +351,8 @@
   <CommandTradeDesc>Comerciar con esta facción.</CommandTradeDesc>
   <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>No hay ningún negociador consciente.</CommandTradeFailNoNegotiator>
+  <!-- EN: None of your people have the required faction permission: {0} -->
+  <CommandTradeFailNeedPermit>TODO</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
@@ -363,7 +367,7 @@
   <CommandFulfillTradeOfferDesc>Cumplir con la solicitud de los bienes y reclamar su recompensa.</CommandFulfillTradeOfferDesc>
   <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>Tu caravana debe tener {0} para cumplir con esta oferta comercial.</CommandFulfillTradeOfferFailInsufficient>
-  <!-- EN: Offer {0} for {1}? -->
+  <!-- EN: Give {0}? -->
   <CommandFulfillTradeOfferConfirm>Oferta {0} por {1}?</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
@@ -373,12 +377,18 @@
   <CommandTakeOffDesc>Aborda la nave y escapa del planeta.</CommandTakeOffDesc>
   <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
   <CommandTakeOffConfirmation>¿Estás seguro que deséas lanzar la nave?\n\nTodos en ésta área escaparán del planeta. Todos los demás serán abandonados.</CommandTakeOffConfirmation>
-  
+
   <!-- Set target fuel level -->
   <!-- EN: Set target fuel level -->
   <CommandSetTargetFuelLevel>Designar nivel de combustible</CommandSetTargetFuelLevel>
   <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
   <CommandSetTargetFuelLevelDesc>Designa el nivel de combustible. Los colonos intentarán llenar el tanque hasta el nivel designado.</CommandSetTargetFuelLevelDesc>
+
+  <!-- Refueling -->
+  <!-- EN: Toggle automatic refuel -->
+  <CommandToggleAllowAutoRefuel>TODO</CommandToggleAllowAutoRefuel>
+  <!-- EN: Sets whether or not automatic refueling is allowed. -->
+  <CommandToggleAllowAutoRefuelDesc>TODO</CommandToggleAllowAutoRefuelDesc>
   
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
@@ -407,6 +417,24 @@
   <CommandLoadTransporterFailNotConnectedToFuelingPort>La cápsula de carga no está conectada a un puerto de recarga.</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>La lanzadera de cápsulas no tiene combustible.</CommandLoadTransporterFailNoFuel>
+  
+  <!-- Load transporter (single) -->
+  <!-- EN: Load -->
+  <CommandLoadTransporterSingle>TODO</CommandLoadTransporterSingle>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandLoadTransporterSingleDesc>TODO</CommandLoadTransporterSingleDesc>
+  
+  <!-- Transporters set to load -->
+  <!-- EN: Set to load -->
+  <CommandSetToLoadTransporter>TODO</CommandSetToLoadTransporter>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandSetToLoadTransporterDesc>TODO</CommandSetToLoadTransporterDesc>
+  
+  <!-- Autoload transporters -->
+  <!-- EN: Autoload -->
+  <CommandAutoloadTransporters>TODO</CommandAutoloadTransporters>
+  <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
+  <CommandAutoloadTransportersDesc>TODO</CommandAutoloadTransportersDesc>
   
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->
@@ -455,5 +483,40 @@
   <CommandAttackSettlement>Atacar</CommandAttackSettlement>
   <!-- EN: Attack this settlement. -->
   <CommandAttackSettlementDesc>Atacar este asentamiento.</CommandAttackSettlementDesc>
+
+  <!-- Send shuttle -->
+  <!-- EN: Send -->
+  <CommandSendShuttle>TODO</CommandSendShuttle>
+  <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
+  <CommandSendShuttleDesc>TODO</CommandSendShuttleDesc>
+  <!-- EN: The shuttle is under a roof. -->
+  <CommandSendShuttleFailUnderRoof>TODO</CommandSendShuttleFailUnderRoof>
+  <!-- EN: Some of the required items or people are missing. -->
+  <CommandSendShuttleFailMissingRequiredThing>TODO</CommandSendShuttleFailMissingRequiredThing>
+
+  <!-- Place blueprints -->
+  <!-- EN: Place blueprints -->
+  <CommandPlaceBlueprints>TODO</CommandPlaceBlueprints>
+  <!-- EN: Place all required blueprints where possible. -->
+  <CommandPlaceBlueprintsDesc>TODO</CommandPlaceBlueprintsDesc>
+
+  <!-- Cancel monument marker -->
+  <!-- EN: Cancel -->
+  <CommandCancelMonumentMarker>TODO</CommandCancelMonumentMarker>
+  <!-- EN: Permanently remove this monument marker. -->
+  <CommandCancelMonumentMarkerDesc>TODO</CommandCancelMonumentMarkerDesc>
+
+  <!-- View quest -->
+  <!-- EN: View quest: {0} -->
+  <CommandViewQuest>TODO</CommandViewQuest>
+  <!-- EN: View this quest in quests tab. -->
+  <CommandViewQuestDesc>TODO</CommandViewQuestDesc>
+  <!-- EN: Open linked quest -->
+  <CommandOpenLinkedQuest>TODO</CommandOpenLinkedQuest>
+  <!-- EN: Open linked quest in the quests tab. -->
+  <CommandOpenLinkedQuestDesc>TODO</CommandOpenLinkedQuestDesc>
+  
+  <!-- UNUSED -->
+  <CommandBedSetOwnerLabel>Asignar dueño</CommandBedSetOwnerLabel>
 
 </LanguageData>

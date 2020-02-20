@@ -6,7 +6,7 @@
   <!-- EN: Fabricate advanced components from standard components and other materials. -->
   <AdvancedFabrication.description>Fabricar componentes avanzados a partir de componentes estándar y otros materiales.</AdvancedFabrication.description>
   
-  <!-- EN: bionics -->
+  <!-- EN: bionic replacements -->
   <Bionics.label>biónica</Bionics.label>
   <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
   <Bionics.description>Construye partes biónicas del cuerpo de alta tecnología para reemplazar las extremidades y los ojos perdidos. Requiere que un médico experto lo instale.</Bionics.description>
@@ -30,6 +30,10 @@
   <Fabrication.label>fabricación</Fabrication.label>
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
   <Fabrication.description>Construir bancos de fabricación, capaces de realizar proyectos de alta tecnología que van desde el ensamblaje de componentes hasta la construcción de blindajes.</Fabrication.description>
+  <!-- EN: You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components.\n  -Some special threats drop them when defeated. -->
+  <Fabrication.discoveredLetterText>TODO</Fabrication.discoveredLetterText>
+  <!-- EN: About: Getting advanced components -->
+  <Fabrication.discoveredLetterTitle>TODO</Fabrication.discoveredLetterTitle>
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>escáner de profundidad</GroundPenetratingScanner.label>
@@ -41,10 +45,15 @@
   <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
   <MultiAnalyzer.description>Construir analizadores múltiples que aumenten la velocidad de la investigación y permitan proyectos de más alto nivel.</MultiAnalyzer.description>
   
-  <!-- EN: powered armor -->
+  <!-- EN: marine armor -->
   <PoweredArmor.label>servoarmadura</PoweredArmor.label>
-  <!-- EN: Build the power armor and power armor helmets. Note that these also require advanced components. -->
+  <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
   <PoweredArmor.description>Construye la servoarmadura y los cascos de servoarmadura. Tenga en cuenta que estos también requieren componentes avanzados.</PoweredArmor.description>
+  
+  <!-- EN: recon armor -->
+  <ReconArmor.label>TODO</ReconArmor.label>
+  <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
+  <ReconArmor.description>TODO</ReconArmor.description>
   
   <!-- EN: uranium slug turret -->
   <SniperTurret.label>cañón de uranio</SniperTurret.label>
