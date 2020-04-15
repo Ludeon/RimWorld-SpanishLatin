@@ -7,7 +7,7 @@
   <!-- EN: You're about to change the heir of the title {HOLDER_nameIndef} recieved from {0_name}. This requires building a monument in a limited time, to consecrate the new inheritance. -->
   <MakeHeirConfirm>Estás a punto de cambiar al heredero del título, que {HOLDER_nameIndef} obtuvo de {0_name} . Esto requiere la construcción de un monumento en un tiempo limitado, para inaugurar el nuevo legado.</MakeHeirConfirm>
   <!-- EN: This will upset {HOLDER_possessive} current heir {HEIR_nameFull}. -->
-  <MakeHeirPreviousHeirWarning>Esto se convertirá en {HOLDER_possessive}de los herederos actuales, a {HEIR_nameFull},esto le molestara.</MakeHeirPreviousHeirWarning>
+  <MakeHeirPreviousHeirWarning>Esto se convertirá en {HOLDER_possessive} de los herederos actuales, a {HEIR_nameFull}, esto le molestará.</MakeHeirPreviousHeirWarning>
 
   <!-- Call royal aid -->
   <!-- EN: Call royal aid -->
@@ -23,7 +23,7 @@
   <!-- EN: Free -->
   <CommandCallRoyalAidFreeOption>Gratis</CommandCallRoyalAidFreeOption>
   <!-- EN: {0} days left, costs {1} {FACTION_royalFavorLabel} -->
-  <CommandCallRoyalAidFavorOption>Sin embargo {0} Quedan días costosos {1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
+  <CommandCallRoyalAidFavorOption>{0} días restantes, costo de {1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
 
   <!-- Abilities -->
   <!-- EN: Psychic entropy would overflow. -->
@@ -34,5 +34,11 @@
   <CommandPsycastHigherLevelAmplifierRequired>{0}x Nivel de potenciador psíquico necesario.</CommandPsycastHigherLevelAmplifierRequired>
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>El usuario de la habilidad se desmayó.</CommandPsycastPawnIsUnconscious>
+
+  <!-- Select monument marker -->
+  <!-- EN: Select monument -->
+  <CommandSelectMonumentMarker>Seleccinar Monumento</CommandSelectMonumentMarker>
+  <!-- EN: Select the monument marker this belongs to. -->
+  <CommandSelectMonumentMarkerDesc>Selecciona el marcador de monumento al que pertenece..</CommandSelectMonumentMarkerDesc>
   
 </LanguageData>
