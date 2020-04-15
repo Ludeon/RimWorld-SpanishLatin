@@ -12,12 +12,23 @@
   <!-- EN: {PAWN_pronoun} wants to be covered in apparel appropriate to {PAWN_possessive} title: -->
   <LetterRoyalTitleApparelRequirement>{PAWN_pronoun} quiere usar ropa {PAWN_possessive} que esté a la altura del título:</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
-  <LetterRoyalTitleExpectation>{PAWN_possessive}Las expectativas nunca serán más bajas que {1}.</LetterRoyalTitleExpectation>
+  <LetterRoyalTitleExpectation>{PAWN_possessive} las expectativas nunca serán más bajas que {1}.</LetterRoyalTitleExpectation>
+
+  <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
+  <LetterRoyalTitleConceitedTrait>Porque {PAWN_possessive} es '{1}', {PAWN_labelShort} exigirá que los privilegios de este título sean totalmente respetados. {PAWN_pronoun} puede negarse a hacer ciertos tipos de trabajo, consumir alimentos de poca calidad y emitir decretos.</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} recibió el título {TITLE} de la facción '{FACTION_name}'!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
   <LetterLostRoyalTitle>{PAWN_labelShort} ya no posee el título {TITLE} de la facción '{FACTION_name}'.</LetterLostRoyalTitle>
+  <!-- EN: Title rewards -->
+  <LetterLabelRewardsForNewTitle>Titelbelohnungen</LetterLabelRewardsForNewTitle>
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
+  <LetterRewardsForNewTitle>En honor a {PAWN_labelShort} quien ha avanzado al titulo de {TITLE}, la facción '{FACTION_name}' ha decidido enviar a {PAWN_possessive} con recompensas para {PAWN_objective}. Las recompensas entregadas serán:</LetterRewardsForNewTitle>
+  <!-- EN: Rewards have arrived to your colony via transport pods. -->
+  <LetterRewardsForNewTitleDeliveryBase>Las recompensas han llegado a la colonia a través de las cápsulas de transporte.</LetterRewardsForNewTitleDeliveryBase>
+  <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
+  <LetterRewardsForNewTitleDeliveryDirect>Las recompensas fueron directamente entregadas a {PAWN_labelShort}. (Puedes ver las recompensas en el inventario de {PAWN_labelShort}).</LetterRewardsForNewTitleDeliveryDirect>
 
   <!-- EN: {PAWN_pronoun} has these permissions: -->
   <LetterRoyalTitlePermits>{PAWN_pronoun} tiene los siguientes permisos:</LetterRoyalTitlePermits>
@@ -28,13 +39,13 @@
   <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} se niega a hacer el siguiente trabajo:\n{1}</LetterRoyalTitleDisabledWorkTag>
 
   <!-- EN: {PAWN_pronoun} demands this recreation: -->
-  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun} requiere las siguientes opciones de diversión:</LetterRoyalTitleEnabledJoyKind>
+  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun} requiere la siguiente opcion recreativa:</LetterRoyalTitleEnabledJoyKind>
   <!-- EN: {PAWN_pronoun} demands this recreation: -->
-  <LetterRoyalTitleStillEnabledJoyKind>{PAWN_pronoun} requiere las siguientes opciones de diversión:</LetterRoyalTitleStillEnabledJoyKind>
+  <LetterRoyalTitleStillEnabledJoyKind>{PAWN_pronoun} requiere urgentemente de la siguiente opcion recreativa:</LetterRoyalTitleStillEnabledJoyKind>
   <!-- EN: {PAWN_pronoun} refuses this recreation: -->
-  <LetterRoyalTitleDisabledJoyKind>{PAWN_pronoun} negó la siguiente opción recreativa:</LetterRoyalTitleDisabledJoyKind>
+  <LetterRoyalTitleDisabledJoyKind>{PAWN_pronoun} se rehúsa a usar la siguiente opción recreativa:</LetterRoyalTitleDisabledJoyKind>
   <!-- EN: {PAWN_pronoun} refuses this recreation: -->
-  <LetterRoyalTitleStillDisabledJoyKind>{PAWN_pronoun} negó la siguiente opción recreativa:</LetterRoyalTitleStillDisabledJoyKind>
+  <LetterRoyalTitleStillDisabledJoyKind>{PAWN_pronoun} se rehúsa vehementemente a usar la siguiente opción recreativa:</LetterRoyalTitleStillDisabledJoyKind>
 
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
   <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} tiene permiso para usar los siguientes implantes:{1}</LetterRoyalTitleAllowedImplants>
@@ -58,11 +69,11 @@
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>Si {PAWN_pronoun} muere, este título es heredado a {HEIR_nameFull} .</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>Si {PAWN_pronoun} muere, este título es heredado a {HEIR_nameFull}.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
   <LetterRoyalTitleNoHeir>Si {PAWN_pronoun} muere, nadie heredará este título.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
-  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} es miembro del grupo parlamentario '{FACTION_name}'.</LetterRoyalTitleHeirFactionWarning>
+  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} es miembro del la facción '{FACTION_name}'.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
   <LetterRoyalTitleChangingHeir>Un nuevo heredero puede ser establecido en {FACTION_name} contactando a través del sistema de radio.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
@@ -87,11 +98,11 @@
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>Infractor de la ley: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of the {CULPRIT} (detection chance: {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use a {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>La facción '{FACTION_name}' tiene {PAWN_labelShort} uso ilegal registrado: {CULPRIT} (Erkennungswahrscheinlichkeit: {CHANCE}).\n\nDe acuerdo con las leyes de la facción '{FACTION_name}' solo los poseedores del título {TITLE} pueden usar esto.\n\Como castigo, tu reputación con ellos cayó en  {GOODWILL} .</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>La facción '{FACTION_name}' ha registrado el uso ilegal por parte de {PAWN_labelShort} del {CULPRIT} (Probabilidad de deteción: {CHANCE}).\n\nDe acuerdo con las leyes de la facción '{FACTION_name}' solo los poseedores del título {TITLE} tienen permitido usar el {CULPRIT}.\n\Como castigo, tu reputación con la facción '{FACTION_name}' se verá disminuida en {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
-  <LetterFinishedSpeech>{ORGANIZER_labelShort} ha {ORGANIZER_possessive} completado un discurso.</LetterFinishedSpeech>
+  <LetterFinishedSpeech>{ORGANIZER_labelShort} ha {ORGANIZER_possessive} finalizado el discurso.</LetterFinishedSpeech>
   <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
   <LetterTerribleSpeech>Fue realmente horrible – denigrante, lleno de chistes desagradables e historias deprimentes.</LetterTerribleSpeech>
   <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
@@ -111,14 +122,18 @@
   <!-- EN: Wild decree -->
   <WildDecree>Promulgación salvaje</WildDecree>
   <!-- EN: {0_nameIndef} issues decree -->
-  <LetterLabelRandomDecree>{0_nameIndef} decreto</LetterLabelRandomDecree>
+  <LetterLabelRandomDecree>{0_nameIndef} decretó</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>Al intentar {0_possessive}aliviar el estrés, {0_nameIndef} emitió un decreto real salvaje y ahora exige que se cumpla.\nSi no se cumple a tiempo {0_nameIndef} va a ser muy infeliz.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>En un intento de {0_possessive} de aliviar el estrés, {0_nameIndef} emitió un decreto real salvaje y ahora exige que se cumpla.\nSi no se cumple a tiempo, {0_nameIndef} va a ser muy infeliz.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree> {0_possessive} con el título {0_bestRoyalTitleIndef} tiene que estar a la altura de su cargo {0_nameIndef} por lo tanto emitió un decreto real y ahora exige que se cumpla.\nSi no se cumple a tiempo {0_nameIndef} será muy infeliz.</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}, en orden de afirmar {0_possessive} con el título {0_bestRoyalTitleIndef}, {0_nameIndef} tiene que estar a la altura del cargo, por lo tanto emitió un decreto real y ahora exige que se cumpla.\nSi no se cumple a tiempo {0_nameIndef} será muy infeliz.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>El decreto es '{0}'.</LetterDecree_Quest>
+
+  <!-- Lent colonist died -->
+  <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
+  <LentColonistDied>{PAWN_nameDef} fue prestado a {FACTION}. Ellos devolverán el cuerpo de {PAWN_nameDef} en breve.</LentColonistDied>
 
 </LanguageData>
