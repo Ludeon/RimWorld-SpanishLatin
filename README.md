@@ -1,6 +1,9 @@
 # Latin American Spanish Translation of RimWorld
 
-![Logo](https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/LangIcon.png?raw=true) <br>
+<div align="center">
+  <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
+</div>
+
 ![VRim](https://img.shields.io/badge/RimWorld-1.0.1967-green.svg?style=for-the-badge)
 
 _ _ _
@@ -17,15 +20,17 @@ Grupo Discord de traduccion: https://discord.gg/PdwjvDA
 - - -
 
 Current translation and adaptation by:
+
 * __Etaglibash__
-* __Mora145__
 * __Andres6936__
-* __Destiny609__
+
 
 Thanks to AM for the 10f. version.
 
 Thanks for original spanish translation.
 
+* __Mora145 (Inactivo)__
+* __Destiny609 (Inactivo)__
 * __Gaesatae (Inactivo)__
 * __Vhiden (Inactivo)__
 * __Emsaic (Inactivo)__
