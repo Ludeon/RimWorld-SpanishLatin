@@ -228,7 +228,7 @@
   <!-- EN: Requires trainability {0}. -->
   <CannotTrainNotSmartEnough>Requiere docilidad {0}.</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{1_labelShort} es demasiado {1_gender ? pequeño : pequeña} para ser {1_gender ? entrenado : entrenada } en esto.</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{1_labelShort} es muy pequeño para entrenar esto.</CannotTrainTooSmall>
 
 
   <!-- EN: Prerequisite needed: {0} -->
@@ -306,7 +306,7 @@
   <!-- EN: Leaving -->
   <FormingCaravanStatus_Leaving>Saliendo</FormingCaravanStatus_Leaving>
   <!-- EN: Leaving (waiting) -->
-  <FormingCaravanStatus_Leaving_Pause>Saliendo (Esperando)</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Leaving_Pause>Saliendo (esperando)</FormingCaravanStatus_Leaving_Pause>
   <!-- EN: Waiting -->
   <FormingCaravanStatus_Waiting>Esperando</FormingCaravanStatus_Waiting>
   <!-- EN: Members -->
@@ -327,7 +327,7 @@
   <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>Quitar {{0}}x {0}</RemoveSliderText>
   <!-- EN: Contained items -->
-  <ContainedItems>Objetos</ContainedItems>
+  <ContainedItems>Artículos contenidos</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>¿Realmente quieres quitar {0}?</ConfirmRemoveItemDialog>
 
