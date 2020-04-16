@@ -18,7 +18,7 @@
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
     <li>helpersParagraph(helpersCount==1)->[asker_nameDef] enviará un [helperKind_label] para ayudarlo. Tienes que [helpers0_objective] alimentarlo y proporcionar refugio [helpers0_pronoun] pero si muere en la batalla, no habrá consecuencias..\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] enviara [helpersCount] [helperKind_labelPlural] para ayudarlo. Tienes que alimentarlos y protegerlos, pero si mueren en la batalla, no tendrá ninguna consecuencia.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] enviará [helpersCount] [helperKind_labelPlural] para ayudarlo. Tienes que alimentarlos y protegerlos, pero si mueren en la batalla, no habrá ninguna consecuencia.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] ha enviado para ayudarte.</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
@@ -31,8 +31,8 @@
     <li>helpersWasWere(helpersCount>=2)->fueron</li>
     <li>helpersThe(helpersCount>=1)->el</li>
     <li>helpersThe(helpersCount>=2)->el</li>
-    <li>helpersWill(helpersCount==1)->voluntad</li>
-    <li>helpersWill(helpersCount>=2)->ser</li>
+    <li>helpersWill(helpersCount==1)->es</li>
+    <li>helpersWill(helpersCount>=2)->son</li>
   </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
 
 
