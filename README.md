@@ -8,7 +8,7 @@
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 1.0.19XX (Development Build)
+This is the Latin American Spanish translation of Rimworld 1.0.26XX (Development Build)
 
 See this page for license info:
 
@@ -16,13 +16,17 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 - - -
 
-Grupo Discord de traduccion: https://discord.gg/PdwjvDA
+Grupo Discord de traducción: https://discord.gg/JTpgM7
 - - -
 
 Current translation and adaptation by:
 
-* __Etaglibash__
-* __Andres6936__
+* __Zerstrick__
+
+Thanks to AM for the 1.019XX version:
+
+* __Etaglibash (Inactivo)__
+* __Andres6936 (Inactivo)__
 
 
 Thanks to AM for the 10f. version.
