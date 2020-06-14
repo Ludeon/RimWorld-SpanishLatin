@@ -4,7 +4,7 @@
   <!-- EN: bite -->
   <Bite.label>mordida</Bite.label>
   <!-- EN: A bite wound. -->
-  <Bite.description>TODO</Bite.description>
+  <Bite.description>Una herida de un mordisco.</Bite.description>
   <!-- EN: set -->
   <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -23,9 +23,9 @@
   <Bite.labelNounPretty>{0} en el {1}</Bite.labelNounPretty>
   
   <!-- EN: bruise -->
-  <Bruise.label>golpe</Bruise.label>
+  <Bruise.label>contusión</Bruise.label>
   <!-- EN: A bruise. -->
-  <Bruise.description>TODO</Bruise.description>
+  <Bruise.description>Una contusión</Bruise.description>
   <!-- EN: set -->
   <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -35,14 +35,14 @@
   <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>destrozado</Bruise.injuryProps.destroyedLabel>
   <!-- EN: a bruise -->
-  <Bruise.labelNoun>un moretón</Bruise.labelNoun>
+  <Bruise.labelNoun>una contusión</Bruise.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Bruise.labelNounPretty>{0} en el {1}</Bruise.labelNounPretty>
   
   <!-- EN: burn -->
   <Burn.label>quemadura</Burn.label>
   <!-- EN: A burn. -->
-  <Burn.description>TODO</Burn.description>
+  <Burn.description>Una quemadura.</Burn.description>
   <!-- EN: tended -->
   <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -54,41 +54,41 @@
   <!-- EN: Burned off -->
   <Burn.injuryProps.destroyedLabel>quemado</Burn.injuryProps.destroyedLabel>
   <!-- EN: Burned out -->
-  <Burn.injuryProps.destroyedOutLabel>perdido</Burn.injuryProps.destroyedOutLabel>
+  <Burn.injuryProps.destroyedOutLabel>achicharrado</Burn.injuryProps.destroyedOutLabel>
   <!-- EN: a burn -->
   <Burn.labelNoun>una quemadura</Burn.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Burn.labelNounPretty>{0} en el {1}</Burn.labelNounPretty>
   
   <!-- EN: chemical burn -->
-  <ChemicalBurn.label>TODO</ChemicalBurn.label>
+  <ChemicalBurn.label>quemadura química</ChemicalBurn.label>
   <!-- EN: A chemical burn. -->
-  <ChemicalBurn.description>TODO</ChemicalBurn.description>
+  <ChemicalBurn.description>Una quemadura química.</ChemicalBurn.description>
   <!-- EN: chemical burn scar -->
-  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>TODO</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de quemadura química</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off (chemical) -->
-  <ChemicalBurn.injuryProps.destroyedLabel>TODO</ChemicalBurn.injuryProps.destroyedLabel>
+  <ChemicalBurn.injuryProps.destroyedLabel>Quemado (químico)</ChemicalBurn.injuryProps.destroyedLabel>
   <!-- EN: Burned out (chemical) -->
-  <ChemicalBurn.injuryProps.destroyedOutLabel>TODO</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <ChemicalBurn.injuryProps.destroyedOutLabel>Achicharrado (químico)</ChemicalBurn.injuryProps.destroyedOutLabel>
   <!-- EN: a chemical burn -->
-  <ChemicalBurn.labelNoun>TODO</ChemicalBurn.labelNoun>
+  <ChemicalBurn.labelNoun>una quemadura química</ChemicalBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <ChemicalBurn.labelNounPretty>TODO</ChemicalBurn.labelNounPretty>
+  <ChemicalBurn.labelNounPretty>{0} en el {1}</ChemicalBurn.labelNounPretty>
   
   <!-- EN: crack -->
   <Crack.label>fractura</Crack.label>
   <!-- EN: A crack. -->
-  <Crack.description>TODO</Crack.description>
+  <Crack.description>Una fractura.</Crack.description>
   <!-- EN: set -->
-  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>alineado</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>estabilizada</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: set -->
-  <Crack.comps.HediffComp_TendDuration.labelTendedWell>curado</Crack.comps.HediffComp_TendDuration.labelTendedWell>
+  <Crack.comps.HediffComp_TendDuration.labelTendedWell>estabilizada</Crack.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: set -->
-  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>curado</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>estabilizada</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent crack -->
-  <Crack.comps.HediffComp_GetsPermanent.permanentLabel>Permanente</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
+  <Crack.comps.HediffComp_GetsPermanent.permanentLabel>fractura permanente</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Shattered -->
-  <Crack.injuryProps.destroyedLabel>aplastado</Crack.injuryProps.destroyedLabel>
+  <Crack.injuryProps.destroyedLabel>destrozado</Crack.injuryProps.destroyedLabel>
   <!-- EN: a crack wound -->
   <Crack.labelNoun>una herida por fractura</Crack.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -97,7 +97,7 @@
   <!-- EN: crush -->
   <Crush.label>aplastamiento</Crush.label>
   <!-- EN: A crushing wound. -->
-  <Crush.description>TODO</Crush.description>
+  <Crush.description>Una herida aplastante.</Crush.description>
   <!-- EN: set -->
   <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -116,7 +116,7 @@
   <!-- EN: cut -->
   <Cut.label>cortada</Cut.label>
   <!-- EN: A cut. -->
-  <Cut.description>TODO</Cut.description>
+  <Cut.description>Un corte.</Cut.description>
   <!-- EN: set -->
   <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -134,10 +134,19 @@
   <!-- EN: {0} in the {1} -->
   <Cut.labelNounPretty>{0} en el {1}</Cut.labelNounPretty>
   
+  <!-- EN: cut -->
+  <ExecutionCut.label>corte</ExecutionCut.label>
+  <!-- EN: A cut made during execution. -->
+  <ExecutionCut.description>Un corte realizado durante la ejecución.</ExecutionCut.description>
+  <!-- EN: a cut -->
+  <ExecutionCut.labelNoun>un corte</ExecutionCut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ExecutionCut.labelNounPretty>{0} en el {1}</ExecutionCut.labelNounPretty>
+  
   <!-- EN: frostbite -->
   <Frostbite.label>congelación</Frostbite.label>
   <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
-  <Frostbite.description>TODO</Frostbite.description>
+  <Frostbite.description>Tejido congelado causado por la exposición al frío sin protección adecuada. La congelación es muy dolorosa, y las partes del cuerpo congeladas a menudo se pierden.</Frostbite.description>
   <!-- EN: tended -->
   <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -154,7 +163,7 @@
   <!-- EN: gunshot -->
   <Gunshot.label>disparo</Gunshot.label>
   <!-- EN: A gunshot wound. -->
-  <Gunshot.description>TODO</Gunshot.description>
+  <Gunshot.description>Una herida de bala.</Gunshot.description>
   <!-- EN: set -->
   <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -177,7 +186,7 @@
   <!-- EN: misc -->
   <Misc.label>varios</Misc.label>
   <!-- EN: Miscellanous injuries. -->
-  <Misc.description>TODO</Misc.description>
+  <Misc.description>Lesiones varias.</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -194,7 +203,7 @@
   <!-- EN: missing body part -->
   <MissingBodyPart.label>Parte faltante</MissingBodyPart.label>
   <!-- EN: A body part is entirely missing. -->
-  <MissingBodyPart.description>TODO</MissingBodyPart.description>
+  <MissingBodyPart.description>Falta una parte del cuerpo por completo.</MissingBodyPart.description>
   <!-- EN: a missing body part -->
   <MissingBodyPart.labelNoun>una parte del cuerpo perdida</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->
@@ -203,7 +212,7 @@
   <!-- EN: scratch -->
   <Scratch.label>arañazo</Scratch.label>
   <!-- EN: A scratch or tear. -->
-  <Scratch.description>TODO</Scratch.description>
+  <Scratch.description>Un rasguño o rasgadura.</Scratch.description>
   <!-- EN: set -->
   <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -224,7 +233,7 @@
   <!-- EN: shredded -->
   <Shredded.label>destrozado</Shredded.label>
   <!-- EN: A part of the body has been shredded and torn. -->
-  <Shredded.description>TODO</Shredded.description>
+  <Shredded.description>Una parte del cuerpo ha sido triturada y desgarrada.</Shredded.description>
   <!-- EN: set -->
   <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -245,7 +254,7 @@
   <!-- EN: stab -->
   <Stab.label>puñalada</Stab.label>
   <!-- EN: A stab wound. -->
-  <Stab.description>TODO</Stab.description>
+  <Stab.description>Una puñalada.</Stab.description>
   <!-- EN: set -->
   <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -266,7 +275,7 @@
   <!-- EN: surgical cut -->
   <SurgicalCut.label>corte quirúrgico</SurgicalCut.label>
   <!-- EN: A cut made during surgery. -->
-  <SurgicalCut.description>TODO</SurgicalCut.description>
+  <SurgicalCut.description>Un corte realizado durante la cirugía.</SurgicalCut.description>
   <!-- EN: set -->
   <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->

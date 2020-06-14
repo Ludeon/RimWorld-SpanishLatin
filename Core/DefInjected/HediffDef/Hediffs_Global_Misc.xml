@@ -17,9 +17,9 @@
   <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
   <BloodLoss.description>Una reducción en el volumen sanguíneo normal. Una pérdida de sangre menor tiene efectos relativamente leves, pero cuando la pérdida de sangre se vuelve severa, el transporte de oxígeno se deteriora gravemente y la víctima pierde la capacidad de moverse. Una pérdida de sangre extrema conduce a la muerte.\n\nLa pérdida de sangre se recupera naturalmente con el tiempo a medida que el cuerpo regenera lentamente su suministro de sangre.</BloodLoss.description>
   <!-- EN: minor -->
-  <BloodLoss.stages.minor-0.label>trivial</BloodLoss.stages.minor-0.label>
+  <BloodLoss.stages.minor-0.label>leve</BloodLoss.stages.minor-0.label>
   <!-- EN: minor -->
-  <BloodLoss.stages.minor-1.label>ligera</BloodLoss.stages.minor-1.label>
+  <BloodLoss.stages.minor-1.label>leve</BloodLoss.stages.minor-1.label>
   <!-- EN: moderate -->
   <BloodLoss.stages.moderate.label>moderada</BloodLoss.stages.moderate.label>
   <!-- EN: severe -->
@@ -28,21 +28,21 @@
   <BloodLoss.stages.extreme.label>extrema</BloodLoss.stages.extreme.label>
   
   <!-- EN: brain shock -->
-  <BrainShock.label>conmoción cerebral</BrainShock.label>
+  <BrainShock.label>shock cerebral</BrainShock.label>
   <!-- EN: After-effects of an electrical shock to the brain. This is generally cause by feedback from brain implants hit by EMP pulses. -->
-  <BrainShock.description>Secuelas de una conmoción eléctrica en el cerebro. Esto generalmente es causado por la retroalimentación de los implantes cerebrales golpeados por los pulsos electromagnéticos (PEM).</BrainShock.description>
+  <BrainShock.description>Secuelas de un shock eléctrico en el cerebro. Esto generalmente es causado por la retroalimentación de los implantes cerebrales golpeados por los pulsos electromagnéticos (PEM).</BrainShock.description>
   <!-- EN: a brain shock -->
-  <BrainShock.labelNoun>una conmoción cerebral</BrainShock.labelNoun>
+  <BrainShock.labelNoun>un shock cerebral</BrainShock.labelNoun>
   
   <!-- EN: catatonic breakdown -->
   <CatatonicBreakdown.label>colapso catatónico</CatatonicBreakdown.label>
   <!-- EN: A state of mental shock which leads to a total inability to function. The victim collapses, effectively unconscious. -->
-  <CatatonicBreakdown.description>Un estado de shock mental que conduce a una incapacidad total para funcionar. La víctima colapsa, efectivamente inconsciente.</CatatonicBreakdown.description>
+  <CatatonicBreakdown.description>Un estado de shock mental que conduce a una incapacidad total para funcionar. La víctima colapsa quedando completamente inconsciente.</CatatonicBreakdown.description>
   <!-- EN: a catatonic breakdown -->
   <CatatonicBreakdown.labelNoun>un colapso catatónico</CatatonicBreakdown.labelNoun>
   
   <!-- EN: cryptosleep sickness -->
-  <CryptosleepSickness.label>enfermedad del criptosueño</CryptosleepSickness.label>
+  <CryptosleepSickness.label>sindrome del criptosueño</CryptosleepSickness.label>
   <!-- EN: After-effects of using a cryptosleep pod. Cryptosleep suspends and replaces many bodily functions in order to prevent aging and death. Upon exiting cryptosleep, the body takes time to restart and rebalance its natural metabolic processes. While this is ongoing, the patient suffers from nausea, dizziness, and a sense of fuzziness in the mind. -->
   <CryptosleepSickness.description>Secuelas del uso de una cápsula de criptosueño. El criptosueño suspende y reemplaza muchas funciones corporales para prevenir el envejecimiento y la muerte. Al salir del criptosueño, el cuerpo toma tiempo para reiniciar y reequilibrar sus procesos metabólicos naturales. Mientras esto está en curso, el paciente sufre náuseas, mareos y una sensación de confusión en la mente.</CryptosleepSickness.description>
   
@@ -57,9 +57,9 @@
   <!-- EN: a drug overdose -->
   <DrugOverdose.labelNoun>una sobredosis de drogas</DrugOverdose.labelNoun>
   <!-- EN: minor -->
-  <DrugOverdose.stages.minor-0.label>ligera</DrugOverdose.stages.minor-0.label>
+  <DrugOverdose.stages.minor-0.label>leve</DrugOverdose.stages.minor-0.label>
   <!-- EN: minor -->
-  <DrugOverdose.stages.minor-1.label>moderada</DrugOverdose.stages.minor-1.label>
+  <DrugOverdose.stages.minor-1.label>leve</DrugOverdose.stages.minor-1.label>
   <!-- EN: major -->
   <DrugOverdose.stages.major.label>grave</DrugOverdose.stages.major.label>
   
@@ -70,12 +70,12 @@
   <!-- EN: recovering -->
   <FoodPoisoning.stages.recovering.label>convaleciente</FoodPoisoning.stages.recovering.label>
   <!-- EN: major -->
-  <FoodPoisoning.stages.major.label>severa</FoodPoisoning.stages.major.label>
+  <FoodPoisoning.stages.major.label>grave</FoodPoisoning.stages.major.label>
   <!-- EN: initial -->
-  <FoodPoisoning.stages.initial.label>inicial</FoodPoisoning.stages.initial.label>
+  <FoodPoisoning.stages.initial.label>fase inicial</FoodPoisoning.stages.initial.label>
   
   <!-- EN: heart attack -->
-  <HeartAttack.label>ataque cardiaco</HeartAttack.label>
+  <HeartAttack.label>ataque cardíaco</HeartAttack.label>
   <!-- EN: A disruption in the heart's normal beating rhythm. Heart attacks can be debilitatingly painful. They can worsen and lead to death, or recover. -->
   <HeartAttack.description>Una interrupción en el ritmo cardíaco normal del corazón. Los ataques al corazón pueden ser muy dolorosos. Pueden empeorar y conducir a la muerte, o recuperarse.</HeartAttack.description>
   <!-- EN: a heart attack -->
@@ -90,7 +90,7 @@
   <!-- EN: pregnant -->
   <Pregnant.label>embarazada</Pregnant.label>
   <!-- EN: This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage. -->
-  <Pregnant.description>Esta criatura está gestando descendencia. Dará a luz si el embarazo llega a buen término. Si se muere de hambre o se lesiona, puede haber un aborto espontáneo.</Pregnant.description>
+  <Pregnant.description>Esta criatura está gestando descendencia. Dará a luz si el embarazo llega a término. Si se muere de hambre o se lesiona, puede haber un aborto espontáneo.</Pregnant.description>
   <!-- EN: {0} pregnant -->
   <Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>{0} embarazada</Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>
   <!-- EN: {0} is pregnant! -->
@@ -106,7 +106,7 @@
   
   <!-- EN: psychic hangover -->
   <PsychicHangover.label>resaca psíquica</PsychicHangover.label>
-  <!-- EN: An after-effect of psychic entropy. Psychic hangover is bothersome, but not dangerous. -->
+  <!-- EN: An after-effect of neural heat. Psychic hangover is bothersome, but not dangerous. -->
   <PsychicHangover.description>Un efecto secundario de la entropía psíquica. La resaca psíquica es molesta, pero no peligrosa.</PsychicHangover.description>
   <!-- EN: a psychic hangover -->
   <PsychicHangover.labelNoun>una resaca psíquica</PsychicHangover.labelNoun>
@@ -117,13 +117,13 @@
   
   <!-- EN: psychic shock -->
   <PsychicShock.label>shock psíquico</PsychicShock.label>
-  <!-- EN: A state of psychic chaos in the brain and mind. Caused by psychic attacks or critical level of psychic entropy, this effect is debilitating until it wears off. -->
+  <!-- EN: A state of psychic chaos in the brain and mind. Caused by psychic attacks or critical level of neural heat, this effect is debilitating until it wears off. -->
   <PsychicShock.description>Un estado de caos psíquico en el cerebro y la mente. Causado por ataques psíquicos o nivel crítico de entropía psíquica, este efecto es debilitante hasta que desaparece.</PsychicShock.description>
   <!-- EN: a psychic shock -->
   <PsychicShock.labelNoun>un shock psíquico</PsychicShock.labelNoun>
   
   <!-- EN: resurrection sickness -->
-  <ResurrectionSickness.label>mareo por resurección</ResurrectionSickness.label>
+  <ResurrectionSickness.label>sindrome de resurección</ResurrectionSickness.label>
   <!-- EN: After-effects of being resurrected by mechanite injection. Artificially-kickstarted body processes take time to rebalance themselves. -->
   <ResurrectionSickness.description>Secuelas de ser resucitado por inyección de mecanita. Los procesos corporales iniciados artificialmente toman tiempo para reequilibrarse.</ResurrectionSickness.description>
   
@@ -136,12 +136,12 @@
   <!-- EN: initial -->
   <ToxicBuildup.stages.initial-1.label>trivial</ToxicBuildup.stages.initial-1.label>
   <!-- EN: minor -->
-  <ToxicBuildup.stages.minor.label>leve</ToxicBuildup.stages.minor.label>
+  <ToxicBuildup.stages.minor.label>ligero</ToxicBuildup.stages.minor.label>
   <!-- EN: moderate -->
-  <ToxicBuildup.stages.moderate.label>moderada</ToxicBuildup.stages.moderate.label>
+  <ToxicBuildup.stages.moderate.label>moderado</ToxicBuildup.stages.moderate.label>
   <!-- EN: serious -->
   <ToxicBuildup.stages.serious.label>grave</ToxicBuildup.stages.serious.label>
   <!-- EN: extreme -->
-  <ToxicBuildup.stages.extreme.label>extrema</ToxicBuildup.stages.extreme.label>
+  <ToxicBuildup.stages.extreme.label>extremo</ToxicBuildup.stages.extreme.label>
   
 </LanguageData>
