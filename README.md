@@ -4,7 +4,7 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.0.1967-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.1.2654-green.svg?style=for-the-badge)
 
 _ _ _
 
@@ -16,7 +16,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 - - -
 
-Grupo Discord de traducción: https://discord.gg/JTpgM7
+Nuevo Grupo Discord de traducción: https://discord.gg/KUw4E9c actualizado el 15/06/2020
 - - -
 
 Current translation and adaptation by:
