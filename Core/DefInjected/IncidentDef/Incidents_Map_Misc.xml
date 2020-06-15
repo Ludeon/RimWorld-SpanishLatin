@@ -60,9 +60,6 @@
   <!-- EN: Ransom demand -->
   <RansomDemand.letterLabel>Demanda de rescate</RansomDemand.letterLabel>
   
-  <!-- UNUSED -->
-  <RefugeeChased.label>refugiado perseguido</RefugeeChased.label>
-  
   <!-- EN: transport pod crash -->
   <RefugeePodCrash.label>caída de cápsula con refugiado</RefugeePodCrash.label>
   
@@ -91,11 +88,11 @@
   <VolcanicWinter.letterText>Un lejano súper volcán ha entrado en erupción y ha comenzado a arrojar millones de kilómetros cúbicos de cenizas a la atmósfera.\n\nLa ceniza en la atmósfera oscurecerá el sol. Las temperaturas bajarán y las plantas sufrirán por la falta de luz solar. Podría pasar en unas pocas semanas, o podría durar muchos cuadrantes.</VolcanicWinter.letterText>
   
   <!-- EN: wanderer join -->
-  <WandererJoin.label>Un viajero se une</WandererJoin.label>
+  <WandererJoin.label>Un vagabundo se une</WandererJoin.label>
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
-  <WandererJoin.letterLabel>Vagabundo se une</WandererJoin.letterLabel>
+  <WandererJoin.letterLabel>Vagabundo se une: {PAWN_nameDef}</WandererJoin.letterLabel>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
-  <WandererJoin.letterText>Un {PAWN_kind} llamado(a) {PAWN_nameDef} ha llegado y se ha unido a la colonia. {PAWN_pronoun} es un {PAWN_title}.\n\n[PAWN_pronoun] está dispuesto a contribuir, pero no se irá voluntariamente. Si no quieres a {PAWN_nameDef}, puedes desterrar{PAWN_objective} , vender{PAWN_objective} a la esclavitud, o simplemente matar{PAWN_objective}. Sin embargo, sus otros colonos pueden encontrar esto perturbador.</WandererJoin.letterText>
+  <WandererJoin.letterText>Un(a) {PAWN_title} de nombre  {PAWN_nameDef} ha llegado y se ha unido a la colonia. {PAWN_pronoun} está dispuesto(a) a contribuir, pero no se irá voluntariamente. Si no quieres a {PAWN_nameDef}, puedes desterrar{PAWN_objective} , vender{PAWN_objective} a la esclavitud, o simplemente matar{PAWN_objective}. Sin embargo, sus otros colonos pueden encontrar esto perturbador.</WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>hombre salvaje</WildManWandersIn.label>
