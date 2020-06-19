@@ -64,9 +64,9 @@
   <NeedColonistBedsDesc>Tienes más colonos que camas para dormir. Alguien tendrá que dormir en el suelo.\n\nConstruye más camas o reasigna la cama de un prisionero para uso de los colonos.\n\nSi no tienes recursos, los sitios para dormir son gratis y se crean instantáneamente.</NeedColonistBedsDesc>
   
   <!-- EN: Colonist left unburied -->
-  <AlertColonistLeftUnburied>El colono se fue sin enterrar</AlertColonistLeftUnburied>
+  <AlertColonistLeftUnburied>Ha quedado un colono enterrar</AlertColonistLeftUnburied>
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
-  <AlertColonistLeftUnburiedDesc>Un colono queda sin enterrar. \n \nEsto puede afectar negativamente el estado de ánimo de los colonos.</AlertColonistLeftUnburiedDesc>
+  <AlertColonistLeftUnburiedDesc>Un colono está sin enterrar.\n\nEsto puede afectar negativamente el estado de ánimo de los otros colonos.</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Cazador no tiene arma a distancia</HunterLacksWeapon>
@@ -154,7 +154,7 @@
   <!-- EN: Caravan idle -->
   <CaravanIdle>Caravana inactiva</CaravanIdle>
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
-  <CaravanIdleDesc>Estas caravanas están esperando que establezca su próximo destino: \n \n {0}</CaravanIdleDesc>
+  <CaravanIdleDesc>Estas caravanas están esperando que establezca su próximo destino:\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Colonos necesitan tratamiento</ColonistNeedsTreatment>
@@ -215,7 +215,7 @@
   <!-- EN: Heatstroke -->
   <AlertHeatstroke>Golpe de calor</AlertHeatstroke>
   <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
-  <AlertHeatstrokeDesc>Las siguientes personas sufren de insolación: \n \n {0} \n Llévalas a un área más fresca. Puede enfriar habitaciones con refrigeradores pasivos o refrigeradores eléctricos. Los espacios subterráneos profundos también son naturalmente frescos, si están separados del exterior por una puerta.</AlertHeatstrokeDesc>
+  <AlertHeatstrokeDesc>Las siguientes personas sufren de un golpe de calor:\n\n{0}\nLlévalas a un área más fresca. Puede enfriar habitaciones con refrigeradores pasivos o refrigeradores eléctricos. Los espacios subterráneos profundos también son naturalmente frescos, si están separados del exterior por una puerta.</AlertHeatstrokeDesc>
 
   <!-- EN: Guest unhappy -->
   <QuestPartMoodBelowThreshold>Invitado infeliz</QuestPartMoodBelowThreshold>
@@ -228,9 +228,9 @@
   <QuestPartShuttleLeaveDelayDesc>El transbordador partirá en {1}. La misión {0} requiere que cargues las siguientes personas o elementos en el transbordador antes de que salga:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
 
   <!-- EN: Monument will be destroyed -->
-  <DisallowedBuildingInsideMonument>Monumento será destruido</DisallowedBuildingInsideMonument>
+  <DisallowedBuildingInsideMonument>El monumento será destruido</DisallowedBuildingInsideMonument>
   <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
-  <DisallowedBuildingInsideMonumentDesc>Has construido un edificio no permitido dentro de uno de tus monumentos. El monumento se considerará destruido en {0}.</DisallowedBuildingInsideMonumentDesc>
+  <DisallowedBuildingInsideMonumentDesc>Has construido una instalación no permitida dentro de uno de tus monumentos. El monumento se considerará destruido en {0}.</DisallowedBuildingInsideMonumentDesc>
 
   <!-- EN: Countdown activator {0} -->
   <ActivatorCountdown>Activador de cuenta regresiva {0}</ActivatorCountdown>
