@@ -45,7 +45,7 @@
   <!-- EN: nothing -->
   <NothingLower>nada</NothingLower>
   <!-- EN: Nothing -->
-  <Nothing>TODO</Nothing>
+  <Nothing>Nada</Nothing>
   <!-- EN: Adapted -->
   <Adapted>Adaptado</Adapted>
   <!-- EN: fresh -->
@@ -63,15 +63,17 @@
   <!-- EN: Tend quality -->
   <TendQuality>Calidad del tratamiento</TendQuality>
   <!-- EN: no {0} -->
-  <MissingMedicalBillIngredient>no {0}</MissingMedicalBillIngredient>
+  <MissingMedicalBillIngredient>sin {0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
   <Immunity>Inmunidad</Immunity>
   <!-- EN: {0} days to recover -->
-  <DaysToRecover>TODO</DaysToRecover>
+  <DaysToRecover>{0} días para recuperarse</DaysToRecover>
   <!-- EN: Ineffective -->
-  <Ineffective>TODO</Ineffective>
+  <Ineffective>Ineficaz</Ineffective>
   <!-- EN: illegal -->
-  <Illegal>TODO</Illegal>
+  <Illegal>ilegal</Illegal>
+  <!-- EN: detection chance -->
+  <DetectionChance>probabilidad de detección</DetectionChance>
   <!-- EN: Race -->
   <Race>Especie</Race>
   <!-- EN: Description -->
@@ -87,15 +89,23 @@
   <!-- EN: Drop -->
   <DropThing>Tirar</DropThing>
   <!-- EN: Temporary faction members will not drop their items. -->
-  <DropThingLodger>TODO</DropThingLodger>
+  <DropThingLodger>Los miembros de facciones temporales no dejarán caer sus objetos.</DropThingLodger>
   <!-- EN: This person refuses to drop this. -->
-  <DropThingLocked>TODO</DropThingLocked>
+  <DropThingLocked>Esta persona se niega a soltar esto.</DropThingLocked>
   <!-- EN: Rename -->
   <Rename>Renombrar</Rename>
   <!-- EN: Rename animal -->
   <RenameAnimal>Renombrar animal</RenameAnimal>
   <!-- EN: Rename colonist -->
   <RenameColonist>Renombrar colono</RenameColonist>
+  <!-- EN: Renounce title -->
+  <RenounceTitle>Renunciar a título</RenounceTitle>
+  <!-- EN: {0} of {1} -->
+  <TitleOfFaction>{0} de {1}</TitleOfFaction>
+  <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
+  <RenounceTitleDescription>Esta ación hará que {PAWN_nameDef} pierda {PAWN_possessive} título de {TITLE}. No recibirás  ninguna compensación al renunciar a tu título.\n\nEsto tendrá los siguientes efectos:\n\n{EFFECTS}</RenounceTitleDescription>
+  <!-- EN: {PAWN_possessive} will lose these permissions -->
+  <RenounceTitleWillLoosePermits>perderá estos permisos</RenounceTitleWillLoosePermits>
   <!-- EN: unknown -->
   <UnknownLower>desconocido</UnknownLower>
   <!-- EN: On -->
@@ -133,7 +143,7 @@
   <!-- EN: Next {0} in -->
   <NextSpawnedItemIn>Siguiente {0} en</NextSpawnedItemIn>
   <!-- EN: Next resource in -->
-  <NextSpawnedResourceIn>TODO</NextSpawnedResourceIn>
+  <NextSpawnedResourceIn>Siguiente recurso en</NextSpawnedResourceIn>
   <!-- EN: Broken down -->
   <BrokenDown>Averiado</BrokenDown>
   <!-- EN: (bond) -->
@@ -223,11 +233,11 @@
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Ofreciendo regalos a {0}.</CaravanOfferingGifts>
   <!-- EN: Trading with {0} -->
-  <CaravanTrading>TODO</CaravanTrading>
+  <CaravanTrading>Comercio con {0}</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Fue llevado por un cadaver.</WasWornByCorpse>
   <!-- EN: T -->
-  <WornByCorpseChar>D</WornByCorpseChar>
+  <WornByCorpseChar>T</WornByCorpseChar>
   <!-- EN: unroofed -->
   <DeterioratingUnroofed>sin techo</DeterioratingUnroofed>
   <!-- EN: outdoors -->
@@ -279,13 +289,13 @@
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
   <QuestTargetDestroyInspectString>{0} quiere que esto sea destruido.\n     Recompensa: {1} ({2}).</QuestTargetDestroyInspectString>
   <!-- EN: {0} wants this destroyed. -->
-  <QuestTargetDestroyInspectStringShort>TODO</QuestTargetDestroyInspectStringShort>
+  <QuestTargetDestroyInspectStringShort>{0} quiere que esto sea destruido.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>TODO</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>Despegue del transbordador en {0}</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
-  <ShuttleLeaveDelayInspectString>TODO</ShuttleLeaveDelayInspectString>
+  <ShuttleLeaveDelayInspectString>Saliendo en {0}</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
-  <ShouldDepartOnShuttleInspectString>TODO</ShouldDepartOnShuttleInspectString>
+  <ShouldDepartOnShuttleInspectString>Debe apartarse del transbordador</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Tiempo restante: {0}</WorldObjectTimeout>
   <!-- EN: Click to sort by this column. -->
@@ -299,7 +309,7 @@
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift + clic: Revisar todo\nShift + clic derecho: No revisar</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
-  <KnownSiteThreatEnemyCountAppend>TODO</KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{0} {1}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>Requerimientos de habilidad</SkillRequirements>
   <!-- EN: Products -->
@@ -352,6 +362,10 @@
   <CreatureWildness>salvajismo de {0}</CreatureWildness>
   <!-- EN: {0} trainability -->
   <CreatureTrainability>adiestrabilidad de {0}</CreatureTrainability>
+  <!-- EN: Follow master while drafted -->
+  <CreatureFollowDrafted>Sigue al dueño mientras recluta</CreatureFollowDrafted>
+  <!-- EN: Follow master while doing field work -->
+  <CreatureFollowFieldwork>Sigue al dueño al trabajo de campo</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} con {1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
@@ -365,7 +379,7 @@
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>ningún proyecto de investigación activo</NoActiveResearchProjectToFinish>
   <!-- EN: Cannot research: No research bench -->
-  <CannotResearchNoBench>TODO</CannotResearchNoBench>
+  <CannotResearchNoBench>No se puede investigar: no hay banco de investigación</CannotResearchNoBench>
   <!-- EN: turret -->
   <Turret>torreta</Turret>
   <!-- EN: turrets -->
@@ -377,75 +391,99 @@
   <!-- EN: enemy -->
   <Enemy>enemigo</Enemy>
   <!-- EN: location -->
-  <Location>TODO</Location>
+  <Location>ubicación</Location>
   <!-- EN: animals -->
-  <AnimalsLower>TODO</AnimalsLower>
+  <AnimalsLower>animales</AnimalsLower>
   <!-- EN: {0} x{1} -->
-  <FilthLabel>TODO</FilthLabel>
+  <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>TODO</FilthLabelWithSource>
+  <FilthLabelWithSource>{0} de {1} x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
-  <Required>TODO</Required>
+  <Required>Necesario</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>TODO</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>Advertencia: no puede completar las solicitudes de comercio utilizando vainas de transporte. \nSi envía los productos, el acuerdo los aceptará como obsequios pero no lo recompensarán. \n \nPara el comercio, ¡acérquese al acuerdo con una caravana! \n \nAre ¿Estás seguro de que quieres regalar los bienes cargados a la facción?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
-  <PrisonerLower>TODO</PrisonerLower>
+  <PrisonerLower>prisionero</PrisonerLower>
   <!-- EN: prisoners -->
-  <PrisonersLower>TODO</PrisonersLower>
-  <!-- EN: Complete -->
-  <Complete>TODO</Complete>
+  <PrisonersLower>prisioneros</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
-  <ClickToViewInQuestsTab>TODO</ClickToViewInQuestsTab>
+  <ClickToViewInQuestsTab>Completo</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
-  <Mood>TODO</Mood>
+  <Mood>Estado animico</Mood>
   <!-- EN: Quest -->
-  <Quest>TODO</Quest>
+  <Quest>Misión</Quest>
   <!-- EN: Brings raids every {0} -->
-  <BringsRaidsEvery>TODO</BringsRaidsEvery>
+  <BringsRaidsEvery>Trae redadas cada {0}</BringsRaidsEvery>
   <!-- EN: Generates {0} every {1} -->
-  <GeneratesResourcesEvery>TODO</GeneratesResourcesEvery>
+  <GeneratesResourcesEvery>Redada genera {0} cada {1}</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
-  <FoliageKillRadius>TODO</FoliageKillRadius>
+  <FoliageKillRadius>Radio de matanza de la vegetación</FoliageKillRadius>
   <!-- EN: Radius expand rate -->
-  <RadiusExpandRate>TODO</RadiusExpandRate>
+  <RadiusExpandRate>Radio de tasa de expansión</RadiusExpandRate>
   <!-- EN: View: {0} -->
-  <ViewHyperlink>TODO</ViewHyperlink>
+  <ViewHyperlink>Vista: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
-  <DetonationCountdown>TODO</DetonationCountdown>
+  <DetonationCountdown>Detona en {0} días</DetonationCountdown>
   <!-- EN: Large explosion if damaged -->
-  <ExplosionOnDamageWarning>TODO</ExplosionOnDamageWarning>
+  <ExplosionOnDamageWarning>Gran explosión si está dañado</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
-  <MechCluster>TODO</MechCluster>
+  <MechCluster>clúster de mecanoides</MechCluster>
   <!-- EN: Spawning in {0} -->
-  <SpawningNextPawnIn>TODO</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1} -->
-  <MechAssemblyCompleteIn>TODO</MechAssemblyCompleteIn>
+  <SpawningNextPawnIn>generar en {0}</SpawningNextPawnIn>
+  <!-- EN: {0} assembly completes in {1}. -->
+  <MechAssemblyCompleteIn>{0} generarado in {1}</MechAssemblyCompleteIn>
+  <!-- EN: Will assemble -->
+  <MechAssemblyNextType>Se reunirá</MechAssemblyNextType>
   <!-- EN: produced -->
-  <ThingsProduced>TODO</ThingsProduced>
+  <ThingsProduced>producido</ThingsProduced>
   <!-- EN: harvested -->
-  <PlantsHarvested>TODO</PlantsHarvested>
+  <PlantsHarvested>cosechado</PlantsHarvested>
   <!-- EN: {0} killed -->
-  <PawnsKilled>TODO</PawnsKilled>
+  <PawnsKilled>{0} asesinado</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>TODO</PawnsLent>
+  <PawnsLent>Enviado {0}, volverá en {1}</PawnsLent>
   <!-- EN: Dormant -->
-  <DormantCompInactive>TODO</DormantCompInactive>
+  <DormantCompInactive>Latente</DormantCompInactive>
   <!-- EN: Sealed -->
-  <DormantCompSealed>TODO</DormantCompSealed>
+  <DormantCompSealed>Sellado</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>TODO</DormantCompBeacon>
+  <DormantCompBeacon>Listo para soltar mecanoides</DormantCompBeacon>
   <!-- EN: Expired -->
-  <DormantCompExpired>TODO</DormantCompExpired>
+  <DormantCompExpired>Caducado</DormantCompExpired>
+  <!-- EN: Initiates in -->
+  <InitiatesIn>Se inicia en</InitiatesIn>
   <!-- EN: Activates in {0} -->
-  <SendSignalOnCountdownCompTime>TODO</SendSignalOnCountdownCompTime>
-  <!-- EN: Psychic entropy -->
-  <PsychicEntropy>TODO</PsychicEntropy>
-  <!-- EN: {0} pain focus -->
-  <PsychicEntropyPainFocus>TODO</PsychicEntropyPainFocus>
+  <SendSignalOnCountdownCompTime>Se activa en {0}</SendSignalOnCountdownCompTime>
+  <!-- EN: Neural heat -->
+  <PsychicEntropy>Calor neuronal</PsychicEntropy>
+  <!-- EN: Heat -->
+  <PsychicEntropyShort>Calor</PsychicEntropyShort>
+  <!-- EN: {0} pain boost -->
+  <PsychicEntropyPainFocus>{0} aumento de dolor</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
-  <ConditionCauserRadius>TODO</ConditionCauserRadius>
+  <ConditionCauserRadius>radio {0}</ConditionCauserRadius>
+  <!-- EN: low psyfocus -->
+  <LowPsyfocus>psicofoco bajo</LowPsyfocus>
   <!-- EN: {0} left -->
-  <DurationLeft>TODO</DurationLeft>
+  <DurationLeft>Quedan {0}</DurationLeft>
+  <!-- EN: Any of -->
+  <AnyOf>Cualquiera de</AnyOf>
+  <!-- EN: Goodwill -->
+  <Goodwill>Buena voluntad</Goodwill>
+  <!-- EN: reducing resistance of {0_nameIndef} -->
+  <JobReport_ReduceResistance>reduciendo la resistencia de {0_nameIndef}</JobReport_ReduceResistance>
+
+  <!-- Scanning -->
+  <!-- EN: User scanning speed -->
+  <UserScanAbility>Velocidad de escaneo del colono</UserScanAbility>
+  <!-- EN: Random find interval -->
+  <ScanAverageInterval>Intervalo de busqueda aleatorio</ScanAverageInterval>
+  <!-- EN: Progress to guaranteed find -->
+  <ScanningProgressToGuaranteedFind>Progreso para garantizar busqueda</ScanningProgressToGuaranteedFind>
+  
+  <!-- Meditation -->
+  <!-- EN: meditating at -->
+  <MeditatingAt>meditando en</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -491,7 +529,7 @@
   <!-- EN: Dodge -->
   <TextMote_Dodge>Esquivar</TextMote_Dodge>
   <!-- EN: Immune -->
-  <TextMote_Immune>TODO</TextMote_Immune>
+  <TextMote_Immune>Inmune</TextMote_Immune>
   <!-- EN: {0} tended -->
   <TextMote_Tended>{0} atendido(a)</TextMote_Tended>
   <!-- EN: low mood -->
@@ -559,7 +597,7 @@
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
   <ReportHaulingTo>transportando {THING_label} a {DESTINATION}.</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
-  <ReportHaulingToGrave>TODO</ReportHaulingToGrave>
+  <ReportHaulingToGrave>enterrando {THING_label} en {DESTINATION}.</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
   <ReportHauling>transportando {1_label}.</ReportHauling>
   <!-- EN: hauling. -->
@@ -601,13 +639,13 @@
   <!-- EN: Attending party -->
   <LordReportAttendingParty>Asistiendo a fiesta</LordReportAttendingParty>
   <!-- EN: Attending concert -->
-  <LordReportAttendingConcert>TODO</LordReportAttendingConcert>
+  <LordReportAttendingConcert>Asistiendo al concierto</LordReportAttendingConcert>
   <!-- EN: Holding a concert -->
-  <LordReportHoldingConcert>TODO</LordReportHoldingConcert>
+  <LordReportHoldingConcert>Celebrando un concierto</LordReportHoldingConcert>
   <!-- EN: Giving a speech -->
-  <LordReportGivingSpeech>TODO</LordReportGivingSpeech>
+  <LordReportGivingSpeech>Dando un discurso</LordReportGivingSpeech>
   <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
-  <LordReportListeningSpeech>TODO</LordReportListeningSpeech>
+  <LordReportListeningSpeech>Escuchar el discurso de {ORGANIZER_labelShort}</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
   <LordReportFormingCaravan>Formándo caravana</LordReportFormingCaravan>
 
@@ -639,7 +677,7 @@
   <!-- EN: make {0} -->
   <RecipeMake>fabricar {0}</RecipeMake>
   <!-- EN: Make {0}. -->
-  <RecipeMakeDescription>TODO</RecipeMakeDescription>
+  <RecipeMakeDescription>Hacer {0}.</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
   <RecipeMakeJobString>Haciendo {0}.</RecipeMakeJobString>
   <!-- EN: administer {0} -->
@@ -655,7 +693,7 @@
   <!-- EN: Expires in: {0} -->
   <ThoughtExpiresIn>Expira en: {0}</ThoughtExpiresIn>
   <!-- EN: thought disabled by -->
-  <ThoughtNullifiedBy>TODO</ThoughtNullifiedBy>
+  <ThoughtNullifiedBy>Expira en: {0}</ThoughtNullifiedBy>
   <!-- EN: Starts expiring in: {0} -->
   <ThoughtStartsExpiringIn>Empieza a expirar en: {0}</ThoughtStartsExpiringIn>
   <!-- EN: Finishes expiring in: {0} -->
@@ -673,19 +711,19 @@
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
-  <PawnTitleDescWrap>TODO</PawnTitleDescWrap>
+  <PawnTitleDescWrap>{0} en {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
-  <PawnMainDescUnderFactionedWrap>TODO</PawnMainDescUnderFactionedWrap>
+  <PawnMainDescUnderFactionedWrap>{0} bajo {1}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>TODO</PawnMainDescTempFactionedWrap>
+  <PawnMainDescTempFactionedWrap>{0} bajo {1} \nFacción de inicio: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Facción</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
-  <FactionDesc>TODO</FactionDesc>
+  <FactionDesc>La facción {PAWN_labelShort} pertenece actualmente.</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
-  <ExtraFactionDesc>TODO</ExtraFactionDesc>
+  <ExtraFactionDesc>La facción {PAWN_labelShort} pertenece originalmente. {PAWN_pronoun} volverá a unirse a su facción de origen cuando salgan de su facción actual.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Equipamiento</Equipped>
   <!-- EN: nothing -->
@@ -839,9 +877,9 @@
   <!-- EN: Priority -->
   <Priority>Prioridad</Priority>
   <!-- EN: Clear all -->
-  <ClearAll>Nada</ClearAll>
+  <ClearAll>Permitir nada</ClearAll>
   <!-- EN: Allow all -->
-  <AllowAll>Todo</AllowAll>
+  <AllowAll>Permitir todo</AllowAll>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
@@ -877,9 +915,9 @@
   <!-- EN: Toggle visibility of roofs. -->
   <ShowRoofOverlayToggleButton>Alternar visibilidad de techos.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>TODO</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>Alternar la superposición de fertilidad. \ On \ Esto muestra cuán fértil es el suelo, lo que afecta qué tipos de plantas pueden crecer y qué tan rápido crecen.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>TODO</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>Alternar la visibilidad de la disponibilidad del terreno. \n \n Esto se relaciona con los tipos de edificios que se pueden construir en cada ubicación. \n \n Por ejemplo, algunos tipos de terreno solo aceptan edificios ligeros o medianos, pero no los pesados. Los puentes solo se pueden construir sobre el agua.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>Impide la rotación de la cámara para que el polo norte siempre se encuentre arriba.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
@@ -905,11 +943,13 @@
   <!-- EN: impact date -->
   <ImpactDate>fecha de impacto</ImpactDate>
   <!-- EN: Source unknown. -->
-  <SourceUnknown>TODO</SourceUnknown>
+  <SourceUnknown>Fuente desconocida</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
-  <ClickToJumpToSource>TODO</ClickToJumpToSource>
+  <ClickToJumpToSource>Haga clic para saltar a la fuente.</ClickToJumpToSource>
+  <!-- EN: Click to jump to the flashstorm. -->
+  <ClickToJumpToFlashstorm>Haga clic para saltar a la tormenta eléctrica</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
-  <CausedByQuest>TODO</CausedByQuest>
+  <CausedByQuest>Causado por la misión: {0}</CausedByQuest>
 
   <!-- Building placement -->
   <!-- EN: You have no usable materials from which to build this. -->
@@ -970,24 +1010,24 @@
   <ShipReportHibernating>Componente de hibernación</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Componente aún no está listo</ShipReportNotReady>
-  <!-- EN: <Name>Charlon Whitestone</Name> is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>Charlon Whitestone está listo para comenzar la secuencia de recuperación de la hibernación del reactor.\n\nAdvierte que el proceso tomará alrededor de 15 días, y la firma de la energía será detectable desde una gran distancia. Este tipo de firma de energía indica capacidad de vuelo interestelar y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>El reactor está listo para encenderse.\n\nEl proceso tomará alrededor de 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrese de que sus defensas estén preparadas primero.</HibernateWarningStandalone>
-  <!-- EN: <Name>Charlon Whitestone</Name> is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>Charlon Whitestone está listo para iniciar la secuencia de recuperación de hibernación del reactor. Le advierte que el proceso durará unos 15 días.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>El reactor está listo para encenderse. El proceso durará unos 15 días.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
   <!-- EN: neurotrainer ({0}) -->
-  <SkillNeurotrainerLabel>TODO</SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>neuro entrenador ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skill neurotrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>TODO</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>Usa el neuro entrenador de habilidad para aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>TODO</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>Una superdosis de un solo uso de mecanismos que entrena una habilidad específica.\n\nLa dosis se administra a través de la órbita del ojo. Una vez liberados en el cerebro, los mecanismos mejoran rápidamente las habilidades del sujeto en un área específica, transmutándose en tejido neural según sea necesario.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>TODO</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort} utilizó {1} neuro entrenador para pasar del nivel {2} al nivel {3}.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -1037,15 +1077,15 @@
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>A casi la velocidad de la luz, el arma destruyeplanetas se estrelló contra el suelo con la energía de un trillón de bombas de hidrógeno. Como si fuera un globo con agua al que le han disparado con un rifle, el planeta se licúa con el impacto y dispersa su interior líquido a travéz del cosmos.\n\nUna parte de {0} ahora es un cinturón de asteroides. El resto es un páramo radioactivo e infernal azotado constantemente por terremotos de nivel planetario.\n\nNo sobreviviste.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
-  <GameOverShipLaunchedIntro>TODO</GameOverShipLaunchedIntro>
+  <GameOverShipLaunchedIntro>¡Has lanzado la nave!</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunchedEnding>TODO</GameOverShipLaunchedEnding>
+  <GameOverShipLaunchedEnding>El personaje de tu máquina ahora intentará guiar la nave a un lugar seguro. Podría encontrar un planeta próspero en este sistema. O bien, puede emprender un viaje de siglos a otra estrella. Incluso podría decidir esconderse bajo el hielo en un asteroide durante unos miles de años, esperando que alguien construya un nuevo mundo de brillo aquí. \n \n Lo descubrirás cuando te despiertes.</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
-  <GameOverColonistsEscaped>TODO</GameOverColonistsEscaped>
+  <GameOverColonistsEscaped>Estos colonos escaparon:\n\n{0}</GameOverColonistsEscaped>
   <!-- EN: These colonists were left behind:\n\n{0} -->
-  <GameOverColonistsLeft>TODO</GameOverColonistsLeft>
+  <GameOverColonistsLeft>Estos colonos se quedaron atrás:\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
-  <GameOverInMemoryOf>TODO</GameOverInMemoryOf>
+  <GameOverInMemoryOf>En memoria de: \n</GameOverInMemoryOf>
   <!-- EN: Keep playing -->
   <GameOverKeepPlaying>Seguir jugando</GameOverKeepPlaying>
   <!-- EN: Main menu -->
@@ -1189,77 +1229,85 @@
   
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
-  <PawnTooltipWithDescAndPrimaryEquip>TODO</PawnTooltipWithDescAndPrimaryEquip>
+  <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
   <!-- EN: {0} ({1})\n{2} -->
-  <PawnTooltipWithDescNoPrimaryEquip>TODO</PawnTooltipWithDescNoPrimaryEquip>
+  <PawnTooltipWithDescNoPrimaryEquip>{0} ({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
   <!-- EN: {0}\n{1}\n{2} -->
-  <PawnTooltipWithPrimaryEquipNoDesc>TODO</PawnTooltipWithPrimaryEquipNoDesc>
+  <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
-  <PawnTooltipNoDescNoPrimaryEquip>TODO</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>TODO</PawnTooltipPsychicEntropy>
-  <!-- EN: Physical pain focuses the mind and clears extraneous thoughts; this has the side-effect of causing faster recovery from psychic entropy. -->
-  <PawnTooltipPsychicEntropyPainFocus>TODO</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
-  <PawnTooltipPsychicEntropyLimit>TODO</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
+  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>Calor neuronal: {0} / {1}\nVelocidad de caída: {2} / s ({3}s hasta cero)</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <PawnTooltipPsychicEntropyDesc>El calor neuronal aumenta después de realizar una psicoemisión. Superar el límite normal puede causar un colapso psíquico que dura días.\n\nEl calor neuronal se disipa naturalmente con el tiempo. Este proceso puede acelerarse usando ropa eltex o sufriendo dolor.</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>Aumento del dolor\n\nEl dolor enfoca la mente y acelera la disipación del calor neural.\n\nNivel de dolor: {0} \nBono a la recuperación del calor: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
+  <PawnTooltipPsychicEntropyLimit>Alternar el limitador de entropía psíquica. Exceder tu límite de calor puede causar un colapso psíquico que dura días. No causará daños permanentes.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Psyfocus: {0} -->
+  <PawnTooltipPsyfocus>Psico-foco: {0}</PawnTooltipPsyfocus>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>TODO</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
-  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>TODO</Reward_Pawn_DropPod>
-  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>TODO</Reward_Pawn_WalkIn>
-  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>TODO</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):
-\n{0} -->
-  <Reward_Items>TODO</Reward_Items>
-  <!-- EN: you will receive (total value {1}):
-\n{0} -->
-  <Reward_Items_Caravan>TODO</Reward_Items_Caravan>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
+  <Reward_Pawn_DropPod>un {0_age} años {0_titleIndef} llamado {0_nameDef} llegará a un pod de transporte {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_WalkIn>un {0_age} años {0_titleIndef} llamado {0_nameDef} llegará y se unirá a usted {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_Caravan>un {0_age} años {0_titleIndef} llamado {0_nameDef} se unirá a usted {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
+  <Reward_Items>llegarán cápsulas de transporte con los siguientes recursos (valor total {1}):\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):\n{0} -->
+  <Reward_Items_Caravan>usted recibirá (valor total {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
-  <Reward_Goodwill>TODO</Reward_Goodwill>
+  <Reward_Goodwill>tus relaciones de facción con {0_name} mejorarán en {1}</Reward_Goodwill>
+  <!-- EN: you will be taken to the stars -->
+  <Reward_PassageOffworld>Viajarás a las estrellas</Reward_PassageOffworld>
+  <!-- EN: Passage offworld -->
+  <Reward_PassageOffworld_Label>Pasaje fuera del mundo</Reward_PassageOffworld_Label>
+  <!-- EN: you can loot everything from the camp -->
+  <Reward_CampLoot>puedes saquear todo del campamento</Reward_CampLoot>
+  <!-- EN: Camp loot -->
+  <Reward_CampLoot_Label>Botín de campamento</Reward_CampLoot_Label>
+  <!-- EN: value {0} -->
+  <TotalValue>valor {0}</TotalValue>
   
   <!-- Bladelink -->
-  <!-- EN: Bonded to: {PAWN_labelShort} -->
-  <BondedWith>TODO</BondedWith>
+  <!-- EN: Bonded to: {0} -->
+  <BondedWith>Vinculado a: {0}</BondedWith>
   <!-- EN: Not yet bonded -->
-  <NotBonded>TODO</NotBonded>
+  <NotBonded>Aún sin vincular</NotBonded>
   <!-- EN: bonded to someone else -->
-  <BladelinkBondedToSomeoneElse>TODO</BladelinkBondedToSomeoneElse>
+  <BladelinkBondedToSomeoneElse>vinclado a alguien más</BladelinkBondedToSomeoneElse>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
-  <Biocoded>TODO</Biocoded>
+  <Biocoded>biocodificado {0}</Biocoded>
   <!-- EN: Biocoding: {0} -->
-  <CodedFor>TODO</CodedFor>
+  <CodedFor>Biocodificando: {0}</CodedFor>
   <!-- EN: biocoded -->
-  <BiocodedCodedForSomeoneElse>TODO</BiocodedCodedForSomeoneElse>
+  <BiocodedCodedForSomeoneElse>biocodificado</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
   <!-- EN: Intercepts {0} every {1} -->
-  <InterceptsProjectilesEvery>TODO</InterceptsProjectilesEvery>
+  <InterceptsProjectilesEvery>Intercepta {0} cada {1}</InterceptsProjectilesEvery>
   <!-- EN: Intercepts {0} -->
-  <InterceptsProjectiles>TODO</InterceptsProjectiles>
+  <InterceptsProjectiles>Intercepciones {0}</InterceptsProjectiles>
   <!-- EN: ground projectiles -->
-  <InterceptsProjectiles_GroundProjectiles>TODO</InterceptsProjectiles_GroundProjectiles>
+  <InterceptsProjectiles_GroundProjectiles>proyectiles terrestres</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
-  <InterceptsProjectiles_AerialProjectiles>TODO</InterceptsProjectiles_AerialProjectiles>
+  <InterceptsProjectiles_AerialProjectiles>proyectiles aéreos</InterceptsProjectiles_AerialProjectiles>
 
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
-  <AffectedGender>TODO</AffectedGender>
+  <AffectedGender>Género afectado</AffectedGender>
+
+  <!-- Hediff misc -->
+  <!-- EN: Caused by: {0} -->
+  <CausedByHediff>Causado por: {0}</CausedByHediff>
   
-  <!-- UNUSED -->
-  <ItemStashContents>Contenidos: {0} ({1}).</ItemStashContents>
-  <KnownSiteThreat>Amenaza conocida: {0}.</KnownSiteThreat>
-  <KnownSiteThreats>Amenazas conocidas: {0}.</KnownSiteThreats>
-  <KnownSiteThreatsNone>Amenazas conocidas: ninguna.</KnownSiteThreatsNone>
-  <NeurotrainerUsed>{USER_labelShort} usó {1} neuroentrenador(es) para ir del nivel {2} al nivel {3}.</NeurotrainerUsed>
-  <GameOverShipLaunched>¡Haz lanzado la nave! Estos colonos escaparon:\n\n{0}\nEstos colonos se han quedado atrás:\n\n{1}\nAhora la IA intentará guiar a la nave hacia un lugar seguro. Podría encontrar un planeta próspero en este mismo sistema o podría realizar un viaje de siglos hacia otra estrella. Incluso podría decidir quedarse bajo un asteroide por unos cuantos miles de años, esperando que alguien convierta este planeta en un mundobrillante.\n\nLo sabrás cuando despiertes.</GameOverShipLaunched>
-  <GameOverArrivedAtJourneyDestination>Al subir a bordo de la nave, te saluda la tripulación con los brazos abiertos. Parecen alegrarse de poder tener al menos una persona más con ellos.\n\nThese colonists escaped:\n\n{0}\nEstos colonos fueron abandonados:\n\n{1}\nLa IA ahora intentará guiar a la nave a un lugar seguro. Podría encontrarte un planeta prospero en éste mismo sistema o podría realizar un viaje de varios siglos hacia otra estrella. Incluso podría decidir quedarse bajo un asteroide por unos cuantos miles de años, esperando que alguien convierta este planeta en un mundobrillante.\n\nLo sabrás cuando despiertes...</GameOverArrivedAtJourneyDestination>
 
 </LanguageData>

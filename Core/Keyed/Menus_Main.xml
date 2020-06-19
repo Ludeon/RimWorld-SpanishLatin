@@ -17,7 +17,7 @@
   <!-- EN: Options -->
   <Options>Opciones</Options>
   <!-- EN: Mod -->
-  <Mod>TODO</Mod>
+  <Mod>Mod</Mod>
   <!-- EN: Mods -->
   <Mods>Mods</Mods>
   <!-- EN: Save translation report -->
@@ -26,6 +26,8 @@
   <GeneratingTranslationReport>Generando informe de traducción</GeneratingTranslationReport>
   <!-- EN: Cleanup translation files -->
   <CleanupTranslationFiles>Limpiar archivos de traducción</CleanupTranslationFiles>
+  <!-- EN: Update translations files (TKey's) -->
+  <TranslationFilesTKeyUpdate>Actualizar archivos de traducción (Tecla T)</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>Limpiando archivos de traducción</CleaningTranslationFiles>
   <!-- EN: Credits -->
@@ -49,7 +51,7 @@
   <!-- EN: Tynan's twitter -->
   <TynansTwitter>Twitter de Tynan</TynansTwitter>
   <!-- EN: Tynan's design book -->
-  <TynansDesignBook>Libro de Tynan</TynansDesignBook>
+  <TynansDesignBook>Libro de diseño de Tynan</TynansDesignBook>
   <!-- EN: Help translate RimWorld -->
   <HelpTranslate>Ayuda a traducir Rimworld</HelpTranslate>
   <!-- EN: Buy soundtrack -->
@@ -85,7 +87,7 @@
   <!-- EN: Overall temperature -->
   <PlanetTemperature>Temperatura media</PlanetTemperature>
   <!-- EN: Population -->
-  <PlanetPopulation>TODO</PlanetPopulation>
+  <PlanetPopulation>Población</PlanetPopulation>
   <!-- EN: Low -->
   <PlanetRainfall_Low>Baja</PlanetRainfall_Low>
   <!-- EN: Normal -->
@@ -99,11 +101,11 @@
   <!-- EN: High -->
   <PlanetTemperature_High>Alta</PlanetTemperature_High>
   <!-- EN: Sparse -->
-  <PlanetPopulation_Low>TODO</PlanetPopulation_Low>
+  <PlanetPopulation_Low>Escaso</PlanetPopulation_Low>
   <!-- EN: Normal -->
-  <PlanetPopulation_Normal>TODO</PlanetPopulation_Normal>
+  <PlanetPopulation_Normal>Normal</PlanetPopulation_Normal>
   <!-- EN: Crowded -->
-  <PlanetPopulation_High>TODO</PlanetPopulation_High>
+  <PlanetPopulation_High>Concurrido</PlanetPopulation_High>
   <!-- EN: Seed -->
   <WorldSeed>Semilla</WorldSeed>
   <!-- EN: Randomize seed -->
@@ -149,7 +151,7 @@
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>¿Estás seguro que deseas eliminar todo el contenido para {0}?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
-  <ResolveModOrder>TODO</ResolveModOrder>
+  <ResolveModOrder>ordenar automáticamente mods</ResolveModOrder>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Cancelar subscripción</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -171,35 +173,35 @@
   <!-- EN: Downloading -->
   <Downloading>Descargando</Downloading>
   <!-- EN: Display fulfilled requirements -->
-  <ModDisplayFulfilledRequirements>TODO</ModDisplayFulfilledRequirements>
+  <ModDisplayFulfilledRequirements>Mostrar requisitos cumplidos</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
-  <ModClickToSelect>TODO</ModClickToSelect>
+  <ModClickToSelect>Clic para seleccionar.</ModClickToSelect>
   <!-- EN: Click to go to website. -->
-  <ModClickToGoToWebsite>TODO</ModClickToGoToWebsite>
+  <ModClickToGoToWebsite>Haga clic para ir al sitio web.</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Fuente</Source>
   <!-- EN: For game version(s) -->
   <ModTargetVersion>Para la versión: {0}</ModTargetVersion>
   <!-- EN: ID -->
-  <ModPackageId>TODO</ModPackageId>
+  <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
-  <ModMustLoadBefore>TODO</ModMustLoadBefore>
+  <ModMustLoadBefore>Esto debe cargarse antes de: {0}.</ModMustLoadBefore>
   <!-- EN: This must be loaded after: {0}. -->
-  <ModMustLoadAfter>TODO</ModMustLoadAfter>
+  <ModMustLoadAfter>Esto debe cargarse después de: {0}.</ModMustLoadAfter>
   <!-- EN: Depends on: {0} -->
-  <ModDependsOn>TODO</ModDependsOn>
+  <ModDependsOn>Depende de: {0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
-  <ModIncompatibleWith>TODO</ModIncompatibleWith>
+  <ModIncompatibleWith>Incompatible con: {0}</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
-  <ModIncompatibleWithTip>TODO</ModIncompatibleWithTip>
+  <ModIncompatibleWithTip>Este mod es incompatible con: {0}.</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
-  <ModOrderingWarning>TODO</ModOrderingWarning>
+  <ModOrderingWarning>Este mod se está cargando en el orden incorrecto en relación con otro mod. Use el botón 'ordenar automáticamente' o vuelva a ordenar los mods manualmente.</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
-  <ModWithSameIdAlreadyActive>TODO</ModWithSameIdAlreadyActive>
+  <ModWithSameIdAlreadyActive>Otro mod activo usa la misma ID: {0}.</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
-  <ModCyclicDependency>TODO</ModCyclicDependency>
+  <ModCyclicDependency>Hay una dependencia de modificación cíclica que comienza con {0}.</ModCyclicDependency>
   <!-- EN: This requires following mods to work: {0}. -->
-  <ModUnsatisfiedDependency>TODO</ModUnsatisfiedDependency>
+  <ModUnsatisfiedDependency>Esto requiere las siguientes modificaciones para funcionar: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Este mod no fué hecho para esta versión de Rimworld y probablemente no funcione correctamente.</ModNotMadeForThisVersion>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
@@ -207,23 +209,23 @@
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Este mod necesita una versión objetivo con buen formato en About.xml. De esta forma: {0}.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>TODO</MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>Mod necesita un packageId único y correctamente formateado en About.xml. Debe cumplir los siguientes requisitos: \n \n - Caracteres alfanuméricos y solo punto. \n - Sin espacios. \n - Al menos un punto. \n - Sin puntos repetidos en una fila, o comenzando o terminando con un punto. \n - 60 caracteres o menos. \n - No puede contener la palabra "Ludeon". \n \nPor ejemplo: \n  AuthorName.ModName  \n  AuthorName.ModName.Specific </MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
-  <ModHadLoadFolderIssues>TODO</ModHadLoadFolderIssues>
+  <ModHadLoadFolderIssues>Este mod tiene problemas en LoadFolders.xml, que debe resolver antes de cargar:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
-  <ModLoadFolderDoesntExist>TODO</ModLoadFolderDoesntExist>
+  <ModLoadFolderDoesntExist>La carpeta {0} especificada para la versión {1} no existe.</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
-  <ModLoadFolderMalformedVersion>TODO</ModLoadFolderMalformedVersion>
+  <ModLoadFolderMalformedVersion>Cadena de versión con formato incorrecto '{0}'. El formato correcto es Major.Minor (por ejemplo, 1.1)</ModLoadFolderMalformedVersion>
   <!-- EN: The list of load folders for version {0} is empty. -->
-  <ModLoadFolderListEmpty>TODO</ModLoadFolderListEmpty>
+  <ModLoadFolderListEmpty>La lista de carpetas de carga para la versión {0} está vacía.</ModLoadFolderListEmpty>
   <!-- EN: Version {0} lists the same folder more than once: {1}. -->
-  <ModLoadFolderRepeatingFolder>TODO</ModLoadFolderRepeatingFolder>
+  <ModLoadFolderRepeatingFolder>La versión {0} enumera la misma carpeta más de una vez: {1}.</ModLoadFolderRepeatingFolder>
   <!-- EN: Invalid version order: {0} should come before {1}. -->
-  <ModLoadFolderOutOfOrder>TODO</ModLoadFolderOutOfOrder>
+  <ModLoadFolderOutOfOrder>Orden de versión no válido: {0} debe aparecer antes que {1}.</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
-  <ModLoadFolderOutOfOrderDefault>TODO</ModLoadFolderOutOfOrderDefault>
+  <ModLoadFolderOutOfOrderDefault>Orden de versión no válido: 'default' debe definirse primero.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
-  <ModLoadFolderDefinesUnsupportedGameVersion>TODO</ModLoadFolderDefinesUnsupportedGameVersion>
+  <ModLoadFolderDefinesUnsupportedGameVersion>La versión {0} se define en las carpetas de carga, pero no se incluye en las 'versiones compatibles' de About.xml del mod.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Arrastra para ordenar</DragToReorder>
 
@@ -373,25 +375,27 @@
   <!-- EN: age {0} -->
   <AgeIndicator>{0} años de edad</AgeIndicator>
   <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummary>TODO</PawnSummary>
+  <PawnSummary>{PAWN_race}, edad {PAWN_ageFull}</PawnSummary>
   <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummaryWithGender>TODO</PawnSummaryWithGender>
+  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, edad {PAWN_ageFull}</PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>Trasfondo</Backstory>
   <!-- EN: Incapable of -->
   <IncapableOf>Incapacidades</IncapableOf>
   <!-- EN: Abilities -->
-  <Abilities>TODO</Abilities>
+  <Abilities>Habilidades</Abilities>
   <!-- EN: Caused by backstory: {0} -->
-  <IncapableOfTooltipBackstory>TODO</IncapableOfTooltipBackstory>
+  <IncapableOfTooltipBackstory>Causado por la historia de fondo: {0}</IncapableOfTooltipBackstory>
   <!-- EN: Caused by title: {0} -->
-  <IncapableOfTooltipTitle>TODO</IncapableOfTooltipTitle>
+  <IncapableOfTooltipTitle>Causado por título: {0}</IncapableOfTooltipTitle>
   <!-- EN: Caused by trait: {0} -->
-  <IncapableOfTooltipTrait>TODO</IncapableOfTooltipTrait>
+  <IncapableOfTooltipTrait>Causado por el rasgo: {0}</IncapableOfTooltipTrait>
   <!-- EN: Caused by: {0} -->
-  <IncapableOfTooltipHediff>TODO</IncapableOfTooltipHediff>
+  <IncapableOfTooltipHediff>Causado por: {0}</IncapableOfTooltipHediff>
   <!-- EN: Disabled work types: -->
-  <IncapableOfTooltipWorkTypes>TODO</IncapableOfTooltipWorkTypes>
+  <IncapableOfTooltipWorkTypes>Tipos de trabajo discapacitados:</IncapableOfTooltipWorkTypes>
+  <!-- EN: Caused by quest status: {0} -->
+  <IncapableOfTooltipQuest>Causado por el estado de la misión: {0}</IncapableOfTooltipQuest>
   <!-- EN: Traits -->
   <Traits>Rasgos</Traits>
   <!-- EN: Permanent mood effect -->
@@ -436,6 +440,8 @@
   <Next>Siguiente</Next>
   <!-- EN: Back -->
   <Back>Atrás</Back>
+  <!-- EN: Show Materials -->
+  <ShowMaterials>Mostrar Materiales</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>Jugabilidad</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
@@ -460,6 +466,8 @@
   <GeneratingMapForNewEncounter>Generando mapa para nuevo encuentro</GeneratingMapForNewEncounter>
 
   <!-- EN: Click for more info -->
-  <ClickForMoreInfo>TODO</ClickForMoreInfo>
+  <ClickForMoreInfo>Haga clic para más información</ClickForMoreInfo>
+  <!-- EN: No more information is available. -->
+  <NoMoreInfoAvailable>No hay más información disponible.</NoMoreInfoAvailable>
 
 </LanguageData>

@@ -5,6 +5,8 @@
   <Confirm>Confirmar</Confirm>
   <!-- EN: Go back -->
   <GoBack>Regresar</GoBack>
+  <!-- EN: Do you want to continue? -->
+  <WantToContinue>¿Desea continuar?</WantToContinue>
   <!-- EN: OK -->
   <OK>OK</OK>
   <!-- EN: Close -->
@@ -20,13 +22,13 @@
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
   <GameUpdatedToNewVersionNonSteam>Ya que esta es una copia libre de protección anti-piratería, puedes instalar el juego dos veces en diferentes carpetas, para que puedas jugar tanto con la versión nueva como la anterior.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
-  <GameUpdatedToNewVersionSteam>Si deseas continuar con la versión anterior, puedes optar por usar la opción de "Betas" de Steam.\n\n  1. En la librería de Steam, haz click derecho en Rimworld.\n  2. Da click en propiedades.\n  3. Selecciona la pestaña de betas.\n  4. Selecciona la versión que desees del menú.\n\nLas versiones antiguas se irán borrando de la lista con el tiempo. No queríamos destruir partidas en progreso.\n\nToma nota de que si los autores de un mod lo actualizan a una versión nueva, probablemente deje de funcionar para las anteriores. Podrías querer apagar las actualizaciones automáticas para prevenirlo.</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionSteam>Si deseas continuar con la versión anterior, puedes optar por usar la opción de "Betas" de Steam.\n\n  1. En la librería de Steam, haz click derecho en Rimworld.\n  2. Da clic en propiedades.\n  3. Selecciona la pestaña de betas.\n  4. Selecciona la versión que desees del menú.</GameUpdatedToNewVersionSteam>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
-  <RecoveredFromErrorsDialogTitle>El juego se ha recuperado de un error de incompatibilidad o corrupción del mod</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsDialogTitle>El juego se ha recuperado de un error de incompatibilidad o corrupción de mods</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
-  <RecoveredFromErrorsText>Parece que alguno de los mods activos estuvo causando errores.\n\nEran incompatibles entre ellos, fueron designados para otra versión de RimWorld o estaban corruptos.\n\nTodos los mods fueron desactivados pero pueden ser reactivados de nuevo en el menú de mods.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>Parece que alguno de los mods activos estuvieron causando errores.\n\nEran incompatibles entre ellos, fueron designados para otra versión de RimWorld o estaban corruptos.\n\nTodos los mods fueron desactivados pero pueden ser reactivados de nuevo en el menú de mods.</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
   <!-- EN: Error while loading assets -->
@@ -54,7 +56,7 @@
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
-  <SteamClientMissing>No se pudo inicializar la API de Steam. Causas probables:\n\n-Steam no está abierto.\n-Se abrió el juego fuera de Steam y el archivo steam_appid.txt no está en su lugar.\n-Se abrió el juego con privilegios diferentes de los del cliente de Steam ("como administrador").\n\nEsta versión del juego requiere Steam así que ahora se cerrará.</SteamClientMissing>
+  <SteamClientMissing>No se pudo inicializar la API de Steam. Causas probables:\n\n-Steam no está abierto.\n-Se abrió el juego fuera de Steam y el archivo steam_appid.txt no está en su lugar.\n-Se abrió el juego con privilegios diferentes de los del cliente de Steam (ejemplo: "como administrador").\n\nEsta versión del juego requiere Steam así que ahora se cerrará.</SteamClientMissing>
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
@@ -100,7 +102,7 @@
   <!-- EN: Saving -->
   <SavingLongEvent>Guardando</SavingLongEvent>
   <!-- EN: (Permadeath) -->
-  <PermadeathModeSaveSuffix>(Perma-muerte)</PermadeathModeSaveSuffix>
+  <PermadeathModeSaveSuffix>(Muerte permanente)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
   <SaveIsFromDifferentGameVersion>Estamos corriendo la versión {0} del juego, pero esta partida es de la versión {1}, que es muy diferente.\n\nIntentar cargarla podría no funcionar.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
@@ -118,13 +120,13 @@
   <!-- EN: Some mods are unavailable, and need to be installed -->
   <MissingMods>Algunos mods no están disponibles y deben instalarse</MissingMods>
   <!-- EN: Official content -->
-  <OfficialContent>TODO</OfficialContent>
+  <OfficialContent>Contenido oficial</OfficialContent>
   <!-- EN: Active -->
-  <ContentActive>TODO</ContentActive>
+  <ContentActive>Activo</ContentActive>
   <!-- EN: Installed, but not active -->
-  <ContentInstalledButNotActive>TODO</ContentInstalledButNotActive>
+  <ContentInstalledButNotActive>Instalado, pero no activo</ContentInstalledButNotActive>
   <!-- EN: Not installed -->
-  <ContentNotInstalled>TODO</ContentNotInstalled>
+  <ContentNotInstalled>No instalado</ContentNotInstalled>
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
@@ -158,7 +160,7 @@
   
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>El nuevo apodo de este colono es {0}. {PAWN_possessive} título es {PAWN_title}.</PawnGainsName>
+  <PawnGainsName>El nuevo apodo de este colono es {0}. {PAWN_possessive} titulo es {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>El nombre del animal ahora es {0}.</AnimalGainsName>
 
@@ -299,7 +301,13 @@
   <!-- EN: Cooldown -->
   <CooldownTime>Enfriamiento</CooldownTime>
   <!-- EN: Disarmed -->
-  <DisarmedTime>TODO</DisarmedTime>
+  <DisarmedTime>Desarmado</DisarmedTime>
+  <!-- EN: Charging -->
+  <ChargingTime>Cargando</ChargingTime>
+  <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
+  <ChargingNext>Siguiente recarga (para {1}) en: {0}\nCiclo de carga: {2}</ChargingNext>
+  <!-- EN: Shut down -->
+  <ShutDown>Apagar</ShutDown>
   <!-- EN: Fire rate -->
   <BurstShotFireRate>Cadencia de tiro</BurstShotFireRate>
   <!-- EN: Range -->
@@ -355,7 +363,7 @@
   <!-- EN: Diet -->
   <Diet>Dieta</Diet>
   <!-- EN: Nutrition need per day -->
-  <NutritationEatenPerDay>TODO</NutritationEatenPerDay>
+  <NutritationEatenPerDay>Necesidad nutricional por día</NutritationEatenPerDay>
   <!-- EN: Leather type -->
   <LeatherType>Tipo de cuero</LeatherType>
   <!-- EN: Body size -->
@@ -367,7 +375,7 @@
   <!-- EN: Covers -->
   <Covers>Cobertura</Covers>
   <!-- EN: Created at -->
-  <CreatedAt>TODO</CreatedAt>
+  <CreatedAt>Creado en</CreatedAt>
   <!-- EN: Layer -->
   <Layer>Recubrimiento</Layer>
   <!-- EN: Cover effectiveness -->
@@ -394,8 +402,46 @@
   <TimeRecordsCategory>Tiempo</TimeRecordsCategory>
   <!-- EN: Misc -->
   <MiscRecordsCategory>Varios</MiscRecordsCategory>
-  <!-- EN: Addictiveness -->
-  <Addictiveness>Potencial de adicción</Addictiveness>
+  <!-- EN: Chemical -->
+  <Chemical>Químico</Chemical>
+  <!-- EN: High gain per dose -->
+  <HighGain>Alta ganancia por dosis</HighGain>
+  <!-- EN: High fall rate -->
+  <HighFallRate>Alta tasa de caída</HighFallRate>
+  <!-- EN: High duration per dose -->
+  <HighDuration>Alta duración por dosis</HighDuration>
+  <!-- EN: Tolerance gain per dose -->
+  <ToleranceGain>Ganancia de tolerancia por dosis</ToleranceGain>
+  <!-- EN: Tolerance fall rate -->
+  <ToleranceFallRate>Tasa de caída de tolerancia</ToleranceFallRate>
+  <!-- EN: New addiction min tolerance -->
+  <MinimumToleranceForAddiction>Nueva adicción tolerancia mínima</MinimumToleranceForAddiction>
+  <!-- EN: Safe dose interval -->
+  <SafeDoseInterval>Intervalo de dosis segura</SafeDoseInterval>
+  <!-- EN: New addiction chance -->
+  <Addictiveness>Nueva posibilidad de adicción</Addictiveness>
+  <!-- EN: Addiction initial severity -->
+  <AddictionSeverityInitial>Adicción severidad inicial</AddictionSeverityInitial>
+  <!-- EN: Addiction severity per dose -->
+  <AddictionSeverityPerDose>La severidad de la adicción por dosis</AddictionSeverityPerDose>
+  <!-- EN: Addiction need fill per dose -->
+  <AddictionNeedOffset>Adicción necesita relleno por dosis</AddictionNeedOffset>
+  <!-- EN: Addiction need fall rate -->
+  <AddictionNeedFallRate>Adicción necesita tasa de caída</AddictionNeedFallRate>
+  <!-- EN: Addiction need dose interval -->
+  <AddictionNeedDoseInterval>Adicción necesita intervalo de dosis</AddictionNeedDoseInterval>
+  <!-- EN: Addiction recovery time -->
+  <AddictionRecoveryTime>Tiempo de recuperación de la adicción</AddictionRecoveryTime>
+  <!-- EN: Addiction cost -->
+  <AddictionCost>Costo de adicción</AddictionCost>
+  <!-- EN: Random overdose chance -->
+  <RandomODChance>Posibilidad de sobredosis aleatoria</RandomODChance>
+  <!-- EN: Always safe -->
+  <AlwaysSafe>Siempre seguro</AlwaysSafe>
+  <!-- EN: Never safe -->
+  <NeverSafe>Nunca seguro</NeverSafe>
+  <!-- EN: {0} / day -->
+  <PerDay>{0} / día</PerDay>
   <!-- EN: Pack animal -->
   <PackAnimal>Animal de carga</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -405,15 +451,15 @@
   <!-- EN: Success rate multiplier -->
   <SurgerySuccessChanceFactor>Multiplicador de la tasa de éxito</SurgerySuccessChanceFactor>
   <!-- EN: Death chance on fail -->
-  <SurgeryDeathOnFailChance>TODO</SurgeryDeathOnFailChance>
+  <SurgeryDeathOnFailChance>Posibilidad de muerte por falla</SurgeryDeathOnFailChance>
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>Velocidad de trabajo gobernada por</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
   <EfficiencyStat>Cantidad de salida gobernada por</EfficiencyStat>
   <!-- EN: {0} skill required -->
-  <SkillRequiredToBuild>TODO</SkillRequiredToBuild>
+  <SkillRequiredToBuild>{0} habilidad requerida</SkillRequiredToBuild>
   <!-- EN: Requires this level of {0} in order to build. -->
-  <SkillRequiredToBuildExplanation>TODO</SkillRequiredToBuildExplanation>
+  <SkillRequiredToBuildExplanation>Requiere este nivel de {0} para construir.</SkillRequiredToBuildExplanation>
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>Intervalo de acople</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
@@ -441,23 +487,49 @@
   <!-- EN: Power consumption -->
   <PowerConsumption>Consumo de energía</PowerConsumption>
   <!-- EN: Target -->
-  <Target>TODO</Target>
-  <!-- EN: Human -->
-  <TargetHuman>TODO</TargetHuman>
-  <!-- EN: Animal -->
-  <TargetAnimal>TODO</TargetAnimal>
-  <!-- EN: Self -->
-  <TargetSelf>TODO</TargetSelf>
-  <!-- EN: Ground -->
-  <TargetGround>TODO</TargetGround>
+  <Target>Objetivo</Target>
+  <!-- EN: The types of targets on which this ability can be used. -->
+  <AbilityTargetDesc>Los tipos de objetivos en los cuales ésta habilidad puede ser usada.</AbilityTargetDesc>
+  <!-- EN: human -->
+  <TargetHuman>Humano</TargetHuman>
+  <!-- EN: animal -->
+  <TargetAnimal>Animal</TargetAnimal>
+  <!-- EN: self -->
+  <TargetSelf>Yo</TargetSelf>
+  <!-- EN: ground -->
+  <TargetGround>Suelo</TargetGround>
   <!-- EN: Click to learn more. -->
-  <ClickToLearnMore>TODO</ClickToLearnMore>
+  <ClickToLearnMore>Haz clic para aprender mas.</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
-  <ClickToViewFactions>TODO</ClickToViewFactions>
+  <ClickToViewFactions>Haz clic para ver las facciones.</ClickToViewFactions>
+  <!-- EN: meditation focus types -->
+  <MeditationFocuses>tipos de enfoque de meditación</MeditationFocuses>
+  <!-- EN: Unlocks meditation focus types -->
+  <MeditationFocusesUnlocked>Desbloquea tipos de enfoque de meditación</MeditationFocusesUnlocked>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>Los tipos de enfoque de meditación que esta persona puede usar. Al meditar, una persona puede concentrarse en un objeto para aumentar su ganancia de enfoque mental, pero solo si ese objeto ofrece un tipo de enfoque que puede usar. Los tipos de meditación de cada persona están determinados por sus antecedentes, rasgos, posición social, etc.</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
+  <MeditationFocusesDesc>Los tipos de enfoque de meditación que ofrece este objeto. Una persona que medita puede enfocarse en este objeto para aumentar su ganancia de enfoque mental, pero solo si puede usar uno de sus tipos de meditación. Cada persona puede usar diferentes tipos de meditación dependiendo de sus antecedentes, rasgos, posición social, etc.</MeditationFocusesDesc>
+  <!-- EN: Can use {0} focus type because -->
+  <MeditationFocusCanUse>Puede usar el tipo de enfoque {0} porque</MeditationFocusCanUse>
+  <!-- EN: {0} focus objects -->
+  <MeditationFocusObjects>{0} objetos de enfoque</MeditationFocusObjects>
+  <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
+  <MeditationFocusEnabledByTitle>Posee el título: {TITLE} ({FACTION_name}).</MeditationFocusEnabledByTitle>
+  <!-- EN: has childhood -->
+  <MeditationFocusEnabledByChildhood>tiene infancia</MeditationFocusEnabledByChildhood>
+  <!-- EN: has adulthood -->
+  <MeditationFocusEnabledByAdulthood>tiene edad adulta</MeditationFocusEnabledByAdulthood>
+  <!-- EN: has trait -->
+  <MeditationFocusEnabledByTrait>tiene rasgo</MeditationFocusEnabledByTrait>
+  <!-- EN: does not have trait -->
+  <MeditationFocusDisabledByTrait>no tiene rasgo</MeditationFocusDisabledByTrait>
+  <!-- EN: Enables meditation focus types -->
+  <EnablesMeditationFocusType>Permite los tipos de enfoque de meditación.</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
-  <PositiveBuysNegativeSells>Números positivos compran.\nNúmeros negativos venden.</PositiveBuysNegativeSells>
+  <PositiveBuysNegativeSells>Números positivos comprar.\nNúmeros negativos vender.</PositiveBuysNegativeSells>
   <!-- EN: Price you pay to buy this. -->
   <BuyPriceDesc>Precio que pagarás por esto.</BuyPriceDesc>
   <!-- EN: Price you receive for selling this. -->
@@ -489,7 +561,7 @@
   <!-- EN: Negotiator -->
   <Negotiator>Negociador</Negotiator>
   <!-- EN: Negotiator: {0} (+{1}) -->
-  <NegotiatorTradeDialogInfo>TODO</NegotiatorTradeDialogInfo>
+  <NegotiatorTradeDialogInfo>Negociador: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
   <NegotiatorTalkingImpaired>Tu negociador {1_labelShort} no puede hablar bien debido a un problema de salud.\n\nEsto afectará los negativamente los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
@@ -499,7 +571,7 @@
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
   <ConfirmTraderShortFunds>El comerciante no tiene suficiente plata para completar esta transacción. ¿Aún asi deseas continuar?</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
-  <SortBy>Ordenar</SortBy>
+  <SortBy>Ordenar por</SortBy>
   <!-- EN: trader type -->
   <TraderTypePrice>Tipo de mercader</TraderTypePrice>
   <!-- EN: selling -->
@@ -524,16 +596,18 @@
   <GiftModeTip>Modo de regalo - ofrecer regalos a {0}.</GiftModeTip>
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>Volver al modo de comercio.</TradeModeTip>
+  <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <TradeCaravanRequestDeniedDueTitle>La facción {FACTION_name} no están dispuestos a enviar una caravana porque {NEGOTIATOR_nameDef} carece del título requerido {TITLE}.</TradeCaravanRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
   <SellableItemsTitle>Cosas que este comerciante comprará</SellableItemsTitle>
   <!-- EN: Never visited - stock unknown -->
-  <TraderNotVisitedYet>TODO</TraderNotVisitedYet>
+  <TraderNotVisitedYet>Nunca visitado - stock desconocido</TraderNotVisitedYet>
   <!-- EN: Restocked since your last visit -->
-  <TraderRestockedSinceLastVisit>TODO</TraderRestockedSinceLastVisit>
+  <TraderRestockedSinceLastVisit>Reabastecido desde su última visita</TraderRestockedSinceLastVisit>
   <!-- EN: Next restock: {0} days -->
-  <NextTraderRestock>TODO</NextTraderRestock>
+  <NextTraderRestock>Próximo reabastecimiento: {0} días</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>Criaturas</PawnsTabShort>
   
@@ -563,7 +637,7 @@
   <!-- EN: The caravan can't carry that much. -->
   <TooBigCaravanMassUsage>La caravana no puede cargar tanto peso.</TooBigCaravanMassUsage>
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
-  <CaravanMassUsageTooltip>Uso de peso y capacidad de peso resultantes.\n\nEl uso de peso incluye las vituallas de la caravana asignada así como el equipo de los colonos.\n\nNo puedes enviar a la caravana si el uso de peso excede la capacidad.</CaravanMassUsageTooltip>
+  <CaravanMassUsageTooltip>Incluye objetos transportados y objetos equipados. Llevar menos del máximo da una bonificación de velocidad.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
   <CaravanVisibilityTip>La visibilidad es lo fácil que resulta darse cuenta de su caravana.\n\nMultiplica la posibilidad de que su caravana sea atacada por enemigos.\n\nLa visibilidad no afecta su capacidad de encontrar las cosas que busca.\n\nLa visibilidad se basa en el tamaño total del cuerpo de todas las personas y animales de la caravana.</CaravanVisibilityTip>
   <!-- EN: Days of food -->
@@ -577,9 +651,9 @@
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(sólo se tiene en cuenta el primer punto intermedio)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
-  <DaysWorthOfFoodWarningDialog>Tu caravana tiene tan sólo {0} días de comida y se pondrá hambrienta muy rápidamente.\n\n¿Estás seguro que quieres formar esta caravana?</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog>Tu caravana tiene tan sólo {0} días de comida y se pondrá hambrienta muy rápidamente.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
-  <DaysWorthOfFoodWarningDialog_NoFood>Tu caravana no tiene comida y se pondrá hambrienta muy rápidamente.\n\n¿Estás seguro que quieres formar esta caravana?</DaysWorthOfFoodWarningDialog_NoFood>
+  <DaysWorthOfFoodWarningDialog_NoFood>Tu caravana no tiene comida y se pondrá hambrienta muy rápidamente.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
   <ForagedFoodPerDayTip>La cantidad promedio de comida por día que su gente buscará. Este valor cambiará a medida que viaje a través de biomas con diferentes tasas de rendimiento de forraje.</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
@@ -606,8 +680,12 @@
   <AnimalCanGrazeTip>Este animal puede pastar alimentos del medio ambiente en lugar de comer alimentos transportados. El pastoreo sólo es posible en algunos biomas y rangos de temperatura.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>Nutrición forrajera por día. La cantidad real de forraje también se ve afectada por la forrajeabilidad del bioma.\n\n{0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
   <NutritionEatenPerDayTip>Nutrición ingerida al día. Como referencia, las comidas simples tienen {0} de nutrición.\n\nPuede comer: {2}\n\nLeyenda:\n{1}.</NutritionEatenPerDayTip>
+  <!-- EN: Can eat -->
+  <CanEat>Puede comer</CanEat>
+  <!-- EN: Legend -->
+  <Legend>Leyenda</Legend>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>Masa transportada</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -675,7 +753,7 @@
   
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
-  <ConfirmAttackFriendlyFaction>TODO</ConfirmAttackFriendlyFaction>
+  <ConfirmAttackFriendlyFaction>¿Estás seguro de que quieres atacar {0}?\n\nEsto hará que {1} sea hostil hacia ti y eventualmente comenzarán a asaltar tu colonia!</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
@@ -683,23 +761,23 @@
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
   <TooBigTransportersMassUsage>Las personas y objetos asignados son demasiado pesados para las cápsulas de transporte.</TooBigTransportersMassUsage>
   <!-- EN: The assigned people and items are too heavy for the shuttle. -->
-  <TooBigTransporterSingleMassUsage>TODO</TooBigTransporterSingleMassUsage>
+  <TooBigTransporterSingleMassUsage>Las personas y los objetos asignados son demasiado pesados para el transbordador.</TooBigTransporterSingleMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>No puedes enviar una cápsula de transporte vacía.</CantSendEmptyTransportPods>
   <!-- EN: You can't send empty shuttle. -->
-  <CantSendEmptyTransporterSingle>TODO</CantSendEmptyTransporterSingle>
+  <CantSendEmptyTransporterSingle>No puedes enviar un transbordador vacío.</CantSendEmptyTransporterSingle>
   <!-- EN: {1_labelShort} can't reach the transport pods. -->
   <PawnCantReachTransporters>{1_labelShort} no puede llegar hasta las cápsulas de transporte.</PawnCantReachTransporters>
   <!-- EN: {1_labelShort} can't reach the shuttle. -->
-  <PawnCantReachTransporterSingle>TODO</PawnCantReachTransporterSingle>
+  <PawnCantReachTransporterSingle>{1_labelShort} no puede llegar al transbordador.</PawnCantReachTransporterSingle>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>No hay camino disponible entre las cápsulas de transporte y el/la {0}.</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the shuttle and the {0}. -->
-  <TransporterSingleItemIsUnreachableSingle>TODO</TransporterSingleItemIsUnreachableSingle>
+  <TransporterSingleItemIsUnreachableSingle>No hay camino entre el transbordador y el {0}.</TransporterSingleItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
   <TransporterItemIsUnreachableMulti>No hay camino disponible entre las cápsulas de transporte y {0}x {1}.</TransporterItemIsUnreachableMulti>
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
-  <TransporterSingleItemIsUnreachableMulti>TODO</TransporterSingleItemIsUnreachableMulti>
+  <TransporterSingleItemIsUnreachableMulti>No hay camino entre la lanzadera y {0} x {1}.</TransporterSingleItemIsUnreachableMulti>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -787,7 +865,7 @@
   <!-- EN: Any -->
   <NoDrugUseRequirement>Cualquiera</NoDrugUseRequirement>
   <!-- EN: Delete this drug. -->
-  <DeleteDrugTooltip>Borrar esta droga.</DeleteDrugTooltip>
+  <DeleteDrugTooltip>Eliminar esta droga.</DeleteDrugTooltip>
   <!-- EN: The name of a drug. -->
   <DrugNameColumnDesc>El nombre de la droga.</DrugNameColumnDesc>
   <!-- EN: How the drug is allowed to be used. -->
@@ -823,11 +901,11 @@
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>Nada</FoodRestrictionNothing>
   <!-- EN: Select food restriction -->
-  <SelectFoodRestriction>Seleccione el menu</SelectFoodRestriction>
+  <SelectFoodRestriction>Seleccione el menú</SelectFoodRestriction>
   <!-- EN: New food restriction -->
-  <NewFoodRestriction>Nuevo menu</NewFoodRestriction>
+  <NewFoodRestriction>Nuevo menú</NewFoodRestriction>
   <!-- EN: Delete food restriction -->
-  <DeleteFoodRestriction>Eliminar el menu</DeleteFoodRestriction>
+  <DeleteFoodRestriction>Eliminar el menú</DeleteFoodRestriction>
   <!-- EN: No food restriction selected -->
   <NoFoodRestrictionSelected>No se ha seleccionado ninguna restricción alimentaria</NoFoodRestrictionSelected>
 
@@ -895,29 +973,30 @@
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
-  <ConfirmCancelMonumentMarker>TODO</ConfirmCancelMonumentMarker>
+  <ConfirmCancelMonumentMarker>¿Realmente quieres eliminar este marcador de monumento?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
-  <AbilityRequiresLOS>TODO</AbilityRequiresLOS>
-  <!-- EN: Entropy gain  -->
-  <AbilityEntropyGain>TODO</AbilityEntropyGain>
+  <AbilityRequiresLOS>Línea de visión requerida</AbilityRequiresLOS>
+  <!-- EN: Neural heat gain -->
+  <AbilityEntropyGain>Ganancia de calor neuronal</AbilityEntropyGain>
+  <!-- EN: Psyfocus cost -->
+  <AbilityPsyfocusCost>costo de psicofoco</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
-  <AbilityDuration>TODO</AbilityDuration>
+  <AbilityDuration>Duración del efecto</AbilityDuration>
   <!-- EN: Effect radius -->
-  <AbilityEffectRadius>TODO</AbilityEffectRadius>
+  <AbilityEffectRadius>Radio de efecto</AbilityEffectRadius>
   <!-- EN: Casting time -->
-  <AbilityCastingTime>TODO</AbilityCastingTime>
+  <AbilityCastingTime>tiempo de selección</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
-  <AbilityCannotHitTarget>TODO</AbilityCannotHitTarget>
+  <AbilityCannotHitTarget>No hay línea de visión para apuntar.</AbilityCannotHitTarget>
   <!-- EN: {0} must target an empty area. -->
-  <AbilityOccupiedCells>TODO</AbilityOccupiedCells>
+  <AbilityOccupiedCells>{0} debe apuntar a un área vacía.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
-  <AbilityUnwalkable>TODO</AbilityUnwalkable>
+  <AbilityUnwalkable>{0} debe apuntar a un área transitable.</AbilityUnwalkable>
+  <!-- EN: {0} must target an unroofed area. -->
+  <AbilityRoofed>{0} debe apuntar a un área sin techo.</AbilityRoofed>
+  <!-- EN: {0} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>{0} está mentalmente roto.</AbilityCantApplyToMentallyBroken>
   
-  <!-- UNUSED -->
-  <ResearchMenuWithoutBench>Hasta que construyas una MESA DE INVESTIGACIONES, tus colonos no podrán investigar nada.\n\nAun así, ya puedes revisar y escoger un proyecto desde ahora.</ResearchMenuWithoutBench>
-  <ConstructionSkillRequired>Habilidad de construcción requerida</ConstructionSkillRequired>
-  <ConstructionSkillRequiredExplanation>Requiere este nivel de Construcción para construir.</ConstructionSkillRequiredExplanation>
-
 </LanguageData>

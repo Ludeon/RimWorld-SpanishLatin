@@ -78,9 +78,9 @@
   <NewPartDiseaseAnimal>{PAWN_labelShort} ha desarrollado una enfermedad: {3} en [PAWN_possessive] {1}</NewPartDiseaseAnimal>
 
   <!-- EN: {0} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{1_labelShort} formaba parte de tu facción.</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>{0} formaba parte de tu facción.</PawnWasFormerlyColonist>
   <!-- EN: You previously hosted {0}. -->
-  <PawnWasFormerlyLodger>TODO</PawnWasFormerlyLodger>
+  <PawnWasFormerlyLodger>Anteriormente alojaste {0}.</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} tiene estas relaciones con tus colonos:</PawnHasTheseRelationshipsWithColonists>
 
@@ -140,11 +140,14 @@
   <LastFactionRelationsEvent>El último evento fue</LastFactionRelationsEvent>
 
   <!-- EN: View related quest -->
-  <ViewRelatedQuest>TODO</ViewRelatedQuest>
+  <ViewRelatedQuest>Ver misión relacionada</ViewRelatedQuest>
   <!-- EN: View quest -->
-  <ViewQuest>TODO</ViewQuest>
+  <ViewQuest>Ver misión</ViewQuest>
   <!-- EN: The last events in {PAWN_definite}'s life -->
   <LastEventsInLife>Los últimos eventos en la vida de {PAWN_definite}</LastEventsInLife>
+
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
+  <LetterInspirationBeginThanksToHighMoodPart>Gracias al buen humor, ¡[PAWN_nameIndef] ha experimentado una inspiración!</LetterInspirationBeginThanksToHighMoodPart>
 
   <!-- Related pawns -->
   <!-- EN: Relationship -->
@@ -171,7 +174,7 @@
   <LetterRelatedPawnsSite>Hay personas que tienen relaciones con su {0} o prisioneros en esta área:</LetterRelatedPawnsSite>
 
   <!-- EN: relationship -->
-  <RelationshipAppendedLetterSuffix>(relación)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterSuffix>relación</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
   <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} tiene relación con un colono. {PAWN_pronoun} es {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
@@ -189,7 +192,7 @@
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
   <LetterNoLongerLovers>{PAWN1_labelShort} y {PAWN2_labelShort} ya no están en una relación.</LetterNoLongerLovers>
   <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
-  <LetterNoLongerLovers_BackToBirthName>TODO</LetterNoLongerLovers_BackToBirthName>
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} cambiará el apellido {PAWN_possessive} de nuevo al nombre de nacimiento {PAWN_possessive}.</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>Rompimiento</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -199,7 +202,7 @@
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
   <LetterAcceptedProposal>En algún momento de los próximos días o cuadrantes, tendrán su ceremonia de matrimonio e invitarán a todos los colonos. Considere la posibilidad de colocar un lugar de matrimonio si desea controlar dónde se celebra la ceremonia.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
-  <LetterAcceptedProposal_NameChange>TODO</LetterAcceptedProposal_NameChange>
+  <LetterAcceptedProposal_NameChange>{PAWN_label} cambiará el apellido {PAWN_possessive} a {1}.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
   <LetterRejectedProposal>{INITIATOR_nameFull} no va a estar contento(a) con esto.</LetterRejectedProposal>
 
@@ -277,7 +280,7 @@
   <!-- EN: Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>Misión completada</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
-  <LetterDefeatAllEnemiesQuestCompleted>¡Has derrotado al puesto de avanzada enemigo!\n\nEl pago de {0} ha llegado, y las relaciones entre facciones han mejorado {1}.</LetterDefeatAllEnemiesQuestCompleted>
+  <LetterDefeatAllEnemiesQuestCompleted>¡Has derrotado al puesto de avanzada enemigo!\n\nEl pago de {0} ha llegado, y las relaciones entre facciones han mejorado en {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
   <!-- Long-range mineral scanner -->
   <!-- EN: Distant resource scanned -->
@@ -287,9 +290,9 @@
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
-  <LetterLabelDeepScannerFoundLump>TODO</LetterLabelDeepScannerFoundLump>
+  <LetterLabelDeepScannerFoundLump>Escaneado bajo tierra</LetterLabelDeepScannerFoundLump>
   <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
-  <LetterDeepScannerFoundLump>TODO</LetterDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>¡{FINDER_nameDef} ha encontrado un trozo de {0} enterrado usando el escáner que penetra en el suelo!</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -323,11 +326,11 @@
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
-  <LetterRunWildMentalBreak>{0} está harto de la civilización.\n\n{0_pronoun} se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, {0_pronoun} ha decidido dejar su facción y vivir con los animales.\n\nPuedes intentar domar{0_objective} para recuperar{0_objective}. </LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0} está harto de la civilización.\n\n{PAWN_pronoun} se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, {PAWN_pronoun} ha decidido dejar su facción y vivir con los animales.\n\nPuedes intentar domar o arrestar a {PAWN_objective} para recuperar a {PAWN_objective} . </LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0} tiene un colapso catatónico que durará varios días. {0_pronoun} se recuperará en unos días.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0} tiene un colapso catatónico que durará varios días. {PAWN_pronoun} se recuperará en unos días.</LetterCatatonicMentalBreak>
 
   <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>Oferta de IA</LetterLabelAICoreOffer>
@@ -340,14 +343,14 @@
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
   <LetterCraftedLegendaryMessage>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}.\n\nLas noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessageArt>TODO</LetterCraftedLegendaryMessageArt>
+  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}. \n \n {0} \n \ las noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessageArt>
 
   <!-- EN: Masterwork -->
-  <LetterCraftedMasterworkLabel>TODO</LetterCraftedMasterworkLabel>
+  <LetterCraftedMasterworkLabel>Obra maestra</LetterCraftedMasterworkLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <LetterCraftedMasterworkMessage>TODO</LetterCraftedMasterworkMessage>
+  <LetterCraftedMasterworkMessage>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>TODO</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}. \n \n {0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -362,7 +365,7 @@
   <!-- Hibernate complete -->
   <!-- EN: Reactor ready -->
   <LetterLabelHibernateComplete>Reactor listo</LetterLabelHibernateComplete>
-  <!-- EN: <Name>Charlon Whitestone</Name> has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
   <LetterHibernateComplete>Charlon Whitestone ha terminado la secuencia de recuperación de hibernación del reactor. El reactor está listo para despegar.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
   <LetterHibernateCompleteStandalone>La secuencia de encendido del reactor está completa. Ahora está listo para impulsar un despegue.</LetterHibernateCompleteStandalone>
@@ -389,7 +392,7 @@
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Rescatado(a) se une</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>Has rescatado a {PAWN_nameDef} y {PAWN_pronoun} se ha unido a tu grupo.\n\nUsted puede tomar{PAWN_objective} reformando la caravana en la pantalla Mundo, seleccionando esta zona y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>Has rescatado a {PAWN_nameDef} y {PAWN_pronoun} se ha unido a tu grupo.\n\nPuedes tomar{PAWN_objective} reformando la caravana en la pantalla Mundo, seleccionando esta zona y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinished>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -401,118 +404,110 @@
   <!-- EN: {0} blocked {1} on: {2}. -->
   <LetterDisease_Blocked>{0} bloqueado {1} con: {2}.</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
-  <LetterLabelTraitDisease>Enfermedad ({0})</LetterLabelTraitDisease>
+  <LetterLabelTraitDisease>Enfermedad: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_label} se ha enfermado de {1}.\n\nAsegúrese de tener una cama médica y un médico. Asegúrese de que {PAWN_pronoun} reciba el tratamiento adecuado y permanece en la cama el mayor tiempo posible.</LetterTraitDisease>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>TODO</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>Una nueva misión esta disponible. Se llama '{0}'.</LetterQuestBecameAvailable>
   <!-- EN: If you don’t accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>TODO</LetterQuestRequiresAcceptance>
+  <LetterQuestRequiresAcceptance>Si no acepta la misión dentro de {0}, caducará.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>TODO</LetterQuestBecameActive>
+  <LetterQuestBecameActive>Se ha activado una nueva misión. Se llama '{0}'.</LetterQuestBecameActive>
   <!-- EN: Quest active: {0} -->
-  <LetterQuestAutomaticallyAcceptedTitle>TODO</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterQuestAutomaticallyAcceptedTitle>Misión activa: {0}</LetterQuestAutomaticallyAcceptedTitle>
   <!-- EN: It will expire in {0}. -->
-  <LetterQuestActiveNowTime>TODO</LetterQuestActiveNowTime>
+  <LetterQuestActiveNowTime>Caducará en {0}.</LetterQuestActiveNowTime>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
-  <LetterLabelQuestDropPodsArrived>TODO</LetterLabelQuestDropPodsArrived>
+  <LetterLabelQuestDropPodsArrived>Llegaron las cápsulas</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
-  <LetterQuestDropPodsArrived>TODO</LetterQuestDropPodsArrived>
+  <LetterQuestDropPodsArrived>Llegaron cápdulas de transporte con los siguientes contenidos:\n\n{0}</LetterQuestDropPodsArrived>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
-  <LetterLabelRefugeeJoins>TODO</LetterLabelRefugeeJoins>
+  <LetterLabelRefugeeJoins>{PAWN_nameDef} se une</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>TODO</LetterRefugeeJoins>
+  <LetterRefugeeJoins>Un(a) {PAWN_title} de nombre {PAWN_nameDef} ha llegado y se está uniendo a la colonia.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
-  <LetterLabelRescueeJoins>TODO</LetterLabelRescueeJoins>
+  <LetterLabelRescueeJoins>{PAWN_nameDef} se une</LetterLabelRescueeJoins>
   <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
-  <LetterRescueeJoins>TODO</LetterRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef} agradece que hayas rescatado a {PAWN_objective}. {PAWN_pronoun} ha decidido que {PAWN_pronoun} preferiría quedarse antes que irse, y se une a su colonia.</LetterRescueeJoins>
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
-  <LetterLabelPawnsArriveAndJoin>TODO</LetterLabelPawnsArriveAndJoin>
+  <LetterLabelPawnsArriveAndJoin>La gente se une</LetterLabelPawnsArriveAndJoin>
   <!-- EN: The following people have arrived and joined the colony:\n\n{0} -->
-  <LetterPawnsArriveAndJoin>TODO</LetterPawnsArriveAndJoin>
+  <LetterPawnsArriveAndJoin>Las siguientes personas llegaron y se unieron a la colonia:\n\n{0}</LetterPawnsArriveAndJoin>
 
   <!-- Pawns arrive -->
   <!-- EN: People arrived -->
-  <LetterLabelPawnsArrive>TODO</LetterLabelPawnsArrive>
+  <LetterLabelPawnsArrive>La gente llegó</LetterLabelPawnsArrive>
   <!-- EN: The following people have arrived:\n\n{0} -->
-  <LetterPawnsArrive>TODO</LetterPawnsArrive>
+  <LetterPawnsArrive>Han llegado las siguientes personas:\n\n{0}</LetterPawnsArrive>
 
   <!-- Pawn leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnLeaving>TODO</LetterLabelPawnLeaving>
+  <LetterLabelPawnLeaving>{0} dejando</LetterLabelPawnLeaving>
   <!-- EN: {0} is leaving. -->
-  <LetterPawnLeaving>TODO</LetterPawnLeaving>
+  <LetterPawnLeaving>{0} se va.</LetterPawnLeaving>
 
   <!-- Pawns leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnsLeaving>TODO</LetterLabelPawnsLeaving>
+  <LetterLabelPawnsLeaving>{0} dejando</LetterLabelPawnsLeaving>
   <!-- EN: {0} are leaving. -->
-  <LetterPawnsLeaving>TODO</LetterPawnsLeaving>
+  <LetterPawnsLeaving>{0} se van.</LetterPawnsLeaving>
   
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
-  <LetterLabelPawnsKidnapped>TODO</LetterLabelPawnsKidnapped>
-  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
-\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>TODO</LetterPawnsKidnapped>
+  <LetterLabelPawnsKidnapped>{PAWN_nameDef} secuestrado(a)</LetterLabelPawnsKidnapped>
+  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
+  <LetterPawnsKidnapped>¡{PAWN_nameDef} ha sido secuestrado(a) por la facción {FACTION_name}!\n\nSin embargo, a {PAWN_pronoun} no {PAWN_objective} perderás para siempre. Existe una oportunidad para rescatar{PAWN_objective} que puede presentase en los próximos días o años.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
-  <LetterTechprintAppliedLabel>TODO</LetterTechprintAppliedLabel>
+  <LetterTechprintAppliedLabel>Impresión técnica aplicada: {PROJECT_label}</LetterTechprintAppliedLabel>
   <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
-  <LetterTechprintAppliedPartIntro>TODO</LetterTechprintAppliedPartIntro>
-  <!-- EN: You're completed the projects techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
-  <LetterTechprintAppliedPartJustUnlocked>TODO</LetterTechprintAppliedPartJustUnlocked>
+  <LetterTechprintAppliedPartIntro>Se ha aplicado una impresión técnica al proyecto de investigación: {PROJECT_label}.</LetterTechprintAppliedPartIntro>
+  <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
+  <LetterTechprintAppliedPartJustUnlocked>¡Has completado los requisitos de impresión técnica del proyecto! Sus investigadores ahora pueden comenzar a investigar cómo usar realmente la tecnología en sus bancos de investigación.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
-  <LetterTechprintAppliedPartNotUnlockedYet>TODO</LetterTechprintAppliedPartNotUnlockedYet>
+  <LetterTechprintAppliedPartNotUnlockedYet>Los requisitos de impresión técnica de este proyecto aún no se cumplen. {0} impresiones técnicas se han aplicado hasta ahora. El proyecto requiere {1} en total.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
-  <LetterTechprintAppliedPartAlreadyUnlocked>TODO</LetterTechprintAppliedPartAlreadyUnlocked>
+  <LetterTechprintAppliedPartAlreadyUnlocked>Los requisitos de impresión técnica de este proyecto ya se cumplieron. La impresión técnica adicional avanzó sus esfuerzos de investigación en {PROJECT_label}. La mitad del trabajo de investigación restante, {0} puntos, se ha completado.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
-  <LetterTechprintAppliedPartAlreadyResearched>TODO</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartAlreadyResearched>Este proyecto ya está completamente investigado, por lo que la impresión técnica no avanzó en absoluto su conocimiento.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
-  <LetterTechprintAppliedPartExpAwarded>TODO</LetterTechprintAppliedPartExpAwarded>
+  <LetterTechprintAppliedPartExpAwarded>Al aplicar la impresión técnica, {PAWN_labelShort} ganó {0} experiencia en la habilidad {1}.</LetterTechprintAppliedPartExpAwarded>
   
   <!-- Quest Completed -->
   <!-- EN: Quest completed -->
-  <LetterQuestCompletedLabel>TODO</LetterQuestCompletedLabel>
+  <LetterQuestCompletedLabel>Misión completada</LetterQuestCompletedLabel>
   <!-- EN: Quest failed -->
-  <LetterQuestFailedLabel>TODO</LetterQuestFailedLabel>
+  <LetterQuestFailedLabel>Misión fallida</LetterQuestFailedLabel>
   <!-- EN: Quest concluded -->
-  <LetterQuestConcludedLabel>TODO</LetterQuestConcludedLabel>
+  <LetterQuestConcludedLabel>Misión concluida</LetterQuestConcludedLabel>
   <!-- EN: You have successfully completed the quest '{0}'! -->
-  <LetterQuestCompletedSuccess>TODO</LetterQuestCompletedSuccess>
+  <LetterQuestCompletedSuccess>¡Has completado con éxito la misión '{0}'!</LetterQuestCompletedSuccess>
   <!-- EN: You have failed the quest '{0}'. -->
-  <LetterQuestCompletedFail>TODO</LetterQuestCompletedFail>
+  <LetterQuestCompletedFail>Has fallado en la misión '{0}'.</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
-  <LetterQuestCompletedConcluded>TODO</LetterQuestCompletedConcluded>
-  
+  <LetterQuestCompletedConcluded>Has concluido la misión '{0}'.</LetterQuestCompletedConcluded>
+
   <!-- Bladelink -->
-  <!-- EN: Bladelink bond: {PAWN_labelShort} -->
-  <LetterBladelinkWeaponBondedLabel>TODO</LetterBladelinkWeaponBondedLabel>
-  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
-\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>TODO</LetterBladelinkWeaponBonded>
+  <!-- EN: Persona bond: {PAWN_labelShort} -->
+  <LetterBladelinkWeaponBondedLabel>Vinculación de IA: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
+  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial (IA) de está arma: {WEAPON label Shirt}.\n\De ahora en adelante, el arma {WEAPON_labelShort} se negará a ser manejada por nadie, excepto por {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
-  <LetterLabelMechClusterArrived>TODO</LetterLabelMechClusterArrived>
+  <LetterLabelMechClusterArrived>Llegaron los mecanoides</LetterLabelMechClusterArrived>
   <!-- EN: Mechanoids have arrived. -->
-  <LetterMechClusterArrived>TODO</LetterMechClusterArrived>
-
-  <!-- UNUSED -->
-  <PrisonerRescueTimeout>El campamento desaparecerá dentro de {0} días. Si pierdes esta oportunidad, es posible que no vuelvas a escuchar de {PRISONER_labelShort} de nuevo.</PrisonerRescueTimeout>
-  <LetterLabelMentalBreakdown>Colapso mental</LetterLabelMentalBreakdown>
-  <LetterLabelNewParty>Fiesta</LetterLabelNewParty>
-  <LetterNewParty>¡{1_labelShort} está organizando una fiesta! Todos el que vaya ganará alegría, energía social y una bonificación al humor.</LetterNewParty>
+  <LetterMechClusterArrived>Los mecanoides han llegado.</LetterMechClusterArrived>
 
 </LanguageData>

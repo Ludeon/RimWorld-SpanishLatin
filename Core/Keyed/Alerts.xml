@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Click to jump to problem -->
-  <ClickToJumpToProblem>Haz click para ir al problema</ClickToJumpToProblem>
+  <ClickToJumpToProblem>Haz clic para ir al problema</ClickToJumpToProblem>
 
   <!-- EN: Minor break risk -->
   <BreakRiskMinor>Riesgo de colapso menor</BreakRiskMinor>
@@ -15,21 +15,21 @@
   <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n\n{0} -->
   <BreakRiskMajorDesc>Estos colonos tienen el humor por los suelos y podrían tener un colapso mental grave en cualquier momento:\n\n{0}</BreakRiskMajorDesc>
   <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n\n{0} -->
-  <BreakRiskExtremeDesc>Estos colonos están extremadamente estresados y podrían tener un colapso mental grave (y posiblemente violento) en cualquier momento:\n\n{0}</BreakRiskExtremeDesc>
+  <BreakRiskExtremeDesc>Estos colonos están extremadamente estresados y podrían tener un colapso mental extremo (y posiblemente violento) en cualquier momento:\n\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
-  <BreakRiskDescEnding>Revisa las necesidades de estos colonos en la pestaña de 'Humor' para ver qué es lo que necesitan.\n\nPara hacerlos sentir mejor, puedes hacer cosas como preparales comidas gourmet, darles más horas de ocio, mejorar la calidad de los objetos de ocio, mejorar su ambiente de trabajo, proporcionarles bebida, drogas, entre otras cosas más.</BreakRiskDescEnding>
+  <BreakRiskDescEnding>Revisa las necesidades de estos colonos en la pestaña de 'Humor' para ver qué es lo que necesitan.\n\nPara hacerlos sentir mejor, puedes hacer cosas como preparales comidas gourmet, darles más horas de ocio, mejorar la calidad de los objetos de diversión, mejorar su ambiente de trabajo, proporcionarles bebida, drogas, entre otras cosas más.</BreakRiskDescEnding>
 
   <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>¡Un colono necesita rescate!</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>¡Unos colonos necesitan rescate!</ColonistsNeedRescue>
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue. -->
-  <ColonistsNeedRescueDesc>Estos colonos están incapacitados en el suelo:\n\n{0}\nOrdena a otro colono rescatarlos y llevarlos a una cama hospitalaria.\n\n(Para rescatar, selecciona otro colono, haz click derecho en la víctima y selecciona RESCATAR)</ColonistsNeedRescueDesc>
+  <ColonistsNeedRescueDesc>Estos colonos están incapacitados en el suelo:\n\n{0}\nOrdena a otro colono rescatarlos y llevarlos a una cama.\n\n(Para rescatar, selecciona otro colono, haz clic derecho en la víctima y selecciona RESCATAR)</ColonistsNeedRescueDesc>
 
   <!-- EN: Need defenses -->
   <NeedDefenses>Necesitas defensas</NeedDefenses>
   <!-- EN: You've been here some time and have probably been seen. Pirate raids will start soon.\n\nYou should prepare defenses, like sandbags or traps. -->
-  <NeedDefensesDesc>Haz estado aquí ya un tiempo y lo más probable es que alguien lo haya notado. Los ataques piratas comenzarán pronto.\n\nConstruye algunas torretas.</NeedDefensesDesc>
+  <NeedDefensesDesc>Haz estado aquí ya un tiempo y lo más probable es que alguien lo haya notado. Los ataques piratas comenzarán pronto.\n\nPrepara tus defensas, como bolsas de arena o trampas.</NeedDefensesDesc>
 
   <!-- EN: Need doctor -->
   <NeedDoctor>Necesitas un doctor</NeedDoctor>
@@ -64,9 +64,9 @@
   <NeedColonistBedsDesc>Tienes más colonos que camas para dormir. Alguien tendrá que dormir en el suelo.\n\nConstruye más camas o reasigna la cama de un prisionero para uso de los colonos.\n\nSi no tienes recursos, los sitios para dormir son gratis y se crean instantáneamente.</NeedColonistBedsDesc>
   
   <!-- EN: Colonist left unburied -->
-  <AlertColonistLeftUnburied>TODO</AlertColonistLeftUnburied>
+  <AlertColonistLeftUnburied>El colono se fue sin enterrar</AlertColonistLeftUnburied>
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
-  <AlertColonistLeftUnburiedDesc>TODO</AlertColonistLeftUnburiedDesc>
+  <AlertColonistLeftUnburiedDesc>Un colono queda sin enterrar. \n \nEsto puede afectar negativamente el estado de ánimo de los colonos.</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Cazador no tiene arma a distancia</HunterLacksWeapon>
@@ -152,9 +152,9 @@
   <ColonistsIdleDesc>Estos colonos están vagando sin nada que hacer:\n\n{0}\nDeberías encontrarles algo productivo que hacer.</ColonistsIdleDesc>
   
   <!-- EN: Caravan idle -->
-  <CaravanIdle>TODO</CaravanIdle>
+  <CaravanIdle>Caravana inactiva</CaravanIdle>
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
-  <CaravanIdleDesc>TODO</CaravanIdleDesc>
+  <CaravanIdleDesc>Estas caravanas están esperando que establezca su próximo destino: \n \n {0}</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Colonos necesitan tratamiento</ColonistNeedsTreatment>
@@ -208,41 +208,41 @@
   <ImmobileCaravanDesc>Una de tus caravanas está inmóvil debido a que carga un sobrepeso.\n\nPuedes hacer que se mueva nuevamente abandonando algunos objetos en la pestaña EQUIPO.</ImmobileCaravanDesc>
 
   <!-- EN: Building unusable due to roof -->
-  <BuildingCantBeUsedRoofed>TODO</BuildingCantBeUsedRoofed>
+  <BuildingCantBeUsedRoofed>Edificio inutilizable debido al techo</BuildingCantBeUsedRoofed>
   <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
-  <BuildingCantBeUsedRoofedDesc>TODO</BuildingCantBeUsedRoofedDesc>
+  <BuildingCantBeUsedRoofedDesc>Uno o más de sus edificios solo se pueden usar si no están cubiertos, pero hay un techo sobre ellos. Los edificios no serán utilizables hasta que retire el techo.</BuildingCantBeUsedRoofedDesc>
 
   <!-- EN: Heatstroke -->
-  <AlertHeatstroke>TODO</AlertHeatstroke>
+  <AlertHeatstroke>Golpe de calor</AlertHeatstroke>
   <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
-  <AlertHeatstrokeDesc>TODO</AlertHeatstrokeDesc>
+  <AlertHeatstrokeDesc>Las siguientes personas sufren de insolación: \n \n {0} \n Llévalas a un área más fresca. Puede enfriar habitaciones con refrigeradores pasivos o refrigeradores eléctricos. Los espacios subterráneos profundos también son naturalmente frescos, si están separados del exterior por una puerta.</AlertHeatstrokeDesc>
 
   <!-- EN: Guest unhappy -->
-  <QuestPartMoodBelowThreshold>TODO</QuestPartMoodBelowThreshold>
+  <QuestPartMoodBelowThreshold>Invitado infeliz</QuestPartMoodBelowThreshold>
   <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
-  <QuestPartMoodBelowThresholdDesc>TODO</QuestPartMoodBelowThresholdDesc>
+  <QuestPartMoodBelowThresholdDesc>La misión {0} requiere que mantengas a esta persona de buen humor. Sin embargo, su estado de ánimo es pobre. Tome algunas medidas para que se sientan mejor: \n \n {1}</QuestPartMoodBelowThresholdDesc>
   
   <!-- EN: Shuttle leaving in {0} -->
-  <QuestPartShuttleLeaveDelay>TODO</QuestPartShuttleLeaveDelay>
+  <QuestPartShuttleLeaveDelay>Lanzadera saliendo {0}</QuestPartShuttleLeaveDelay>
   <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
-  <QuestPartShuttleLeaveDelayDesc>TODO</QuestPartShuttleLeaveDelayDesc>
+  <QuestPartShuttleLeaveDelayDesc>El transbordador partirá en {1}. La misión {0} requiere que cargues las siguientes personas o elementos en el transbordador antes de que salga:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
 
   <!-- EN: Monument will be destroyed -->
-  <DisallowedBuildingInsideMonument>TODO</DisallowedBuildingInsideMonument>
+  <DisallowedBuildingInsideMonument>Monumento será destruido</DisallowedBuildingInsideMonument>
   <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
-  <DisallowedBuildingInsideMonumentDesc>TODO</DisallowedBuildingInsideMonumentDesc>
+  <DisallowedBuildingInsideMonumentDesc>Has construido un edificio no permitido dentro de uno de tus monumentos. El monumento se considerará destruido en {0}.</DisallowedBuildingInsideMonumentDesc>
 
   <!-- EN: Countdown activator {0} -->
-  <ActivatorCountdown>TODO</ActivatorCountdown>
+  <ActivatorCountdown>Activador de cuenta regresiva {0}</ActivatorCountdown>
   <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDesc>TODO</ActivatorCountdownDesc>
+  <ActivatorCountdownDesc>Hay un activador de cuenta regresiva que se prepara para despertar a los mecanoides cercanos.</ActivatorCountdownDesc>
   <!-- EN: {0} countdown activators -->
-  <ActivatorCountdownMultiple>TODO</ActivatorCountdownMultiple>
+  <ActivatorCountdownMultiple>activadores de cuenta regresiva {0}</ActivatorCountdownMultiple>
   <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDescMultiple>TODO</ActivatorCountdownDescMultiple>
+  <ActivatorCountdownDescMultiple>Hay {0} activadores de cuenta regresiva que se preparan para despertar a los mecanoides cercanos.</ActivatorCountdownDescMultiple>
 
   <!-- EN: Quest expires in {0} -->
-  <QuestExpiresSoon>TODO</QuestExpiresSoon>
+  <QuestExpiresSoon>La misión caduca en {0}</QuestExpiresSoon>
   <!-- EN: The quest '{0}' will expire in {1}. -->
-  <QuestExpiresSoonDesc>TODO</QuestExpiresSoonDesc>
+  <QuestExpiresSoonDesc>La misión '{0}' caducará en {1}.</QuestExpiresSoonDesc>
 </LanguageData>

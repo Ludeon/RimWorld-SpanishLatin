@@ -11,7 +11,7 @@
   <!-- EN: Ambient volume -->
   <AmbientVolume>Volumen del ambiente</AmbientVolume>
   <!-- EN: Anti-aliasing -->
-  <Antialiasing>Anti-alias</Antialiasing>
+  <Antialiasing>Anti-aliasing</Antialiasing>
 
   <!-- Gameplay -->
   <!-- EN: Screen-edge mouse scroll -->
@@ -21,11 +21,11 @@
   <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>Pausa de aviso urgente</PauseOnUrgentLetter>
   <!-- EN: Pause on -->
-  <AutomaticPauseModeSetting>TODO</AutomaticPauseModeSetting>
+  <AutomaticPauseModeSetting>Pausa en</AutomaticPauseModeSetting>
   <!-- EN: Custom cursor -->
   <CustomCursor>Cursor personalizado</CustomCursor>
   <!-- EN: Hats shown only on game map -->
-  <HatsShownOnlyOnMap>Mostrar leyendas únicamente en el mapa del juego</HatsShownOnlyOnMap>
+  <HatsShownOnlyOnMap>Mostrar leyendas solo en mapa de juego</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Escala de interfaz</UIScale>
   <!-- EN: Keyboard configuration -->
@@ -42,6 +42,8 @@
   <DevelopmentMode>Modo de desarrollo</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>Auto-reinicio de mods por fallo</ResetModsConfigOnCrash>
+  <!-- EN: Simulate not owning Royalty -->
+  <SimulateNotOwningRoyalty>Simular no poseer DLC Royalty</SimulateNotOwningRoyalty>
   <!-- EN: Verbose logging -->
   <LogVerbose>Registro elocuente</LogVerbose>
   <!-- EN: Open save data folder -->
@@ -49,9 +51,9 @@
   <!-- EN: Show save data location -->
   <ShowSaveGameDataLocation>Mostrar la ubicación de los datos guardados</ShowSaveGameDataLocation>
   <!-- EN: Open log file folder -->
-  <OpenLogFileFolder>TODO</OpenLogFileFolder>
+  <OpenLogFileFolder>Abrir carpeta de archivo de registro</OpenLogFileFolder>
   <!-- EN: Show log file location -->
-  <ShowLogFileLocation>TODO</ShowLogFileLocation>
+  <ShowLogFileLocation>Mostrar ubicación del archivo de registro</ShowLogFileLocation>
   <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
   <NamesYouWantToSee>Apellidos de los "Nombres en el juego" o los "Trasfondos en el juego" que deseas ver:</NamesYouWantToSee>
   <!-- EN: Add name -->
@@ -61,15 +63,17 @@
   <!-- EN: This name is already on the preferred list. -->
   <MessageAlreadyPreferredName>Este nombre ya está en la lista de preferidos.</MessageAlreadyPreferredName>
   <!-- EN: Storyteller settings -->
-  <ChangeStoryteller>Escoger IA cuentacuentos</ChangeStoryteller>
+  <ChangeStoryteller>Configuración IA cuentacuentos</ChangeStoryteller>
   <!-- EN: Autosave interval -->
-  <AutosaveInterval>Intervalo de autoguardado</AutosaveInterval>
+  <AutosaveInterval>Autoguardado cada</AutosaveInterval>
   <!-- EN: Temperature mode -->
   <TemperatureMode>Modo temperatura</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Mostar reloj con hora real</ShowRealtimeClock>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Número máximo de colonias: {0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Map mouse drag sensitivity -->
+  <MapDragSensitivity>Ajustar la sensibilidad del ratón en el mapa</MapDragSensitivity>
   <!-- EN: Plant wind sway -->
   <PlantWindSway>Vaivén de plantas por el viento</PlantWindSway>
   <!-- EN: Enable test map sizes -->
@@ -79,7 +83,7 @@
   <!-- EN: Mod Settings -->
   <ModSettings>Configurar Mods</ModSettings>
   <!-- EN: Permanently disable development mode -->
-  <PermanentlyDisableDevMode>Desactivar permanentemente el modo de desarrollo</PermanentlyDisableDevMode>
+  <PermanentlyDisableDevMode>Desactivar modo desarrollo permanente</PermanentlyDisableDevMode>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -99,6 +103,6 @@
   <!-- EN: Your options have been reset. The game will now restart automatically. -->
   <ResetAndRestart>Tus opciones han sido reseteadas. El juego se reiniciará automáticamente.</ResetAndRestart>
   <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
-  <ResetAndRestartConfirmationDialog>TODO</ResetAndRestartConfirmationDialog>
+  <ResetAndRestartConfirmationDialog>Todos los ajustes se restablecerán a los valores predeterminados y se reiniciará el juego. ¡Todo el progreso no guardado se perderá!\n\n¿Continuar?</ResetAndRestartConfirmationDialog>
   
 </LanguageData>

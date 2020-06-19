@@ -17,7 +17,7 @@
   <!-- EN: Version {0} -->
   <VersionIndicator>Versión {0}</VersionIndicator>
   <!-- EN: Game version -->
-  <GameVersionIndicator>TODO</GameVersionIndicator>
+  <GameVersionIndicator>Versión del juego</GameVersionIndicator>
   <!-- EN: development build -->
   <DevelopmentBuildLower>Construcción de Desarrollo</DevelopmentBuildLower>
   <!-- EN: Compiled {0} -->
@@ -27,7 +27,7 @@
   
   <!-- ToCommaList() -->
   <!-- EN: {0} and {1} -->
-  <ToCommaListAnd>TODO</ToCommaListAnd>
+  <ToCommaListAnd>{0} y {1}</ToCommaListAnd>
   
   <!-- General-use words -->
   <!-- EN: Yes -->
@@ -35,9 +35,9 @@
   <!-- EN: No -->
   <No>No</No>
   <!-- EN: new -->
-  <New>TODO</New>
+  <New>nuevo</New>
   <!-- EN: Gender -->
-  <Gender>TODO</Gender>
+  <Gender>Género</Gender>
   <!-- EN: min -->
   <min>min</min>
   <!-- EN: max -->
@@ -53,7 +53,7 @@
   <!-- EN: radius -->
   <radius>radio</radius>
   <!-- EN: expired -->
-  <expired>TODO</expired>
+  <expired>caducado</expired>
   <!-- EN: duration (days) -->
   <durationDays>duración (días)</durationDays>
   <!-- EN: interval (days) -->
@@ -79,7 +79,9 @@
   <!-- EN: Average -->
   <Average>Promedio</Average>
   <!-- EN: Cause -->
-  <Cause>TODO</Cause>
+  <Cause>Porque</Cause>
+  <!-- EN: etc -->
+  <Etc>etc</Etc>
   <!-- EN: ${0} -->
   <MoneyFormat>{0}$</MoneyFormat>
 
@@ -95,14 +97,11 @@
   <MeatHumanDesc>Carne cruda. Puede ser cocinada en comidas o consumida cruda, aunque a la mayoría de los humanos no les gusta esa idea.</MeatHumanDesc>
 
   <!-- EN: techprint ({PROJECT_label}) -->
-  <TechprintLabel>TODO</TechprintLabel>
-  <!-- EN: This is a techprint for the research project '{PROJECT_label}'.
-\nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
-\nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
-\nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
-  <TechprintDesc>TODO</TechprintDesc>
+  <TechprintLabel>impresión técnica ({PROJECT_label})</TechprintLabel>
+  <!-- EN: This is a techprint for the research project '{PROJECT_label}'.\nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.\nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.\nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
+  <TechprintDesc>Esta es una impresión técnica para el proyecto de investigación '{PROJECT_label}'.\n\nLa forma física de las impresiones técnicas puede variar desde trozos de papel con diagramas hasta máquinas de enseñanza avanzadas e independientes. Independientemente de la forma, juegan el mismo papel. Dan a sus investigadores la confianza de que una idea es posible y una idea aproximada de los diseños utilizados en sociedades más establecidas.\n\nSus investigadores necesitan el conocimiento fundamental que ofrecen las impresiones técnicas para saber por dónde comenzar con una tecnología determinada. Solo después de que se hayan aplicado suficientes huellas tecnológicas, sus investigadores podrán resolver los detalles finos de cómo utilizar la tecnología en su situación particular.\n\n La aplicación de impresiones técnicas a un proyecto satisfecho cumple la mitad del progreso de investigación restante. Además, los investigadores siempre obtienen un impulso a sus habilidades intelectuales al aplicar impresiones técnicas, incluso en tecnologías ya completadas.</TechprintDesc>
   <!-- EN: Unlocks -->
-  <Unlocks>TODO</Unlocks>
+  <Unlocks>Desbloquea</Unlocks>
 
   <!-- EN: {0} corpse -->
   <CorpseLabel>Cadáver de {0}</CorpseLabel>
@@ -125,7 +124,7 @@
   <SmoothStoneTerrainDesc>Suelo natural de {0} finamente alisado.</SmoothStoneTerrainDesc>
 
   <!-- EN:  (blueprint) -->
-  <BlueprintLabelExtra> (anteproyecto)</BlueprintLabelExtra>
+  <BlueprintLabelExtra>(anteproyecto)</BlueprintLabelExtra>
   <!-- EN:  (building) -->
   <FrameLabelExtra>(en construcción)</FrameLabelExtra>
 
@@ -160,6 +159,6 @@
   <East>Este</East>
 
   <!-- EN: applying techprint ({0}) -->
-  <ApplyingTechprint>TODO</ApplyingTechprint>
+  <ApplyingTechprint>aplicando impresión técnica ({0})</ApplyingTechprint>
   
 </LanguageData>
