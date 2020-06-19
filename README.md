@@ -16,7 +16,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 - - -
 
-Nuevo Grupo Discord de traducción: https://discord.gg/KUw4E9c actualizado el 15/06/2020
+Nuevo Grupo Discord de traducción: https://discord.gg/EjK52KM actualizado el 19/06/2020
 - - -
 
 Current translation and adaptation by:
