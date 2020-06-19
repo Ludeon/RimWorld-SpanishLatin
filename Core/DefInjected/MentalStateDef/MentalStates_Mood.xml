@@ -47,7 +47,7 @@
   <!-- EN: Mental state: Corpse obsession -->
   <CorpseObsession.baseInspectLine>Estado mental: Obsesión con cadáveres</CorpseObsession.baseInspectLine>
   <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to dig up a corpse and present it for all to see. -->
-  <CorpseObsession.beginLetter>{0} se ha obsesionado los cadaveres.\n\n[PAWN_pronoun] va a desenterrar un cadáver y lo presentará para que todos lo vean.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetter>{0} se ha obsesionado con los cadáveres.\n\n[PAWN_pronoun] va a desenterrar un cadáver y lo dejará a la vista de todos.</CorpseObsession.beginLetter>
   <CorpseObsession.beginLetterLabel>Obsesión con cadáveres</CorpseObsession.beginLetterLabel>
   <!-- EN: {0} is no longer having a corpse obsession. -->
   <CorpseObsession.recoveryMessage>{0} ya no está obsesionado(a) con los cadáveres.</CorpseObsession.recoveryMessage>
@@ -57,7 +57,7 @@
   <!-- EN: Mental state: Fire starting spree -->
   <FireStartingSpree.baseInspectLine>Estado Mental: Piromanía</FireStartingSpree.baseInspectLine>
   <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
-  <FireStartingSpree.beginLetter>{0} tiene un ataque piromaniaco.\n\n[PAWN_pronoun] deambularán por un tiempo, iniciando incendios al azar.</FireStartingSpree.beginLetter>
+  <FireStartingSpree.beginLetter>{0} tiene un ataque piromaníaco.\n\n[PAWN_pronoun] deambularán por un tiempo, iniciando incendios al azar.</FireStartingSpree.beginLetter>
   <FireStartingSpree.beginLetterLabel>piromanía</FireStartingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on a fire starting spree. -->
   <FireStartingSpree.recoveryMessage>Se ha calmado el ataque de piromanía de {0}.</FireStartingSpree.recoveryMessage>
@@ -67,7 +67,7 @@
   <!-- EN: Mental state: Given up and leaving -->
   <GiveUpExit.baseInspectLine>Estado Mental: Deserción</GiveUpExit.baseInspectLine>
   <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
-  <GiveUpExit.beginLetter>{0}  se ha dado por vencido(a) con esta comunidad y está abandonando la colonia. Ha decidido irse y buscar una vida mejor en otro lugar.\n\n Puedes intentar detener[PAWN_objective] cuando se vaya. De lo contrario, es posible que algún día vuelvas a ver[PAWN_objective].</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetter>{0} se ha dado por vencido(a) con esta comunidad y está abandonando la colonia. Ha decidido irse y buscar una vida mejor en otro lugar.\n\n Puedes intentar detener[PAWN_objective] cuando se vaya. De lo contrario, es posible que algún día vuelvas a ver[PAWN_objective].</GiveUpExit.beginLetter>
   <!-- EN: gave up -->
   <GiveUpExit.beginLetterLabel>deserción</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
@@ -165,26 +165,26 @@
   <Wander_OwnRoom.recoveryMessage>{0} ya no está escondido en [PAWN_possessive] habitación.</Wander_OwnRoom.recoveryMessage>
   
   <!-- EN: wandering in psychosis -->
-  <Wander_Psychotic.label>deambulando psicoticamente</Wander_Psychotic.label>
+  <Wander_Psychotic.label>deambulando psicóticamente</Wander_Psychotic.label>
   <!-- EN: Mental state: Psychotic wandering -->
-  <Wander_Psychotic.baseInspectLine>Estado Mental: Psicotico</Wander_Psychotic.baseInspectLine>
+  <Wander_Psychotic.baseInspectLine>Estado Mental: Psicótico</Wander_Psychotic.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
   <Wander_Psychotic.beginLetter>{0} ha colapsado mentalmente y está vagando por ahí, completamente aturdido(a).</Wander_Psychotic.beginLetter>
   <!-- EN: daze -->
-  <Wander_Psychotic.beginLetterLabel>deambulando psicoticamente</Wander_Psychotic.beginLetterLabel>
+  <Wander_Psychotic.beginLetterLabel>deambulando psicóticamente</Wander_Psychotic.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
-  <Wander_Psychotic.recoveryMessage>{0} ya no está psicotico.</Wander_Psychotic.recoveryMessage>
+  <Wander_Psychotic.recoveryMessage>{0} ya no está psicóico.</Wander_Psychotic.recoveryMessage>
   
   <!-- EN: wandering in psychosis -->
-  <Wander_Psychotic_Short.label>TODO</Wander_Psychotic_Short.label>
+  <Wander_Psychotic_Short.label>errante en psicosis</Wander_Psychotic_Short.label>
   <!-- EN: Mental state: Psychotic wandering -->
-  <Wander_Psychotic_Short.baseInspectLine>TODO</Wander_Psychotic_Short.baseInspectLine>
+  <Wander_Psychotic_Short.baseInspectLine>Estado mental: errante psicótico</Wander_Psychotic_Short.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
-  <Wander_Psychotic_Short.beginLetter>TODO</Wander_Psychotic_Short.beginLetter>
+  <Wander_Psychotic_Short.beginLetter>{0} está deambulando en un estado psicótico.</Wander_Psychotic_Short.beginLetter>
   <!-- EN: daze -->
-  <Wander_Psychotic_Short.beginLetterLabel>TODO</Wander_Psychotic_Short.beginLetterLabel>
+  <Wander_Psychotic_Short.beginLetterLabel>aturdimiento</Wander_Psychotic_Short.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
-  <Wander_Psychotic_Short.recoveryMessage>TODO</Wander_Psychotic_Short.recoveryMessage>
+  <Wander_Psychotic_Short.recoveryMessage>{0} ya no está vagando en un estado psicótico.</Wander_Psychotic_Short.recoveryMessage>
   
   <!-- EN: sad wandering -->
   <Wander_Sad.label>vagando tristemente</Wander_Sad.label>
