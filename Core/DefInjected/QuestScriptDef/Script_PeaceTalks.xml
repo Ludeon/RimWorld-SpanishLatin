@@ -6,7 +6,11 @@
     <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nSuccessful peace talks can earn your negotiator a small amount of personal [faction_royalFavorLabel] with [faction_name].</li>
     <li>favorRewardDetails-></li>
   -->
-  <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>TODO</OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+  <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] de la facción [faction_name], nos ha enviado un mensaje. [faction_leader_pronoun] quiere hablar con nosotros en un lugar cercano.\n\nPodría ser una gran oportunidad para mejorar las relaciones con su facción y recibir obsequios, pero tenga cuidado: un negociador deficiente puede causar más daño que bien e incluso hacerlos enojar. [favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nLas conversaciones de paz exitosas pueden ganarle a su negociador una cantidad pequeña de [faction_royalFavorLabel] con la facción [faction_name].</li>
+    <li>favorRewardDetails-></li>
+  </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[faction_leader_nameDef]'s [peaceTalks]</li>
     <li>questName->[peaceTalks] with [faction_leader_nameDef]</li>
@@ -16,10 +20,23 @@
     <li>peaceTalks->Diplomacy</li>
     <li>peaceTalks->Meeting</li>
   -->
-  <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>TODO</OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+  <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+    <li>questName->[peaceTalks_mas] de [faction_leader_nameDef]</li>
+    <li>questName->[peaceTalks_neu] con [faction_leader_nameDef]</li>
+    <li>questName->La [peaceTalks_fem]</li>
+	  <li>questName->Las [peaceTalks_pl]</li>
+    <li>questName->[peaceTalks_neu]</li>
+    <li>peaceTalks_mas->Conversaciones de paz</li>
+	  <li>peaceTalks_neu->Conversaciones de paz</li>
+	  <li>peaceTalks_pl->Conversaciones de paz</li>
+    <li>peaceTalks_neu->Diplomacia</li>
+    <li>peaceTalks_neu->Reunión</li>
+	  <li>peaceTalks_fem->Diplomacia</li>
+    <li>peaceTalks_fem->Reunión</li>
+  </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.label.slateRef>TODO</OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.label.slateRef>
+  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>La misión expiró: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
   <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
-  <OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.text.slateRef>TODO</OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>La oferta de conversaciones de paz con la facción [faction_name] ha expirado. Has fallado la misión [resolveQuestName].</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

@@ -4,18 +4,62 @@
   <!-- EN:
     <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.\n\n[allSitePartsDescriptionsExceptFirst]</li>
   -->
-  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>TODO</LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+    <li>questDescription->Usando tu escáner de minerales de largo alcance, [worker_definite] ha encontrado una veta de [targetMineable_label] en las cercanias.\n\nDesafortunadamente, no durará por mucho tiempo - otros lo extraerán primero en [timeoutTicks_duration] si nosotros no lo hacemos antes.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+  </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->[distant] resources</li>
-    <li>questName->[distant] minerals</li>
-    <li>distant->distant</li>
-    <li>distant->far</li>
-    <li>distant->long-range</li>
+    <li>questName->The [subName]</li>
+    <li>questName->[subName]</li>
+    <li>subName->[adj] Resources</li>
+    <li>subName->[adj] Minerals</li>
+    <li>subName->[adj] Ores</li>
+    <li>subName->[adj] Wealth</li>
+    <li>subName->[adj] Mineables</li>
+    <li>subName->[adj] Lump</li>
+    <li>subName->[adj] Mining Project</li>
+    <li>adj->Distant</li>
+    <li>adj->Far</li>
+    <li>adj->Long-Range</li>
+    <li>adj->Unknown</li>
+    <li>adj->Discovered</li>
+    <li>adj->Scanned</li>
+    <li>adj->Detected</li>
+    <li>adj->Found</li>
   -->
-  <LongRangeMineralScannerLump.questNameRules.rulesStrings>TODO</LongRangeMineralScannerLump.questNameRules.rulesStrings>
+  <LongRangeMineralScannerLump.questNameRules.rulesStrings>
+    <li>questName->Los [subName_mas]</li>
+	  <li>questName->Las [subName_fem]</li>
+    <li>questName->[subName_mas]</li>
+	  <li>questName->[subName_fem]</li>
+    <li>subName_mas->Recursos [adj]</li>
+    <li>subName_mas->Minerales [adj]</li>
+    <li>subName_fem->Vetas [adj_fem]</li>
+   	<li>subName_fem->Vetas [adj_neu]</li>
+    <li>subName_fem->Riquezas [adj_fem]</li>
+	  <li>subName_fem->Riquezas [adj_neu]</li>
+    <li>subName_mas->Mineables [adj]</li>
+    <li>subName_mas->terrones [adj]</li>
+    <li>subName_mas->Proyectos Mineros [adj]</li>
+    <li>adj->Distantes</li>
+    <li>adj->Lejanos</li>
+    <li>adj->Remotos</li>
+    <li>adj->Desconocidos</li>
+    <li>adj->Descubiertos</li>
+    <li>adj->Escaneados</li>
+    <li>adj->Detectados</li>
+    <li>adj->Encontrados</li>
+  	<li>adj_fem->Lejanas</li>
+	  <li>adj_fem->Remotas</li>
+    <li>adj_fem->Desconocidas</li>
+    <li>adj_fem->Descubiertas</li>
+    <li>adj_fem->Escaneadas</li>
+    <li>adj_fem->Detectadas</li>
+    <li>adj_fem->Encontradas</li>
+	  <li>adj_neu->Distantes</li>
+  </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>TODO</LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>La misión expiró: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
-  <LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>TODO</LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Otros han extraído la veta de [targetMineable_label]. La misión [resolveQuestName] ha expirado.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
