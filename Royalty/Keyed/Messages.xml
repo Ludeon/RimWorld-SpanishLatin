@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0}. -->
-  <ShuttleBlocked>El transbordador no pudo aterrizar en la plataforma: {0}.</ShuttleBlocked>
+  <ShuttleBlocked>El transbordador no puede aterrizar en la plataforma: {0}.</ShuttleBlocked>
   <!-- EN: blocked by {0_label} -->
-  <BlockedBy>obstaculizado por {0_label}</BlockedBy>
+  <BlockedBy>bloqueado por {0_label}</BlockedBy>
+
+  <!-- EN: Warning: Anima tree has been marked for cutting. -->
+  <MessageWarningCutAnimaTree>Advertencia: el árbol ánima ha sido marcado para ser cortado.</MessageWarningCutAnimaTree>
 
 </LanguageData>

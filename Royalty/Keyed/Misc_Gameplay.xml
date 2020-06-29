@@ -12,44 +12,108 @@
   <ThroneRoomImpressivenessInfo>({0} sensación)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>El trono debe colocarse en el interior.</ThroneMustBePlacedInside>
-  <!-- EN: Throne room contains more than one throne, but this is only allowed for married couples. -->
-  <ThroneRoomHasMoreThan1Throne>La sala del trono tiene más de un trono. Sin embargo, esto solo está permitido para parejas casadas.</ThroneRoomHasMoreThan1Throne>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
-  <MinimumRoyalTitleInspectString>Título mínimo ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <MinimumRoyalTitleInspectString>Título mínimo de la facción ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
   <RequiresTradePermission>Se requieren títulos para comerciar: {0}</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
-  <RequirementPersonalBedroom>Dormitorio personal (Partner erlaubt)</RequirementPersonalBedroom>
+  <RequirementPersonalBedroom>Dormitorio personal (pareja permitida)</RequirementPersonalBedroom>
   
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>Entrenador psíquico ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use neurotrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>Usa el Neuro-entrenador para aprender el PsyCast {0} .</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>Usa el neuroentrenador para aprender la psico-emisión {0} .</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Una dosis de nanitos, que enseñan un PsyCast especial. \n\nLa dosis se administra a través del ojo. Una vez que están en el cerebro del usuario, inmediatamente mejoran sus habilidades en el área especificada y se transforman en un tejido nervioso.</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Una dosis de mecanitas, que enseñan una especifica psico-emisión.\n\nLa dosis se administrada a través de la cornea del ojo. Una vez que están en el cerebro del usuario, inmediatamente mejoran sus habilidades en el área especificada y se transforman en un tejido nervioso.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} Usa el Neuro-entrenador para aprender el PsyCast {1} .</AbilityNeurotrainerUsed>
-  <!-- EN: {USER_labelShort} has reached psychic amplifer level {1} and has automatically learned this psycast: {2}. -->
-  <PsycastLearnedFromImplant>{USER_labelShort} ha alcanzado el nivel para el amplificador psíquico {1} y aprendió automáticamente el siguiente PsyCast: {2}.</PsycastLearnedFromImplant>
-  <!-- EN: Requires psychic amplifier -->
-  <PsycastNeurotrainerNoPsychicAmplifier>Requiere potenciador psíquico</PsycastNeurotrainerNoPsychicAmplifier>
+  <AbilityNeurotrainerUsed>{USER_labelShort} Usó el neuro-entrenador para aprender la psico-emisión {1} .</AbilityNeurotrainerUsed>
+  <!-- EN: Requires psylink -->
+  <PsycastNeurotrainerNoPsylink>Requiere enlace psíquico</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
-  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} ya ha aprendido {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
+  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} ya conoce {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
 
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor>Quien acepte la misión recibirá, {1} {0_royalFavorLabel} de la facción '{0_name}'</Reward_RoyalFavor>
+  <Reward_RoyalFavor>Quien acepte la misión recibirá, {1} {0_royalFavorLabel} de {0_name}</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor_ChoosePawn>Puedes elegir a uno de los participantes {2} para recibir {1} {0_royalFavorLabel} de la facción '{0_name}'</Reward_RoyalFavor_ChoosePawn>
-
+  <Reward_RoyalFavor_ChoosePawn>Puede elegir uno de los participantes {2} para recibir {1} {0_royalFavorLabel} de {0_name} </Reward_RoyalFavor_ChoosePawn>
+  
   <!-- Ship landing beacons -->
   <!-- EN: Not usable -->
-  <NotUsable>No es utilizable</NotUsable>
+  <NotUsable>No utilizable</NotUsable>
   <!-- EN: unpowered -->
-  <Unpowered>Desconectado</Unpowered>
+  <Unpowered>sin energía</Unpowered>
   <!-- EN: blocked by roof -->
-  <BlockedByRoof>bloqueado a causa del techo</BlockedByRoof>
+  <BlockedByRoof>bloqueado por techo</BlockedByRoof>
   <!-- EN: Too close to other beacon -->
-  <TooCloseToOtherBeacon>Demasiado cerca de otro faro</TooCloseToOtherBeacon>
+  <TooCloseToOtherBeacon>Demasiado cerca de otra baliza</TooCloseToOtherBeacon>
+  
+  <!-- Meditation -->
 
+  <!-- EN: Psyfocus -->
+  <Psyfocus>Psícofoco</Psyfocus>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
+  <PsyfocusDesc>El Psícofoco es un tipo especial de estructuración mental que es necesario para realizar una psíco-emisión. El psícofoco se disipa con el tiempo y debe construirse mediante la meditación regular. Perder todo el psícofoco hace que alguien sea incapaz de realizar psíco-emisiones, pero no tiene otras consecuencias.\n\nNiveles más altos de psícofoco permiten psíco-emsiones de nivel superior, pero también aumentan la tasa de disipación del psícofoco.</PsyfocusDesc>
+  <!-- EN: {0}-{1}% -->
+  <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
+  <!-- EN: Up to level {0} psycasts. -->
+  <PsyfocusLevelInfoPsycasts>Hasta el nivel {0} de psíco-emisión</PsyfocusLevelInfoPsycasts>
+  <!-- EN: Psyfocus falls at {0} per day. -->
+  <PsyfocusLevelInfoFallRate>El psícofoco decrece en {0} diariamente</PsyfocusLevelInfoFallRate>
+  <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
+  <UserMeditationFocusStrength>Metitación enfoque de fuerza para {LASTUSER_labelShort} </UserMeditationFocusStrength>
+  <!-- EN: Focus effect impacted by -->
+  <MeditationFocusImpacted>Efecto de enfoque afectado por</MeditationFocusImpacted>
+  <!-- EN: Psyfocus gain rate: {0}/d -->
+  <PsyfocusPerDayOfMeditation>Tasa de ganancia de Psícofoco: {0}/d</PsyfocusPerDayOfMeditation>
+  <!-- EN: Desired psyfocus -->
+  <DesiredPsyfocus>Psícofoco deseado</DesiredPsyfocus>
+  <!-- EN: Click to set desired psyfocus. -->
+  <DesiredPsyfocusDesc>Haga clic para establecer el psícofoco deseado.</DesiredPsyfocusDesc>
+
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>Debe ser preparado</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>habilidad en tiempo de reutilización. Estará disponible en {0}.</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>habilidad ya en cola.</AbilityAlreadyQueued>
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>No hay calor para descargar.</AbilityNoEntropyToDump>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>Habilidad lista: {0}</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef} está list{0_gender ? o : a} para usar {1}.</AbilityReadyText>
+  
+  <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
+  <AbilitySpeechTooltip>Iniciar un discurso desde el trono. {ORGANIZER_labelShort} se dirigirá hasta su trono y llamará a todos los colonos para que le escuchen allí. Si todo marcha bien, los oyentes se sentirán inspirados, y ganarán respeto por {ORGANIZER_labelShort}. Si sale mal, el discurso infligirá daño social. El resultado depende de la habilidad social de {ORGANIZER_labelShort}.</AbilitySpeechTooltip>
+  <!-- EN: no throne assigned. -->
+  <AbilitySpeechDisabledNoThroneAssigned>No hay trono asignado.</AbilitySpeechDisabledNoThroneAssigned>
+  <!-- EN: throne is not accessible. -->
+  <AbilitySpeechDisabledNoThroneIsNotAccessible>El trono no es accesible.</AbilitySpeechDisabledNoThroneIsNotAccessible>
+  <!-- EN: throne not usable because it is undignified. -->
+  <AbilitySpeechDisabledNoThroneUndignified>trono no utilizable porque es indigno.</AbilitySpeechDisabledNoThroneUndignified>
+  <!-- EN: already giving a speech. -->
+  <AbilitySpeechDisabledAlreadyGivingSpeech>Ya está dando un discurso.</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>Siguiente discurso listo en</AbilitySpeechCooldown>
+  <!-- EN: Outcome chances -->
+  <AbilitySpeechPossibleOutcomes>Probabilidad del resultado</AbilitySpeechPossibleOutcomes>
+  <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
+  <AbilitySpeechStatInfo>estadística {1} de {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
+
+  <!-- EN: Progress to next {0}: {1} -->
+  <ProgressToNextSubplant>Progreso hasta el siguiente {0}: {1}</ProgressToNextSubplant>
+  <!-- EN: Begin linking ritual -->
+  <BeginLinkingRitualFloatMenu>Comenzar ritual de vinculación</BeginLinkingRitualFloatMenu>
+  <!-- EN: Need {0} {1} here (have {2}) -->
+  <BeginLinkingRitualNeedSubplants>Necesita {0} de {1} (tienes {2})</BeginLinkingRitualNeedSubplants>
+  <!-- EN: Need {0} pyslink focus -->
+  <BeginLinkingRitualNeedFocus>Se requiere {0} de psícofoco</BeginLinkingRitualNeedFocus>
+  <!-- EN: Need a free, reachable spot within 3 cells for linking -->
+  <BeginLinkingRitualNeedLinkSpot>Se requiere un punto libre y accesible a 3 casillas para el ritual</BeginLinkingRitualNeedLinkSpot>
+  <!-- EN: Linking ritual completed -->
+  <LetterLabelLinkingRitualCompleted>Ritual de vinculación completado</LetterLabelLinkingRitualCompleted>
+  <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psycasts. -->
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} ha completado el ritual de vinculación con {LINKABLE_labelShort}.\n\nSu nivel de enlace psíquico ha mejorado, permitiendo el uso de nuevas psíco-emisiones.</LetterTextLinkingRitualCompleted>
 </LanguageData>

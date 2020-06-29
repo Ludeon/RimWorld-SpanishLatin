@@ -3,36 +3,55 @@
 
   <!-- Room requirements -->
   <!-- EN: Need throneroom -->
-  <NeedThroneAssigned>Requiere sala del trono</NeedThroneAssigned>
-  <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nBuild a throne in a room, then assign the throne to the title holder. The throneroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
-  <NeedThroneAssignedDesc>Uno de los tuyos tiene un título de la nobleza, y necesita una sala del trono, sin embargo no tiene una asignada.\n\nConstruye un trono en una habitación a continuación, asigna el trono al posedor del título. La sala del trono debe ser grande y digna, para cumplir los requisitos del título.</NeedThroneAssignedDesc>
+  <NeedThroneAssigned>Requiere salón del trono</NeedThroneAssigned>
+  <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nEnsure the title holder is assigned a throne inside a throneroom.\n\nThe throneroom should be appropriately sized and decorated to satisfy the title's specific requirements.\n\nMultiple thrones may be placed in one throneroom. -->
+  <NeedThroneAssignedDesc>Uno de los tuyos tiene un título de la nobleza, y necesita un salón del trono, sin embargo no tiene una asignada.\n\nConstruye un trono en una habitación a continuación, asigna el trono al posedor del título. El salón del trono debe ser grande y digna, para cumplir los requisitos del título.</NeedThroneAssignedDesc>
 
   <!-- EN: Undignified bedroom -->
   <UndignifiedBedroom>Dormitorio indigno</UndignifiedBedroom>
   <!-- EN: One of your people has a royal title that requires a bedroom with specific features. Either no bedroom is assigned, or the assigned bedroom doesn't satisfy the requirements. -->
-  <UndignifiedBedroomDesc>Uno de los tuyos tiene un título de la nobleza, que requiere una habitación con requisitos especiales. O no tiene un dormitorio asignado, O la habitación asignada es indigna para el título que tiene.</UndignifiedBedroomDesc>
+  <UndignifiedBedroomDesc>Uno de los tuyos tiene un titulo de la nobleza, que requiere una habitación con requisitos especiales. O no tiene un dormitorio asignado, O la habitación asignada es indigna para el título que tiene.</UndignifiedBedroomDesc>
 
   <!-- EN: Title requires bedroom -->
-  <NeedBedroomAssigned>El título requiere un dormitorio</NeedBedroomAssigned>
+  <NeedBedroomAssigned>La nobleza requiere de un dormitorio</NeedBedroomAssigned>
   <!-- EN: One of your people has a royal title that requires a personal bedroom, but no bedroom is assigned.\n\nAssign them a personal bedroom. The bedroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
   <NeedBedroomAssignedDesc>Uno de los tuyos tiene un título de la nobleza, eso requiere un dormitorio separado del resto, pero no tiene uno asignado.\n\nDebes asignar una habitación personal. El dormitorio debe ser razonablemente grande y estar decorado de acuerdo a los requisitos del título.</NeedBedroomAssignedDesc>
 
   <!-- EN: Undignified throneroom -->
-  <UndignifiedThroneroom>Salón del trono indigno</UndignifiedThroneroom>
+  <UndignifiedThroneroom>Salón del trono idigno</UndignifiedThroneroom>
   <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
-  <UndignifiedThroneroomDesc>Uno de los tuyos tiene un título de nobleza y un trono, pero el salón del trono no cumple con los requisitos del título.</UndignifiedThroneroomDesc>
+  <UndignifiedThroneroomDesc>Uno de los tuyos tiene un título real y un trono, pero el salón del trono no cumple con los requisitos del título.</UndignifiedThroneroomDesc>
   
   <!-- EN: No acceptable food -->
-  <RoyalNoAcceptableFood>Comida indigna</RoyalNoAcceptableFood>
+  <RoyalNoAcceptableFood>Comida idigna</RoyalNoAcceptableFood>
   <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
   <RoyalNoAcceptableFoodDesc>Uno de los tuyos tiene un título noble con requisitos alimenticios especiales. sin embargo no hay comida disponible, que cumpla estos requisitos.</RoyalNoAcceptableFoodDesc>
 
   <!-- EN: {0} days until requirement begins -->
-  <RoomRequirementGracePeriodDesc>{0} Días, hasta que comience la necesidad</RoomRequirementGracePeriodDesc>
+  <RoomRequirementGracePeriodDesc>{0} días, hasta que comience los requisitos</RoomRequirementGracePeriodDesc>
 
   <!-- EN: Throne not usable -->
-  <ThroneroomInvalidConfiguration>Trono inutulizable</ThroneroomInvalidConfiguration>
+  <ThroneroomInvalidConfiguration>Trono inutilizable</ThroneroomInvalidConfiguration>
   <!-- EN: A throne is not usable because of how it is set up: -->
   <ThroneroomInvalidConfigurationDesc>Un trono se ha construido, de tal forma que no se puede usar:</ThroneroomInvalidConfigurationDesc>
   
+  <!-- EN: Monument missing blueprints -->
+  <MonumentMarkerMissingBlueprints>Planos de monumento faltante</MonumentMarkerMissingBlueprints>
+  <!-- EN: The monument won't be completed because blueprints have not been placed for all its parts.\n\nSelect the monument marker and click "Place blueprints", or place the blueprints manually. -->
+  <MonumentMarkerMissingBlueprintsDesc>El monumento no estará completo porque los planos no se han colocado para todas las partes.\n\nSeleccione el marcador de monumento y cliquea "Colocar Planos", o coloca los planos manualmente.</MonumentMarkerMissingBlueprintsDesc>
+
+  <!-- EN: Beacon unusable -->
+  <ShipLandingBeaconUnusable>Baliza inutilizable</ShipLandingBeaconUnusable>
+  <!-- EN: A ship landing beacon is powered but can’t be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
+  <ShipLandingBeaconUnusableDesc>Una baliza de aterrizaje para naves está conectada y activa pero no puede ser utilizada. Para ser utilizada, cuatro de éstas deben colocarse en las esquinas de un cuadrado de al menos 9 casillas de distancia entre ellas, y el área de ese cuadrado debe estar limpia de obstrucciones incluyendo construcciones, colonos y animales.</ShipLandingBeaconUnusableDesc>
+
+  <!-- EN: Need meditation spot -->
+  <NeedMeditationSpotAlert>Necesita un lugar de meditación</NeedMeditationSpotAlert>
+  <!-- EN: These colonists have a psyfocus need, but don't have any meditation spots available for them.\n\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. -->
+  <NeedMeditationSpotAlertDesc>Estos colonos tienen una necesidad de psícofoco, pero no tienen lugares de meditación disponibles para ellos.\n\n{0}\n\nColoque un lugar de meditación y asegúrese de que sea accesible y utilizable. Los colonos preferirán el lugar de meditación cerca del mejor objeto de enfoque que puedan usar.</NeedMeditationSpotAlertDesc>
+
+  <!-- EN: Unusable meditation focus -->
+  <UnusableMeditationFocusAlert>Enfoque de meditación inutilizable</UnusableMeditationFocusAlert>
+  <!-- EN: These colonists are meditating near a focus object they can't use.\n\n{0}\n\nEach person can meditate to different objects, depending on their meditation focus types. A person's focus types depend on their backstories, traits, and titles. To see a person's meditation focus types, look at their details window by selecting them and clicking the 'i' button. -->
+  <UnusableMeditationFocusAlertDesc>Estos colonos están meditando cerca de un objeto de enfoque que no pueden usar.\n\n{0}\n\nCada persona puede meditar a diferentes objetos, dependiendo de sus tipos de enfoque de meditación. Los tipos de enfoque de una persona dependen de sus antecedentes, rasgos y títulos. Para ver los tipos de enfoque de meditación de una persona, mire su ventana de detalles seleccionándolos y haciendo clic en el botón 'i'.</UnusableMeditationFocusAlertDesc>
 </LanguageData>

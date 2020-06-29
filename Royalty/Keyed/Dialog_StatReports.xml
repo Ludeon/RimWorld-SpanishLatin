@@ -3,17 +3,19 @@
   
   <!-- EN: Minimum title ({FACTION_name}) -->
   <Stat_Thing_MinimumRoyalTitle_Name>Título mínimo ({FACTION_name})</Stat_Thing_MinimumRoyalTitle_Name>
-  <!-- EN: {FACTION_name} has laws which limit the use of this implant to those with specific titles. Having the implant is undetectable, but if you use it, there is a chance they will detect the psychic emissions. Diplomatic consequences will follow, and repeated violations will lead to hostility.\n\nA psychic silencer implant would make such uses undetectable. -->
-  <Stat_Thing_MinimumRoyalTitle_Desc>{FACTION_name} tiene leyes que limitan el uso de este implante a aquellos que no tengan los títulos especificados. Tener este implante es indetectable, pero si se usa existe la posibilidad que detecten las emisiones psíquicas. Esto implicaría consecuencias diplomáticas, las repetidas violaciones llevaran a la hostilidad.\n\nUn "Silenciador psíquico" haría indetectables esos usos.</Stat_Thing_MinimumRoyalTitle_Desc>
+  <!-- EN: {FACTION_name} has laws which limit the use of this implant to those with specific titles. Simply having the implant installed is undetectable, but if you use it, there is a chance they will detect the psychic emissions. This will cause diplomatic consequences. -->
+  <Stat_Thing_MinimumRoyalTitle_Desc>La facción {FACTION_name} tiene leyes, que obliga a que solo titulares especiales usen este implante. El implante en sí no puede ser detectado, pero si lo usa existe la posibilidad, que las emisiones psíquicas esten registradas. Esto implicaría consecuencias diplomáticas y los reincidentes serán severamente castigados.\n\nEl implante de un 'silenciador psíquico' suprimiría éstas emisiones.</Stat_Thing_MinimumRoyalTitle_Desc>
+  <!-- EN: {FACTION_name} has laws which limit the use of this weapon to those with specific titles. Each time you attack with the weapon, there is a chance they will detect the psychic emissions. This will cause diplomatic consequences. -->
+  <Stat_Thing_Weapon_MinimumRoyalTitle_Desc>La facción {FACTION_name} posee leyes que limitan el uso de esta arma a aquellos con un título específico. Cada vez que atacas con esta arma, existe una posibilidad que se detecten sus emisiones psíquicas. Esto conlleva a repercusiones diplomáticas.\n\nUn implante de silenciador psíquico podría hacer que su uso sea indetectable.</Stat_Thing_Weapon_MinimumRoyalTitle_Desc>
   <!-- EN: Each upgrade level of this implant requires a specific title in {FACTION_name} to be used legally. -->
-  <Stat_Thing_MinimumRoyalTitle_ImplantWithLevel_Desc>Cada nivel de actualización de este implante requiere un título específico en {FACTION_name} para ser utilizado legalmente.</Stat_Thing_MinimumRoyalTitle_ImplantWithLevel_Desc>
+  <Stat_Thing_MinimumRoyalTitle_ImplantWithLevel_Desc>Cada nivel de actualización de este implante requiere un título correspondiente en la facción {FACTION_name} para ser utilizado legalmente.</Stat_Thing_MinimumRoyalTitle_ImplantWithLevel_Desc>
   <!-- EN: Max satisfied title -->
   <Stat_Thing_Apparel_MaxSatisfiedTitle>Máximo título satisfecho</Stat_Thing_Apparel_MaxSatisfiedTitle>
   <!-- EN: Highest royal title whose apparel requirements are satisfied by this. -->
-  <Stat_Thing_Apparel_MaxSatisfiedTitle_Desc>El título real más alto, cuyo deseo de vestimenta queda satisfecho.</Stat_Thing_Apparel_MaxSatisfiedTitle_Desc>
+  <Stat_Thing_Apparel_MaxSatisfiedTitle_Desc>El título de la realeza más alto, cuyo deseo de vestimenta queda satisfecho.</Stat_Thing_Apparel_MaxSatisfiedTitle_Desc>
   <!-- EN: Max satisfied title -->
-  <Stat_Thing_Ingestible_MaxSatisfiedTitle>Maximo título satisfecho</Stat_Thing_Ingestible_MaxSatisfiedTitle>
+  <Stat_Thing_Ingestible_MaxSatisfiedTitle>Máximo título satisfecho</Stat_Thing_Ingestible_MaxSatisfiedTitle>
   <!-- EN: The highest royal title whose food requirements are satisfied by this. -->
-  <Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc>El título real más alto, cuyo deseo de comer queda satisfecho.</Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc>
+  <Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc>El título de la realeza más alto, cuyo deseo de comer queda satisfecho.</Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc>
   
 </LanguageData>
