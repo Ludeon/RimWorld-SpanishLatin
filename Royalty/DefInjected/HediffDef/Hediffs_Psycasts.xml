@@ -1,66 +1,72 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- EN: psychic entropy -->
-  <PsychicEntropy.label>entropía psíquica</PsychicEntropy.label>
-  <!-- EN: Chaotic psychic energy built up in the mind. Entropy falls over time. After it clears, it leaves a psychic hangover for several days. If psychic entropy becomes very high, it can cause psychosis, long-term psychic breakdown, destruction of psychic amplifiers, and even brain damage. -->
-  <PsychicEntropy.description>Energía psíquica caótica creada en la mente. La entropía baja con el tiempo. Después de disolverse, deja una resaca de varios días. Cuando la entropía psíquica alcanza un nivel particularmente alto, puede producir psicosis, continuos colapsos psíquicos, destrucción de amplificadores psíquicos e incluso daño cerebral.</PsychicEntropy.description>
-  <!-- EN: safe -->
-  <PsychicEntropy.stages.safe.label>segura</PsychicEntropy.stages.safe.label>
-  <!-- EN: overloaded -->
-  <PsychicEntropy.stages.overloaded.label>sobrecargada</PsychicEntropy.stages.overloaded.label>
-  <!-- EN: hyperloaded -->
-  <PsychicEntropy.stages.hyperloaded.label>hipercargada</PsychicEntropy.stages.hyperloaded.label>
-  <!-- EN: brain charring -->
-  <PsychicEntropy.stages.brain_charring.label>carbonización cerebral</PsychicEntropy.stages.brain_charring.label>
-  <!-- EN: brain roasting -->
-  <PsychicEntropy.stages.brain_roasting.label>derretimiento cerebral</PsychicEntropy.stages.brain_roasting.label>
-
-  <!-- EN: psychic breakdown -->
-  <PsychicBreakdown.label>colapso psíquico</PsychicBreakdown.label>
-  <!-- EN: Long-term psychic destabilization of the mind, usually caused by excessive psychic entropy. Even when the entropy clears, the breakdown can last for many days, causing mental disturbances of various kinds. -->
-  <PsychicBreakdown.description>Una constante desestabilización psíquica de la mente, normalmente causada por una excesiva entropía psíquica. Incluso si la entropía se disuelve, el colapso puede durar varios días más, causando una confusión mental de cualquier tipo.</PsychicBreakdown.description>
-  <!-- EN: minor -->
-  <PsychicBreakdown.stages.minor.label>leve</PsychicBreakdown.stages.minor.label>
-  <!-- EN: major -->
-  <PsychicBreakdown.stages.major.label>fuerte</PsychicBreakdown.stages.major.label>
-  <!-- EN: total -->
-  <PsychicBreakdown.stages.total.label>total</PsychicBreakdown.stages.total.label>
-
+  
+  <!-- EN: entropy link -->
+  <EntropyLink.label>enlace de entropía</EntropyLink.label>
+  <!-- EN: A psychic link with another individual. Gain or loss of neural heat incurred by one will be shared equally between both. -->
+  <EntropyLink.description>Una conexión psíquica con otra persona. El aumento y la caída de la calor neuronal de una persona se reparte de manera uniforme entre ambas.</EntropyLink.description>
+  
+  <!-- EN: psylink -->
+  <PsychicAmplifier.label>enlace psíquico</PsychicAmplifier.label>
+  <!-- EN: An organic connection to a larger psychic field. This allows a person to use specific psycasts that they have learned to influence reality in ways that seem impossible.\n\nHigher levels of psylink permit the use of more powerful psycasts. Regardless of psylink level, a person can only use specific psycasts that they have learned.\n\nPsylink comes from a variety of sources. Single-use psylink neuroformer devices can create a psylink. Tribal peoples also know how to develop it through ritual linking with psychically-connected lifeforms.\n\nAs a physical phenomenon in the brain, psylink is poorly-understood by scientists, not least because it seems to actively conceal itself if studied too closely. One thing most agree on is that it somehow connects people to archotechs and harnesses their power, possibly through some sort of negotiation or sympathy mechanism. -->
+  <PsychicAmplifier.description>Una conexión orgánica con un campo psíquico más amplio. Esto permite que una persona use psico-emiciones específicas que han aprendido a influir en la realidad de formas que parecen imposibles.\n\nNiveles más altos de enlace psíquico permiten el uso de psico-emiciones más potentes. Independientemente del nivel de enlace psíquico, una persona solo puede usar psico-emiciones específicas que haya aprendido.\n\nEl enlace psíquico proviene de una gran variedad de fuentes. Los dispositivos neuroformadores de enlace psíquico de un solo uso, pueden crear un enlace psíquico. Los pueblos tribales también saben cómo desarrollarlo a través de la rituales de vinculación a través de formas de vida conectadas psíquicamente.\n\nComo un fenómeno físico en el cerebro, los científicos no comprenden muy bien el enlace psíquico, sobre todo porque parece ocultarse activamente si se estudia muy de cerca. Una cosa en la que la mayoría está de acuerdo es que de alguna manera conecta a las personas con la arcotecnología y aprovecha su poder, posiblemente a través de algún tipo de mecanismo de negociación o simpatía.</PsychicAmplifier.description>
+  <PsychicAmplifier.labelNoun>enlace psíquico</PsychicAmplifier.labelNoun>
+  
   <!-- EN: psychic anesthesia -->
   <PsychicAnesthesia.label>insensibilidad psíquica</PsychicAnesthesia.label>
   <!-- EN: Psychically-induced pain insensitivity. -->
   <PsychicAnesthesia.description>insensibilidad al dolor inducida psíquicamente</PsychicAnesthesia.description>
-
-  <!-- EN: psychic burden -->
-  <PsychicBurden.label>carga psíquica</PsychicBurden.label>
-  <!-- EN: Psychically-induced difficulty in locomotion. -->
-  <PsychicBurden.description>Dificultad del movimiento psicoinducido.</PsychicBurden.description>
-
+  
   <!-- EN: psychic blindness -->
   <PsychicBlindness.label>ceguera psíquica</PsychicBlindness.label>
   <!-- EN: Psychically-induced partial blindness. -->
   <PsychicBlindness.description>ceguera parcial inducida psíquicamente.</PsychicBlindness.description>
-
+  
+  <!-- EN: psychic breakdown -->
+  <PsychicBreakdown.label>colapso psíquico</PsychicBreakdown.label>
+  <!-- EN: Deep psychic destabilization of the mind. Psychic breakdown last for days, causing mental disturbances of various kinds. It resolves itself with time. -->
+  <PsychicBreakdown.description>Una profunda desestabilización psíquica de la mente. El colapso psíquico dura días, causando trastornos mentales de diversos tipos. Se resuelve con el tiempo.</PsychicBreakdown.description>
+  <!-- EN: minor -->
+  <PsychicBreakdown.stages.minor.label>leve</PsychicBreakdown.stages.minor.label>
+  <!-- EN: major -->
+  <PsychicBreakdown.stages.major.label>grave</PsychicBreakdown.stages.major.label>
+  <!-- EN: total -->
+  <PsychicBreakdown.stages.total.label>total</PsychicBreakdown.stages.total.label>
+  
+  <!-- EN: psychic burden -->
+  <PsychicBurden.label>carga psíquica</PsychicBurden.label>
+  <!-- EN: Psychically-induced difficulty in locomotion. -->
+  <PsychicBurden.description>Dificultad del movimiento psicoinducido.</PsychicBurden.description>
+  
+  <!-- EN: neural heat -->
+  <PsychicEntropy.label>calor neuronal</PsychicEntropy.label>
+  <!-- EN: Despite being called "heat", neural heat is not a measure of temperature. It refers to a type of chaotic psychic energy in the mind which is built up when using psycasts and dissipates over the course of a few seconds or minutes.\n\nIf neural heat is pushed past normal limits, it may cause temporary psychic breakdown, psylink degradation and finally unconsciousness due to psychic shock. None of these conditions cause permanent damage, but they can knock someone unconscious for days. -->
+  <PsychicEntropy.description>A pesar de ser llamado "calor", el calor neuronal no es una medida de temperatura. Se refiere a un tipo de energía psíquica caótica en la mente que se acumula cuando se usan psico-emisiones y se disipa en el transcurso de unos segundos o minutos.\n\nSi el calor neuronal supera los límites normales, puede causar un colapso psíquico temporal, degradación de la vinculación psíquica y finalmente inconsciencia debido al shock psíquico. Ninguna de estas condiciones causa daños permanentes, pero pueden dejar a alguien inconsciente durante días.</PsychicEntropy.description>
+  <!-- EN: safe -->
+  <PsychicEntropy.stages.safe.label>seguro</PsychicEntropy.stages.safe.label>
+  <!-- EN: overloaded -->
+  <PsychicEntropy.stages.overloaded.label>sobrecargado</PsychicEntropy.stages.overloaded.label>
+  <!-- EN: very overloaded -->
+  <PsychicEntropy.stages.very_overloaded.label>muy sobrecargado</PsychicEntropy.stages.very_overloaded.label>
+  <!-- EN: extreme -->
+  <PsychicEntropy.stages.extreme.label>extremo</PsychicEntropy.stages.extreme.label>
+  <!-- EN: overwhelming -->
+  <PsychicEntropy.stages.overwhelming.label>abrumador</PsychicEntropy.stages.overwhelming.label>
+  
+   
+  <!-- EN: psychic focus -->
+  <PsychicFocus.label>enfoque psíquico</PsychicFocus.label>
+  <!-- EN: Psychically-induced mental focus, increasing sight, hearing and movement capactities. -->
+  <PsychicFocus.description>Concentración mental inducida psíquicamente, aumentando las capacidades de vista, audición y movimiento.</PsychicFocus.description>
+  
+  <!-- EN: psychic invisibility -->
+  <PsychicInvisibility.label>invisibilidad psíquica</PsychicInvisibility.label>
+  <!-- EN: Psychically-induced invisibility. This actually affects others nearby, making their brains unable to perceive the sight of this individual, even if the eyes are unaffected. -->
+  <PsychicInvisibility.description>Invisibilidad psíquica inducida. En realidad, esto afecta a otras personas cercanas, lo que hace que sus cerebros no puedan percibir con su vista de este individuo, incluso si los ojos no se ven afectados.</PsychicInvisibility.description>
+  
   <!-- EN: psychic vertigo -->
   <PsychicVertigo.label>mareo mental</PsychicVertigo.label>
   <!-- EN: Psychically-induced loss of spatial orientation. This will cause flesh creatures to vomit. -->
   <PsychicVertigo.description>pérdida de orientación espacial inducida psíquicamente. Esto hará que las criaturas orgánicas vomiten.</PsychicVertigo.description>
-
-  <!-- EN: psychic focus -->
-  <PsychicFocus.label>foco psíquico</PsychicFocus.label>
-  <!-- EN: Psychically-induced mental focus, increasing sight, hearing and movement capactities. -->
-  <PsychicFocus.description>Concentración mental inducida psíquicamente, aumentando las capacidades de vista, audición y movimiento.</PsychicFocus.description>
-
-  <!-- EN: psychic invisibility -->
-  <PsychicInvisibility.label>invisibilidad psíquica</PsychicInvisibility.label>
-  <!-- EN: Psychically-induced invisibility. This actually affects others nearby, making their brains unable to percieve the sight of this individual, even if the eyes are unaffected. -->
-  <PsychicInvisibility.description>Invisibilidad psíquica inducida. En realidad, esto afecta a otras personas cercanas, lo que hace que sus cerebros no puedan percibir con su vista de este individuo, incluso si los ojos no se ven afectados.</PsychicInvisibility.description>
-
-  <!-- EN: entropy link -->
-  <EntropyLink.label>enlace de entropía</EntropyLink.label>
-  <!-- EN: A psychic link with another individual. Gain or loss of psychic entropy incurred by one will be shared equally between both. -->
-  <EntropyLink.description>Una conexión psíquica con otra persona. El aumento y la caída de la entropía mental de una persona se reparte de manera uniforme entre ambas.</EntropyLink.description>
-
-
+  
 </LanguageData>
