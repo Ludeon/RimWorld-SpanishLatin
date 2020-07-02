@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>ganancia de psícofoco de la meditación</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>La cantidad de psicofoco que una persona gana por día de meditación, ignorando las bonificaciones de los objetos de enfoque.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0} / día</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0} / día</MeditationFocusGain.formatStringUnfinalized>
+  
+  <!-- EN: neural heat gain -->
+  <PsychicEntropyGain.label>ganancia de entropía psíquica</PsychicEntropyGain.label>
+  <!-- EN: A multiplier on neural heat gained from any source. -->
+  <PsychicEntropyGain.description>Un multiplicador de la entropía psíquica obtenida de cualquier fuente.</PsychicEntropyGain.description>
+  
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>límite de entropía psíquica</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>La cantidad máxima de entropía psíquica que el individuo puede tolerar con seguridad.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>tasa de recuperación de entropía psíquica</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>La velocidad a la que esta persona reduce la entropía psíquica.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/30s</PsychicEntropyRecoveryRate.formatString>
+  
+</LanguageData>
