@@ -2,56 +2,56 @@
 <LanguageData>
   
   <!-- EN: auto-mortar -->
-  <Artillery_AutoMortar.label>artillería-automática</Artillery_AutoMortar.label>
+  <Artillery_AutoMortar.label>mortero automático</Artillery_AutoMortar.label>
   <!-- EN: auto-mortar -->
-  <Artillery_AutoMortar.verbs.Verb_Shoot.label>artillería-automática</Artillery_AutoMortar.verbs.Verb_Shoot.label>
+  <Artillery_AutoMortar.verbs.Verb_Shoot.label>mortero automático</Artillery_AutoMortar.verbs.Verb_Shoot.label>
   
   <!-- EN: mini-slug -->
-  <Bullet_MiniSlug.label>Mini pelota</Bullet_MiniSlug.label>
+  <Bullet_MiniSlug.label>mini-proyectil</Bullet_MiniSlug.label>
   
-  <!-- EN: heavy charge blaster -->
-  <Gun_ChargeBlasterHeavyTurret.label>Arma de energía pesada</Gun_ChargeBlasterHeavyTurret.label>
-  <!-- EN: A pulse-charged rapid-fire blaster for area suppressive fire. -->
-  <Gun_ChargeBlasterHeavyTurret.description>Un rifle de fuego rápido impulsivo para fuego de supresión en el área objetivo.</Gun_ChargeBlasterHeavyTurret.description>
+  <!-- EN: light charge blaster -->
+  <Gun_ChargeBlasterHeavyTurret.label>bláster de energía ligero</Gun_ChargeBlasterHeavyTurret.label>
+  <!-- EN: A pulse-charged rapid-fire blaster for area fire. -->
+  <Gun_ChargeBlasterHeavyTurret.description>Un bláster de fuego rápido con cargas de pulso para disparos en área.</Gun_ChargeBlasterHeavyTurret.description>
   <!-- EN: barrel -->
-  <Gun_ChargeBlasterHeavyTurret.tools.barrel.label>Correr</Gun_ChargeBlasterHeavyTurret.tools.barrel.label>
-  <!-- EN: heavy charge blaster -->
-  <Gun_ChargeBlasterHeavyTurret.verbs.Verb_Shoot.label>Arma de energía pesada</Gun_ChargeBlasterHeavyTurret.verbs.Verb_Shoot.label>
+  <Gun_ChargeBlasterHeavyTurret.tools.barrel.label>barril</Gun_ChargeBlasterHeavyTurret.tools.barrel.label>
+  <!-- EN: light charge blaster -->
+  <Gun_ChargeBlasterHeavyTurret.verbs.Verb_Shoot.label>bláster de energía ligero</Gun_ChargeBlasterHeavyTurret.verbs.Verb_Shoot.label>
   
   <!-- EN: inferno cannon -->
-  <Gun_InfernoCannonTurret.label>Cañon Infernal</Gun_InfernoCannonTurret.label>
+  <Gun_InfernoCannonTurret.label>cañon infernal</Gun_InfernoCannonTurret.label>
   <!-- EN: An incendiary-shot mini-artillery device. It fires a large incendiary warhead. -->
-  <Gun_InfernoCannonTurret.description>Una pequeña pieza de artillería que dispara grandes ojivas Incendiarias.</Gun_InfernoCannonTurret.description>
+  <Gun_InfernoCannonTurret.description>Una pequeña pieza de artillería que dispara grandes ojivas incendiarias.</Gun_InfernoCannonTurret.description>
   <!-- EN: barrel -->
-  <Gun_InfernoCannonTurret.tools.barrel.label>Correr</Gun_InfernoCannonTurret.tools.barrel.label>
+  <Gun_InfernoCannonTurret.tools.barrel.label>barril</Gun_InfernoCannonTurret.tools.barrel.label>
   <!-- EN: inferno cannon -->
-  <Gun_InfernoCannonTurret.verbs.Verb_Shoot.label>Cañon Infernal</Gun_InfernoCannonTurret.verbs.Verb_Shoot.label>
+  <Gun_InfernoCannonTurret.verbs.Verb_Shoot.label>cañon infernal</Gun_InfernoCannonTurret.verbs.Verb_Shoot.label>
   
   <!-- EN: mini-slugger -->
-  <Gun_MiniTurretMech.label>Mini torreta</Gun_MiniTurretMech.label>
+  <Gun_MiniTurretMech.label>mini torreta</Gun_MiniTurretMech.label>
   <!-- EN: An automatic turret-mounted slug-thrower. -->
   <Gun_MiniTurretMech.description>Un simple rifle automático montado en una plataforma.</Gun_MiniTurretMech.description>
   <!-- EN: mini-slugger -->
-  <Gun_MiniTurretMech.verbs.Verb_Shoot.label>Mini torreta</Gun_MiniTurretMech.verbs.Verb_Shoot.label>
+  <Gun_MiniTurretMech.verbs.Verb_Shoot.label>mini torreta</Gun_MiniTurretMech.verbs.Verb_Shoot.label>
   
-  <!-- EN: auto charge blaster turret -->
-  <Turret_AutoChargeBlaster.label>Torreta de energía</Turret_AutoChargeBlaster.label>
-  <!-- EN: A self-powered turret mounted with a heavy charge blaster. -->
-  <Turret_AutoChargeBlaster.description>Una torreta autosuficiente con un rifle de energía pesada montado.</Turret_AutoChargeBlaster.description>
+  <!-- EN: auto charge turret -->
+  <Turret_AutoChargeBlaster.label>torreta de energía</Turret_AutoChargeBlaster.label>
+  <!-- EN: A self-powered turret mounted with a charge blaster. It cannot sense targets at very short ranges. -->
+  <Turret_AutoChargeBlaster.description>Una torreta autosuficiente con un bláster de energía pesada montado. No puede detectar objetivos a muy corto alcance.</Turret_AutoChargeBlaster.description>
   
   <!-- EN: auto inferno turret -->
-  <Turret_AutoInferno.label>Torreta infiernal</Turret_AutoInferno.label>
-  <!-- EN: A self-powered turret mounted with an inferno cannon. -->
-  <Turret_AutoInferno.description>Una torreta autosuficiente con un cañón inferno montado.</Turret_AutoInferno.description>
+  <Turret_AutoInferno.label>torreta infernal</Turret_AutoInferno.label>
+  <!-- EN: A self-powered turret mounted with an inferno cannon. It cannot sense targets at very short ranges. -->
+  <Turret_AutoInferno.description>Una torreta autosuficiente con un cañón infernal montado. No puede detectar objetivos a muy corto alcance</Turret_AutoInferno.description>
   
   <!-- EN: mini-slugger turret -->
-  <Turret_AutoMiniTurret.label>Mini torreta escopeta</Turret_AutoMiniTurret.label>
-  <!-- EN: A self-powered, short-ranged defense turret mounted with a slug-thrower. May explode when damaged. -->
-  <Turret_AutoMiniTurret.description>Una torreta autosuficiente de corto alcance con un accesorio de escopeta. Puede explotar si está dañado.</Turret_AutoMiniTurret.description>
+  <Turret_AutoMiniTurret.label>torreta de mini proyectiles</Turret_AutoMiniTurret.label>
+  <!-- EN: A self-powered defense turret mounted with a weak but long-ranged slug-thrower. May explode when damaged. -->
+  <Turret_AutoMiniTurret.description>Una torreta defensiva autosuficiente montada con un debíl pero de largo alcance disparador de proyectiles. Puede explotar si está dañado.</Turret_AutoMiniTurret.description>
   
   <!-- EN: auto mortar -->
-  <Turret_AutoMortar.label>Artillería-Automática</Turret_AutoMortar.label>
+  <Turret_AutoMortar.label>mortero automático</Turret_AutoMortar.label>
   <!-- EN: A self-powered, self-loading, automatic mortar. It can hit targets at any distance, over walls, but is quite inaccurate. -->
-  <Turret_AutoMortar.description>Una artillería automática autosustentable y autocargante. Puede golpear objetivos a cualquier distancia y detrás de las paredes, pero es bastante imprecisa.</Turret_AutoMortar.description>
+  <Turret_AutoMortar.description>Un mortero automático autoalimentado y autocargable. Puede golpear objetivos a cualquier distancia, por encima de los muros, pero es bastante inexacto.</Turret_AutoMortar.description>
   
 </LanguageData>
