@@ -2,13 +2,13 @@
 <LanguageData>
 
   <!-- EN: Mad {ANIMAL_labelShort} -->
-  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} loco</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} loc{ANIMAL_gender ? o : a}</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>Un {ANIMAL_label} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
+  <AnimalInsanitySingle>{ANIMAL_gender ? Un : Una} {ANIMAL_label} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanityMultiple>¡{0}s locos!</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>¡{0}s loc{ANIMAL_gender ? os : as}!</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>Algún tipo de onda psíquica ha barrido la zona. Tus colonos están bien, pero...\n\nParece que muchas de las(os) {0} en el área se han vuelto locos.</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Algún tipo de onda psíquica ha barrido la zona. Tus colonos están bien, pero...\n\nParece que muchas de {ANIMAL_gender ? los : las} {0} en el área se han vuelto loc{ANIMAL_gender ? os : as}.</AnimalInsanityMultiple>
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>Plaga: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
@@ -23,22 +23,22 @@
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} de {LEADER_labelShort}, es el lider de la faccion.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} de {LEADER_labelShort}, es el lider de la facción.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} de {LEADER_labelShort}, es el lider de la faccion.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} de {LEADER_labelShort}, es el lider de la facción.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>Un {PAWN_titleIndef} llamado {PAWN_nameDef} se está estrellando en las cercanías en una cápsula de escape. Si {PAWN_pronoun} sobrevive al impacto, resultará gravemente herido(a).</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_gender ? un : una} {PAWN_titleIndef} llamad{PAWN_gender ? o : a} {PAWN_nameDef} se está estrellando en las cercanías en una cápsula de escape. Si {PAWN_pronoun} sobrevive al impacto, resultará gravemente herid{PAWN_gender ? o : a}.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>{PAWN_nameDef} no está afiliado(a) a ninguna facción. Puedes rescatar{PAWN_objective} y esperar que {PAWN_pronoun} se una libremente, o capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>{PAWN_nameDef} no está afiliad{PAWN_gender ? o : a} a ninguna facción. Puedes rescatar{PAWN_objective} y esperar que {PAWN_pronoun} se una libremente, o capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>{PAWN_nameDef} es enemigo y proviene de {PAWN_factionName}. Puedes capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef} es enemigo y proviene de la facción {PAWN_factionName}. Puedes capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_nameDef} es de {PAWN_factionName}. Capturar a {PAWN_objective} los enfadará, mientras que si {PAWN_objective} rescatas y curas, mejorará las relaciones entre las facciones.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} es de la facción {PAWN_factionName}. Si {PAWN_objective} rescatas, {PAWN_pronoun} podría unirse libremente a tu asentamiento, de lo contrario, {PAWN_pronoun} regresaria a su hogar y difundiria buena voluntad entre ambas facciones\n\nTambién podrías capturar{PAWN_objective} con fines de reclutamiento o esclavitud, pero esto enojará a su facción.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
@@ -61,12 +61,12 @@
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
   <TraderArrival>Hay una nave comercial en las cercanías.\n\nSe les conoce como {0}. Ellos son un(a) {1}.\n\n{2}</TraderArrival>
   <!-- EN: They're affiliated with {FACTION_name}. -->
-  <TraderArrivalFromFaction>Ellos están afiliados con {FACTION_name}.</TraderArrivalFromFaction>
+  <TraderArrivalFromFaction>Ellos están afiliados con la facción {FACTION_name}.</TraderArrivalFromFaction>
   <!-- EN: They are not affiliated with any faction. -->
   <TraderArrivalNoFaction>No están afiliados a ninguna facción.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>Un {PAWN_title} de {1} está de paso por la zona. {PAWN_pronoun} se llama {PAWN_nameFull}.</SingleTravelerPassing>
+  <SingleTravelerPassing>{PAWN_gender ? Un : Una} {PAWN_title} de {1} está de paso por la zona. {PAWN_pronoun} se llama {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>Un grupo de viajeros de {0} están de paso por la zona..</GroupTravelersPassing>
 
