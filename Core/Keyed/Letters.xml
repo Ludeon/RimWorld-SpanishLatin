@@ -87,7 +87,7 @@
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Peligro antiguo</LetterLabelAncientShrineWarning>
   <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>{0} al acercarse a aquella construcción antigua, un presentimiento aterrador le pasa por la mente. {PAWN_pronoun} no está seguro(a) de porqué, pero siente que esta estructura polvorienta esconde un gran peligro.</AncientShrineWarning>
+  <AncientShrineWarning>Como {PAWN_nameDef} se ha acercardo a aquella construcción antigua, un presentimiento aterrador le pasa por la mente. {PAWN_pronoun} no está segur{PAWN_gender ? o : a} de porqué, pero siente que esta estructura polvorienta esconde un gran peligro.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>¡Hemos encontrado {0}!</StruckMineable>
@@ -95,11 +95,11 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} vengativo</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>¡{1_indefinite} se ha enfurecido luego de ser herido(a)!\n\nCazará cualquier humanoide que pueda encontrar. Se calmará cuando se vaya a dormir.</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>¡{1_indefinite} se ha enfurecido luego de ser herid{1_gender ? o : a}!\n\nCazará cualquier humanoide que pueda encontrar. Se calmará cuando se vaya a dormir.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
   <AnimalManhunterFromTaming>¡{1_indefinite} está atacando debido a un intento fallido de domesticación!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
-  <AnimalManhunterOthers>¡Los {1_kindBasePlural} cercanos también se han enfurecido!</AnimalManhunterOthers>
+  <AnimalManhunterOthers>¡{1_gender ? Otros : Otras} {1_kindBasePlural} cercan{1_gender ? os : as} también se han enfurecido!</AnimalManhunterOthers>
 
   <!-- EN: {1_labelShort} hit trap -->
   <LetterFriendlyTrapSprungLabel>{1_labelShort} cayó en la trampa</LetterFriendlyTrapSprungLabel>
@@ -184,7 +184,7 @@
   <!-- EN: Affair -->
   <LetterLabelAffair>Romance</LetterLabelAffair>
   <!-- EN: {PAWN1_labelShort}, married to {SPOUSE_labelShort}, has begun an affair with {PAWN2_labelShort}. -->
-  <LetterAffair>{PAWN1_labelShort}, que está casado(a) con {SPOUSE_labelShort}, ha comenzado un romance con {PAWN2_labelShort}.</LetterAffair>
+  <LetterAffair>{PAWN1_labelShort}, que está casad{PAWN1_gender ? o : a} con {SPOUSE_labelShort}, ha comenzado un romance con {PAWN2_labelShort}.</LetterAffair>
   <!-- EN: New lovers -->
   <LetterLabelNewLovers>Nueva pareja</LetterLabelNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed. -->
@@ -192,7 +192,7 @@
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
   <LetterNoLongerLovers>{PAWN1_labelShort} y {PAWN2_labelShort} ya no están en una relación.</LetterNoLongerLovers>
   <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
-  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} cambiará el apellido {PAWN_possessive} de nuevo al nombre de nacimiento {PAWN_possessive}.</LetterNoLongerLovers_BackToBirthName>
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} cambiará su apellido nuevamente a su apellido de solter{PAWN_gender ? o : a}.</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>Rompimiento</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -200,11 +200,11 @@
   <!-- EN: Rejected proposal -->
   <LetterLabelRejectedProposal>Propuesta rechazada</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>En algún momento de los próximos días o cuadrantes, tendrán su ceremonia de matrimonio e invitarán a todos los colonos. Considere la posibilidad de colocar un lugar de matrimonio si desea controlar dónde se celebra la ceremonia.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>En algún momento de los próximos días o cuadrums, tendrán su ceremonia de matrimonio e invitarán a todos los colonos. Considere la posibilidad de colocar un lugar de matrimonio si desea controlar dónde se celebra la ceremonia.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
-  <LetterAcceptedProposal_NameChange>{PAWN_label} cambiará el apellido {PAWN_possessive} a {1}.</LetterAcceptedProposal_NameChange>
+  <LetterAcceptedProposal_NameChange>{PAWN_label} cambiará {PAWN_possessive} apellido a {1}.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
-  <LetterRejectedProposal>{INITIATOR_nameFull} no va a estar contento(a) con esto.</LetterRejectedProposal>
+  <LetterRejectedProposal>{INITIATOR_nameFull} no va a estar feliz con esto.</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
@@ -326,7 +326,7 @@
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
-  <LetterRunWildMentalBreak>{0} está harto de la civilización.\n\n{PAWN_pronoun} se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, {PAWN_pronoun} ha decidido dejar su facción y vivir con los animales.\n\nPuedes intentar domar o arrestar a {PAWN_objective} para recuperar a {PAWN_objective} . </LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0} está harto de la civilización.\n\n{PAWN_pronoun} se dió cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, {PAWN_pronoun} ha decidido dejar su facción y vivir con los animales.\n\nPuedes intentar domar o arrestar{PAWN_objective} para recuperar{PAWN_objective} . </LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
@@ -343,14 +343,14 @@
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
   <LetterCraftedLegendaryMessage>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}.\n\nLas noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}. \n \n {0} \n \ las noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessageArt>
+  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}.\n\n{0}\n\las noticias de este valioso artefacto se extenderán por todo el mundo.</LetterCraftedLegendaryMessageArt>
 
   <!-- EN: Masterwork -->
   <LetterCraftedMasterworkLabel>Obra maestra</LetterCraftedMasterworkLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
   <LetterCraftedMasterworkMessage>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}. \n \n {0}</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} ha creado un {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
