@@ -2,29 +2,29 @@
 <LanguageData>
   
   <!-- EN: Arrest success chance -->
-  <ArrestSuccessChance.label>TODO</ArrestSuccessChance.label>
-  <!-- EN: How effective this person is in arresting people.\n\nThis affects the success chance of arresting tries. -->
-  <ArrestSuccessChance.description>TODO</ArrestSuccessChance.description>
+  <ArrestSuccessChance.label>Posibilidad de éxito al Arrestar</ArrestSuccessChance.label>
+  <!-- EN: How effective this person is in arresting people. This affects chance that this person will be able to arrest someone without resistance. -->
+  <ArrestSuccessChance.description>Cuán efectiva es esta persona para arrestar a otras personas. Esto afecta a la posibilidad de que esta persona sea capaz de arrestar a alguien sin resistencia.</ArrestSuccessChance.description>
   
   <!-- EN: negotiation ability -->
   <NegotiationAbility.label>capacidad diplomática</NegotiationAbility.label>
   <!-- EN: How effective this person is as a negotiator.\n\nThis affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks. -->
-  <NegotiationAbility.description>Qué tan efectiva es esta persona como negociadora. Afecta el impacto en las relaciones de las facciones cuando esta persona da regalos a otra facción. También afecta al resultado de las conversaciones de paz con otras facciones.</NegotiationAbility.description>
+  <NegotiationAbility.description>Qué tan efectiva es esta persona como negociadora.\n\nEsto afecta a la velocidad de reclutamiento de prisioneros, el impacto en las relaciones entre facciones cuando se dan regalos, y el resultado de las conversaciones de paz.</NegotiationAbility.description>
   
   <!-- EN: beauty -->
-  <PawnBeauty.label>TODO</PawnBeauty.label>
+  <PawnBeauty.label>belleza</PawnBeauty.label>
   <!-- EN: How physically attractive this person is. This affects social interactions. -->
-  <PawnBeauty.description>TODO</PawnBeauty.description>
+  <PawnBeauty.description>Cómo de atractiva físicamente es esta persona. Esto afecta las interacciones sociales.</PawnBeauty.description>
   
   <!-- EN: social impact -->
-  <SocialImpact.label>efectividad de socialización</SocialImpact.label>
+  <SocialImpact.label>impacto social</SocialImpact.label>
   <!-- EN: A multiplier on how much other people are affected by this person's social interactions. -->
-  <SocialImpact.description>Este valor representa la efectividad de la interacción social cuando esta persona interactua con otra.</SocialImpact.description>
+  <SocialImpact.description>Un multiplicador de cuánto afectan a otras personas las interacciones sociales de esta persona.</SocialImpact.description>
   
   <!-- EN: tame animal chance -->
   <TameAnimalChance.label>probabilidad de domesticación</TameAnimalChance.label>
   <!-- EN: The base chance this person will successfully tame an animal on any given attempt.\n\nThe actual chance is also affected by the animal's wildness.\nFailed tame attempt can induce animal attacks, especially for more vicious animals. -->
-  <TameAnimalChance.description>La probabilidad de que esta persona domestique con éxito a un animal en un intento determinado. La posibilidad real también se ve afectada por la naturaleza del animal. Un intento de doma fallido puede inducir ataques de animales, especialmente de animales más despiadados.</TameAnimalChance.description>
+  <TameAnimalChance.description>La probabilidad de que esta persona domestique con éxito a un animal en un intento determinado.\n\nLa posibilidad real también se ve afectada por la naturaleza del animal.\nUn intento de doma fallido puede inducir ataques de animales, especialmente de animales más despiadados.</TameAnimalChance.description>
   
   <!-- EN: trade price improvement -->
   <TradePriceImprovement.label>mejora de regateo</TradePriceImprovement.label>
@@ -34,6 +34,6 @@
   <!-- EN: train animal chance -->
   <TrainAnimalChance.label>probabilidad de entrenamiento</TrainAnimalChance.label>
   <!-- EN: The base chance this person will make progress training an animal on a given attempt.\n\nThe actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on. -->
-  <TrainAnimalChance.description>La probabilidad de que esta persona progrese entrenando a un animal en un intento determinado. La posibilidad real de un intento dado también dependerá de la naturaleza salvaje del animal, si está vinculado con el entrenador, y así sucesivamente.</TrainAnimalChance.description>
+  <TrainAnimalChance.description>La probabilidad de que esta persona progrese entrenando a un animal en un intento determinado.\n\nLa posibilidad real de un intento dado también dependerá de la naturaleza salvaje del animal, si está vinculado con el entrenador, y así sucesivamente.</TrainAnimalChance.description>
   
 </LanguageData>
