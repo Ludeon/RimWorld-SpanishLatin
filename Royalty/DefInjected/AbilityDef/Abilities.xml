@@ -36,10 +36,21 @@
   <!-- EN: Teleport the target to a random position near where he started. -->
   <ChaosSkip.description>Teletransporta al objetivo a una posición aleatoria cerca de donde comenzó.</ChaosSkip.description>
   
+  <!-- EN: chunk skip -->
+  <!-- No sé aún cómo funciona esta habilidad para darle un mejor sentido y nombre -->
+  <Chunkskip.label>salto de trozos</Chunkskip.label>
+  <!-- EN: Skip the 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations. -->
+  <Chunkskip.description>Sáltese los 5 trozos de roca o escoria para dispersarlos cerca del punto objetivo. Esto es útil para producir cobertura durante las operaciones ofensivas.</Chunkskip.description>
+  
   <!-- EN: neural heat dump -->
   <EntropyDump.label>descarga neural</EntropyDump.label>
   <!-- EN: Instantly dump all your neural heat into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
   <EntropyDump.description>Descarga instantáneamente todo tu calor neuronal en otra persona. Como efecto secundario, el objetivo caerá en un coma debilitante pero no dañino durante aproximadamente un día. El objetivo debe aceptar activamente la invasión psíquica, por lo que solo los aliados conscientes pueden ser atacados.</EntropyDump.description>
+  
+  <!-- EN: farskip -->
+  <Farskip.label>salto largo</Farskip.label>
+  <!-- EN: Skip the caster, along with anyone standing near him, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
+  <Farskip.description>El conjurador realiza un salto junto con cualquiera que esté cerca de él, a un aliado en un lugar distante. Esto puede enviar a la gente muy lejos a través del planeta, pero sólo funciona si hay un aliado dispuesto en el otro lado para utilizarlo como una baliza de navegación. Las personas afectadas por esta habilidad siempre aparecerán cerca de un aliado al azar en el lugar objetivo.</Farskip.description>
   
   <!-- EN: flashstorm -->
   <Flashstorm.label>tormenta</Flashstorm.label>
@@ -66,6 +77,13 @@
   <!-- EN: Skip everyone near a target point to a random location nearby. -->
   <MassChaosSkip.description>Teletrasporta a todos cerca de un punto objetivo a una ubicación aleatoria cercana.</MassChaosSkip.description>
   
+  <!-- EN: neuroquake -->
+  <Neuroquake.label>neuro-sismo</Neuroquake.label>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature on the map outside of a safe circle near the caster will be driven violently insane. Casting this takes three hours of meditation, and afterwards, the caster will go into a three-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>Encuentra una discontinuidad en el campo psíquico y la despliega, liberando una cantidad masiva de energía psíquica. Cada criatura del mapa fuera de un círculo seguro cerca del conjurador se volverá violentamente loca. Hacer esto toma tres horas de meditación, y después, el conjurador entrará en un coma psíquico de tres días. Los inquietantes ecos del neuro-sismo infligirán dolor a todos a lo largo de muchos kilómetros a la redonda, causando consecuencias diplomáticas con todas las facciones.</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes three hours to cast, and cannot be interrupted. The caster will also fall into a psychic coma for several days.\n\nEveryone on the map except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>Si usas el neuro-sismo, todos en esta región sentirán el eco del neuro-sismo, perderás la buena voluntad con cada facción no hostil.\n\nEl neuro-sismo tarda tres horas en emitirse, y no puede ser interrumpido. El conjurador también caerá en un coma psíquico durante varios días.\n\nTodos en el mapa, excepto los que están en un pequeño círculo alrededor del conjurador, se verán afectados.\n\n¿Realmente quieres conjurar el neuro-sismo?</Neuroquake.confirmationDialogText>
+  
   <!-- EN: painblock -->
   <Painblock.label>indoloro</Painblock.label>
   <!-- EN: Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them. -->
@@ -80,6 +98,11 @@
   <Smokepop.label>nube de humo</Smokepop.label>
   <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and preventing turrets from locking on entirely. -->
   <Smokepop.description>Levanta partículas de polvo desde debajo de la superficie del suelo para formar una nube espesa. Esto reduce la precisión de cualquier disparo que la atravise y evita que las torretas apunten con claridad.</Smokepop.description>
+  
+  <!-- EN: solar pinhole -->
+  <SolarPinhole.label>pinchada solar</SolarPinhole.label>
+  <!-- EN: Generate a microscopic skipgate linked to the core of a nearby star. Solar material leaks through the pinprick in spacetime, illuminating and warming the surrounding area until it closes. -->
+  <SolarPinhole.description>Generar una puerta de salto microscópica unida al núcleo de una estrella cercana. El material solar se filtra a través del pinchazo en el espacio tiempo, iluminando y calentando el área circundante hasta que se cierra.</SolarPinhole.description>
   
   <!-- EN: throne speech -->
   <Speech.label>discurso real</Speech.label>
@@ -105,5 +128,30 @@
   <Waterskip.label>golpe acuático</Waterskip.label>
   <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
   <Waterskip.description>Empapa de agua un área objetivo, extinguiendo incendios. El agua surge arqueotécnológicamente de cuerpos de agua distantes o acuíferos subterráneos.</Waterskip.description>
+  
+  <!-- EN: word of inspiration -->
+  <WordOfInspiration.label>palabra de inspiración</WordOfInspiration.label>
+  <!-- EN: Speak words encouraging creativity while psychically hypercharging the target's mind with new ideas. The target will experience a random inspiration appropriate to them. -->
+  <WordOfInspiration.description>Hablas palabras que fomenten la creatividad mientras se hipercarga psíquicamente la mente del objetivo con nuevas ideas. El objetivo experimentará una inspiración aleatoria apropiada para él.</WordOfInspiration.description>
+  
+  <!-- EN: word of joy -->
+  <WordOfJoy.label>palabra de alegría</WordOfJoy.label>
+  <!-- EN: Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in his mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness. -->
+  <WordOfJoy.description>Hablas palabras felices y tranquilizantes a alguien mientras se usa la sugestión psíquica para implantar un bucle de alegría en su mente. La "SuperAlegria" suprimirá los pensamientos y sensaciones incómodas en el objetivo para mejorar el estado de ánimo. Esto tiene el efecto secundario de embotar la sensación y la toma de decisiones, lo que reduce la conciencia.</WordOfJoy.description>
+  
+  <!-- EN: word of love -->
+  <WordOfLove.label>palabra de amor</WordOfLove.label>
+  <!-- EN: Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This psycast can be used to connect two other people, induce love for the caster, or force oneself to love another. -->
+  <WordOfLove.description>Hablas de las virtudes románticas de alguien mientras se usa la sugestión psíquica para implantar el deseo romántico en el oyente. Durante días después, el oyente sentirá una atracción romántica inducida psíquicamente hacia la otra persona. Esto aumenta enormemente la opinión y hace que sea más probable que intenten avances románticos y propuestas de matrimonio si tienen la oportunidad. Este psicodiscurso puede ser usado para conectar a otras dos personas, inducir el amor por el conjurador, o forzarse a sí mismo a amar a otro.</WordOfLove.description>
+  
+  <!-- EN: word of serenity -->
+  <WordOfSerenity.label>palabra de serenidad</WordOfSerenity.label>
+  <!-- EN: Use calming words and psychic suggestion to end a mental break on a person or animal. The target will fall into a short psychic sleep. The psyfocus cost depends on the intensity of the target's mental break. -->
+  <WordOfSerenity.description>Usas palabras tranquilizantes y sugerencia psíquica para terminar con un quiebre mental en una persona o animal. El objetivo caerá en un corto sueño psíquico. El costo del psícofoco depende de la intensidad del quiebre mental del objetivo.</WordOfSerenity.description>
+  
+  <!-- EN: word of trust -->
+  <WordOfTrust.label>palabra de confianza</WordOfTrust.label>
+  <!-- EN: Speak to the prisoner while using psychic suggestion to reduce his resistance to recruitment. This psycast can only reduce a prisoner's resistance, but cannot recruit him. -->
+  <WordOfTrust.description>Hable con el prisionero mientras usa la sugestión psíquica para reducir su resistencia al reclutamiento. Esta psico-emisión sólo puede reducir la resistencia del prisionero, pero no puede reclutarlo.</WordOfTrust.description>
   
 </LanguageData>
