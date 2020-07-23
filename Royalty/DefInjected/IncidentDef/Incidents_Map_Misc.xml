@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: abasia join -->
+  <WandererJoinAbasia.label>abasia se une</WandererJoinAbasia.label>
+  <!-- EN: Wanderer joins: {PAWN_nameDef} -->
+  <WandererJoinAbasia.letterLabel>Vagabundo se une: {PAWN_nameDef}</WandererJoinAbasia.letterLabel>
+  <!-- EN:  {PAWN_title} named {PAWN_nameDef} came to join you, but has collapsed nearby due to {HEDIFF_label}.\n\n[PAWN_pronoun] is willing to contribute once {PAWN_pronoun} has recovered, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery or leave {PAWN_objective} to die. However, your other colonists may find this disturbing. -->
+  <WandererJoinAbasia.letterText>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} vino a unirse a ti, pero se ha derrumbado cerca debido a {HEDIFF_label}.\n\n[PAWN_pronoun] dispuest{PAWN_gender ? o : a} a contribuir una vez que se haya recuperado, pero no se irá voluntariamente. Si no quieres a {PAWN_nameDef}, puedes desterrarl{PAWN_gender ? o : a}, vender[PAWN_objective] como esclav{PAWN_gender ? o : a} o dejar[PAWN_objective] morir. Sin embargo, tus otros colonos pueden encontrar esto perturbador.</WandererJoinAbasia.letterText>
+  
+</LanguageData>
