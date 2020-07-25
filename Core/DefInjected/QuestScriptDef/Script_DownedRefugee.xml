@@ -9,15 +9,18 @@
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->[refugee_nameDef] te ha contactado y te solicita ayuda. [refugee_pronoun] está [refugee_wounded] y no puede moverse.\n\n[refugee_nameDef] es [refugee_indefinido] [refugee_title] de [refugee_age] años de edad. [refugee_pronoun] promete unírsete si logras rescata[refugee_objective].\n\n[refugee_nameDef] dice que [allSitePartsDescriptionsExceptFirst] [pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de la facción [asker_faction_name], dice que [asker_possessive] [asker_friend] ha sido [refugee_wounded] mientras viajaba. La víctima es [refugee_nameIndef], [refugee_indefinido] [refugee_title] de [refugee_age] años de edad.\n\n[asker_nameDef] no tiene a nadie más quien lo pueda ayudar a rescatar a [refugee_nameDef], pero dice que si puedes llegar a la posición de [refugee_nameDef] y rescatar[refugee_objective], [refugee_pronoun] se unirá a tu colonia.\n\n[asker_nameDef] dice que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de la facción [asker_faction_name], dice que [asker_possessive] [asker_friend] ha sido [refugee_wounded] mientras viajaba. La víctima es [refugee_nameIndef], [refugee_indefinido] [refugee_title] de [refugee_age] años de edad.\n\n[asker_nameDef] no tiene a nadie más quien le pueda ayudar a rescatar a [refugee_nameDef], pero dice que si puedes llegar a la posición de [refugee_nameDef] y rescatar[refugee_objective], [refugee_pronoun] se unirá a tu colonia.\n\n[asker_nameDef] dice que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
     <li>refugee_indefinido(refugee_gender==Male)->un</li>
     <li>refugee_indefinido(refugee_gender==Female)->una</li>
+    <li>refugee_indefinido(refugee_gender==None)->un</li>
     <li>refugee_wounded(refugee_gender==Male)->herido</li>
     <li>refugee_wounded(refugee_gender==Female)->herida</li>
+    <li>refugee_wounded(refugee_gender==None)->herido</li>
     <li>asker_friend(refugee_gender==Male)->amigo</li>
     <li>asker_friend(refugee_gender==female)->amiga</li>
+    <li>asker_friend(refugee_gender==None)->amigo</li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [refugee_nameDef]</li>
