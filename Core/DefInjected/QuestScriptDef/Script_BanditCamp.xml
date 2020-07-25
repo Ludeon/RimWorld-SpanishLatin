@@ -25,27 +25,25 @@
     <li>bandit->Brigand</li>
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
-    <li>questName->El [camp_mas] de [bandit]</li>
-	  <li>questName->La [camp_fem] de [bandit]</li>
-    <li>questName->[camp_neu] de [bandit]</li>
-    <li>questName->[asker_nameDef] y el [camp_mas]</li>
-	  <li>questName->[asker_nameDef] y la [camp_fem]</li>
-    <li>camp_mas->Campo</li>
-    <li>camp_mas->Puesto de avanzada</li>
-    <li>camp_fem->Guarida</li>
-    <li>camp_mas->Campamento</li>
-	  <li>camp_neu->Campo</li>
-    <li>camp_neu->Puesto de avanzada</li>
-    <li>camp_neu->Guarida</li>
-    <li>camp_neu->Campamento</li>
-    <li>bandit->Bandidos</li>
-    <li>bandit->Asaltantes</li>
-    <li>bandit->Forajidos</li>
-    <li>bandit->Criminales</li>
-    <li>bandit->Fugitivos</li>
-    <li>bandit->Merodeadores</li>
-    <li>bandit->Ladrones</li>
-    <li>bandit->Delincuentes</li>
+    <li>questName->[camp_def] de los [bandit]</li>
+    <li>questName->[camp_indef] de [bandit]</li>
+    <li>questName->[asker_nameDef] y [camp_def]</li>
+    <li>camp_def->La acampada</li>
+    <li>camp_def->El puesto de avanzada</li>
+    <li>camp_def->La guarida</li>
+    <li>camp_def->El campamento</li>
+    <li>camp_indef->Una acampada</li>
+    <li>camp_indef->Un puesto de avanzada</li>
+    <li>camp_indef->Una guarida</li>
+    <li>camp_indef->Un campamento</li>
+    <li>bandit->bandidos</li>
+    <li>bandit->asaltantes</li>
+    <li>bandit->forajidos</li>
+    <li>bandit->criminales</li>
+    <li>bandit->fugitivos</li>
+    <li>bandit->merodeadores</li>
+    <li>bandit->ladrones</li>
+    <li>bandit->delincuentes</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>La misión expiró: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
@@ -58,10 +56,10 @@
   <!-- EN: Payment arrived -->
   <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>El pago ha llegado</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
   <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
-  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>¡Has derrotado al campamento de bandidos!\n\nEl pago de por ayudar a la facción [asker_faction_name] ha llegado.</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>¡Has derrotado al campamento de bandidos!\n\nEl pago por ayudar a la facción [asker_faction_name] ha llegado.</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
-  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] favor for this service. -->
-  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>Estos colonos participaron en la victoria de la misión [resolveQuestName]. [asker_definite] quiere saber quién debe recibir los [royalFavorReward_amount] favores [asker_faction_royalFavorLabel] para este servicio. </OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
+  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
+  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>Estos colonos participaron en la victoria de la misión [resolveQuestName]. [asker_definite] quiere saber quién debe recibir los [royalFavorReward_amount] que otorga la facción [asker_faction_royalFavorLabel] por tu servicio.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>
