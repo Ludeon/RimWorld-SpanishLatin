@@ -132,9 +132,9 @@
   <QuickSleeper.degreeDatas.quick_sleeper.description>{PAWN_nameDef} no necesita dormir tanto como una persona normal. Si {PAWN_pronoun} está durmiendo en una cama o en el suelo, {PAWN_pronoun} estará completamente descansado en dos tercios del tiempo habitual.</QuickSleeper.degreeDatas.quick_sleeper.description>
   
   <!-- EN: slow learner -->
-  <SlowLearner.degreeDatas.slow_learner.label>TODO</SlowLearner.degreeDatas.slow_learner.label>
+  <SlowLearner.degreeDatas.slow_learner.label>aprendiz lento</SlowLearner.degreeDatas.slow_learner.label>
   <!-- EN: {PAWN_nameDef} is slow on the uptake. {PAWN_pronoun} learns much slower than others. -->
-  <SlowLearner.degreeDatas.slow_learner.description>TODO</SlowLearner.degreeDatas.slow_learner.description>
+  <SlowLearner.degreeDatas.slow_learner.description>{PAWN_nameDef} es lento en la captación. {PAWN_pronoun} aprende mucho más lento que otros.</SlowLearner.degreeDatas.slow_learner.description>
   
   <!-- EN: too smart -->
   <TooSmart.degreeDatas.too_smart.label>demasiado listo</TooSmart.degreeDatas.too_smart.label>
@@ -142,9 +142,11 @@
   <TooSmart.degreeDatas.too_smart.description>La inteligencia de {PAWN_nameDef} es demasiado elevada para su propio bien. {PAWN_pronoun} aprende cualquier cosa mucho más rapido que todos los demás, pero puede comportarse de forma excéntrica.</TooSmart.degreeDatas.too_smart.description>
   
   <!-- EN: tortured artist -->
-  <TorturedArtist.degreeDatas.tortured_artist.label>TODO</TorturedArtist.degreeDatas.tortured_artist.label>
+  <TorturedArtist.degreeDatas.tortured_artist.label>artista torturado</TorturedArtist.degreeDatas.tortured_artist.label>
   <!-- EN: {PAWN_nameDef} feels alienated and misunderstood by other human beings. {PAWN_pronoun} will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break. -->
-  <TorturedArtist.degreeDatas.tortured_artist.description>TODO</TorturedArtist.degreeDatas.tortured_artist.description>
+  <TorturedArtist.degreeDatas.tortured_artist.description>{PAWN_nameDef} se siente alienado e incomprendido por otros seres humanos. {PAWN_pronoun} tendrá una constante perdida de humor, pero ganará una oportunidad (50%) de obtener una inspiración creativa después de sufrir un colpaso mental.</TorturedArtist.degreeDatas.tortured_artist.description>
+  <!-- EN: As a suffering tortured artist, [PAWN_nameIndef] has experienced an inspiration. -->
+  <TorturedArtist.degreeDatas.tortured_artist.mentalBreakInspirationGainReasonText>Como un artista torturado y sufriente,  [PAWN_nameIndef] ha experimentado una inspiración.</TorturedArtist.degreeDatas.tortured_artist.mentalBreakInspirationGainReasonText>
   
   <!-- EN: tough -->
   <Tough.degreeDatas.tough.label>resistente</Tough.degreeDatas.tough.label>
