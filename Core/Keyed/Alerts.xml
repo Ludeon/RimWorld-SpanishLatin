@@ -223,9 +223,18 @@
   <QuestPartMoodBelowThresholdDesc>La misión {0} requiere que mantengas a esta persona de buen humor. Sin embargo, su estado de ánimo es pobre. Tome algunas medidas para que se sientan mejor: \n \n {1}</QuestPartMoodBelowThresholdDesc>
   
   <!-- EN: Shuttle leaving in {0} -->
-  <QuestPartShuttleLeaveDelay>Lanzadera saliendo {0}</QuestPartShuttleLeaveDelay>
+  <QuestPartShuttleLeaveDelay>Transbordador saliendo en {0}</QuestPartShuttleLeaveDelay>
   <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
-  <QuestPartShuttleLeaveDelayDesc>El transbordador partirá en {1}. La misión {0} requiere que cargues las siguientes personas o elementos en el transbordador antes de que salga:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+  <QuestPartShuttleLeaveDelayDesc>El transbordador partirá en {1}. La misión {0} requiere que cargues las siguientes personas u ubjetos en el transbordador antes de que salga:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+  <!-- EN: The shuttle will leave in {0}. -->
+  <QuestPartShuttleLeaveDelayDescHidden>El transbordador saldrá en {0}.</QuestPartShuttleLeaveDelayDescHidden>
+
+  <!-- EN: Shuttle arriving in {0} -->
+  <QuestPartShuttleArriveDelay>El transbordador llega en {0}</QuestPartShuttleArriveDelay>
+  <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <QuestPartShuttleArriveDelayDesc>>El transbordador partirá en {1}. La misión {0} requiere que cargues las siguientes personas u objetos en el transbordador antes de que salga:\n\n{2}</QuestPartShuttleArriveDelayDesc>
+  <!-- EN: A shuttle will arrive in {0}. -->
+  <QuestPartShuttleArriveDelayDescHidden>El transbordador llegará en {0}.</QuestPartShuttleArriveDelayDescHidden>
 
   <!-- EN: Monument will be destroyed -->
   <DisallowedBuildingInsideMonument>El monumento será destruido</DisallowedBuildingInsideMonument>
