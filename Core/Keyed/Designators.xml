@@ -214,14 +214,14 @@
   <InteractionSpotWillOverlap>El punto de interacción se superpondrá con el punto de interacción de {1_labelShort}.</InteractionSpotWillOverlap>
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
   <InteractionSpotOverlaps>El punto de interacción se superpone con el punto de interacción de {1_labelShort}.</InteractionSpotOverlaps>
-  <!-- EN: Monuments cannot be placed over other buildings. -->
+  <!-- EN: Cannot place monument over: {0}. -->
+  <CannotPlaceMonumentOver>No se puede colocar el monumento encima: {0}</CannotPlaceMonumentOver>
+  <!-- EN: Cannot build on: {0}. -->
+  <CannotPlaceMonumentOnTerrain>No se puede construir: {0}</CannotPlaceMonumentOnTerrain>
+  <!-- EN: Cannot place monument over: {0}. -->
   <MonumentOverlapsBuilding>Los Monumentos no pueden ser colocados encima de otros edificios.</MonumentOverlapsBuilding>
-  <!-- EN: Monument cannot be placed adjacent to a building. -->
+  <!-- EN: Monument cannot be placed adjacent to: {0}. -->
   <MonumentAdjacentToBuilding>Los Monumento no pueden ser colocados adyacentes a ningún edificio.</MonumentAdjacentToBuilding>
-  <!-- EN: Monuments cannot be placed on incompatible terrain. -->
-  <MonumentBadTerrain>Los Monumentos no pueden ser colocado sobre terreno inadecuado.</MonumentBadTerrain>
-  <!-- EN: Monuments cannot be placed over permanent obstructions. -->
-  <MonumentBlockedPermanently>Los Monumentos no pueden ser colocados sobre obstrucciones permanentes.</MonumentBlockedPermanently>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
