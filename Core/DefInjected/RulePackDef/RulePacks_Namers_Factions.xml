@@ -25,7 +25,30 @@
     <li>msyl->yoth</li>
     <li>msyl->lite</li>
   -->
-  <NamerFactionMechanoid.rulePack.rulesStrings>TODO</NamerFactionMechanoid.rulePack.rulesStrings>
+  <NamerFactionMechanoid.rulePack.rulesStrings>
+    <li>r_name->[mechhive] [msyl]-[msyl_extra] </li>
+    <li>mechhive->Colmenóide</li>
+    <li>msyl->Alfa</li>
+    <li>msyl->Beta</li>
+    <li>msyl->Gamma</li>
+    <li>msyl->Delta</li>
+    <li>msyl->Epsilon</li>
+    <li>msyl->Eta</li>
+    <li>msyl->Omega</li>
+    <li>msyl->Omicron</li>
+    <li>msyl->Nova</li>
+    <li>msyl_extra->Prima</li>
+    <li>msyl_extra->626-M</li>
+    <li>msyl_extra->319-B</li>
+    <li>msyl_extra->515-H</li>
+    <li>msyl_extra->010-A</li>
+    <li>msyl_extra->Centaury</li>
+    <li>msyl_extra-Lupus></li>
+    <li>msyl_extra->Magnus</li>
+    <li>msyl_extra->Omega</li>
+    <li>msyl_extra->Prime</li>
+    <li>msyl_extra->Zers</li>
+    </NamerFactionMechanoid.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=3)->[nearnameinitial]</li>
@@ -107,12 +130,12 @@
   </NamerFactionPirate.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_name->[tribalworld] [political_union_tribal]</li>
-    <li>r_name->The [tribalworld] [political_union_tribal]</li>
+    <li>r_name->[WordTribal] [political_union_tribal]</li>
+    <li>r_name->The [WordTribal] [political_union_tribal]</li>
     <li>r_name->The [Color] [TerrainFeature] [political_union_tribal]</li>
     <li>r_name->[political_union_tribal] of [WordTribal]</li>
     <li>r_name->The [Color] [Animal] [WordTribal]</li>
-    <li>r_name->The [WordTribal] of the [TerrainFeature]</li>
+    <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
     <li>r_name->[political_union_tribal] de [WordTribal]</li>
@@ -248,7 +271,7 @@
     <li>townname_combo->[AnimalBadass] [geography]</li>
     <li>townname_combo->[AnimalBadass]'s [geography]</li>
     <li>townname_combo->[ConceptBadass] [geography]</li>
-    <li>townname_combo->[ConceptBadass]'s' [geography]</li>
+    <li>townname_combo->[ConceptBadass]'s [geography]</li>
     <li>townname_combo->[PersonBadass] [geography]</li>
     <li>townname_combo->[PersonBadass]'s [geography]</li>
     <li>townname_combo->[Enemy]'s [geography]</li>
