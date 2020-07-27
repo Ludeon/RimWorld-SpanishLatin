@@ -33,14 +33,16 @@
   <!-- EN: The chance this food will cause food poisoning. -->
   <FoodPoisonChanceFixedHuman.description>La posibilidad de que esta comida cause una intoxicación alimentaria.</FoodPoisonChanceFixedHuman.description>
   <!-- EN: food poison chance (food stat) -->
-  <FoodPoisonChanceFixedHuman.labelForFullStatList>TODO</FoodPoisonChanceFixedHuman.labelForFullStatList>
+  <FoodPoisonChanceFixedHuman.labelForFullStatList>posibilidad de intoxicación alimentaria (estadísticas de alimentos)</FoodPoisonChanceFixedHuman.labelForFullStatList>
   
   <!-- EN: market value -->
   <MarketValue.label>valor de mercado</MarketValue.label>
   <!-- EN: The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
   <MarketValue.description>El valor de mercado de un objeto. El precio real de mercado será modificado por la habilidad de negociación y el estado de las relaciones.</MarketValue.description>
-  <!-- EN: ${0} -->
   <MarketValue.formatString>${0}</MarketValue.formatString>
+  
+  <!-- EN: market value ignoring hitpoints -->
+  <MarketValueIgnoreHp.label>valor de mercado ignorando los puntos de daño</MarketValueIgnoreHp.label>
   
   <!-- EN: mass -->
   <Mass.label>peso</Mass.label>
@@ -52,17 +54,17 @@
   <!-- EN: max hit points -->
   <MaxHitPoints.label>salud máxima</MaxHitPoints.label>
   <!-- EN: The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed. -->
-  <MaxHitPoints.description>Los puntos de impacto máximos de un objeto. Esto representa cuánto daño puede soportar antes de ser destruido.</MaxHitPoints.description>
+  <MaxHitPoints.description>Los puntos de daño máximos de un objeto. Esto representa cuánto daño puede soportar antes de ser destruido.</MaxHitPoints.description>
   
   <!-- EN: nutrition -->
   <Nutrition.label>nutrición</Nutrition.label>
   <!-- EN: How nutritious this food is. -->
   <Nutrition.description>Cuán nutritiva es esta comida.</Nutrition.description>
   
-  <!-- EN: royal favor value -->
-  <RoyalFavorValue.label>TODO</RoyalFavorValue.label>
-  <!-- EN: The amount of royal favor your trader will earn for giving this to a tribute collector. -->
-  <RoyalFavorValue.description>TODO</RoyalFavorValue.description>
+  <!-- EN: honor value -->
+  <RoyalFavorValue.label>valor del honor</RoyalFavorValue.label>
+  <!-- EN: The amount of honor your trader will earn for giving this to a tribute collector. -->
+  <RoyalFavorValue.description>La cantidad de honor que su comerciante ganará por dar esto a un recaudador de tributos.</RoyalFavorValue.description>
   
   <!-- EN: sell price multiplier -->
   <SellPriceFactor.label>multiplicador de precio de venta</SellPriceFactor.label>
@@ -74,7 +76,7 @@
   <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
   <ShootingAccuracyTurret.description>Probabilidad mínima de no fallar por celda de distancia de disparo. La posibilidad de un golpe también se ve afectada por muchos otros factores. La explicación de la probabilidad de impacto de cualquier disparo se puede ver seleccionando un tirador y pasando el ratón por encima de un objetivo.</ShootingAccuracyTurret.description>
   <!-- EN: shooting accuracy (turrets) -->
-  <ShootingAccuracyTurret.labelForFullStatList>TODO</ShootingAccuracyTurret.labelForFullStatList>
+  <ShootingAccuracyTurret.labelForFullStatList>precisión de disparo (torretas)</ShootingAccuracyTurret.labelForFullStatList>
   
   <!-- EN: work to make -->
   <WorkToMake.label>cantidad de trabajo</WorkToMake.label>
