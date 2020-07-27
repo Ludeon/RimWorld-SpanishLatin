@@ -3,7 +3,7 @@
 
   <!-- Various -->
   <!-- EN: hit points -->
-  <HitPointsBasic>puntos de ataque</HitPointsBasic>
+  <HitPointsBasic>puntos de daño</HitPointsBasic>
   <!-- EN: Work left -->
   <WorkLeft>Trabajo restante</WorkLeft>
   <!-- EN: Contents -->
@@ -176,8 +176,8 @@
   <UsingBedrolls>usando {0} camas enrrollables</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>tiempo de llegada: {0} dias</CaravanEstimatedTimeToDestination>
-  <!-- EN: Estimated days to arrive: {0} -->
-  <CaravanEstimatedDaysToDestination>Días estimados de llegada: {0}</CaravanEstimatedDaysToDestination>
+  <!-- EN: Route travel time: {0} days -->
+  <CaravanEstimatedDaysToDestination>Tiempo de viaje de la ruta: {0} días</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>Inmobilizada: Peso excesivo.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
@@ -246,10 +246,10 @@
   <DeterioratingBecauseOf>Se deteriora debido a</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>Mapa</Map>
-  <!-- EN: {0} until leaving -->
-  <ForceExitAndRemoveMapCountdown>{0} para salida</ForceExitAndRemoveMapCountdown>
-  <!-- EN: Your colonists will automatically reform the caravan and leave this area in {0}. -->
-  <ForceExitAndRemoveMapCountdownTip>Tus colonos automáticamente reformarán la caravana y abandonarán el área al pasar {0} horas.</ForceExitAndRemoveMapCountdownTip>
+  <!-- EN: {0} until enemies arrive -->
+  <CaravanDetectedRaidCountdown>{0} hasta que los enemigos lleguen</CaravanDetectedRaidCountdown>
+  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <CaravanDetectedRaidCountdownTip>Los refuerzos enemigos llegarán a esta zona en {0}</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Habitación</Room>
   <!-- EN: Beauty here -->
@@ -368,8 +368,8 @@
   <CreatureFollowFieldwork>Sigue al dueño al trabajo de campo</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} con {1}</ProximitySingleGoodwillChange>
-  <!-- EN: You can't re-enter for another {0} days. -->
-  <EnterCooldown>No puede volver a entrar por otros {0} días.</EnterCooldown>
+  <!-- EN: Too dangerous to re-enter for {0}. -->
+  <EnterCooldown>Demasiado peligroso para volver a entrar por {0}.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Caravana</Caravan>
   <!-- EN: there may be danger there. -->
@@ -378,8 +378,6 @@
   <PreciousLumpLabel>pedazo de {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>ningún proyecto de investigación activo</NoActiveResearchProjectToFinish>
-  <!-- EN: Cannot research: No research bench -->
-  <CannotResearchNoBench>No se puede investigar: no hay banco de investigación</CannotResearchNoBench>
   <!-- EN: turret -->
   <Turret>torreta</Turret>
   <!-- EN: turrets -->
@@ -427,7 +425,7 @@
   <!-- EN: Large explosion if damaged -->
   <ExplosionOnDamageWarning>Gran explosión si está dañado</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
-  <MechCluster>clúster de mecanoides</MechCluster>
+  <MechCluster>clúster de mecas</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>generar en {0}</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1}. -->
@@ -620,6 +618,8 @@
   <WatchingAurora>mirando la aurora.</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
   <UsingVerb>usando {0} en {1}.</UsingVerb>
+  <!-- EN: using {0}. -->
+  <UsingVerbNoTarget>usando {0}</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>área</AreaLower>
   <!-- EN: cowering. -->
@@ -722,8 +722,8 @@
   <Faction>Facción</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
   <FactionDesc>La facción {PAWN_labelShort} pertenece actualmente.</FactionDesc>
-  <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
-  <ExtraFactionDesc>La facción {PAWN_labelShort} pertenece originalmente. {PAWN_pronoun} volverá a unirse a su facción de origen cuando salgan de su facción actual.</ExtraFactionDesc>
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
+  <ExtraFactionDesc>La facción {PAWN_labelShort} pertenece originalmente a.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Equipamiento</Equipped>
   <!-- EN: nothing -->
@@ -1020,9 +1020,9 @@
   <HibernateWarningStandalonePacifist>El reactor está listo para encenderse. El proceso durará unos 15 días.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: neurotrainer ({0}) -->
+  <!-- EN: skilltrainer ({0}) -->
   <SkillNeurotrainerLabel>neuro entrenador ({0})</SkillNeurotrainerLabel>
-  <!-- EN: Use skill neurotrainer to learn {0} -->
+  <!-- EN: Use skilltrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>Usa el neuro entrenador de habilidad para aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>Una superdosis de un solo uso de mecanismos que entrena una habilidad específica.\n\nLa dosis se administra a través de la órbita del ojo. Una vez liberados en el cerebro, los mecanismos mejoran rápidamente las habilidades del sujeto en un área específica, transmutándose en tejido neural según sea necesario.</SkillNeurotrainerDescription>
@@ -1163,6 +1163,10 @@
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Recursos profundos de perforación agotados.</DeepDrillExhaustedNoFallback>
 
+  <!-- reloading ammo -->
+  <!-- EN: Remaining charges -->
+  <ChargesRemaining>Cargas restantes</ChargesRemaining>
+  
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Asistente de aprendizaje</LearningHelper>
@@ -1258,10 +1262,14 @@
   <Reward_Pawn_WalkIn>un {0_age} años {0_titleIndef} llamado {0_nameDef} llegará y se unirá a usted {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>un {0_age} años {0_titleIndef} llamado {0_nameDef} se unirá a usted {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
-  <Reward_Items>llegarán cápsulas de transporte con los siguientes recursos (valor total {1}):\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n{0} -->
-  <Reward_Items_Caravan>usted recibirá (valor total {1}):\n\n{0}</Reward_Items_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):
+\n{0} -->
+  <Reward_Items>llegarán cápsulas de transporte con los siguientes recursos (valor total {1}):
+  \n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):
+\n{0} -->
+  <Reward_Items_Caravan>usted recibirá (valor total {1}):
+  \n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>tus relaciones de facción con {0_name} mejorarán en {1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
@@ -1272,6 +1280,26 @@
   <Reward_CampLoot>puedes saquear todo del campamento</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Botín de campamento</Reward_CampLoot_Label>
+  <!-- EN: the visitors will work and fight for you -->
+  <Reward_VisitorsHelp>los visitantes trabajarán y lucharán por ti</Reward_VisitorsHelp>
+  <!-- EN: Visitors' help -->
+  <Reward_VisitorsHelp_Label>Ayuda de los visitantes</Reward_VisitorsHelp_Label>
+  <!-- EN: New psylink level -->
+  <Reward_BestowingCeremony_Label>Nuevo nivel de psico-emisión</Reward_BestowingCeremony_Label>
+  <!-- EN: {PAWNNAME} gains psylink -->
+  <Reward_BestowingCeremony>{PAWNNAME} ganó una psico-emisión</Reward_BestowingCeremony>
+  <!-- EN: Shuttle loot -->
+  <Reward_ShuttleLoot_Label>Botín del transbordador</Reward_ShuttleLoot_Label>
+  <!-- EN: you can deconstruct and loot the shuttle -->
+  <Reward_ShuttleLoot>puedes deconstruir y saquear el transbordador</Reward_ShuttleLoot>
+  <!-- EN: Possible future reward -->
+  <Reward_PossibleFutureReward_Label>Posible recompensa</Reward_PossibleFutureReward_Label>
+  <!-- EN: a reward possibly granted in the future -->
+  <Reward_PossibleFutureReward>una recompensa que posiblemente se conceda en el futuro</Reward_PossibleFutureReward>
+  <!-- EN: {TITLE} title -->
+  <Reward_Title_Label>Título {TITLE}</Reward_Title_Label>
+  <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
+  <Reward_Title>{PAWNNAME} ganó el título de {TITLE} de la facción {FACTION}</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>valor {0}</TotalValue>
   
@@ -1282,6 +1310,12 @@
   <NotBonded>Aún sin vincular</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>vinclado a alguien más</BladelinkBondedToSomeoneElse>
+  <!-- EN: (existing bond) -->
+  <BladelinkAlreadyBonded>(vínculo existente)</BladelinkAlreadyBonded>
+  <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
+  <BladelinkAlreadyBondedDialog>Una persona sólo puede vincularse con la IA de un arma a la vez\n\nPara equipar y vincularse con {WEAPON_labelShort}, El arma {BONDEDWEAPON_labelShort} vinculada a {PAWN_nameDef} debe ser destruida primero.</BladelinkAlreadyBondedDialog>
+  <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} ya se encuentra vinculad{PAWN_gender ? o : a} al arma: {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
@@ -1308,6 +1342,5 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Causado por: {0}</CausedByHediff>
-  
 
 </LanguageData>
