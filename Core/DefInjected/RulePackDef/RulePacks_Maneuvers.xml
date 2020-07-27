@@ -34,36 +34,36 @@
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
   -->
   <Maneuver_Bite.rulePack.rulesStrings>
-    <li>damaged_inf->bite</li>
-    <li>damaged_inf->chomp</li>
-    <li>damaged_inf(p=0.5)->nip</li>
-    <li>damaged_past->bit</li>
-    <li>damaged_past->chomped</li>
-    <li>damaged_past->nipped</li>
-    <li>damaged_past->gnawed</li>
-    <li>damaged_past(deflected!=True)->tore</li>
-    <li>damaged_present->biting</li>
-    <li>damaged_present->chomping</li>
-    <li>damaged_present->nipped</li>
-    <li>damaged_present->gnawing</li>
-    <li>damaged_present(deflected!=True)->tearing</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exposing the flesh underneath</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving grisly tears in the skin</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->leaving grisly tears in the metal</li>
-    <li>destroyed_past->devoured</li>
-    <li>destroyed_past->separated</li>
-    <li>destroyed_past->ripped</li>
-    <li>destroyed_past->ravaged</li>
-    <li>destroyed_present->devouring</li>
-    <li>destroyed_present->separating</li>
-    <li>destroyed_present->ripping</li>
-    <li>destroyed_present->ravaging</li>
-    <li>destroyed_suffix->[to] shreds</li>
-    <li>destroyed_suffix->[to] pieces</li>
-    <li>destroyed_suffix->[to] strips</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
+    <li>damaged_inf->morder</li>
+    <li>damaged_inf->picar</li>
+    <li>damaged_inf(p=0.5)->cortar</li>
+    <li>damaged_past->mordió</li>
+    <li>damaged_past->picó</li>
+    <li>damaged_past->cortó</li>
+    <li>damaged_past->mordisqueó</li>
+    <li>damaged_past(deflected!=True)->rasgó</li>
+    <li>damaged_present->mordiendo</li>
+    <li>damaged_present->picando</li>
+    <li>damaged_present->cortando</li>
+    <li>damaged_present->mordisqueando</li>
+    <li>damaged_present(deflected!=True)->desgarrando</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exponiendo la carne que está debajo</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->exponiendo los circuitos que estás debajo</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->dejando laceraciones espeluznantes en la piel</li>
+    <li>flavortext_consequence(recipient_flesh==Mechanoid)->dejando laceraciones espeluznantes en el metal</li>
+    <li>destroyed_past->devoró</li>
+    <li>destroyed_past->separó</li>
+    <li>destroyed_past->rasgó</li>
+    <li>destroyed_past->devastó</li>
+    <li>destroyed_present->devorando</li>
+    <li>destroyed_present->separando</li>
+    <li>destroyed_present->desgarrando</li>
+    <li>destroyed_present->devastando</li>
+    <li>destroyed_suffix->[to] fragmentos</li>
+    <li>destroyed_suffix->[to] piezas</li>
+    <li>destroyed_suffix->[to] tiras</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] tiras desordenadas</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] un desastre irreconocible</li>
   </Maneuver_Bite.rulePack.rulesStrings>
   
   <!-- EN:
@@ -71,8 +71,8 @@
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] dodged out of the way.</li>
-    <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó patear [TOOL_label] a los ojos de [RECIPIENT_definite], pero [RECIPIENT_definite] simplemente lo esquivó.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó patear [TOOL_label] a los ojos de [RECIPIENT_definite], pero [RECIPIENT_definite] lo bloqueó.</li>
   </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
   <!-- EN:
@@ -80,15 +80,15 @@
     <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] kicked [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
+    <li>r_logentry->[INITIATOR_definite] pateó [TOOL_label] a los ojos de [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] pateó un aerosol de [TOOL_label] a los ojos de [RECIPIENT_definite].</li>
   </Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
+    <li>r_logentry->[INITIATOR_definite] intentó patear [TOOL_label] a los ojos de [RECIPIENT_definite], pero falló.</li>
   </Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
   
   <!-- EN:
