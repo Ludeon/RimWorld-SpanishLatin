@@ -7,8 +7,8 @@
     <li>qualityInfo-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Un asentamiento cercano, [settlement_label], tiene una solicitud comercial especial. Les gustaría comprar:\n\n[requestedThingCount]x [requestedThing_label] [qualityInfo](valor [requestedThingMarketValue_money])\n\nA cambio, [allRewardsDescriptions]\n\nSi desea realizar el intercambio, envíe una caravana con Los artículos solicitados. El tiempo de viaje estimado es [estimatedTravelTime_duration].</li>
-    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de calidad normal</li>
+    <li>questDescription->Un asentamiento cercano, [settlement_label], tiene una solicitud comercial especial. Les gustaría comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](valor [requestedThingMarketValue_money])\n\nSi quieres hacer el intercambio, envía una caravana con los artículos solicitados. El tiempo de viaje estimado es [estimatedTravelTime_duration].</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de calidad+ normal </li>
     <li>qualityInfo-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -30,18 +30,18 @@
     <li>questName->Comercio con [settlement_label]</li>
     <li>questName->Vendiendo a [settlement_label]</li>
     <li>questName->Suministros para [settlement_label]</li>
-    <li>questName->Un [trade] [special]</li>
-  	<li>questName->Una [trade_fem] [special]</li>
-	  <li>questName->Una [trade_fem] [special_fem]</li>
+    <li>questName->[trade] [special]</li>
+    <li>questName->[trade_fem] [special_fem]</li>
     <li>special->Especial</li>
+    <li>special_fem->Especial</li>
     <li>special->Único</li>
-	  <li>special_fem->Única</li>
+    <li>special_fem->Única</li>
     <li>special->No tradicional</li>
-    <li>trade->Comercio</li>
-    <li>trade->Intercambio</li>
-    <li>trade->Acuerdo</li>
-    <li>trade->Oferta</li>
-	  <li>trade_fem->Oferta</li>
+    <li>special_fem->No tradicional</li>
+    <li>trade->Un Comercio</li>
+    <li>trade->Un Intercambio</li>
+    <li>trade->Un Acuerdo</li>
+    <li>trade_fem->Una Oferta</li>
   </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <TradeRequest.LetterLabelQuestFailed.slateRef>Misión fallida: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
