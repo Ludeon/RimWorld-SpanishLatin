@@ -8,54 +8,51 @@
     <li>questDescription->Usando tu escáner de minerales de largo alcance, [worker_definite] ha encontrado una veta de [targetMineable_label] en las cercanias.\n\nDesafortunadamente, no durará por mucho tiempo - otros lo extraerán primero en [timeoutTicks_duration] si nosotros no lo hacemos antes.\n\n[allSitePartsDescriptionsExceptFirst]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->The [subName]</li>
-    <li>questName->[subName]</li>
-    <li>subName->[adj] Resources</li>
-    <li>subName->[adj] Minerals</li>
-    <li>subName->[adj] Ores</li>
-    <li>subName->[adj] Wealth</li>
-    <li>subName->[adj] Mineables</li>
-    <li>subName->[adj] Lump</li>
-    <li>subName->[adj] Mining Project</li>
-    <li>adj->Distant</li>
-    <li>adj->Far</li>
-    <li>adj->Long-Range</li>
-    <li>adj->Unknown</li>
-    <li>adj->Discovered</li>
-    <li>adj->Scanned</li>
-    <li>adj->Detected</li>
-    <li>adj->Found</li>
+    <li>questName->[lump] of [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [lump]</li>
+    <li>questName->The [targetMineable_label] [lump]</li>
+    <li>questName->[adj] [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>lump->lump</li>
+    <li>lump->pile</li>
+    <li>lump->deposit</li>
+    <li>lump->seam</li>
+    <li>lump->chunk</li>
+    <li>lump->pile</li>
+    <li>adj->distant</li>
+    <li>adj->far</li>
+    <li>adj->unknown</li>
+    <li>adj->scanned</li>
+    <li>discovered->discovered</li>
+    <li>discovered->detected</li>
+    <li>discovered->found</li>
+    <li>discovered->scanned</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->Los [subName_mas]</li>
-	  <li>questName->Las [subName_fem]</li>
-    <li>questName->[subName_mas]</li>
-	  <li>questName->[subName_fem]</li>
-    <li>subName_mas->Recursos [adj]</li>
-    <li>subName_mas->Minerales [adj]</li>
-    <li>subName_fem->Vetas [adj_fem]</li>
-   	<li>subName_fem->Vetas [adj_neu]</li>
-    <li>subName_fem->Riquezas [adj_fem]</li>
-	  <li>subName_fem->Riquezas [adj_neu]</li>
-    <li>subName_mas->Mineables [adj]</li>
-    <li>subName_mas->terrones [adj]</li>
-    <li>subName_mas->Proyectos Mineros [adj]</li>
-    <li>adj->Distantes</li>
-    <li>adj->Lejanos</li>
-    <li>adj->Remotos</li>
-    <li>adj->Desconocidos</li>
-    <li>adj->Descubiertos</li>
-    <li>adj->Escaneados</li>
-    <li>adj->Detectados</li>
-    <li>adj->Encontrados</li>
-  	<li>adj_fem->Lejanas</li>
-	  <li>adj_fem->Remotas</li>
-    <li>adj_fem->Desconocidas</li>
-    <li>adj_fem->Descubiertas</li>
-    <li>adj_fem->Escaneadas</li>
-    <li>adj_fem->Detectadas</li>
-    <li>adj_fem->Encontradas</li>
-	  <li>adj_neu->Distantes</li>
+    <li>questName->[lump_Cap] de [targetMineable_label]</li>
+    <li>questName->Un gran depósito de [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [adj]</li>
+    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>lump->masa</li>
+    <li>lump->pila</li>
+    <li>lump->deposito</li>
+    <li>lump->veta</li>
+    <li>lump->trozo</li>
+    <li>lump->porción</li>
+    <li>lump_Cap->Una masa</li>
+    <li>lump_Cap->Una pila</li>
+    <li>lump_Cap->Un depósito</li>
+    <li>lump_Cap->Una veta</li>
+    <li>lump_Cap->Un trozo</li>
+    <li>lump_Cap->Una porción</li>
+    <li>adj->distante</li>
+    <li>adj->remoto(a)</li>
+    <li>adj->desconocido(a)</li>
+    <li>adj->escaneado(a)</li>
+    <li>discovered->descubierto(a)</li>
+    <li>discovered->detectado(a)</li>
+    <li>discovered->encontrado(a)</li>
+    <li>discovered->escaneado(a)</li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>La misión expiró: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
