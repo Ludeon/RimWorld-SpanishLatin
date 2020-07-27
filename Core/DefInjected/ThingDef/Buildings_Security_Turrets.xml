@@ -69,11 +69,11 @@
   <Turret_Sniper.label>cañón de uranio</Turret_Sniper.label>
   <!-- EN: An armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
   <Turret_Sniper.description>Una torreta francotirador automática de muy largo alcance. Sus proyectiles de alta velocidad causan grandes daños en distancias muy largas, pero requiere cambios de barril frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado.</Turret_Sniper.description>
-  <!-- EN: Barrel durability -->
-  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>Durabilidad del barril</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Uranium slugs -->
+  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>balas de uranio</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until rearm -->
-  <Turret_Sniper.comps.CompRefuelable.fuelLabel>Disparos hasta el cambio de barril</Turret_Sniper.comps.CompRefuelable.fuelLabel>
-  <!-- EN: Cannot shoot: Needs rearm -->
-  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>No puede disparar: Necesita barril nuevo</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
+  <Turret_Sniper.comps.CompRefuelable.fuelLabel>Disparos antes de recargar</Turret_Sniper.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: No slugs -->
+  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>No puede disparar: No hay balas</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
   
 </LanguageData>
