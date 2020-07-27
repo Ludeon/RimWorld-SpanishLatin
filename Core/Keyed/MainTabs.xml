@@ -90,6 +90,8 @@
   <EnemyOf>Enemigo de:</EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Situación actual de buena voluntad y relaciones con esta facción.</CurrentGoodwillTip>
+  <!-- EN: Current relations with this faction. -->
+  <CurrentRelationTip>Las relaciones actuales con esta facción.</CurrentRelationTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Esta facción es permanentemente hostil. Asaltarán tus asentamientos y caravanas. Las relaciones con ellos nunca mejorarán por ningún motivo.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -240,6 +242,10 @@
   <ShuttleDepartsIn>El servicio de traslado sale en {0}</ShuttleDepartsIn>
   <!-- EN: Shuttle departs on {0} -->
   <ShuttleDepartsOn>El servicio de traslado sale el {0}</ShuttleDepartsOn>
+  <!-- EN: Guests depart in {0} -->
+  <GuestsDepartsIn>Los invitados parten en {0}</GuestsDepartsIn>
+  <!-- EN: Guests depart on {0} -->
+  <GuestsDepartsOn>Los invitados parten en {0}</GuestsDepartsOn>
   <!-- EN: Finished {0} ago -->
   <QuestFinishedAgo>Terminó hace {0}</QuestFinishedAgo>
   <!-- EN: Accept quest -->
@@ -270,8 +276,14 @@
   <QuestBedroomRequirementsUnsatisfied>habitaciones libres que satisfacen los requisitos de título de</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
   <QuestBedroomRequirementsUnsatisfiedSingle>un dormitorio gratis que cumpla con los requisitos de título de</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestThroneRoomRequirementsUnsatisfied>un salón de trono que cumpla los requisitos del título de {TITLE} de {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestNoThroneRoom>un salón de trono que cumpla los requisitos del título de {TITLE} de {PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0}. -->
   <QuestNoColonistWithTitle>Un colono con el título de {0}.</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} must be in home colony -->
+  <QuestPawnNotOnColonyMap>{PAWN_definite} debe estar en su colonia natal</QuestPawnNotOnColonyMap>
   <!-- EN: Reward preferences -->
   <ChooseRewards>Elige recompensas</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -279,7 +291,7 @@
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
   <AcceptRoyalFavor>Aceptar {FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
-  <AcceptRoyalFavorDesc>Ya sea que desee ser recompensado con {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSi está desactivado, la facción {FACTION_name} ofrecerá otros tipos de recompensas. \n \nEsta configuración solo afecta a las misiones recién llegadas.</AcceptRoyalFavorDesc>
+  <AcceptRoyalFavorDesc>Ya sea que desee ser recompensado con {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSi está desactivado, la facción {FACTION_name} ofrecerá otros tipos de recompensas.\n\nEsta configuración solo afecta a las misiones recién llegadas.</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
   <AcceptGoodwill>Aceptar buena voluntad</AcceptGoodwill>
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
@@ -292,6 +304,10 @@
   <GoodwillTip>Tu buena voluntad con {0_name} mejorará en {1}.\n\nBuena voluntad actual: {4} ({5}).\n\nLa buena voluntad mide la relación general entre facciones. Si cae por debajo de {2}, la facción se vuelve hostil y atacará tus asentamientos y caravanas. Si se eleva por encima de {3}, la facción se convertirá en tu aliada y enviará luchadores para ayudarte cuando puedan. De lo contrario, la facción permanece neutral y comerciará y hablará contigo libremente.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} se une</PawnQuestReward>
+  <!-- EN: Betrayal offer: {0} targets remain -->
+  <QuestBetrayalOffer>Oferta de traición: Quedan {0} objetivos</QuestBetrayalOffer>
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>{0} le concederá una recompensa por matar a todos los miembros de {1}.</QuestBetrayalOfferTip>
   
   <!-- Health tab -->
   <!-- EN: Creates need -->
