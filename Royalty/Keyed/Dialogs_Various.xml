@@ -52,6 +52,8 @@
   <!-- Royal weapons -->
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
   <BladelinkEquipWarning>Una vez unida a un portador, la IA del arma se negará a ser manejada por nadie más.</BladelinkEquipWarning>
+  <!-- EN: The weapon has the following traits -->
+  <BladelinkEquipWarningTraits>El arma tiene los siguientes rasgos</BladelinkEquipWarningTraits>
   <!-- EN: Are you sure you want to equip this item? -->
   <RoyalWeaponEquipConfirmation>¿Estás seguro de que quieres equipar este objeto?</RoyalWeaponEquipConfirmation>
   
@@ -72,5 +74,7 @@
   <RoyalWithTraitAffectingPsylinkNegatively>Como {PAWN_labelShort} es {2}, el uso de poderes psíquicos podrían no serle para nada útiles.</RoyalWithTraitAffectingPsylinkNegatively>
   <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain the psycast anyways? -->
   <PsylinkTooLowForGainAbility>El nivel de enlace psíquico de {PAWN_labelShort} no es lo bastante alto para usar {ABILITY}.\n\n¿Quieres que aprenda la psico-emisión de todas formas?</PsylinkTooLowForGainAbility>
+  <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
+  <SendShuttleWithNoContents>Este transbordador está vacío. Si lo envías lejos, no podrás usarlo de nuevo.\n\n¿Enviarlo de todas formas?</SendShuttleWithNoContents>
 
 </LanguageData>
