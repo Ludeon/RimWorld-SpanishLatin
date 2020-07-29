@@ -36,4 +36,36 @@
   <!-- EN: Royal title factor -->
   <RecruitmentValueFactorRoyal>Factor título de nobleza</RecruitmentValueFactorRoyal>
   
+  <!-- Permits tab -->
+  <!-- EN: Permits -->
+  <TabPermits>Permisos</TabPermits>
+  <!-- EN: Permits from {FACTION_name} -->
+  <PermitsFromFaction> Permisos para {FACTION_name}</PermitsFromFaction>
+  <!-- EN: Current title -->
+  <CurrentTitle>Título actual</CurrentTitle>
+  <!-- EN: Unused permit points -->
+  <UnusedPermits>Puntos de permiso no utilizados</UnusedPermits>
+  <!-- EN: Return all permits -->
+  <ReturnAllPermits>Devolver todos los permisos</ReturnAllPermits>
+  <!-- EN: {PAWN_nameDef} has no permits to return. -->
+  <NoPermitsToReturn>{PAWN_nameDef} no tiene permiso para devolver.</NoPermitsToReturn>
+  <!-- EN: Returning permits requires {FAVORCOST} {FAVOR} but {PAWN_nameDef} only has {CURFAVOR}. -->
+  <NotEnoughFavor>Devolver los permisos requiere {FAVORCOST} {FAVOR} pero {PAWN_nameDef} sólo tiene {CURFAVOR}.</NotEnoughFavor>
+  <!-- EN: Return all previously-chosen permits for this faction. You will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
+  <ReturnAllPermits_Desc>Devuelva todos los permisos previamente elegidos para esta facción. Recuperarás todos los puntos de permiso gastados y podrás gastarlos de nuevo.\n\nEsta acción cuesta {BASEFAVORCOST} {FAVOR}, más el costo de reinicio de cualquier permiso actualmente en fase de enfriamiento. El coste total ahora es {FAVORCOST}.</ReturnAllPermits_Desc>
+  <!-- EN: Return all previously-chosen permits for {FACTION_name}?\n\nYou will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
+  <ReturnAllPermits_Confirm>¿Devolver todos los permisos previamente elegidos para la facción {FACTION_name}?.\n\nRecuperarás todos los puntos de permiso gastados y podrás volver a gastarlos.\n\nEsta acción cuesta {BASEFAVORCOST} {FAVOR}, más el costo de reinicio de cualquier permiso actualmente en fase de enfriamiento. El costo total ahora es {FAVORCOST}.</ReturnAllPermits_Confirm>
+  <!-- EN: Switch faction -->
+  <SwitchFaction_Desc>Cambiar de facción</SwitchFaction_Desc>
+  <!-- EN: Accept permit -->
+  <AcceptPermit>Aceptar el permiso</AcceptPermit>
+  <!-- EN: Requires title: {0} -->
+  <RequiresTitle>Requiere el título: {0}</RequiresTitle>
+  <!-- EN: Upgrade from: {0} -->
+  <UpgradeFrom>Actualizar desde: {0}</UpgradeFrom>
+  <!-- EN: Cooldown -->
+  <Cooldown>Enfriamiento</Cooldown>
+  <!-- EN: {HONOR} cost if used during cooldown -->
+  <CooldownUseFavorCost>{HONOR} costo si se usa durante el enfriamiento</CooldownUseFavorCost>
+  
 </LanguageData>
