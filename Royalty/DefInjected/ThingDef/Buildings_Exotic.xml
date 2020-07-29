@@ -1,9 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: broadshield projector -->
+  <BroadshieldProjector.label>proyector de escudo ancho</BroadshieldProjector.label>
+  <!-- EN: A temporary bullet shield projector. Bullets can go out, but not in. It burns out after a few seconds of use. -->
+  <BroadshieldProjector.description>Un proyector de escudo antibalas temporal. Las balas pueden salir, pero no entrar. Se agota después de unos segundos de uso.</BroadshieldProjector.description>
+  <!-- EN: Burnout in -->
+  <BroadshieldProjector.comps.CompDestroyAfterDelay.countdownLabel>Agotandose en</BroadshieldProjector.comps.CompDestroyAfterDelay.countdownLabel>
+  
   <!-- EN: shuttle -->
   <Shuttle.label>transbordador</Shuttle.label>
   <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
   <Shuttle.description>Un transbordador espacial diseñado para viajar entre la superficie terrestres y la órbita espacial, o entre las lunas de un sistema planetario.</Shuttle.description>
+  
+  <!-- EN: crashed shuttle -->
+  <ShuttleCrashed.label>transbordador estrellado</ShuttleCrashed.label>
+  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
+  <ShuttleCrashed.description>Un transbordador de tecnología espacial diseñado para el tránsito entre la superficie y la órbita, o entre las lunas de un sistema planetario.</ShuttleCrashed.description>
   
 </LanguageData>
