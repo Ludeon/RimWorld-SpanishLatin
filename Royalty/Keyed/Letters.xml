@@ -7,6 +7,9 @@
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
   <LetterLabelGainedRoyalTitle>Título ({TITLE}) recibido: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
+  <!-- EN: Permit points awarded: {0}. -->
+  <PermitPointsAwarded>Puntos de permiso concedidos: {0}.</PermitPointsAwarded>
+
   <!-- EN: This title requires apparel of {1} quality or better. -->
   <LetterRoyalTitleApparelQualityRequirement>{PAWN_pronoun} debe usar ropa de calidad {1} o mejor.</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
@@ -15,7 +18,7 @@
   <LetterRoyalTitleExpectation>Sus expectativas nunca serán más bajas que {1}.</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>Debido a que {PAWN_labelShort} es {1}, {PAWN_pronoun} exige que sus privilegios de título sean completamente respetados, {PAWN_pronoun} puede rechazar hacer cierto tipos de trabajo, comer comida de clase baja y emitirá decretos.  </LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>Debido a que {PAWN_labelShort} es {1}, {PAWN_pronoun} exige que sus privilegios de título sean completamente respetados, {PAWN_pronoun} puede rechazar hacer cierto tipos de trabajo, comer comida de clase baja y emitirá decretos.</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>¡{PAWN_labelShort} recibió el título {TITLE} de la facción {FACTION_name}!</LetterGainedRoyalTitle>
@@ -23,8 +26,8 @@
   <LetterLostRoyalTitle>{PAWN_labelShort} ya no posee el título {TITLE} de la facción {FACTION_name}.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>Recompensas del título</LetterLabelRewardsForNewTitle>
-  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
-  <LetterRewardsForNewTitle>Para honrar la promoción de {PAWN_labelShort} al título de {TITLE}, la facción {FACTION_name} a enviado a las siguientes recompensa(s):   </LetterRewardsForNewTitle>
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
+  <LetterRewardsForNewTitle>Para honrar la promoción de {PAWN_labelShort} al título de {TITLE}, la facción {FACTION_name} le ha enviado esta(s) recompensa(s):</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
   <LetterRewardsForNewTitleDeliveryBase>Las recompensas han llegado a tu colonia mediante cápsulas de transporte.</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
@@ -48,15 +51,15 @@
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
   <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} ya no tiene permiso para usar los siguientes implantes:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
-  <LetterRoyalTitleImplantGracePeriod>Los implantes deben extraerse dentro de los cinco días siguientes para evitar consecuencias diplomáticas..</LetterRoyalTitleImplantGracePeriod>
+  <LetterRoyalTitleImplantGracePeriod>Los implantes deben ser extraídos dentro de un período de gracia de cinco días para evitar consecuencias diplomáticas.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
-  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun} puede dar ahora discursos desde el trono. Si todo va bien, los oyentes se sentirán inspirados. De salir mal, el discurso infligirá un daño social. El resultado dependerá de la habilidad social de {PAWN_labelShort}.</LetterRoyalTitleSpeechAbilityGained>
+  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun} puede dar ahora discursos desde el trono. Si todo va bien, los oyentes se sentirán inspirados. De salir mal, el discurso infligirá un daño social. El resultado dependerá de las habilidades sociales de {PAWN_labelShort}.</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
   <LetterRoyalTitleThroneroomRequirements>Este título requiere un salón del trono que cumpla con los siguientes requisitos:{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
   <LetterRoyalTitleBedroomRequirements>Este título requiere una habitación que cumplan los siguientes requisitos:{1}</LetterRoyalTitleBedroomRequirements>
   <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
-  <LetterRoyalTitleFoodRequirements>Este título dice que {PAWN_pronoun} solo comerá lo siguiente:{1}</LetterRoyalTitleFoodRequirements>
+  <LetterRoyalTitleFoodRequirements>Este titulo dice que {PAWN_pronoun} solo comerá lo siguiente:{1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>{PAWN_pronoun} recibirá los siguientes artículos a través de cápsulas de transporte:{1}</LetterRoyalTitleRewardGranted>
@@ -65,7 +68,7 @@
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>Si {PAWN_pronoun} muere, este título será heredado a {HEIR_nameFull}.</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>Si {PAWN_pronoun} muere, este título será heredado por {HEIR_nameFull}.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
   <LetterRoyalTitleNoHeir>Si {PAWN_pronoun} muere, nadie heredará este título.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
@@ -109,6 +112,10 @@
   <LetterEncouragingSpeech>Fue alentador y con una buena presentación.</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
   <LetterInspirationalSpeech>Fue extraordinariamente alentador, lleno de intensidad y determinación.</LetterInspirationalSpeech>
+  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
+  <LetterSpeechInspiredListeners>Las siguientes personas se conmovieron particularmente por el discurso y ahora están inspiradas:</LetterSpeechInspiredListeners>
+  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterSpeechInspiration>Gracias al extraordinario discurso de {SPEAKER_nameIndef}, ¡{PAWN_nameIndef} ha experimentado una inspiración!</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>Dado que el discurso fue interrumpido después de {0} no fue muy efectivo.</LetterSpeechInterrupted>
   <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
@@ -123,12 +130,10 @@
   <LetterLabelRandomDecree>{0_nameIndef} emite decreto</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}, en un intento de aliviar su estrés, emitió un decreto real salvaje y ahora exige que se cumpla.
-  \nSi no se cumple a tiempo, {0_nameIndef} va a ser muy infeliz.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}, en un intento de aliviar su estrés, emitió un decreto real salvaje y ahora exige que se cumpla.\n    \nSi no se cumple a tiempo, {0_nameIndef} se volverá muy infeliz.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef} para afirmar su título de {0_bestRoyalTitleIndef}, ha emitido un decreto y ahora exige que se cumpla.
-  \nSi no se cumple a tiempo, {0_nameIndef} va a ser muy infeliz.</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}, para afirmar su título de {0_bestRoyalTitleIndef}, ha emitido un decreto y ahora exige que se cumpla.\n     \nSi no se cumple a tiempo, {0_nameIndef} se volverá muy infeliz.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>El decreto se titula "{0}".</LetterDecree_Quest>
   
@@ -138,14 +143,40 @@
 
   <!-- Psylink -->
   <!-- EN: Psylink gained -->
-  <LetterLabelPsylinkLevelGained>enlace psíquico ganado</LetterLabelPsylinkLevelGained>
-  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psycasts, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>¡{USER_labelShort} ha ganado su primer nivel de enlace psíquico! {USER_pronoun} ahora es un psíco-emisor.\n\nPara usar psíco-emisiones, {USER_labelShort} debe desarrollar el psícofoco mediante la meditación. La efectividad de esta meditación aumenta si la persona puede enfocarse en un objeto específico mientras medita.\n\nDiferentes personas pueden enfocarse en diferentes objetos. Esto depende de los antecedentes, rasgos y títulos de la persona. Por ejemplo:\n\n- Psíco-emisores con títulos reales meditan en sus tronos.\n- Psíco-emisores con infancias tribales meditan en árboles ánima y santuarios naturales.\n- Psíco-emisores ascéticos meditan en paredes en blanco.\n- Psíco-emisores psicopáticos meditan en tumbas, idealmente con un ser querido adentro.\n\nPuede ver los tipos de enfoque de meditación de alguien mirando su tarjeta de información con el botón 'i'.</LetterPsylinkLevelGained_First>
-  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psycasts of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>¡{USER_labelShort} ha ganado un nuevo nivel de enlace psíquico! {USER_pronoun} ahora puede usar psíco-emisiones de ese nivel superior, pero {USER_pronoun} necesita aprenderlos primero.</LetterPsylinkLevelGained_NotFirst>
-  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned this psycast: {2}. -->
+  <LetterLabelPsylinkLevelGained>Enlace psíquico ganado</LetterLabelPsylinkLevelGained>
+  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
+  <LetterPsylinkLevelGained_First>¡{USER_labelShort} ha ganado su primer nivel de enlace psíquico! {USER_pronoun} ahora es un psíco-emisor.\n\nPara usar los poderes psíquicos, {USER_labelShort} debe desarrollar el psícofoco mediante la meditación. La efectividad de esta meditación aumenta si la persona puede enfocarse en un objeto específico mientras medita.\n\nDiferentes personas pueden enfocarse en diferentes objetos. Esto depende de los antecedentes, rasgos y títulos de la persona. Por ejemplo:\n\n- Psíco-emisores con títulos reales meditan en sus tronos.\n- Psíco-emisores con infancias tribales meditan en árboles ánima y santuarios naturales.\n- Psíco-emisores ascéticos meditan en paredes en blanco.\n- Psíco-emisores psicopáticos meditan en tumbas, idealmente con un ser querido adentro.\n\nPuede ver los tipos de enfoque de meditación de alguien mirando su tarjeta de información con el botón 'i'.</LetterPsylinkLevelGained_First>
+  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
+  <LetterPsylinkLevelGained_NotFirst>¡{USER_labelShort} ha ganado un nuevo nivel de enlace psíquico! {USER_pronoun} ahora puede usar poderes psíquicos de ese nivel superior, pero {USER_pronoun} necesita aprenderlos primero.</LetterPsylinkLevelGained_NotFirst>
+  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
   <LetterPsylinkLevelGained_PsycastLearned>Al obtener el nuevo nivel de enlace psíquico, {USER_labelShort} aprendió automáticamente esta psico-emisión: {2}.</LetterPsylinkLevelGained_PsycastLearned>
-
   
+  <!-- Abilities -->
+  <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterPsychicInspiration>Gracias a la sugerencia psíquica de {CASTER_nameIndef}, ¡{PAWN_nameIndef} ha experimentado una inspiración!</LetterPsychicInspiration>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>Oferta de reclutamiento:  {PAWN_nameDef}</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>{PAWN_nameDef} desea unirse a tu facción.</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>{PAWN_nameDef} cree que {PAWN_pronoun} es feliz en {MAP_definite} y desea unirse a ti permanentemente.</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>Aceptar</LetterJoinOfferAccept>
+
+  <!-- EN: Bestowing ceremony expired -->
+  <LetterLabelBestowingCeremonyExpired>La ceremonia de concesión expiró</LetterLabelBestowingCeremonyExpired>
+  <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite} no se presentó a la ceremonia de concesión. La ceremonia ha sido cancelada.</LetterTextBestowingCeremonyExpired>
+
+  <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
+  <LetterTextHonorAward_BanditCamp>¿A quién se le debe acreditar {0} por haber derrotado el campamento de los bandidos?</LetterTextHonorAward_BanditCamp>
+
+  <!-- Shuttle crash -->
+  <!-- EN: Shuttle crashed -->
+  <LetterLabelShuttleCrashed>El transbordador se estrelló</LetterLabelShuttleCrashed>
+  <!-- EN: A shuttle has crashed nearby -->
+  <LetterTextShuttleCrashed>Un transbordador se ha estrellado cerca</LetterTextShuttleCrashed>
 
 </LanguageData>
