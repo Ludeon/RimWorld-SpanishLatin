@@ -1242,7 +1242,7 @@
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>Calor neuronal: {0} / {1}\nVelocidad de caída: {2} / s ({3}s hasta cero)</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>El calor neuronal aumenta después de realizar una psico-emisión. Superar el límite normal puede causar un colapso psíquico que dura días.\n\nEl calor neuronal se disipa naturalmente con el tiempo. Este proceso puede acelerarse usando ropa eltex o sufriendo dolor.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Aumento del dolor\n\nEl dolor enfoca la mente y acelera la disipación del calor neural.\n\nNivel de dolor: {0} \nBono a la recuperación del calor: {1}</PawnTooltipPsychicEntropyPainFocus>
@@ -1309,7 +1309,7 @@
   <!-- EN: Not yet bonded -->
   <NotBonded>Aún sin vincular</NotBonded>
   <!-- EN: bonded to someone else -->
-  <BladelinkBondedToSomeoneElse>vinclado a alguien más</BladelinkBondedToSomeoneElse>
+  <BladelinkBondedToSomeoneElse>vinculado a alguien más</BladelinkBondedToSomeoneElse>
   <!-- EN: (existing bond) -->
   <BladelinkAlreadyBonded>(vínculo existente)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
@@ -1342,5 +1342,5 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Causado por: {0}</CausedByHediff>
-
+  
 </LanguageData>
