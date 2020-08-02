@@ -21,9 +21,9 @@
   <!-- EN: Use psytrainer to learn {0} psycast -->
   <PsycastNeurotrainerUseLabel>Usa el psicoentrenador para aprender la psico-emisión {0}.</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Una superdosis única de mecanitas, que enseñan una psico-emisión especifica.\n\nLa dosis se administrada a través de la cornea del ojo. Una vez que están en el cerebro del usuario, las mecanitas forman el conocimiento de una habilidad de psico-emisión específica, transmutándose en tejido neuronal según sea necesario.</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Una superdosis única de mecanitas, que enseñan un poder psíquico especifico.\n\nLa dosis se administrada a través de la cornea del ojo. Una vez que están en el cerebro del usuario, las mecanitas forman el conocimiento de una habilidad específica, transmutándose en tejido neuronal según sea necesario.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} Usó el neuro-entrenador para aprender la habilidad {1}.</AbilityNeurotrainerUsed>
+  <AbilityNeurotrainerUsed>{USER_labelShort} Usó el neuro-entrenador para aprender el poder {1}.</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
   <PsycastNeurotrainerNoPsylink>Requiere enlace psíquico</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
@@ -50,12 +50,11 @@
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>Psícofoco</PsyfocusLabelGizmo>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>El Psícofoco es un tipo especial de estructuración mental que es necesario para usar los poderes psíquicos. El psícofoco se disipa con el tiempo y debe construirse mediante la meditación regular. Perder todo el psícofoco hace que alguien sea incapaz de usar habilidades psíquicas, pero no tiene otras consecuencias.\n\nNiveles más altos de psícofoco permiten usar habilidades de nivel superior, pero también aumentan la tasa de disipación del psícofoco.</PsyfocusDesc>
+  <PsyfocusDesc>El Psícofoco es un tipo especial de estructuración mental que es necesario para usar los poderes psíquicos. El psícofoco se disipa con el tiempo y debe construirse mediante la meditación regular. Perder todo el psícofoco hace que alguien sea incapaz de usar poderes psíquicas, pero no tiene otras consecuencias.\n\nNiveles más altos de psícofoco permiten usar poderes de nivel superior, pero también aumentan la tasa de disipación del psícofoco.</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
-  <!-- Chequear bien a que se refiere y borrar este mensaje -->
   <!-- EN: Up to level {0} powers. -->
-  <PsyfocusLevelInfoPsycasts>Hasta el nivel {0} de psíco-emisión</PsyfocusLevelInfoPsycasts>
+  <PsyfocusLevelInfoPsycasts>Hasta los poderes de nivel {0}.</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
   <PsyfocusLevelInfoFallRate>El psícofoco decrece en {0} diariamente</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
