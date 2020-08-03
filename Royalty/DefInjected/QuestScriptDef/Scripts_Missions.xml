@@ -2,11 +2,17 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->Pirates have set up an outpost and are harassing caravans of [asker_faction_name]. [asker_nameDef] is planning an aerial assault on the outpost. [asker_pronoun] wants you to provide [soldiers] for the attack.\n\n[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward.\n\nOnce the attack begins, you must defeat all enemies and turrets within [timeoutTicks_duration].</li>
+    <li>questDescription->[enemiesLabel] have set up a camp and are harassing caravans of [asker_faction_name]. [asker_nameDef] is planning an aerial assault on the camp, which is guarded by [enemiesCount] [enemiesLabel]. [asker_pronoun] wants you to provide [soldiers] to carry out the attack.\n\n[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward. They will be fed en-route.\n\nOnce the attack begins, you must defeat all enemies and turrets within [timeoutTicks_duration].</li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
-  <Mission_BanditCamp.questDescriptionRules.rulesStrings>TODO</Mission_BanditCamp.questDescriptionRules.rulesStrings>
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->[enemiesLabel] han establecido un campamento y están acosando a las caravanas de la facción [asker_faction_name]. [asker_nameDef] está planeando un asalto aéreo al campamento, que está custodiado por [enemiesCount] [enemiesLabel]. [asker_pronoun] quiere que proveas de [soldiersDefs] [soldiers] para llevar a cabo el ataque.\n\n[asker_pronoun] enviará un transbordador para recoger a tus luchadores, llevarlos al lugar del ataque y regresarlos a casa después. Serán alimentados en ruta.\n\nUna vez que el ataque comience, debes derrotar a todos los enemigos y torretas dentro de [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldados</li>
+    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldado</li>
+    <li>soldiersDefs(requiredPawnCount>1)->[requiredPawnCount] un</li>
+    <li>soldiersDefs(requiredPawnCount==1)->[requiredPawnCount] unos</li>
+  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
     <li>questName->[asker_nameDef]'s [questNameInner]</li>
@@ -24,6 +30,22 @@
     <li>work->work</li>
     <li>work->job</li>
   -->
-  <Mission_BanditCamp.questNameRules.rulesStrings>TODO</Mission_BanditCamp.questNameRules.rulesStrings>
+  <Mission_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->[questNameInner]</li>
+    <li>questName->El [questNameInner] de [asker_nameDef]</li>
+    <li>questNameInner->[attack] [aerial]</li>
+    <li>questNameInner->[attack] [target]</li>
+    <li>questNameInner->[attack] [work]</li>
+    <li>target->al campamento</li>
+    <li>target->a la base</li>
+    <li>target->a la fortaleza</li>
+    <li>aerial->aéreo</li>
+    <li>aerial->volador</li>
+    <li>aerial->aerotransportado</li>
+    <li>attack->ataque</li>
+    <li>attack->asalto</li>
+    <li>work->por dinero</li>
+    <li>work->contratado</li>
+  </Mission_BanditCamp.questNameRules.rulesStrings>
   
 </LanguageData>
