@@ -41,75 +41,124 @@
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
   -->
   <GlobalUtility.rulePack.rulesFiles>
-    <li>RomanNumeral->Words/Misc/Numbers_SmallRoman</li>
+      <!-- Donde se usan generalmente estos archivos-->
+      <!-- Adjetivos:-->
+    <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
+    <li>AdjectiveBadass->Words/Adjectives/Badass</li>
+    <li>AdjectiveBadass_Fem->Words/Adjectives/Badass_Fem</li>
+    <li>AdjectiveBadass_Plural->Words/Adjectives/Badass_Plural</li>
+    <li>AdjectiveFriendly->Words/Adjectives/Friendly</li>
+    <li>AdjectiveLarge->Words/Adjectives/Large</li>
+    <li>AdjectiveLargeFem->Words/Adjectives/Large_Fem</li>
+    <li>AdjectiveNatural->Words/Adjectives/Natural</li>
+    <li>AdjectiveNaturalFem->Words/Adjectives/Natural_Fem</li>
+    <!-- Animales:-->
+    <li>Animal->Words/Nouns/Animals</li>
+    <li>Animal_Fem->Words/Nouns/Animals_Fem</li>
+    <li>Animal_FemPlural->Words/Nouns/Animals_FemPlural</li>
+    <li>Animal_Plural->Words/Nouns/Animals_Plural</li>
+    <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
+    <li>AnimalBadass_Fem->Words/Nouns/Animals_Badass_Fem</li>
+    <li>AnimalBadass_FemPlural->Words/Nouns/Animals_Badass_FemPlural</li>
+    <li>AnimalBadass_Plural->Words/Nouns/Animals_Badass_Plural</li>
+    <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
+     <!--Vestimenta:-->
+    <li>Apparel->Words/Nouns/Apparel</li>
+    <li>Apparel_Fem->Words/Nouns/Apparel_Fem</li>
+    <!--Arte:-->
+    <li>Artwork->Words/Nouns/Artworks</li>
+    <!--Partes del Cuerpo:-->
+    <li>BodyPart->Words/Nouns/Bodyparts</li>
+    <li>BodyPart_Fem->Words/Nouns/Bodyparts_Fem</li>
+    <!--Negocios:-->
     <li>BusinessType->Words/Nouns/BusinessTypes</li>
     <li>BusinessType_Cap->Words/Nouns/BusinessTypes_Cap</li>
-    <li>BusinessType_Feminine->Words/Nouns/BusinessTypes_Feminine</li>
-    <li>BusinessType_Feminine_Cap->Words/Nouns/BusinessTypes_Feminine_Cap</li>
-    <li>Direction->Words/Adjectives/CompassDirections</li>
-    <li>Letter->WordParts/CapitalLetters</li>
-    <li>SylB->WordParts/Syllables_Byzantinian</li>
-    <li>SylE->WordParts/Syllables_English</li>
-    <li>SylG->WordParts/Syllables_Galician</li>
-    <li>SylB_Cap->WordParts/Syllables_Byzantinian_Cap</li>
-    <li>SylE_Cap->WordParts/Syllables_English_Cap</li>
-    <li>SylG_Cap->WordParts/Syllables_Galician_Cap</li>
-    <li>tribal_word_file_Cap->Words/Foreign/Tribal_Cap</li>
+    <li>BusinessType_Fem->Words/Nouns/BusinessTypes_Fem</li>
+    <li>BusinessType_FemCap->Words/Nouns/BusinessTypes_FemCap</li>
+    <li>BusinessType_Plural->Words/Nouns/BusinessTypes_Plural</li>
+    <li>BusinessType_PluralCap->Words/Nouns/BusinessTypes_PluralCap</li>
+    <!--Colores:-->
     <li>Color->Words/Nouns/Colors</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
-    <li>Vegetable->Words/Nouns/Vegetables</li>
-    <li>Vegetable_Feminine->Words/Nouns/Vegetables_Feminine</li>
+    <li>Color_Fem->Words/Nouns/Colors_Fem</li>  
+     <!--Comunidades:-->
+    <li>Community->Words/Nouns/Communities</li>
+    <li>Community_Fem->Words/Nouns/Communities_Fem</li>
+     <!--Conceptos:-->
+    <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
+    <li>ConceptAngsty_Fem->Words/Nouns/Concepts_AngstyFem</li>
+    <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
+    <li>ConceptBadass_Fem->Words/Nouns/Concepts_BadassFem</li>
+    <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
+    <li>ConceptPositive_Fem->Words/Nouns/Concepts_PositiveFem</li>
+    <!--Direcciones:-->
+    <li>Direction->Words/Adjectives/CompassDirections</li>
+    <!--Enemigos:-->
+    <li>Enemy->Words/Nouns/Enemies</li>
+    <!--Juegos:-->
     <li>Game->Words/Nouns/Games</li>
-    <li>Game_Prural->Words/Nouns/Games_Plural</li>
-    <li>Game_Feminine->Words/Nouns/Games_Feminine</li>
+    <li>Game_Fem->Words/Nouns/Games_Fem</li>
     <li>Game_FemPlural->Words/Nouns/Games_FemPlural</li>
-    <li>GroupName_Masculine->Words/Nouns/GroupNames</li>
-    <li>Animal->Words/Nouns/Animals</li>
-    <li>Animal_Plural->Words/Nouns/Animals_Plural</li>
-    <li>Animal_Feminine->Words/Nouns/Animals_Feminine</li>
-    <li>Animal_FemPlural->Words/Nouns/Animals_FemPlural</li>
-    <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
-    <li>AnimalBadass_Plural->Words/Nouns/Animals_Badass_Plural</li>
-    <li>AnimalBadass_Feminine->Words/Nouns/Animals_Badass_Feminine</li>
-    <li>AnimalBadass_FemPlural->Words/Nouns/Animals_Badass_FemPlural</li>
-    <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
-    <li>Artwork->Words/Nouns/Artworks</li>
-    <li>Weapon->Words/Nouns/Weapons</li>
-    <li>Weapon_Plural->Words/Nouns/Weapons_Plural</li>
-    <li>Weapon_Feminine->Words/Nouns/Weapons_Feminine</li>
-    <li>Weapon_FemPlural->Words/Nouns/Weapons_FemPlural</li>
-    <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
+    <li>Game_Prural->Words/Nouns/Games_Plural</li>
+    <!--Dantesco: Se usa en RulePack_Art_ImagesTales-->
+    <li>Gore->Words/Nouns/Gore</li>
+    <li>GoreMech->Words/Nouns/Gore_Mech</li>
+    <li>GoreMechPl->Words/Nouns/GoreMech_Plural</li>
+    <li>Gore_Plural->Words/Nouns/Gore_Plural</li>
+    <!--Nombre de Grupos:-->
+    <li>GroupName->Words/Nouns/GroupNames</li>
+    <!--Números Romanos:-->
+    <li>RomanNumeral->Words/Misc/Numbers_SmallRoman</li>
+    <!--Letras:-->
+    <li>Letter->WordParts/CapitalLetters</li>
+    <!--Mecanóides:-->
+    <li>Mechanoid->Words/Nouns/Mechanoid</li>
+    <!--Objetos naturales:-->
     <li>NaturalObject->Words/Nouns/NaturalObject</li>
-    <li>TreeType->Words/Nouns/TreeTypes</li>
-    <li>TreeType_Feminine->Words/Nouns/TreeTypes_Feminine</li>
-    <li>PersonJob->Words/Nouns/People_Jobs</li>
-    <li>PersonJob_Feminine->Words/Nouns/People_Jobs_Feminine</li>
-    <li>PersonFamily->Words/Nouns/People_Family</li>
-    <li>PersonFamily_Femenine->Words/Nouns/People_Family_Femenine</li>
+    <li>NaturalObject_Fem->Words/Nouns/NaturalObject_Fem</li>
+    <!--Caracteristicas Personales:-->
+    <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
+    <li>PersonalCharacteristic_Fem->Words/Nouns/PersonalCharacteristics_Fem</li>
+    <!--Tipos de Personajes:-->
     <li>PersonAlly->Words/Nouns/People_Allies</li>
     <li>PersonBadass->Words/Nouns/People_Badass</li>
+    <li>PersonFamily->Words/Nouns/People_Family</li>
+    <li>PersonFamily_Fem->Words/Nouns/People_Family_Fem</li>
+    <!--Tipos de Trabajos:-->
+    <li>PersonJob->Words/Nouns/People_Jobs</li>
+    <li>PersonJob_Fem->Words/Nouns/People_Jobs_Fem</li>
+    <!--Tipos de uniones modernas:-->
     <li>PoliticalUnionOutlander->Words/Nouns/PoliticalUnions_Outlander</li>
-    <li>PoliticalUnionOutlander_Feminine->Words/Nouns/PoliticalUnions_Outlander_Feminine</li>
+    <li>PoliticalUnionOutlander_Fem->Words/Nouns/PoliticalUnions_Outlander_Fem</li>
+    <!--Tipos de uniones de tribus:-->
     <li>PoliticalUnionTribal->Words/Nouns/PoliticalUnions_Tribal</li>
-    <li>PoliticalUnionTribal_Feminine->Words/Nouns/PoliticalUnions_Tribal_Feminine</li>
-    <li>Enemy->Words/Nouns/Enemies</li>
-    <li>Apparel->Words/Nouns/Apparel</li>
-    <li>Apparel_Feminine->Words/Nouns/Apparel_Feminine</li>
-    <li>Gore->Words/Nouns/Gore</li>
-    <li>Mechanoid->Words/Nouns/Mechanoid</li>
-    <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
-    <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
-    <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
-    <li>Community->Words/Nouns/Communities</li>
-    <li>BodyPart->Words/Nouns/Bodyparts</li>
-    <li>AdjectiveLarge->Words/Adjectives/Large</li>
-    <li>AdjectiveBadass->Words/Adjectives/Badass</li>
-    <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
-    <li>AdjectiveFriendly->Words/Adjectives/Friendly</li>
-    <li>AdjectiveNatural->Words/Adjectives/Natural</li>
+    <li>PoliticalUnionTribal_Fem->Words/Nouns/PoliticalUnions_Tribal_Fem</li>
+    <!--Sílabas:-->
+    <li>SylB->WordParts/Syllables_Byzantinian</li>
+    <li>SylB_Cap->WordParts/Syllables_Byzantinian_Cap</li>
+    <li>SylE->WordParts/Syllables_English</li>
+    <li>SylE_Cap->WordParts/Syllables_English_Cap</li>
+    <li>SylG->WordParts/Syllables_Galician</li>
+    <li>SylG_Cap->WordParts/Syllables_Galician_Cap</li>
+    <!--Nombre de los biomas:-->
+    <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
+    <li>TerrainFeature_Fem->Words/Nouns/TerrainFeatures_Fem</li>
+    <!--Nombre de los arboles:-->
+    <li>TreeType->Words/Nouns/TreeTypes</li>
+    <li>TreeType_Fem->Words/Nouns/TreeTypes_Fem</li>
+    <!--Nombre para las tribus en mayúscula:-->
+    <li>tribal_word_file_Cap->Words/Foreign/Tribal_Cap</li>
+    <!--Nombre de vegetales:-->
+    <li>Vegetable->Words/Nouns/Vegetables</li>
+    <li>Vegetable_Fem->Words/Nouns/Vegetables_Fem</li>
+    <!--Nombre de verbos amistosos:-->
     <li>VerbFriendly->Words/Verbs/Friendly</li>
-    <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
-    <li>PersonalCharacteristic_Femenine->Words/Nouns/PersonalCharacteristics_Femenine</li>
+    <li>VerbFriendly_Fem->Words/Verbs/Friendly_Fem</li>
+    <!--Nombre de armas:-->
+    <li>Weapon->Words/Nouns/Weapons</li>
+    <li>Weapon_Fem->Words/Nouns/Weapons_Fem</li>
+    <li>Weapon_FemPlural->Words/Nouns/Weapons_FemPlural</li>
+    <li>Weapon_Plural->Words/Nouns/Weapons_Plural</li>
   </GlobalUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>Trans->of</li>
@@ -165,10 +214,88 @@
     <li>Trans->para</li>
     <li>Trans->por</li>
     <li>Trans->con</li>
+
+    <li>AdjectiveAny->[AdjectiveBadass]</li>
+    <li>AdjectiveAny->[AdjectiveAngsty]</li>
+    <li>AdjectiveAny->[AdjectiveFriendly]</li>
+    <li>AdjectiveAny->[AdjectiveNatural]</li>
+    <li>AnimalBadassAny->[AnimalBadass]</li>
+    <li>AnimalBadassAny->[AnimalBadass_Fem]</li>
+    <li>AnimalBadassAnyPl->[AnimalBadass_Plural]</li>
+    <li>AnimalBadassAnyPl->[AnimalBadass_FemPlural]</li>
+    <li>AnimalAny->[Animal]</li>
+    <li>AnimalAnyPl->[Animal_Plural]</li>
+    <li>AnimalAny->[Animal_Fem]</li>
+    <li>AnimalAnyPl->[Animal_FemPlural]</li>
+    <li>AnimalDef->un [Animal]</li>
+    <li>AnimalDef->una [Animal_Fem]</li>
+    <li>ApparelAny->[Apparel]</li>
+    <li>ApparelAny->[Apparel_Fem]</li>
+    <li>ApparelDef->un [Apparel]</li>
+    <li>ApparelDef->una [Apparel_Fem]</li>
+
+    <li>BusinessTypeAny->[BusinessType]</li>
+    <li>BusinessTypeAny->[BusinessType_Fem]</li>
+    <li>BusinessTypeAny_def->el [BusinessType]</li>
+    <li>BusinessTypeAny_def->la [BusinessType_Fem]</li>
+    <li>BusinessTypeAny_def->los [BusinessType_Plural]</li>
+    <li>BusinessTypeAny_def_Cap->el [BusinessType_Cap]</li>
+    <li>BusinessTypeAny_def_Cap->la [BusinessType_FemCap]</li>
+    <li>BodyPartAny->[BodyPart]</li>
+    <li>BodyPartAny->[BodyPart_Fem]</li>
+
+    <li>ColorAny->[Color]</li>
+    <li>ColorAny->[Color_Fem]</li>
+    <li>ConceptAny->[ConceptPositive]</li>
+    <li>ConceptAny->[ConceptBadass]</li>
+    <li>ConceptAny->[ConceptAngsty]</li>
+    <li>ConceptAny_Fem->[ConceptPositive_Fem]</li>
+    <li>ConceptAny_Fem->[ConceptBadass_Fem]</li>
+    <li>ConceptAny_Fem->[ConceptAngsty_Fem]</li>
+    <li>ConceptAnyIndef->el [ConceptAny]</li>
+    <li>ConceptAnyIndef->la [ConceptAny_Fem]</li>
+    <li>ConceptAnyFull->[ConceptAny]</li>
+    <li>ConceptAnyFull->[ConceptAny_Fem]</li>
+
+
     <li>Character(p=6)->[PersonJob]</li>
+    <li>Character_Fem(p=6)->[PersonJob_Fem]</li>
     <li>Character(p=4)->[Animal]</li>
+    <li>Character_Fem(p=4)->[Animal_Fem]</li>
     <li>Character(p=3)->[Enemy]</li>
     <li>Character->[Mechanoid]</li>
+    <li>Character_Human->[PersonJob]</li>
+    <li>Character_Human->[Enemy]</li>
+    <li>CharacterEnemyPlural(p=2)->[Animal_Plural]</li>
+    <li>CharacterEnemyPlural->[Animal_FemPlural]</li>
+    <li>CharacterEnemyPlural(p=3)->[Enemy]s</li>
+    <li>CharacterEnemyPlural(p=2)->[Mechanoid]s</li>
+    <li>CharacterDef(p=6)->un [PersonJob]</li>
+    <li>CharacterDef(p=6)->una [PersonJob_Fem]</li>
+    <li>CharacterDef(p=4)->un [Animal]</li>
+    <li>CharacterDef(p=4)->una [Animal_Fem]</li>
+    <li>CharacterDef(p=3)->un [Enemy]</li>
+    <li>CharacterDef->un [Mechanoid]</li>
+    <li>CharacterDefMas(p=6)->un [PersonJob]</li>
+    <li>CharacterDefMas(p=4)->un [Animal]</li>
+    <li>CharacterDefMas(p=3)->un [Enemy]</li>
+    <li>CharacterDefMas->un [Mechanoid]</li>
+    <li>CharacterDefFem(p=6)->una [PersonJob_Fem]</li>
+    <li>CharacterDefFem(p=4)->una [Animal_Fem]</li>
+
+
+
+    <li>CommunityDef->un [Community]</li>
+    <li>CommunityDef->una [Community_Fem]</li>
+    <li>CommunityAny->[Community]</li>
+    <li>CommunityAny->[Community_Fem]</li>
+
+
+    <li>GameAny->[Game]</li>
+    <li>GameAny->[Game_Fem]</li>
+    <li>NaturalObjectDef->un [NaturalObject]</li>
+    <li>NaturalObjectDef->una [NaturalObject_Fem]</li>
+
     <li>Quantity_adjphrase->dos</li>
     <li>Quantity_adjphrase->tres</li>
     <li>Quantity_adjphrase->cuatro</li>
@@ -185,22 +312,49 @@
     <li>Quantity_adjphrase->cientos de</li>
     <li>Quantity_adjphrase->mil</li>
     <li>Quantity_adjphrase->miles de</li>
+
     <li>Shape->triángulo</li>
     <li>Shape->cuadrado</li>
     <li>Shape->rectángulo</li>
     <li>Shape->cono</li>
-    <li>Shape->línea</li>
-    <li>Shape->corazón</li>
-    <li>Shape->estrella</li>
+    <li>Shape_Fem->línea</li>
+    <li>Shape_Var->corazón</li>
+    <li>Shape_VarPl->corazones</li>
+    <li>Shape_Fem->estrella</li>
     <li>Shape->círculo</li>
     <li>Shape->elipse</li>
-    <li>AdjectiveAny->[AdjectiveBadass]</li>
-    <li>AdjectiveAny->[AdjectiveAngsty]</li>
-    <li>AdjectiveAny->[AdjectiveFriendly]</li>
-    <li>AdjectiveAny->[AdjectiveNatural]</li>
-    <li>ConceptAny->[ConceptPositive]</li>
-    <li>ConceptAny->[ConceptBadass]</li>
-    <li>ConceptAny->[ConceptAngsty]</li>
+    <li>ShapeDef->un [Shape]</li>
+    <li>ShapeDef->un [Shape_Var]</li>
+    <li>ShapeDef->una [Shape_Fem]</li>
+    <li>ShapeAny->[Shape]</li>
+    <li>ShapeAny->[Shape_Fem]]</li>
+    <li>Shape_Plural->[ShapeAny]s</li>
+    <li>Shape_Plural->[Shape_VarPl]</li>
+
+    <li>PersonJobAny->[PersonJob]</li>
+    <li>PersonJobAny->[PersonJob_Fem]</li>
+
+
+    <li>TerrainFeatureAny->[TerrainFeature]</li>
+    <li>TerrainFeatureAny->[TerrainFeature_Fem]</li>
+    <li>TerrainFeatureDef->un [TerrainFeature]</li>
+    <li>TerrainFeatureDef->una [TerrainFeature_Fem]</li>
+    <li>TreeTypeAny->[TreeType]</li>
+    <li>TreeTypeAny->[TreeType_Fem]</li>
+    <li>TreeTypeDef->un [TreeType]</li>
+    <li>TreeTypeDef->una [TreeType_Fem]</li>
+
+    <li>VegetableAny->[Vegetable]</li>
+    <li>VegetableAny->[Vegetable_Fem]</li>
+    <li>VegetableDef->un [Vegetable]</li>
+    <li>VegetableDef->una [Vegetable_Fem]</li>
+
+    <li>WeaponAny->[Weapon]</li>
+    <li>WeaponAny->[Weapon_Fem]</li>
+    <li>WeaponAnyPl->[Weapon_Plural]</li>
+    <li>WeaponAnyPl->[Weapon_FemPlural]</li>
+    <li>WeaponDef->un [Weapon]</li>
+    <li>WeaponDef->una [Weapon_Fem]</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -250,32 +404,33 @@
     <li>TalkTopicHeavy(p=0.08)->la conexión entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->la relación entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
     <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
-    <li>TalkTopicLight->[Vegetable]s</li>
-    <li>TalkTopicLight->comer [Vegetable]s</li>
-    <li>TalkTopicLight->cocinar [Vegetable]s</li>
-    <li>TalkTopicLight->[Game]</li>
-    <li>TalkTopicLight->jugar [Game]</li>
-    <li>TalkTopicLight->practicar [Game]</li>
-    <li>TalkTopicLight->aprender [Game]</li>
-    <li>TalkTopicLight->[Animal]s</li>
-    <li>TalkTopicLight->entrenar [Animal]s</li>
-    <li>TalkTopicLight->doma de [Animal]s</li>
-    <li>TalkTopicLight->luchar contra [Animal]s</li>
-    <li>TalkTopicLight->[Animal]s locos</li>
-    <li>TalkTopicLight->[Weapon]s</li>
-    <li>TalkTopicLight->usar [Weapon]s</li>
-    <li>TalkTopicLight->practicar con [Weapon]s</li>
-    <li>TalkTopicLight->[TerrainFeature]s</li>
+    <li>TalkTopicLight->[VegetableAny]s</li>
+    <li>TalkTopicLight->comer [VegetableAny]s</li>
+    <li>TalkTopicLight->cocinar [VegetableAny]s</li>
+    <li>TalkTopicLight->[GameAny]</li>
+    <li>TalkTopicLight->jugar [GameAny]</li>
+    <li>TalkTopicLight->practicar [GameAny]</li>
+    <li>TalkTopicLight->aprender [GameAny]</li>
+    <li>TalkTopicLight->[AnimalAnyPl]</li>
+    <li>TalkTopicLight->entrenar [AnimalAnyPl]</li>
+    <li>TalkTopicLight->doma de [AnimalAnyPl]</li>
+    <li>TalkTopicLight->luchar contra [AnimalAnyPl]</li>
+    <li>TalkTopicLight->[Animal_Plural] locos</li>
+    <li>TalkTopicLight->[Animal_FemPlural] locas</li>
+    <li>TalkTopicLight->[WeaponAnyPl]</li>
+    <li>TalkTopicLight->usar [WeaponAnyPl]</li>
+    <li>TalkTopicLight->practicar con [WeaponAnyPl]</li>
+    <li>TalkTopicLight->[TerrainFeatureAny]s</li>
     <li>TalkTopicLight->[NaturalObject]s</li>
-    <li>TalkTopicLight->[TreeType]s</li>
-    <li>TalkTopicLight->[PersonJob]s</li>
-    <li>TalkTopicLight->[PersonJob]s amigables</li>
-    <li>TalkTopicLight->[PersonJob]s hostiles</li>
+    <li>TalkTopicLight->[TreeTypeAny]s</li>
+    <li>TalkTopicLight->[PersonJobAny]s</li>
+    <li>TalkTopicLight->[PersonJobAny]s amigables</li>
+    <li>TalkTopicLight->[PersonJobAny]s hostiles</li>
     <li>TalkTopicLight->[Enemy]s</li>
-    <li>TalkTopicLight->fighting [Enemy]s</li>
+    <li>TalkTopicLight->peleando con [Enemy]s</li>
     <li>TalkTopicLight->[Apparel]s</li>
-    <li>TalkTopicLight->wearing [Apparel]s</li>
-    <li>TalkTopicLight->making [Apparel]s</li>
+    <li>TalkTopicLight->vistiendo [Apparel]s</li>
+    <li>TalkTopicLight->haciendo [Apparel]s</li>
   </TalkTopicsUtility.rulePack.rulesStrings>
   
 </LanguageData>
