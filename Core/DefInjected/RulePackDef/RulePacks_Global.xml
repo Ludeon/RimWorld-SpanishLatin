@@ -41,8 +41,8 @@
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
   -->
   <GlobalUtility.rulePack.rulesFiles>
-      <!-- Donde se usan generalmente estos archivos-->
-      <!-- Adjetivos:-->
+    <!-- Donde se usan generalmente estos archivos-->
+    <!-- Adjetivos:-->
     <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
     <li>AdjectiveBadass->Words/Adjectives/Badass</li>
     <li>AdjectiveBadass_Fem->Words/Adjectives/Badass_Fem</li>
@@ -62,7 +62,7 @@
     <li>AnimalBadass_FemPlural->Words/Nouns/Animals_Badass_FemPlural</li>
     <li>AnimalBadass_Plural->Words/Nouns/Animals_Badass_Plural</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
-     <!--Vestimenta:-->
+    <!--Vestimenta:-->
     <li>Apparel->Words/Nouns/Apparel</li>
     <li>Apparel_Fem->Words/Nouns/Apparel_Fem</li>
     <!--Arte:-->
@@ -80,11 +80,11 @@
     <!--Colores:-->
     <li>Color->Words/Nouns/Colors</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
-    <li>Color_Fem->Words/Nouns/Colors_Fem</li>  
-     <!--Comunidades:-->
+    <li>Color_Fem->Words/Nouns/Colors_Fem</li>
+    <!--Comunidades:-->
     <li>Community->Words/Nouns/Communities</li>
     <li>Community_Fem->Words/Nouns/Communities_Fem</li>
-     <!--Conceptos:-->
+    <!--Conceptos:-->
     <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
     <li>ConceptAngsty_Fem->Words/Nouns/Concepts_AngstyFem</li>
     <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
@@ -214,7 +214,6 @@
     <li>Trans->para</li>
     <li>Trans->por</li>
     <li>Trans->con</li>
-
     <li>AdjectiveAny->[AdjectiveBadass]</li>
     <li>AdjectiveAny->[AdjectiveAngsty]</li>
     <li>AdjectiveAny->[AdjectiveFriendly]</li>
@@ -233,7 +232,6 @@
     <li>ApparelAny->[Apparel_Fem]</li>
     <li>ApparelDef->un [Apparel]</li>
     <li>ApparelDef->una [Apparel_Fem]</li>
-
     <li>BusinessTypeAny->[BusinessType]</li>
     <li>BusinessTypeAny->[BusinessType_Fem]</li>
     <li>BusinessTypeAny_def->el [BusinessType]</li>
@@ -243,7 +241,6 @@
     <li>BusinessTypeAny_def_Cap->la [BusinessType_FemCap]</li>
     <li>BodyPartAny->[BodyPart]</li>
     <li>BodyPartAny->[BodyPart_Fem]</li>
-
     <li>ColorAny->[Color]</li>
     <li>ColorAny->[Color_Fem]</li>
     <li>ConceptAny->[ConceptPositive]</li>
@@ -256,8 +253,6 @@
     <li>ConceptAnyIndef->la [ConceptAny_Fem]</li>
     <li>ConceptAnyFull->[ConceptAny]</li>
     <li>ConceptAnyFull->[ConceptAny_Fem]</li>
-
-
     <li>Character(p=6)->[PersonJob]</li>
     <li>Character_Fem(p=6)->[PersonJob_Fem]</li>
     <li>Character(p=4)->[Animal]</li>
@@ -282,20 +277,14 @@
     <li>CharacterDefMas->un [Mechanoid]</li>
     <li>CharacterDefFem(p=6)->una [PersonJob_Fem]</li>
     <li>CharacterDefFem(p=4)->una [Animal_Fem]</li>
-
-
-
     <li>CommunityDef->un [Community]</li>
     <li>CommunityDef->una [Community_Fem]</li>
     <li>CommunityAny->[Community]</li>
     <li>CommunityAny->[Community_Fem]</li>
-
-
     <li>GameAny->[Game]</li>
     <li>GameAny->[Game_Fem]</li>
     <li>NaturalObjectDef->un [NaturalObject]</li>
     <li>NaturalObjectDef->una [NaturalObject_Fem]</li>
-
     <li>Quantity_adjphrase->dos</li>
     <li>Quantity_adjphrase->tres</li>
     <li>Quantity_adjphrase->cuatro</li>
@@ -312,7 +301,6 @@
     <li>Quantity_adjphrase->cientos de</li>
     <li>Quantity_adjphrase->mil</li>
     <li>Quantity_adjphrase->miles de</li>
-
     <li>Shape->triángulo</li>
     <li>Shape->cuadrado</li>
     <li>Shape->rectángulo</li>
@@ -330,11 +318,8 @@
     <li>ShapeAny->[Shape_Fem]]</li>
     <li>Shape_Plural->[ShapeAny]s</li>
     <li>Shape_Plural->[Shape_VarPl]</li>
-
     <li>PersonJobAny->[PersonJob]</li>
     <li>PersonJobAny->[PersonJob_Fem]</li>
-
-
     <li>TerrainFeatureAny->[TerrainFeature]</li>
     <li>TerrainFeatureAny->[TerrainFeature_Fem]</li>
     <li>TerrainFeatureDef->un [TerrainFeature]</li>
@@ -343,12 +328,10 @@
     <li>TreeTypeAny->[TreeType_Fem]</li>
     <li>TreeTypeDef->un [TreeType]</li>
     <li>TreeTypeDef->una [TreeType_Fem]</li>
-
     <li>VegetableAny->[Vegetable]</li>
     <li>VegetableAny->[Vegetable_Fem]</li>
     <li>VegetableDef->un [Vegetable]</li>
     <li>VegetableDef->una [Vegetable_Fem]</li>
-
     <li>WeaponAny->[Weapon]</li>
     <li>WeaponAny->[Weapon_Fem]</li>
     <li>WeaponAnyPl->[Weapon_Plural]</li>
