@@ -6,12 +6,16 @@
     <li>decreeThreatInfo->If you fail to fulfill this decree within [decreeDays] days, [asker_nameDef] will start to become unhappy. [asker_possessive] anger will increase over time until the decree is satisfied.</li>
   -->
   <DecreeSetup.questDescriptionRules.rulesStrings>
-    <li>decreeIntro->[asker_nameDef], Su [asker_bestRoyalTitle],ha anunciado un decreto real.</li>
-    <li>decreeThreatInfo->Si no cumple con el decreto dentro de [decreeDays] días, [asker_nameDef] comenzará a ser infeliz. [asker_possessive]La ira aumentará con el tiempo hasta que se cumpla el decreto..</li>
+    <li>decreeIntro->[asker_nameDef], Tu [asker_bestRoyalTitle], ha anunciado un decreto real.</li>
+    <li>decreeThreatInfo->Si no cumple con el decreto dentro de [decreeDays] días, [asker_nameDef] comenzará a ser infeliz. su ira se irá incrementando con el tiempo hasta que se cumpla el decreto.</li>
   </DecreeSetup.questDescriptionRules.rulesStrings>
   <!-- EN: [asker_nameDef]'s decree forgotten -->
-  <DecreeSetup.root.nodes.Delay.node.nodes.Letter.label.slateRef>Olvidé la exención [asker_nameDef] </DecreeSetup.root.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <DecreeSetup.LetterLabelDecreeForgotten.slateRef>Decreto de [asker_nameDef] olvidado</DecreeSetup.LetterLabelDecreeForgotten.slateRef>
   <!-- EN: [asker_nameDef] has forgotten about [asker_possessive] decree. -->
-  <DecreeSetup.root.nodes.Delay.node.nodes.Letter.text.slateRef>[asker_nameDef] olvidó [asker_possessive]en remisión.</DecreeSetup.root.nodes.Delay.node.nodes.Letter.text.slateRef>
+  <DecreeSetup.LetterTextDecreeForgotten.slateRef>[asker_nameDef] ha olvidado su decreto.</DecreeSetup.LetterTextDecreeForgotten.slateRef>
+  <!-- EN: Decree cancelled -->
+  <DecreeSetup.LetterLabelDecreeCancelled.slateRef>Decreto cancelado</DecreeSetup.LetterLabelDecreeCancelled.slateRef>
+  <!-- EN: [asker_nameDef] has grudgingly cancelled the decree '[resolvedQuestName]' since it cannot be completed. -->
+  <DecreeSetup.LetterTextDecreeCancelled.slateRef>[asker_nameDef] ha cancelado a regañadientes el decreto "[resueltoQuestName]" ya que no puede ser completado.</DecreeSetup.LetterTextDecreeCancelled.slateRef>
   
 </LanguageData>
