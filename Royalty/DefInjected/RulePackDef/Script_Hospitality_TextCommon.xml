@@ -90,9 +90,8 @@
     <li>mechViolationMultiHuman->intentaron hackear un nodo de control mecanóide</li>
     <li>mechViolationMultiHuman->intentaron robar algo de un depósito ancestral</li>
     <li>letterSubject->{SUBJECT_definite}</li>
-    <!-- Falta ver en que contexto se desarrolla el has y el have -->
-    <li>lodgersHasHave(lodgersCount==1)->has</li>
-    <li>lodgersHasHave(lodgersCount>=2)->have</li>
+    <li>lodgersHasHave(lodgersCount==1)->ha</li>
+    <li>lodgersHasHave(lodgersCount>=2)->han</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->ellos</li>
     <li>areIs(lodgersCount==1)->está</li>
@@ -114,7 +113,6 @@
     <li>failLetterEndingQuest->Has fallado en la misión "[resolvedQuestName]".</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nTus relaciones con la facción [asker_faction_name] han disminuido en [goodwillPenalty].</li>
-
   </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>
