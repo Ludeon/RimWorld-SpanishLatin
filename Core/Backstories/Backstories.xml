@@ -2636,7 +2636,7 @@
     <titleShort>Bombardero</titleShort>
     <titleShortFemale>Bombardera</titleShortFemale>
     <!-- EN: [PAWN_nameDef] piloted a small fighter-bomber design specialized in spreading incendiary gel on flammable targets.\n\nConditioned to love the sight of a target lighting up, [PAWN_pronoun] grew to love fire in all its forms - war, cooking, and even for cauterizing wounds in the hospital. -->
-    <desc>[PAWN_nameDef] puso a prueba un pequeño diseño de cazabombardero especializado en esparcir gel incendiario sobre objetivos inflamables.\n\nCondicionad{PAWN_gender ? o : a} para amar la vista de un objetivo encendido, [PAWN_pronoun] llegó a amar el fuego en todas sus formas: guerra, cocina e incluso para cauterizar heridas en el hospital.\n\n</desc>
+    <desc>[PAWN_nameDef] puso a prueba un pequeño diseño de cazabombardero especializado en esparcir gel incendiario sobre objetivos inflamables.\n\nCondicionad{PAWN_gender ? o : a} para amar la vista de un objetivo encendido, [PAWN_pronoun] llegó a amar el fuego en todas sus formas: guerra, cocina e incluso para cauterizar heridas en el hospital.</desc>
   </Firebomber51>
   
   <FireKeeper44>
@@ -4222,6 +4222,17 @@
     <desc>[PAWN_nameDef] pasó sus años de adolescencia como mercenario(a), siendo contratado para matar y mutilar a otros. [PAWN_pronoun] era alto(a), amenazante y aterrador(a). [PAWN_pronoun] podría infundir miedo en los corazones de cualquier hombre que se cruzara en su camino y matar a quien quisiera.</desc>
   </Mercenary55>
   
+  <MercenaryCaptain56>
+    <!-- EN: Mercenary captain -->
+    <title>Capitán mercenario</title>
+    <titleFemale>Capitana mercenaria</titleFemale>
+    <!-- EN: Captain -->
+    <titleShort>Capitán</titleShort>
+    <titleShortFemale>Capitana</titleShortFemale>
+    <!-- EN: [PAWN_pronoun] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_nameDef] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. -->
+    <desc>[PAWN_nameDef], estaba en la tripulación de una nave mercenaria. Disciplinad{PAWN_gender ? o : a} y confiad{PAWN_gender ? o : a}, [PAWN_pronoun] rápidamente ascendió a través de las filas y ganando amistades\n\nSu tiempo como un{PAWN_gender ?  : a} {PAWN_gender ? capitán : capitana} mercenari{PAWN_gender ? o : a}, era conocid{PAWN_gender ? o : a} por ser gregari{PAWN_gender ? o : a} y tranquil{PAWN_gender ? o : a}, posiblemente gracias a los alegrialambres.</desc>
+  </MercenaryCaptain56>
+  
   <MercenaryChef44>
     <!-- EN: mercenary chef -->
     <title>chef mercenario</title>
@@ -4761,6 +4772,16 @@
     <!-- EN: Left alone in the world without parents, [PAWN_nameDef] did the best [PAWN_pronoun] could to adapt.\n\nHaving to take care both of [PAWN_objective]self and younger kids at the orphanage, [PAWN_pronoun] learned a lot about humans and how to interact with them. -->
     <desc>Dejado solo en el mundo sin padres, [PAWN_nameDef] hizo lo mejor que pudo adaptarse.\n\nTeniendo que cuidar tanto de si como de los niños más pequeños en el orfanato, [PAWN_pronoun] aprendió mucho sobre los humanos y Cómo interactuar con ellos.</desc>
   </Orphan25>
+  
+  <OrphanedAcrobat84>
+    <!-- EN: Orphaned acrobat -->
+    <title>Acróbata huérfano</title>
+    <titleFemale>Acróbata huérfana</titleFemale>
+    <!-- EN: Acrobat -->
+    <titleShort>Acróbata</titleShort>
+    <!-- EN: Born a quiet urbworld orphan, [PAWN_nameDef] was invited to join a traveling circus. [PAWN_possessive] small size and observant nature helped [PAWN_nameDef] become a noted acrobat.\n\nUnfortunately, [PAWN_possessive] violent tendencies brought [PAWN_possessive] acrobatic career to an early end. -->
+    <desc>Nació en un orfanato de un mundo urbano, [PAWN_nameDef] recibió una invitación para unirse a un circo ambulante. Su pequeño tamaño y su naturaleza observadora le ayudaron a [PAWN_nameDef] a convertirse en {PAWN_gender ? un : una} notable acróbata.\n\nDesafortunadamente sus tendencias violentas pusieron fin a su carrera acrobática.</desc>
+  </OrphanedAcrobat84>
   
   <OrphanOfWar60>
     <!-- EN: orphan of war -->
@@ -6331,8 +6352,10 @@
   <StalwartFarmer90>
     <!-- EN: stalwart farmer -->
     <title>granjero incondicional</title>
+    <titleFemale>granjera incondicional</titleFemale>
     <!-- EN: farmer -->
     <titleShort>granjero</titleShort>
+    <titleShortFemale>granjero</titleShortFemale>
     <!-- EN: With the farm under constant threat from brigands, [PAWN_nameDef] learned to defend [PAWN_objective]self with [PAWN_possessive] father's rifle. [PAWN_pronoun] also mastered how to construct walls to keep livestock in and predators out.\n\n[PAWN_pronoun] once tried to paint a picture of [PAWN_possessive] home, but discovered that [PAWN_pronoun] could only draw scribbles and ducks. -->
     <desc>Con la granja bajo amenaza constante de bandidos, [PAWN_nameDef] aprendió a defenderse [PAWN_objective] a sí mismo con el rifle de padre [PAWN_possiveive]. [PAWN_pronoun] también dominó cómo construir muros para mantener al ganado adentro y a los depredadores. \n \n [PAWN_pronoun] una vez trató de pintar una imagen de la casa [PAWN_possiveive], pero descubrió que [PAWN_pronoun] solo podía dibujar garabatos y patos.</desc>
   </StalwartFarmer90>
