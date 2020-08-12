@@ -9,7 +9,7 @@
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
     <li>commonEnding->El monumento tiene un tamaño de [monumentSize] y requiere los siguientes recursos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nEl trabajo de construcción debe completarse dentro del siguiente tiempo [constructionTimeoutTicks_duration] después de la aceptación de la tarea. Recibirás las recompensas cuando hayas terminado la construcción.[dontDestroyMonument]</li>
     <li>dontDestroyMonument(priority=-10)-></li>
-    <li>dontDestroyMonument->\n\nSi el monumento es destruido dentro de [keepMonumentTicks_duration] días de construcción, tus relaciones con la facción [asker_factionName] caerá en [goodwillChangeIfMonumentDestroyed].</li>
+    <li>dontDestroyMonument->\n\nSi el monumento es destruido dentro de [keepMonumentTicks_duration] después de finalizado su construcción, tus relaciones con la facción [asker_factionName] caerán en [goodwillChangeIfMonumentDestroyed].</li>
   </BuildMonument_Basic.questDescriptionRules.rulesStrings>
   
 </LanguageData>
