@@ -374,6 +374,8 @@
   <Caravan>Caravana</Caravan>
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>Puede haber peligro allí</HiddenOrNoSitePartDescription>
+  <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
+  <PreciousLumpHostileThreat>El escáner está detectando actividad alrededor de la veta. Es probable que ésta sea hostil.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>pedazo de {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
@@ -530,6 +532,8 @@
   <TextMote_Immune>Inmune</TextMote_Immune>
   <!-- EN: {0} tended -->
   <TextMote_Tended>{0} atendido(a)</TextMote_Tended>
+  <!-- EN: level {0} -->
+  <TextMote_SkillUp>nivel {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
   <lowMood>humor bajo</lowMood>
   <!-- EN: low opinion -->
@@ -1264,12 +1268,10 @@
   <Reward_Pawn_Caravan>un {0_age} años {0_titleIndef} llamado {0_nameDef} se unirá a usted {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>llegarán cápsulas de transporte con los siguientes recursos (valor total {1}):
-  \n{0}</Reward_Items>
+  <Reward_Items>llegarán cápsulas de transporte con los siguientes recursos (valor total {1}):\n  \n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>usted recibirá (valor total {1}):
-  \n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>usted recibirá (valor total {1}):\n  \n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>tus relaciones de facción con {0_name} mejorarán en {1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
