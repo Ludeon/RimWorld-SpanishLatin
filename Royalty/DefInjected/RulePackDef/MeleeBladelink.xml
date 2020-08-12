@@ -60,7 +60,9 @@
     <li>endSyl->gur</li>
   -->
   <NamerWeaponBladelink.rulePack.rulesStrings>
-    <li>r_weapon_name(p=3)->[noun][verber]</li>
+    <li>r_weapon_name(p=3)->[verber1] de [noun1]</li>
+    <li>r_weapon_name(p=3)->[verber2] de [noun2]</li>
+    <li>r_weapon_name(p=3)->[verber3] de [noun3]</li>
     <li>r_weapon_name(p=2)->[beginSyl][middleSyl][endSyl]</li>
     <li>r_weapon_name(p=1)->[beginSyl][middleSyl][middleSyl][endSyl]</li>
     <li>r_weapon_name(p=1)->[beginSyl][endSyl]</li>
@@ -69,40 +71,43 @@
     <li>nameAnimal->[NameAnimalUnisex]</li>
     <li>nameAnimal->[NameAnimalMale]</li>
     <li>nameAnimal->[NameAnimalFemale]</li>
-    <li>noun->juramento</li>
-    <li>noun->promesa</li>
-    <li>noun->muerto</li>
-    <li>noun->dolor</li>
-    <li>noun->sangre</li>
-    <li>noun->maldita sea</li>
-    <li>noun->asesinato</li>
-    <li>noun->justicia</li>
-    <li>noun->miedo</li>
-    <li>noun->terror</li>
-    <li>noun->caos</li>
-    <li>noun->ordenadamente</li>
-    <li>noun->la guerra</li>
-    <li>noun->descansar</li>
-    <li>noun->culpar</li>
-    <li>verber->cuidadores</li>
-    <li>verber->portadores</li>
-    <li>verber->tomador</li>
-    <li>verber->donante</li>
-    <li>verber->distribuidor</li>
-    <li>verber->destructor</li>
-    <li>verber->trituradora</li>
-    <li>verber->raqueta</li>
-    <li>verber->doblador</li>
-    <li>verber->sabiendo</li>
-    <li>verber->transportista</li>
-    <li>beginSyl->vi</li>
-    <li>beginSyl->na</li>
-    <li>beginSyl->lo</li>
-    <li>beginSyl->ra</li>
-    <li>beginSyl->to</li>
-    <li>beginSyl->ger</li>
-    <li>beginSyl->xan</li>
-    <li>beginSyl->kel</li>
+    <li>noun1->juramento</li>
+    <li>noun1->promesa</li>
+    <li>noun2->muerte</li>
+    <li>noun2->dolor</li>
+    <li>noun2->sangre</li>
+    <li>noun3->sangre</li>
+    <li>noun2->destrucción</li>
+    <li>noun2->ruina</li>
+    <li>noun1->justicia</li>
+    <li>noun2->miedo</li>
+    <li>noun2->terror</li>
+    <li>noun2->caos</li>
+    <li>noun2->orden</li>
+    <li>noun2->guerra</li>
+    <li>noun2->silencio</li>
+    <li>noun2->deuda</li>
+    <li>noun3->vida</li>
+    <li>verber1->Cuidadora</li>
+    <li>verber1->Portadora</li>
+    <li>verber2->Portadora</li>
+    <li>verber2->Hacedora</li>
+    <li>verber3->Donante</li>
+    <li>verber2->Distribuidora</li>
+    <li>verber3->Destructora</li>
+    <li>verber2->Trituradora</li>
+    <li>verber2->Fabricante</li>
+    <li>verber2->Amante</li>
+    <li>verber1->Conocedora</li>
+    <li>verber2->Transportadora</li>
+    <li>beginSyl->Vi</li>
+    <li>beginSyl->Na</li>
+    <li>beginSyl->Lo</li>
+    <li>beginSyl->Ra</li>
+    <li>beginSyl->To</li>
+    <li>beginSyl->Ger</li>
+    <li>beginSyl->Xan</li>
+    <li>beginSyl->Kel</li>
     <li>middleSyl->ser</li>
     <li>middleSyl->gar</li>
     <li>middleSyl->lor</li>
