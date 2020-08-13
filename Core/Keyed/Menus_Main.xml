@@ -195,7 +195,7 @@
   <!-- EN: This mod is incompatible with: {0}. -->
   <ModIncompatibleWithTip>Este mod es incompatible con: {0}.</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
-  <ModOrderingWarning>Este mod se está cargando en el orden incorrecto en relación con otro mod. Use el botón 'ordenar automáticamente' o vuelva a ordenar los mods manualmente.</ModOrderingWarning>
+  <ModOrderingWarning>Este mod se está cargando en el orden incorrecto en relación con otro mod. Use el botón &quot;ordenar automáticamente&quot; o vuelva a ordenar los mods manualmente.</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
   <ModWithSameIdAlreadyActive>Otro mod activo usa la misma ID: {0}.</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
@@ -209,15 +209,15 @@
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Este mod fue hecho para una versión más reciente de RimWorld que esta, y probablemente no funcionará correctamente.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion><![CDATA[Mod necesita la información de la versión soportada con el formato adecuado en About.xml. Como este: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> está desaprobado. Revise el registro para más información.]]></MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Mod necesita la información de la versión soportada con el formato adecuado en About.xml. Como este: &lt;supportedVersions&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/supportedVersions&gt; - &lt;targetVersion&gt; está desaprobado. Revise el registro para más información.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Mod necesita un paquete único, adecuadamente formateado en About.xml. Debe cumplir los siguientes requisitos:\n\n  - Caracteres alfanuméricos y sólo puntos.\n  - Sin espacios.\n  - Al menos un punto.\n  - Sin puntos repetidos en una fila, o que empiecen o terminen con un punto.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n<![CDATA[<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId>]]></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>Mod necesita un paquete único, adecuadamente formateado en About.xml. Debe cumplir los siguientes requisitos:\n\n  - Caracteres alfanuméricos y sólo puntos.\n  - Sin espacios.\n  - Al menos un punto.\n  - Sin puntos repetidos en una fila, o que empiecen o terminen con un punto.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>Este mod tiene problemas en LoadFolders.xml, que debe resolver antes de cargar:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
   <ModLoadFolderDoesntExist>La carpeta {0} especificada para la versión {1} no existe.</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
-  <ModLoadFolderMalformedVersion>Cadena de versión con formato incorrecto '{0}'. El formato correcto es Major.Minor (por ejemplo, 1.1)</ModLoadFolderMalformedVersion>
+  <ModLoadFolderMalformedVersion>Cadena de versión con formato incorrecto &quot;{0}&quot;. El formato correcto es Major.Minor (por ejemplo, 1.1)</ModLoadFolderMalformedVersion>
   <!-- EN: The list of load folders for version {0} is empty. -->
   <ModLoadFolderListEmpty>La lista de carpetas de carga para la versión {0} está vacía.</ModLoadFolderListEmpty>
   <!-- EN: Version {0} lists the same folder more than once: {1}. -->
@@ -227,9 +227,9 @@
   <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>Orden de versión no válido: 'default' debe definirse primero.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
-  <ModLoadFolderDefaultDeprecated>El uso de "por defecto" en las carpetas de carga está obsoleto. Por favor, defina las carpetas para cada versión usando las etiquetas.</ModLoadFolderDefaultDeprecated>
+  <ModLoadFolderDefaultDeprecated>El uso de "por defecto" en las carpetas de carga está obsoleto. Por favor, defina las carpetas para cada versión usando las etiquetas &lt;v...&gt;.</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
-  <ModLoadFolderDefinesUnsupportedGameVersion>La versión {0} se define en las carpetas de carga, pero no se incluye en las 'versiones compatibles' de About.xml del mod.</ModLoadFolderDefinesUnsupportedGameVersion>
+  <ModLoadFolderDefinesUnsupportedGameVersion>La versión {0} se define en las carpetas de carga, pero no se incluye en las &quot;versiones compatibles&quot; de About.xml del mod.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Arrastra para ordenar</DragToReorder>
 
@@ -265,7 +265,7 @@
   <!-- EN: Incompatible -->
   <Incompatible>Incompatible</Incompatible>
   <!-- EN: Tag as translation -->
-  <TagAsTranslation>Etiquetae como traducción</TagAsTranslation>
+  <TagAsTranslation>Etiqueta como traducción</TagAsTranslation>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>Demasiado (max {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
