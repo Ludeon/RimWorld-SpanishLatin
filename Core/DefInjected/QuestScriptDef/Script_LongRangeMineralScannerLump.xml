@@ -2,17 +2,25 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li>
   -->
   <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-    <li>questDescription->Usando tu escáner de minerales de largo alcance, [worker_definite] ha encontrado una veta de [targetMineable_label] en las cercanias.\n\nDesafortunadamente, no durará por mucho tiempo - otros lo extraerán primero en [timeoutTicks_duration] si nosotros no lo hacemos antes.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->Usando tu escáner de minerales de largo alcance, [worker_definite] ha encontrado [targetMineable_labelInde] en las cercanias.\n\nDesafortunadamente, no durará por mucho tiempo - otros lo extraerán primero en [timeoutTicks_duration] si nosotros no lo hacemos antes.\n\n[lumpThreatDescription]</li>
+    <li>targetMineable_labelInde(targetMineable==MineableGold)->una mina de oro</li>
+    <li>targetMineable_labelInde(targetMineable==MineableSilver)->mina de plata</li>
+    <li>targetMineable_labelInde(targetMineable==MineableSteel)->veta de acero</li>
+    <li>targetMineable_labelInde(targetMineable==MineablePlasteel)->veta de plastiacero compactado</li>
+    <li>targetMineable_labelInde(targetMineable==MineableComponentsIndustrial)->veta de maquinaria compactada</li>
+    <li>targetMineable_labelInde(targetMineable==MineableUranium)->mina de uranio</li>
+    <li>targetMineable_labelInde(targetMineable==MineableJade)->mina de jade</li>
+    <li>targetMineable_labelInde(p=0.00000000001)->[targetMineable_label]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->[lump] of [targetMineable_label]</li>
-    <li>questName->[targetMineable_label] [lump]</li>
-    <li>questName->The [targetMineable_label] [lump]</li>
-    <li>questName->[adj] [targetMineable_label]</li>
-    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>questName->[lump] of [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [lump]</li>
+    <li>questName->The [targetMineableThing_label] [lump]</li>
+    <li>questName->[adj] [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [discovered]</li>
     <li>lump->lump</li>
     <li>lump->pile</li>
     <li>lump->deposit</li>
@@ -29,34 +37,36 @@
     <li>discovered->scanned</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->[lump_Cap] de [targetMineable_label]</li>
-    <li>questName->Un gran depósito de [targetMineable_label]</li>
-    <li>questName->[targetMineable_label] [adj]</li>
-    <li>questName->[targetMineable_label] [discovered]</li>
-    <li>lump->masa</li>
-    <li>lump->pila</li>
-    <li>lump->deposito</li>
-    <li>lump->veta</li>
-    <li>lump->trozo</li>
-    <li>lump->porción</li>
-    <li>lump_Cap->Una masa</li>
-    <li>lump_Cap->Una pila</li>
-    <li>lump_Cap->Un depósito</li>
-    <li>lump_Cap->Una veta</li>
-    <li>lump_Cap->Un trozo</li>
-    <li>lump_Cap->Una porción</li>
+    <li>questName->[lump] de [targetMineable_labelDe]</li>
+    <li>questName->Un gran depósito de [targetMineable_labelDe]</li>
+    <li>questName->Veta de [targetMineable_labelDe] [adj]</li>
+    <li>questName->Veta de [targetMineable_labelDe] [discovered]</li>
+    <li>targetMineable_labelDe(targetMineable==MineableGold)->oro</li>
+    <li>targetMineable_labelDe(targetMineable==MineableSilver)->plata</li>
+    <li>targetMineable_labelDe(targetMineable==MineableSteel)->acero</li>
+    <li>targetMineable_labelDe(targetMineable==MineablePlasteel)->plastiacero compactado</li>
+    <li>targetMineable_labelDe(targetMineable==MineableComponentsIndustrial)->maquinaria compactada</li>
+    <li>targetMineable_labelDe(targetMineable==MineableUranium)->uranio</li>
+    <li>targetMineable_labelDe(targetMineable==MineableJade)->jade</li>
+    <li>targetMineable_labelDe(p=0.00000000001)->[targetMineable_label]</li>
+    <li>lump->Una masa</li>
+    <li>lump->Una pila</li>
+    <li>lump->Un depósito</li>
+    <li>lump->Una veta</li>
+    <li>lump->Un trozo</li>
+    <li>lump->Una porción</li>
     <li>adj->distante</li>
-    <li>adj->remoto(a)</li>
-    <li>adj->desconocido(a)</li>
-    <li>adj->escaneado(a)</li>
-    <li>discovered->descubierto(a)</li>
-    <li>discovered->detectado(a)</li>
-    <li>discovered->encontrado(a)</li>
-    <li>discovered->escaneado(a)</li>
+    <li>adj->remota</li>
+    <li>adj->desconocida</li>
+    <li>adj->escaneada</li>
+    <li>discovered->descubierta</li>
+    <li>discovered->detectada</li>
+    <li>discovered->encontrada</li>
+    <li>discovered->escaneada</li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>La misión expiró: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
-  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Otros han extraído la veta de [targetMineable_label]. La misión [resolveQuestName] ha expirado.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
+  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Otros han extraído la veta de [targetMineable_labelInde]. La misión [resolveQuestName] ha expirado.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
