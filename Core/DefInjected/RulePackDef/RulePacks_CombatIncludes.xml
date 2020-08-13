@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <!-- Pendiente1-->
+  
   <!-- EN:
     <li>scraped_present->glancing</li>
     <li>scraped_present->bouncing</li>
@@ -142,9 +142,9 @@
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
     <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
-    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label]</li>
-    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]</li>
-    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] y [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], y [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], y [recipient_part3_label]</li>
     <li>damaged_present(deflected!=True)->wounding</li>
     <li>damaged_present(deflected!=True)->injuring</li>
     <li>destroyed(p=0.5)->destroyed</li>
@@ -234,26 +234,26 @@
     <li>using->thrusting</li>
     <li>using->utilizing</li>
     <li>using->moving</li>
-    <li>skillAdv(INITIATOR_skill<=3)->incompetently</li>
-    <li>skillAdv(INITIATOR_skill<=3)->ineptly</li>
-    <li>skillAdv(INITIATOR_skill<=3)->wildly</li>
-    <li>skillAdv(INITIATOR_skill<=3)->randomly</li>
-    <li>skillAdv(INITIATOR_skill<=3)->flailingly</li>
-    <li>skillAdv(INITIATOR_skill<=4)->awkwardly</li>
-    <li>skillAdv(INITIATOR_skill<=4)->clumsily</li>
-    <li>skillAdv(INITIATOR_skill<=5)->fearfully</li>
-    <li>skillAdv(INITIATOR_skill<=5)->falteringly</li>
-    <li>skillAdv(INITIATOR_skill<=5)->foolishly</li>
-    <li>skillAdv(INITIATOR_skill<=6)->hesitantly</li>
-    <li>skillAdv(INITIATOR_skill<=6)->reluctantly</li>
-    <li>skillAdv(INITIATOR_skill<=6)->slowly</li>
-    <li>skillAdv(INITIATOR_skill<=6)->tentatively</li>
-    <li>skillAdv(INITIATOR_skill<=6)->inexpertly</li>
-    <li>skillAdv(INITIATOR_skill<=6)->amateurishly</li>
-    <li>skillAdv(INITIATOR_skill<=6)->timidly</li>
-    <li>skillAdv(INITIATOR_skill<=8)->enthusiastically</li>
-    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->proficiently</li>
-    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->competently</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->incompetently</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->ineptly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->wildly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->randomly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->flailingly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->awkwardly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->clumsily</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->fearfully</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->falteringly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->foolishly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->hesitantly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->reluctantly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->slowly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->tentatively</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->inexpertly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->amateurishly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->timidly</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->enthusiastically</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->proficiently</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->competently</li>
     <li>skillAdv(INITIATOR_skill>=8)->professionally</li>
     <li>skillAdv(INITIATOR_skill>=8)->deftly</li>
     <li>skillAdv(INITIATOR_skill>=8)->aptly</li>
