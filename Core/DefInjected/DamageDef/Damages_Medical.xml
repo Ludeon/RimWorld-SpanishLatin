@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: execution cut -->
-  <ExecutionCut.label>ejecución</ExecutionCut.label>
+  <ExecutionCut.label>ejecución por corte</ExecutionCut.label>
   <!-- EN: {0} has been executed by cutting. -->
-  <ExecutionCut.deathMessage>{0} ha sido ejecutad{PAWN_gender ? o : a}.</ExecutionCut.deathMessage>
+  <ExecutionCut.deathMessage>{0} ha sido ejecutad{0_gender ? o : a} a través de un corte.</ExecutionCut.deathMessage>
   
   <!-- EN: surgical cut -->
   <SurgicalCut.label>corte quirúrgico</SurgicalCut.label>

@@ -4,7 +4,7 @@
   <!-- EN: bite -->
   <Bite.label>mordida</Bite.label>
   <!-- EN: {0} has been bitten to death. -->
-  <Bite.deathMessage>{0} ha sido mordid{PAWN_gender ? o : a} hasta morir.</Bite.deathMessage>
+  <Bite.deathMessage>{0} ha sido mordid{0_gender ? o : a} hasta morir.</Bite.deathMessage>
   
   <!-- EN: blunt -->
   <Blunt.label>contundente</Blunt.label>
@@ -14,7 +14,7 @@
   <!-- EN: crush -->
   <Crush.label>aplastante</Crush.label>
   <!-- EN: {0} has been crushed to death. -->
-  <Crush.deathMessage>{0} ha muerto aplastad{PAWN_gender ? o : a}.</Crush.deathMessage>
+  <Crush.deathMessage>{0} ha muerto aplastad{0_gender ? o : a}.</Crush.deathMessage>
   
   <!-- EN: cut -->
   <Cut.label>cortante</Cut.label>
@@ -24,7 +24,7 @@
   <!-- EN: blunt -->
   <Poke.label>golpe</Poke.label>
   <!-- EN: {0} has been beaten to death. -->
-  <Poke.deathMessage>{0} ha sido golpead{PAWN_gender ? o : a} hasta la muerte.</Poke.deathMessage>
+  <Poke.deathMessage>{0} ha sido golpead{0_gender ? o : a} hasta morir.</Poke.deathMessage>
   
   <!-- EN: scratch -->
   <Scratch.label>arañazo</Scratch.label>
@@ -34,7 +34,7 @@
   <!-- EN: toxic scratch -->
   <ScratchToxic.label>rasguño tóxico</ScratchToxic.label>
   <!-- EN: {0} has been torn to death. -->
-  <ScratchToxic.deathMessage>ha sido destrozad{PAWN_gender ? o : a}</ScratchToxic.deathMessage>
+  <ScratchToxic.deathMessage>{0} ha sido desgarrado{0_gender ? o : a} hasta morir.</ScratchToxic.deathMessage>
   
   <!-- EN: stab -->
   <Stab.label>puñalada</Stab.label>
@@ -44,6 +44,6 @@
   <!-- EN: toxic bite -->
   <ToxicBite.label>mordida tóxica</ToxicBite.label>
   <!-- EN: {0} has been bitten to death. -->
-  <ToxicBite.deathMessage>{0} ha muerto por una mordida tóxica.</ToxicBite.deathMessage>
+  <ToxicBite.deathMessage>{0} ha sido mordid{0_gender ? o : a} hasta morir.</ToxicBite.deathMessage>
   
 </LanguageData>
