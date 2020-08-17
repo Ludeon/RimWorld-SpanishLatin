@@ -87,9 +87,9 @@
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
   <LetterTitleInheritance_Base>Desde que {PAWN_nameFull} murió su título fue transpasado a su heredero, como está regulado en las leyes de herencia de las facciones.</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
-  <LetterTitleInheritance_AsReplacement>Su título de ({TITLE}) fue heredaro por {HEIR_nameFull} de acuerdo con las leyes de herencia de la facción {FACTION_name}. Esto sustituirá su título actual ({REPLACEDTITLE}).</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_AsReplacement>Su título de ({TITLE}) fue heredaro por {HEIR_nameFull} de acuerdo con las leyes de herencia de la facción {FACTION_name}. Esto sustituirá su título actual {REPLACEDTITLE}.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>Su título de ({TITLE}) habría sido heredado por {HEIR_nameFull} de acuerdo con las leyes de herencia de la facción {FACTION_name} sin embargo, {HEIR_pronoun} ya tiene el título de ({HIGHERTITLE}) que es de mayor categoría.</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>Su título de ({TITLE}) habría sido heredado por {HEIR_nameFull} de acuerdo con las leyes de herencia de la facción {FACTION_name} sin embargo, {HEIR_pronoun} ya tiene el título de {HIGHERTITLE} que es de mayor categoría.</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}. -->
   <LetterTitleInheritance_WasInherited>Su título de ({TITLE}) fue heredado por {HEIR_nameFull} de acuerdo con las leyes de herencia de la facción {FACTION_name}.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
@@ -99,7 +99,7 @@
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>Infractor de la ley: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>La facción {FACTION_name} ha detectado que {PAWN_labelShort} violó la ley, usando: {CULPRIT} (posibilidad de detección {CHANCE}).\n\nDe acuerdo con las leyes de la facción {FACTION_name}, solo los poseedores del título de {TITLE} están autorizados a usar {CULPRIT}.\n\Como castigo, tu reputación con ellos cayó en {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>La facción {FACTION_name} ha detectado que {PAWN_labelShort} violó la ley, usando: {CULPRIT} (posibilidad de detección {CHANCE}).\n\nDe acuerdo con las leyes de la facción {FACTION_name}, solo los poseedores del título de {TITLE} están autorizados a usar {CULPRIT}.\n\Como castigo, tu reputación con ellos cayó por {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
@@ -130,10 +130,10 @@
   <LetterLabelRandomDecree>{0_nameIndef} emite decreto</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}, en un intento de aliviar su estrés, emitió un decreto real salvaje y ahora exige que se cumpla.\n    \nSi no se cumple a tiempo, {0_nameIndef} se volverá muy infeliz.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}, en un intento de aliviar su estrés, emitió un decreto real salvaje y ahora exige que se cumpla.\n    \nSi no se cumple a tiempo, {0_nameIndef} será infeliz.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef}, para afirmar su título de {0_bestRoyalTitleIndef}, ha emitido un decreto y ahora exige que se cumpla.\n     \nSi no se cumple a tiempo, {0_nameIndef} se volverá muy infeliz.</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}, para afirmar su título de {0_bestRoyalTitleIndef}, ha emitido un decreto y ahora exige que se cumpla.  \n     \nSi no se cumple a tiempo, {0_nameIndef} se volverá muy infeliz.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>El decreto se titula "{0}".</LetterDecree_Quest>
   
