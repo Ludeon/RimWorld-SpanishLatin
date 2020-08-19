@@ -58,9 +58,9 @@
     <li>Animal_FemPlural->Words/Nouns/Animals_FemPlural</li>
     <li>Animal_Plural->Words/Nouns/Animals_Plural</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
-    <li>AnimalBadass_Fem->Words/Nouns/Animals_Badass_Fem</li>
-    <li>AnimalBadass_FemPlural->Words/Nouns/Animals_Badass_FemPlural</li>
-    <li>AnimalBadass_Plural->Words/Nouns/Animals_Badass_Plural</li>
+    <li>AnimalBadass_Fem->Words/Nouns/Animal_Badass_Fem</li>
+    <li>AnimalBadass_FemPlural->Words/Nouns/Animal_Badass_FemPlural</li>
+    <li>AnimalBadass_Plural->Words/Nouns/Animal_Badass_Plural</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
     <!--Vestimenta:-->
     <li>Apparel->Words/Nouns/Apparel</li>
@@ -80,6 +80,7 @@
     <!--Colores:-->
     <li>Color->Words/Nouns/Colors</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
+    <li>ColorBadass->Words/Nouns/Colors_BadassFem</li>
     <li>Color_Fem->Words/Nouns/Colors_Fem</li>
     <!--Comunidades:-->
     <li>Community->Words/Nouns/Communities</li>
@@ -103,7 +104,7 @@
     <!--Dantesco: Se usa en RulePack_Art_ImagesTales-->
     <li>Gore->Words/Nouns/Gore</li>
     <li>GoreMech->Words/Nouns/Gore_Mech</li>
-    <li>GoreMechPl->Words/Nouns/GoreMech_Plural</li>
+    <li>GoreMechPl->Words/Nouns/Gore_MechPlural</li>
     <li>Gore_Plural->Words/Nouns/Gore_Plural</li>
     <!--Nombre de Grupos:-->
     <li>GroupName->Words/Nouns/GroupNames</li>
@@ -126,13 +127,13 @@
     <li>PersonFamily_Fem->Words/Nouns/People_Family_Fem</li>
     <!--Tipos de Trabajos:-->
     <li>PersonJob->Words/Nouns/People_Jobs</li>
-    <li>PersonJob_Fem->Words/Nouns/People_Jobs_Fem</li>
+    <li>PersonJob_Fem->Words/Nouns/People_JobsFem</li>
     <!--Tipos de uniones modernas:-->
     <li>PoliticalUnionOutlander->Words/Nouns/PoliticalUnions_Outlander</li>
-    <li>PoliticalUnionOutlander_Fem->Words/Nouns/PoliticalUnions_Outlander_Fem</li>
+    <li>PoliticalUnionOutlander_Fem->Words/Nouns/PoliticalUnions_OutlanderFem</li>
     <!--Tipos de uniones de tribus:-->
     <li>PoliticalUnionTribal->Words/Nouns/PoliticalUnions_Tribal</li>
-    <li>PoliticalUnionTribal_Fem->Words/Nouns/PoliticalUnions_Tribal_Fem</li>
+    <li>PoliticalUnionTribal_Fem->Words/Nouns/PoliticalUnions_TribalFem</li>
     <!--Sílabas:-->
     <li>SylB->WordParts/Syllables_Byzantinian</li>
     <li>SylB_Cap->WordParts/Syllables_Byzantinian_Cap</li>
@@ -210,6 +211,24 @@
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
   <GlobalUtility.rulePack.rulesStrings>
+    <li>asker_o_a(asker_gender==Male)->o</li>
+    <li>asker_o_a(asker_gender==Female)->a</li>
+    <li>asker_o_a(asker_gender==None)->o</li>
+    <li>asker_x_a(asker_gender==Male)-></li>
+    <li>asker_x_a(asker_gender==Female)->a</li>
+    <li>asker_x_a(asker_gender==None)-></li>
+    <li>asker_El_La_Cap(asker_gender==Male)->El</li>
+    <li>asker_El_La_Cap(asker_gender==Female)->La</li>
+    <li>asker_El_La_Cap(asker_gender==None)->El</li>
+    <li>asker_el_la(asker_gender==Male)->el</li>
+    <li>asker_el_la(asker_gender==Female)->la</li>
+    <li>asker_el_la(asker_gender==None)->el</li>
+    <li>titleHeir_o_a(titleHeir_gender==Male)->o</li>
+    <li>titleHeir_o_a(titleHeir_gender==Female)->a</li>
+    <li>titleHeir_o_a(titleHeir_gender==None)->o</li>
+    <li>titleHeirDef(titleHeir_gender==Male)->el</li>
+    <li>titleHeirDef(titleHeir_gender==Female)->la</li>
+    <li>titleHeirDef(titleHeir_gender==None)->el</li>
     <li>Trans->de</li>
     <li>Trans->para</li>
     <li>Trans->por</li>
@@ -220,6 +239,8 @@
     <li>AdjectiveAny->[AdjectiveNatural]</li>
     <li>AnimalBadassAny->[AnimalBadass]</li>
     <li>AnimalBadassAny->[AnimalBadass_Fem]</li>
+    <li>AnimalBadassDefCap->El [AnimalBadass]</li>
+    <li>AnimalBadassDefCap->La [AnimalBadass_Fem]</li>
     <li>AnimalBadassAnyPl->[AnimalBadass_Plural]</li>
     <li>AnimalBadassAnyPl->[AnimalBadass_FemPlural]</li>
     <li>AnimalAny->[Animal]</li>
@@ -320,6 +341,17 @@
     <li>Shape_Plural->[Shape_VarPl]</li>
     <li>PersonJobAny->[PersonJob]</li>
     <li>PersonJobAny->[PersonJob_Fem]</li>
+    <li>PersonIndef->un [PersonJob]</li>
+    <li>PersonIndef->una [PersonJob_Fem]</li>
+    <li>PersonalCharacteristic(p=0.15)->genitales</li>
+    <li>PersonalCharacteristic(p=0.15)->vello púbico</li>
+    <li>PersonalCharacteristic(p=0.15)->vello coporal</li>
+    <li>PersonalCharacteristic(p=0.15)->hábito de aseo</li>
+    <li>PersonalCharacteristic(p=0.15)->propósito sexual</li>
+    <li>PersonalCharacteristic(p=0.15)->preferencias sexuales</li>
+    <li>PersonalCharacteristic_Fem(p=0.15)->experiencia sexual</li>
+    <li>PersonalCharacteristicDef->el [PersonalCharacteristic]</li>
+    <li>PersonalCharacteristicDef->la [PersonalCharacteristic_Fem]</li>
     <li>TerrainFeatureAny->[TerrainFeature]</li>
     <li>TerrainFeatureAny->[TerrainFeature_Fem]</li>
     <li>TerrainFeatureDef->un [TerrainFeature]</li>
@@ -338,6 +370,553 @@
     <li>WeaponAnyPl->[Weapon_FemPlural]</li>
     <li>WeaponDef->un [Weapon]</li>
     <li>WeaponDef->una [Weapon_Fem]</li>
+    <!-- 
+    <!All Animals -->
+    <!-- Arid -->
+    <!-- Singular Def
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Dromedary,lodgers0_gender==Male)->el dromedario macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Dromedary,lodgers0_gender==Female)->el dromedario hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Gazelle,lodgers0_gender==Male)->la gacela macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Gazelle,lodgers0_gender==Female)->la gacela hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Iguana,lodgers0_gender==Male)->la iguana macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Iguana,lodgers0_gender==Female)->la iguana hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->el múfalo macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->el múfalo hembra</li>
+    <! Singular NoDef
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Dromedary,lodgers0_gender==Male)->dromedario macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Dromedary,lodgers0_gender==Female)->dromedario hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Gazelle,lodgers0_gender==Male)->gacela macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Gazelle,lodgers0_gender==Female)->gacela hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Iguana,lodgers0_gender==Male)->iguana macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Iguana,lodgers0_gender==Female)->iguana hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->múfalo macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->múfalo hembra</li>
+    <! Plural Def
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Dromedary)->los dromedarios</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Gazelle)->las gacelas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Iguana)->las iguanas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Muffalo)->los múfalos</li>
+    <!Plural NoDef
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Dromedary)->dromedarios</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Gazelle)->gacelas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Iguana)->iguanas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Muffalo)->múfalos</li>
+    <! animal_o_a-
+    <li>animal_o_a(lodgersPawnKind==Dromedary)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Gazelle)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Iguana)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Muffalo)->o</li>
+    <! animal_x_a
+    <li>animal_x_a(lodgersPawnKind==Dromedary)-></li>
+    <li>animal_x_a(lodgersPawnKind==Gazelle)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Iguana)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Muffalo)-></li>
+    <! Bears -->
+    <!-- Singular Def
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Male)->el oso pardo-></li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Female)->la osa parda-></li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Bear_Polar,lodgers0_gender==Male)->el oso polar</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Bear_Polar,lodgers0_gender==Female)->la osa polar</li>
+    <! Singular NoDef
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Male)->oso pardo-></li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Female)->osa parda-></li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Bear_Polar,lodgers0_gender==Male)->oso polar</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Bear_Polar,lodgers0_gender==Female)->osa polar</li>
+    <! Plural Def
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Male)->los osos pardos-></li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Female)->las osas pardas-></li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Bear_Polar,lodgers0_gender==Male)->los osos polares</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Bear_Polar,lodgers0_gender==Female)->las osas polares</li>
+    <! Plural NoDef
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Male)->osos pardos-></li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Female)->osas pardas-></li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Bear_Polar,lodgers0_gender==Male)->osos polares</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Bear_Polar,lodgers0_gender==Female)->osas polares</li>
+    <! animal_o_a
+    <li>animal_o_a(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Female)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Bear_Polar,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Bear_Polar,lodgers0_gender==Female)->a</li>
+    <! animal_x_a
+    <li>animal_x_a(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Bear_Polar,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Bear_Polar,lodgers0_gender==Female)->a</li>
+    <!BigCats-->
+    <!-- Singular Def
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Cougar,lodgers0_gender==Male)->el puma macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Cougar,lodgers0_gender==Female)->el puma hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Lynx,lodgers0_gender==Male)->el lince macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Lynx,lodgers0_gender==Female)->el lince hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Panther,lodgers0_gender==Male)->la pantera macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Panther,lodgers0_gender==Female)->la pantera hembra</li>
+    <!Singular NoDef
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Cougar,lodgers0_gender==Male)->puma macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Cougar,lodgers0_gender==Female)->puma hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Lynx,lodgers0_gender==Male)->lince macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Lynx,lodgers0_gender==Female)->lince hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Panther,lodgers0_gender==Male)->pantera macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Panther,lodgers0_gender==Female)->pantera hembra</li>
+    <! Plural Def
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Cougar)->los pumas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Lynx)->los linces</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Panther)->las panteras</li>
+    <! Plural NoDef
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Cougar)->pumas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Lynx)->linces</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Panther)->panteras</li>
+    <! animal_o_a
+    <li>animal_o_a(lodgersPawnKind==Cougar)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Lynx)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Panther)->a</li>
+    <! animal_x_a
+    <li>animal_x_a(lodgersPawnKind==Cougar)-></li>
+    <li>animal_x_a(lodgersPawnKind==Lynx)-></li>
+    <li>animal_x_a(lodgersPawnKind==Panther)->a</li>
+    <! Birs
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Cassowary,lodgers0_gender==Male)->el casuario macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Cassowary,lodgers0_gender==Female)->el casuario hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Emu,lodgers0_gender==Male)->el emú macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Emu,lodgers0_gender==Female)->el emú hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->el avestruz macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->el avestruz hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Turkey,lodgers0_gender==Male)->el pavo</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Turkey,lodgers0_gender==Female)->la pava</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Cassowary,lodgers0_gender==Male)->casuario macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Cassowary,lodgers0_gender==Female)->casuario hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Emu,lodgers0_gender==Male)->emú macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Emu,lodgers0_gender==Female)->emú hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->avestruz macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->avestruz hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Turkey,lodgers0_gender==Male)->pavo</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Turkey,lodgers0_gender==Female)->pava</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Cassowary)->los causarios</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Emu)->los emúes</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Ostrich)->los avestruces</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Turkey)->los pavos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Cassowary)->causarios</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Emu)->emúes</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Ostrich)->avestruces</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Turkey)->pavos</li>
+    <li>animal_o_a(lodgersPawnKind==Cassowary)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Emu)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Ostrich)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Turkey,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Turkey,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Cassowary)-></li>
+    <li>animal_x_a(lodgersPawnKind==Emu)-></li>
+    <li>animal_x_a(lodgersPawnKind==Ostrich)-></li>
+    <li>animal_x_a(lodgersPawnKind==Turkey,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Turkey,lodgers0_gender==Female)->a</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Alpaca,lodgers0_gender==Male)->la alpaca macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Alpaca,lodgers0_gender==Female)->la alpaca hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Bison)->el bisonte</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Chicken,lodgers0_gender==Male)->el gallo</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Chicken,lodgers0_gender==Female)->la gallina</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Cow,lodgers0_gender==Female)->la vaca</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Cow,lodgers0_gender==Male)->el toro</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Donkey)->el burro</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Duck)->el pato</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Goat)->la cabra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Goose)->el ganso</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==GuineaPig)->el conejillo de indias</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Horse)->el caballo</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Pig,lodgers0_gender==Male)->el cerdo</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Pig,lodgers0_gender==Female)->la cerda</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Sheep,lodgers0_gender==Male)->la oveja</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Sheep,lodgers0_gender==Female)->el carnero</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Yak,lodgers0_gender==Male)->el yak macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Yak,lodgers0_gender==Female)->el yak hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Alpaca,lodgers0_gender==Male)->alpaca macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Alpaca,lodgers0_gender==Female)->alpaca hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Bison)->bisonte</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Chicken,lodgers0_gender==Male)->gallo</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Chicken,lodgers0_gender==Female)->la gallina</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Cow,lodgers0_gender==Female)->vaca</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Cow,lodgers0_gender==Male)->toro</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Donkey)->burro</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Duck)->pato</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Goat)->cabra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Goose)->ganso</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==GuineaPig)->conejillo de indias</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Horse)->caballo</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Pig,lodgers0_gender==Male)->cerdo</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Pig,lodgers0_gender==Female)->cerda</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Sheep,lodgers0_gender==Male)->carnero</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Sheep,lodgers0_gender==Female)->oveja</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Yak,lodgers0_gender==Male)->yak macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Yak,lodgers0_gender==Female)->yak hembra</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Alpaca)->las alpacas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Bison)->los bisontes</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Chicken,lodgers0_gender==Male)->los gallos</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Chicken,lodgers0_gender==Female)->las gallinas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Cow,lodgers0_gender==Male)->los toros</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Cow,lodgers0_gender==Female)->las vacas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Donkey)->los burros</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Duck)->los patos</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Goat)->las cabras</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Goose)->los gansos</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==GuineaPig)->los conejillo de indias</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Horse)->los caballos</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Pig,lodgers0_gender==Male)->los cerdos</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Pig,lodgers0_gender==Female)->las cerdas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Sheep,lodgers0_gender==Male)->los carneros</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Sheep,lodgers0_gender==Female)->las ovejas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Sheep,lodgers0_gender==Male)->los carneros</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Yak,lodgers0_gender==Female)->los yaks hembras</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Yak,lodgers0_gender==Male)->los yaks machos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Alpaca)->alpacas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Bison)->bisontes</li>
+    <li>lodgersPawnKind_labelPluraloDef(lodgersPawnKind==Chicken,lodgers0_gender==Male)->gallos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Chicken,lodgers0_gender==Female)->gallinas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Cow,lodgers0_gender==Male)->toros</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Cow,lodgers0_gender==Female)->vacas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Donkey)->burros</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Duck)->patos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Goat)->cabras</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Goose)->gansos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==GuineaPig)->conejillo de indias</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Horse)->caballos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Pig,lodgers0_gender==Male)->cerdos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Pig,lodgers0_gender==Female)->cerdas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Sheep,lodgers0_gender==Male)->carneros</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Sheep,lodgers0_gender==Female)->ovejas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Sheep,lodgers0_gender==Male)->carneros</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Yak,lodgers0_gender==Female)->yaks hembras</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Yak,lodgers0_gender==Male)->yaks machos</li>
+    <li>animal_o_a(lodgersPawnKind==Alpaca)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Bison)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Chicken,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Chicken,lodgers0_gender==Female)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Cow,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Cow,lodgers0_gender==Female)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Donkey)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Duck)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Goat)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Goose)->o</li>
+    <li>animal_o_a(lodgersPawnKind==GuineaPig)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Horse)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Pig,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Pig,lodgers0_gender==Female)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Sheep,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Sheep,lodgers0_gender==Female)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Yak)->o</li>
+    <li>animal_x_a(lodgersPawnKind==Alpaca)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Bison)-></li>
+    <li>animal_x_a(lodgersPawnKind==Chicken,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Chicken,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Cow,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Cow,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Donkey)-></li>
+    <li>animal_x_a(lodgersPawnKind==Duck)-></li>
+    <li>animal_x_a(lodgersPawnKind==Goat)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Goose)-></li>
+    <li>animal_x_a(lodgersPawnKind==GuineaPig)-></li>
+    <li>animal_x_a(lodgersPawnKind==Horse)-></li>
+    <li>animal_x_a(lodgersPawnKind==Pig,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Pig,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Sheep,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Sheep,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Yak)-></li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Elephant,lodgers0_gender==Male)->el elfante macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Elephant,lodgers0_gender==Female)->el elfante hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Megasloth,lodgers0_gender==Male)->el megaterio macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Megasloth,lodgers0_gender==Female)->el megaterio hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Rhinoceros,lodgers0_gender==Male)->el rinoceronte macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Rhinoceros,lodgers0_gender==Female)->el rinoceronte hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Thrumbo,lodgers0_gender==Male)->el thrumbo macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Thrumbo,lodgers0_gender==Female)->el thrumbo hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Elephant,lodgers0_gender==Male)->elfante macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Elephant,lodgers0_gender==Female)->elfante hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Megasloth,lodgers0_gender==Male)->megaterio macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Megasloth,lodgers0_gender==Female)->megaterio hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Rhinoceros,lodgers0_gender==Male)->rinoceronte macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Rhinoceros,lodgers0_gender==Female)->rinoceronte hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Thrumbo,lodgers0_gender==Male)->thrumbo macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Thrumbo,lodgers0_gender==Female)->thrumbo hembra</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Elephant)->los elefantes</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Megasloth)->los megaterios</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Rhinoceros)->los rinocerontes</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Thrumbo)->los thrumbos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Elephant)->elefantes</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Megasloth)->megaterios</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Rhinoceros)->rinocerontes</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Thrumbo)->thrumbos</li>
+    <li>animal_o_a(lodgersPawnKind==Elephant)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Megasloth)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Rhinoceros)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Thrumbo)->o</li>
+    <li>animal_x_a(lodgersPawnKind==Elephant)-></li>
+    <li>animal_x_a(lodgersPawnKind==Megasloth)-></li>
+    <li>animal_x_a(lodgersPawnKind==Rhinoceros)-></li>
+    <li>animal_x_a(lodgersPawnKind==Thrumbo)-></li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Hare,lodgers0_gender==Male)->la liebre macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Hare,lodgers0_gender==Female)->la liebre hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Snowhare,lodgers0_gender==Male)->la liebre blanca macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Snowhare,lodgers0_gender==Female)->la liebre blanca hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Hare,lodgers0_gender==Male)->liebre macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Hare,lodgers0_gender==Female)->liebre hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Snowhare,lodgers0_gender==Male)->liebre blanca macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Snowhare,lodgers0_gender==Female)->liebre blanca hembra</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Hare)->las liebres</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Snowhare)->las liebres blancas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Hare)->liebres</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Snowhare)->liebres blancas</li>
+    <li>animal_o_a(lodgersPawnKind==Hare)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Snowhare)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Hare)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Snowhare)->a</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Megascarab,lodgers0_gender==Male)->el megascarabajo macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Megascarab,lodgers0_gender==Female)->el megascarabajo hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Megaspider,lodgers0_gender==Male)->la megaraña macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Megaspider,lodgers0_gender==Female)->la megaraña hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Spelopede,lodgers0_gender==Male)->el espelópedo macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Spelopede,lodgers0_gender==Female)->el espelópedo hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Megascarab,lodgers0_gender==Male)->megascarabajo macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Megascarab,lodgers0_gender==Female)->megascarabajo hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Megaspider,lodgers0_gender==Male)->megaraña macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Megaspider,lodgers0_gender==Female)->megaraña hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Spelopede,lodgers0_gender==Male)->espelópedo macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Spelopede,lodgers0_gender==Female)->espelópedo hembra</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Megascarab)->los megascarabajos</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Megaspider)->las megarañas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Spelopede)->los espelópedos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Megascarab)->megascarabajos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Megaspider)->megarañas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Spelopede)->espelópedos</li>
+    <li>animal_o_a(lodgersPawnKind==Megascarab)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Megaspider)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Spelopede)->o</li>
+    <li>animal_x_a(lodgersPawnKind==Megascarab)-></li>
+    <li>animal_x_a(lodgersPawnKind==Megaspider)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Spelopede)-></li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Cat,lodgers0_gender==Male)->el gato</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Cat,lodgers0_gender==Female)->la gata</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Husky,lodgers0_gender==Male)->el husky macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Husky,lodgers0_gender==Female)->el husky hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==LabradorRetriever,lodgers0_gender==Male)->el labrador retriever macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==LabradorRetriever,lodgers0_gender==Female)->el labrador retriever hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==YorkshireTerrier,lodgers0_gender==Male)->el yorkshire macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==YorkshireTerrier,lodgers0_gender==Female)->el yorkshire hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Cat,lodgers0_gender==Male)->gato</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Cat,lodgers0_gender==Female)->gata</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Husky,lodgers0_gender==Male)->husky macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Husky,lodgers0_gender==Female)->husky hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==LabradorRetriever,lodgers0_gender==Male)->labrador retriever macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==LabradorRetriever,lodgers0_gender==Female)->labrador retriever hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==YorkshireTerrier,lodgers0_gender==Male)->yorkshire terrier macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==YorkshireTerrier,lodgers0_gender==Female)->yorkshire terrier hembra</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Cat,lodgers0_gender==Male)->los gatos</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Cat,lodgers0_gender==Female)->las gatas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Husky)->los huskies</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==LabradorRetriever)->los labradores retrievers</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==YorkshireTerrier)->los yorkshire terriers</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Cat,lodgers0_gender==Male)->gatos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Cat,lodgers0_gender==Female)->gatas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Husky)->huskies</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==LabradorRetriever)->labradores retrievers</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==YorkshireTerrier)->yorkshires terriers</li>
+    <li>animal_o_a(lodgersPawnKind==Cat,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Cat,lodgers0_gender==Female)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Husky)->o</li>
+    <li>animal_o_a(lodgersPawnKind==LabradorRetriever)->o</li>
+    <li>animal_o_a(lodgersPawnKind==YorkshireTerrier)->o</li>
+    <li>animal_x_a(lodgersPawnKind==Cat,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Cat,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Husky)-></li>
+    <li>animal_x_a(lodgersPawnKind==LabradorRetriever)-></li>
+    <li>animal_x_a(lodgersPawnKind==YorkshireTerrier)-></li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->el alfacastor macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->el alfacastor hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Boomrat,lodgers0_gender==Male)->la rata-bum macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Boomrat,lodgers0_gender==Female)->la rata-bum hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Capybara,lodgers0_gender==Male)->el capibara macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Capybara,lodgers0_gender==Female)->el capibara hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Chinchilla,lodgers0_gender==Male)->la chinchilla macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Chinchilla,lodgers0_gender==Female)->la chinchilla hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Raccoon,lodgers0_gender==Male)->el mapache macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Raccoon,lodgers0_gender==Female)->el mapache hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Rat,lodgers0_gender==Male)->la rata macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Rat,lodgers0_gender==Female)->la rata hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Squirrel,lodgers0_gender==Male)->la ardilla macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Squirrel,lodgers0_gender==Female)->la ardilla hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->alfacastor macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->alfacastor hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Boomrat,lodgers0_gender==Male)->rata-bum macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Boomrat,lodgers0_gender==Female)->rata-bum hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Capybara,lodgers0_gender==Male)->capibara macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Capybara,lodgers0_gender==Female)->capibara hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Chinchilla,lodgers0_gender==Male)->chinchilla macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Chinchilla,lodgers0_gender==Female)->chinchilla hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Raccoon,lodgers0_gender==Male)->mapache macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Raccoon,lodgers0_gender==Female)->mapache hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Rat,lodgers0_gender==Male)->rata macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Rat,lodgers0_gender==Female)->rata hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Squirrel,lodgers0_gender==Male)->ardilla macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Squirrel,lodgers0_gender==Female)->ardilla hembra</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Alphabeaver)->los alfacastores</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Boomrat)->las ratas-bum</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Capybara)->los capibaras</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Chinchilla)->las chinchilla</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Raccoon)->los mapaches</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Rat)->las ratas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Squirrel)->las ardillas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Alphabeaver)->alfacastores</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Boomrat)->ratas-bum</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Capybara)->capibaras</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Chinchilla)->chinchilla</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Raccoon)->mapaches</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Rat)->ratas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Squirrel)->ardillas</li>
+    <li>animal_o_a(lodgersPawnKind==Alphabeaver)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Boomrat)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Capybara)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Chinchilla)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Raccoon)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Rat)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Squirrel)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Alphabeaver)-></li>
+    <li>animal_x_a(lodgersPawnKind==Boomrat)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Capybara)-></li>
+    <li>animal_x_a(lodgersPawnKind==Chinchilla)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Raccoon)-></li>
+    <li>animal_x_a(lodgersPawnKind==Rat)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Squirrel)->a</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Caribou,lodgers0_gender==Male)->el caribú macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Caribou,lodgers0_gender==Female)->el caribú hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Deer,lodgers0_gender==Male)->el venando macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Deer,lodgers0_gender==Female)->el venando hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Elk,lodgers0_gender==Male)->el alce macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Elk,lodgers0_gender==Female)->el alce hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Ibex,lodgers0_gender==Male)->el íbice macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Ibex,lodgers0_gender==Female)->el íbice hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Tortoise,lodgers0_gender==Male)->la tortuga macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Tortoise,lodgers0_gender==Female)->la tortuga hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->el jabalí macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->el jabalí hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Caribou,lodgers0_gender==Male)->caribú macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Caribou,lodgers0_gender==Female)->caribú hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Deer,lodgers0_gender==Male)->venando macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Deer,lodgers0_gender==Female)->venando hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Elk,lodgers0_gender==Male)->alce macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Elk,lodgers0_gender==Female)->alce hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Ibex,lodgers0_gender==Male)->íbice macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Ibex,lodgers0_gender==Female)->íbice hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Tortoise,lodgers0_gender==Male)->tortuga macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Tortoise,lodgers0_gender==Female)->tortuga hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->jabalí macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->jabalí hembra</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Caribou)->los caribúes</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Deer)->los venados</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Elk)->los alces</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Ibex)->los íbices</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Tortoise)->las tortugas</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==WildBoar)->los jabalíes</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Caribou)->caribúes</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Deer)->venados</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Elk)->alces</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Ibex)->íbices</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Tortoise)->tortugas</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==WildBoar)->jabalíes</li>
+    <li>animal_o_a(lodgersPawnKind==Caribou)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Deer)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Elk)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Ibex)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Tortoise)->a</li>
+    <li>animal_o_a(lodgersPawnKind==WildBoar)->o</li>
+    <li>animal_x_a(lodgersPawnKind==Caribou)-></li>
+    <li>animal_x_a(lodgersPawnKind==Deer)-></li>
+    <li>animal_x_a(lodgersPawnKind==Elk)-></li>
+    <li>animal_x_a(lodgersPawnKind==Ibex)-></li>
+    <li>animal_x_a(lodgersPawnKind==Tortoise)->a</li>
+    <li>animal_x_a(lodgersPawnKind==WildBoar)-></li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Boomalope,lodgers0_gender==Male)->el bumalope macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Boomalope,lodgers0_gender==Female)->el bumalope hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Cobra,lodgers0_gender==Male)->la cobra macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Cobra,lodgers0_gender==Female)->la cobra hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Monkey,lodgers0_gender==Male)->el mono</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Monkey,lodgers0_gender==Female)->la mona</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Boomalope,lodgers0_gender==Male)->bumalope macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Boomalope,lodgers0_gender==Female)->bumalope hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Cobra,lodgers0_gender==Male)->cobra macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Cobra,lodgers0_gender==Female)->cobra hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Monkey,lodgers0_gender==Male)->mono</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Monkey,lodgers0_gender==Female)->mona</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Boomalope)->los bumalopes</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Cobra)->las cobras</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Monkey)->los monos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Boomalope)->bumalopes</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Cobra)->cobras</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Monkey)->monos</li>
+    <li>animal_o_a(lodgersPawnKind==Boomalope)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Cobra)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Monkey,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Monkey,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Boomalope)-></li>
+    <li>animal_x_a(lodgersPawnKind==Cobra)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Monkey,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Monkey,lodgers0_gender==Female)->a</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Male)->el zorro ártico</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Female)->la zorra ártica</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Male)->el zorro del desierto</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Female)->la zorra del desierto</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Fox_Red,lodgers0_gender==Male)->el zorro rojo macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Fox_Red,lodgers0_gender==Male)->el zorro rojo hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Warg,lodgers0_gender==Male)->el wargo macho</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Warg,lodgers0_gender==Female)->el wargo hembra</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->el lobo ártico</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->la loba ártica</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->el lobo pardo</li>
+    <li>lodgersPawnKind_labelDe(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Female)->la loba parda</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Male)->zorro ártico</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Female)->zorra ártica</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Male)->zorro del desierto</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Female)->zorra del desierto</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Fox_Red,lodgers0_gender==Male)->zorro rojo macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Fox_Red,lodgers0_gender==Male)->zorro rojo hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Warg,lodgers0_gender==Male)->wargo macho</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Warg,lodgers0_gender==Female)->wargo hembra</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->lobo ártico</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->loba ártica</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->lobo pardo</li>
+    <li>lodgersPawnKind_labelNoDe(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Female)->loba parda</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Fox_Arctic)->los zorros árticos</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Fox_Fennec)->los zorros del desierto</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Fox_Red)->los zorros rojo</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Warg)->los wargos</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Wolf_Arctic)->los lobos árticos</li>
+    <li>lodgersPawnKind_labelPluralDe(lodgersPawnKind==Wolf_Timber)->los lobos pardo</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Fox_Arctic)->zorros árticos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Fox_Fennec)->zorros del desierto</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Fox_Red)->zorros rojo</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Warg)->wargos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Wolf_Arctic)->lobos árticos</li>
+    <li>lodgersPawnKind_labelPluralNoDe(lodgersPawnKind==Wolf_Timber)->lobos pardo</li>
+    <li>animal_o_a(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Female)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Female)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Fox_Red)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Fox_Warg)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->a</li>
+    <li>animal_o_a(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->o</li>
+    <li>animal_o_a(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Fox_Arctic,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Fox_Fennec,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Fox_Red)-></li>
+    <li>animal_x_a(lodgersPawnKind==Fox_Warg)-></li>
+    <li>animal_x_a(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->a</li>
+    <li>animal_x_a(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)-></li>
+    <li>animal_x_a(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Female)->a</li>
+    <li>lodgersPawnKind_labelDe(p=0.00000000001)->[lodgersPawnKind_label]</li>
+    <li>lodgersPawnKind_labelNoDe(p=0.00000000001)->[lodgersPawnKind_label]</li>
+    <li>lodgersPawnKind_labelPluralDe(p=0.00000000001)->[lodgersPawnKind_labelPlural]</li>
+    <li>lodgersPawnKind_labelPluralNoDe(p=0.00000000001)->[lodgersPawnKind_labelPlural]</li>
+-->
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
