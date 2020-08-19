@@ -27,7 +27,7 @@
   -->
   <NamerFactionMechanoid.rulePack.rulesStrings>
     <li>r_name->[mechhive] [msyl]-[msyl_extra] </li>
-    <li>mechhive->Colmenóide</li>
+    <li>mechhive->colmenóide</li>
     <li>msyl->Alfa</li>
     <li>msyl->Beta</li>
     <li>msyl->Gamma</li>
@@ -123,7 +123,7 @@
     <li>r_name->Los [Enemy]s [AdjectiveBadass]s</li>
     <li>r_name->Los [PersonBadass]s [AdjectiveBadass]s</li>
     <li>r_name->Los [PersonAlly]s de la [ConceptBadass]</li>
-    <li>r_name(p=0.4)->Los come[Gore]</li>
+    <li>r_name(p=0.4)->Los come [Gore]</li>
     <li>r_name->[NamePerson] y sus [Enemy]s</li>
     <li>r_name->[NamePerson] y sus [AnimalBadassMasPl]</li>
     <li>r_name->[Weapon]s de [NamePerson]</li>
@@ -145,7 +145,7 @@
     <li>r_name->[political_union_tribal] de [WordTribal]</li>
     <li>r_name->[political_union_tribal] del [TerrainFeature] [Color]</li>
     <li>r_name->[political_union_tribal] de [WordTribal]</li>
-    <li>r_name->[WordTribal]</li>
+    <li>r_name->[WordTribal_Cap]</li>
     <li>r_name->[TerrainFeature] [WordTribal]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
@@ -321,15 +321,15 @@
     <li>townname_combo->[geography] del [PersonBadass]</li>
     <li>townname_combo->[geography] del [Enemy]</li>
     <li>townname_combo->[geography] del [Enemy]</li>
-    <li>townname_combo->[geography] de [Weapon]'s</li>
+    <li>townname_combo->[geography] de [Weapon]</li>
     <li>townname_combo->[geography] [Weapon]</li>
     <li>townname_combo->[geography] [ColorBadass]</li>
-    <li>geography(p=2)->[TerrainFeature]</li>
-    <li>geography->[Community]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][townendevil]</li>
+    <li>geography(p=2)->[TerrainFeatureAny]</li>
+    <li>geography->[CommunityAny]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][townendevil]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE][townendevil]</li>
     <li>townendevil->vast</li>
     <li>townendevil->varg</li>
     <li>townendevil->vix</li>
@@ -360,10 +360,11 @@
     <li>r_name->[WordTribal] [TerrainFeature]</li>
   -->
   <NamerSettlementTribal.rulePack.rulesStrings>
-    <li>r_name(p=2)->[WordTribal]</li>
-    <li>r_name->[WordTribal] [WordTribal]</li>
+    <li>r_name(p=2)->[WordTribal_Cap]</li>
+    <li>r_name->[WordTribal_Cap] [WordTribal]</li>
     <li>r_name->[TerrainFeature] [Color]</li>
-    <li>r_name->[TerrainFeature] [WordTribal]</li>
+    <li>r_name->[TerrainFeature_Fem] [Color_Fem]</li>
+    <li>r_name->[TerrainFeatureAny] [WordTribal]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   
 </LanguageData>
