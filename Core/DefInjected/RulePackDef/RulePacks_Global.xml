@@ -217,12 +217,16 @@
     <li>asker_x_a(asker_gender==Male)-></li>
     <li>asker_x_a(asker_gender==Female)->a</li>
     <li>asker_x_a(asker_gender==None)-></li>
-    <li>asker_El_La_Cap(asker_gender==Male)->El</li>
-    <li>asker_El_La_Cap(asker_gender==Female)->La</li>
-    <li>asker_El_La_Cap(asker_gender==None)->El</li>
-    <li>asker_el_la(asker_gender==Male)->el</li>
-    <li>asker_el_la(asker_gender==Female)->la</li>
-    <li>asker_el_la(asker_gender==None)->el</li>
+    <li>asker_x_a(asker_gender==None)-></li>
+    <li>asker_a(asker_gender==Male)->un</li>
+    <li>asker_a(asker_gender==Female)->una</li>
+    <li>asker_a(asker_gender==None)->un</li>
+    <li>asker_TheCap(asker_gender==Male)->El</li>
+    <li>asker_TheCap(asker_gender==Female)->La</li>
+    <li>asker_TheCap(asker_gender==None)->El</li>
+    <li>asker_The(asker_gender==Male)->el</li>
+    <li>asker_The(asker_gender==Female)->la</li>
+    <li>asker_The(asker_gender==None)->el</li>
     <li>titleHeir_o_a(titleHeir_gender==Male)->o</li>
     <li>titleHeir_o_a(titleHeir_gender==Female)->a</li>
     <li>titleHeir_o_a(titleHeir_gender==None)->o</li>
