@@ -6,14 +6,17 @@
     <li>dangersDescription-></li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], is making a request. [commonMainPart]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
-    <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.\n\n[helpersParagraph]</li>
+    <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
   <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-    <li>dangersDescription(priority=1)->\n\nThe pods contain these dangers:\n\n[allThreats]</li>
+    <li>dangersDescription(priority=1)->\n\nLas cápsulas contienen los siguientes peligros:\n\n[allThreats]</li>
     <li>dangersDescription-></li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], un(a) [asker_faction_leaderTitle] de la facción [asker_faction_name], está haciendo una petición. [commonMainPart]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], un(a) [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], está haciendo una petición. [commonMainPart]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [ununa] [asker_faction_leaderTitle] de la facción [asker_faction_name], está haciendo una petición. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [ununa] [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name], está haciendo una petición. [commonMainPart]</li>
     <li>commonMainPart->Un enjambre mecanóide ha estado atacando sus asentamientos. [asker_pronoun] quiere que le hagas una señal a los mecas para que los distraigan mientras [asker_pronoun] despeja la colmena. Si lo haces, (*Threat)un grupo mecanóide(/Threat) aterrizarán en [map_definite].[dangersDescription]\n\nEl grupo mecanóide estará inicialmente inactivo. Puede tener un activador de cuenta regresiva, o puede permanecer inactivo para siempre hasta que sea perturbado.\n\n[helpersParagraph]</li>
+    <li>ununa(asker_gender==Male)->un</li>
+    <li>ununa(asker_gender==Female)->una</li>
+    <li>ununa(asker_gender==None)->un</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
