@@ -5,7 +5,7 @@
     <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_possessive] guards were killed in an ambush. [asker_pronoun] escaped, but is now being followed by (*Threat)a manhunting [animalKindDef_label](/Threat).\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough [asker_faction_royalFavorLabel] to receive the royal title of Yeoman, and all benefits that come with it - including the first level of psychic powers.</li>
   -->
   <Intro_Wimp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] la facción [asker_faction_name] te llama desde las cercanías. Sus guardias han sido asesiandos en una emboscada. [asker_pronoun] logró escapar, pero ahora le sigue muy de cerca un animal que se ha vuelto (*Threat)cazahombres: [animalKindDef_label](/Threat).\n\n[asker_nameDef] quiere que [asker_objective] protejas en [map_definite] por unas pocas horas hasta que [asker_possessive] transbordador venga a recoger[asker_objective]\n\n</li>
+    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] de la facción [asker_faction_name] te llama desde las cercanías. Sus guardias han sido asesiandos en una emboscada. [asker_pronoun] logró escapar, pero ahora le sigue muy de cerca un animal que se ha vuelto cazahombres:(*Threat) [animalKindDef_label](/Threat).\n\n[asker_nameDef] quiere que [asker_objective] protejas en [map_definite] por unas pocas horas hasta que [asker_possessive] transbordador venga a recoger[asker_objective]\n\n</li>
   </Intro_Wimp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the [adjAny] [asker_royalTitleInCurrentFaction]</li>
@@ -24,7 +24,7 @@
   <!-- EN: [animalKindDef_label] arrived -->
   <Intro_Wimp.LetterLabelAnimalArrived.slateRef>[animalKindDef_label] ha llegado</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
   <!-- EN: The [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all. -->
-  <Intro_Wimp.LetterTextAnimalArrived.slateRef>El animal [animalKindDef_label], del cual [asker_nameDef] estaba huyendo, ha llegado.\n\nResulta ser muy manso y nada agresivo.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
+  <Intro_Wimp.LetterTextAnimalArrived.slateRef>El animal: [animalKindDef_label], del cual [asker_nameDef] estaba huyendo, ha llegado.\n\nResulta ser muy manso y nada agresivo.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
   <!-- EN: Manhunting [animalKindDef_label] -->
   <Intro_Wimp.LetterLabelAngryAnimal.slateRef>[animalKindDef_label] cazahombre</Intro_Wimp.LetterLabelAngryAnimal.slateRef>
   <!-- EN: The [animalKindDef_label] which was following [asker_nameFull] has arrived in the area. -->
