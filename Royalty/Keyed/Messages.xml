@@ -5,7 +5,7 @@
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>El transbordador no puede aterrizar en la plataforma: {0}.</ShuttleBlocked>
   <!-- EN: blocked by {0_label}. -->
-  <BlockedBy>bloqueado por {0_label}</BlockedBy>
+  <BlockedBy>bloqueado por {0_label}.</BlockedBy>
   <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>El transbordador ha llegado.</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
@@ -34,8 +34,8 @@
   <MessageMissionGetBackToShuttle>¡Derrotaste a la facción {FACTION_pawnsPlural}! Vuelve al transbordador para despegar.</MessageMissionGetBackToShuttle>
 
   <!-- EN: {FACTION_name} has dropped resources nearby. -->
-  <MessagePermitTransportDrop>La facción {FACTION_name} ha dejado caer recursos en las cercanías</MessagePermitTransportDrop>
+  <MessagePermitTransportDrop>La facción {FACTION_name} ha dejado caer recursos en las cercanías.</MessagePermitTransportDrop>
   <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
-  <MessagePermitTransportDropCaravan>La facción {FACTION_name} ha enviado recursos a la caravana de {PAWN_nameDef}</MessagePermitTransportDropCaravan> <!-- text_todo -->
+  <MessagePermitTransportDropCaravan>La facción {FACTION_name} ha enviado recursos a la caravana de {PAWN_nameDef}.</MessagePermitTransportDropCaravan>
 
 </LanguageData>
