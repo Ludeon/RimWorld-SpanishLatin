@@ -41,7 +41,7 @@
   <!-- EN: min -->
   <min>min</min>
   <!-- EN: max -->
-  <max>max</max>
+  <max>máx</max>
   <!-- EN: chance -->
   <chance>probabilidad</chance>
   <!-- EN: context -->
@@ -102,7 +102,7 @@
 \nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
 \nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
 \nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
-  <TechprintDesc>Esta es una impresión técnica para el proyecto de investigación '{PROJECT_label}'.\n\nLa forma física de las impresiones técnicas puede variar desde trozos de papel con diagramas hasta máquinas de enseñanza avanzadas e independientes. Independientemente de la forma, juegan el mismo papel. Dan a sus investigadores la confianza de que una idea es posible y una idea aproximada de los diseños utilizados en sociedades más establecidas.\n\nSus investigadores necesitan el conocimiento fundamental que ofrecen las impresiones técnicas para saber por dónde comenzar con una tecnología determinada. Solo después de que se hayan aplicado suficientes huellas tecnológicas, sus investigadores podrán resolver los detalles finos de cómo utilizar la tecnología en su situación particular.\n\n La aplicación de impresiones técnicas a un proyecto satisfecho cumple la mitad del progreso de investigación restante. Además, los investigadores siempre obtienen un impulso a sus habilidades intelectuales al aplicar impresiones técnicas, incluso en tecnologías ya completadas.</TechprintDesc>
+  <TechprintDesc>Esta es una impresión técnica para el proyecto de investigación "{PROJECT_label}".\n\nLa forma física de las impresiones técnicas puede variar desde trozos de papel con diagramas hasta máquinas de enseñanza avanzadas e independientes. Independientemente de la forma, juegan el mismo papel. Dan a sus investigadores la confianza de que una idea es posible y una idea aproximada de los diseños utilizados en sociedades más establecidas.\n\nSus investigadores necesitan el conocimiento fundamental que ofrecen las impresiones técnicas para saber por dónde comenzar con una tecnología determinada. Solo después de que se hayan aplicado suficientes huellas tecnológicas, sus investigadores podrán resolver los detalles finos de cómo utilizar la tecnología en su situación particular.\n\n La aplicación de impresiones técnicas a un proyecto satisfecho cumple la mitad del progreso de investigación restante. Además, los investigadores siempre obtienen un impulso a sus habilidades intelectuales al aplicar impresiones técnicas, incluso en tecnologías ya completadas.</TechprintDesc>
   <!-- EN: Unlocks -->
   <Unlocks>Desbloquea</Unlocks>
 
@@ -142,7 +142,7 @@
   <!-- EN: {PAWN_labelShort}'s {1} -->
   <SomeonesRoom>{1} de {PAWN_labelShort}</SomeonesRoom>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
-  <CouplesRoom>{PAWN2_labelShort} y {PAWN1_labelShort} de {2}</CouplesRoom>
+  <CouplesRoom>{2} de {PAWN1_labelShort} y {PAWN2_labelShort}</CouplesRoom>
   
   <!-- EN: Important for this type of room. -->
   <StatRelatesToCurrentRoom>Importante para este tipo de habitación.</StatRelatesToCurrentRoom>

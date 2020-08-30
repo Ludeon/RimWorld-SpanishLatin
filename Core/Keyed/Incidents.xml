@@ -2,13 +2,13 @@
 <LanguageData>
 
   <!-- EN: Mad {ANIMAL_labelShort} -->
-  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} loc{ANIMAL_gender ? o : a}</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} ha enloquecido</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>{ANIMAL_gender ? Un : Una} {ANIMAL_label} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
+  <AnimalInsanitySingle>{ANIMAL_label} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanityMultiple>¡{0}s loc{ANIMAL_gender ? os : as}!</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>{0} enloquecidos</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>Algún tipo de onda psíquica ha barrido la zona. Tus colonos están bien, pero...\n\nParece que muchas de {ANIMAL_gender ? los : las} {0} en el área se han vuelto loc{ANIMAL_gender ? os : as}.</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Algún tipo de onda psíquica ha barrido la zona. Tus colonos están bien, pero...\n\nParece que varios animales: {0}, en el área han enloquecido.</AnimalInsanityMultiple>
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>Plaga: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
@@ -23,16 +23,16 @@
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} de {LEADER_labelShort}, es el lider de la facción.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} - {LEADER_labelShort}, es lider de la facción.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} de {LEADER_labelShort}, es el lider de la facción.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} - {LEADER_labelShort}, es lider de la facción.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
-  <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
+  <LetterLabelRefugeePodCrash>Cápsula de escape estrellada</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_gender ? un : una} {PAWN_titleIndef} llamad{PAWN_gender ? o : a} {PAWN_nameDef} se está estrellando en las cercanías en una cápsula de escape. Si {PAWN_pronoun} sobrevive al impacto, resultará gravemente herid{PAWN_gender ? o : a}.</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_titleIndef} de nombre {PAWN_nameDef} se está estrellando en las cercanías en una cápsula de escape. Si {PAWN_pronoun} sobrevive al impacto, resultará gravemente herid{PAWN_gender ? o : a}.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef} no está afiliad{PAWN_gender ? o : a} a ninguna facción. Puedes rescatar{PAWN_objective} y esperar que {PAWN_pronoun} se una libremente, o capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
@@ -43,7 +43,7 @@
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
   <!-- EN: You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage. -->
-  <CargoPodCrash>Hemos detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nPuede que encuentres algo útil en los restos.</CargoPodCrash>
+  <CargoPodCrash>Has detectado un grupo de cápsulas de carga estrellándose en las cercanías.\n\nPuede que encuentres algo útil en los restos.</CargoPodCrash>
 
   <!-- EN: an electrical conduit -->
   <AnElectricalConduit>un cortocircuito eléctrico</AnElectricalConduit>
@@ -75,24 +75,24 @@
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
   <SingleVisitorArrives>{PAWN_titleIndef} de {1} está visitando la colonia.\n\n{PAWN_pronoun} se llama {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>\n\n{PAWN_pronoun} parece tener algunos objetos para el comercio.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesTraderInfo>{PAWN_pronoun} parece tener algunos objetos para el comercio.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>\n\n{PAWN_pronoun} es el líder de la facción.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun} es líder de la facción.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Visitantes</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
   <GroupVisitorsArrive>Un grupo de {0} está visitando la colonia.{1}{2}</GroupVisitorsArrive>
   <!-- EN: They seem to have a few items to trade. -->
-  <GroupVisitorsArriveTraderInfo>\n\nParece que tienen algunos objetos para el comercio.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveTraderInfo>Parece que tienen algunos objetos para el comercio.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\nUno de los visitantes, {1_labelShort}, es el lider de la facción.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>Uno de los visitantes, {1_labelShort}, es el lider de la facción.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Los visitantes de {0} se están marchando.</VisitorsLeaving>
 
   <!-- EN: Manhunter pack -->
-  <LetterLabelManhunterPackArrived>Manada de animales caza humanos</LetterLabelManhunterPackArrived>
+  <LetterLabelManhunterPackArrived>Manada de animales cazahombres</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>Una manada de {0}, caza humanos, ha entrado en el área. Ellos recorrerán la región, en busca de carne humanoide\n\nEllos no pueden pasar las puertas, por lo que si te quedas detrás de las paredes deberas estar a salvo. No van a atacar a las torretas inactivas, por lo que pasarán de tus torretas desconectadas, si es que deseas salvarlas.\n\nVan a dejar la zona en pocos días.</ManhunterPackArrived>
+  <ManhunterPackArrived>¡Una manada de {0}, cazahombres, ha entrado en la zona! Conducidos a la locura por la enfermedad conocida como escaria, ellos recorrerán la región, en busca de carne humanoide\n\nNo atacarán las puertas a menos que vean a alguien atravesarlas. Escóndete dentro y estarás a salvo. Tampoco atacarán torretas apagadas, así que apagalas si quieres salvarlas.\n\nEstos animales dejarán la zona en uno o dos días. Puedes esconderte y esperar, o luchar contra ellos.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
@@ -106,17 +106,17 @@
   <!-- EN: Opened {0} days ago -->
   <OpenedDaysAgo>Abierto hace {0} días</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
-  <PsychicDroneLevel>Nivel de zumbido psíquico: {0}</PsychicDroneLevel>
+  <PsychicDroneLevel>Nivel del zumbido: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
-  <LetterLabelPsychicDroneLevelIncreased>Zumbido psíquico instensificado</LetterLabelPsychicDroneLevelIncreased>
+  <LetterLabelPsychicDroneLevelIncreased>Zumbido instensificado</LetterLabelPsychicDroneLevelIncreased>
   <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
-  <LetterPsychicDroneLevelIncreased>La nave estrellada está emanando un zumbido psíquico más potente. Cada {0} humanoide en el área empieza a sentirse perturbado, aterrorizado y paranoide.</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>La nave estrellada está emanando un zumbido psíquico más potente. Cada {0} humanoide en el área empieza a sentirse perturbado, aterrorizado y paranoico.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
   <!-- EN: Agent -->
   <LetterLabelAgentRevealed>Agente</LetterLabelAgentRevealed>
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
-  <LetterAgentRevealed>{0} ha sido descubierto como un agente de tu enemigo {1}.\n\nEstán intentando escapar.</LetterAgentRevealed>
+  <LetterAgentRevealed>{0} se reveló como agente encubierto de tu enemigo {1}.\n\nEstán intentando escapar.</LetterAgentRevealed>
 
   <!-- Beavers -->
   <!-- EN: Beavers! -->
@@ -158,7 +158,7 @@
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demanda de rescate a {0}</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>{1} te contacta por radio. Tienen secuestrado(a) a {PAWN_labelShort}.\n\nEstán dispuestos a regresar{PAWN_objective} a cambio de {2} de plata.</RansomDemand>
+  <RansomDemand>{1} te contacta por radio. Han secuestrado a {PAWN_labelShort}.\n\nEstán dispuestos a regresar{PAWN_objective} a cambio de {2} de plata.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Aceptar</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -198,7 +198,7 @@
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>Una colonia cercana, {0}, se pone en contacto con usted con una solicitud comercial. Ellos quieren comprar:\n\n  {1} (valor {2})\n\nA cambio, ofrecen:\n\n  {3} (valor {4})\n\nEsta solicitud expira después de: {5}\n\nSi desea realizar el comercio, envíe una caravana con los suministros solicitados. El tiempo estimado de viaje es de {6}. Puede revisar esta oferta seleccionando {0} en el mapa del planeta.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
-  <CaravanRequestInfo>Solicitando: {0} ({3}), Recompensa: {1} ({4}) ({2} dias restantes)</CaravanRequestInfo>
+  <CaravanRequestInfo>Solicitando: {0} ({2}) (quedan {1})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>calidad normal o mejor</NormalQualityOrBetter>
   <!-- EN: not tainted -->
