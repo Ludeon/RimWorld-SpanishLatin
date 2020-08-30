@@ -155,7 +155,7 @@
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>Designar nivel de combustible a {0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>Designar nivel de combustible a {0}\nMax. distancia: {1} casillas</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Designar nivel de combustible a {0}\nMáx. distancia: {1} casillas</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Nivel de combustible objetivo: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
@@ -175,7 +175,7 @@
   <!-- EN: using {0} bedrolls -->
   <UsingBedrolls>usando {0} camas enrrollables</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
-  <CaravanEstimatedTimeToDestination>tiempo de llegada: {0} dias</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>tiempo de llegada: {0} días</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
   <CaravanEstimatedDaysToDestination>Tiempo de viaje de la ruta: {0} días</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
@@ -429,11 +429,11 @@
   <!-- EN: Mech cluster -->
   <MechCluster>clúster de mecas</MechCluster>
   <!-- EN: Spawning in {0} -->
-  <SpawningNextPawnIn>generar en {0}</SpawningNextPawnIn>
+  <SpawningNextPawnIn>generando en {0}</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>{0} generarado in {1}</MechAssemblyCompleteIn>
+  <MechAssemblyCompleteIn>{0} completa el ensamblaje en {1}.</MechAssemblyCompleteIn>
   <!-- EN: Will assemble -->
-  <MechAssemblyNextType>Se reunirá</MechAssemblyNextType>
+  <MechAssemblyNextType>Se ensamblará</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>producido</ThingsProduced>
   <!-- EN: harvested -->
@@ -443,11 +443,11 @@
   <!-- EN: Sent {0}, will return in {1} -->
   <PawnsLent>Enviado {0}, volverá en {1}</PawnsLent>
   <!-- EN: Dormant -->
-  <DormantCompInactive>Latente</DormantCompInactive>
+  <DormantCompInactive>Inactivo</DormantCompInactive>
   <!-- EN: Sealed -->
   <DormantCompSealed>Sellado</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>Listo para soltar mecanoides</DormantCompBeacon>
+  <DormantCompBeacon>Listo para soltar mecanóides</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>Caducado</DormantCompExpired>
   <!-- EN: Initiates in -->
@@ -477,9 +477,9 @@
   <!-- EN: User scanning speed -->
   <UserScanAbility>Velocidad de escaneo del colono</UserScanAbility>
   <!-- EN: Random find interval -->
-  <ScanAverageInterval>Intervalo de busqueda aleatorio</ScanAverageInterval>
+  <ScanAverageInterval>Intervalo de búsqueda aleatorio</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
-  <ScanningProgressToGuaranteedFind>Progreso para garantizar busqueda</ScanningProgressToGuaranteedFind>
+  <ScanningProgressToGuaranteedFind>Progreso para garantizar búsqueda</ScanningProgressToGuaranteedFind>
   
   <!-- Meditation -->
   <!-- EN: meditating at -->
@@ -649,7 +649,7 @@
   <!-- EN: Giving a speech -->
   <LordReportGivingSpeech>Dando un discurso</LordReportGivingSpeech>
   <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
-  <LordReportListeningSpeech>Escuchar el discurso de {ORGANIZER_labelShort}</LordReportListeningSpeech>
+  <LordReportListeningSpeech>Escuchando el discurso de {ORGANIZER_labelShort}</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
   <LordReportFormingCaravan>Formándo caravana</LordReportFormingCaravan>
 
