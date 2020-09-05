@@ -153,7 +153,16 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] desperate [faction_pawnsPlural] are approaching. Their leader is called [asker_nameDef].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have lost [asker_possessive] home in a recent attack.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to woken up from cryptosleep all alone and friendless.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been chased from [asker_possessive] home by a vengeful ex-lover.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been banished after an argument with a village leader.</li>
     <li>claimInfo(lodgerCount>=2)->They claim to have lost their home in a recent attack.</li>
+    <li>claimInfo(lodgerCount>=2)->They claim to have escaped an organ harvesting operation.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they escaped from a slave caravan.</li>
+    <li>claimInfo(lodgerCount>=2)->They say that crop blights starved them out of their village.</li>
+    <li>claimInfo(lodgerCount>=2)->They say a great flashstorm burned down their home.</li>
+    <li>claimInfo(lodgerCount>=2)->They say their caravan was ambushed and everything was taken.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they were banished from their town due to moral disagreements.</li>
     <li>joinInfo(lodgerCount==1)->If you make [asker_objective] happy, [asker_pronoun] may offer to join you.</li>
     <li>joinInfo(lodgerCount>=2)->If you make them happy, some of them may offer to join you.</li>
     <li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
@@ -179,7 +188,16 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] y otro [faction_pawnSingular] desesperado se están acercando.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] desesperados se están acercando. Su líder se llama [asker_nameDef].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma haber perdido su casa en un ataque reciente.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma que se despertó del criptosueño solo y sin amigos.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma que su ex amante le venia persiguiendo desde su casa en busca de venganza.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma haber sido desterrado después de una discusión con un líder de la aldea.</li>
     <li>claimInfo(lodgerCount>=2)->Afirman haber perdido su casa en un ataque reciente.</li>
+    <li>claimInfo(lodgerCount>=2)->Afirman haber escapado de una operación de recolección de órganos.</li>
+    <li>claimInfo(lodgerCount>=2)->Dicen que escaparon de una caravana de esclavos.</li>
+    <li>claimInfo(lodgerCount>=2)->Dicen que las plagas en sus cosechas los estaban matando de hambre en su pueblo.</li>
+    <li>claimInfo(lodgerCount>=2)->Dicen que una gran tormenta incendió su casa.</li>
+    <li>claimInfo(lodgerCount>=2)->Dicen que su caravana fue emboscada y que se llevaron todo.</li>
+    <li>claimInfo(lodgerCount>=2)->Dicen que fueron desterrados de su ciudad debido a desacuerdos morales.</li>
     <li>joinInfo(lodgerCount==1)->Si [asker_objective] haces feliz, puede ofrecerse y unirse a tu colonia.</li>
     <li>joinInfo(lodgerCount>=2)->Si los haces felices, algunos de ellos pueden ofrecerse y unirse a tu colonia.</li>
     <li>travelerInfo(lodgerCount==1)->Este [faction_pawnSingular] no es</li>
