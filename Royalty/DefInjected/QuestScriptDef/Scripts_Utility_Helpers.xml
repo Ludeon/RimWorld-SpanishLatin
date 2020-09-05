@@ -16,7 +16,7 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->\n\n[helperKind_indefinite] [helperKind_label] se pondrá bajo tu control. Tendrás que darle alimento y alojamiento, y no debes de preocuparte si [helpers0_pronoun] muere en batalla, pues no habrá consecuencias.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\nUn(a) [helperKind_label] se pondrá bajo tu control. Tendrás que darle alimento y alojamiento, y no debes de preocuparte si [helpers0_pronoun] muere en batalla, pues no habrá consecuencias.\n\n</li>
     <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] se pondrán bajo tu control. Tendrás que darles alimento y alojamiento, y no debes de preocuparte porque mueran en batalla, pues no habrá consecuencias.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] sido [helpersSent] para ayudarte.</li>
@@ -26,9 +26,8 @@
     <li>helpersSentSinOrPl(helpersCount==2)->llegaron</li>
     <li>helpersHasHave(helpersCount==1)->ha</li>
     <li>helpersHasHave(helpersCount>=2)->han</li>
-    <!-- Aún por determinar en que contexto está el IsAre -->
-    <li>helpersIsAre(helpersCount==1)->is</li>
-    <li>helpersIsAre(helpersCount>=2)->are</li>
+    <li>helpersIsAre(helpersCount==1)->está</li>
+    <li>helpersIsAre(helpersCount>=2)->están</li>
     <li>helpersSent(helpersCount==1,helpers0_gender==Male)->enviado</li>
     <li>helpersSent(helpersCount==1,helpers0_gender==Female)->enviada</li>
     <li>helpersSent(helpersCount==1,helpers0_gender==None)->enviado</li>
@@ -47,12 +46,12 @@
   <!-- EN: [helpersLabelSingOrPlural] arrived -->
   <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>[helpersLabelSingOrPlural] [helpersArrived]</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
-  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>[helpersThe] [helpersLabelSingOrPlural] [helpersSent] por [asker_nameDef] [helpersHasHave] [helpersArrived] para ayudarte con la misión '[resolvedQuestName]'.</Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>[helpersThe] [helpersLabelSingOrPlural] [helpersSent] por [asker_nameDef] [helpersHasHave] [helpersArrived] para ayudarte con la misión "[resolvedQuestName]".</Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
   <!-- EN: the [helpersLabelSingOrPlural] -->
   <Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>[helpersThe] [helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>
   <!-- EN: [helpersLabelSingOrPlural] leaving -->
   <Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>[helpersLabelSingOrPlural] [helpersLeaving]</Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
-  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>[helpersThe] [helpersLabelSingOrPlural] [helpersSent] por [asker_nameDef] para ayudarte [helpersHasHave] [helpersSpent] demasiado tiempo contigo, y ahora [helpersLeaving].</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>[helpersThe] [helpersLabelSingOrPlural] [helpersSent] por [asker_nameDef] para ayudarte [helpersHasHave] pasado demasiado tiempo contigo, y ahora se [helpersIsAre] yendo.</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
   
 </LanguageData>

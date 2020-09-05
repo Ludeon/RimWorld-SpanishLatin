@@ -36,7 +36,7 @@
     <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
   -->
   <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nTienes que [harvestItemCount]x [plantToHarvest_label] cosechar.\n\nPuede que tengas que plantar y cultivar [plantToHarvest_label] primero.\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nTienes que cosechar [harvestItemCount] x [plantToHarvest_label].\n\nPuede que tengas que plantar y cultivar [plantToHarvest_label] primero.\n\n[decreeThreatInfo]</li>
   </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[plantToHarvest_label] harvest decree</li>
@@ -51,7 +51,7 @@
     <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
   -->
   <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nTienes que [animalToHuntWithCount] cazar o matar.\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nTienes que cazar o matar [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
     <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
     <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
   </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
