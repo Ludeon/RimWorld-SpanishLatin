@@ -7,22 +7,16 @@
     <li>joinerFactionInfo-></li>
   -->
   <Util_JoinerDropIn.questDescriptionRules.rulesStrings>
-    <li>rewardDescription->[joiner_un_una] [joiner_title] de [joiner_age] años de edad, de nombre [joiner_nameDef] llegará en una cápsula de transporte. [joinerFactionInfo] [joiner_relationInfo]</li>
+    <li>rewardDescription->un(a) [joiner_title] de [joiner_age] años de edad, de nombre [joiner_nameDef] llegará en una cápsula de transporte. [joinerFactionInfo][joiner_relationInfo]</li>
     <li>joinerFactionInfo(priority=1)->[joiner_pronoun] es miembro de la facción [joiner_factionName].</li>
     <li>joinerFactionInfo-></li>
-    <li>joiner_un_una(joiner_gender==Male)->un</li>
-    <li>joiner_un_una(joiner_gender==Female)->una</li>
-    <li>joiner_un_una(joiner_gender==None)->un</li>
   </Util_JoinerDropIn.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>rewardDescription->a [joiner_age]-year-old [joiner_title] named [joiner_nameDef] will arrive and join you. [joiner_relationInfo]</li>
   -->
   <Util_JoinerWalkIn.questDescriptionRules.rulesStrings>
-    <li>rewardDescription->[joiner_un_una] [joiner_title] de [joiner_age] años de edad, de nombre [joiner_nameDef] llegará y se unirá a ti. [joiner_relationInfo]</li>
-    <li>joiner_un_una(joiner_gender==Male)->un</li>
-    <li>joiner_un_una(joiner_gender==Female)->una</li>
-    <li>joiner_un_una(joiner_gender==None)->un</li>
+    <li>rewardDescription->un(a) [joiner_title] de [joiner_age] años de edad, de nombre [joiner_nameDef] llegará y se unirá a ti. [joiner_relationInfo]</li>
   </Util_JoinerWalkIn.questDescriptionRules.rulesStrings>
   
   <!-- EN:
