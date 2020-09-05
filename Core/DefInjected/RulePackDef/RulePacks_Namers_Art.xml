@@ -65,7 +65,7 @@
     <li>r_art_name(p=6)->[Artwork] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[maybe_a] [Color]</li>
     <li>r_art_name(p=3)->[PersonalCharacteristic] de [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[PersonalCharacteristic] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[PersonalCharacteristic_Fem] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef]</li>
     <li>art_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
@@ -81,7 +81,7 @@
     <li>maybe_letter->[Letter]</li>
     <li>maybe_letter->[Letter][Letter]</li>
     <li>maybe_a(p=3)-></li>
-    <li>maybe_a->Una</li>
+    <li>maybe_a->un(a)</li>
     <li>maybe_adjective(p=5)-></li>
     <li>maybe_adjective(p=2)->[AdjectiveAngsty]</li>
     <li>maybe_adjective->[AdjectiveBadass]</li>
@@ -104,7 +104,7 @@
   -->
   <NamerArtWeapon.rulePack.rulesStrings>
     <li>r_art_name->[ConceptBadass]</li>
-    <li>r_art_name->El [AnimalBadass]</li>
+    <li>r_art_name->[AnimalBadassDefCap]</li>
     <li>r_art_name->El [AnimalBadass] [AdjectiveBadass]</li>
     <li>r_art_name->[AnimalBadass] [ColorBadass]</li>
     <li>r_art_name->[ConceptBadass] [ColorBadass]</li>

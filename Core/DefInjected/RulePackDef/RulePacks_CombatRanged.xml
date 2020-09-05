@@ -149,7 +149,7 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite] with a [WEAPON_projectile_label].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [WEAPON_projectile_label] intended for [ORIGINALTARGET_definite].</li>
-    <li>weapon_projectile_label(p=0.05)->shot</li>
+    <li>weapon_projectile_label(p=0.05)->disparo</li>
     <li>destroyed_past->destrozado</li>
     <li>destroyed_past->aplastado</li>
     <li>destroyed_past->borrado</li>
@@ -170,7 +170,8 @@
     <li>destroyed_suffix->fragments</li>
     <li>destroyed_suffix(p=0.5)->a holey mess</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->ground beef</li>
-    <li>damaged_past->herid</li> <!--No es un error, se complementa con otras reglas para establecer el sexo del colono, damaged_past = herido o herida y así con el resto de damaged_past (zerstrick 07-08-2020) -->
+    <li>damaged_past->herid</li>
+    <!--OJO "herid", "Lastimad" No es un error, se complementa con otras reglas para establecer el sexo del colono, damaged_past = herido o herida y así con el resto de damaged_past (zerstrick 07-08-2020) -->
     <li>damaged_past->lastimad</li>
     <li>damaged_past->perforad</li>
     <li>damaged_past->dañad</li>
