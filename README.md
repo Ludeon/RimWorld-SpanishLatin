@@ -25,7 +25,7 @@ Current translation and adaptation by:
 
 Thanks to AM for the 1.1xxx version:
 
-*__Argon111 (Inactivo)__
+* __Argon111 (Inactivo)__
 
 Thanks to AM for the 1.019XX version:
 
