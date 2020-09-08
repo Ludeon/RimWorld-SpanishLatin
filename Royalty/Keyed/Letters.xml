@@ -20,7 +20,7 @@
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
   <LetterRoyalTitleConceitedTrait>Debido a que {PAWN_labelShort} es {1}, {PAWN_pronoun} exige que sus privilegios de título sean completamente respetados, {PAWN_pronoun} puede rechazar hacer cierto tipos de trabajo, comer comida de clase baja y emitirá decretos.</LetterRoyalTitleConceitedTrait>
 
-  <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
+  <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>¡{PAWN_labelShort} recibió el título {TITLE} de la facción {FACTION_name}!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
   <LetterLostRoyalTitle>{PAWN_labelShort} ya no posee el título {TITLE} de la facción {FACTION_name}.</LetterLostRoyalTitle>
@@ -77,7 +77,7 @@
   <LetterRoyalTitleChangingHeir>Un nuevo heredero puede ser establecido contactando a la facción {FACTION_name} a través de la consola de comunicaciones.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
   <LetterTitleHeirLostLabel>El heredero falleció</LetterTitleHeirLostLabel>
-  <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title recieved from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
+  <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
   <LetterTitleHeirLost>{HEIR_nameFull} ha muerto, dejando {HOLDER_labelShort} sin heredero para el título recibido de la facción {FACTION_name}. Puedes contactar a la facción {FACTION_name} por la consola de comunicaciones para designar un nuevo heredero.</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>El título de {TITLE} no se puede heredar.</LetterRoyalTitleCantBeInherited>
@@ -90,7 +90,7 @@
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
   <LetterTitleInheritance_AsReplacement>{PAWN_possessive} título de {TITLE} fue heredado por {HEIR_nameFull}, esto de acuerdo con las leyes de sucesión de la facción {FACTION_name}. Esto sustituirá {HEIR_possessive} título de {REPLACEDTITLE} al culminar la ceremonia de concesión.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>Su título de {TITLE} habría sido heredado por {HEIR_nameFull} de acuerdo con las leyes de sucesión de la facción {FACTION_name}, sin embargo, {HEIR_pronoun} ya tiene el título de {HIGHERTITLE} que es de mayor categoría.</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>{PAWN_possessive} título de {TITLE} habría sido heredado por {HEIR_nameFull} de acuerdo con las leyes de sucesión de la facción {FACTION_name}, sin embargo, {HEIR_pronoun} ya tiene el título de {HIGHERTITLE} que es de mayor categoría.</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
   <LetterTitleInheritance_WasInherited>{PAWN_possessive} título de {TITLE} será heredado por {HEIR_nameFull} al completar una ceremonia de concesión, de acuerdo con las leyes de sucesión de la facción {FACTION_name}.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
