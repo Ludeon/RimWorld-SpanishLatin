@@ -8,7 +8,7 @@
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 1.0.26XX (Development Build)
+This is the Latin American Spanish translation of Rimworld 1.2.27XX (Development Build)
 
 See this page for license info:
 
