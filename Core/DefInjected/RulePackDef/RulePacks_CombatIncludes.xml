@@ -146,7 +146,7 @@
     <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], y [recipient_part2_label]</li>
     <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], y [recipient_part3_label]</li>
     <li>damaged_present(deflected!=True)->hiriendo</li>
-    <li>damaged_present(deflected!=True)-lesionando</li>
+    <li>damaged_present(deflected!=True)->lesionando</li>
     <li>destroyed(p=0.5)->destruido</li>
     <li>destroyed(p=0.5)->demolido</li>
     <li>destroyed(p=0.5)->arruinado</li>
