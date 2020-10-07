@@ -27,7 +27,7 @@
   <!-- EN: Cleanup translation files -->
   <CleanupTranslationFiles>Limpiar archivos de traducción</CleanupTranslationFiles>
   <!-- EN: Update translations files (TKey's) -->
-  <TranslationFilesTKeyUpdate>Actualizar archivos de traducción (Tecla T)</TranslationFilesTKeyUpdate>
+  <TranslationFilesTKeyUpdate>Actualizar archivos de traducción (TKey's)</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>Limpiando archivos de traducción</CleaningTranslationFiles>
   <!-- EN: Credits -->
@@ -161,9 +161,9 @@
   <!-- EN: Workshop page -->
   <WorkshopPage>Página del Workshop</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
-  <UploadToSteamWorkshop>Subir al Workshop de Steam </UploadToSteamWorkshop>
+  <UploadToSteamWorkshop>Subir al Workshop de Steam</UploadToSteamWorkshop>
   <!-- EN: Update on Steam Workshop -->
-  <UpdateOnSteamWorkshop>Actualizar el Workshop de Steam </UpdateOnSteamWorkshop>
+  <UpdateOnSteamWorkshop>Actualizar Workshop de Steam</UpdateOnSteamWorkshop>
   <!-- EN: Upload already in progress. -->
   <UploadAlreadyInProgress>Carga en progreso.</UploadAlreadyInProgress>
   <!-- EN: Workshop submission failed.\n\nReason: {0} -->
@@ -181,7 +181,7 @@
   <!-- EN: Source -->
   <Source>Fuente</Source>
   <!-- EN: For game version(s) -->
-  <ModTargetVersion>Para la versión: {0}</ModTargetVersion>
+  <ModTargetVersion>Para la versión(es)</ModTargetVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
@@ -201,9 +201,9 @@
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>Hay una dependencia de modificación cíclica que comienza con {0}.</ModCyclicDependency>
   <!-- EN: This requires following mods to work: {0}. -->
-  <ModUnsatisfiedDependency>Esto requiere las siguientes modificaciones para funcionar: {0}.</ModUnsatisfiedDependency>
+  <ModUnsatisfiedDependency>Esto requiere los siguientes mods para funcionar: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion>Este mod no fué hecho para esta versión de Rimworld y probablemente no funcione correctamente.</ModNotMadeForThisVersion>
+  <ModNotMadeForThisVersion>Este mod no fue hecho para esta versión de Rimworld y probablemente no funcione correctamente.</ModNotMadeForThisVersion>
   <!-- EN: This mod is not made for this version of RimWorld. -->
   <ModNotMadeForThisVersionShort>Este mod no está hecho para esta versión de RimWorld.</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
@@ -225,7 +225,7 @@
   <!-- EN: Invalid version order: {0} should come before {1}. -->
   <ModLoadFolderOutOfOrder>Orden de versión no válido: {0} debe aparecer antes que {1}.</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
-  <ModLoadFolderOutOfOrderDefault>Orden de versión no válido: 'default' debe definirse primero.</ModLoadFolderOutOfOrderDefault>
+  <ModLoadFolderOutOfOrderDefault>Orden de versión no válido: "por defecto" debe definirse primero.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
   <ModLoadFolderDefaultDeprecated>El uso de "por defecto" en las carpetas de carga está obsoleto. Por favor, defina las carpetas para cada versión usando las etiquetas &lt;v...>.</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
@@ -241,7 +241,7 @@
   <!-- EN: Steam Workshop -->
   <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
   <!-- EN: Scenario editor -->
-  <ScenarioEditor>Editor de escenarios</ScenarioEditor>
+  <ScenarioEditor>Editor de escenario</ScenarioEditor>
   <!-- EN: Delete -->
   <Delete>Borrar</Delete>
   
@@ -267,15 +267,15 @@
   <!-- EN: Tag as translation -->
   <TagAsTranslation>Etiqueta como traducción</TagAsTranslation>
   <!-- EN: Too many (max {0}):  -->
-  <TooMany>Demasiado (max {0}): </TooMany>
+  <TooMany>Demasiado (máx {0}):</TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>Puedes actualizarlo en el Workshop, pues tú eres el autor.</CanBeUpdatedOnWorkshop>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
-  <ChooseAIStoryteller>Escoge la IA cuentacuentos</ChooseAIStoryteller>
+  <ChooseAIStoryteller>Escoge la IA Cuentacuentos</ChooseAIStoryteller>
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
-  <HowStorytellersWork>La IA cuentacuentos crea eventos como los ataques piratas, aparición de recursos o ataques animales. Sus decisiones afectarán la historia de tu colonia.</HowStorytellersWork>
+  <HowStorytellersWork>La IA Cuentacuentos crea eventos como los ataques piratas, aparición de recursos o ataques animales. Sus decisiones afectarán la historia de tu colonia.</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>Por favor escoge una dificultad.</MustChooseDifficulty>
   <!-- EN: Difficulty -->
@@ -291,7 +291,7 @@
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>Sólo se puede guardar cuando se abandona el juego.\n\nDado que RimWorld es un generador de historias, incluso perder a todos menos a una persona no es el final del juego - es parte de la historia.  El juego está diseñado para permitir la recuperación después de las pérdidas.\n\nRepresentar estas terribles situaciones hace una historia tanto con tragedia como con triunfo.  Es la forma en que RimWorld fue diseñado para jugarse.\n\nHay una razón por la que Luke Skywalker no se retiró y se recuperó cuando sus padres murieron - ¡la pérdida y la recuperación son dramáticas!</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>Narrador y dificultad pueden ser cambiados en cualquier momento.</CanChangeStorytellerSettingsDuringPlay>
+  <CanChangeStorytellerSettingsDuringPlay>El cuentacuentos y la dificultad pueden ser cambiados en cualquier momento.</CanChangeStorytellerSettingsDuringPlay>
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
@@ -544,7 +544,7 @@
   <!-- EN: Abilities -->
   <Abilities>Habilidades</Abilities>
   <!-- EN: Caused by backstory: {0} -->
-  <IncapableOfTooltipBackstory>Causado por la historia de fondo: {0}</IncapableOfTooltipBackstory>
+  <IncapableOfTooltipBackstory>Causado por el trasfondo: {0}</IncapableOfTooltipBackstory>
   <!-- EN: Caused by title: {0} -->
   <IncapableOfTooltipTitle>Causado por título: {0}</IncapableOfTooltipTitle>
   <!-- EN: Caused by trait: {0} -->
