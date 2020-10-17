@@ -175,8 +175,9 @@
     <li>mayAlso(lodgerCount>=2)->pueden</li>
     <li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
     <li>lodgersPronoun(lodgerCount>=2)->ellos</li>
-    <li>lodgersPreposition(lodgerCount==1)->[asker_objective]self</li>
-    <li>lodgersPreposition(lodgerCount>=2)->themselves</li>
+    <li>lodgersPreposition(lodgers0_gender==Male,lodgerCount==1)->[asker_pronoun] mismo</li>
+    <li>lodgersPreposition(lodgers0_gender!=Male,lodgerCount==1)->[asker_pronoun] misma</li>
+    <li>lodgersPreposition(lodgerCount>=2)->ellos mismos</li>
     <li>lodgersObjective(lodgerCount==1)->[asker_objective]</li>
     <li>lodgersObjective(lodgerCount>=2)->los</li>
     <li>lodgersPossessive(lodgerCount==1)->[asker_possessive]</li>

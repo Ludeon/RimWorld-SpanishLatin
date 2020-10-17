@@ -21,13 +21,13 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
   -->
   <AttendedParty.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef] atendió a la fiesta de [ORGANIZER_nameDef]</li>
-    <li>tale_noun->[ATTENDER_nameDef] se relajó con [ORGANIZER_nameDef] en una fiesta</li>
-    <li>image->[ATTENDER_nameFull] conversando con [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] recibiendo una bebida de [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] charlando con [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] dando al bienvenida a [ATTENDER_nameFull] [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] presentando a [ATTENDER_nameFull] a un amigo [circumstance_group]</li>
+    <li>tale_noun->[ATTENDER_nameDef] está asistiendo a la fiesta de [ORGANIZER_nameDef]</li>
+    <li>tale_noun->[ATTENDER_nameDef] se está relajando con [ORGANIZER_nameDef] en una fiesta</li>
+    <li>image->[ATTENDER_nameFull] conversa con [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] está recibiendo una bebida de [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] está charlando con [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] le está dando la bienvenida a [ATTENDER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] le está presentando a [ATTENDER_nameFull] a un amigo [circumstance_group]</li>
     <li>circumstance_phrase->con una gran sonrisa</li>
     <li>circumstance_phrase->mientras ríe</li>
     <li>circumstance_phrase->con una sonrisa [AdjectiveFriendly]</li>
@@ -63,12 +63,12 @@
     <li>image->[PAWN_nameFull] rodando una gigantesca bola de nieve en el suelo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] acomodando [Vegetable]s para formar una cara [circumstance_group]</li>
     <li>image->[PAWN_nameFull] yaciendo en la nieve [circumstance_group]</li>
-    <li>circumstance_phrase->envuelto(a) en [Quantity_adjphrase] abrigos</li>
+    <li>circumstance_phrase->debajo de [Quantity_adjphrase] capas de abrigos</li>
     <li>circumstance_phrase->mientras una tormenta de nieve oscurece el cielo</li>
     <li>circumstance_phrase->mientras sus amigos construyen un fuerte</li>
     <li>circumstance_phrase->mientras sus amigos construyen otras personas de nieve</li>
-    <li>desc_sentence->Una aurora [Color] brilla en el fondo.</li>
-    <li>desc_sentence->A la distancia, un(a) [Community] se cubre de nieve.</li>
+    <li>desc_sentence->Una aurora [Color_Fem] brilla en el fondo.</li>
+    <li>desc_sentence->A la distancia, una [Community_Fem] se cubre de nieve.</li>
     <li>desc_sentence->Un campo de [Vegetable]s apenas es visible a través de la nieve.</li>
     <li>desc_sentence->Un [TerrainFeature] cubierto de nieve se observa a lo lejos.</li>
   </BuiltSnowman.rulePack.rulesStrings>

@@ -58,10 +58,9 @@
   -->
   <DamageEvent_Fire.rulePack.rulesStrings>
     <li>damage_source->[fire] quemó a</li>
-    <li>fire(p=3)->fuego</li>
-    <li>fire(p=3)->un fuego</li>
     <li>fire(p=3)->el fuego</li>
-    <li>fire->calor</li>
+    <li>fire(p=2)->un fuego</li>
+    <li>fire->el calor</li>
     <li>fire->una conflagración</li>
     <li>fire->un infierno</li>
     <li>damaged_present->abrasando</li>
@@ -82,9 +81,7 @@
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
     <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets].</li>
-    <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive]s [destroyed_targets_pl].</li>
     <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets] y [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
-    <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive]s [destroyed_targets_pl] y [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef], [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   </DamageEvent_Include.rulePack.rulesStrings>
@@ -165,9 +162,12 @@
     <li>damage_source->[spiketrap] apuñaló</li>
     <li>damage_source->[spiketrap] impactó</li>
     <li>damage_source->[spiketrap] lanzadose en</li>
+    <li>damage_source->[spiketrap_pl] han apuñalado</li>
+    <li>damage_source->[spiketrap_pl] han impactado</li>
+    <li>damage_source->[spiketrap_pl] se lanzaron sobre</li>
     <li>spiketrap(p=3)->una trampa de púas</li>
     <li>spiketrap(p=3)->la trampa de púas</li>
-    <li>spiketrap->púas</li>
+    <li>spiketrap_pl->una púas</li>
     <li>spiketrap->una trampa afilada</li>
     <li>spiketrap->una trampa con púas</li>
     <li>damaged_present->perforando</li>

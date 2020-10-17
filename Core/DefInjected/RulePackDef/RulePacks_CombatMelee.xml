@@ -32,18 +32,18 @@
     <li>deflecting->glancing</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] en [recipient_part0_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] con [implement] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], [damaged_past] a [RECIPIENT_definite] en [recipient_part0_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] atacó a [RECIPIENT_definite] con una [damaged_inf] de [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_definite] ha [damaged_past] [atMaybe] [RECIPIENT_definite] en [recipient_part0_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] ha [damaged_past] [atMaybe] [RECIPIENT_definite] con [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] ha [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillDescMelee], ha [damaged_past] a [RECIPIENT_definite] en [recipient_part0_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] atacó a [RECIPIENT_definite] para [damaged_inf][RECIPIENT_objective] con [implement] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] usó [implement] para [damaged_inf] a [RECIPIENT_definite] [deflected_result].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>atMaybe->a</li>
     <li>atMaybe->a</li>
-    <li>deflected_result->, pero [TOOL_definite] [deflected] [harmlessly_opt]</li>
-    <li>deflected_result->, [deflecting] de [RECIPIENT_possessive] armadura [harmlessly_opt]</li>
+    <li>deflected_result->, pero [TOOL_definite] le [deflected] [harmlessly_opt]</li>
+    <li>deflected_result->, [deflecting] en [RECIPIENT_possessive] armadura [harmlessly_opt]</li>
     <li>harmlessly_opt(p=4)-></li>
     <li>harmlessly_opt->[harmlessly]</li>
     <li>harmlessly->inofensivamente</li>
@@ -104,25 +104,24 @@
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   -->
   <Combat_Hit.rulePack.rulesStrings>
-    <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] a [RECIPIENT_definite] en [recipient_part0_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] a [RECIPIENT_definite] en [recipient_part0_definite] [strikeAdv].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] a [RECIPIENT_definite] en [recipient_part0_definite], [flavortext_consequence].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged_past] a [RECIPIENT_definite] en [recipient_part0_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [strikeAdv] a [RECIPIENT_definite] en [recipient_part0_definite].</li>
-    <!--Voy por Aquí Zerstrick-->
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [destroyed_suffix].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] con [implement].</li>
-    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] con [implement].</li>
-    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] con [implement].</li>
+    <li>r_logentry(p=1.0)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite] en [recipient_part0_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite] en [recipient_part0_definite] [strikeAdv].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite] en [recipient_part0_definite], [flavortext_consequence].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], ha [damaged_past] a [RECIPIENT_definite] en [recipient_part0_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], ha [damaged_past] [strikeAdv] a [RECIPIENT_definite] en [recipient_part0_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] de [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] de [RECIPIENT_definite] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] de [RECIPIENT_definite] con [implement].</li>
+    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite] con [implement].</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] ha [damaged_past] a [RECIPIENT_definite] con [implement].</li>
     <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets]</li>
     <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
-    <li>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] y [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
-    <li>action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] y [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
-    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] golpeo a [RECIPIENT_definite] logrando [damaged_inf] con [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], golpeo a [RECIPIENT_definite] logrando [damaged_inf] con [implement]</li>
+    <li>result(p=1)->[destroyed_present] con [RECIPIENT_possessive] [destroyed_targets] y [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
+    <li>action(p=1.0)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite] con [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] ha [damaged_past] a [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], ha [damaged_past] a [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] golpeó a [RECIPIENT_definite] logrando [damaged_inf][RECIPIENT_objective] con [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], golpeó a [RECIPIENT_definite] logrando [damaged_inf][RECIPIENT_objective] con [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] usó [implement] para [damaged_inf] a [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] usó [implement] [skillAdv] para [damaged_inf] a [RECIPIENT_definite]</li>
   </Combat_Hit.rulePack.rulesStrings>
@@ -147,7 +146,7 @@
     <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] evitó que [INITIATOR_definite] usando su [WEAPON_label] le pudiera [damaged_inf].</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] evitó que [WEAPON_definite] de [INITIATOR_definite] le pudiera [damaged_inf].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] falló a [RECIPIENT_definite] y no pudo [damaged_inf][RECIPIENT_objective] con [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mientras intentaba [damaged_inf] a [RECIPIENT_definite] con [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mientras intentaba [damaged_inf] a [RECIPIENT_definite].</li>
