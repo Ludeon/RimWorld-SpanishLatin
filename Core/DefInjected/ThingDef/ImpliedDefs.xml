@@ -115,7 +115,7 @@
   <!-- EN: forja eléctrica(anteproyecto) -->
   <Blueprint_ElectricSmithy.label>forja eléctrica(anteproyecto)</Blueprint_ElectricSmithy.label>
   
-  <!-- EN: cocina eléctrica(anteproyecto) -->
+  <!-- EN: estufa eléctrica(anteproyecto) -->
   <Blueprint_ElectricStove.label>estufa eléctrica(anteproyecto)</Blueprint_ElectricStove.label>
   
   <!-- EN: mesa de sastrería eléctrica(anteproyecto) -->
@@ -154,7 +154,7 @@
   <!-- EN: forja de leña(anteproyecto) -->
   <Blueprint_FueledSmithy.label>forja de leña(anteproyecto)</Blueprint_FueledSmithy.label>
   
-  <!-- EN: cocina de leña(anteproyecto) -->
+  <!-- EN: estufa de leña(anteproyecto) -->
   <Blueprint_FueledStove.label>estufa de leña(anteproyecto)</Blueprint_FueledStove.label>
   
   <!-- EN: tablero de ur(anteproyecto) -->
@@ -247,7 +247,7 @@
   <!-- EN: forja eléctrica(anteproyecto) -->
   <Blueprint_Install_ElectricSmithy.label>forja eléctrica(anteproyecto)</Blueprint_Install_ElectricSmithy.label>
   
-  <!-- EN: cocina eléctrica(anteproyecto) -->
+  <!-- EN: estufa eléctrica(anteproyecto) -->
   <Blueprint_Install_ElectricStove.label>estufa eléctrica(anteproyecto)</Blueprint_Install_ElectricStove.label>
   
   <!-- EN: mesa de sastrería eléctrica(anteproyecto) -->
@@ -268,7 +268,7 @@
   <!-- EN: forja de leña(anteproyecto) -->
   <Blueprint_Install_FueledSmithy.label>forja de leña(anteproyecto)</Blueprint_Install_FueledSmithy.label>
   
-  <!-- EN: cocina de leña(anteproyecto) -->
+  <!-- EN: estufa de leña(anteproyecto) -->
   <Blueprint_Install_FueledStove.label>estufa de leña(anteproyecto)</Blueprint_Install_FueledStove.label>
   
   <!-- EN: tablero de ur(anteproyecto) -->
@@ -382,7 +382,7 @@
   <!-- EN: televisión(anteproyecto) -->
   <Blueprint_Install_TubeTelevision.label>televisión(anteproyecto)</Blueprint_Install_TubeTelevision.label>
   
-  <!-- EN: torreta(anteproyecto) -->
+  <!-- EN: mini torreta(anteproyecto) -->
   <Blueprint_Install_Turret_MiniTurret.label>mini torreta(anteproyecto)</Blueprint_Install_Turret_MiniTurret.label>
   
   <!-- EN: mortero(anteproyecto) -->
@@ -568,16 +568,16 @@
   <!-- EN: televisión(anteproyecto) -->
   <Blueprint_TubeTelevision.label>televisión(anteproyecto)</Blueprint_TubeTelevision.label>
   
-  <!-- EN: cañón(anteproyecto) -->
+  <!-- EN: torreta de cañón automática(anteproyecto) -->
   <Blueprint_Turret_Autocannon.label>torreta de cañón automática(anteproyecto)</Blueprint_Turret_Autocannon.label>
   
-  <!-- EN: torreta(anteproyecto) -->
+  <!-- EN: mini torreta(anteproyecto) -->
   <Blueprint_Turret_MiniTurret.label>mini torreta(anteproyecto)</Blueprint_Turret_MiniTurret.label>
   
   <!-- EN: mortero(anteproyecto) -->
   <Blueprint_Turret_Mortar.label>mortero(anteproyecto)</Blueprint_Turret_Mortar.label>
   
-  <!-- EN: cañón de uranio(anteproyecto) -->
+  <!-- EN: torreta de uranio(anteproyecto) -->
   <Blueprint_Turret_Sniper.label>cañón de uranio(anteproyecto)</Blueprint_Turret_Sniper.label>
   
   <!-- EN: conducto de ventilación(anteproyecto) -->
@@ -1074,7 +1074,7 @@
   <!-- EN: Una estación eléctrica equipada para la forja de armas y herramientas no mecánicas. -->
   <Frame_ElectricSmithy.description>Una estación eléctrica equipada para la forja de armas y herramientas no mecánicas.</Frame_ElectricSmithy.description>
   
-  <!-- EN: cocina eléctrica(en construcción) -->
+  <!-- EN: estufa eléctrica(en construcción) -->
   <Frame_ElectricStove.label>estufa eléctrica(en construcción)</Frame_ElectricStove.label>
   <!-- EN: Un horno y unas parrilas eléctricas para preparar alimentos. -->
   <Frame_ElectricStove.description>Un horno y unas parrilas eléctricas para preparar alimentos.</Frame_ElectricStove.description>
@@ -1139,7 +1139,7 @@
   <!-- EN: Una estación equipada para la forja de armas y herramientas no mecánicas. Necesita consumir madera. -->
   <Frame_FueledSmithy.description>Una estación equipada para la forja de armas y herramientas no mecánicas. Necesita consumir madera.</Frame_FueledSmithy.description>
   
-  <!-- EN: cocina de leña(en construcción) -->
+  <!-- EN: estufa de leña(en construcción) -->
   <Frame_FueledStove.label>estufa de leña(en construcción)</Frame_FueledStove.label>
   <!-- EN: Un horno y unas parrilas, alimentados por madera, para preparar alimentos. -->
   <Frame_FueledStove.description>Un horno y unas parrilas, alimentados por madera, para preparar alimentos.</Frame_FueledStove.description>
@@ -1499,14 +1499,14 @@
   <!-- EN: Un tubo de rayos catódicos para mostrar imagenes en movimiento con sonido. Incluso en los mundos fronterizos normalmente hay un viejo transmisor emitiendo algo medianamente interesante. -->
   <Frame_TubeTelevision.description>Un tubo de rayos catódicos para mostrar imagenes en movimiento con sonido. Incluso en los mundos fronterizos normalmente hay un viejo transmisor emitiendo algo medianamente interesante.</Frame_TubeTelevision.description>
   
-  <!-- EN: cañón(en construcción) -->
+  <!-- EN: torreta de cañón automática(en construcción) -->
   <Frame_Turret_Autocannon.label>torreta de cañón automática(en construcción)</Frame_Turret_Autocannon.label>
-  <!-- EN: Un cañon automático de largo alcance. Sus carcasas de gran calibre causan grandes daños a grandes distancias, pero requiere cambios de cañón frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado. -->
+  <!-- EN: Una pesada torreta automática de largo alcance. Sus cartuchos de gran calibre causan grandes daños a grandes distancias, pero requiere cambios de cañón frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañada. -->
   <Frame_Turret_Autocannon.description>Una pesada torreta automática de largo alcance. Sus cartuchos de gran calibre causan grandes daños a grandes distancias, pero requiere cambios de cañón frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañada.</Frame_Turret_Autocannon.description>
   
-  <!-- EN: torreta(en construcción) -->
+  <!-- EN: mini torreta(en construcción) -->
   <Frame_Turret_MiniTurret.label>mini torreta(en construcción)</Frame_Turret_MiniTurret.label>
-  <!-- EN: Una pequeña torreta automática de corto alcance. Requiere que el barril de acero sea reemplazado después de un uso intenso. Puede explotar si está dañado. Su estúpido cerebro de IA no puede ser controlado directamente, así que ten cuidado con el fuego amigo. -->
+  <!-- EN: Una pequeña torreta automática de corto alcance. Requiere que el cañón de acero sea reemplazado después de un uso intenso. Puede explotar si está dañado. Su estúpido cerebro de IA no puede ser controlado directamente, así que ten cuidado con el fuego amigo. -->
   <Frame_Turret_MiniTurret.description>Una pequeña torreta automática de corto alcance. Requiere que el cañón de acero sea reemplazado después de un uso intenso. Puede explotar si está dañado. Su estúpido cerebro de IA no puede ser controlado directamente, así que ten cuidado con el fuego amigo.</Frame_Turret_MiniTurret.description>
   
   <!-- EN: mortero(en construcción) -->
@@ -1514,9 +1514,9 @@
   <!-- EN: Un mortero que lanza todo tipo de proyectiles. Aunque puede causar daños devastadores, la inexactitud inherente del mortero lo hace más útil para atacar grandes fortificaciones que grupos de enemigos en el campo. -->
   <Frame_Turret_Mortar.description>Un mortero que lanza todo tipo de proyectiles. Aunque puede causar daños devastadores, la inexactitud inherente del mortero lo hace más útil para atacar grandes fortificaciones que grupos de enemigos en el campo.</Frame_Turret_Mortar.description>
   
-  <!-- EN: cañón de uranio(en construcción) -->
+  <!-- EN: torreta de uranio(en construcción) -->
   <Frame_Turret_Sniper.label>cañón de uranio(en construcción)</Frame_Turret_Sniper.label>
-  <!-- EN: Una torreta francotirador automática de muy largo alcance. Sus proyectiles de alta velocidad causan grandes daños en distancias muy largas, pero requiere cambios de barril frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado. -->
+  <!-- EN: Una torreta francotirador automática de muy largo alcance. Sus proyectiles de alta velocidad causan grandes daños en distancias muy largas, pero requiere cambios de cañón frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado. -->
   <Frame_Turret_Sniper.description>Un cañón de uranio automático de muy largo alcance. Sus proyectiles de alta velocidad causan grandes daños en distancias muy largas, pero requiere cambios de cañón frecuentes y costosos. No puede disparar a objetivos cercanos y puede explotar cuando está dañado.</Frame_Turret_Sniper.description>
   
   <!-- EN: conducto de ventilación(en construcción) -->
