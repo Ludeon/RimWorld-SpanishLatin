@@ -36,7 +36,7 @@
   <MessageVisitorsDangerousTemperature>Los {0} de {1} estan abandonando el mapa por las temperaturas peligrosas.</MessageVisitorsDangerousTemperature>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
-  <MessageWornApparelDeterioratedAway>El/la {0} que vestía {1_nameFull} se ha deshecho por completo.</MessageWornApparelDeterioratedAway>
+  <MessageWornApparelDeterioratedAway>{0_definite} que vestía {1_nameFull} se ha deshecho por completo.</MessageWornApparelDeterioratedAway>
   <!-- EN: {0} has deteriorated away in storage. -->
   <MessageDeterioratedAway>{0} se ha deteriorado en el almacenamiento.</MessageDeterioratedAway>
 
@@ -64,7 +64,7 @@
   <MessagePrisonerIsEscaping>El prisonero {1_labelShort} está escapando.</MessagePrisonerIsEscaping>
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
-  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} no ha encontrado ningún obús sin reservar para el {GUN_label}.</MessageOutOfNearbyShellsFor>
+  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} no ha encontrado ningún obús sin reservar para {GUN_definite}.</MessageOutOfNearbyShellsFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Peligro: {ANIMAL_kindBasePlural} tiene {1} de posibilidad de atacar cuando es herido desde el campo de tiro. La probabilidad es mayor si se está más cerca, y menor con un buen escondite de cazador.</MessageAnimalsGoPsychoHunted>
@@ -126,7 +126,7 @@
   <MessageMustDesignateUnforbiddable>Debe designar artículos permitidos.</MessageMustDesignateUnforbiddable>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
-  <MessageRefusedArrest>¡{1_labelShort} se ha rehusado a ser arrestado(a)!</MessageRefusedArrest>
+  <MessageRefusedArrest>¡{1_labelShort} se ha rehusado a ser arrestad{1_gender ? o : a}!</MessageRefusedArrest>
   
   <!-- EN: There are no medical beds available. -->
   <MessageNoMedicalBeds>No hay camas hospitalarias disponibles.</MessageNoMedicalBeds>
@@ -157,24 +157,24 @@
   <MessageGaveBirth>{0} ha dado a luz.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>{PAWN_labelShort} no podrá usar la vonculación psíquica mientras que {PAWN_pronoun} tiene cero sensibilidad psíquica.</MessagePsylinkNoSensitivity>
+  <MessagePsylinkNoSensitivity>{PAWN_labelShort} no podrá usar la vinculación psíquica mientras tenga cero sensibilidad psíquica.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{PAWN_labelShort} ha perdido un {1} nivel de implante debido a {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} ha sufrido {1} puntos de daño cerebral debido a {2}.</MessageReceivedBrainDamageFromHediff>
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
-  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} ha excedido el límite seguro de entropía psíquica.</MessageWentOverPsychicEntropyLimit>
+  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} ha excedido el límite seguro de calor neural.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
-  <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull} ha nombrado a {1}, {NAMEE_nameFull}, luego de ser acariciado(a).</MessageNuzzledPawnGaveNameTo>
+  <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull} ha nombrado a {1}, {NAMEE_nameFull}, luego de ser acariciad{1_gender ? o : a}.</MessageNuzzledPawnGaveNameTo>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>Ningún entrenador puede domesticar este(a) {ANIMAL_kindBase} (requiere nivel {1} en {2} y el mejor entrenador es {HANDLER_labelShort} con {4}).</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>Ningún entrenador puede domesticar est{ANIMAL_gender ? e : a} {ANIMAL_kindBase} (requiere nivel {1} en {2} y el mejor entrenador es {HANDLER_labelShort} con {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} ha sido cazado por {PREDATOR}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>!{PREY_labelShort} está siendo atacado(a) por {PREDATOR}!</MessageAttackedByPredator>
+  <MessageAttackedByPredator>!{PREY_labelShort} está siendo atacad{PREY_gender ? o : a} por {PREDATOR}!</MessageAttackedByPredator>
   
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Una colmena insectoide se ha reproducido.</MessageHiveReproduced>
@@ -183,7 +183,7 @@
   <MessageTraderCaravanLeaving>La caravana de {0} ya se va.</MessageTraderCaravanLeaving>
   
   <!-- EN: {1_labelShort} is dead. -->
-  <MessageCantSelectDeadPawn>{1_labelShort} se ha muerto.</MessageCantSelectDeadPawn>
+  <MessageCantSelectDeadPawn>{1_labelShort} ha muerto.</MessageCantSelectDeadPawn>
   <!-- EN: {1_labelShort} is off the map. -->
   <MessageCantSelectOffMapPawn>{1_labelShort} ha salido del mapa.</MessageCantSelectOffMapPawn>
   
@@ -204,7 +204,7 @@
   <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
   <MessageNewBondRelation>{HUMAN_labelShort} y {ANIMAL_labelShort} se han encariñado.</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>{HUMAN_labelShort} y {1} se han encariñado. {HUMAN_labelShort} le ha nombrado {ANIMAL_objective} {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{HUMAN_labelShort} y {1} se han encariñado. {HUMAN_labelShort} {ANIMAL_objective} ha nombrado {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
   
   <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>{ANIMAL} ha tenido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
@@ -214,7 +214,7 @@
   <MessageBondedAnimalsMentalBreak>{0} animales tienen un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
   
   <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
-  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} he removido con éxito el {HEDIFF} de {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
+  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} ha removido con éxito el {HEDIFF} de {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>Un pedazo de nave espacial ha caído cerca de aquí.</MessageShipChunkDrop>
@@ -223,7 +223,7 @@
   <MessageCannotSellItemsReason>Algunos objetos no pueden comercializarse porque: </MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort} ha fallado contruyendo el/la {0}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
+  <MessageConstructionFailed>{WORKER_labelShort} ha fallado contruyendo {0_definite}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Captura de pantalla guardada como: {0}</MessageScreenshotSavedAs>
@@ -259,17 +259,17 @@
   <MessageMaxPlanetCoveragePerformanceWarning>Peligro: Puede llevar mucho tiempo generar un planeta completo.</MessageMaxPlanetCoveragePerformanceWarning>
 
   <!-- EN: {0} has died because of cold. -->
-  <MessagePlantDiedOfCold>Una {0} ha muerto por la baja temperatura.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfCold>{0_indefinite} ha muerto por la baja temperatura.</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>Una {0} se ha podrido por no haber sido cosechada a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0_indefinite} se ha podrido por no haber sido cosechada a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
-  <MessagePlantDiedOfRot_ExposedToLight>{0} ha muerto por no estar expuesta a la luz.</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot_ExposedToLight>{0_indefinite} ha muerto por no estar expuesta a la luz.</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
   <MessagePlantDiedOfRot>{0} se ha podrido debido a que quedó sin cosechar.</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
-  <MessagePlantDiedOfPoison>Una {0} ha muerto a causa del veneno.</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfPoison>{0_indefinite} ha muerto a causa del veneno.</MessagePlantDiedOfPoison>
   <!-- EN: {1_label} has died because of blight. -->
-  <MessagePlantDiedOfBlight>Una {1_label} ha muerto debido a una plaga.</MessagePlantDiedOfBlight>
+  <MessagePlantDiedOfBlight>{1_indefinite} ha muerto debido a una plaga.</MessagePlantDiedOfBlight>
 
   <!-- EN: {1_labelShort} is being burned by superheated air! -->
   <MessagePawnBeingBurned>¡{1_labelShort} se está quemando con aire supercaliente!</MessagePawnBeingBurned>
@@ -283,16 +283,16 @@
   <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
   <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} ha dejado el área y formado una caravana.</MessagePawnLeftMapAndCreatedCaravan>
   <!-- EN: Your animals are moving to join it. -->
-  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Sus animales se están moviendo para unirse a él.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
+  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Tus animales se están moviendo para unirse a ella.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
   
   <!-- EN: You have successfully settled in a new area. -->
   <MessageSettledInExistingMap>Te has asentado con éxito en una nueva área.</MessageSettledInExistingMap>
   
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
-  <MessagePermanentWoundHealed>Debido a {PAWN_labelShort} el/la {2} ha sanado. Causa: {0}</MessagePermanentWoundHealed>
+  <MessagePermanentWoundHealed>{2_definite} de {PAWN_labelShort} ha sanado. Causa: {0}</MessagePermanentWoundHealed>
   
   <!-- EN: [PAWN_nameDef] has recovered and decided to leave. -->
-  <MessageRescueeDidntJoin>[PAWN_nameDef] se recuperó y decidió irse.</MessageRescueeDidntJoin>
+  <MessageRescueeDidntJoin>[PAWN_nameDef] se ha recuperado y ha decidido irse.</MessageRescueeDidntJoin>
   
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>No se puede llegar hasta algunas de las cápsulas de transporte.</MessageTransporterUnreachable>
@@ -304,7 +304,7 @@
   <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
   <MessageTransporterSingleLoadCanceled_TransporterDestroyed>El proceso de carga ha sido cancelado porque el transbordador ha sido destruido.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
-  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>El proceso de transporte se ha cancelado porque una de las lanzaderas ha sido destruida.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>El proceso de transporte se ha cancelado porque uno de los lanzadores ha sido destruido.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>Ahora tus colonos cargarán los objetos seleccionados en las cápsulas de transporte.</MessageTransportersLoadingProcessStarted>

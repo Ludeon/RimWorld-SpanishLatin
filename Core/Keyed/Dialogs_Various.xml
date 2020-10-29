@@ -789,7 +789,7 @@
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
   <TransporterItemIsUnreachableMulti>No hay camino disponible entre las cápsulas de transporte y {0}x {1}.</TransporterItemIsUnreachableMulti>
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
-  <TransporterSingleItemIsUnreachableMulti>No hay camino entre la lanzadera y {0} x {1}.</TransporterSingleItemIsUnreachableMulti>
+  <TransporterSingleItemIsUnreachableMulti>No hay camino entre el transbordador y {0} x {1}.</TransporterSingleItemIsUnreachableMulti>
   <!-- EN: Only {0} colonists maximum allowed. -->
   <TransporterSingleTooManyColonists>Sólo se permiten {0} colonos como máximo</TransporterSingleTooManyColonists>
   
@@ -941,7 +941,7 @@
   
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
-  <NoGrowerCanPlant>El/La {0} requiere {1} de habilidad en agricultura para sembrarse.\n\nNinguno de tus agricultores conscientes posee esta habilidad, así que esta planta no se sembrará.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>{0} requiere {1} de la habilidad de Cultivo para sembrar.\n\nNinguno de tus agricultores conscientes posee esta habilidad, así que esta planta no se sembrará.</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
@@ -949,7 +949,7 @@
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
   <ConfirmAbandonHomeNegativeThoughts>Abandonar {0} hará que las siguientes personas tengan los siguientes pensamientos:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
-  <ConfirmAbandonHomeNegativeThoughts_Everyone>Todo el mundo:</ConfirmAbandonHomeNegativeThoughts_Everyone>
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>Todos:</ConfirmAbandonHomeNegativeThoughts_Everyone>
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
@@ -961,7 +961,7 @@
   <!-- EN: {1_labelShort} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} muy probablemente morirá.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
-  <ConfirmBanishPawnDialog_Items>{1_labelShort} al marcharse, tomará los siguientes artículos con {1_objective}:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} al marcharse, se llevará los siguientes artículos consigo:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Todos los colonos tendrán los siguientes pensamientos:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
@@ -977,7 +977,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto se hará - Agregar marcadores de posición para traducciones con clave que faltan, traducciones con inyección de desfase y retroalimentación\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todas las traducciones con clave y con inyección de desfase a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar nombres de definiciones compatibles con la retroalimentación\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerde reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrese de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto es lo que se hará - Agregar marcadores de posición para traducciones con clave que faltan, traducciones con inyección de desfase y retroalimentación\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todas las traducciones con clave y con inyección de desfase a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar nombres de definiciones compatibles con la retroalimentación\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerde reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrese de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tengo una copia de seguridad</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1015,11 +1015,11 @@
   <!-- EN: {0} must target an unroofed area. -->
   <AbilityRoofed>{0} debe apuntar a un área sin techo.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>{0} está incapacitado(a) mentalmente.</AbilityCantApplyToMentallyBroken>
+  <AbilityCantApplyToMentallyBroken>{0} está incapacitad{0_gender ? o : a} mentalmente.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
-  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} no está incapacitado(a) mentalmente.</AbilityCanOnlyApplyToMentallyBroken>
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} no está incapacitad{0_gender ? o : a} mentalmente.</AbilityCanOnlyApplyToMentallyBroken>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
-  <AbilityDoesntWorkOnMentalState>{0} no funciona en el estado mental '{1}'.</AbilityDoesntWorkOnMentalState>
+  <AbilityDoesntWorkOnMentalState>{0} no funciona en el estado mental "{1}".</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort} tiene cero resistencia.</AbilityCantApplyNoResistance>
   <!-- EN: Cannot use: {0} is asexual. -->
@@ -1029,13 +1029,13 @@
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>El coste del psicofoco por la intensidad del colapso mental</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
-  <AbilityAlreadyInspired>{0_labelShort} ya está inspirado(a).</AbilityAlreadyInspired>
+  <AbilityAlreadyInspired>{0_labelShort} ya está inspirad{0_gender ? o : a}.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort} no puede conseguir una inspiración en este momento.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} is unconscious. -->
   <AbilityCantApplyUnconscious>{0_labelShort} está inconciente.</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
-  <AbilityCantApplyAsleep>{0_labelShort} está dormido.</AbilityCantApplyAsleep>
+  <AbilityCantApplyAsleep>{0_labelShort} está dormid{0_gender ? o : a}.</AbilityCantApplyAsleep>
   <!-- EN: This tile is impassable. -->
   <AbilityWorldTileImpassable>Esta baldosa es infranqueable.</AbilityWorldTileImpassable>
   <!-- EN: Skip to random ally -->
