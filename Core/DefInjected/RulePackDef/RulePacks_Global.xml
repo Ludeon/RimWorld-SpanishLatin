@@ -63,6 +63,7 @@
     <li>AnimalBadass_FemPlural->Words/Nouns/Animal_Badass_FemPlural</li>
     <li>AnimalBadass_Plural->Words/Nouns/Animal_Badass_Plural</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
+    <li>AnimalGroup_Fem->Words/Nouns/AnimalGroups_Fem</li>
     <!--Vestimenta:-->
     <li>Apparel->Words/Nouns/Apparel</li>
     <li>Apparel_Fem->Words/Nouns/Apparel_Fem</li>
@@ -212,9 +213,10 @@
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
   <GlobalUtility.rulePack.rulesStrings>
-    <li>asker_o_a(asker_gender==Male)->o</li>
+    <!--Reglas Especiales-->
+    <!--asker-->
+    <li>asker_o_a(asker_gender!=Female)->o</li>
     <li>asker_o_a(asker_gender==Female)->a</li>
-    <li>asker_o_a(asker_gender==None)->o</li>
     <li>asker_x_a(asker_gender==Male)-></li>
     <li>asker_x_a(asker_gender==Female)->a</li>
     <li>asker_x_a(asker_gender==None)-></li>
@@ -222,18 +224,34 @@
     <li>asker_a(asker_gender==Male)->un</li>
     <li>asker_a(asker_gender==Female)->una</li>
     <li>asker_a(asker_gender==None)->un</li>
-    <li>asker_TheCap(asker_gender==Male)->El</li>
+    <li>asker_TheCap(asker_gender!=Female)->El</li>
     <li>asker_TheCap(asker_gender==Female)->La</li>
-    <li>asker_TheCap(asker_gender==None)->El</li>
-    <li>asker_The(asker_gender==Male)->el</li>
+    <li>asker_The(asker_gender!=Female)->el</li>
     <li>asker_The(asker_gender==Female)->la</li>
-    <li>asker_The(asker_gender==None)->el</li>
     <li>titleHeir_o_a(titleHeir_gender==Male)->o</li>
     <li>titleHeir_o_a(titleHeir_gender==Female)->a</li>
     <li>titleHeir_o_a(titleHeir_gender==None)->o</li>
     <li>titleHeirDef(titleHeir_gender==Male)->el</li>
     <li>titleHeirDef(titleHeir_gender==Female)->la</li>
     <li>titleHeirDef(titleHeir_gender==None)->el</li>
+    <!--Scrip_LongRangeMineralScanner-->
+    <li>targetMineable_labelVar(targetMineable==MineableGold)->mina de oro</li>
+    <li>targetMineable_labelVar(targetMineable==MineableSilver)->mina de plata</li>
+    <li>targetMineable_labelVar(targetMineable==MineableSteel)->veta de acero</li>
+    <li>targetMineable_labelVar(targetMineable==MineablePlasteel)->veta de plastiacero</li>
+    <li>targetMineable_labelVar(targetMineable==MineableComponentsIndustrial)->veta de maquinaria compactada</li>
+    <li>targetMineable_labelVar(targetMineable==MineableUranium)->mina de uranio</li>
+    <li>targetMineable_labelVar(targetMineable==MineableJade)->veta de jade</li>
+    <li>targetMineable_labelVar(p=0.00000000001)->[targetMineable_label]</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableGold)->oro</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableSilver)->plata</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableSteel)->acero</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineablePlasteel)->plastiacero</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableComponentsIndustrial)->maquinaria compactada</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableUranium)->uranio</li>
+    <li>targetMineableThing_labelVar(targetMineable==MineableJade)->jade</li>
+    <li>targetMineableThing_labelVar(p=0.00000000001)->[targetMineableThing_label]</li>
+    <!--Reglas Normales-->
     <li>Trans->de</li>
     <li>Trans->para</li>
     <li>Trans->por</li>
@@ -254,6 +272,8 @@
     <li>AnimalAnyPl->[Animal_FemPlural]</li>
     <li>AnimalDef->un [Animal]</li>
     <li>AnimalDef->una [Animal_Fem]</li>
+    <li>AnimalGroupIndef->un [AnimalGroup]</li>
+    <li>AnimalGroupIndef->una [AnimalGroup_Fem]</li>
     <li>ApparelAny->[Apparel]</li>
     <li>ApparelAny->[Apparel_Fem]</li>
     <li>ApparelDef->un [Apparel]</li>
@@ -279,6 +299,8 @@
     <li>ConceptAnyIndef->la [ConceptAny_Fem]</li>
     <li>ConceptAnyFull->[ConceptAny]</li>
     <li>ConceptAnyFull->[ConceptAny_Fem]</li>
+    <li>CommunityIndefCap->Una [Community_Fem]</li>
+    <li>CommunityIndefCap->Un [Community]</li>
     <li>Character(p=6)->[PersonJob]</li>
     <li>Character_Fem(p=6)->[PersonJob_Fem]</li>
     <li>Character(p=4)->[Animal]</li>
@@ -361,10 +383,13 @@
     <li>TerrainFeatureAny->[TerrainFeature_Fem]</li>
     <li>TerrainFeatureDef->un [TerrainFeature]</li>
     <li>TerrainFeatureDef->una [TerrainFeature_Fem]</li>
+    <!-- Cometí un error al designar Def en algunas parte cuando lo correcto es Indef (zerstrick) 30-10-2020-->
     <li>TreeTypeAny->[TreeType]</li>
     <li>TreeTypeAny->[TreeType_Fem]</li>
     <li>TreeTypeDef->un [TreeType]</li>
     <li>TreeTypeDef->una [TreeType_Fem]</li>
+    <li>TreeTypeIndef->un [TreeType]</li>
+    <li>TreeTypeIndef->una [TreeType_Fem]</li>
     <li>VegetableAny->[Vegetable]</li>
     <li>VegetableAny->[Vegetable_Fem]</li>
     <li>VegetableDef->un [Vegetable]</li>

@@ -158,7 +158,7 @@
     <li>r_logentry(p=0.4)->[WEAPON_projectile_definitel] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] y alcanzó a [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó a [RECIPIENT_definite] con [WEAPON_projectile_indefinite] que tenía como destino a [ORIGINALTARGET_definite].</li>
     <li>WEAPON_projectile_label(p=0.05)->disparo</li>
-    <li>WEAPON_projectile_definite(p=0.05)->el disparo</li>
+    <li>WEAPON_projectile_definite(p=2)->el disparo</li>
     <li>WEAPON_projectile_indefinite(p=0.05)->un disparo</li>
     <li>destroyed_past->destrozado</li>
     <li>destroyed_past->aplastado</li>
@@ -282,14 +282,16 @@
     <li>verb_shot(p=0.2)->discharged</li>
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] con [INITIATOR_possessive] [WEAPON_label].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] en [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot_a] [burst] [WEAPON_projectile_label] en [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_indefinite] con [INITIATOR_possessive] [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] contra [RECIPIENT_indefinite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_indefinite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot_an] contra [RECIPIENT_definite] con una [burst] de [WEAPON_projectile_label].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label].</li>
-    <li>shot_a(p=2)->[verb_shot] un(a)</li>
-    <li>shot_a->[skillAdv] [verb_shot] un(a)</li>
+    <li>shot_an(p=2)->[verb_shot]</li>
+    <li>shot_an->[skillAdv] [verb_shot]</li>
+    <li>shot_a(p=2)->[verb_shot] a</li>
+    <li>shot_a->[skillAdv] [verb_shot] a</li>
     <li>shot(p=2)->[verb_shot]</li>
     <li>shot->[skillAdv] [verb_shot]</li>
     <li>shotat->disparó [aburst] a</li>
@@ -304,7 +306,7 @@
     <li>shotat(p=0.3)->abrió fuego contra</li>
     <li>aburst-></li>
     <li>aburst(BURST==True,p=3)->una ráfaga</li>
-    <li>burst-></li>
+    <li>burst(BURST==True,p=0.5)->descarga</li>
     <li>burst(BURST==True,p=3)->ráfaga</li>
     <li>verb_shot->disparó</li>
     <li>verb_shot->abrió fuego</li>

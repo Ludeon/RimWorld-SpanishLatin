@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: caravan ambush defeated -->
-  <CaravanAmbushDefeated.label>Caravana: Emboscada Derrotada</CaravanAmbushDefeated.label>
+  <CaravanAmbushDefeated.label>Derrota de la caravana emboscada</CaravanAmbushDefeated.label>
   <!-- EN:
     <li>tale_noun->a successful defense of [PAWN_nameDef]'s caravan</li>
     <li>tale_noun->[PAWN_nameDef]'s caravan fighting off an ambush</li>
@@ -28,32 +28,32 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <CaravanAmbushDefeated.rulePack.rulesStrings>
-    <li>tale_noun->la caravana de [PAWN_nameDef] se defendió de forma exitosa.</li>
-    <li>tale_noun->[PAWN_nameDef] luchó contra una emboscada.</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] se defendiende de forma exitosa.</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] está luchando contra una emboscada.</li>
     <li>image->[PAWN_nameFull] organiza la resistencia, mientras [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] empuñando un(a) [Weapon] defensivamente mientras [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] tomando represalias con un(a) [Weapon] mientras [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] empuñando [WeaponDef] defensivamente mientras [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tomando represalias con [WeaponDef] mientras [circumstance_group]</li>
     <li>image->[PAWN_nameFull] se yergue tan alto como un edificio, mientras [circumstance_group]</li>
     <li>image->[PAWN_nameFull] con semblante [AdjectiveBadass], mientras [circumstance_group]</li>
     <li>image->[PAWN_nameFull] con semblante [AdjectiveAngsty], mientras [circumstance_group]</li>
     <li>circumstance_phrase->se prepara contra la horda que avanza</li>
-    <li>circumstance_phrase->da vueltas alrededor de las carretas</li>
-    <li>circumstance_phrase->grita victorioso(a)</li>
-    <li>circumstance_phrase->lanzando [Weapon]s</li>
-    <li>circumstance_phrase->cubierto en [Gore]s</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s están avanzando mientras blanden sus [Weapon]s.</li>
-    <li>desc_sentence->Un gran [Enemy] avanza, blandiendo un(a) [Weapon].</li>
+    <li>circumstance_phrase->su da vueltas alrededor de las carretas</li>
+    <li>circumstance_phrase->grita ¡victoria!</li>
+    <li>circumstance_phrase->blande sus [WeaponAnyPl]</li>
+    <li>circumstance_phrase->con el cuerpo cubierto de [Gore_Plural]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s están avanzando mientras blanden sus [WeaponAnyPl].</li>
+    <li>desc_sentence->Un gran ejercito de [Enemy]s avanza, blandiendo sus [WeaponAnyPl].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avanzan con semblante [AdjectiveBadass].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avanzan con semblante [AdjectiveAngsty].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avanzan con un resplandor [Color] ojos.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avanzan, cubiertos en [Gore]s.</li>
-    <li>desc_sentence->El suelo está recubierto de [Gore]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avanzan con un resplandor [Color] en sus ojos.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avanzan, cubiertos en [Gore_Plural].</li>
+    <li>desc_sentence->El suelo está recubierto de [Gore_Plural].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s huyen de la zona.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s huyen de la zona.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] huyen de la zona.</li>
   </CaravanAmbushDefeated.rulePack.rulesStrings>
   
   <!-- EN: caravan assault successful -->
-  <CaravanAssaultSuccessful.label>Caravana: Éxito en el ataque</CaravanAssaultSuccessful.label>
+  <CaravanAssaultSuccessful.label>Asalto de caravana exitoso</CaravanAssaultSuccessful.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan defeating an enemy stronghold</li>
     <li>image->[PAWN_nameFull] running towards a [Enemy], [circumstance_group]</li>
@@ -76,21 +76,21 @@
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
     <li>tale_noun->la caravana de [PAWN_nameDef] derrotó un emplazamiento enemigo</li>
     <li>image->[PAWN_nameFull] corriendo hacia un [Enemy], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] blandiendo un(a) [Weapon], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] atacando con un(a) [Weapon], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] blandiendo [WeaponDef], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] atacando con [WeaponDef], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] irguiéndose con orgullo, [circumstance_group]</li>
-    <li>circumstance_phrase->con expresión [AdjectiveBadass] en sus ojos eyes</li>
-    <li>circumstance_phrase->con una mirada [AdjectiveAngsty] en sus ojos</li>
-    <li>circumstance_phrase->rugiendo victorioso(a)</li>
-    <li>circumstance_phrase->cubierto(a) en [Gore]s</li>
+    <li>circumstance_phrase->con expresión [AdjectiveBadass] en sus ojos</li>
+    <li>circumstance_phrase->con expresión [AdjectiveAngsty] en sus ojos</li>
+    <li>circumstance_phrase->gritando ¡victoria!</li>
+    <li>circumstance_phrase->con el cuerpo cubierto de [Gore_Plural]</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s se cubren del ataque.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s huyen del área.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s visiblemente heridos.</li>
-    <li>desc_sentence->Un [Community] arde a la distancia.</li>
-    <li>desc_sentence->Un [Community] humea a la distancia.</li>
+    <li>desc_sentence->[CommunityIndef] arde a la distancia.</li>
+    <li>desc_sentence->[CommunityIndef] humea a la distancia.</li>
     <li>desc_sentence->El suelo está cubierto de [Gore]s.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s huyen del área.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s huyen del área.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] huyen del área.</li>
   </CaravanAssaultSuccessful.rulePack.rulesStrings>
   
   <!-- EN: caravan fled -->
