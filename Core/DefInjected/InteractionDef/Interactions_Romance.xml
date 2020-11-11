@@ -110,8 +110,9 @@
     <li>wootactic->bromear acerca de [TalkTopicAny]</li>
     <li>wootactic->contar una historia sobre [TalkTopicAny]</li>
     <li>wootactic->[boasting] [INITIATOR_possessive] propio [PersonalCharacteristic]</li>
-    <li>wootactic->comparar a [RECIPIENT_objective] con una [romantic_adj] [romantic_noun]</li>
-    <li>wootactic->describir a [RECIPIENT_objective] como una [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->[boasting] [INITIATOR_possessive] propia [PersonalCharacteristic_Fem]</li>
+    <li>wootactic->comparar[RECIPIENT_objective] con una [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->describir[RECIPIENT_objective] como una [romantic_adj] [romantic_noun]</li>
     <li>boasting->alardear sobre</li>
     <li>boasting->mencionar</li>
     <li>boasting->dar a entender cosas buenas sobre</li>
@@ -142,18 +143,18 @@
     <li>romantic_adj->exquisita</li>
     <li>romantic_adj->preciosa</li>
     <li>romantic_adj->espléndida</li>
-    <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
+    <li>romantic_adj(p=3)->[AdjectiveBadass_Fem]</li>
     <li>romantic_noun->flor</li>
     <li>romantic_noun->estatua</li>
     <li>romantic_noun->nube</li>
     <li>romantic_noun->estrella</li>
-    <li>romantic_noun->sol</li>
+    <li>romantic_noun->escultura</li>
     <li>romantic_noun->luna</li>
     <li>romantic_noun->casa</li>
     <li>romantic_noun->aurora</li>
-    <li>romantic_noun->árbol de [TreeType]</li>
-    <li>romantic_noun(p=2)->[TerrainFeature]</li>
-    <li>romantic_noun(p=2)->[NaturalObject]</li>
+    <li>romantic_noun->árbol de [TreeType_Fem]</li>
+    <li>romantic_noun(p=2)->[TerrainFeature_Fem]</li>
+    <li>romantic_noun(p=2)->[NaturalObject_Fem]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>
