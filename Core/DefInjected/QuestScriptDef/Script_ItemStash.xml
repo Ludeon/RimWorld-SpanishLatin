@@ -6,7 +6,7 @@
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Hemos interceptado mensajes sobre una colección de artículos que te pueden interezar, valorados en [itemStashContentsValue] no muy lejos de [map_definite]. La colección consta de:\n\n[itemStashContents]\n\nParece que [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(askerIsNull==true)->Hemos interceptado unos mensajes sobre una colección de artículos que te pueden interezar, valorados en [itemStashContentsValue] no muy lejos de [map_definite]. La colección consta de:\n\n[itemStashContents]\n\nParece que [allSitePartsDescriptionsExceptFirst]</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de la facción [asker_faction_name], nos ha informado de una colección de artículos importantes, los cuales están valorados en [itemStashContentsValue] no muy lejos de nosotros. La colección consta de:\n\n[itemStashContents]\n\n[asker_label] dice que [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -23,21 +23,21 @@
     <li>treasure->Supplies</li>
   -->
   <OpportunitySite_ItemStash.questNameRules.rulesStrings>
-    <li>questName(priority=1)->El [stash] De [treasure] De [asker_nameDef]</li>
-    <li>questName->El [stash] De [treasure]</li>
+    <li>questName(priority=1)->El [stash] [treasure] De [asker_nameDef]</li>
+    <li>questName->El [stash] [treasure]</li>
     <li>stash->Alijo</li>
     <li>stash->Escondite</li>
     <li>stash->Cofre</li>
-    <li>stash->Tesoro</li>
-    <li>treasure->El Tesoro</li>
-    <li>treasure->La Mercancía</li>
-    <li>treasure->La Fortuna</li>
-    <li>treasure->Las Golosinas</li>
-    <li>treasure->Los Suministros</li>
+    <li>stash->Baúl</li>
+    <li>treasure->Del Tesoro</li>
+    <li>treasure->De La Mercancía</li>
+    <li>treasure->De La Fortuna</li>
+    <li>treasure->De Las Golosinas</li>
+    <li>treasure->De Los Suministros</li>
   </OpportunitySite_ItemStash.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>La misión expiró: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>Las comunicaciones interceptadas indican que el alijo del artículo ha sido reclamado por otros. La misión [resolveQuestName] ha expirado.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>Las comunicaciones interceptadas indican que el alijo del artículo ha sido reclamado por otros. La misión [resolvedQuestName] ha expirado.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

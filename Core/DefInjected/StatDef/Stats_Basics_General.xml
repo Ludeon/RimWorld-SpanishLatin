@@ -4,7 +4,7 @@
   <!-- EN: beauty -->
   <Beauty.label>belleza</Beauty.label>
   <!-- EN: How enjoyable an object is to look at.\n\nBeautiful objects fulfill characters' need for beauty. -->
-  <Beauty.description>Lo agradable que es mirar un objeto. Los objetos hermosos satisfacen la necesidad de belleza de los personajes.</Beauty.description>
+  <Beauty.description>Lo agradable que es mirar un objeto.\n\nLos objetos hermosos satisfacen la necesidad de belleza de los personajes.</Beauty.description>
   
   <!-- EN: cleanliness -->
   <Cleanliness.label>limpieza</Cleanliness.label>
@@ -14,12 +14,12 @@
   <!-- EN: comfort -->
   <Comfort.label>confort</Comfort.label>
   <!-- EN: How comfortable an object is to sit or lay on.\n\nUsing comfortable objects fulfills a character's need for comfort. -->
-  <Comfort.description>Qué tan cómodo es sentarse o recostarse sobre un objeto. El uso de objetos cómodos satisface la necesidad de confort del personaje.</Comfort.description>
+  <Comfort.description>Qué tan cómodo es sentarse o recostarse sobre un objeto.\n\nEl uso de objetos cómodos satisface la necesidad de confort del personaje.</Comfort.description>
   
   <!-- EN: deterioration rate -->
   <DeteriorationRate.label>velocidad de deterioro</DeteriorationRate.label>
   <!-- EN: The rate at which this item deteriorates when left outside, in average hit points of damage per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
-  <DeteriorationRate.description>La velocidad a la cual este artículo se deteriora cuando se deja afuera, en puntos promedio de daño por día. El índice de deterioro también se ve afectado por cosas como el clima, los techos, las precipitaciones tóxicas o el hecho de permanecer en aguas poco profundas.</DeteriorationRate.description>
+  <DeteriorationRate.description>La velocidad a la cual este artículo se deteriora cuando se deja afuera, en puntos promedio de daño por día.\n\nEl índice de deterioro también se ve afectado por cosas como el clima, los techos, las precipitaciones tóxicas o el hecho de permanecer en aguas poco profundas.</DeteriorationRate.description>
   <!-- EN: {0} / day -->
   <DeteriorationRate.formatString>{0} / día</DeteriorationRate.formatString>
   
@@ -38,7 +38,7 @@
   <!-- EN: market value -->
   <MarketValue.label>valor de mercado</MarketValue.label>
   <!-- EN: The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
-  <MarketValue.description>El valor de mercado de un objeto. El precio real de mercado será modificado por la habilidad de negociación y el estado de las relaciones.</MarketValue.description>
+  <MarketValue.description>El valor de mercado de un objeto.\n\nEl precio real de mercado será modificado por la habilidad de negociación y el estado de las relaciones.</MarketValue.description>
   <MarketValue.formatString>${0}</MarketValue.formatString>
   
   <!-- EN: market value ignoring hitpoints -->
@@ -54,7 +54,7 @@
   <!-- EN: max hit points -->
   <MaxHitPoints.label>salud máxima</MaxHitPoints.label>
   <!-- EN: The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed. -->
-  <MaxHitPoints.description>Los puntos de daño máximos de un objeto. Esto representa cuánto daño puede soportar antes de ser destruido.</MaxHitPoints.description>
+  <MaxHitPoints.description>Los puntos de daño máximos de un objeto.\n\nEsto representa cuánto daño puede soportar antes de ser destruido.</MaxHitPoints.description>
   
   <!-- EN: nutrition -->
   <Nutrition.label>nutrición</Nutrition.label>
@@ -74,7 +74,7 @@
   <!-- EN: shooting accuracy -->
   <ShootingAccuracyTurret.label>precisión de disparo</ShootingAccuracyTurret.label>
   <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
-  <ShootingAccuracyTurret.description>Probabilidad mínima de no fallar por celda de distancia de disparo. La posibilidad de un golpe también se ve afectada por muchos otros factores. La explicación de la probabilidad de impacto de cualquier disparo se puede ver seleccionando un tirador y pasando el ratón por encima de un objetivo.</ShootingAccuracyTurret.description>
+  <ShootingAccuracyTurret.description>Probabilidad mínima de no fallar por celda de distancia de disparo.\n\nLa posibilidad de un golpe también se ve afectada por muchos otros factores. La explicación de la probabilidad de impacto de cualquier disparo se puede ver seleccionando un tirador y pasando el ratón por encima de un objetivo.</ShootingAccuracyTurret.description>
   <!-- EN: shooting accuracy (turrets) -->
   <ShootingAccuracyTurret.labelForFullStatList>precisión de disparo (torretas)</ShootingAccuracyTurret.labelForFullStatList>
   

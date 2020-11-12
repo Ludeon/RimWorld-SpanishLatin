@@ -19,7 +19,7 @@
       <li>root(priority=1,sitePart==RaidSource)->hay un área militar preparada por (*Threat)[enemiesCount] [enemiesLabel](/Threat) que te lanzarán incursiones cada [mtbDays]</li>
       <li>root(priority=1,sitePart==Outpost)->hay un puesto de avanzada enemigo en el sitio custodiado por (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li>
       <li>root(priority=1,sitePart==BanditCamp)->hay un campamento de bandidos en el sitio custodiado por (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li>
-      <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)un(a) [kindLabel] cazahombres(/Threat) deambula cerca</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)[kindIndef] cazahombres(/Threat) deambula cerca</li>
       <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] [kindLabel] cazahombres(/Threat) están deambulando cerca</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)un mecanóide(/Threat) está durmiendo cerca</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mecaniódes(/Threat) están durmiendo cerca</li>

@@ -29,7 +29,7 @@
     <li>desc_sentence->[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</li>
   -->
   <Captured.rulePack.rulesStrings>
-    <li>tale_noun->[PRISONER_nameDef] fue capturado(a)</li>
+    <li>tale_noun->[PRISONER_nameDef] fue capturad[PRISONER_o_a]</li>
     <li>image->la captura de [PRISONER_nameFull] por [CAPTURER_nameFull] [circumstance_group]</li>
     <li>image->[CAPTURER_nameFull] pone los grilletes en las manos de [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[CAPTURER_nameFull] capturando a [PRISONER_nameFull]</li>
@@ -41,10 +41,10 @@
     <li>circumstance_phrase->con obvio placere</li>
     <li>circumstance_phrase->mientras sonríe</li>
     <li>desc_sentence->[CAPTURER_nameDef] mira a los ojos de [PRISONER_nameDef] dominantemente.</li>
-    <li>desc_sentence->[PRISONER_nameDef] está herido(a) y con mucho dolor.</li>
-    <li>desc_sentence->[PRISONER_nameDef] parece resignado(a) a [PRISONER_possessive] suerte.</li>
+    <li>desc_sentence->[PRISONER_nameDef] está herid[PRISONER_o_a] y con mucho dolor.</li>
+    <li>desc_sentence->[PRISONER_nameDef] parece resignad[PRISONER_o_a] a [PRISONER_possessive] suerte.</li>
     <li>desc_sentence->[PRISONER_nameDef] gruñe con la furia de la derrota.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] abofetea a [PRISONER_nameDef] para someterlo(a).</li>
+    <li>desc_sentence->[CAPTURER_nameDef] abofetea a [PRISONER_nameDef] para someterl[PRISONER_o_a].</li>
     <li>desc_sentence->[CAPTURER_nameDef] está girando la oreja de [PRISONER_nameDef].</li>
     <li>desc_sentence->[CAPTURER_nameDef] le hace una llave a [PRISONER_nameDef].</li>
     <li>desc_sentence->[CAPTURER_nameDef] escupe en la cara de [PRISONER_nameDef].</li>
@@ -76,12 +76,12 @@
   <DidSurgery.rulePack.rulesStrings>
     <li>tale_noun->[SURGEON_nameDef] operando a [PATIENT_nameDef]</li>
     <li>tale_noun->[SURGEON_nameDef] realizando una operación médica a [PATIENT_nameDef]</li>
-    <li>tale_noun->[PATIENT_nameDef] fue operado(a)</li>
+    <li>tale_noun->la operación de [PATIENT_nameDef]</li>
     <li>image->[SURGEON_nameFull] poniendo a [PATIENT_nameFull] a dormir con anestesia [circumstance_group]</li>
     <li>image->[SURGEON_nameFull] con el brazo hasta el codo [circumstance_group], dentro del cuerpo de [patient_nameFull]</li>
     <li>image->[SURGEON_nameFull] [circumstance_group] abriendo a [PATIENT_nameFull] con un bisturí [circumstance_group]</li>
     <li>circumstance_phrase->mientras [PATIENT_pronoun] tiembla de miedo</li>
-    <li>circumstance_phrase->mientras la sangre se encharca alrededor de los pies de [SURGEON_nameDef]</li>
+    <li>circumstance_phrase->mientras la sangre encharca los pies de [SURGEON_nameDef]</li>
     <li>circumstance_phrase->rodeado(a) de intrumentos quirúrgicos amenazadores</li>
     <li>circumstance_phrase->con sus herramientas quirúrgicas</li>
     <li>desc_sentence->[SURGEON_nameDef] suda profusamente.</li>
@@ -122,7 +122,7 @@
     <li>desc_sentence->[PRISONER_nameDef] looks defiant.</li>
   -->
   <ExecutedPrisoner.rulePack.rulesStrings>
-    <li>tale_noun->[PRISONER_nameDef] fue ejecutado(a)</li>
+    <li>tale_noun->[PRISONER_nameDef] fue ejecutad[PRISONER_o_a] </li>
     <li>image->[EXECUTIONER_nameFull] ejecutando a [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] matando a [warden_pronoun] [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] preparándose para ejecutar a [PRISONER_nameFull] [circumstance_group]</li>

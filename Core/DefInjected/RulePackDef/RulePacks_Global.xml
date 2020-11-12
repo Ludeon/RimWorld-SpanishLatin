@@ -217,10 +217,8 @@
     <!--asker-->
     <li>asker_o_a(asker_gender!=Female)->o</li>
     <li>asker_o_a(asker_gender==Female)->a</li>
-    <li>asker_x_a(asker_gender==Male)-></li>
+    <li>asker_x_a(asker_gender!=Female)-></li>
     <li>asker_x_a(asker_gender==Female)->a</li>
-    <li>asker_x_a(asker_gender==None)-></li>
-    <li>asker_x_a(asker_gender==None)-></li>
     <li>asker_a(asker_gender==Male)->un</li>
     <li>asker_a(asker_gender==Female)->una</li>
     <li>asker_a(asker_gender==None)->un</li>
@@ -234,6 +232,23 @@
     <li>titleHeirDef(titleHeir_gender==Male)->el</li>
     <li>titleHeirDef(titleHeir_gender==Female)->la</li>
     <li>titleHeirDef(titleHeir_gender==None)->el</li>
+    <!--INITIATOR-->
+    <li>INITIATOR_o_a(INITIATOR_gender!=Female)->o</li>
+    <li>INITIATOR_o_a(INITIATOR_gender==Female)->a</li>
+    <!--PRISONER-->
+    <li>PRISONER_o_a(PRISONER_gender!=Female)->o</li>
+    <li>PRISONER_o_a(PRISONER_gender==Female)->a</li>
+    <!--PATIENT-->
+    <li>PATIENT_o_a(PATIENT_gender!=Female)->o</li>
+    <li>PATIENT_o_a(PATIENT_gender==Female)->a</li>
+    <!--refugee-->
+    <li>refugee_o_a(refugee_gender!=Female)->o</li>
+    <li>refugee_o_a(refugee_gender==Female)->a</li>
+    <li>refugee_ununa(refugee_gender!=Female)->un</li>
+    <li>refugee_ununa(refugee_gender==Female)->una</li>
+    <!--joiner-->
+    <li>joiner_ununa(joiner_gender!=Female)->un</li>
+    <li>joiner_ununa(joiner_gender==Female)->una</li>
     <!--Scrip_LongRangeMineralScanner-->
     <li>targetMineable_labelVar(targetMineable==MineableGold)->mina de oro</li>
     <li>targetMineable_labelVar(targetMineable==MineableSilver)->mina de plata</li>
@@ -251,6 +266,15 @@
     <li>targetMineableThing_labelVar(targetMineable==MineableUranium)->uranio</li>
     <li>targetMineableThing_labelVar(targetMineable==MineableJade)->jade</li>
     <li>targetMineableThing_labelVar(p=0.00000000001)->[targetMineableThing_label]</li>
+    <!--Quest Hospitality -->
+    <li>arrived(lodgerCount==1)->llegó</li>
+    <li>arrived(lodgerCount>=2)->llegaron</li>
+    <il></il>
+    <il></il>
+    <il></il>
+    <il></il>
+    <il></il>
+    <il></il>
     <!--Reglas Normales-->
     <li>Trans->de</li>
     <li>Trans->para</li>
