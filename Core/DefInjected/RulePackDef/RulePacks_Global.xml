@@ -114,7 +114,7 @@
     <li>RomanNumeral->Words/Misc/Numbers_SmallRoman</li>
     <!--Letras:-->
     <li>Letter->WordParts/CapitalLetters</li>
-    <!--Mecanóides:-->
+    <!--Mecanoides:-->
     <li>Mechanoid->Words/Nouns/Mechanoid</li>
     <!--Objetos naturales:-->
     <li>NaturalObject->Words/Nouns/NaturalObject</li>
@@ -219,9 +219,8 @@
     <li>asker_o_a(asker_gender==Female)->a</li>
     <li>asker_x_a(asker_gender!=Female)-></li>
     <li>asker_x_a(asker_gender==Female)->a</li>
-    <li>asker_a(asker_gender==Male)->un</li>
+    <li>asker_a(asker_gender!=Female)->un</li>
     <li>asker_a(asker_gender==Female)->una</li>
-    <li>asker_a(asker_gender==None)->un</li>
     <li>asker_TheCap(asker_gender!=Female)->El</li>
     <li>asker_TheCap(asker_gender==Female)->La</li>
     <li>asker_The(asker_gender!=Female)->el</li>
@@ -249,6 +248,15 @@
     <!--joiner-->
     <li>joiner_ununa(joiner_gender!=Female)->un</li>
     <li>joiner_ununa(joiner_gender==Female)->una</li>
+    <li>joiner_a(joiner_gender!=Female)->un</li>
+    <li>joiner_a(joiner_gender==Female)->una</li>
+    <li>joiner_A(joiner_gender!=Female)->Un</li>
+    <li>joiner_A(joiner_gender==Female)->Una</li>
+    <li>joiner_o_a(joiner_gender!=Female)->o</li>
+    <li>joiner_o_a(joiner_gender==Female)->a</li>
+     <!--lodgers-->
+    <li>lodgers_o_a(lodgers0_gender!=Female)->o</li>
+    <li>lodgers_o_a(lodgers0_gender==Female)->a</li>
     <!--Scrip_LongRangeMineralScanner-->
     <li>targetMineable_labelVar(targetMineable==MineableGold)->mina de oro</li>
     <li>targetMineable_labelVar(targetMineable==MineableSilver)->mina de plata</li>
@@ -269,12 +277,198 @@
     <!--Quest Hospitality -->
     <li>arrived(lodgerCount==1)->llegó</li>
     <li>arrived(lodgerCount>=2)->llegaron</li>
+    <!-- Scrip Uitlity helpers -->
+    <li>helpersSentSinOrPl(helpersCount==1)->llegado</li>
+    <li>helpersSentSinOrPl(helpersCount==2)->llegaron</li>
+    <li>helpersSent(helpersCount==1,helpers0_gender!=Female)->enviado</li>
+    <li>helpersSent(helpersCount==1,helpers0_gender==Female)->enviada</li>
+    <li>helpersSent(helpersCount>=2)->enviados</li>
+    <li>helpersArrived(helpersCount==1)->ha llegado</li>
+    <li>helpersArrived(helpersCount>=2)->llegaron</li>
+    <li>helpersLeaving(helpersCount==1)->se marcha</li>
+    <li>helpersLeaving(helpersCount>=2)->se marchan</li>
+    <li>helpersTheCap(helpersCount==1,helpers0_gender!=Female)->El</li>
+    <li>helpersTheCap(helpersCount==1,helpers0_gender==Female)->La</li>
+    <li>helpersTheCap(helpersCount>=2)->Los</li>
+    <li>helpersSpent(helpersCount==1)->pasó</li>
+    <li>helpersSpent(helpersCount>=2)->pasaron</li>
+    <!-- ShuttleCrash-->
+    <li>crashedLanded(civilians_count==1)->estrelló</li>
+    <li>crashedLanded(civilians_count>=2)->estrellaron</li>
+    <li>thesePeople(civilians_count==1)->esta persona</li>
+    <li>thesePeople(civilians_count>=2)->estas personas</li>
     <il></il>
     <il></il>
     <il></il>
     <il></il>
     <il></il>
     <il></il>
+    <!-- Todos los animales -->
+    <!-- Aridos -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Dromedary)->dromedarios</li>
+    <li>animalFem(animalKind==Gazelle)->gacelas</li>
+    <li>animalFem(animalKind==Iguana)->iguanas</li>
+    <li>animalMas(animalKind==Muffalo)->múfalos</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Dromedary)->unos dromedarios</li>
+    <li>animalKind_Indef(animalKind==Gazelle)->unas gacelas</li>
+    <li>animalKind_Indef(animalKind==Iguana)->unas iguanas</li>
+    <li>animalKind_Indef(animalKind==Muffalo)->unos múfalos</li>
+    <!-- Osos -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Bear_Grizzly)->osos pardos</li>
+    <li>animalMas(animalKind==Bear_Polar)->osos polares</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Bear_Grizzly)->unos osos pardos</li>
+    <li>animalKind_Indef(animalKind==Bear_Polar)->unos osos polares</li>
+    <!-- Grandes Gatos -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Cougar)->pumas</li>
+    <li>animalMas(animalKind==Lynx)->linces</li>
+    <li>animalFem(animalKind==Panther)->panteras</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Cougar)->unos pumas</li>
+    <li>animalKind_Indef(animalKind==Lynx)->unos linces</li>
+    <li>animalKind_Indef(animalKind==Panther)->unas panteras</li>
+    <!-- Aves -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Cassowary)->casuarios</li>
+    <li>animalMas(animalKind==Emu)->emúes</li>
+    <li>animalMas(animalKind==Ostrich)->avestruces</li>
+    <li>animalMas(animalKind==Turkey)->pavos</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Cassowary)->unos casuarios</li>
+    <li>animalKind_Indef(animalKind==Emu)->unos emúes</li>
+    <li>animalKind_Indef(animalKind==Ostrich)->unos avestruces</li>
+    <li>animalKind_Indef(animalKind==Turkey)->unos pavos</li>
+    <!-- Granja -->
+    <!-- Plural Definido -->
+    <li>animaFem(animalKind==Alpaca)->alpacas</li>
+    <li>animaMas(animalKind==Bison)->bisontes</li>
+    <li>animaMas(animalKind==Chicken)->pollos</li>
+    <li>animalFem(animalKind==Cow)->vacas</li>
+    <li>animalMas(animalKind==Donkey)->burros</li>
+    <li>animalMas(animalKind==Duck)->patos</li>
+    <li>animalFem(animalKind==Goat)->cabras</li>
+    <li>animalMas(animalKind==Goose)->gansos</li>
+    <li>animalMas(animalKind==GuineaPig)->conejillos de indias</li>
+    <li>animalMas(animalKind==Horse)->caballos</li>
+    <li>animalMas(animalKind==Pig)->cerdos</li> 
+    <li>animalFem(animalKind==Sheep)->ovejas</li>
+    <li>animalMas(animalKind==Yak)->yaks</li>
+     <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Alpaca)->unas alpacas</li>
+    <li>animalKind_Indef(animalKind==Bison)->unos bisontes</li>
+    <li>animalKind_Indef(animalKind==Chicken)->unas gallinas</li>
+    <li>animalKind_Indef(animalKind==Cow)->unas vacas</li>
+    <li>animalKind_Indef(animalKind==Donkey)->unos burros</li>
+    <li>animalKind_Indef(animalKind==Duck)->unos patos</li>
+    <li>animalKind_Indef(animalKind==Goat)->unas cabras</li>
+    <li>animalKind_Indef(animalKind==Goose)->unos gansos</li>
+    <li>animalKind_Indef(animalKind==GuineaPig)->unos conejillos de indias</li>
+    <li>animalKind_Indef(animalKind==Horse)->unos caballos</li>
+    <li>animalKind_Indef(animalKind==Pig)->unos cerdos</li> 
+    <li>animalKind_Indef(animalKind==Sheep)->unas ovejas</li>
+    <li>animalKind_Indef(animalKind==Yak)->unos yaks</li>
+    <!-- Animales Gigantes -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Elephant)->elefantes</li>
+    <li>animalMas(animalKind==Megasloth)->megaterios</li>
+    <li>animalMas(animalKind==Rhinoceros)->rinocerontes</li>
+    <li>animalMas(animalKind==Thrumbo)->thrumbos</li>
+     <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Elephant)->unos elefantes</li>
+    <li>animalKind_Indef(animalKind==Megasloth)->unos megaterios</li>
+    <li>animalKind_Indef(animalKind==Rhinoceros)->unos rinocerontes</li>
+    <li>animalKind_Indef(animalKind==Thrumbo)->unos thrumbos</li>
+    <!-- Liebres -->
+    <!-- Plural Definido -->
+    <li>animalFem(animalKind==Hare)->liebres</li>
+    <li>animalFem(animalKind==Snowhare)->liebres blancas</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Hare)->unas liebres</li>
+    <li>animalKind_Indef(animalKind==Snowhare)->unas liebres blancas</li>
+    <!-- Insectoides -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Megascarab)->megascarabajos</li>
+    <li>animalFem(animalKind==Megaspider)->megarañas</li>
+    <li>animalMas(animalKind==Spelopede)->espelópedos</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Megascarab)->unos megascarabajos</li>
+    <li>animalKind_Indef(animalKind==Megaspider)->unas megarañas</li>
+    <li>animalKind_Indef(animalKind==Spelopede)->unos espelópedos</li>
+    <!-- Mascotas -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Cat)->gatos</li>
+    <li>animalMas(animalKind==Husky)->huskies</li>
+    <li>animalMas(animalKind==LabradorRetriever)->labradores retrievers</li>
+    <li>animalMas(animalKind==YorkshireTerrier)->yorkshire terriers</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Cat)->unos gatos</li>
+    <li>animalKind_Indef(animalKind==Husky)->unos huskies</li>
+    <li>animalKind_Indef(animalKind==LabradorRetriever)->unos labradores retrievers</li>
+    <li>animalKind_Indef(animalKind==YorkshireTerrier)->unos yorkshire terriers</li>
+    <!-- Tipo roedores -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Alphabeaver)->alfacastores</li>
+    <li>animalFem(animalKind==Boomrat)->ratas-bum</li>
+    <li>animalMas(animalKind==Capybara)->capibaras</li>
+    <li>animalFem(animalKind==Chinchilla)->chinchillas</li>
+    <li>animalMas(animalKind==Raccoon)->mapaches</li>
+    <li>animalFem(animalKind==Rat)->ratas</li>
+    <li>animalFem(animalKind==Squirrel)->ardillas</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Alphabeaver)->los</li>
+    <li>animalKind_Indef(animalKind==Boomrat)->las</li>
+    <li>animalKind_Indef(animalKind==Capybara)->los</li>
+    <li>animalKind_Indef(animalKind==Chinchilla)->las</li>
+    <li>animalKind_Indef(animalKind==Raccoon)->los</li>
+    <li>animalKind_Indef(animalKind==Rat)->las</li>
+    <li>animalKind_Indef(animalKind==Squirrel)->las</li>
+    <!-- Animales de Clima Templado -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Caribou)->caribúes</li>
+    <li>animalMas(animalKind==Deer)->venados</li>
+    <li>animalMas(animalKind==Elk)->alces</li>
+    <li>animalMas(animalKind==Ibex)->íbices</li>
+    <li>animalFem(animalKind==Tortoise)->tortugas</li>
+    <li>animalMas(animalKind==WildBoar)->jabalíes</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Caribou)->unos caribúes</li>
+    <li>animalKind_Indef(animalKind==Deer)->unos venados</li>
+    <li>animalKind_Indef(animalKind==Elk)->unos alces</li>
+    <li>animalKind_Indef(animalKind==Ibex)->unos íbices</li>
+    <li>animalKind_Indef(animalKind==Tortoise)->unas tortugas</li>
+    <li>animalKind_Indef(animalKind==WildBoar)->unos jabalíes</li>
+    <!-- Animales Tropicales -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Boomalope)->bumalopes</li>
+    <li>animalFem(animalKind==Cobra)->cobras</li>
+    <li>animalMas(animalKind==Monkey)->monos</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Boomalope)->unos bumalopes</li>
+    <li>animalKind_Indef(animalKind==Cobra)->unas cobras</li>
+    <li>animalKind_Indef(animalKind==Monkey)->unos monos</li>
+    <!-- Caninos salvajes -->
+    <!-- Plural Definido -->
+    <li>animalMas(animalKind==Fox_Arctic)->zorros árticos</li>
+    <li>animalMas(animalKind==Fox_Fennec)->zorros del desierto</li>
+    <li>animalMas(animalKind==Fox_Red)->zorros rojo</li>
+    <li>animalMas(animalKind==Warg)->wargos</li>
+    <li>animalMas(animalKind==Wolf_Arctic)->lobos árticos</li>
+    <li>animalMas(animalKind==Wolf_Timber)->lobos pardo</li>
+    <!-- Plural Indefinido -->
+    <li>animalKind_Indef(animalKind==Fox_Arctic)->unos zorros árticos</li>
+    <li>animalKind_Indef(animalKind==Fox_Fennec)->unos zorros del desierto</li>
+    <li>animalKind_Indef(animalKind==Fox_Red)->unos zorros rojos</li>
+    <li>animalKind_Indef(animalKind==Warg)->unos wargos</li>
+    <li>animalKind_Indef(animalKind==Wolf_Arctic)->unos lobos árticos</li>
+    <li>animalKind_Indef(animalKind==Wolf_Timber)->unos lobos pardo</li>
+    <!-- Otros -->
+    <li>animalPlThe(p=0.00000000001)->[animalKind_labelPlural]</li>
+    <li>animalKind_Indef(p=0.00000000001)->[animalKind_labelPlural]</li>
+
     <!--Reglas Normales-->
     <li>Trans->de</li>
     <li>Trans->para</li>

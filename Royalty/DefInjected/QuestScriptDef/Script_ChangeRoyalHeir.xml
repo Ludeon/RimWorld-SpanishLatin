@@ -6,9 +6,8 @@
   -->
   <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
     <li>questDescription->\nPara aprobar que [titleHeir_nameFull] se convierta en [heir_Defi] de [titleHolder_nameFull], tienes que construir un monumento.\n\nEl monumento tendrá un tamaño de [monumentSize] y requiere estos recursos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nSi no puede construir el monumento dentro de 20 días, esto se considerará como profanación del ritual. Tu relaciones con la facción "[asker_factionName]" se reducirán en 25 y [heir_Defi] no cambiará.\n\nSi el monumento es destruido dentro de [keepMonumentTicks_duration] días después de la finalización, tus relaciones con la facción [asker_factionName] caerán por [goodwillChangeIfMonumentDestroyed].</li>
-    <li>heir_Defi(titleHeir_gender==Male)->el heredero</li>
+    <li>heir_Defi(titleHeir_gender!=Female)->el heredero</li>
     <li>heir_Defi(titleHeir_gender==Female)->la heredera</li>
-    <li>heir_Defi(titleHeir_gender==None)->el heredero</li>
   </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[titleHeir_nameDef]'s inheritance</li>

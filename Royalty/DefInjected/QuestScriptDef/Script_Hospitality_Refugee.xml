@@ -66,18 +66,17 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] [arrived]</li>
-    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] [arrived]. [lodgersPronoun] se [willStay] contigo durante [questDurationTicks_duration] so [lodgersPronoun] can rest and regroup.</li>
+    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] [arrived]. [lodgersPronoun] se [willStay] contigo durante [questDurationTicks_duration] y así [lodgersPronoun] poder descansar y reagruparse.</li>
     <li>hasHave(lodgerCount==1)->ha</li>
     <li>hasHave(lodgerCount>=2)->han</li>
-    <li>arrived(lodgerCount==1)->llegó</li>
-    <li>arrived(lodgerCount>=2)->llegaron</li>
     <li>willStay(lodgerCount==1)->quedará</li>
     <li>willStay(lodgerCount>=2)->quedarán</li>
     <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? Los otros parecen horrorizados : El último [lodgersLabel] está horrorizado} por esto, pero {PAWNSALIVECOUNT_multiple ? no están : no está} tomando medidas en contra tuya.</li>
     <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? Los otros no están dispuestos : el último [lodgersLabel] no está dispuesto} a aceptar esto</li>
     <li>turnedViolent->[othersWillNotAccept], y se {PAWNSALIVECOUNT_multiple ? han vuelto violentos : ha vuelto violento} en tu contra.</li>
     <li>decidedToLeave->[othersWillNotAccept], y {PAWNSALIVECOUNT_multiple ? han : ha } decidido irse.</li>
-    <li>whoAskedToStay->que pidió quedarse contigo</li>
+    <li>whoAskedToStay(lodgerCount==1)->que pidió quedarse contigo</li>
+    <li>whoAskedToStay(lodgerCount>=2)->que pidieron quedarse contigo</li>
     <li>oneOfThe->uno de los [faction_pawnsPlural] desesperados que pidió quedarse contigo</li>
     <li>questOver->La misión "[resolvedQuestName]" ha terminado.</li>
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] ha muerto.</li>
@@ -275,7 +274,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->Recompensa por la hospitalidad</li>
-    <li>rewardLetterText->[rewardGiver_nameDef] ha contactado contigo. [rewardDelayTicks_duration] atrás, [rewardGiver_objective] ayudaste en circunstancias desesperadas.\n\nDesde entonces, [rewardGiver_pronoun] ha vuelto a ponerse en pie, y ahora quiere recompensarte adecuadamente por tu ayuda. [rewardGiver_pronoun] te está enviando lo siguiente a través de la cápsula de transpote:\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] ha contactado contigo. [rewardDelayTicks_duration] atrás, tú [rewardGiver_objective] ayudaste en circunstancias desesperadas.\n\nDesde entonces, [rewardGiver_pronoun] ha vuelto a ponerse en pie, y ahora quiere recompensarte adecuadamente por tu ayuda. [rewardGiver_pronoun] te está enviando lo siguiente mediante cápsulas de transpotes:\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>

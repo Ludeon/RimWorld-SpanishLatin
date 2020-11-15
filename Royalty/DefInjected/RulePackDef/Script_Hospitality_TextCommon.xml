@@ -104,10 +104,10 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)dos grupos de mecas(/Threat) se desplegarán en las cercanías.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)un grupo de mecas(/Threat) de [threatSize]x tamaño se desplegará en las cercanías.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)dos grupos de mecas(/Threat) de [threatSize]x tamaño se desplegará en las cercanías.</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recientemente [mechViolation], y es objetivo de un enjambre mecanóide en órbita.</li>
-    <li>threatsInfoMechClustersMultiPrisoners->Los prisioneros recientemente [mechViolationMultiHuman], y son objetivo de un enjambre mecanóide en órbita.</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recientemente [mechViolation], y es objetivo de una colmena mecanóide.</li>
-    <li>threatsInfoMechRaidsMultiHuman->Ellos recientemente [mechViolationMultiHuman], y son objetivo de una colmena mecanóide.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recientemente [mechViolation], y es objetivo de un enjambre mecanoide en órbita.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->Los prisioneros recientemente [mechViolationMultiHuman], y son objetivo de un enjambre mecanoide en órbita.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recientemente [mechViolation], y es objetivo de una colmena mecanoide.</li>
+    <li>threatsInfoMechRaidsMultiHuman->Ellos recientemente [mechViolationMultiHuman], y son objetivo de una colmena mecanoide.</li>
     <!--<li>mechViolation->angered a machine persona somehow</li>
     <li>mechViolation->violated an ancient supercomputer terminal</li>
     <li>mechViolation->murdered a human child favored by an archotech</li>
@@ -121,12 +121,12 @@
     <li>mechViolation->logró de alguna manera enfurer a una inteligencia artificial</li>
     <li>mechViolation->hackeo una terminal de supercomputadora ancestral</li>
     <li>mechViolation->mató a un niño humano que significaba mucho para un arcotécnico</li>
-    <li>mechViolation->intento hackear un nodo de control mecanóide</li>
+    <li>mechViolation->intento hackear un nodo de control mecanoide</li>
     <li>mechViolation->intento robar algo de un depósito ancestral</li>
     <li>mechViolationMultiHuman->lograron de alguna manera enfurer a una inteligencia artificial</li>
     <li>mechViolationMultiHuman->hackearon una terminal de supercomputadora ancestral</li>
     <li>mechViolationMultiHuman->mataron a un niño humano que significaba mucho para un arcotécnico</li>
-    <li>mechViolationMultiHuman->intentaron hackear un nodo de control mecanóide</li>
+    <li>mechViolationMultiHuman->intentaron hackear un nodo de control mecanoide</li>
     <li>mechViolationMultiHuman->intentaron robar algo de un depósito ancestral</li>
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->ha</li>
