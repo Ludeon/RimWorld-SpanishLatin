@@ -61,7 +61,7 @@
   <MessageFullyHealed>{1_label} ha sanado por completo.</MessageFullyHealed>
 
   <!-- EN: Prisoner {1_labelShort} is escaping. -->
-  <MessagePrisonerIsEscaping>El prisonero {1_labelShort} está escapando.</MessagePrisonerIsEscaping>
+  <MessagePrisonerIsEscaping>{1_gender ? El : La} prisionero {1_labelShort} está escapando.</MessagePrisonerIsEscaping>
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} no ha encontrado ningún obús sin reservar para {GUN_definite}.</MessageOutOfNearbyShellsFor>
