@@ -22,7 +22,7 @@
   <LetterRelationsChange_HostileGoodwillDescription>Llevarán a cabo redadas periódicas a su colonia y caravanas, y se negarán a comerciar contigo. Si quieres mejorar las relaciones, todavía puedes ofrecerles regalos en caravanas o cápsulas de transporte.\n\nEsto sucedió porque la buena voluntad ({0}) ha caído por debajo de {1}. Para restablecer relaciones neutrales, la buena voluntad debe alcanzar {2} nuevamente.</LetterRelationsChange_HostileGoodwillDescription>  
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
-  <LetterRelationsChange_NeutralFromHostile>Las relaciones con {0} se han acalorado. Ahora te consideran neutral y ya no te atacarán.</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromHostile>Las relaciones con {0} se han enfriado. Ahora te consideran neutral y ya no te atacarán.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
   <LetterRelationsChange_NeutralFromHostileGoodwillDescription>Esto sucedió porque la buena voluntad ({1}) se ha incrementado en {2}. Si las relaciones caen por debajo de {3}, {0} se volverá hostil nuevamente. Si las relaciones se elevan por encima de {4}, se convertirán en tus aliados y lucharán por ti.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
   
@@ -34,7 +34,7 @@
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>Las relaciones con {0} se han vuelto muy íntimas. Ahora te consideran un aliado.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>Los aliados a veces llegan para ayudar a luchar contra tus enemigos cuando estás bajo ataque. También puede llamarlos para pedirles ayuda en cualquier momento, a un costo de buena voluntad.\n\nSe han convertido en aliados porque su buena voluntad ({0}) se ha incrementado en el pasado por encima de {1}. Si la buena voluntad cae por debajo de {2}, las relaciones volverán a ser neutrales.</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>Los aliados a veces llegan para ayudar a luchar contra tus enemigos cuando estás bajo ataque. También puedes llamarlos para pedirles ayuda en cualquier momento, a un costo de buena voluntad.\n\nSe han convertido en aliados porque su buena voluntad ({0}) se ha incrementado en el pasado por encima de {1}. Si la buena voluntad cae por debajo de {2}, las relaciones volverán a ser neutrales.</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
   <goodwill>Buena voluntad</goodwill>
@@ -464,7 +464,7 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRescueeJoins>{PAWN_nameDef} se une</LetterLabelRescueeJoins>
   <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
-  <LetterRescueeJoins>{PAWN_nameDef} agradece que hayas rescatado a {PAWN_objective}. {PAWN_pronoun} ha decidido que {PAWN_pronoun} preferiría quedarse antes que irse, y se une a su colonia.</LetterRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef} agradece que hayas {PAWN_objective}rescatado. {PAWN_pronoun} ha decidido que preferiría quedarse antes que irse, y se une a tu colonia.</LetterRescueeJoins>
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
