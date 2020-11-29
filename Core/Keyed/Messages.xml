@@ -136,7 +136,7 @@
   <MessageTooLowMedCare>La operación requiere un nivel de medicina de {0} o mejor, pero {PAWN_labelShort} solo llega al "{2}".</MessageTooLowMedCare>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{PAWN_labelShort} a muerto. Causa: {1}.</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{PAWN_labelShort} ha muerto. Causa: {1}.</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
   <PawnDied>{1_labelShort} ha muerto.</PawnDied>
 
@@ -174,7 +174,7 @@
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} ha sido cazado por {PREDATOR}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>!{PREY_labelShort} está siendo atacad{PREY_gender ? o : a} por {PREDATOR}!</MessageAttackedByPredator>
+  <MessageAttackedByPredator>¡{PREY_labelShort} está siendo atacad{PREY_gender ? o : a} por {PREDATOR}!</MessageAttackedByPredator>
   
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Una colmena insectoide se ha reproducido.</MessageHiveReproduced>
@@ -238,7 +238,7 @@
   <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} ya no está lanzando insultos contra {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
 
   <!-- EN: {1_label} has rotted away in storage. -->
-  <MessageRottedAwayInStorage>{1_label} se han hechado a perder en el almacén.</MessageRottedAwayInStorage>
+  <MessageRottedAwayInStorage>{1_label} se han echado a perder en el almacén.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>{PAWN_labelShort} se ha intoxicado con: {FOOD_labelShort}. Causa: {2}</MessageFoodPoisoning>
@@ -439,7 +439,7 @@
   <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} no puedo alcanzar a {OLDTARGET_label} así que [PAWN_pronoun] decidió reorientar [PAWN_possessive] ira hacia {TARGET_label}.</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} no puedo alcanzar a {OLDTARGET_label} así que {PAWN_pronoun} decidió reorientar {PAWN_possessive} insultos hacia {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} no puede alcanzar a {OLDTARGET_label} así que {PAWN_pronoun} decidió reorientar {PAWN_possessive}s insultos hacia {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageMurderousRageChangedTarget>{PAWN_labelShort} ha decidido redirigir [PAWN_possessive] rabia hacia {TARGET_label}.</MessageMurderousRageChangedTarget>
