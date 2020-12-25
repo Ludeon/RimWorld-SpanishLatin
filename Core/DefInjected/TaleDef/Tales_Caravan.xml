@@ -94,7 +94,7 @@
   </CaravanAssaultSuccessful.rulePack.rulesStrings>
   
   <!-- EN: caravan fled -->
-  <CaravanFled.label>la huída de la caravana</CaravanFled.label>
+  <CaravanFled.label>la carvana huyó</CaravanFled.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan fleeing danger</li>
     <li>tale_noun->[PAWN_nameDef]'s caravan escaping danger</li>
@@ -118,10 +118,10 @@
     <li>desc_sentence->[PAWN_nameDef] is gasping for breath.</li>
   -->
   <CaravanFled.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] huyó por su vida</li>
-    <li>tale_noun->[PAWN_nameDef] escapó del peligro</li>
-    <li>tale_noun->[PAWN_nameDef] escapó por poco del peligro</li>
-    <li>tale_noun->[PAWN_nameDef] fue perseguido(a) por los enemigos</li>
+    <li>tale_noun->La caravana de [PAWN_nameDef] está huyendo del peligro</li>
+    <li>tale_noun->La caravana de [PAWN_nameDef] está escapando del peligro</li>
+    <li>tale_noun->La caravana de [PAWN_nameDef] está escapando por muy poco del peligro</li>
+    <li>tale_noun->La caravana de [PAWN_nameDef] es perseguida por los enemigos</li>
     <li>image->[PAWN_nameFull] corriendo frenéticamente [circumstance_group]</li>
     <li>image->[PAWN_nameFull] corriendo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] detrás de un [TerrainFeature], oculto [circumstance_group]</li>
@@ -130,12 +130,12 @@
     <li>circumstance_phrase->a pesar de los [Quantity_adjphrase] [Enemy]s que le persiguen</li>
     <li>circumstance_phrase->si bien [Quantity_adjphrase] [Enemy]s le buscan</li>
     <li>circumstance_phrase->a causa de [Quantity_adjphrase] [Enemy]s</li>
-    <li>circumstance_phrase->a causa de [Quantity_adjphrase] [Animal]s </li>
+    <li>circumstance_phrase->a causa de [Quantity_adjphrase] [Animal_Plural]</li>
     <li>circumstance_phrase->de un(a) [huge] [Enemy]</li>
-    <li>desc_sentence->los perseguidores de [PAWN_nameDef] estan blandiendo un(a) [Weapon].</li>
+    <li>desc_sentence->los perseguidores de [PAWN_nameDef] estan blandiendo un [Weapon].</li>
+    <li>desc_sentence->los perseguidores de [PAWN_nameDef] estan blandiendo una [Weapon_Fem].</li>
     <li>desc_sentence->los perseguidores de [PAWN_nameDef] estan envuelto en humo [Color]. </li>
     <li>desc_sentence->los perseguidores de [PAWN_nameDef] tienen una expresión [AdjectiveAngsty].</li>
-    <li>desc_sentence->los perseguidores de [PAWN_nameDef] estan blandiendo un(a) [Weapon].</li>
     <li>desc_sentence->[PAWN_nameDef] está sudando.</li>
     <li>desc_sentence->[PAWN_nameDef] está jadeando.</li>
   </CaravanFled.rulePack.rulesStrings>
@@ -164,15 +164,15 @@
   <CaravanFormed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] partió hacia la aventura</li>
     <li>tale_noun->[PAWN_nameDef] formó una caravana</li>
-    <li>image->[PAWN_nameFull] avanzando hacia adelante [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] avanza a pasos agigantados [circumstance_group]</li>
     <li>image->[PAWN_nameFull] mirando hacia el horizonte [circumstance_group]</li>
     <li>image->[PAWN_nameFull] empaquetar suministros para un viaje [circumstance_group]</li>
     <li>image->[PAWN_nameFull] planificación de un viaje [circumstance_group]</li>
-    <li>circumstance_phrase->y equipados para una pelea</li>
-    <li>circumstance_phrase->y equipados para sobrevivir</li>
-    <li>circumstance_phrase->y equipados para la exploración</li>
+    <li>circumstance_phrase->y equipado para la pelea</li>
+    <li>circumstance_phrase->y equipado para sobrevivir</li>
+    <li>circumstance_phrase->y equipado para la exploración</li>
     <li>circumstance_phrase->con una mirada ansiosa</li>
-    <li>circumstance_phrase->con una mirada [AdjectiveAny] en [PAWN_possessive] ojos</li>
+    <li>circumstance_phrase->con una mirada [AdjectiveAny] en [PAWN_possessive]s ojos</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s vigilan los preparativos.</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s ayudan con los preparativos.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s se alejan de la escena.</li>
