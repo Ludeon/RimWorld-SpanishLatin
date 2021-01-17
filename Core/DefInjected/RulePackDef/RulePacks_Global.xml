@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -257,6 +257,9 @@
      <!--lodgers-->
     <li>lodgers_o_a(lodgers0_gender!=Female)->o</li>
     <li>lodgers_o_a(lodgers0_gender==Female)->a</li>
+     <!--Quest Hospitality -->
+    <li>arrived(lodgerCount==1)->llegó</li>
+    <li>arrived(lodgerCount>=2)->llegaron</li>
     <!--Scrip_LongRangeMineralScanner-->
     <li>targetMineable_labelVar(targetMineable==MineableGold)->mina de oro</li>
     <li>targetMineable_labelVar(targetMineable==MineableSilver)->mina de plata</li>
@@ -274,9 +277,6 @@
     <li>targetMineableThing_labelVar(targetMineable==MineableUranium)->uranio</li>
     <li>targetMineableThing_labelVar(targetMineable==MineableJade)->jade</li>
     <li>targetMineableThing_labelVar(p=0.00000000001)->[targetMineableThing_label]</li>
-    <!--Quest Hospitality -->
-    <li>arrived(lodgerCount==1)->llegó</li>
-    <li>arrived(lodgerCount>=2)->llegaron</li>
     <!-- Scrip Uitlity helpers -->
     <li>helpersSentSinOrPl(helpersCount==1)->llegado</li>
     <li>helpersSentSinOrPl(helpersCount==2)->llegaron</li>
@@ -306,7 +306,8 @@
     <!-- Todos los animales -->
     <!-- Aridos -->
     <!-- Plural Definido -->
-    <li>animalMas(animalKind==Dromedary)->dromedarios</li>
+    <li>animalPlDef(animalKind==Dromedary,animalKind_gender!=Female)->los dromedarios</li>
+    <li>animalPlDef(animalKind==Dromedary,animalKind_gender==Female)->los dromedarios</li>
     <li>animalFem(animalKind==Gazelle)->gacelas</li>
     <li>animalFem(animalKind==Iguana)->iguanas</li>
     <li>animalMas(animalKind==Muffalo)->múfalos</li>

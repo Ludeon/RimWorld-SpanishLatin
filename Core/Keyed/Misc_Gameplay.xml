@@ -1257,21 +1257,23 @@
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{1} {0}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>un {0_age} años {0_titleIndef} llamado {0_nameDef} llegará a un pod de transporte {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>{0_gender ? un : una} {0_title} de {0_age} años llamad{0_gender ? o : a} {0_nameDef} llegará en una cápsula de transporte {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>un {0_age} años {0_titleIndef} llamado {0_nameDef} llegará y se unirá a usted {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <Reward_Pawn_WalkIn>{0_gender ? un : una} {0_title} de {0_age} años llamad{0_gender ? o : a} {0_nameDef} llegará y se unirá a tu colonia {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>un {0_age} años {0_titleIndef} llamado {0_nameDef} se unirá a usted {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>{0_gender ? un : una} {0_title} de {0_age} años {0_title} llamad{0_gender ? o : a} {0_nameDef} se unirá a tu colonia {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>llegarán cápsulas de transporte con los siguientes recursos (valor total {1}):\n  \n{0}</Reward_Items>
+  <Reward_Items>llegarán cápsulas de transporte con los siguientes recursos (valor total {1}):
+\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>usted recibirá (valor total {1}):\n  \n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>usted recibirá (valor total {1}):
+\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>tus relaciones de facción con {0_name} mejorarán en {1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
