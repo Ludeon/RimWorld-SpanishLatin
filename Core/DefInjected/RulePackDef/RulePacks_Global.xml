@@ -221,6 +221,8 @@
     <li>asker_x_a(asker_gender==Female)->a</li>
     <li>asker_a(asker_gender!=Female)->un</li>
     <li>asker_a(asker_gender==Female)->una</li>
+    <li>asker_aCap(asker_gender!=Female)->Un</li>
+    <li>asker_aCap(asker_gender==Female)->Una</li>
     <li>asker_TheCap(asker_gender!=Female)->El</li>
     <li>asker_TheCap(asker_gender==Female)->La</li>
     <li>asker_The(asker_gender!=Female)->el</li>
@@ -255,8 +257,38 @@
     <li>joiner_o_a(joiner_gender!=Female)->o</li>
     <li>joiner_o_a(joiner_gender==Female)->a</li>
      <!--lodgers-->
-    <li>lodgers_o_a(lodgers0_gender!=Female)->o</li>
-    <li>lodgers_o_a(lodgers0_gender==Female)->a</li>
+    <li>o_a(lodgers0==Male)->o</li>
+    <li>o_a(lodgers0!=Male)->a</li>
+    <li>e_a(lodgers0==Male)->e</li>
+    <li>e_a(lodgers0!=Male)->a</li>
+    <li>arrived(lodgerCount==1)->llegó</li>
+    <li>arrived(lodgerCount>=2)->llegaron</li>
+    <li>Un_Cap(lodgers0==Male)->Un</li>
+    <li>Un_Cap(lodgers0!=Male)->Una</li>
+    <li>un_una(lodgers0==Male)->un</li>
+    <li>un_una(lodgers0!=Male)->una</li>
+    <li>insults(lodgers0==Male)->al calumniador</li>
+    <li>insults(lodgers0!=Male)->a la calumniadora</li>
+    <li>arrived(lodgerCount==1)->llegó</li>
+    <li>arrived(lodgerCount>=2)->llegaron</li>
+    <li>willStay(lodgerCount==1)->quedará</li>
+    <li>willStay(lodgerCount>=2)->quedarán</li>
+    <li>last(lodgers0==Male)->El último</li>
+    <li>last(lodgers0!=Male)->La última</li>
+    <li>lodgersella(lodgers0==Male)->el</li>
+    <li>lodgersella(lodgers0!=Male)->la</li>
+    <li>lodgersellaCap(lodgers0==Male)->El</li>
+    <li>lodgersellaCap(lodgers0!=Male)->La</li>
+    <li>HadSingOrPlural(lodgerCount==1)->tenía</li>
+    <li>HadSingOrPlural(lodgerCount>=2)->tenían</li>
+    <li>hostedSingOrPlural(lodgers0==Male,lodgerCount==1)->hospedado</li>
+    <li>hostedSingOrPlural(lodgers0!=Male,lodgerCount==1)->hospedada</li>
+    <li>hostedSingOrPlural(lodgerCount>=2)->hospedados</li>
+    <!-- EnemyFaction -->
+    <li>el_la(enemyFaction_leader==Male)->el</li>
+    <li>el_la(enemyFaction_leader!=Male)->la</li>
+    <li>factionOpponentun_una(factionOpponent==Male)->un</li>
+    <li>factionOpponentun_una(factionOpponent!=Male)->una</li>faction_pawnSingular
      <!--Quest Hospitality -->
     <li>arrived(lodgerCount==1)->llegó</li>
     <li>arrived(lodgerCount>=2)->llegaron</li>
@@ -305,9 +337,9 @@
     <il></il>
     <!-- Todos los animales -->
     <!-- Aridos -->
-    <!-- Plural Definido -->
-    <li>animalPlDef(animalKind==Dromedary,animalKind_gender!=Female)->los dromedarios</li>
-    <li>animalPlDef(animalKind==Dromedary,animalKind_gender==Female)->los dromedarios</li>
+    <!-- Definido -->
+    <li>lodgersPawnKind_Def(lodgersPawnKind==Dromedary,lodgers0_gender==Male)->el dromedario</li>
+    <li>lodgersPawnKind_Def(lodgersPawnKind==Dromedary,lodgers0_gender==Female)->el dromedario</li>
     <li>animalFem(animalKind==Gazelle)->gacelas</li>
     <li>animalFem(animalKind==Iguana)->iguanas</li>
     <li>animalMas(animalKind==Muffalo)->múfalos</li>

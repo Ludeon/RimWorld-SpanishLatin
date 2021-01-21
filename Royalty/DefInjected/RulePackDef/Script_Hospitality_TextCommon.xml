@@ -119,12 +119,12 @@
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->them</li>-->
     <li>mechViolation->logró de alguna manera enfurer a una inteligencia artificial</li>
-    <li>mechViolation->hackeo una terminal de supercomputadora ancestral</li>
+    <li>mechViolation->hackeo una terminal de una supercomputadora ancestral</li>
     <li>mechViolation->mató a un niño humano que significaba mucho para un arcotécnico</li>
     <li>mechViolation->intento hackear un nodo de control mecanoide</li>
     <li>mechViolation->intento robar algo de un depósito ancestral</li>
     <li>mechViolationMultiHuman->lograron de alguna manera enfurer a una inteligencia artificial</li>
-    <li>mechViolationMultiHuman->hackearon una terminal de supercomputadora ancestral</li>
+    <li>mechViolationMultiHuman->hackearon una terminal de una supercomputadora ancestral</li>
     <li>mechViolationMultiHuman->mataron a un niño humano que significaba mucho para un arcotécnico</li>
     <li>mechViolationMultiHuman->intentaron hackear un nodo de control mecanoide</li>
     <li>mechViolationMultiHuman->intentaron robar algo de un depósito ancestral</li>
@@ -133,6 +133,10 @@
     <li>lodgersHasHave(lodgersCount>=2)->han</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->ellos</li>
+    <li>lodgersArrived(lodgersCount==1)->llegó</li>
+    <li>lodgersArrived(lodgersCount>=2)->llegaron</li>
+    <li>lodgersProtect(lodgersCount==1)->Protégele</li>
+    <li>lodgersProtect(lodgersCount>=2)->Protégeles</li>
     <!--<li>areIs(lodgersCount==1)->is</li>
     <li>areIs(lodgersCount>=2)->are</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
