@@ -458,13 +458,13 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef} se une</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>Un(a) {PAWN_title} de nombre {PAWN_nameDef} ha llegado y se está uniendo a la colonia.</LetterRefugeeJoins>
+  <LetterRefugeeJoins>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y se está uniendo a la colonia.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRescueeJoins>{PAWN_nameDef} se une</LetterLabelRescueeJoins>
   <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
-  <LetterRescueeJoins>{PAWN_nameDef} agradece que hayas {PAWN_objective}rescatado. {PAWN_pronoun} ha decidido que preferiría quedarse antes que irse, y se une a tu colonia.</LetterRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef} agradece que {PAWN_objective} hayas rescatado. {PAWN_pronoun} ha decidido que preferiría quedarse antes que irse, y se une a tu colonia.</LetterRescueeJoins>
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
@@ -480,13 +480,13 @@
 
   <!-- Pawn leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnLeaving>{0} dejando</LetterLabelPawnLeaving>
+  <LetterLabelPawnLeaving>{0} se está yendo</LetterLabelPawnLeaving>
   <!-- EN: {0} is leaving. -->
   <LetterPawnLeaving>{0} se va.</LetterPawnLeaving>
 
   <!-- Pawns leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnsLeaving>{0} dejando</LetterLabelPawnsLeaving>
+  <LetterLabelPawnsLeaving>{0} se está yendo</LetterLabelPawnsLeaving>
   <!-- EN: {0} are leaving. -->
   <LetterPawnsLeaving>{0} se van.</LetterPawnsLeaving>
   
