@@ -757,7 +757,7 @@
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>Selecciona la siguiente cosa en el mismo cuadro.\n\nTecla de atajo: {0}\n\nPuedes hacer esto al hacer click lentamente en el mismo cuadro repetidas veces.</SelectNextInSquareTip>
+  <SelectNextInSquareTip>Selecciona la siguiente cosa en el mismo cuadro.\n\nTecla de atajo: {0}\n\nPuedes hacer esto al hacer clic lentamente en el mismo cuadro repetidas veces.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Ver información sobre este objeto.</DefInfoTip>
 
@@ -773,7 +773,7 @@
 
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
-  <PowerNotConnected>No conectado a la energia.</PowerNotConnected>
+  <PowerNotConnected>No conectado a la energía.</PowerNotConnected>
   <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
   <PowerConnectedRateStored>Energía sobrante/almacenada: {0} W / {1} Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
@@ -847,9 +847,9 @@
   <!-- EN: Resting -->
   <PlantResting>Descansando</PlantResting>
   <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
-  <OutOfIdealTemperatureRange>Fuera del rango ideal de temperatura (creciendo al {0}% de la velocidad normal)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>Fuera del rango ideal de temperatura. (Creciendo al {0}% de la velocidad normal).</OutOfIdealTemperatureRange>
   <!-- EN: Non-ideal temperature. Not growing. -->
-  <OutOfIdealTemperatureRangeNotGrowing>Fuera del rango ideal de temperatura (no está creciendo)</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRangeNotGrowing>Fuera del rango ideal de temperatura. (No está creciendo).</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>Lista para cosechar.</ReadyToHarvest>
   <!-- EN: Mature. -->
@@ -919,15 +919,15 @@
   <!-- EN: Toggle visibility of roofs. -->
   <ShowRoofOverlayToggleButton>Alternar visibilidad de techos.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>Alternar la superposición de fertilidad. \ On \ Esto muestra cuán fértil es el suelo, lo que afecta qué tipos de plantas pueden crecer y qué tan rápido crecen.</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>Alternar la superposición de fertilidad.\n\nEsto muestra cuán fértil es el suelo, lo que afecta qué tipos de plantas pueden crecer y qué tan rápido crecen.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>Alternar la visibilidad de la disponibilidad del terreno. \n \n Esto se relaciona con los tipos de edificios que se pueden construir en cada ubicación. \n \n Por ejemplo, algunos tipos de terreno solo aceptan edificios ligeros o medianos, pero no los pesados. Los puentes solo se pueden construir sobre el agua.</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>Alternar la visibilidad de la disponibilidad del terreno.\n\nEsto se relaciona con los tipos de edificios que se pueden construir en cada ubicación.\n\nPor ejemplo, algunos tipos de terreno solo aceptan edificios ligeros o medianos, pero no los pesados. Los puentes solo se pueden construir sobre el agua.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>Impide la rotación de la cámara para que el polo norte siempre se encuentre arriba.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Alternar el sistema de iluminación día/noche.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>Alternar la visualización de íconos desplegables en lugar de los íconos regulares para objetos distantes</ShowExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>Alternar la visualización de íconos desplegables en lugar de los íconos regulares para objetos distantes.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Alternar la visibilidad de los nombres de los accidentes geográficos.</ShowWorldFeaturesToggleButton>
 
@@ -961,7 +961,7 @@
 
   <!-- Building placement restricters -->
   <!-- EN: {0} will have work speed penalty -->
-  <WillGetWorkSpeedPenalty>{0} tendrá una penalización a la velocidad de trabajo.</WillGetWorkSpeedPenalty>
+  <WillGetWorkSpeedPenalty>{0} tendrá una penalización en su velocidad de trabajo.</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>No se puede ubicar bajo techo.</MustPlaceUnroofed>
   <!-- EN: Must place with head attached to ship structural beam. -->
@@ -979,7 +979,7 @@
   <!-- EN: Must be placed next to a pod launcher's fueling port. -->
   <MustPlaceNearFuelingPort>Se debe situar a un costado de un puerto de recarga de una lanzadera de cápsulas.</MustPlaceNearFuelingPort>
   <!-- EN: Must be placed on drillable resources. -->
-  <MustPlaceOnDrillable>Debe colocarse en recursos perforables.</MustPlaceOnDrillable>
+  <MustPlaceOnDrillable>Debe colocarse sobre recursos perforables.</MustPlaceOnDrillable>
   <!-- EN: Cannot be placed next to traps. -->
   <CannotPlaceAdjacentTrap>No se puede colocar junto a las trampas.</CannotPlaceAdjacentTrap>
 
@@ -997,7 +997,7 @@
   <!-- EN: Contains -->
   <CasketContains>Contiene</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>¡Peligro!¡\n\n{PAWN_nameDef} es tu último colono en pie! Si {PAWN_objective} dejas entrar en ése sarcófago no podrás seguir jugando. ¿Estás seguro que quieres continuar?</CasketWarning>
+  <CasketWarning>¡Advertencia!\n\n¡{PAWN_nameDef} es tu último colono en pie! Si {PAWN_objective} dejas entrar en ése sarcófago no podrás seguir jugando. ¿Estás seguro que quieres continuar?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1007,7 +1007,7 @@
   <!-- EN: Missing critical component -->
   <ShipReportMissingPart>Falta un componente crítico</ShipReportMissingPart>
   <!-- EN: requires -->
-  <ShipReportMissingPartRequires>Requiere</ShipReportMissingPartRequires>
+  <ShipReportMissingPartRequires>requiere</ShipReportMissingPartRequires>
   <!-- EN: No full cryptosleep caskets -->
   <ShipReportNoFullPods>No hay sarcófagos de criptosueño ocupados</ShipReportNoFullPods>
   <!-- EN: Hibernating component -->
@@ -1015,11 +1015,11 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Componente aún no está listo</ShipReportNotReady>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>Charlon Whitestone está listo para comenzar la secuencia de recuperación de la hibernación del reactor.\n\nAdvierte que el proceso tomará alrededor de 15 días, y la firma de la energía será detectable desde una gran distancia. Este tipo de firma de energía indica capacidad de vuelo interestelar y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
+  <HibernateWarning>(*Name)Charlon Whitestone(/Name) está listo para comenzar la secuencia de recuperación de la hibernación del reactor.\n\nAdvierte que el proceso tomará alrededor de 15 días, y la firma de la energía será detectable desde una gran distancia. Este tipo de firma de energía indica capacidad de vuelo interestelar y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrate de que tus defensas estén preparadas primero.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>El reactor está listo para encenderse.\n\nEl proceso tomará alrededor de 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros. Asegúrese de que sus defensas estén preparadas primero.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>Charlon Whitestone está listo para iniciar la secuencia de recuperación de hibernación del reactor. Le advierte que el proceso durará unos 15 días.</HibernateWarningPacifist>
+  <HibernateWarningPacifist>(*Name)Charlon Whitestone(/Name) está listo para iniciar la secuencia de recuperación de hibernación del reactor. Le advierte que el proceso durará unos 15 días.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>El reactor está listo para encenderse. El proceso durará unos 15 días.</HibernateWarningStandalonePacifist>
 
@@ -1029,7 +1029,7 @@
   <!-- EN: Use skilltrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>Usa el neuro entrenador de habilidad para aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>Una superdosis de un solo uso de mecanismos que entrena una habilidad específica.\n\nLa dosis se administra a través de la órbita del ojo. Una vez liberados en el cerebro, los mecanismos mejoran rápidamente las habilidades del sujeto en un área específica, transmutándose en tejido neural según sea necesario.</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>Una superdosis de un solo uso de mecanitas que entrenan una habilidad específica.\n\nLa dosis se administra a través de la órbita del ojo. Una vez liberados en el cerebro, las mecanitas mejoran rápidamente las habilidades del sujeto en un área específica, transmutándose en tejido neural según sea necesario.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
   <SkillNeurotrainerUsed>{USER_labelShort} utilizó {1} neuro entrenador para pasar del nivel {2} al nivel {3}.</SkillNeurotrainerUsed>
 
