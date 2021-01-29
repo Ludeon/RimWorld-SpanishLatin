@@ -4,7 +4,7 @@
   <!-- EN: bite -->
   <Bite.label>mordida</Bite.label>
   <!-- EN: {0} has been bitten to death. -->
-  <Bite.deathMessage>{0} ha sido mordid{0_gender ? o : a} hasta morir.</Bite.deathMessage>
+  <Bite.deathMessage>{0} ha sido mordid{0_gender ? o : a} mortalmente.</Bite.deathMessage>
   
   <!-- EN: blunt -->
   <Blunt.label>contundente</Blunt.label>
@@ -34,7 +34,7 @@
   <!-- EN: toxic scratch -->
   <ScratchToxic.label>rasguño tóxico</ScratchToxic.label>
   <!-- EN: {0} has been torn to death. -->
-  <ScratchToxic.deathMessage>{0} ha sido desgarrad{0_gender ? o : a} hasta morir.</ScratchToxic.deathMessage>
+  <ScratchToxic.deathMessage>{0} ha sido desgarrad{0_gender ? o : a} mortalmente.</ScratchToxic.deathMessage>
   
   <!-- EN: stab -->
   <Stab.label>puñalada</Stab.label>
@@ -44,6 +44,6 @@
   <!-- EN: toxic bite -->
   <ToxicBite.label>mordida tóxica</ToxicBite.label>
   <!-- EN: {0} has been bitten to death. -->
-  <ToxicBite.deathMessage>{0} ha sido mordid{0_gender ? o : a} hasta morir.</ToxicBite.deathMessage>
+  <ToxicBite.deathMessage>{0} ha mordid{0_gender ? o : a} mortalmente.</ToxicBite.deathMessage>
   
 </LanguageData>
