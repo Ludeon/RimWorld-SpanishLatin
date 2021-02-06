@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -256,7 +256,7 @@
     <li>joiner_A(joiner_gender==Female)->Una</li>
     <li>joiner_o_a(joiner_gender!=Female)->o</li>
     <li>joiner_o_a(joiner_gender==Female)->a</li>
-     <!--lodgers-->
+    <!--lodgers-->
     <li>o_a(lodgers0==Male)->o</li>
     <li>o_a(lodgers0!=Male)->a</li>
     <li>e_a(lodgers0==Male)->e</li>
@@ -289,7 +289,7 @@
     <li>el_la(enemyFaction_leader!=Male)->la</li>
     <li>factionOpponentun_una(factionOpponent==Male)->un</li>
     <li>factionOpponentun_una(factionOpponent!=Male)->una</li>
-     <!--Quest Hospitality -->
+    <!--Quest Hospitality -->
     <li>arrived(lodgerCount==1)->llegó</li>
     <li>arrived(lodgerCount>=2)->llegaron</li>
     <!--Scrip_LongRangeMineralScanner-->
@@ -329,12 +329,6 @@
     <li>crashedLanded(civilians_count>=2)->estrellaron</li>
     <li>thesePeople(civilians_count==1)->esta persona</li>
     <li>thesePeople(civilians_count>=2)->estas personas</li>
-    <il></il>
-    <il></il>
-    <il></il>
-    <il></il>
-    <il></il>
-    <il></il>
     <!-- Todos los animales -->
     <!-- Aridos -->
     <!-- Definido -->
@@ -387,10 +381,10 @@
     <li>animalMas(animalKind==Goose)->gansos</li>
     <li>animalMas(animalKind==GuineaPig)->conejillos de indias</li>
     <li>animalMas(animalKind==Horse)->caballos</li>
-    <li>animalMas(animalKind==Pig)->cerdos</li> 
+    <li>animalMas(animalKind==Pig)->cerdos</li>
     <li>animalFem(animalKind==Sheep)->ovejas</li>
     <li>animalMas(animalKind==Yak)->yaks</li>
-     <!-- Plural Indefinido -->
+    <!-- Plural Indefinido -->
     <li>animalKind_Indef(animalKind==Alpaca)->unas alpacas</li>
     <li>animalKind_Indef(animalKind==Bison)->unos bisontes</li>
     <li>animalKind_Indef(animalKind==Chicken)->unas gallinas</li>
@@ -401,7 +395,7 @@
     <li>animalKind_Indef(animalKind==Goose)->unos gansos</li>
     <li>animalKind_Indef(animalKind==GuineaPig)->unos conejillos de indias</li>
     <li>animalKind_Indef(animalKind==Horse)->unos caballos</li>
-    <li>animalKind_Indef(animalKind==Pig)->unos cerdos</li> 
+    <li>animalKind_Indef(animalKind==Pig)->unos cerdos</li>
     <li>animalKind_Indef(animalKind==Sheep)->unas ovejas</li>
     <li>animalKind_Indef(animalKind==Yak)->unos yaks</li>
     <!-- Animales Gigantes -->
@@ -410,7 +404,7 @@
     <li>animalMas(animalKind==Megasloth)->megaterios</li>
     <li>animalMas(animalKind==Rhinoceros)->rinocerontes</li>
     <li>animalMas(animalKind==Thrumbo)->thrumbos</li>
-     <!-- Plural Indefinido -->
+    <!-- Plural Indefinido -->
     <li>animalKind_Indef(animalKind==Elephant)->unos elefantes</li>
     <li>animalKind_Indef(animalKind==Megasloth)->unos megaterios</li>
     <li>animalKind_Indef(animalKind==Rhinoceros)->unos rinocerontes</li>
@@ -501,7 +495,6 @@
     <!-- Otros -->
     <li>animalPlThe(p=0.00000000001)->[animalKind_labelPlural]</li>
     <li>animalKind_Indef(p=0.00000000001)->[animalKind_labelPlural]</li>
-
     <!--Reglas Normales-->
     <li>Trans->de</li>
     <li>Trans->para</li>
