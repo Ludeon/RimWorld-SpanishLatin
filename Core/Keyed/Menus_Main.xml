@@ -111,7 +111,7 @@
   <!-- EN: Randomize seed -->
   <RandomizeSeed>Semilla aleatoria</RandomizeSeed>
   <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
-  <PlanetCoverageTip>El planeta tiene siempre el mismo diámetro, pero ya que es mucho más grande de lo que se necesita realmente para jugar, no generamos la superficie completa pues ésto lleva mucho tiempo. Este es el porcentaje de la superficie que quieres que se genere.</PlanetCoverageTip>
+  <PlanetCoverageTip>El planeta tiene siempre el mismo diámetro, pero ya que es mucho más grande de lo que se necesita realmente para jugar, no generamos la superficie completa pues esto lleva mucho tiempo. Este es el porcentaje de la superficie que quieres que se genere.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>Facciones</WorldFactionsTab>
 
@@ -211,7 +211,7 @@
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Mod necesita la información de la versión soportada con el formato adecuado en About.xml. Como este: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> está desaprobado. Revise el registro para más información.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Mod necesita un paquete único, adecuadamente formateado en About.xml. Debe cumplir los siguientes requisitos:\n\n  - Caracteres alfanuméricos y sólo puntos.\n  - Sin espacios.\n  - Al menos un punto.\n  - Sin puntos repetidos en una fila, o que empiecen o terminen con un punto.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>Mod necesita un paquete único, adecuadamente formateado en About.xml. Debe cumplir los siguientes requisitos:\n\n  - Caracteres alfanuméricos y solo puntos.\n  - Sin espacios.\n  - Al menos un punto.\n  - Sin puntos repetidos en una fila, o que empiecen o terminen con un punto.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>Este mod tiene problemas en LoadFolders.xml, que debe resolver antes de cargar:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
@@ -259,7 +259,7 @@
   <!-- EN: All text fields must be filled. -->
   <TextFieldsMustBeFilled>Deben llenarse todos los campos de texto.</TextFieldsMustBeFilled>
   <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
-  <ConfirmSteamWorkshopUpload>¿Estás seguro(a) que quieres subir ésto a Steam Workshop?\n\nDebes aceptar los términos y condiciones de Steam Workshop. Puedes encontrar los términos completos en:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmSteamWorkshopUpload>¿Estás seguro(a) que quieres subir esto a Steam Workshop?\n\nDebes aceptar los términos y condiciones de Steam Workshop. Puedes encontrar los términos completos en:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
   <ConfirmContentAuthor>Obviamente solo debes subir contenido que hayas creado tú.\n\n¿Tú lo has creado?</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
@@ -289,7 +289,7 @@
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
   <ReloadAnytimeModeInfo>Puede guardar y cargar el juego en cualquier momento.\n\nEsta no es una mala elección si todavía está aprendiendo el juego, si se ajusta a su estilo de juego personal o objetivos, si está utilizando mods que pueden dañar su juego, o si usted tiene la intención de autoaplicar el modo de compromiso.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
-  <PermadeathModeInfo>Sólo se puede guardar cuando se abandona el juego.\n\nDado que RimWorld es un generador de historias, incluso perder a todos menos a una persona no es el final del juego - es parte de la historia.  El juego está diseñado para permitir la recuperación después de las pérdidas.\n\nRepresentar estas terribles situaciones hace una historia tanto con tragedia como con triunfo.  Es la forma en que RimWorld fue diseñado para jugarse.\n\nHay una razón por la que Luke Skywalker no se retiró y se recuperó cuando sus padres murieron - ¡la pérdida y la recuperación son dramáticas!</PermadeathModeInfo>
+  <PermadeathModeInfo>Solo se puede guardar cuando se abandona el juego.\n\nDado que RimWorld es un generador de historias, incluso perder a todos menos a una persona no es el final del juego - es parte de la historia.  El juego está diseñado para permitir la recuperación después de las pérdidas.\n\nRepresentar estas terribles situaciones hace una historia tanto con tragedia como con triunfo.  Es la forma en que RimWorld fue diseñado para jugarse.\n\nHay una razón por la que Luke Skywalker no se retiró y se recuperó cuando sus padres murieron - ¡la pérdida y la recuperación son dramáticas!</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>Cuentacuentos y dificultad pueden cambiarse en cualquier momento.</CanChangeStorytellerSettingsDuringPlay>
 
@@ -386,11 +386,11 @@
   <!-- EN: Friendly fire -->
   <Difficulty_FriendlyFireChanceFactor_Label>Fuego aliado</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>Ajusta la posibilidad de fuego amigo.\n\nNota: Este ajuste sólo afecta a los disparos directos que iban a dar en el blanco. No previene el daño de las explosiones, o de los disparos que iban a fallar en su objetivo.</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>Ajusta la posibilidad de fuego amigo.\n\nNota: Este ajuste solo afecta a los disparos directos que iban a dar en el blanco. No previene el daño de las explosiones, o de los disparos que iban a fallar en su objetivo.</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
   <Difficulty_AllowInstantKillChance_Label>Colonos matan al instante</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AllowInstantKillChance_Info>Ajusta la posibilidad de que un colono pueda morir instantáneamente debido a un ataque. El daño entrante se ajusta para que hiera al colono en lugar de matarlo.\n\nEsto sólo evita algunos tipos de muertes instantáneas - los colonos todavía pueden ser heridos y desangrarse hasta morir, morir por fuego, explosiones, enfermedades, etc.</Difficulty_AllowInstantKillChance_Info>
+  <Difficulty_AllowInstantKillChance_Info>Ajusta la posibilidad de que un colono pueda morir instantáneamente debido a un ataque. El daño entrante se ajusta para que hiera al colono en lugar de matarlo.\n\nEsto solo evita algunos tipos de muertes instantáneas - los colonos todavía pueden ser heridos y desangrarse hasta morir, morir por fuego, explosiones, enfermedades, etc.</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
   <Difficulty_PlayerPawnInfectionChanceFactor_Label>Probabilidad de infección</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
@@ -402,7 +402,7 @@
   <!-- EN: Insect spawning rate -->
   <Difficulty_EnemyReproductionRateFactor_Label>Tasa de generación de insectos </Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>Ajusta la velocidad a la que las colmenas de insectos existentes generan nuevos insectos. Valores más bajos significan más tiempo entre los eventos de generación.\n\nEsto no afecta si las infestaciones pueden ocurrir - sólo la velocidad a la que las colmenas activas producen insectos.</Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>Ajusta la velocidad a la que las colmenas de insectos existentes generan nuevos insectos. Valores más bajos significan más tiempo entre los eventos de generación.\n\nEsto no afecta si las infestaciones pueden ocurrir, solo la velocidad a la que las colmenas activas producen insectos.</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
   <Difficulty_DeepDrillInfestationChanceFactor_Label>Infestaciones de perforaciones profundas.</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
@@ -414,7 +414,7 @@
   <!-- EN: Map generation natural hives -->
   <Difficulty_AllowCaveHives_Label>Mapa de generación de colmenas naturales</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>Las colmenas de insectos inactivas pueden generarse en cuevas naturales. Este escenario sólo se aplica a la generación de mapas y no afecta a los insectos activos que pueden hacer túneles durante el juego.</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>Las colmenas de insectos inactivas pueden generarse en cuevas naturales. Este escenario solo se aplica a la generación de mapas y no afecta a los insectos activos que pueden hacer túneles durante el juego.</Difficulty_AllowCaveHives_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Herramientas de jugador</DifficultyPlayerToolsSection>
@@ -444,7 +444,7 @@
   <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>Modo de progreso de riqueza fija</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
-  <Difficulty_FixedWealthMode_Info>Juega en el modo de progreso de riqueza fija.\n\nEn el modo normal, el narrador escala las amenazas según la cantidad de colonos, la riqueza del jugador y una variedad de otros factores. El modo de progreso de riqueza fija elimina el factor de riqueza y lo reemplaza con una curva de progreso fija basada en el tiempo. El tiempo se cuenta desde la fundación de cada colonia.\n\nEste modo sólo se recomienda para aquellos que buscan un reto de habilidad estricto. En el modo de progresión fija, puede ser casi imposible recuperarse de pérdidas serias a menos que se encuentre un nuevo asentamiento. También es posible adelantarse demasiado y encontrar el juego demasiado fácil.</Difficulty_FixedWealthMode_Info>
+  <Difficulty_FixedWealthMode_Info>Juega en el modo de progreso de riqueza fija.\n\nEn el modo normal, el narrador escala las amenazas según la cantidad de colonos, la riqueza del jugador y una variedad de otros factores. El modo de progreso de riqueza fija elimina el factor de riqueza y lo reemplaza con una curva de progreso fija basada en el tiempo. El tiempo se cuenta desde la fundación de cada colonia.\n\nEste modo solo se recomienda para aquellos que buscan un reto de habilidad estricto. En el modo de progresión fija, puede ser casi imposible recuperarse de pérdidas serias a menos que se encuentre un nuevo asentamiento. También es posible adelantarse demasiado y encontrar el juego demasiado fácil.</Difficulty_FixedWealthMode_Info>
   <!-- EN: Years until maximum threat -->
   <Difficulty_FixedWealthTimeFactor_Label>Años hasta la máxima amenaza</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
