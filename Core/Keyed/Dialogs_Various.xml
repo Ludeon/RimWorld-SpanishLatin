@@ -571,7 +571,7 @@
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
   <NegotiatorHearingImpaired>Tu negociador {1_labelShort} no puede escuchar correctamente debido a su mala salud.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
-  <NegotiatorCapacityImpaired>Esto afectará los precios del comercio.\n\nConsidere usar un negociador más saludable.</NegotiatorCapacityImpaired>
+  <NegotiatorCapacityImpaired>Esto afectará los precios del comercio.\n\nConsidera usar un negociador más saludable.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
   <ConfirmTraderShortFunds>El comerciante no tiene suficiente plata para completar esta transacción. ¿Aún asi deseas continuar?</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
@@ -633,7 +633,7 @@
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
   <CaravanCouldNotFindExitSpot>La ubicación de salida elegida ({0}) es inaccesible.</CaravanCouldNotFindExitSpot>
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
-  <CaravanCouldNotFindPackingSpot>La caravana no pudo encontrar el lugar donde empacar. Asegúrese de que la ubicación de salida elegida ({0}) es accesible.</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindPackingSpot>La caravana no pudo encontrar el lugar donde empacar. Asegúrate de que la ubicación de salida elegida ({0}) es accesible.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Peligro: algunos de los colonos asignados son incapaces de llegar al lugar de salida ({0}).</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
@@ -675,7 +675,7 @@
   <!-- EN: You must choose a route for the caravan first. -->
   <MessageMustChooseRouteFirst>Primero debe elegir una ruta para la caravana.</MessageMustChooseRouteFirst>
   <!-- EN: Your caravan is unable to leave the area. Make sure that at least one side is reachable. -->
-  <MessageNoValidExitTile>Su caravana no puede salir de la zona. Asegúrese de que al menos un lado sea accesible.</MessageNoValidExitTile>
+  <MessageNoValidExitTile>Su caravana no puede salir de la zona. Asegúrate de que al menos un lado sea accesible.</MessageNoValidExitTile>
   <!-- EN: Weight of this item. -->
   <ItemWeightTip>Peso de este objeto.</ItemWeightTip>
   <!-- EN: Market value -->
@@ -977,7 +977,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto es lo que se hará - Agregar marcadores de posición para traducciones con clave que faltan, traducciones con inyección de desfase y retroalimentación\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todas las traducciones con clave y con inyección de desfase a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar nombres de definiciones compatibles con la retroalimentación\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerde reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrese de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto es lo que se hará - Agregar marcadores de posición para traducciones con clave que faltan, traducciones con inyección de desfase y retroalimentación\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todas las traducciones con clave y con inyección de desfase a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar nombres de definiciones compatibles con la retroalimentación\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerde reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrate de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tengo una copia de seguridad</ConfirmCleanupTranslationFiles_Confirm>
 
