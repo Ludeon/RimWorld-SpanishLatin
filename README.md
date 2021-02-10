@@ -9,9 +9,11 @@
 _ _ _
 
 This is the Latin American Spanish translation of Rimworld 1.2.2900 (Development Build)
+
 Esta es la traducción para latinoamérica de Rimworld 1.2.900 (Versión Estable)
 
 See this page for license info:
+
 Consulta esta página para obtener información sobre la licencia:
 
 http://ludeon.com/forums/index.php?topic=2933.0
