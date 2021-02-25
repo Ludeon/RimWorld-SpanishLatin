@@ -19,7 +19,7 @@
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>Las relaciones con {0} se han roto completamente. Ahora son hostiles contigo.</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>Llevarán a cabo redadas periódicas a su colonia y caravanas, y se negarán a comerciar contigo. Si quieres mejorar las relaciones, todavía puedes ofrecerles regalos en caravanas o cápsulas de transporte.\n\nEsto sucedió porque la buena voluntad ({0}) ha caído por debajo de {1}. Para restablecer relaciones neutrales, la buena voluntad debe alcanzar {2} nuevamente.</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>Llevarán a cabo asaltos periódicos contra tu colonia y caravanas, y se negarán a comerciar contigo. Si quieres mejorar las relaciones, todavía puedes ofrecerles regalos en caravanas o cápsulas de transporte.\n\nEsto sucedió porque la buena voluntad ({0}) ha caído por debajo de {1}. Para restablecer relaciones neutrales, la buena voluntad debe alcanzar {2} nuevamente.</LetterRelationsChange_HostileGoodwillDescription>  
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>Las relaciones con {0} se han enfriado. Ahora te consideran neutral y ya no te atacarán.</LetterRelationsChange_NeutralFromHostile>
@@ -56,7 +56,7 @@
   <!-- EN: A roof has collapsed because it was too far from any support. -->
   <RoofCollapsed>Un techo se ha colapsado porque estaba muy lejos de cualquier soporte.</RoofCollapsed>
   <!-- EN: These things were crushed: -->
-  <TheseThingsCrushed>Estas cosas han resultado aplastadas:</TheseThingsCrushed>
+  <TheseThingsCrushed>Las siguientes cosas o seres vivos han resultado aplastadas:</TheseThingsCrushed>
   <!-- EN: Nothing was crushed. -->
   <NothingCrushed>Nada fue aplastado.</NothingCrushed>
   <!-- EN: Roof collapse -->
@@ -80,7 +80,7 @@
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Enfermedad</LetterLabelNewDisease>
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewDisease>{PAWN} se ha enfermado de {1}.\n\nAsegúrate de tener a la mano una cama hospitalaria y un doctor. Asegúrate de que {PAWN_definite} reciba un tratamiento adecuado y descanse lo más posible.</NewDisease>
+  <NewDisease>{PAWN} se ha enfermado de {1}.\n\nAsegúrate de tener a la mano una cama hospitalaria y un doctor. Asegúrate también de que {PAWN_definite} reciba un tratamiento adecuado y descanse lo más posible.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
   <NewPartDisease>{PAWN} se ha enfermado de {3} y ha desarrollado una infección en su {1}.\n\nAsegúrate de tener a la mano una cama hospitalaria y un doctor. Asegúrate de que {PAWN_definite} reciba un tratamiento adecuado y descanse lo más posible.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
@@ -91,14 +91,14 @@
   <!-- EN: {0} was formerly part of your faction. -->
   <PawnWasFormerlyColonist>{0} formaba parte de tu facción.</PawnWasFormerlyColonist>
   <!-- EN: You previously hosted {0}. -->
-  <PawnWasFormerlyLodger>Anteriormente alojaste {0}.</PawnWasFormerlyLodger>
+  <PawnWasFormerlyLodger>Anteriormente alojaste a {0}.</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} tiene estas relaciones con tus colonos:</PawnHasTheseRelationshipsWithColonists>
 
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Peligro antiguo</LetterLabelAncientShrineWarning>
   <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>Como {PAWN_nameDef} se ha acercardo a aquella construcción antigua, un presentimiento aterrador le pasa por la mente. {PAWN_pronoun} no está segur{PAWN_gender ? o : a} de porqué, pero siente que esta estructura polvorienta esconde un gran peligro.</AncientShrineWarning>
+  <AncientShrineWarning>Como {PAWN_nameDef} se ha acercardo a aquella construcción antigua, un presentimiento aterrador le pasa por la mente. {PAWN_pronoun} no está segur{PAWN_gender ? o : a} de por qué, pero siente que esta estructura polvorienta esconde un gran peligro.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>¡Hemos encontrado {0}!</StruckMineable>
@@ -106,11 +106,11 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} vengativo</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>¡{1_indefinite} se ha enfurecido luego de ser herid{1_gender ? o : a}!\n\nCazará cualquier humanoide que pueda encontrar. Se calmará cuando se vaya a dormir.</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>¡{1_indefinite} se ha enfurecido luego de ser herido(a)!\n\nCazará cualquier humanoide que pueda encontrar. Se calmará cuando se vaya a dormir.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
   <AnimalManhunterFromTaming>¡{1_indefinite} está atacando debido a un intento fallido de domesticación!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
-  <AnimalManhunterOthers>¡{1_gender ? Otros : Otras} {1_kindBasePlural} cercan{1_gender ? os : as} también se han enfurecido!</AnimalManhunterOthers>
+  <AnimalManhunterOthers>¡Otros(as) {1_kindBasePlural} cercanos(as) también se han enfurecido!</AnimalManhunterOthers>
 
   <!-- EN: {1_labelShort} hit trap -->
   <LetterFriendlyTrapSprungLabel>{1_labelShort} cayó en la trampa</LetterFriendlyTrapSprungLabel>
@@ -167,25 +167,25 @@
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Familia</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>Hay parientes de tus colonos o prisioneros en el grupo de {0} que han llegado de {1}.\n\nToma en cuenta que, aunque esten emparentados, aún así se atacarán debido a las malas relaciones entre las facciones.\n\nLos parientes son:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>Hay conocidos de tus {0} o prisioneros en el grupo de {1}.\n\nTen presente que, aunque se conozcan, aún así se atacarán debido a las malas relaciones entre las facciones.\n\nEstas personas son:</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
-  <LetterRelatedPawnsRaidFriendly>Hay personas que tienen relaciones con {0} o prisioneros en el grupo de amistosos que llega de {1}.</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsRaidFriendly>Hay personas que están relacionados con tus {0} o prisioneros en el grupo de amistosos que llega de {1}:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
-  <LetterRelatedPawnsNeutralGroup>Hay parientes de {0} colonos o prisioneros en el grupo de que ha llegado:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsNeutralGroup>Hay personas que están relacionados con tus {0} o prisioneros en el grupo de que está llegando:</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradeShip>La nave de comercio está vendiendo algunos parientes de {0} colonos o prisioneros:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradeShip>La nave de comercio está vendiendo a personas que tienen alguna relación con tus {0} o prisioneros:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithSettlement>El asentamiento está vendiendo personas que tienen relaciones con {0} o prisioneros:</LetterRelatedPawnsTradingWithSettlement>
+  <LetterRelatedPawnsTradingWithSettlement>El asentamiento está vendiendo personas que tienen relaciones con tus {0} o prisioneros:</LetterRelatedPawnsTradingWithSettlement>
   <!-- EN: The caravan is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithOtherCaravan>La caravana está vendiendo personas que tienen una relación con {0} o prisioneros:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsTradingWithOtherCaravan>La caravana está vendiendo personas que tienen una relación con tus {0} o prisioneros:</LetterRelatedPawnsTradingWithOtherCaravan>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the group: -->
-  <LetterRelatedPawnsGroupGeneric>Hay personas que tienen relaciones con {0} o prisioneros en el grupo:</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsGroupGeneric>Hay personas que tienen relaciones con tus {0} o prisioneros en el grupo:</LetterRelatedPawnsGroupGeneric>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the area where your {0} have landed. -->
-  <LetterRelatedPawnsInMapWherePlayerLanded>Hay personas que tienen relaciones con su {0} o prisioneros en el área donde su {0} han aterrizado.</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsInMapWherePlayerLanded>Hay personas que tienen relaciones con tus {0} o prisioneros en el área donde tus {0} han aterrizado.</LetterRelatedPawnsInMapWherePlayerLanded>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this settlement: -->
-  <LetterRelatedPawnsSettlement>Hay personas que tienen relaciones con su {0} o prisioneros en este asentamiento:</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSettlement>Hay personas que tienen relaciones con tus {0} o prisioneros en este asentamiento:</LetterRelatedPawnsSettlement>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
-  <LetterRelatedPawnsSite>Hay personas que tienen relaciones con su {0} o prisioneros en esta área:</LetterRelatedPawnsSite>
+  <LetterRelatedPawnsSite>Hay personas que tienen relaciones con tus {0} o prisioneros en esta área:</LetterRelatedPawnsSite>
 
   <!-- EN: relationship -->
   <RelationshipAppendedLetterSuffix>relación</RelationshipAppendedLetterSuffix>
@@ -214,7 +214,7 @@
   <!-- EN: Rejected proposal -->
   <LetterLabelRejectedProposal>Propuesta rechazada</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>En algún momento de los próximos días o cuadrums, tendrán su ceremonia de matrimonio e invitarán a todos los colonos. Considera la posibilidad de colocar un lugar de matrimonio si desea controlar dónde se celebra la ceremonia.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>En algún momento de los próximos días o cuadrums, tendrán su ceremonia de matrimonio e invitarán a todos los colonos. Considera la posibilidad de colocar un lugar para celebrar el matrimonio si desea controlar dónde se celebrará la ceremonia.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
   <LetterAcceptedProposal_NameChange>{PAWN_label} cambiará {PAWN_possessive} apellido a {1}.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
@@ -248,9 +248,9 @@
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
-  <LetterLabelNewlyAddicted>Adicción al {0}</LetterLabelNewlyAddicted>
+  <LetterLabelNewlyAddicted>Adicción: {0}</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>{PAWN_labelShort} ha desarrollado una adicción al {1}.\n\n{PAWN_pronoun} ahora necesita {1}, visible en su pestaña de humor. {PAWN_pronoun} ahora consumirá automáticamente la droga para cumplir su necesidad. Si no puede conseguir {1}, {PAWN_pronoun} va a desarrollar síndrome de abstinencia.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{PAWN_labelShort} ha desarrollado una adicción por el/la {1}.\n\n{PAWN_pronoun} ahora necesita de {1}, visible en su pestaña de humor. {PAWN_pronoun} ahora consumirá automáticamente la droga para cumplir su necesidad. Si no puede conseguir {1}, {PAWN_pronoun} va a desarrollar síndrome de abstinencia.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
@@ -280,7 +280,7 @@
   <!-- EN: Attack begun -->
   <LetterLabelTransportPodsLandedInEnemyBase>Comenzó el ataque</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
-  <LetterTransportPodsLandedInEnemyBase>Sus cápsulas de transporte han llegado a {0}.</LetterTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>Tus cápsulas de transporte han llegado a {0}.</LetterTransportPodsLandedInEnemyBase>
   <!-- EN: The shuttle has arrived at {0}. -->
   <LetterShuttleLandedInEnemyBase>El transbordador ha llegado a {0}.</LetterShuttleLandedInEnemyBase>
 
@@ -320,7 +320,7 @@
   <!-- EN: Peace talks disaster -->
   <LetterLabelPeaceTalks_Disaster>Charlas de paz desastrozas</LetterLabelPeaceTalks_Disaster>
   <!-- EN: The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}. -->
-  <LetterPeaceTalks_Disaster>Las charlas fueron un desastre. Los delegados apenas dieron sus saludos iniciales antes de que la discusión se convirtiera en insultos y recriminaciones.\n\nDespués de que su caravana partió temprano, {0} de {1} lo(a) atrapó y atacó!\n\nRelaciones con {1}: {2}.</LetterPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>Las charlas fueron un desastre. Los delegados apenas dieron sus saludos iniciales antes de que la discusión se convirtiera en insultos y recriminaciones.\n\nDespués de que tu caravana partiera temprano, {0} de {1} lo(a) atrapó y atacó!\n\nRelaciones con {1}: {2}.</LetterPeaceTalks_Disaster>
   <!-- EN: Peace talks backfire -->
   <LetterLabelPeaceTalks_Backfire>Las Charlas de paz fracasaron</LetterLabelPeaceTalks_Backfire>
   <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->

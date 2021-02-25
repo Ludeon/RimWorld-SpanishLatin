@@ -47,19 +47,19 @@
   <MyFianceLost.stages.my_fiance_lost.description>Mi prometido se ha perdido. Espero que vuelva a nosotros algún día.</MyFianceLost.stages.my_fiance_lost.description>
   
   <!-- EN: my grandchild {0} lost -->
-  <MyGrandchildLost.stages.my_grandchild_lost.label>perdí a mi nieto(a) {0}</MyGrandchildLost.stages.my_grandchild_lost.label>
+  <MyGrandchildLost.stages.my_grandchild_lost.label>perdí a mi niet{0_gender ? o : a} {0}</MyGrandchildLost.stages.my_grandchild_lost.label>
   <!-- EN: My grandchild has gone lost. I hope they will get back to us someday. -->
-  <MyGrandchildLost.stages.my_grandchild_lost.description>Mi nieto se ha perdido. Espero que vuelva a nosotros algún día.</MyGrandchildLost.stages.my_grandchild_lost.description>
+  <MyGrandchildLost.stages.my_grandchild_lost.description>Mi niet{0_gender ? o : a} se ha perdido. Espero que vuelva a nosotros algún día.</MyGrandchildLost.stages.my_grandchild_lost.description>
   
   <!-- EN: my grandparent {0} lost -->
-  <MyGrandparentLost.stages.my_grandparent_lost.label>perdí a mi abuelo(a) {0}</MyGrandparentLost.stages.my_grandparent_lost.label>
+  <MyGrandparentLost.stages.my_grandparent_lost.label>perdí a mi abuel{0_gender ? o : a} {0}</MyGrandparentLost.stages.my_grandparent_lost.label>
   <!-- EN: My grandparent has gone lost. -->
-  <MyGrandparentLost.stages.my_grandparent_lost.description>Mi abuelo se ha perdido.</MyGrandparentLost.stages.my_grandparent_lost.description>
+  <MyGrandparentLost.stages.my_grandparent_lost.description>Mi abuel{0_gender ? o : a} se ha perdido.</MyGrandparentLost.stages.my_grandparent_lost.description>
   
   <!-- EN: my half-sibling {0} lost -->
-  <MyHalfSiblingLost.stages.my_halfsibling_lost.label>perdí a mi medio(a) hermano(a) {0}</MyHalfSiblingLost.stages.my_halfsibling_lost.label>
+  <MyHalfSiblingLost.stages.my_halfsibling_lost.label>perdí a mi medi{0_gender ? o : a} herman{0_gender ? o : a} {0}</MyHalfSiblingLost.stages.my_halfsibling_lost.label>
   <!-- EN: My half-sibling has gone lost. -->
-  <MyHalfSiblingLost.stages.my_halfsibling_lost.description>Mi medio(a) hermano(a) se ha perdido.</MyHalfSiblingLost.stages.my_halfsibling_lost.description>
+  <MyHalfSiblingLost.stages.my_halfsibling_lost.description>Mi medi{0_gender ? o : a} herman{0_gender ? o : a} se ha perdido.</MyHalfSiblingLost.stages.my_halfsibling_lost.description>
   
   <!-- EN: my husband {0} lost -->
   <MyHusbandLost.stages.my_husband_lost.label>perdí a mi esposo {0}</MyHusbandLost.stages.my_husband_lost.label>
@@ -116,8 +116,8 @@
   <!-- EN: Serves them right. At least there's some justice in this world. -->
   <PawnWithBadOpinionLost.stages.my_rival_lost.description>Se lo merece. Al menos hay algo de justicia en este mundo.</PawnWithBadOpinionLost.stages.my_rival_lost.description>
   
-  <!-- EN: my friend {0} lost -->
-  <PawnWithGoodOpinionLost.stages.my_friend_lost.label>perdí a mi amigo {0}</PawnWithGoodOpinionLost.stages.my_friend_lost.label>
+  <!-- EN: my friend {0} lost --> 
+  <PawnWithGoodOpinionLost.stages.my_friend_lost.label>perdí a mi amig{0_gender ? o : a} {0}</PawnWithGoodOpinionLost.stages.my_friend_lost.label>
   <!-- EN: Such a wonderful person, lost. The universe gets darker every day. -->
   <PawnWithGoodOpinionLost.stages.my_friend_lost.description>Una persona tan maravillosa, perdida. El universo se vuelve más oscuro cada día.</PawnWithGoodOpinionLost.stages.my_friend_lost.description>
   

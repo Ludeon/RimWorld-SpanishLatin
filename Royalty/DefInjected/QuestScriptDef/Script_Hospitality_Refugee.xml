@@ -154,7 +154,7 @@
     <!--<li>betrayalOfferLetterLabel->Betrayal offer: [factionOpponent_nameDef]</li>
     <li>betrayalOffserLetterText->[factionOpponent_nameDef], a [factionOpponent_faction_pawnSingular] of [factionOpponent_faction_name], has learned that [asker_nameDef] [otherLodgers] [areIs] being hosted at [map_definite]. [factionOpponent_pronoun] is enemies with [asker_nameDef] and wants to see [asker_objective] dead.\n\n[factionOpponent_pronoun] will send you the following reward if you kill all members of [faction_name] (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>-->
     <li>betrayalOfferLetterLabel->Oferta de traición: [factionOpponent_nameDef]</li>
-    <li>betrayalOffserLetterText->[factionOpponent_nameDef], [factionOpponentun_una] [factionOpponent_faction_pawnSingular] de la facción [factionOpponent_faction_name], se ha enterado que [asker_nameDef] [otherLodgers] [areIs] siendo [hostedSingOrPlural] en [map_definite]. [factionOpponent_pronoun] está enemistado con [asker_nameDef] y quiere ver[asker_objective] muert[asker_o_a].\n\n[factionOpponent_pronoun] te enviará la siguiente recompensa si matas a todos los miembros de la facción [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>betrayalOffserLetterText->[factionOpponent_nameDef], un [factionOpponent_faction_pawnSingular] de la facción [factionOpponent_faction_name], se ha enterado que [asker_nameDef] [otherLodgers] [areIs] siendo [hostedSingOrPlural] en [map_definite]. [factionOpponent_pronoun] está enemistado con [asker_nameDef] y quiere ver[asker_objective] muert[asker_o_a].\n\n[factionOpponent_pronoun] te enviará la siguiente recompensa si matas a todos los miembros de la facción [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <!--<li>betrayalOfferRewardLetterLabel->Betrayal reward: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] promised you a reward if you killed [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] has heard news this has been done and is sending you the following via drop pod (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>-->
     <li>betrayalOfferRewardLetterLabel->Recompensa por traición: [factionOpponent_nameDef]</li>
@@ -169,7 +169,8 @@
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>-->
     <li>otherLodgers(lodgerCount==1)-></li>
-    <li>otherLodgers(lodgerCount==2)->y otro [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount==2,lodgers0==Male)->y otro [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount==2,lodgers0!=Male)->y otra [lodgersLabel]</li>
     <li>otherLodgers(lodgerCount>=3)->y varios [lodgersLabelPlural]</li>
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)-> Y todos los demás miembros de la facción [faction_name]</li>
