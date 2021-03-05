@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: botched my surgery -->
-  <BotchedMySurgery.stages.botched_my_surgery.label>hechó a perder mi cirugía</BotchedMySurgery.stages.botched_my_surgery.label>
+  <BotchedMySurgery.stages.botched_my_surgery.label>arruinó mi cirugía</BotchedMySurgery.stages.botched_my_surgery.label>
   
   <!-- EN: broke up with me -->
   <BrokeUpWithMe.stages.broke_up_with_me.label>rompió conmigo</BrokeUpWithMe.stages.broke_up_with_me.label>
@@ -51,7 +51,7 @@
   <!-- EN: forced to take drugs -->
   <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>me obligaron a tomar drogas</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>
   <!-- EN: I'm a teetotaler; I would never take drugs by choice. But I was forced! I feel unclean. -->
-  <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>Soy abstemio, nunca tomaría drogas por elección. ¡Pero me obligaron! Me siento sucio.</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>
+  <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>Soy abstemio, nunca tomaría drogas por elección. ¡Pero me obligaron! Me siento suci{PAWN_gender ? o : a}.</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>
   
   <!-- EN: forced me to take luciferium -->
   <ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.label>me obligaron a tomar luciferio</ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.label>
@@ -59,7 +59,7 @@
   <!-- EN: forced to take luciferium -->
   <ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.label>me obligaron a tomar luciferio</ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.label>
   <!-- EN: I'm a body purist; I would never take luciferium by choice. But I was forced! I feel unclean. -->
-  <ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.description>Soy prostófobico; nunca tomaría luciferio por elección. ¡Pero me obligaron! Me siento sucio.</ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.description>
+  <ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.description>Soy prostófobico; nunca tomaría luciferio por elección. ¡Pero me obligaron! Me siento suci{PAWN_gender ? o : a}.</ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.description>
   
   <!-- EN: got some lovin' -->
   <GotSomeLovin.stages.got_some_lovin.label>hicimos el amor</GotSomeLovin.stages.got_some_lovin.label>
@@ -73,7 +73,7 @@
   <HadCatharticFight.stages.cathartic_fight.label>tuve una pelea catárquica</HadCatharticFight.stages.cathartic_fight.label>
   
   <!-- EN: harmed me -->
-  <HarmedMe.stages.harmed_me.label>me ha lastimado</HarmedMe.stages.harmed_me.label>
+  <HarmedMe.stages.harmed_me.label>me lastimaron</HarmedMe.stages.harmed_me.label>
   
   <!-- EN: honeymoon phase -->
   <HoneymoonPhase.stages.honeymoon_phase.label>luna de miel</HoneymoonPhase.stages.honeymoon_phase.label>
@@ -105,7 +105,7 @@
   <KilledMyFiance.stages.killed_my_fiance.label>mataron a la persona con quien me iba a casar</KilledMyFiance.stages.killed_my_fiance.label>
   
   <!-- EN: killed my friend -->
-  <KilledMyFriend.stages.killed_my_friend.label>mataron a mi amigo(a)</KilledMyFriend.stages.killed_my_friend.label>
+  <KilledMyFriend.stages.killed_my_friend.label>mataron a mi amig{1_gender ? o : a}</KilledMyFriend.stages.killed_my_friend.label>
   
   <!-- EN: killed my kin -->
   <KilledMyKin.stages.killed_my_kin.label>mataron a mi pariente</KilledMyKin.stages.killed_my_kin.label>
@@ -148,7 +148,7 @@
   <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>Intenté iniciar una relación, tan solo para ser rechazado. Se siente mal, hombre.</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>
   
   <!-- EN: recruited me -->
-  <RecruitedMe.stages.recruited_me.label>me ha reclutado</RecruitedMe.stages.recruited_me.label>
+  <RecruitedMe.stages.recruited_me.label>fui reclutado</RecruitedMe.stages.recruited_me.label>
   
   <!-- EN: rejected my proposal -->
   <RejectedMyProposal.stages.rejected_my_proposal.label>rechazó mi propuesta</RejectedMyProposal.stages.rejected_my_proposal.label>
@@ -170,21 +170,21 @@
   <Slighted.stages.slighted.label>me menospreciaron</Slighted.stages.slighted.label>
   
   <!-- EN: bonded animal given away -->
-  <SoldMyBondedAnimal.stages.bonded_animal_given_away.label>la mascota fue regalada</SoldMyBondedAnimal.stages.bonded_animal_given_away.label>
+  <SoldMyBondedAnimal.stages.bonded_animal_given_away.label>mascota regalada</SoldMyBondedAnimal.stages.bonded_animal_given_away.label>
   <!-- EN: My special bonded animal was given away! -->
   <SoldMyBondedAnimal.stages.bonded_animal_given_away.description>¡Mi mascota especial fue regalada!</SoldMyBondedAnimal.stages.bonded_animal_given_away.description>
   <!-- EN: gave away my bonded animal -->
   <SoldMyBondedAnimal.stages.bonded_animal_given_away.labelSocial>mi mascota fue regalada</SoldMyBondedAnimal.stages.bonded_animal_given_away.labelSocial>
   
   <!-- EN: bonded animal given away -->
-  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.label>la mascota fue regalada</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.label>
+  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.label>mascota regalada</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.label>
   <!-- EN: My special bonded animal was given away! -->
   <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.description>¡Mi amada mascota fue regalada!</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.description>
   <!-- EN: gave away my bonded animal -->
   <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.labelSocial>mi mascota fue regalada</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.labelSocial>
   
   <!-- EN: loved one sold -->
-  <SoldMyLovedOne.stages.loved_one_sold.label>la persona amada fue vendida</SoldMyLovedOne.stages.loved_one_sold.label>
+  <SoldMyLovedOne.stages.loved_one_sold.label>persona amada vendida</SoldMyLovedOne.stages.loved_one_sold.label>
   <!-- EN: Someone I love was sold to a trader like a piece of meat! -->
   <SoldMyLovedOne.stages.loved_one_sold.description>¡Alguien que yo amaba fue vendido a un mercader como un trozo de carne!</SoldMyLovedOne.stages.loved_one_sold.description>
   <!-- EN: sold my loved one -->

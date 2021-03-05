@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: alcohol withdrawal -->
-  <AlcoholWithdrawal.stages.alcohol_withdrawal.label>abstinencia (alcohol)</AlcoholWithdrawal.stages.alcohol_withdrawal.label>
+  <AlcoholWithdrawal.stages.alcohol_withdrawal.label>abstinencia de alcohol</AlcoholWithdrawal.stages.alcohol_withdrawal.label>
   <!-- EN: Feeling shaky. Everything pisses me off. I keep thinking of drinking. -->
   <AlcoholWithdrawal.stages.alcohol_withdrawal.description>Me siento débil. Todo me molesta. No puede dejar de pensar en la bebida.</AlcoholWithdrawal.stages.alcohol_withdrawal.description>
   
@@ -22,17 +22,17 @@
   <!-- EN: alcohol warmth -->
   <Inebriated.stages.alcohol_warmth.label>calidez alcohólica</Inebriated.stages.alcohol_warmth.label>
   <!-- EN: I just feel a bit more relaxed after that drink. That's good. -->
-  <Inebriated.stages.alcohol_warmth.description>Me siento un poco más relajado(a) después de ese trago. Eso es bueno.</Inebriated.stages.alcohol_warmth.description>
+  <Inebriated.stages.alcohol_warmth.description>Me siento un poco más relajad{PAWN_gender ? o : a} después de ese trago. Eso es bueno.</Inebriated.stages.alcohol_warmth.description>
   <!-- EN: quite inebriated -->
-  <Inebriated.stages.quite_inebriated.label>bastante ebrio</Inebriated.stages.quite_inebriated.label>
+  <Inebriated.stages.quite_inebriated.label>bastante ebri{PAWN_gender ? o : a}</Inebriated.stages.quite_inebriated.label>
   <!-- EN: I'm a bit wobbly! And this is quite enjoyable. -->
   <Inebriated.stages.quite_inebriated.description>¡Estoy un poco tambaleante! Y es muy agradable.</Inebriated.stages.quite_inebriated.description>
   <!-- EN: drunk -->
-  <Inebriated.stages.drunk.label>ebrio(a)</Inebriated.stages.drunk.label>
+  <Inebriated.stages.drunk.label>ebri{PAWN_gender ? o : a}</Inebriated.stages.drunk.label>
   <!-- EN: I feel so uninhibited and unafraid! This is a great time! -->
-  <Inebriated.stages.drunk.description>Me siento tan desinhibido(a) y sin miedo! ¡Este es un gran momento!</Inebriated.stages.drunk.description>
+  <Inebriated.stages.drunk.description>Me siento tan desinhibid{PAWN_gender ? o : a} y sin miedo! ¡Este es un gran momento!</Inebriated.stages.drunk.description>
   <!-- EN: hammered -->
-  <Inebriated.stages.hammered.label>borracho(a)</Inebriated.stages.hammered.label>
+  <Inebriated.stages.hammered.label>borrach{PAWN_gender ? o : a}</Inebriated.stages.hammered.label>
   <!-- EN: Wooo! What's going on? -->
   <Inebriated.stages.hammered.description>Wooo! ¿Qué está pasando?</Inebriated.stages.hammered.description>
   

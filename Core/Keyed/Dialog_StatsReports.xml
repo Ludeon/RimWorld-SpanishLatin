@@ -105,7 +105,7 @@
   <!-- EN: recreation type -->
   <StatsReport_JoyKind>Tipo de recreación</StatsReport_JoyKind>
   <!-- EN: work to uninstall -->
-  <StatsReport_WorkToUninstall>Trabajo de Desinstalación</StatsReport_WorkToUninstall>
+  <StatsReport_WorkToUninstall>Trabajo de desinstalación</StatsReport_WorkToUninstall>
   <!-- EN: Multiplier for growth {0} -->
   <StatsReport_PlantGrowth>Multiplicador para el crecimiento {0}</StatsReport_PlantGrowth>
   <!-- EN: scaled because wild -->
@@ -117,12 +117,12 @@
   <!-- EN: Wild man -->
   <StatsReport_WildMan>Hombre salvaje</StatsReport_WildMan>
   <!-- EN: Attack -->
-  <StatsReport_NonToolAttack>Asalto</StatsReport_NonToolAttack>
+  <StatsReport_NonToolAttack>Ataque</StatsReport_NonToolAttack>
   
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Posibles compensaciones</StatReport_PossibleOffsets>
   <!-- EN: Room impressiveness -->
-  <StatsReport_RoomImpressiveness>Habitación impresionante</StatsReport_RoomImpressiveness>
+  <StatsReport_RoomImpressiveness>Impresiones de la habitación</StatsReport_RoomImpressiveness>
   <!-- EN: Lit -->
   <StatsReport_Lit>Iluminado</StatsReport_Lit>
   <!-- EN: Contains {0} -->
@@ -175,9 +175,9 @@
   <!-- EN: The attributes of this plant. -->
   <Stat_Thing_Plant_Attributes_Desc>Los atributos de esta planta.</Stat_Thing_Plant_Attributes_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
-  <Stat_Thing_Apparel_Covers_Desc>Qué partes del cuerpo cubre esto.\n\La armadura no protege las partes del cuerpo que no cubre.</Stat_Thing_Apparel_Covers_Desc>
+  <Stat_Thing_Apparel_Covers_Desc>Qué partes del cuerpo cubre esto.\n\nLa armadura no protege las partes del cuerpo que no cubre.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
-  <Stat_Thing_Apparel_Layer_Desc>Qué capas de ropa llena esto.\n\Para una parte del cuerpo dada, solo se puede usar una pieza de ropa en cada capa.</Stat_Thing_Apparel_Layer_Desc>
+  <Stat_Thing_Apparel_Layer_Desc>Qué capas de ropa llena esto.\n\nPara una parte del cuerpo dada, solo se puede usar una pieza de ropa en cada capa.</Stat_Thing_Apparel_Layer_Desc>
   <!-- EN: The minimum soil fertility that this plant requires to grow. -->
   <Stat_Thing_Plant_FertilityRequirement_Desc>La fertilidad mínima del suelo que esta planta requiere para crecer.</Stat_Thing_Plant_FertilityRequirement_Desc>
   <!-- EN: How sensitive this plant is to soil fertility.\n\nLow sensitivity means the plant will grow about the same speed in rich or poor soil. High sensitivity means the plant grows slow in poor soil, but faster in rich soil. -->
@@ -189,9 +189,9 @@
   <!-- EN: The amount of product this plant will yield when harvested. -->
   <Stat_Thing_Plant_HarvestYield_Desc>La cantidad de producto que producirá esta planta cuando se coseche.</Stat_Thing_Plant_HarvestYield_Desc>
   <!-- EN: The minimum temperature this plant can survive.\n\nTemperatures below this will cause damage over time. -->
-  <Stat_Thing_Plant_MinGrowthTemperature_Desc>La temperatura mínima que esta planta puede sobrevivir.\n\Las temperaturas inferiores a esta causarán daños con el tiempo.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
+  <Stat_Thing_Plant_MinGrowthTemperature_Desc>La temperatura mínima que esta planta puede sobrevivir.\n\nLas temperaturas inferiores a esta causarán daños con el tiempo.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
   <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
-  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>La temperatura máxima que esta planta puede sobrevivir.\n\Las temperaturas superiores a esta causarán daños con el tiempo.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
+  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>La temperatura máxima que esta planta puede sobrevivir.\n\nLas temperaturas superiores a esta causarán daños con el tiempo.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
   <!-- EN: The minimum skill needed for a farmer to to sow this plant. -->
   <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>La habilidad mínima necesaria para que un agricultor siembre esta planta.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
   <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->

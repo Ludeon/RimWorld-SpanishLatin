@@ -95,14 +95,14 @@
   <ChopTrees.text>Ahora necesitarás conseguir madera. Designa algunos árboles para ser talados.\n\nSelecciona TALAR y designa 10 árboles para ser talados.\n\n(Nota: Puedes arrastrar la designación tal y como lo hiciste con "minar".)</ChopTrees.text>
   
   <!-- EN: Welcome to RimWorld! This tutorial will teach you how to play the game.\n\nThe first step is to generate a world to play in.\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
-  <CreateWorldParams.text>¡Bienvenido a Rimworld! Este tutorial te enseñará como jugar el juego.\n\nEl primer paso es generar un planeta donde jugar.\n\nEn esta página, asignarás los parámetros del planeta.\n\nLa configuración estándar estará bien por ahora así que haz click en GENERAR PLANETA para continuar.</CreateWorldParams.text>
+  <CreateWorldParams.text>¡Bienvenido a Rimworld! Este tutorial te enseñará como jugar el juego.\n\nEl primer paso es generar un planeta donde jugar.\n\nEn esta página, asignarás los parámetros del planeta.\n\nLa configuración estándar estará bien por ahora así que haz clic en GENERAR PLANETA para continuar.</CreateWorldParams.text>
   
   <!-- EN: Send colonists here\ntouching sandbags for cover -->
   <DownRaider.onMapInstruction>Manda a tus colonos a cubrirse\njusto detrás de las bolsas de arena</DownRaider.onMapInstruction>
   <!-- EN: Please focus on winning the fight! -->
   <DownRaider.rejectInputMessage>¡Por favor concéntrate en ganar la pelea!</DownRaider.rejectInputMessage>
   <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
-  <DownRaider.text>¡Aquí va el atacante que te prometí!\n\n1. Pausa el juego con la tecla {Key:TogglePause}.\n2. Lee la notificación roja que apareció en el borde derecho de la pantalla.\n3. RECLUTA a tus colonos seleccionándolos y haciendo click en RECLUTAR.\n4. Haz click derecho para posicionarlos detrás de las bolsas de arena.\n5. Reanuda el juego.\n\nLos colonos deben estar justo detrás de la cobertura para beneficiarse de ella. Una vez a cubierto, espera que los atacantes se aproximen. Tus colonos dispararán automáticamente.</DownRaider.text>
+  <DownRaider.text>¡Aquí va el atacante que te prometí!\n\n1. Pausa el juego con la tecla {Key:TogglePause}.\n2. Lee la notificación roja que apareció en el borde derecho de la pantalla.\n3. RECLUTA a tus colonos seleccionándolos y haciendo clic en RECLUTAR.\n4. Haz clic derecho para posicionarlos detrás de las bolsas de arena.\n5. Reanuda el juego.\n\nLos colonos deben estar justo detrás de la cobertura para beneficiarse de ella. Una vez a cubierto, espera que los atacantes se aproximen. Tus colonos dispararán automáticamente.</DownRaider.text>
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>Clic derecho para salir del modo de creación de almacén.</EndStockpileDesignating.text>
@@ -141,10 +141,10 @@
   <!-- EN: Please make a stockpile on the indicated area. -->
   <MakeStockpile.rejectInputMessage>Por favor crea un almacén en el área designada.</MakeStockpile.rejectInputMessage>
   <!-- EN: Great!\n\nNow, make a stockpile so your colonists know where to keep items.\n\n1. Click ARCHITECT tab in the bottom left.\n2. Click the ZONE/AREA category.\n3. Select the CREATE STOCKPILE tool.\n4. Click and drag out a square as indicated on the map. -->
-  <MakeStockpile.text>¡Excelente!\n\nAhora, crea un almacén para que tus colonos sepan donde guardar sus objetos.\n\n1. Haz click en el menú ARQUITECTO.\n2. Ve a la sección de ÁREAS.\n3. Selecciona ALMACÉN.\n4. Haz click y arrastra un cuadrado donde se indica en el mapa.</MakeStockpile.text>
+  <MakeStockpile.text>¡Excelente!\n\nAhora, crea un almacén para que tus colonos sepan donde guardar sus objetos.\n\n1. Haz clic en el menú ARQUITECTO.\n2. Ve a la sección de ÁREAS.\n3. Selecciona ALMACÉN.\n4. Haz clic y arrastra un cuadrado donde se indica en el mapa.</MakeStockpile.text>
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
-  <MapCameraDolly.text>Has llegado a la superficie.\n\nAhora intenta mover la cámara.\n\nUsa las teclas {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} o haz click y arrastra con el botón medio del ratón.</MapCameraDolly.text>
+  <MapCameraDolly.text>Has llegado a la superficie.\n\nAhora intenta mover la cámara.\n\nUsa las teclas {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} o haz clic y arrastra con el botón medio del ratón.</MapCameraDolly.text>
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>!Genial!\n\nAhora también puedes acercar o alejar la cámara con la rueda del ratón o las teclas {Key:MapZoom_In} y {Key:MapZoom_Out}.</MapCameraZoom.text>
@@ -154,7 +154,7 @@
   <!-- EN: Please use the 'mine' designator on the compacted steel. -->
   <MineSteel.rejectInputMessage>Por favor usa la orden de "minar" en el acero compactado.</MineSteel.rejectInputMessage>
   <!-- EN: Now your colonists will cook some food! Tasty!\n\nNext, you'll want to mine some minerals. I've spawned some mineable steel near your base.\n\nSelect the MINE designator and drag over the steel to designate it for mining. -->
-  <MineSteel.text>¡Muy bien! Ahora tus colonos podrán cocinar su propia comida.\n\nA continuación, aprenderemos a minar. He creado un poco de acero minable cerca de tu base.\n\nSelecciona MINAR en la sección de ÓRDENES del menú ARQUITECTO y arrastra con click izquierdo sobre el acero para designarlo.</MineSteel.text>
+  <MineSteel.text>¡Muy bien! Ahora tus colonos podrán cocinar su propia comida.\n\nA continuación, aprenderemos a minar. He creado un poco de acero minable cerca de tu base.\n\nSelecciona MINAR en la sección de ÓRDENES del menú ARQUITECTO y arrastra con clic izquierdo sobre el acero para designarlo.</MineSteel.text>
   
   <!-- EN: Please open the 'Research' tab. -->
   <OpenMainTabResearch.rejectInputMessage>Por favor, abre el menú de investigación.</OpenMainTabResearch.rejectInputMessage>
@@ -189,7 +189,7 @@
   <!-- EN: Please set your growing zone to grow rice. -->
   <SetToGrowRice.rejectInputMessage>Por favor, designa el arroz como cultivo en tu nueva área de cultivo.</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
-  <SetToGrowRice.text>Puedes decidir qué cultivo sembrarán tus colonos en un área de cultivo.\n\n1. Haz click derecho para salir del modo arquitecto.\n2. Haz click en el área de cultivo para seleccionarla.\n3. Haz click en "Sembrar: Papa" y escoge ARROZ en el menú contextual que te aparecerá.</SetToGrowRice.text>
+  <SetToGrowRice.text>Puedes decidir qué cultivo sembrarán tus colonos en un área de cultivo.\n\n1. Haz clic derecho para salir del modo arquitecto.\n2. Haz clic en el área de cultivo para seleccionarla.\n3. Haz clic en "Sembrar: Papa" y escoge ARROZ en el menú contextual que te aparecerá.</SetToGrowRice.text>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>También puedes acelerar el tiempo\n\nIntenta controlarlo usando las teclas {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, y {Key:TimeSpeed_Superfast} o usando los controles de la esquina inferior derecha de la pantalla.</TimeControls.text>
@@ -204,6 +204,6 @@
   <!-- EN: Please allow your starting items. -->
   <UnforbidStartingResources.rejectInputMessage>Por favor, permitir todos los objetos.</UnforbidStartingResources.rejectInputMessage>
   <!-- EN: Now, to allow your colonists to bring your items to the stockpile, you must remove their "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.) -->
-  <UnforbidStartingResources.text>Ahora, para permitir que tus colonos lleven los objetos al almacén, primero debes permitirlos.\n\n1. Haz click en los objetos iniciales para seleccionarlos.\n2. Haz click en el botón de PROHIBIDO para permitirlos de nuevo.\n\n(Nota: Puedes hacer doble click en un objeto para seleccionar todos los objetos del mismo tipo en pantalla.)</UnforbidStartingResources.text>
+  <UnforbidStartingResources.text>Ahora, para permitir que tus colonos lleven los objetos al almacén, primero debes permitirlos.\n\n1. Haz clic en los objetos iniciales para seleccionarlos.\n2. Haz clic en el botón de PROHIBIDO para permitirlos de nuevo.\n\n(Nota: Puedes hacer doble clic en un objeto para seleccionar todos los objetos del mismo tipo en pantalla.)</UnforbidStartingResources.text>
   
 </LanguageData>
