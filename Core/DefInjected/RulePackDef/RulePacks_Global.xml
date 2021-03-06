@@ -217,6 +217,8 @@
     <!--asker-->
     <li>asker_o_a(asker_gender!=Female)->o</li>
     <li>asker_o_a(asker_gender==Female)->a</li>
+    <li>asker_e_a(asker_gender!=Female)->e</li>
+    <li>asker_e_a(asker_gender==Female)->a</li>
     <li>asker_x_a(asker_gender!=Female)-></li>
     <li>asker_x_a(asker_gender==Female)->a</li>
     <li>asker_a(asker_gender!=Female)->un</li>
@@ -257,10 +259,10 @@
     <li>joiner_o_a(joiner_gender!=Female)->o</li>
     <li>joiner_o_a(joiner_gender==Female)->a</li>
     <!--lodgers-->
-    <li>o_a(lodgers0==Male)->o</li>
-    <li>o_a(lodgers0!=Male)->a</li>
-    <li>e_a(lodgers0==Male)->e</li>
-    <li>e_a(lodgers0!=Male)->a</li>
+    <li>o_a(lodgers0_gender==Male)->o</li>
+    <li>o_a(lodgers0_gender!=Male)->a</li>
+    <li>e_a(lodgers0_gender==Male)->e</li>
+    <li>e_a(lodgers0_gender!=Male)->a</li>
     <li>arrived(lodgerCount==1)->llegó</li>
     <li>arrived(lodgerCount>=2)->llegaron</li>
     <li>Un_Cap(lodgers0==Male)->Un</li>
