@@ -37,7 +37,7 @@
   <!-- EN: if below {0} -->
   <HealthFactorAllowedDefect>Por debajo de {0}</HealthFactorAllowedDefect>
   <!-- EN: Post-process curve -->
-  <StatsReport_PostProcessed>Curva post-procesada</StatsReport_PostProcessed>
+  <StatsReport_PostProcessed>Curva de posprocesamiento</StatsReport_PostProcessed>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Valor final</StatsReport_FinalValue>
   <!-- EN: Materials and labor -->
@@ -155,9 +155,9 @@
   <!-- EN: The species of creature from which this was taken. -->
   <Stat_SourceSpecies_Desc>La especie de criatura de la que se tomó esto.</Stat_SourceSpecies_Desc>
   <!-- EN: Stuff -->
-  <Stat_Stuff_Name>Cosas</Stat_Stuff_Name>
+  <Stat_Stuff_Name>Materiales</Stat_Stuff_Name>
   <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
-  <Stat_Stuff_Desc>El material del que está hecha esta cosa. Esto afecta muchas otras estadísticas, incluido el daño por arma, la armadura y el aislamiento de la ropa, los puntos de golpe de objetos y edificios, la belleza, el valor de mercado y mucho más.</Stat_Stuff_Desc>
+  <Stat_Stuff_Desc>El material del que está hecho. Esto afecta a muchas otras estadísticas, como el daño de las armas, la armadura y el aislamiento de la ropa, los puntos de vida de los objetos y edificios, la belleza, el valor de mercado y mucho más.</Stat_Stuff_Desc>
   <!-- EN: Weapon -->
   <Stat_Weapon_Name>Arma</Stat_Weapon_Name>
   <!-- EN: The weapon used by this turret. -->
@@ -205,7 +205,7 @@
   <!-- EN: The average life expectancy of this creature. -->
   <Stat_Race_LifeExpectancy_Desc>La esperanza de vida promedio de esta criatura.</Stat_Race_LifeExpectancy_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
-  <Stat_Thing_Ingestible_Joy_Desc>El valor recreativo de ingerir esto. Los números más altos satisfarán la necesidad de recreación más.</Stat_Thing_Ingestible_Joy_Desc>
+  <Stat_Thing_Ingestible_Joy_Desc>El valor recreativo al ingerir esto. Los números más altos satisfarán más la necesidad de recreación.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>El tamaño del cuerpo de esta criatura, en comparación con un humano adulto promedio.</Stat_Race_BodySize_Desc>
   <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
@@ -271,9 +271,9 @@
   <!-- EN: Rest fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Tasa de caída de descanso</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessOffset_Desc>Factor de curación natural</Stat_Hediff_TirednessOffset_Desc>
+  <Stat_Hediff_TirednessOffset_Desc>Una compensación que se aplica a la velocidad a la que la necesidad de descanso de las criaturas cae.</Stat_Hediff_TirednessOffset_Desc>
   <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>Se aplica un multiplicador aplicado a la velocidad a la que las criaturas necesitan descansar.</Stat_Hediff_TirednessFactor_Desc>
+  <Stat_Hediff_TirednessFactor_Desc>Un multiplicador que se aplica a la velocidad de caída de la necesidad de descanso de las criaturas.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
   <Stat_Hediff_PreventsInfection_Desc>Si esto evitará o no las infecciones.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
@@ -281,7 +281,7 @@
   <!-- EN: This can only be placed on terrain of these types. -->
   <Stat_Thing_TerrainRequirement_Desc>Esto solo se puede colocar en terrenos de este tipo.</Stat_Thing_TerrainRequirement_Desc>
   <!-- EN: Considered -->
-  <Stat_Thing_Terrain_Fine_Name>apropiado</Stat_Thing_Terrain_Fine_Name>
+  <Stat_Thing_Terrain_Fine_Name>Apropiado</Stat_Thing_Terrain_Fine_Name>
   <!-- EN: Fine -->
   <Stat_Thing_Terrain_Fine_Value>Fino</Stat_Thing_Terrain_Fine_Value>
   <!-- EN: This floor is considered fine and suitable for royalty. -->
@@ -303,7 +303,7 @@
   <!-- EN: Reload cost per {CHARGENOUN} -->
   <Stat_Thing_ReloadPerCharge_Name>Costo de recarga por {CHARGENOUN}</Stat_Thing_ReloadPerCharge_Name>
   <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
-  <Stat_Thing_ReloadPerCharge_Desc> La cantidad de artículos necesarios para recargar un(a) {CHARGENOUN}. Multiples {CHARGENOUN_plural} pueden ser recargados(as) a la vez.</Stat_Thing_ReloadPerCharge_Desc>
+  <Stat_Thing_ReloadPerCharge_Desc>La cantidad de artículos necesarios para recargar un(a) {CHARGENOUN}. Multiples {CHARGENOUN_plural} pueden ser recargados(as) a la vez.</Stat_Thing_ReloadPerCharge_Desc>
   <!-- EN: Vanish on exhaust -->
   <Stat_Thing_ReloadDestroyOnEmpty_Name>Desaparece al acabarse</Stat_Thing_ReloadDestroyOnEmpty_Name>
   <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
@@ -317,13 +317,13 @@
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
-  <Stat_Thing_Drug_Chemical_Desc>El químico activo en este.\n\nEn algunos casos, el mismo químico está presente en múltiples drogas diferentes. Estas diferentes drogas satisfarán la misma adicción de diferentes maneras.</Stat_Thing_Drug_Chemical_Desc>
+  <Stat_Thing_Drug_Chemical_Desc>La sustancia química activa que contiene.\n\nEn algunos casos, la misma sustancia química está presente en múltiples drogas diferentes. Estas diferentes drogas satisfarán la misma adicción de diferentes maneras.</Stat_Thing_Drug_Chemical_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
-  <Stat_Thing_Drug_HighGainPerDose_Desc>La intensidad de alta ganancia por dosis de este medicamento.</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <Stat_Thing_Drug_HighGainPerDose_Desc>La intensidad del subidón ganado por dosis de esta droga.</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
-  <Stat_Thing_Drug_HighFallPerDay_Desc>La cantidad de esta droga decaerá cada día.</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <Stat_Thing_Drug_HighFallPerDay_Desc>Cuanto decae el subidón de esta droga diariamente.</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
-  <Stat_Thing_Drug_HighDurationPerDose_Desc>Cuánto tiempo durará esta droga por dosis.\n\nEsto se calcula a partir de la alta ganancia por dosis y la alta tasa de caída.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>Cuánto tiempo durará el subidón de esta droga por dosis.\n\nEsto se calcula a partir del subidón ganado por dosis y la tasa de caída del subidón.</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
   <Stat_Thing_Drug_ToleranceGainPerDose_Desc>Cuánto aumentará la tolerancia del usuario a la sustancia química por cada dosis de esta droga.\n\nEsto puede ser diferente para diferentes formas de la misma sustancia química.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
@@ -347,8 +347,8 @@
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
   <Stat_Thing_Drug_AddictionNeedOffset_Desc>Cuánto satisface cada dosis de esta droga la necesidad de un adicto de la sustancia química.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->
-  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Qué tan rápido disminuirá la necesidad de un químico de un adicto</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Qué tan rápido disminuirá la necesidad de la sustancia química de un adicto.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
-  <Stat_Thing_Drug_AddictionCost_Desc>El valor de mercado de las drogas que se deben consumir por día para apoyar una adicción a esta droga sin entrar en abstinencia.\n\nEste valor se calcula a partir de la necesidad química por dosis del adicto, la tasa de caída de la necesidad y el valor de mercado de esta droga.\n\nTenga en cuenta que puede haber otras formas de obtener el mismo producto químico con diferentes costos.</Stat_Thing_Drug_AddictionCost_Desc>
+  <Stat_Thing_Drug_AddictionCost_Desc>El valor de mercado de las drogas que se deben consumir por día para apoyar una adicción a esta droga sin entrar en abstinencia.\n\nEste valor se calcula a partir de la necesidad química por dosis del adicto, la tasa de caída de la necesidad y el valor de mercado de esta droga.\n\nTen en cuenta que puede haber otras formas de obtener el mismo producto químico con diferentes costos.</Stat_Thing_Drug_AddictionCost_Desc>
 
 </LanguageData>

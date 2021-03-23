@@ -209,11 +209,11 @@
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Este mod fue hecho para una versión más reciente de RimWorld que esta, y probablemente no funcionará correctamente.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Mod necesita la información de la versión soportada con el formato adecuado en About.xml. Como este: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> está desaprobado. Revise el registro para más información.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>El mod necesita la información de la versión soportada con el formato adecuado en About.xml. Como este: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> está desaprobado. Revise el registro para más información.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Mod necesita un paquete único, adecuadamente formateado en About.xml. Debe cumplir los siguientes requisitos:\n\n  - Caracteres alfanuméricos y solo puntos.\n  - Sin espacios.\n  - Al menos un punto.\n  - Sin puntos repetidos en una fila, o que empiecen o terminen con un punto.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>El mod necesita un paquete único, adecuadamente formateado en About.xml. Debe cumplir los siguientes requisitos:\n\n  - Caracteres alfanuméricos y solo puntos.\n  - Sin espacios.\n  - Al menos un punto.\n  - Sin puntos repetidos en una fila, o que empiecen o terminen con un punto.\n  - 60 caracteres o menos.\n  - No puede contener la palabra "Ludeon".\n\nPor ejemplo:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
-  <ModHadLoadFolderIssues>Este mod tiene problemas en LoadFolders.xml, que debe resolver antes de cargar:</ModHadLoadFolderIssues>
+  <ModHadLoadFolderIssues>Este mod tiene problemas en LoadFolders.xml que debe resolver antes de cargar:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
   <ModLoadFolderDoesntExist>La carpeta {0} especificada para la versión {1} no existe.</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
@@ -331,7 +331,7 @@
   <!-- EN: Trade price disadvantage -->
   <Difficulty_TradePriceFactorLoss_Label>Desventaja de precios al comercial</Difficulty_TradePriceFactorLoss_Label>
   <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
-  <Difficulty_TradePriceFactorLoss_Info>En el comercio, los precios de compra se incrementan mientras que los precios de venta se reducen.</Difficulty_TradePriceFactorLoss_Info>
+  <Difficulty_TradePriceFactorLoss_Info>En el comercio, los precios de compra se incrementan en esta cantidad, mientras que los precios de venta se reducen en esta cantidad.</Difficulty_TradePriceFactorLoss_Info>
   <!-- EN: Harvest yield -->
   <Difficulty_CropYieldFactor_Label>Rendimiento de la cosecha</Difficulty_CropYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
@@ -492,19 +492,19 @@
   <!-- EN: Special features -->
   <SpecialFeatures>Características especiales</SpecialFeatures>
   <!-- EN: northern coast -->
-  <HasCoast0>Costa al norte</HasCoast0>
+  <HasCoast0>costa norte</HasCoast0>
   <!-- EN: eastern coast -->
-  <HasCoast1>Costa al este</HasCoast1>
+  <HasCoast1>costa este</HasCoast1>
   <!-- EN: southern coast -->
-  <HasCoast2>Costa al sur</HasCoast2>
+  <HasCoast2>costa sur</HasCoast2>
   <!-- EN: western coast -->
-  <HasCoast3>Costa al oeste</HasCoast3>
+  <HasCoast3>costa oeste</HasCoast3>
   <!-- EN: caves -->
   <HasCaves>cuevas</HasCaves>
   <!-- EN: Faction base -->
   <FactionBase>Asentamiento de facción</FactionBase>
   <!-- EN: Stone types -->
-  <StoneTypesHere>Tipo de roca</StoneTypesHere>
+  <StoneTypesHere>Tipos de piedras</StoneTypesHere>
   <!-- EN: Time zone -->
   <TimeZone>Zona horaria</TimeZone>
   <!-- EN: Movement difficulty -->
@@ -600,7 +600,7 @@
   <!-- EN: Back -->
   <Back>Atrás</Back>
   <!-- EN: Change material... -->
-  <ShowMaterials>Cambiar el material...</ShowMaterials>
+  <ShowMaterials>Mostrar materiales</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>Jugabilidad</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->

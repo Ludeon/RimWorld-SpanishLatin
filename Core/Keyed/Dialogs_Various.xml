@@ -407,11 +407,11 @@
   <!-- EN: Chemical -->
   <Chemical>Químico</Chemical>
   <!-- EN: High gain per dose -->
-  <HighGain>Alta ganancia por dosis</HighGain>
+  <HighGain>Subidón ganado por dosis</HighGain>
   <!-- EN: High fall rate -->
-  <HighFallRate>Alta tasa de caída</HighFallRate>
+  <HighFallRate>Tasa de caída del subidón</HighFallRate>
   <!-- EN: High duration per dose -->
-  <HighDuration>Alta duración por dosis</HighDuration>
+  <HighDuration>Duración del subidón por dosis</HighDuration>
   <!-- EN: Tolerance gain per dose -->
   <ToleranceGain>Ganancia de tolerancia por dosis</ToleranceGain>
   <!-- EN: Tolerance fall rate -->
@@ -467,7 +467,7 @@
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
   <NuzzleIntervalExplanation>Con qué frecuencia un animal acaricia a los colonos amigables con el hocico, en promedio.\n\nEl acariciar con el hocico es un comportamiento compartido por muchas especies de animales, donde el animal presiona la nariz o el hocico contra un amigo como signo de afecto. La mayoría de los humanos encuentran esto lindo y los dejará de buen humor por un período de tiempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
-  <HarmedRevengeChance>Oportunidad de venganza por el daño</HarmedRevengeChance>
+  <HarmedRevengeChance>Posibilidad de venganza por daño</HarmedRevengeChance>
   <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
   <HarmedRevengeChanceExplanation>La posibilidad de que esta criatura busque venganza por haber sido dañada por un atacante a tiro de fusil.\n\nEsta probabilidad aumenta si el atacante está más cerca. Si es atacado a muy corta distancia, la probabilidad es tres veces mayor.\n\nEsta posibilidad se aplica cada vez que se produce un daño, por lo que es menos probable que las armas que disparan más lentamente y causan más daño lo activen.\n\nPara minimizar la posibilidad de que una criatura vea venganza, ataca desde el campo de tiro con un arma de fuego lento.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
@@ -493,13 +493,13 @@
   <!-- EN: The types of targets on which this ability can be used. -->
   <AbilityTargetDesc>Los tipos de objetivos en los cuales esta habilidad puede ser usada.</AbilityTargetDesc>
   <!-- EN: human -->
-  <TargetHuman>Humano</TargetHuman>
+  <TargetHuman>humano</TargetHuman>
   <!-- EN: animal -->
-  <TargetAnimal>Animal</TargetAnimal>
+  <TargetAnimal>animal</TargetAnimal>
   <!-- EN: self -->
-  <TargetSelf>Yo</TargetSelf>
+  <TargetSelf>yo</TargetSelf>
   <!-- EN: ground -->
-  <TargetGround>Suelo</TargetGround>
+  <TargetGround>suelo</TargetGround>
   <!-- EN: Click to learn more. -->
   <ClickToLearnMore>Haz clic para aprender mas.</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
@@ -517,7 +517,7 @@
   <!-- EN: {0} focus objects -->
   <MeditationFocusObjects>Objetos de enfoque {0}</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
-  <MeditationFocusEnabledByTitle>Posee el título: {TITLE} ({FACTION_name}).</MeditationFocusEnabledByTitle>
+  <MeditationFocusEnabledByTitle>Posee el título: {TITLE} de ({FACTION_name}).</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
   <MeditationFocusEnabledByChildhood>tiene infancia</MeditationFocusEnabledByChildhood>
   <!-- EN: has adulthood -->
@@ -567,33 +567,33 @@
   <!-- EN: Negotiator: {0} (+{1}) -->
   <NegotiatorTradeDialogInfo>Negociador: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>Tu negociador {1_labelShort} no puede hablar bien debido a un problema de salud.\n\nEsto afectará los negativamente los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>Tu negociador {1_labelShort} no puede hablar bien debido a un problema de salud.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>Tu negociador {1_labelShort} no puede escuchar correctamente debido a su mala salud.</NegotiatorHearingImpaired>
+  <NegotiatorHearingImpaired>Tu negociador {1_labelShort} no puede escuchar correctamente debido a un problema de salud.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>Esto afectará los precios del comercio.\n\nConsidera usar un negociador más saludable.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
-  <ConfirmTraderShortFunds>El comerciante no tiene suficiente plata para completar esta transacción. ¿Aún asi deseas continuar?</ConfirmTraderShortFunds>
+  <ConfirmTraderShortFunds>El comerciante no tiene suficiente plata para completar esta transacción. ¿Aun así deseas continuar?</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
   <SortBy>Ordenar x</SortBy>
   <!-- EN: trader type -->
-  <TraderTypePrice>Tipo de mercader</TraderTypePrice>
+  <TraderTypePrice>tipo de mercader</TraderTypePrice>
   <!-- EN: selling -->
-  <Selling>Vendiendo</Selling>
+  <Selling>vendiendo</Selling>
   <!-- EN: buying -->
-  <Buying>Comprando</Buying>
+  <Buying>comprando</Buying>
   <!-- EN: item sell price multiplier -->
-  <ItemSellPriceFactor>Multiplicador de precio de venta de objeto</ItemSellPriceFactor>
+  <ItemSellPriceFactor>multiplicador de precio de venta de objeto</ItemSellPriceFactor>
   <!-- EN: difficulty level -->
-  <DifficultyLevel>Nivel de dificultad</DifficultyLevel>
+  <DifficultyLevel>nivel de dificultad</DifficultyLevel>
   <!-- EN: global post-process curve -->
-  <PostCurve>Curva post-proceso global</PostCurve>
+  <PostCurve>curva post-proceso global</PostCurve>
   <!-- EN: Your negotiator bonus -->
   <YourNegotiatorBonus>Tu bono de negociador</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
   <TradeWithFactionBaseBonus>Bono base de comercio con esta facción</TradeWithFactionBaseBonus>
   <!-- EN: minimum -->
-  <minimum>Mínimo</minimum>
+  <minimum>mínimo</minimum>
   <!-- EN: Final price -->
   <FinalPrice>Precio final</FinalPrice>
   <!-- EN: Gift mode - offer gifts to {0}. -->
@@ -601,7 +601,7 @@
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>Volver al modo de comercio.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
-  <TradeCaravanRequestDeniedDueTitle>La facción {FACTION_name} no están dispuestos a enviar una caravana porque {NEGOTIATOR_nameDef} carece del título requerido {TITLE}.</TradeCaravanRequestDeniedDueTitle>
+  <TradeCaravanRequestDeniedDueTitle>La facción {FACTION_name} no está dispuesta a enviar una caravana porque {NEGOTIATOR_nameDef} carece del título requerido {TITLE}.</TradeCaravanRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -635,7 +635,7 @@
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
   <CaravanCouldNotFindPackingSpot>La caravana no pudo encontrar el lugar donde empacar. Asegúrate de que la ubicación de salida elegida ({0}) es accesible.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
-  <CaravanCouldNotFindReachableExitSpot>Peligro: algunos de los colonos asignados son incapaces de llegar al lugar de salida ({0}).</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Advertencia: algunos de los colonos asignados son incapaces de llegar al lugar de salida ({0}).</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
   <CaravanPawnIsUnreachable>{1_labelShort} es inalcanzable para cualquiera de los colonos asignados.</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
@@ -651,7 +651,7 @@
   <!-- EN: Days of food -->
   <DaysWorthOfFood>Días de comida</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
-  <DaysWorthOfFoodInfoRot>Vence en {0}</DaysWorthOfFoodInfoRot>
+  <DaysWorthOfFoodInfoRot>Se pudre en {0}</DaysWorthOfFoodInfoRot>
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Nunca se quedará sin comida</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->

@@ -37,7 +37,7 @@
     <li>questDescription(askerIsNull==true)->Un mensaje misterioso ha llegado. Parece que fue enviado por una IA que se niega a revelar su nombre. El mensaje te pide que construyas un monumento específico.\n\n[commonEnding]</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameFull] [asker_a] [asker_faction_leaderTitle] de la facción [asker_faction_name] te pide que construyas un monumento [buildReason].\n\n[commonEnding]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_The] [asker_royalTitleInCurrentFaction] [asker_nameFull] de la facción [asker_faction_name] te pide que construyas un monumento [buildReason].\n\n[commonEnding]</li>
-    <li>asker2(askerIsNull==true)->el arcoténico</li>
+    <li>asker2(askerIsNull==true)->la IA arqueoténica</li>
     <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
     <li>asker2(asker_royalInCurrentFaction==True)->[asker_The] [asker_royalTitleInCurrentFaction]</li>
     <!--<li>buildReason->to commemorate the [PersonalCharacteristic] of [asker_possessive] [PersonFamily]</li>
@@ -115,10 +115,10 @@
   <QuestConstructionNameCommon.rulePack.rulesStrings>
     <li>questName->[constructionFem] [constAdjFem]</li>
     <li>questName->[construction] [constAdj]</li>
-    <li>questName->Un [constAdj] [construction]</li>
-    <li>questName->Una [constAdjFem] [constructionFem]</li>
-    <li>questName->El [constAdj] [construction]</li>
-    <li>questName->La [constAdjFem] [constructionFem]</li>
+    <li>questName->Un [construction] [constAdj]</li>
+    <li>questName->Una [constructionFem] [constAdjFem]</li>
+    <li>questName->El [construction] [constAdj]</li>
+    <li>questName->La [constructionFem] [constAdjFem]</li>
     <li>constAdj(p=20)->[AdjectiveLarge]</li>
     <li>constAdj->Terrible</li>
     <li>constAdj->Genial</li>

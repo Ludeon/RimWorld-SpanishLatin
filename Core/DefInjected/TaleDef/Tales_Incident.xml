@@ -131,7 +131,7 @@
   </CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
   <!-- EN: caravan demand -->
-  <CaravanDemand.label>caravana: Demanda</CaravanDemand.label>
+  <CaravanDemand.label>caravana amenazada</CaravanDemand.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan receiving a demand</li>
     <li>tale_noun->[PAWN_nameDef]'s caravan being threatened</li>
@@ -157,14 +157,14 @@
     <li>action->taunting [PAWN_nameDef]</li>
   -->
   <CaravanDemand.rulePack.rulesStrings>
-    <li>tale_noun->La caravana de [PAWN_nameDef] recibió una demanda</li>
+    <li>tale_noun->La caravana de [PAWN_nameDef] está recibiendo una demanda</li>
     <li>tale_noun->La caravana de [PAWN_nameDef] recibió una amenaza</li>
     <li>image->[PAWN_nameFull] acobardándose [circumstance_group]</li>
     <li>image->[PAWN_nameFull] gritando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] pensando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] observando [circumstance_group]</li>
     <li>image->[PAWN_nameFull], recibiendo insultos de un [PersonJob], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] blandiendo un(a)  [Weapon] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] blandiendo un(a) [Weapon] [circumstance_group]</li>
     <li>circumstance_phrase->con semblante [AdjectiveBadass]</li>
     <li>circumstance_phrase->con un semblante [AdjectiveAngsty]</li>
     <li>circumstance_phrase->mientras otros observan</li>

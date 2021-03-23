@@ -140,8 +140,8 @@
   <Combat_RangedDamage.rulePack.rulesStrings>
     <li>r_logentry->[WEAPON_projectile_definite] de [INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] de [RECIPIENT_definite].</li>
     <li>r_logentry->[WEAPON_projectile_definite] de [INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] de [RECIPIENT_definite]  [to] [destroyed_suffix].</li>
-    <li>r_logentry(p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] y ha [destroyed_past] [destroyed_targetsDef] de [RECIPIENT_definite].</li>
-    <li>r_logentry(p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targetsDef] de [RECIPIENT_definite].</li>
+    <li>r_logentry(p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] a [ORIGINALTARGET_definite] y ha [destroyed_past] [destroyed_targetsDef] de [RECIPIENT_definite].</li>
+    <li>r_logentry(p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] a [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targetsDef] de [RECIPIENT_definite].</li>
     <li>r_logentry->[destroyed_targetsDef1] de [RECIPIENT_definite] fue [destroyed_past] por [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry->[destroyed_targetsDef2] de [RECIPIENT_definite] fueron [destroyed_past]s por [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry->[destroyed_targetsDef1] de [RECIPIENT_definite] fue [destroyed_past] en [destroyed_suffix] por [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
@@ -196,7 +196,7 @@
     <li>to->a</li>
     <li>to->en</li>
     <li>missed->ha fallado</li>
-    <li>missed->fallando por poco</li>
+    <li>missed->ha fallado por poco</li>
   </Combat_RangedDamage.rulePack.rulesStrings>
   
   <!-- EN:
