@@ -180,8 +180,8 @@
     <!-- EN: questName(lodgersCount==1)->poor little [lodgers0_nameDef] -->
     <li>questName(lodgersCount==1)->[lodgers0_nameDef] una pobre y linda mascota</li>
     <!-- EN: questName(lodgersCount>=2)->the [animalAdj] [lodgersLabelPlural] -->
-    <li>questName(lodgersCount==1,lodgers0_gender=Male)->[lodgers0_nameDef] el [animalAdj1]</li>
-    <li>questName(lodgersCount==1,lodgers0_gender=Female)->[lodgers0_nameDef] la [animalAdj2]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender==Male)->[lodgers0_nameDef] el [animalAdj1]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender==Female)->[lodgers0_nameDef] la [animalAdj2]</li>
     <!-- EN: questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural] -->
     <li>questName(lodgersCount>=2)->Un grupo de [animalAdj1]s [lodgersLabelPlural]</li>
     <!-- EN: questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural] -->
