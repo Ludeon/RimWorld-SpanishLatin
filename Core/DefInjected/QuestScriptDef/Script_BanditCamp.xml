@@ -25,13 +25,17 @@
     <li>bandit->Brigand</li>
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
-    <li>questName->[camp_def] de los [bandit]</li>
+    <li>questName->[camp] de los [bandit]</li>
     <li>questName->[camp_indef] de [bandit]</li>
     <li>questName->[asker_nameDef] y [camp_def]</li>
-    <li>camp_def->La acampada</li>
-    <li>camp_def->El puesto de avanzada</li>
-    <li>camp_def->La guarida</li>
-    <li>camp_def->El campamento</li>
+    <li>camp->Acampada</li>
+    <li>camp->Puesto de avanzada</li>
+    <li>camp->Guarida</li>
+    <li>camp>Campamento</li>
+	<li>camp_def->la Acampada</li>
+    <li>camp_def->el Puesto de avanzada</li>
+    <li>camp_def->la Guarida</li>
+    <li>camp_def->el Campamento</li>
     <li>camp_indef->Una acampada</li>
     <li>camp_indef->Un puesto de avanzada</li>
     <li>camp_indef->Una guarida</li>
