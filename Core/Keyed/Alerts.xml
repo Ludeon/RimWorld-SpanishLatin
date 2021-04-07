@@ -34,7 +34,7 @@
   <!-- EN: Need doctor -->
   <NeedDoctor>Necesitas un médico</NeedDoctor>
   <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n\n{0}\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
-  <NeedDoctorDesc>Estos colonos necesitan cuidados médicos, pero no tienes a ningún colono saludable asignado como médico.\n\n{0}\nAsigna un colono saludable como Médico. Si se dejan sin tratar, las heridas podrían nunca sanar bien y volverse permanentes.</NeedDoctorDesc>
+  <NeedDoctorDesc>Estos colonos necesitan cuidados médicos, pero no tienes a ningún colono sano asignado como médico.\n\n{0}\nAsigna un colono sano como Médico. Si se dejan sin tratar, las heridas podrían nunca sanar bien y volverse permanentes.</NeedDoctorDesc>
 
   <!-- EN: Need miner -->
   <NeedMiner>Necesitas un minero</NeedMiner>
@@ -76,7 +76,7 @@
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Vestimenta andrajosa</AlertTatteredApparel>
   <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertTatteredApparelDesc>Estos colonos están vistiendo ropa desgastada, lo que les entristece:\n\n{0}\nEncuéntrales indumentaria que no esté tan rota.\n\nPuedes crearla en una zona de artesanía, mesa de sastrería o comprarla a un mercader.</AlertTatteredApparelDesc>
+  <AlertTatteredApparelDesc>Estos colonos están vistiendo ropa desgastada, lo que les entristece:\n\n{0}\nEncuéntrales ropa que no esté tan rota.\n\nPuedes crearla en una zona de artesanía, mesa de sastrería o comprarla a un mercader.</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>Desnudez indeseada</AlertUnhappyNudity>
@@ -124,7 +124,7 @@
   <!-- EN: Boredom -->
   <Boredom>Aburrimiento</Boredom>
   <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n\n{2} -->
-  <BoredomDesc>Estas personas necesitan recreación o se les asigna recreación, y sin embargo se aburren de todas las fuentes de recreación disponibles.:\n\n{0}\n\nConsígueles más variedad de recreación.\n\nTipos de recreación actualmente disponibles para {PAWN_labelShort}:\n\n{2}</BoredomDesc>
+  <BoredomDesc>Estas personas tienen necesidad de recreación o están asignadas a recreación, pero aún así se aburren de todas las fuentes disponibles:\n\n{0}\n\nConsígueles más variedad de recreación.\n\nTipos de recreación actualmente disponibles para {PAWN_labelShort}:\n\n{2}</BoredomDesc>
 
   <!-- EN: Need batteries -->
   <NeedBatteries>Necesitas baterías</NeedBatteries>
@@ -149,22 +149,22 @@
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0} colono(s) ocioso(s)</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
-  <ColonistsIdleDesc>Estos colonos están vagando sin nada que hacer:\n\n{0}\nDeberías encontrarles algo productivo que hacer.</ColonistsIdleDesc>
+  <ColonistsIdleDesc>Estos colonos están vagando sin nada que hacer:\n\n{0}\nDeberías encontrarles algo productivo que realizar.</ColonistsIdleDesc>
   
   <!-- EN: Caravan idle -->
   <CaravanIdle>Caravana inactiva</CaravanIdle>
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
-  <CaravanIdleDesc>Estas caravanas están esperando que establezca su próximo destino:\n\n{0}</CaravanIdleDesc>
+  <CaravanIdleDesc>Estas caravanas están esperando que establezcas su próximo destino:\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Colonos necesitan tratamiento</ColonistNeedsTreatment>
   <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDesc>Estos colonos necesitan atención médica. Sin ella, podrían morir de sus heridas o estas podrían volverse permanentes.\n\n{0}\nTrátalos enviándolos a una cama hospitalaria.\n\n(Primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Entonces, selecciona a los colonos heridos y haz click derecho en la cama hospitalaria para convertirlos en pacientes)</ColonistNeedsTreatmentDesc>
+  <ColonistNeedsTreatmentDesc>Estos colonos necesitan atención médica. Sin ella, podrían morir por sus heridas o estas podrían volverse permanentes.\n\n{0}\nTrátalos enviándolos a una cama hospitalaria.\n\n(Primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Entonces, selecciona a los colonos heridos y haz click derecho en la cama hospitalaria para convertirlos en pacientes)</ColonistNeedsTreatmentDesc>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermia</AlertHypothermia>
   <!-- EN: These colonists are suffering from hypothermia:\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
-  <AlertHypothermiaDesc>Estos colonos están sufriendo de hipotermia:\n\n{0}\nAsegúrate de que su ropa sea apropiada para la estación y de que haya un poco de calefacción en las habitaciones.</AlertHypothermiaDesc>
+  <AlertHypothermiaDesc>Estos colonos están sufriendo de hipotermia:\n\n{0}\nAsegúrate de que su ropa es adecuada para la temporada y de que los espacios interiores están debidamente climatizados.</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
   <PatientsAwaitingMedicalOperation>{0} pacientes esperan operación médica</PatientsAwaitingMedicalOperation>
@@ -186,7 +186,7 @@
   <!-- EN: Billiards needs space -->
   <BilliardsNeedsSpace>Billar obstruido</BilliardsNeedsSpace>
   <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
-  <BilliardsNeedsSpaceDesc>Una de tus mesas de billar tiene una obstrucción que impide a tus colonos jugar.\n\nLas mesas de billar necesitan tener espacio libre todo alrededor para poder usarse.</BilliardsNeedsSpaceDesc>
+  <BilliardsNeedsSpaceDesc>Una de tus mesas de billar tiene una obstrucción que impide a tus colonos jugar.\n\nLas mesas de billar necesitan tener espacio libre alrededor en todos sus lados para poder usarse.</BilliardsNeedsSpaceDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>Cazador mal equipado</HunterHasShieldAndRangedWeapon>
@@ -205,7 +205,7 @@
   <!-- EN: Immobile caravan -->
   <ImmobileCaravan>Caravana detenida</ImmobileCaravan>
   <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
-  <ImmobileCaravanDesc>Una de tus caravanas está inmóvil debido a que carga un sobrepeso.\n\nPuedes hacer que se mueva nuevamente abandonando algunos objetos en la pestaña EQUIPO.</ImmobileCaravanDesc>
+  <ImmobileCaravanDesc>Una de tus caravanas está inmóvil debido a que pesa demasiado.\n\nPuedes hacer que se mueva nuevamente abandonando algunos objetos en la pestaña EQUIPO.</ImmobileCaravanDesc>
 
   <!-- EN: Building unusable due to roof -->
   <BuildingCantBeUsedRoofed>Edificio inutilizable debido al techo</BuildingCantBeUsedRoofed>
@@ -215,29 +215,29 @@
   <!-- EN: Heatstroke -->
   <AlertHeatstroke>Golpe de calor</AlertHeatstroke>
   <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
-  <AlertHeatstrokeDesc>Las siguientes personas sufren de un golpe de calor:\n\n{0}\nLlévalas a un área más fresca. Puede enfriar habitaciones con refrigeradores pasivos o refrigeradores eléctricos. Los espacios subterráneos profundos también son naturalmente frescos, si están separados del exterior por una puerta.</AlertHeatstrokeDesc>
+  <AlertHeatstrokeDesc>Las siguientes personas sufren de un golpe de calor:\n\n{0}\nLlévalas a un área más fresca. Puedes enfriar habitaciones con refrigeradores pasivos o refrigeradores eléctricos. Los espacios subterráneos profundos también son naturalmente frescos, si están separados del exterior por una puerta.</AlertHeatstrokeDesc>
 
   <!-- EN: Guest unhappy -->
   <QuestPartMoodBelowThreshold>Invitado infeliz</QuestPartMoodBelowThreshold>
   <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
-  <QuestPartMoodBelowThresholdDesc>La misión {0} requiere que mantengas a esta persona de buen humor. Sin embargo, su estado de ánimo es pobre. Tome algunas medidas para que se sientan mejor: \n \n {1}</QuestPartMoodBelowThresholdDesc>
+  <QuestPartMoodBelowThresholdDesc>La misión {0} requiere que mantengas a esta persona de buen humor. Sin embargo, su estado de ánimo es pobre. Toma algunas medidas para que se sientan mejor: \n \n {1}</QuestPartMoodBelowThresholdDesc>
   
   <!-- EN: Shuttle leaving in {0} -->
-  <QuestPartShuttleLeaveDelay>Transbordador saliendo en {0}</QuestPartShuttleLeaveDelay>
+  <QuestPartShuttleLeaveDelay>Transbordador partiendo en {0}</QuestPartShuttleLeaveDelay>
   <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
-  <QuestPartShuttleLeaveDelayDesc>El transbordador partirá en {1}. La misión {0} requiere que cargues las siguientes personas u ubjetos en el transbordador antes de que salga:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+  <QuestPartShuttleLeaveDelayDesc>Un transbordador partirá en {1}. La misión {0} requiere que cargues las siguientes personas u ubjetos en el transbordador antes de que salga:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
   <!-- EN: The shuttle will leave in {0}. -->
   <QuestPartShuttleLeaveDelayDescHidden>El transbordador saldrá en {0}.</QuestPartShuttleLeaveDelayDescHidden>
 
   <!-- EN: Shuttle arriving in {0} -->
-  <QuestPartShuttleArriveDelay>El transbordador llega en {0}</QuestPartShuttleArriveDelay>
+  <QuestPartShuttleArriveDelay>Transbordador llegando en {0}</QuestPartShuttleArriveDelay>
   <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
-  <QuestPartShuttleArriveDelayDesc>>El transbordador partirá en {1}. La misión {0} requiere que cargues las siguientes personas u objetos en el transbordador antes de que salga:\n\n{2}</QuestPartShuttleArriveDelayDesc>
+  <QuestPartShuttleArriveDelayDesc>Un transbordador llegará en {1}. La misión {0} requiere que cargues las siguientes personas u objetos en el transbordador antes de que salga:\n\n{2}</QuestPartShuttleArriveDelayDesc>
   <!-- EN: A shuttle will arrive in {0}. -->
   <QuestPartShuttleArriveDelayDescHidden>El transbordador llegará en {0}.</QuestPartShuttleArriveDelayDescHidden>
 
   <!-- EN: Monument will be destroyed -->
-  <DisallowedBuildingInsideMonument>El monumento será destruido</DisallowedBuildingInsideMonument>
+  <DisallowedBuildingInsideMonument>Monumento será destruido</DisallowedBuildingInsideMonument>
   <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
   <DisallowedBuildingInsideMonumentDesc>Has construido una instalación no permitida dentro de uno de tus monumentos. El monumento se considerará destruido en {0}.</DisallowedBuildingInsideMonumentDesc>
 
@@ -246,7 +246,7 @@
   <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
   <ActivatorCountdownDesc>Hay un activador de cuenta regresiva que se prepara para despertar a los mecanoides cercanos.</ActivatorCountdownDesc>
   <!-- EN: {0} countdown activators -->
-  <ActivatorCountdownMultiple>activadores de cuenta regresiva {0}</ActivatorCountdownMultiple>
+  <ActivatorCountdownMultiple>Activadores de cuenta regresiva {0}</ActivatorCountdownMultiple>
   <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
   <ActivatorCountdownDescMultiple>Hay {0} activadores de cuenta regresiva que se preparan para despertar a los mecanoides cercanos.</ActivatorCountdownDescMultiple>
 
