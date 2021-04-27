@@ -26,7 +26,7 @@
   <!-- EN: Being together with my bonded animal makes me feel better. -->
   <BondedAnimalMaster.stages.s_master.description>Estar junto a mi mascota me hace sentir mejor.</BondedAnimalMaster.stages.s_master.description>
   <!-- EN: master of {0} -->
-  <BondedAnimalMaster.stages.master_of.label>amo de {0}</BondedAnimalMaster.stages.master_of.label>
+  <BondedAnimalMaster.stages.master_of.label>am{PAWN_gender ? o : a} de {0}</BondedAnimalMaster.stages.master_of.label>
   <!-- EN: Being together with my bonded animals makes me feel better. -->
   <BondedAnimalMaster.stages.master_of.description>Estar junto a mis animales me hace sentir mejor.</BondedAnimalMaster.stages.master_of.description>
   
@@ -67,13 +67,13 @@
   <Man.stages.man.label>hombre</Man.stages.man.label>
   
   <!-- EN: not {0}'s master -->
-  <NotBondedAnimalMaster.stages.not_s_master.label>sin {0} como mascota </NotBondedAnimalMaster.stages.not_s_master.label>
+  <NotBondedAnimalMaster.stages.not_s_master.label>no es {PAWN_gender ? el dueño : la dueña} de {0}</NotBondedAnimalMaster.stages.not_s_master.label>
   <!-- EN: I should be together with my bonded animal. -->
-  <NotBondedAnimalMaster.stages.not_s_master.description>Debería estar junto a mi mascosta.</NotBondedAnimalMaster.stages.not_s_master.description>
+  <NotBondedAnimalMaster.stages.not_s_master.description>Debería estar junto a mi animal vinculado.</NotBondedAnimalMaster.stages.not_s_master.description>
   <!-- EN: not master of {0} -->
-  <NotBondedAnimalMaster.stages.not_master_of.label>no es amo de {0}</NotBondedAnimalMaster.stages.not_master_of.label>
+  <NotBondedAnimalMaster.stages.not_master_of.label>no es {PAWN_gender ? el dueño : la dueña} de {0}</NotBondedAnimalMaster.stages.not_master_of.label>
   <!-- EN: I should be together with my bonded animals. -->
-  <NotBondedAnimalMaster.stages.not_master_of.description>Debería estar junto con mis animales unidos.</NotBondedAnimalMaster.stages.not_master_of.description>
+  <NotBondedAnimalMaster.stages.not_master_of.description>Debería estar junto con mis animales vinculados.</NotBondedAnimalMaster.stages.not_master_of.description>
   
   <!-- EN: opinion of my {0} {1} -->
   <OpinionOfMyLover.stages.opinion_of_my.label>opinión de mi {0} {1}</OpinionOfMyLover.stages.opinion_of_my.label>
