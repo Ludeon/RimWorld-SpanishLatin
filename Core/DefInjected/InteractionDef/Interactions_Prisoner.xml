@@ -42,8 +42,8 @@
   <BuildRapport.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] sobre [subject] a [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] habló a [RECIPIENT_nameDef] sobre [subject].</li>
-    <li>_logentry->[INITIATOR_nameDef] preguntó a [RECIPIENT_nameDef] sobre [subject].</li>
-    <li>_logentry->[INITIATOR_nameDef] alentó a [RECIPIENT_nameDef] a [talkabout] sobre [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] preguntó a [RECIPIENT_nameDef] sobre [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] alentó a [RECIPIENT_nameDef] a [talkabout] sobre [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] permitió a [RECIPIENT_nameDef] [talkabout] sobre [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] expresó interés en [PersonalCharacteristicDef] de [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] ha preguntado a [RECIPIENT_nameDef] sobre su [PersonalCharacteristic].</li>
@@ -84,10 +84,17 @@
     <li>goodthing->free, fresh [Vegetable]s</li>
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] unirse a la comunidad.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] unirse a la colonia.</li>
     <li>r_logentry->[INITIATOR_nameDef] prometió [goodthing] a [RECIPIENT_nameDef], y le ha pedido unirse a la comunidad.</li>
-    <li>goodthing(p=15)->[ConceptPositive]</li>
-    <li>goodthing->comida limpia y fresca</li>
+    <li>goodthing(p=0.5)->[ConceptPositive]</li>
+    <li>goodthing->comidas sabrosas</li>
+    <li>goodthing->un dulce hogar</li>
+    <li>goodthing->libertad, comida y su amistad</li>
+    <li>goodthing->libertad, buenas bebidas y su amistad</li>
+    <li>goodthing->proteger y cuidar</li>
+    <li>goodthing->mejorar su situación</li>
+    <li>goodthing->mejorar su vida</li>
+    <li>goodthing->mejores comidas</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
