@@ -23,11 +23,11 @@
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} - {LEADER_labelShort}, es lider de la facción.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} - {LEADER_labelShort}, es líder de la facción.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} - {LEADER_labelShort}, es lider de la facción.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>Uno de los {LEADER_factionPawnsPlural} - {LEADER_labelShort}, es líder de la facción.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Cápsula de escape estrellada</LetterLabelRefugeePodCrash>
@@ -85,14 +85,14 @@
   <!-- EN: They seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>Parece que tienen algunos objetos para el comercio.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>Uno de los visitantes, {1_labelShort}, es el lider de la facción.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>Uno de los visitantes, {1_labelShort}, es líder de la facción.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Los visitantes de {0} se están marchando.</VisitorsLeaving>
 
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Manada de animales cazahombres</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>¡Una manada de {0}, cazahombres, ha entrado en la zona! Conducidos a la locura por la enfermedad conocida como escariosis, ellos recorrerán la región, en busca de carne humanoide\n\nNo atacarán las puertas a menos que vean a alguien atravesarlas. Escóndete dentro y estarás a salvo. Tampoco atacarán torretas apagadas, así que apagalas si quieres salvarlas.\n\nEsta manada de {0} dejarán la zona en uno o dos días. Puedes esconderte y esperar, o luchar contra ellos.</ManhunterPackArrived>
+  <ManhunterPackArrived>¡Una manada de {0}, cazahombres, ha entrado en la zona! Conducidos a la locura por la enfermedad conocida como escariosis, ellos recorrerán la región, en busca de carne humanoide\n\nNo atacarán las puertas a menos que vean a alguien atravesarlas. Mantén tus colonos a cubierto. Tampoco atacarán torretas apagadas, así que apagalas si quieres salvarlas.\n\nEsta manada de {0} dejarán la zona en uno o dos días. Puedes esconderte y esperar, o luchar contra ellos.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
@@ -126,7 +126,7 @@
   
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
-  <LetterLabelAnimalSelfTame>{1_kind} se ha auto-domesticado</LetterLabelAnimalSelfTame>
+  <LetterLabelAnimalSelfTame>{1_kind} se ha autodomesticado</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0} ha sido domesticado.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
@@ -144,7 +144,7 @@
   <!-- EN: Rare thrumbos -->
   <LetterLabelThrumboPasses>Thrumbos raros</LetterLabelThrumboPasses>
   <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
-  <LetterThrumboPasses>Un pequeño rebaño de thrumbos se han adentrado en esta zona.\n\nPacíficos por naturaleza, estas criaturas raras son extremadamente peligrosas si son atacadas. Algunos comerciantes están dispuestos a pagar mucho dinero por su precioso cuero y cuerno.\n\nThrumbos pueden dejar el área en unos días.</LetterThrumboPasses>
+  <LetterThrumboPasses>Un pequeño rebaño de thrumbos se han adentrado en esta zona.\n\nPacíficos por naturaleza, estas criaturas raras son extremadamente peligrosas si son atacadas. Algunos comerciantes están dispuestos a pagar mucho dinero por su precioso cuero y cuerno.\n\nLos thrumbos abandonarán la zona en unos días.</LetterThrumboPasses>
   
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
@@ -168,9 +168,9 @@
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Has alcanzado las coordenadas enviadas por (*Name)Charlon Whitestone(/Name) y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo del ordenador.\n\n(*Name)Charlon Whitestone(/Name) te advierte que el proceso de arranque tardará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros.\n\nAsegúrate de que tus defensas esten preparadas primero.</EscapeShipFound>
+  <EscapeShipFound>Has alcanzado las coordenadas enviadas por (*Name)Charlon Whitestone(/Name) y has descubierto la nave oculta.\n\nEl reactor de la nave aún está en modo de hibernación profunda, así que aún no puede volar. Puedes arrancarlo interactuando con el núcleo de la computadora.\n\n(*Name)Charlon Whitestone(/Name) te advierte que el proceso de arranque tomará unos 15 días, y la señal de energía será detectable a larga distancia. Este tipo de señal de energía indica la capacidad de vuelo interestelar, y atraerá a bandas de asaltantes desesperados y cazadores de tesoros.\n\nAsegúrate de que tus defensas esten preparadas primero.</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
-  <EscapeShipFoundPeaceful>Has alcanzado las coordenadas enviadas por (*Name)Charlon Whitestone(/Name)  y has descubierto la nave estelar oculta.\n\nEl reactor de la nave todavía está en modo de hibernación profunda, por lo que aún no puede volar. Puede iniciarlo interactuando con el núcleo de la computadora.\n\n(*Name)Charlon Whitestone(/Name)  le advierte que el proceso de inicio tomará aproximadamente 15 días.</EscapeShipFoundPeaceful>
+  <EscapeShipFoundPeaceful>Has alcanzado las coordenadas enviadas por (*Name)Charlon Whitestone(/Name) y has descubierto la nave estelar oculta.\n\nEl reactor de la nave todavía está en modo de hibernación profunda, por lo que aún no puede volar. Puede iniciarlo interactuando con el núcleo de la computadora.\n\n(*Name)Charlon Whitestone(/Name)  le advierte que el proceso de arranque tomará aproximadamente 15 días.</EscapeShipFoundPeaceful>
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
   <!-- EN: (*Name)Charlon Whitestone(/Name) sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
@@ -188,7 +188,7 @@
   <!-- EN: Move on -->
   <CaravanMeeting_MoveOn>Seguir de largo</CaravanMeeting_MoveOn>
   <!-- EN: no caravan members capable of trading -->
-  <CaravanMeeting_TradeIncapable>ningún miembro de la caravana capaz de comerciar</CaravanMeeting_TradeIncapable>
+  <CaravanMeeting_TradeIncapable>ningún miembro de la caravana es capaz de comerciar</CaravanMeeting_TradeIncapable>
   <!-- EN: need a trader with the title of {0} from {1_name} -->
   <CaravanMeeting_NoPermit>necesita un operador con el título de {0} de {1_name}</CaravanMeeting_NoPermit>
   
@@ -196,7 +196,7 @@
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Solicitud de caravana</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>Una colonia cercana, {0}, se pone en contacto contigo con una solicitud comercial. Ellos quieren comprar:\n\n  {1} (valor {2})\n\nA cambio, ofrecen:\n\n  {3} (valor {4})\n\nEsta solicitud expira después de: {5}\n\nSi desea realizar el comercio, envíe una caravana con los suministros solicitados. El tiempo estimado de viaje es de {6}. Puede revisar esta oferta seleccionando {0} en el mapa del planeta.</LetterCaravanRequest>
+  <LetterCaravanRequest>Una colonia cercana, {0}, se pone en contacto contigo con una solicitud comercial. Ellos quieren comprar:\n\n  {1} (valor {2})\n\nA cambio, ofrecen:\n\n  {3} (valor {4})\n\nEsta solicitud expira después de: {5}\n\nSi desea realizar el comercio, envía una caravana con los suministros solicitados. El tiempo estimado de viaje es de {6}. Puede revisar esta oferta seleccionando {0} en el mapa del planeta.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
   <CaravanRequestInfo>Solicitando: {0} ({2}) (quedan {1})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
@@ -228,18 +228,18 @@
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerFactionHostile>Misión fallida</LetterLabelQuestAskerFactionHostile>
   <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
-  <LetterQuestAskerFactionHostile>La misión a fracasado porque la facción {FACTION_name} ahora es hostil.</LetterQuestAskerFactionHostile>
+  <LetterQuestAskerFactionHostile>La misión no se puede completar porque la facción {FACTION_name} ahora es hostil.</LetterQuestAskerFactionHostile>
 
   <!-- Quest asker captured -->
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerCaptured>Misión fallida</LetterLabelQuestAskerCaptured>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
-  <LetterQuestAskerCaptured>La misión nunca podrá completarse porque se ha capturado a {SUBJECT_definite}.</LetterQuestAskerCaptured>
+  <LetterQuestAskerCaptured>La misión no se puede completar porque han capturado a {SUBJECT_definite}.</LetterQuestAskerCaptured>
 
   <!-- Quest asker died -->
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerDied>Misión fallida</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
-  <LetterQuestAskerDied>La misión nunca podrá completarse porque {SUBJECT_definite} ha muerto.</LetterQuestAskerDied>
+  <LetterQuestAskerDied>La misión no se puede completar porque {SUBJECT_definite} ha muerto.</LetterQuestAskerDied>
 
 </LanguageData>
