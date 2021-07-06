@@ -63,7 +63,7 @@
   <!-- EN: Paste -->
   <Paste>Pegar</Paste>
   <!-- EN: Allowed area -->
-  <AllowedArea>Permitir área</AllowedArea>
+  <AllowedArea>Área permitida</AllowedArea>
   
   <!-- Animals tab -->
   <!-- EN: Master -->
@@ -75,7 +75,7 @@
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
-  <IsPredator>Esta criatura es un depredador. Cuando tiene hambre, cazará criaturas más pequeñas - posiblemente incluyendo personas.</IsPredator>
+  <IsPredator>Esta criatura es un depredador. Cuando tiene hambre, cazará criaturas más pequeñas, posiblemente, incluso personas.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
   <IsInMentalState>Esta criatura se encuentra actualmente en el estado mental: {0}</IsInMentalState>
   
@@ -89,7 +89,7 @@
   <!-- EN: Enemy of {0} -->
   <HostileTo>Enemigo de {0}</HostileTo>
   <!-- EN: Enemy of:  -->
-  <EnemyOf>Enemigo de:</EnemyOf>
+  <EnemyOf>Enemigo de: </EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Situación actual de buena voluntad y relaciones con esta facción.</CurrentGoodwillTip>
   <!-- EN: Current relations with this faction. -->
@@ -99,7 +99,7 @@
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
   <CurrentGoodwillTip_Ally>Esta facción es aliada. Enviarán combatientes para ayudarte cuando puedan. Si las relaciones caen por debajo de {0}, se volverán neutrales.</CurrentGoodwillTip_Ally>
   <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
-  <CurrentGoodwillTip_Neutral>Esta facción es neutral. Ellos intercambiarán y hablarán con usted libremente. Si las relaciones caen por debajo de {0}, se volverán hostiles. Si las relaciones se elevan por encima de {1}, se aliarán y empezarán a trabajar activamente para ayudarle.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Neutral>Esta facción es neutral. Comerciarán y hablarán contigo con libertad. Si las relaciones caen por debajo de {0}, se volverán hostiles. Si las relaciones se elevan por encima de {1}, serán tus alidos y tratarán de ayudarte activamente.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Esta facción es hostil. Asaltarán sus asentamientos y caravanas. Si las relaciones se elevan por encima de {0}, se volverán neutrales.</CurrentGoodwillTip_Hostile>
   <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->

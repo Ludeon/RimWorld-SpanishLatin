@@ -5,22 +5,22 @@
     <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
   <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
-    <li>questDescription->\nPara aprobar que [titleHeir_nameFull] se convierta en heredero(a) de [titleHolder_nameFull], tienes que construir un monumento.\n\nEl monumento tendrá un tamaño de [monumentSize] y requiere estos recursos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nSi no puede construir el monumento dentro de 20 días, esto se considerará como profanación del ritual. Tu relaciones con la facción "[asker_factionName]" se reducirán en 25 y el heredero no cambiará.\n\nSi el monumento es destruido dentro de [keepMonumentTicks_duration] días después de la finalización, tus relaciones con la facción [asker_factionName] caerán en [goodwillChangeIfMonumentDestroyed].</li>
+    <li>questDescription->\nPara aprobar que [titleHeir_nameFull] se convierta en heredero(a) de [titleHolder_nameFull], debes construir un monumento.\n\nEl monumento tendrá un tamaño de [monumentSize] y requerirá de estos recursos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nSi no puede construir el monumento dentro de 20 días, esto se considerará como profanación del ritual. Tu relaciones con la facción "[asker_factionName]" se reducirán en 25 y el nombramiento del heredero no se producirá.\n\nSi el monumento es destruido dentro de [keepMonumentTicks_duration] días después de la finalización de su construcción, tus relaciones con la facción [asker_factionName] caerán en [goodwillChangeIfMonumentDestroyed].</li>
   </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[titleHeir_nameDef]'s inheritance</li>
   -->
   <ChangeRoyalHeir.questNameRules.rulesStrings>
-    <li>questName->La herencia de [titleHeir_nameDef]</li>
+    <li>questName->sucesión a [titleHeir_nameDef]</li>
   </ChangeRoyalHeir.questNameRules.rulesStrings>
   <!-- EN: Time left: {0} -->
   <ChangeRoyalHeir.InspectStringTimeLeft.slateRef>Tiempo restante: {0}</ChangeRoyalHeir.InspectStringTimeLeft.slateRef>
   <!-- EN: [titleHolder_nameDef]'s heir change failed -->
   <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>El cambio de heredero de [titleHolder_nameDef] fracasó</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
-  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef] está ofendendid[asker_o_a] de que haya prometido consagrar la nueva herencia, pero no se construyó el monumento en el tiempo prescrito.\n\nPerdiste 25 puntos de buena voluntad con la facción [asker_faction_name].</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
+  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef] está ofendendid[asker_o_a] de que hayas prometido consagrar el legado, pero no se construiste el monumento en el tiempo prescrito.\n\nHas perdido 25 puntos de buena voluntad con la facción [asker_faction_name].</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
   <!-- EN: Title holder died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>El poseedor del título murió: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
+  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>El titular murió: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
   <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
   <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>{SUBJECT_definite}, cuyo heredero estaba en proceso de ser consagrado, ha muerto.</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
   <!-- EN: Designated heir died: {SUBJECT_definite} -->
@@ -36,10 +36,10 @@
   <!-- EN: [titleHeir_nameDef] is the new heir of [titleHolder_nameDef]. -->
   <ChangeRoyalHeir.LetterTextNewHeir.slateRef>[titleHeir_nameDef] es el nuevo heredero de [titleHolder_nameDef].</ChangeRoyalHeir.LetterTextNewHeir.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>No destruya el monumento por {0}</ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>
+  <ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>No destruyas el monumento en {0}</ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>No destruya el monumento por {0}</ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>
+  <ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>No destruyas el monumento en {0}</ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
-  <ChangeRoyalHeir.KeepMonument.slateRef>Conservar el monumento {0}</ChangeRoyalHeir.KeepMonument.slateRef>
+  <ChangeRoyalHeir.KeepMonument.slateRef>Mantén el monumento {0}</ChangeRoyalHeir.KeepMonument.slateRef>
   
 </LanguageData>
