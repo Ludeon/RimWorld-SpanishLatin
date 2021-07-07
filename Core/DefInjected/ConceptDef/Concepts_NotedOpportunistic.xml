@@ -19,7 +19,7 @@
   <!-- EN: Capturing -->
   <Capturing.label>Capturando</Capturing.label>
   <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
-  <Capturing.helpText>Para tomar prisioneros, selecciona un colono, haz clic derecho en un enemigo insconsciente y selecciona CAPTURAR en el menú contextual.\n\nPara esto necesitas una cama para prisioneros.</Capturing.helpText>
+  <Capturing.helpText>Cuando un enemigo es derribado en el suelo pero no está muerto, puedes CAPTURARLO.\n\nPara capturar, selecciona un colono, haz clic con el botón derecho en el enemigo incapacitado y selecciona Capturar.\n\nNecesitarás una cama extra marcada para uso de prisioneros.</Capturing.helpText>
   
   <!-- EN: Door opening speeds -->
   <DoorOpenSpeed.label>Velocidad de apertura de las puertas</DoorOpenSpeed.label>
@@ -29,7 +29,7 @@
   <!-- EN: Drafting for combat -->
   <Drafting.label>Reclutamiento para combatir</Drafting.label>
   <!-- EN: To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\n\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy. -->
-  <Drafting.helpText>Para controlar a los colonos directamente para combatir, recluta a los colonos seleccionándolos y pulsando el botón RECLUTAR.\n\nUn colono reclutado solo hará lo que usted le diga, y solo puede tomar decisiones de combate. Aquellos con armas las usarán cuando sea posible.\n\nNo dejes a los colonos reclutados para siempre - se morirán de hambre y se volverán infelices.</Drafting.helpText>
+  <Drafting.helpText>Para controlar a los colonos directamente para combatir, recluta a los colonos seleccionándolos y pulsando el botón RECLUTAR.\n\nUn colono reclutado solo hará lo que usted le diga, y solo puede tomar decisiones de combate. Aquellos con armas las usarán cuando sea posible.\n\nNo dejes a los colonos reclutados para siempre, se morirán de hambre y se volverán infelices.</Drafting.helpText>
   
   <!-- EN: Drug addiction -->
   <DrugAddiction.label>Adicción a las drogas</DrugAddiction.label>
@@ -45,6 +45,11 @@
   <DrugPolicies.label>Política de drogas</DrugPolicies.label>
   <!-- EN: You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take infection-blocking drugs regularly, or drink a beer a day to stay happy.\n\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\n\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires! -->
   <DrugPolicies.helpText>Puedes asignar ciertos colonos para tomar drogas específicas en un tiempo específico. Por ejemplo, puedes hacerlos tomar medicina "bloquea-infección" con regularidad o que se beban una cerveza cada día para mantenerse felices.\n\nAbre la pestaña POLÍTICAS y selecciona "Administrar políticas de drogas". Crea una nueva y asígnala a tus colonos.\n\nAún así, los colonos podrían tomar drogas que no les hayas asignado. Puedes decirles qué hacer, pero siguen teniendo sus propias ideas.</DrugPolicies.helpText>
+  
+  <!-- EN: Positioning fighters -->
+  <GroupGotoHereDragging.label>Posicionamiento de los combatientes</GroupGotoHereDragging.label>
+  <!-- EN: Right-click and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
+  <GroupGotoHereDragging.helpText>Haz clic con el botón derecho del ratón y arrastra para que tus combatientes reclutados formen una línea.\n\nSeparalos ¡los objetivos agrupados son fáciles de alcanzar!</GroupGotoHereDragging.helpText>
   
   <!-- EN: Interacting with traders -->
   <InteractingWithTraders.label>Interactuando con mercaderes</InteractingWithTraders.label>
@@ -77,7 +82,7 @@
   <Rescuing.helpText>Para rescatar a un herido, selecciona un colono sano y haz clic con el botón derecho en el herido.\n\nSi rescatas a un colono que no pertenezca a tu colonia, no necesariamente se te unirán. Es posible que simplemente se alejen después de sanar. Si quieres garantizar que se unan, captúralos y reclútalos.</Rescuing.helpText>
   
   <!-- EN: Set what plant to grow -->
-  <SetGrowingZonePlant.label>Establezca qué planta cultivar</SetGrowingZonePlant.label>
+  <SetGrowingZonePlant.label>Establece qué plantas cultivar</SetGrowingZonePlant.label>
   <!-- EN: You can set what to plant in a growing zone. You can even grow trees!\n\nJust select the growing zone, open the Growing tab, and click the 'plant' button. -->
   <SetGrowingZonePlant.helpText>Puedes establecer qué plantar en una zona de cultivo.¡Incluso puedes plantar árboles!\n\nSelecciona la zona de cultivo, abre la pestaña Cultivo y haz clic en el botón "plantar".</SetGrowingZonePlant.helpText>
   
