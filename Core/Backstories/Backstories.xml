@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <BackstoryTranslations>
-    <!-- Se deben crear etiquetas de ambos sexos en los títulos en la mayoría de los casos porque cuando se usan los artículos definidos e indefinidos en códigos, si el juego no detecta el título femenino siempre asumirá el masculino dejando frases como esta: Maria es "un" terapeuta en vez de Maria es "una" terapeuta -->
+    <!-- Se deben crear etiquetas de ambos sexos en los títulos en la mayoría de los casos porque cuando se usan los artículos definidos e indefinidos en códigos, si el juego no detecta el título femenino siempre asumirá el masculino dejando frases como esta: Maria es "un" terapeuta en vez de Maria es "una" terapeuta. -->
   <AbandonedChild23>
     <!-- EN: abandoned child -->
     <title>niño abandonado</title>
@@ -276,6 +276,17 @@
     <desc>Nacid{PAWN_gender ? o : a} en una granja medieval, [PAWN_nameDef] se encargaba del cuidado de los animales domésticos; llegando a amarlos.\n\nCon el tiempo, aprendió a domar a los animales salvajes. Soñaba con un día encontrarse con un thrumbo y poder domarlo.</desc>
   </AnimalCaretaker20>
   
+  <AnimalFarmer21>
+    <!-- EN: animal farmer -->
+    <title>ganadero</title>
+    <titleFemale>ganadera</titleFemale>
+    <!-- EN: animal farmer -->
+    <titleShort>ganadero</titleShort>
+    <titleShortFemale>ganadera</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather. -->
+    <desc>[PAWN_nameDef] criaba una gran variedad de animales para proporcionar carne, leche, huevos y cuero.</desc>
+  </AnimalFarmer21>
+  
   <AnimalLabTech39>
     <!-- EN: animal lab tech -->
     <title>laboratorista de animales</title>
@@ -385,6 +396,17 @@
     <!-- EN: [PAWN_nameDef] was a cybernetic researcher. Studying a transcended world, [PAWN_pronoun] became too involved with [PAWN_possessive] subjects. Over time, the archotech recruited [PAWN_objective] into its service, and used [PAWN_objective] as a spy.\n\nWhen [PAWN_pronoun] later rebelled against [PAWN_possessive] inhuman master, it sent mechanoids across space to hunt [PAWN_objective] down. -->
     <desc>[PAWN_nameDef] era {PAWN_gender ? un ciberinvestigador : una ciberinvestigadora}. Estudiando un mundo trascendental, se involucró demasiado con su investigación. Con el tiempo, el núcleo de la máquina arqueotécnica que estaba estudiando reclutó su servicios, y [PAWN_objective] utilizó como {PAWN_gender ? un  espía : una  espía}.\n\nCuando [PAWN_pronoun] se rebeló más tarde contra sus amos no humanos, la IA envió mecanoides a través del espacio para cazar[PAWN_objective].</desc>
   </ArchotechSpy75>
+  
+  <ArmyCommander14>
+    <!-- EN: Army commander -->
+    <title>comandante del ejército</title>
+    <titleFemale>comandante del ejército</titleFemale>
+    <!-- EN: Commander -->
+    <titleShort>comandante</titleShort>
+    <titleShortFemale>comandante</titleShortFemale>
+    <!-- EN: Unquenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers. -->
+    <desc>Una ambición insaciable impulsó a [PAWN_nameDef] a los niveles más altos del mando militar.\n\nSe satisfizo con el poder de ordenar la muerte y el dolor a sus enemigos, y a sus propios soldados.</desc>
+  </ArmyCommander14>
   
   <ArmyCook0>
     <!-- EN: army cook -->
@@ -520,10 +542,10 @@
   </ArtsPatron54>
   
   <ArtStudent79>
-    <!-- EN: Art student -->
+    <!-- EN: art student -->
     <title>estudiante de arte</title>
     <titleFemale>estudiante de arte</titleFemale>
-    <!-- EN: Artist -->
+    <!-- EN: artist -->
     <titleShort>artista</titleShort>
     <titleShortFemale>artista</titleShortFemale>
     <!-- EN: After years of practice, Freya was able to enrol into an art university and take her skills further. She sought art industry work after graduating with good grades. She made some progress with private commissions, managing to make a decent living from heart. -->
@@ -1001,7 +1023,7 @@
     <titleShort>forajido</titleShort>
     <titleShortFemale>forajida</titleShortFemale>
     <!-- EN: [PAWN_nameDef] flew with a band of brigands [PAWN_pronoun] called friends. [PAWN_pronoun] even had a ship of [PAWN_possessive] own - The Dung Mucker 2000. -->
-    <desc>[PAWN_nameDef] voló con una banda de bandidos que llamó amigos. Incluso tenía su propia nave - La "Dung Mucker 2000".</desc>
+    <desc>[PAWN_nameDef] voló con una banda de bandidos que llamó amigos. Incluso tenía su propia nave. La "Dung Mucker 2000".</desc>
   </Brigand68>
   
   <BrokenSoldier29>
@@ -1103,6 +1125,17 @@
     <desc>Manteniéndose un paso por delante de la ley, [PAWN_nameDef] se convirtió en {PAWN_gender ? un empresario legítimo : una empresaria legítima} y silenció a cualquiera que se atreviera a decir lo contrario. Como propietari{PAWN_gender ? o : a} de burdeles, bares y restaurantes, la buena fortuna de [PAWN_nameDef] continuó mientras su competencia sufrió una serie de desafortunados e inexplicables accidentes.</desc>
   </BusinessGangster58>
   
+  <Butcher40>
+    <!-- EN: butcher -->
+    <title>carnicero</title>
+    <titleFemale>carnicera</titleFemale>
+    <!-- EN: butcher -->
+    <titleShort>carnicero</titleShort>
+    <titleShortFemale>carnicera</titleShortFemale>
+    <!-- EN: [PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time. -->
+    <desc>El principal trabajo de [PAWN_nameDef] en la cacería era el despiece de animales. Se convirtió en {PAWN_gender ? un maestro : una maestra} con el cuchillo, capaz de extraer todo lo que fuese de valor de un cadáver en poco tiempo.</desc>
+  </Butcher40>
+  
   <Cadet96>
     <!-- EN: cadet -->
     <title>cadete</title>
@@ -1114,16 +1147,23 @@
     <desc>Nació en el planeta Nueva China, el padre de [PAWN_nameDef] era un jefe de policía y mantenía una vigilancia extremadamente estricta sobre su hij{PAWN_gender ? o : a}.\n\n[PAWN_nameDef] tenía que hacer ejercicios de estilo militar todos los días y mantener su habitación impecablemente limpia, siempre lista para una inspección. Con el tiempo [PAWN_pronoun] llegó a aborrecer la violencia.</desc>
   </Cadet96>
   
-  <CaravanChild29>
+  <CaesicMarshal72>
+    <!-- EN: Caesic marshal -->
+    <title>alguacil césico</title>
+    <!-- EN: marshal -->
+    <titleShort>alguacil</titleShort>
+    <!-- EN: They say that the Caesics soldiers are recruited from the dead. Rising through such ranks, most return whence they came. [PAWN_nameDef] dominated because of [PAWN_possessive] strategic genius, machine-like focus, and tolerance for suffering - both [PAWN_objective] own and that of others. -->
+    <desc>Dicen que los soldados césicos son reclutados entre los muertos. La mayoría de ellos regresan a su lugar de origen. [PAWN_nameDef] dominaba gracias a su genio estratégico, su enfoque maquinal y su tolerancia al sufrimiento, tanto el suyo como el de los demás.</desc>
+  </CaesicMarshal72>
+  
+  <CaravanChild53>
     <!-- EN: caravan child -->
     <title>niño caravana</title>
-    <titleFemale>niña caravana</titleFemale>
     <!-- EN: child -->
     <titleShort>niño</titleShort>
-    <titleShortFemale>niña</titleShortFemale>
-    <!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother’s things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
-    <desc>[PAWN_nameDef] nació en una nave mercante de un urbworld, con una madre emprendedora y un padre ausente. {PAWN_gender ? Nacido varón : Nacida mujer}, no le gustaban las cosas de {PAWN_gender ? chicos : chicas} y se metia con las cosas de su {PAWN_gender ? madre : padre} todo el tiempo.\n\nEventualmente viajó con su {PAWN_gender ? madre : padre} a un glitterworld y gastó sus ahorros en un cuerpo con el que si estuvo feliz.</desc>
-  </CaravanChild29>
+    <!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother's things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
+    <desc>[PAWN_nameDef] nació en una nave mercante de un urbworld, con una madre emprendedora y un padre ausente. Nació varón pero no le gustaban las cosas de los chicos y se metia con las cosas de su madre todo el tiempo.\n\nEventualmente viajó con su madre a un glitterworld y gastó sus ahorros en un cuerpo con el que si estuvo feliz.</desc>
+  </CaravanChild53>
   
   <Caravaneer53>
     <!-- EN: caravaneer -->
@@ -1146,6 +1186,17 @@
     <!-- EN: Born to a family of traveling merchants, [PAWN_nameDef] was mentored by [PAWN_possessive] father in the ways of being a trader. [PAWN_pronoun] was often tasked with caring for the pack animals. Due to [PAWN_possessive] nomadic lifestyle, [PAWN_pronoun] hunted and bartered for [PAWN_possessive] food. -->
     <desc>Nació en el seno de una familia de comerciantes ambulantes, [PAWN_nameDef] fue asesorad{PAWN_gender ? o : a} por su padre para continuar el legado de su familia y ser un buen comerciante. A menudo se le encargaba el cuidado de los animales de carga. Debido a su estilo de vida nómada, cazaba y realizaba intercambios por comida.</desc>
   </CaravanTraveler6>
+  
+  <CardCounter25>
+    <!-- EN: card counter -->
+    <title>contador de cartas</title>
+    <titleFemale>contadora de cartas</titleFemale>
+    <!-- EN: card counter -->
+    <titleShort>contador de cartas</titleShort>
+    <titleShortFemale>contadora de cartas</titleShortFemale>
+    <!-- EN: In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of the smart kids. -->
+    <desc>En los subniveles del urbworld, {PAWN_gender ? los niños : las niñas} fuertes aprenden a luchar, {PAWN_gender ? los niños : las niñas} inteligentes aprenden a hacer trampas y el resto de los otros niños mueren. [PAWN_nameDef] era {PAWN_gender ? uno de los niños : una de las niñas} inteligentes.</desc>
+  </CardCounter25>
   
   <CargoPilot58>
     <!-- EN: cargo pilot -->
@@ -1213,6 +1264,17 @@
     <desc>[PAWN_nameDef] ayudó en el criadero de gatos de su padre, socializando, reuniendo y alimentando a cientos de gatos.\n\nCuando [PAWN_pronoun] se negó a limpiar la suciedad de los gatos, fue transferid{PAWN_gender ? o : a} a la división de ciencias de la crianza.</desc>
   </CatHerder4>
   
+  <CaveBuilder81>
+    <!-- EN: cave builder -->
+    <title>constructor de cuevas</title>
+    <titleFemale>constructora de cuevas</titleFemale>
+    <!-- EN: cave builder -->
+    <titleShort>constructor de cuevas</titleShort>
+    <titleShortFemale>constructora de cuevas</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] specialized in cave complex excavation and construction. -->
+    <desc>[PAWN_nameDef] estaba especializad{PAWN_gender ? o : a} en la excavación y construcción de complejos de cuevas.</desc>
+  </CaveBuilder81>
+  
   <CaveChild17>
     <!-- EN: cave child -->
     <title>niño de las cuevas</title>
@@ -1235,27 +1297,38 @@
     <desc>[PAWN_nameDef] creció en un complejo de cuevas grandes e intrincadas que se extendían en lo profundo de la ladera de una montaña. [PAWN_pronoun] ayudó a los adultos a mantener y mejorar las profundas cuevas.</desc>
   </CaveChild30>
   
-  <CaveworldIlluminator23>
+  <CaveExplorer45>
+    <!-- EN: cave explorer -->
+    <title>explorador de cuevas</title>
+    <titleFemale>exploradora de cuevas</titleFemale>
+    <!-- EN: cave explorer -->
+    <titleShort>explorador de cuevas</titleShort>
+    <titleShortFemale>explorador de cuevas</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] made a living mapping out dark tunnels and near-inaccessible crevices in search of valuable minerals. [PAWN_possessive] work was very dangerous, but the pay was good. -->
+    <desc>[PAWN_nameDef] se ganaba la vida cartografiando túneles oscuros y grietas casi inaccesibles en busca de minerales valiosos. Su trabajo era muy peligroso, pero la paga era buena.</desc>
+  </CaveExplorer45>
+  
+  <CaveworldIlluminator95>
     <!-- EN: caveworld illuminator -->
     <title>iluminador de caveworld</title>
     <titleFemale>iluminadora de caveworld</titleFemale>
     <!-- EN: illuminator -->
     <titleShort>iluminador</titleShort>
     <titleShortFemale>iluminadora</titleShortFemale>
-    <!-- EN: Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]’s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger. -->
+    <!-- EN: Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]'s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger. -->
     <desc>Entre los tuneleros, los que tienen una visión tan poderosa como la de [PAWN_nameDef] son venerados como sabios. [PAWN_pronoun] marcaba el camino, señalando los lugares a cavar con hongos bioluminiscentes y advirtiendo a otros del peligro inminente.</desc>
-  </CaveworldIlluminator23>
+  </CaveworldIlluminator95>
   
-  <CaveworldTender20>
+  <CaveworldTender26>
     <!-- EN: caveworld tender -->
     <title>cuidador de caveworld</title>
     <titleFemale>cuidadora de caveworld</titleFemale>
     <!-- EN: cave kid -->
     <titleShort>niño cueva</titleShort>
     <titleShortFemale>niña cueva</titleShortFemale>
-    <!-- EN: [PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe’s fungus crops. -->
+    <!-- EN: [PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe's fungus crops. -->
     <desc>[PAWN_nameDef] creció en un complejo subterráneo de cuevas en las profundidades de un mundo inhóspito. [PAWN_pronoun] trabajó junto con otros niños atendiendo los cultivos fungales de su tribu.</desc>
-  </CaveworldTender20>
+  </CaveworldTender26>
   
   <CaveworldTunneler48>
     <!-- EN: caveworld tunneler -->
@@ -1455,16 +1528,16 @@
     <desc>[PAWN_nameDef] era psíquic{PAWN_gender ? o : a} en la iglesia de la escuela imperial de psíquicos.\n\n[PAWN_nameDef] entrenó su mente para sentir las emociones e impresiones colectivas de las personas. Era una forma de tocar el espíritu del imperio. También fue una forma de erradicar las tendencias heréticas en el pensamiento.</desc>
   </ChurchPsychic98>
   
-  <CircusPerformer93>
+  <CircusPerformer37>
     <!-- EN: circus performer -->
     <title>artista circense</title>
     <titleFemale>artista circense</titleFemale>
     <!-- EN: performer -->
     <titleShort>artista</titleShort>
     <titleShortFemale>artista</titleShortFemale>
-    <!-- EN: Growing up in the circus, [PAWN_nameDef] learned a lot of interesting things. More interesting then the balls [PAWN_pronoun] juggled were the pockets [PAWN_pronoun] picked between shows.\n\nA mistake with some firesticks made [PAWN_objective] develop a deathly fear of fire. -->
+    <!-- EN: Growing up in the circus, [PAWN_nameDef] learned a lot of interesting things. More interesting than the balls [PAWN_pronoun] juggled were the pockets [PAWN_pronoun] picked between shows.\n\nA mistake with some firesticks made [PAWN_objective] develop a deathly fear of fire. -->
     <desc>Creciendo en el circo, [PAWN_nameDef] aprendió muchas cosas interesantes. Más interesante que sus actuaciones de trapecio eran los bolsillos que vació entre los espectáculos.\n\nUn error en una actuación que incluia fuego [PAWN_objective] hizo desarrollar un miedo mortal a este.</desc>
-  </CircusPerformer93>
+  </CircusPerformer37>
   
   <CivilEngineer2>
     <!-- EN: civil engineer -->
@@ -1609,16 +1682,16 @@
     <desc>[PAWN_nameDef] participó en el asentamiento de un planeta recientemente colonizado.\n\nEsa vida requiere aprender muchos oficios manuales.</desc>
   </ColonySettler53>
   
-  <ComaChild57>
+  <ComaChild93>
     <!-- EN: coma child -->
     <title>niño en coma</title>
     <titleFemale>niña en coma</titleFemale>
     <!-- EN: coma child -->
     <titleShort>niño en coma</titleShort>
     <titleShortFemale>niña en coma</titleShortFemale>
-    <!-- EN: A childhood accident put [PAWN_nameDef] into a coma. [PAWN_pronoun] didn’t wake up until [PAWN_pronoun] was in [PAWN_possessive] late teens. [PAWN_possessive] body never recovered from the years of inactivity, but people tend to take pity on [PAWN_objective] when they hear [PAWN_possessive] story. -->
+    <!-- EN: A childhood accident put [PAWN_nameDef] into a coma. [PAWN_pronoun] didn't wake up until [PAWN_pronoun] was in [PAWN_possessive] late teens. [PAWN_possessive] body never recovered from the years of inactivity, but people tend to take pity on [PAWN_objective] when they hear [PAWN_possessive] story. -->
     <desc>Un accidente de la niñez puso a [PAWN_nameDef] en coma. [PAWN_pronoun] no se despertó hasta que ya había llegado a su adolescencia. Su cuerpo nunca se recuperó de los años de inactividad, pero al oír su historia, las personas tienden a compadecerse.</desc>
-  </ComaChild57>
+  </ComaChild93>
   
   <CombatEngineer30>
     <!-- EN: combat engineer -->
@@ -1676,10 +1749,10 @@
   </CombatNegotiator31>
   
   <CommonerHeir5>
-    <!-- EN: Commoner heir -->
+    <!-- EN: commoner heir -->
     <title>heredero común</title>
     <titleFemale>heredera común</titleFemale>
-    <!-- EN: Heir -->
+    <!-- EN: heir -->
     <titleShort>heredero</titleShort>
     <titleShortFemale>heredera</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a street urchin on a feudal steamworld.\n\n        After [PAWN_pronoun] tried to steal food from the palace, the emperor, desperate to secure an heir, took [PAWN_objective] in and groomed [PAWN_objective] to be next in line for the throne. -->
@@ -1687,10 +1760,10 @@
   </CommonerHeir5>
   
   <CommonerLord45>
-    <!-- EN: Commoner lord -->
+    <!-- EN: commoner lord -->
     <title>gran heredero</title>
     <titleFemale>gran heredera</titleFemale>
-    <!-- EN: Lord -->
+    <!-- EN: lord -->
     <titleShort>Lord</titleShort>
     <titleShortFemale>Dama</titleShortFemale>
     <!-- EN: After years of training in martial arts and diplomacy, [PAWN_nameDef] was eventually given land and subjects of [PAWN_possessive] own to rule.\n\n        Because of [PAWN_nameDef]'s commoner heritage, the other lords disapproved. They framed [PAWN_objective] for a heinous crime, and the emperor had no choice but to exile [PAWN_objective]. -->
@@ -1784,6 +1857,17 @@
     <!-- EN: Growing up in [PAWN_possessive] father's lab, [PAWN_nameDef] was given the life of an intellectual elite. [PAWN_pronoun] got everything [PAWN_pronoun] desired, and price was never an object.\n\nHowever [PAWN_nameDef] did not partake in the luxury given to him. Instead, [PAWN_pronoun] pursued more physical, and - in [PAWN_possessive] father's eyes - lower-class jobs. -->
     <desc>Creciendo en el laboratorio de su padre, a [PAWN_nameDef] le fue dada la vida de la élite intelectual. Se le dio todo lo que deseaba y el precio nunca era de importancia.\n\nSin embargo, [PAWN_nameDef] no tomó parte del lujo que se le ofrecía. Prefirió buscar trabajos más físicos y a los ojos de su padre, trabajos de clase baja.</desc>
   </ConstructionGrunt84>
+  
+  <ContractMiner86>
+    <!-- EN: contract miner -->
+    <title>minero contratado</title>
+    <titleFemale>minera contratada</titleFemale>
+    <!-- EN: contract miner -->
+    <titleShort>minero contratado</titleShort>
+    <titleShortFemale>minera contratada</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] moved from job to job, extracting minerals and ancient valuables in tunnels and strip-mines. The work was tough and dirty, but [PAWN_pronoun] found it rewarding. -->
+    <desc>[PAWN_nameDef] se trasladaba de un trabajo a otro, extrayendo minerales y objetos de valor antiguos en túneles y minas a cielo abierto. El trabajo era duro y sucio, pero le resultaba gratificante.</desc>
+  </ContractMiner86>
   
   <ConventChild16>
     <!-- EN: convent child -->
@@ -2201,6 +2285,17 @@
     <desc>[PAWN_nameDef] fabricó y plantó explosivos utilizados para romper las defensas enemigas. Tratar con explosivos todos los días [PAWN_objective]enseñó a mantener la cabeza nivelada y la mano firme.</desc>
   </Demolitionist39>
   
+  <DepartmentHead61>
+    <!-- EN: Department head -->
+    <title>jefe de departamento</title>
+    <titleFemale>jefa de departamento</titleFemale>
+    <!-- EN: Boss -->
+    <titleShort>jefe</titleShort>
+    <titleShortFemale>jefa</titleShortFemale>
+    <!-- EN: Seeking to satiate an unconscious thirst for power, [PAWN_nameDef] entered government. [PAWN_pronoun] rose through the ranks by ruining the careers of those around [PAWN_objective].\n\nOnce established, [PAWN_possessive] bureaucratic fief allowed him to get away with severe moral transgressions. -->
+    <desc>Buscando saciar una sed inconsciente de poder, [PAWN_nameDef] entró en el gobierno. Ascendió en el escalafón arruinando las carreras de los que le rodeaban.\n\nUna vez establecido, su feudo burocrático le permitió salirse con la suya en graves transgresiones morales.</desc>
+  </DepartmentHead61>
+  
   <Deserter65>
     <!-- EN: deserter -->
     <title>desertor</title>
@@ -2233,6 +2328,17 @@
     <!-- EN: [PAWN_nameDef] held the rank of Destroyer-General in a powerful midworld military.\n\n[PAWN_pronoun] was known for [PAWN_possessive] mastery of weapons, and was also a good ship pilot. -->
     <desc>[PAWN_nameDef] tenía el rango de General Destructo{PAWN_gender ? r : ra} en un poderoso ejército de un midworld.\n\n[PAWN_pronoun] era conocid{PAWN_gender ? o : a} por su dominio de las armas, y también era {PAWN_gender ? un buen : una buena} piloto de naves.</desc>
   </DestroyerGeneral26>
+  
+  <Digger31>
+    <!-- EN: digger -->
+    <title>excavador</title>
+    <titleFemale>excavadora</titleFemale>
+    <!-- EN: digger -->
+    <titleShort>excavador</titleShort>
+    <titleShortFemale>excavadora</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] labored in mines and caves, digging out spaces for storing items and hiding from threats. [PAWN_possessive] work provided hiding spots for [PAWN_possessive] friends on many occasions. -->
+    <desc>[PAWN_nameDef] trabajó en minas y cuevas, excavando espacios para almacenar objetos y esconderse de las amenazas. Su trabajo proporcionó escondites a sus amigos en muchas ocasiones.</desc>
+  </Digger31>
   
   <Digger66>
     <!-- EN: digger -->
@@ -2322,27 +2428,38 @@
     <desc>PAWN_nameDef] era {PAWN_gender ? un : una} oficial en un batallón imperial. [PAWN_pronoun] desarrolló las habilidades sociales y de combate para hacer bien su trabajo y fue respetad{PAWN_gender ? o : a} por los demás oficiales.\n\nCuando su unidad fue atacada directamente por primera vez, [PAWN_nameDef] huyó a un búnker y se escondió. [PAWN_pronoun] fue degradad{PAWN_gender ? o : a} y nunca escapó de la desgracia.</desc>
   </DisgracedOfficer19>
   
-  <DisplacedNoble83>
+  <DisplacedNoble67>
     <!-- EN: displaced noble -->
     <title>noble desplazado</title>
     <titleFemale>noble desplazada</titleFemale>
     <!-- EN: noble -->
     <titleShort>noble</titleShort>
     <titleShortFemale>noble</titleShortFemale>
-    <!-- EN: Born on an urbworld to the ruler of three megacities, [PAWN_nameDef]’s prospects looked good - until a violent insurrection overthrew [PAWN_possessive] family. Exile introduced [PAWN_nameDef] to hard work and combat, but some high-born squeamishness remains. -->
+    <!-- EN: Born on an urbworld to the ruler of three megacities, [PAWN_nameDef]'s prospects looked good - until a violent insurrection overthrew [PAWN_possessive] family. Exile introduced [PAWN_nameDef] to hard work and combat, but some high-born squeamishness remains. -->
     <desc>Nacid{PAWN_gender ? o : a} en un urbworld y siendo {PAWN_gender ? el : la} hij{PAWN_gender ? o : a} de un gobernante de tres megaciudades, las perspectivas de [PAWN_nameDef] parecían buenas - hasta que una insurrección violenta derrocó a su familia. El exilio introdujo a [PAWN_nameDef] al trabajo duro y al combate, pero sigue habiendo una cierta sensación de malestar.</desc>
-  </DisplacedNoble83>
+  </DisplacedNoble67>
   
-  <DoomsdayPariah24>
+  <DivorceKid95>
+    <!-- EN: divorce kid -->
+    <title>niño de divorcio</title>
+    <titleFemale>niña de divorcio</titleFemale>
+    <!-- EN: divorce -->
+    <titleShort>divorcio</titleShort>
+    <titleShortFemale>divorcio</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] was fortunate enough to attend one of the best private schools on [PAWN_possessive] homeworld.\n\n[PAWN_nameDef] was also unfortuante enough to see [PAWN_possessive] parents separate at a young age. -->
+    <desc>[PAWN_nameDef] tuvo la suerte de asistir a una de las mejores escuelas privadas de su mundo natal.\n\n[PAWN_nameDef] también tuvo la desgracia de ver a sus padres separados cuando aún era muy joven.</desc>
+  </DivorceKid95>
+  
+  <DoomsdayPariah18>
     <!-- EN: doomsday pariah -->
     <title>paria destructor</title>
     <titleFemale>paria destructora</titleFemale>
     <!-- EN: pariah -->
     <titleShort>paria</titleShort>
     <titleShortFemale>paria</titleShortFemale>
-    <!-- EN: [PAWN_nameDef] managed to open a vault of otherworldly technology while scavenging a dig site. [PAWN_pronoun] unwittingly triggered a doomsday device that cleansed the planet of all life. More interested in the tech than human life, [PAWN_pronoun] boarded the vault’s spacecraft and departed to find more relics to abuse. -->
+    <!-- EN: [PAWN_nameDef] managed to open a vault of otherworldly technology while scavenging a dig site. [PAWN_pronoun] unwittingly triggered a doomsday device that cleansed the planet of all life. More interested in the tech than human life, [PAWN_pronoun] boarded the vault's spacecraft and departed to find more relics to abuse. -->
     <desc>[PAWN_nameDef] logró abrir una bóveda de tecnología antigua mientras excavaba en unas ruinas. [PAWN_pronoun] activó, sin querer, un aparato apocalíptico que borró toda la vida del planeta. Con más interés en la tecnología que en la vida humana, [PAWN_pronoun] abordó una nave que había en la bóveda y despegó para buscar más reliquias.</desc>
-  </DoomsdayPariah24>
+  </DoomsdayPariah18>
   
   <DreadedBaby56>
     <!-- EN: dreaded baby -->
@@ -2531,6 +2648,17 @@
     <desc>En su juventud, [PAWN_nameDef] experimentó un renacimiento religioso. [PAWN_pronoun] decidió pasar el resto de su vida esparciendo la palabra de su deidad, la belleza de su cultura y su inusual tradición médica.</desc>
   </Evangelist39>
   
+  <Excavator55>
+    <!-- EN: excavator -->
+    <title>excavador</title>
+    <titleFemale>excavadora</titleFemale>
+    <!-- EN: excavator -->
+    <titleShort>excavador</titleShort>
+    <titleShortFemale>excavadora</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] worked at dig sites, extracting valuable items and materials from ancient compacted ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools. -->
+    <desc>[PAWN_nameDef] trabajó en excavaciones, extrayendo objetos y materiales valiosos de antiguas ruinas compactadas. Aprendió a detectar objetos de valor en el suelo y a utilizar diversas herramientas de excavación.</desc>
+  </Excavator55>
+  
   <ExecutiveOfficer5>
     <!-- EN: executive officer -->
     <title>oficinista ejecutivo</title>
@@ -2563,6 +2691,17 @@
     <!-- EN: [PAWN_nameDef]'s love of robotics was not appreciated in [PAWN_possessive] technophobic empire. The High Cardinal of the system excommunicated her, and [PAWN_pronoun] was never allowed to return. -->
     <desc>El amor de [PAWN_nameDef] por la robótica no fue apreciado en su imperio tecnófobo. El Alto Cardenal del sistema [PAWN_objective] excomulgó, y nunca se le permitió regresar.</desc>
   </ExiledResearcher44>
+  
+  <ExMilitary9>
+    <!-- EN: ex-military -->
+    <title>ex militar</title>
+    <titleFemale>ex militar</titleFemale>
+    <!-- EN: ex-military -->
+    <titleShort>ex militar</titleShort>
+    <titleShortFemale>ex militar</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] always had an appetite for risk. Military life satisfied that need for a while, but eventually it wasn't enough.\n\nSeeking greater gambles, [PAWN_nameDef] took an offer from a mysterious machine persona and traveled to an unknown rimworld with a mysterious implant in [PAWN_possessive] head. -->
+    <desc>[PAWN_nameDef] siempre tuvo apetito de riesgo. La vida militar satisfizo esa necesidad durante un tiempo, pero finalmente no fue suficiente.n\nEn busca de mayores riesgos, [PAWN_nameDef] aceptó una oferta de una misteriosa IA y viajó a un rimworld desconocido con un misterioso implante en la cabeza.</desc>
+  </ExMilitary9>
   
   <ExoticChef96>
     <!-- EN: exotic chef -->
@@ -2888,6 +3027,17 @@
     <desc>Cuando [PAWN_nameDef] era {PAWN_gender ? un : una} bebé, su madre se volvió loca y se fue al bosque. Criad{PAWN_gender ? o : a} por gente salvaje, [PAWN_nameDef] era conocid{PAWN_gender ? o : a} tanto por amar a los animales como por matarlos.</desc>
   </ForestChild83>
   
+  <Forester96>
+    <!-- EN: forester -->
+    <title>guardabosque</title>
+    <titleFemale>guardabosque</titleFemale>
+    <!-- EN: forester -->
+    <titleShort>guardabosque</titleShort>
+    <titleShortFemale>guardabosque</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] grew and harvested forests. [PAWN_pronoun] understood both the practical challenges of soil types, wind, and rain, as well as the long-term planning of forest growth. -->
+    <desc>[PAWN_nameDef] cultivaba y cosechaba los bosques. Entendía tanto los desafíos prácticos de los tipos de suelo, el viento y la lluvia, como la planificación a largo plazo del crecimiento de los bosques.</desc>
+  </Forester96>
+  
   <ForestProwler15>
     <!-- EN: forest prowler -->
     <title>merodeador forestal</title>
@@ -2973,8 +3123,19 @@
     <titleShort>prófugo</titleShort>
     <titleShortFemale>prófuga</titleShortFemale>
     <!-- EN: [PAWN_nameDef] rebelled against the corporation [PAWN_pronoun] worked for. [PAWN_pronoun] failed, and was forced [PAWN_objective] to go on the run.\n\n[PAWN_pronoun] was always on the move, always leaving everything behind. [PAWN_pronoun] tried to gain supporters for [PAWN_possessive] cause, but failed due to [PAWN_possessive] poor social skills. -->
-    <desc>[PAWN_nameDef] se rebeló contra la corporación para la que trabajaba. [PAWN_pronoun] fracasó, y [PAWN_objective] obligaron a huir.\n\n[PAWN_pronoun] siempre estaba en movimiento, siempre dejándolo todo atrás. Intentó ganar partidarios para su causa, pero fracasó debido a sus pobres habilidades sociales.</desc>
+    <desc>[PAWN_nameDef] se rebeló contra la corporación para la que trabajaba. Fracasó, y [PAWN_objective] obligaron a huir.\n\n[PAWN_pronoun] siempre estaba en movimiento, siempre dejándolo todo atrás. Intentó ganar partidarios para su causa, pero fracasó debido a sus pobres habilidades sociales.</desc>
   </Fugitive4>
+  
+  <FurnitureBuilder50>
+    <!-- EN: furniture builder -->
+    <title>fabricante de muebles</title>
+    <titleFemale>fabricante de muebles</titleFemale>
+    <!-- EN: builder -->
+    <titleShort>fabricante</titleShort>
+    <titleShortFemale>fabricante</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent his time building beautiful furniture for wealthy glitterworld clients. -->
+    <desc>[PAWN_nameDef] creció cerca de los bosques. Pasó su vida construyendo hermosos muebles para los clientes ricos de glitterworld.</desc>
+  </FurnitureBuilder50>
   
   <GalacticPage37>
     <!-- EN: galactic page -->
@@ -3232,16 +3393,16 @@
     <desc>[PAWN_nameDef] fue diseñad{PAWN_gender ? o : a} en un laboratorio como parte del Proyecto G-nomo. Fue implantad{PAWN_gender ? o : a} al nacer con conocimiento enciclopédico de todos los aspectos de la xenobiología.\n\nLos científicos del G-nomo [PAWN_objective] apodaron Gizm{PAWN_gender ? o : a} y [PAWN_objective] ocuparon con esculpir. Desarrolló el amor por la escultura de gnomos y accesorios gnomos.</desc>
   </GNomeSculptor34>
   
-  <GovernmentAgent47>
+  <GovernmentAgent61>
     <!-- EN: government agent -->
     <title>agente gubernamental</title>
     <titleFemale>agente gubernamental</titleFemale>
     <!-- EN: agent -->
     <titleShort>agente</titleShort>
     <titleShortFemale>agente</titleShortFemale>
-    <!-- EN: [PAWN_nameDef] worked for the government against rebel groups and excelled in this capacity. During [PAWN_possessive] training [PAWN_pronoun] was taught firearms, melee combat and medical skills.\n\nHaving grown up in a war-ravaged city, dirt, blood and dead bodies don’t bother [PAWN_objective] and [PAWN_pronoun] sees no reason to clean them up. -->
+    <!-- EN: [PAWN_nameDef] worked for the government against rebel groups and excelled in this capacity. During [PAWN_possessive] training [PAWN_pronoun] was taught firearms, melee combat and medical skills.\n\nHaving grown up in a war-ravaged city, dirt, blood and dead bodies don't bother [PAWN_objective] and [PAWN_pronoun] sees no reason to clean them up. -->
     <desc>[PAWN_nameDef] trabajó para el gobierno contra los grupos rebeldes y sobresalió en esta capacidad. Durante su entrenamiento, se le enseñó el manejo de armas de fuego, combate cuerpo a cuerpo y habilidades médicas.\n\nHabiendo crecido en una ciudad devastada por la guerra, la suciedad, la sangre y los cadáveres no le molestan y [PAWN_pronoun] no tenia ninguna razón para limpiarlos.</desc>
-  </GovernmentAgent47>
+  </GovernmentAgent61>
   
   <GraphicDesigner33>
     <!-- EN: graphic designer -->
@@ -3253,6 +3414,17 @@
     <!-- EN: [PAWN_nameDef]' interest in artistic expression led [PAWN_objective] to become a designer. [PAWN_possessive] eye for detail made [PAWN_objective] a reasonably well-known artist on [PAWN_possessive] planet, though [PAWN_possessive] meticulousness often led [PAWN_objective] to spend too much time perfecting a single project. -->
     <desc>El interés de [PAWN_nameDef] en la expresión artística [PAWN_objective] llevó a convertirse en {PAWN_gender ? diseñador gráfico : diseñadora gráfica}. Su atención al detalle [PAWN_objective] volvió {PAWN_gender ? un : una} artista razonablemente conocid{PAWN_gender ? o : a} en su planeta, aunque su perfeccionismo le hacía tardarse mucho en cada proyecto.</desc>
   </GraphicDesigner33>
+  
+  <GrownMate56>
+    <!-- EN: grown mate -->
+    <title>acompañante</title>
+    <titleFemale>acompañante</titleFemale>
+    <!-- EN: mate -->
+    <titleShort>acompañante</titleShort>
+    <titleShortFemale>acompañante</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] was vatgrown in a hyper-expensive clinic to serve the tastes of a specific client.\n\nEngineered, raised and trained as a perfect pleasure-giving mate, [PAWN_pronoun] learned skills that would baffle even the most seductive baseline human lovers. -->
+    <desc>[PAWN_nameDef] fue cultivad{PAWN_gender ? o : a} en una clínica hiper costosa para servir a los gustos de un cliente específico.\n\n{PAWN_gender ? Diseñado, criado y entrenado : Diseñada, criada y entrenada} como {PAWN_gender ? un compañero perfecto : una compañera perfecta} para dar placer, aprendió habilidades que desconcertarían incluso a los amantes humanos no cultivados más seductores.</desc>
+  </GrownMate56>
   
   <Guardian55>
     <!-- EN: guardian -->
@@ -3351,17 +3523,6 @@
     <desc>Conectad{PAWN_gender ? o : a} a la computadora por una conexión a la cabeza, por días, [PAWN_nameDef] encontró que prefería la compañía de computadoras a la de la gente o de animales domésticos.</desc>
   </HeadjackAddict4>
   
-  <Healer0>
-    <!-- EN: healer -->
-    <title>curandero</title>
-    <titleFemale>curandera</titleFemale>
-    <!-- EN: healer -->
-    <titleShort>curandero</titleShort>
-    <titleShortFemale>curandera</titleShortFemale>
-    <!-- EN: After [PAWN_possessive] tribe’s elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies. -->
-    <desc>Después de que el anciano curandero de su tribu fuera asesinado en una incursión, [PAWN_nameDef] asumió el papel de curander{PAWN_gender ? o : a}. Pasó sus días recogiendo hierbas y compuestos minerales de la zona cercana para utilizarlos en remedios sorprendentemente eficaces.</desc>
-  </Healer0>
-  
   <Healer35>
     <!-- EN: healer -->
     <title>sanador</title>
@@ -3372,6 +3533,17 @@
     <!-- EN: [PAWN_nameDef] took the time to admire the beauty of the world. \n\n[PAWN_possessive] passive-aggressiveness surfaced once in a while, but [PAWN_pronoun] tried to adapt to [PAWN_possessive] changing life. -->
     <desc>[PAWN_nameDef] se tomó el tiempo de admirar la belleza del mundo.\n\nSu agresividad pasiva surgió de vez en cuando, pero trató de adaptarse a su vida cambiante.</desc>
   </Healer35>
+  
+  <Healer46>
+    <!-- EN: healer -->
+    <title>curandero</title>
+    <titleFemale>curandera</titleFemale>
+    <!-- EN: healer -->
+    <titleShort>curandero</titleShort>
+    <titleShortFemale>curandera</titleShortFemale>
+    <!-- EN: After [PAWN_possessive] tribe's elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies. -->
+    <desc>Después de que el anciano curandero de su tribu fuera asesinado en una incursión, [PAWN_nameDef] asumió el papel de curander{PAWN_gender ? o : a}. Pasó sus días recogiendo hierbas y compuestos minerales de la zona cercana para utilizarlos en remedios sorprendentemente eficaces.</desc>
+  </Healer46>
   
   <HearthTender66>
     <!-- EN: hearth tender -->
@@ -3427,6 +3599,17 @@
     <!-- EN: [PAWN_nameDef] tended the muffalo herds, keeping them safe from predators and treating sick animals. It was quiet work, but [PAWN_pronoun] enjoyed being away from people. -->
     <desc>En su niñez, [PAWN_nameDef] atendía los rebaños de múfalos de la tribu, manteniéndolos a salvo de depredadores y atendiendo a los enfermos. Era un trabajo solitario, pero [PAWN_pronoun] disfrutaba estar lejos de la gente.</desc>
   </Herder19>
+  
+  <Herder33>
+    <!-- EN: herder -->
+    <title>pastor</title>
+    <titleFemale>pastora</titleFemale>
+    <!-- EN: herder -->
+    <titleShort>pastor</titleShort>
+    <titleShortFemale>pastora</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail. -->
+    <desc>[PAWN_nameDef] pastoreaba una variedad de animales para ayudar a alimentar y vestir a su tribu mientras se desplazaba. [PAWN_nameDef] aprendió a calmar y dirigir a las bestias, y a cazar su propia comida en el camino.</desc>
+  </Herder33>
   
   <Hermit82>
     <!-- EN: hermit -->
@@ -3525,16 +3708,16 @@
     <desc>Sabiendo cómo era realmente la vida en las calles, [PAWN_nameDef] se metió en el trabajo policial. Sin embargo, un caso particularmente perturbador terminó con PAWN_pronoun] golpeando al perpetrador hasta matarlo a golpes.\n\nDespedid{PAWN_gender ? o : a} deshonrosamente de sus deberes, utilizó sus contactos y habilidades para encontrar trabajo como {PAWN_gender ? matón a sueldo : matona a sueldo}.</desc>
   </HiredMuscle5>
   
-  <HistoryStudent78>
+  <HistoryStudent12>
     <!-- EN: history student -->
     <title>estudiante de historia</title>
     <titleFemale>estudiante de historia</titleFemale>
     <!-- EN: student -->
     <titleShort>estudiante</titleShort>
     <titleShortFemale>estudiante</titleShortFemale>
-    <!-- EN: As a child, [PAWN_nameDef] spent learned many artistic forms including music and novel writing. As [PAWN_pronoun] grew older, [PAWN_pronoun] began to study legends from [PAWN_possessive] home world - legends of the lizard-like beings at the center of [PAWN_possessive] culture's folklore. -->
+    <!-- EN: As a child, [PAWN_nameDef] learned many artistic forms including music and novel writing. As [PAWN_pronoun] grew older, [PAWN_pronoun] began to study legends from [PAWN_possessive] home world - legends of the lizard-like beings at the center of [PAWN_possessive] culture's folklore. -->
     <desc>Cuando era niñ{PAWN_gender ? o : a}, [PAWN_nameDef] se la pasó aprendiendo muchas formas artísticas incluyendo música y escritura de novelas. A medida que creció, comenzó a estudiar leyendas de su mundo natal: leyendas de los seres parecidos a la lagartija en el centro del folclore de su cultura.</desc>
-  </HistoryStudent78>
+  </HistoryStudent12>
   
   <Housemate8>
     <!-- EN: housemate -->
@@ -3615,6 +3798,17 @@
     <desc>[PAWN_nameDef] rastreaba, atrapaba y mataba a los animales por su carne y su cuero.\n\n[PAWN_nameDef] usó tanto armas de distancia como de combate cuerpo a cuerpo. A veces, [PAWN_pronoun] cazaba junto a los animales.</desc>
   </Hunter74>
   
+  <Hunter89>
+    <!-- EN: hunter -->
+    <title>cazador</title>
+    <titleFemale>cazadora</titleFemale>
+    <!-- EN: hunter -->
+    <titleShort>cazador</titleShort>
+    <titleShortFemale>cazadora</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] hunted wild animals to help feed [PAWN_possessive] community. When times became tough, others looked to [PAWN_objective] as the one to help people through a tough season. -->
+    <desc>[PAWN_nameDef] cazaba animales salvajes para ayudar a alimentar a su comunidad. Cuando los tiempos se volvieron difíciles, otros [PAWN_objective] buscaron para que ayudara a la gente en una temporada difícil.</desc>
+  </Hunter89>
+  
   <HunterOfTheKing53>
     <!-- EN: hunter of the king -->
     <title>cazador del rey</title>
@@ -3638,10 +3832,10 @@
   </HunterScavenger64>
   
   <HypnocultLeader61>
-    <!-- EN: Hypnocult leader -->
+    <!-- EN: hypnocult leader -->
     <title>líder hipnoculturista</title>
     <titleFemale>líder hipnoculturista</titleFemale>
-    <!-- EN: Cultist -->
+    <!-- EN: cultist -->
     <titleShort>cultista</titleShort>
     <titleShortFemale>cultista</titleShortFemale>
     <!-- EN: Desiring to understand people, [PAWN_nameDef] learned hypnotism and discovered [PAWN_possessive] talent for the art.\n\n        [PAWN_pronoun] gathered followers and formed a cult around [PAWN_possessive] vibrant personality. The authorities discovered [PAWN_possessive] illegal operations, and [PAWN_nameDef] fled before [PAWN_pronoun] could be arrested. -->
@@ -3802,6 +3996,17 @@
     <desc>[PAWN_nameDef] se embarcó en una nave al siguiente sistema de estrellas y comenzó una vida de viajes y aprendizaje, recopilando rápidamente un enorme banco de conocimientos de personas de todas las formas y tamaños.\n\n[PAWN_pronoun] aprendió a vender este conocimiento con grandes ganancias, y se convirtió en {PAWN_gender ? un : una} poderos{PAWN_gender ? o : a} agente de información.</desc>
   </InformationBroker77>
   
+  <InsuranceBroker9>
+    <!-- EN: insurance broker -->
+    <title>corredor de seguros</title>
+    <titleFemale>corredora de seguros</titleFemale>
+    <!-- EN: broker -->
+    <titleShort>corredor</titleShort>
+    <titleShortFemale>corredora</titleShortFemale>
+    <!-- EN: A life of insurance dealing consumed [PAWN_nameDef]'s hopes and dreams. When a mysterious machine persona offered the gambler implant, it seemed like a way to add color to a gray existence.\n\n[PAWN_nameDef] did not, however, plan on being captured by pirates and sent across the galaxy to a distant rimworld. -->
+    <desc>Una vida de negocios con seguros consumió las esperanzas y los sueños de [PAWN_nameDef]. Cuando una misteriosa IA le ofreció el implante de jugador, le pareció una forma de dar color a una existencia gris.\n\nSin embargo, [PAWN_nameDef] no planeaba ser capturad{PAWN_gender ? o : a} por piratas y enviad{PAWN_gender ? o : a} a través de la galaxia a un lejano rimworld.</desc>
+  </InsuranceBroker9>
+  
   <IntelligenceAgent10>
     <!-- EN: intelligence agent -->
     <title>agente de inteligencia</title>
@@ -3842,16 +4047,16 @@
     <desc>En su mundo natal, [PAWN_nameDef] trabajó como {PAWN_gender ? un inventor : una inventora} moderadamente exitos{PAWN_gender ? o : a}. [PAWN_pronoun] desarrolló varias tecnologías menores.</desc>
   </Inventor6>
   
-  <InvoluntaryHermit24>
+  <InvoluntaryHermit38>
     <!-- EN: involuntary hermit -->
     <title>ermitaño involuntario</title>
     <titleFemale>ermitaña involuntaria</titleFemale>
     <!-- EN: hermit -->
     <titleShort>ermitaño</titleShort>
     <titleShortFemale>ermitaña</titleShortFemale>
-    <!-- EN: [PAWN_nameDef]’s escape pod was jettisoned onto an unexplored region of a frontier world. [PAWN_pronoun] eked out a lonely existence with only a herd of muffalo for company.\n \nLater, [PAWN_pronoun] was spotted clad in pygmy wombat furs, discussing the importance of hoof hygiene with a group of elderly muffalo. -->
+    <!-- EN: [PAWN_nameDef]'s escape pod was jettisoned onto an unexplored region of a frontier world. [PAWN_pronoun] eked out a lonely existence with only a herd of muffalo for company.\n \nLater, [PAWN_pronoun] was spotted clad in pygmy wombat furs, discussing the importance of hoof hygiene with a group of elderly muffalo. -->
     <desc>La cápsula de escape de [PAWN_nameDef] fue desechada en una región inexplorada de un mundo fronterizo. Tuvo una existencia solitaria con solamente una manada del múfalos por compañía.\n\nMás tarde, fue vist{PAWN_gender ? o : a} vestid{PAWN_gender ? o : a} de pieles de vombátido pigmeo, discutiendo la importancia de la higiene de los cascos con un grupo de múfalos ancianos.</desc>
-  </InvoluntaryHermit24>
+  </InvoluntaryHermit38>
   
   <Jailbird40>
     <!-- EN: jailbird -->
@@ -3884,16 +4089,16 @@
     <desc>[PAWN_nameDef] trabajó en un laboratorio de un urbworld desarrollando programas de alegrialambre de vanguardia para maximizar el placer del usuario.\n\nCuando el gobierno local impuso duras restricciones a la manufactura de alegrialambres, [PAWN_pronoun] empezó a vender sus producto en el mercado negro.</desc>
   </JoywireArtist8>
   
-  <JungleKid31>
+  <JungleKid35>
     <!-- EN: jungle kid -->
     <title>niño de la jungla</title>
     <titleFemale>niña de la jungla</titleFemale>
     <!-- EN: jungle kid -->
     <titleShort>niño jungla</titleShort>
     <titleShortFemale>niña jungla</titleShortFemale>
-    <!-- EN: [PAWN_nameDef] was abandoned as a newborn, and grew up among the animals of [PAWN_possessive] homeworld’s dense jungles.\n\nWhen [PAWN_pronoun] was a teenager, a traveling doctor found [PAWN_objective] injured near a road, hissing and meowing. [PAWN_pronoun] rescued [PAWN_objective] and took [PAWN_objective] on as an apprentice. -->
+    <!-- EN: [PAWN_nameDef] was abandoned as a newborn, and grew up among the animals of [PAWN_possessive] homeworld's dense jungles.\n\nWhen [PAWN_pronoun] was a teenager, a traveling doctor found [PAWN_objective] injured near a road, hissing and meowing. [PAWN_pronoun] rescued [PAWN_objective] and took [PAWN_objective] on as an apprentice. -->
     <desc>[PAWN_nameDef] fue abandonad{PAWN_gender ? o : a} al nacer y creció entre los animales de las densas selvas de su mundo natal.\n\nCuando [PAWN_pronoun] era adolescente, un médico ambulante [PAWN_objective] encontró herid{PAWN_gender ? o : a} cerca de una carretera, siseando y maullando. [PAWN_objective] rescató y [PAWN_objective] tomó como aprendiz.</desc>
-  </JungleKid31>
+  </JungleKid35>
   
   <JunkyardMechanic51>
     <!-- EN: junkyard mechanic -->
@@ -3988,6 +4193,17 @@
     <desc>[PAWN_nameDef] desarrolló de forma independiente un software que tenía una ventaja competitiva frente a las corporaciones locales de un urbworld.\n\nUsó métodos legalmente cuestionables que [PAWN_objective] llevaron a tener un número creciente de demandas no resueltas de robo de propiedad intelectual.</desc>
   </LazyProgrammer3>
   
+  <LazyWorker78>
+    <!-- EN: lazy worker -->
+    <title>trabajador vago</title>
+    <titleFemale>trabajadora vaga</titleFemale>
+    <!-- EN: lazy worker -->
+    <titleShort>trabajador vago</titleShort>
+    <titleShortFemale>trabajadora vaga</titleShortFemale>
+    <!-- EN: When [PAWN_nameDef] was offered [PAWN_possessive] yearly salary in order to test a new implant, [PAWN_pronoun] jumped at the chance. Ever since then, [PAWN_nameDef] has been looking for a way to get it removed. -->
+    <desc>Cuando a [PAWN_nameDef] le ofrecieron su salario anual para probar un nuevo implante, aprovechó la oportunidad. Desde entonces, [PAWN_pronoun] ha estado buscando la manera de quitárselo.</desc>
+  </LazyWorker78>
+  
   <LineInfanteer20>
     <!-- EN: line infanteer -->
     <title>soldado de ifantería</title>
@@ -4018,6 +4234,17 @@
     <!-- EN: [PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo. -->
     <desc>[PAWN_nameDef] cortó árboles y arrastró su madera de regreso a la tribu. [PAWN_pronoun] empuñaba su hacha con la delicadeza de un artista y la fuerza de un múfalo.</desc>
   </Logger16>
+  
+  <Logger95>
+    <!-- EN: logger -->
+    <title>leñador</title>
+    <titleFemale>leñadora</titleFemale>
+    <!-- EN: logger -->
+    <titleShort>leñador</titleShort>
+    <titleShortFemale>leñadora</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] took down trees and collected wood in hilly passes and ravines. [PAWN_pronoun] learned both how to fell the trees safely, and how to manage the forest to keep it healthy. -->
+    <desc>[PAWN_nameDef] derribó árboles y recogió madera en puertos y barrancos. aprendió tanto a derribar los árboles con seguridad como a gestionar el bosque para mantenerlo sano.</desc>
+  </Logger95>
   
   <LogicalChild2>
     <!-- EN: logical child -->
@@ -4144,17 +4371,6 @@
     <desc>Como contador{PAWN_gender ? : a}, [PAWN_nameDef] a menudo socializaba con sus colegas e hizo muchos amigos en la gerencia.\n\nUn día, [PAWN_nameDef] descubrió una estafa de corrupción dirigida por algunos de sus jefes. Después de reportar esto, fue despedid{PAWN_gender ? o : a}. Deseando cazar a los responsables, empezó una ola de asesinatos en masa.</desc>
   </MadAccountant61>
   
-  <MadScientist0>
-    <!-- EN: mad scientist -->
-    <title>científico loco</title>
-    <titleFemale>científica loca</titleFemale>
-    <!-- EN: scientist -->
-    <titleShort>científico</titleShort>
-    <titleShortFemale>científica</titleShortFemale>
-    <!-- EN: Stripped of [PAWN_possessive] life’s work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.\n\nContinuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him. -->
-    <desc>Despojad{PAWN_gender ? o : a} del trabajo de su vida y exiliad{PAWN_gender ? o : a} después de que se publicaran sus experimentos poco éticos con los supervivientes del incidente de Callos IX, [PAWN_nameDef] aprendió las habilidades necesarias para sobrevivir en el borde exterior.\n\nContinuando su investigación sin nada que perder, hizo subordinados para llevar a cabo las tareas que le aburrían.</desc>
-  </MadScientist0>
-  
   <MadScientist2>
     <!-- EN: mad scientist -->
     <title>científico loco</title>
@@ -4165,6 +4381,17 @@
     <!-- EN: [PAWN_nameDef]'s lust for knowledge was only matched by [PAWN_possessive] disdain for anyone who would stand in the way of [PAWN_possessive] research.\n\nTraveling from world to world, [PAWN_pronoun] sought answers to questions few dared to ask. -->
     <desc>La ansia de conocimiento de [PAWN_nameDef] solo se correspondía con el desdén por cualquiera que se interpusiera en el camino de su investigación.\n\nViajando de un mundo a otro, buscó respuestas a preguntas que pocos se atrevieron a hacer.</desc>
   </MadScientist2>
+  
+  <MadScientist22>
+    <!-- EN: mad scientist -->
+    <title>científico loco</title>
+    <titleFemale>científica loca</titleFemale>
+    <!-- EN: scientist -->
+    <titleShort>científico</titleShort>
+    <titleShortFemale>científica</titleShortFemale>
+    <!-- EN: Stripped of [PAWN_possessive] life's work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.\n\nContinuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him. -->
+    <desc>Despojad{PAWN_gender ? o : a} del trabajo de su vida y exiliad{PAWN_gender ? o : a} después de que se publicaran sus experimentos poco éticos con los supervivientes del incidente de Callos IX, [PAWN_nameDef] aprendió las habilidades necesarias para sobrevivir en el borde exterior.\n\nContinuando su investigación sin nada que perder, hizo subordinados para llevar a cabo las tareas que le aburrían.</desc>
+  </MadScientist22>
   
   <MadScientist31>
     <!-- EN: mad scientist -->
@@ -4431,9 +4658,9 @@
   </MedievalMinstrel95>
   
   <MedievalNomad12>
-    <!-- EN: Medieval nomad -->
+    <!-- EN: medieval nomad -->
     <title>nómada medieval</title>
-    <!-- EN: Nomad -->
+    <!-- EN: nomad -->
     <titleShort>nómada</titleShort>
     <!-- EN: Born to a nomadic family in a feudal society, [PAWN_nameDef] was instructed in the arts of speechcraft, sleight of hand, horse riding.\n\n        [PAWN_pronoun] was always running around the camp doing odd jobs to help [PAWN_possessive] extended family. -->
     <desc>Nació en una familia nómada en una sociedad feudal, [PAWN_nameDef] recibió instrucción en artes del discurso, juegos de manos, equitación.\n\n[PAWN_pronoun] siempre corría por el campamento haciendo trabajos extraños para ayudar a su extensa familia.</desc>
@@ -4559,10 +4786,10 @@
   </Mercenary55>
   
   <MercenaryCaptain98>
-    <!-- EN: Mercenary captain -->
+    <!-- EN: mercenary captain -->
     <title>capitán mercenario</title>
     <titleFemale>capitana mercenaria</titleFemale>
-    <!-- EN: Captain -->
+    <!-- EN: captain -->
     <titleShort>capitán</titleShort>
     <titleShortFemale>capitana</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was in the crew of a mercenary ship. Disciplined and confident, [PAWN_pronoun] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the joywires. -->
@@ -4621,16 +4848,16 @@
     <desc>Nació en el seno de una larga línea de mercenarios, [PAWN_nameDef] creció en un concurrido centro comercial. Desde muy joven, [PAWN_pronoun] fue reclutad{PAWN_gender ? o : a} por una de las pandillas mercenarias.</desc>
   </MercenaryRecruit18>
   
-  <MercenaryRecruit64>
+  <MercenaryRecruit36>
     <!-- EN: mercenary recruit -->
     <title>recluta mercenario</title>
     <titleFemale>recluta mercenaria</titleFemale>
     <!-- EN: mercenary -->
     <titleShort>mercenario</titleShort>
     <titleShortFemale>mercenaria</titleShortFemale>
-    <!-- EN: Descended from a long line of mercenaries, [PAWN_nameDef] grew up in a busy trading hub.\n\n[PAWN_possessive]'s interest in the foreign goods at the market often distracted [PAWN_objective] from [PAWN_possessive] chores and training. -->
+    <!-- EN: Descended from a long line of mercenaries, [PAWN_nameDef] grew up in a busy trading hub.\n\n[PAWN_possessive] interest in the foreign goods at the market often distracted [PAWN_objective] from [PAWN_possessive] chores and training. -->
     <desc>Descendiente de una gran línea de mercenarios excepcionales, [PAWN_nameDef] creció en un planeta comercial muy transitado.\n\nSu interés por los artículos extranjeros en el mercado a menudo [PAWN_objective] distraían de su deberes y entrenamiento.</desc>
-  </MercenaryRecruit64>
+  </MercenaryRecruit36>
   
   <MessageCarrier77>
     <!-- EN: message carrier -->
@@ -5200,10 +5427,10 @@
   </Orphan25>
   
   <OrphanedAcrobat84>
-    <!-- EN: Orphaned acrobat -->
+    <!-- EN: orphaned acrobat -->
     <title>acróbata huérfano</title>
     <titleFemale>acróbata huérfana</titleFemale>
-    <!-- EN: Acrobat -->
+    <!-- EN: acrobat -->
     <titleShort>acróbata</titleShort>
     <!-- EN: Born a quiet urbworld orphan, [PAWN_nameDef] was invited to join a traveling circus. [PAWN_possessive] small size and observant nature helped [PAWN_nameDef] become a noted acrobat.\n\nUnfortunately, [PAWN_possessive] violent tendencies brought [PAWN_possessive] acrobatic career to an early end. -->
     <desc>Nació en un orfanato de un urbworld, [PAWN_nameDef] recibió una invitación para unirse a un circo ambulante. Su pequeño tamaño y su naturaleza observadora ayudaron a [PAWN_nameDef] a convertirse en {PAWN_gender ? un : una} notable acróbata.\n\nDesafortunadamente sus tendencias violentas pusieron fin a su carrera acrobática.</desc>
@@ -5307,6 +5534,17 @@
     <desc>[PAWN_nameDef] pasó la mayor parte de su infancia cuidando a los animales, comprados o rescatados.\n\n[PAWN_pronoun] vio la belleza en las cosas naturales más que en objetos fabricados, y eligió la compañía de sus animales en lugar de la de sus pares.</desc>
   </PetKeeper7>
   
+  <PetTorturer60>
+    <!-- EN: pet torturer -->
+    <title>torturador de animales</title>
+    <titleFemale>torturadora de animales</titleFemale>
+    <!-- EN: pet torturer -->
+    <titleShort>torturador de animales</titleShort>
+    <titleShortFemale>torturadora de animales</titleShortFemale>
+    <!-- EN: [PAWN_nameDef]'s affluent family helped conceal [PAWN_possessive] habit of torturing animals.\n\nDespite years of therapy, [PAWN_pronoun] could never bring [PAWN_objective]self to interact with the little beasts in any normal way. [PAWN_pronoun] did learn a few things about how bodies live and die. -->
+    <desc>La acomodada familia de [PAWN_nameDef] ayudó a ocultar su hábito de torturar animales.\n\nA pesar de los años de terapia, nunca se atrevió a interactuar con las pequeñas bestias de una manera normal. [PAWN_pronoun] aprendió algunas cosas sobre cómo viven y mueren los cuerpos.</desc>
+  </PetTorturer60>
+  
   <Philosopher82>
     <!-- EN: philosopher -->
     <title>filósofo</title>
@@ -5403,14 +5641,14 @@
     <desc>[PAWN_nameDef] tenía pasión por la medicina, pero nunca se molestó en obtener un título en medicina. Solo piratas y terroristas con poco dinero estaban lo suficientemente desesperados como para contratar sus servicios, y sus pacientes quirúrgicos tenían una tasa de supervivencia de alrededor del 50%.\n\nA pesar de esto, su actitud optimista [PAWN_objective] llevó a seguir intentando curar a los necesitados. Mientras pagaran por adelantado, claro esta.</desc>
   </PirateDoctor0>
   
-  <PirateKing81>
+  <PirateKing69>
     <!-- EN: pirate king -->
     <title>rey pirata</title>
     <!-- EN: pirate -->
     <titleShort>pirata</titleShort>
-    <!-- EN: With no real care for other people, [PAWN_nameDef] fit in perfectly with the pirate crew that had once held [PAWN_objecive] captive. Shortly after joining the crew, [PAWN_nameDef] began to kill anyone or anything that got in [PAWN_possessive] way—including [PAWN_possessive] crewmates. -->
+    <!-- EN: With no real care for other people, [PAWN_nameDef] fit in perfectly with the pirate crew that had once held [PAWN_objective] captive. Shortly after joining the crew, [PAWN_nameDef] began to kill anyone or anything that got in [PAWN_possessive] way—including [PAWN_possessive] crewmates. -->
     <desc>Al carecer totalmente de empatía, [PAWN_nameDef] encajó a la perfección con la tripulación pirata que [PAWN_objecive] había capturado. Poco después, [PAWN_nameDef] comenzó a matar a quiensea que se pusiera en su camino, incluyendo a sus compañeros.</desc>
-  </PirateKing81>
+  </PirateKing69>
   
   <PirateSympathizer24>
     <!-- EN: pirate sympathizer -->
@@ -5529,6 +5767,17 @@
     <desc>[PAWN_nameDef] era ingenier{PAWN_gender ? o : a} de minas para una importante corporación de minería planetaria. Su trabajo [PAWN_objective] mantuvo bajo tierra durante semanas, y así creció para apreciar la oscuridad.</desc>
   </PlanetaryMiner64>
   
+  <PlankCutter72>
+    <!-- EN: plank cutter -->
+    <title>carpintero</title>
+    <titleFemale>carpintera</titleFemale>
+    <!-- EN: plank cutter -->
+    <titleShort>carpintero</titleShort>
+    <titleShortFemale>carpintera</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] helped [PAWN_possessive] tribe build huge wooden structures by cutting trees into sturdy planks. [PAWN_nameDef] developed a fine understanding of how wood grows and splits. -->
+    <desc>[PAWN_nameDef] ayudó a su tribu a construir enormes estructuras de madera cortando árboles en robustos tablones. [PAWN_nameDef] desarrolló un fino conocimiento de cómo crece y se parte la madera.</desc>
+  </PlankCutter72>
+  
   <PoisonGardener29>
     <!-- EN: poison gardener -->
     <title>jardinero venenoso</title>
@@ -5584,6 +5833,17 @@
     <!-- EN: [PAWN_nameDef] was kidnapped by a rival family and held for ransom. To pass the time in captivity, [PAWN_pronoun] read books and practiced martial arts. [PAWN_nameDef] had few opportunities to develop [PAWN_possessive] social skills. -->
     <desc>[PAWN_nameDef] fue secuestrad{PAWN_gender ? o : a} por una familia rival y retenid{PAWN_gender ? o : a} por rescate. Para pasar el tiempo en cautiverio, [PAWN_pronoun] leía libros y practicaba artes marciales. Lo cierto es que [PAWN_nameDef] tuvo pocas oportunidades para desarrollar sus habilidades sociales.</desc>
   </PoliticalCaptive7>
+  
+  <PoliticalClimber28>
+    <!-- EN: political climber -->
+    <title>trepador político</title>
+    <titleFemale>trepadora política</titleFemale>
+    <!-- EN: political climber -->
+    <titleShort>trepador político</titleShort>
+    <titleShortFemale>trepadora política</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] was a smart kid, so everyone encouraged [PAWN_possessive] ambition to become a politician.\n\n[PAWN_pronoun] would use any tactic to win, including direct psychological attacks.\n\nDuring one school election, the other candidate hung himself. [PAWN_nameDef] won by default. -->
+    <desc>[PAWN_nameDef] era {PAWN_gender ? un niño : una niña} inteligente, así que todo el mundo alentaba su ambición de convertirse en polític{PAWN_gender ? o : a}.\n\n[PAWN_pronoun] usaría cualquier táctica para ganar, incluyendo ataques psicológicos directos.\n\nDurante una elección escolar, el otro candidato se colgó. [PAWN_nameDef] ganó por falta.</desc>
+  </PoliticalClimber28>
   
   <Politician57>
     <!-- EN: politician -->
@@ -5793,6 +6053,17 @@
     <desc>Desde muy joven, [PAWN_nameDef] tuvo una fascinación insana con el fuego. Solía encender pilas de basura y quedarse tan absort{PAWN_gender ? o : a} ante el espectáculo que a veces se quemaba por accidente.\n\nUn día, mientras jugaba con cerillos, incendió por accidente toda su casa.</desc>
   </Pyromaniac18>
   
+  <QuarryWorker29>
+    <!-- EN: quarry worker -->
+    <title>trabajador de cantera</title>
+    <titleFemale>trabajadora de cantera</titleFemale>
+    <!-- EN: quarry worker -->
+    <titleShort>trabajador de cantera</titleShort>
+    <titleShortFemale>trabajadora de cantera</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] worked in a quarry helping to extract valuable stone from the hillside. [PAWN_pronoun] learned to sense opportunities and dangers in the stone by sight, touch, and intuition. -->
+    <desc>[PAWN_nameDef] trabajó en una cantera ayudando a extraer piedra valiosa de la ladera. Aprendió a percibir las oportunidades y los peligros en la piedra mediante la vista, el tacto y la intuición.</desc>
+  </QuarryWorker29>
+  
   <QuietNerd97>
     <!-- EN: quiet nerd -->
     <title>nerd tranquilo</title>
@@ -5834,6 +6105,17 @@
     <desc>[PAWN_nameDef] vivía sol{PAWN_gender ? o : a}, en la profundidad de un bosque. [PAWN_pronoun] protegió a la fauna silvestre contra los cazadores furtivos y aprendió a satisfacer sus propias necesidades materiales sin ayuda externa.</desc>
   </Ranger6>
   
+  <Ranger96>
+    <!-- EN: ranger -->
+    <title>guardabosques</title>
+    <titleFemale>guardabosques</titleFemale>
+    <!-- EN: ranger -->
+    <titleShort>guardabosques</titleShort>
+    <titleShortFemale>guardabosques</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] tracked animals and people for a wide range of clients. [PAWN_pronoun] became adept at reading spoor, finding food in the wild, and stalking prey. -->
+    <desc>[PAWN_nameDef] rastreó animales y personas para una amplia gama de clientes. Se convirtió en un{PAWN_gender ?  : a} expert{PAWN_gender ? o : a} en leer el rastro, encontrar comida en la naturaleza y acechar a las presas.</desc>
+  </Ranger96>
+  
   <RangerChild57>
     <!-- EN: ranger child -->
     <title>niño guardabosques</title>
@@ -5868,10 +6150,10 @@
   </RebelFighter39>
   
   <RebelliousStudent74>
-    <!-- EN: Rebellious student -->
+    <!-- EN: rebellious student -->
     <title>estudiante rebelde</title>
     <titleFemale>estudiante rebelde</titleFemale>
-    <!-- EN: Student -->
+    <!-- EN: student -->
     <titleShort>estudiante</titleShort>
     <titleShortFemale>estudiante</titleShortFemale>
     <!-- EN: [PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques. -->
@@ -6339,6 +6621,19 @@
     <desc>[PAWN_nameDef] era {PAWN_gender ? el niño : la niña} sirviente de la casa, y fue entrenad{PAWN_gender ? o : a} para cumplir con el deber de la familia.\n\n[PAWN_pronoun] llevaba cosas y pulía los cubiertos, pero nunca se le permitía entrar a la casa de los señores.</desc>
   </ServingBoy97>
   
+  <SewerKid57>
+    <!-- EN: sewer kid -->
+    <title>niño de cloacas</title>
+    <!-- EN: sewer girl -->
+    <titleFemale>niña de cloacas</titleFemale>
+    <!-- EN: sewer boy -->
+    <titleShort>chico de cloacas</titleShort>
+    <!-- EN: sewer girl -->
+    <titleShortFemale>chica de cloacas</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] grew up in the sludge-smeared sewers of a polluted industrial world.\n\n[PAWN_pronoun] befriended the strange insects in the darkness, and learned to love them. -->
+    <desc>[PAWN_nameDef] creció en las alcantarillas manchadas de lodo de un mundo industrial contaminado.\n\nSe hizo amig{PAWN_gender ? o : a} de los extraños insectos de la oscuridad y aprendió a amarlos.</desc>
+  </SewerKid57>
+  
   <ShadowMarine63>
     <!-- EN: shadow marine -->
     <title>soldado de las sombras</title>
@@ -6466,9 +6761,9 @@
   </ShopKid36>
   
   <ShunnedGirl30>
-    <!-- EN: Shunned girl -->
+    <!-- EN: shunned girl -->
     <title>niña rechazada</title>
-    <!-- EN: Shunned -->
+    <!-- EN: shunned -->
     <titleShort>rechazada</titleShort>
     <!-- EN: Freya was born into a small, poor family. She was bullied relentlessly, beaten and hated. As she grew up she developed an   interest in guns. She usually studied from books, but occasionally managed to get some practice time with the real thing. Freya later   discovered a talent for art and began to teach herself how to draw and paint. -->
     <desc>[PAWN_nameDef] nació en una pequeña y pobre familia. Fue acosada implacablemente, golpeada y odiada. Al ir creciendo desarrollo un interes en las armas. Por lo general estudiaba de libros, pero ocacionalmente se las apañaba para tener timpo de práctica con cosas reales. [PAWN_nameDef] con el tiempo descubrió un talento por el arte y empezó a enseñarse a sí misma como dibujar y pintar.</desc>
@@ -6516,6 +6811,17 @@
     <!-- EN: [PAWN_nameDef] traveled the stars. [PAWN_pronoun] could barely scrape together travel costs doing odd-jobs, but it was all worth it.\n\n[PAWN_pronoun] loved camping in exotic places and learning the patterns of strange wildlife. [PAWN_pronoun] never could focus on intellectual endeavors, as [PAWN_possessive] sightseeing distracted [PAWN_objective] far too much. -->
     <desc>[PAWN_nameDef] viajó por las estrellas. [PAWN_pronoun] apenas podía reunir para los gastos de viaje haciendo trabajos extraños en las estaciones, pero valió la pena.\n\n[PAWN_pronoun] amaba acampar en mundos exóticos y aprender los patrones de la extraña vida silvestre. Nunca pudo concentrarse en los esfuerzos intelectuales, ya que las visitas turísticas [PAWN_objective] distrajeron demasiado.</desc>
   </Sightseer70>
+  
+  <Slaughterer58>
+    <!-- EN: slaughterer -->
+    <title>matarife</title>
+    <titleFemale>matarife</titleFemale>
+    <!-- EN: slaughterer -->
+    <titleShort>matarife</titleShort>
+    <titleShortFemale>matarife</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] slaughtered animals for a living. Others looked down on this work as filthy, but the skills required to manage and cleanly slaughter large numbers of animals were never simple. -->
+    <desc>[PAWN_nameDef] sacrificaban animales para ganarse la vida. Otros despreciaban este trabajo por considerarlo sucio, pero las habilidades necesarias para gestionar y sacrificar limpiamente un gran número de animales nunca fueron sencillas.</desc>
+  </Slaughterer58>
   
   <SlaveChemist84>
     <!-- EN: slave chemist -->
@@ -6795,14 +7101,14 @@
     <desc>[PAWN_nameDef] sirvió en varios viajes como médico en uno de las pocas naves de guerra que defendían su mundo natal. [PAWN_pronoun] aprendió habilidades de combate al tiempo que luchaba contra los grupos ocasionales de embarque de piratas, y se convirtió en {PAWN_gender ? un experto : una experta} en el tratamiento de horribles heridas de combate.</desc>
   </SpaceNavyDoctor72>
   
-  <SpaceNavyTech12>
+  <SpaceNavyTech37>
     <!-- EN: space navy tech -->
     <title>tec. espacial</title>
     <!-- EN: navy tech -->
     <titleShort>tec. naval</titleShort>
-    <!-- EN: [PAWN_nameDef] was in a space navy for the the most powerful planet in the local star group. [PAWN_pronoun] developed skills in maintenance, electronic systems, radar and imaging, and logistics management.\n\n[PAWN_pronoun] served with pride and patriotic love for [PAWN_possessive] planet. -->
+    <!-- EN: [PAWN_nameDef] was in a space navy for the most powerful planet in the local star group. [PAWN_pronoun] developed skills in maintenance, electronic systems, radar and imaging, and logistics management.\n\n[PAWN_pronoun] served with pride and patriotic love for [PAWN_possessive] planet. -->
     <desc>[PAWN_nameDef] estaba en una marina espacial del planeta más poderoso del grupo estelar local. [PAWN_pronoun] desarrolló habilidades de mantenimiento, sistemas electrónicos, radar e imágenes y gestión logística.\n\nTambién sirvió con orgullo y amor patriótico por su planeta.</desc>
-  </SpaceNavyTech12>
+  </SpaceNavyTech37>
   
   <SpaceNerd97>
     <!-- EN: space nerd -->
@@ -6933,22 +7239,22 @@
   </SpaceTrafficker68>
   
   <SpaceyachtPilot89>
-    <!-- EN: Spaceyacht pilot -->
+    <!-- EN: spaceyacht pilot -->
     <title>piloto espacial</title>
-    <!-- EN: Pilot -->
+    <!-- EN: pilot -->
     <titleShort>piloto</titleShort>
     <!-- EN: [PAWN_nameDef] ferried wealthy businessmen and politicians to and from his home world.\n\n        Witnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood. -->
     <desc>[PAWN_nameDef] transportó a empresarios y políticos adinerados hacia y desde su mundo natal.\n\nAl presenciar las profundidades del hedonismo, estas personas descendieron para cambiar[PAWN_objective] en formas que ni siquiera [PAWN_pronoun] entendia.</desc>
   </SpaceyachtPilot89>
   
-  <SpecialForces53>
+  <SpecialForces13>
     <!-- EN: special forces -->
     <title>fuerzas especiales</title>
     <!-- EN: specialist -->
     <titleShort>especialista</titleShort>
-    <!-- EN: Give me a reason to kill - a good reason!\n\nMarkus was a soldier and a skilled one - so skilled that [PAWN_pronoun] entered the special forces to battle militants and xenohuman raiders. [PAWN_pronoun] never imagined [PAWN_objective]self as lone hero, but [PAWN_pronoun] played [PAWN_possessive] part in the group well. -->
+    <!-- EN: Give me a reason to kill - a good reason!\n\n[PAWN_nameDef] was a soldier and a skilled one - so skilled that [PAWN_pronoun] entered the special forces to battle militants and xenohuman raiders. [PAWN_pronoun] never imagined [PAWN_objective]self as lone hero, but [PAWN_pronoun] played [PAWN_possessive] part in the group well. -->
     <desc>Dame una razón para matar - ¡una buena razón!\n\n[PAWN_nameDef] era un soldado y {PAWN_gender ? un experto : una experta}, tan hábil que entró en las fuerzas especiales para combatir a los militantes y los invasores xenohumanos. [PAWN_pronoun] nunca se imaginó a sí mism{PAWN_gender ? o : a} como {PAWN_gender ? un héroe solitario : una heroína solitaria}, pero [PAWN_pronoun] jugó su parte en el grupo también.</desc>
-  </SpecialForces53>
+  </SpecialForces13>
   
   <SpeederRacer71>
     <!-- EN: speeder racer -->
@@ -6960,16 +7266,16 @@
     <desc>[PAWN_nameDef] era el hijo de un agricultor de helechos en los altísimos bosques de Khalderia.\n\n[PAWN_pronoun] encontró su primer amor en las carreras de velocidad, silbando dentro y fuera de los masivos toldos y apreciando vistas magníficas de su mundo natal. El infame inframundo de las carreras también [PAWN_objective] obligó a aprender a defenderse con una palabra rápida o un disparo más rápido aún.</desc>
   </SpeederRacer71>
   
-  <Spiceminer9>
+  <Spiceminer81>
     <!-- EN: spiceminer -->
     <title>minero de especias</title>
     <titleFemale>minera de especias</titleFemale>
     <!-- EN: spiceminer -->
     <titleShort>minero</titleShort>
     <titleShortFemale>minera</titleShortFemale>
-    <!-- EN: [PAWN_nameDef] made [PAWN_possessive] mark on the universe as a spice miner assigned to the lucrative mining colony of Rural Pen’The.\n\nLittle did [PAWN_pronoun] know, [PAWN_nameDef] was about to embark on a career path that would change [PAWN_possessive] life. -->
+    <!-- EN: [PAWN_nameDef] made [PAWN_possessive] mark on the universe as a spice miner assigned to the lucrative mining colony of Rural Pen'The.\n\nLittle did [PAWN_pronoun] know, [PAWN_nameDef] was about to embark on a career path that would change [PAWN_possessive] life. -->
     <desc>[PAWN_nameDef] hizo su marca en el universo como un minero de especias asignado a la lucrativa colonia minera de Rural Pen'The.\n\nPoco [PAWN_pronoun] sabía, [PAWN_nameDef] estaba a punto de embarcarse en una carrera que cambiaría su vida.</desc>
-  </Spiceminer9>
+  </Spiceminer81>
   
   <SpoiledBrat59>
     <!-- EN: spoiled brat -->
@@ -7260,16 +7566,16 @@
     <desc>[PAWN_nameDef] pertenecía a una pandilla de ladrones callejeros. Sus días se iban saqueando bolsillos, resolviendo disputas sobre el territorio o consumiendo cualquier droga que [PAWN_pronoun] pudiera obtener en sus manos.</desc>
   </StreetRat81>
   
-  <StreetUrchin11>
+  <StreetUrchin22>
     <!-- EN: street urchin -->
     <title>ladronzuelo</title>
     <titleFemale>ladronzuela</titleFemale>
-    <!-- EN: grifter -->
+    <!-- EN: urchin -->
     <titleShort>estafador</titleShort>
     <titleShortFemale>estafadora</titleShortFemale>
-    <!-- EN: After running away from home, [PAWN_nameDef] had to live on the streets.\n\n[PAWN_pronoun] grew up fast, and learned early that [PAWN_pronoun] had to figure out how to fool people into connecting with her. -->
-    <desc>Después de huir de casa, [PAWN_nameDef] tuvo que vivir en las calles.\n\nCreció rápido, y aprendió temprano que tenía que descubrir cómo engañar a las personas para que se conectaran con [PAWN_pronoun].</desc>
-  </StreetUrchin11>
+    <!-- EN: [PAWN_nameDef] was raised by two drug-addicted gamblers who didn't provide a decent standard of living. [PAWN_nameDef] learned to survive by pursuing dangerous and often poorly-planned schemes and swindles that sometimes resulted in food. -->
+    <desc>[PAWN_nameDef] fue criad{PAWN_gender ? o : a} por dos jugadores drogadictos que no le proporcionaban un nivel de vida decente. Finalmente [PAWN_pronoun] aprendió a sobrevivir llevando a cabo peligrosas y, a menudo, mal planificadas, estafas que a veces acababan en comida.</desc>
+  </StreetUrchin22>
   
   <StreetUrchin45>
     <!-- EN: street urchin -->
@@ -7292,6 +7598,17 @@
     <!-- EN: Born to a poor family on an urbworld, [PAWN_nameDef] was abandoned on the streets at a young age.\n\n[PAWN_pronoun] learned to steal and kill to survive the ruthless streets, gaining skills in melee and ranged combat. There was little time for talk in [PAWN_possessive] life. -->
     <desc>Nació en una familia pobre en un urbworld, [PAWN_nameDef] fue abandonad{PAWN_gender ? o : a} en las calles cuando aún era muy joven.\n\n[PAWN_pronoun] aprendió a robar y matar para sobrevivir en las despiadadas calles, ganando habilidades en combate cuerpo a cuerpo y a distancia. Había poco tiempo para hablar en su vida.</desc>
   </StreetUrchin53>
+  
+  <StreetUrchin74>
+    <!-- EN: street urchin -->
+    <title>ladronzuelo</title>
+    <titleFemale>ladronzuela</titleFemale>
+    <!-- EN: grifter -->
+    <titleShort>estafador</titleShort>
+    <titleShortFemale>estafadora</titleShortFemale>
+    <!-- EN: After running away from home, [PAWN_nameDef] had to live on the streets.\n\n[PAWN_pronoun] grew up fast, and learned early that [PAWN_pronoun] had to figure out how to fool people into connecting with [PAWN_objective]. -->
+    <desc>Tras huir de casa, [PAWN_nameDef] tuvo que vivir en la calle.\n\nCreció rápido, y aprendió pronto que tenía que averiguar cómo engañar a la gente para que conectara con [PAWN_pronoun].</desc>
+  </StreetUrchin74>
   
   <Student65>
     <!-- EN: student -->
@@ -7588,10 +7905,10 @@
   </Torturer37>
   
   <TournamentFighter28>
-    <!-- EN: Tournament fighter -->
+    <!-- EN: tournament fighter -->
     <title>luchador de torneo</title>
     <titleFemale>luchadora de torneo</titleFemale>
-    <!-- EN: Fighter -->
+    <!-- EN: fighter -->
     <titleShort>luchador</titleShort>
     <titleShortFemale>luchadora</titleShortFemale>
     <!-- EN: Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\n        Unlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills. -->
@@ -7670,6 +7987,17 @@
     <!-- EN: [PAWN_nameDef] explored outlying rimworlds in hopes of finding rare treasures.\n\nAfter succeeding in finding one legendary sculpture, [PAWN_pronoun] was betrayed by [PAWN_possessive] men. [PAWN_pronoun] survived their treasonous attack, but the sculpture was taken.\n\n[PAWN_pronoun] created the Anvil Mercenary Company to help [PAWN_objective] seek revenge. -->
     <desc>[PAWN_nameDef] exploró los rimworlds más lejanos con la esperanza de encontrar tesoros raros.\n\nDespués de tener éxito en encontrar una escultura legendaria, fue traicionad{PAWN_gender ? o : a} por sus hombres. [PAWN_pronoun] sobrevivió a su ataque traidor, pero la escultura fue tomada. [PAWN_pronoun] creó la Compañía de Mercenarios Anvil para ayudar[PAWN_objective] a vengarse.</desc>
   </TreasureHunter82>
+  
+  <TreehouseBuilder86>
+    <!-- EN: treehouse builder -->
+    <title>constructor en árboles</title>
+    <titleFemale>constructora en árboles</titleFemale>
+    <!-- EN: treehouse builder -->
+    <titleShort>constructor en árboles</titleShort>
+    <titleShortFemale>constructora en árboles</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals. -->
+    <desc>[PAWN_nameDef] construyó casas entre los árboles, y a veces suspendidas en ellos, para que su pueblo las utilizara mientras viajaba o buscaba comida. [PAWN_pronoun] aprendió a encontrar y utilizar mejor las plantas silvestres, y a luchar contra los animales salvajes.</desc>
+  </TreehouseBuilder86>
   
   <TribalThunderer45>
     <!-- EN: tribal thunderer -->
@@ -7797,14 +8125,14 @@
     <desc>[PAWN_nameDef] tuvo una educación aislada en un urbworld. Su odio a las alturas [PAWN_objective] mantuvo en el interior con frecuencia, e hizo de [PAWN_pronoun] una persona introvertida.\n\nCuando [PAWN_pronoun] salió a las pasarelas de la ciudad, disfrutó de los juegos de guerra y se volvió hábil con varias armas de simulación.</desc>
   </UrbworldChild56>
   
-  <UrbworldCriminal80>
+  <UrbworldCriminal6>
     <!-- EN: urbworld criminal -->
     <title>criminal de urbworld</title>
     <!-- EN: criminal -->
     <titleShort>criminal</titleShort>
-    <!-- EN: Born into bad circumstance on an overpopulated urbworld, [PAWN_nameDef] turned to small-time crime as a way to avoid starvation and hypothermia.\n\nRobbery and murder were daily activities for him. [PAWN_nameDef] learned that surviving was winning. -->
+    <!-- EN: Born into bad circumstance on an overpopulated urbworld, [PAWN_nameDef] turned to small-time crime as a way to avoid starvation and hypothermia.\n\nRobbery and murder were daily activities for [PAWN_objective]. [PAWN_nameDef] learned that surviving was winning. -->
     <desc>[PAWN_nameDef] nació en pésimas circunstancias en un urbworld sobrepoblado, y se involucró en crímenes de poca monta para evitar morir de hambre o frío.\n\nRobos y asesinatos eran sus actividades diarias. [PAWN_nameDef] aprendió que para sobrevivir había que ganar.</desc>
-  </UrbworldCriminal80>
+  </UrbworldCriminal6>
   
   <UrbworldDrone32>
     <!-- EN: urbworld drone -->
@@ -7895,6 +8223,17 @@
     <desc>[PAWN_nameDef] fue vendid{PAWN_gender ? o : a} como esclav{PAWN_gender ? o : a} sexual. Habiendo sido diseñad{PAWN_gender ? o : a} para ser inhumanamente atractiv{PAWN_gender ? o : a} y demasiado débil para rebelarse contra sus amos, fue pasand{PAWN_gender ? o : a} entre docenas de dueños y no sabía nada de la libertad.</desc>
   </UrbworldSexSlave25>
   
+  <UrbworldUrchin6>
+    <!-- EN: urbworld urchin -->
+    <title>ladrón de urbworld</title>
+    <titleFemale>ladrona de urbworld</titleFemale>
+    <!-- EN: urchin -->
+    <titleShort>ladronzuelo</titleShort>
+    <titleShortFemale>ladronzuela</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
+    <desc>[PAWN_nameDef] nació en los barrios más oscuros de su urbworld. Abandonad{PAWN_gender ? o : a} por su madre, aprendió a sobrevivir por su cuenta, luchando por cada trozo de comida que veía.\n\nCon el tiempo, cuando sus talentos superaron a los de sus compañeros, ascendió de las profundidades a las calles de la superficie y dejó atrás a su madre.</desc>
+  </UrbworldUrchin6>
+  
   <UrbworldUrchin61>
     <!-- EN: urbworld urchin -->
     <title>ladrón de urbworld</title>
@@ -7903,19 +8242,8 @@
     <titleShort>ladronzuelo</titleShort>
     <titleShortFemale>ladronzuela</titleShortFemale>
     <!-- EN: The urbworlds - ancient and deep industrial cityscapes bursting with humanity and poison. [PAWN_nameDef] grew up in the dark, unwanted reaches of such a place. [PAWN_pronoun] had to fight for every scrap of food. -->
-    <desc>Los urbworlds... Antiguos y profundos paisajes industriales rebosantes de humanidad y veneno. [PAWN_nameDef] creció en la oscuridad, en los lugares no deseados de tal lugar. [PAWN_pronoun] tuvo que luchar por cada trozo de comida.</desc>
+    <desc>[PAWN_nameDef] nació en los barrios marginales más oscuros de su urbworld natal. Descuidad{PAWN_gender ? o : a} por su madre, aprendió a sobrevivir por su cuenta, luchando por cada trozo de comida que veía.\n\nFinalmente, como sus talentos excedían el de sus pares, [PAWN_pronoun] ascendió desde las profundidades hasta la superficie de las calles, dejando atrás el recuerdo de su madre.</desc>
   </UrbworldUrchin61>
-  
-  <UrbworldUrchin87>
-    <!-- EN: urbworld urchin -->
-    <title>ladrón de urbworld</title>
-    <titleFemale>ladrona de urbworld</titleFemale>
-    <!-- EN: urchin -->
-    <titleShort>ladronzuelo</titleShort>
-    <titleShortFemale>ladronzuela</titleShortFemale>
-    <!-- EN: Meredith was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
-    <desc>[PAWN_nameDef] nació en los barrios marginales más oscuros de su urbworld natal. Descuidad{PAWN_gender ? o : a} por su madre, aprendió a sobrevivir por su cuenta, luchando por cada trozo de comida que veía.\n\nFinalmente, como sus talentos excedían el de sus pares, [PAWN_pronoun] ascendió desde las profundidades hasta la superficie de las calles, dejando atrás a su madre.</desc>
-  </UrbworldUrchin87>
   
   <UrbworldUrchin90>
     <!-- EN: urbworld urchin -->
@@ -7969,14 +8297,14 @@
     <desc>[PAWN_nameDef] se convirtió en un{PAWN_gender ?  : a} científico perfeccionista, con una mente perfectamente sintonizada para la física y la química.\n\nSus creadores [PAWN_objective] utilizaron como una ayuda didáctica para el diseño de la mente, con la esperanza de que [PAWN_pronoun] llegara a ser una gran mente y continuara su investigación.</desc>
   </VatgrownScientist91>
   
-  <VatgrownSlavegirl67>
+  <VatgrownSlavegirl8>
     <!-- EN: vatgrown slavegirl -->
     <title>esclava artificial</title>
     <!-- EN: slave girl -->
     <titleShort>esclava</titleShort>
-    <!-- EN: [PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a yound child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else. -->
+    <!-- EN: [PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a young child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else. -->
     <desc>[PAWN_nameDef] fue criada como esclava en un laboratorio ilegal de un urbworld. Cuando era pequeña, solo le enseñaban a cocinar, limpiar y servir a sus amos. Durante la mayor parte de su infancia, no aprendió nada más.</desc>
-  </VatgrownSlavegirl67>
+  </VatgrownSlavegirl8>
   
   <VatgrownSoldier8>
     <!-- EN: vatgrown soldier -->
@@ -8021,10 +8349,10 @@
   </VengefulHunter32>
   
   <VengefulNomad67>
-    <!-- EN: Vengeful nomad -->
+    <!-- EN: vengeful nomad -->
     <title>nómada vengativo</title>
     <titleFemale>nómada vengativa</titleFemale>
-    <!-- EN: Nomad -->
+    <!-- EN: nomad -->
     <titleShort>nómada</titleShort>
     <!-- EN: After refusing the wild demands of a tyrannical king, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n        [PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge. -->
     <desc>Después de rechazar las salvajes demandas de un rey tiránico, la banda nómada de [PAWN_nameDef] fue marcada como un grupo fuera de la ley y cazada sistemáticamente.\n\nLa familia de [PAWN_nameDef] finalmente fue capturada. Los que no fueron asesinados fueron tomados como esclavos. Vendido al propietario de una fábrica, [PAWN_nameDef] juró que un día [PAWN_pronoun] tendría [PAWN_possessive] venganza .</desc>
@@ -8218,15 +8546,15 @@
     <desc>Los padres de [PAWN_nameDef] fueron reclutados en una guerra civil en su país de origen. Creciendo rodeado de peleas y muerte, [PAWN_pronoun] se acostumbró a la tragedia. Su lado expresivo, sin embargo, nunca se desarrolló.</desc>
   </WarChild24>
   
-  <Warlordess14>
+  <Warlordess56>
     <!-- EN: warlordess -->
     <title>sr. de la guerra</title>
     <titleFemale>sra. de guerra</titleFemale>
     <!-- EN: warlordess -->
     <titleShort>caudillo</titleShort>
-    <!-- EN: [PAWN_nameDef] was the tough leader of a pirate band.\n\n[PAWN_pronoun] would accept any challenge, no matter how violent or dangerous. Others called [PAWN_pronoun] a killing machine. -->
+    <!-- EN: [PAWN_nameDef] was the tough leader of a pirate band.\n\n[PAWN_pronoun] would accept any challenge, no matter how violent or dangerous. Others called [PAWN_objective] a killing machine. -->
     <desc>[PAWN_nameDef] era {PAWN_gender ? un duro : una dura} líder de una banda de piratas.\n\n[PAWN_pronoun] aceptaba cualquier desafío, sin importar cuán violento o peligroso fuera. Otros [PAWN_objective] apodaron "máquina de matar".</desc>
-  </Warlordess14>
+  </Warlordess56>
   
   <Warmaster54>
     <!-- EN: warmaster -->
