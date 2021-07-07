@@ -94,8 +94,10 @@
   <!-- EN: You'll want to harvest some wood. Designate some trees to be chopped.\n\nSelect the CHOP WOOD designator and designate 10 trees to be chopped down.\n\n(Pro tip: You can drag a box over trees to designate several at once.) -->
   <ChopTrees.text>Ahora necesitarás conseguir madera. Designa algunos árboles para ser talados.\n\nSelecciona TALAR y designa 10 árboles para ser talados.\n\n(Nota: Puedes arrastrar la designación tal y como lo hiciste con "minar".)</ChopTrees.text>
   
-  <!-- EN: Welcome to RimWorld! This tutorial will teach you how to play the game.\n\nThe first step is to generate a world to play in.\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
-  <CreateWorldParams.text>¡Bienvenido a Rimworld! Este tutorial te enseñará como jugar el juego.\n\nEl primer paso es generar un planeta donde jugar.\n\nEn esta página, asignarás los parámetros del planeta.\n\nLa configuración estándar estará bien por ahora así que haz clic en GENERAR PLANETA para continuar.</CreateWorldParams.text>
+  <!-- EN: Click GENERATE to generate your world. -->
+  <CreateWorldParams.rejectInputMessage>Haz clic en GENERAR para generar tu mundo.</CreateWorldParams.rejectInputMessage>
+  <!-- EN: This page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
+  <CreateWorldParams.text>Esta página configura cómo debe generarse tu mundo.\n\nLa configuración por defecto es buena: ¡sigue adelante y haz clic en GENERAR!</CreateWorldParams.text>
   
   <!-- EN: Send colonists here\ntouching sandbags for cover -->
   <DownRaider.onMapInstruction>Manda a tus colonos a cubrirse\njusto detrás de las bolsas de arena</DownRaider.onMapInstruction>
@@ -197,13 +199,13 @@
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>Por favor, liciencia a tus colonos.</UndraftAll.rejectInputMessage>
   <!-- EN: Success! Now UNDRAFT all your colonists using the same command as before.\n\nThis will let them return to their own schedules. -->
-  <UndraftAll.text>¡Viva! Ahora, puedes dar liciencia a tus colonos de la misma forma que los reclutaste. Esto los liberará de tu control.\n\nDe esta forma regresarán a sus deberes cotidianos.</UndraftAll.text>
+  <UndraftAll.text>¡Viva! Ahora, puedes LICENCIAR a tus colonos de la misma forma que los reclutaste.\n\nDe esta forma regresarán a sus deberes cotidianos.</UndraftAll.text>
   
   <!-- EN: Allow this -->
   <UnforbidStartingResources.onMapInstruction>Permitir</UnforbidStartingResources.onMapInstruction>
   <!-- EN: Please allow your starting items. -->
   <UnforbidStartingResources.rejectInputMessage>Por favor, permitir todos los objetos.</UnforbidStartingResources.rejectInputMessage>
-  <!-- EN: Now, to allow your colonists to bring your items to the stockpile, you must remove their "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.) -->
-  <UnforbidStartingResources.text>Ahora, para permitir que tus colonos lleven los objetos al almacén, primero debes permitirlos.\n\n1. Haz clic en los objetos iniciales para seleccionarlos.\n2. Haz clic en el botón de PROHIBIDO para permitirlos de nuevo.\n\n(Nota: Puedes hacer doble clic en un objeto para seleccionar todos los objetos del mismo tipo en pantalla.)</UnforbidStartingResources.text>
+  <!-- EN: To allow your colonists to bring your items to the stockpile, you must remove the items' "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)\n\nAlternatively, you can:\n1. Click ARCHITECT.\n2. Click ORDERS.\n3. Click ALLOW.\n4. Drag out a shape covering all forbidden items to allow them. -->
+  <UnforbidStartingResources.text>Para permitir que tus colonos lleven los objetos al almacén, primero debes permitirlos.\n\n1. Haz clic en los objetos iniciales para seleccionarlos.\n2. Haz clic en el botón de PROHIBIDO para permitirlos de nuevo.\n\n(Nota: Puedes hacer doble clic en un objeto para seleccionar todos los objetos del mismo tipo en pantalla.)\n\nTambién puedes:\n1. Hacer clic en el menú ARQUITECTO.\n2. Clic en ÓRDENES.\n3. Clic en PERMITIR.\n4. Arrastra con el ratón en una forma que cubra todos los elementos prohibidos para permitirlos.</UnforbidStartingResources.text>
   
 </LanguageData>
