@@ -370,6 +370,8 @@
   <LeatherType>Tipo de cuero</LeatherType>
   <!-- EN: Body size -->
   <BodySize>Tamaño corporal</BodySize>
+  <!-- EN: Growth -->
+  <Growth>Crecimiento</Growth>
   <!-- EN: Recruit difficulty -->
   <RecruitDifficulty>Dificultad de reclutamiento</RecruitDifficulty>
   <!-- EN: Base price -->
@@ -394,12 +396,10 @@
   <WildnessExplanation>Entre más salvaje sea una criatura, más difícil será de domesticar, entrenar y manejar.</WildnessExplanation>
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>Intervalo de deterioro del entrenamiento</TrainingDecayInterval>
-  <!-- EN: Tameness will never decay. -->
-  <TamenessWillNotDecay>La domesticación nunca decaerá.</TamenessWillNotDecay>
-  <!-- EN: Animal filth rate -->
-  <AnimalFilthRate>Tasa de suciedad animal</AnimalFilthRate>
-  <!-- EN: Animals produce filth when moving around on constructed floors.\n\nThis is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
-  <AnimalFilthRateExplanation>Los animales producen suciedad al moverse por ahí en pisos artificiales. Esta es la cantidad promedio de tal suciedad producida por cada {0} celdas caminadas por esta creatura.\n\nLos animales más grandes o menos domesticables producen más suciedad.</AnimalFilthRateExplanation>
+  <!-- EN: Tameness will never decay for animals of very low wildness. -->
+  <TamenessWillNotDecay>La domesticación nunca decaerá para los animales de muy bajo nivel de salvajismo.</TamenessWillNotDecay>
+  <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
+  <TamenessWillNotDecayFenceBlocked>La domesticación nunca decaerá para los animales que se pueden mantener detrás de las vallas.</TamenessWillNotDecayFenceBlocked>
   <!-- EN: Time -->
   <TimeRecordsCategory>Tiempo</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -444,6 +444,8 @@
   <NeverSafe>Nunca seguro</NeverSafe>
   <!-- EN: {0} / day -->
   <PerDay>{0} / día</PerDay>
+  <!-- EN: {0} / hour -->
+  <PerHour>{0} / hora</PerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>Animal de carga</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -468,8 +470,8 @@
   <NuzzleIntervalExplanation>Con qué frecuencia un animal acaricia a los colonos amigables con el hocico, en promedio.\n\nEl acariciar con el hocico es un comportamiento compartido por muchas especies de animales, donde el animal presiona la nariz o el hocico contra un amigo como signo de afecto. La mayoría de los humanos encuentran esto lindo y los dejará de buen humor por un período de tiempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Posibilidad de venganza por daño</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
-  <HarmedRevengeChanceExplanation>La posibilidad de que esta criatura busque venganza por haber sido dañada por un atacante a tiro de fusil.\n\nEsta probabilidad aumenta si el atacante está más cerca. Si es atacado a muy corta distancia, la probabilidad es tres veces mayor.\n\nEsta posibilidad se aplica cada vez que se produce un daño, por lo que es menos probable que las armas que disparan más lentamente y causan más daño lo activen.\n\nPara minimizar la posibilidad de que una criatura vea venganza, ataca desde el campo de tiro con un arma de fuego lento.</HarmedRevengeChanceExplanation>
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <HarmedRevengeChanceExplanation>La probabilidad de que esta criatura ataque cuando reciba algún daño.\n\nEsta probabilidad aumenta hasta tres veces si el atacante está más cerca.\n\nEsta probabilidad se aplica cada vez que se recibe daño. Esto significa que las armas más lentas y de mayor daño tienen menos probabilidades de activarla mientras cazan.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>La posibilidad de venganza en un fracaso domado</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -592,6 +594,16 @@
   <YourNegotiatorBonus>Tu bono de negociador</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
   <TradeWithFactionBaseBonus>Bono base de comercio con esta facción</TradeWithFactionBaseBonus>
+  <!-- EN: Joins as slave -->
+  <JoinsAsSlave>Se une como esclavo</JoinsAsSlave>
+  <!-- EN: Joins as colonist -->
+  <JoinsAsColonist>Se une como colono</JoinsAsColonist>
+  <!-- EN: If purchased, this person will join your colony as a slave. -->
+  <JoinsAsSlaveDesc>Si se compra, esta persona se unirá a tu colonia como esclavo.</JoinsAsSlaveDesc> <!--  -->
+  <!-- EN: If purchased, this person will join your colony as a colonist. -->
+  <JoinsAsColonistDesc>Si se compra, esta persona se unirá a tu colonia como colono.</JoinsAsColonistDesc>
+  <!-- EN: Trading drugs bonus -->
+  <TradingDrugsBonus>Bonificación por drogas comerciales</TradingDrugsBonus>
   <!-- EN: minimum -->
   <minimum>mínimo</minimum>
   <!-- EN: Final price -->
@@ -627,7 +639,7 @@
   <!-- EN: Items -->
   <ItemsTab>Equipo</ItemsTab>
   <!-- EN: Travel supplies -->
-  <FoodAndMedicineTab>Suministros para viajes</FoodAndMedicineTab>
+  <TravelSupplies>Provisiones de viaje</TravelSupplies>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Debes asignar al menos un colono consciente.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -636,8 +648,8 @@
   <CaravanCouldNotFindPackingSpot>La caravana no pudo encontrar el lugar donde empacar. Asegúrate de que la ubicación de salida elegida ({0}) es accesible.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Advertencia: algunos de los colonos asignados son incapaces de llegar al lugar de salida ({0}).</CaravanCouldNotFindReachableExitSpot>
-  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>{1_labelShort} es inalcanzable para cualquiera de los colonos asignados.</CaravanPawnIsUnreachable>
+  <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
+  <CaravanRoamerCannotReachSpots>{1_labelShort} es incapaz de llegar al lugar de embalaje o al lugar de salida cuando es conducido por cualquiera de los colonos asignados.</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Ninguno de los colonos asignados puede llegar hasta el/la {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -728,20 +740,24 @@
   <CaravanMovementSpeed>Velocidad de movimiento</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
   <TilesPerDay>baldosas/día</TilesPerDay>
-  <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
+  <!-- EN: None - too heavy -->
+  <TilesPerDayImmobile>Ninguno, demasiado pesado</TilesPerDayImmobile>
+  <!-- EN: None -->
+  <TilesPerDayImmobileShort>Ninguno</TilesPerDayImmobileShort>
+  <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
   <CaravanMovementSpeedTip>La velocidad de movimiento depende de la velocidad media de todas las personas y animales, la masa transportada y la dificultad de movimiento del terreno.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
   <AnimalsWillBeAbleToGraze>Los animales podrán pastar</AnimalsWillBeAbleToGraze>
   <!-- EN: Animals can graze -->
   <AnimalsCanGraze>Los animales pueden pastar</AnimalsCanGraze>
   <!-- EN: (for {0} more days) -->
-  <PossibleToGrazeFor>(por {0} días mas)</PossibleToGrazeFor>
+  <PossibleToGrazeFor>(por {0} días más)</PossibleToGrazeFor>
   <!-- EN: (forever) -->
   <PossibleToGrazeForever>(siempre)</PossibleToGrazeForever>
   <!-- EN: ({0}) -->
   <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
-  <CantGrazeBecauseOfTemp>(demasiado frío para {0} días mas)</CantGrazeBecauseOfTemp>
+  <CantGrazeBecauseOfTemp>(demasiado frío para {0} días más)</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
   <TotalNutrition>Nutrición total</TotalNutrition>
   <!-- EN: Not moving -->
@@ -753,7 +769,7 @@
   <!-- EN: Total body size -->
   <TotalBodySize>Tamaño total del cuerpo</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
-  <AutomaticallySelectFoodAndMedicine>Seleccionar automáticamente los suministros para viajes</AutomaticallySelectFoodAndMedicine>
+  <AutomaticallySelectTravelSupplies>Seleccionar automáticamente las provisiones de viaje</AutomaticallySelectTravelSupplies>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -844,14 +860,6 @@
   <DrugPolicyInUse>Política en uso por {0}.</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
   <FoodRestrictionInUse>La restricción alimentaria es utilizada por {0}.</FoodRestrictionInUse>
-  <!-- EN: Social drugs -->
-  <SocialDrugs>Drogas sociales</SocialDrugs>
-  <!-- EN: No drugs -->
-  <NoDrugs>Sin drogas</NoDrugs>
-  <!-- EN: One drink per day -->
-  <OneDrinkPerDay>Una bebida al día</OneDrinkPerDay>
-  <!-- EN: Unrestricted -->
-  <Unrestricted>Sin restricción</Unrestricted>
   <!-- EN: No drug policy selected -->
   <NoDrugPolicySelected>Sin política seleccionada</NoDrugPolicySelected>
   <!-- EN: Add drug... -->
@@ -977,13 +985,13 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto es lo que se hará - Agregar marcadores de posición para traducciones con clave que faltan, traducciones con inyección de desfase y retroalimentación\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todas las traducciones con clave y con inyección de desfase a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar nombres de definiciones compatibles con la retroalimentación\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerde reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrate de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto es lo que se hará:\n - Añadir marcadores de posición para los Keyed, los def-injected y los backstories\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todos los Keyed y def-injected a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar retrocompatibilidad de nombres en los archivos def\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerda reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrate de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tengo una copia de seguridad</ConfirmCleanupTranslationFiles_Confirm>
 
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->
-  <TransportersCaravanWillBeImmobile> La caravana quedará inmóvil si se lanza a una casilla vacía. ¿Continuar de todos modos?</TransportersCaravanWillBeImmobile>
+  <TransportersCaravanWillBeImmobile>La caravana quedará inmóvil si se lanza a una casilla vacía. ¿Continuar de todos modos?</TransportersCaravanWillBeImmobile>
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
@@ -1018,10 +1026,16 @@
   <AbilityCantApplyToMentallyBroken>{0} está incapacitad{0_gender ? o : a} mentalmente.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
   <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} no está incapacitad{0_gender ? o : a} mentalmente.</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not maddened. -->
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort} no está enloquecid{0_gender ? o : a}.</AbilityCanOnlyApplyToManhunter>
+  <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
+  <AbilityCantApplyToScaria>{0_labelShort} tiene escariosis, que sólo puede ser tratada médicamente.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0} no funciona en el estado mental "{1}".</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort} tiene cero resistencia.</AbilityCantApplyNoResistance>
+  <!-- EN: {0_labelShort} is downed. -->
+  <AbilityCantApplyDowned>{0_labelShort} está derribad{0_gender ? o : a}.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>No puedo usar: {0} es asexual.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
@@ -1032,6 +1046,22 @@
   <AbilityAlreadyInspired>{0_labelShort} ya está inspirad{0_gender ? o : a}.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort} no puede conseguir una inspiración en este momento.</AbilityCantGetInspiredNow>
+  <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
+  <AbilityMustBeNotSameIdeo>{0_labelShort} debe ser de una ideoligión diferente a la de {1_labelShort}.</AbilityMustBeNotSameIdeo>
+  <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
+  <AbilityMustBeSameIdeo>{0_labelShort} debe ser de la misma ideoligión que {1_labelShort}.</AbilityMustBeSameIdeo>
+  <!-- EN: {0_labelShort} must be sick or injured. -->
+  <AbilityMustBeSickOrInjured>{0_labelShort} debe estar enferm{0_gender ? o : a} o lesionad{0_gender ? o : a}.</AbilityMustBeSickOrInjured>
+  <!-- EN: {0} can only counsel {1}s. -->
+  <AbilityMustBeSameIdeoCounsel>{0} sólo puede aconsejar {1}s.</AbilityMustBeSameIdeoCounsel>
+  <!-- EN: {0_labelShort} is already considered guilty. -->
+  <AbilityMustBeNotGuilty>{0_labelShort} ya es considerad{0_gender ? o : a} culpable.</AbilityMustBeNotGuilty>
+  <!-- EN: Must target a human. -->
+  <AbilityMustBeHuman>Debe ser un objetivo humano.</AbilityMustBeHuman>
+  <!-- EN: Must target a non-wild human. -->
+  <AbilityMustBeHumanNonWild>Debe ser un humano no salvaje.</AbilityMustBeHumanNonWild>
+  <!-- EN: Must target an animal. -->
+  <AbilityMustBeAnimal>Debe ser un objetivo animal</AbilityMustBeAnimal>
   <!-- EN: {0_labelShort} is unconscious. -->
   <AbilityCantApplyUnconscious>{0_labelShort} está inconciente.</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
@@ -1059,5 +1089,57 @@
   <MentalBreakIntensityMajor>grave</MentalBreakIntensityMajor>
   <!-- EN: extreme -->
   <MentalBreakIntensityExtreme>extremo</MentalBreakIntensityExtreme>
-  
+
+  <!-- Auto slaughter -->
+  <!-- EN: Animal -->
+  <AutoSlaugtherHeaderColLabel>Animal</AutoSlaugtherHeaderColLabel>
+  <!-- EN: Current -->
+  <AutoSlaugtherHeaderColCurrent>Actual</AutoSlaugtherHeaderColCurrent>
+  <!-- EN: Max -->
+  <AutoSlaugtherHeaderColMax>Máx.</AutoSlaugtherHeaderColMax>
+  <!-- EN: Total -->
+  <AutoSlaugtherHeaderColTotal>Total</AutoSlaugtherHeaderColTotal>
+  <!-- EN: Other -->
+  <AutoSlaugtherHeaderColOther>Otro</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
+  <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
+  <AutoSlaugtherTip>Si tienes más del número máximo de animales, los colonos sacrificarán los animales más viejos hasta que estén por debajo del límite.</AutoSlaugtherTip>
+
+  <!-- EN: The animal to be automatically slaughtered. -->
+  <AutoSlaugtherHeaderTooltipLabel>El animal a sacrificar automáticamente.</AutoSlaugtherHeaderTooltipLabel>
+  <!-- EN: The current number of animals in the colony, both male and female.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipCurrentTotal>El número actual de animales en la colonia, tanto machos como hembras.\n\nLos animales com embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipMaxTotal>El número máximo de animales en la colonia, tanto machos como hembras.\n\nLos adiestradores sacrificarán automáticamente los extras.\n\nLos animales com embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipMaxTotal>
+  <!-- EN: The current number of males in the colony.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipCurrentMales>El número actual de machos en la colonia.\n\nLos animales com embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipCurrentMales>
+  <!-- EN: The maximum number of males in the colony.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipMaxMales>El número máximo de machos en la colonia.n\nLos adiestradores sacrificarán automáticamente los extras.\n\nLos animales com embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipMaxMales>
+  <!-- EN: The current number of females in the colony.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemales>El número actual de hembras en la colonia.\n\nLos animales com embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <!-- EN: Desired maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipMaxFemales>Número máximo deseado de hembras en la colonia.n\nLos adiestradores sacrificarán automáticamente los extras.\n\nLos animales com embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipMaxFemales>
+  <!-- EN: The current number of pregnant or immature animals in the colony.\n\nThese animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipOther>El número actual de animales preñados o inmaduros en la colonia.\n\nEstos animales son ignorados.</AutoSlaugtherHeaderTooltipOther>
+
+  <!-- EN: Click to set an animal count limit. -->
+  <AutoSlaughterTooltipSetLimit>Haz clic para establecer un límite de recuento de animales.</AutoSlaughterTooltipSetLimit>
+
+  <!-- Room requirements -->
+  <!-- EN: no beds allowed -->
+  <RoomRequirementNoBeds>no se permiten camas</RoomRequirementNoBeds>
+  <!-- EN: room area: {0} tiles -->
+  <RoomRequirementArea>Tamaño de la habitación: {0} casillas</RoomRequirementArea>
+  <!-- EN: room impressiveness -->
+  <RoomRequirementImpressiveness>atractivo de la habitación</RoomRequirementImpressiveness>
+  <!-- EN: all floored -->
+  <RoomRequirementAllFloored>toda la habitación con suelos fabricados</RoomRequirementAllFloored>
+  <!-- EN: all braziers must be lit -->
+  <RoomRequirementAllBraziersMustBeLit>todos los braseros deben estar encendidos</RoomRequirementAllBraziersMustBeLit>
+  <!-- EN: all fine floored -->
+  <RoomRequirementAllFineFloored>todo el suelo con azulejos</RoomRequirementAllFineFloored>
+  <!-- EN: no work facilities allowed -->
+  <RoomRequirementNoProductionFacilities>no se permiten instalaciones de trabajo</RoomRequirementNoProductionFacilities>
+  <!-- EN: no altars allowed -->
+  <RoomRequirementNoAltars>no se permiten altares</RoomRequirementNoAltars>
+
 </LanguageData>

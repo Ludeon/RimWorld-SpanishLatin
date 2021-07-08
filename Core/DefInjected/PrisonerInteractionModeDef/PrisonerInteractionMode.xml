@@ -2,18 +2,28 @@
 <LanguageData>
   
   <!-- EN: recruit -->
-  <AttemptRecruit.label>charla de reclutamiento</AttemptRecruit.label>
+  <AttemptRecruit.label>reclutar</AttemptRecruit.label>
+  <!-- EN: Wardens will attempt to recruit the prisoner. If the prisoner still has resistance, wardens will speak to them to reduce it. -->
+  <AttemptRecruit.description>Los vigilantes intentarán reclutar al prisionero. Si el prisionero sigue oponiendo resistencia, los vigilantes hablarán con él para reducirla.</AttemptRecruit.description>
   
   <!-- EN: execute -->
   <Execution.label>liquidar</Execution.label>
+  <!-- EN: A warden will execute the prisoner on the spot by cutting. This can affect the mood of other prisoners and colonists. -->
+  <Execution.description>Un vigilante ejecutará al prisionero en el acto mediante un corte. Esto puede afectar al estado de ánimo de otros prisioneros y colonos.</Execution.description>
   
   <!-- EN: no interaction -->
   <NoInteraction.label>sin interacción</NoInteraction.label>
+  <!-- EN: Wardens will not interact with the prisoner. -->
+  <NoInteraction.description>Los vigilantes no interactuarán con el prisionero.</NoInteraction.description>
   
   <!-- EN: reduce resistance -->
-  <ReduceResistance.label>reducir la resistencia</ReduceResistance.label>
+  <ReduceResistance.label>reducir resistencia</ReduceResistance.label>
+  <!-- EN: If the prisoner still has resistance, wardens will speak to them to reduce it. No recruit attempts will be made. -->
+  <ReduceResistance.description>Si el prisionero sigue oponiendo resistencia, los vigilantes hablarán con él para reducirla. No se harán intentos de reclutamiento.</ReduceResistance.description>
   
   <!-- EN: release -->
   <Release.label>liberar</Release.label>
+  <!-- EN: A warden will release the prisoner. -->
+  <Release.description>Un vigilante liberará al prisionero.</Release.description>
   
 </LanguageData>
