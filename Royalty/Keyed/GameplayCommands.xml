@@ -2,11 +2,11 @@
 <LanguageData>
 
   <!-- EN: {0_labelShort} is unconscious. -->
-  <CommandDisabledUnconscious>{0_labelShort} es inconsistente</CommandDisabledUnconscious>
+  <CommandDisabledUnconscious>{0_labelShort} es inconsistente.</CommandDisabledUnconscious>
   
   <!-- Heritage -->
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
-  <ChooseHeir>Elija un nuevo heredero para {HOLDER_nameIndef}:</ChooseHeir>
+  <ChooseHeir>Elegir un nuevo heredero para {HOLDER_nameIndef}:</ChooseHeir>
   <!-- EN: You're about to change the heir of the title {HOLDER_nameIndef} received from {0_name}. This requires building a monument in a limited time, to consecrate the new inheritance. -->
   <MakeHeirConfirm>Estás a punto de cambiar al heredero del título {HOLDER_nameIndef} que fue otorgado por {0_name}. Esto requiere la construcción de un monumento en un tiempo limitado, para inaugurar el nuevo legado.</MakeHeirConfirm>
   <!-- EN: This will upset {HOLDER_possessive} current heir {HEIR_nameFull}. -->
@@ -14,11 +14,13 @@
 
   <!-- Call aid -->
   <!-- EN: Call aid... -->
-  <CommandCallRoyalAid>Pedido de ayuda...</CommandCallRoyalAid>
+  <CommandCallRoyalAid>Pedir ayuda...</CommandCallRoyalAid>
   <!-- EN: Call for aid using a special permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs honor to do so. -->
-  <CommandCallRoyalAidDesc>La solicitud de ayuda real se realiza con un permiso especial.\n\nCada tipo de ayuda puede ser utilizada de forma gratuita una vez, después de lo cual debes esperar para utilizarla de nuevo de forma gratuita. Puedes usar la ayuda más frecuentemente, pero cuesta puntos de honor hacerlo.</CommandCallRoyalAidDesc>
+  <CommandCallRoyalAidDesc>La solicitud de ayuda real se realiza con un permiso especial.\n\nCada tipo de ayuda puede ser utilizada de forma gratuita una vez, después de lo cual debes esperar para utilizarla de nuevo de forma gratuita. Puedes usar la ayuda más frecuentemente, pero cuesta honor hacerlo.</CommandCallRoyalAidDesc>
   <!-- EN: Guests will not use their aid permits. -->
   <CommandCallRoyalAidLodger>Los huéspedes no usarán sus permisos de ayuda.</CommandCallRoyalAidLodger>
+  <!-- EN: Slaves cannot use their permits. -->
+  <CommandCallRoyalAidSlave>Los esclavos no pueden utilizar sus permisos.</CommandCallRoyalAidSlave>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
   <CommandCallRoyalAidFactionHostile>Tu relación con {FACTION_name} son hostiles.</CommandCallRoyalAidFactionHostile>
   <!-- EN: Free -->
@@ -28,7 +30,7 @@
   <!-- EN: You are about to call for aid, but there are people from factions whom {0_name} is not hostile to. Any soldiers you call will not attack them: {1} -->
   <CommandCallRoyalAidWarningNonHostileFactions>Estás a punto de pedir ayuda, pero hay gente de facciones a las que {0_name} no es hostil. Cualquier soldado que llame no los atacará: {1}</CommandCallRoyalAidWarningNonHostileFactions>
   <!-- EN: Not enough honor. -->
-  <CommandCallRoyalAidNotEnoughFavor>No hay suficientes Puntos de Honor</CommandCallRoyalAidNotEnoughFavor>
+  <CommandCallRoyalAidNotEnoughFavor>No hay suficiente honor.</CommandCallRoyalAidNotEnoughFavor>
   
   <!-- Call laborers -->
   <!-- EN: Call laborers -->
@@ -42,19 +44,19 @@
 
   <!-- Abilities -->
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
-  <CommandPsycastWouldExceedEntropy>El calor neuronal se desbordaría. Inhabilite el limitador de calor neural para emitir.</CommandPsycastWouldExceedEntropy>
+  <CommandPsycastWouldExceedEntropy>El calor neural se desbordaría. Inhabilite el limitador de calor neural para emitir.</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
-  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} consume {0} de psícofoco pero {CASTERNAME} solo tiene {1}.</CommandPsycastNotEnoughPsyfocus>
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} consume {0} de psicofoco pero {CASTERNAME} solo tiene {1}.</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: {PSYCASTNAME} needs {0} psyfocus to stop {1}'s mental break but {CASTERNAME} only has {2} psyfocus. -->
   <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME} necesita {0} de psicofoco para detener el colapso mental de {1} pero {CASTERNAME} solo tiene {2} de psicofoco.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
   <!-- EN: level {0} psylink is required. -->
-  <CommandPsycastHigherLevelPsylinkRequired>requiere el nivel {0} de enlace psíquico.</CommandPsycastHigherLevelPsylinkRequired>
+  <CommandPsycastHigherLevelPsylinkRequired>requiere el nivel {0} de psicoenlace.</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Zero psychic sensitivity. -->
   <CommandPsycastZeroPsychicSensitivity>Cero sensibilidad psíquica.</CommandPsycastZeroPsychicSensitivity>
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>El usuario de la habilidad se desmayó.</CommandPsycastPawnIsUnconscious>
   <!-- EN: Need at least {0} psyfocus to cast this. -->
-  <CommandPsycastLowPsyfocus>Necesitas al menos {0} de psícofoco para emitir esto.</CommandPsycastLowPsyfocus>
+  <CommandPsycastLowPsyfocus>Necesitas al menos {0} de psicofoco para emitir esto.</CommandPsycastLowPsyfocus>
   <!-- EN: H -->
   <NeuralHeatLetter>H</NeuralHeatLetter>
   <!-- EN: P -->
@@ -62,7 +64,7 @@
 
   <!-- Select monument marker -->
   <!-- EN: Select monument -->
-  <CommandSelectMonumentMarker>Seleccione monumento</CommandSelectMonumentMarker>
+  <CommandSelectMonumentMarker>Seleccionar monumento</CommandSelectMonumentMarker>
   <!-- EN: Select the monument marker this belongs to. -->
   <CommandSelectMonumentMarkerDesc>Seleccione el marcador de monumento al que pertenece.</CommandSelectMonumentMarkerDesc>
 
@@ -74,8 +76,13 @@
   
   <!-- Permits -->
   <!-- EN: Choose permit -->
-  <ChooseRoyalPermit>Elijir permiso</ChooseRoyalPermit>
+  <ChooseRoyalPermit>Elegir permiso</ChooseRoyalPermit>
   <!-- EN: Open the permit selection screen and choose a new permit. -->
-  <ChooseRoyalPermit_Desc>Abra la pantalla de selección de permisos y elija un nuevo permiso.</ChooseRoyalPermit_Desc>
+  <ChooseRoyalPermit_Desc>Abre la pantalla de selección de permisos y elija un nuevo permiso.</ChooseRoyalPermit_Desc>
+
+  <!-- EN: Leave bestowing ceremony -->
+  <CommandLeaveBestowingCeremony>Abandonar la ceremonia de concesión</CommandLeaveBestowingCeremony>
+  <!-- EN: Stop participating in the bestowing ceremony. -->
+  <CommandLeaveBestowingCeremonyDesc>Dejas de participar en la ceremonia de concesión.</CommandLeaveBestowingCeremonyDesc>
   
 </LanguageData>

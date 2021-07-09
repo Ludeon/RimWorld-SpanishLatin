@@ -14,32 +14,22 @@
   <RoyalTitleTooltipThroneroomRequirements>Requisitos del salón del trono</RoyalTitleTooltipThroneroomRequirements>
   <!-- EN: Title privileges -->
   <RoyalTitleTooltipPermits>Privilegios de título</RoyalTitleTooltipPermits>
-  <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>Tamaño de la habitación: {0} casillas</RoomRequirementArea>
-  <!-- EN: room impressiveness -->
-  <RoomRequirementImpressiveness>atractivo de la habitación</RoomRequirementImpressiveness>
-  <!-- EN: all floored -->
-  <RoomRequirementAllFloored>toda la habitación con suelos fabricados</RoomRequirementAllFloored>
-  <!-- EN: all braziers must be lit -->
-  <RoomRequirementAllBraziersMustBeLit>todos los braseros deben estar encendidos</RoomRequirementAllBraziersMustBeLit>
-  <!-- EN: all fine floored -->
-  <RoomRequirementAllFineFloored>todo el suelo con azulejos</RoomRequirementAllFineFloored>
-  <!-- EN: no work facilities allowed -->
-  <RoomRequirementNoProductionFacilities>no se permiten instalaciones de trabajo</RoomRequirementNoProductionFacilities>
-  <!-- EN: no beds allowed -->
-  <RoomRequirementNoBeds>no se permiten camas</RoomRequirementNoBeds>
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>Todos los portadores de este título deben usar una combinación de las siguientes ropas</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
   <ApparelRequirementAnyPrestigeArmor>Cualquier armadura prestigiosa</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
   <ApparelRequirementAnyPsycasterApparel>Cualquier vestimenta de psíco-emisor</ApparelRequirementAnyPsycasterApparel>
+  <!-- EN: or any psycaster or prestige apparel -->
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>o cualquier psíco-emisor o vestimenta prestigiosa</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
   <!-- EN: Disallowed work types -->
   <DisabledWorkTypes>Tipos de trabajo no permitidos</DisabledWorkTypes>
   <!-- EN: Allowed foods -->
   <RoyalTitleRequiredMeals>Comidas permitidas</RoyalTitleRequiredMeals>
   <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
   <RoyalTitleRequiredMealsDesc>Un portador de este título solo comerá estas comidas, a menos que se estén muriendo de hambre o vayan en una caravana.</RoyalTitleRequiredMealsDesc>
+  <!-- EN: Choose who should participate in bestowing ceremony. -->
+  <ChooseParticipantsBestow>Elige quién debe participar en la ceremonia de concesión.</ChooseParticipantsBestow>
 
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
@@ -71,9 +61,9 @@
   <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
   <RoyalWithConceitedTrait>Como {PAWN_labelShort} es {2}, {PAWN_pronoun} exigirá que los privilegios de su título sean debidamente respetados. {PAWN_labelShort} podría negarse a realizar determinados tipos de trabajo o a comer comida de clase baja, y emitirá decretos. Algún otro colono sería probablemente más flexible.</RoyalWithConceitedTrait>
   <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
-  <RoyalWithTraitAffectingPsylinkNegatively>Como {PAWN_labelShort} es {2}, el uso de poderes psíquicos podrían no serle para nada útiles.</RoyalWithTraitAffectingPsylinkNegatively>
+  <RoyalWithTraitAffectingPsylinkNegatively>Como {PAWN_labelShort} es {2}, el psicoenlace podría no ser útil para {PAWN_pronoun}.</RoyalWithTraitAffectingPsylinkNegatively>
   <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain this power anyways? -->
-  <PsylinkTooLowForGainAbility>El nivel de enlace psíquico de {PAWN_labelShort} no es lo bastante alto para usar {ABILITY}.\n\n¿Quieres que aprenda este poder de todas formas?</PsylinkTooLowForGainAbility>
+  <PsylinkTooLowForGainAbility>El nivel de psicoenlace de {PAWN_labelShort} no es lo bastante alto para usar {ABILITY}.\n\n¿Quieres que aprenda este poder de todas formas?</PsylinkTooLowForGainAbility>
   <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
   <SendShuttleWithNoContents>Este transbordador está vacío. Si lo envías lejos, no podrás usarlo de nuevo.\n\n¿Enviarlo de todas formas?</SendShuttleWithNoContents>
   <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->

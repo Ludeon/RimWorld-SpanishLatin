@@ -5,7 +5,7 @@
   <!-- EN: {PAWN_labelShort} currently has the title {TITLE}, awarded by {FACTION_name}. -->
   <RoyalTitleTooltipHasTitle>{PAWN_labelShort} recientemente ha obtenido el título de {TITLE}, otorgado por la facción {FACTION_name}.</RoyalTitleTooltipHasTitle>
   <!-- EN: {PAWN_labelShort} will demand that this title's privileges be fully respected. -->
-  <RoyalTitleTooltipConceited>{PAWN_labelShort} exigirá que los privilegios del título sean plenamente respetados</RoyalTitleTooltipConceited>
+  <RoyalTitleTooltipConceited>{PAWN_labelShort} exigirá que los privilegios del título sean plenamente respetados.</RoyalTitleTooltipConceited>
   <!-- EN: {PAWN_labelShort} is flexible about this title's privileges. -->
   <RoyalTitleTooltipNonConceited>{PAWN_labelShort} es flexible en cuanto a los privilegios de su título. </RoyalTitleTooltipNonConceited>
   <!-- EN: Next title -->
@@ -31,10 +31,8 @@
   <!-- EN: {0} total -->
   <RoyalTitleTooltipRoyalFavorTotal>{0} Total</RoyalTitleTooltipRoyalFavorTotal>
 
-  <!-- EN: Royal title offset -->
-  <RecruitmentValueOffsetRoyal>Título de nobleza de compensación</RecruitmentValueOffsetRoyal>
-  <!-- EN: Royal title factor -->
-  <RecruitmentValueFactorRoyal>Factor título de nobleza</RecruitmentValueFactorRoyal>
+  <!-- EN: {0} title -->
+  <RecruitmentResistanceRoyalTitleOffset>título {0}</RecruitmentResistanceRoyalTitleOffset>
   
   <!-- Permits tab -->
   <!-- EN: Permits -->
