@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: chemical want -->
-  <DrugDesireFascination.stages.chemical_want.label>quiero químicos</DrugDesireFascination.stages.chemical_want.label>
+  <DrugDesireFascination.stages.chemical_want.label>necesidad de químicos</DrugDesireFascination.stages.chemical_want.label>
   <!-- EN: I'm fascinated by drugs. I want to experience them more. -->
   <DrugDesireFascination.stages.chemical_want.description>Me fascinan las drogas. Quiero experimentarlas más.</DrugDesireFascination.stages.chemical_want.description>
   <!-- EN: chemical hunger -->
@@ -24,7 +24,7 @@
   <DrugDesireFascinationSatisfied.stages.chemical_satisfaction.description>Me fascinan las drogas, y estoy plenamente satisfecho con mi consumo de drogas.</DrugDesireFascinationSatisfied.stages.chemical_satisfaction.description>
   
   <!-- EN: chemical want -->
-  <DrugDesireInterest.stages.chemical_want.label>quiero químicos</DrugDesireInterest.stages.chemical_want.label>
+  <DrugDesireInterest.stages.chemical_want.label>necesidad de químicos</DrugDesireInterest.stages.chemical_want.label>
   <!-- EN: I'm interested in drugs. I want to try more. -->
   <DrugDesireInterest.stages.chemical_want.description>Me interesan las drogas. Quiero probar más.</DrugDesireInterest.stages.chemical_want.description>
   <!-- EN: chemical hunger -->
@@ -119,6 +119,27 @@
   <NeedFood.stages.extreme_starvation.label>inanición extrema</NeedFood.stages.extreme_starvation.label>
   <!-- EN: Food... food... anything... please... -->
   <NeedFood.stages.extreme_starvation.description>Comida... Comida... lo que sea... Por favor...</NeedFood.stages.extreme_starvation.description>
+  
+  <!-- EN: just outdoors -->
+  <NeedIndoors.stages.just_outdoors.label>al aire libre</NeedIndoors.stages.just_outdoors.label>
+  <!-- EN: I shouldn’t be outdoors. -->
+  <NeedIndoors.stages.just_outdoors.description>No debería estar al aire libre.</NeedIndoors.stages.just_outdoors.description>
+  <!-- EN: outdoors -->
+  <NeedIndoors.stages.outdoors.label>aire libre</NeedIndoors.stages.outdoors.label>
+  <!-- EN: I’ve been outside too much recently. -->
+  <NeedIndoors.stages.outdoors.description>He estado demasiado tiempo fuera últimamente.</NeedIndoors.stages.outdoors.description>
+  <!-- EN: long outdoors -->
+  <NeedIndoors.stages.long_outdoors.label>largo tiempo al aire libre</NeedIndoors.stages.long_outdoors.label>
+  <!-- EN: Being outside so much is wrong for me. -->
+  <NeedIndoors.stages.long_outdoors.description>Estar tanto tiempo fuera me parece mal.</NeedIndoors.stages.long_outdoors.description>
+  <!-- EN: very long outdoors -->
+  <NeedIndoors.stages.very_long_outdoors.label>demasiado tiempo al aire libre</NeedIndoors.stages.very_long_outdoors.label>
+  <!-- EN: I’ve been outside way too much recently. This open space is so disturbing. -->
+  <NeedIndoors.stages.very_long_outdoors.description>Últimamente he estado demasiado tiempo al aire libre. Este espacio abierto es tan inquietante.</NeedIndoors.stages.very_long_outdoors.description>
+  <!-- EN: brutal outdoors -->
+  <NeedIndoors.stages.brutal_outdoors.label>aire libre interminable</NeedIndoors.stages.brutal_outdoors.label>
+  <!-- EN: These open spaces are driving me insane! -->
+  <NeedIndoors.stages.brutal_outdoors.description>¡Estos espacios abiertos me están volviendo loc{PAWN_gender ? o : a}!</NeedIndoors.stages.brutal_outdoors.description>
   
   <!-- EN: recreation-starved -->
   <NeedJoy.stages.recreationstarved.label>inanición recreativa</NeedJoy.stages.recreationstarved.label>

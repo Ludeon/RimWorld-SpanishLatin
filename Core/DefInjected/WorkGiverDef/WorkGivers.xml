@@ -151,9 +151,9 @@
   <!-- EN: fabricate things -->
   <DoBillsFabricationBench.label>fabricar cosas</DoBillsFabricationBench.label>
   <!-- EN: fabricating things at -->
-  <DoBillsFabricationBench.gerund>fabricando</DoBillsFabricationBench.gerund>
-  <!-- EN: fabricating things -->
-  <DoBillsFabricationBench.verb>fabricar cosas</DoBillsFabricationBench.verb>
+  <DoBillsFabricationBench.gerund>fabricando cosas en</DoBillsFabricationBench.gerund>
+  <!-- EN: fabricate -->
+  <DoBillsFabricationBench.verb>fabricar</DoBillsFabricationBench.verb>
   
   <!-- EN: do bills at campfire -->
   <DoBillsHaulCampfire.label>hacer las tareas en la fogata</DoBillsHaulCampfire.label>
@@ -296,11 +296,11 @@
   <DoctorTendToSelfEmergency.verb>autoatenderse</DoctorTendToSelfEmergency.verb>
   
   <!-- EN: execute prisoners -->
-  <DoExecution.label>liquidar prisionero</DoExecution.label>
-  <!-- EN: doing execution on -->
-  <DoExecution.gerund>liquidando a</DoExecution.gerund>
-  <!-- EN: do execution on -->
-  <DoExecution.verb>liquidar a</DoExecution.verb>
+  <DoExecution.label>ejecutar prisionero</DoExecution.label>
+  <!-- EN: executing -->
+  <DoExecution.gerund>ejecutanto a</DoExecution.gerund>
+  <!-- EN: execute -->
+  <DoExecution.verb>ejecutar a</DoExecution.verb>
   
   <!-- EN: drill at deep drill -->
   <Drill.label>taladrar con taladro de profundidad</Drill.label>
@@ -308,6 +308,20 @@
   <Drill.gerund>taladrando</Drill.gerund>
   <!-- EN: drill -->
   <Drill.verb>taladrar</Drill.verb>
+  
+  <!-- EN: empty egg box -->
+  <EmptyEggBox.label>vaciar caja de huevos</EmptyEggBox.label>
+  <!-- EN: emptying -->
+  <EmptyEggBox.gerund>vaciando</EmptyEggBox.gerund>
+  <!-- EN: empty -->
+  <EmptyEggBox.verb>vaciar</EmptyEggBox.verb>
+  
+  <!-- EN: execute guilty colonists -->
+  <ExecuteGuiltyColonist.label>ejecutar a colonos culpables</ExecuteGuiltyColonist.label>
+  <!-- EN: executing -->
+  <ExecuteGuiltyColonist.gerund>ejecutando</ExecuteGuiltyColonist.gerund>
+  <!-- EN: execute -->
+  <ExecuteGuiltyColonist.verb>ejecutar</ExecuteGuiltyColonist.verb>
   
   <!-- EN: feed prisoners -->
   <FeedPrisoner.label>alimentar prisioneros</FeedPrisoner.label>
@@ -477,6 +491,13 @@
   <!-- EN: rearm -->
   <RearmTurrets.verb>rearmar</RearmTurrets.verb>
   
+  <!-- EN: rebalance penned animals -->
+  <RebalanceAnimalsInPens.label>reequilibrar los animales encerrados</RebalanceAnimalsInPens.label>
+  <!-- EN: roping -->
+  <RebalanceAnimalsInPens.gerund>atando</RebalanceAnimalsInPens.gerund>
+  <!-- EN: rope -->
+  <RebalanceAnimalsInPens.verb>atar</RebalanceAnimalsInPens.verb>
+  
   <!-- EN: refuel fuelable buildings -->
   <Refuel.label>reabastecer de combustible</Refuel.label>
   <!-- EN: refueling -->
@@ -490,6 +511,13 @@
   <ReleasePrisoner.gerund>liberando</ReleasePrisoner.gerund>
   <!-- EN: release -->
   <ReleasePrisoner.verb>liberar</ReleasePrisoner.verb>
+  
+  <!-- EN: release to wild -->
+  <ReleaseToWild.label>liberar a la naturaleza</ReleaseToWild.label>
+  <!-- EN: releasing -->
+  <ReleaseToWild.gerund>liberando</ReleaseToWild.gerund>
+  <!-- EN: release -->
+  <ReleaseToWild.verb>liberar</ReleaseToWild.verb>
   
   <!-- EN: remove roofs -->
   <RemoveRoofs.label>remover techos</RemoveRoofs.label>
@@ -533,6 +561,13 @@
   <!-- EN: strip -->
   <Strip.verb>desvestir</Strip.verb>
   
+  <!-- EN: study -->
+  <StudyThing.label>estudiar</StudyThing.label>
+  <!-- EN: studying -->
+  <StudyThing.gerund>estudiando</StudyThing.gerund>
+  <!-- EN: research -->
+  <StudyThing.verb>investigar</StudyThing.verb>
+  
   <!-- EN: take beer out of fermenting barrels -->
   <TakeBeerOutOfFermentingBarrel.label>recolectar cerveza del fermentador</TakeBeerOutOfFermentingBarrel.label>
   <!-- EN: taking beer from -->
@@ -547,12 +582,26 @@
   <!-- EN: take to bed -->
   <TakePrisonerToBed.verb>llevar a la cama</TakePrisonerToBed.verb>
   
+  <!-- EN: rope roaming animals -->
+  <TakeRoamingAnimalsToPen.label>atar animales errantes</TakeRoamingAnimalsToPen.label>
+  <!-- EN: roping -->
+  <TakeRoamingAnimalsToPen.gerund>atando</TakeRoamingAnimalsToPen.gerund>
+  <!-- EN: rope -->
+  <TakeRoamingAnimalsToPen.verb>atar</TakeRoamingAnimalsToPen.verb>
+  
   <!-- EN: take patients to bed for operations -->
   <TakeToBedToOperate.label>llevar pacientes a operar</TakeToBedToOperate.label>
   <!-- EN: taking to operate -->
   <TakeToBedToOperate.gerund>llevando a operar</TakeToBedToOperate.gerund>
   <!-- EN: take to operate -->
   <TakeToBedToOperate.verb>llevar a operar</TakeToBedToOperate.verb>
+  
+  <!-- EN: rope animals -->
+  <TakeToPen.label>atar animales</TakeToPen.label>
+  <!-- EN: roping -->
+  <TakeToPen.gerund>atando</TakeToPen.gerund>
+  <!-- EN: rope -->
+  <TakeToPen.verb>atar</TakeToPen.verb>
   
   <!-- EN: tame animals -->
   <Tame.label>domesticar animales</Tame.label>

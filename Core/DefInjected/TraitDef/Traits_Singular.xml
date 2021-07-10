@@ -13,7 +13,7 @@
   
   <!-- EN: ascetic -->
   <Ascetic.degreeDatas.ascetic.label>austero</Ascetic.degreeDatas.ascetic.label>
-  <!-- EN: {PAWN_nameDef} has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. {PAWN_pronoun} will become unhappy if if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw. {PAWN_pronoun} never judges others by their appearance. -->
+  <!-- EN: {PAWN_nameDef} has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. {PAWN_pronoun} will become unhappy if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw. {PAWN_pronoun} never judges others by their appearance. -->
   <Ascetic.degreeDatas.ascetic.description>{PAWN_nameDef} ha renunciado a las comodidades físicas y a los placeres en favor de un estilo de vida simple y puro. {PAWN_pronoun} será infeliz si tiene un dormitorio demasiado impresionante. A {PAWN_pronoun} también le disgusta la comida elegante y prefiere comer su comida cruda. Nunca juzga a los demás por su apariencia.</Ascetic.degreeDatas.ascetic.description>
   <Ascetic.degreeDatas.ascetic.labelFemale>austera</Ascetic.degreeDatas.ascetic.labelFemale>
   
@@ -102,8 +102,8 @@
   
   <!-- EN: kind -->
   <Kind.degreeDatas.kind.label>amable</Kind.degreeDatas.kind.label>
-  <!-- EN: {PAWN_nameDef} is exceptionally kind. {PAWN_pronoun} has a special way of using kind words to brighten someone's day. {PAWN_pronoun} never insults others, and never judges people by their appearance. -->
-  <Kind.degreeDatas.kind.description>{PAWN_nameDef} es una buena persona. {PAWN_pronoun} tiene la tendencia de alegrar el día de los demás y nunca insultar a otros.</Kind.degreeDatas.kind.description>
+  <!-- EN: {PAWN_nameDef} is an exceptionally agreeable and giving person. {PAWN_pronoun} never insults others and will sometimes offer kind words to brighten the moods of those around {PAWN_objective}. {PAWN_pronoun} also never judges people by their appearance. -->
+  <Kind.degreeDatas.kind.description>{PAWN_nameDef} es una persona excepcionalmente agradable y generosa. {PAWN_pronoun} nunca insulta a los demás y a veces ofrece palabras amables para alegrar el ánimo de los que le rodean. Tampoco juzga a las personas por su aspecto.</Kind.degreeDatas.kind.description>
   
   <!-- EN: masochist -->
   <Masochist.degreeDatas.masochist.label>masoquista</Masochist.degreeDatas.masochist.label>
@@ -167,10 +167,11 @@
   <!-- EN: {PAWN_nameDef} has thick skin, dense flesh, and durable bones. {PAWN_pronoun} takes much less damage than other people from the same blows. {PAWN_pronoun} is extremely hard to kill. -->
   <Tough.degreeDatas.tough.description>{PAWN_nameDef} tiene piel gruesa, carne densa y huesos fuertes. {PAWN_pronoun} recibe mucho menos daño que otras personas por los mismos golpes. {PAWN_pronoun} es extremadamente difícil de matar.</Tough.degreeDatas.tough.description>
   
-  <!-- EN: transhumanist -->
-  <Transhumanist.degreeDatas.transhumanist.label>transhumanista</Transhumanist.degreeDatas.transhumanist.label>
+  <!-- EN: body modder -->
+  <Transhumanist.degreeDatas.body_modder.label>modificador del cuerpo</Transhumanist.degreeDatas.body_modder.label>
   <!-- EN: {PAWN_nameDef} feels limited in {PAWN_possessive} feeble human body. {PAWN_pronoun} often dreams of being enhanced by artificial body parts. -->
-  <Transhumanist.degreeDatas.transhumanist.description>{PAWN_nameDef} se siente limitad{PAWN_gender ? o : a} en {PAWN_possessive} débil cuerpo humano. {PAWN_pronoun} a menudo sueña con ser mejorad{PAWN_gender ? o : a} con partes artificiales del cuerpo.</Transhumanist.degreeDatas.transhumanist.description>
+  <Transhumanist.degreeDatas.body_modder.description>Se siente limitad{PAWN_gender ? o : a} en su débil cuerpo humano. A menudo sueña con ser mejorad{PAWN_gender ? o : a} con partes del cuerpo artificiales.</Transhumanist.degreeDatas.body_modder.description>
+  <Transhumanist.degreeDatas.body_modder.labelFemale>modificadora del cuerpo</Transhumanist.degreeDatas.body_modder.labelFemale>
   
   <!-- EN: undergrounder -->
   <Undergrounder.degreeDatas.undergrounder.label>tunelero</Undergrounder.degreeDatas.undergrounder.label>

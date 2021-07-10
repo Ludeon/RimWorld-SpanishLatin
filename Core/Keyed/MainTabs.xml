@@ -8,8 +8,8 @@
   <HigherPriority>más prioridad</HigherPriority>
   <!-- EN: lower priority -->
   <LowerPriority>menos prioridad</LowerPriority>
-  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
-  <RelevantSkills>Habilidades relevantes: {0}\nPromedio de habilidades relevantes: {1} / {2}</RelevantSkills>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
+  <RelevantSkills>Habilidades relevantes: {0}\nPromedio de habilidades relevantes: {1}</RelevantSkills>
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Haz clic para ir a:</ClickToJumpTo>
   <!-- EN: {1_labelShort} cannot do this kind of work. -->
@@ -35,7 +35,13 @@
   <!-- EN: Low priority -->
   <Priority4>Baja prioridad</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
-  <PawnFactionInfo>{0}\n\nLa facción a la que {1_nameDef} pertenece actualmente.\n\nHaga clic para ver la facción.</PawnFactionInfo>
+  <PawnFactionInfo>{0}\n\nLa facción a la que {1_nameDef} pertenece actualmente.\n\nHaz clic para ver la facción.</PawnFactionInfo>
+  <!-- EN: Disabled by backstory: {0} -->
+  <WorkDisabledByBackstory>Desactivado por el trasfondo: {0}</WorkDisabledByBackstory>
+  <!-- EN: Disabled by trait: {0} -->
+  <WorkDisabledByTrait>Desactivado por el rasgo: {0}</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest: {0} -->
+  <WorkDisabledByQuest>Desactivado por la misión: {0}</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -63,7 +69,7 @@
   <!-- EN: Paste -->
   <Paste>Pegar</Paste>
   <!-- EN: Allowed area -->
-  <AllowedArea>Área permitida</AllowedArea>
+  <AllowedArea>Permitir área</AllowedArea>
   
   <!-- Animals tab -->
   <!-- EN: Master -->
@@ -75,7 +81,7 @@
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
-  <IsPredator>Esta criatura es un depredador. Cuando tiene hambre, cazará criaturas más pequeñas, posiblemente, incluso personas.</IsPredator>
+  <IsPredator>Esta criatura es un depredador. Cuando tiene hambre, cazará criaturas más pequeñas, posiblemente incluyendo personas.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
   <IsInMentalState>Esta criatura se encuentra actualmente en el estado mental: {0}</IsInMentalState>
   
@@ -84,31 +90,29 @@
   <Hostile>Hostil</Hostile>
   <!-- EN: Ally -->
   <Ally>Aliado</Ally>
+  <!-- EN: hostile -->
+  <HostileLower>hostil</HostileLower>
+  <!-- EN: ally -->
+  <AllyLower>aliado</AllyLower>
   <!-- EN: defeated -->
   <DefeatedLower>derrotado</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>Enemigo de {0}</HostileTo>
   <!-- EN: Enemy of:  -->
-  <EnemyOf>Enemigo de: </EnemyOf>
-  <!-- EN: Current goodwill and relations status with this faction. -->
-  <CurrentGoodwillTip>Situación actual de buena voluntad y relaciones con esta facción.</CurrentGoodwillTip>
-  <!-- EN: Current relations with this faction. -->
-  <CurrentRelationTip>Las relaciones actuales con esta facción.</CurrentRelationTip>
+  <EnemyOf>Enemigo de:</EnemyOf>
+  <!-- EN: Recent events -->
+  <RecentEvents>Eventos recientes</RecentEvents>
+  <!-- EN: Ongoing events -->
+  <OngoingEvents>Eventos en curso</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Esta facción es permanentemente hostil. Asaltarán tus asentamientos y caravanas. Las relaciones con ellos nunca mejorarán por ningún motivo.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
   <CurrentGoodwillTip_Ally>Esta facción es aliada. Enviarán combatientes para ayudarte cuando puedan. Si las relaciones caen por debajo de {0}, se volverán neutrales.</CurrentGoodwillTip_Ally>
   <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
-  <CurrentGoodwillTip_Neutral>Esta facción es neutral. Comerciarán y hablarán contigo con libertad. Si las relaciones caen por debajo de {0}, se volverán hostiles. Si las relaciones se elevan por encima de {1}, serán tus alidos y tratarán de ayudarte activamente.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Neutral>Esta facción es neutral. Comerciarán y hablarán contigo con libertad. Si las relaciones caen por debajo de {0}, se volverán hostiles. Si las relaciones se elevan por encima de {1}, serán tus aliados y tratarán de ayudarte activamente.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Esta facción es hostil. Asaltarán sus asentamientos y caravanas. Si las relaciones se elevan por encima de {0}, se volverán neutrales.</CurrentGoodwillTip_Hostile>
-  <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
-  <CurrentGoodwillTip_NaturalGoodwill>Esta facción tiene un rango natural de buena voluntad de {0} a {1}.</CurrentGoodwillTip_NaturalGoodwill>
-  <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
-  <CurrentGoodwillTip_NaturalGoodwillRise>Si la buena voluntad está por debajo de {0}, esta se incrementará en {1} por año</CurrentGoodwillTip_NaturalGoodwillRise>
-  <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
-  <CurrentGoodwillTip_NaturalGoodwillFall>Si la buena voluntad está por encima de {0}, esta se decrecerá en {1} por año</CurrentGoodwillTip_NaturalGoodwillFall>
-  
+
   <!-- Social tab -->
   <!-- EN: Friend -->
   <Friend>Amigo</Friend>
@@ -178,8 +182,8 @@
   <!-- Research tab -->
   <!-- EN: Research -->
   <Research>Investigación</Research>
-  <!-- EN: Researched -->
-  <Researched>Investigado</Researched>
+  <!-- EN: Study -->
+  <Study>Estudio</Study>
   <!-- EN: Unresearched -->
   <Unresearched>Sin investigar</Unresearched>
   <!-- EN: Finished -->
@@ -208,6 +212,12 @@
   <TechLevelTooLow>Tu nivel de tecnología de facción es {0}, pero el nivel de tecnología de este proyecto es {1}. La velocidad de investigación se multiplicará por {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>Desbloqueado con</UnlockedWith>
+
+  <!-- Factions tab -->
+  <!-- EN: Factions -->
+  <FactionsTab>Facciones</FactionsTab>
+  <!-- EN: No known factions -->
+  <NoFactions>No hay facciones conocidas</NoFactions>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -282,8 +292,8 @@
   <QuestBedroomRequirementsUnsatisfiedSingle>un dormitorio gratis que cumpla con los requisitos de título de</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
   <QuestThroneRoomRequirementsUnsatisfied>un salón de trono que cumpla los requisitos del título de {TITLE} de {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
-  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestNoThroneRoom>un salón de trono que cumpla los requisitos del título de {TITLE} de {PAWN_definite}</QuestNoThroneRoom>
+  <!-- EN: assign a throne for {PAWN_definite} -->
+  <QuestNoThroneRoom>asigna un trono para {PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>Un colono con el título de {0}</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
@@ -316,7 +326,17 @@
   <QuestBetrayalOffer>Oferta de traición: Quedan {0} objetivos</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0} le concederá una recompensa por matar a todos los miembros de {1}.</QuestBetrayalOfferTip>
-  
+  <!-- EN: a colony wealth of at least {0} -->
+  <QuestRequiredPlayerWealth>una riqueza de la colonia de al menos</QuestRequiredPlayerWealth>
+  <!-- EN: alliance with {0} -->
+  <QuestAlliedTo>aliado de {0}</QuestAlliedTo>
+  <!-- EN: hostile to {0} -->
+  <QuestHostileTo>hostil a {0}</QuestHostileTo>
+  <!-- EN: neutral to {0} -->
+  <QuestNeutralTo>neutral a {0}</QuestNeutralTo>
+  <!-- EN: studied {0_labelShort} -->
+  <QuestRequiredThingStudied>{0_labelShort} estudiado</QuestRequiredThingStudied>
+
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Crea necesidad</CreatesNeed>
