@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: animals learning factor -->
+  <AnimalsLearningFactor.label>factor de aprendizaje animal</AnimalsLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for animals skill. -->
+  <AnimalsLearningFactor.description>Un multiplicador de la tasa de aprendizaje de la habilidad de los animales.</AnimalsLearningFactor.description>
+  
+  <!-- EN: caravan riding speed -->
+  <CaravanRidingSpeedFactor.label>vel. de caravana montada</CaravanRidingSpeedFactor.label>
+  <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
+  <CaravanRidingSpeedFactor.description>El multiplicador aplicado a la velocidad de movimiento de una persona cuando monta este animal como parte de una caravana. Los animales sólo pueden montarse en caravanas.</CaravanRidingSpeedFactor.description>
+  
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>capacidad de carga</CarryingCapacity.label>
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
@@ -20,6 +30,11 @@
   <EatingSpeed.label>velocidad de alimentación</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>Un multiplicador sobre la velocidad de alimentación.</EatingSpeed.description>
+  
+  <!-- EN: filth rate -->
+  <FilthRate.label>tasa de suciedad</FilthRate.label>
+  <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
+  <FilthRate.description>La cantidad de suciedad que produce esta criatura.\n\nEs mejor mantener a los animales que producen suciedad al aire libre o en esteras de paja donde su suciedad no sea un problema.</FilthRate.description>
   
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>cantidad de nutrición</ForagedNutritionPerDay.label>
@@ -41,15 +56,20 @@
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>Velocidad a la que este personaje desarrolla inmunidad a las enfermedades.\n\nSi es muy baja, el personaje morirá a causa de la enfermedad antes de ser capaz de desarrollar inmunidad.</ImmunityGainSpeed.description>
   
+  <!-- EN: injury healing factor -->
+  <InjuryHealingFactor.label>factor de curación de heridas</InjuryHealingFactor.label>
+  <!-- EN: The multiplier applied to a person's injury healing rate. -->
+  <InjuryHealingFactor.description>El multiplicador aplicado a la tasa de curación de las lesiones de una persona.</InjuryHealingFactor.description>
+  
   <!-- EN: leather amount -->
   <LeatherAmount.label>cantidad de cuero</LeatherAmount.label>
-  <!-- EN: The amount of leather yielded when butchering this creature. -->
-  <LeatherAmount.description>La cantidad de cuero que obtendrás al despiezar esta criatura.</LeatherAmount.description>
+  <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
+  <LeatherAmount.description>La cantidad de cuero que obtendrás al despiezar esta criatura. Este valor se reduce si la criatura no es sacrificada limpiamente, o si está herida al matarla.</LeatherAmount.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>cantidad de carne</MeatAmount.label>
-  <!-- EN: The amount of meat yielded when butchering this creature. -->
-  <MeatAmount.description>La cantidad de carne que obtendrás al despiezar esta creatura.</MeatAmount.description>
+  <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
+  <MeatAmount.description>La cantidad de carne que obtendrás al despiezar esta creatura. Este valor se reduce si la criatura no es sacrificada limpiamente, o si está herida al matarla.</MeatAmount.description>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>umbral de colapso mental</MentalBreakThreshold.label>
@@ -76,7 +96,7 @@
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>sensibilidad psíquica</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
-  <PsychicSensitivity.description>Las personas más sensibles sufren más los efectos psíquicos negativos y se benefician más de los positivos. Una mayor sensibilidad psíquica también aumenta el límite de calor neuronal.</PsychicSensitivity.description>
+  <PsychicSensitivity.description>Las personas más sensibles sufren más los efectos psíquicos negativos y se benefician más de los positivos. Una mayor sensibilidad psíquica también aumenta el límite de calor neural.</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>multi. de la tasa de reposo</RestRateMultiplier.label>

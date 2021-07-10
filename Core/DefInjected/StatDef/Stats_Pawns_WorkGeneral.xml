@@ -26,6 +26,11 @@
   <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
   <DeepDrillingSpeed.description>La velocidad a la que esta persona usa un taladro profundo para extraer recursos subterráneos.</DeepDrillingSpeed.description>
   
+  <!-- EN: drug crop harvest yield -->
+  <DrugHarvestYield.label>rendimiento al cosechar drogas</DrugHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant. -->
+  <DrugHarvestYield.description>El rendimiento que esta persona obtiene al cosechar los cultivos de drogas.\n\nLos rendimientos bajos dan la posibilidad de que esta persona desperdicie accidentalmente la cosecha. Los rendimientos altos aumentan el rendimiento de cada planta.</DrugHarvestYield.description>
+  
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>prob. de éxito al reparar</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
