@@ -84,7 +84,7 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort} ha domesticado con éxito a {1} (probabilidad del {2}) y le ha nombrado {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
-  <MessageTameNoSuitablePens>TODO</MessageTameNoSuitablePens>
+  <MessageTameNoSuitablePens>No hay un corral adecuado para {ANIMAL_labelShort}. Terminará alejándose con el tiempo.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>{RECRUITEE} se ha unido a tu colonia.</MessageRecruitJoinOfferAccepted>
 
@@ -97,9 +97,9 @@
   <MessageCriticalAlert>Alerta crítica: {0}</MessageCriticalAlert>
 
   <!-- EN: Must designate harvestable sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestable>Debes designar plantas cosechables suficientemente maduras.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestable>Debes designar plantas cosechables lo suficientemente maduras.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestableWood>Debes designar plantas talables suficientemente maduras.</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignateHarvestableWood>Debes designar plantas talables lo suficientemente maduras.</MessageMustDesignateHarvestableWood>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Debes designar plantas.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -156,9 +156,9 @@
   <MessageMedicalOperationWillAngerFaction>Esta operación va a enfadar a {0}.</MessageMedicalOperationWillAngerFaction>
 
   <!-- EN: {0} has miscarried due to starvation. -->
-  <MessageMiscarriedStarvation>{0} ha sufrido un aborto por inanición.</MessageMiscarriedStarvation>
+  <MessageMiscarriedStarvation>{0} ha abortado por inanición.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
-  <MessageMiscarriedPoorHealth>{0} ha sufrido un aborto por mala salud.</MessageMiscarriedPoorHealth>
+  <MessageMiscarriedPoorHealth>{0} ha abortado debido a su mala salud.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} ha dado a luz.</MessageGaveBirth>
   
@@ -183,7 +183,7 @@
   <MessageRoamerLeaving>{PAWN_labelShort} ha comenzado a alejarse! {PAWN_pronoun} abandonará el mapa a menos que un adiestrador de animales {PAWN_objective} lleve con cuerdas a un corral.</MessageRoamerLeaving>
 
   <!-- EN: Cannot auto-cut plants when pen is not enclosed - build fences. -->
-  <MessageAutoCutInUnenclosedPen>No se pueden autocortar las plantas cuando el corral no está cerrado - construir vallas.</MessageAutoCutInUnenclosedPen>
+  <MessageAutoCutInUnenclosedPen>No se pueden autocortar las plantas cuando el corral no está cerrado - construye vallas.</MessageAutoCutInUnenclosedPen>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Una colmena insectoide se ha reproducido.</MessageHiveReproduced>
@@ -232,7 +232,7 @@
   <MessageCannotSellItemsReason>Algunos objetos no pueden comercializarse porque: </MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort} ha fallado contruyendo un(a) {0}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
+  <MessageConstructionFailed>{WORKER_labelShort} ha fallado construyendo un(a) {0}. Se han desperdiciado algunos recursos.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Captura de pantalla guardada como: {0}</MessageScreenshotSavedAs>
