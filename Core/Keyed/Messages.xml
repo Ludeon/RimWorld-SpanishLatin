@@ -558,7 +558,7 @@
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>Debido a la falta de manutención, {1_labelShort} ha regresado a la naturaleza.</MessageAnimalReturnedWild>
   <!-- EN: {1_labelShort} has been returned to the wild. -->
-  <MessageAnimalReturnedWildReleased>A {1_labelShort} se le ha regresado a la naturaleza.</MessageAnimalReturnedWildReleased>
+  <MessageAnimalReturnedWildReleased>A un(a) {1_labelShort} se le ha regresado a la naturaleza.</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>Debido a la falta de entrenamiento, {ANIMAL_labelShort} ha perdido una habilidad: {1}</MessageAnimalLostSkill>
 
@@ -640,9 +640,9 @@
   <MessageIdeoOpposedWorkTypeSelected>Advertencia: Las creencias de {0_nameDef} se oponen al trabajo de {1}. Esto puede hacerle infeliz.</MessageIdeoOpposedWorkTypeSelected>
 
   <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
-  <MessageBedLostAssignment>{0} ya no está asignada a {1_nameDef}.</MessageBedLostAssignment>
+  <MessageBedLostAssignment>{0} ya no está asignad{0_gender ? o : a} a {1_nameDef}.</MessageBedLostAssignment>
   <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
-  <MessageBedDestroyed>{0} asignada a {1_nameDef} fue destruida.</MessageBedDestroyed>
+  <MessageBedDestroyed>{0} asignad{0_gender ? o : a} a {1_nameDef} fue destruid{0_gender ? o : a}.</MessageBedDestroyed>
 
   <!-- Rituals -->
   <!-- EN: spectate -->
