@@ -155,6 +155,8 @@
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Esta operación va a enfadar a {0}.</MessageMedicalOperationWillAngerFaction>
 
+  <!-- EN: {PAWN_nameDef} is pregnant! -->
+  <MessageAnimalIsPregnant>{PAWN_nameDef} ¡está embarazada!</MessageAnimalIsPregnant>
   <!-- EN: {0} has miscarried due to starvation. -->
   <MessageMiscarriedStarvation>{0} ha abortado por inanición.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
@@ -181,9 +183,6 @@
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
   <MessageRoamerLeaving>{PAWN_labelShort} ha comenzado a alejarse! {PAWN_pronoun} abandonará el mapa a menos que un adiestrador de animales {PAWN_objective} lleve con cuerdas a un corral.</MessageRoamerLeaving>
-
-  <!-- EN: Cannot auto-cut plants when pen is not enclosed - build fences. -->
-  <MessageAutoCutInUnenclosedPen>No se pueden autocortar las plantas cuando el corral no está cerrado - construye vallas.</MessageAutoCutInUnenclosedPen>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Una colmena insectoide se ha reproducido.</MessageHiveReproduced>

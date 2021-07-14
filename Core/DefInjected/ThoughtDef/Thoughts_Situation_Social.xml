@@ -68,7 +68,7 @@
   <!-- EN: I should be together with my bonded animal. -->
   <NotBondedAnimalMaster.stages.not_s_master.description>Debería estar junto a mi animal vinculado.</NotBondedAnimalMaster.stages.not_s_master.description>
   <!-- EN: not master of {0} -->
-  <NotBondedAnimalMaster.stages.not_master_of.label>no es {PAWN_gender ? el amoo : la ama} de {0}</NotBondedAnimalMaster.stages.not_master_of.label>
+  <NotBondedAnimalMaster.stages.not_master_of.label>no es {PAWN_gender ? el amo : la ama} de {0}</NotBondedAnimalMaster.stages.not_master_of.label>
   <!-- EN: I should be together with my bonded animals. -->
   <NotBondedAnimalMaster.stages.not_master_of.description>Debería estar junto con mis animales vinculados.</NotBondedAnimalMaster.stages.not_master_of.description>
   
@@ -108,9 +108,9 @@
   <Ugly.stages.physically_hideous.label>físicamente horrible</Ugly.stages.physically_hideous.label>
   
   <!-- EN: sleeping alone -->
-  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>durmiendo sol{PAWN_gender ?  : a}</WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>
+  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>durmiendo sol{PAWN_gender ? o : a}</WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>
   <!-- EN: I should be sleeping with a lover or spouse. -->
-  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>Debería estar durmiendo con un amante o cónyuge.</WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>
+  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>Debería estar durmiendo con mi amante o cónyuge.</WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>
   
   <!-- EN: woman -->
   <Woman.stages.woman.label>mujer</Woman.stages.woman.label>

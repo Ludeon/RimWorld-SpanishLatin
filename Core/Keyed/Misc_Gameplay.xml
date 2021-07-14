@@ -1122,13 +1122,13 @@
 
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
-  <SkillNeurotrainerLabel>neuro entrenador ({0})</SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>entrenabilidad ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>Usa el neuro entrenador de habilidad para aprender {0}</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>Usa el entrenabilidad para aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>Una superdosis de un solo uso de mecanitas que entrenan una habilidad específica.\n\nLa dosis se administra a través de la órbita del ojo. Una vez liberados en el cerebro, las mecanitas mejoran rápidamente las habilidades del sujeto en un área específica, transmutándose en tejido neural según sea necesario.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>{USER_labelShort} utilizó {1} neuro entrenador para pasar del nivel {2} al nivel {3}.</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort} utilizó {1} neuroentrenador para pasar del nivel {2} al nivel {3}.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -1450,9 +1450,9 @@
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was cured. -->
-  <HealingCureHediff>El/La {1} de {0_nameDef} fue curado.</HealingCureHediff>
+  <HealingCureHediff>{1_definite} de {0_nameDef} fue curado.</HealingCureHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
-  <HealingRestoreBodyPart>El/La de {0_nameDef} fue restaurado.</HealingRestoreBodyPart>
+  <HealingRestoreBodyPart>{1_definite} de {0_nameDef} fue restaurado.</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
   <WarningBuildingCausesHostility>Precaución: Colocar un edificio aquí ¡enfurecerá a la facción {FACTION_name}!</WarningBuildingCausesHostility>
@@ -1491,7 +1491,7 @@
   <!-- EN: Not participating -->
   <NotParticipating>Sin participación</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>Arrastra y suelte o haz clic izquierdo/derecho para mover a las personas.</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>Arrastra y suelta o cliquea para mover a las personas.</DragPawnsToRolesInfo>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Un esclavo. La propiedad humana de otros.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1526,7 +1526,7 @@
   <RitualOutcomeExtraDesc_Mood>Todos los que participen en el ritual ganarán {0} de humor durante {1} días.</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
-  <ChooseParticipants>Elija quién debe participar en {RITUAL_labelDef}.</ChooseParticipants>
+  <ChooseParticipants>Elije quién debe participar en {RITUAL_labelDef}.</ChooseParticipants>
   <!-- EN: Begin -->
   <Begin>Comenzar</Begin>
   <!-- EN: Begin {0} -->

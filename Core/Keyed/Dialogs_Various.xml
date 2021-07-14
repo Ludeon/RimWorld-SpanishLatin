@@ -1103,23 +1103,45 @@
   <AutoSlaugtherHeaderColOther>Otro</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
   <AutoSlaugtherTip>Si tienes más del número máximo de animales, los colonos sacrificarán los animales más viejos hasta que estén por debajo del límite.</AutoSlaugtherTip>
+  <!-- EN: Male adult -->
+  <AnimalMaleAdult>Macho adulto</AnimalMaleAdult>
+  <!-- EN: Male young -->
+  <AnimalMaleYoung>Macho joven</AnimalMaleYoung>
+  <!-- EN: Female adult -->
+  <AnimalFemaleAdult>Hembra adulta</AnimalFemaleAdult>
+  <!-- EN: Female young -->
+  <AnimalFemaleYoung>Hembra joven</AnimalFemaleYoung>
+  <!-- EN: Pregnant -->
+  <AnimalPregnant>Embarazada</AnimalPregnant>
+  <!-- EN: Slaughter -->
+  <AllowSlaughterPregnant>Sacrificar</AllowSlaughterPregnant>
 
   <!-- EN: The animal to be automatically slaughtered. -->
   <AutoSlaugtherHeaderTooltipLabel>El animal a sacrificar automáticamente.</AutoSlaugtherHeaderTooltipLabel>
-  <!-- EN: The current number of animals in the colony, both male and female.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipCurrentTotal>El número actual de animales en la colonia, tanto machos como hembras.\n\nLos animales con embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipCurrentTotal>
-  <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipMaxTotal>El número máximo de animales en la colonia, tanto machos como hembras.\n\nLos adiestradores sacrificarán automáticamente los animales extras.\n\nLos animales con embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipMaxTotal>
-  <!-- EN: The current number of males in the colony.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipCurrentMales>El número actual de machos en la colonia.\n\nLos animales con embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipCurrentMales>
-  <!-- EN: The maximum number of males in the colony.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipMaxMales>El número máximo de machos en la colonia.\n\nLos adiestradores sacrificarán automáticamente los animales extras.\n\nLos animales con embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipMaxMales>
-  <!-- EN: The current number of females in the colony.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipCurrentFemales>El número actual de hembras en la colonia.\n\nLos animales con embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipCurrentFemales>
-  <!-- EN: Desired maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipMaxFemales>Número máximo deseado de hembras en la colonia.\n\nLos adiestradores sacrificarán automáticamente los animales extras.\n\nLos animales con embarazos e inmaduros son ignorados.</AutoSlaugtherHeaderTooltipMaxFemales>
-  <!-- EN: The current number of pregnant or immature animals in the colony.\n\nThese animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipOther>El número actual de animales preñados o inmaduros en la colonia.\n\nEstos animales son ignorados.</AutoSlaugtherHeaderTooltipOther>
+  <!-- EN: The current number of animals in the colony, both male and female. -->
+  <AutoSlaugtherHeaderTooltipCurrentTotal>El número actual de animales en la colonia, tanto machos como hembras.</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxTotal>El número máximo de animales en la colonia, tanto machos como hembras.\n\nLos adiestradores sacrificarán automáticamente los animales extras.</AutoSlaugtherHeaderTooltipMaxTotal>
+  <!-- EN: The current number of males of breeding age in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentMales>El número actual de machos en edad reproductiva en la colonia.</AutoSlaugtherHeaderTooltipCurrentMales>
+  <!-- EN: The current number of baby and juvenile males in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentMalesYoung>El número actual de crías y machos jóvenes en la colonia.</AutoSlaughterHeaderTooltipCurrentMalesYoung>
+  <!-- EN: The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxMales>El número máximo de machos en edad reproductiva en la colonia.\n\nLos adiestradores sacrificarán automáticamente los animales extras.</AutoSlaugtherHeaderTooltipMaxMales>
+  <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaughterHeaderTooltipMaxMalesYoung>El número máximo de crías y machos jóvenes en la colonia.\n\nLos adiestradores sacrificarán automáticamente los animales extras.</AutoSlaughterHeaderTooltipMaxMalesYoung>
+  <!-- EN: The current number of females of breeding age of breeding age in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemales>El número actual de hembras en edad reproductiva en la colonia.</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <!-- EN: The current number of baby and juvenile females in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>El número actual de crías y hembras jóvenes en la colonia.</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
+  <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxFemales>Número máximo deseado de hembras en la colonia.\n\nLos adiestradores sacrificarán automáticamente los animales extras.</AutoSlaugtherHeaderTooltipMaxFemales>
+  <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaughterHeaderTooltipMaxFemalesYoung>El número máximo de crías y hembras jóvenes en la colonia.\n\nLos adiestradores sacrificarán automáticamente los animales extras.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
+  <!-- EN: The current number of pregnant animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentPregnant>El número actual de animales preñados en la colonia.</AutoSlaughterHeaderTooltipCurrentPregnant>
+  <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>Permitir el sacrificio de animales preñados junto con otras hembras de la misma especie.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
 
   <!-- EN: Click to set an animal count limit. -->
   <AutoSlaughterTooltipSetLimit>Haz clic para establecer un límite de recuento de animales.</AutoSlaughterTooltipSetLimit>
@@ -1130,7 +1152,7 @@
   <!-- EN: room area: {0} tiles -->
   <RoomRequirementArea>Tamaño de la habitación: {0} casillas</RoomRequirementArea>
   <!-- EN: room impressiveness -->
-  <RoomRequirementImpressiveness>impresionabilidad de la habitación</RoomRequirementImpressiveness>
+  <RoomRequirementImpressiveness>impresiones de la habitación</RoomRequirementImpressiveness>
   <!-- EN: all floored -->
   <RoomRequirementAllFloored>toda la habitación con suelos fabricados</RoomRequirementAllFloored>
   <!-- EN: all braziers must be lit -->
