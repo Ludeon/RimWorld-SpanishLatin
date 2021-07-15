@@ -78,11 +78,11 @@
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nuevo recluta</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull} ha reclutado con éxito a {RECRUITEE_nameFull} (probabilidad del {2}).</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull} ha reclutado con éxito a {RECRUITEE_nameFull}.</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
-  <MessageTameSuccess>{RECRUITER_labelShort} ha domesticado con éxito a {1} (probabilidad del {2}).</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} ha domesticado con éxito un(a) {1}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} ha domesticado con éxito a {1} (probabilidad del {2}) y le ha nombrado {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} ha domesticado con éxito un(a) {1} y le ha llamado {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>No hay un corral adecuado para {ANIMAL_labelShort}. Terminará alejándose con el tiempo.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
@@ -137,7 +137,7 @@
   <!-- EN: There are no medical beds available. -->
   <MessageNoMedicalBeds>No hay camas hospitalarias disponibles.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
-  <MessageNoAnimalBeds>No hay camas animales disponibles.</MessageNoAnimalBeds>
+  <MessageNoAnimalBeds>No hay camas de animales disponibles.</MessageNoAnimalBeds>
   <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
   <MessageTooLowMedCare>La operación requiere un nivel de {0} o mejores, pero {PAWN_labelShort} solo llega a "{2}".</MessageTooLowMedCare>
   
