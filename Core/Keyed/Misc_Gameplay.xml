@@ -103,7 +103,7 @@
   <!-- EN: Execute -->
   <Execute>Ejecutar</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>Ejecutar al colono culpable\n\nSi activas esta opción, un vivgilante procederá a ejecutar a esta persona.</ExecuteColonist> <!-- text_doto -->
+  <ExecuteColonist>Ejecutar al colono culpable\n\nSi activas esta opción, un vigilante procederá a ejecutar a esta persona.</ExecuteColonist> <!-- text_doto -->
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>{0_labelShort} está ahora marcad{0_gender ? o : a} para su ejecución. El siguiente vigilante disponible irá a ejecutar{0_objective}.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
@@ -343,13 +343,13 @@
   <!-- EN: Rideable animals / people -->
   <RideableAnimalsPerPeople>Animales montables / personas</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
-  <MultiplierFromRiddenAnimals>Multiplicador de animales montados</MultiplierFromRiddenAnimals>
+  <MultiplierFromRiddenAnimals>Multiplicador de animales monta</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Multiplicador de la masa transportada: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Este animal se puede montar. La gente de una caravana montará los animales más rápidos disponibles, mejorando la velocidad de la caravana en su conjunto.</RideableAnimalTip>
   <!-- EN: This caravan can't move because it carries too much. -->
-  <EncumberedCaravanTilesPerDayTip>Esta caravana puede moverse porque lleva mucho peso.</EncumberedCaravanTilesPerDayTip>
+  <EncumberedCaravanTilesPerDayTip>Esta caravana no puede moverse porque lleva mucho peso.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
   <FinalCaravanPawnsMovementSpeed>Velocidad de los miembros de la caravana</FinalCaravanPawnsMovementSpeed>
   <!-- EN: Final speed -->
@@ -1534,7 +1534,7 @@
   <!-- EN: Begin {0} for {1} -->
   <BeginRitualFor>Comenzar {0} para {1}</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
-  <QualityOutOf>{0} (fuera de {1})</QualityOutOf>
+  <QualityOutOf>{0} (de {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
   <DateRitualNoObligation>{0} es un ritual de fecha específica. Podrás iniciarlo en {1}, en el {2}.</DateRitualNoObligation>
 
