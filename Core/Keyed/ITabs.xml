@@ -65,7 +65,7 @@
   <!-- EN: Plant -->
   <PlantVerb>Sembrar</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here -->
-  <ClipboardBillNotAvailableHere>Las recetas copiadas no se pueden pegar aquí</ClipboardBillNotAvailableHere>
+  <ClipboardBillNotAvailableHere>Las receta copiada no se puede pegar aquí</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
   <ReorderBillUpTip>Desplazar hacia arriba</ReorderBillUpTip>
   <!-- EN: Move down -->
@@ -95,7 +95,7 @@
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>Intervalo de fugas de prisión</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
-  <PrisonBreakMTBDaysDescription>La media de días despiertos entre las fugas de la prisión. Esto se ve afectado por el estado de ánimo, la movilidad, el número de puertas de la prisión y el tiempo transcurrido desde la última fuga de la prisión.\n\nTen en cuenta que esto no incluye el tiempo que pasan dormidos los prisioneros.</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>La media de días despiertos entre las fugas de la prisión. Esto se ve afectado por el humor, la movilidad, el número de puertas de la prisión y el tiempo transcurrido desde la última fuga de la prisión.\n\nTen en cuenta que esto no incluye el tiempo que pasan dormidos los prisioneros.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>Nunca</Never>
   <!-- EN: Not while asleep -->
@@ -103,7 +103,7 @@
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>Fuga en proceso</CurrentlyPrisonBreaking>
   <!-- EN: Multiplier for door count -->
-  <FactorForDoorCount>Multiplicador para el recuento de puertas</FactorForDoorCount>
+  <FactorForDoorCount>Multiplicador de recuento de puertas</FactorForDoorCount>
   <!-- EN: Multiplier for movement -->
   <FactorForMovement>Multiplicador de movimiento</FactorForMovement>
   <!-- EN: Slave price -->
@@ -111,7 +111,7 @@
   <!-- EN: The base market value of this {0} if sold. -->
   <SlavePriceDescription>El valor de mercado base de este(a) {0} si es vendido(a).</SlavePriceDescription>
   <!-- EN: Gets food -->
-  <GetsFood>Es alimentado(a)</GetsFood>
+  <GetsFood>Recibe comida</GetsFood>
   <!-- EN: Doctors care -->
   <DoctorsCare>Cuidados médicos</DoctorsCare>
   <!-- EN: Gets medicine -->
@@ -268,7 +268,7 @@
   <!-- EN: Mass carried: {0} / {1} kg -->
   <MassCarried>Peso cargado: {0} / {1} kg</MassCarried>
   <!-- EN: Comfortable temperature range -->
-  <ComfyTemperatureRange>Rango de temperaturas cómodas</ComfyTemperatureRange>
+  <ComfyTemperatureRange>Rango de temperatura cómoda</ComfyTemperatureRange>
   <!-- EN: Blunt -->
   <ArmorBlunt>Contundente</ArmorBlunt>
   <!-- EN: Sharp -->
@@ -375,7 +375,7 @@
   <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
   <PenFoodTab_NutritionConsumptionDescription>La nutrición que necesitan los animales actualmente en este corral.\n\nPara obtener más alimento, amplíe el corral para cubrir más crecimiento de plantas silvestres, o entregue al corral alimentos almacenados como heno.</PenFoodTab_NutritionConsumptionDescription>
   <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
-  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>La tasa de crecimiento de las plantas varía debido a las estaciones, el clima, el robo por parte de los animales silvestres y otros factores. Estos cálculos son aproximaciones.</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
+  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>Nota: La tasa de crecimiento de las plantas varía debido a las estaciones, el clima, el robo por parte de los animales silvestres y otros factores. Estos cálculos son aproximaciones.</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
 
   <!-- EN: Total consumption -->
   <PenFoodTab_NutritionConsumedPerDay_ColumLabel>Consumo total</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
@@ -392,9 +392,9 @@
   <PenFoodTab_EdibleNow>Comestible ahora</PenFoodTab_EdibleNow>
 
   <!-- EN: Auto-cut plants in pen -->
-  <PenAutoCut_EnabledCheckbox>Plantas autocortadas en el corral</PenAutoCut_EnabledCheckbox>
+  <PenAutoCut_EnabledCheckbox>Autocortar plantas en el corral</PenAutoCut_EnabledCheckbox>
   <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
-  <PenAutoCut_EnabledCheckboxTip>Marca automáticamente ciertas plantas no comestibles para cortarlas. Esto deja espacio para que crezcan plantas comestibles, las cuales tus animales puedrán comer.\n\nEsta autodesignación ocurre periódicamente y solo se aplica a ciertas plantas.\n\nEsto solo funciona cuando el corral está cerrado.</PenAutoCut_EnabledCheckboxTip>
+  <PenAutoCut_EnabledCheckboxTip>Marca automáticamente ciertas plantas no comestibles para cortarlas. Esto deja espacio para que crezcan plantas comestibles, las cuales tus animales podrán comer.\n\nEsta autodesignación ocurre periódicamente y solo se aplica a ciertas plantas.\n\nEsto solo funciona cuando el corral está cerrado.</PenAutoCut_EnabledCheckboxTip>
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>El corral no está cerrado</AutocutUnenclosedPen>
