@@ -52,7 +52,7 @@
   <!-- EN: hard worker -->
   <Industriousness.degreeDatas.hard_worker.label>muy trabajador</Industriousness.degreeDatas.hard_worker.label>
   <!-- EN: [PAWN_nameDef] is a natural hard worker and will finish tasks faster than most. -->
-  <Industriousness.degreeDatas.hard_worker.description>[PAWN_nameDef] es un trabajador nato. Terminará cualquier tarea mucho antes que los demás.</Industriousness.degreeDatas.hard_worker.description>
+  <Industriousness.degreeDatas.hard_worker.description>[PAWN_nameDef] es {PAWN_gender ? un trabajador nato : una trabajadora nata}. Terminará cualquier tarea mucho antes que los demás.</Industriousness.degreeDatas.hard_worker.description>
   <Industriousness.degreeDatas.hard_worker.labelFemale>muy trabajadora</Industriousness.degreeDatas.hard_worker.labelFemale>
   <!-- EN: lazy -->
   <Industriousness.degreeDatas.lazy.label>haragán</Industriousness.degreeDatas.lazy.label>
@@ -87,7 +87,7 @@
   <!-- EN: iron-willed -->
   <Nerves.degreeDatas.ironwilled.label>voluntad de hierro</Nerves.degreeDatas.ironwilled.label>
   <!-- EN: [PAWN_nameDef]'s will is an iron shield. [PAWN_pronoun] keeps going through thick and thin, when others broke down long before. -->
-  <Nerves.degreeDatas.ironwilled.description>La determinación de [PAWN_nameDef] está protegida por un escudo de acero. [PAWN_pronoun] sigue adelante a pesar de cualquier contratiempo, incluso los que harían rendirse a cualquier otro.</Nerves.degreeDatas.ironwilled.description>
+  <Nerves.degreeDatas.ironwilled.description>La determinación de [PAWN_nameDef] está protegida por un escudo de hierro. [PAWN_pronoun] sigue adelante a pesar de cualquier contratiempo, incluso los que harían rendirse a cualquier otro.</Nerves.degreeDatas.ironwilled.description>
   <!-- EN: steadfast -->
   <Nerves.degreeDatas.steadfast.label>resuelto</Nerves.degreeDatas.steadfast.label>
   <!-- EN: [PAWN_nameDef] is mentally tough and won't break down under stresses that would crack most people. -->
@@ -104,15 +104,15 @@
   <Nerves.degreeDatas.volatile.description>[PAWN_nameDef] está continuamente a punto de estallar ante una situación problemática. [PAWN_pronoun] es quien primero se quiebra ante una situación difícil.</Nerves.degreeDatas.volatile.description>
   
   <!-- EN: neurotic -->
-  <Neurotic.degreeDatas.neurotic.label>maniático</Neurotic.degreeDatas.neurotic.label>
+  <Neurotic.degreeDatas.neurotic.label>neurótico</Neurotic.degreeDatas.neurotic.label>
   <!-- EN: [PAWN_nameDef] likes to have things squared away. [PAWN_pronoun] will work harder than most to attain this state of affairs, but [PAWN_possessive] nerves can get the better of [PAWN_objective]. -->
   <Neurotic.degreeDatas.neurotic.description>A [PAWN_nameDef] le gusta que todo esté siempre en su sitio. [PAWN_pronoun] trabajará más que la mayoria de las personas para conseguir que las cosas estén como [PAWN_pronoun] quiere. Pero en ocasiones, sus nervios [PAWN_objective] derrotan.</Neurotic.degreeDatas.neurotic.description>
-  <Neurotic.degreeDatas.neurotic.labelFemale>maniática</Neurotic.degreeDatas.neurotic.labelFemale>
+  <Neurotic.degreeDatas.neurotic.labelFemale>neurótica</Neurotic.degreeDatas.neurotic.labelFemale>
   <!-- EN: very neurotic -->
-  <Neurotic.degreeDatas.very_neurotic.label>neurótico</Neurotic.degreeDatas.very_neurotic.label>
+  <Neurotic.degreeDatas.very_neurotic.label>muy neurótico</Neurotic.degreeDatas.very_neurotic.label>
   <!-- EN: [PAWN_nameDef] feels constantly nervous about everything that has to get done. [PAWN_pronoun] will work extremely hard to attain this state of affairs, but [PAWN_possessive] nerves can easily get the better of [PAWN_objective]. -->
   <Neurotic.degreeDatas.very_neurotic.description>[PAWN_nameDef] no para de estresarse con todas las cosas que hay por hacer. [PAWN_pronoun] trabajará como un animal para que las cosas estén como [PAWN_pronoun] quiere. Pero sus nervios pueden facilmente derrotar[PAWN_objective].</Neurotic.degreeDatas.very_neurotic.description>
-  <Neurotic.degreeDatas.very_neurotic.labelFemale>neurótica</Neurotic.degreeDatas.very_neurotic.labelFemale>
+  <Neurotic.degreeDatas.very_neurotic.labelFemale>muy neurótica</Neurotic.degreeDatas.very_neurotic.labelFemale>
   
   <!-- EN: psychically hypersensitive -->
   <PsychicSensitivity.degreeDatas.psychically_hypersensitive.label>hipersensibilidad psíquica</PsychicSensitivity.degreeDatas.psychically_hypersensitive.label>
