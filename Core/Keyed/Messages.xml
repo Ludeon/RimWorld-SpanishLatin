@@ -69,11 +69,11 @@
   <MessageOutOfNearbyFuelFor>{PAWN_labelShort} no ha encontrado ningún {FUEL} sin reservar para {GUN_definite}.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>Advertencia: Los/Las {ANIMAL_kindBasePlural} tienen {1} de posibilidad base de atacar cuando son heridos(as). La probabilidad depende del alcance y de la estadística de sigilo del cazador.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Advertencia: {ANIMAL_kindBasePlural} tienen {1} de probabilidad base de atacar cuando les lastiman. La probabilidad depende del alcance y de la estadística de sigilo del cazador.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
-  <MessageAnimalManhuntsOnTameFailed>Advertencia: Los/Las {ANIMAL_kindBasePlural} podrían atacar si el intento de domesticación falla (posibilidad del {1}).</MessageAnimalManhuntsOnTameFailed>
+  <MessageAnimalManhuntsOnTameFailed>Advertencia: {ANIMAL_kindBasePlural} podrían atacar si el intento de domesticación falla (probabilidad del {1}).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
-  <MessageInsectTameDesignated>Solo los que tienen el rasgo de simpatía por los insectos pueden domar {INSECT_indefinite}.</MessageInsectTameDesignated>
+  <MessageInsectTameDesignated>Solo los que tienen el rasgo de simpatía insectil pueden domar {INSECT_indefinite}.</MessageInsectTameDesignated>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nuevo recluta</LetterLabelMessageRecruitSuccess>

@@ -371,7 +371,7 @@
   <!-- EN: Enemy death on downed -->
   <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Muerte del enemigo al caer</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
   <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Ajusta la posibilidad extra de que un enemigo muera inmediatamente cuando sea derribado. Esto afecta a las posibilidades de tomar prisioneros, y por lo tanto a las tasas de crecimiento de la población de la colonia.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Ajusta la probabilidad extra de que un enemigo muera inmediatamente cuando sea derribado. Esto afecta a las posibilidades de tomar prisioneros, y por lo tanto a las tasas de crecimiento de la población de la colonia.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
 
   <!-- EN: General -->
   <DifficultyGeneralSection>General</DifficultyGeneralSection>
@@ -380,25 +380,25 @@
   <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
   <Difficulty_ColonistMoodOffset_Info>Una compensación permanente del estado de ánimo aplicada a cada colono y prisionero. Los colonos tienen un estado de ánimo básico del 50%.</Difficulty_ColonistMoodOffset_Info>
   <!-- EN: Food poison chance -->
-  <Difficulty_FoodPoisonChanceFactor_Label>Posibilidad de intoxicación alimentaria</Difficulty_FoodPoisonChanceFactor_Label>
+  <Difficulty_FoodPoisonChanceFactor_Label>Prob. de intoxicación alimentaria</Difficulty_FoodPoisonChanceFactor_Label>
   <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
-  <Difficulty_FoodPoisonChanceFactor_Info>Ajusta la posibilidad de que una persona se intoxique por comer una comida potencialmente envenenada.</Difficulty_FoodPoisonChanceFactor_Info>
+  <Difficulty_FoodPoisonChanceFactor_Info>Ajusta la probabilidad de que una persona se intoxique por comer una comida potencialmente envenenada.</Difficulty_FoodPoisonChanceFactor_Info>
   <!-- EN: Animal revenge chance -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Label>Posibilidad de venganza animal</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>Probabilidad de venganza animal</Difficulty_ManhunterChanceOnDamageFactor_Label>
   <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Info>Ajusta la posibilidad de que al herir a un animal salvaje este te ataque.</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>Ajusta la probabilidad de que al herir a un animal salvaje este te ataque.</Difficulty_ManhunterChanceOnDamageFactor_Info>
   <!-- EN: Friendly fire -->
   <Difficulty_FriendlyFireChanceFactor_Label>Fuego aliado</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>Ajusta la posibilidad de fuego amigo.\n\nNota: Este ajuste solo afecta a los disparos directos que iban a dar en el blanco. No previene el daño de las explosiones, o de los disparos que iban a fallar en su objetivo.</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>Ajusta la probabilidad de fuego amigo.\n\nNota: Este ajuste solo afecta a los disparos directos que iban a dar en el blanco. No previene el daño de las explosiones, o de los disparos que iban a fallar en su objetivo.</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
   <Difficulty_AllowInstantKillChance_Label>Colonos matan al instante</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AllowInstantKillChance_Info>Ajusta la posibilidad de que un colono pueda morir instantáneamente debido a un ataque. El daño entrante se ajusta para que hiera al colono en lugar de matarlo.\n\nEsto solo evita algunos tipos de muertes instantáneas - los colonos todavía pueden ser heridos y desangrarse hasta morir, morir por fuego, explosiones, enfermedades, etc.</Difficulty_AllowInstantKillChance_Info>
+  <Difficulty_AllowInstantKillChance_Info>Ajusta la probabilidad de que un colono pueda morir instantáneamente debido a un ataque. El daño entrante se ajusta para que hiera al colono en lugar de matarlo.\n\nEsto solo evita algunos tipos de muertes instantáneas - los colonos todavía pueden ser heridos y desangrarse hasta morir, morir por fuego, explosiones, enfermedades, etc.</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
   <Difficulty_PlayerPawnInfectionChanceFactor_Label>Probabilidad de infección</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Info>Ajusta la posibilidad de que una herida se infecte.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>Ajusta la probabilidad de que una herida se infecte.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
   <!-- EN: Disease frequency -->
   <Difficulty_DiseaseIntervalFactor_Inverted_Label>Frecuencia de enfermedades</Difficulty_DiseaseIntervalFactor_Inverted_Label>
   <!-- EN: Adjust the frequency of random disease events. -->
