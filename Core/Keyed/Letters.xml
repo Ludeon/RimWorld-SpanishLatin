@@ -252,7 +252,7 @@
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>Adicción: {0}</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>{PAWN_labelShort} ha desarrollado una adicción por el/la {1}.\n\n{PAWN_pronoun} ahora necesita de {1}, visible en su pestaña de humor. {PAWN_pronoun} ahora consumirá automáticamente la droga para cumplir su necesidad. Si no puede conseguir {1}, {PAWN_pronoun} va a desarrollar síndrome de abstinencia.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{PAWN_labelShort} ha desarrollado una adicción por {1_definite}.\n\n{PAWN_pronoun} ahora necesita de {1}, visible en su pestaña de Necesidad. {PAWN_pronoun} ahora consumirá automáticamente la droga para cumplir su necesidad. Si no puede conseguir {1}, {PAWN_pronoun} va a desarrollar el síndrome de abstinencia.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
@@ -351,9 +351,9 @@
   <LetterCatatonicMentalBreak>{0} tiene un colapso catatónico que durará varios días. {PAWN_pronoun} se recuperará en unos días.</LetterCatatonicMentalBreak>
 
   <!-- EN: Persona Core Offer -->
-  <LetterLabelAICoreOffer>Oferta de IA</LetterLabelAICoreOffer>
+  <LetterLabelAICoreOffer>Oferta de núcleo de IA</LetterLabelAICoreOffer>
   <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
-  <LetterAICoreOffer>{PAWN_definite} de {1} se pone en contacto contigo con una oferta de información: la ubicación de un Núcleo de IA, que necesitará para construir una nave espacial. Te informan que este objeto es bastante raro y por lo general sus propietarios lo tienen bajo fuerte vigilancia.\n\nLlámalos con tu consola de comunicaciones si estás interesado.</LetterAICoreOffer>
+  <LetterAICoreOffer>{PAWN_definite} de {1} se pone en contacto contigo con una oferta de información: la ubicación de un núcleo de IA, que necesitará para construir una nave espacial. Te informan que este objeto es bastante raro y por lo general sus propietarios lo tienen bajo fuerte vigilancia.\n\nLlámalos con tu consola de comunicaciones si estás interesado.</LetterAICoreOffer>
 
   <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
@@ -440,11 +440,11 @@
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Una nueva misión esta disponible. Se llama '{0}'.</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>Una nueva misión esta disponible. Se llama "{0}".</LetterQuestBecameAvailable>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>Si no acepta la misión dentro de {0}, caducará.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>Se ha activado una nueva misión. Se llama '{0}'.</LetterQuestBecameActive>
+  <LetterQuestBecameActive>Se ha activado una nueva misión. Se llama "{0}".</LetterQuestBecameActive>
   <!-- EN: Quest active: {0} -->
   <LetterQuestAutomaticallyAcceptedTitle>Misión activa: {0}</LetterQuestAutomaticallyAcceptedTitle>
   <!-- EN: It will expire in {0}. -->
@@ -529,18 +529,18 @@
   <!-- EN: Quest concluded -->
   <LetterQuestConcludedLabel>Misión concluida</LetterQuestConcludedLabel>
   <!-- EN: You have successfully completed the quest '{0}'! -->
-  <LetterQuestCompletedSuccess>¡Has completado con éxito la misión '{0}'!</LetterQuestCompletedSuccess>
+  <LetterQuestCompletedSuccess>¡Has completado con éxito la misión "{0}"!</LetterQuestCompletedSuccess>
   <!-- EN: You have failed the quest '{0}'. -->
-  <LetterQuestCompletedFail>Has fallado en la misión '{0}'.</LetterQuestCompletedFail>
+  <LetterQuestCompletedFail>Has fallado en la misión "{0}".</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
-  <LetterQuestCompletedConcluded>Has concluido la misión '{0}'.</LetterQuestCompletedConcluded>
+  <LetterQuestCompletedConcluded>Has concluido la misión "{0}".</LetterQuestCompletedConcluded>
 
   <!-- Bladelink -->
   <!-- EN: Persona bond: {PAWN_labelShort} -->
   <LetterBladelinkWeaponBondedLabel>Vinculación de IA: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial (IA) de está arma: {WEAPON_labelShort}.\n\De ahora en adelante, {WEAPON_labelShort} se negará a ser manejada por nadie, excepto por {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial (IA) de está arma: {WEAPON_labelShort}.\nDe ahora en adelante, esta arma: {WEAPON_labelShort} se negará a ser manejada por nadie, excepto por {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
