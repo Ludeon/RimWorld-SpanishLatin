@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Animal calm -->
+  <AnimalCalm.label>calma animal</AnimalCalm.label>
+  <!-- EN: Use unique methods of connecting with animals to calm a maddened beast. -->
+  <AnimalCalm.description>Utiliza métodos únicos de conexión con los animales para calmar a una bestia enloquecida.</AnimalCalm.description>
+  <!-- EN: {INITIATOR_labelShort} successfully calmed {RECIPIENT_labelShort}. -->
+  <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>{INITIATOR_labelShort} calmó con éxito a {RECIPIENT_labelShort}.</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
+  
+  <!-- EN: berserk trance -->
+  <BerserkTrance.label>trance frenético</BerserkTrance.label>
+  <!-- EN: The caster fills himself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
+  <BerserkTrance.description>El lanzador se llena de ira por agravios ideológicos. Esto fortalece el cuerpo más allá de los límites normales, pero también supone perder el control y atacar a todos los enemigos cercanos con una furia imparable. El estado frenético durará 3 horas.</BerserkTrance.description>
+  
+  <!-- EN: combat command -->
+  <CombatCommand.label>mando de combate</CombatCommand.label>
+  <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
+  <CombatCommand.description>Crea un aura que potencia las habilidades de combate de todos los que están cerca. El efecto dura 24 horas y permanece unido al líder mientras dure.</CombatCommand.description>
+  
+  <!-- EN: conversion ritual -->
+  <ConversionRitual.label>ritual de conversión</ConversionRitual.label>
+  <!-- EN: Try to persuade someone to adopt your beliefs. If it goes well, they will lose some certainty in their ideoligion and may convert. If it backfires, they will gain certainty in their old beliefs.\n\nTo start this ritual at a specific place, select a ritual spot or matching altar/ideogram. -->
+  <ConversionRitual.description>Intenta persuadir a alguien para que adopte tus creencias. Si va bien, perderá algo de certeza en su ideoligión y puede que se convierta. Si le sale mal, ganará certeza en sus antiguas creencias.\n\nPara iniciar este ritual en un lugar concreto, selecciona un lugar de ritual o un altar/ideograma a juego.</ConversionRitual.description>
+  
+  <!-- EN: convert -->
+  <Convert.label>convertir</Convert.label>
+  <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
+  <Convert.description>Intentar convertir a alguien a la ideoligión del orador. Esto reducirá la certeza del objetivo en sus propias creencias. La reducción de la certeza depende de la capacidad de negociación del orador.</Convert.description>
+  <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} no logró convertir a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} se ha molestado por el intento y su certeza cayó de {CERTAINTYBEFORE} a {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
+  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} logró convertir a {RECIPIENT_labelShort} a {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
+  
+  <!-- EN: Counsel -->
+  <Counsel.label>consejo</Counsel.label>
+  <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
+  <Counsel.description>Ofrece consejo a una persona para anular el efecto de un recuerdo triste. Las probabilidades de éxito dependen de las habilidades sociales del orador y de su relación con el oyente.</Counsel.description>
+  <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
+  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} arruinó el intento de aconsejar a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} se ha molestado.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
+  <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} aconsejó con éxito a {RECIPIENT_labelShort}, anulando el impacto de humor de {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
+  <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} aconsejó con éxito a {RECIPIENT_labelShort}, aumentando su humor por {MOODBONUS}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  
+  <!-- EN: farming command -->
+  <FarmingCommand.label>mando agrícola</FarmingCommand.label>
+  <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <FarmingCommand.description>Ofrece orientación sobre las técnicas de cultivo, potenciando las habilidades de cultivo de todos los que estén cerca. El efecto permanece unido al lanzador durante 24 horas.</FarmingCommand.description>
+  
+  <!-- EN: Immunity drive -->
+  <ImmunityDrive.label>impulso inmunitario</ImmunityDrive.label>
+  <!-- EN: Offer moral support that energizes the body, boosting someone's immunity gain for one day. -->
+  <ImmunityDrive.description>Ofrece un apoyo moral que energice el cuerpo, aumentando la ganancia de inmunidad de alguien por un día.</ImmunityDrive.description>
+  
+  <!-- EN: leader speech -->
+  <LeaderSpeech.label>discurso de líder</LeaderSpeech.label>
+  <!-- EN: Initiate a leader speech. If it goes well, listeners will gain improved mood, respect for the speaker, and possibly new inspirations. If it goes poorly, social damage will occur. -->
+  <LeaderSpeech.description>Inicia un discurso de líder. Si sale bien, los oyentes mejorarán su humor, ganarán respeto por el orador y posiblemente obtendrán nuevas inspiraciones. Si sale mal, se producirá un daño social.</LeaderSpeech.description>
+  
+  <!-- EN: marksman command -->
+  <MarksmanCommand.label>mando de tirador</MarksmanCommand.label>
+  <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <MarksmanCommand.description>Llama a disparar y potencia las habilidades de tiro de todos los que están cerca. El efecto permanece unido al lanzador durante 24 horas.</MarksmanCommand.description>
+  
+  <!-- EN: mining command -->
+  <MiningCommand.label>mando minero</MiningCommand.label>
+  <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <MiningCommand.description>Ofrece orientación sobre las técnicas de minería, aumentando la velocidad de extracción de todos los que están cerca. El efecto permanece unido al lanzador durante 24 horas.</MiningCommand.description>
+  
+  <!-- EN: preach health -->
+  <PreachHealth.label>predicado de salud</PreachHealth.label>
+  <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
+  <PreachHealth.description>Predica la fuerza moral a una persona enferma o herida a través de los conceptos de tu ideología. Esto mejorará su tasa de curación de heridas y la ganancia de inmunidad.</PreachHealth.description>
+  
+  <!-- EN: production command -->
+  <ProductionCommand.label>mando de producción</ProductionCommand.label>
+  <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <ProductionCommand.description>Ofrece orientación sobre técnicas de construcción, potenciando las habilidades de construcción y artesanía de todos los que estén cerca. El efecto permanece unido al lanzador durante 24 horas.</ProductionCommand.description>
+  
+  <!-- EN: reassure -->
+  <Reassure.label>consolar</Reassure.label>
+  <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
+  <Reassure.description>Aumentar la certeza de alguien en sus propias creencias. La certeza recuperada se basa en la capacidad de negociación del orador.</Reassure.description>
+  <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
+  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} ha consolado a {RECIPIENT_labelShort}, aumentando su certeza en {IDEO} de {BEFORECERTAINTY} a {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
+  
+  <!-- EN: research command -->
+  <ResearchCommand.label>mando de investigación</ResearchCommand.label>
+  <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <ResearchCommand.description>Proporciona sugerencias y apoyo mental, aumentando la velocidad de investigación de todos los que están cerca. El efecto permanece unido al lanzador durante 24 horas.</ResearchCommand.description>
+  
+  <!-- EN: trial -->
+  <Trial.label>juicio</Trial.label>
+  <!-- EN: Charge someone with a terrible wrongdoing and initiate a trial where they will be either convicted or exonerated. If the target is convicted, they can be freely imprisoned, executed or banished without penalty. The chance of conviction depends on the social abilities of the accuser and accused. -->
+  <Trial.description>Acusa a alguien de una terrible fechoría e inicia un juicio en el que será condenado o exonerado. Si el objetivo es condenado, puede ser encarcelado libremente, ejecutado o desterrado sin pena. La posibilidad de condena depende de las habilidades sociales del acusador y del acusado.</Trial.description>
+  
+  <!-- EN: work drive -->
+  <WorkDrive.label>impulso laboral</WorkDrive.label>
+  <!-- EN: Call on a person to work harder for some time. -->
+  <WorkDrive.description>Pide a una persona que trabaje más durante algún tiempo.</WorkDrive.description>
+  
+</LanguageData>
