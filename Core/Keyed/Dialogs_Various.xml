@@ -292,6 +292,18 @@
   <ArmorPenetration>Penetración de blindaje</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
   <ArmorPenetrationExplanation>La penetración de blindaje es la cantidad de blindaje que esta arma traspasará cada vez que golpee al objetivo.\n\nSi la penetración de blindaje es mayor que la armadura del objetivo, es como si el objetivo no estuviera blindado. De lo contrario, la penetración de armadura se resta de la armadura del objetivo.</ArmorPenetrationExplanation>
+  <!-- EN: Building damage factor -->
+  <BuildingDamageFactor>Factor de daño del edificio</BuildingDamageFactor>
+  <!-- EN: Damage to all buildings is multiplied by this value. -->
+  <BuildingDamageFactorExplanation>Los daños en todos los edificios se multiplican por este valor.</BuildingDamageFactorExplanation>
+  <!-- EN: Building damage factor (impassable) -->
+  <BuildingDamageFactorImpassable>Factor de daño del edificio (intransitable)</BuildingDamageFactorImpassable>
+  <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
+  <BuildingDamageFactorImpassableExplanation>Los daños en todos los edificios intransitables se multiplican por este valor.</BuildingDamageFactorImpassableExplanation>
+  <!-- EN: Building damage factor (passable) -->
+  <BuildingDamageFactorPassable>Factor de daño del edificio (transitable)</BuildingDamageFactorPassable>
+  <!-- EN: Damage to all passable buildings is multiplied by this value. -->
+  <BuildingDamageFactorPassableExplanation>Los daños en todos los edificios transitables se multiplican por este valor.</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>Precisión</Accuracy>
   <!-- EN: Burst shot count -->
@@ -1101,8 +1113,8 @@
   <AutoSlaugtherHeaderColTotal>Total</AutoSlaugtherHeaderColTotal>
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>Otro</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
-  <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
-  <AutoSlaugtherTip>Si tienes más del número máximo de animales, los colonos sacrificarán los animales más viejos hasta que estén por debajo del límite.</AutoSlaugtherTip>
+  <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
+  <AutoSlaugtherTip>Los colonos sacrifican primero a los animales no preñados en orden de mayor a menor edad, y luego a los preñados de mayor a menor preñez.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>Macho adulto</AnimalMaleAdult>
   <!-- EN: Male young -->
