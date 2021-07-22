@@ -30,7 +30,7 @@
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>Para comenzar el ritual, selecciona un objeto de enfoque y haga clic en el comando "Comenzar {RITUAL_label}" Los siguientes son objetos de enfoque válidos:\n{1}</RitualTargetsExplanation>
   <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>Lao siguientes roles tienen un papel en {RITUAL_label}:\n{1}</RitualRolesExplanation>
+  <RitualRolesExplanation>Las siguientes roles tienen un papel en {RITUAL_label}:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>Haga clic para saltar a los objetivos</RitualJumpToTargets>
   <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
@@ -43,7 +43,7 @@
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>{0} deseado</IdeoBuildingMissing>
   <!-- EN: {1} requires that you have a {0} in your colony as long as {2} or higher.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>{1} requiere que tengas un(a) {0} en tu colonia mientras {2} o superior.{4}n\nSi no se cumple el requisito, estos creyentes serán infelices:\n{3}</IdeoBuildingMissingDesc>
+  <IdeoBuildingMissingDesc>{1} requiere que tengas un(a) {0} en tu colonia {2} o superior.{4}n\nSi no se cumple el requisito, estos creyentes serán infelices:\n{3}</IdeoBuildingMissingDesc>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>Para dignificar a {0}, deben cumplirse estos requisitos de la habitación</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
@@ -81,7 +81,7 @@
   <AlertNoRecentSlaughterDescPost>Si no se realiza el sacrificio, estos colonos seguirán siendo infelices</AlertNoRecentSlaughterDescPost>
   
   <!-- EN: Ritual opportunity soon -->
-  <AlertRitualComing>Oportunidad de ritual pronto</AlertRitualComing>
+  <AlertRitualComing>Oportunidad pronta de ritual</AlertRitualComing>
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
   <AlertRitualComingDesc>Pronto habrá una oportunidad para realizar los siguientes rituales</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
