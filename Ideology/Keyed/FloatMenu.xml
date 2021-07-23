@@ -18,7 +18,7 @@
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} debe ser un(a) {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
-  <CantStartRitualSelectedPawnPsychicallyDeaf>TODO</CantStartRitualSelectedPawnPsychicallyDeaf> <!-- text_todo -->
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} es psíquicamente sord{PAWN_gender ? o : a}.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
   <CantStartNotEnoughSpaceDuel>No hay suficiente espacio. Debe haber un círculo claro de radio {MINRADIUS}.</CantStartNotEnoughSpaceDuel>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
