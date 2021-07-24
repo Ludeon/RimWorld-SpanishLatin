@@ -37,6 +37,12 @@ Para mayor información de cómo colaborar en la traducción, puedes revisar la 
 Current translation and adaptation by:
 
 * __Zerstrick__
+* __Mora145__
+* __BernyGonzalez__
+* __Evilservant6__
+* __IzumiKei__
+* __akvirac__
+
 
 Thanks to AM for the 1.1xxx version:
 
@@ -52,7 +58,6 @@ Thanks to AM for the 10f. version.
 
 Thanks for original spanish translation.
 
-* __Mora145 (Inactivo)__
 * __Destiny609 (Inactivo)__
 * __Gaesatae (Inactivo)__
 * __Vhiden (Inactivo)__
