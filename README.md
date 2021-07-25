@@ -28,7 +28,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 de instalación es: ___RimWorld/Data/Royalty/Languages/___
 6. Repite este proceso para el resto de *DLCs*
 
-### [Automatizada](Instalar/InstalGuide.md)
+### [Automatizada](Instalar/InstallGuide.md)
 - - -
 Si quieres ver esta guía de instalación con imágenes pasa por nuestro discord.
 
