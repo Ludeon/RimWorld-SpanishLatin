@@ -1125,8 +1125,10 @@
   <AnimalFemaleYoung>Hembra joven</AnimalFemaleYoung>
   <!-- EN: Pregnant -->
   <AnimalPregnant>Embarazada</AnimalPregnant>
+  <!-- EN: Bonded -->
+  <AnimalBonded>Vinculado</AnimalBonded>
   <!-- EN: Slaughter -->
-  <AllowSlaughterPregnant>Sacrificar</AllowSlaughterPregnant>
+  <AllowSlaughter>Sacrificar</AllowSlaughter>
 
   <!-- EN: The animal to be automatically slaughtered. -->
   <AutoSlaugtherHeaderTooltipLabel>El animal a sacrificar automáticamente.</AutoSlaugtherHeaderTooltipLabel>
@@ -1154,6 +1156,10 @@
   <AutoSlaughterHeaderTooltipCurrentPregnant>El número actual de animales preñados en la colonia.</AutoSlaughterHeaderTooltipCurrentPregnant>
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
   <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>Permitir el sacrificio de animales preñados junto con otras hembras de la misma especie.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <!-- EN: The current number of bonded animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentBonded>El número actual de animales vinculados en la colonia.</AutoSlaughterHeaderTooltipCurrentBonded>
+  <!-- EN: Allow bonded animals to be slaughtered. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>Permitir el sacrificio de animales vinculados.</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <!-- EN: Click to set an animal count limit. -->
   <AutoSlaughterTooltipSetLimit>Haz clic para establecer un límite de recuento de animales.</AutoSlaughterTooltipSetLimit>
@@ -1162,7 +1168,7 @@
   <!-- EN: no beds allowed -->
   <RoomRequirementNoBeds>no se permiten camas</RoomRequirementNoBeds>
   <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>Tamaño de la habitación: {0} casillas</RoomRequirementArea>
+  <RoomRequirementArea>tamaño de la habitación: {0} casillas</RoomRequirementArea>
   <!-- EN: room impressiveness -->
   <RoomRequirementImpressiveness>atractivo de la habitación</RoomRequirementImpressiveness>
   <!-- EN: all floored -->

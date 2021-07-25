@@ -116,6 +116,9 @@
     <li>Letter->WordParts/CapitalLetters</li>
     <!--Mecanoides:-->
     <li>Mechanoid->Words/Nouns/Mechanoid</li>
+    <li>Mechanoid_Fem->Words/Nouns/Mechanoid_Fem</li>
+    <li>Mechanoid_FemPl->Words/Nouns/Mechanoid_FemPlural</li>
+    <li>Mechanoid_Plural->Words/Nouns/Mechanoid_Plural</li>
     <!--Objetos naturales:-->
     <li>NaturalObject->Words/Nouns/NaturalObject</li>
     <li>NaturalObject_Fem->Words/Nouns/NaturalObject_Fem</li>
@@ -146,6 +149,7 @@
     <!--Nombre de los biomas:-->
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
     <li>TerrainFeature_Fem->Words/Nouns/TerrainFeatures_Fem</li>
+    <li>TerrainFeature_Pl->Words/Nouns/TerrainFeatures_Plural</li>
     <!--Nombre de los arboles:-->
     <li>TreeType->Words/Nouns/TreeTypes</li>
     <li>TreeType_Fem->Words/Nouns/TreeTypes_Fem</li>
@@ -244,6 +248,12 @@
     <!--PATIENT-->
     <li>PATIENT_o_a(PATIENT_gender!=Female)->o</li>
     <li>PATIENT_o_a(PATIENT_gender==Female)->a</li>
+    <!--RECIPIENT-->
+    <li>RECIPIENT_o_a(RECIPIENT_gender!=Female)->o</li>
+    <li>RECIPIENT_o_a(RECIPIENT_gender==Female)->a</li>
+    <!--INITIATOR-->
+    <li>INITIATOR_o_a(INITIATOR_gender!=Female)->o</li>
+    <li>INITIATOR_o_a(INITIATOR_gender==Female)->a</li>
     <!--refugee-->
     <li>refugee_o_a(refugee_gender!=Female)->o</li>
     <li>refugee_o_a(refugee_gender==Female)->a</li>
@@ -877,6 +887,8 @@
     <li>GameAny->[Game_Fem]</li>
     <li>NaturalObjectDef->un [NaturalObject]</li>
     <li>NaturalObjectDef->una [NaturalObject_Fem]</li>
+    <li>MechanoidAnyPl->[Mechanoid_FemPl]</li>
+    <li>MechanoidAnyPl->[Mechanoid_Plural]</li>
     <li>Quantity_adjphrase->dos</li>
     <li>Quantity_adjphrase->tres</li>
     <li>Quantity_adjphrase->cuatro</li>
@@ -914,6 +926,8 @@
     <li>PersonJobAny->[PersonJob_Fem]</li>
     <li>PersonIndef->un [PersonJob]</li>
     <li>PersonIndef->una [PersonJob_Fem]</li>
+    <li>PersonFamilyAny->[PersonFamily]</li>
+    <li>PersonFamilyAny->[PersonFamily_Fem]</li>
     <li>PersonalCharacteristic(p=0.15)->genitales</li>
     <li>PersonalCharacteristic(p=0.15)->vello púbico</li>
     <li>PersonalCharacteristic(p=0.15)->vello coporal</li>
