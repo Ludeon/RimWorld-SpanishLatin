@@ -19,14 +19,16 @@ Consulta esta página para obtener información sobre la licencia:
 http://ludeon.com/forums/index.php?topic=2933.0
 - - -
 ## Instalación:
-
-1. Debes descargar los archivos comprimidos como un *ZIP*, para ello selecciona y despliega la pestaña *CODE*, al tener este archivo en tu pc, descomprime y encontrarás dos carpetas Core y Royalty. 
+### Manual
+1. Debes descargar los archivos comprimidos como un *ZIP*, para ello selecciona y despliega la pestaña *CODE*, al tener este archivo en tu pc, descomprime y encontrarás dos carpetas Core, Royalty e Ideology. 
 2. Crea una carpeta con este nombre _SpanishLatin (Español(Latinoamérica))_ y copia dentro el contenido de la carpeta Core
 3. Copia tu nueva carpeta en el directorio de instalación de RimWorld en: ___RimWorld/Data/Core/Languages/___
 4. Borra el archivo con extensión *.tar* llamado __SpanishLatin (Español(Latinoamérica)).tar__ ubicado en ese mismo directorio.
 5. Repite el mismo proceso con la carpeta *Royalty*, Si, vas a usar nuevamente una carpeta con el nombre _SpanishLatin (Español(Latinoamérica))_ pero esta vez el directorio
 de instalación es: ___RimWorld/Data/Royalty/Languages/___
+6. Repite este proceso para el resto de *DLCs*
 
+### [Automatizada](Instalar/InstalGuide.md)
 - - -
 Si quieres ver esta guía de instalación con imágenes pasa por nuestro discord.
 
