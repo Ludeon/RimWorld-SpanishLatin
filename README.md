@@ -65,4 +65,7 @@ Thanks for original spanish translation.
 * __Alvirolo (Inactivo)__
 * __Mototron (Inactivo)__
 
+Automation scripts by [Xeros08](https://github.com/Xeros08).
+
+Original GitHub workflow by [Ragnar-F](https://github.com/Ragnar-F).
 - - -
