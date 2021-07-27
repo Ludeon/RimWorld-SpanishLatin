@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: failed consolation by {0} -->
-  <CounselFailed.stages.failed_consolation_by.label>consolación fallida por {0}</CounselFailed.stages.failed_consolation_by.label>
+  <CounselFailed.stages.failed_consolation_by.label>consuelo fallido por {0}</CounselFailed.stages.failed_consolation_by.label>
   <!-- EN: Somehow, that attempt at helping made things even worse. -->
   <CounselFailed.stages.failed_consolation_by.description>De alguna forma, su intento de ayuda empeoró aún más las cosas.</CounselFailed.stages.failed_consolation_by.description>
   
@@ -27,11 +27,11 @@
   <FailedConvertAbilityRecipient.stages.tried_to_convert_me.description>Alguien trató de convertirme. Ojalá me dejaran en paz.</FailedConvertAbilityRecipient.stages.tried_to_convert_me.description>
   
   <!-- EN: tended by {0} -->
-  <TendedByMedicalSpecialist.stages.tended_by.label>atendido por {0}</TendedByMedicalSpecialist.stages.tended_by.label>
+  <TendedByMedicalSpecialist.stages.tended_by.label>atendid{PAWN_gender ? o : a} por {0}</TendedByMedicalSpecialist.stages.tended_by.label>
   <!-- EN: I received medical aid from one who carries the special healer status of my ideoligion. -->
-  <TendedByMedicalSpecialist.stages.tended_by.description>Recibí ayuda médica de alguien que lleva el estatus de médico especial de mi ideoligía.</TendedByMedicalSpecialist.stages.tended_by.description>
+  <TendedByMedicalSpecialist.stages.tended_by.description>Recibí ayuda médica de alguien que lleva el estatus de médico especial de mi ideoligión.</TendedByMedicalSpecialist.stages.tended_by.description>
   
   <!-- EN: will diminished -->
-  <WillDiminished.stages.will_diminished.label>disminuirá</WillDiminished.stages.will_diminished.label>
+  <WillDiminished.stages.will_diminished.label>voluntad disminuida</WillDiminished.stages.will_diminished.label>
   
 </LanguageData>

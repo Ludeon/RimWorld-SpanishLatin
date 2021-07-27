@@ -340,6 +340,11 @@
     <li>crashedLanded(civilians_count>=2)->estrellaron</li>
     <li>thesePeople(civilians_count==1)->esta persona</li>
     <li>thesePeople(civilians_count>=2)->estas personas</li>
+    <!-- beggar -->
+    <li>beggars_o_a(beggars0_gender==Male)->o</li>
+    <li>beggars_o_a(beggars0_gender!=Male)->a</li>
+    <li>beggars_e_a(beggars0_gender==Male)->e</li>
+    <li>beggars_e_a(beggars0_gender!=Male)->a</li>
     <!-- all Animals, Arid -->
     <!-- Def -->
     <li>AnimalEpicenoDef(lodgersPawnKind==Dromedary)->el dromedario</li>
