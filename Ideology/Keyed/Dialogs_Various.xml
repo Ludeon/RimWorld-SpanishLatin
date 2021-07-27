@@ -25,6 +25,9 @@
   <ChooseStructureMeme>Elige la estructura.</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
   <IncompatibleMemes>{0_label} y {1_label} son incompatibles.</IncompatibleMemes>
+
+  <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
+  <ChangesRandomizePrecepts>TODO</ChangesRandomizePrecepts>
   
   <!-- EN: Room requirements -->
   <RoomRequirements>Requisitos de la habitación</RoomRequirements>
@@ -188,6 +191,8 @@
   <CollapseAllCategories>Colapsar todo</CollapseAllCategories>
   <!-- EN: Resets all style items to their default values. -->
   <ResetButtonDesc>Restablece todos los elementos de estilo a sus valores por defecto.</ResetButtonDesc>
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>El tinte puede cultivarse a partir de la tíntorea o comprarse a los comerciantes.</TooltipDyeExplanation>
 
   <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->
@@ -237,7 +242,7 @@
   <!-- EN: Existing follower -->
   <ExistingFollowerOfPlayerIdeoligion>Seguidor actual</ExistingFollowerOfPlayerIdeoligion>
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
-  <AbandonArchotechStructuresWarningDialog>Están abandonando un sitio que contiene estructuras arquotécnicas que aún no han estudiado completamente.\n\nPodrán reasentarse aquí más adelante, pero tu colonia será borrada.</AbandonArchotechStructuresWarningDialog>
+  <AbandonArchotechStructuresWarningDialog>Están abandonando un sitio que contiene estructuras arqueotécnicas que aún no han estudiado completamente.\n\nPodrán reasentarse aquí más adelante, pero tu colonia será borrada.</AbandonArchotechStructuresWarningDialog>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>Hackear este {0} alertará a los enemigos y hará que ataquen. ¿Realmente quieres hackear el {0}?</ConfirmHackEnenyTerminal>

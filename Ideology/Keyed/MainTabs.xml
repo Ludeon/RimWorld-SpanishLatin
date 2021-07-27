@@ -16,12 +16,14 @@
   <CoreNarrativeDesc>La narrativa central de su ideoligión. Esto no tiene ningún impacto en el juego.</CoreNarrativeDesc>
   <!-- EN: Edit narrative -->
   <EditNarrative>Editar narrativa</EditNarrative>
-  <!-- EN: Clicking this button toggles a lock the current ideoligion narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
-  <LockButtonDesc>Al hacer clic en este botón se bloqueara la narrativa de la ideoligión actual. Cuando se bloquea, el texto narrativo no se regenerará automáticamente si se cambia la ideoligión.</LockButtonDesc>
-  <!-- EN: Narrative lock is currently on. The narrative will not auto-regenerate. -->
-  <LockInOn>El bloqueo de la narrativa está activado. La narrativa no se regenerará automáticamente.</LockInOn>
-  <!-- EN: Narrative lock is currently off. The narrative text can auto-regenerate. -->
-  <LockInOff>El bloqueo de la narrativa está activado. La narrativa no se regenerará automáticamente</LockInOff>
+  <!-- EN: Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
+  <LockButtonDesc>Bloquea o desbloquea la narrativa de la ideoligión. Cuando se bloquea, el texto narrativo no se regenerará automáticamente si se cambia la ideoligión.</LockButtonDesc>
+  <!-- EN: {0} lock is currently on. The {1} will not auto-regenerate. -->
+  <LockInOn> bloqueo de {0} está activado. La {1} no se regenerará automáticamente.</LockInOn>
+  <!-- EN: {0} lock is currently off. The {1} text can auto-regenerate. -->
+  <LockInOff>bloqueo {0} está desactivado. El texto de {1} puede regenerarse automáticamente</LockInOff>
+  <!-- EN: Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed. -->
+  <LockPreceptNameButtonDesc>Bloquea o desbloquea el nombre de este precepto. Si se bloquea, el nombre del precepto no se regenerará automáticamente si se cambia la ideoligión.</LockPreceptNameButtonDesc>
   <!-- EN: Precepts -->
   <Precepts>Preceptos</Precepts>
   <!-- EN: Rituals -->

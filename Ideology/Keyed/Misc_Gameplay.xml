@@ -76,15 +76,17 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Probabilidad de tener el precepto</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>El color favorito de {PAWN_labelShort}. Tener más del {PERCENTAGE} de su ropa en este color, o el color de su ideoligión, hará que sea ligeramente más feliz.\n\nPuedes alterar los colores de la ropa en la estación de estilismo usando tinte de tinctoria.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>El color favorito de {PAWN_labelShort}. Tener más del {PERCENTAGE} de su ropa en este color, o el color de su ideoligión, hará que sea ligeramente más feliz.\n\nPuedes alterar los colores de la ropa en la estación de estilismo usando tinte de tíntorea.</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Establecer color de ideo</SetIdeoColor>
-  <!-- EN: Set favorite color -->
+  <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Establecer color favorito</SetFavoriteColor>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Configura la ideoligión de tu facción</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
   <NotEnoughDye>No hay suficiente tinte.</NotEnoughDye>
+  <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
+  <ApparelLockedCannotRecolor>{PAWN_nameDef} no está dispuest{PAWN_gender ? o : a} a recolorear {PAWN_possessive} {APPAREL_labelShort}.</ApparelLockedCannotRecolor>
   <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
   <NotEnoughDyeWillRecolorApparel>El colono teñirá la ropa cuando el tinte esté disponible.</NotEnoughDyeWillRecolorApparel>
   <!-- EN: The colonist will recolor their hair when dye becomes available. -->
@@ -95,6 +97,21 @@
   <DisabledByPrecept>Desactivado por el precepto {0}</DisabledByPrecept>
   <!-- EN: Everyone -->
   <Everyone>Todos</Everyone>
+  <!-- EN: Narrative -->
+  <Narrative>Narrativa</Narrative>
+  <!-- EN: narrative -->
+  <NarrativeLower>narrativa</NarrativeLower>
+  <!-- EN: Precept name -->
+  <PreceptName>Nombre del precepto</PreceptName>
+  <!-- EN: precept name -->
+  <PreceptNameLower>nombre del precepto</PreceptNameLower>
+  <!-- EN: Changing -->
+  <Changing>Cambiar</Changing>
+  <!-- EN: structures -->
+  <StructuresLower>estructuras</StructuresLower>
+  <!-- EN: memes -->
+  <MemesLower>memes</MemesLower>
+  
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>Una tumba que contiene el cadáver de {PAWN_labelShort}.</RitualTargetGraveInfo>
@@ -132,6 +149,8 @@
   <RitualTargetUnconnectedGaruanlenTreeInfo>Un árbol Gauranlen sin conexión.</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Ya está conectado a {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
+  <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} ha tenido su conexión cortada recientemente. Puede volver a conectarse en {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Necesitas {0} madera para cada participante ({2} en total). Tienes {1} madera.</RitualTargeWoodInfo>
   <!-- EN: Accuse -->
@@ -443,8 +462,8 @@
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
   <TargetNightOutdoors>Objetivo en exteriores y de noche</TargetNightOutdoors>
-  <!-- EN:  -->
-  <TargetDarkIndoors>Objetivo en interiores y de noche</TargetDarkIndoors>
+  <!-- EN: Target indoors and dark -->
+  <TargetDarkIndoors>Objetivo en interiores y oscuro</TargetDarkIndoors>
   <!-- EN: Target outdoors and daytime -->
   <TargetDayOutdoors>Objetivo en exteriores y de día</TargetDayOutdoors>
   <!-- EN: Target indoors and lit -->
@@ -525,6 +544,8 @@
   <BiosculpterInteruptCycle>Interrumpir ciclo</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Interrumpe el ciclo actual. El ocupante será expulsado sin beneficiarse de los efectos del ciclo, y sufrirá el sindrome de biosculpido de corta duración.</BiosculpterInteruptCycleDesc>
+  <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
+  <BiosculpterUnderageAgeReversalMessage>Advertencia: El ciclo de inversión de edad no puede ser ejecutado mientras el bioescultor está sintonizado con {PAWN_labelShort} porque {PAWN_labelShort} es menor de {ADULTAGE} años.</BiosculpterUnderageAgeReversalMessage>
   <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
   <BiosculpterLoadingStartedMessage>Una vez que la cápsula bioescultora esté llena de {NUTRITION} de nutrición, selecciona un colono y haz clic con el botón derecho del ratón en la cápsula bioescultora o en una persona abatida para iniciar el ciclo.</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
