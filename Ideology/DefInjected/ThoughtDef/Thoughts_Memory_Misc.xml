@@ -27,8 +27,8 @@
   <SleptInRoomWithSlave.stages.shared_room_with_slave.description>Tuve que dormir en la misma habitación que un esclavo.</SleptInRoomWithSlave.stages.shared_room_with_slave.description>
   
   <!-- EN: was enslaved -->
-  <WasEnslaved.stages.was_enslaved.label>fue esclavizado</WasEnslaved.stages.was_enslaved.label>
+  <WasEnslaved.stages.was_enslaved.label>fue esclavizad{PAWN_gender ? o : a}</WasEnslaved.stages.was_enslaved.label>
   <!-- EN: They kept me as a slave. They forced me to suffer! -->
-  <WasEnslaved.stages.was_enslaved.description>Me tuvieron como esclavo. Me obligaron a sufrir.</WasEnslaved.stages.was_enslaved.description>
+  <WasEnslaved.stages.was_enslaved.description>Me tuvieron como esclav{PAWN_gender ? o : a}. Me obligaron a sufrir.</WasEnslaved.stages.was_enslaved.description>
   
 </LanguageData>
