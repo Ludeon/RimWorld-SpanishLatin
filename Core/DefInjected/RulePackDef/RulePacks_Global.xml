@@ -345,6 +345,9 @@
     <li>beggars_o_a(beggars0_gender!=Male)->a</li>
     <li>beggars_e_a(beggars0_gender==Male)->e</li>
     <li>beggars_e_a(beggars0_gender!=Male)->a</li>
+    <!-- founder -->
+    <li>founder_o_a(founder_gender==Male)->o</li>
+    <li>founder_o_a(founder_gender!=Male)->a</li>
     <!-- all Animals, Arid -->
     <!-- Def -->
     <li>AnimalEpicenoDef(lodgersPawnKind==Dromedary)->el dromedario</li>

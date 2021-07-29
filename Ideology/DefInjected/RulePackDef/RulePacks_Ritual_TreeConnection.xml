@@ -18,23 +18,26 @@
     <li>ritual->gathering</li>
   -->
   <NamerTreeConnection.rulePack.rulesStrings>
-    <li>r_ritualName->[ritual] de [verb] árborea</li>
-    <li>r_ritualName->[ritual1] de [verb1] árboreo</li>
-    <li>r_ritualName->[ritual2] de [verb2] árboreo</li>
+    <li>r_ritualName->[ritual] de [verb] árboreo</li>
+    <li>r_ritualName->[ritual_Fem] de [verb_Fem] árborea</li>
+    <li>ritual->ritual</li>
     <li>verb->conexión</li>
     <li>verb->vinculación</li>
-    <li>verb1->contacto</li>
-    <li>verb2->contacto</li>
     <li>verb->unión</li>
     <li>verb->cohesión</li>
     <li>verb->unificación</li>
-    <li>verb1->enlace</li>
-    <li>verb1->emparejamiento</li>
-    <li>verb2->emparejamiento</li>
-    <li>ritual->ritual</li>
-    <li>ritual->ceremonia</li>
-    <li>ritual1->reunión</li>
-    <li>ritual2->ritual</li>
+    <li>verb->contacto</li>
+    <li>verb->enlace</li>
+    <li>verb->emparejamiento</li>
+    <li>ritual_Fem->ceremonia</li>
+    <li>ritual_Fem->reunión</li>
+    <li>verb_Fem->conexión</li>
+    <li>verb_Fem->vinculación</li>
+    <li>verb_Fem->unión</li>
+    <li>verb_Fem->cohesión</li>
+    <li>verb_Fem->unificación</li>
+    <li>verb_Fem->contacto</li>
+    <li>verb_Fem->enlace</li>
   </NamerTreeConnection.rulePack.rulesStrings>
   
 </LanguageData>

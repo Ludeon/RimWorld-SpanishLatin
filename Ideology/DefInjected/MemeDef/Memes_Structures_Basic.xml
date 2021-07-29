@@ -16,21 +16,31 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->elder</li>
   -->
-  <Structure_Animist.generalRules.rulesStrings>TODO</Structure_Animist.generalRules.rulesStrings>
+  <Structure_Animist.generalRules.rulesStrings>
+    <li>memeLeaderNoun->sanador</li>
+    <li>memeLeaderNoun->orador</li>
+    <li>memeLeaderAdjective->universo</li>
+    <li>memeLeaderAdjective->espíritu</li>
+    <li>memeLeaderAdjective->ánima</li>
+    <li>memeHyphenPrefix->ani</li>
+    <li>memeMoralist->chamán</li>
+    <li>memeMoralist->sacerdote</li>
+    <li>memeMoralist->anciano</li>
+  </Structure_Animist.generalRules.rulesStrings>
   <!-- EN: animist -->
-  <Structure_Animist.symbolPacks.0.adjective>TODO</Structure_Animist.symbolPacks.0.adjective>
+  <Structure_Animist.symbolPacks.0.adjective>animista</Structure_Animist.symbolPacks.0.adjective>
   <!-- EN: animist -->
-  <Structure_Animist.symbolPacks.0.member>TODO</Structure_Animist.symbolPacks.0.member>
+  <Structure_Animist.symbolPacks.0.member>animista</Structure_Animist.symbolPacks.0.member>
   <!-- EN: animism -->
-  <Structure_Animist.symbolPacks.0.theme>TODO</Structure_Animist.symbolPacks.0.theme>
+  <Structure_Animist.symbolPacks.0.theme>animismo</Structure_Animist.symbolPacks.0.theme>
   <!-- EN: spiritist -->
-  <Structure_Animist.symbolPacks.1.adjective>TODO</Structure_Animist.symbolPacks.1.adjective>
+  <Structure_Animist.symbolPacks.1.adjective>espiritista</Structure_Animist.symbolPacks.1.adjective>
   <!-- EN: spiritist -->
-  <Structure_Animist.symbolPacks.1.member>TODO</Structure_Animist.symbolPacks.1.member>
+  <Structure_Animist.symbolPacks.1.member>espiritista</Structure_Animist.symbolPacks.1.member>
   <!-- EN: spiritism -->
-  <Structure_Animist.symbolPacks.1.theme>TODO</Structure_Animist.symbolPacks.1.theme>
+  <Structure_Animist.symbolPacks.1.theme>espiritismo</Structure_Animist.symbolPacks.1.theme>
   <!-- EN: temple -->
-  <Structure_Animist.worshipRoomLabel>TODO</Structure_Animist.worshipRoomLabel>
+  <Structure_Animist.worshipRoomLabel>templo</Structure_Animist.worshipRoomLabel>
   
   <!-- EN: archist -->
   <Structure_Archist.label>arqueoista</Structure_Archist.label>
@@ -51,25 +61,39 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_Archist.generalRules.rulesStrings>TODO</Structure_Archist.generalRules.rulesStrings>
+  <Structure_Archist.generalRules.rulesStrings>
+    <li>memeAdjective->arqueotec</li>
+    <li>memeAdjective->arqueotécnico</li>
+    <li>memeAdjective->arqueotecno</li>
+    <li>memeHyphenPrefix->arqueo</li>
+    <li>memeHyphenPrefix->arque</li>
+    <li>memeLeaderNoun->arqueoista</li>
+    <li>memeLeaderNoun->arqueotécnista</li>
+    <li>memeLeaderAdjective->arqueotec</li>
+    <li>memeLeaderAdjective->exocromo</li>
+    <li>memeMoralist->sacerdote</li>
+    <li>memeMoralist->clérigo</li>
+    <li>memeMoralist->rector</li>
+    <li>memeMoralist->abad</li>
+  </Structure_Archist.generalRules.rulesStrings>
   <!-- EN: archotechnic -->
-  <Structure_Archist.symbolPacks.0.adjective>TODO</Structure_Archist.symbolPacks.0.adjective>
+  <Structure_Archist.symbolPacks.0.adjective>arqueotécnico</Structure_Archist.symbolPacks.0.adjective>
   <!-- EN: Archotechnics -->
-  <Structure_Archist.symbolPacks.0.ideoName>TODO</Structure_Archist.symbolPacks.0.ideoName>
+  <Structure_Archist.symbolPacks.0.ideoName>Arqueotécnismo</Structure_Archist.symbolPacks.0.ideoName>
   <!-- EN: archotechnist -->
-  <Structure_Archist.symbolPacks.0.member>TODO</Structure_Archist.symbolPacks.0.member>
+  <Structure_Archist.symbolPacks.0.member>arqueotécnista</Structure_Archist.symbolPacks.0.member>
   <!-- EN: archotechnology -->
-  <Structure_Archist.symbolPacks.0.theme>TODO</Structure_Archist.symbolPacks.0.theme>
+  <Structure_Archist.symbolPacks.0.theme>arqueotecnología</Structure_Archist.symbolPacks.0.theme>
   <!-- EN: archist -->
-  <Structure_Archist.symbolPacks.1.adjective>TODO</Structure_Archist.symbolPacks.1.adjective>
+  <Structure_Archist.symbolPacks.1.adjective>arqueoista</Structure_Archist.symbolPacks.1.adjective>
   <!-- EN: Archism -->
-  <Structure_Archist.symbolPacks.1.ideoName>TODO</Structure_Archist.symbolPacks.1.ideoName>
+  <Structure_Archist.symbolPacks.1.ideoName>Arqueoismo</Structure_Archist.symbolPacks.1.ideoName>
   <!-- EN: archist -->
-  <Structure_Archist.symbolPacks.1.member>TODO</Structure_Archist.symbolPacks.1.member>
+  <Structure_Archist.symbolPacks.1.member>arqueoista</Structure_Archist.symbolPacks.1.member>
   <!-- EN: archism -->
-  <Structure_Archist.symbolPacks.1.theme>TODO</Structure_Archist.symbolPacks.1.theme>
+  <Structure_Archist.symbolPacks.1.theme>arqueoismo</Structure_Archist.symbolPacks.1.theme>
   <!-- EN: shrine -->
-  <Structure_Archist.worshipRoomLabel>TODO</Structure_Archist.worshipRoomLabel>
+  <Structure_Archist.worshipRoomLabel>santuario</Structure_Archist.worshipRoomLabel>
   
   <!-- EN: ideological -->
   <Structure_Ideological.label>ideológico</Structure_Ideological.label>
@@ -104,33 +128,61 @@
     <li>memeMoralist->academic</li>
     <li>memeMoralist->sophist</li>
   -->
-  <Structure_Ideological.generalRules.rulesStrings>TODO</Structure_Ideological.generalRules.rulesStrings>
+  <Structure_Ideological.generalRules.rulesStrings>
+    <li>memeAdjective->ético(a)</li>
+    <li>memeAdjective->moral</li>
+    <li>memeAdjective->despertado(a)</li>
+    <li>memeCreed->creencia</li>
+    <li>memeCreed->ideología</li>
+    <li>memeCreed->credo</li>
+    <li>memeCreed->filosofía</li>
+    <li>memeCreed->doctrina</li>
+    <li>memeCreed->visión</li>
+    <li>memeCreed->principios</li>
+    <li>memeCreed->moral</li>
+    <li>memeCreed->ética</li>
+    <li>memeCreed->justicia</li>
+    <li>memeHyphenPrefix->ideo</li>
+    <li>memeLeaderNoun->cerebro</li>
+    <li>memeLeaderNoun->decididor</li>
+    <li>memeLeaderNoun->líder</li>
+    <li>memeLeaderAdjective->ético(a)</li>
+    <li>memeLeaderAdjective->moral</li>
+    <li>memeLeaderAdjective->despertado(a)</li>
+    <li>memeMoralist->consejero</li>
+    <li>memeMoralist->eticista</li>
+    <li>memeMoralist->moralista</li>
+    <li>memeMoralist->filósofo</li>
+    <li>memeMoralist->pensador</li>
+    <li>memeMoralist->académico</li>
+    <li>memeMoralist->sofista</li>
+  </Structure_Ideological.generalRules.rulesStrings>
   <!-- EN: ethical -->
-  <Structure_Ideological.symbolPacks.0.adjective>TODO</Structure_Ideological.symbolPacks.0.adjective>
+  <Structure_Ideological.symbolPacks.0.adjective>ética</Structure_Ideological.symbolPacks.0.adjective>
   <!-- EN: Ethics -->
-  <Structure_Ideological.symbolPacks.0.ideoName>TODO</Structure_Ideological.symbolPacks.0.ideoName>
+  <Structure_Ideological.symbolPacks.0.ideoName>Ética</Structure_Ideological.symbolPacks.0.ideoName>
   <!-- EN: ethicist -->
-  <Structure_Ideological.symbolPacks.0.member>TODO</Structure_Ideological.symbolPacks.0.member>
+  <Structure_Ideological.symbolPacks.0.member>eticista</Structure_Ideological.symbolPacks.0.member>
   <!-- EN: ethics -->
-  <Structure_Ideological.symbolPacks.0.theme>TODO</Structure_Ideological.symbolPacks.0.theme>
+  <Structure_Ideological.symbolPacks.0.theme>ética</Structure_Ideological.symbolPacks.0.theme>
   <!-- EN: ideological -->
-  <Structure_Ideological.symbolPacks.1.adjective>TODO</Structure_Ideological.symbolPacks.1.adjective>
+  <Structure_Ideological.symbolPacks.1.adjective>ideológico(a)</Structure_Ideological.symbolPacks.1.adjective>
   <!-- EN: Ideology -->
-  <Structure_Ideological.symbolPacks.1.ideoName>TODO</Structure_Ideological.symbolPacks.1.ideoName>
+  <Structure_Ideological.symbolPacks.1.ideoName>Ideología</Structure_Ideological.symbolPacks.1.ideoName>
   <!-- EN: ideologist -->
-  <Structure_Ideological.symbolPacks.1.member>TODO</Structure_Ideological.symbolPacks.1.member>
+  <Structure_Ideological.symbolPacks.1.member>ideólogo</Structure_Ideological.symbolPacks.1.member>
   <!-- EN: ideology -->
-  <Structure_Ideological.symbolPacks.1.theme>TODO</Structure_Ideological.symbolPacks.1.theme>
+  <Structure_Ideological.symbolPacks.1.theme>ideología</Structure_Ideological.symbolPacks.1.theme>
   <!-- EN: just -->
-  <Structure_Ideological.symbolPacks.2.adjective>TODO</Structure_Ideological.symbolPacks.2.adjective>
+  <Structure_Ideological.symbolPacks.2.adjective>justo</Structure_Ideological.symbolPacks.2.adjective>
   <!-- EN: Justice -->
-  <Structure_Ideological.symbolPacks.2.ideoName>TODO</Structure_Ideological.symbolPacks.2.ideoName>
+  <Structure_Ideological.symbolPacks.2.ideoName>Justicia</Structure_Ideological.symbolPacks.2.ideoName>
   <!-- EN: justicar -->
-  <Structure_Ideological.symbolPacks.2.member>TODO</Structure_Ideological.symbolPacks.2.member>
+  <Structure_Ideological.symbolPacks.2.member>justo</Structure_Ideological.symbolPacks.2.member>
   <!-- EN: justice -->
-  <Structure_Ideological.symbolPacks.2.theme>TODO</Structure_Ideological.symbolPacks.2.theme>
+  <Structure_Ideological.symbolPacks.2.theme>justicia</Structure_Ideological.symbolPacks.2.theme>
   <!-- EN: sanctuary -->
-  <Structure_Ideological.worshipRoomLabel>TODO</Structure_Ideological.worshipRoomLabel>
+  <Structure_Ideological.worshipRoomLabel>santuario</Structure_Ideological.worshipRoomLabel>
   
   <!-- EN: abstract theist -->
   <Structure_TheistAbstract.label>teísta abstracto</Structure_TheistAbstract.label>
@@ -162,41 +214,66 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_TheistAbstract.generalRules.rulesStrings>TODO</Structure_TheistAbstract.generalRules.rulesStrings>
+  <Structure_TheistAbstract.generalRules.rulesStrings>
+    <li>memeAdjective->sacrosanto(a)</li>
+    <li>memeAdjective->santo(a)</li>
+    <li>memeAdjective->sagrado(a)</li>
+    <li>memeAdjective->divino(a)</li>
+    <li>memeAdjective->devoto(a)</li>
+    <li>memeCreed->templo</li>
+    <li>memeCreed->secta</li>
+    <li>memeCreed->culto</li>
+    <li>memeCreed->fe</li>
+    <li>memeHyphenPrefix->teo</li>
+    <li>memeConcept->creación</li>
+    <li>memeConcept->vida</li>
+    <li>memeLeaderNoun->obispo</li>
+    <li>memeLeaderNoun->cardenal</li>
+    <li>memeLeaderNoun->Papa</li>
+    <li>memeLeaderNoun->arzobispo</li>
+    <li>memeLeaderAdjective->santo</li>
+    <li>memeLeaderAdjective->divino</li>
+    <li>memeMoralist->sacerdote</li>
+    <li>memeMoralist->pastor</li>
+    <li>memeMoralist->clérigo</li>
+    <li>memeMoralist->predicador</li>
+    <li>memeMoralist->diácono</li>
+    <li>memeMoralist->abad</li>
+  </Structure_TheistAbstract.generalRules.rulesStrings>
   <!-- EN: spiritual -->
-  <Structure_TheistAbstract.symbolPacks.0.adjective>TODO</Structure_TheistAbstract.symbolPacks.0.adjective>
+  <Structure_TheistAbstract.symbolPacks.0.adjective>espiritual</Structure_TheistAbstract.symbolPacks.0.adjective>
   <!-- EN: Spiritism -->
-  <Structure_TheistAbstract.symbolPacks.0.ideoName>TODO</Structure_TheistAbstract.symbolPacks.0.ideoName>
+  <Structure_TheistAbstract.symbolPacks.0.ideoName>Espiritismo</Structure_TheistAbstract.symbolPacks.0.ideoName>
   <!-- EN: spiritist -->
-  <Structure_TheistAbstract.symbolPacks.0.member>TODO</Structure_TheistAbstract.symbolPacks.0.member>
+  <Structure_TheistAbstract.symbolPacks.0.member>espiritista</Structure_TheistAbstract.symbolPacks.0.member>
   <!-- EN: spiritualism -->
-  <Structure_TheistAbstract.symbolPacks.0.theme>TODO</Structure_TheistAbstract.symbolPacks.0.theme>
+  <Structure_TheistAbstract.symbolPacks.0.theme>espiritualismo</Structure_TheistAbstract.symbolPacks.0.theme>
   <!-- EN: faithful -->
-  <Structure_TheistAbstract.symbolPacks.1.adjective>TODO</Structure_TheistAbstract.symbolPacks.1.adjective>
+  <Structure_TheistAbstract.symbolPacks.1.adjective>fiel</Structure_TheistAbstract.symbolPacks.1.adjective>
   <!-- EN: Faith -->
-  <Structure_TheistAbstract.symbolPacks.1.ideoName>TODO</Structure_TheistAbstract.symbolPacks.1.ideoName>
+  <Structure_TheistAbstract.symbolPacks.1.ideoName>fe</Structure_TheistAbstract.symbolPacks.1.ideoName>
   <!-- EN: faithholder -->
-  <Structure_TheistAbstract.symbolPacks.1.member>TODO</Structure_TheistAbstract.symbolPacks.1.member>
+  <Structure_TheistAbstract.symbolPacks.1.member>creyente</Structure_TheistAbstract.symbolPacks.1.member>
   <!-- EN: faith -->
-  <Structure_TheistAbstract.symbolPacks.1.theme>TODO</Structure_TheistAbstract.symbolPacks.1.theme>
+  <Structure_TheistAbstract.symbolPacks.1.theme>fe</Structure_TheistAbstract.symbolPacks.1.theme>
   <!-- EN: divinist -->
-  <Structure_TheistAbstract.symbolPacks.2.adjective>TODO</Structure_TheistAbstract.symbolPacks.2.adjective>
+  <Structure_TheistAbstract.symbolPacks.2.adjective>divinista</Structure_TheistAbstract.symbolPacks.2.adjective>
   <!-- EN: Divinism -->
-  <Structure_TheistAbstract.symbolPacks.2.ideoName>TODO</Structure_TheistAbstract.symbolPacks.2.ideoName>
+  <Structure_TheistAbstract.symbolPacks.2.ideoName>Divinismo</Structure_TheistAbstract.symbolPacks.2.ideoName>
   <!-- EN: divinist -->
-  <Structure_TheistAbstract.symbolPacks.2.member>TODO</Structure_TheistAbstract.symbolPacks.2.member>
+  <Structure_TheistAbstract.symbolPacks.2.member>divinista</Structure_TheistAbstract.symbolPacks.2.member>
   <!-- EN: divinity -->
-  <Structure_TheistAbstract.symbolPacks.2.theme>TODO</Structure_TheistAbstract.symbolPacks.2.theme>
+  <Structure_TheistAbstract.symbolPacks.2.theme>divinidad</Structure_TheistAbstract.symbolPacks.2.theme>
   <!-- EN: holyist -->
-  <Structure_TheistAbstract.symbolPacks.3.adjective>TODO</Structure_TheistAbstract.symbolPacks.3.adjective>
+  <Structure_TheistAbstract.symbolPacks.3.adjective>santorial</Structure_TheistAbstract.symbolPacks.3.adjective>
   <!-- EN: Holyism -->
-  <Structure_TheistAbstract.symbolPacks.3.ideoName>TODO</Structure_TheistAbstract.symbolPacks.3.ideoName>
+  <Structure_TheistAbstract.symbolPacks.3.ideoName>Santisimo</Structure_TheistAbstract.symbolPacks.3.ideoName>
   <!-- EN: holyist -->
-  <Structure_TheistAbstract.symbolPacks.3.member>TODO</Structure_TheistAbstract.symbolPacks.3.member>
+  <Structure_TheistAbstract.symbolPacks.3.member>santorilista</Structure_TheistAbstract.symbolPacks.3.member>
   <!-- EN: holiness -->
-  <Structure_TheistAbstract.symbolPacks.3.theme>TODO</Structure_TheistAbstract.symbolPacks.3.theme>
+  <Structure_TheistAbstract.symbolPacks.3.theme>santidad</Structure_TheistAbstract.symbolPacks.3.theme>
   <!-- EN: temple -->
-  <Structure_TheistAbstract.worshipRoomLabel>TODO</Structure_TheistAbstract.worshipRoomLabel>
+  <Structure_TheistAbstract.worshipRoomLabel>templo</Structure_TheistAbstract.worshipRoomLabel>
   
   <!-- EN: embodied theist -->
   <Structure_TheistEmbodied.label>teísta encarnado</Structure_TheistEmbodied.label>
@@ -215,24 +292,36 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->cleric</li>
   -->
-  <Structure_TheistEmbodied.generalRules.rulesStrings>TODO</Structure_TheistEmbodied.generalRules.rulesStrings>
+  <Structure_TheistEmbodied.generalRules.rulesStrings>
+    <li>memeCreed->secta</li>
+    <li>memeCreed->culto</li>
+    <li>memeCreed->templo</li>
+    <li>memeCreed->fe</li>
+    <li>memeHyphenPrefix->teo</li>
+    <li>memeConcept->creación</li>
+    <li>memeConcept->vida</li>
+    <li>memeLeaderNoun->templario</li>
+    <li>memeLeaderAdjective->divino(a)</li>
+    <li>memeMoralist->sacerdote</li>
+    <li>memeMoralist->clérigo</li>
+  </Structure_TheistEmbodied.generalRules.rulesStrings>
   <!-- EN: spiritual -->
-  <Structure_TheistEmbodied.symbolPacks.0.adjective>TODO</Structure_TheistEmbodied.symbolPacks.0.adjective>
+  <Structure_TheistEmbodied.symbolPacks.0.adjective>espiritual</Structure_TheistEmbodied.symbolPacks.0.adjective>
   <!-- EN: Spiritism -->
-  <Structure_TheistEmbodied.symbolPacks.0.ideoName>TODO</Structure_TheistEmbodied.symbolPacks.0.ideoName>
+  <Structure_TheistEmbodied.symbolPacks.0.ideoName>Espiritismo</Structure_TheistEmbodied.symbolPacks.0.ideoName>
   <!-- EN: spiritist -->
-  <Structure_TheistEmbodied.symbolPacks.0.member>TODO</Structure_TheistEmbodied.symbolPacks.0.member>
+  <Structure_TheistEmbodied.symbolPacks.0.member>espiritista</Structure_TheistEmbodied.symbolPacks.0.member>
   <!-- EN: spiritualism -->
-  <Structure_TheistEmbodied.symbolPacks.0.theme>TODO</Structure_TheistEmbodied.symbolPacks.0.theme>
+  <Structure_TheistEmbodied.symbolPacks.0.theme>espiritualismo</Structure_TheistEmbodied.symbolPacks.0.theme>
   <!-- EN: faithful -->
-  <Structure_TheistEmbodied.symbolPacks.1.adjective>TODO</Structure_TheistEmbodied.symbolPacks.1.adjective>
+  <Structure_TheistEmbodied.symbolPacks.1.adjective>fiel</Structure_TheistEmbodied.symbolPacks.1.adjective>
   <!-- EN: Faith -->
-  <Structure_TheistEmbodied.symbolPacks.1.ideoName>TODO</Structure_TheistEmbodied.symbolPacks.1.ideoName>
+  <Structure_TheistEmbodied.symbolPacks.1.ideoName>Fe</Structure_TheistEmbodied.symbolPacks.1.ideoName>
   <!-- EN: faithholder -->
-  <Structure_TheistEmbodied.symbolPacks.1.member>TODO</Structure_TheistEmbodied.symbolPacks.1.member>
+  <Structure_TheistEmbodied.symbolPacks.1.member>creyente</Structure_TheistEmbodied.symbolPacks.1.member>
   <!-- EN: faith -->
-  <Structure_TheistEmbodied.symbolPacks.1.theme>TODO</Structure_TheistEmbodied.symbolPacks.1.theme>
+  <Structure_TheistEmbodied.symbolPacks.1.theme>fe</Structure_TheistEmbodied.symbolPacks.1.theme>
   <!-- EN: pantheon -->
-  <Structure_TheistEmbodied.worshipRoomLabel>TODO</Structure_TheistEmbodied.worshipRoomLabel>
+  <Structure_TheistEmbodied.worshipRoomLabel>panteón</Structure_TheistEmbodied.worshipRoomLabel>
   
 </LanguageData>
