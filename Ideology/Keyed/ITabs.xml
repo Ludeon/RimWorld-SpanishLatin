@@ -18,8 +18,8 @@
   <SlaveReleasePotentialRelationGains>Ganancia de relaciones al liberar</SlaveReleasePotentialRelationGains>
   <!-- EN: Slave rebellion interval -->
   <SlaveRebellionMTBDays>Intervalo de rebelión de esclavos</SlaveRebellionMTBDays>
-  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by mood, health, suppression, proximity to weapons and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>El número medio de días entre los intentos de rebelión de los esclavos. Solo se cuenta el tiempo despierto. Esto se ve afectado por el estado de ánimo, la salud, la represión, la proximidad a las armas y la presencia de colonos en el mapa.</SlaveRebellionMTBDaysDescription>
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
+  <SlaveRebellionMTBDaysDescription>El número medio de días entre los intentos de rebelión de los esclavos. Solo se cuenta el tiempo despierto. Esto se ve afectado por la represión, el humor, la salud, la proximidad a las armas, el número de esclavos en el mapa y la presencia de colonos en el mapa.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <!-- EN: Suppression -->
@@ -51,6 +51,8 @@
   <SuppressionFactor>Represión</SuppressionFactor>
   <!-- EN: Mood -->
   <SuppressionMoodFactor>Humor</SuppressionMoodFactor>
+  <!-- EN: Slave count -->
+  <SuppressionSlaveCountFactor>TODO</SuppressionSlaveCountFactor>
   <!-- EN: Escape route -->
   <SuppressionEscapeFactor>Ruta de escape</SuppressionEscapeFactor>
   <!-- EN: Weapon proximity -->
@@ -59,6 +61,8 @@
   <SuppressionFinalInterval>Intervalo final</SuppressionFinalInterval>
   <!-- EN: Unattended -->
   <SuppressionUnattendedByColonists>Sin vigilancia</SuppressionUnattendedByColonists>
+  <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
+  <SuppressionRebellionAnySlave>TODO</SuppressionRebellionAnySlave>
 
   <!-- EN: Will -->
   <WillLevel>Voluntad</WillLevel>
