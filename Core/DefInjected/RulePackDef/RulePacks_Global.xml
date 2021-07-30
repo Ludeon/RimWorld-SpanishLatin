@@ -348,6 +348,11 @@
     <!-- founder -->
     <li>founder_o_a(founder_gender==Male)->o</li>
     <li>founder_o_a(founder_gender!=Male)->a</li>
+    <!-- pilgrim -->
+    <li>siendo(pilgrimCount==1)->y está siedo respetado</li>
+    <li>siendo(pilgrimCount>=2)->y están siendo repetados</li>
+    <li>mayOffers(pilgrimCount==1)->puede</li>
+    <li>mayOffers(pilgrimCount>=2)->pueden</li>
     <!-- all Animals, Arid -->
     <!-- Def -->
     <li>AnimalEpicenoDef(lodgersPawnKind==Dromedary)->el dromedario</li>
