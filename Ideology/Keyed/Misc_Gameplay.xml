@@ -1,8 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- EN: Choose your faction's ideoligion -->
-  <ChooseIdeoligion>Elige la ideoligión de tu facción</ChooseIdeoligion>
+  <!-- EN: Customize ideoligion -->
+  <CustomizeIdeoligion>Personalizar ideoligión</CustomizeIdeoligion> <!-- text_todo -->
+  <!-- EN: Choose your ideoligion -->
+  <ChooseYourIdeoligion>Elige tu ideoligión</ChooseYourIdeoligion>
+  <!-- EN: Random -->
+  <Random>Aleatorio</Random>
+  <!-- EN: A random structure will be used for your ideoligion. -->
+  <RandomStructureTip>Se utilizará una estructura aleatoria para su ideoligión.</RandomStructureTip> <!-- text_todo -->
+  <!-- EN: A random style will be used for your ideoligion. -->
+  <RandomStyleTip>Se utilizará un estilo aleatorio para su ideoligión.</RandomStyleTip> <!-- text_todo -->
+  <!-- EN: Customize -->
+  <Customize>Personalizar</Customize>
+  <!-- EN: Play classic -->
+  <PlayClassic>Jugar clásico</PlayClassic>
+  <!-- EN: Load saved -->
+  <LoadSaved>Cargar guardado</LoadSaved>
+  <!-- EN: Structure -->
+  <Structure>Estructura</Structure>
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <ChooseYourIdeoligionDesc>¿En qué deben creer tus colonos iniciales? Estas creencias afectan a la jugabilidad y al aspecto visual. Podrás reclutar a otros a tus creencias, o asumir las suyas.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Crear personalizada</CreateCustom>
   <!-- EN: Create new -->
@@ -560,5 +578,8 @@
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} completó el ciclo placentero.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Factor de velocidad de limpieza</BiosculpterCleanlinessSpeedFactor>
+
+  <!-- UNUSED -->
+  <ChooseIdeoligion>Elige la ideoligión de tu facción</ChooseIdeoligion>
 
 </LanguageData>
