@@ -21,7 +21,7 @@
     <li>pilgrimsArrivedLetterLabel->[pilgrimSingularOrPlural] [factionAdj] [hasHave] llegado</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
     <li>delayedRewardLetterText->[pawns0_nameDef] te agradece por permitir[andFollowers] venerar la reliquia [relic_name] en el [venerateDate]. Como recompensa, [pawns0_nameDef] te envía lo siguiente por medio de cápsulas de escape (valor total [rewardsMarketValue_money]):\n\n[rewards].</li>
-    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] terminado de venerar la reliquia [relic_name] y [areIs] marchando.</li>
+    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] terminado de venerar la reliquia [relic_name] y se [areIs] marchando.</li>
     <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave] dejado el mapa.</li>
     <li>areIs(pilgrimCount==1)->está</li>
     <li>areIs(pilgrimCount>=2)->están</li>

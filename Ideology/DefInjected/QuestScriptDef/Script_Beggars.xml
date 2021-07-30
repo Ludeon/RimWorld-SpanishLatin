@@ -13,7 +13,7 @@
   -->
   <Beggars.questContentRules.rulesStrings>
     <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [betrayed]</li>
-    <li>letterTextBeggarsBetrayed->[losel] [groupLabelSingleOrPlural] [who] [wasWere] buscando su caridad [hasHave] sido [betrayed]. Los colonos con creencias caritativas serán infelices.</li>
+    <li>letterTextBeggarsBetrayed->[losel] [groupLabelSingleOrPlural] [who] [wasWere] buscando tu caridad [hasHave] sido [betrayed]. Los colonos con creencias caritativas serán infelices.</li>
     <li>losel(beggarCount==1,beggars0_gender!=Female)->el</li>
     <li>losel(beggarCount==1,beggars0_gender==Female)->la</li>
     <li>losel(beggarCount>=2)->los</li>
@@ -78,10 +78,10 @@
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Necesitan la plata para poder pagar el rescate de un amigo que fue secuestrado recientemente</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Necesitan la medicina para intentar una operación que salve la vida de un compañero de viaje que fue atacado por mecanoides</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Necesitan la medicina para ayudar a sus amigos en un asentamiento cercano que fue devastado por los asaltantes</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Ellos necesitan [requestedThing_label] para que puedan viajar con seguridad mientras buscan un nuevo lugar al que llamar hogar</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Necesitan [requestedThing_label] para que puedan viajar con seguridad mientras buscan un nuevo lugar al que llamar hogar</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Ellos quieren [requestedThing_label] para ayudarles a ahogar sus penas tras perder su casa en un terrible ataque</li>
-    <li>interactionInfo(beggarCount==1)->Puedes regalar artículos a [beggars0_nameDef] seleccionando un colono y haciendo clic con el botón derecho sobre [beggars0_pronoun]</li>
-    <li>interactionInfo(beggarCount>=2)->Puedes regalar artículos a los [groupLabelPlural] seleccionando un colono y haciendo clic con el botón derecho sobre [beggars0_nameDef]</li>
+    <li>interactionInfo(beggarCount==1)->Puedes regalarle artículos a [beggars0_nameDef] seleccionando un colono y haciendo clic con el botón derecho sobre [beggars0_pronoun]</li>
+    <li>interactionInfo(beggarCount>=2)->Puedes regalarles artículos a los [groupLabelPlural] seleccionando un colono y haciendo clic con el botón derecho sobre [beggars0_nameDef]</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] seguirá adelante después de [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->Los [groupLabelPlural] seguirán adelante después de [visitDurationTicks_duration]</li>
   </Beggars.questDescriptionRules.rulesStrings>
@@ -123,7 +123,7 @@
     <li>seekingSingle->desea</li>
     <li>seekingSingle->requiere</li>
     <li>seekingSingle->necesita</li>
-    <li>seekingSingle->pider</li>
+    <li>seekingSingle->pide</li>
     <li>seekingPlural->buscan</li>
     <li>seekingPlural->solicitan</li>
     <li>seekingPlural->desean</li>
