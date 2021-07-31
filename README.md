@@ -26,7 +26,9 @@ http://ludeon.com/forums/index.php?topic=2933.0
 4. Borra el archivo con extensión *.tar* llamado __SpanishLatin (Español(Latinoamérica)).tar__ ubicado en ese mismo directorio.
 5. Repite el mismo proceso con la carpeta *Royalty*, Si, vas a usar nuevamente una carpeta con el nombre _SpanishLatin (Español(Latinoamérica))_ pero esta vez el directorio
 de instalación es: ___RimWorld/Data/Royalty/Languages/___
-6. Repite este proceso para el resto de *DLCs*
+6. Repite el mismo proceso con la carpeta *Royalty*, Si, vas a usar nuevamente una carpeta con el nombre _SpanishLatin (Español(Latinoamérica))_ pero esta vez el directorio
+de instalación es: ___RimWorld/Data/Ideology/Languages/___
+7. Repite este proceso para el resto de *DLCs*
 
 ### [Automatizada](Instalar/InstallGuide.md)
 - - -
@@ -41,6 +43,9 @@ Current translation and adaptation by:
 * __Zerstrick__
 * __Mora145__
 * __BernyGonzalez__
+
+Thanks to Ideology contributors 
+
 * __Evilservant6__
 * __IzumiKei__
 * __akvirac__
