@@ -18,7 +18,7 @@
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} se niega a hacer esto por su ideoligión.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} intentó convertir a {RECIPIENT_nameDef} a su ideoligión. La certeza de {RECIPIENT_nameDef} ha bajado de {CERTAINTYBEFORE} a {CERTAINTYAFTER}. {RECIPIENT_pronoun} se resiente del intento de conversión.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} intentó convertir a {RECIPIENT_nameDef} a su ideoligión. La certeza de {RECIPIENT_nameDef} bajó de {CERTAINTYBEFORE} a {CERTAINTYAFTER}. {RECIPIENT_pronoun} se resiente del intento de conversión.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
   <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} intentó convertir a {PAWN2_nameDef} a su ideoligión. ¡Esto desencadenó una pelea!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
@@ -43,15 +43,15 @@
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
   <MessageWarningPlayerDesignatedMining>Advertencia: {0} se molestará si se produce la minería.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>El {TREE_label} ha roto la conexión con {PAWN_nameDef}. Debe recuperarse durante {DURATION} antes de volver a conectarse.</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>El {TREE_label} rompió la conexión con {PAWN_nameDef}. Debe recuperarse durante {DURATION} antes de volver a conectarse.</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
-  <MessageSlaveEmancipated>{0_nameDef} ha sido emancipad{0_gender ? o : a} por {1_nameDef}.</MessageSlaveEmancipated>
+  <MessageSlaveEmancipated>{0_nameDef} fue emancipad{0_gender ? o : a} por {1_nameDef}.</MessageSlaveEmancipated>
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
-  <MessagePrisonerEnslaved>{0_nameDef} ha sido esclavizad{0_gender ? o : a} por {1_nameDef}.</MessagePrisonerEnslaved>
+  <MessagePrisonerEnslaved>{0_nameDef} fue esclavizad{0_gender ? o : a} por {1_nameDef}.</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
-  <MessagePrisonerWillBroken>La voluntad {1_gender ? del : de la} prisioner{1_gender ? o : a} {1_nameDef} ha sido rota por {0_nameDef}.</MessagePrisonerWillBroken>
+  <MessagePrisonerWillBroken>La voluntad {1_gender ? del : de la} prisioner{1_gender ? o : a} {1_nameDef} fue rota por {0_nameDef}.</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
   <MessagePrisonerWillBroken_RecruitAttempsWillBegin>Los intentos de esclavización comenzaran.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
@@ -59,7 +59,7 @@
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>Ningún vigilante es capaz de esta esclavización.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>No tienes vigilantes {MEMBERNAME} para convertir a {PRISONER_nameDef}. Su modo de interacción se ha revertido a "Sin interacción".</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>No tienes vigilantes {MEMBERNAME} para convertir a {PRISONER_nameDef}. Su modo de interacción se revirtió a "Sin interacción".</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
@@ -106,7 +106,7 @@
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
   <MessageAncientComplexBackToShuttle>¡Haz descubierto información secreta sobre {0}! Vuelve al transbordador para lanzarlo.</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
-  <MessageAncientSignalActivated>Se ha activado un antiguo satélite de suministros. Los suministros caerán cerca.</MessageAncientSignalActivated>
+  <MessageAncientSignalActivated>Se activó un antiguo satélite de suministros. Los suministros caerán cerca.</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
   <MessageAncientSignalHostileDetected>{0} del {1} han detectado la señal de suministro y están atacando.</MessageAncientSignalHostileDetected>
 
@@ -128,7 +128,7 @@
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>¡Un {0} se ha incendiado y va a explotar!</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>¡Un {0} se incendió y va a explotar!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
