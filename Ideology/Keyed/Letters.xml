@@ -108,7 +108,7 @@
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
   <LetterIdeoChangeConverted>{PAWN_pronoun} decidió que su creencia en {OLDIDEO_name} ya no tenía ningún sentido.\n\nAhora {PAWN_pronoun} cree en {NEWIDEO_name}.</LetterIdeoChangeConverted>
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
-  <LetterIdeoChangeNotConverted>la certeza de {PAWN_nameDef} con su creencia en {OLDIDEO_name} se redujo a {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
+  <LetterIdeoChangeNotConverted>la certeza de {PAWN_nameDef} con su creencia en {OLDIDEO_name} se ha reducido a {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
   <LetterIdeoChangedWanderOwnRoom>Para llegar a un acuerdo con sus creencias , {PAWN_nameDef} se esconde ahora en su habitación.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
@@ -148,13 +148,13 @@
   <!-- EN: Relic destroyed -->
   <LetterLabelRelicDestroyed>Reliquia destruida</LetterLabelRelicDestroyed>
   <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicDestroyed>¡{0} fue destruido(a)!\n\nLas siguientes personas sufrirán una reducción del estado de ánimo:\n{1}</LetterTextRelicDestroyed>
+  <LetterTextRelicDestroyed>¡{0} ha sido destruido(a)!\n\nLas siguientes personas sufrirán una reducción del estado de ánimo:\n{1}</LetterTextRelicDestroyed>
   
   <!-- Relic lost -->
   <!-- EN: Relic lost -->
   <LetterLabelRelicLost>Reliquia perdida</LetterLabelRelicLost>
   <!-- EN: {0} has been lost!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicLost>¡{0} se perdió!\n\nLas siguientes personas sufrirán una reducción del estado de ánimo:\n{1}</LetterTextRelicLost>
+  <LetterTextRelicLost>¡{0} se ha perdido!\n\nLas siguientes personas sufrirán una reducción del estado de ánimo:\n{1}</LetterTextRelicLost>
 
   <!-- Caravan destroyed -->
   <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
@@ -164,7 +164,7 @@
   <!-- EN: Last hacker lost -->
   <LetterLabelLastHackerLost>Último hacker perdido</LetterLabelLastHackerLost>
   <!-- EN: The last hacker capable of unlocking the secrets of the ancient complex has been lost. Call reinforcements capable of hacking, or abandon the quest. -->
-  <LetterTextLastHackerLost>El último hacker capaz de desvelar los secretos del antiguo complejo se perdió. Pide refuerzos capaces de hackear o abandona la misión.</LetterTextLastHackerLost>
+  <LetterTextLastHackerLost>El último hacker capaz de desvelar los secretos del antiguo complejo se ha perdido. Pide refuerzos capaces de hackear o abandona la misión.</LetterTextLastHackerLost>
 
   <!-- Relic hunt -->
   <!-- EN: Relic found -->
@@ -188,7 +188,7 @@
   <!-- EN: Connected {TREE_label} destroyed -->
   <LetterLabelConnectedTreeDestroyed>{TREE_label} conectado destruido</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
-  <LetterTextConnectedTreeDestroyed>Un {TREE_label} conectado a {CONNECTEDPAWN_nameDef} fue destruido, matando a la reina dríada alojada en su interior.\n\Sin una reina, la mente de las dríadas han colapsado. Todas las dríadas de ese árbol han muerto.</LetterTextConnectedTreeDestroyed>
+  <LetterTextConnectedTreeDestroyed>Un {TREE_label} conectado a {CONNECTEDPAWN_nameDef} ha sido destruido, matando a la reina dríada alojada en su interior.\n\Sin una reina, la mente de las dríadas han colapsado. Todas las dríadas de ese árbol han muerto.</LetterTextConnectedTreeDestroyed>
 
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
