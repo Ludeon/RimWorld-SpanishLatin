@@ -5,7 +5,7 @@
   <!-- EN: Conversion -->
   <LetterLabelConvertIdeoAttempt_Success>Conversión</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
-  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef} ha conseguido que {RECIPIENT_nameDef} se aleje de {OLDIDEO_name} y se acerque a {IDEO_name}.</LetterConvertIdeoAttempt_Success>
+  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef} consiguió que {RECIPIENT_nameDef} se aleje de {OLDIDEO_name} y se acerque a {IDEO_name}.</LetterConvertIdeoAttempt_Success>
 
   <!-- Slave rebellion -->
   <!-- EN: Grand slave rebellion -->
@@ -50,15 +50,15 @@
   <LetterLabelRoleInactiveDesc>El número de {0}s en tu colonia bajó a {1}. El rol {ROLE_labelDef} ya no está activo. Este rol volverá a estar disponible cuando el número de {0}s llegue a {2}.</LetterLabelRoleInactiveDesc>
 
   <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
-  <LetterLabelRoleLost>El rol de {ROLE_labelIndef} de {PAWN_labelShort} se ha perdido</LetterLabelRoleLost>
+  <LetterLabelRoleLost>El rol de {ROLE_labelIndef} de {PAWN_labelShort} se perdió</LetterLabelRoleLost>
   <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
   <LetterRoleLostDesc>{PAWN_labelShort} ya no tiene el rol de {ROLE_labelIndef}. Razón:</LetterRoleLostDesc>
   <!-- EN: {PAWN_pronoun} was unassigned. -->
   <LetterRoleLostReasonUnassignedDesc>{PAWN_pronoun} estaba sin asignar.</LetterRoleLostReasonUnassignedDesc>
   <!-- EN: Role became inactive due to low {0} count. -->
-  <LetterRoleLostReasonLowBelieversDesc>El rol se ha vuelto inactivo debido a un recuento bajo de {0}.</LetterRoleLostReasonLowBelieversDesc>
+  <LetterRoleLostReasonLowBelieversDesc>El rol se volvió inactivo debido a un recuento bajo de {0}.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
-  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} ha perdido su posición de como {ROLE_labelDef} porque abandonó: {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
+  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} perdió su posición de como {ROLE_labelDef} porque abandonó: {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
   <!-- EN: {0} skipped. -->
   <LetterObligationRoleInactive>{0} saltado.</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
@@ -82,19 +82,19 @@
   <!-- EN: Bond(s) removed -->
   <LetterBondRemoved>vínculos eliminados</LetterBondRemoved>
   <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
-  <LetterBondRemovedDesc>{PAWN_nameDef} se ha convertido a {IDEO}. Dado que {IDEO} desaprueba los vínculos con los animales, {PAWN_pronoun} ha renunciado a sus vínculos con los siguientes animales:\n\n{BONDS}</LetterBondRemovedDesc>
+  <LetterBondRemovedDesc>{PAWN_nameDef} se convirtió a {IDEO}. Dado que {IDEO} desaprueba los vínculos con los animales, {PAWN_pronoun} renunció a sus vínculos con los siguientes animales:\n\n{BONDS}</LetterBondRemovedDesc>
 
   <!-- Slave will -->
   <!-- EN: Enslaved -->
   <LetterLabelEnslavementSuccess>Esclavizado</LetterLabelEnslavementSuccess>
   <!-- EN: {0_nameDef} successfully enslaved {1_nameDef}. -->
-  <LetterEnslavementSuccess>{0_nameDef} ha esclavizado con éxito {1_nameDef}.</LetterEnslavementSuccess>
+  <LetterEnslavementSuccess>{0_nameDef} esclavizó con éxito {1_nameDef}.</LetterEnslavementSuccess>
 
   <!-- Primary ideo changed -->
   <!-- EN: Primary ideoligion changed -->
   <LetterLabelNewPrimaryIdeo>Ideoligión principal cambiada</LetterLabelNewPrimaryIdeo>
   <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
-  <LetterNewPrimaryIdeo>La ideoligión principal de tu facción ha cambiado de {OLDIDEO_name} a {NEWIDEO_name}.\n\nEsto ha sucedido porque {NEWIDEO_name} es ahora más común entre tus {FACTION_pawnsPlural} que cualquier otra ideoligión.\n\nTu ideoligión principal afecta a las relaciones con otras facciones, en función de lo cerca que estén tus creencias de las suyas.</LetterNewPrimaryIdeo>
+  <LetterNewPrimaryIdeo>La ideoligión principal de tu facción cambió de {OLDIDEO_name} a {NEWIDEO_name}.\n\nEsto sucedió porque {NEWIDEO_name} es ahora más común entre tus {FACTION_pawnsPlural} que cualquier otra ideoligión.\n\nTu ideoligión principal afecta a las relaciones con otras facciones, en función de lo cerca que estén tus creencias de las suyas.</LetterNewPrimaryIdeo>
 
   <!-- Charity incidents -->
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
@@ -108,7 +108,7 @@
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
   <LetterIdeoChangeConverted>{PAWN_pronoun} decidió que su creencia en {OLDIDEO_name} ya no tenía ningún sentido.\n\nAhora {PAWN_pronoun} cree en {NEWIDEO_name}.</LetterIdeoChangeConverted>
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
-  <LetterIdeoChangeNotConverted>la certeza de {PAWN_nameDef} con su creencia en {OLDIDEO_name} se ha reducido a {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
+  <LetterIdeoChangeNotConverted>la certeza de {PAWN_nameDef} con su creencia en {OLDIDEO_name} se redujo a {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
   <LetterIdeoChangedWanderOwnRoom>Para llegar a un acuerdo con sus creencias , {PAWN_nameDef} se esconde ahora en su habitación.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
@@ -118,7 +118,7 @@
   <!-- EN: Divorce -->
   <LetterIdeoChangedDivorce>Divorcio</LetterIdeoChangedDivorce>
   <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
-  <LetterIdeoChangedDivorcedPawns>Las nuevas creencias de {PAWN_nameDef} le prohíben tener el número actual de cónyuges.\n\n{PAWN_nameDef} ha decidido divorciarse de estas personas:\n{1}</LetterIdeoChangedDivorcedPawns>
+  <LetterIdeoChangedDivorcedPawns>Las nuevas creencias de {PAWN_nameDef} le prohíben tener el número actual de cónyuges.\n\n{PAWN_nameDef} decidió divorciarse de estas personas:\n{1}</LetterIdeoChangedDivorcedPawns>
 
   <!-- Surprise reinforcement -->
   <!-- EN: Surprise reinforcements! -->
@@ -138,7 +138,7 @@
   <!-- EN: A spacedrone is landing nearby. -->
   <LetterTextSpacedroneIncoming>Un dron espacial está aterrizando cerca.</LetterTextSpacedroneIncoming>
   <!-- EN: A raid from {0} has arrived to destroy the {1} that was forced to land nearby. -->
-  <LetterTextRaidSpacedrone>Un asalto de {0} ha llegado para destruir al {1} que se vio obligado a aterrizar cerca.</LetterTextRaidSpacedrone>
+  <LetterTextRaidSpacedrone>Un asalto de {0} llegó para destruir al {1} que se vio obligado a aterrizar cerca.</LetterTextRaidSpacedrone>
 
   <!-- Hacked -->
   <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->
@@ -148,23 +148,23 @@
   <!-- EN: Relic destroyed -->
   <LetterLabelRelicDestroyed>Reliquia destruida</LetterLabelRelicDestroyed>
   <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicDestroyed>¡{0} ha sido destruido(a)!\n\nLas siguientes personas sufrirán una reducción del estado de ánimo:\n{1}</LetterTextRelicDestroyed>
+  <LetterTextRelicDestroyed>¡{0} fue destruido(a)!\n\nLas siguientes personas sufrirán una reducción del estado de ánimo:\n{1}</LetterTextRelicDestroyed>
   
   <!-- Relic lost -->
   <!-- EN: Relic lost -->
   <LetterLabelRelicLost>Reliquia perdida</LetterLabelRelicLost>
   <!-- EN: {0} has been lost!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicLost>¡{0} se ha perdido!\n\nLas siguientes personas sufrirán una reducción del estado de ánimo:\n{1}</LetterTextRelicLost>
+  <LetterTextRelicLost>¡{0} se perdió!\n\nLas siguientes personas sufrirán una reducción del estado de ánimo:\n{1}</LetterTextRelicLost>
 
   <!-- Caravan destroyed -->
   <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
-  <LetterOnlySlaveCaravanColonistsLeft>Todos los miembros no esclavos de {0} han muerto. Los esclavos restantes se han marchado. La caravana se ha perdido.</LetterOnlySlaveCaravanColonistsLeft>
+  <LetterOnlySlaveCaravanColonistsLeft>Todos los miembros no esclavos de {0} murieron. Los esclavos restantes se marcharon. La caravana se perdió.</LetterOnlySlaveCaravanColonistsLeft>
 
   <!-- Hacker lost -->
   <!-- EN: Last hacker lost -->
   <LetterLabelLastHackerLost>Último hacker perdido</LetterLabelLastHackerLost>
   <!-- EN: The last hacker capable of unlocking the secrets of the ancient complex has been lost. Call reinforcements capable of hacking, or abandon the quest. -->
-  <LetterTextLastHackerLost>El último hacker capaz de desvelar los secretos del antiguo complejo se ha perdido. Pide refuerzos capaces de hackear o abandona la misión.</LetterTextLastHackerLost>
+  <LetterTextLastHackerLost>El último hacker capaz de desvelar los secretos del antiguo complejo se perdió. Pide refuerzos capaces de hackear o abandona la misión.</LetterTextLastHackerLost>
 
   <!-- Relic hunt -->
   <!-- EN: Relic found -->
@@ -184,7 +184,7 @@
   <!-- EN: {TREE_label} connection -->
   <LetterLabelPawnConnected>conexión con {TREE_label}</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
-  <LetterTextPawnConnected>{CONNECTOR_nameDef} se ha conectado con {TREE_definite}.\n\n{TREE_definite} producirá pequeños animales llamados dríadas, cultivándolas en vainas en su base. Estas dríadas pueden especializarse en diferentes castas. Puedes elegir qué casta de dríadas quieres que produzca el árbol.\n\nCuanto más fuerte sea la conexión entre el árbol y el ser humano, {TREE_definite} más dríadas podra sostener. {CONNECTOR_nameDef} puede fortalecer la conexión mediante la poda de: {TREE_definite}. Mantener una mayor fuerza de conexión requiere una poda más frecuente.</LetterTextPawnConnected>
+  <LetterTextPawnConnected>{CONNECTOR_nameDef} se conectó con {TREE_definite}.\n\n{TREE_definite} producirá pequeños animales llamados dríadas, cultivándolas en vainas en su base. Estas dríadas pueden especializarse en diferentes castas. Puedes elegir qué casta de dríadas quieres que produzca el árbol.\n\nCuanto más fuerte sea la conexión entre el árbol y el ser humano, {TREE_definite} más dríadas podra sostener. {CONNECTOR_nameDef} puede fortalecer la conexión mediante la poda de: {TREE_definite}. Mantener una mayor fuerza de conexión requiere una poda más frecuente.</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
   <LetterLabelConnectedTreeDestroyed>{TREE_label} conectado destruido</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
