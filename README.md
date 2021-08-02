@@ -24,11 +24,9 @@ http://ludeon.com/forums/index.php?topic=2933.0
 2. Crea una carpeta con este nombre _SpanishLatin (Español(Latinoamérica))_ y copia dentro el contenido de la carpeta Core
 3. Copia tu nueva carpeta en el directorio de instalación de RimWorld en: ___RimWorld/Data/Core/Languages/___
 4. Borra el archivo con extensión *.tar* llamado __SpanishLatin (Español(Latinoamérica)).tar__ ubicado en ese mismo directorio.
-5. Repite el mismo proceso con la carpeta *Royalty*, Si, vas a usar nuevamente una carpeta con el nombre _SpanishLatin (Español(Latinoamérica))_ pero esta vez el directorio
-de instalación es: ___RimWorld/Data/Royalty/Languages/___
-6. Repite el mismo proceso con la carpeta *Royalty*, Si, vas a usar nuevamente una carpeta con el nombre _SpanishLatin (Español(Latinoamérica))_ pero esta vez el directorio
-de instalación es: ___RimWorld/Data/Ideology/Languages/___
-7. Repite este proceso para el resto de *DLCs*
+5. Repite el mismo proceso con la carpeta *Royalty*, Sí, vas a usar nuevamente una carpeta con el nombre _SpanishLatin (Español(Latinoamérica))_ pero esta vez el directorio
+de instalación es: ___RimWorld/Data/Royalty/Languages/___ y Para *Ideolody* el directorio:  ___RimWorld/Data/Ideology/Languages/___
+6. Repite este proceso para el resto de *DLCs*
 
 ### [Automatizada](Instalar/InstallGuide.md)
 - - -
