@@ -16,7 +16,7 @@
   <!-- EN: Play classic -->
   <PlayClassic>Jugar clásico</PlayClassic>
   <!-- EN: Load saved -->
-  <LoadSaved>Cargar guardado</LoadSaved>
+  <LoadSaved>Cargar salvado</LoadSaved>
   <!-- EN: Structure -->
   <Structure>Estructura</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
@@ -189,7 +189,7 @@
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
   <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Con un nuevo nivel de psicoenlace {PAWN_pronoun} ganó la psico-emisión {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
-  <RitualOutcomeExtraDesc_ConsumableInspiration>¡Gracias a un satisfactorio {RITUAL}, {PAWN_labelShort} ganó {INSPIRACIÓN}!</RitualOutcomeExtraDesc_ConsumableInspiration>
+  <RitualOutcomeExtraDesc_ConsumableInspiration>¡Gracias a un satisfactorio {RITUAL}, {PAWN_labelShort} ganó {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
   <RitualOutcomeExtraDesc_SkylanternWanderers>Tus linternas voladoras atrajeron a algunos viajeros amistosos. Te visitarán y te dejarán un regalo.</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
@@ -210,7 +210,7 @@
   <!-- EN: negative -->
   <RitualAttachedOutcomes_Negative>negativo</RitualAttachedOutcomes_Negative>
   <!-- EN: If the {0} is {1} -->
-  <RitualAttachedOutcomesInfo>Si el {0} es {1}</RitualAttachedOutcomesInfo>
+  <RitualAttachedOutcomesInfo>Si {0_gender ? el : la} {0} es {1}</RitualAttachedOutcomesInfo>
   <!-- EN: Upon any {0} outcome -->
   <RitualAttachedApplliesForOutcome>Ante cualquier resultado {0}</RitualAttachedApplliesForOutcome>
   <!-- EN: Upon any {0} outcome -->
@@ -427,7 +427,7 @@
   <!-- EN: Connection strength -->
   <ConnectionStrength>Fuerza de conexión</ConnectionStrength>
   <!-- EN: {0} strength -->
-  <ConnectionStrengthDisplay>fuerza</ConnectionStrengthDisplay>
+  <ConnectionStrengthDisplay>fuerza {0}</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
   <ConnectionStrengthDesc>Determina cuántas dríadas puede soportar este árbol.</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
