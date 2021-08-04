@@ -31,13 +31,13 @@
     <li>tale_noun->la caravana de [PAWN_nameDef] se defendiende de forma exitosa.</li>
     <li>tale_noun->la caravana de [PAWN_nameDef] está luchando contra una emboscada.</li>
     <li>image->[PAWN_nameFull] organiza la resistencia, mientras [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] empuñando [WeaponDef] defensivamente mientras [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] tomando represalias con [WeaponDef] mientras [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] empuñando [WeaponIndef] defensivamente mientras [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tomando represalias con [WeaponIndef] mientras [circumstance_group]</li>
     <li>image->[PAWN_nameFull] se yergue tan alto como un edificio, mientras [circumstance_group]</li>
     <li>image->[PAWN_nameFull] con semblante [AdjectiveBadass], mientras [circumstance_group]</li>
     <li>image->[PAWN_nameFull] con semblante [AdjectiveAngsty], mientras [circumstance_group]</li>
     <li>circumstance_phrase->se prepara contra la horda que avanza</li>
-    <li>circumstance_phrase->su da vueltas alrededor de las carretas</li>
+    <li>circumstance_phrase->se da vueltas alrededor de las carretas</li>
     <li>circumstance_phrase->grita ¡victoria!</li>
     <li>circumstance_phrase->blande sus [WeaponAnyPl]</li>
     <li>circumstance_phrase->con el cuerpo cubierto de [Gore_Plural]</li>
@@ -76,8 +76,8 @@
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
     <li>tale_noun->la caravana de [PAWN_nameDef] derrotó un emplazamiento enemigo</li>
     <li>image->[PAWN_nameFull] corriendo hacia un [Enemy], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] blandiendo [WeaponDef], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] atacando con [WeaponDef], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] blandiendo [WeaponIndef], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] atacando con [WeaponIndef], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] irguiéndose con orgullo, [circumstance_group]</li>
     <li>circumstance_phrase->con expresión [AdjectiveBadass] en sus ojos</li>
     <li>circumstance_phrase->con expresión [AdjectiveAngsty] en sus ojos</li>

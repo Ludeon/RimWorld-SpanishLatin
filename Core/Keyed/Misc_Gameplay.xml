@@ -103,15 +103,19 @@
   <!-- EN: Execute -->
   <Execute>Ejecutar</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>Ejecutar al colono culpable\n\nSi activas esta opción, un vigilante procederá a ejecutar a esta persona.</ExecuteColonist> <!-- text_doto -->
+  <ExecuteColonist>Ejecutar al colono culpable\n\nSi activas esta opción, un vigilante procederá a ejecutar a esta persona.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>{0_labelShort} está ahora marcad{0_gender ? o : a} para su ejecución. El siguiente vigilante disponible irá a ejecutar{0_objective}.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} de {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>Esta acción hará que {PAWN_nameDef} pierda {PAWN_possessive} título de {TITLE}. No recibirás ninguna compensación al renunciar a tu título.\n\nEsto tendrá los siguientes efectos:\n\n{EFFECTS}</RenounceTitleDescription>
-  <!-- EN: {PAWN_possessive} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>perderá estos permisos</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_pronoun} will lose these permissions -->
+  <RenounceTitleWillLoosePermits>{PAWN_pronoun} perderá estos permisos</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} perderá {POINTS} puntos de permiso no gastados con la facción {FACTION_name}.</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} mantendrá todos {PAWN_possessive}s niveles de psicoenlace y psico-emisiones.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>desconocido</UnknownLower>
   <!-- EN: On -->
@@ -1141,6 +1145,8 @@
   <Installed>Instalado</Installed>
   <!-- EN: Not installed -->
   <NotInstalled>No instalado</NotInstalled>
+  <!-- EN: Extracted tree will die in {time} unless replanted. -->
+  <MinifiedTreeWillDieIn>El árbol extraído morirá en {time} si no se replanta.</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
