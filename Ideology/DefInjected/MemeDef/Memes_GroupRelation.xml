@@ -25,7 +25,7 @@
   -->
   <Guilty.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Guilty)        ->[deity0_name] violó y asesinó y robó, y una gran culpa recayó sobre [deity0_pronoun], y en su egoísmo, [deity0_pronoun] arrojó esta culpa sobre su pueblo elegido, y todos se ensuciaron con ella.</li>
-    <li>episode(uses=1,tag=meme_Guilty)  ->Los creyentes salieron y conquistaron, quemaron y violaron durante mil años, y el dolor de [deity0_name] por su depravación [deity0_pronoun] consumió.</li>
+    <li>episode(uses=1,tag=meme_Guilty)  ->Los creyentes salieron y conquistaron, quemaron y violaron durante mil años, y el dolor de [deity0_name] por su depravación [deity0_objective] consumió.</li>
     <li>intro(tag=meme_Guilty)           ->Los [memberNamePlural] del [place_summary] [place_name] descuidaron su deber hacia [deity0_name], y dejaron que el(la) [altarName] en su [altarRoomLabel] se arruinara.</li>
     <li>conflict(tag=meme_Guilty)        ->Un [foeLeader] le prestó dinero al grupo de [memberNamePlural], que lo gastó en placeres egoístas y olvidó la importancia de [memeConcept].</li>
     <li>founderJoin(tag=meme_Guilty)     ->Un [place_job] llamado [founderName] gozaba del favor de [foeLeader]. Durante el ritual [ritualName], [founder_pronoun] vio a los [foeSoldiers] de [foeLeader] matar en secreto a los [memberNamePlural] cada uno armado con con una [place_personalWeapon]. [founderName] finalmente entendió [memeConcept], y recibió la bendición de [deity0_name].</li>
