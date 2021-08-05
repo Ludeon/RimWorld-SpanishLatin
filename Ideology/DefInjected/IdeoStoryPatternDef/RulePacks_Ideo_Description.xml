@@ -157,7 +157,7 @@
     <li>lesson(priority=-1)->las cosas pasan</li>
     <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)->[attributionSource_titleCase] por [founder_nameFull]</li>
+    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i> por [founder_nameFull]</li>
     <li>lessonAttribution->Carta de [founder_nameFull] para [believer_nameFull]</li>
     <li>lessonAttribution->[founder_nameFull], de la charla principal a [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull], en su lecho de muerte</li>
