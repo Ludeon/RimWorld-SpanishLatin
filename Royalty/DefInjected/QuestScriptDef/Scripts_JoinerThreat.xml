@@ -21,9 +21,9 @@
     <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] joins you, the persona will hit [map_definite] with psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_A] [joiner_title] de [joiner_age] años de edad, de nombre [joiner_nameFull] ¡está llamando por ayuda! [joiner_pronoun] se esconde de [hidingFrom]. [joiner_pronoun] quiere huir y unirse a tu colonia en [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nEn pánico porque [joiner_objective] descubran, [joiner_nameDef] afirma ser incapaz de contarte más sobre [joiner_pronoun].</li>
+    <li>questDescription->¡[joiner_A] [joiner_title] de [joiner_age] años de edad, de nombre [joiner_nameFull] está llamando por ayuda! [joiner_pronoun] se esconde de [hidingFrom]. [joiner_pronoun] quiere huir y unirse a tu colonia en [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nEn pánico porque [joiner_objective] descubran, [joiner_nameDef] afirma ser incapaz de contarte más sobre [joiner_pronoun].</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->una manada de lobos hambrientos</li>
-    <li>condDesc(gameCondition==ToxicFallout)->Sin embargo, [joiner_nameDef] solo ve una forma de matar y huir de los lobos: iniciar un incendio en un basurero de desechos tóxicos gigante que se encuentra muy cerca. Como consecuencia de esto caerá una lluvia tóxica durante [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==ToxicFallout)->Sin embargo, [joiner_nameDef] solo puede matar a los lobos prendiendo fuego a un enorme vertedero de desechos tóxicos cercano. Como consecuencia de esto caerá una lluvia tóxica durante [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->una pandilla de caníbales</li>
     <li>condDesc(gameCondition==VolcanicWinter)->Sin embargo, [joiner_nameDef] solo puede matar a la pandilla prendiendo fuego a una enorme pila de basura abandonada en las cercanías. Si [joiner_pronoun] se une a tu asentamiento, el sol quedará bloqueado por nubes de humo durante [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==EMIField)->un grupo de mecanoides</li>
@@ -33,7 +33,7 @@
     <li>hidingFrom(gameCondition==ColdSnap)->un satélite de control climático defectuoso</li>
     <li>condDesc(gameCondition==ColdSnap)->Si [joiner_pronoun] se une a tu asentamiento, se producirá un intenso frente frío durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
     <li>hidingFrom(gameCondition==WeatherController)->un satélite de control climático defectuoso</li>
-    <li>condDesc(gameCondition==WeatherController)->Si [joiner_pronoun] se une a tu asentamiento, el clima se volverá [forcedWeather_label] durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
+    <li>condDesc(gameCondition==WeatherController)->Si [joiner_pronoun] se une a tu asentamiento, el clima será forzado para crear [forcedWeather_indefinite] durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->una vengativa inteligencia artificial que [joiner_pronoun] ofendió recientemente</li>
     <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] se une a tu asentamiento, la inteligencia artificial atacará [map_definite] con un zumbador psíquido de nivel [psychicDroneLevel] durante [gameConditionDuration_duration], reduciendo el humor de todos los colonos de sexo [psychicDroneGender].</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->una inquietante inteligencia artificial a quien [joiner_pronoun] despertó de su letargo</li>
@@ -45,9 +45,9 @@
     <li>questName->the [gameCondition_label] and [joiner_nameDef]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
-    <li>questName->[gameCondition_label] de [joiner_nameDef]</li>
-    <li>questName->[joiner_nameDef] y [gameCondition_label]</li>
-    <li>questName->[gameCondition_label] y [joiner_nameDef]</li>
+    <li>questName->[gameCondition_definite] de [joiner_nameDef]</li>
+    <li>questName->[joiner_nameDef] y [gameCondition_definite]</li>
+    <li>questName->[gameCondition_indefinite] y [joiner_nameDef]</li>
   </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -199,9 +199,9 @@
     <li>questName->the [site/site_label] and [joiner_nameDef]</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
-    <li>questName->[site/site_label] de [joiner_nameDef]</li>
-    <li>questName->[joiner_nameDef] y el/la [site/site_label]</li>
-    <li>questName->El/La [site/site_label] y [joiner_nameDef]</li>
+    <li>questName->[site/site_definite] de [joiner_nameDef]</li>
+    <li>questName->[joiner_nameDef] y [site/site_definite]</li>
+    <li>questName->[site/site_indefinite] y [joiner_nameDef]</li>
   </ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: Since you accepted [../joiner_nameDef], [../threat] have set up a nearby site to harass you.\n                    \n[allSitePartsDescriptions] -->
   <ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>Como aceptaste [../joiner_nameDef], [../threat] estableció un campamento cercano para acosarte.\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>
