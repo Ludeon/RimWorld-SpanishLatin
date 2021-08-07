@@ -196,10 +196,10 @@
     <li>questName->[site/site_label] for Pay</li>
   -->
   <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
-    <li>[site/site_label] de [asker_nameDef]</li>
-    <li>[site/site_label] para [asker_nameDef]</li>
-    <li>Pagado [site/site_label]</li>
-    <li>[site/site_label] cuota</li>
+    <li>questName->[site/site_definite] de [asker_nameDef]</li>
+    <li>questName->[site/site_indefinite] para [asker_nameDef]</li>
+    <li>questName->Pagando por [site/site_indefinite]</li>
+    <li>questName->[site/site_indefinite] por cuotas</li>
   </ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
   <!-- EN: [defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals. -->
   <ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>[defaultSiteAppearedLetterText]\n\nEste campamento fue construido en respuesta a tus señales ofensivas.</ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>
