@@ -67,6 +67,7 @@
   -->
   <NamerIdeoRelic.rulePack.rulesStrings>
     <li>r_ideoRelicName(p=2)->[first]-[second]</li>
+    <li>r_ideoRelicName(p=2)->[second1] de [first1]</li>
     <li>r_ideoRelicName->[thingLabel] de [memeConcept]</li>
     <li>r_ideoRelicName->[thingLabel] [memeAdjective]</li>
     <li>r_ideoRelicName->[memeHyphenPrefix]-[thingLabel]</li>
@@ -76,7 +77,6 @@
     <li>relic->reliquia</li>
     <li>relic->artefacto</li>
     <li>relic->recuerdo</li>
-    <li>relic->conmemoración</li>
     <li>relic->remanente</li>
     <li>relic->herencia</li>
     <li>relic->remembranza</li>
@@ -106,6 +106,11 @@
     <li>first->loc</li>
     <li>first->pole</li>
     <li>first->lode</li>
+    <li>first1->estrellas</li>
+    <li>first1->espigas</li>
+    <li>first1->muerte</li>
+    <li>first1->vida</li>
+    <li>first1->luz</li>
     <li>second->convoca</li>
     <li>second->portadora</li>
     <li>second->parlante</li>
@@ -128,6 +133,13 @@
     <li>second->dedo</li>
     <li>second->azote</li>
     <li>second->cromo</li>
+    <li>second1->azote</li>
+    <li>second1->foco</li>
+    <li>second1->nexus</li>
+    <li>second1->vínculo</li>
+    <li>second1->enfoque</li>
+    <li>second1->bucle</li>
+    <li>second1->sombra</li>
   </NamerIdeoRelic.rulePack.rulesStrings>
   
 </LanguageData>
