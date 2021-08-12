@@ -79,7 +79,9 @@
   -->
   <AnimalPersonhood.generalRules.rulesStrings>
     <li>memeAdjective->animal</li>
-    <li>memeAdjective->peludo(a)</li>
+    <li>memeAdjective->peludo</li>
+    <li>memeAdjectiveFem->animal</li>
+    <li>memeAdjectiveFem->peluda</li>
     <li>memeCreed->rebaño</li>
     <li>memeCreed->manada</li>
     <li>memeCreed->multitud</li>
@@ -92,7 +94,7 @@
     <li>memeMoralist->pastor</li>
   </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
-  <AnimalPersonhood.symbolPacks.0.adjective>animalistico(a)</AnimalPersonhood.symbolPacks.0.adjective>
+  <AnimalPersonhood.symbolPacks.0.adjective>animalistico</AnimalPersonhood.symbolPacks.0.adjective>
   <!-- EN: Animalism -->
   <AnimalPersonhood.symbolPacks.0.ideoName>Animalismo</AnimalPersonhood.symbolPacks.0.ideoName>
   <!-- EN: animalist -->
@@ -100,7 +102,7 @@
   <!-- EN: animals -->
   <AnimalPersonhood.symbolPacks.0.theme>animales</AnimalPersonhood.symbolPacks.0.theme>
   <!-- EN: beastic -->
-  <AnimalPersonhood.symbolPacks.1.adjective>bestialico(a)</AnimalPersonhood.symbolPacks.1.adjective>
+  <AnimalPersonhood.symbolPacks.1.adjective>bestialico</AnimalPersonhood.symbolPacks.1.adjective>
   <!-- EN: Beastism -->
   <AnimalPersonhood.symbolPacks.1.ideoName>Bestialismo</AnimalPersonhood.symbolPacks.1.ideoName>
   <!-- EN: beastor -->
@@ -171,10 +173,14 @@
     <li>memeMoralist->blindfolder</li>
   -->
   <Blindsight.generalRules.rulesStrings>
-    <li>memeAdjective->cegador(a)</li>
-    <li>memeAdjective->ciego(a)</li>
-    <li>memeAdjective->visionario(a)</li>
+    <li>memeAdjective->cegador</li>
+    <li>memeAdjective->ciego</li>
+    <li>memeAdjective->visionario</li>
     <li>memeAdjective->hipermétrope</li>
+    <li>memeAdjectiveFem->hipermétrope</li>
+    <li>memeAdjectiveFem->cegadora</li>
+    <li>memeAdjectiveFem->ciega</li>
+    <li>memeAdjectiveFem->visionaria</li>
     <li>memeCreed->visor</li>
     <li>memeCreed->culto</li>
     <li>memeHyphenPrefix->ciego</li>
@@ -252,7 +258,8 @@
     <li>memeMoralist->fleshknower</li>
   -->
   <Cannibal.generalRules.rulesStrings>
-    <li>memeAdjective->sangriento(a)</li>
+    <li>memeAdjective->sangriento</li>
+    <li>memeAdjectiveFem->sangrienta</li>
     <li>memeCreed->comedores</li>
     <li>memeCreed->dental</li>
     <li>memeCreed->matadero</li>
@@ -349,8 +356,10 @@
     <li>memeMoralist->confuser</li>
   -->
   <Darkness.generalRules.rulesStrings>
-    <li>memeAdjective->oscuro(a)</li>
+    <li>memeAdjective->oscuro</li>
     <li>memeAdjective->tenue</li>
+    <li>memeAdjectiveFem->oscura</li>
+    <li>memeAdjectiveFem->tenue</li>
     <li>memeHyphenPrefix->oscuro</li>
     <li>memeHyphenPrefix->tenue</li>
     <li>memeConcept->oscuro</li>
@@ -419,8 +428,11 @@
   -->
   <FleshPurity.generalRules.rulesStrings>
     <li>memeAdjective->sublime</li>
-    <li>memeAdjective->puro(a)</li>
-    <li>memeAdjective->consagrado(a)</li>
+    <li>memeAdjective->puro</li>
+    <li>memeAdjective->consagrado</li>
+    <li>memeAdjectiveFem->sublime</li>
+    <li>memeAdjectiveFem->pura</li>
+    <li>memeAdjectiveFem->consagrada</li>
     <li>memeCreed->culto</li>
     <li>memeCreed->secta</li>
     <li>memeConcept->carne</li>
@@ -514,9 +526,12 @@
   -->
   <HighLife.generalRules.rulesStrings>
     <li>memeCreed->fiesta</li>
-    <li>memeAdjective->elevado(a)</li>
+    <li>memeAdjective->elevado</li>
     <li>memeAdjective->delirante</li>
-    <li>memeAdjective->drogado(a)</li>
+    <li>memeAdjective->drogado</li>
+    <li>memeAdjectiveFem->elevada</li>
+    <li>memeAdjectiveFem->delirante</li>
+    <li>memeAdjectiveFem->drogada</li>
     <li>memeConcept->drogas</li>
     <li>memeConcept->felicidad</li>
     <li>memeConcept->sueños</li>
@@ -617,9 +632,13 @@
   -->
   <Nudism.generalRules.rulesStrings>
     <li>memeAdjective->nudista</li>
-    <li>memeAdjective->desnudo(a)</li>
+    <li>memeAdjective->desnudo</li>
     <li>memeAdjective->libre</li>
     <li>memeAdjective->natural</li>
+    <li>memeAdjectiveFem->nudista</li>
+    <li>memeAdjectiveFem->desnuda</li>
+    <li>memeAdjectiveFem->libre</li>
+    <li>memeAdjectiveFem->natural</li>
     <li>memeHyphenPrefix->piel</li>
     <li>memeConcept->desnudez</li>
     <li>memeConcept->piel</li>
@@ -717,8 +736,10 @@
     <li>memeMoralist->painspeaker</li>
   -->
   <PainIsVirtue.generalRules.rulesStrings>
-    <li>memeAdjective->nocivo(a)</li>
-    <li>memeAdjective->doloroso(a)</li>
+    <li>memeAdjective->nocivo</li>
+    <li>memeAdjective->doloroso</li>
+    <li>memeAdjectiveFem->nociva</li>
+    <li>memeAdjectiveFem->dolorosa</li>
     <li>memeCreed->hogar</li>
     <li>memeCreed->compartimiento</li>
     <li>memeCreed->célula</li>
@@ -828,8 +849,10 @@
     <li>memeMoralist->converter</li>
   -->
   <Proselytizer.generalRules.rulesStrings>
-    <li>memeAdjective->autenticidad</li>
+    <li>memeAdjective->autentico</li>
     <li>memeAdjective->real</li>
+    <li>memeAdjectiveFem->autentica</li>
+    <li>memeAdjectiveFem->real</li>
     <li>memeHyphenPrefix->verdad</li>
     <li>memeConcept->verdad</li>
     <li>memeLeaderNoun->orador</li>
@@ -923,6 +946,7 @@
   -->
   <Raider.generalRules.rulesStrings>
     <li>memeAdjective->ilegal</li>
+    <li>memeAdjectiveFem->ilegal</li>
     <li>memeHyphenPrefix->ilegal</li>
     <li>memeHyphenPrefix->asalto</li>
     <li>memeConcept->incursión</li>
@@ -1036,9 +1060,12 @@
     <li>memeLeaderNoun->sheepdog</li>
   -->
   <Rancher.generalRules.rulesStrings>
-    <li>memeAdjective->rancho</li>
+    <li>memeAdjective->rancheril</li>
     <li>memeAdjective->rural</li>
-    <li>memeAdjective->campo</li>
+    <li>memeAdjective->campestre</li>
+    <li>memeAdjectiveFem->rancheril</li>
+    <li>memeAdjectiveFem->rural</li>
+    <li>memeAdjectiveFem->campestre</li>
     <li>memeHyphenPrefix->rancho</li>
     <li>memeConcept->ganadero</li>
     <li>memeLeaderNoun->ganadero</li>
@@ -1144,9 +1171,12 @@
     <li>memeMoralist->technologist</li>
   -->
   <Transhumanist.generalRules.rulesStrings>
-    <li>memeAdjective->tecnológico(a)</li>
-    <li>memeAdjective->máquina</li>
+    <li>memeAdjective->tecnológico</li>
+    <li>memeAdjective->maquinador</li>
     <li>memeAdjective->industrial</li>
+    <li>memeAdjectiveFem->tecnológica</li>
+    <li>memeAdjectiveFem->maquinadora</li>
+    <li>memeAdjectiveFem->industrial</li>
     <li>memeCreed->escuela</li>
     <li>memeCreed->academia</li>
     <li>memeCreed->universidad</li>
@@ -1291,8 +1321,9 @@
     <li>memeCreed->bosque</li>
     <li>memeConcept->árboles</li>
     <li>memeConcept->bosques</li>
-    <li>memeAdjective->robusto(a)</li>
+    <li>memeAdjective->robusto</li>
     <li>memeAdjective->corteza</li>
+    <li>memeAdjectiveFem->robusta</li>
     <li>memeHyphenPrefix->árbol</li>
     <li>memeHyphenPrefix->enramado</li>
     <li>memeHyphenPrefix->rama</li>
@@ -1379,7 +1410,8 @@
     <li>memeCreed->cueva</li>
     <li>memeCreed->búnker</li>
     <li>memeCreed->astil</li>
-    <li>memeAdjective->profundo(a)</li>
+    <li>memeAdjective->profundo</li>
+    <li>memeAdjectiveFem->profunda</li>
     <li>memeHyphenPrefix->pieda</li>
     <li>memeHyphenPrefix->cueva</li>
     <li>memeHyphenPrefix->hondo</li>

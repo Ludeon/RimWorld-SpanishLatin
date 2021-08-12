@@ -65,6 +65,9 @@
     <li>memeAdjective->arqueotec</li>
     <li>memeAdjective->arqueotécnico</li>
     <li>memeAdjective->arqueotecno</li>
+    <li>memeAdjectiveFem->arqueotec</li>
+    <li>memeAdjectiveFem->arqueotécnica</li>
+    <li>memeAdjectiveFem->arqueotecno</li>
     <li>memeHyphenPrefix->arqueo</li>
     <li>memeHyphenPrefix->arque</li>
     <li>memeLeaderNoun->arqueoista</li>
@@ -129,9 +132,12 @@
     <li>memeMoralist->sophist</li>
   -->
   <Structure_Ideological.generalRules.rulesStrings>
-    <li>memeAdjective->ético(a)</li>
+    <li>memeAdjective->ético</li>
     <li>memeAdjective->moral</li>
-    <li>memeAdjective->despertado(a)</li>
+    <li>memeAdjective->despertado</li>
+    <li>memeAdjectiveFem->ética</li>
+    <li>memeAdjectiveFem->moral</li>
+    <li>memeAdjectiveFem->despertada</li>
     <li>memeCreed->creencia</li>
     <li>memeCreed->ideología</li>
     <li>memeCreed->credo</li>
@@ -215,11 +221,16 @@
     <li>memeMoralist->abbot</li>
   -->
   <Structure_TheistAbstract.generalRules.rulesStrings>
-    <li>memeAdjective->sacrosanto(a)</li>
-    <li>memeAdjective->santo(a)</li>
-    <li>memeAdjective->sagrado(a)</li>
-    <li>memeAdjective->divino(a)</li>
-    <li>memeAdjective->devoto(a)</li>
+    <li>memeAdjective->sacrosanto</li>
+    <li>memeAdjective->santo</li>
+    <li>memeAdjective->sagrado</li>
+    <li>memeAdjective->divino</li>
+    <li>memeAdjective->devoto</li>
+    <li>memeAdjectiveFem->sacrosanta</li>
+    <li>memeAdjectiveFem->santa</li>
+    <li>memeAdjectiveFem->sagrada</li>
+    <li>memeAdjectiveFem->divina</li>
+    <li>memeAdjectiveFem->devota</li>
     <li>memeCreed->templo</li>
     <li>memeCreed->secta</li>
     <li>memeCreed->culto</li>

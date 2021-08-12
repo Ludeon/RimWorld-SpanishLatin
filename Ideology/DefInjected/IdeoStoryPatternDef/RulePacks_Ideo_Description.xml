@@ -247,9 +247,9 @@
     <li>revelationObject->an ancient [Weapon]</li>
   -->
   <TheistFounder.rules.rulesStrings>
-    <li>intro->El pueblo del [place_summary] [place_name] vivía bajo el/la supervisión [memeAdjective] de [deity0_name].</li>
+    <li>intro->El pueblo del [place_summary] [place_name] vivía bajo la supervisión [memeAdjectiveFem] de [deity0_name].</li>
     <li>intro->Los habitantes del [place_summary] [place_name], tanto los [memberNamePlural] como otros, vivieron en paz durante muchos años bajo la atenta mirada de [deity0_name].</li>
-    <li>intro->[deity0_type], [deity0_name], se reveló así mismo(a) al pueblo de [place_name] para que entendieran el(la) [memeConcept], y los guió.</li>
+    <li>intro->[deity0_type], [deity0_name], se reveló así mismo al pueblo de [place_name] para que entendieran el(la) [memeConcept], y los guió.</li>
     <li>intro->[deity0_name] guió a la humanidad hasta [place_name] y la ayudó a establecerse allí.</li>
     <li>intro->En el [place_summary] [place_name], durante el(la) [ritualName], la gente venía a [altarName] en el(la) [altarRoomLabel] de [deity0_name] y rezaba con [memeConcept] en sus corazones.</li>
     <li>conflict->Un [foeLeader] se levantó y amenazó con destruir al propio [deity0_name] usando [place_massWeapon].</li>
@@ -257,13 +257,13 @@
     <li>conflict->Entonces llegó el [foeLeader]. Sus [foeSoldiers] mataron a muchos adoradores de [deity0_name] usando cada uno el arma favorita de su líder un [place_personalWeapon].</li>
     <li>conflict->Un grupo de [foeSoldiers] se levantó bajo un terrible [foeLeader]. Atraparon a los [memberNamePlural] en un solo [place_community].</li>
     <li>conflict->Había paz, hasta que un [foeLeader] y sus [foeSoldiers] se rebelaron contra el dominio de [deity0_name]. Los [memberNamePlural] se vieron obligados a huir a un oculto [place_community].</li>
-    <li>founderJoin->Un héroe llamado [founderName] intentó asesinar al [foeLeader]. [founder_pronoun] fracasó, pero [deity0_name] fue testigo del [founderName] esfuerzo y [founder_objective] proclamó profeta de los [memberNamePlural].</li>
+    <li>founderJoin->[founder_Heroe] llamad[founder_o_a] [founderName] intentó asesinar al [foeLeader]. [founder_pronoun] fracasó, pero [deity0_name] fue testigo del esfuerzo de [founderName] y le proclamó profeta de los [memberNamePlural].</li>
     <li>founderJoin->[deity0_name] vino a el [place_job] [founderName] [revelationAdverb], y habló con [founder_pronoun] sobre [memeConcept].</li>
     <li>founderJoin->[founderName] se encontró [revelationObject], que hablaba con la voz de [deity0_name] sobre [memeConcept].</li>
     <li>founderJoin->Un renombrado [place_job] llamado [founderName] reunió a los [memberNamePlural], e incluso reclutó a algunos de los [foeSoldiers].</li>
     <li>founderJoin->Un [place_job] llamado [founderName] se levantó y habló contra el [foeLeader], y [deity0_name] bendijo a [founderName].</li>
-    <li>founderJoin->[deity0_name] decidió venir a [place_name] como un humano llamado [founderName] para ayudar al [memberNamePlural].</li>
-    <li>founderJoin->Un héroe llamado [founderName] mató a cien de los [foeSoldiers] usando un [place_personalWeapon], y [deity0_name] [founder_objective] guió hablando a través de la reliquia [relic0_name].</li>
+    <li>founderJoin->[deity0_name] decidió venir a [place_name] como un humano llamado [founderName] para ayudar a los [memberNamePlural].</li>
+    <li>founderJoin->[founder_Heroe] llamad[founder_o_a] [founderName] mató a cien de los [foeSoldiers] usando un [place_personalWeapon], y [deity0_name] le guió hablando a través de la reliquia [relic0_name].</li>
     <li>victory->[founderName] reunió a los [memberNamePlural] en un [place_community] y les enseñó la sabiduría de [deity0_name].</li>
     <li>victory->[founderName] se sacrificó a sí mism[founder_o_a] para matar personalmente al [foeLeader].</li>
     <li>revelationAdverb->en una visión</li>

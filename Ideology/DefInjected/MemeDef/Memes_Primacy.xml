@@ -55,9 +55,12 @@
     <li>memeLeaderNoun->sapient</li>
   -->
   <HumanPrimacy.generalRules.rulesStrings>
-    <li>memeAdjective->humano(a)</li>
+    <li>memeAdjective->humano</li>
     <li>memeAdjective->mortal</li>
-    <li>memeAdjective->homínido(a)</li>
+    <li>memeAdjective->homínido</li>
+    <li>memeAdjectiveFem->humana</li>
+    <li>memeAdjectiveFem->mortal</li>
+    <li>memeAdjectiveFem->homínida</li>
     <li>memeHyphenPrefix->antro</li>
     <li>memeConcept->humanidad</li>
     <li>memeConcept->humanidad</li>
@@ -134,7 +137,10 @@
   <NaturePrimacy.generalRules.rulesStrings>
     <li>memeAdjective->natural</li>
     <li>memeAdjective->salvaje</li>
-    <li>memeAdjective->orgánico(a)</li>
+    <li>memeAdjective->orgánico</li>
+    <li>memeAdjectiveFem->natural</li>
+    <li>memeAdjectiveFem->salvaje</li>
+    <li>memeAdjectiveFem->orgánica</li>
     <li>memeCreed->madriguera</li>
     <li>memeCreed->jardín</li>
     <li>memeCreed->pradera</li>

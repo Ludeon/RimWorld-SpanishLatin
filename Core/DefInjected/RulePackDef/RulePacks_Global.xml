@@ -155,6 +155,7 @@
     <li>TreeType_Fem->Words/Nouns/TreeTypes_Fem</li>
     <!--Nombre para las tribus en mayúscula:-->
     <li>WordTribal_Cap->Words/Foreign/Tribal_Cap</li>
+    <li>WordTribal_Name->Words/Foreign/Tribal_Names</li>
     <!--Nombre de vegetales:-->
     <li>Vegetable->Words/Nouns/Vegetables</li>
     <li>Vegetable_Fem->Words/Nouns/Vegetables_Fem</li>
@@ -348,6 +349,8 @@
     <!-- founder -->
     <li>founder_o_a(founder_gender==Male)->o</li>
     <li>founder_o_a(founder_gender!=Male)->a</li>
+    <li>founder_Heroe(founder_gender==Male)->Un héroe</li>
+    <li>founder_Heroe(founder_gender!=Male)->Una heroína</li>
     <!-- pilgrim -->
     <li>siendo(pilgrimCount==1)->y está siedo respetado</li>
     <li>siendo(pilgrimCount>=2)->y están siendo repetados</li>

@@ -58,11 +58,16 @@
     <li>memeMoralist->atoner</li>
   -->
   <Guilty.generalRules.rulesStrings>
-    <li>memeAdjective->bajo(a)</li>
-    <li>memeAdjective->indigno(a)</li>
-    <li>memeAdjective->vergonzoso(a)</li>
+    <li>memeAdjective->bajo</li>
+    <li>memeAdjective->indigno</li>
+    <li>memeAdjective->vergonzoso</li>
     <li>memeAdjective->innoble</li>
     <li>memeAdjective->penitente</li>
+    <li>memeAdjectiveFem->baja</li>
+    <li>memeAdjectiveFem->indigna</li>
+    <li>memeAdjectiveFem->vergonzosa</li>
+    <li>memeAdjectiveFem->innoble</li>
+    <li>memeAdjectiveFem->penitente</li>
     <li>memeHyphenPrefix->sub</li>
     <li>memeConcept->pecado</li>
     <li>memeConcept->arrepentimiento</li>
@@ -70,7 +75,7 @@
     <li>memeConcept->vergüenza</li>
     <li>memeLeaderNoun->penitente</li>
     <li>memeLeaderNoun->pecador</li>
-    <li>memeMoralist->disculpador</li>
+    <li>memeMoralist->perdonante</li>
     <li>memeMoralist->expíador</li>
   </Guilty.generalRules.rulesStrings>
   <!-- EN: guiltist -->
@@ -160,8 +165,11 @@
   -->
   <Loyalist.generalRules.rulesStrings>
     <li>memeAdjective->leal</li>
-    <li>memeAdjective->patriótico(a)</li>
+    <li>memeAdjective->patriótico</li>
     <li>memeAdjective->obediente</li>
+    <li>memeAdjectiveFem->leal</li>
+    <li>memeAdjectiveFem->patriótica</li>
+    <li>memeAdjectiveFem->obediente</li>
     <li>memeConcept->familia</li>
     <li>memeConcept->compromiso</li>
     <li>memeMoralist->lealizador</li>
@@ -255,13 +263,20 @@
     <li>memeLeaderNoun->victor</li>
   -->
   <Supremacist.generalRules.rulesStrings>
-    <li>memeAdjective->supremo(a)</li>
-    <li>memeAdjective->alto(a)</li>
-    <li>memeAdjective->grandioso(a)</li>
+    <li>memeAdjective->supremo</li>
+    <li>memeAdjective->alto</li>
+    <li>memeAdjective->grandioso</li>
     <li>memeAdjective->primordial</li>
-    <li>memeAdjective->perfecto(a)</li>
+    <li>memeAdjective->perfecto</li>
     <li>memeAdjective->principal</li>
     <li>memeAdjective->fuerte</li>
+    <li>memeAdjectiveFem->suprema</li>
+    <li>memeAdjectiveFem->alta</li>
+    <li>memeAdjectiveFem->grandiosa</li>
+    <li>memeAdjectiveFem->primordial</li>
+    <li>memeAdjectiveFem->perfecta</li>
+    <li>memeAdjectiveFem->principal</li>
+    <li>memeAdjectiveFem->fuerte</li>
     <li>memeCreed->ejército</li>
     <li>memeCreed->legión</li>
     <li>memeHyphenPrefix->super</li>

@@ -46,8 +46,10 @@
     <li>memeLeaderNoun->woman</li>
   -->
   <FemaleSupremacy.generalRules.rulesStrings>
-    <li>memeAdjective->femenino(a)</li>
+    <li>memeAdjective->femenino</li>
     <li>memeAdjective->mujeril</li>
+    <li>memeAdjectiveFem->femenina</li>
+    <li>memeAdjectiveFem->mujeril</li>
     <li>memeHyphenPrefix->mujer</li>
     <li>memeHyphenPrefix->fem</li>
     <li>memeHyphenPrefix->gino</li>
@@ -135,8 +137,10 @@
     <li>memeLeaderNoun->beard</li>
   -->
   <MaleSupremacy.generalRules.rulesStrings>
-    <li>memeAdjective->masculino(a)</li>
+    <li>memeAdjective->masculino</li>
     <li>memeAdjective->viril</li>
+    <li>memeAdjectiveFem->masculina</li>
+    <li>memeAdjectiveFem->viril</li>
     <li>memeHyphenPrefix->hombre</li>
     <li>memeHyphenPrefix->andro</li>
     <li>memeHyphenPrefix->patro</li>

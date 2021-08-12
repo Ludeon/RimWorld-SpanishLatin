@@ -21,10 +21,11 @@
     <li>r_name->[Color] [Animal]</li>
   -->
   <NamerPersonCorunan.rulePack.rulesStrings>
-    <li>r_name(p=2)->[WordTribal_Cap] [WordTribal]</li>
-    <li>r_name->[WordTribal_Cap] "[AnimalBadassAny]" [WordTribal_Cap]</li>
-    <li>r_name->[WordTribal_Cap] [ColorAny]</li>
-    <li>r_name->[WordTribal_Cap] [AnimalAny]</li>
+    <li>r_name(p=2)->[WordTribal] [WordTribal_Cap]</li>
+    <li>r_name(p=2)->[WordTribal_Name] [WordTribal_Cap]</li>
+    <li>r_name->[WordTribal] "[AnimalBadassAny]" [WordTribal_Cap]</li>
+    <li>r_name->[WordTribal] [ColorAny]</li>
+    <li>r_name->[WordTribal] [AnimalAny]</li>
     <li>r_name->[Animal] [Color]</li>
     <li>r_name->[Animal_Fem] [Color_Fem]</li>
   </NamerPersonCorunan.rulePack.rulesStrings>

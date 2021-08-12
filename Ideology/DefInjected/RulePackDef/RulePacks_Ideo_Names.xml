@@ -70,13 +70,13 @@
   -->
   <NamerIdeoGlobal.rulePack.rulesStrings>
     <li>r_ideoName->[keyDeity]ismo</li>
-    <li>r_ideoName->[hyphenPrefix]-[keyDeity]ismo</li>
+    <li>r_ideoName->[hyphenPrefix][keyDeity]ismo</li>
     <li>r_ideoName->[creed] de [keyDeity]</li>
     <li>r_ideoAdjective->[keyDeity]ico</li>
     <li>r_memberName->[keyDeity]ista</li>
     <li>r_memberName->[keyDeity]iste</li>
     <li>r_ideoName(p=2)->[packIdeoName] [globalAdjective]</li>
-    <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix][packIdeoName]</li>
     <li>r_ideoName->[packIdeoName] [memeAdjective]</li>
     <li>r_ideoName(p=0.5)->[creed] [memeAdjective]</li>
     <li>r_ideoName(p=0.2)->[creed] de [packTheme]</li>
