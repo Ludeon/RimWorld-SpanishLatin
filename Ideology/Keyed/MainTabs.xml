@@ -58,6 +58,8 @@
   <AddDeity>Añadir deidad</AddDeity>
   <!-- EN: Choose memes -->
   <ChooseMemes>Elegir memes</ChooseMemes>
+  <!-- EN: Choose starting meme -->
+  <ChooseStartingMeme>Elegir meme inicial</ChooseStartingMeme>
   <!-- EN: Choose structure -->
   <ChooseStructure>Elegir estructura</ChooseStructure>
   <!-- EN: Choose culture -->
@@ -188,10 +190,21 @@
   <IdeoImpactLabel_9>extremo</IdeoImpactLabel_9>
   <!-- EN: This was your colony's starting ideoligion. -->
   <InitialPlayerIdeo>Esta fue la ideoligión de partida de tu colonia.</InitialPlayerIdeo>
+  
+  
+  <!-- EN: Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more. -->
+  <FluidIdeoTip>Como esta ideoligión es tan nueva y tiene tan pocos seguidores en este planeta, es fluida. Esto significa que puede desarrollarse con el tiempo.\n\nEl desarrollo de la ideoligión cuesta puntos de desarrollo. Puedes ganar puntos de desarrollo completando rituales y misiones relacionadas con esta ideoligión.\n\nCon suficientes puntos de desarrollo, puedes reformar la ideoligión con nuevos memes, preceptos, estilos y más.</FluidIdeoTip>
+  <!-- EN: How to get development points -->
+  <FluidIdeoTipGetPoints>Cómo conseguir puntos de desarrollo</FluidIdeoTipGetPoints>
+  <!-- EN: Convert someone to your ideoligion -->
+  <FluidIdeoTipGetPoinsByConversion>Convertir a alguien a tu ideoligión</FluidIdeoTipGetPoinsByConversion>
 
   <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
   <ResearchProjectHasDefsWithMissingMemes>{0} desbloquea cosas que no puedes construir porque requieren memes que ninguno de tus colonos cree</ResearchProjectHasDefsWithMissingMemes>
   <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
   <SelectedWorkTypeOpposedByIdeo>Advertencia: Este tipo de trabajo se opone a su ideoligión, por lo que puede hacer que este colono sea infeliz.</SelectedWorkTypeOpposedByIdeo>
+
+  <!-- EN: Development points -->
+  <DevelopmentPoints>Puntos de desarrollo</DevelopmentPoints>
 
 </LanguageData>

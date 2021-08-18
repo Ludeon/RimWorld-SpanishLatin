@@ -15,6 +15,8 @@
   <Customize>Personalizar</Customize>
   <!-- EN: Play classic -->
   <PlayClassic>Jugar clásico</PlayClassic>
+  <!-- EN: Create fluid... -->
+  <CreateFluid>Crear fluida...</CreateFluid>
   <!-- EN: Load saved -->
   <LoadSaved>Cargar salvado</LoadSaved>
   <!-- EN: Structure -->
@@ -123,13 +125,22 @@
   <PreceptName>Nombre del precepto</PreceptName>
   <!-- EN: precept name -->
   <PreceptNameLower>nombre del precepto</PreceptNameLower>
-  <!-- EN: Changing -->
-  <Changing>Cambiar</Changing>
+  <!-- EN: Changing {0} -->
+  <Changing>Cambiar {0}</Changing>
   <!-- EN: structures -->
   <StructuresLower>estructuras</StructuresLower>
   <!-- EN: memes -->
   <MemesLower>memes</MemesLower>
-  
+  <!-- EN: Development points -->
+  <Reward_DevelopmentPointsLabel>Puntos de desarrollo</Reward_DevelopmentPointsLabel>
+  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideologion.\n\nEarn additional development points by completing other quests and rituals. -->
+  <Reward_DevelopmentPoints>Tus puntos de desarrollo para {0} aumentarán en {1}.\n\nActualmente tienes {2} puntos de desarrollo. Una vez que tengas {3} puntos de desarrollo, podrás reformar la ideoligión.\n\nGana puntos de desarrollo adicionales completando otras misiones y rituales.</Reward_DevelopmentPoints>
+  <!-- EN: Current points -->
+  <CurrentDevelopmentPoints>Puntos actuales</CurrentDevelopmentPoints>
+  <!-- EN: Points needed to reform -->
+  <ReformDevelopmentPoints>Puntos necesarios para reformar</ReformDevelopmentPoints>
+  <!-- EN: quest -->
+  <QuestLower>misión</QuestLower>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>Una tumba que contiene el cadáver de {PAWN_labelShort}.</RitualTargetGraveInfo>
@@ -194,6 +205,11 @@
   <RitualOutcomeExtraDesc_SkylanternWanderers>Tus linternas voladoras atrajeron a algunos viajeros amistosos. Te visitarán y te dejarán un regalo.</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
   <RitualOutcomeExtraDesc_Execution>Todos los esclavos participantes se estremecieron al ver la ejecución. Su represión se ha elevado al máximo nivel.</RitualOutcomeExtraDesc_Execution>
+  
+  <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Debido a la calidad del ritual, tus puntos de desarrollo han aumentado en {2} (de {0} a {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Debido a la escasa calidad del ritual, no se obtuvieron puntos de desarrollo.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
   <!-- EN: Additional reward -->
   <RitualAttachedReward>Recompensa adicional</RitualAttachedReward>
@@ -256,6 +272,10 @@
   <RitualOutcomeCompTip_RitualTargetDefsPart1>Para obtener la mejor calidad, inicie el {0} en {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart2>Actualmente, el {0} se está iniciando en {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <!-- EN: Development points -->
+  <RitualDevelopmentPoints>Puntos de desarrollo</RitualDevelopmentPoints>
+  <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
+  <RitualDevelopmentPointsTip>Completar este ritual da {0}-{1} puntos de desarrollo dependiendo de la calidad.</RitualDevelopmentPointsTip>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Para uso de esclavos</ForSlaveUse>
@@ -299,6 +319,8 @@
   <RoleExpectationOffset>Aumentado en {0} niveles.</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
   <RoleRaisedExpectation>El {0} tiene mayores expectativas.</RoleRaisedExpectation>
+  <!-- EN: The {0} will have higher expectations in {1}. -->
+  <RoleRaisedExpectationGracePeriod>El {0} tendrá mayores expectativas en el {1}.</RoleRaisedExpectationGracePeriod>
   <!-- EN: Led by {0} -->
   <IdeoLeaderDifferentIdeoThoughtLabel>Liderado por {0}</IdeoLeaderDifferentIdeoThoughtLabel>
   <!-- EN: {PAWN_nameDef} will not do {1} work. -->
@@ -511,7 +533,7 @@
   <!-- EN: Remove new ideoligion -->
   <RemoveNewIdeoligion>Eliminar la nueva ideoligión</RemoveNewIdeoligion>
   <!-- EN: Make this your primary ideologion -->
-  <MakeIdeoligionPrimary>Haz que esta sea tu ideologión principal</MakeIdeoligionPrimary>
+  <MakeIdeoligionPrimary>Haz que esta sea tu ideoligión principal</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->

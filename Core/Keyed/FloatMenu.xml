@@ -77,9 +77,9 @@
   <!-- EN: need material -->
   <MissingMaterials>necesita materiales</MissingMaterials>
   <!-- EN: under required skill {0} -->
-  <UnderRequiredSkill>bajo la habilidad requerida {0}</UnderRequiredSkill>
+  <UnderRequiredSkill>por debajo de la habilidad requerida {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
-  <UnderAllowedSkill>bajo habilidad permitida {0}</UnderAllowedSkill>
+  <UnderAllowedSkill>por debajo de la habilidad permitida {0}</UnderAllowedSkill>
   <!-- EN: above allowed skill {0} -->
   <AboveAllowedSkill>por encima de la habilidad permitida {0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
@@ -95,7 +95,7 @@
   <!-- EN: below requirements of {0} -->
   <FoodBelowTitleRequirements>debajo de los requisitos de {0}</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
-  <AnimalsSkillTooLow>Habilidad del animal demasiado baja - necesitas {0}</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>Habilidad del animal demasiado baja, necesitas {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
   <CantInteractAnimalDowned>animal sacrificado</CantInteractAnimalDowned>
   <!-- EN: animal sleeping -->
@@ -114,6 +114,8 @@
   <CantRopeAnimalCantTouch>no se puede tocar</CantRopeAnimalCantTouch>
   <!-- EN: no space in pen -->
   <CantRopeAnimalNoSpace>no hay espacio en el corral</CantRopeAnimalNoSpace>
+  <!-- EN: {0_labelShort} is in {1} state -->
+  <CantRopeAnimalMentalState>{0_labelShort} está en estado {1}</CantRopeAnimalMentalState>
   <!-- EN: already in best pen -->
   <CantRopeAnimalAlreadyInBestPen>ya se encuentra en el mejor corral</CantRopeAnimalAlreadyInBestPen>
   <!-- EN: {0} skill too low -->
