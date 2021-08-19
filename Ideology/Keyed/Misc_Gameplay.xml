@@ -133,7 +133,7 @@
   <MemesLower>memes</MemesLower>
   <!-- EN: Development points -->
   <Reward_DevelopmentPointsLabel>Puntos de desarrollo</Reward_DevelopmentPointsLabel>
-  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideologion.\n\nEarn additional development points by completing other quests and rituals. -->
+  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
   <Reward_DevelopmentPoints>Tus puntos de desarrollo para {0} aumentarán en {1}.\n\nActualmente tienes {2} puntos de desarrollo. Una vez que tengas {3} puntos de desarrollo, podrás reformar la ideoligión.\n\nGana puntos de desarrollo adicionales completando otras misiones y rituales.</Reward_DevelopmentPoints>
   <!-- EN: Current points -->
   <CurrentDevelopmentPoints>Puntos actuales</CurrentDevelopmentPoints>
@@ -141,6 +141,10 @@
   <ReformDevelopmentPoints>Puntos necesarios para reformar</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>misión</QuestLower>
+  <!-- EN: Cannot reform -->
+  <CannotReform>No puedes reformar</CannotReform>
+  <!-- EN: There is currently and ongoing ritual associated to {0}. -->
+  <CannotReformActiveRitual>Actualmente hay un ritual asociado a {0}.</CannotReformActiveRitual>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>Una tumba que contiene el cadáver de {PAWN_labelShort}.</RitualTargetGraveInfo>
@@ -532,7 +536,7 @@
   <AssignColonists>Asignar colonos a tu ideoligión</AssignColonists>
   <!-- EN: Remove new ideoligion -->
   <RemoveNewIdeoligion>Eliminar la nueva ideoligión</RemoveNewIdeoligion>
-  <!-- EN: Make this your primary ideologion -->
+  <!-- EN: Make this your primary ideoligion -->
   <MakeIdeoligionPrimary>Haz que esta sea tu ideoligión principal</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
