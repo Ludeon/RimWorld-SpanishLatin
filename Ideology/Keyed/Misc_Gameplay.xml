@@ -141,10 +141,6 @@
   <ReformDevelopmentPoints>Puntos necesarios para reformar</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>misión</QuestLower>
-  <!-- EN: Cannot reform -->
-  <CannotReform>No puedes reformar</CannotReform>
-  <!-- EN: There is currently and ongoing ritual associated to {0}. -->
-  <CannotReformActiveRitual>Actualmente hay un ritual asociado a {0}.</CannotReformActiveRitual>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>Una tumba que contiene el cadáver de {PAWN_labelShort}.</RitualTargetGraveInfo>
@@ -596,7 +592,7 @@
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} fue expulsad{PAWN_gender ? o : a} de una cápsula bioescultora por falta de energía.</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} completó el ciclo sanador.</BiosculpterHealCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured. -->
+  <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} completó el ciclo sanador, y su {HEDIFF_label} se curó.</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} completó su ciclo de inversión de edad. {PAWN_pronoun} espera la siguiente reversión de edad en {DEADLINE} días.</BiosculpterAgeReversalCompletedMessage>
@@ -604,5 +600,9 @@
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} completó el ciclo placentero.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Factor de velocidad de limpieza</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: These conditions will be healed -->
+  <HealingCycleWillHeal>Estas condiciones serán curadas</HealingCycleWillHeal>
+  <!-- EN: One of these conditions will be healed -->
+  <HealingCycleOneWillHeal>Una de estas condiciones será curada</HealingCycleOneWillHeal>
 
 </LanguageData>
