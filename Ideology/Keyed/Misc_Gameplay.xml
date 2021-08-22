@@ -347,9 +347,9 @@
   
   <!-- Beggars -->
   <!-- EN: Give {0} to {1_nameDef} -->
-  <GiveItemsTo>Dar {0} a {1_nombreDef}</GiveItemsTo>
+  <GiveItemsTo>Dar {0} a {1_nameDef}</GiveItemsTo>
   <!-- EN: Cannot give {0} to {1_nameDef} -->
-  <CannotGiveItemsTo>No se puede dar {0} a {1_nombreDef}</CannotGiveItemsTo>
+  <CannotGiveItemsTo>No se puede dar {0} a {1_nameDef}</CannotGiveItemsTo>
   <!-- EN: No item found -->
   <NoItemFound>No se encontró ningún objeto</NoItemFound>
 
@@ -537,15 +537,15 @@
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
-  <GameOverArchotechInvokedIntro>Haz invocado el núcleo del arqueonexus. El mundo se llena de una luz cegadora y el tiempo parece ralentizarse...\n\n</GameOverArchotechInvokedIntro>
+  <GameOverArchotechInvokedIntro>Haz invocado el núcleo del aqueonexo. El mundo se llena de una luz cegadora y el tiempo parece ralentizarse...\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
   <GameOverArchotechInvokedEnding>El dios de las máquinas se fijó en ti. Nadie puede predecir lo que ocurrirá a continuación. Puede que te destruya, o que se comunique contigo directamente, o que transporte tu conciencia a otro plano de la realidad.\n\nSientes una vasta e inhumana estructura de infinita complejidad fractal que fluye en tu mente. El tiempo y la escala comienzan a disolverse. Es aterrador. Es hermoso...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>Estos colonos han trascendido:\n\n{0}.</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
-  <Reward_ArchonexusMapPart>Una parte del mapa del arqueonexus</Reward_ArchonexusMapPart>
+  <Reward_ArchonexusMapPart>Una parte del mapa del aqueonexo</Reward_ArchonexusMapPart>
   <!-- EN: Archonexus map part {0}/{1} -->
-  <Reward_ArchonexusMapPartLabel>Mapa del arqueonexus parte {0}/{1}</Reward_ArchonexusMapPartLabel>
+  <Reward_ArchonexusMapPartLabel>Mapa del aqueonexo parte {0}/{1}</Reward_ArchonexusMapPartLabel>
 
   <!-- EN: relics -->
   <RelicsLower>reliquias</RelicsLower>
@@ -604,5 +604,7 @@
   <HealingCycleWillHeal>Estas condiciones serán curadas</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->
   <HealingCycleOneWillHeal>Una de estas condiciones será curada</HealingCycleOneWillHeal>
+  <!-- EN: Missing required research -->
+  <MissingRequiredResearch>Falta la investigación necesaria</MissingRequiredResearch>
 
 </LanguageData>
