@@ -138,16 +138,15 @@
     <li>memeAdjectiveFem->ética</li>
     <li>memeAdjectiveFem->moral</li>
     <li>memeAdjectiveFem->despertada</li>
-    <li>memeCreed->creencia</li>
-    <li>memeCreed->ideología</li>
+    <li>memeCreedFem->creencia</li>
+    <li>memeCreedFem->ideología</li>
     <li>memeCreed->credo</li>
-    <li>memeCreed->filosofía</li>
-    <li>memeCreed->doctrina</li>
-    <li>memeCreed->visión</li>
-    <li>memeCreed->principios</li>
-    <li>memeCreed->moral</li>
-    <li>memeCreed->ética</li>
-    <li>memeCreed->justicia</li>
+    <li>memeCreedFem->filosofía</li>
+    <li>memeCreedFem->doctrina</li>
+    <li>memeCreedFem->visión</li>
+    <li>memeCreed->moralismo</li>
+    <li>memeCreedFem->ética</li>
+    <li>memeCreedFem->justicia</li>
     <li>memeHyphenPrefix->ideo</li>
     <li>memeLeaderNoun->cerebro</li>
     <li>memeLeaderNoun->mente maestra</li>
@@ -166,15 +165,15 @@
   <!-- EN: ethical -->
   <Structure_Ideological.symbolPacks.0.adjective>ética</Structure_Ideological.symbolPacks.0.adjective>
   <!-- EN: Ethics -->
-  <Structure_Ideological.symbolPacks.0.ideoName>Ética</Structure_Ideological.symbolPacks.0.ideoName>
+  <Structure_Ideological.symbolPacks.0.ideoName>Eticismo</Structure_Ideological.symbolPacks.0.ideoName>
   <!-- EN: ethicist -->
   <Structure_Ideological.symbolPacks.0.member>eticista</Structure_Ideological.symbolPacks.0.member>
   <!-- EN: ethics -->
   <Structure_Ideological.symbolPacks.0.theme>ética</Structure_Ideological.symbolPacks.0.theme>
   <!-- EN: ideological -->
-  <Structure_Ideological.symbolPacks.1.adjective>ideológico(a)</Structure_Ideological.symbolPacks.1.adjective>
+  <Structure_Ideological.symbolPacks.1.adjective>ideológico</Structure_Ideological.symbolPacks.1.adjective>
   <!-- EN: Ideology -->
-  <Structure_Ideological.symbolPacks.1.ideoName>Ideología</Structure_Ideological.symbolPacks.1.ideoName>
+  <Structure_Ideological.symbolPacks.1.ideoName>Ideologismo</Structure_Ideological.symbolPacks.1.ideoName>
   <!-- EN: ideologist -->
   <Structure_Ideological.symbolPacks.1.member>ideólogo</Structure_Ideological.symbolPacks.1.member>
   <!-- EN: ideology -->
@@ -182,7 +181,7 @@
   <!-- EN: just -->
   <Structure_Ideological.symbolPacks.2.adjective>justo</Structure_Ideological.symbolPacks.2.adjective>
   <!-- EN: Justice -->
-  <Structure_Ideological.symbolPacks.2.ideoName>Justicia</Structure_Ideological.symbolPacks.2.ideoName>
+  <Structure_Ideological.symbolPacks.2.ideoName>Justicismo</Structure_Ideological.symbolPacks.2.ideoName>
   <!-- EN: justicar -->
   <Structure_Ideological.symbolPacks.2.member>justo</Structure_Ideological.symbolPacks.2.member>
   <!-- EN: justice -->
@@ -232,9 +231,9 @@
     <li>memeAdjectiveFem->divina</li>
     <li>memeAdjectiveFem->devota</li>
     <li>memeCreed->templo</li>
-    <li>memeCreed->secta</li>
+    <li>memeCreedFem->secta</li>
     <li>memeCreed->culto</li>
-    <li>memeCreed->fe</li>
+    <li>memeCreedFem->fe</li>
     <li>memeHyphenPrefix->teo</li>
     <li>memeConcept->creación</li>
     <li>memeConcept->vida</li>
@@ -262,7 +261,7 @@
   <!-- EN: faithful -->
   <Structure_TheistAbstract.symbolPacks.1.adjective>fiel</Structure_TheistAbstract.symbolPacks.1.adjective>
   <!-- EN: Faith -->
-  <Structure_TheistAbstract.symbolPacks.1.ideoName>fe</Structure_TheistAbstract.symbolPacks.1.ideoName>
+  <Structure_TheistAbstract.symbolPacks.1.ideoName>fecismo</Structure_TheistAbstract.symbolPacks.1.ideoName>
   <!-- EN: faithholder -->
   <Structure_TheistAbstract.symbolPacks.1.member>creyente</Structure_TheistAbstract.symbolPacks.1.member>
   <!-- EN: faith -->
@@ -304,10 +303,10 @@
     <li>memeMoralist->cleric</li>
   -->
   <Structure_TheistEmbodied.generalRules.rulesStrings>
-    <li>memeCreed->secta</li>
+    <li>memeCreedFem->secta</li>
     <li>memeCreed->culto</li>
     <li>memeCreed->templo</li>
-    <li>memeCreed->fe</li>
+    <li>memeCreedFem->fe</li>
     <li>memeHyphenPrefix->teo</li>
     <li>memeConcept->creación</li>
     <li>memeConcept->vida</li>
@@ -327,7 +326,7 @@
   <!-- EN: faithful -->
   <Structure_TheistEmbodied.symbolPacks.1.adjective>fiel</Structure_TheistEmbodied.symbolPacks.1.adjective>
   <!-- EN: Faith -->
-  <Structure_TheistEmbodied.symbolPacks.1.ideoName>Fe</Structure_TheistEmbodied.symbolPacks.1.ideoName>
+  <Structure_TheistEmbodied.symbolPacks.1.ideoName>Fecismo</Structure_TheistEmbodied.symbolPacks.1.ideoName>
   <!-- EN: faithholder -->
   <Structure_TheistEmbodied.symbolPacks.1.member>creyente</Structure_TheistEmbodied.symbolPacks.1.member>
   <!-- EN: faith -->

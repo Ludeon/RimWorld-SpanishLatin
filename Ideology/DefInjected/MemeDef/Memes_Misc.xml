@@ -41,10 +41,10 @@
     <li>conflict(tag=meme_AnimalPersonhood)        ->Un malvado [foeLeader] ordenó cazar a los animales salvajes, y sus [foeSoldiers] los cazaron, usando su arma favorita: una [place_personalWeapon].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] acudió a un [place_job] de nombre [founderName] [revelationAdverb] por un(a) [veneratedAnimal]. Pero [founderName] era el(la) [veneratedAnimal], y el(la) [veneratedAnimal] era [founderName], y [founder_pronoun] entendió el plan de [deity0_name].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->Un [place_job] de nombre [founderName] liberó a muchos animales que estaban esclavizados por amos crueles, y los llevó al santuario en el(la) [altarRoomLabel] de [deity0_name].</li>
-    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] llamó a los [memberNamePlural] y a los animales con la voz de [deity0_name], y en una gran estampida de pezuñas, patas y pies, pisotearon al [foeLeader] y sus [foeSoldiers].</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] llamó a los [memberNamePlural] y a los animales con la voz de [deity0_name], y en una gran estampida de pezuñas, patas y pies, pisotearon al [foeLeader] y a sus [foeSoldiers].</li>
     <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] vivió en el bosque durante veinte años, estudiando a los animales y conectando con ellos. [founder_pronoun] llegó a comprender su verdadera moralidad y fundaron nuestro movimiento.</li>
     <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] fue a comulgar con los animales en los campos y bosques, y se relacionó con ellos de igual a igual.</li>
-    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->En mis visitas diarias con [veneratedOrAnyAnimal] Aprendí a escucharles de verdad. Una y otra vez, a su manera, me repitieron su mensaje:</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->En mis visitas diarias con [veneratedOrAnyAnimalPl] Aprendí a escucharles de verdad. Una y otra vez, a su manera, me repitieron su mensaje:</li>
     <li>lesson(tag=meme_AnimalPersonhood)              ->los animales son nuestros compañeros en este mundo, y es un error tratarlos como menos</li>
     <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Yo mismo no lo creía hasta que un(a) [veneratedOrAnyAnimal] me lo susurró.</li>
     <li>archistBasis(tag=meme_AnimalPersonhood)    ->Desde que los arqueotécnicos despertaron, es obvio que no han hecho ninguna distinción moral entre los humanos y los animales.</li>
@@ -52,8 +52,10 @@
     <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd], los arqueotécnicos elevarán a los humanos como iguales solo si los humanos tratan a los animales como iguales.</li>
     <li>animistBasis(tag=meme_AnimalPersonhood)    ->Los espíritus del pensamiento y la conciencia viven dentro de los animales y los seres humanos por igual.</li>
     <li>animistFact(tag=meme_AnimalPersonhood)     ->Los espíritus de los animales de la naturaleza son los mismos que residen en los seres humanos.</li>
-    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimalPl]</li>
-    <li>veneratedOrAnyAnimal->[Animal_Plural]</li>
+    <li>veneratedOrAnyAnimalPl(priority=10)->[veneratedAnimalPl]</li>
+    <li>veneratedOrAnyAnimalPl->[Animal_Plural]</li>
+    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal->[Animal]</li>
     <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label], [animal2_thingDef_label],</li>
     <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label],</li>
     <li>sacredAnimalList->[animal0_thingDef_label]</li>
@@ -83,8 +85,8 @@
     <li>memeAdjectiveFem->animal</li>
     <li>memeAdjectiveFem->peluda</li>
     <li>memeCreed->rebaño</li>
-    <li>memeCreed->manada</li>
-    <li>memeCreed->multitud</li>
+    <li>memeCreedFem->manada</li>
+    <li>memeCreedFem->multitud</li>
     <li>memeConcept->animales</li>
     <li>memeLeaderNoun->bestia</li>
     <li>memeLeaderNoun->animal</li>
@@ -181,7 +183,7 @@
     <li>memeAdjectiveFem->cegadora</li>
     <li>memeAdjectiveFem->ciega</li>
     <li>memeAdjectiveFem->visionaria</li>
-    <li>memeCreed->visor</li>
+    <li>memeCreedFem->visión</li>
     <li>memeCreed->culto</li>
     <li>memeHyphenPrefix->ciego</li>
     <li>memeConcept->ceguera</li>
@@ -260,8 +262,8 @@
   <Cannibal.generalRules.rulesStrings>
     <li>memeAdjective->sangriento</li>
     <li>memeAdjectiveFem->sangrienta</li>
-    <li>memeCreed->comedores</li>
-    <li>memeCreed->dental</li>
+    <li>memeCreed->comedor</li>
+    <li>memeCreedFem->dentadura</li>
     <li>memeCreed->matadero</li>
     <li>memeCreed->culto</li>
     <li>memeHyphenPrefix->sangre</li>
@@ -288,7 +290,7 @@
   <!-- EN: androphage -->
   <Cannibal.symbolPacks.1.adjective>andrófago</Cannibal.symbolPacks.1.adjective>
   <!-- EN: Androphagy -->
-  <Cannibal.symbolPacks.1.ideoName>Androfagia</Cannibal.symbolPacks.1.ideoName>
+  <Cannibal.symbolPacks.1.ideoName>Androfagianismo</Cannibal.symbolPacks.1.ideoName>
   <!-- EN: androphage -->
   <Cannibal.symbolPacks.1.member>andrófago</Cannibal.symbolPacks.1.member>
   <!-- EN: androphagy -->
@@ -434,7 +436,7 @@
     <li>memeAdjectiveFem->pura</li>
     <li>memeAdjectiveFem->consagrada</li>
     <li>memeCreed->culto</li>
-    <li>memeCreed->secta</li>
+    <li>memeCreedFem->secta</li>
     <li>memeConcept->carne</li>
     <li>memeConcept->pureza</li>
     <li>memeConcept->inmaculada</li>
@@ -459,7 +461,7 @@
   <!-- EN: flesh -->
   <FleshPurity.symbolPacks.1.theme>carne</FleshPurity.symbolPacks.1.theme>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.adjective>santo(a)</FleshPurity.symbolPacks.2.adjective>
+  <FleshPurity.symbolPacks.2.adjective>santo</FleshPurity.symbolPacks.2.adjective>
   <!-- EN: Sanctism -->
   <FleshPurity.symbolPacks.2.ideoName>Santismo</FleshPurity.symbolPacks.2.ideoName>
   <!-- EN: sanctic -->
@@ -525,7 +527,8 @@
     <li>memeMoralist->giggler</li>
   -->
   <HighLife.generalRules.rulesStrings>
-    <li>memeCreed->fiesta</li>
+    <li>memeCreedFem->fiesta</li>
+    <li>memeCreed->festejo</li>
     <li>memeAdjective->elevado</li>
     <li>memeAdjective->delirante</li>
     <li>memeAdjective->drogado</li>
@@ -573,9 +576,9 @@
   <!-- EN: ecstatic -->
   <HighLife.symbolPacks.3.adjective>extasiado</HighLife.symbolPacks.3.adjective>
   <!-- EN: Ecstasy -->
-  <HighLife.symbolPacks.3.ideoName>Éxtasis</HighLife.symbolPacks.3.ideoName>
+  <HighLife.symbolPacks.3.ideoName>Extasismo</HighLife.symbolPacks.3.ideoName>
   <!-- EN: ecstator -->
-  <HighLife.symbolPacks.3.member>extásiano</HighLife.symbolPacks.3.member>
+  <HighLife.symbolPacks.3.member>extasiano</HighLife.symbolPacks.3.member>
   <!-- EN: ecstasy -->
   <HighLife.symbolPacks.3.theme>éxtasis</HighLife.symbolPacks.3.theme>
   
@@ -742,7 +745,7 @@
     <li>memeAdjectiveFem->dolorosa</li>
     <li>memeCreed->hogar</li>
     <li>memeCreed->compartimiento</li>
-    <li>memeCreed->célula</li>
+    <li>memeCreedFem->célula</li>
     <li>memeHyphenPrefix->nocivo</li>
     <li>memeHyphenPrefix->dolor</li>
     <li>memeConcept->dolor</li>
@@ -761,7 +764,7 @@
     <li>memeMoralist->habla dolor</li>
   </PainIsVirtue.generalRules.rulesStrings>
   <!-- EN: painist -->
-  <PainIsVirtue.symbolPacks.0.adjective>doloroso(a)</PainIsVirtue.symbolPacks.0.adjective>
+  <PainIsVirtue.symbolPacks.0.adjective>doliente</PainIsVirtue.symbolPacks.0.adjective>
   <!-- EN: Painism -->
   <PainIsVirtue.symbolPacks.0.ideoName>Dolorismo</PainIsVirtue.symbolPacks.0.ideoName>
   <!-- EN: screamer -->
@@ -777,7 +780,7 @@
   <!-- EN: torture -->
   <PainIsVirtue.symbolPacks.1.theme>tortura</PainIsVirtue.symbolPacks.1.theme>
   <!-- EN: sufferist -->
-  <PainIsVirtue.symbolPacks.2.adjective>sufridor(a)</PainIsVirtue.symbolPacks.2.adjective>
+  <PainIsVirtue.symbolPacks.2.adjective>sufriente</PainIsVirtue.symbolPacks.2.adjective>
   <!-- EN: Sufferism -->
   <PainIsVirtue.symbolPacks.2.ideoName>Sufrimismo</PainIsVirtue.symbolPacks.2.ideoName>
   <!-- EN: sufferer -->
@@ -860,23 +863,23 @@
     <li>memeMoralist->convertidor</li>
   </Proselytizer.generalRules.rulesStrings>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.adjective>verdad</Proselytizer.symbolPacks.0.adjective>
+  <Proselytizer.symbolPacks.0.adjective>verdarista</Proselytizer.symbolPacks.0.adjective>
   <!-- EN: Truth -->
-  <Proselytizer.symbolPacks.0.ideoName>Verdad</Proselytizer.symbolPacks.0.ideoName>
+  <Proselytizer.symbolPacks.0.ideoName>Verdarismo</Proselytizer.symbolPacks.0.ideoName>
   <!-- EN: truthist -->
   <Proselytizer.symbolPacks.0.member>legitimo</Proselytizer.symbolPacks.0.member>
   <!-- EN: truth -->
-  <Proselytizer.symbolPacks.0.theme>verdad</Proselytizer.symbolPacks.0.theme>
+  <Proselytizer.symbolPacks.0.theme>verdarismo</Proselytizer.symbolPacks.0.theme>
   <!-- EN: veritic -->
-  <Proselytizer.symbolPacks.1.adjective>veridico(a)</Proselytizer.symbolPacks.1.adjective>
+  <Proselytizer.symbolPacks.1.adjective>verídico</Proselytizer.symbolPacks.1.adjective>
   <!-- EN: Verity -->
-  <Proselytizer.symbolPacks.1.ideoName>Veracidad</Proselytizer.symbolPacks.1.ideoName>
+  <Proselytizer.symbolPacks.1.ideoName>Veracidismo</Proselytizer.symbolPacks.1.ideoName>
   <!-- EN: veritist -->
   <Proselytizer.symbolPacks.1.member>veritista</Proselytizer.symbolPacks.1.member>
   <!-- EN: verity -->
-  <Proselytizer.symbolPacks.1.theme>verdad</Proselytizer.symbolPacks.1.theme>
+  <Proselytizer.symbolPacks.1.theme>veracidad</Proselytizer.symbolPacks.1.theme>
   <!-- EN: realitic -->
-  <Proselytizer.symbolPacks.2.adjective>realistico(a)</Proselytizer.symbolPacks.2.adjective>
+  <Proselytizer.symbolPacks.2.adjective>realístico</Proselytizer.symbolPacks.2.adjective>
   <!-- EN: Reality -->
   <Proselytizer.symbolPacks.2.ideoName>Realismo</Proselytizer.symbolPacks.2.ideoName>
   <!-- EN: realitist -->
@@ -915,7 +918,7 @@
     <li>conflict(tag=meme_Raider)        ->Un [foeLeader] trató de obligar a todo el mundo a detener todos los robos y saqueos, y se declaró enemigo de [deity0_name].</li>
     <li>founderJoin(tag=meme_Raider)     ->Un gran incursor llamado [founderName] se erigió, y su banda de incursores saqueó y robó sin descanso en los campamentos de los [foeSoldiers].</li>
     <li>victory(tag=meme_Raider)         ->[founderName] y los [memberNamePlural] llevaron a cabo una campaña de asalto contra los campamentos de los [foeSoldiers] durante muchos años, y finalmente el [foeLeader] se vio obligado a rendirse.</li>
-    <li>setup(tag=meme_Raider)           ->Perseguido y encarcelado, [founderName] hervía de rabia. [fundador_pronombre] escapó, formó su banda y volvió para arruinar a los débiles que tanto le habían quitado.</li>
+    <li>setup(tag=meme_Raider)           ->Perseguido y encarcelado, [founderName] hervía de rabia. [founder_pronoun] escapó, formó su banda y volvió para arruinar a los débiles que tanto le habían quitado.</li>
     <li>story(uses=1,tag=meme_Raider)    ->Un día, mientras caminaba por las calles, [founderName] se vio rodeado de mendigos mugrientos. [founder_pronoun] los abatió, quitándoles el dinero a los débiles y despreciables para darles un buen uso.</li>
     <li>lessonIntro(tag=meme_Raider)         ->Las personas presas pueden enseñarte cosas incluso mientras mueren bajo tu cuchillo. Una anciana me enseñó que</li>
     <li>lesson(tag=meme_Raider)              ->los débiles se merecen lo que les pasa</li>
@@ -986,9 +989,9 @@
   <!-- EN: looting -->
   <Raider.symbolPacks.2.theme>tesoro</Raider.symbolPacks.2.theme>
   <!-- EN: kleptic -->
-  <Raider.symbolPacks.3.adjective>cleptómano(a)</Raider.symbolPacks.3.adjective>
+  <Raider.symbolPacks.3.adjective>cleptómano</Raider.symbolPacks.3.adjective>
   <!-- EN: Kleptism -->
-  <Raider.symbolPacks.3.ideoName>Cleptomanía</Raider.symbolPacks.3.ideoName>
+  <Raider.symbolPacks.3.ideoName>Cleptomismo</Raider.symbolPacks.3.ideoName>
   <!-- EN: kleptor -->
   <Raider.symbolPacks.3.member>cleptomista</Raider.symbolPacks.3.member>
   <!-- EN: kleptism -->
@@ -1177,10 +1180,11 @@
     <li>memeAdjectiveFem->tecnológica</li>
     <li>memeAdjectiveFem->maquinadora</li>
     <li>memeAdjectiveFem->industrial</li>
-    <li>memeCreed->escuela</li>
-    <li>memeCreed->academia</li>
-    <li>memeCreed->universidad</li>
-    <li>memeCreed->filosofía</li>
+    <li>memeCreed->instituto</li>
+    <li>memeCreedFem->escuela</li>
+    <li>memeCreedFem->academia</li>
+    <li>memeCreedFem->universidad</li>
+    <li>memeCreedFem->filosofía</li>
     <li>memeHyphenPrefix->tecno</li>
     <li>memeHyphenPrefix->ciber</li>
     <li>memeHyphenPrefix->cable</li>
@@ -1200,7 +1204,7 @@
     <li>memeMoralist->tecnólogo</li>
   </Transhumanist.generalRules.rulesStrings>
   <!-- EN: technologistic -->
-  <Transhumanist.symbolPacks.0.adjective>tecnológico(a)</Transhumanist.symbolPacks.0.adjective>
+  <Transhumanist.symbolPacks.0.adjective>tecnológico</Transhumanist.symbolPacks.0.adjective>
   <!-- EN: Technologism -->
   <Transhumanist.symbolPacks.0.ideoName>Tecnologismo</Transhumanist.symbolPacks.0.ideoName>
   <!-- EN: technologist -->
@@ -1234,17 +1238,17 @@
   <!-- EN: automatist -->
   <Transhumanist.symbolPacks.4.adjective>autómata</Transhumanist.symbolPacks.4.adjective>
   <!-- EN: Automatism -->
-  <Transhumanist.symbolPacks.4.ideoName>Automatismo</Transhumanist.symbolPacks.4.ideoName>
+  <Transhumanist.symbolPacks.4.ideoName>Automatísmo</Transhumanist.symbolPacks.4.ideoName>
   <!-- EN: automator -->
   <Transhumanist.symbolPacks.4.member>autómata</Transhumanist.symbolPacks.4.member>
   <!-- EN: automata -->
   <Transhumanist.symbolPacks.4.theme>autómata</Transhumanist.symbolPacks.4.theme>
   <!-- EN: augmentist -->
-  <Transhumanist.symbolPacks.5.adjective>aumentista</Transhumanist.symbolPacks.5.adjective>
+  <Transhumanist.symbolPacks.5.adjective>aumentísta</Transhumanist.symbolPacks.5.adjective>
   <!-- EN: Augmentism -->
-  <Transhumanist.symbolPacks.5.ideoName>Aumentismo</Transhumanist.symbolPacks.5.ideoName>
+  <Transhumanist.symbolPacks.5.ideoName>Aumentísmo</Transhumanist.symbolPacks.5.ideoName>
   <!-- EN: augmentor -->
-  <Transhumanist.symbolPacks.5.member>aumentista</Transhumanist.symbolPacks.5.member>
+  <Transhumanist.symbolPacks.5.member>aumentísta</Transhumanist.symbolPacks.5.member>
   <!-- EN: augmentation -->
   <Transhumanist.symbolPacks.5.theme>aumento</Transhumanist.symbolPacks.5.theme>
   
@@ -1314,9 +1318,9 @@
     <li>memeMoralist->treespeaker</li>
   -->
   <TreeConnection.generalRules.rulesStrings>
-    <li>memeCreed->raíz</li>
-    <li>memeCreed->hoja</li>
-    <li>memeCreed->vino</li>
+    <li>memeCreedFem->raíz</li>
+    <li>memeCreedFem->hoja</li>
+    <li>memeCreedFem->enredadera</li>
     <li>memeCreed->claro</li>
     <li>memeCreed->bosque</li>
     <li>memeConcept->árboles</li>
@@ -1407,7 +1411,7 @@
     <li>memeMoralist->mindminer</li>
   -->
   <Tunneler.generalRules.rulesStrings>
-    <li>memeCreed->cueva</li>
+    <li>memeCreedFem->cueva</li>
     <li>memeCreed->búnker</li>
     <li>memeCreed->astil</li>
     <li>memeAdjective->profundo</li>
