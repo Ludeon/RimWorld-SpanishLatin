@@ -8,9 +8,9 @@
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 1.2.3005 (Stable Release)
+This is the Latin American Spanish translation of Rimworld 1.3.3102 (Stable Release)
 
-Esta es la traducción para latinoamérica de Rimworld 1.2.3005 (Versión Estable)
+Esta es la traducción para latinoamérica de Rimworld 1.3.3102 (Versión Estable)
 
 See this page for license info:
 
