@@ -4,7 +4,7 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.2.3005-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.3.3102-green.svg?style=for-the-badge)
 
 _ _ _
 
