@@ -1,6 +1,61 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: role acceptance speech -->
+  <Speech_AcceptRole.label>discurso de aceptación del rol</Speech_AcceptRole.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->[INITIATOR_possessive] new role in the community</li>
+    <li>speechtopic->the responsibility of [INITIATOR_possessive] new role</li>
+    <li>speechtopic->the importance of [INITIATOR_possessive] new role</li>
+    <li>speechtopic->[INITIATOR_possessive] good qualities</li>
+    <li>speechtopic->[INITIATOR_possessive] strengths and how to leverage them</li>
+    <li>speechtopic->[INITIATOR_possessive] shortcomings</li>
+    <li>speechtopic->[INITIATOR_possessive] weaknesses and how to overcome them</li>
+    <li>speechtopic->[INITIATOR_possessive] desire to serve the community</li>
+    <li>speechtopic->[INITIATOR_possessive] dedication to [INITIATOR_possessive] beliefs</li>
+    <li>speechtopic->[INITIATOR_possessive] beliefs about the future</li>
+    <li>speechtopic->[INITIATOR_possessive] wish to serve a greater purpose</li>
+    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic] and how it relates to the role</li>
+    <li>speechtopic->how [INITIATOR_possessive] [PersonalCharacteristic] makes [INITIATOR_objective] suited for the role</li>
+    <li>speechtopic->how [INITIATOR_pronoun] will use [INITIATOR_possessive] [PersonalCharacteristic] to overcome obstacles</li>
+    <li>speechtopic->thankfulness</li>
+    <li>speechtopic->showing gratitude</li>
+    <li>speechtopic->life's purpose</li>
+    <li>speechtopic->the future of the colony</li>
+    <li>speechtopic->improving the colony</li>
+    <li>speechtopic->decision-making under stress</li>
+    <li>speechtopic->the social structure of the community</li>
+    <li>speechtopic->taking responsibility</li>
+    <li>speechtopic->putting a role above [INITIATOR_possessive] personal desires</li>
+  -->
+  <Speech_AcceptRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->[INITIATOR_possessive] nuevo rol en la comunidad</li>
+    <li>speechtopic->la responsabilidad de su nuevo papel</li>
+    <li>speechtopic->la importancia de su nuevo papel</li>
+    <li>speechtopic->[INITIATOR_possessive]s buenas cualidades</li>
+    <li>speechtopic->[INITIATOR_possessive]s puntos fuertes y cómo aprovecharlos</li>
+    <li>speechtopic->[INITIATOR_possessive]s deficiencias</li>
+    <li>speechtopic->[INITIATOR_possessive]s puntos débiles y cómo superarlos</li>
+    <li>speechtopic->[INITIATOR_possessive] deseo de servir a la comunidad</li>
+    <li>speechtopic->[INITIATOR_possessive] dedicación a sus creencias</li>
+    <li>speechtopic->[INITIATOR_possessive] creencias sobre el futuro</li>
+    <li>speechtopic->[INITIATOR_possessive] deseo de servir a un propósito mayor</li>
+    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic] y cómo se relaciona con el rol</li>
+    <li>speechtopic->cómo su [PersonalCharacteristic] [INITIATOR_objective] hace que merezca el rol</li>
+    <li>speechtopic->cómo [INITIATOR_pronoun] utilizará su [PersonalCharacteristic] para superar los obstáculos</li>
+    <li>speechtopic->agradecimiento</li>
+    <li>speechtopic->mostrar gratitud</li>
+    <li>speechtopic->el propósito de la vida</li>
+    <li>speechtopic->el futuro de la colonia</li>
+    <li>speechtopic->mejorar la colonia</li>
+    <li>speechtopic->toma de decisiones en situaciones de estrés</li>
+    <li>speechtopic->la estructura social de la comunidad</li>
+    <li>speechtopic->asumir responsabilidades</li>
+    <li>speechtopic->poner un rol por encima de sus deseos personales</li>
+  </Speech_AcceptRole.logRulesInitiator.rulesStrings>
+  
   <!-- EN: blinding speech -->
   <Speech_Blinding.label>discurso cegador</Speech_Blinding.label>
   <!-- EN:
@@ -272,6 +327,51 @@
     <li>speechtopic(p=0.25)->manos y corazones fuertes</li>
     <li>speechtopic(p=0.25)->el derecho a sobrevivir</li>
   </Speech_Leader.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: role removal speech -->
+  <Speech_RemoveRole.label>discurso de retirada del rol</Speech_RemoveRole.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->[INITIATOR_possessive] past role in the community</li>
+    <li>speechtopic->the responsibility of [INITIATOR_possessive] old role</li>
+    <li>speechtopic->the difficulty of [INITIATOR_possessive] old role</li>
+    <li>speechtopic->[INITIATOR_possessive] shortcomings</li>
+    <li>speechtopic->[INITIATOR_possessive] weaknesses and how to overcome them</li>
+    <li>speechtopic->[INITIATOR_possessive] frustration with the community</li>
+    <li>speechtopic->[INITIATOR_possessive] dedication to [INITIATOR_possessive] beliefs</li>
+    <li>speechtopic->[INITIATOR_possessive] beliefs about the future</li>
+    <li>speechtopic->[INITIATOR_possessive] wish to pursue [INITIATOR_possessive] own goals</li>
+    <li>speechtopic->[INITIATOR_possessive] lack of [PersonalCharacteristic]</li>
+    <li>speechtopic->[INITIATOR_possessive] past</li>
+    <li>speechtopic->showing humbleness</li>
+    <li>speechtopic->life's purpose</li>
+    <li>speechtopic->the future of the colony</li>
+    <li>speechtopic->improving the colony</li>
+    <li>speechtopic->the social structure of the community</li>
+    <li>speechtopic->better candidates</li>
+    <li>speechtopic->putting community goals above [INITIATOR_possessive] personal ambitions</li>
+  -->
+  <Speech_RemoveRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->[INITIATOR_possessive] rol anterior en la comunidad</li>
+    <li>speechtopic->la responsabilidad de su antiguo rol</li>
+    <li>speechtopic->la dificultad de su antiguo rol</li>
+    <li>speechtopic->[INITIATOR_possessive]s deficiencias</li>
+    <li>speechtopic->[INITIATOR_possessive]s puntos débiles y cómo superarlos</li>
+    <li>speechtopic->[INITIATOR_possessive] frustración con la comunidad</li>
+    <li>speechtopic->[INITIATOR_possessive] dedicación a sus creencias</li>
+    <li>speechtopic->[INITIATOR_possessive]s creencias sobre el futuro</li>
+    <li>speechtopic->[INITIATOR_possessive] deseo de perseguir sus propios objetivos</li>
+    <li>speechtopic->[INITIATOR_possessive] falta de [PersonalCharacteristic]</li>
+    <li>speechtopic->[INITIATOR_possessive] pasado</li>
+    <li>speechtopic->mostrar humildad</li>
+    <li>speechtopic->el propósito de la vida</li>
+    <li>speechtopic->el futuro de la colonia</li>
+    <li>speechtopic->mejorar la colonia</li>
+    <li>speechtopic->la estructura social de la comunidad</li>
+    <li>speechtopic->mejores candidatos</li>
+    <li>speechtopic->poner los objetivos de la comunidad por encima de sus ambiciones personales</li>
+  </Speech_RemoveRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: sacrifice speech -->
   <Speech_Sacrifice.label>discurso de sacrificio</Speech_Sacrifice.label>
