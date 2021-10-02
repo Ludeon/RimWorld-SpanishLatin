@@ -211,6 +211,10 @@
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} no cree en la ceguera ideololigiosa y no le gustará que le cieguen.</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} es un cobarde y no le gustará que le cieguen.</RitualBlindingWarnWimp>
+  <!-- EN: Scarification is expected for {IDEOMEMBER} colonists as long as number of scarified {IDEOMEMBERPLURAL} is below {0}. -->
+  <RitualScarificationTriggerExtraDesc>Se espera la escarificación de los colonos de {IDEOMEMBER} mientras el número de escarificaciones de {IDEOMEMBERPLURAL} sea inferior a {0}.</RitualScarificationTriggerExtraDesc> <!-- text_todo -->
+  <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
+  <RitualBlindingTriggerExtraDesc>Se espera el cegamiento de cada colono actual y de los que se incorporen a {IDEOMEMBER}.</RitualBlindingTriggerExtraDesc> <!-- text_todo -->
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>¡Todos los que participaron en el ritual ganaron un impulso de enfoque laboral por un día ({PERCENTAGE} de velocidad de trabajo global)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>

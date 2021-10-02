@@ -292,10 +292,14 @@
   <ConfirmDecisionsTitle>Confirmar decisiones</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>La nave estelar hibernante de la que informa la IA (*Name)Charlon Whitestone(/Name) volará cuando se establezca la nueva colonia. Ya no será posible escapar del planeta viajando a esta nave.</ShipEscapeWillEndDescription>
-  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
-  <RemoveEquippedRelicsDescription>Los compradores de la colonia solo te permitirán llevarte una reliquia. Cualquier reliquia no seleccionada se dejará atrás, incluyendo:</RemoveEquippedRelicsDescription>
-  <!-- EN: Would you like to proceed? -->
-  <WantToProceed>¿Deseas continuar?</WantToProceed>
+  <!-- EN: No relic was chosen to be brought to the new colony. -->
+  <ArchonexusRelicNotChosen>No se eligió ninguna reliquia para llevarla a la nueva colonia.</ArchonexusRelicNotChosen><!--text_todo-->
+  <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
+  <ArchonexusItemsNotChosen>Se seleccionaron {0} de unos posibles {1} artículos para ser llevados a la nueva colonia.</ArchonexusItemsNotChosen><!--text_todo-->
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected, even if equipped by a colonist, will be left behind, including: -->
+  <RemoveEquippedRelicsDescription>Los compradores de la colonia solo te permitirán llevarte una reliquia. Cualquier reliquia no seleccionada se dejará atrás, incluso si está equipada por un colono, incluyendo:</RemoveEquippedRelicsDescription><!--text_todo-->
+  <!-- EN: Would you like to proceed? There's no going back from here. -->
+  <WantToProceed>¿Quieres continuar? No hay vuelta atrás desde aquí.</WantToProceed><!--text_todo-->
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>Convertir</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
