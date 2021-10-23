@@ -128,25 +128,45 @@
   <!-- EN: Remove current role -->
   <RemoveCurrentRole>Eliminar el rol actual</RemoveCurrentRole>
 
-  <!-- EN: Enter biosculpter pod -->
-  <EnterBiosculpterPod>Entrar en la cápsula bioescultora</EnterBiosculpterPod>
+  <!-- EN: Enter biosculpter pod for {0} cycle -->
+  <EnterBiosculpterPod>Entrar en la cápsula bioescultora para el ciclo {0}</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
-  <BiosculpterBiotunedToAnother>Biosintonizar a otra persona.</BiosculpterBiotunedToAnother>
+  <BiosculpterBiotunedToAnother>Biocalibrar a alguien más.</BiosculpterBiotunedToAnother>
   <!-- EN: Must be {0} years old for age reversal. -->
   <UnderMinBiosculpterAgeReversalAge>Debe tener {0} años para una inversión de edad.</UnderMinBiosculpterAgeReversalAge>
-  <!-- EN: Carry {PAWN_label} to biosculpter pod ({CYCLE}) -->
-  <CarryToBiosculpterPod>Llevar a {PAWN_label} a la cápsula bioescultora ({CYCLE})</CarryToBiosculpterPod>
+  <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
+  <CarryToBiosculpterPod>Llevar a {PAWN_labelShort} a la cápsula bioescultora ({CYCLE} ciclo)</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
   <CannotCarryToBiosculpterPod>No se puede llevar a la cápsula bioescultora</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>No hay cápsula bioescultora disponible.</NoBiosculpterPod>
-  <!-- EN: No cycle active -->
-  <BiosculpterNoCycleActive>Ningún ciclo activo</BiosculpterNoCycleActive>
-  <!-- EN: Nutrition being loaded -->
-  <BiosculpterLoadingNutrition>Nutrición en carga</BiosculpterLoadingNutrition>
+  <!-- EN: Nutrition not loaded -->
+  <BiosculpterNutritionNotLoaded>La nutrición no está cargada</BiosculpterNutritionNotLoaded>
   <!-- EN: Occupied -->
   <BiosculpterOccupied>Ocupada</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
   <CannotEnter>No puede entrar</CannotEnter>
-
+  <!-- EN: Cannot start {0} cycle -->
+  <BiosculpterCannotStartCycle>No se puede iniciar el ciclo {0}</BiosculpterCannotStartCycle>
+  <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
+  <BiosculpterMissingIngredients>No se encuentran los ingredientes del ciclo ({INGREDIENTS})</BiosculpterMissingIngredients>
+  <!-- EN: Nobody around can use this -->
+  <BiosculpterNoEligiblePawns>Nadie alrededor puede usar esto</BiosculpterNoEligiblePawns>
+  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
+  <BiosculpterNoEligiblePawnsBiotuned>Biocalibrada para {PAWN_labelShort} pero {PAWN_pronoun} no está disponible</BiosculpterNoEligiblePawnsBiotuned>
+  <!-- EN: Auto load nutrition -->
+  <BiosculpterAutoLoadNutritionLabel>Carga automática de nutrición</BiosculpterAutoLoadNutritionLabel>
+  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterAutoLoadNutritionDescription>Carga automáticamente la nutrición necesaria para realizar un ciclo</BiosculpterAutoLoadNutritionDescription>
+  <!-- EN: Auto age reversal for {PAWN_labelShort} -->
+  <BiosculpterAutoAgeReversalLabel>Inversión automática de la edad para {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
+  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
+  <BiosculpterAutoAgeReversalDescription>Satisface automáticamente el deseo de {PAWN_labelShort} de realizar un tratamiento anual de inversión de la edad en esta cápsula, esto de acuerdo con sus creencias. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <BiosculpterAutoAgeReversalDescriptionFuture>Si se activa, {PAWN_labelShort} tomará automáticamente {PAWN_possessive} siguiente tratamiento en {TIME} si la cásula está lista.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} ya quiere {PAWN_possessive} siguiente tratamiento y empezará uno automáticamente si está activado.</BiosculpterAutoAgeReversalDescriptionNow>
+  <!-- EN: Collecting ingredients for biosculpter cycle -->
+  <BiosculpterJobReportCollectIngredients>Recogida de ingredientes para el ciclo de la bioescultura</BiosculpterJobReportCollectIngredients>
+  
 </LanguageData>
