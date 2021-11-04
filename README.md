@@ -42,11 +42,11 @@ Current translation and adaptation by:
 
 Thanks to Ideology contributors 
 
-* __Evilservant6__
-* __IzumiKei__
-* __akvirac__
-* __Mora145__
-* __BernyGonzalez__
+* __Evilservant6 (Inactivo)__
+* __IzumiKei (Inactivo)__
+* __akvirac (Inactivo)__
+* __Mora145 (Inactivo)__
+* __BernyGonzalez (Inactivo)__
 
 Thanks to AM for the 1.1xxx version:
 
@@ -62,7 +62,7 @@ Thanks to AM for the 10f. version.
 
 Thanks for original spanish translation.
 
-* __Mora145__
+* __Mora145 (Inactivo)__
 * __Destiny609 (Inactivo)__
 * __Gaesatae (Inactivo)__
 * __Vhiden (Inactivo)__
