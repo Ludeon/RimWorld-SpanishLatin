@@ -147,6 +147,12 @@
   <ReformDevelopmentPoints>Puntos necesarios para reformar</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>misión</QuestLower>
+  <!-- EN: Vegetarian -->
+  <MealKindVegetarian>Vegetariana</MealKindVegetarian><!--text_todo-->
+  <!-- EN: Contains meat -->
+  <MealKindMeat>Contiene carne</MealKindMeat><!--text_todo-->
+  <!-- EN: Acceptable food for everyone -->
+  <MealKindAny>Comida aceptable para todos</MealKindAny><!--text_todo-->
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>No se puede cargar ideoligión</UnableToLoadIdeoTitle>
@@ -601,6 +607,10 @@
   <BiosculpterPodCycleWillBiotune>(y biocalibrando)</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
   <BiosculpterPodCycleCommand>Comenzar el ciclo de {0}</BiosculpterPodCycleCommand>
+  <!-- EN: Duration: {TIME} -->
+  <BiosculpterPodCycleDuration>Duración: {TIME}</BiosculpterPodCycleDuration><!--text_todo-->
+  <!-- EN: Duration (transhumanists): {TIME} -->
+  <BiosculpterPodCycleDurationTranshumanists>Duración (transhumanista): {TIME}</BiosculpterPodCycleDurationTranshumanists><!--text_todo-->
   <!-- EN: Ready for cycle selection -->
   <BiosculpterPodCycleSelection>Lista para la selección del ciclo</BiosculpterPodCycleSelection>
   <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
@@ -609,6 +619,8 @@
   <BiosculpterPodCycleSelectionNoPower>Nutrición cargada, sin energía</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>Termina en</BiosculpterCycleTimeRemaining>
+  <!-- EN: (accelerated for transhumanists) -->
+  <BiosculpterCycleAccelerated>(acelerado para transhumanistas)</BiosculpterCycleAccelerated><!--text_todo-->
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
   <BiosculpterCycleNoPowerInterrupt>En pausa: Sin energía (interrupción en {TIME})</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->

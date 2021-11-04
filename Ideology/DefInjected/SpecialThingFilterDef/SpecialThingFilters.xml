@@ -1,9 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: allow food with meat -->
+  <AllowCarnivore.label>alimentos con carne</AllowCarnivore.label>
+  <!-- EN: Allow food that is acceptable to meat eaters but unacceptable to vegetarians. This accounts for food that may be vegetarian or may contain meat depending on its ingredients. -->
+  <AllowCarnivore.description>Permitir alimentos que son aceptables para los consumidores de carne pero inaceptables para los vegetarianos. Esto supone que los alimentos pueden ser vegetarianos o contener carne en función de sus ingredientes.</AllowCarnivore.description>
+  
   <!-- EN: allow slave corpses -->
   <AllowCorpsesSlave.label>cadáveres de esclavos</AllowCorpsesSlave.label>
   <!-- EN: Allow the dead bodies of slaves. -->
   <AllowCorpsesSlave.description>Permite cuerpos de esclavos muertos.</AllowCorpsesSlave.description>
+  
+  <!-- EN: allow vegetarian food -->
+  <AllowVegetarian.label>comida vegetariana</AllowVegetarian.label>
+  <!-- EN: Allow food that is acceptable to vegetarians but unacceptable to those that only eat meat. This accounts for food that may be vegetarian or may contain meat depending on its ingredients. -->
+  <AllowVegetarian.description>Permitir alimentos que sean aceptables para los vegetarianos pero inaceptables para los que solo comen carne. Esto supone que los alimentos pueden ser vegetarianos o contener carne en función de sus ingredientes.</AllowVegetarian.description>
   
 </LanguageData>
