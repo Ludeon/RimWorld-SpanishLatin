@@ -4,13 +4,13 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.3.3102-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.3.3167-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 1.3.3102 (Stable Release)
+This is the Latin American Spanish translation of Rimworld 1.3.3167 (Unstable Release)
 
-Esta es la traducción para latinoamérica de Rimworld 1.3.3102 (Versión Estable)
+Esta es la traducción para latinoamérica de Rimworld 1.3.3167 (Versión Inestable)
 
 See this page for license info:
 
@@ -32,22 +32,21 @@ de instalación es: ___RimWorld/Data/Royalty/Languages/___ y Para *Ideolody* el 
 - - -
 Si quieres ver esta guía de instalación con imágenes pasa por nuestro discord.
 
-Nuevo Grupo Discord de traducción: [Team Facción Latina](https://discord.gg/EjK52KM) actualizado el 09/02/2021. 
+Nuevo Grupo Discord de traducción: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 04/11/2021. 
 - - -
 Para mayor información de cómo colaborar en la traducción, puedes revisar la wiki se ha creado para ello: [Wiki](https://github.com/Ludeon/RimWorld-SpanishLatin/wiki) 
 - - -
 Current translation and adaptation by:
 
 * __Zerstrick__
-* __Mora145__
-* __BernyGonzalez__
 
 Thanks to Ideology contributors 
 
 * __Evilservant6__
 * __IzumiKei__
 * __akvirac__
-
+* __Mora145__
+* __BernyGonzalez__
 
 Thanks to AM for the 1.1xxx version:
 
@@ -63,6 +62,7 @@ Thanks to AM for the 10f. version.
 
 Thanks for original spanish translation.
 
+* __Mora145__
 * __Destiny609 (Inactivo)__
 * __Gaesatae (Inactivo)__
 * __Vhiden (Inactivo)__
