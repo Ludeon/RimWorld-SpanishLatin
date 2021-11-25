@@ -31,6 +31,13 @@
   <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
   <MeleeHitChance.description>Probabilidad de golpear un objetivo en combate cuerpo a cuerpo (CaC).\n\nEl objetivo aún puede esquivarlo aunque le hubiéramos dado.</MeleeHitChance.description>
   
+  <!-- EN: Mortar miss radius factor -->
+  <MortarMissRadiusFactor.label>Factor de fallo del radio del mortero</MortarMissRadiusFactor.label>
+  <!-- EN: A factor that affects the miss-radius of a mortar. A smaller factor means more accurate shots. Based on the shooters skill level and other health factors. -->
+  <MortarMissRadiusFactor.description>Un factor que afecta al radio de fallo de un mortero. Un factor más pequeño significa disparos más precisos. Basado en el nivel de habilidad de los tiradores y otros factores de salud.</MortarMissRadiusFactor.description>
+  <!-- EN: Mortar miss radius factor -->
+  <MortarMissRadiusFactor.labelForFullStatList>Factor de fallo del radio del mortero</MortarMissRadiusFactor.labelForFullStatList>
+  
   <!-- EN: trap spring chance -->
   <PawnTrapSpringChance.label>prob. de activación de trampa</PawnTrapSpringChance.label>
   <!-- EN: Chance to spring a trap the character is unaware of. -->
