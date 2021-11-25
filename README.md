@@ -8,9 +8,9 @@
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 1.3.3184 (Unstable Release)
+This is the Latin American Spanish translation of Rimworld 1.3.3193 (Unstable Release)
 
-Esta es la traducción para latinoamérica de Rimworld 1.3.3184 (Versión Inestable)
+Esta es la traducción para latinoamérica de Rimworld 1.3.3193 (Versión Inestable)
 
 See this page for license info:
 
