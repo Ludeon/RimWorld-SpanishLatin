@@ -15,7 +15,7 @@
   <!-- EN: Slaves unattended -->
   <SlaveUnattendedMultipleLabel>Esclavos desatendidos</SlaveUnattendedMultipleLabel>
   <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
-  <SlavesUnattendedDesc>Algunos esclavos están solos en un mapa sin colonos sanos alrededor.\n\nLos esclavos desatendidos de esta manera son muy propensos a rebelarse en cuestión de días u horas.</SlavesUnattendedDesc>
+  <SlavesUnattendedDesc>Algunos esclavos están solos en un mapa sin colonos superiores alrededor.\n\nLos esclavos desatendidos de esta manera son muy propensos a rebelarse en cuestión de días u horas.</SlavesUnattendedDesc>
 
   <!-- EN: {0} expected -->
   <RitualExpected>{0} esperado</RitualExpected>
@@ -30,11 +30,11 @@
   <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
   <RitualCompletionEffects>Completar {RITUAL_labelDef} tendrá estos efectos</RitualCompletionEffects>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
-  <RitualTargetsExplanation>Para comenzar el ritual, selecciona un objeto de enfoque y haga clic en el comando "Comenzar {RITUAL_label}" Los siguientes son objetos de enfoque válidos:\n{1}</RitualTargetsExplanation>
+  <RitualTargetsExplanation>Para comenzar el ritual, selecciona un objeto de enfoque y haz clic en el comando "Comenzar {RITUAL_label}" Los siguientes son objetos de enfoque válidos:\n{1}</RitualTargetsExplanation>
   <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
   <RitualRolesExplanation>Los siguientes roles tienen un papel en {RITUAL_label}:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
-  <RitualJumpToTargets>Haga clic para ir a los objetivos</RitualJumpToTargets>
+  <RitualJumpToTargets>Haz clic para ir a los objetivos</RitualJumpToTargets>
   <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
   <RitualObligationDelayEffects>Retrasar {RITUAL_labelDef} tendrá los siguientes efectos</RitualObligationDelayEffects>
   <!-- EN: {0} days: {1} mood on all {2}s. -->
@@ -44,8 +44,12 @@
 
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>{0} deseado(a)</IdeoBuildingMissing>
-  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>{IDEO_name} requiere que tengas un(a) {0} en tu colonia siempre y cuando {2} o superiores.{4}n\nEste requisito solo está activo si {IDEO_name} es la ideoligión principal de tu facción, o hay {MINBELIEVERS} creyentes en tu facción.{4}\n\nSi no se cumple el requisito, estos creyentes serán infelices:\n{3}</IdeoBuildingMissingDesc>
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingMissingDesc>{IDEO_name} requiere que tengas un(a) {0} en tu colonia siempre y cuando {2} o superiores.{4}n\nEste requisito solo está activo si {IDEO_name} es la ideoligión principal de tu facción, o hay {MINBELIEVERS} creyentes en tu facción.{4}\n\nSi no se cumple el requisito, estos creyentes serán infelices:\n{3}</IdeoBuildingMissingDesc> <!-- text_todo -->
+  <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
+  <IdeoBuildingArchitectTabDesc>Puedes encontrar el edificio abriendo la pestaña "{TABNAME}" del menú arquitecto.</IdeoBuildingArchitectTabDesc> <!-- text_todo -->
+  <!-- EN:  It can be created at:\n{0}. -->
+  <IdeoBuildingCanBeCraftedAt>Puede crearse en:\n{0}.</IdeoBuildingCanBeCraftedAt> <!-- text_todo -->
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>{0} necesita dignificarse, para ello deben cumplirse estos requisitos de la habitación</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
@@ -92,7 +96,7 @@
   <AlertRitualComingEntry>{0} en el {1}, quedan {2}</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
-  <AlertAgeReversalDemandNear>Reversión de la edad exigida</AlertAgeReversalDemandNear>
+  <AlertAgeReversalDemandNear>Reversión de edad exigida</AlertAgeReversalDemandNear>
   <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
   <AlertAgeReversalDemandDesc>Debido a sus creencias, algunos de tus colonos exigen tratamientos regulares de reversión de la edad en una cápsula bioescultora. Si no reciben los tratamientos, estarán disgustados.\n\nLos siguientes colonos exigen el tratamiento de reversión de la edad</AlertAgeReversalDemandDesc>
   <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
@@ -105,16 +109,16 @@
   <AlertAgeReversalDemandDesc_Overdue>El tratamiento de {PAWN} se retrasa {DURATION}.</AlertAgeReversalDemandDesc_Overdue>
 
   <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
-  <AlertRoyalTitleNoVeneratedAnimalMeat>la creencia de {PAWN_nameDef} en {IDEO_name} le impide comer la carne de {ANIMALS}.</AlertRoyalTitleNoVeneratedAnimalMeat>
+  <AlertRoyalTitleNoVeneratedAnimalMeat>La creencia de {PAWN_nameDef} en {IDEO_name} le impide comer la carne de {ANIMALS}.</AlertRoyalTitleNoVeneratedAnimalMeat>
 
   <!-- EN: Dryad caste not set -->
   <AlertGauranlenTreeWithoutDryadTypeLabel>La casta de las dríadas no está fijada</AlertGauranlenTreeWithoutDryadTypeLabel>
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
-  <AlertGauranlenTreeWithoutDryadTypeDesc>Uno o más Gauranlen no tienen su casta de dríadas establecida.\n\nSelecciona el árbol y haz clic en el botón "{0}" para establecer la casta de las dríadas producidas.</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <AlertGauranlenTreeWithoutDryadTypeDesc>Uno o más arboles Gauranlen no tienen su casta de dríadas establecida.\n\nSelecciona el árbol y haz clic en el botón "{0}" para establecer la casta de las dríadas producidas.</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Conector no asignado a tala</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Conector no asignado a tala y poda</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Tienes árboles de Gauranlen que están programados para ser podados, pero sus conectores no están asignados a la tala.\n\nDebes asignar el trabajo de tala a los siguientes colonos</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Tienes árboles de Gauranlen que están programados para ser podados, pero sus conectores no están asignados a la tala y poda.\n\nDebes asignar el trabajo de tala y poda a los siguientes colonos</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>El nodo de combustible explotará en {0}</AlertFuelNodeIgniting>
