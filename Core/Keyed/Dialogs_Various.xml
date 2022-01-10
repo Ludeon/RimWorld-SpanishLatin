@@ -62,7 +62,7 @@
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
-  <InitializingInterface>Iniciando interface</InitializingInterface>
+  <InitializingInterface>Iniciando interfaz</InitializingInterface>
   <!-- EN: Unloading unused assets -->
   <UnloadingUnusedAssets>Descargando activos sin usar</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
@@ -98,7 +98,7 @@
   <!-- EN: Saved as {0}. -->
   <SavedAs>Guardado como {0}.</SavedAs>
   <!-- EN: Please enter a name. -->
-  <NeedAName>Escriba un nombre</NeedAName>
+  <NeedAName>Escribe un nombre</NeedAName>
   <!-- EN: Loading -->
   <LoadingLongEvent>Cargando</LoadingLongEvent>
   <!-- EN: Saving -->
@@ -114,7 +114,7 @@
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
   <SaveIsUnknownFormat>Esta partida está en un formato desconocido y es casi seguro que no va a cargar apropiadamente.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
-  <ProblemSavingFile>Hubo un problema guardando el archivo {0}:\n\n{1}\n\nConsulte el log de errores para obtener más información.</ProblemSavingFile>
+  <ProblemSavingFile>Hubo un problema guardando el archivo {0}:\n\n{1}\n\nConsulta el log de errores para obtener más información.</ProblemSavingFile>
   <!-- EN: Load anyway -->
   <LoadAnyway>Cargar de todos modos</LoadAnyway>
   <!-- EN: Load mod list from save -->
@@ -132,7 +132,7 @@
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>{0} piensa que tu facción debería tener un nombre. ¿Cómo se llamará?</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>Ya que parece que estarás aquí por un tiempo, {0} piensa que tu facción debería tener un nombre. ¿Cómo se llamará?</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
   <PlayerFactionGainsName>Tu facción ahora se llama {0}.</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
@@ -140,7 +140,7 @@
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>{0} piensa que el asentamiento debería tener un nombre. ¿Cómo debe llamarse este asentamiento local?</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>{0} piensa que el asentamiento debería tener un nombre. ¿Cómo debe llamarse este asentamiento?</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
   <PlayerFactionBaseGainsName>El asentamiento ahora es conocido como {0}.</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
@@ -148,13 +148,13 @@
   
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} piensa que también el asentamiento debería tener un nombre. ¿Cómo debe llamarse este asentamiento local?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} piensa que también el asentamiento debería tener un nombre. ¿Cómo debe llamarse este asentamiento?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
   <PlayerFactionAndBaseGainsName>Tu facción ahora es conocida como {0}, y el asentamiento es, {1}.</PlayerFactionAndBaseGainsName>
   
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
-  <NameIsInvalid>Escriba un nombre válido.</NameIsInvalid>
+  <NameIsInvalid>Escribe un nombre válido.</NameIsInvalid>
   <!-- EN: Name is already in use. -->
   <NameIsInUse>Ese nombre ya está usado.</NameIsInUse>
   <!-- EN: The zone is now called {0}. -->
@@ -172,9 +172,9 @@
   <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
   <SaveGameIncompatibleWarningText>Este mapa fue guardado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y colapsos.</SaveGameIncompatibleWarningText>
   <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
-  <WorldFileVersionMismatch>Este archivo de planeta fue generado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y colapsos. Probablemente debieras generar un nuevo planeta desde cero.</WorldFileVersionMismatch>
+  <WorldFileVersionMismatch>Este archivo de mundo fue generado con la versión {0} del juego\nLa versión actual es la {1}\n\nCargar esta partida podría causar errores y colapsos. Probablemente deberías generar un nuevo mundo desde cero.</WorldFileVersionMismatch>
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
-  <FileIncompatibleWarning>Este archivo fue guardado con la versión {0}\nActualmente estás corriendo la versión {1}\n\nCargar este archivo podría producir errores y caídas.</FileIncompatibleWarning>
+  <FileIncompatibleWarning>Este archivo fue guardado con la versión {0}\nActualmente estás corriendo la versión {1}\n\nCargar este archivo podría producir errores y colapsos.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Mods incorrectos</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
@@ -190,13 +190,13 @@
 
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
-  <ConfirmPermanentlyDisableDevMode>¿Realmente quieres desactivar permanentemente el modo de desarrollo en este ordenador?\n\nEsta opción es para las personas que quieren una experiencia de juego pura sin la tentación de usar herramientas de desarrollo para ganar ventaja en el juego normal.\n\nEl modo de desarrollo se puede volver a habilitar, pero para ello es necesario editar manualmente los archivos de configuración. Tendrás que buscar en Internet para averiguar cómo.</ConfirmPermanentlyDisableDevMode>
+  <ConfirmPermanentlyDisableDevMode>¿Realmente quieres desactivar permanentemente el modo de desarrollo en este equipo?\n\nEsta opción es para las personas que quieren una experiencia de juego pura sin la tentación de usar herramientas de desarrollo para ganar ventaja en el juego normal.\n\nEl modo de desarrollo se puede volver a habilitar, pero para ello es necesario editar manualmente los archivos de configuración. Tendrás que buscar en Internet para averiguar cómo.</ConfirmPermanentlyDisableDevMode>
   
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>PELIGRO: Vas a aterrizar en un ambiente congelado. Podría ser muy difícil (sino que imposible) sobrevivir. Si no pretendes enfrentarte a un reto extremo, mejor escoge otro lugar o el mismo, pero en otra estación del año.</MapTemperatureDangerWarning>
+  <MapTemperatureDangerWarning>Advertencia: Vas a aterrizar en un ambiente congelado. Podría ser muy difícil (sino que imposible) sobrevivir. Si no pretendes enfrentarte a un reto extremo, mejor escoge otro lugar o el mismo, pero en otra estación del año.</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>El juego está diseñado para jugar en mapas de tamaño mediano.\n\nEstos tamaños proporcionan mucho espacio! Los mapas de gran tamaño no solo disminuyen el rendimiento, sino que también rompen el diseño del juego. La IA tomará decisiones estúpidas, y el equilibrio del juego se verá gravemente afectado de varias maneras. Estos tamaños se incluyen solo por razones de tradición y pruebas, por favor no los use sin una razón específica.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>El juego está diseñado para jugar en mapas de tamaño mediano.\n\n¡Estos tamaños proporcionan mucho espacio! Los mapas de gran tamaño no solo disminuyen el rendimiento, sino que también rompen el diseño del juego. La IA tomará decisiones estúpidas, y el equilibrio del juego se verá gravemente afectado de varias maneras. Estos tamaños se incluyen solo por razones de tradición y pruebas, por favor no los utilice sin una razón específica.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>Tamaño del mapa</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -257,9 +257,9 @@
   <!-- EN: Requires {0} nutrition -->
   <BillRequiresNutrition>Requiere {0} de nutrición</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>Nota: Los ingredientes de bajo volúmen requerirán {0}x la cantidad usual.</BillRequiresMayVary>
+  <BillRequiresMayVary>Nota: Los ingredientes de pequeño volumen, como el oro, requieren {0}x como mucho.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>Este es un ingrediente de bajo volúmen. Significa que cada 'unidad' será tan solo 1/{0} parte de lo que sería un ingrediente normal. Por lo tanto, requerirás {0}x la cantidad usual.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Este es un ingrediente de bajo volumen. Significa que cada "unidad" será tan solo 1/{0} de la cantidad de un ingrediente de volumen normal. Por lo tanto, para cubrir la misma necesidad de ingrediente, necesitarás {0}x de lo habitual.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>ingredientes</UsableIngredients>
   <!-- EN: To {0} -->
@@ -311,7 +311,7 @@
   <!-- EN: Warmup -->
   <WarmupTime>Calentamiento</WarmupTime>
   <!-- EN: Melee warmup -->
-  <MeleeWarmupTime>Calentamiento para atq. cuerpo a cuerpo</MeleeWarmupTime>
+  <MeleeWarmupTime>Calentamiento para atq. CaC</MeleeWarmupTime>
   <!-- EN: Ranged warmup -->
   <RangedWarmupTime>Calentamiento para atq. a distancia</RangedWarmupTime>
   <!-- EN: Cooldown -->
@@ -333,7 +333,7 @@
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
   <StoppingPowerExplanation>Los golpes de esta arma tambalearán a los objetivos, ralentizando su movimiento durante varios segundos. Los blancos con un tamaño de cuerpo mayor que la potencia de frenado no se verán afectados.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
-  <DirectHitChance>Probabilidad de impacto directo</DirectHitChance>
+  <DirectHitChance>Prob. de impacto directo</DirectHitChance>
   <!-- EN: Miss radius -->
   <MissRadius>Radio de fallo</MissRadius>
   <!-- EN: Grows wild -->
@@ -347,15 +347,15 @@
   <!-- EN: Harvest yield -->
   <HarvestYield>Rendimiento de la cosecha</HarvestYield>
   <!-- EN: Min growth temperature -->
-  <MinGrowthTemperature>Temperatura mínima de crecimiento</MinGrowthTemperature>
+  <MinGrowthTemperature>Temp. mín. de crecimiento</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
-  <MaxGrowthTemperature>Temperatura máxima de crecimiento</MaxGrowthTemperature>
+  <MaxGrowthTemperature>Temp. máx. de crecimiento</MaxGrowthTemperature>
   <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
-  <GrowingTimeDesc>Las plantas solamente crecen durante una parte del día y bajo iluminación. Esta estadística mide el tiempo de crecimiento que la planta necesita para llegar a su tamaño máximo. El tiempo real de crecimiento normalmente sería del doble. Las bajas temperaturas ralentizarán el crecimiento de las plantas.</GrowingTimeDesc>
+  <GrowingTimeDesc>Las plantas solamente crecen durante una parte del día y bajo iluminación.\n\nEsta estadística mide el tiempo de crecimiento que la planta necesita para llegar a su tamaño máximo.\n\nEl tiempo real de crecimiento normalmente sería del doble.\n\nLas bajas temperaturas ralentizarán el crecimiento de las plantas.</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>días</Days>
   <!-- EN: Minimum growing skill to sow -->
-  <MinGrowingSkillToSow>Habilidad mínima de agricultura para plantar</MinGrowingSkillToSow>
+  <MinGrowingSkillToSow>Hab. mín. de agricultura para plantar</MinGrowingSkillToSow>
   <!-- EN: Fertility requirement -->
   <FertilityRequirement>Requerimiento de fertilidad</FertilityRequirement>
   <!-- EN: Fertility sensitivity -->
@@ -399,7 +399,7 @@
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>Efectividad de cobertura</CoverEffectiveness>
   <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
-  <CoverEffectivenessExplanation>Que tan efectiva es cuando se usa como cobertura durante un tiroteo. Un porcentaje más alto detendrá más disparos.</CoverEffectivenessExplanation>
+  <CoverEffectivenessExplanation>Que tan efectiva es cuando se usa como cobertura durante un tiroteo.\n\nUn porcentaje más alto detendrá más disparos.</CoverEffectivenessExplanation>
   <!-- EN: Experience gain factor -->
   <MedicineXpGainFactor>Factor de ganancia de experiencia</MedicineXpGainFactor>
   <!-- EN: Mood change -->
@@ -413,7 +413,7 @@
   <!-- EN: Tameness will never decay for animals of very low wildness. -->
   <TamenessWillNotDecay>La domesticación nunca decaerá para los animales de muy bajo nivel de salvajismo.</TamenessWillNotDecay>
   <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
-  <TamenessWillNotDecayFenceBlocked>La domesticación nunca decaerá para los animales que se pueden mantenerse dentro del área con vallas.</TamenessWillNotDecayFenceBlocked>
+  <TamenessWillNotDecayFenceBlocked>La domesticación nunca decaerá para los animales que pueden mantenerse dentro del área con vallas.</TamenessWillNotDecayFenceBlocked>
   <!-- EN: Time -->
   <TimeRecordsCategory>Tiempo</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -519,7 +519,7 @@
   <!-- EN: ground -->
   <TargetGround>suelo</TargetGround>
   <!-- EN: Click to learn more. -->
-  <ClickToLearnMore>Haz clic para aprender mas.</ClickToLearnMore>
+  <ClickToLearnMore>Haz clic para aprender más.</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>Haz clic para ver las facciones.</ClickToViewFactions>
   <!-- EN: meditation focus types -->
@@ -557,7 +557,7 @@
   <!-- EN: For this item, this price is {0}. -->
   <PriceTypeDesc>Por este objeto, el precio es {0}.</PriceTypeDesc>
   <!-- EN: How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are near an orbital trade beacon. -->
-  <ColonyCount>Cuántos objeto de este tipo tienes listos para comerciar.\n\nSolamente podrás vender los objetos que se encuentren en exteriores y cerca de una baliza de comercio orbital.</ColonyCount>
+  <ColonyCount>Cuántos objetos de este tipo tienes listos para comerciar.\n\nSolamente podrás vender los objetos que se encuentren en exteriores y cerca de una baliza de comercio orbital.</ColonyCount>
   <!-- EN: How many of this item the trader has to trade. -->
   <TraderCount>Cuántos objetos de este tipo te puede vender el comerciante.</TraderCount>
   <!-- EN: Accept -->
@@ -625,11 +625,11 @@
   <!-- EN: Final price -->
   <FinalPrice>Precio final</FinalPrice>
   <!-- EN: Gift mode - offer gifts to {0}. -->
-  <GiftModeTip>Modo de regalo - ofrecer regalos a {0}.</GiftModeTip>
+  <GiftModeTip>Modo de regalo, ofrecer regalos a {0}.</GiftModeTip>
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>Volver al modo de comercio.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
-  <TradeCaravanRequestDeniedDueTitle>La facción {FACTION_name} no está dispuesta a enviar una caravana porque {NEGOTIATOR_nameDef} carece del título requerido {TITLE}.</TradeCaravanRequestDeniedDueTitle>
+  <TradeCaravanRequestDeniedDueTitle>La facción {FACTION_name} no está dispuesta a enviar una caravana porque {NEGOTIATOR_nameDef} carece del título de {TITLE} requerido.</TradeCaravanRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -649,7 +649,7 @@
   <!-- EN: Send -->
   <Send>Enviar</Send>
   <!-- EN: Number available to send with the caravan. -->
-  <FormCaravanColonyThingCountTip>Cuantos objetos de este tipo tiene listos la colonia para cargar en la caravana.</FormCaravanColonyThingCountTip>
+  <FormCaravanColonyThingCountTip>Número disponible para enviar con la caravana.</FormCaravanColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>Personas y animales</PawnsTab>
   <!-- EN: Items -->
@@ -683,7 +683,7 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Nunca se quedará sin comida</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>Un número de días aproximado antes de que la caravana se quede sin comida.\n\nEsto toma en cuenta tanto la comida para humanos como para animales y te muestra el peor escenario posible. Esto significa que después de esta cantidad de días, al menos una persona o animal se habrá quedado sin comida.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>El número aproximado de días antes de que al menos una persona o animal se quede sin comida. Las distintas especies tienen dietas diferentes, por lo que una puede quedarse sin comida antes que otras. Este valor se calcula con mayor precisión una vez elegida la ruta.\n\nAfectada por:\n - Inventario actual de colonos\n - Tipo y cantidad de comida transportada\n - Miembros de la caravana y sus dietas\n - Tasa de forrajeo\n - Si los animales pueden pastar\n - Tiempo hasta que la comida se pudra\n - El clima caluroso pudre la comida más rápido.</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(solo se tiene en cuenta el primer punto intermedio)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
@@ -915,7 +915,7 @@
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
   <MoodThresholdColumnDesc>Los colonos tomarán esta droga solo si su humor está por debajo de este nivel.</MoodThresholdColumnDesc>
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
-  <JoyThresholdColumnDesc>Los colonos tomarán esta droga solo si su diversión está por debajo de este nivel.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Los colonos tomarán esta droga solo si su recreación está por debajo de este nivel.</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
   <TakeToInventoryColumnDesc>La cantidad extra de droga que se tomará para consumo, para evitar que el colono tenga que visitar el almacén cada vez.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->

@@ -49,7 +49,7 @@
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Necesitas una baliza de comercio orbital para comerciar con una nave.</MessageNeedBeaconToTradeWithShip>
   <!-- EN: Caller must have the title of {0_label} or higher. -->
-  <MessageNeedRoyalTitleToCallWithShip>El solicitante debe poseer el título de {0} o superior.</MessageNeedRoyalTitleToCallWithShip>
+  <MessageNeedRoyalTitleToCallWithShip>El solicitante debe poseer el título de {0_label} o superior.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0} ha sido destruido.</MessageConditionCauserDespawned>
@@ -116,7 +116,7 @@
   <!-- EN: Must designate abandoned artificial structures. -->
   <MessageMustDesignateClaimable>Debes designar estructuras abandonadas.</MessageMustDesignateClaimable>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>Primero debes derrotar al grupo de mecanoides antes de poder desconstruirlos</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateDeconstructibleMechCluster>Primero debes derrotar al grupo de mecanoides antes de poder desconstruirlos.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Debe designar superficies de piedra ásperas.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Nothing can remove thick roofs. -->
@@ -130,9 +130,9 @@
   <!-- EN: Must designate full graves or containers. -->
   <MessageMustDesignateOpenable>Debes designar tumbas o contenedores llenos.</MessageMustDesignateOpenable>
   <!-- EN: Must designate unforbidden items. -->
-  <MessageMustDesignateForbiddable>Debe designar artículos no prohibidos.</MessageMustDesignateForbiddable>
+  <MessageMustDesignateForbiddable>Debes designar artículos no prohibidos.</MessageMustDesignateForbiddable>
   <!-- EN: Must designate forbidden items. -->
-  <MessageMustDesignateUnforbiddable>Debe designar artículos permitidos.</MessageMustDesignateUnforbiddable>
+  <MessageMustDesignateUnforbiddable>Debes designar artículos permitidos.</MessageMustDesignateUnforbiddable>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>¡{1_labelShort} se ha rehusado a ser arrestad{1_gender ? o : a}!</MessageRefusedArrest>
@@ -142,7 +142,7 @@
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>No hay camas de animales disponibles.</MessageNoAnimalBeds>
   <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
-  <MessageTooLowMedCare>La operación requiere un nivel de {0} o mejores, pero {PAWN_labelShort} solo llega a "{2}".</MessageTooLowMedCare>
+  <MessageTooLowMedCare>La operación requiere un nivel de {0} o mejor, pero {PAWN_labelShort} solo llega a "{2}".</MessageTooLowMedCare>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} ha muerto. Causa: {1}.</PawnDiedBecauseOf>
@@ -185,7 +185,7 @@
   <MessageAttackedByPredator>¡{PREY_labelShort} está bajo el ataque de {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort} ha comenzado a alejarse! {PAWN_pronoun} abandonará el mapa a menos que un adiestrador de animales {PAWN_objective} lleve con cuerdas a un corral.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>{PAWN_labelShort} ha comenzado a alejarse! abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Una colmena insectoide se ha reproducido.</MessageHiveReproduced>
@@ -220,7 +220,7 @@
   <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>{ANIMAL} ha tenido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
   <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has had a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageNamedBondedAnimalMentalBreak>{ANIMAL_kindIndef} llamado {ANIMAL_label} ha tenido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
+  <MessageNamedBondedAnimalMentalBreak>{ANIMAL_kindIndef} de nombre {ANIMAL_label} ha tenido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageNamedBondedAnimalMentalBreak>
   <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalsMentalBreak>{0} animales tienen un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalsMentalBreak>
   
@@ -272,7 +272,7 @@
   <!-- EN: {0} has died because of cold. -->
   <MessagePlantDiedOfCold>{0} ha muerto por la baja temperatura.</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>{0} se ha podrido por no haber sido cosechada a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0} se ha podrido por no cosecharse a tiempo.</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
   <MessagePlantDiedOfRot_ExposedToLight>{0} ha muerto por no estar expuesta a la luz.</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
@@ -308,7 +308,7 @@
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>No se puede llegar hasta algunas de las cápsulas de transporte.</MessageTransporterUnreachable>
   <!-- EN: All pod launchers connected to the selected transport pods must be adjacent. -->
-  <MessageTransportersNotAdjacent>Todas las lanzaderas conectadas a las cápsulas de transporte seleccionadas deben estar adyacentes.</MessageTransportersNotAdjacent>
+  <MessageTransportersNotAdjacent>Todos los lanzadores conectados a las cápsulas de transporte seleccionadas deben estar adyacentes.</MessageTransportersNotAdjacent>
   
   <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
   <MessageTransportersLoadCanceled_TransporterDestroyed>El proceso de transporte se ha cancelado porque una de las cápsulas de transporte ha sido destruida.</MessageTransportersLoadCanceled_TransporterDestroyed>
@@ -340,7 +340,7 @@
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>El destino seleccionado es inválido.</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
-  <MessageTransportPodsDestinationIsTooFar>Cada lanzadera de cápsulas necesita por lo menos {0}x unidades de quimicombustible para enviar las cápsulas a esa distancia.</MessageTransportPodsDestinationIsTooFar>
+  <MessageTransportPodsDestinationIsTooFar>Cada lanzador de cápsulas necesita por lo menos {0}x unidades de quimicombustible para enviar las cápsulas a esa distancia.</MessageTransportPodsDestinationIsTooFar>
   
   <!-- EN: The caravan has been reformed. -->
   <MessageReformedCaravan>La caravana se ha reformado.</MessageReformedCaravan>
@@ -351,11 +351,11 @@
   <!-- EN: Cannot equip: {0}. -->
   <MessageCantEquipCustom>No se puede equipar: {0}.</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
-  <MessageCantEquipIncapableOfViolence>No puede equiparse: {1_labelShort} es incapaz de violencia.</MessageCantEquipIncapableOfViolence>
+  <MessageCantEquipIncapableOfViolence>No se puede equipar: {1_labelShort} es incapaz de violencia.</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
   <MessageCantEquipIncapableOfShooting>No se puede equipar: {1_labelShort} es incapaz de disparar.</MessageCantEquipIncapableOfShooting>
   <!-- EN: Cannot equip: Incapable. -->
-  <MessageCantEquipIncapableOfManipulation>No puede equiparse: incapaz.</MessageCantEquipIncapableOfManipulation>
+  <MessageCantEquipIncapableOfManipulation>No se puede equipar: incapaz.</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
   <MessageCantWearApparelMissingBodyParts>No se puede usar: {1_labelShort} no tiene partes del cuerpo requeridas.</MessageCantWearApparelMissingBodyParts>
   <!-- EN: This person refuses to remove this. -->
@@ -377,7 +377,7 @@
   <MessageSelectOwnBaseToFormCaravan>Para formar una caravana, selecciona tu propia colonia o un sitio donde tengas personas.</MessageSelectOwnBaseToFormCaravan>
 
   <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
-  <MessageScreenResTooSmallForUIScale>Con esta resolución y escala de UI, la interface del juego no cabría en la pantalla. Por favor reduce la escala de UI o aumenta la resolución.</MessageScreenResTooSmallForUIScale>
+  <MessageScreenResTooSmallForUIScale>Con esta resolución y escala de UI, la interfaz del juego no cabría en la pantalla. Por favor reduce la escala de UI o aumenta la resolución.</MessageScreenResTooSmallForUIScale>
   
   <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
   <MessageYouHaveToReformCaravanNow>Debes de reformar la caravana ahora. Todos los colonos que se queden serán abandonados.</MessageYouHaveToReformCaravanNow>
@@ -462,10 +462,10 @@
   <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0} no puede crecer bajo techo.</MessagePlantIncompatibleWithRoof>
   <!-- EN: Cannot build a roof over {0}. -->
-  <MessageRoofIncompatibleWithPlant>No puede construir un techo sobre {0}.</MessageRoofIncompatibleWithPlant>
+  <MessageRoofIncompatibleWithPlant>No puedes construir un techo sobre {0}.</MessageRoofIncompatibleWithPlant>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Para salir de la zona, utilice el botón "reformar caravana" en la vista del mundo.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Para salir de la zona, utiliza el botón "reformar caravana" en la vista del mundo.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>No puedes dejar el mapa ahora.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
@@ -474,7 +474,7 @@
   <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
   <MessageGoodwillChangedWithReason>Las relaciones con {0} han cambiado de {1} a {2} ({3}).</MessageGoodwillChangedWithReason>
   <!-- EN: attacked {1_labelShort} -->
-  <GoodwillChangedReason_AttackedPawn>Atacó a  {1_labelShort}</GoodwillChangedReason_AttackedPawn>
+  <GoodwillChangedReason_AttackedPawn>Atacó a {1_labelShort}</GoodwillChangedReason_AttackedPawn>
   <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
   <GoodwillChangedReason_UsedItem>usó {ITEM_labelShort} en {TARGET_labelShort}</GoodwillChangedReason_UsedItem>
   <!-- EN: used {0} on {1} -->
@@ -488,11 +488,11 @@
   <!-- EN: needlessly installed {0} -->
   <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>instalado sin necesidad {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
   <!-- EN: captured {1_labelShort} -->
-  <GoodwillChangedReason_CapturedPawn>capturó {1_labelShort}</GoodwillChangedReason_CapturedPawn>
+  <GoodwillChangedReason_CapturedPawn>capturó a {1_labelShort}</GoodwillChangedReason_CapturedPawn>
   <!-- EN: {1_labelShort} crushed -->
-  <GoodwillChangedReason_PawnCrushed>{1_labelShort} aplastados</GoodwillChangedReason_PawnCrushed>
+  <GoodwillChangedReason_PawnCrushed>{1_labelShort} aplastado</GoodwillChangedReason_PawnCrushed>
   <!-- EN: {1_labelShort} died -->
-  <GoodwillChangedReason_PawnDied>{1_labelShort} muerto</GoodwillChangedReason_PawnDied>
+  <GoodwillChangedReason_PawnDied>{1_labelShort} ha muerto</GoodwillChangedReason_PawnDied>
   <!-- EN: {0_labelShort} stripped -->
   <GoodwillChangedReason_PawnStripped>{0_labelShort} despojado</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
@@ -543,7 +543,7 @@
   <!-- EN: {0} has formed and is now traveling on the world map. -->
   <MessageFormedCaravan>{0} se ha formado y ahora está viajando en el mapa del mundo.</MessageFormedCaravan>
   <!-- EN: Orders -->
-  <MessageFormedCaravan_Orders>Ordenes</MessageFormedCaravan_Orders>
+  <MessageFormedCaravan_Orders>Órdenes</MessageFormedCaravan_Orders>
 
   <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
   <MessageBillValidationStoreZoneDeleted>El "{0}" de {1} ya no puede entregarse a las reservas eliminadas {2}.</MessageBillValidationStoreZoneDeleted>
@@ -740,7 +740,7 @@
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>bloqueado por {0_label}.</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
-  <AdjacentSowBlocker>bloqueado por {0_label}.</AdjacentSowBlocker>
+  <AdjacentSowBlocker>No se puede plantar al lado de {0_label}.</AdjacentSowBlocker>
   <!-- EN: Too close to {0_label}. -->
   <TooCloseToOtherPlant>Demasiado cerca de {0_label}.</TooCloseToOtherPlant>
   <!-- EN: Too close to {0}'s planting location. -->
