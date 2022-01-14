@@ -88,6 +88,7 @@
     <li>memeCreedFem->manada</li>
     <li>memeCreedFem->multitud</li>
     <li>memeConcept->animales</li>
+    <li>memeConceptDef->los animales</li>
     <li>memeLeaderNoun->bestia</li>
     <li>memeLeaderNoun->animal</li>
     <li>memeLeaderAdjective->alfa</li>
@@ -106,7 +107,7 @@
   <!-- EN: beastic -->
   <AnimalPersonhood.symbolPacks.1.adjective>bestialico</AnimalPersonhood.symbolPacks.1.adjective>
   <!-- EN: Beastism -->
-  <AnimalPersonhood.symbolPacks.1.ideoName>Bestialismo</AnimalPersonhood.symbolPacks.1.ideoName>
+  <AnimalPersonhood.symbolPacks.1.ideoName>Bestialisismo</AnimalPersonhood.symbolPacks.1.ideoName>
   <!-- EN: beastor -->
   <AnimalPersonhood.symbolPacks.1.member>bestiano</AnimalPersonhood.symbolPacks.1.member>
   <!-- EN: beasts -->
@@ -190,6 +191,10 @@
     <li>memeConcept->visión</li>
     <li>memeConcept->vista</li>
     <li>memeConcept->percepción</li>
+    <li>memeConceptDef->la ceguera</li>
+    <li>memeConceptDef->la visión</li>
+    <li>memeConceptDef->la vista</li>
+    <li>memeConceptDef->la percepción</li>
     <li>memeLeaderNoun->visionario</li>
     <li>memeLeaderAdjective->ciego</li>
     <li>memeMoralist->vidente</li>
@@ -271,11 +276,15 @@
     <li>memeConcept->homicidio</li>
     <li>memeConcept->alimentación</li>
     <li>memeConcept->carne</li>
+    <li>memeConceptDef->la sangre</li>
+    <li>memeConceptDef->el homicidio</li>
+    <li>memeConceptDef->la alimentación</li>
+    <li>memeConceptDef->la carne</li>
     <li>memeLeaderNoun->devorador</li>
     <li>memeLeaderNoun->chef</li>
     <li>memeLeaderNoun->chupasangre</li>
     <li>memeLeaderNoun->masticador</li>
-    <li>memeLeaderNoun->desgarra carne</li>
+    <li>memeLeaderNoun->carnicero</li>
     <li>memeMoralist->primer comensal</li>
     <li>memeMoralist->conocedor de carne</li>
   </Cannibal.generalRules.rulesStrings>
@@ -364,11 +373,14 @@
     <li>memeAdjectiveFem->tenue</li>
     <li>memeHyphenPrefix->oscuro</li>
     <li>memeHyphenPrefix->tenue</li>
-    <li>memeConcept->oscuro</li>
-    <li>memeConcept->antenuador</li>
+    <li>memeConcept->oscuridad</li>
+    <li>memeConcept->tiniebla</li>
     <li>memeConcept->oscurecimiento</li>
+    <li>memeConceptDef->la oscuridad</li>
+    <li>memeConceptDef->las tinieblas</li>
+    <li>memeConceptDef->el oscurecimiento</li>
     <li>memeLeaderNoun->velador</li>
-    <li>memeLeaderNoun->mata luz</li>
+    <li>memeLeaderNoun->mataluz</li>
     <li>memeLeaderAdjective->oscuro</li>
     <li>memeMoralist->obscurer</li>
     <li>memeMoralist->oscurecedor</li>
@@ -439,7 +451,10 @@
     <li>memeCreedFem->secta</li>
     <li>memeConcept->carne</li>
     <li>memeConcept->pureza</li>
-    <li>memeConcept->inmaculada</li>
+    <li>memeConcept->inmaculación</li>
+    <li>memeConceptDef->la carne</li>
+    <li>memeConceptDef->la pureza</li>
+    <li>memeConceptDef->la inmaculación</li>
     <li>memeLeaderNoun->ente</li>
     <li>memeLeaderNoun->humano</li>
     <li>memeMoralist->purificador</li>
@@ -538,6 +553,9 @@
     <li>memeConcept->drogas</li>
     <li>memeConcept->felicidad</li>
     <li>memeConcept->sueños</li>
+    <li>memeConceptDef->los sueños</li>
+    <li>memeConceptDef->las drogas</li>
+    <li>memeConceptDef->la felicidad</li>
     <li>memeHyphenPrefix->droga</li>
     <li>memeHyphenPrefix->narco</li>
     <li>memeLeaderNoun->durmiente</li>
@@ -645,6 +663,8 @@
     <li>memeHyphenPrefix->piel</li>
     <li>memeConcept->desnudez</li>
     <li>memeConcept->piel</li>
+    <li>memeConceptDef->la desnudez</li>
+    <li>memeConceptDef->la piel</li>
     <li>memeLeaderNoun->mundano</li>
     <li>memeLeaderNoun->respirador</li>
     <li>memeLeaderNoun->tocador</li>
@@ -753,6 +773,11 @@
     <li>memeConcept->tortura</li>
     <li>memeConcept->sufrimiento</li>
     <li>memeConcept->sangre</li>
+    <li>memeConceptDef->el dolor</li>
+    <li>memeConceptDef->el tormento</li>
+    <li>memeConceptDef->la tortura</li>
+    <li>memeConceptDef->el sufrimiento</li>
+    <li>memeConceptDef->la sangre</li>
     <li>memeLeaderNoun->torturador</li>
     <li>memeLeaderNoun->agonizante</li>
     <li>memeLeaderNoun->flagelador</li>
@@ -858,6 +883,7 @@
     <li>memeAdjectiveFem->real</li>
     <li>memeHyphenPrefix->verdad</li>
     <li>memeConcept->verdad</li>
+    <li>memeConceptDef->la verdad</li>
     <li>memeLeaderNoun->orador</li>
     <li>memeMoralist->proselitista</li>
     <li>memeMoralist->convertidor</li>
@@ -913,7 +939,7 @@
   -->
   <Raider.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Raider)        ->En la interminable guerra entre deidades, [deity0_name] se elevó por encima de todos en su capacidad de persecución y destrucción, y los espíritus más débiles temblaban de miedo.</li>
-    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] miró a su alrededor y vio a los débiles, malhumorados y despreciados, y [deity0_pronoun] mató a todos con una gloria resplandeciente.</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] miró a su alrededor y vio a los débiles, malhumorados y despreciados, y los mató a todos con una gloria resplandeciente.</li>
     <li>intro(tag=meme_Raider)           ->El [place_summary] [place_name] era originalmente un escondite de asaltantes. [deity0_name] gobernó allí y expulsó a las autoridades.</li>
     <li>conflict(tag=meme_Raider)        ->Un [foeLeader] trató de obligar a todo el mundo a detener todos los robos y saqueos, y se declaró enemigo de [deity0_name].</li>
     <li>founderJoin(tag=meme_Raider)     ->Un gran incursor llamado [founderName] se erigió, y su banda de incursores saqueó y robó sin descanso en los campamentos de los [foeSoldiers].</li>
@@ -952,10 +978,14 @@
     <li>memeAdjectiveFem->ilegal</li>
     <li>memeHyphenPrefix->ilegal</li>
     <li>memeHyphenPrefix->asalto</li>
-    <li>memeConcept->incursión</li>
+    <li>memeConcept->saqueo</li>
     <li>memeConcept->robo</li>
     <li>memeConcept->piratería</li>
     <li>memeConcept->asalto</li>
+    <li>memeConceptDef->saqueo</li>
+    <li>memeConceptDef->robo</li>
+    <li>memeConceptDef->piratería</li>
+    <li>memeConceptDef->asalto</li>
     <li>memeLeaderNoun->superior</li>
     <li>memeLeaderNoun->capitán</li>
     <li>memeLeaderNoun->capataz</li>
@@ -981,13 +1011,13 @@
   <!-- EN: plundering -->
   <Raider.symbolPacks.1.theme>saqueo</Raider.symbolPacks.1.theme>
   <!-- EN: lootist -->
-  <Raider.symbolPacks.2.adjective>tesorista</Raider.symbolPacks.2.adjective>
+  <Raider.symbolPacks.2.adjective>asaltante</Raider.symbolPacks.2.adjective>
   <!-- EN: Lootism -->
-  <Raider.symbolPacks.2.ideoName>Tesorismo</Raider.symbolPacks.2.ideoName>
+  <Raider.symbolPacks.2.ideoName>Asaltantismo</Raider.symbolPacks.2.ideoName>
   <!-- EN: looter -->
-  <Raider.symbolPacks.2.member>caza tesoro</Raider.symbolPacks.2.member>
+  <Raider.symbolPacks.2.member>asaltante</Raider.symbolPacks.2.member>
   <!-- EN: looting -->
-  <Raider.symbolPacks.2.theme>tesoro</Raider.symbolPacks.2.theme>
+  <Raider.symbolPacks.2.theme>asalto</Raider.symbolPacks.2.theme>
   <!-- EN: kleptic -->
   <Raider.symbolPacks.3.adjective>cleptómano</Raider.symbolPacks.3.adjective>
   <!-- EN: Kleptism -->
@@ -1070,12 +1100,12 @@
     <li>memeAdjectiveFem->rural</li>
     <li>memeAdjectiveFem->campestre</li>
     <li>memeHyphenPrefix->rancho</li>
-    <li>memeConcept->ganadero</li>
+    <li>memeConcept->ganadería</li>
+    <li>memeConceptDef->la ganadería</li>
     <li>memeLeaderNoun->ganadero</li>
-    <li>memeLeaderNoun->ayudante</li>
+    <li>memeLeaderNoun->ranchero</li>
     <li>memeLeaderNoun->vaquero</li>
     <li>memeLeaderNoun->pastor</li>
-    <li>memeLeaderNoun->perro pastor</li>
   </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
   <Rancher.symbolPacks.0.adjective>ganadero</Rancher.symbolPacks.0.adjective>
@@ -1193,6 +1223,10 @@
     <li>memeConcept->artificial</li>
     <li>memeConcept->aumento</li>
     <li>memeConcept->mejora</li>
+    <li>memeConceptDef->el silicon</li>
+    <li>memeConceptDef->lo artificial</li>
+    <li>memeConceptDef->el aumento</li>
+    <li>memeConceptDef->la mejora</li>
     <li>memeLeaderNoun->cibernético</li>
     <li>memeLeaderNoun->superusuario</li>
     <li>memeLeaderNoun->amplificado</li>
@@ -1325,6 +1359,8 @@
     <li>memeCreed->bosque</li>
     <li>memeConcept->árboles</li>
     <li>memeConcept->bosques</li>
+    <li>memeConceptDef->los árboles</li>
+    <li>memeConceptDef->los bosques</li>
     <li>memeAdjective->robusto</li>
     <li>memeAdjective->corteza</li>
     <li>memeAdjectiveFem->robusta</li>
@@ -1424,6 +1460,9 @@
     <li>memeConcept->tierra</li>
     <li>memeConcept->piedra</li>
     <li>memeConcept->profundidad</li>
+    <li>memeConceptDef->la tierra</li>
+    <li>memeConceptDef->la piedra</li>
+    <li>memeConceptDef->la profundidad</li>
     <li>memeLeaderNoun->excavador</li>
     <li>memeLeaderNoun->sondador</li>
     <li>memeLeaderNoun->rodador</li>
