@@ -73,7 +73,7 @@
 
   <!-- Create/review world -->
   <!-- EN: Review world -->
-  <ReviewWorld>Vista previa del planeta</ReviewWorld>
+  <ReviewWorld>Revisar el mundo</ReviewWorld>
   <!-- EN: Generate -->
   <WorldGenerate>Generar</WorldGenerate>
   <!-- EN: Save and finish -->
@@ -129,9 +129,9 @@
   <!-- EN: This is the latest version. -->
   <BuildUpToDate>Versión actualizada.</BuildUpToDate>
   <!-- EN: Error getting version info: {0} -->
-  <ErrorGettingVersionInfo>Error obteniendo información de la versión: {0}</ErrorGettingVersionInfo>
+  <ErrorGettingVersionInfo>Error obteniendo info. de la versión: {0}</ErrorGettingVersionInfo>
   <!-- EN: Loading version info... -->
-  <LoadingVersionInfo>Cargando información de la versión...</LoadingVersionInfo>
+  <LoadingVersionInfo>Cargando info. de la versión...</LoadingVersionInfo>
 
   <!-- World generator -->
   <!-- EN: Generate world -->
@@ -203,7 +203,7 @@
   <!-- EN: Another active mod uses the same ID: {0}. -->
   <ModWithSameIdAlreadyActive>Otro mod activo usa la misma ID: {0}.</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
-  <ModCyclicDependency>Hay una dependencia de modificación cíclica que comienza con {0}.</ModCyclicDependency>
+  <ModCyclicDependency>Hay una dependencia cíclica del mod que comienza con {0}.</ModCyclicDependency>
   <!-- EN: This requires following mods to work: {0}. -->
   <ModUnsatisfiedDependency>Esto requiere los siguientes mods para funcionar: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
@@ -287,9 +287,9 @@
   <!-- EN: Commitment mode -->
   <CommitmentMode>Modo comprometido</CommitmentMode>
   <!-- EN: Reload anytime mode -->
-  <ReloadAnytimeMode>Recarga en cualquier momento</ReloadAnytimeMode>
+  <ReloadAnytimeMode>Recargar en cualquier momento</ReloadAnytimeMode>
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
-  <MustChoosePermadeath>Por favor, elige el modo: "Comprometido" o "Recarga en cualquier momento".</MustChoosePermadeath>
+  <MustChoosePermadeath>Por favor, elige el modo: "Comprometido" o "Recargar en cualquier momento".</MustChoosePermadeath>
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
   <ReloadAnytimeModeInfo>Puede guardar y cargar el juego en cualquier momento.\n\nEsta no es una mala elección si todavía está aprendiendo el juego, si se ajusta a su estilo de juego personal o objetivos, si está utilizando mods que pueden dañar su juego, o si usted tiene la intención de autoaplicar el modo de compromiso.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
@@ -365,7 +365,7 @@
   <!-- EN: Adjust the cost of rearming turrets. -->
   <Difficulty_MaintenanceCostFactor_Info>Ajusta el costo de rearmar las torretas.</Difficulty_MaintenanceCostFactor_Info>
   <!-- EN: Scaria rot chance -->
-  <Difficulty_ScariaRotChance_Label>Probabilidad de putrefacción por escariosis</Difficulty_ScariaRotChance_Label>
+  <Difficulty_ScariaRotChance_Label>Prob. de putrefacción por escariosis</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
   <Difficulty_ScariaRotChance_Info>La probabilidad de que un cadáver se pudra inmediatamente después de la muerte, si la criatura está enferma con escariosis.\n\n Nota: La configuración por defecto está diseñada para equilibrar exactamente el aumento del número de animales en dificultades más altas, de modo que todos los jugadores obtengan las mismas recompensas de carne.</Difficulty_ScariaRotChance_Info>
   <!-- EN: Enemy death on downed -->
@@ -467,13 +467,13 @@
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
-  <SelectStartingSite>Seleccione el lugar de inicio</SelectStartingSite>
+  <SelectStartingSite>Selecciona el lugar de inicio</SelectStartingSite>
   <!-- EN: Select random site -->
   <SelectRandomSite>Elegir lugar aleatorio</SelectRandomSite>
   <!-- EN: Select site -->
   <SelectSite>Seleccionar lugar</SelectSite>
   <!-- EN: Please select a site. -->
-  <MustSelectStartingSite>Por favor, seleccione un sitio.</MustSelectStartingSite>
+  <MustSelectStartingSite>Por favor, selecciona un lugar.</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>No puedes aterrizar en este bioma: {0}</CannotLandBiome>
   <!-- EN: Biome not implemented -->
@@ -551,7 +551,7 @@
   <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
   <PawnSummary>{PAWN_race}, edad {PAWN_ageFull}</PawnSummary>
   <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, edad {PAWN_ageFull}</PawnSummaryWithGender>
+  <PawnSummaryWithGender>{PAWN_race} {PAWN_gender}, edad {PAWN_ageFull}</PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>Trasfondo</Backstory>
   <!-- EN: Incapable of -->
