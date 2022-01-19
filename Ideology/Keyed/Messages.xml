@@ -36,18 +36,18 @@
   <!-- EN: You must choose a role. -->
   <MessageRoleChangeChooseDifferentRole>Debes elegir un rol.</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>Antes de iniciar el {1}, debe asignar a alguien el papel de {0}.</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>Antes de iniciar: {1}, debes asignar a alguien el rol de {0}.</MessageNeedAssignedRoleToBeginRitual>
   <!-- EN: Need at least one {0} participating. -->
   <MessageNeedAtLeastOneParticipantOfIdeo>Necesita al menos un(a) {0} que participe.</MessageNeedAtLeastOneParticipantOfIdeo>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
-  <MessageRoleAssigned>{0_labelShort} tiene ahora el papel de {1}.</MessageRoleAssigned>
+  <MessageRoleAssigned>{0_labelShort} tiene ahora el rol de {1}.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>Desde que {0_labelShort} se convirtió en prisioner{0_gender ? o : a}, {0_pronoun} ya no puede desempeñar el papel de {1}.</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>Desde que {0_labelShort} se convirtió en prisioner{0_gender ? o : a}, {0_pronoun} ya no puede desempeñar el rol de {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
   <MessageWarningPlayerDesignatedTreeChopped>Advertencia: {0} se molestará si se tala un árbol.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>Advertencia: {0} se molestará si se produce la minería.</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>Advertencia: {0} se molestará si se mina algo.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
   <MessageConnectedPawnDied>El {TREE_label} rompió la conexión con {PAWN_nameDef}. Debe recuperarse durante {DURATION} antes de volver a conectarse.</MessageConnectedPawnDied>
 
