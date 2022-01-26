@@ -84,9 +84,9 @@
     <li>setup->Golpeado por la maldad del mundo, [founderName] estudió la historia y la filosofía y descubrió la nueva verdad que nos guía.</li>
     <li>setup->Un día mientras trabajaba, [founderName] fue golpeado por una gran epifanía. [founder_pronoun] dejó caer sus herramientas y comenzó a esparcir su palabra entre los demás trabajadores.</li>
     <li>setup->[founderName] se sentó en un banco del parque durante veinte años mientras contemplaba nuestro mundo. Con su perspicacia, [founder_pronoun] escribió nuestro libro fundacional.</li>
-    <li>story(uses=1,priority=-10)->El grupo de [memberNamePlural] no habrían comprendido la verdadera naturaleza de [memeConceptDef] sin las enseñanzas de [founderName].</li>
+    <li>story(uses=1,priority=-10)->El grupo de [memberNamePlural] no habrían comprendido la verdadera naturaleza de[memeConceptDef] sin las enseñanzas de [founderName].</li>
     <li>story(uses=1,priority=-10)->El discurso de [founderName] en un ritual de [ritualName] inspiró a muchos a llevar una vida [memeAdjectiveFem].</li>
-    <li>story(uses=1,priority=-10)->Ninguno pudo superar la comprensión de [founderName] de [memeConceptDef], y [founderName] fue nombrado el primer [leaderTitle] de los [memberNamePlural].</li>
+    <li>story(uses=1,priority=-10)->Ninguno pudo superar la comprensión de [founderName] de[memeConceptDef], y [founderName] fue nombrado el primer [leaderTitle] de los [memberNamePlural].</li>
     <li>story(uses=1,priority=-10)->[founderName] llevaba un(a) [relic0_thingDef_label] de nombre [relic0_name] con [founder_pronoun] a todas partes para recordar a la gente que debía vivir una vida [memeAdjectiveFem].</li>
   </IdeologicalFounder.rules.rulesStrings>
   
@@ -173,21 +173,32 @@
     <li>attributionSource->Vida de un [attributionJob]</li>
     <li>attributionJob->[place_job] [memeAdjective]</li>
     <li>attributionJob->[place_job]</li>
-    <li>memeConference(p=3)->El(La) [conferencePrefix] [conferenceType] de [memeConcept]</li>
-    <li>memeConference(p=3)->El(La) [conferenceType] [conferencePrefix] de [memeConcept]</li>
-    <li>memeConference(p=2)->El(La) [conferenceType] de [memeConcept]</li>
+    <li>memeConference(p=3)->El [conferencePrefix] [conferenceType] de[memeConceptDef]</li>
+    <li>memeConference(p=3)->La [conferencePrefix1] [conferenceType1] de[memeConceptDef]</li>
+    <li>memeConference(p=3)->El [conferenceType] [conferencePrefix] de[memeConceptDef]</li>
+    <li>memeConference(p=3)->La [conferenceType1] [conferencePrefix1] de[memeConceptDef]</li>
+    <li>memeConference(p=2)->El [conferenceType] de[memeConceptDef]</li>
+    <li>memeConference(p=2)->La [conferenceType1] de[memeConceptDef]</li>
     <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
-    <li>conferencePrefix->Primer(a)</li>
-    <li>conferencePrefix->Segundo(a)</li>
-    <li>conferencePrefix->Tercero(a)</li>
-    <li>conferencePrefix->Cuarto(a)</li>
-    <li>conferencePrefix->Último(a)</li>
-    <li>conferenceSufij->Interplanetario(a)</li>
-    <li>conferenceSufij->Planetario(a)</li>
+    <li>conferencePrefix->Primer</li>
+    <li>conferencePrefix->Segundo</li>
+    <li>conferencePrefix->Tercero</li>
+    <li>conferencePrefix->Cuarto</li>
+    <li>conferencePrefix->Último</li>
+    <li>conferencePrefix1->Primera</li>
+    <li>conferencePrefix1->Segunda</li>
+    <li>conferencePrefix1->Tercera</li>
+    <li>conferencePrefix1->Cuarta</li>
+    <li>conferencePrefix1->Última</li>
+    <li>conferenceSufij->Interplanetario</li>
+    <li>conferenceSufij->Planetario</li>
     <li>conferenceSufij->Universal</li>
-    <li>conferenceType->Conferencia</li>
-    <li>conferenceType->Asamblea</li>
-    <li>conferenceType->Reunión</li>
+    <li>conferenceSufij1->Interplanetaria</li>
+    <li>conferenceSufij1->Planetaria</li>
+    <li>conferenceSufij1->Universal</li>
+    <li>conferenceType1->Conferencia</li>
+    <li>conferenceType1->Asamblea</li>
+    <li>conferenceType1->Reunión</li>
     <li>conferenceType->Debate</li>
     <li>conferenceType->Foro</li>
     <li>speech->Discurso</li>
@@ -249,7 +260,7 @@
   <TheistFounder.rules.rulesStrings>
     <li>intro->El pueblo del [place_summary] [place_name] vivía bajo la supervisión [memeAdjectiveFem] de [deity0_name].</li>
     <li>intro->Los habitantes del [place_summary] [place_name], tanto los [memberNamePlural] como otros, vivieron en paz durante muchos años bajo la atenta mirada de [deity0_name].</li>
-    <li>intro->[deity0_type], [deity0_name], se reveló así mismo al pueblo de [place_name] para que entendieran a [memeConceptDef], y los guió.</li>
+    <li>intro->[deity0_type], [deity0_name], se reveló así mismo al pueblo de [place_name] para que entendieran el comcepto de[memeConceptDef], y los guió.</li>
     <li>intro->[deity0_name] guió a la humanidad hasta [place_name] y la ayudó a establecerse allí.</li>
     <li>intro->En el [place_summary] [place_name], durante el(la) [ritualName], la gente venía a [altarName] en el(la) [altarRoomLabel] de [deity0_name] y rezaba con [memeConcept] en sus corazones.</li>
     <li>conflict->Un [foeLeader] se levantó y amenazó con destruir al propio [deity0_name] usando [place_massWeapon].</li>

@@ -88,7 +88,7 @@
     <li>memeCreedFem->manada</li>
     <li>memeCreedFem->multitud</li>
     <li>memeConcept->animales</li>
-    <li>memeConceptDef->los animales</li>
+    <li>memeConceptDef-> los animales</li>
     <li>memeLeaderNoun->bestia</li>
     <li>memeLeaderNoun->animal</li>
     <li>memeLeaderAdjective->alfa</li>
@@ -191,10 +191,10 @@
     <li>memeConcept->visión</li>
     <li>memeConcept->vista</li>
     <li>memeConcept->percepción</li>
-    <li>memeConceptDef->la ceguera</li>
-    <li>memeConceptDef->la visión</li>
-    <li>memeConceptDef->la vista</li>
-    <li>memeConceptDef->la percepción</li>
+    <li>memeConceptDef-> la ceguera</li>
+    <li>memeConceptDef-> la visión</li>
+    <li>memeConceptDef-> la vista</li>
+    <li>memeConceptDef-> la percepción</li>
     <li>memeLeaderNoun->visionario</li>
     <li>memeLeaderAdjective->ciego</li>
     <li>memeMoralist->vidente</li>
@@ -276,10 +276,10 @@
     <li>memeConcept->homicidio</li>
     <li>memeConcept->alimentación</li>
     <li>memeConcept->carne</li>
-    <li>memeConceptDef->la sangre</li>
-    <li>memeConceptDef->el homicidio</li>
-    <li>memeConceptDef->la alimentación</li>
-    <li>memeConceptDef->la carne</li>
+    <li>memeConceptDef-> la sangre</li>
+    <li>memeConceptDef->l homicidio</li>
+    <li>memeConceptDef-> la alimentación</li>
+    <li>memeConceptDef-> la carne</li>
     <li>memeLeaderNoun->devorador</li>
     <li>memeLeaderNoun->chef</li>
     <li>memeLeaderNoun->chupasangre</li>
@@ -376,11 +376,11 @@
     <li>memeConcept->oscuridad</li>
     <li>memeConcept->tiniebla</li>
     <li>memeConcept->oscurecimiento</li>
-    <li>memeConceptDef->la oscuridad</li>
-    <li>memeConceptDef->las tinieblas</li>
-    <li>memeConceptDef->el oscurecimiento</li>
+    <li>memeConceptDef-> la oscuridad</li>
+    <li>memeConceptDef-> las tinieblas</li>
+    <li>memeConceptDef->l oscurecimiento</li>
     <li>memeLeaderNoun->velador</li>
-    <li>memeLeaderNoun->mataluz</li>
+    <li>memeLeaderNoun->centinela</li>
     <li>memeLeaderAdjective->oscuro</li>
     <li>memeMoralist->nox</li>
     <li>memeMoralist->oscurecedor</li>
@@ -416,7 +416,7 @@
     <li>conflict(tag=meme_FleshPurity)        ->Un malvado [foeLeader] envió a sus [foeSoldiers] a inyectar a todos con dispositivos de seguimiento.</li>
     <li>founderJoin(tag=meme_FleshPurity)     ->Un [place_job] llamado [founderName] protestó contra [foeLeader] arrodillándose frente al [place_powerCenter] y arrancándose toda la tecnología de su cuerpo con sus manos.</li>
     <li>victory(tag=meme_FleshPurity)         ->El [foeLeader] finalmente envió a los [foeSoldiers] a matar a los [memberNamePlural], pero la energía de [deity0_name] fluyó desde la carne pura de los [memberNamePlural], y los dispositivos en los cuerpos de los [foeSoldiers] se convirtieron en cenizas y los mataron.</li>
-    <li>setup(tag=meme_FleshPurity)           ->[founderName] arruinó su cuerpo con implantes y drogas, hasta que en una epifanía, [founder_pronoun] se salvó a si mismo arrancando el acero de su cuerpo.</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName] arruinó su cuerpo con implantes y drogas, hasta que en una epifanía, [founder_pronoun] se salvó a si mism{founder_gender ? o : a} arrancando el acero de su cuerpo.</li>
     <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName] instruyó a todos sus seguidores de arrancarse los sucios dispositivos de sus cuerpos.</li>
     <li>lessonIntro(tag=meme_FleshPurity)         ->Los diez primeros de mis seguidores se arrancaron los dispositivos de la piel con las manos, y en las salpicaduras de sangre en el suelo mugriento percibí de repente la verdad que todos habíamos estado perdiendo:</li>
     <li>lesson(tag=meme_FleshPurity)              ->vivir en un cuerpo contaminado no es vida humana en absoluto</li>
@@ -452,9 +452,9 @@
     <li>memeConcept->carne</li>
     <li>memeConcept->pureza</li>
     <li>memeConcept->inmaculación</li>
-    <li>memeConceptDef->la carne</li>
-    <li>memeConceptDef->la pureza</li>
-    <li>memeConceptDef->la inmaculación</li>
+    <li>memeConceptDef-> la carne</li>
+    <li>memeConceptDef-> la pureza</li>
+    <li>memeConceptDef-> la inmaculación</li>
     <li>memeLeaderNoun->ente</li>
     <li>memeLeaderNoun->humano</li>
     <li>memeMoralist->acrisolardor</li>
@@ -553,9 +553,9 @@
     <li>memeConcept->drogas</li>
     <li>memeConcept->felicidad</li>
     <li>memeConcept->sueños</li>
-    <li>memeConceptDef->los sueños</li>
-    <li>memeConceptDef->las drogas</li>
-    <li>memeConceptDef->la felicidad</li>
+    <li>memeConceptDef-> los sueños</li>
+    <li>memeConceptDef-> las drogas</li>
+    <li>memeConceptDef-> la felicidad</li>
     <li>memeHyphenPrefix->droga</li>
     <li>memeHyphenPrefix->narco</li>
     <li>memeLeaderNoun->durmiente</li>
@@ -663,8 +663,8 @@
     <li>memeHyphenPrefix->piel</li>
     <li>memeConcept->desnudez</li>
     <li>memeConcept->piel</li>
-    <li>memeConceptDef->la desnudez</li>
-    <li>memeConceptDef->la piel</li>
+    <li>memeConceptDef-> la desnudez</li>
+    <li>memeConceptDef-> la piel</li>
     <li>memeLeaderNoun->mundano</li>
     <li>memeLeaderNoun->respirador</li>
     <li>memeLeaderNoun->tocador</li>
@@ -773,11 +773,11 @@
     <li>memeConcept->tortura</li>
     <li>memeConcept->sufrimiento</li>
     <li>memeConcept->sangre</li>
-    <li>memeConceptDef->el dolor</li>
-    <li>memeConceptDef->el tormento</li>
-    <li>memeConceptDef->la tortura</li>
-    <li>memeConceptDef->el sufrimiento</li>
-    <li>memeConceptDef->la sangre</li>
+    <li>memeConceptDef->l dolor</li>
+    <li>memeConceptDef->l tormento</li>
+    <li>memeConceptDef-> la tortura</li>
+    <li>memeConceptDef->l sufrimiento</li>
+    <li>memeConceptDef-> la sangre</li>
     <li>memeLeaderNoun->torturador</li>
     <li>memeLeaderNoun->agonizante</li>
     <li>memeLeaderNoun->flagelador</li>
@@ -883,7 +883,7 @@
     <li>memeAdjectiveFem->real</li>
     <li>memeHyphenPrefix->verdad</li>
     <li>memeConcept->verdad</li>
-    <li>memeConceptDef->la verdad</li>
+    <li>memeConceptDef-> la verdad</li>
     <li>memeLeaderNoun->orador</li>
     <li>memeMoralist->proselitista</li>
     <li>memeMoralist->convertidor</li>
@@ -982,10 +982,10 @@
     <li>memeConcept->robo</li>
     <li>memeConcept->piratería</li>
     <li>memeConcept->asalto</li>
-    <li>memeConceptDef->saqueo</li>
-    <li>memeConceptDef->robo</li>
-    <li>memeConceptDef->piratería</li>
-    <li>memeConceptDef->asalto</li>
+    <li>memeConceptDef->l saqueo</li>
+    <li>memeConceptDef->l robo</li>
+    <li>memeConceptDef-> la piratería</li>
+    <li>memeConceptDef->l asalto</li>
     <li>memeLeaderNoun->superior</li>
     <li>memeLeaderNoun->capitán</li>
     <li>memeLeaderNoun->capataz</li>
@@ -1101,7 +1101,7 @@
     <li>memeAdjectiveFem->campestre</li>
     <li>memeHyphenPrefix->rancho</li>
     <li>memeConcept->ganadería</li>
-    <li>memeConceptDef->la ganadería</li>
+    <li>memeConceptDef-> la ganadería</li>
     <li>memeLeaderNoun->ganadero</li>
     <li>memeLeaderNoun->ranchero</li>
     <li>memeLeaderNoun->vaquero</li>
@@ -1223,15 +1223,15 @@
     <li>memeConcept->artificial</li>
     <li>memeConcept->aumento</li>
     <li>memeConcept->mejora</li>
-    <li>memeConceptDef->el silicon</li>
-    <li>memeConceptDef->lo artificial</li>
-    <li>memeConceptDef->el aumento</li>
-    <li>memeConceptDef->la mejora</li>
-    <li>memeLeaderNoun->cibernético</li>
+    <li>memeConceptDef->l silicon</li>
+    <li>memeConceptDef-> lo artificial</li>
+    <li>memeConceptDef->l aumento</li>
+    <li>memeConceptDef-> la mejora</li>
+    <li>memeLeaderNoun->informático</li>
     <li>memeLeaderNoun->superusuario</li>
     <li>memeLeaderNoun->amplificado</li>
-    <li>memeLeaderAdjective->tecno</li>
-    <li>memeLeaderAdjective->ciber</li>
+    <li>memeLeaderAdjective->tecnológico</li>
+    <li>memeLeaderAdjective->cibernético</li>
     <li>memeMoralist->instalador</li>
     <li>memeMoralist->reparador</li>
     <li>memeMoralist->mejorador</li>
@@ -1359,8 +1359,8 @@
     <li>memeCreed->bosque</li>
     <li>memeConcept->árboles</li>
     <li>memeConcept->bosques</li>
-    <li>memeConceptDef->los árboles</li>
-    <li>memeConceptDef->los bosques</li>
+    <li>memeConceptDef-> los árboles</li>
+    <li>memeConceptDef-> los bosques</li>
     <li>memeAdjective->robusto</li>
     <li>memeAdjective->corteza</li>
     <li>memeAdjectiveFem->robusta</li>
@@ -1372,7 +1372,7 @@
     <li>memeLeaderNoun->druida</li>
     <li>memeLeaderAdjective->verde</li>
     <li>memeLeaderAdjective->radicular</li>
-    <li>memeLeaderAdjective->follaje</li>
+    <li>memeLeaderAdjective->frondoso</li>
     <li>memeMoralist->orador arbolístico</li>
   </TreeConnection.generalRules.rulesStrings>
   
@@ -1460,9 +1460,9 @@
     <li>memeConcept->tierra</li>
     <li>memeConcept->piedra</li>
     <li>memeConcept->profundidad</li>
-    <li>memeConceptDef->la tierra</li>
-    <li>memeConceptDef->la piedra</li>
-    <li>memeConceptDef->la profundidad</li>
+    <li>memeConceptDef-> la tierra</li>
+    <li>memeConceptDef-> la piedra</li>
+    <li>memeConceptDef-> la profundidad</li>
     <li>memeLeaderNoun->excavador</li>
     <li>memeLeaderNoun->sondador</li>
     <li>memeLeaderNoun->rodador</li>

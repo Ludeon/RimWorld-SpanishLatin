@@ -82,7 +82,7 @@
   <!-- EN: Plant a {0_label} in a chosen area. -->
   <PlantThingDesc>Plantar un(a) {0_label} en una zona elegida.</PlantThingDesc>
   <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>Cancelar plantación {0_label}</CancelPlantThing>
+  <CancelPlantThing>Cancelar plantación de {0_label}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
   <CancelPlantThingDesc>Cancelar la plantación de {0_label}.</CancelPlantThingDesc>
   <!-- EN: Disables -->
@@ -182,11 +182,11 @@
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Altar, ideograma o cualquier zona ritual.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>Una bola giratoria o una zona ritual. La bola giratoria y los altavoces deben estar alimentados.</RitualTargetLightBallInfo>
+  <RitualTargetLightBallInfo>Una bola giratoria o una zona ritual. La bola giratoria y los altavoces deben estar conectados a una fuente de energía.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
-  <RitualTargetLightBallIsNotPowered>La bola giratoria no está alimentada.</RitualTargetLightBallIsNotPowered>
+  <RitualTargetLightBallIsNotPowered>La bola giratoria no tiene energía.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
-  <RitualTargetNoPoweredSpeakers>No hay altavoces alimentados.</RitualTargetNoPoweredSpeakers>
+  <RitualTargetNoPoweredSpeakers>altavoces sin energía.</RitualTargetNoPoweredSpeakers>
   <!-- EN: Campfire is not fueled. -->
   <RitualTargetCampfireNoFuel>La fogata no tiene combustible.</RitualTargetCampfireNoFuel>
   <!-- EN: Campfire must be unroofed. -->
@@ -204,7 +204,7 @@
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Ya está conectado a {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
-  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} tuvo su conexión cortada recientemente. Puede volver a conectarse en {1}.</RitualTargetConnectionTornGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} sufrió una interrupción de conexión recientemente. Puede volver a conectarse en {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Necesitas {0} madera para cada participante ({2} en total). Tienes {1} madera.</RitualTargeWoodInfo>
   <!-- EN: Accuse -->
