@@ -56,7 +56,7 @@
   <AreaRevealedWithMechanoids>Se ha descubierto una nueva área. ¡Contiene antiguos mecanoides hostiles!</AreaRevealedWithMechanoids>
 
   <!-- EN: A roof has collapsed because it was too far from any support. -->
-  <RoofCollapsed>Un techo se ha colapsado porque estaba muy lejos de cualquier soporte.</RoofCollapsed>
+  <RoofCollapsed>Un techo ha colapsado porque estaba muy lejos de cualquier soporte.</RoofCollapsed>
   <!-- EN: These things were crushed: -->
   <TheseThingsCrushed>Las siguientes cosas o seres vivos han resultado aplastadas:</TheseThingsCrushed>
   <!-- EN: Nothing was crushed. -->
@@ -77,7 +77,7 @@
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>¡Hoy es el cumpleaños cronológico de {0}! Biológicamente, {1} tiene {3} años.\n\nCronologicamente, {1} ha cumplido {2} años.\n\nToma en cuenta que como las personas no envejecen durante el criptosueño, el cumpleaños cronológico es diferente del biológico.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
-  <BirthdayBiologicalAgeInjuries>{0_nameFull} ha llegado a la edad biológica de {1} años.\n\nDesafortunadamente, {0_nameFull} ha desarrollado la siguiente enfermedad debido al envejecimiento:\n{2}</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>{0_nameFull} ha llegado a la edad biológica de {1}.\n\nDesafortunadamente, {0_nameFull} ha desarrollado la siguiente enfermedad debido al envejecimiento:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Enfermedad</LetterLabelNewDisease>
@@ -167,9 +167,9 @@
 
   <!-- Related pawns -->
   <!-- EN: Relationship -->
-  <LetterLabelNoticedRelatedPawns>Familia</LetterLabelNoticedRelatedPawns>
+  <LetterLabelNoticedRelatedPawns>Relación</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>Hay conocidos de tus {0} o prisioneros en el grupo de {1}.\n\nTen presente que, aunque se conozcan, aún así se atacarán debido a las malas relaciones entre las facciones.\n\nEstas personas son:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>Hay personas que están relacionados con tus {0} o prisioneros en el grupo de {1}.\n\nTen presente que, aunque se conozcan, aun así se atacarán debido a las malas relaciones entre las facciones.\n\nEstas personas son:</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
   <LetterRelatedPawnsRaidFriendly>Hay personas que están relacionados con tus {0} o prisioneros en el grupo de amistosos que llega de {1}:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
@@ -304,13 +304,13 @@
   <!-- EN: Distant resource scanned -->
   <LetterLabelFoundPreciousLump>Minerales preciosos encontrados</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Usando su escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado cerca un cúmulo de {0}.\n\nDesafortunadamente, no durará, otros lo explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Usando tu escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado cerca una veta de {0}.\n\nDesafortunadamente, no durará, otros lo explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
   <LetterLabelDeepScannerFoundLump>Escaneado bajo tierra</LetterLabelDeepScannerFoundLump>
   <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
-  <LetterDeepScannerFoundLump>¡{FINDER_nameDef} ha encontrado un trozo de {0} enterrado usando el escáner que penetra en el suelo!</LetterDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>¡{FINDER_nameDef} ha encontrado una veta de {0} enterrada usando el escáner que penetra en el suelo!</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -322,9 +322,9 @@
   <!-- EN: Peace talks disaster -->
   <LetterLabelPeaceTalks_Disaster>Charlas de paz desastrozas</LetterLabelPeaceTalks_Disaster>
   <!-- EN: The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}. -->
-  <LetterPeaceTalks_Disaster>Las charlas fueron un desastre. Los delegados apenas dieron sus saludos iniciales antes de que la discusión se convirtiera en insultos y recriminaciones.\n\nDespués de que tu caravana partiera temprano, {0} de {1} lo(a) atrapó y atacó!\n\nRelaciones con {1}: {2}.</LetterPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>Las charlas fueron un desastre. Los delegados apenas dieron sus saludos iniciales antes de que la discusión se convirtiera en insultos y recriminaciones.\n\nDespués de que tu caravana partiera temprano, {0} de {1} la alcanzó y atacó!\n\nRelaciones con {1}: {2}.</LetterPeaceTalks_Disaster>
   <!-- EN: Peace talks backfire -->
-  <LetterLabelPeaceTalks_Backfire>Las Charlas de paz fracasaron</LetterLabelPeaceTalks_Backfire>
+  <LetterLabelPeaceTalks_Backfire>Las charlas de paz fracasaron</LetterLabelPeaceTalks_Backfire>
   <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->
   <LetterPeaceTalks_Backfire>Las charlas han fracasado. A pesar de intercambiar algunos cumplidos, los delegados no avanzaron en cuestiones sustantivas, y las múltiples declaraciones se interpretaron como insultos.\n\nRelaciones con {0}: {1}.</LetterPeaceTalks_Backfire>
   <!-- EN: Peace talks flounder -->
@@ -336,15 +336,15 @@
   <!-- EN: The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}. -->
   <LetterPeaceTalks_Success>Las charlas fueron un éxito. Los delegados alcanzaron una nueva comprensión mutua sobre varios asuntos importantes.\n\nLas relaciones con {0} mejoraron en {1}.</LetterPeaceTalks_Success>
   <!-- EN: Peace talks triumph -->
-  <LetterLabelPeaceTalks_Triumph>Las Charlas de paz triunfan</LetterLabelPeaceTalks_Triumph>
+  <LetterLabelPeaceTalks_Triumph>Las charlas de paz triunfan</LetterLabelPeaceTalks_Triumph>
   <!-- EN: The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2} -->
-  <LetterPeaceTalks_Triumph>¡Las charlas fueron un gran triunfo! Los delegados se conectaron rápidamente a nivel personal y llegaron a ver realmente la perspectiva de los demás sobre los problemas más difíciles del día.\n\nLas relaciones con {0} mejoraron en {1}.\n\nComo tu caravana partió, el delegado de {0} te ofreció un regalo: {2}.</LetterPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>¡Las charlas fueron un gran triunfo! Los delegados se conectaron rápidamente a nivel personal y llegaron a ver realmente la perspectiva de los demás sobre los problemas más difíciles del día.\n\nLas relaciones con {0} mejoraron en {1}.\n\nComo tu caravana partió, el delegado de {0} te ofreció un regalo:\n\n{2}</LetterPeaceTalks_Triumph>
   <!-- EN: {PAWN_labelShort}, your negotiator, has gained {1} social experience. -->
-  <PeaceTalksSocialXPGain>{PAWN_labelShort}, tu negociador, ha ganado {1} de experiencia social</PeaceTalksSocialXPGain>
+  <PeaceTalksSocialXPGain>{PAWN_labelShort}, tu negociador, ha ganado {1} de experiencia social.</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
-  <LetterRunWildMentalBreak>{0} está harto de la civilización.\n\n{PAWN_pronoun} se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, {PAWN_pronoun} ha decidido dejar su facción y vivir con los animales.\n\nPuedes intentar domar o arrestar{PAWN_objective} para recuperar{PAWN_objective}.</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0} está hart{PAWN_gender ? o : a} de la civilización.\n\n{PAWN_pronoun} se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, ha decidido dejar tu facción y vivir con los animales.\n\nPuedes intentar domar o arrestar{PAWN_objective} para recuperar{PAWN_objective}.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
@@ -353,7 +353,7 @@
   <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>Oferta de núcleo de IA</LetterLabelAICoreOffer>
   <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
-  <LetterAICoreOffer>{PAWN_definite} de {1} se pone en contacto contigo con una oferta de información: la ubicación de un núcleo de IA, que necesitará para construir una nave espacial. Te informan que este objeto es bastante raro y por lo general sus propietarios lo tienen bajo fuerte vigilancia.\n\nLlámalos con tu consola de comunicaciones si estás interesado.</LetterAICoreOffer>
+  <LetterAICoreOffer>{PAWN_definite} de {1} se pone en contacto contigo con una oferta de información: la ubicación de un núcleo de IA, que necesitarás para construir una nave espacial. Te informan que este objeto es bastante raro y por lo general sus propietarios lo tienen bajo fuerte vigilancia.\n\nLlámalos con tu consola de comunicaciones si te interesa.</LetterAICoreOffer>
 
   <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
@@ -374,7 +374,7 @@
   <!-- EN: Caravan lost -->
   <LetterLabelPawnsLostBecauseMapClosed_Caravan>Caravana perdida</LetterLabelPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Your caravan has been lost. The following people and animals have been lost with it -->
-  <LetterPawnsLostBecauseMapClosed_Caravan>Su caravana se ha perdido. Las siguientes personas y animales se han perdido con él</LetterPawnsLostBecauseMapClosed_Caravan>
+  <LetterPawnsLostBecauseMapClosed_Caravan>Tu caravana se ha perdido. Las siguientes personas y animales se han perdido con esta</LetterPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Inhabitants abandoned -->
   <LetterLabelPawnsLostBecauseMapClosed_Home>Población abandonada</LetterLabelPawnsLostBecauseMapClosed_Home>
   <!-- EN: The following people and animals have been abandoned -->
@@ -384,7 +384,7 @@
   <!-- EN: Reactor ready -->
   <LetterLabelHibernateComplete>Reactor listo</LetterLabelHibernateComplete>
   <!-- EN: (*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
-  <LetterHibernateComplete>Charlon Whitestone ha terminado la secuencia de recuperación de hibernación del reactor. El reactor está listo para despegar.</LetterHibernateComplete>
+  <LetterHibernateComplete>(*Name)Charlon Whitestone(/Name) ha terminado la secuencia de recuperación de hibernación del reactor. El reactor está listo para despegar.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
   <LetterHibernateCompleteStandalone>La secuencia de encendido del reactor está completa. Ahora está listo para impulsar un despegue.</LetterHibernateCompleteStandalone>
 
@@ -396,7 +396,7 @@
 
   <!-- Faction base proximity -->
   <!-- EN: Faction base proximity -->
-  <LetterLabelFactionBaseProximity>Proximidad de la base de la facción</LetterLabelFactionBaseProximity>
+  <LetterLabelFactionBaseProximity>Proximidad a base de facción</LetterLabelFactionBaseProximity>
   <!-- EN: Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by: -->
   <LetterFactionBaseProximity>Como estás tan cerca de otras facciones, sienten que estás invadiendo su territorio.\n\nPara el último quadrum, las relaciones entre las facciones se han reducido en:</LetterFactionBaseProximity>
 
@@ -404,7 +404,7 @@
   <!-- EN: Caravan battle won -->
   <LetterLabelCaravansBattlefieldVictory>Batalla de caravanas ganada</LetterLabelCaravansBattlefieldVictory>
   <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterCaravansBattlefieldVictory>Tu caravana ha ganado la batalla.\n\nPuedes reformar la caravana ahora en la pantalla de Mundo seleccionando el campo de batalla y eligiendo la opción "Reformar la caravana".\n\nNo hay necesidad de recoger los artículos manualmente, la herramienta de reforma de caravanas puede hacerlo al instante.\n\n En {0}, tu caravana será atacada por los enemigos. Empezarán a enviar fuerzas para atacar la caravana, a menos que sea reformada y se vaya.</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>Tu caravana ha ganado la batalla.\n\nPuedes reformar la caravana ahora en la pantalla de Mundo seleccionando el campo de batalla y eligiendo la opción "Reformar caravana".\n\nNo hay necesidad de recoger los artículos manualmente, la herramienta de reforma de caravanas puede hacerlo al instante.\n\nEn {0}, tu caravana será atacada por enemigos. Empezarán a enviar fuerzas para atacar la caravana, a menos que sea reformada y se vaya.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
@@ -442,7 +442,7 @@
   <!-- EN: A new quest has become available. It is called '{0}'. -->
   <LetterQuestBecameAvailable>Una nueva misión esta disponible. Se llama "{0}".</LetterQuestBecameAvailable>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>Si no acepta la misión dentro de {0}, caducará.</LetterQuestRequiresAcceptance>
+  <LetterQuestRequiresAcceptance>Si no aceptas la misión dentro de {0}, caducará.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
   <LetterQuestBecameActive>Se ha activado una nueva misión. Se llama "{0}".</LetterQuestBecameActive>
   <!-- EN: Quest active: {0} -->
@@ -460,7 +460,7 @@
   <!-- EN: {CARAVAN_label} received items -->
   <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label} artículos recibidos</LetterLabelQuestItemsAddedToCaravanInventory>
   <!-- EN: {CARAVAN_label} has received the following items:\n\n{THINGS} -->
-  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} ha recibido los siguientes artículos:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
+  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} has recibido los siguientes artículos:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
@@ -476,7 +476,7 @@
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
-  <LetterLabelPawnsArriveAndJoin>Se unieron personas</LetterLabelPawnsArriveAndJoin>
+  <LetterLabelPawnsArriveAndJoin>Personas se unen</LetterLabelPawnsArriveAndJoin>
   <!-- EN: The following people have arrived and joined the colony:\n\n{0} -->
   <LetterPawnsArriveAndJoin>Las siguientes personas llegaron y se unieron a la colonia:\n\n{0}</LetterPawnsArriveAndJoin>
 
@@ -488,15 +488,15 @@
 
   <!-- Pawn leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnLeaving>{0} se está yendo</LetterLabelPawnLeaving>
+  <LetterLabelPawnLeaving>{0} se va</LetterLabelPawnLeaving>
   <!-- EN: {0} is leaving. -->
-  <LetterPawnLeaving>{0} se va.</LetterPawnLeaving>
+  <LetterPawnLeaving>{0} se está yendo.</LetterPawnLeaving>
 
   <!-- Pawns leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnsLeaving>{0} se está yendo</LetterLabelPawnsLeaving>
+  <LetterLabelPawnsLeaving>{0} se van</LetterLabelPawnsLeaving>
   <!-- EN: {0} are leaving. -->
-  <LetterPawnsLeaving>{0} se van.</LetterPawnsLeaving>
+  <LetterPawnsLeaving>{0} se están yendo.</LetterPawnsLeaving>
   
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
@@ -540,7 +540,7 @@
   <LetterBladelinkWeaponBondedLabel>Vinculación de IA: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial (IA) de está arma: {WEAPON_labelShort}.\nDe ahora en adelante, esta arma: {WEAPON_labelShort} se negará a ser manejada por nadie, excepto por {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial (IA) de está arma: {WEAPON_labelShort}.\nDe ahora en adelante, esta arma: {WEAPON_labelShort} se negará a ser manejada por nadie, a excepción de {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
@@ -551,6 +551,6 @@
   <!-- EN: Caravan detected -->
   <LetterLabelSiteCountdownStarted>Caravana detectada</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
-  <LetterTextSiteCountdownStarted>Tu caravana ha sido detectada. En {0}, el refuerzo {1} de {2} comenzará a llegar a la zona.\n\nReforme su caravana y comience a moverse para evitar a {1}. Un temporizador en cuenta regresiva para su llegada es ahora visible.</LetterTextSiteCountdownStarted>
+  <LetterTextSiteCountdownStarted>Tu caravana ha sido detectada. En {0}, el refuerzo {1} de {2} comenzará a llegar a la zona.\n\nReforma tu caravana y comienza a moverte para evitar a {1}. Ahora es visible un temporizador en cuenta regresiva para su llegada.</LetterTextSiteCountdownStarted>
 
 </LanguageData>
