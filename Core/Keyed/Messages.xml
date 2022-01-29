@@ -33,7 +33,7 @@
   <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
   <MessageVisitorsTrappedLeaving>Los {0} de {1} han quedado atrapados y están excavando para escapar.</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
-  <MessageVisitorsDangerousTemperature>Los {0} de {1} estan abandonando el mapa por las temperaturas peligrosas.</MessageVisitorsDangerousTemperature>
+  <MessageVisitorsDangerousTemperature>Los {0} de {1} están abandonando el mapa por las temperaturas peligrosas.</MessageVisitorsDangerousTemperature>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>El siguiente artículo: "{0}" que vestía {1_nameFull} se ha deshecho por completo.</MessageWornApparelDeterioratedAway>
@@ -41,7 +41,7 @@
   <MessageDeterioratedAway>{0} se ha deteriorado en el almacén.</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
-  <MessageSeasonBegun>Ahora es {0}.</MessageSeasonBegun>
+  <MessageSeasonBegun>{0_gender ? El : La} {0} ha comenzado.</MessageSeasonBegun>
 
   <!-- EN: {0} has left comms range. -->
   <MessageShipHasLeftCommsRange>La nave de {0} ha salido del rango.</MessageShipHasLeftCommsRange>
@@ -116,9 +116,9 @@
   <!-- EN: Must designate abandoned artificial structures. -->
   <MessageMustDesignateClaimable>Debes designar estructuras abandonadas.</MessageMustDesignateClaimable>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>Primero debes derrotar al grupo de mecanoides antes de poder desconstruirlos.</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateDeconstructibleMechCluster>Primero debes derrotar al clúster de mecas antes de poder desconstruirlos.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
-  <MessageMustDesignateSmoothableSurface>Debe designar superficies de piedra ásperas.</MessageMustDesignateSmoothableSurface>
+  <MessageMustDesignateSmoothableSurface>Debes designar superficies de piedra ásperas.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>Nada puede remover techos de roca natural.</MessageNothingCanRemoveThickRoofs>
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
@@ -185,7 +185,7 @@
   <MessageAttackedByPredator>¡{PREY_labelShort} está bajo el ataque de {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort} ha comenzado a alejarse! abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>¡{PAWN_labelShort} ha comenzado a alejarse! abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Una colmena insectoide se ha reproducido.</MessageHiveReproduced>
@@ -208,14 +208,14 @@
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
   <MessageMarriageCeremonyCalledOff>La ceremonia de matrimonio de {PAWN1_labelShort} y {PAWN2_labelShort} se ha cancelado.</MessageMarriageCeremonyCalledOff>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} have married. Colonists are now celebrating the occasion. -->
-  <MessageNewlyMarried>Se han casado {PAWN1_labelShort} y {PAWN2_labelShort}. Los colonos ahora celebran la ocasión.</MessageNewlyMarried>
+  <MessageNewlyMarried>{PAWN1_labelShort} y {PAWN2_labelShort} se han casado . Los colonos ahora celebran la ocasión.</MessageNewlyMarried>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
   <MessageMarriageCeremonyAfterPartyFinished>La ceremonia de matrimonio de {PAWN1_labelShort} y {PAWN2_labelShort} ha terminado.</MessageMarriageCeremonyAfterPartyFinished>
   
   <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
-  <MessageNewBondRelation>{HUMAN_labelShort} y {ANIMAL_labelShort} se han encariñado.</MessageNewBondRelation>
+  <MessageNewBondRelation>{HUMAN_labelShort} y {ANIMAL_labelShort} han formado un vínculo.</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>{HUMAN_labelShort} y {1} se han encariñado. {HUMAN_labelShort} {ANIMAL_objective} ha nombrado {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{HUMAN_labelShort} y {1} han formado un vínculo. {HUMAN_labelShort} le ha nombrado {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
   
   <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>{ANIMAL} ha tenido un colapso mental debido a la muerte de {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
@@ -228,7 +228,7 @@
   <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} ha removido con éxito el {HEDIFF} de {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
-  <MessageShipChunkDrop>Un pedazo de nave espacial ha caído cerca de aquí.</MessageShipChunkDrop>
+  <MessageShipChunkDrop>Unos pedazos de nave espacial han caído cerca de aquí. Puedes deconstruirlos para obtener recursos.</MessageShipChunkDrop>
 
   <!-- EN: Some items cannot be traded because of:  -->
   <MessageCannotSellItemsReason>Algunos objetos no pueden comercializarse porque: </MessageCannotSellItemsReason>
@@ -252,7 +252,7 @@
   <MessageRottedAwayInStorage>{1_label} se han echado a perder en el almacén.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
-  <MessageFoodPoisoning>{PAWN_labelShort} se ha intoxicado con: {FOOD_labelShort}. Causa: {2}</MessageFoodPoisoning>
+  <MessageFoodPoisoning>{PAWN_labelShort} se ha intoxicado con: {FOOD_labelShort}. Causa: {2}.</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0} ha sido sacado de la caravana.</MessagePawnLostWhileFormingCaravan>
@@ -325,14 +325,14 @@
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Tus cápsulas de transporte han llegado.</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
-  <MessageTransportPodsArrivedAndLost>Tus cápsulas de transporte han llegado, pero como no había ningun colono dentro, el contenido se ha perdido.</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndLost>Tus cápsulas de transporte han llegado, pero como no había ningún colono dentro, el contenido se ha perdido.</MessageTransportPodsArrivedAndLost>
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>Tus cápsulas de transporte han llegado. El contenido ha sido guardado en {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las cápsulas de transporte.</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingTransporterSingle>Shuttle se carga con la carga requerida y puede lanzarse cuando esté listo.</MessageFinishedLoadingTransporterSingle>
+  <MessageFinishedLoadingTransporterSingle>El transbordador se carga con la carga requerida y puede lanzarse cuando esté listo.</MessageFinishedLoadingTransporterSingle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Tu {1} no puede terminar de cargar las cápsulas de transporte porque algunos artículos o personas no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
@@ -355,7 +355,7 @@
   <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
   <MessageCantEquipIncapableOfShooting>No se puede equipar: {1_labelShort} es incapaz de disparar.</MessageCantEquipIncapableOfShooting>
   <!-- EN: Cannot equip: Incapable. -->
-  <MessageCantEquipIncapableOfManipulation>No se puede equipar: incapaz.</MessageCantEquipIncapableOfManipulation>
+  <MessageCantEquipIncapableOfManipulation>No se puede equipar: Es incapaz.</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
   <MessageCantWearApparelMissingBodyParts>No se puede usar: {1_labelShort} no tiene partes del cuerpo requeridas.</MessageCantWearApparelMissingBodyParts>
   <!-- EN: This person refuses to remove this. -->
@@ -383,7 +383,7 @@
   <MessageYouHaveToReformCaravanNow>Debes de reformar la caravana ahora. Todos los colonos que se queden serán abandonados.</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>Los {0} de {1} estan atacando tu {2}.</MessageDefendersAttacking>
+  <MessageDefendersAttacking>Los {0} de {1} están atacando tu {2}.</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
   <MessageMechanoidsAssembled>Mecanoides han sido ensamblados y defenderán su grupo.</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to assemble -->
@@ -392,9 +392,9 @@
   <MessageMechanoidsReinforcementsDrop>La baliza de aterrizaje de mecanoides ha convocado refuerzos y llegarán desde cápsulas de escape cercanas.</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>Para poder autoatenderse, {1_labelShort} debe de ser asignado con el trabajo de Doctor.</MessageSelfTendUnsatisfied>
+  <MessageSelfTendUnsatisfied>Para poder autoatenderse, {1_labelShort} debe ser asignado al trabajo de Médico.</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
-  <MessageCannotSelfTendEver>{1_labelShort} es incapaz de trabajar como Doctor, y por tanto no puede autoatenderse.</MessageCannotSelfTendEver>
+  <MessageCannotSelfTendEver>{1_labelShort} es incapaz de trabajar como Médico, y por tanto no puede autoatenderse.</MessageCannotSelfTendEver>
   
   <!-- EN: This tile is impassable. -->
   <MessageCantAddWaypointBecauseImpassable>Esta casilla es intransitable.</MessageCantAddWaypointBecauseImpassable>
@@ -414,12 +414,12 @@
   <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>El área es ahora segura, pero quedan algunas habitaciones sin explorar. Puedes seguir explorando o reformar la caravana en el mapa del mundo.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
-  <MessageCantBanishDownedPawn>No se puede expulsar a {1_labelShort} ya que [1_pronoun] no puede caminar.</MessageCantBanishDownedPawn>
+  <MessageCantBanishDownedPawn>No puedes expulsar a {1_labelShort} ya que [1_pronoun] no puede caminar.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
   <MessageSleepingPawnsWokenUp>{0} se han despertado.</MessageSleepingPawnsWokenUp>
   <!-- EN: Mech cluster buildings have been defeated. -->
-  <MessageMechClusterDefeated>Los edificios del grupo de mecas han sido derrotados.</MessageMechClusterDefeated>
+  <MessageMechClusterDefeated>Los edificios del clúster de mecas han sido derrotados.</MessageMechClusterDefeated>
 
   <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>Objeto producido: {0}.</MessageCompSpawnerSpawnedItem>
@@ -451,7 +451,7 @@
   <MessageWarningCavePlantsExposedToLight>Advertencia: {0} no puede vivir cuando se expone a la luz.</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} no puedo alcanzar a {OLDTARGET_label} así que [PAWN_pronoun] decidió reorientar [PAWN_possessive] ira hacia {TARGET_label}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} no puede alcanzar a {OLDTARGET_label} así que [PAWN_pronoun] decidió reorientar [PAWN_possessive] ira hacia {TARGET_label}.</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} no puede alcanzar a {OLDTARGET_label} así que {PAWN_pronoun} decidió reorientar {PAWN_possessive}s insultos hacia {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
@@ -552,7 +552,7 @@
   <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
   <MessageBillValidationPawnUnavailable>{0} ya no puede trabajar en "{1}" a {2}. Se ha eliminado la restricción.</MessageBillValidationPawnUnavailable>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
-  <MessageBillValidationIncludeZoneDeleted>El "{0}" de {1} ya no puede contar los elementos de las reservas eliminadas {2}.</MessageBillValidationIncludeZoneDeleted>
+  <MessageBillValidationIncludeZoneDeleted>El "{0}" de {1} ya no puede contar los artículos de las reservas eliminadas {2}.</MessageBillValidationIncludeZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
   <MessageBillValidationIncludeZoneUnavailable>El "{0}" de {1} ya no puede contar los artículos en la reserva no disponible {2}.</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
@@ -586,13 +586,13 @@
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Los intentos de reclutamiento comenzarán.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
-  <MessageModWithPackageIdAlreadyEnabled>Otro mod con el ID del paquete {0} ya está activo. Desactive {1} antes de intentar activar esto.</MessageModWithPackageIdAlreadyEnabled>
+  <MessageModWithPackageIdAlreadyEnabled>Otro mod con el ID del paquete {0} ya está activo. Desactiva {1} antes de intentar activar esto.</MessageModWithPackageIdAlreadyEnabled>
   <!-- EN: Disable all mods before using this tool. -->
-  <MessageDisableModsBeforeCleaningTranslationFiles>Desactivar todos los mods antes de usar esta herramienta.</MessageDisableModsBeforeCleaningTranslationFiles>
+  <MessageDisableModsBeforeCleaningTranslationFiles>Desactiva todos los mods antes de usar esta herramienta.</MessageDisableModsBeforeCleaningTranslationFiles>
   <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
-  <MessageUnpackBeforeCleaningTranslationFiles>Desempaquete y luego elimine todos los archivos de traducción comprimidos para este idioma antes de usar esta herramienta.</MessageUnpackBeforeCleaningTranslationFiles>
+  <MessageUnpackBeforeCleaningTranslationFiles>Descomprime y luego elimina todos los archivos de traducción comprimidos para este idioma antes de usar esta herramienta.</MessageUnpackBeforeCleaningTranslationFiles>
   <!-- EN: Done. Affected folders: {0} -->
-  <MessageTranslationFilesCleanupDone>Listo. Carpeta afectada: {0}</MessageTranslationFilesCleanupDone>
+  <MessageTranslationFilesCleanupDone>Listo. Carpetas afectadas: {0}</MessageTranslationFilesCleanupDone>
 
   <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Uno de los archivos de traducción ({0}) no pudo ser cargado. Todos los errores de análisis de XML deben ser resueltos primero.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
@@ -706,7 +706,7 @@
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort} tiene la misma ideoligión que el convertidor.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
-  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} debe ser capaz de proteger.</MessageRitualRoleMustBeCapableOfWardening>
+  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} debe ser capaz de vigilar.</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
   <MessageRitualRoleMustBeCapableOfGeneric>{0} debe ser capaz de {1}.</MessageRitualRoleMustBeCapableOfGeneric>
   <!-- EN: prisoners cannot {0}. -->
@@ -731,7 +731,7 @@
   <MessageRitualRoleMustNotBeImprisoned>{0} debe ser libre.</MessageRitualRoleMustNotBeImprisoned>
 
   <!-- EN: You must select a site to continue. -->
-  <MessagePlayerMustSelectTile>Debes seleccionar un sitio para continuar.</MessagePlayerMustSelectTile>
+  <MessagePlayerMustSelectTile>Debes seleccionar un lugar para continuar.</MessagePlayerMustSelectTile>
 
   <!-- EN: Cannot plant {0_labelShort} -->
   <CannotPlantThing>No se puede plantar {0_labelShort}</CannotPlantThing>
