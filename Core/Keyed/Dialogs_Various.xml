@@ -757,7 +757,7 @@
   <!-- EN: Movement speed -->
   <CaravanMovementSpeed>Velocidad de movimiento</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
-  <TilesPerDay>baldosas/día</TilesPerDay>
+  <TilesPerDay>celdas/día</TilesPerDay>
   <!-- EN: None - too heavy -->
   <TilesPerDayImmobile>Ninguno, demasiado pesado</TilesPerDayImmobile>
   <!-- EN: None -->
@@ -999,7 +999,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>Ya que esta ubicación está alrrededor de {0} casillas de otra facción, sentirán que estás invadiendo sus tierra y las relaciones con esas facciones empeorarán cada vez más. Cada {1} días.\n\n¿Asentarnos aquí de todos modos?</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>Ya que esta ubicación está alrrededor de {0} celdas de otra facción, sentirán que estás invadiendo sus tierra y las relaciones con esas facciones empeorarán cada vez más. Cada {1} días.\n\n¿Asentarnos aquí de todos modos?</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -1009,7 +1009,7 @@
 
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->
-  <TransportersCaravanWillBeImmobile>La caravana quedará inmóvil si se lanza a una casilla vacía. ¿Continuar de todos modos?</TransportersCaravanWillBeImmobile>
+  <TransportersCaravanWillBeImmobile>La caravana quedará inmóvil si se lanza a una celda vacía. ¿Continuar de todos modos?</TransportersCaravanWillBeImmobile>
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
@@ -1085,7 +1085,7 @@
   <!-- EN: {0_labelShort} is asleep. -->
   <AbilityCantApplyAsleep>{0_labelShort} está dormid{0_gender ? o : a}.</AbilityCantApplyAsleep>
   <!-- EN: This tile is impassable. -->
-  <AbilityWorldTileImpassable>Esta baldosa es infranqueable.</AbilityWorldTileImpassable>
+  <AbilityWorldTileImpassable>Esta celda es infranqueable.</AbilityWorldTileImpassable>
   <!-- EN: Skip to random ally -->
   <AbilitySkipToRandomAlly>Saltar al aliado aleatorio</AbilitySkipToRandomAlly>
   <!-- EN: Skip to join caravan -->
@@ -1174,7 +1174,7 @@
   <!-- EN: no beds allowed -->
   <RoomRequirementNoBeds>no se permiten camas</RoomRequirementNoBeds>
   <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>tamaño de la habitación: {0} casillas</RoomRequirementArea>
+  <RoomRequirementArea>tamaño de la habitación: {0} celdas</RoomRequirementArea>
   <!-- EN: room impressiveness -->
   <RoomRequirementImpressiveness>atractivo de la habitación</RoomRequirementImpressiveness>
   <!-- EN: all floored -->

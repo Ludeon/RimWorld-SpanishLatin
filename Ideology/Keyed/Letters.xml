@@ -47,22 +47,22 @@
   <!-- EN: {0} role deactivated -->
   <LetterLabelRoleInactive>rol de {0} desactivado</LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
-  <LetterLabelRoleInactiveDesc>El número de {0}s en tu colonia bajó a {1}. El rol {ROLE_labelDef} ya no está activo. Este rol volverá a estar disponible cuando el número de {0}s llegue a {2}.</LetterLabelRoleInactiveDesc>
+  <LetterLabelRoleInactiveDesc>El número de {0}s en tu colonia bajó a {1}. El rol {ROLE_label} ya no está activo. Este rol volverá a estar disponible cuando el número de {0}s llegue a {2}.</LetterLabelRoleInactiveDesc>
 
   <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
-  <LetterLabelRoleLost>El rol de {ROLE_labelIndef} de {PAWN_labelShort} se perdió</LetterLabelRoleLost>
+  <LetterLabelRoleLost>El rol de {ROLE_label} de {PAWN_labelShort} se perdió</LetterLabelRoleLost>
   <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
-  <LetterRoleLostDesc>{PAWN_labelShort} ya no tiene el rol de {ROLE_labelIndef}. Razón:</LetterRoleLostDesc>
+  <LetterRoleLostDesc>{PAWN_labelShort} ya no tiene el rol de {ROLE_label}. Razón:</LetterRoleLostDesc>
   <!-- EN: {PAWN_pronoun} was unassigned. -->
   <LetterRoleLostReasonUnassignedDesc>{PAWN_pronoun} estaba sin asignar.</LetterRoleLostReasonUnassignedDesc>
   <!-- EN: Role became inactive due to low {0} count. -->
   <LetterRoleLostReasonLowBelieversDesc>El rol se volvió inactivo debido a un recuento bajo de {0}.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
-  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} perdió su posición de como {ROLE_labelDef} porque abandonó: {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
+  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} perdió su posición de como {ROLE_label} porque abandonó: {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
   <!-- EN: {0} skipped. -->
   <LetterObligationRoleInactive>{0} saltado.</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
-  <LetterObligationRoleInactiveDateDesc>{0} es la fecha del {1}, pero como el rol {ROLE_labelDef} está inactivo, los {2}s se saltarán el {1}.</LetterObligationRoleInactiveDateDesc>
+  <LetterObligationRoleInactiveDateDesc>{0} es la fecha del {1}, pero como el rol {ROLE_label} está inactivo, los {2}s se saltarán: {1}.</LetterObligationRoleInactiveDateDesc>
   
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->

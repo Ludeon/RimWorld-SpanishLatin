@@ -63,7 +63,7 @@
   <!-- EN: Remove {0} role -->
   <RemoveRole>Retirar el rol {0}</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
-  <ChooseRoleConfirmAssign>Estás a punto de asignar el rol de {ROLE_labelDef} a {PAWN_labelShort}.</ChooseRoleConfirmAssign>
+  <ChooseRoleConfirmAssign>Estás a punto de asignar el rol de {ROLE_label} a {PAWN_labelShort}.</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
   <ChooseRoleConfirmAssignPostfix>¿Estás seguro?</ChooseRoleConfirmAssignPostfix>
   <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
@@ -71,9 +71,9 @@
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
   <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} tiene actualmente el rol de {ROLE_label} y no le gustará perderlo.</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
-  <ChooseRoleConfirmAssignReplaceLeader>Solo puede haber un líder. Esto despedirá a {PAWN_labelShort} de su rol de {OTHERROLE_labelDef}, lo que hará que {PAWN_pronoun} se moleste.</ChooseRoleConfirmAssignReplaceLeader>
+  <ChooseRoleConfirmAssignReplaceLeader>Solo puede haber un líder. Esto despedirá a {PAWN_labelShort} de su rol de {OTHERROLE_label}, lo que hará que {PAWN_pronoun} se moleste.</ChooseRoleConfirmAssignReplaceLeader>
   <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
-  <ChooseRoleConfirmUnassign>Estás a punto de despedir a {PAWN_labelShort} del rol de {ROLE_labelIndef}. Esto {PAWN_objective} alterará.</ChooseRoleConfirmUnassign>
+  <ChooseRoleConfirmUnassign>Estás a punto de despedir a {PAWN_labelShort} del rol de {ROLE_label}. Esto {PAWN_objective} alterará.</ChooseRoleConfirmUnassign>
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
   <ChooseRoleListAbilities>{PAWN_labelShort} obtendrá las siguientes habilidades</ChooseRoleListAbilities>
   <!-- EN: The {ROLE_label} role requires the following apparel -->
@@ -106,7 +106,7 @@
   <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
   <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>factor de pérdida de certeza de {PAWN_labelShort} de {IDEO_name}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
   <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
-  <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} es {ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
+  <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} es {ROLE_label}</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
   <AbilityIdeoConvertBreakdownTrait>Rasgo {TRAIT}</AbilityIdeoConvertBreakdownTrait>
   <!-- EN: {RELICCOUNT} installed relics on map -->
