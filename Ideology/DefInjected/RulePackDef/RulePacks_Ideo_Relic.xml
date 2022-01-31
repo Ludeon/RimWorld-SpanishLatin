@@ -67,7 +67,7 @@
   -->
   <NamerIdeoRelic.rulePack.rulesStrings>
     <li>r_ideoRelicName(p=2)->[first] [second]</li>
-    <li>r_ideoRelicName(p=2)->[first0]-[second]</li>
+    <li>r_ideoRelicName(p=2)->[first0][second]</li>
     <li>r_ideoRelicName(p=2)->[second1] de [first1]</li>
     <li>r_ideoRelicName->[thingLabel] de[memeConceptDef]</li>
     <!--<li>r_ideoRelicName->[thingLabel] [memeAdjective]</li>
@@ -102,9 +102,8 @@
     <li>first0->hiper</li>
     <li>first0->super</li>
     <li>first0->nova</li>
+    <li>first0->mega</li>
     <li>first0->supra</li>
-    <li>first0->arco</li>
-    <li>first0->hex</li>
     <li>first0->arqueo</li>
     <li>first1->estrellas</li>
     <li>first1->espigas</li>
