@@ -85,7 +85,7 @@
     <li>setup->Un día mientras trabajaba, [founderName] fue golpeado por una gran epifanía. [founder_pronoun] dejó caer sus herramientas y comenzó a esparcir su palabra entre los demás trabajadores.</li>
     <li>setup->[founderName] se sentó en un banco del parque durante veinte años mientras contemplaba nuestro mundo. Con su perspicacia, [founder_pronoun] escribió nuestro libro fundacional.</li>
     <li>story(uses=1,priority=-10)->El grupo de [memberNamePlural] no habrían comprendido la verdadera naturaleza de[memeConceptDef] sin las enseñanzas de [founderName].</li>
-    <li>story(uses=1,priority=-10)->El discurso de [founderName] en un ritual de [ritualName] inspiró a muchos a llevar una vida [memeAdjectiveFem].</li>
+    <li>story(uses=1,priority=-10)->El discurso de [founderName] en un(a) [ritualName] inspiró a muchos a llevar una vida [memeAdjectiveFem].</li>
     <li>story(uses=1,priority=-10)->Ninguno pudo superar la comprensión de [founderName] de[memeConceptDef], y [founderName] fue nombrado el primer [leaderTitle] de los [memberNamePlural].</li>
     <li>story(uses=1,priority=-10)->[founderName] llevaba un(a) [relic0_thingDef_label] de nombre [relic0_name] con [founder_pronoun] a todas partes para recordar a la gente que debía vivir una vida [memeAdjectiveFem].</li>
   </IdeologicalFounder.rules.rulesStrings>
@@ -165,7 +165,7 @@
     <li>lessonAttribution->[founder_nameFull], [speech] en el [TerrainFeature]</li>
     <li>lessonAttribution->[founder_nameFull], [speech] en el [Community]</li>
     <li>attributionSource->[memeConcept]</li>
-    <li>attributionSource->[memeConcept] [memeAdjective]</li>
+    <li>attributionSource(p=0.0001)->[memeConcept] [memeAdjective]</li>
     <li>attributionSource->Una vida [memeAdjectiveFem]</li>
     <li>attributionSource->Reflexiones de un [attributionJob]</li>
     <li>attributionSource->Memorias de un [attributionJob]</li>
