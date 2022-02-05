@@ -56,11 +56,11 @@
     <li>questName->[insectsDefPl] [itemPodsTotalMarketValue_money]</li>
     <li>questName(asker_royalInCurrentFaction==True)->El espectáculo de [insectsAny]</li>
     <li>questName(p=0.3)->Cápsula de enjambres</li>
-    <li>insects->Insectos</li>
-    <li>insects->Insectoides</li>
-    <li>insectsFem->Colonias</li>
-    <li>insects->Nidos</li>
-    <li>insectsFem(p=0.3)->Alimañas</li>
+    <li>insects->insectos</li>
+    <li>insects->insectoides</li>
+    <li>insectsFem->colonias</li>
+    <li>insects->nidos</li>
+    <li>insectsFem(p=0.3)->alimañas</li>
     <li>insectsAny->[insects]</li>
     <li>insectsAny->[insectsFem]</li>
     <li>insectsDefPl->Los [insects]</li>
