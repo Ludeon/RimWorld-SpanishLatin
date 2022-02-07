@@ -814,7 +814,7 @@
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
+  <PawnMainDescGendered>{1} {PAWN_gender}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
@@ -822,7 +822,7 @@
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{0} bajo {1}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>{0} bajo {1} \nFacción natal: {2}</PawnMainDescTempFactionedWrap>
+  <PawnMainDescTempFactionedWrap>{0} bajo {1}\nFacción natal: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
