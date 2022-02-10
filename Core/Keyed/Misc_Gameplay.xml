@@ -265,7 +265,7 @@
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>{0} hasta que los enemigos lleguen</CaravanDetectedRaidCountdown>
   <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
-  <CaravanDetectedRaidCountdownTip>Los refuerzos enemigos llegarán a esta zona en {0}</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>Los refuerzos enemigos llegarán a esta zona en {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Habitación</Room>
   <!-- EN: Beauty here -->
@@ -279,7 +279,7 @@
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>Lista para el despegue.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
-  <NotReadyForLaunch>No lista para el despegue</NotReadyForLaunch>
+  <NotReadyForLaunch>No está lista para el despegue</NotReadyForLaunch>
   <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>sin puerto de recarga</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
@@ -395,7 +395,7 @@
   <!-- EN: Caravan -->
   <Caravan>Caravana</Caravan>
   <!-- EN: there may be danger there. -->
-  <HiddenOrNoSitePartDescription>Puede haber peligro allí</HiddenOrNoSitePartDescription>
+  <HiddenOrNoSitePartDescription>Puede haber peligro allí.</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
   <PreciousLumpHostileThreat>El escáner está detectando actividad alrededor de la veta. Es probable que esta sea hostil.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
@@ -425,13 +425,13 @@
   <!-- EN: Required -->
   <Required>Requerido</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>Advertencia: no puedes completar las solicitudes de comercio utilizando vainas de transporte.\nSi envías los bienes, el asentamiento los aceptará como regalos pero no te recompensará.\n\n¡Para comerciar, acércate al asentamiento con una caravana!\n\n¿Estás seguro de que quieres regalar los bienes cargados a la facción?</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>Advertencia: no puedes completar las solicitudes de comercio utilizando cápsulas de transporte.\nSi envías los bienes, el asentamiento los aceptará como regalos pero no te recompensará.\n\n¡Para comerciar, acércate al asentamiento con una caravana!\n\n¿Estás seguro de que quieres regalar los bienes cargados a la facción?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
   <PrisonerLower>prisionero</PrisonerLower>
   <!-- EN: prisoners -->
   <PrisonersLower>prisioneros</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
-  <ClickToViewInQuestsTab>Completo</ClickToViewInQuestsTab>
+  <ClickToViewInQuestsTab>Cliquea para ver esta misión en la pestaña de misiones</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
   <Mood>Humor</Mood>
   <!-- EN: Quest -->
@@ -1354,9 +1354,9 @@
 
   <!-- Transport pods -->
   <!-- EN: {0}: See available orders... -->
-  <ClickToSeeAvailableOrders_WorldObject>{0}: Ver ordenes disponibles...</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_WorldObject>{0}: Ver órdenes disponibles...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
-  <ClickToSeeAvailableOrders_Empty>Ver ordenes disponibles...</ClickToSeeAvailableOrders_Empty>
+  <ClickToSeeAvailableOrders_Empty>Ver órdenes disponibles...</ClickToSeeAvailableOrders_Empty>
   
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
@@ -1368,7 +1368,7 @@
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>Calor neural: {0} / {1}\nVelocidad de caída: {2} / s ({3}s hasta cero)</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>Calor neural: {0} / {1}\nVel. de caída: {2} / s ({3}s hasta cero)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>El calor neural aumenta después de usar un poder psíquico. Superar el límite normal puede causar un colapso psíquico que dura días.\n\nEl calor neural se disipa naturalmente con el tiempo. Este proceso puede acelerarse usando ropa eltex o sufriendo dolor.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
