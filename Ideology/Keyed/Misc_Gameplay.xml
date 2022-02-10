@@ -11,12 +11,12 @@
   <RandomStructureTip>Se utilizará una estructura aleatoria para tu ideoligión.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>Se utilizará un estilo aleatorio para tu ideoligión.</RandomStyleTip>
-  <!-- EN: Customize -->
-  <Customize>Personalizar</Customize>
-  <!-- EN: Play classic -->
-  <PlayClassic>Jugar clásico</PlayClassic>
-  <!-- EN: Create fluid... -->
-  <CreateFluid>Crear fluida...</CreateFluid>
+  <!-- EN: Classic\nRimWorld -->
+  <PlayClassic>RimWorld\nClásico</PlayClassic> <!-- text_todo -->
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>Crear personalizado\n(fluido)</CreateCustomFluid> <!-- text_todo -->
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>Crear personalizado\n(fijo)</CreateCustomFixed>  <!-- text_todo -->
   <!-- EN: Load saved -->
   <LoadSaved>Cargar salvado</LoadSaved>
   <!-- EN: Structure -->
@@ -171,6 +171,8 @@
   <RitualTargetEmptyGraveInfo>Una tumba vacía para lamentar la muerte de {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>Una tumba que contiene el cadáver de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <!-- EN: A grave containing a corpse. -->
+  <RitualTargetGraveInfoAbstractNoIdeo>Una tumba que contiene un cadáver.</RitualTargetGraveInfoAbstractNoIdeo> <!-- text_todo -->
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>Una tumba vacía para lamentar la muerte de {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->

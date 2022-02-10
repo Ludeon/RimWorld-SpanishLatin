@@ -76,20 +76,20 @@
   <MessageCharityEventRefused>Caridad rechazada</MessageCharityEventRefused>
   <!-- EN: Charity fulfilled -->
   <MessageCharityEventFulfilled>Caridad cumplida</MessageCharityEventFulfilled>
-  <!-- EN: {0} leaving empty-handed. -->
-  <MessageBeggarsLeavingWithNoItems>{0} se fue con las manos vacías.</MessageBeggarsLeavingWithNoItems>
-  <!-- EN: {0} leaving with requested items. -->
-  <MessageBeggarsLeavingWithItems>{0} saliendo con los artículos solicitados.</MessageBeggarsLeavingWithItems>
+  <!-- EN: {0} are leaving empty-handed. -->
+  <MessageBeggarsLeavingWithNoItems>{0} se van con las manos vacías.</MessageBeggarsLeavingWithNoItems>
+  <!-- EN: {0} have accepted the requested items and are leaving. -->
+  <MessageBeggarsLeavingWithItems>{0} han aceptado los artículos solicitados y ya se van.</MessageBeggarsLeavingWithItems>
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>{0_nameDef} murió sin ningún tratamiento.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
   <MessageWandererRecruited>{0_nameDef} fue reclutad{0_gender ? o : a}.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
   <MessageWandererLeftHealthy>{0_nameDef} salió del mapa saludable.</MessageWandererLeftHealthy>
-  <!-- EN: {0} failed. -->
-  <MessageCharityQuestEndedFailed>{0} fallida.</MessageCharityQuestEndedFailed>
-  <!-- EN: {0} succesfully completed. -->
-  <MessageCharityQuestEndedSuccess>{0} completada con éxito.</MessageCharityQuestEndedSuccess>
+  <!-- EN: {0} has been failed. -->
+  <MessageCharityQuestEndedFailed>{0} ha fallado.</MessageCharityQuestEndedFailed>
+  <!-- EN: {0} has been successfully completed. -->
+  <MessageCharityQuestEndedSuccess>{0} se ha completado con éxito.</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
