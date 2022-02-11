@@ -20,7 +20,7 @@
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>el líder no está disponible</LeaderUnavailableNoLeader>
   <!-- EN: Not allowed -->
-  <NotAllowed>No permitido</NotAllowed>
+  <NotAllowed>No está permitido</NotAllowed>
   
   <!-- EN: Fire at {1_label} -->
   <FireAt>Disparar a {1_label}</FireAt>
@@ -97,7 +97,7 @@
   <!-- EN: below requirements of {0} -->
   <FoodBelowTitleRequirements>debajo de los requisitos de {0}</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
-  <AnimalsSkillTooLow>Habilidad del animal demasiado baja, necesitas {0}</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>habilidad del animal demasiado baja, necesita {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
   <CantInteractAnimalDowned>animal sacrificado</CantInteractAnimalDowned>
   <!-- EN: animal sleeping -->
@@ -161,7 +161,7 @@
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>máximo nivel</InstallImplantAlreadyMaxLevel>
   <!-- EN: Upgrade {0} to level {1} -->
-  <UpgradeImplant>Actualice {0} al nivel {1}</UpgradeImplant>
+  <UpgradeImplant>Actualizar {0} al nivel {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>violación de facción aliada</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
@@ -200,22 +200,22 @@
   <CannotCarryToCryptosleepCasket>No se puede llevar al sarcófago de criptosueño</CannotCarryToCryptosleepCasket>
 
   <!-- EN: Carry {0_label} to shuttle -->
-  <CarryToShuttle>Llevar a {0_label} para transportar</CarryToShuttle>
+  <CarryToShuttle>Llevar a {0_label} al transbordador</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>No hay sarcófago de criptosueño disponible.</NoCryptosleepCasket>
   <!-- EN: Temporary faction members not allowed. -->
   <CryptosleepCasketGuestsNotAllowed>Los miembros de una facción temporal no están permitidos.</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: Hosted prisoners not allowed. -->
-  <CryptosleepCasketGuestPrisonersNotAllowed>Prisioneros alojados no permitidos.</CryptosleepCasketGuestPrisonersNotAllowed>
+  <CryptosleepCasketGuestPrisonersNotAllowed>Los prisioneros hospedados no están permitidos.</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: Already occupied -->
   <CryptosleepCasketOccupied>Ya está ocupado</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
-  <NoPrisonerBed>No hay una cama para prisioneros al alcance, sin reservar y en interiores.</NoPrisonerBed>
+  <NoPrisonerBed>No hay cama para prisioneros accesible, sin reservar y a temperatura segura.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
-  <NoNonPrisonerBed>No hay una cama para prisioneros al alcance y sin reservar.</NoNonPrisonerBed>
+  <NoNonPrisonerBed>No hay cama para no prisioneros accesible, sin reservar y a temperatura segura.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
-  <NoAnimalBed>No hay una cama animal al alcance y sin reservar.</NoAnimalBed>
+  <NoAnimalBed>No hay una cama animal accesible, sin reservar y a temperatura segura.</NoAnimalBed>
   <!-- EN: Reserved by someone else. -->
   <Reserved>Reservado por alguien más.</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
@@ -240,12 +240,12 @@
   <!-- EN: (brawler will be unhappy) -->
   <EquipWarningBrawler>(el peleador será infeliz)</EquipWarningBrawler>
   <!-- EN: Cannot equip {0} -->
-  <CannotEquip>{0} no se puede equipar</CannotEquip>
+  <CannotEquip>{0} no puede equiparse</CannotEquip>
   <!-- EN: Cannot man {1_labelShort} -->
-  <CannotManThing>No puede ser hombre {1_labelShort}</CannotManThing>
+  <CannotManThing>{1_labelShort} no puede sujetarse</CannotManThing>
   
   <!-- EN: Force wear {1_labelShort} -->
-  <ForceWear>Forzar a vestir {1_labelShort}</ForceWear>
+  <ForceWear>Forzar vestir {1_labelShort}</ForceWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>No se puede vestir con {1_label}</CannotWear>
   <!-- EN: Force equip {1_labelShort} -->
@@ -277,7 +277,7 @@
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUpSome>No se puede recoger {1_labelShort}</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
-  <MaxPickUpAllowed>{0} {1} permitido</MaxPickUpAllowed>
+  <MaxPickUpAllowed>{0} {1} permitidos</MaxPickUpAllowed>
   
   <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>No se puede cargar {1_label} en el animal de carga</CannotGiveToPackAnimal>
@@ -290,7 +290,7 @@
   <!-- EN: Load {1_labelShort} onto pack animal... -->
   <GiveToPackAnimalSome>Dar {1_labelShort} al animal de carga...</GiveToPackAnimalSome>
   <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
-  <GiveToPackAnimalCount>Tomar {1_labelShort} x{{0}}</GiveToPackAnimalCount>
+  <GiveToPackAnimalCount>Dar x{{0}} {1_labelShort} al animal de carga</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
   <CannotLoadIntoCaravan>No puede cargar {1_label} en la caravana</CannotLoadIntoCaravan>
@@ -312,7 +312,7 @@
   <!-- EN: Carry {1_label} and leave the area -->
   <CarryToExit>Cargar a {1_label} y dejar el área</CarryToExit>
   <!-- EN: Capture {1_label} and leave the area -->
-  <CarryToExitAndCapture>Capturar {1_label} y abandonar el área</CarryToExitAndCapture>
+  <CarryToExitAndCapture>Capturar a {1_label} y abandonar el área</CarryToExitAndCapture>
   
   <!-- EN: Strip {1_label} -->
   <Strip>Desvestir a {1_label}</Strip>
@@ -345,7 +345,7 @@
   <!-- EN: Rest until healed -->
   <UseMedicalBed>Descansar hasta curarse</UseMedicalBed>
   <!-- EN: not injured -->
-  <NotInjured>No está herido(a)</NotInjured>
+  <NotInjured>No tiene heridas</NotInjured>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>ocupado por {0}</SomeoneElseSleeping>
   
@@ -370,13 +370,13 @@
   <!-- EN: Attack {0} -->
   <AttackSettlement>Atacar {0}</AttackSettlement>
   <!-- EN: Approach {0} -->
-  <ApproachSite>Aproximación {0}</ApproachSite>
+  <ApproachSite>aproximarse a {0}</ApproachSite>
   <!-- EN: Approaching {0} -->
-  <ApproachingSite>Aproximándose {0}</ApproachingSite>
+  <ApproachingSite>Aproximándose a {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
   <OfferGifts>Ofrecer regalos</OfferGifts>
   <!-- EN: Trade with {0} -->
-  <TradeWithSettlement>Comercio con {0}</TradeWithSettlement>
+  <TradeWithSettlement>Comerciar con {0}</TradeWithSettlement>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -482,7 +482,7 @@
 
   <!-- Rescue quest -->
   <!-- EN: Free prisoner -->
-  <FreePrisoner>Prisionero libre</FreePrisoner>
+  <FreePrisoner>Liberar prisionero</FreePrisoner>
   <!-- EN: Offer help -->
   <OfferHelp>Ofrecer ayuda</OfferHelp>
 
@@ -499,7 +499,7 @@
   <!-- EN: Invoke {0} -->
   <Invoke>Invocar {0}</Invoke>
   <!-- EN: Cannot invoke {0} -->
-  <CannotInvoke>No puede invocar {0}</CannotInvoke>
+  <CannotInvoke>No se puede invocar {0}</CannotInvoke>
   <!-- EN: power -->
   <Power>poder</Power>
   <!-- EN: already invoked -->
