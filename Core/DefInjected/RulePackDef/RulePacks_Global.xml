@@ -50,7 +50,7 @@
     <li>AdjectiveFriendly->Words/Adjectives/Friendly</li>
     <li>AdjectiveFriendly_Fem->Words/Adjectives/Friendly_Fem</li>
     <li>AdjectiveLarge->Words/Adjectives/Large</li>
-    <li>AdjectiveLargeFem->Words/Adjectives/Large_Fem</li>
+    <li>AdjectiveLarge_Fem->Words/Adjectives/Large_Fem</li>
     <li>AdjectiveNatural->Words/Adjectives/Natural</li>
     <li>AdjectiveNaturalFem->Words/Adjectives/Natural_Fem</li>
     <!-- Animales:-->
@@ -78,9 +78,11 @@
     <li>BusinessType_Fem->Words/Nouns/BusinessTypes_Fem</li>
     <li>BusinessType_FemCap->Words/Nouns/BusinessTypes_FemCap</li>
     <li>BusinessType_Plural->Words/Nouns/BusinessTypes_Plural</li>
+    <li>BusinessType_FemPlural->Words/Nouns/BusinessTypes_FemPlural</li>
     <li>BusinessType_PluralCap->Words/Nouns/BusinessTypes_PluralCap</li>
     <!--Colores:-->
     <li>Color->Words/Nouns/Colors</li>
+    <li>Color_Plural->Words/Nouns/Colors_Plural</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
     <li>ColorBadass_Fem->Words/Nouns/Colors_BadassFem</li>
     <li>Color_Fem->Words/Nouns/Colors_Fem</li>
@@ -134,6 +136,7 @@
     <li>PersonFamily_Fem->Words/Nouns/People_Family_Fem</li>
     <!--Tipos de Trabajos:-->
     <li>PersonJob->Words/Nouns/People_Jobs</li>
+    <li>PersonJob_Plural->Words/Nouns/People_Jobs_Plural</li>
     <li>PersonJob_Fem->Words/Nouns/People_JobsFem</li>
     <!--Tipos de uniones modernas:-->
     <li>PoliticalUnionOutlander->Words/Nouns/PoliticalUnions_Outlander</li>
@@ -152,6 +155,7 @@
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
     <li>TerrainFeature_Fem->Words/Nouns/TerrainFeatures_Fem</li>
     <li>TerrainFeature_Pl->Words/Nouns/TerrainFeatures_Plural</li>
+    <li>TerrainFeature_PlFem->Words/Nouns/TerrainFeatures_PluralFem</li>
     <!--Nombre de los arboles:-->
     <li>TreeType->Words/Nouns/TreeTypes</li>
     <li>TreeType_Fem->Words/Nouns/TreeTypes_Fem</li>
@@ -164,11 +168,17 @@
     <!--Nombre de verbos amistosos:-->
     <li>VerbFriendly->Words/Verbs/Friendly</li>
     <li>VerbFriendly_Fem->Words/Verbs/Friendly_Fem</li>
-    <!--Nombre de armas:-->
+    <!--Armas:-->
     <li>Weapon->Words/Nouns/Weapons</li>
+    <li>WeaponVarPl->Words/Nouns/WeaponsVar</li>
+    <li>WeaponCac->Words/Nouns/Weapons_Cac</li>
+    <li>WeaponCac_Fem->Words/Nouns/Weapons_CacFem</li>
+    <li>WeaponCac_Plural->Words/Nouns/Weapons_CacPlural</li>
+    <li>WeaponCac_FemPlural->Words/Nouns/Weapons_CacFemPlural</li>
     <li>Weapon_Fem->Words/Nouns/Weapons_Fem</li>
     <li>Weapon_FemPlural->Words/Nouns/Weapons_FemPlural</li>
     <li>Weapon_Plural->Words/Nouns/Weapons_Plural</li>
+    <li>Weapon_Ranged->Words/Nouns/Weapons_Ranged</li>
   </GlobalUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>Trans->of</li>
@@ -358,6 +368,28 @@
     <li>siendo(pilgrimCount>=2)->y están siendo repetados</li>
     <li>mayOffers(pilgrimCount==1)->puede</li>
     <li>mayOffers(pilgrimCount>=2)->pueden</li>
+    <!--Tales Jobs-->
+    <!-- PAWN-->
+    <li>PAWN_o_a(PAWN_gender!=Female)->o</li>
+    <li>PAWN_o_a(PAWN_gender==Female)->a</li>
+    <!-- SURGEON-->
+    <li>SURGEON_o_a(SURGEON_gender!=Female)->o</li>
+    <li>SURGEON_o_a(SURGEON_gender==Female)->a</li>
+    <!-- VICTIM-->
+    <li>VICTIM_o_a(VICTIM_gender!=Female)->o</li>
+    <li>VICTIM_o_a(VICTIM_gender==Female)->a</li>
+    <!-- KILLER-->
+    <li>KILLER_o_a(KILLER_gender!=Female)->o</li>
+    <li>KILLER_o_a(KILLER_gender==Female)->a</li>
+    <!-- JOINER-->
+    <li>JOINERTales_o_a(JOINER_gender!=Female)->o</li>
+    <li>JOINERTales_o_a(JOINER_gender==Female)->a</li>
+    <!--TRAINER-->
+    <li>TRAINER_o_a(TRAINER_gender!=Female)->o</li>
+    <li>TRAINER_o_a(TRAINER_gender==Female)->a</li>
+    <!--SLEEPER-->
+    <li>SLEEPER_o_a(SLEEPER_gender!=Female)->o</li>
+    <li>SLEEPER_o_a(SLEEPER_gender==Female)->a</li>
     <!-- all Animals, Arid -->
     <!-- Def -->
     <li>AnimalEpicenoDef(lodgersPawnKind==Dromedary)->el dromedario</li>
@@ -489,17 +521,17 @@
     <!-- Animals Giant -->
     <!-- Def -->
     <li>AnimalEpicenoDef(lodgersPawnKind==Elephant)->el elefante</li>
-    <li>AnimalEpicenoDef(lodgersPawnKind==Megasloth)->el mega perezoso</li>
+    <li>AnimalEpicenoDef(lodgersPawnKind==Megasloth)->el megaperezoso</li>
     <li>AnimalEpicenoDef(lodgersPawnKind==Rhinoceros)->el rinoceronte</li>
     <li>AnimalEpicenoDef(lodgersPawnKind==Thrumbo)->el thrumbos</li>
     <!-- Epiceno Male Female -->
     <li>AnimalEpicenoM(lodgersPawnKind==Elephant)->elefante</li>
-    <li>AnimalEpicenoM(lodgersPawnKind==Megasloth)->mega perezoso</li>
+    <li>AnimalEpicenoM(lodgersPawnKind==Megasloth)->megaperezoso</li>
     <li>AnimalEpicenoM(lodgersPawnKind==Rhinoceros)->rinoceronte</li>
     <li>AnimalEpicenoM(lodgersPawnKind==Thrumbo)->thrumbos</li>
     <!-- Indef -->
     <li>AnimalEpicenoIndef(lodgersPawnKind==Elephant)->un elefante</li>
-    <li>AnimalEpicenoIndef(lodgersPawnKind==Megasloth)->un mega perezoso</li>
+    <li>AnimalEpicenoIndef(lodgersPawnKind==Megasloth)->un megaperezoso</li>
     <li>AnimalEpicenoIndef(lodgersPawnKind==Rhinoceros)->un rinoceronte</li>
     <li>AnimalEpicenoIndef(lodgersPawnKind==Thrumbo)->un thrumbo</li>
     <!-- Hares -->
@@ -836,22 +868,23 @@
     <li>AnimalBadassAnyPl->[AnimalBadass_Plural]</li>
     <li>AnimalBadassAnyPl->[AnimalBadass_FemPlural]</li>
     <li>AnimalAny->[Animal]</li>
-    <li>AnimalAnyPl->[Animal_Plural]</li>
     <li>AnimalAny->[Animal_Fem]</li>
+    <li>AnimalAnyPl->[Animal_Plural]</li>
     <li>AnimalAnyPl->[Animal_FemPlural]</li>
-    <li>AnimalDef->un [Animal]</li>
-    <li>AnimalDef->una [Animal_Fem]</li>
+    <li>AnimalIndef->un [Animal]</li>
+    <li>AnimalIndef->una [Animal_Fem]</li>
     <li>AnimalGroupIndef->un [AnimalGroup]</li>
     <li>AnimalGroupIndef->una [AnimalGroup_Fem]</li>
     <li>ApparelAny->[Apparel]</li>
     <li>ApparelAny->[Apparel_Fem]</li>
-    <li>ApparelDef->un [Apparel]</li>
-    <li>ApparelDef->una [Apparel_Fem]</li>
+    <li>ApparelIndef->un [Apparel]</li>
+    <li>ApparelIndef->una [Apparel_Fem]</li>
     <li>BusinessTypeAny->[BusinessType]</li>
     <li>BusinessTypeAny->[BusinessType_Fem]</li>
     <li>BusinessTypeAny_def->el [BusinessType]</li>
     <li>BusinessTypeAny_def->la [BusinessType_Fem]</li>
     <li>BusinessTypeAny_def->los [BusinessType_Plural]</li>
+    <li>BusinessTypeAny_def->las [BusinessType_FemPlural]</li>
     <li>BusinessTypeAny_def_Cap->el [BusinessType_Cap]</li>
     <li>BusinessTypeAny_def_Cap->la [BusinessType_FemCap]</li>
     <li>BodyPartAny->[BodyPart]</li>
@@ -864,17 +897,20 @@
     <li>ConceptAny_Fem->[ConceptPositive_Fem]</li>
     <li>ConceptAny_Fem->[ConceptBadass_Fem]</li>
     <li>ConceptAny_Fem->[ConceptAngsty_Fem]</li>
-    <li>ConceptAnyIndef->el [ConceptAny]</li>
-    <li>ConceptAnyIndef->la [ConceptAny_Fem]</li>
+    <li>ConceptAnyDef->el [ConceptAny]</li>
+    <li>ConceptAnyDef->la [ConceptAny_Fem]</li>
     <li>ConceptAnyFull->[ConceptAny]</li>
     <li>ConceptAnyFull->[ConceptAny_Fem]</li>
     <li>CommunityIndefCap->Una [Community_Fem]</li>
     <li>CommunityIndefCap->Un [Community]</li>
     <li>Character(p=6)->[PersonJob]</li>
+    <li>Character_Plural(p=6)->[PersonJob_Plural]</li>
     <li>Character_Fem(p=6)->[PersonJob_Fem]</li>
     <li>Character(p=4)->[Animal]</li>
+    <li>Character_Plural(p=4)->[Animal_Plural]</li>
     <li>Character_Fem(p=4)->[Animal_Fem]</li>
     <li>Character(p=3)->[Enemy]</li>
+    <li>Character_Plural(p=3)->[Enemy]s</li>
     <li>Character->[Mechanoid]</li>
     <li>Character_Human->[PersonJob]</li>
     <li>Character_Human->[Enemy]</li>
@@ -882,24 +918,28 @@
     <li>CharacterEnemyPlural->[Animal_FemPlural]</li>
     <li>CharacterEnemyPlural(p=3)->[Enemy]s</li>
     <li>CharacterEnemyPlural(p=2)->[Mechanoid]s</li>
-    <li>CharacterDef(p=6)->un [PersonJob]</li>
-    <li>CharacterDef(p=6)->una [PersonJob_Fem]</li>
-    <li>CharacterDef(p=4)->un [Animal]</li>
-    <li>CharacterDef(p=4)->una [Animal_Fem]</li>
-    <li>CharacterDef(p=3)->un [Enemy]</li>
-    <li>CharacterDef->un [Mechanoid]</li>
-    <li>CharacterDefMas(p=6)->un [PersonJob]</li>
-    <li>CharacterDefMas(p=4)->un [Animal]</li>
-    <li>CharacterDefMas(p=3)->un [Enemy]</li>
-    <li>CharacterDefMas->un [Mechanoid]</li>
-    <li>CharacterDefFem(p=6)->una [PersonJob_Fem]</li>
-    <li>CharacterDefFem(p=4)->una [Animal_Fem]</li>
-    <li>CommunityDef->un [Community]</li>
-    <li>CommunityDef->una [Community_Fem]</li>
+    <li>CharacterIndef(p=6)->un [PersonJob]</li>
+    <li>CharacterIndef(p=6)->una [PersonJob_Fem]</li>
+    <li>CharacterIndef(p=4)->un [Animal]</li>
+    <li>CharacterIndef(p=4)->una [Animal_Fem]</li>
+    <li>CharacterIndef(p=3)->un [Enemy]</li>
+    <li>CharacterIndef->un [Mechanoid]</li>
+    <li>CharacterIndefMas(p=6)->un [PersonJob]</li>
+    <li>CharacterIndefMas(p=4)->un [Animal]</li>
+    <li>CharacterIndefMas(p=3)->un [Enemy]</li>
+    <li>CharacterIndefMas->un [Mechanoid]</li>
+    <li>CharacterIndefFem(p=6)->una [PersonJob_Fem]</li>
+    <li>CharacterIndefFem(p=4)->una [Animal_Fem]</li>
+    <li>CommunityIndef->un [Community]</li>
+    <li>CommunityIndef->una [Community_Fem]</li>
+    <li>CommunityDef->el [Community]</li>
+    <li>CommunityDef->la [Community_Fem]</li>
     <li>CommunityAny->[Community]</li>
     <li>CommunityAny->[Community_Fem]</li>
     <li>GameAny->[Game]</li>
     <li>GameAny->[Game_Fem]</li>
+    <li>GameDef->el [Game]</li>
+    <li>GameDef->la [Game_Fem]</li>
     <li>NaturalObjectDef->un [NaturalObject]</li>
     <li>NaturalObjectDef->una [NaturalObject_Fem]</li>
     <li>MechanoidAnyPl->[Mechanoid_FemPl]</li>
@@ -954,25 +994,32 @@
     <li>PersonalCharacteristicDef->la [PersonalCharacteristic_Fem]</li>
     <li>TerrainFeatureAny->[TerrainFeature]</li>
     <li>TerrainFeatureAny->[TerrainFeature_Fem]</li>
-    <li>TerrainFeatureDef->un [TerrainFeature]</li>
-    <li>TerrainFeatureDef->una [TerrainFeature_Fem]</li>
-    <!-- Cometí un error al designar Def en algunas parte cuando lo correcto es Indef (zerstrick) 30-10-2020-->
+    <li>TerrainFeatureIndef->un [TerrainFeature]</li>
+    <li>TerrainFeatureIndef->una [TerrainFeature_Fem]</li>
+    <li>TerrainFeatureIndefCap->Un [TerrainFeature]</li>
+    <li>TerrainFeatureIndefCap->Una [TerrainFeature_Fem]</li>
+    <li>TerrainFeaturePlAny->[TerrainFeature_Pl]</li>
+    <li>TerrainFeaturePlAny->[TerrainFeature_PlFem]</li>
     <li>TreeTypeAny->[TreeType]</li>
     <li>TreeTypeAny->[TreeType_Fem]</li>
-    <li>TreeTypeDef->un [TreeType]</li>
-    <li>TreeTypeDef->una [TreeType_Fem]</li>
     <li>TreeTypeIndef->un [TreeType]</li>
     <li>TreeTypeIndef->una [TreeType_Fem]</li>
     <li>VegetableAny->[Vegetable]</li>
     <li>VegetableAny->[Vegetable_Fem]</li>
-    <li>VegetableDef->un [Vegetable]</li>
-    <li>VegetableDef->una [Vegetable_Fem]</li>
+    <li>VegetableIndef->un [Vegetable]</li>
+    <li>VegetableIndef->una [Vegetable_Fem]</li>
     <li>WeaponAny->[Weapon]</li>
     <li>WeaponAny->[Weapon_Fem]</li>
     <li>WeaponAnyPl->[Weapon_Plural]</li>
     <li>WeaponAnyPl->[Weapon_FemPlural]</li>
     <li>WeaponIndef->un [Weapon]</li>
     <li>WeaponIndef->una [Weapon_Fem]</li>
+    <li>WeaponCacIndef->un [WeaponCac]</li>
+    <li>WeaponCacIndef->una [WeaponCac_Fem]</li>
+    <li>WeaponCacAnyPl->[WeaponCac_Plural]</li>
+    <li>WeaponCacAnyPl->[WeaponCac_FemPlural]</li>
+    <li>WeaponCacAnyIndefPl->unos [WeaponCac_Plural]</li>
+    <li>WeaponCacAnyIndefPl->unas [WeaponCac_FemPlural]</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:

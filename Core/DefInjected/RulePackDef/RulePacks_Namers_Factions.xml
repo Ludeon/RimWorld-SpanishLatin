@@ -26,7 +26,7 @@
     <li>msyl->lite</li>
   -->
   <NamerFactionMechanoid.rulePack.rulesStrings>
-    <li>r_name->[mechhive] [msyl]-[msyl_extra]</li>
+    <li>r_name->[mechhive] [msyl] [msyl_extra]</li>
     <li>mechhive->colmenóide</li>
     <li>msyl->Alfa</li>
     <li>msyl->Beta</li>
@@ -62,9 +62,8 @@
   <NamerFactionOutlander.rulePack.rulesStrings>
     <li>r_name(p=3)->[nearnameinitial]</li>
     <li>r_name->[political_union_outlander] de [nearnameinitial]</li>
-    <li>r_name->[political_adjective] [political_union_outlander] de [nearnameinitial]</li>
+    <li>r_name->[political_union_outlander] [political_adjective] de [nearnameinitial]</li>
     <li>r_name->[political_union_outlander] [nearnameinitial]</li>
-    <li>r_name->[political_adjective] [political_union_outlander] de [nearnameinitial]</li>
     <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
     <li>nearnameinitial->[PlaceOutlander] del [Direction]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
@@ -111,10 +110,10 @@
     <li>r_name->Los [PersonBadass]s de la [ConceptBadassFem]</li>
     <li>r_name->Los [PersonBadass]s</li>
     <li>r_name->Los [Enemy]s</li>
-    <li>r_name->Los Hombres [Weapon]</li>
-    <li>r_name->[Weapon]s de la [ConceptBadassFem]</li>
-    <li>r_name->[AnimalBadassMasPl] y [Weapon]s</li>
-    <li>r_name->Los [Enemy]s [Weapon]</li>
+    <li>r_name->Los Hombres [WeaponVarPl]</li>
+    <li>r_name->[WeaponCac_Plural] de la [ConceptBadassFem]</li>
+    <li>r_name->[AnimalBadassMasPl] y [WeaponVarPl]</li>
+    <li>r_name->Los [Enemy]s [WeaponVarPl]</li>
     <li>r_name->Los [PersonBadass]s [ColorBadass]s</li>
     <li>r_name->Los [AnimalBadassMasPl] [ColorBadass]s</li>
     <li>r_name->Los [PersonBadass]s [ColorBadass]s</li>
@@ -126,11 +125,11 @@
     <li>r_name->Los [Enemy]s [AdjectiveBadass]s</li>
     <li>r_name->Los [PersonBadass]s [AdjectiveBadass]s</li>
     <li>r_name->Los [PersonAlly]s de la [ConceptBadassFem]</li>
-    <li>r_name(p=0.4)->Los come [Gore]</li>
+    <li>r_name(p=0.4)->Los come [Gore_Plural]</li>
     <li>r_name->[NamePerson] y sus [Enemy]s</li>
     <li>r_name->[NamePerson] y sus [AnimalBadassMasPl]</li>
-    <li>r_name->[Weapon]s de [NamePerson]</li>
-    <li>r_name->[groupname] de [Weapon]s</li>
+    <li>r_name->[WeaponVarPl] de [NamePerson]</li>
+    <li>r_name->[groupname] de [WeaponVarPl]</li>
     <li>r_name->[groupname] de [ConceptBadass]</li>
     <li>r_name->[Letter][Letter]-[Digit][Digit]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
@@ -324,7 +323,7 @@
     <li>townname_combo->[geography] del [PersonBadass]</li>
     <li>townname_combo->[geography] del [Enemy]</li>
     <li>townname_combo->[geography] del [Enemy]</li>
-    <li>townname_combo->[geography] de [Weapon]</li>
+    <li>townname_combo->[geography] del [Weapon]</li>
     <li>townname_combo->[geography] [Weapon]</li>
     <li>townname_combo->[geography] [ColorBadass]</li>
     <li>geography(p=2)->[TerrainFeatureAny]</li>

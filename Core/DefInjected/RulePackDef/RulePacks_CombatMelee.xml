@@ -42,18 +42,18 @@
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>atMaybe->a</li>
     <li>atMaybe->a</li>
-    <li>deflected_result->, pero [TOOL_definite] le [deflected] [harmlessly_opt]</li>
+    <li>deflected_result->, pero [TOOL_definite] [deflected] [harmlessly_opt]</li>
     <li>deflected_result->, [deflecting] en [RECIPIENT_possessive] armadura [harmlessly_opt]</li>
     <li>harmlessly_opt(p=4)-></li>
     <li>harmlessly_opt->[harmlessly]</li>
     <li>harmlessly->inofensivamente</li>
     <li>harmlessly->inútilmente</li>
     <li>deflected->se desvió</li>
-    <li>deflected->raspó</li>
+    <li>deflected->le raspó</li>
     <li>deflected->se deslizó</li>
-    <li>deflected->rozó</li>
-    <li>deflected->rebotó</li>
-    <li>deflected->rasguñó</li>
+    <li>deflected->le rozó</li>
+    <li>deflected->le rebotó</li>
+    <li>deflected->le rasguñó</li>
     <li>deflecting->desviando</li>
     <li>deflecting->raspando</li>
     <li>deflecting->deslizando</li>
@@ -72,7 +72,7 @@
     <li>result->but the attack was cleverly avoided</li>
   -->
   <Combat_Dodge.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] evitó que [INITIATOR_definite] le pudieran [damaged_inf] con [implement].</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] evitó que [INITIATOR_definite] le pudiera [damaged_inf] con [implement].</li>
     <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] evitó que [INITIATOR_definite] le pudiera [damaged_inf].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>

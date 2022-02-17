@@ -58,11 +58,11 @@
     <li>image->[HUMAN_nameFull] se encariña con [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[HUMAN_nameFull] forma un vínculo profundo con [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[HUMAN_nameFull] se da cuenta de su amor por [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>circumstance_phrase->mientras otros Animales observan</li>
-    <li>circumstance_phrase->mientras [human_pronoun] mira a [ANIMAL_nameDef] a los ojos</li>
+    <li>circumstance_phrase->mientras otros animales observan</li>
+    <li>circumstance_phrase->mientras mira a [ANIMAL_nameDef] a los ojos</li>
     <li>circumstance_phrase->con cara de satisfacción</li>
     <li>desc_sentence->[ANIMAL_nameDef] se restriega contra [TRAINER_nameDef].</li>
-    <li>desc_sentence->[ANIMAL_nameDef] parece borracho de amor.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] parece que tiene sueño y estar embriagado(a) de amor.</li>
     <li>desc_sentence->[ANIMAL_nameDef] aparenta nobleza de corazón.</li>
     <li>desc_sentence->[ANIMAL_nameDef] responde positivamente.</li>
   </BondedWithAnimal.rulePack.rulesStrings>
@@ -95,9 +95,9 @@
     <li>circumstance_phrase->mientras otros observan incómodamente</li>
     <li>circumstance_phrase->mientras otros observan</li>
     <li>desc_sentence->[REJECTED_nameDef] está llorando incontrolablemente.</li>
-    <li>desc_sentence->[REJECTED_nameDef] llora y se arranca los cabellos al mismo tiempo.</li>
-    <li>desc_sentence->[REJECTED_nameDef] tiene cara de shock.</li>
-    <li>desc_sentence->[DUMPER_nameDef] está separado estilísticamente de [REJECTED_nameDef].</li>
+    <li>desc_sentence->[REJECTED_nameDef] se burla y llora al mismo tiempo.</li>
+    <li>desc_sentence->[REJECTED_nameDef] tiene una cara pétrea de asombro.</li>
+    <li>desc_sentence->[DUMPER_nameDef] se separa estilísticamente de [REJECTED_nameDef].</li>
     <li>desc_sentence->[REJECTED_nameDef] a colapsado en el suelo y está temblando.</li>
     <li>desc_sentence->[REJECTED_nameDef] gesticula iracundamente hacia [DUMPER_nameDef].</li>
   </Breakup.rulePack.rulesStrings>
@@ -132,7 +132,7 @@
     <li>desc_sentence->[SPOUSE1_nameDef] se acurruca con [SPOUSE2_nameDef].</li>
     <li>desc_sentence->[SPOUSE1_nameDef] y [SPOUSE2_nameDef] cruzan miradas.</li>
     <li>desc_sentence->[SPOUSE1_nameDef] susurra al oído de [SPOUSE2_nameDef].</li>
-    <li>desc_sentence->[SPOUSE1_nameDef] está estilísticamente unido(a) con [SPOUSE2_nameDef].</li>
+    <li>desc_sentence->[SPOUSE1_nameDef] se une estilísticamente a [SPOUSE2_nameDef].</li>
     <li>desc_sentence->[SPOUSE1_nameDef] acaricia el cabello de [SPOUSE2_nameDef].</li>
     <li>desc_sentence->[SPOUSE1_nameDef] besa apasionadamente a [SPOUSE2_nameDef].</li>
   </Marriage.rulePack.rulesStrings>

@@ -542,37 +542,37 @@
   <!-- EN: participant count -->
   <Trial.comps.0.label>participantes</Trial.comps.0.label>
   <!-- EN: {PAWN_labelShort}'s negotiation ability -->
-  <Trial.comps.1.label>Capacidad de negociación de {PAWN_labelShort}</Trial.comps.1.label>
+  <Trial.comps.1.label>Negociación de {PAWN_labelShort}</Trial.comps.1.label>
   <!-- EN: Leader's negotiation ability -->
-  <Trial.comps.1.labelAbstract>Capacidad de negociación del líder</Trial.comps.1.labelAbstract>
+  <Trial.comps.1.labelAbstract>Negociación del líder</Trial.comps.1.labelAbstract>
   <!-- EN: {PAWN_labelShort}'s negotiation ability -->
-  <Trial.comps.2.label>Capacidad de negociación de {PAWN_labelShort}</Trial.comps.2.label>
+  <Trial.comps.2.label>Negociación de {PAWN_labelShort}</Trial.comps.2.label>
   <!-- EN: Defendant's negotiation ability -->
-  <Trial.comps.2.labelAbstract>Capacidad de negociación del acusado</Trial.comps.2.labelAbstract>
+  <Trial.comps.2.labelAbstract>Negociación del acusado</Trial.comps.2.labelAbstract>
   <!-- EN: exonerated -->
   <Trial.outcomeChances.0.label>exonerado</Trial.outcomeChances.0.label>
   <!-- EN: The prosecutor {PROSECUTOR_labelShort}'s arguments failed to convince anyone. {PAWN_labelShort} was exonerated. -->
-  <Trial.outcomeChances.0.description>Los argumentos del acusado {PROSECUTOR_labelShort} no lograron convencer a nadie. {PAWN_labelShort} fue declarado inocente.</Trial.outcomeChances.0.description>
+  <Trial.outcomeChances.0.description>Los argumentos {PROSECUTOR_gender ? del : de la} fiscal {PROSECUTOR_labelShort} no lograron convencer a nadie. A {PAWN_labelShort} se le ha declarado inocente.</Trial.outcomeChances.0.description>
   <!-- EN: convicted -->
   <Trial.outcomeChances.1.label>condenado</Trial.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <Trial.outcomeChances.1.description>El acusador convenció a todos de la culpabilidad de {PAWN_labelShort}. {PAWN_labelShort} fue condenad{PAWN_gender ? o : a} y ahora puede ser castigad{PAWN_gender ? o : a}. Puedes ejecutar{PAWN_objective} o desterrar{PAWN_objective} y a nadie le importará.</Trial.outcomeChances.1.description>
+  <Trial.outcomeChances.1.description>La fiscalía convenció a todos de la culpabilidad de {PAWN_labelShort}. {PAWN_labelShort} fue condenad{PAWN_gender ? o : a} y ahora puede ser castigad{PAWN_gender ? o : a}. Puedes ejecutar{PAWN_objective} o desterrar{PAWN_objective} y a nadie le importará.</Trial.outcomeChances.1.description>
   
   <!-- EN: The trial quality determines the chance that the defendant will be convicted. -->
   <TrialMentalState.description>La calidad del juicio determina la probabilidad de que el acusado sea condenado.</TrialMentalState.description>
   <!-- EN: participant count -->
   <TrialMentalState.comps.0.label>cantidad de participantes</TrialMentalState.comps.0.label>
   <!-- EN: {PAWN_labelShort}'s negotiation ability -->
-  <TrialMentalState.comps.1.label>Capacidad de negociación de {PAWN_labelShort}</TrialMentalState.comps.1.label>
+  <TrialMentalState.comps.1.label>Negociación de {PAWN_labelShort}</TrialMentalState.comps.1.label>
   <!-- EN: Leader's negotiation ability -->
-  <TrialMentalState.comps.1.labelAbstract>Capacidad de negociación del líder</TrialMentalState.comps.1.labelAbstract>
+  <TrialMentalState.comps.1.labelAbstract>Negociación del líder</TrialMentalState.comps.1.labelAbstract>
   <!-- EN: exonerated -->
   <TrialMentalState.outcomeChances.0.label>exonerado</TrialMentalState.outcomeChances.0.label>
   <!-- EN: The prosecutor {PROSECUTOR_labelShort}'s arguments failed to convince anyone. {PAWN_labelShort} was exonerated. -->
-  <TrialMentalState.outcomeChances.0.description>Los argumentos del acusado {PROSECUTOR_labelShort} no lograron convencer a nadie. {PAWN_labelShort} fue declarado inocente.</TrialMentalState.outcomeChances.0.description>
+  <TrialMentalState.outcomeChances.0.description>Los argumentos {PROSECUTOR_gender ? del : de la} fiscal {PROSECUTOR_labelShort} no lograron convencer a nadie. A {PAWN_labelShort} se le ha declarado inocente.</TrialMentalState.outcomeChances.0.description>
   <!-- EN: convicted -->
   <TrialMentalState.outcomeChances.1.label>condenado</TrialMentalState.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <TrialMentalState.outcomeChances.1.description>El acusador convenció a todos de la culpabilidad de {PAWN_labelShort}. {PAWN_labelShort} fue condenad{PAWN_gender ? o : a} y ahora puede ser castigad{PAWN_gender ? o : a}. Puedes ejecutar{PAWN_objective} o desterrar{PAWN_objective} y a nadie le importará.</TrialMentalState.outcomeChances.1.description>
+  <TrialMentalState.outcomeChances.1.description>La fiscalía convenció a todos de la culpabilidad de {PAWN_labelShort}. {PAWN_labelShort} fue condenad{PAWN_gender ? o : a} y ahora puede ser castigad{PAWN_gender ? o : a}. Puedes ejecutar{PAWN_objective} o desterrar{PAWN_objective} y a nadie le importará.</TrialMentalState.outcomeChances.1.description>
   
 </LanguageData>
