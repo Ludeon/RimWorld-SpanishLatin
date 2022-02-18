@@ -40,12 +40,12 @@
   
   <!-- Ideo role -->
   <!-- EN: {0} role activated -->
-  <LetterLabelRoleActive>rol de {0} activado</LetterLabelRoleActive>
+  <LetterLabelRoleActive>Rol de {0} activado</LetterLabelRoleActive>
   <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, use the person's Social tab, or select a ritual spot or altar and press the 'Begin role change' button. -->
   <LetterLabelRoleActiveDesc>El número de {0}s en tu colonia llegó a {1}. Ahora puedes asignar el rol de {ROLE_label} a uno de tus colonos.\n\nPara asignar un rol, utiliza la pestaña Social del colono, o selecciona una zona ritual o un altar y pulsa el botón "Iniciar cambio de rol".</LetterLabelRoleActiveDesc>
 
   <!-- EN: {0} role deactivated -->
-  <LetterLabelRoleInactive>rol de {0} desactivado</LetterLabelRoleInactive>
+  <LetterLabelRoleInactive>Rol de {0} desactivado</LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
   <LetterLabelRoleInactiveDesc>El número de {0}s en tu colonia bajó a {1}. El rol {ROLE_label} ya no está activo. Este rol volverá a estar disponible cuando el número de {0}s llegue a {2}.</LetterLabelRoleInactiveDesc>
 
@@ -80,7 +80,7 @@
   <LetterTitleObligationsActivatedIdeoBecameMajor>Dado que {IDEO} es ahora la ideoligión principal de tu facción, {IDEO_memberNamePlural} exigirá que se lleven a cabo los rituales de {IDEO}.</LetterTitleObligationsActivatedIdeoBecameMajor>
 
   <!-- EN: Bond(s) removed -->
-  <LetterBondRemoved>vínculos eliminados</LetterBondRemoved>
+  <LetterBondRemoved>Vínculos eliminados</LetterBondRemoved>
   <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
   <LetterBondRemovedDesc>{PAWN_nameDef} se convirtió a {IDEO}. Dado que {IDEO} desaprueba los vínculos con los animales, {PAWN_pronoun} renunció a sus vínculos con los siguientes animales:\n\n{BONDS}</LetterBondRemovedDesc>
 
@@ -182,7 +182,7 @@
 
   <!-- Gauranlen tree connection -->
   <!-- EN: {TREE_label} connection -->
-  <LetterLabelPawnConnected>conexión con {TREE_label}</LetterLabelPawnConnected>
+  <LetterLabelPawnConnected>Conexión con {TREE_label}</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
   <LetterTextPawnConnected>{CONNECTOR_nameDef} se conectó con {TREE_definite}.\n\n{TREE_definite} producirá pequeños animales llamados dríadas, cultivándolas en vainas en su base. Estas dríadas pueden especializarse en diferentes castas. Puedes elegir qué casta de dríadas quieres que produzca el árbol.\n\nCuanto más fuerte sea la conexión entre el árbol y el ser humano, {TREE_definite} más dríadas podrá sostener. {CONNECTOR_nameDef} puede fortalecer la conexión mediante la poda del {TREE}. Mantener una mayor fuerza de conexión requiere una poda más frecuente.</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->

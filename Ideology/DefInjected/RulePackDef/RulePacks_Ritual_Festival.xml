@@ -18,13 +18,13 @@
     <li>festival->fiesta</li>
   -->
   <NamerFestivalGlobal.rulePack.rulesStrings>
-    <li>festivalName(p=0.001)->[festival] [memeAdjective]</li>
+    <li>festivalName(p=0.0001)->[festival] [memeAdjective]</li>
     <li>festivalName(p=4)->[festival] [memeAdjectiveFem]</li>
     <li>festivalName->[festival] de [chosenTheme]</li>
-    <li>festivalName(p=0.001)->[festival] [chosenAdjective]</li>
+    <li>festivalName(p=0.0001)->[festival] [chosenAdjective]</li>
     <li>festivalName->[festival] de [keyDeity]</li>
     <li>festivalName(p=2)->[festival] de[memeConceptDef]</li>
-    <li>festivalName->[festival] de [chosenIdeoName]</li>
+    <li>festivalName(p=0.0001)->[festival] de [chosenIdeoName]</li>
     <li>festival->festividad</li>
     <li>festival->celebración</li>
     <li>festival->fiesta</li>
