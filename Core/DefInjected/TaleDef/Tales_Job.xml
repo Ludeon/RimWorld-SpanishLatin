@@ -367,14 +367,15 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Meditated.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] meditó</li>
+    <li>tale_noun->[PAWN_nameDef] meditaba</li>
     <li>image->[PAWN_nameFull] sentándose cerca de [TreeTypeIndef], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] sentándose con calma, [circumstance_group]</li>
     <li>image->[PAWN_nameFull] contemplando la distancia y [circumstance_group]</li>
     <li>image->[PAWN_nameFull] cerrando sus ojos y [circumstance_group]</li>
-    <li>circumstance_phrase->irradiando serenidad</li>
+    <li>circumstance_phrase->emitiendo serenidad</li>
     <li>circumstance_phrase->con sonrisa tranquila</li>
-    <li>circumstance_phrase->con una sonrisa [VerbFriendly]</li>
+    <li>circumstance_phrase(PAWN_gender==Male)->con su rostro feliz empieza a [VerbFriendly]</li>
+    <li>circumstance_phrase(PAWN_gender!=Male)->con su rostro feliz empieza a [VerbFriendly_Fem]</li>
     <li>circumstance_phrase->brillando tenuemente</li>
     <li>circumstance_phrase->rodead[PAWN_o_a] por un aura [Color_Fem]</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] le observan.</li>
@@ -499,8 +500,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Prayed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] rezó</li>
-    <li>tale_noun->[PAWN_nameDef] le rezó a un poder divino</li>
+    <li>tale_noun->[PAWN_nameDef] rezaba</li>
+    <li>tale_noun->[PAWN_nameDef] le rezaba a un poder divino</li>
     <li>image->[PAWN_nameFull] contemplando la distancia y [circumstance_group]</li>
     <li>image->[PAWN_nameFull] cerrando sus ojos y [circumstance_group]</li>
     <li>image->[PAWN_nameFull] uniendo sus manos y [circumstance_group]</li>
