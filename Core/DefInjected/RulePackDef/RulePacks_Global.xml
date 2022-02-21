@@ -151,6 +151,9 @@
     <li>SylE_Cap->WordParts/Syllables_English_Cap</li>
     <li>SylG->WordParts/Syllables_Galician</li>
     <li>SylG_Cap->WordParts/Syllables_Galician_Cap</li>
+    <!--Conversaciones:-->
+    <li>TalkTopicLight_Var->Words/Nouns/TalkTopic_Light_Var</li>
+    <li>TalkTopicHeavy_Var->Words/Nouns/TalkTopic_Heavy_Var</li>
     <!--Nombre de los biomas:-->
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
     <li>TerrainFeature_Fem->Words/Nouns/TerrainFeatures_Fem</li>
@@ -1064,6 +1067,8 @@
   <TalkTopicsUtility.rulePack.rulesStrings>
     <li>TalkTopicAny->[TalkTopicLight]</li>
     <li>TalkTopicAny->[TalkTopicHeavy]</li>
+    <li>TalkTopic_VarAny->[TalkTopicLight_Var]</li>
+    <li>TalkTopic_VarAny->[TalkTopicHeavy_Var]</li>
     <li>TalkTopicHeavy->[talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->el vínculo entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->la conexión entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>

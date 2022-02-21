@@ -12,13 +12,13 @@
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>Se utilizará un estilo aleatorio para tu ideoligión.</RandomStyleTip>
   <!-- EN: Ideology system inactive -->
-  <PlayClassic>Sistema Ideology inactivo</PlayClassic> <!-- text_todo -->
+  <PlayClassic>Sistema Ideology inactivo</PlayClassic>
   <!-- EN: Create custom\n(fluid) -->
-  <CreateCustomFluid>Crear personalizado\n(fluido)</CreateCustomFluid> <!-- text_todo -->
+  <CreateCustomFluid>Crear personalizado\n(fluido)</CreateCustomFluid>
   <!-- EN: Create custom\n(fixed) -->
-  <CreateCustomFixed>Crear personalizado\n(fijo)</CreateCustomFixed>  <!-- text_todo -->
+  <CreateCustomFixed>Crear personalizado\n(fijo)</CreateCustomFixed>
   <!-- EN: Custom ideoligions -->
-  <CustomIdeoligions>Ideoligiones personalizadas</CustomIdeoligions> <!-- text_todo -->
+  <CustomIdeoligions>Ideoligiones personalizadas</CustomIdeoligions>
   <!-- EN: Load saved -->
   <LoadSaved>Cargar salvado</LoadSaved>
   <!-- EN: Structure -->
@@ -95,10 +95,8 @@
   <RequiredPrecepts>Preceptos requeridos</RequiredPrecepts>
   <!-- EN: Required rituals -->
   <RequiredRituals>Rituales requeridos</RequiredRituals>
-  <!-- EN: Disables precepts -->
-  <DisablesPrecepts>Desactiva preceptos</DisablesPrecepts>
-  <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>Desactiva {0} preceptos.</DisablesPreceptsCount>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>Evita preceptos</PreventsPrecepts> <!-- text_todo -->
   <!-- EN: Styles -->
   <Styles>Estilos</Styles>
   <!-- EN: Chance to have precept -->
@@ -174,7 +172,7 @@
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>Una tumba que contiene el cadáver de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
   <!-- EN: A grave containing a corpse. -->
-  <RitualTargetGraveInfoAbstractNoIdeo>Una tumba que contiene un cadáver.</RitualTargetGraveInfoAbstractNoIdeo> <!-- text_todo -->
+  <RitualTargetGraveInfoAbstractNoIdeo>Una tumba que contiene un cadáver.</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>Una tumba vacía para lamentar la muerte de {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->

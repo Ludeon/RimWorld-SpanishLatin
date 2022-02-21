@@ -23,7 +23,7 @@
   <Chitchat.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
     <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight_var] de [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] de [RECIPIENT_nameDef].</li>
     <li>talkedabout(p=4)->hablaron sobre</li>
     <li>talkedabout->platicaron sobre</li>
     <li>talkedabout->charlaron sobre</li>
@@ -57,7 +57,9 @@
   -->
   <DeepTalk.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout_var] [subject_var] con [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout_varD][subject_var].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout_var] [subject] con [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout_varD1][subject_var] con [RECIPIENT_nameDef].</li>
     <li>talkedabout->compartieron ideas sobre</li>
     <li>talkedabout->intercambiaron opiniones sobre</li>
     <li>talkedabout->charlaron sobre</li>
@@ -67,7 +69,7 @@
     <li>talkedabout->debatieron sobre</li>
     <li>talkedabout->compartieron sus puntos de vista sobre</li>
     <li>talkedabout->compartieron sus ideas sobre</li>
-    <li>talkedabout->hablaron acerca de</li>
+    <li>talkedabout_varD->hablaron acerca de</li>
     <li>talkedabout_var->compartió ideas sobre</li>
     <li>talkedabout_var->intercambió opiniones sobre</li>
     <li>talkedabout_var->charló sobre</li>
@@ -77,9 +79,9 @@
     <li>talkedabout_var->opinó sobre</li>
     <li>talkedabout_var->compartió sus puntos de vista sobre</li>
     <li>talkedabout_var->compartió sus ideas sobre</li>
-    <li>talkedabout_var->habló acerca de</li>
+    <li>talkedabout_varD1->habló acerca de</li>
     <li>subject->[TalkTopicHeavy]</li>
-    <li>subject_var->[TalkTopicHeavy_var]</li>
+    <li>subject_var->[TalkTopicHeavy_Var]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
   
   <!-- EN: insult -->
