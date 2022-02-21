@@ -73,9 +73,9 @@
     <!--<li>r_ideoRelicName->[thingLabel] [memeAdjective]</li>
     <li>r_ideoRelicName->[memeHyphenPrefix][thingLabel]</li>-->
     <li>r_ideoRelicName->[relic] [memeAdjective]</li>
-    <li>r_ideoRelicName->[relic1] [memeAdjectiveFem]</li>
+    <li>r_ideoRelicName(p=0.0001)->[relic1] [memeAdjectiveFem]</li>
     <li>r_ideoRelicName->[relic] de [memeConcept]</li>
-    <li>r_ideoRelicName->[relic1] de [memeConcept]</li>
+    <li>r_ideoRelicName(p=0.0001)->[relic1] de [memeConcept]</li>
     <li>r_ideoRelicName(p=0.33)->[memeHyphenPrefix][relic]</li>
     <li>relic->artefacto</li>
     <li>relic->recuerdo</li>
@@ -90,7 +90,7 @@
     <li>first->enlace de</li>
     <li>first->vínculo de</li>
     <li>first->azote de</li>
-    <li>first->portadora de</li>
+    <li>first->portador de</li>
     <li>first->manda</li>
     <li>first->nexo de</li>
     <li>first->foco de</li>
