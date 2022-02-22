@@ -31,11 +31,11 @@
     <li>talkedabout->hablaron sobre</li>
     <li>talkedabout->bromearon sobre</li>
     <li>talkedabout->hicieron un chiste sobre</li>
-    <li>talkedabout1(p=4)->habló sobre</li>
-    <li>talkedabout1->platicó sobre</li>
-    <li>talkedabout1->charló sobre</li>
-    <li>talkedabout1->cuchicheó sobre</li>
-    <li>talkedabout1->comentó sobre</li>
+    <li>talkedabout1(p=4)->habló algo sobre</li>
+    <li>talkedabout1->platicó algo sobre</li>
+    <li>talkedabout1->dijo algo sobre</li>
+    <li>talkedabout1->cuchicheó algo sobre</li>
+    <li>talkedabout1->comentó algo sobre</li>
     <li>talkedabout1->bromeó sobre</li>
     <li>talkedabout1->hizó un chiste sobre</li>
     <li>commentedabout->dijo algo sobre</li>
@@ -64,9 +64,9 @@
   -->
   <DeepTalk.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout_varD][subject_var].</li>
+    <li>r_logentry->[INITIATOR_nameDef] y [RECIPIENT_nameDef] [talkedabout_varD] [subject_var].</li>
     <li>r_logentry->[INITIATOR_nameDef] [talkedabout_var] [subject] con [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout_varD1][subject_var] con [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout_varD1] [subject_var] con [RECIPIENT_nameDef].</li>
     <li>talkedabout->compartieron ideas sobre</li>
     <li>talkedabout->intercambiaron opiniones sobre</li>
     <li>talkedabout->charlaron sobre</li>
@@ -76,17 +76,17 @@
     <li>talkedabout->debatieron sobre</li>
     <li>talkedabout->compartieron sus puntos de vista sobre</li>
     <li>talkedabout->compartieron sus ideas sobre</li>
-    <li>talkedabout_varD->hablaron acerca de</li>
+    <li>talkedabout_varD->hablaron acerca</li>
     <li>talkedabout_var->compartió ideas sobre</li>
     <li>talkedabout_var->intercambió opiniones sobre</li>
-    <li>talkedabout_var->charló sobre</li>
-    <li>talkedabout_var->habló sobre</li>
-    <li>talkedabout_var->discutió sobre</li>
+    <li>talkedabout_var->charló algo sobre</li>
+    <li>talkedabout_var->habló algo sobre</li>
+    <li>talkedabout_var->discutió algo sobre</li>
     <li>talkedabout_var->habló a profundidad sobre</li>
-    <li>talkedabout_var->opinó sobre</li>
+    <li>talkedabout_var->opinó algo sobre</li>
     <li>talkedabout_var->compartió sus puntos de vista sobre</li>
     <li>talkedabout_var->compartió sus ideas sobre</li>
-    <li>talkedabout_varD1->habló acerca de</li>
+    <li>talkedabout_varD1->habló algo acerca</li>
     <li>subject->[TalkTopicHeavy]</li>
     <li>subject_var->[TalkTopicHeavy_Var]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
