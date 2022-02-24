@@ -392,7 +392,7 @@
   <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>Tu caravana debe tener {0} para cumplir con esta oferta comercial.</CommandFulfillTradeOfferFailInsufficient>
   <!-- EN: Give {0}? -->
-  <CommandFulfillTradeOfferConfirm>¿Oferta {0}?</CommandFulfillTradeOfferConfirm>
+  <CommandFulfillTradeOfferConfirm>¿Dar {0}?</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
   <!-- EN: Take off -->
@@ -570,15 +570,15 @@
   <!-- EN: Leave {RITUAL_label} -->
   <CommandLeaveRitual>Abandonar {RITUAL_label}</CommandLeaveRitual>
   <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>Deja de participar en el {RITUAL_labelDef}. El ritual continuará mientras tenga al menos un participante.</CommandLeaveRitualDesc>
+  <CommandLeaveRitualDesc>Deja de participar en el ritual de {RITUAL_label}. El ritual continuará mientras tenga al menos un participante.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
-  <CommandLeaveLastParticipant>Este es el último participante en el {RITUAL_labelDef}.</CommandLeaveLastParticipant>
+  <CommandLeaveLastParticipant>Este es el último participante en el ritual de {RITUAL_label}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>Cancelar {RITUAL_label}</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>Termina el {RITUAL_labelDef} inmediatamente. La obligación del ritual permanecerá. Puedes reiniciar el ritual más tarde.</CommandCancelRitualDesc>
+  <CommandCancelRitualDesc>Termina el ritual de {RITUAL_label} inmediatamente. La obligación del ritual permanecerá. Puedes reiniciar el ritual más tarde.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
-  <CommandCancelRitualConfirm>¿Estás seguro de que quieres cancelar el {RITUAL_labelDef}?</CommandCancelRitualConfirm>
+  <CommandCancelRitualConfirm>¿Estás seguro de que quieres cancelar el ritual de {RITUAL_label}?</CommandCancelRitualConfirm>
   
 </LanguageData>
