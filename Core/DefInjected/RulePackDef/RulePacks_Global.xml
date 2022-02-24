@@ -55,11 +55,15 @@
     <li>AdjectiveNaturalFem->Words/Adjectives/Natural_Fem</li>
     <!-- Animales:-->
     <li>Animal->Words/Nouns/Animals</li>
+    <li>Animal_Cap->Words/Nouns/Animals_Cap</li>
     <li>Animal_Fem->Words/Nouns/Animals_Fem</li>
+    <li>Animal_FemCap->Words/Nouns/Animals_FemCap</li>
     <li>Animal_FemPlural->Words/Nouns/Animals_FemPlural</li>
     <li>Animal_Plural->Words/Nouns/Animals_Plural</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
+    <li>AnimalBadass_Cap->Words/Nouns/Animals_BadassCap</li>
     <li>AnimalBadass_Fem->Words/Nouns/Animal_Badass_Fem</li>
+    <li>AnimalBadass_FemCap->Words/Nouns/Animal_Badass_FemCap</li>
     <li>AnimalBadass_FemPlural->Words/Nouns/Animal_Badass_FemPlural</li>
     <li>AnimalBadass_Plural->Words/Nouns/Animal_Badass_Plural</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
@@ -866,6 +870,8 @@
     <li>AdjectiveAny->[AdjectiveNatural]</li>
     <li>AnimalBadassAny->[AnimalBadass]</li>
     <li>AnimalBadassAny->[AnimalBadass_Fem]</li>
+    <li>AnimalBadassAny_Cap->[AnimalBadass_Cap]</li>
+    <li>AnimalBadassAny_Cap->[AnimalBadass_FemCap]</li>
     <li>AnimalBadassDefCap->El [AnimalBadass]</li>
     <li>AnimalBadassDefCap->La [AnimalBadass_Fem]</li>
     <li>AnimalBadassAnyPl->[AnimalBadass_Plural]</li>
