@@ -397,6 +397,9 @@
     <!--SLEEPER-->
     <li>SLEEPER_o_a(SLEEPER_gender!=Female)->o</li>
     <li>SLEEPER_o_a(SLEEPER_gender==Female)->a</li>
+    <!-- prueba 
+    <li>RECIPIENT_indefinite(RECIPIENT==Hare)->una liebre</li>
+    <li>RECIPIENT_definite(RECIPIENT==Hare)->la liebre</li> -->
     <!-- all Animals, Arid -->
     <!-- Def -->
     <li>AnimalEpicenoDef(lodgersPawnKind==Dromedary)->el dromedario</li>
