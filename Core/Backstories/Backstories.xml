@@ -1555,11 +1555,22 @@
     <title>funcionario</title>
     <titleFemale>funcionaria</titleFemale>
     <!-- EN: bureaucrat -->
-    <titleShort>oficinista</titleShort>
-    <titleShortFemale>oficinista</titleShortFemale>
+    <titleShort>burócrata</titleShort>
+    <titleShortFemale>burócrata</titleShortFemale>
     <!-- EN: [PAWN_nameDef] worked as a low-ranking administrator for a moribund government bureaucracy. [PAWN_pronoun] is most at home filling out complicated paperwork and playing office politics. -->
     <desc>[PAWN_nameDef] trabajó como un administrad{PAWN_gender ? or : ora} de bajo rango en un gobierno burocrático y moribundo. [PAWN_pronoun] se siente como en casa llenando papeleo complicado y jugando a la política de oficina.</desc>
   </CivilServant2>
+  
+  <CivilServant25>
+    <!-- EN: Civil servant -->
+    <title>funcionario</title>
+    <titleFemale>funcionaria</titleFemale>
+    <!-- EN: Bureaucrat -->
+    <titleShort>burócrata</titleShort>
+    <titleShortFemale>burócrata</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] was bureaucrat in the civil service.\n\nAlthough his family connections took him far, his vocal opposition to his bosses' plans hindered his advancement. Called a "red prince" by some, [PAWN_nameDef] sympathized with the poor, leading ultimately to disgrace in [PAWN_possessive] career. -->
+    <desc>[PAWN_nameDef] era burócrata en la administración pública.\n\nAunque sus conexiones familiares le hicieron llegar lejos, su oposición manifiesta a los planes de sus jefes le impidió avanzar. Llamado por algunos "príncipe rojo", simpatizó con los pobres, lo que le llevó a la desgracia en su carrera.</desc>
+  </CivilServant25>
   
   <ClanChief14>
     <!-- EN: clan chief -->
@@ -5140,6 +5151,17 @@
     <desc>[PAWN_nameDef] modelaba ropa y joyería para anunciantes, y también fue usad{PAWN_gender ? o : a} como modelo físico para personajes en simulaciones de realidad virtual.</desc>
   </Model99>
   
+  <MonkeyChild67>
+    <!-- EN: Monkey child -->
+    <title>niño mono</title>
+    <titleFemale>niña mona</titleFemale>
+    <!-- EN: Monkey kid -->
+    <titleShort>joven mono</titleShort>
+    <titleShortFemale>joven mona</titleShortFemale>
+    <!-- EN: When he was a baby, [PAWN_nameDef]'s parents traded their son to a troop of monkeys. Little is known of his life among the primates. -->
+    <desc>Cuando era bebé, los padres de [PAWN_nameDef] intercambiaron a su hijo con una tropa de monos. Poco se sabe de su vida entre los primates.</desc>
+  </MonkeyChild67>
+  
   <MuffaloResearcher67>
     <!-- EN: muffalo researcher -->
     <title>investigador de múfalo</title>
@@ -5159,6 +5181,17 @@
     <!-- EN: Because of [PAWN_possessive] quiet wisdom and great strength, [PAWN_nameDef] became the spiritual guide for [PAWN_possessive] tribe. [PAWN_pronoun] had a special connection with the great spirit of the muffalo. -->
     <desc>Debido a su sabiduría y fuerza, [PAWN_nameDef] se volvió líder espiritual de una tribu nómada que seguía las grandes manadas de múfalos salvajes.</desc>
   </MuffaloShaman95>
+  
+  <MusicalKid14>
+    <!-- EN: Musical kid -->
+    <title>niño músico</title>
+    <titleFemale>niña músico</titleFemale>
+    <!-- EN: Music kid -->
+    <titleShort>niño músico</titleShort>
+    <titleShortFemale>niña músico</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] was born with an almost magic voice. He learned to sing as a baby. His voice also had a special timbre to it which calmed down everyone who listened to it. -->
+    <desc>[PAWN_nameDef] nació con una voz casi mágica. Aprendió a cantar desde que era un{PAWN_gender ? : a} bebé. Además, su voz tenía un timbre especial que calmaba a todos los que la escuchaban.</desc>
+  </MusicalKid14>
   
   <MusicalKid86>
     <!-- EN: musical kid -->
@@ -5347,6 +5380,17 @@
     <!-- EN: [PAWN_nameDef] was born an raised in an offworld soldier growth facility. From a very young age, [PAWN_pronoun] was taught close-quarters combat tactics, aggression, and how to survive on distant planets.\n\nOne of the best, [PAWN_nameDef] was eventually chose to enter the orbital-deployment shock troop corps. -->
     <desc>[PAWN_nameDef] nació y creció en una instalación de cultivo de soldados en el extranjero. Desde muy pequeñ{PAWN_gender ? o : a}, le enseñaron tácticas de combate cuerpo a cuerpo, agresión y cómo sobrevivir en planetas distantes.\n\nSiendo un{PAWN_gender ? o : a} de {PAWN_gender ? los : las} mejores, [PAWN_nameDef] finalmente eligió ingresar al cuerpo de tropas de choque de despliegue orbital.</desc>
   </OffworldRecruit91>
+  
+  <OldMoneyHeir46>
+    <!-- EN: Old money heir -->
+    <title>heredero de vieja fortuna</title>
+    <titleFemale>heredera de vieja fortuna</titleFemale>
+    <!-- EN: Heir -->
+    <titleShort>heredero</titleShort>
+    <titleShortFemale>heredera</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] grew up a sheltered and spoiled child in one of the many manors of his old-money industrialist family.\n\nWhile attending an elite private school, [PAWN_nameDef] received an extensive education in the arts and sciences, but never saw the horrors of the real world. -->
+    <desc>[PAWN_nameDef]creció como {PAWN_gender ? un niño protegido y mimado : una niña protegida y mimada} en una de las muchas mansiones de su familia de industriales de viejo cuño.\n\nMientras asistía a una escuela privada de élite, [PAWN_nameDef] recibió una amplia educación en artes y ciencias, pero nunca vio los horrores del mundo real.</desc>
+  </OldMoneyHeir46>
   
   <OptimisticChild30>
     <!-- EN: optimistic child -->
@@ -6343,6 +6387,17 @@
     <!-- EN: [PAWN_nameDef] came from a wealthy and influential bloodline. [PAWN_possessive] expensive education included lessons on dueling, leadership, and military strategy. -->
     <desc>[PAWN_nameDef] vino de una línea de sangre rica e influyente. Su educación costosa incluía lecciones sobre duelos, liderazgo y estrategia militar.</desc>
   </RichKid61>
+  
+  <RimworldExile32>
+    <!-- EN: Rimworld exile -->
+    <title>exiliado de Rimworld</title>
+    <titleFemale>exiliada de Rimworld</titleFemale>
+    <!-- EN: Exile -->
+    <titleShort>exiliado</titleShort>
+    <titleShortFemale>exiliada</titleShortFemale>
+    <!-- EN: After [PAWN_possessive] planet was technologically uplifted by a benevolent glitterworld charity, [PAWN_nameDef] saw an opportunity to make some money by defrauding the wealthy glitterworld visitors.\n\nAfter [PAWN_pronoun] was caught, [PAWN_pronoun] was exiled to the rim, where [PAWN_pronoun] targeted rich trading companies to continue [PAWN_possessive] life of crime. -->
+    <desc>Después de que su planeta fuera tecnológicamente mejorado por una benevolente organización benéfica de glitterworld, [PAWN_nameDef] vio la oportunidad de hacer algo de dinero defraudando a los ricos visitantes de glitterworld.\n\nDespués de que [PAWN_objective] atraparan, fue exiliad{PAWN_gender ? o : a} a un planeta del borde, donde se dirigió a ricas empresas comerciales para continuar con su vida delictiva.</desc>
+  </RimworldExile32>
   
   <RitualChild20>
     <!-- EN: ritual child -->
@@ -7467,6 +7522,17 @@
     <desc>[PAWN_nameDef] era {PAWN_gender ? capitán : capitana} de una nave pirata. [PAWN_pronoun] y su tripulación se ganaban la vida capturando comerciantes que deambulaban fuera de rumbo.\n\n[PAWN_pronoun] era conocid{PAWN_gender ? o : a} por su enfoque equilibrado de los problemas, la construcción, la lucha o la negociación, según fuera necesario.</desc>
   </StellarPirate10>
   
+  <StewardsAssisant28>
+    <!-- EN: Steward's assisant -->
+    <title>Auxiliar de mayordomo</title>
+    <titleFemale>Auxiliar de mayordomo</titleFemale>
+    <!-- EN: Steward -->
+    <titleShort>mayordomo</titleShort>
+    <titleShortFemale>mayordoma</titleShortFemale>
+    <!-- EN: A steward on medieval merchant ships, [PAWN_nameDef] was well-travelled on [PAWN_possessive] homeworld by [PAWN_possessive] early teens.\n\nThe constant orders from [PAWN_possessive] captain, however, fostered a defiant streak, as well as a general disaste for anything [PAWN_pronoun] considered to be busywork. -->
+    <desc>Como mayordom{PAWN_gender ? o : a} en naves mercantes medievales, [PAWN_nameDef] ya había viajado por su mundo natal al principio de su adolescencia.\n\nSin embargo, las constantes órdenes de su capitán fomentaron una vena desafiante, así como una aversión general a todo lo que se consideraba trabajo pesado.</desc>
+  </StewardsAssisant28>
+  
   <StewKeeper95>
     <!-- EN: stew keeper -->
     <title>cocinero de guiso</title>
@@ -7519,6 +7585,15 @@
     <!-- EN: Despite being blessed with parental love, [PAWN_nameDef] hardly knew [PAWN_possessive] parents.\n\n[PAWN_pronoun] was frequently left to [PAWN_possessive] own devices which meant more time devoted to exploring [PAWN_possessive] interests…and getting into trouble. -->
     <desc>A pesar de ser bendecid{PAWN_gender ? o : a} con el amor paternal, [PAWN_nameDef] apenas conocía a sus padres.\n\n[PAWN_pronoun] se abocó a menudo a sus propios dispositivos, lo que significó más tiempo dedicado a explorar sus intereses... y meterse en problemas.</desc>
   </Straggler71>
+  
+  <Streamer52>
+    <!-- EN: Streamer -->
+    <title>streamer</title>
+    <!-- EN: Streamer -->
+    <titleShort>streamer</titleShort>
+    <!-- EN: [PAWN_nameDef] worked as a videogame streamer, and was known for his monkey-related impressions and jokes.\n\nA pandemic forced him to go into cryptosleep for several years. During his sleep, he was launched on an interstellar diplomatic mission. Nothing was heard of him ever again. -->
+    <desc>[PAWN_nameDef] trabajaba como streamer de videojuegos, y era conocido por sus imitaciones y bromas relacionadas con los monos.\n\nUna pandemia le obligó a entrar en criptosueño durante varios años. Durante su sueño, fue lanzado en una misión diplomática interestelar. Nunca más se supo de él.</desc>
+  </Streamer52>
   
   <StreetChild4>
     <!-- EN: street child -->
@@ -7974,6 +8049,17 @@
     <!-- EN: [PAWN_nameDef] lived on a pleasant midworld.\n\n[PAWN_possessive] body purist mother fell sick with heart disease. In desperation, [PAWN_nameDef]'s father abducted innocent people and harvested their hearts. [PAWN_nameDef]'s father was arrested, but the child remained scarred from the experience. -->
     <desc>[PAWN_nameDef] vivía en un agradable midworld.\n\nUn día su madre una purista corporal se enfermó de una cardiopatía. En la desesperación, el padre de [PAWN_nameDef] secuestró a personas inocentes y cosechó sus corazones. Este luego fue arrestado, e hizo que quedara con un trauma desde su infancia por la experiencia.</desc>
   </TraumatizedYouth87>
+  
+  <TravelingBard93>
+    <!-- EN: Traveling bard -->
+    <title>bardo viajero</title>
+    <titleFemale>bardo viajera</titleFemale>
+    <!-- EN: Musician -->
+    <titleShort>músico</titleShort>
+    <titleShortFemale>músico</titleShortFemale>
+    <!-- EN: [PAWN_nameDef] joined the famous Star Pilots On Channel K (aka S.P.O.C.K) and toured the star system, but eventually the band split up and their fame faded away.\n\nHe ended up as a travelling bard playing on his portable synthesizer as he traveled from spaceport to spaceport. -->
+    <desc>[PAWN_nameDef] se unió a los famosos Star Pilots On Channel K (también conocidos como S.P.O.C.K) y realizó una gira por el sistema estelar, pero finalmente la banda se separó y su fama se desvaneció.\n\nAcabó siendo un bardo ambulante que tocaba en su sintetizador portátil mientras viajaba de puerto espacial en puerto espacial.</desc>
+  </TravelingBard93>
   
   <TreasureHunter82>
     <!-- EN: treasure hunter -->

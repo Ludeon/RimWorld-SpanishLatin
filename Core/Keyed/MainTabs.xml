@@ -249,13 +249,13 @@
   <!-- EN: The average mood of {0} over the previous {1} -->
   <QuestAveragePawnMoodTargets>el humor promedio de {0} sobre el anterior {1}</QuestAveragePawnMoodTargets>
   <!-- EN: Shuttle arrives in {0} -->
-  <ShuttleArrivesIn>transbordador llega en {0}</ShuttleArrivesIn>
+  <ShuttleArrivesIn>El transbordador llega en {0}</ShuttleArrivesIn>
   <!-- EN: Shuttle arrives on {0} -->
-  <ShuttleArrivesOn>transbordador llega el {0}</ShuttleArrivesOn>
+  <ShuttleArrivesOn>El transbordador llega el {0}</ShuttleArrivesOn>
   <!-- EN: Shuttle departs in {0} -->
-  <ShuttleDepartsIn>El servicio de traslado sale en {0}</ShuttleDepartsIn>
+  <ShuttleDepartsIn>El transbordador parte en {0}</ShuttleDepartsIn>
   <!-- EN: Shuttle departs on {0} -->
-  <ShuttleDepartsOn>El servicio de traslado sale el {0}</ShuttleDepartsOn>
+  <ShuttleDepartsOn>El transbordador parte el {0}</ShuttleDepartsOn>
   <!-- EN: Guests depart in {0} -->
   <GuestsDepartsIn>Los invitados parten en {0}</GuestsDepartsIn>
   <!-- EN: Guests depart on {0} -->
@@ -287,19 +287,19 @@
   <!-- EN: To accept this quest, you need -->
   <QuestAcceptanceRequirementsDescription>Para aceptar esta misión, necesitas</QuestAcceptanceRequirementsDescription>
   <!-- EN: free bedrooms that satisfy the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfied>habitaciones libres que satisfacen los requisitos de título de</QuestBedroomRequirementsUnsatisfied>
+  <QuestBedroomRequirementsUnsatisfied>dormitorios libres que satisfagan los requisitos del título de</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfiedSingle>un dormitorio gratis que cumpla con los requisitos de título de</QuestBedroomRequirementsUnsatisfiedSingle>
+  <QuestBedroomRequirementsUnsatisfiedSingle>un dormitorio libre que satisfaga los requisitos del título de</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestThroneRoomRequirementsUnsatisfied>un salón de trono que cumpla los requisitos del título de {TITLE} de {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
+  <QuestThroneRoomRequirementsUnsatisfied>un salón del trono que satisfaga los requisitos del título de {TITLE} de {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: assign a throne for {PAWN_definite} -->
   <QuestNoThroneRoom>asignar un trono para {PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
-  <QuestNoColonistWithTitle>Un colono con el título de {0}</QuestNoColonistWithTitle>
+  <QuestNoColonistWithTitle>un colono con el título de {0}</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
   <QuestPawnNotOnColonyMap>{PAWN_definite} debe estar en tu colonia natal</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
-  <QuestRequiresNoDangerOnMap>El mapa despejado de cualquier enemigo de la comitiva de concesión</QuestRequiresNoDangerOnMap>
+  <QuestRequiresNoDangerOnMap>El mapa despejado de cualquier enemigo de la facción del otorgante</QuestRequiresNoDangerOnMap>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>para terminar la misión de la ceremonia de concesión en curso</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -309,13 +309,13 @@
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
   <AcceptRoyalFavor>Aceptar {FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
-  <AcceptRoyalFavorDesc>Ya sea que desee ser recompensado con {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSi está desactivado, la facción {FACTION_name} ofrecerá otros tipos de recompensas.\n\nEsta configuración solo afecta a las misiones recién llegadas.</AcceptRoyalFavorDesc>
+  <AcceptRoyalFavorDesc>Ya sea que desees ser recompensado con {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSi está desactivado, la facción {FACTION_name} ofrecerá otros tipos de recompensas.\n\nEsta configuración solo afecta a las misiones recién llegadas.</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
   <AcceptGoodwill>Aceptar buena voluntad</AcceptGoodwill>
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
   <AcceptGoodwillDesc>Si deseas ser recompesando por mejorar tu relación con la facción {FACTION_name}.\n\nSi esto es desabilitado, la facción {FACTION_name} ofrecerá otro tipo de recompensas en su lugar.\n\nEste ajuste solo afecta a las misones recién generadas.</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
-  <RoyalFavorOn>Actualmente está optando por recibir {FACTION_royalFavorLabel}.</RoyalFavorOn>
+  <RoyalFavorOn>Actualmente estás optando por recibir {FACTION_royalFavorLabel}.</RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>Actualmente estás optando por no recibir {FACTION_royalFavorLabel}.</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
@@ -325,7 +325,7 @@
   <!-- EN: Betrayal offer: {0} targets remain -->
   <QuestBetrayalOffer>Oferta de traición: Quedan {0} objetivos</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
-  <QuestBetrayalOfferTip>{0} le concederá una recompensa por matar a todos los miembros de {1}.</QuestBetrayalOfferTip>
+  <QuestBetrayalOfferTip>{0} te concederá una recompensa por matar a todos los miembros de {1}.</QuestBetrayalOfferTip>
   <!-- EN: a colony wealth of at least {0} -->
   <QuestRequiredPlayerWealth>una riqueza de la colonia de al menos {0}</QuestRequiredPlayerWealth>
   <!-- EN: alliance with {0} -->

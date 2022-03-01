@@ -3,29 +3,29 @@
 
   <!-- Room requirements -->
   <!-- EN: Need throneroom -->
-  <NeedThroneAssigned>Requiere salón del trono</NeedThroneAssigned>
+  <NeedThroneAssigned>Necesitas un salón del trono</NeedThroneAssigned>
   <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nEnsure the title holder is assigned a throne inside a throneroom.\n\nThe throneroom should be appropriately sized and decorated to satisfy the title's specific requirements.\n\nMultiple thrones may be placed in one throneroom. -->
-  <NeedThroneAssignedDesc>Uno de los tuyos tiene un título real, y necesita un salón del trono, sin embargo no tiene una asignada.\n\nConstruye un trono en una habitación a continuación, asigna el trono al posedor del título. El salón del trono debe ser grande y digna, para cumplir los requisitos del título.</NeedThroneAssignedDesc>
+  <NeedThroneAssignedDesc>Uno de los tuyos tiene un título real que requiere de un salón del trono, pero no tiene asignado ninguno.\n\nAsegúrate de que el poseedor de un título se le asigne un trono dentro de un salón del trono.\n\nEl salón del trono debe tener el tamaño y la decoración adecuados para satisfacer los requisitos específicos del título.\n\nSe pueden colocar varios tronos en un mismo salón del trono.</NeedThroneAssignedDesc>
 
   <!-- EN: Undignified bedroom -->
   <UndignifiedBedroom>Dormitorio indigno</UndignifiedBedroom>
   <!-- EN: One of your people has a royal title that requires a bedroom with specific features. Either no bedroom is assigned, or the assigned bedroom doesn't satisfy the requirements. -->
-  <UndignifiedBedroomDesc>Uno de los tuyos tiene un título real, que requiere una habitación con requisitos especiales. O no tiene un dormitorio asignado, O la habitación asignada es indigna para el título que tiene.</UndignifiedBedroomDesc>
+  <UndignifiedBedroomDesc>Uno de los tuyos tiene un título real que requiere un dormitorio con características específicas. O bien no se le ha asignado ningún dormitorio, o el dormitorio asignado no satisface los requisitos.</UndignifiedBedroomDesc>
 
   <!-- EN: Title requires bedroom -->
-  <NeedBedroomAssigned>La nobleza requiere de un dormitorio</NeedBedroomAssigned>
+  <NeedBedroomAssigned>Título requiere un dormitorio</NeedBedroomAssigned>
   <!-- EN: One of your people has a royal title that requires a personal bedroom, but no bedroom is assigned.\n\nAssign them a personal bedroom. The bedroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
-  <NeedBedroomAssignedDesc>Uno de los tuyos tiene un título real, eso requiere un dormitorio separado del resto, pero no tiene uno asignado.\n\nDebes asignar una habitación personal. El dormitorio debe ser razonablemente grande y estar decorado de acuerdo a los requisitos del título.</NeedBedroomAssignedDesc>
+  <NeedBedroomAssignedDesc>Uno de los tuyos tiene un título real que requiere un dormitorio personal, pero no se le ha asignado ningún dormitorio.\n\nDebes asignar una dormitorio personal, este debe ser razonablemente grande y estar decorado de acuerdo a los requisitos del título.</NeedBedroomAssignedDesc>
 
   <!-- EN: Undignified throneroom -->
   <UndignifiedThroneroom>Salón del trono indigno</UndignifiedThroneroom>
   <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
-  <UndignifiedThroneroomDesc>Uno de los tuyos tiene un título real y un trono, pero el salón del trono no cumple con los requisitos del título.</UndignifiedThroneroomDesc>
+  <UndignifiedThroneroomDesc>Uno de los tuyos tiene un título real y un trono, pero el salón del trono no satisface los requisitos del título.</UndignifiedThroneroomDesc>
   
   <!-- EN: No acceptable food -->
-  <RoyalNoAcceptableFood>Comida indigna</RoyalNoAcceptableFood>
+  <RoyalNoAcceptableFood>Comida inaceptable</RoyalNoAcceptableFood>
   <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
-  <RoyalNoAcceptableFoodDesc>Uno de los tuyos tiene un título real con requisitos alimenticios especiales. sin embargo no hay comida disponible, que cumpla estos requisitos.</RoyalNoAcceptableFoodDesc>
+  <RoyalNoAcceptableFoodDesc>Uno de los tuyos tiene un título real con requisitos alimenticios especiales, pero no hay comida disponible que satisfaga estos requisitos.</RoyalNoAcceptableFoodDesc>
 
   <!-- EN: {0} days until requirement begins -->
   <RoomRequirementGracePeriodDesc>{0} días, hasta que comiencen los requisitos</RoomRequirementGracePeriodDesc>
@@ -33,17 +33,17 @@
   <!-- EN: Throne not usable -->
   <ThroneroomInvalidConfiguration>Trono inutilizable</ThroneroomInvalidConfiguration>
   <!-- EN: A throne is not usable because of how it is set up: -->
-  <ThroneroomInvalidConfigurationDesc>Un trono se ha construido, de tal forma que no se puede usar:</ThroneroomInvalidConfigurationDesc>
+  <ThroneroomInvalidConfigurationDesc>Un trono no es utilizable por la forma en la que está configurado:</ThroneroomInvalidConfigurationDesc>
   
   <!-- EN: Monument missing blueprints -->
   <MonumentMarkerMissingBlueprints>Planos de monumento faltante</MonumentMarkerMissingBlueprints>
   <!-- EN: The monument won't be completed because blueprints have not been placed for all its parts.\n\nSelect the monument marker and click "Place blueprints", or place the blueprints manually. -->
-  <MonumentMarkerMissingBlueprintsDesc>El monumento no estará completo porque los planos no se han colocado para todas las partes.\n\nSeleccione el marcador de monumento y cliquea "Colocar Planos", o coloca los planos manualmente.</MonumentMarkerMissingBlueprintsDesc>
+  <MonumentMarkerMissingBlueprintsDesc>El monumento no estará completo porque los planos no se han colocado para todas las partes.\n\nSelecciona el marcador de monumento y cliquea "Colocar Planos", o coloca los planos manualmente.</MonumentMarkerMissingBlueprintsDesc>
 
   <!-- EN: Beacon unusable -->
   <ShipLandingBeaconUnusable>Baliza inutilizable</ShipLandingBeaconUnusable>
   <!-- EN: A ship landing beacon is powered but can't be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
-  <ShipLandingBeaconUnusableDesc>Una baliza de aterrizaje para naves está conectada y activa pero no puede ser utilizada. Para ser utilizada, cuatro de estas deben colocarse en las esquinas de un cuadrado de al menos 9 celdas de distancia entre ellas, y el área de ese cuadrado debe estar limpia de obstrucciones incluyendo construcciones, colonos y animales.</ShipLandingBeaconUnusableDesc>
+  <ShipLandingBeaconUnusableDesc>Una baliza de aterrizaje para naves está conectada y activa pero no puede ser utilizada. Para ser utilizada, cuatro de estas deben colocarse en las esquinas de un cuadrado de al menos 9 celdas de distancia entre ellas, y el área de ese cuadrado debe estar limpia de obstrucciones incluyendo construcciones, personas y animales.</ShipLandingBeaconUnusableDesc>
 
   <!-- EN: Need meditation spot -->
   <NeedMeditationSpotAlert>Necesitas un lugar de meditación</NeedMeditationSpotAlert>
@@ -68,7 +68,7 @@
   <!-- EN: Anima linking ceremony ready -->
   <AnimaLinkingReadyLabel>ceremonia de vinculación ánima lista</AnimaLinkingReadyLabel>
   <!-- EN: An anima tree has enough anima grass to carry out the linking ceremony and level up psylink for these colonists -->
-  <AnimaLinkingReadyDesc>Un árbol ánima tiene suficiente hierba ánima para llevar a cabo la ceremonia de vinculación y subir de nivel el psicoenlace de estos colonos</AnimaLinkingReadyDesc>
+  <AnimaLinkingReadyDesc>Un árbol ánima tiene suficiente hierba ánima para llevar a cabo la ceremonia de vinculación y subir el nivel de psicoenlace de estos colonos</AnimaLinkingReadyDesc>
   <!-- EN: In order to start the ceremony, select a colonist, click the 'begin anima tree linking' button and select the anima tree you want to use. -->
   <AnimaLinkingReadyDescExtra>Para iniciar la ceremonia, selecciona un colono, haz clic en el botón "iniciar la vinculación con árbol ánima" y selecciona el árbol ánima que quieres utilizar.</AnimaLinkingReadyDescExtra>
   

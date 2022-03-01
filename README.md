@@ -4,13 +4,13 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.3.3283-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.3.3287-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 1.3.3283 (Unstable Release)
+This is the Latin American Spanish translation of Rimworld 1.3.3287 (Stable Release)
 
-Esta es la traducción para latinoamérica de Rimworld 1.3.3283 (Versión En Desarrollo)
+Esta es la traducción para latinoamérica de Rimworld 1.3.3287 (Versión Estable)
 
 See this page for license info:
 

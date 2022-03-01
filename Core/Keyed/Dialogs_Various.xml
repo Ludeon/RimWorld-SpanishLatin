@@ -22,7 +22,7 @@
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
   <GameUpdatedToNewVersionSavesCompatible>Los juegos guardados de la versión anterior deberían ser compatibles, aunque algunos mods pueden dejar de funcionar.</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
-  <GameUpdatedToNewVersionNonSteam>Ya que esta es una copia libre de protección anti-piratería, puedes instalar el juego dos veces en diferentes carpetas, para que puedas jugar tanto con la versión nueva como la anterior.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionNonSteam>Ya que esta es una copia libre de protección antipiratería, puedes instalar el juego dos veces en diferentes carpetas, para que puedas jugar tanto con la versión nueva como la anterior.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>Si deseas continuar con la versión anterior, puedes optar por usar la opción de "Betas" de Steam.\n\n  1. En la librería de Steam, haz clic derecho en Rimworld.\n  2. Da clic en propiedades.\n  3. Selecciona la pestaña de betas.\n  4. Selecciona la versión que desees del menú.</GameUpdatedToNewVersionSteam>
   
@@ -162,7 +162,7 @@
   
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>El nuevo apodo de este colono es {0}. {PAWN_possessive} titulo es {PAWN_title}.</PawnGainsName>
+  <PawnGainsName>El nuevo apodo de esta persona es {0}. {PAWN_possessive} titulo es {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>El nombre del animal ahora es {0}.</AnimalGainsName>
 
@@ -683,7 +683,7 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Nunca se quedará sin comida</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>El número aproximado de días antes de que al menos una persona o animal se quede sin comida. Las distintas especies tienen dietas diferentes, por lo que una puede quedarse sin comida antes que otras. Este valor se calcula con mayor precisión una vez elegida la ruta.\n\nAfectada por:\n - Inventario actual de colonos\n - Tipo y cantidad de comida transportada\n - Miembros de la caravana y sus dietas\n - Tasa de forrajeo\n - Si los animales pueden pastar\n - Tiempo hasta que la comida se pudra\n - El clima caluroso pudre la comida más rápido.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>El número aproximado de días antes de que al menos una persona o animal se quede sin comida. Las distintas especies tienen dietas diferentes, por lo que una puede quedarse sin comida antes que otras. Este valor se calcula con mayor precisión una vez elegida la ruta.\n\nAfectada por:\n - Inventario actual del peón\n - Tipo y cantidad de comida transportada\n - Miembros de la caravana y sus dietas\n - Tasa de forrajeo\n - Si los animales pueden pastar\n - Tiempo hasta que la comida se pudra\n - El clima caluroso pudre la comida más rápido.</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(solo se tiene en cuenta el primer punto intermedio)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
