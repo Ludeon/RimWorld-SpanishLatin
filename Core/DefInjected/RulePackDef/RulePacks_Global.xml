@@ -256,6 +256,8 @@
     <li>asker_TheCap(asker_gender==Female)->La</li>
     <li>asker_The(asker_gender!=Female)->el</li>
     <li>asker_The(asker_gender==Female)->la</li>
+    <li>asker_a_al(asker_gender!=Female)->al</li>
+    <li>asker_a_al(asker_gender==Female)->a la</li>
     <li>titleHeir_o_a(titleHeir_gender==Male)->o</li>
     <li>titleHeir_o_a(titleHeir_gender==Female)->a</li>
     <li>titleHeir_o_a(titleHeir_gender==None)->o</li>

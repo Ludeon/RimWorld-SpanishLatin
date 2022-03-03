@@ -52,7 +52,7 @@
   <MessageNeedRoyalTitleToCallWithShip>El solicitante debe poseer el título de {0_label} o superior.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
-  <MessageConditionCauserDespawned>{0} ha sido destruido.</MessageConditionCauserDespawned>
+  <MessageConditionCauserDespawned>{0_definite} ha sido destruid{0_gender ? o : a}.</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Proyecto completado: {0}.</MessageBillComplete>
@@ -417,7 +417,7 @@
   <MessageCantBanishDownedPawn>No puedes expulsar a {1_labelShort} ya que [1_pronoun] no puede caminar.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
-  <MessageSleepingPawnsWokenUp>{0} se han despertado.</MessageSleepingPawnsWokenUp>
+  <MessageSleepingPawnsWokenUp>Los {0} se han despertado.</MessageSleepingPawnsWokenUp>
   <!-- EN: Mech cluster buildings have been defeated. -->
   <MessageMechClusterDefeated>Los edificios del clúster de mecas han sido derrotados.</MessageMechClusterDefeated>
 
