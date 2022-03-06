@@ -19,22 +19,22 @@
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>Las relaciones con {0} se han roto completamente. Ahora son hostiles contigo.</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>Llevarán a cabo asaltos periódicos contra tu colonia y caravanas, y se negarán a comerciar contigo. Si quieres mejorar las relaciones, todavía puedes ofrecerles regalos en caravanas o cápsulas de transporte.\n\nEsto sucedió porque la buena voluntad ({0}) ha caído por debajo de {1}. Para restablecer relaciones neutrales, la buena voluntad debe alcanzar {2} nuevamente.</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>Llevarán a cabo asaltos periódicos contra tu colonia y caravanas, y se negarán a comerciar contigo. Si quieres mejorar las relaciones, todavía puedes ofrecerles regalos en caravanas o cápsulas de transporte.\n\nEsto sucedió porque la buena voluntad ({0}) ha caído por debajo de {1}. Para restablecer relaciones neutrales, la buena voluntad debe llegar a {2} nuevamente.</LetterRelationsChange_HostileGoodwillDescription>  
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>Las relaciones con {0} se han enfriado. Ahora te consideran neutral y ya no te atacarán.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
-  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>Esto sucedió porque la buena voluntad ({1}) se ha incrementado en {2}. Si las relaciones caen por debajo de {3}, {0} se volverá hostil nuevamente. Si las relaciones se elevan por encima de {4}, se convertirán en tus aliados y lucharán por ti.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
+  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>Esto sucedió porque la buena voluntad ({1}) ha subido más allá de {2}. Si las relaciones caen por debajo de {3}, {0} se volverá hostil nuevamente. Si las relaciones se elevan por encima de {4}, se convertirán en tus aliados y lucharán por ti.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
   
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
   <LetterRelationsChange_NeutralFromAlly>Las relaciones con {0} se han enfriado. Ahora te consideran neutral en lugar de aliado.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>Ellos aún seguirán interactuando pacíficamente contigo, ya no enviarán combatientes para ayudarte cuando estés bajo amenaza.\n\nEsto sucedió porque la buena voluntad ({1}) ha caído por debajo {2}. Si las relaciones caen por debajo de {3}, {0} se volverá hostiles hacia ti. Si las relaciones se elevan por encima de {4}, se aliarán de nuevo.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>Ellos aún seguirán interactuando pacíficamente contigo, ya no enviarán combatientes para ayudarte cuando estés bajo amenaza.\n\nEsto sucedió porque la buena voluntad ({1}) ha caído por debajo de {2}. Si las relaciones caen por debajo de {3}, {0} se volverán hostiles hacia ti. Si las relaciones se elevan por encima de {4}, se aliarán de nuevo.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
   
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>Las relaciones con {0} se han vuelto muy íntimas. Ahora te consideran un aliado.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>Los aliados a veces llegan para ayudar a luchar contra tus enemigos cuando estás bajo ataque. También puedes llamarlos para pedirles ayuda en cualquier momento, a un costo de buena voluntad.\n\nSe han convertido en aliados porque su buena voluntad ({0}) se ha incrementado en el pasado por encima de {1}. Si la buena voluntad cae por debajo de {2}, las relaciones volverán a ser neutrales.</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>Los aliados a veces llegan para ayudar a luchar contra tus enemigos cuando estás bajo ataque. También puedes llamarlos para pedirles ayuda en cualquier momento, a un costo de buena voluntad.\n\nSe han aliado porque tu buena voluntad ({0}) ha subido más allá de {1}. Si la buena voluntad cae por debajo de {2}, las relaciones volverán a ser neutrales.</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
   <goodwill>Buena voluntad</goodwill>
@@ -53,7 +53,7 @@
   <!-- EN: A new area has been revealed. -->
   <AreaRevealed>Se ha descubierto una nueva área.</AreaRevealed>
   <!-- EN: A new area has been revealed. It contains ancient, hostile mechanoids. -->
-  <AreaRevealedWithMechanoids>Se ha descubierto una nueva área. ¡Contiene antiguos mecanoides hostiles!</AreaRevealedWithMechanoids>
+  <AreaRevealedWithMechanoids>Se ha descubierto una nueva área. Contiene mecanoides antiguos y hostiles.</AreaRevealedWithMechanoids>
 
   <!-- EN: A roof has collapsed because it was too far from any support. -->
   <RoofCollapsed>Un techo ha colapsado porque estaba muy lejos de cualquier soporte.</RoofCollapsed>
@@ -75,9 +75,9 @@
   <!-- EN: Birthday -->
   <LetterLabelBirthday>Cumpleaños</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
-  <BirthdayChronological>¡Hoy es el cumpleaños cronológico de {0}! Biológicamente, {1} tiene {3} años.\n\nCronologicamente, {1} ha cumplido {2} años.\n\nToma en cuenta que como las personas no envejecen durante el criptosueño, el cumpleaños cronológico es diferente del biológico.</BirthdayChronological>
+  <BirthdayChronological>¡Hoy es el cumpleaños cronológico de {0}! Biológicamente, {1} tiene {3} años.\n\nCronológicamente, {1} ha cumplido {2} años.\n\nToma en cuenta que como las personas no envejecen durante el criptosueño, el cumpleaños cronológico es diferente del biológico.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
-  <BirthdayBiologicalAgeInjuries>{0_nameFull} ha llegado a la edad biológica de {1}.\n\nDesafortunadamente, {0_nameFull} ha desarrollado la siguiente enfermedad debido al envejecimiento:\n{2}</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>{0_nameFull} ha llegado a la edad biológica de {1}.\n\nDesafortunadamente, {0_nameFull} ha desarrollado las siguientes enfermedades debido al envejecimiento:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Enfermedad</LetterLabelNewDisease>
@@ -100,7 +100,7 @@
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Peligro antiguo</LetterLabelAncientShrineWarning>
   <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>Como {PAWN_nameDef} se ha acercado a aquella construcción antigua, un presentimiento aterrador le pasa por la mente. {PAWN_pronoun} no está segur{PAWN_gender ? o : a} de por qué, pero siente que esta estructura polvorienta esconde un gran peligro.</AncientShrineWarning>
+  <AncientShrineWarning>Como {PAWN_nameDef} se ha acercado a aquel muro antiguo, un presentimiento aterrador le invade. {PAWN_pronoun} no está segur{PAWN_gender ? o : a} de por qué, pero siente que esta estructura polvorienta esconde un gran peligro.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>¡Hemos encontrado {0}!</StruckMineable>
@@ -108,7 +108,7 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} vengativo(a)</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>¡{1_indefinite} se ha enfurecido luego de ser herido(a)!\n\nCazará cualquier humanoide que pueda encontrar. Se calmará cuando se vaya a dormir.</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>¡{1_indefinite} se ha enfurecido luego de ser herido(a)!\n\nCazará a cualquier humanoide que pueda encontrar. Se calmará cuando se vaya a dormir.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
   <AnimalManhunterFromTaming>¡{1_indefinite} está atacando debido a un intento fallido de domesticación!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
@@ -169,11 +169,11 @@
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Relación</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>Hay personas que están relacionados con tus {0} o prisioneros en el grupo de {1}.\n\nTen presente que, aunque se conozcan, aun así se atacarán debido a las malas relaciones entre las facciones.\n\nEstas personas son:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>Hay personas que están relacionadas con tus {0} o prisioneros en el grupo de {1}.\n\nTen presente que, aunque se conozcan, aun así se atacarán debido a las malas relaciones entre las facciones.\n\nEstas personas son:</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
-  <LetterRelatedPawnsRaidFriendly>Hay personas que están relacionados con tus {0} o prisioneros en el grupo de amistosos que llega de {1}:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsRaidFriendly>Hay personas que están relacionados con tus {0} o prisioneros en el amistoso grupo que llega de {1}:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
-  <LetterRelatedPawnsNeutralGroup>Hay personas que están relacionados con tus {0} o prisioneros en el grupo de que está llegando:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsNeutralGroup>Hay personas que están relacionados con tus {0} o prisioneros en el grupo que está llegando:</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
   <LetterRelatedPawnsTradeShip>La nave de comercio está vendiendo a personas que tienen alguna relación con tus {0} o prisioneros:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
@@ -216,7 +216,7 @@
   <!-- EN: Rejected proposal -->
   <LetterLabelRejectedProposal>Propuesta rechazada</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>En algún momento de los próximos días o cuadrums, tendrán su ceremonia de matrimonio e invitarán a todos los colonos. Considera la posibilidad de colocar un lugar de matrimonio si desea controlar dónde se celebrará la ceremonia.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>En algún momento de los próximos días o cuadrums, tendrán su ceremonia de matrimonio e invitarán a todos los colonos. Considera la posibilidad de colocar un lugar de matrimonio si deseas controlar dónde se celebrará la ceremonia.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
   <LetterAcceptedProposal_NameChange>{PAWN_label} cambiará {PAWN_possessive} apellido a {1}.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
@@ -246,13 +246,13 @@
   <!-- EN: Prison break -->
   <LetterLabelPrisonBreak>Fuga</LetterLabelPrisonBreak>
   <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
-  <LetterPrisonBreak>¡Tus prisioneros han organizado una fuga! De alguna manera han abierto el seguro de la puerta y están saliendo. Podrían buscar armas, luchar o intentar escapar. Los prisioneros involucrados son:\n\n{0}\n\nLos prisioneros son más propensos a fugarse si están infelices, son numerosos y están saludables.</LetterPrisonBreak>
+  <LetterPrisonBreak>¡Tus prisioneros han organizado una fuga! De alguna manera han abierto el seguro de la puerta y están saliendo. Podrían buscar armas, luchar o intentar escapar. Los prisioneros involucrados son:\n\n{0}\n\nLos prisioneros son más propensos a fugarse cuando son numerosos y están sanos.</LetterPrisonBreak>
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>Adicción: {0}</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>{PAWN_labelShort} ha desarrollado una adicción por {1_definite}.\n\n{PAWN_pronoun} ahora necesita de {1}, visible en su pestaña de Necesidad. {PAWN_pronoun} ahora consumirá automáticamente la droga para cumplir su necesidad. Si no puede conseguir {1}, {PAWN_pronoun} entrará en abstinencia.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{PAWN_labelShort} ha desarrollado una adicción por {1_definite}.\n\nAhora tiene una necesidad de {1}, visible en su pestaña de Necesidad. Consumirá automáticamente la droga para satisfacer su necesidad. Si no puede conseguir {1}, entrará en abstinencia.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
@@ -288,11 +288,11 @@
 
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
-  <LetterLabelFactionBaseDefeated>Asentamiento destruido</LetterLabelFactionBaseDefeated>
+  <LetterLabelFactionBaseDefeated>Base destruida</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterFactionBaseDefeated>El asentamiento enemigo de {0} ha sido destruido.\n\nEn {1}, tu caravana será atacada por los enemigos. Empezarán a enviar fuerzas para atacar la caravana, a menos que se reforme y se vaya.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>El asentamiento enemigo {0} ha sido destruido.\n\nEn {1}, tu caravana será atacada por los enemigos. Empezarán a enviar fuerzas para atacar la caravana, a menos que se reforme y se vaya.</LetterFactionBaseDefeated>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
-  <LetterFactionBaseDefeated_FactionDestroyed>Esta era la última base de {0}, lo que significa que la facción ya no existirá.</LetterFactionBaseDefeated_FactionDestroyed>
+  <LetterFactionBaseDefeated_FactionDestroyed>Como este era su último asentamiento, La facción {0} ya no existirá.</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
@@ -336,7 +336,7 @@
   <!-- EN: The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}. -->
   <LetterPeaceTalks_Success>Las charlas fueron un éxito. Los delegados alcanzaron una nueva comprensión mutua sobre varios asuntos importantes.\n\nLas relaciones con {0} mejoraron en {1}.</LetterPeaceTalks_Success>
   <!-- EN: Peace talks triumph -->
-  <LetterLabelPeaceTalks_Triumph>Las charlas de paz triunfan</LetterLabelPeaceTalks_Triumph>
+  <LetterLabelPeaceTalks_Triumph>Charlas de paz triunfantes</LetterLabelPeaceTalks_Triumph>
   <!-- EN: The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2} -->
   <LetterPeaceTalks_Triumph>¡Las charlas fueron un gran triunfo! Los delegados se conectaron rápidamente a nivel personal y llegaron a ver realmente la perspectiva de los demás sobre los problemas más difíciles del día.\n\nLas relaciones con {0} mejoraron en {1}.\n\nComo tu caravana partió, el delegado de {0} te ofreció un regalo:\n\n{2}</LetterPeaceTalks_Triumph>
   <!-- EN: {PAWN_labelShort}, your negotiator, has gained {1} social experience. -->
@@ -344,11 +344,11 @@
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
-  <LetterRunWildMentalBreak>{0} está hart{PAWN_gender ? o : a} de la civilización.\n\n{PAWN_pronoun} se dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, ha decidido dejar tu facción y vivir con los animales.\n\nPuedes intentar domar o arrestar{PAWN_objective} para recuperar{PAWN_objective}.</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0} está hart{PAWN_gender ? o : a} de la civilización.\n\nSe dio cuenta de que las criaturas salvajes son siempre libres. Por lo tanto, ha decidido dejar tu facción y vivir con los animales.\n\nPuedes intentar domar{PAWN_objective} o arrestar{PAWN_objective} para recuperar{PAWN_objective}.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0} tiene un colapso catatónico que durará varios días. {PAWN_pronoun} se recuperará en unos días.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0} ha sufrido un colapso mental total y ha entrado en un estado catatónico. {PAWN_pronoun} se recuperará en varios días.</LetterCatatonicMentalBreak>
 
   <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>Oferta de núcleo de IA</LetterLabelAICoreOffer>
@@ -398,7 +398,7 @@
   <!-- EN: Faction base proximity -->
   <LetterLabelFactionBaseProximity>Proximidad a base de facción</LetterLabelFactionBaseProximity>
   <!-- EN: Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by: -->
-  <LetterFactionBaseProximity>Como estás tan cerca de otras facciones, sienten que estás invadiendo su territorio.\n\nPara el último quadrum, las relaciones entre las facciones se han reducido en:</LetterFactionBaseProximity>
+  <LetterFactionBaseProximity>Como estás tan cerca de otras facciones, estas sienten que estás invadiendo su territorio.\n\nPara el último quadrum, las relaciones entre las facciones se han reducido en:</LetterFactionBaseProximity>
 
   <!-- Caravans battlefield victory -->
   <!-- EN: Caravan battle won -->
@@ -424,7 +424,7 @@
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Enfermedad: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
-  <LetterTraitDisease>{PAWN_label} se ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico, también de que {PAWN_pronoun} reciba el tratamiento adecuado y permanece en la cama el mayor tiempo posible.</LetterTraitDisease>
+  <LetterTraitDisease>{PAWN_label} se ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico, también de que {PAWN_pronoun} reciba el tratamiento adecuado y permanezca en la cama el mayor tiempo posible.</LetterTraitDisease>
 
   <!-- Surgery -->
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
@@ -454,7 +454,7 @@
   <!-- EN: Pods arrived -->
   <LetterLabelQuestDropPodsArrived>Llegaron las cápsulas</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
-  <LetterQuestDropPodsArrived>Llegaron cápsulas de transporte con los siguientes contenidos:\n\n{0}</LetterQuestDropPodsArrived>
+  <LetterQuestDropPodsArrived>Llegaron cápsulas de transporte con el siguiente contenido:\n\n{0}</LetterQuestDropPodsArrived>
 
   <!-- Quest items added to caravan inventory -->
   <!-- EN: {CARAVAN_label} received items -->
