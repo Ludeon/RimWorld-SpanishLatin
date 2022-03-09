@@ -147,9 +147,13 @@
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
   <MapCameraDolly.text>Has llegado a la superficie.\n\nAhora intenta mover la cámara.\n\nUsa las teclas {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} o haz clic y arrastra con el botón medio del ratón.</MapCameraDolly.text>
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now! -->
+  <MapCameraDolly.textController>¡Aquí estás en la superficie!\n\nAhora intenta mover la cámara con el joystick izquierdo.\n\n¡Pruébalo ahora!</MapCameraDolly.textController>
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>!Genial!\n\nAhora también puedes acercar o alejar la cámara con la rueda del ratón o las teclas {Key:MapZoom_In} y {Key:MapZoom_Out}.</MapCameraZoom.text>
+  <!-- EN: Great!\n\nYou can also zoom in and out with the bumpers.\n\nTry it now! -->
+  <MapCameraZoom.textController>¡Genial!\n\nTambién puedes acercarte y alejarte con los bumpers.\n\n¡Pruébalo ahora!</MapCameraZoom.textController>
   
   <!-- EN: Designate all this\nfor mining -->
   <MineSteel.onMapInstruction>Designa todo esto para minarse</MineSteel.onMapInstruction>
@@ -170,6 +174,8 @@
   
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
   <Pause.text>También puedes pausar el tiempo.\n\nEsto significa que nunca hay necesidad de apresurarse. Siempre puedes pausar y tomarte tu tiempo para dar las órdenes.\n\nIntenta pausar con la tecla {Key:TogglePause} o usando los controles de la parte inferior derecha de la pantalla.</Pause.text>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the Y button, or by using the time controls in the bottom right. -->
+  <Pause.textController>Puedes pausar el tiempo.\n\nEsto significa que nunca necesitas apresurarte. Siempre puedes hacer una pausa y tomarte tu tiempo para dar órdenes.\n\nIntenta hacer una pausa con el botón Y, o usando los controles de tiempo en la parte inferior derecha.</Pause.textController>
   
   <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.rejectInputMessage>Por favor, haz clic en el botón ALEATORIO para aleatorizar el personaje.</RandomizeCharacter.rejectInputMessage>
@@ -195,6 +201,8 @@
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>También puedes acelerar el tiempo\n\nIntenta controlarlo usando las teclas {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, y {Key:TimeSpeed_Superfast} o usando los controles de la esquina inferior derecha de la pantalla.</TimeControls.text>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with the back buttons, or with the time controls in the bottom right. -->
+  <TimeControls.textController>También puedes acelerar el tiempo.\n\nIntenta controlar el tiempo con los botones de atrás, o con los controles de tiempo de la parte inferior derecha.</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>Por favor, liciencia a tus colonos.</UndraftAll.rejectInputMessage>
