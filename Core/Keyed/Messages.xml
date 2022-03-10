@@ -135,8 +135,7 @@
   <MessageMustDesignateUnforbiddable>Debes designar artículos permitidos.</MessageMustDesignateUnforbiddable>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
-  <MessageRefusedArrest>¡{1_labelShort} se ha rehusado a ser arrestad{1_gender ? o : a}!</MessageRefusedArrest>
-  
+  <MessageRefusedArrest>¡{1_labelShort} se rehusó a ser arrestad{1_gender ? o : a}!</MessageRefusedArrest>
   <!-- EN: There are no medical beds available. -->
   <MessageNoMedicalBeds>No hay camas hospitalarias disponibles.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
@@ -182,7 +181,7 @@
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} ha sido cazado por {PREDATOR}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>¡{PREY_labelShort} está bajo el ataque de {PREDATOR}!</MessageAttackedByPredator>
+  <MessageAttackedByPredator>{PREY_labelShort} ¡está bajo el ataque de {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
   <MessageRoamerLeaving>{PAWN_labelShort} ¡ha comenzado a alejarse! abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
@@ -283,7 +282,7 @@
   <MessagePlantDiedOfBlight>{1__label} ha muerto debido a una plaga.</MessagePlantDiedOfBlight>
 
   <!-- EN: {1_labelShort} is being burned by superheated air! -->
-  <MessagePawnBeingBurned>¡{1_labelShort} se está quemando con aire supercaliente!</MessagePawnBeingBurned>
+  <MessagePawnBeingBurned>{1_labelShort} ¡se está quemando con aire supercaliente!</MessagePawnBeingBurned>
 
   <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
   <MessageAccidentalOverdose>¡{INGESTER} ha sufrido una sobredosis accidental mientras consumía {DRUG_labelShort}!</MessageAccidentalOverdose>
@@ -432,7 +431,7 @@
   <MessageResearchProjectFinishedByItem>Tecnología proporcionada: {0}.</MessageResearchProjectFinishedByItem>
 
   <!-- EN: {0} has been brought back to life! -->
-  <MessagePawnResurrected>¡{0} ha vuelto a la vida!</MessagePawnResurrected>
+  <MessagePawnResurrected>{0} ¡ha vuelto a la vida!</MessagePawnResurrected>
 
   <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
   <MessageFailedToRescueRelative>Has fallado en el rescate de {PAWN_labelShort}. Esto hará que {RELATIVE_labelShort} se sienta triste.</MessageFailedToRescueRelative>
@@ -578,7 +577,7 @@
   <MessagePermitCooldownFinished>{0_labelShort} ahora puede usar libremente "{1}".</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>¡{PREDATOR} está cazando a {PREY_definite} ({PREY_kindBase}) para alimentarse!</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} ¡está cazando a {PREY_definite} ({PREY_kindBase}) para alimentarse!</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>La resistencia del prisionero {PRISONER_labelShort} ha sido destruida por {WARDEN_labelShort}.</MessagePrisonerResistanceBroken>
