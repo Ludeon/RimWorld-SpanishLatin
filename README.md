@@ -32,21 +32,21 @@ de instalación es: ___RimWorld/Data/Royalty/Languages/___ y Para *Ideolody* el 
 - - -
 Si quieres ver esta guía de instalación con imágenes pasa por nuestro discord.
 
-Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 15/11/2021. 
+Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 17/03/2022. 
 - - -
-Para mayor información de cómo colaborar en la traducción, puedes revisar la wiki se ha creado para ello: [Wiki](https://github.com/Ludeon/RimWorld-SpanishLatin/wiki) 
+Para mayor información de cómo colaborar en la traducción, puedes revisar la [Wiki](https://github.com/Ludeon/RimWorld-SpanishLatin/wiki) se ha creado para ello. 
 - - -
 Current translation and adaptation by:
 
-* __Zerstrick__
+* __[Zerstrick](https://github.com/zerstrick)__
 
 Thanks to Ideology contributors 
 
 * __Evilservant6 (Inactivo)__
 * __IzumiKei (Inactivo)__
 * __akvirac (Inactivo)__
-* __Mora145 (Inactivo)__
-* __BernyGonzalez (Inactivo)__
+* __[Mora145](https://github.com/mora145) (Inactivo)__
+* __[BernyGonzalez](https://github.com/BernyGonzalez) (Inactivo)__
 
 Thanks to AM for the 1.1xxx version:
 
@@ -54,17 +54,17 @@ Thanks to AM for the 1.1xxx version:
 
 Thanks to AM for the 1.019XX version:
 
-* __Etaglibash (Inactivo)__
-* __Andres6936 (Inactivo)__
+* __[Etaglibash](https://github.com/Etaglibash) (Inactivo)__
+* __[Andres6936](https://github.com/Andres6936) (Inactivo)__
 
 
 Thanks to AM for the 10f. version.
 
 Thanks for original spanish translation.
 
-* __Mora145 (Inactivo)__
-* __Destiny609 (Inactivo)__
-* __Gaesatae (Inactivo)__
+* __[Mora145](https://github.com/mora145) (Inactivo)__
+* __[Destiny609] (https://github.com/Destiny609) (Inactivo)__
+* __Gaesata (Inactivo)__
 * __Vhiden (Inactivo)__
 * __Emsaic (Inactivo)__
 * __Alvirolo (Inactivo)__
