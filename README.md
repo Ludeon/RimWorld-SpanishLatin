@@ -8,9 +8,9 @@
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 1.3.3300 (Stable Release)
+This is the Latin American Spanish translation of Rimworld 1.3.3306 (Unstable Release)
 
-Esta es la traducción para latinoamérica de Rimworld 1.3.3300 (Versión Estable)
+Esta es la traducción para latinoamérica de Rimworld 1.3.3306 (Versión Inestable)
 
 See this page for license info:
 
@@ -63,7 +63,7 @@ Thanks to AM for the 10f. version.
 Thanks for original spanish translation.
 
 * __[Mora145](https://github.com/mora145) (Inactivo)__
-* __[Destiny609] (https://github.com/Destiny609) (Inactivo)__
+* __[Destiny609](https://github.com/Destiny609) (Inactivo)__
 * __Gaesata (Inactivo)__
 * __Vhiden (Inactivo)__
 * __Emsaic (Inactivo)__
