@@ -651,7 +651,7 @@
   <!-- EN: Not enclosed - build fences -->
   <PenSizeDesc_Unenclosed>No está cerrado - Construir vallas</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>{ANIMALDEF_label} de capacidad</PenCapacityDesc>
+  <PenCapacityDesc>Aforo de {ANIMALDEF_label}s</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>Ejemplos de animales</PenExampleAnimals>
 
@@ -700,7 +700,7 @@
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
   <ReportHaulingTo>transportando {THING_label} a {DESTINATION}.</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
-  <ReportHaulingToGrave>enterrando {THING_label} en {DESTINATION}.</ReportHaulingToGrave>
+  <ReportHaulingToGrave>enterrando a {THING_label} en {DESTINATION}.</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
   <ReportHauling>transportando {1_label}.</ReportHauling>
   <!-- EN: hauling. -->
@@ -758,7 +758,7 @@
 
   <!-- Shooting report -->
   <!-- EN: Weapon miss radius -->
-  <WeaponMissRadius>Radio de error del arma</WeaponMissRadius>
+  <WeaponMissRadius>Radio de fallo del arma</WeaponMissRadius>
   <!-- EN: Shooter -->
   <ShootReportShooterAbility>Tirador</ShootReportShooterAbility>
   <!-- EN: Weapon -->
