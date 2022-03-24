@@ -4,19 +4,18 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.3.3310-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.3.3311-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 1.3.3310 (Unstable Release)
+This is the Latin American Spanish translation of Rimworld 1.3.3311 (Unstable Release)
 
-Esta es la traducción para latinoamérica de Rimworld 1.3.3310 (Versión en Desarrollo)
+Esta es la traducción para latinoamérica de Rimworld 1.3.3311 (Versión en Desarrollo)
 
-See this page for license info:
+See this [page](http://ludeon.com/forums/index.php?topic=2933.0) for license info:
 
-Consulta esta página para obtener información sobre la licencia:
+Consulta esta [página](http://ludeon.com/forums/index.php?topic=2933.0) para obtener información sobre la licencia:
 
-http://ludeon.com/forums/index.php?topic=2933.0
 - - -
 ## Instalación:
 ### Manual
@@ -32,7 +31,7 @@ de instalación es: ___RimWorld/Data/Royalty/Languages/___ y Para *Ideolody* el 
 - - -
 Si quieres ver esta guía de instalación con imágenes pasa por nuestro discord.
 
-Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 17/03/2022. 
+Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 24/03/2022. 
 - - -
 Para mayor información de cómo colaborar en la traducción, puedes revisar la [Wiki](https://github.com/Ludeon/RimWorld-SpanishLatin/wiki) se ha creado para ello. 
 - - -
@@ -40,35 +39,35 @@ Current translation and adaptation by:
 
 * __[Zerstrick](https://github.com/zerstrick)__
 
-Thanks to Ideology contributors 
+Thanks to Ideology contributors: 
 
-* __Evilservant6 (Inactivo)__
-* __IzumiKei (Inactivo)__
-* __akvirac (Inactivo)__
-* __[Mora145](https://github.com/mora145) (Inactivo)__
-* __[BernyGonzalez](https://github.com/BernyGonzalez) (Inactivo)__
+* __Evilservant6 (Inactive)__
+* __IzumiKei (Inactive)__
+* __akvirac (Inactive)__
+* __[Mora145](https://github.com/mora145) (Inactive)__
+* __[BernyGonzalez](https://github.com/BernyGonzalez) (Inactive)__
 
 Thanks to AM for the 1.1xxx version:
 
-* __Argon111 (Inactivo)__
+* __Argon111 (Inactive)__
 
 Thanks to AM for the 1.019XX version:
 
-* __[Etaglibash](https://github.com/Etaglibash) (Inactivo)__
-* __[Andres6936](https://github.com/Andres6936) (Inactivo)__
+* __[Etaglibash](https://github.com/Etaglibash) (Inactive)__
+* __[Andres6936](https://github.com/Andres6936) (Inactive)__
 
 
 Thanks to AM for the 10f. version.
 
 Thanks for original spanish translation.
 
-* __[Mora145](https://github.com/mora145) (Inactivo)__
-* __[Destiny609](https://github.com/Destiny609) (Inactivo)__
-* __Gaesata (Inactivo)__
-* __Vhiden (Inactivo)__
-* __Emsaic (Inactivo)__
-* __Alvirolo (Inactivo)__
-* __Mototron (Inactivo)__
+* __[Mora145](https://github.com/mora145) (Inactive)__
+* __[Destiny609](https://github.com/Destiny609) (Inactive)__
+* __Gaesata (Inactive)__
+* __Vhiden (Inactive)__
+* __Emsaic (Inactive)__
+* __Alvirolo (Inactive)__
+* __Mototron (Inactive)__
 
 Automation scripts by [Xeros08](https://github.com/Xeros08).
 

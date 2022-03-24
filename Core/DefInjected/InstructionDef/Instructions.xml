@@ -110,13 +110,17 @@
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>Clic derecho para salir del modo de creación de almacén.</EndStockpileDesignating.text>
+  <!-- EN: Press L2 to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>Pulsa L2 para salir del modo de creación de almacén.</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
   <EquipWeapons.onMapInstruction>Equipa esto</EquipWeapons.onMapInstruction>
   <!-- EN: Please have your colonists equip weapons. -->
   <EquipWeapons.rejectInputMessage>Por favor, has que cada colono se equipe un arma.</EquipWeapons.rejectInputMessage>
   <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
-  <EquipWeapons.text>Haz que tus colonos se equipen las armas iniciales. Para equipar un arma:\n\n1. Haz clic en un colono para seleccionarlo.\n2. Clic derecho sobre el arma que desees equipar.\n3. Haz clic en "Equipar (nombre del arma)".\n\nHaz esto para cada colono.</EquipWeapons.text>
+  <EquipWeapons.text>Haz que tus colonos se equipen las armas iniciales. Para equipar un arma:\n\n1. Haz clic en un colono para seleccionarlo.\n2. Clic derecho sobre el arma que desees equipar.\n3. Haz clic en "equipar arma" en el menú contextual.\n\nHaz esto para cada colono.</EquipWeapons.text>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press L2.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>Haz que tus colonos se equipen las armas iniciales. Para equipar un arma:\n\n1. Haz clic en un colono para seleccionarlo.\n2. Pasa el cursor por encima del arma que quieras equipar y pulsa L2.\n3. Haz clic en "equipar arma" en el menú contextual.\n\nHaz esto para cada colono.</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
   <ExpandAreaBuildRoof.rejectInputMessage>Por favor, crea una nueva área con techo.</ExpandAreaBuildRoof.rejectInputMessage>
@@ -199,7 +203,9 @@
   <!-- EN: Please set your growing zone to grow rice. -->
   <SetToGrowRice.rejectInputMessage>Por favor, designa el arroz como cultivo en tu nueva área de cultivo.</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
-  <SetToGrowRice.text>Puedes decidir qué cultivo sembrarán tus colonos en un área de cultivo.\n\n1. Haz clic derecho para salir del modo arquitecto.\n2. Haz clic en el área de cultivo para seleccionarla.\n3. Haz clic en "Sembrar: Papa" y escoge ARROZ en el menú contextual que te aparecerá.</SetToGrowRice.text>
+  <SetToGrowRice.text>Puedes decidir qué cultivo sembrarán tus colonos en un área de cultivo.\n\n1. Haz clic derecho para salir del modo arquitecto.\n2. Haz clic en el área de cultivo para seleccionarla.\n3. Haz clic en el selector de plantas de la parte inferior y cámbialo por el de arroz.</SetToGrowRice.text>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press L2 to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>Puedes decidir qué cultivo sembrarán tus colonos en un área de cultivo.\n\n1. Pulsa L2 para salir del modo arquitecto.\n2. Haz clic en el área de cultivo para seleccionarla.\n3. Haz clic en el selector de plantas de la parte inferior y cámbialo por el de arroz.</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>También puedes acelerar el tiempo\n\nIntenta controlarlo usando las teclas {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, y {Key:TimeSpeed_Superfast} o usando los controles de la esquina inferior derecha de la pantalla.</TimeControls.text>
