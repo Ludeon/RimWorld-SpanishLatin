@@ -863,6 +863,8 @@
   <SelectNextInSquareTip>Selecciona la siguiente cosa en el mismo cuadro.\n\n(*SectionTitle)Tecla de atajo:(/SectionTitle) {0}\n\nPuedes hacer esto al hacer clic lentamente en el mismo cuadro repetidas veces.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Ver información.</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>Selecciona la siguiente cosa en el mismo cuadro.\n\nPuedes hacer esto al hacer clic lentamente en el mismo cuadro repetidas veces.</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -1013,12 +1015,14 @@
   <ShowLearningHelperWhenEmptyToggleButton>Activar la visibilidad del asistente de aprendizaje cuando está vacío.\n\nEl asistente de aprendizaje siempre está visible si hay algún concepto activado para aprendizaje. Esto lo hace desaparecer cuando ningún concepto está activo.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Activar la visibilidad de las áreas.</ZoneVisibilityToggleButton>
-  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>Activar el visor de belleza.\n\nMuestra la belleza del mundo tal y como la percibiría un personaje parado donde apunta el ratón.</ShowBeautyToggleButton>
-  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
-  <ShowRoomStatsToggleButton>Activar el visor de estadísticas de habitación.\n\nMuestra las estadísticas de la habitación a la que apunta el ratón.</ShowRoomStatsToggleButton>
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
+  <ShowBeautyToggleButton>Activar el visor de belleza.\n\nMuestra la belleza del mundo tal y como la percibiría un personaje parado donde apunta el cursor.</ShowBeautyToggleButton>
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
+  <ShowRoomStatsToggleButton>Activar el visor de estadísticas de habitación.\n\nMuestra las estadísticas de la habitación a la que apunta el cursor.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
   <ShowColonistBarToggleButton>Activar barra de colonos.\n\nMuestra los íconos y el estado básico de todos los colonos en la parte superior de la pantalla.\n\nPuedes reordenar los colonos en la barra de colonos haciendo clic con el botón derecho y arrastrándolos.</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>Activar barra de colonos.\n\nMuestra los íconos y el estado básico de todos los colonos en la parte superior de la pantalla.\n\nPuedes reordenar los colonos en la barra de colonos pulsando el botón del disparador izquierdo y arrastrándolos.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Activar la expansión automática del área del hogar alrededor de construcciones nuevas.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1322,11 +1326,17 @@
   <!-- EN: Calculating for: {0} -->
   <RoutePlannerUsingTicksPerMoveOfCaravan>Calculando para: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypoints>Botón derecho del ratón: Agregar/eliminar puntos de ruta.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>Botón derecho del ratón: Añade/elimina puntos de ruta.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>Botón del disparador izquierdo: Añade/elimina puntos de ruta.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Salir del modo de planeación.</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: Salir del modo de planeación.</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Retornar al diálogo de formación de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Regresar al diálogo de formación de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: Regresar al diálogo de formación de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>Tiempo estimado de viaje: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1511,7 +1521,9 @@
   <!-- EN: Not participating -->
   <NotParticipating>Sin participación</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>Arrastra y suelta o cliquea para mover a las personas.</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>Arrastra y suelta o haz clic izquierdo/derecho para mover a las personas.</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>Arrastra y suelta o cliquea para mover a las personas.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Un esclavo. La propiedad humana de otros.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->

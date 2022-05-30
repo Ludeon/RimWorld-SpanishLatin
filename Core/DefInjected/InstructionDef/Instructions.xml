@@ -9,7 +9,9 @@
   <!-- EN: Please add a bill to cook simple meals at your cook stove. -->
   <AddBillSimpleMeal.rejectInputMessage>Por favor, agrega el proyecto de comida sencilla a tu estufa.</AddBillSimpleMeal.rejectInputMessage>
   <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and right-click the stove to prioritize building it. -->
-  <AddBillSimpleMeal.text>Debes decirle a tus colonos lo que deben cocinar.\n\nLas órdenes de cocina se deben crear en la estufa. Una vez que una órden se ha creado, los colonos la llevarán a cabo automáticamente.\n\n1. Espera que la estufa se construya.\n2. Haz clic en la estufa para seleccionarla.\n3. Haz clic en la pestaña de PROYECTOS.\n4. Selecciona AÑADIR PROYECTO.\n5. Selecciona COMIDA SENCILLA.\n6. Haz clic en el signo '+' hasta que el número llegue a 10.\n\nRecuerda que puedes acelerar el tiempo si lo deseas.\n\nTambién puedes seleccionar un colono y hacer clic derecho en la estufa para priorizar el proyecto.</AddBillSimpleMeal.text>
+  <AddBillSimpleMeal.text>Debes decirle a tus colonos lo que deben cocinar.\n\nLas órdenes de cocina se deben crear en la estufa. Una vez que una órden se ha creado, los colonos la llevarán a cabo automáticamente.\n\n1. Espera que la estufa se construya.\n2. Haz clic en la estufa para seleccionarla.\n3. Haz clic en la pestaña de PROYECTOS.\n4. Selecciona AÑADIR PROYECTO.\n5. Selecciona COMIDA SENCILLA en el menú contextual.\n6. Haz clic en el signo "+" hasta que el número llegue a 10.\n\nRecuerda que puedes acelerar el tiempo si lo deseas.\n\nTambién puedes seleccionar un colono y hacer clic derecho en la estufa para priorizar el proyecto.</AddBillSimpleMeal.text>
+  <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and press left trigger button on the stove to prioritize building it. -->
+  <AddBillSimpleMeal.textController>Debes decirle a tus colonos lo que deben cocinar.\n\nLas órdenes de cocina se deben crear en la estufa. Una vez que una órden se ha creado, los colonos la llevarán a cabo automáticamente.\n\n1. Espera que la estufa se construya.\n2. Haz clic en la estufa para seleccionarla.\n3. Haz clic en la pestaña de PROYECTOS.\n4. Selecciona AÑADIR PROYECTO.\n5. Selecciona COMIDA SENCILLA en el menú contextual.\n6. Haz clic en el signo "+" hasta que el número llegue a 10.\n\nRecuerda que puedes acelerar el tiempo si lo deseas.\n\nTambién puedes seleccionar un colono y pulsar el botón del disparador izquierdo en la estufa para priorizar el proyecto.</AddBillSimpleMeal.textController>
   
   <!-- EN: Build an animal sleeping spot\ninside the room -->
   <BuildAnimalSleepingSpot.onMapInstruction>Designa un lugar para dormir de animales\ndentro de la habitación</BuildAnimalSleepingSpot.onMapInstruction>
@@ -107,11 +109,13 @@
   <DownRaider.rejectInputMessage>¡Por favor concéntrate en ganar la pelea!</DownRaider.rejectInputMessage>
   <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
   <DownRaider.text>¡Aquí va el atacante que te prometí!\n\n1. Pausa el juego con la tecla {Key:TogglePause}.\n2. Lee la notificación roja que apareció en el borde derecho de la pantalla.\n3. RECLUTA a tus colonos seleccionándolos y haciendo clic en RECLUTAR.\n4. Haz clic derecho para posicionarlos detrás de las bolsas de arena.\n5. Reanuda el juego.\n\nLos colonos deben estar justo detrás de la cobertura para beneficiarse de ella. Una vez a cubierto, espera que los atacantes se aproximen. Tus colonos dispararán automáticamente.</DownRaider.text>
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Press left trigger button to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <DownRaider.textController>¡Aquí va el atacante que te prometí!\n\n1. Pausa el juego con la tecla {Key:TogglePause}.\n2. Lee la notificación roja que apareció en el borde derecho de la pantalla.\n3. RECLUTA a tus colonos seleccionándolos y haciendo clic en RECLUTAR.\n4. Pulsa el botón del disparador izquierdo para posicionarlos detrás de las bolsas de arena.\n5. Reanuda el juego.\n\nLos colonos deben estar justo detrás de la cobertura para beneficiarse de ella. Una vez a cubierto, espera que los atacantes se aproximen. Tus colonos dispararán automáticamente.</DownRaider.textController>
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>Clic derecho para salir del modo de creación de almacén.</EndStockpileDesignating.text>
-  <!-- EN: Press L2 to get out of stockpile designating mode. -->
-  <EndStockpileDesignating.textController>Pulsa L2 para salir del modo de creación de almacén.</EndStockpileDesignating.textController>
+  <!-- EN: Press left trigger button to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>Pulsa el botón del disparador izquierdo para salir del modo de creación de almacén.</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
   <EquipWeapons.onMapInstruction>Equipa esto</EquipWeapons.onMapInstruction>
@@ -119,8 +123,8 @@
   <EquipWeapons.rejectInputMessage>Por favor, has que cada colono se equipe un arma.</EquipWeapons.rejectInputMessage>
   <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
   <EquipWeapons.text>Haz que tus colonos se equipen las armas iniciales. Para equipar un arma:\n\n1. Haz clic en un colono para seleccionarlo.\n2. Clic derecho sobre el arma que desees equipar.\n3. Haz clic en "equipar arma" en el menú contextual.\n\nHaz esto para cada colono.</EquipWeapons.text>
-  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press L2.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
-  <EquipWeapons.textController>Haz que tus colonos se equipen las armas iniciales. Para equipar un arma:\n\n1. Haz clic en un colono para seleccionarlo.\n2. Pasa el cursor por encima del arma que quieras equipar y pulsa L2.\n3. Haz clic en "equipar arma" en el menú contextual.\n\nHaz esto para cada colono.</EquipWeapons.textController>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press left trigger button.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>Haz que tus colonos se equipen las armas iniciales. Para equipar un arma:\n\n1. Haz clic en un colono para seleccionarlo.\n2. Pasa el cursor por encima del arma que quieras equipar y pulsa botón del disparador izquierdo.\n3. Haz clic en "equipar arma" en el menú contextual.\n\nHaz esto para cada colono.</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
   <ExpandAreaBuildRoof.rejectInputMessage>Por favor, crea una nueva área con techo.</ExpandAreaBuildRoof.rejectInputMessage>
@@ -158,8 +162,8 @@
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>!Genial!\n\nAhora también puedes acercar o alejar la cámara con la rueda del ratón o las teclas {Key:MapZoom_In} y {Key:MapZoom_Out}.</MapCameraZoom.text>
-  <!-- EN: Great!\n\nYou can also zoom in and out with the bumpers.\n\nTry it now! -->
-  <MapCameraZoom.textController>¡Genial!\n\nTambién puedes acercarte y alejarte con los bumpers.\n\n¡Pruébalo ahora!</MapCameraZoom.textController>
+  <!-- EN: Great!\n\nYou can also zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.\n\nTry it now! -->
+  <MapCameraZoom.textController>¡Genial!\n\nTambién puedes acercarte y alejarte usando {Key:MapZoom_In} y {Key:MapZoom_Out}.\n\n¡Pruébalo ahora!</MapCameraZoom.textController>
   
   <!-- EN: Designate all this\nfor mining -->
   <MineSteel.onMapInstruction>Designa todo esto para minarse</MineSteel.onMapInstruction>
@@ -180,8 +184,8 @@
   
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
   <Pause.text>También puedes pausar el tiempo.\n\nEsto significa que nunca hay necesidad de apresurarse. Siempre puedes pausar y tomarte tu tiempo para dar las órdenes.\n\nIntenta pausar con la tecla {Key:TogglePause} o usando los controles de la parte inferior derecha de la pantalla.</Pause.text>
-  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the Y button, or by using the time controls in the bottom right. -->
-  <Pause.textController>Puedes pausar el tiempo.\n\nEsto significa que nunca necesitas apresurarte. Siempre puedes hacer una pausa y tomarte tu tiempo para dar órdenes.\n\nIntenta hacer una pausa con el botón Y, o usando los controles de tiempo en la parte inferior derecha.</Pause.textController>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} button, or by using the time controls in the bottom right. -->
+  <Pause.textController>Puedes pausar el tiempo.\n\nEsto significa que nunca necesitas apresurarte. Siempre puedes hacer una pausa y tomarte tu tiempo para dar órdenes.\n\nIntenta hacer una pausa con el botón {Key:TogglePause}, o usando los controles de tiempo en la parte inferior derecha.</Pause.textController>
   
   <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.rejectInputMessage>Por favor, haz clic en el botón ALEATORIO para aleatorizar el personaje.</RandomizeCharacter.rejectInputMessage>
@@ -204,13 +208,13 @@
   <SetToGrowRice.rejectInputMessage>Por favor, designa el arroz como cultivo en tu nueva área de cultivo.</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.text>Puedes decidir qué cultivo sembrarán tus colonos en un área de cultivo.\n\n1. Haz clic derecho para salir del modo arquitecto.\n2. Haz clic en el área de cultivo para seleccionarla.\n3. Haz clic en el selector de plantas de la parte inferior y cámbialo por el de arroz.</SetToGrowRice.text>
-  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press L2 to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
-  <SetToGrowRice.textController>Puedes decidir qué cultivo sembrarán tus colonos en un área de cultivo.\n\n1. Pulsa L2 para salir del modo arquitecto.\n2. Haz clic en el área de cultivo para seleccionarla.\n3. Haz clic en el selector de plantas de la parte inferior y cámbialo por el de arroz.</SetToGrowRice.textController>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press left trigger button to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>Puedes decidir qué cultivo sembrarán tus colonos en un área de cultivo.\n\n1. Pulsa el botón del disparador izquierdo para salir del modo arquitecto.\n2. Haz clic en el área de cultivo para seleccionarla.\n3. Haz clic en el selector de plantas de la parte inferior y cámbialo por el de arroz.</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>También puedes acelerar el tiempo\n\nIntenta controlarlo usando las teclas {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, y {Key:TimeSpeed_Superfast} o usando los controles de la esquina inferior derecha de la pantalla.</TimeControls.text>
-  <!-- EN: You can also speed up time.\n\nTry controlling time with the back buttons, or with the time controls in the bottom right. -->
-  <TimeControls.textController>También puedes acelerar el tiempo.\n\nIntenta controlar el tiempo con los botones de atrás, o con los controles de tiempo de la parte inferior derecha.</TimeControls.textController>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.textController>También puedes acelerar el tiempo.\n\nIntenta controlar el tiempo con los botones {Key:TimeSpeed_Faster} y {Key:TimeSpeed_Slower}, o con los controles de tiempo de la parte inferior derecha.</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>Por favor, liciencia a tus colonos.</UndraftAll.rejectInputMessage>
