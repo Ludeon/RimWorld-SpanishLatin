@@ -68,21 +68,22 @@
   <NamerIdeoRelic.rulePack.rulesStrings>
     <li>r_ideoRelicName(p=2)->[first] [second]</li>
     <li>r_ideoRelicName(p=2)->[first0][second]</li>
+    <li>r_ideoRelicName(p=2)->[first1]-[second]</li>
     <li>r_ideoRelicName(p=2)->[second1] de [first1]</li>
     <li>r_ideoRelicName->[thingLabel] de[memeConceptDef]</li>
-    <!--<li>r_ideoRelicName->[thingLabel] [memeAdjective]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix][thingLabel]</li>-->
+    <li>r_ideoRelicName->[thingLabel] [memeAdjective]</li>
+    <li>r_ideoRelicName->[memeHyphenPrefix][thingLabel]</li>
     <li>r_ideoRelicName->[relic] [memeAdjective]</li>
     <li>r_ideoRelicName(p=0.0001)->[relic1] [memeAdjectiveFem]</li>
     <li>r_ideoRelicName->[relic] de [memeConcept]</li>
     <li>r_ideoRelicName(p=0.0001)->[relic1] de [memeConcept]</li>
-    <li>r_ideoRelicName(p=0.33)->[memeHyphenPrefix][relic]</li>
+    <li>r_ideoRelicName->[memeHyphenPrefix]-[relic]</li>
     <li>relic->artefacto</li>
     <li>relic->recuerdo</li>
     <li>relic->remanente</li>
     <li>relic1->herencia</li>
     <li>relic1->remembranza</li>
-    <li>first(p=0.33)->[memeHyphenPrefix]</li>
+    <li>first1(p=5)->[memeHyphenPrefix]</li>
     <li>first->convoca</li>
     <li>first->porta</li>
     <li>first->ecos de</li>

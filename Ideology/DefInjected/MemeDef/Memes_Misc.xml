@@ -37,8 +37,8 @@
   <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] creó a estos animales, [sacredAnimalList] y al humano en el [place_summary] [place_name] y los crió como hermanos.</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] reunió a los animales y a los humanos de [place_summary] [place_name] en una gran conferencia.</li>
-    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] bendijó el [place_summary] [place_name] con estos animales: [sacredAnimalListEnd], y enseñó a la gente de allí a honrar a los animales.</li>
-    <li>conflict(tag=meme_AnimalPersonhood)        ->Un malvado [foeLeader] ordenó cazar a los animales salvajes, y sus [foeSoldiers] los cazaron, usando su arma favorita: una [place_personalWeapon].</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] bendijo el [place_summary] [place_name] con estos animales: [sacredAnimalListEnd], y enseñó a la gente de allí a honrar a los animales.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->Un malvado [foeLeader] ordenó cazar a los animales salvajes, y sus [foeSoldiers] los cazaron, usando su arma favorita, la [place_personalWeapon].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] acudió a un [place_job] de nombre [founderName] [revelationAdverb] por un(a) [veneratedAnimal]. Pero [founderName] era el(la) [veneratedAnimal], y el(la) [veneratedAnimal] era [founderName], y [founder_pronoun] entendió el plan de [deity0_name].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->Un [place_job] de nombre [founderName] liberó a muchos animales que estaban esclavizados por amos crueles, y los llevó al santuario en el(la) [altarRoomLabel] de [deity0_name].</li>
     <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] llamó a los [memberNamePlural] y a los animales con la voz de [deity0_name], y en una gran estampida de pezuñas, patas y pies, pisotearon al [foeLeader] y a sus [foeSoldiers].</li>
@@ -140,7 +140,7 @@
   <Blindsight.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Blindsight)        ->[deity0_name] miró sobre el polvo del vacío durante una eternidad, y no había nada. Entonces [deity0_pronoun] arrancó sus ojos, y con ello, el universo formado dentro de su mente.</li>
     <li>episode(uses=1,tag=meme_Blindsight)  ->Un mendigo ciego le preguntó, "¿Por qué me has abandonado? Ni siquiera puedo ver lo que has creado." [deity0_name] respondió, "Ves más, no menos, porque mi verdad está en la mente."</li>
-    <li>intro(tag=meme_Blindsight)           ->El(La) [deity0_type] [deity0_name] utilizó un patógeno para dejar ciegos a los colonos del [place_summary] [place_name], obligándoles a comprender que la vista es una barrera para el conocimiento divino.</li>
+    <li>intro(tag=meme_Blindsight)           ->[deity0_Ella] [deity0_type] [deity0_name] utilizó un patógeno para dejar ciegos a los colonos del [place_summary] [place_name], obligándoles a comprender que la vista es una barrera para el conocimiento divino.</li>
     <li>conflict(tag=meme_Blindsight)        ->Un [foeLeader] exigió que todos los [memberNamePlural] mirarán su propaganda todos los días. Muchos se cegaron en señal de protesta.</li>
     <li>founderJoin(tag=meme_Blindsight)     ->Un [place_job] de nombre [founderName] perdió su vista cuando [founder_pronoun] salvó a un [memberName] de uno de los [foeSoldiers] de [foeLeader]. Solo entonces [founderName] pudo ver realmente la tiranía de [foeLeader].</li>
     <li>victory(tag=meme_Blindsight)         ->[founderName] fue al [place_powerCenter] y le sacó los ojos a [foeLeader] con una cuchara en un ataque suicida sorpresa. Solo entonces el [foeLeader] pudo ver la divinidad de [deity0_name].</li>
@@ -156,6 +156,8 @@
     <li>archistFact(tag=meme_Blindsight)     ->Nuestros ojos nos engañan, y nos impiden comprender el universo como lo hacen los arqueotécnicos.</li>
     <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], una persona ciega recogerá la reliquia llamada [relic0_name], comprenderá su propósito por su forma, y desbloqueará la sabiduría de los arqueotécnicos para toda la humanidad.</li>
     <li>animistFact(tag=meme_Blindsight)     ->Ver a través de los ojos de un espíritu es la única manera de ver la verdadera naturaleza del mundo.</li>
+    <li>deity0_Ella(deity0_gender==Male)->El</li>
+    <li>deity0_Ella(deity0_gender==Female)->La</li>
   </Blindsight.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blind</li>
@@ -371,8 +373,8 @@
     <li>memeAdjective->tenue</li>
     <li>memeAdjectiveFem->oscura</li>
     <li>memeAdjectiveFem->tenue</li>
-    <li>memeHyphenPrefix->oscuro</li>
-    <li>memeHyphenPrefix->tenue</li>
+    <li>memeHyphenPrefix->obscurus</li>
+    <li>memeHyphenPrefix->tenuis</li>
     <li>memeConcept->oscuridad</li>
     <li>memeConcept->tiniebla</li>
     <li>memeConcept->oscurecimiento</li>
@@ -660,7 +662,7 @@
     <li>memeAdjectiveFem->desnuda</li>
     <li>memeAdjectiveFem->libre</li>
     <li>memeAdjectiveFem->natural</li>
-    <li>memeHyphenPrefix->piel</li>
+    <li>memeHyphenPrefix->dermo</li>
     <li>memeConcept->desnudez</li>
     <li>memeConcept->piel</li>
     <li>memeConceptDef-> la desnudez</li>
@@ -766,8 +768,8 @@
     <li>memeCreed->hogar</li>
     <li>memeCreed->compartimiento</li>
     <li>memeCreedFem->célula</li>
-    <li>memeHyphenPrefix->nocivo</li>
-    <li>memeHyphenPrefix->dolor</li>
+    <li>memeHyphenPrefix->nocivus</li>
+    <li>memeHyphenPrefix->doloris</li>
     <li>memeConcept->dolor</li>
     <li>memeConcept->tormento</li>
     <li>memeConcept->tortura</li>
@@ -881,7 +883,7 @@
     <li>memeAdjective->real</li>
     <li>memeAdjectiveFem->autentica</li>
     <li>memeAdjectiveFem->real</li>
-    <li>memeHyphenPrefix->verdad</li>
+    <li>memeHyphenPrefix->veritas</li>
     <li>memeConcept->verdad</li>
     <li>memeConceptDef-> la verdad</li>
     <li>memeLeaderNoun->orador</li>
@@ -976,8 +978,8 @@
   <Raider.generalRules.rulesStrings>
     <li>memeAdjective->ilegal</li>
     <li>memeAdjectiveFem->ilegal</li>
-    <li>memeHyphenPrefix->ilegal</li>
-    <li>memeHyphenPrefix->asalto</li>
+    <li>memeHyphenPrefix->inlegis</li>
+    <li>memeHyphenPrefix->invadere</li>
     <li>memeConcept->saqueo</li>
     <li>memeConcept->robo</li>
     <li>memeConcept->piratería</li>
@@ -1099,7 +1101,7 @@
     <li>memeAdjectiveFem->rancheril</li>
     <li>memeAdjectiveFem->rural</li>
     <li>memeAdjectiveFem->campestre</li>
-    <li>memeHyphenPrefix->rancho</li>
+    <li>memeHyphenPrefix->ganatum</li>
     <li>memeConcept->ganadería</li>
     <li>memeConceptDef-> la ganadería</li>
     <li>memeLeaderNoun->ganadero</li>
@@ -1217,7 +1219,7 @@
     <li>memeCreedFem->filosofía</li>
     <li>memeHyphenPrefix->tecno</li>
     <li>memeHyphenPrefix->ciber</li>
-    <li>memeHyphenPrefix->cable</li>
+    <li>memeHyphenPrefix->compu</li>
     <li>memeConcept->tecnológico</li>
     <li>memeConcept->silicon</li>
     <li>memeConcept->artificial</li>
@@ -1364,9 +1366,9 @@
     <li>memeAdjective->robusto</li>
     <li>memeAdjective->corteza</li>
     <li>memeAdjectiveFem->robusta</li>
-    <li>memeHyphenPrefix->árbol</li>
-    <li>memeHyphenPrefix->enramado</li>
-    <li>memeHyphenPrefix->rama</li>
+    <li>memeHyphenPrefix->arborem</li>
+    <li>memeHyphenPrefix->folium</li>
+    <li>memeHyphenPrefix->ramus</li>
     <li>memeLeaderNoun->árbol guardían</li>
     <li>memeLeaderNoun->arbolista</li>
     <li>memeLeaderNoun->druida</li>
@@ -1452,11 +1454,11 @@
     <li>memeCreed->astil</li>
     <li>memeAdjective->profundo</li>
     <li>memeAdjectiveFem->profunda</li>
-    <li>memeHyphenPrefix->pieda</li>
-    <li>memeHyphenPrefix->cueva</li>
-    <li>memeHyphenPrefix->hondo</li>
-    <li>memeHyphenPrefix->inferior</li>
-    <li>memeHyphenPrefix->debajo</li>
+    <li>memeHyphenPrefix->pétreo</li>
+    <li>memeHyphenPrefix->covus</li>
+    <li>memeHyphenPrefix->profundus</li>
+    <li>memeHyphenPrefix->inferus</li>
+    <li>memeHyphenPrefix->bassus</li>
     <li>memeConcept->tierra</li>
     <li>memeConcept->piedra</li>
     <li>memeConcept->profundidad</li>
