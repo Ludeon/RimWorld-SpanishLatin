@@ -929,29 +929,29 @@
 
   <!-- Food restriction management -->
   <!-- EN: Food restriction -->
-  <FoodRestriction>Restring. comida</FoodRestriction>
+  <FoodRestriction>Limitar comida</FoodRestriction>
   <!-- EN: Food -->
   <FoodRestrictionShort>Comida</FoodRestrictionShort>
   <!-- EN: Lavish -->
-  <FoodRestrictionLavish>Despreocupado</FoodRestrictionLavish>
+  <FoodRestrictionLavish>Lujosa</FoodRestrictionLavish>
   <!-- EN: Fine -->
-  <FoodRestrictionFine>Bien</FoodRestrictionFine>
+  <FoodRestrictionFine>Buena</FoodRestrictionFine>
   <!-- EN: Simple -->
-  <FoodRestrictionSimple>Simple</FoodRestrictionSimple>
+  <FoodRestrictionSimple>Sencilla</FoodRestrictionSimple>
   <!-- EN: Paste -->
   <FoodRestrictionPaste>Pasta</FoodRestrictionPaste>
   <!-- EN: Raw -->
-  <FoodRestrictionRaw>Crudo</FoodRestrictionRaw>
+  <FoodRestrictionRaw>Cruda</FoodRestrictionRaw>
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>Nada</FoodRestrictionNothing>
   <!-- EN: Select food restriction -->
-  <SelectFoodRestriction>Seleccione el menú</SelectFoodRestriction>
+  <SelectFoodRestriction>Seleccionar menú</SelectFoodRestriction>
   <!-- EN: New food restriction -->
   <NewFoodRestriction>Nuevo menú</NewFoodRestriction>
   <!-- EN: Delete food restriction -->
   <DeleteFoodRestriction>Eliminar el menú</DeleteFoodRestriction>
   <!-- EN: No food restriction selected -->
-  <NoFoodRestrictionSelected>No se ha seleccionado ninguna restricción alimentaria</NoFoodRestrictionSelected>
+  <NoFoodRestrictionSelected>Ningún menú seleccionado</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
   <!-- EN: Defaults -->
@@ -975,15 +975,15 @@
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawns>Algunos de tus colonos o animales siguen en esta área. ¿Estás seguro que deseas abanonarlo(s)?\n\nLas siguientes personas y animales se perderán:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>Algunos de tus colonos o animales siguen en esta área. ¿Estás seguro que deseas abanonarlos?\n\nLas siguientes personas y animales se perderán:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
-  <ConfirmAbandonHomeNegativeThoughts>Abandonar {0} hará que las siguientes personas tengan los siguientes pensamientos:</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts>Abandonar a {0} hará que las siguientes personas tengan los siguientes pensamientos:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
   <ConfirmAbandonHomeNegativeThoughts_Everyone>Todos:</ConfirmAbandonHomeNegativeThoughts_Everyone>
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>Algunos animales o prisioneros están tratando de unirse a esta caravana. Si lo mueves, ya no podrán hacerlo.\n\nAnimales, prisioneros y colonos derribados dejados en un mapa sin colonos no derribados se consideran abandonados y pueden ser capturados por los enemigos.\n\n¿Estás seguro de que quieres mover tu caravana?</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>Algunos animales o prisioneros están tratando de unirse a esta caravana. Si te mueves, ya no podrán hacerlo.\n\nAnimales, prisioneros y colonos derribados dejados en un mapa sin colonos no derribados se consideran abandonados y pueden ser capturados por los enemigos.\n\n¿Estás seguro de que quieres mover tu caravana?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
@@ -1003,11 +1003,11 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>Ya que esta ubicación está alrrededor de {0} celdas de otra facción, sentirán que estás invadiendo sus tierra y las relaciones con esas facciones empeorarán cada vez más. Cada {1} días.\n\n¿Asentarnos aquí de todos modos?</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>Ya que esta ubicación está alrededor de {0} celdas de otra facción, sentirán que estás invadiendo sus tierra y las relaciones con esas facciones empeorarán cada vez más, cada {1} días.\n\n¿Asentarnos aquí de todos modos?</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto es lo que se hará:\n - Añadir marcadores de posición para los Keyed, los def-injected y los backstories\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todos los Keyed y def-injected a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar retrocompatibilidad de nombres en los archivos def\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerda reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrate de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>¿Está seguro de que deseas limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto es lo que se hará:\n - Añadir marcadores de posición para los Keyed, los def-injected y los backstories\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todos los Keyed y def-injected a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar retrocompatibilidad de nombres en los archivos def\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerda reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrate de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tengo una copia de seguridad</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1035,7 +1035,7 @@
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>No hay línea de visión para apuntar.</AbilityCannotHitTarget>
   <!-- EN: Can't reach the target. -->
-  <AbilityCannotReachTarget>No puedo alcanzar el objetivo.</AbilityCannotReachTarget>
+  <AbilityCannotReachTarget>No se puede alcanzar el objetivo.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>No hay suficiente espacio libre.</AbilityNotEnoughFreeSpace>
   <!-- EN: {0} must target an empty area. -->
@@ -1063,7 +1063,7 @@
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} es del género equivocado para {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: Psyfocus cost per mental break intensity -->
-  <PsyfocusCostPerMentalBreakIntensity>El coste del psicofoco por la intensidad del colapso mental</PsyfocusCostPerMentalBreakIntensity>
+  <PsyfocusCostPerMentalBreakIntensity>Coste de psicofoco por la intensidad del colapso mental</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
   <AbilityAlreadyInspired>{0_labelShort} ya está inspirad{0_gender ? o : a}.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
@@ -1077,11 +1077,11 @@
   <!-- EN: {0} can only counsel {1}s. -->
   <AbilityMustBeSameIdeoCounsel>{0} solo puede aconsejar {1}s.</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
-  <AbilityMustBeNotGuilty>{0_labelShort} ya es considerad{0_gender ? o : a} culpable.</AbilityMustBeNotGuilty>
+  <AbilityMustBeNotGuilty>{0_labelShort} ya se le considera culpable.</AbilityMustBeNotGuilty>
   <!-- EN: Must target a human. -->
   <AbilityMustBeHuman>Debe ser un objetivo humano.</AbilityMustBeHuman>
   <!-- EN: Must target a non-wild human. -->
-  <AbilityMustBeHumanNonWild>Debe ser un humano no salvaje.</AbilityMustBeHumanNonWild>
+  <AbilityMustBeHumanNonWild>Debe ser un objetivo humano no salvaje.</AbilityMustBeHumanNonWild>
   <!-- EN: Must target an animal. -->
   <AbilityMustBeAnimal>Debe ser un objetivo animal.</AbilityMustBeAnimal>
   <!-- EN: {0_labelShort} is unconscious. -->
@@ -1103,7 +1103,7 @@
   <!-- EN: Psychic love for -->
   <PsychicLoveFor>Amor psíquico por</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
-  <FarskipConfirmTeleportingLodger>Si tú envías a {PAWN_labelShort} a otro mapa o a una caravana, la misión asociadada a {PAWN_pronoun} fallará y {PAWN_pronoun} se irá inmediatamente\n\n¿Realmente quieres enviar a {PAWN_labelShort}?</FarskipConfirmTeleportingLodger>
+  <FarskipConfirmTeleportingLodger>Si tú envías a {PAWN_labelShort} a otro mapa o a una caravana, la misión asociadada a {PAWN_pronoun} fallará y se irá inmediatamente\n\n¿Realmente quieres enviar a {PAWN_labelShort}?</FarskipConfirmTeleportingLodger>
   
   <!-- EN: minor -->
   <MentalBreakIntensityMinor>leve</MentalBreakIntensityMinor>
@@ -1186,7 +1186,7 @@
   <!-- EN: all braziers must be lit -->
   <RoomRequirementAllBraziersMustBeLit>todos los braseros deben estar encendidos</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
-  <RoomRequirementAllFineFloored>todo el suelo con azulejos</RoomRequirementAllFineFloored>
+  <RoomRequirementAllFineFloored>toda la habitación con suelos finos</RoomRequirementAllFineFloored>
   <!-- EN: no work facilities allowed -->
   <RoomRequirementNoProductionFacilities>no se permiten instalaciones de trabajo</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
