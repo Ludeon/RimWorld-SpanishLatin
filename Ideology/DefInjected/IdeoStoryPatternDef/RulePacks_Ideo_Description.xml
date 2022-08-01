@@ -84,8 +84,8 @@
     <li>setup->Golpeado por la maldad del mundo, [founderName] estudió la historia y la filosofía y descubrió la nueva verdad que nos guía.</li>
     <li>setup->Un día mientras trabajaba, [founderName] fue golpeado por una gran epifanía. [founder_pronoun] dejó caer sus herramientas y comenzó a esparcir su palabra entre los demás trabajadores.</li>
     <li>setup->[founderName] se sentó en un banco del parque durante veinte años mientras contemplaba nuestro mundo. Con su perspicacia, [founder_pronoun] escribió nuestro libro fundacional.</li>
-    <li>story(uses=1,priority=-10)->El grupo de [memberNamePlural] no habrían comprendido la verdadera naturaleza de[memeConceptDef] sin las enseñanzas de [founderName].</li>
-    <li>story(uses=1,priority=-10)->El discurso de [founderName] en un(a) [ritualName] inspiró a muchos a llevar una vida [memeAdjectiveFem].</li>
+    <li>story(uses=1,priority=-10)->El grupo de los [memberNamePlural] no habrían comprendido la verdadera naturaleza de[memeConceptDef] sin las enseñanzas de [founderName].</li>
+    <li>story(uses=1,priority=-10)->El discurso de [founderName] durante el ritual conocido como [ritualName] inspiró a muchos a llevar una vida [memeAdjectiveFem].</li>
     <li>story(uses=1,priority=-10)->Ninguno pudo superar la comprensión de [founderName] de[memeConceptDef], y [founderName] fue nombrado el primer [leaderTitle] de los [memberNamePlural].</li>
     <li>story(uses=1,priority=-10)->[founderName] llevaba un(a) [relic0_thingDef_label] de nombre [relic0_name] con [founder_pronoun] a todas partes para recordar a la gente que debía vivir una vida [memeAdjectiveFem].</li>
   </IdeologicalFounder.rules.rulesStrings>
@@ -260,9 +260,9 @@
   <TheistFounder.rules.rulesStrings>
     <li>intro->El pueblo del [place_summary] [place_name] vivía bajo la supervisión [memeAdjectiveFem] de [deity0_name].</li>
     <li>intro->Los habitantes del [place_summary] [place_name], tanto los [memberNamePlural] como otros, vivieron en paz durante muchos años bajo la atenta mirada de [deity0_name].</li>
-    <li>intro->[deity0_type], [deity0_name], se reveló así mismo al pueblo de [place_name] para que entendieran el comcepto de[memeConceptDef], y los guió.</li>
+    <li>intro->[deity0_type], [deity0_name], se reveló así mismo al pueblo de [place_name] para que entendieran el concepto de[memeConceptDef], y los guió.</li>
     <li>intro->[deity0_name] guió a la humanidad hasta [place_name] y la ayudó a establecerse allí.</li>
-    <li>intro->En el [place_summary] [place_name], durante el(la) [ritualName], la gente venía a [altarName] en el(la) [altarRoomLabel] de [deity0_name] y rezaba con [memeConcept] en sus corazones.</li>
+    <li>intro->En el [place_summary] [place_name], durante el ritual conocido como [ritualName], la gente venía al [altarName] en el [altarRoomLabel] de [deity0_name] y rezaba con [memeConcept] en sus corazones.</li>
     <li>conflict->Un [foeLeader] se levantó y amenazó con destruir al propio [deity0_name] usando [place_massWeapon].</li>
     <li>conflict->Un malvado [foeLeader] y sus [foeSoldiers] esclavizaron a los adoradores de [deity0_name].</li>
     <li>conflict->Entonces llegó el [foeLeader]. Sus [foeSoldiers] mataron a muchos adoradores de [deity0_name] usando cada uno el arma favorita de su líder un [place_personalWeapon].</li>
@@ -312,7 +312,7 @@
     <li>creation->Durante una eternidad, hubo un mundo de [materialOrigin_Fem] [Color_Fem], hasta que [deity0_name] creó los planetas y las estrellas.</li>
     <li>creation->En un antiguo universo de luchas, [deity0_name] desató un gran fuego que destruyó la última era y dio lugar a una nueva.</li>
     <li>creation->[deity0_name] engendró a los humanos en un gran accidente, y los miró con curiosidad.</li>
-    <li>creation->El universo era un vacío. Entonces, [deity0_name], aburrido(a) de la eternidad, formó al hombre y a la mujer a partir [bodilyOrigin].</li>
+    <li>creation->El universo era un vacío. Entonces, [deity0_name], aburrid[deity0_oa] de la eternidad, formó al hombre y a la mujer a partir [bodilyOrigin].</li>
     <li>episode(uses=1)->Mirando a la humanidad, [deity0_name] los consideró como niños, y declaró su dominio sobre ellos.</li>
     <li>episode(uses=1)->A través de las vastas distancias estelares, la voluntad de [deity0_name] sostuvo la vida de la humanidad contra el vacío.</li>
     <li>episode(uses=1)->Aunque muchos aventureros se movilizaron contra [deity0_pronoun], [deity0_name] se lo impidió fácilmente, pues [deity0_pronoun] era [deity0_type].</li>
@@ -325,6 +325,8 @@
     <li>bodilyOrigin->de la arcilla</li>
     <li>bodilyOrigin->de la piedra</li>
     <li>bodilyOrigin->del sudor</li>
+    <li>deity0_oa(deity0_gender==Male)->o</li>
+    <li>deity0_oa(deity0_gender==Female)->a</li>
   </TheistMyth.rules.rulesStrings>
   
 </LanguageData>

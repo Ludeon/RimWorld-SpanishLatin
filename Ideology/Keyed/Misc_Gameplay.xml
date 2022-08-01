@@ -313,9 +313,9 @@
   <!-- EN: Slave -->
   <Slave>Esclavo</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
-  <SellingAsSlave>Si vendes a alguien a cualquier facción que no sea la suya, se conviertan en esclavos.</SellingAsSlave>
+  <SellingAsSlave>Si vendes a alguien a otra facción que no sea la suya, se convertirá en esclavo.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
-  <SellingAsRansom>Si vendes a alguien a su propia facción, son rescatados y no esclavizados.</SellingAsRansom>
+  <SellingAsRansom>Si vendes a alguien a su propia facción, será rescatado y no esclavizado.</SellingAsRansom>
 
   <!-- EN: We are {0} -->
   <MemeGoodwillImpact_Player>Somos {0}</MemeGoodwillImpact_Player>
@@ -367,7 +367,7 @@
   <TextMote_WillReduced>Voluntad\n{0} a {1}</TextMote_WillReduced>
 
   <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
-  <ConfirmationCharityJoiner>Aceptar esta oferta de reclutamiento es un acto de caridad. Si la rechaza, las siguientes personas no estarán contentas debido a sus creencias caritativas:\n{0}\n\n¿Está seguro de que quiere rechazar esta oferta de reclutamiento?</ConfirmationCharityJoiner>
+  <ConfirmationCharityJoiner>Aceptar esta oferta de reclutamiento es un acto de caridad. Si la rechazas, las siguientes personas no estarán contentas debido a sus creencias caritativas:\n{0}\n\n¿Estás seguro de que quiere rechazar esta oferta de reclutamiento?</ConfirmationCharityJoiner>
 
   <!-- EN: Believers in {0} ({1}) -->
   <BelieversIn>Creyentes en {0} ({1})</BelieversIn>
@@ -396,7 +396,7 @@
   <!-- EN: Hack progress -->
   <HackProgress>Progreso del hackeo</HackProgress>
   <!-- EN: hacking speed -->
-  <HackingSpeed>Velocidad del hackeo</HackingSpeed>
+  <HackingSpeed>Velocidad de hackeo</HackingSpeed>
   <!-- EN: {0}'s -->
   <HackingLastUser>De {0}</HackingLastUser>
   <!-- EN: hacked -->
@@ -421,7 +421,7 @@
   <EmancipateCololonistTooltip>El esclavo volverá a ser un colono.</EmancipateCololonistTooltip>
 
   <!-- EN: You've stayed in the village too long. The people of {FACTION_name} are attacking! -->
-  <WorshippedTerminalFactionBecameHostileTimed>Te has quedado demasiado tiempo en el pueblo. ¡La gente de {FACTION_name} está atacando!</WorshippedTerminalFactionBecameHostileTimed>
+  <WorshippedTerminalFactionBecameHostileTimed>Te has quedado demasiado tiempo en la aldea. ¡Los aldeanos de la facción {FACTION_name} te están atacando!</WorshippedTerminalFactionBecameHostileTimed>
   <!-- EN: Villagers are returning from nearby to protect the venerated terminal! -->
   <WorshippedTerminalRaidIncoming>¡Los aldeanos están regresando de las cercanías para proteger la sagrada terminal!</WorshippedTerminalRaidIncoming>
 
@@ -593,7 +593,7 @@
   <SupplySatellite>Satélite de suministros</SupplySatellite>
 
   <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
-  <CannotExtractSkull>El colono no está dispuesto a extraer el cráneo del cadáver (falta el precepto cráneo empalado)</CannotExtractSkull>
+  <CannotExtractSkull>El colono no está dispuesto a extraer el cráneo del cadáver (falta el precepto pinchacráneos)</CannotExtractSkull>
   <!-- EN: Preview the ritual ambience sound -->
   <TipPreviewRitualAmbienceSound>Vista previa del sonido ambiental del ritual</TipPreviewRitualAmbienceSound>
 
@@ -632,7 +632,7 @@
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>Interrumpir ciclo</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
-  <BiosculpterInteruptCycleDesc>Interrumpe el ciclo actual. El ocupante será expulsado sin beneficiarse de los efectos del ciclo, y sufrirá el sindrome de biosculpido de corta duración.</BiosculpterInteruptCycleDesc>
+  <BiosculpterInteruptCycleDesc>Interrumpe el ciclo actual. El ocupante será expulsado sin beneficiarse de los efectos del ciclo, y sufrirá la enfermedad del biosculpido de corta duración.</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
   <BiosculpterEnteringMessage>{PAWN_labelShort} entrará en la cápsula y comenzará un ciclo de {CYCLE}.</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
