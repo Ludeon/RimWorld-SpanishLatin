@@ -75,7 +75,7 @@
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] sufriendo de abasia paralítica y [must_be] ser [kept] en cama.</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] sufriendo de abasia paralítica y [must_be] mantenerse en cama.</li>
     <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] con putrefacción sanguínea y [will_require] de un tratamiento diario. La enfermedad puede ser frenada con cuidados y medicinas de alta calidad, pero en general no puede ser curada de inmediato. Si la enfermedad se vuelve grave [lodgersLabelSingOrPluralDef] [will_die], así que asegúrate de tener los suministros médicos necesarios.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\ndebes mantener el humor de [lodgersLabelSingOrPluralDef] por encima de [lodgersMoodThreshold_percent].</li>
