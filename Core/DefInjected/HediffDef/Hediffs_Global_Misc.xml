@@ -41,10 +41,17 @@
   <!-- EN: a catatonic breakdown -->
   <CatatonicBreakdown.labelNoun>un colapso catatónico</CatatonicBreakdown.labelNoun>
   
+  <!-- EN: covered in firefoam -->
+  <CoveredInFirefoam.label>cubierto con espuma cortafuego</CoveredInFirefoam.label>
+  <!-- EN: Covered in a fire-retardant foam. -->
+  <CoveredInFirefoam.description>Cubierto con una espuma ignífuga.</CoveredInFirefoam.description>
+  
   <!-- EN: cryptosleep sickness -->
   <CryptosleepSickness.label>enfermedad del criptosueño</CryptosleepSickness.label>
   <!-- EN: After-effects of using a cryptosleep pod. Cryptosleep suspends and replaces many bodily functions in order to prevent aging and death. Upon exiting cryptosleep, the body takes time to restart and rebalance its natural metabolic processes. While this is ongoing, the patient suffers from nausea, dizziness, and a sense of fuzziness in the mind. -->
   <CryptosleepSickness.description>Secuelas del uso de una cápsula de criptosueño. El criptosueño suspende y reemplaza muchas funciones corporales para prevenir el envejecimiento y la muerte. Al salir del criptosueño, el cuerpo toma tiempo para reiniciar y reequilibrar sus procesos metabólicos naturales. Mientras esto está en curso, el paciente sufre náuseas, mareos y una sensación de confusión en la mente.</CryptosleepSickness.description>
+  <!-- EN: After-effects of using a cryptosleep pod including dizziness, nausea, and vomiting. -->
+  <CryptosleepSickness.descriptionShort>Los efectos posteriores al uso de una cápsula de criptosueño incluyen mareos, náuseas y vómitos.</CryptosleepSickness.descriptionShort>
   
   <!-- EN: drug overdose -->
   <DrugOverdose.label>sobredosis de drogas</DrugOverdose.label>
@@ -129,13 +136,13 @@
   
   <!-- EN: resurrection sickness -->
   <ResurrectionSickness.label>enfermedad de la resurrección</ResurrectionSickness.label>
-  <!-- EN: After-effects of being resurrected by mechanite injection. Artificially-kickstarted body processes take time to rebalance themselves. -->
-  <ResurrectionSickness.description>Secuelas de ser resucitado por inyección de mecanita. Los procesos corporales iniciados artificialmente toman tiempo para reequilibrarse.</ResurrectionSickness.description>
+  <!-- EN: After-effects of resurrection. Artificially-restarted body processes take time to rebalance themselves. -->
+  <ResurrectionSickness.description>Efectos posteriores a la resurrección. Los procesos corporales reiniciados artificialmente tardan en reequilibrarse.</ResurrectionSickness.description>
   
   <!-- EN: toxic buildup -->
   <ToxicBuildup.label>acumulación tóxica</ToxicBuildup.label>
-  <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nCreatures who die with toxic buildup cannot be eaten. -->
-  <ToxicBuildup.description>Veneno en el torrente sanguíneo. Esto puede provenir de varias fuentes, incluidas las toxinas ambientales, las mordeduras venenosas o las armas envenenadas.\n\nEn dosis altas, la acumulación tóxica es letal. Incluso en dosis bajas, puede generar cánceres.\n\nLas criaturas que mueren con acumulación tóxica no se pueden comer.</ToxicBuildup.description>
+  <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nIf a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance. -->
+  <ToxicBuildup.description>Veneno en el torrente sanguíneo. Esto puede provenir de varias fuentes, incluidas las toxinas ambientales, mordeduras venenosas o de armas envenenadas.\n\nEn dosis altas, la acumulación tóxica es letal. Incluso en dosis bajas, puede generar cánceres.\n\nSi una criatura muere con acumulación tóxica, existe la probabilidad de que no pueda ser comida. Cuanto mayor sea la acumulación tóxica, mayor será la probabilidad.</ToxicBuildup.description>
   <!-- EN: initial -->
   <ToxicBuildup.stages.initial-0.label>fase inicial</ToxicBuildup.stages.initial-0.label>
   <!-- EN: initial -->

@@ -5,6 +5,8 @@
   <CookMealFine.label>cocinar comida buena</CookMealFine.label>
   <!-- EN: Cook a somewhat complex meal from a combination of meat and plant ingredients. -->
   <CookMealFine.description>Cocina una comida más o menos compleja combinando ingredientes cárnicos y vegetales.</CookMealFine.description>
+  <!-- EN: protein -->
+  <CookMealFine.ingredients.0.filter.customSummary>proteínas</CookMealFine.ingredients.0.filter.customSummary>
   <!-- EN: Cooking fine meal. -->
   <CookMealFine.jobString>Cocinando comida buena.</CookMealFine.jobString>
   
@@ -19,6 +21,8 @@
   <CookMealFine_Veg.label>cocinar comida vegetariana buena</CookMealFine_Veg.label>
   <!-- EN: Cook a somewhat complex meal from plant ingredients. -->
   <CookMealFine_Veg.description>Cocina una comida más o menos compleja usando solo ingredientes provenientes de las plantas.</CookMealFine_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealFine_Veg.ingredients.0.filter.customSummary>ingredientes vegetarianos</CookMealFine_Veg.ingredients.0.filter.customSummary>
   <!-- EN: Cooking vegetarian fine meal. -->
   <CookMealFine_Veg.jobString>Cocinando comida vegetariana buena</CookMealFine_Veg.jobString>
   
@@ -26,6 +30,8 @@
   <CookMealFineBulk.label>cocinar comida buena x4</CookMealFineBulk.label>
   <!-- EN: Cook 4 somewhat complex meals from a combination of meat and plant ingredients. Some of the ingredients are wasted in order to create a good eating experience. -->
   <CookMealFineBulk.description>Cocina 4 comidas más o menos complejas combinando ingredientes cárnicos y vegetales. Algunos de los ingredientes son desperdiciados para crear una buena experiencia gastronómica.</CookMealFineBulk.description>
+  <!-- EN: protein -->
+  <CookMealFineBulk.ingredients.0.filter.customSummary>proteínas</CookMealFineBulk.ingredients.0.filter.customSummary>
   <!-- EN: Cooking 4 fine meals. -->
   <CookMealFineBulk.jobString>Cocinando 4 comidas buenas.</CookMealFineBulk.jobString>
   
@@ -40,6 +46,8 @@
   <CookMealFineBulk_Veg.label>cocinar comida vegetariana buena x4</CookMealFineBulk_Veg.label>
   <!-- EN: Cook 4 somewhat complex meals from plant ingredients. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
   <CookMealFineBulk_Veg.description>Cocina 4 comidas más o menos complejas usando solo ingredientes provenientes de las plantas. Algunos de los ingredientes son desperdiciados para crear una buena experiencia gastronómica. Producir sabores variados solo con vegetales introduce ineficiencias adicionales.</CookMealFineBulk_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealFineBulk_Veg.ingredients.0.filter.customSummary>ingredientes vegetarianos</CookMealFineBulk_Veg.ingredients.0.filter.customSummary>
   <!-- EN: Cooking 4 vegetarian fine meals. -->
   <CookMealFineBulk_Veg.jobString>Cocinando 4 comidas vegetarianas buenas.</CookMealFineBulk_Veg.jobString>
   
@@ -47,6 +55,8 @@
   <CookMealLavish.label>cocinar comida lujosa</CookMealLavish.label>
   <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. -->
   <CookMealLavish.description>Cocina una comida muy elaborada combinando ingredientes cárnicos y vegetales. Gran parte de los ingredientes son desperdiciados para crear una buena experiencia gastronómica.</CookMealLavish.description>
+  <!-- EN: protein -->
+  <CookMealLavish.ingredients.0.filter.customSummary>proteínas</CookMealLavish.ingredients.0.filter.customSummary>
   <!-- EN: Cooking lavish meal. -->
   <CookMealLavish.jobString>Cocinando comida lujosa.</CookMealLavish.jobString>
   
@@ -61,6 +71,8 @@
   <CookMealLavish_Veg.label>cocinar comida vegetariana lujosa</CookMealLavish_Veg.label>
   <!-- EN: Cook a very complex meal from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
   <CookMealLavish_Veg.description>Cocina una comida muy elaborada usando solo ingredientes provenientes de las plantas. Gran parte de los ingredientes son desperdiciados para crear una buena experiencia gastronómica. Producir sabores variados solo con vegetales introduce ineficiencias adicionales.</CookMealLavish_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealLavish_Veg.ingredients.0.filter.customSummary>ingredientes vegetarianos</CookMealLavish_Veg.ingredients.0.filter.customSummary>
   <!-- EN: Cooking vegetarian lavish meal. -->
   <CookMealLavish_Veg.jobString>Cocinando comida vegetariana lujosa.</CookMealLavish_Veg.jobString>
   
@@ -68,6 +80,8 @@
   <CookMealLavishBulk.label>cocinar comida lujosa x4</CookMealLavishBulk.label>
   <!-- EN: Cook 4 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. -->
   <CookMealLavishBulk.description>Cocina 4 comidas muy elaboradas combinando ingredientes cárnicos y vegetales. Gran parte de los ingredientes se desperdician.</CookMealLavishBulk.description>
+  <!-- EN: protein -->
+  <CookMealLavishBulk.ingredients.0.filter.customSummary>proteínas</CookMealLavishBulk.ingredients.0.filter.customSummary>
   <!-- EN: Cooking 4 lavish meals. -->
   <CookMealLavishBulk.jobString>Cocinando 4 comidas lujosa.</CookMealLavishBulk.jobString>
   
@@ -82,6 +96,8 @@
   <CookMealLavishBulk_Veg.label>cocinar comida vegetariana lujosa x4</CookMealLavishBulk_Veg.label>
   <!-- EN: Cook 4 very complex meals from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
   <CookMealLavishBulk_Veg.description>Cocina 4 comidas muy elaboradas usando solo ingredientes provenientes de las plantas. Gran parte de los ingredientes son desperdiciados para crear una buena experiencia gastronómica. Producir sabores variados solo con vegetales introduce ineficiencias adicionales.</CookMealLavishBulk_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealLavishBulk_Veg.ingredients.0.filter.customSummary>ingredientes vegetarianos</CookMealLavishBulk_Veg.ingredients.0.filter.customSummary>
   <!-- EN: Cooking 4 vegetarian lavish meals. -->
   <CookMealLavishBulk_Veg.jobString>Cocinando 4 comidas vegetarianas lujosas.</CookMealLavishBulk_Veg.jobString>
   
@@ -103,6 +119,8 @@
   <CookMealSurvival.label>cocinar comida de supervivencia</CookMealSurvival.label>
   <!-- EN: Prepare a packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
   <CookMealSurvival.description>Cocina una comida de supervivencia empaquetada a partir de una combinación de carne cruda e ingredientes de plantas crudas. Muchos de los ingredientes se desperdician.</CookMealSurvival.description>
+  <!-- EN: protein -->
+  <CookMealSurvival.ingredients.0.filter.customSummary>proteínas</CookMealSurvival.ingredients.0.filter.customSummary>
   <!-- EN: Cooking survival meal. -->
   <CookMealSurvival.jobString>Cocinando comida de supervivencia.</CookMealSurvival.jobString>
   
@@ -110,6 +128,8 @@
   <CookMealSurvivalBulk.label>cocinar comida de supervivencia x4</CookMealSurvivalBulk.label>
   <!-- EN: Prepare 4 packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
   <CookMealSurvivalBulk.description>Cocina 4 comida de supervivencia empaquetada a partir de una combinación de carne cruda e ingredientes de plantas crudas. Muchos de los ingredientes se desperdician.</CookMealSurvivalBulk.description>
+  <!-- EN: protein -->
+  <CookMealSurvivalBulk.ingredients.0.filter.customSummary>proteínas</CookMealSurvivalBulk.ingredients.0.filter.customSummary>
   <!-- EN: Cooking 4 survival meals. -->
   <CookMealSurvivalBulk.jobString>Cocinando 4 comidas de supervivencia.</CookMealSurvivalBulk.jobString>
   
