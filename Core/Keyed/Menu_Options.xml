@@ -1,15 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- Audiovisuals -->
   <!-- EN: Audiovisuals -->
   <Audiovisuals>Audio/Video</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>Volumen general</MasterVolume>
   <!-- EN: Game volume -->
   <GameVolume>Volumen del juego</GameVolume>
   <!-- EN: Music volume -->
   <MusicVolume>Volumen de la música</MusicVolume>
-  <!-- EN: Ambient volume -->
+  <!-- EN: Ambience volume -->
   <AmbientVolume>Volumen del ambiente</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>Volumen de la interfaz</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>Afecta a todos los sonidos.</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>Afecta a todos los sonidos del mundo, por ejemplo, cortar árboles, construir muros.</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>Afecta a la música.</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>Afecta a todos los sonidos ambientales, por ejemplo, el viento o los insectos.</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>Afecta a todos los sonidos de la interfaz, por ejemplo, los clics de los botones, los mensajes.</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>Anti-aliasing</Antialiasing>
 
@@ -20,18 +34,20 @@
   <PauseOnLoad>Pausar al cargar</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>Pausa de aviso urgente</PauseOnUrgentLetter>
-  <!-- EN: Pause on -->
-  <AutomaticPauseModeSetting>Pausa en</AutomaticPauseModeSetting>
-  <!-- EN: Custom cursor -->
-  <CustomCursor>Cursor personalizado</CustomCursor>
-  <!-- EN: Hats shown only on game map -->
-  <HatsShownOnlyOnMap>Mostrar sombreros equipados</HatsShownOnlyOnMap>
+  <!-- EN: Pause on letter -->
+  <AutomaticPauseModeSetting>Pausa de aviso</AutomaticPauseModeSetting>
+  <!-- EN: Disable game-specific cursor -->
+  <CustomCursor>Desactivar el cursor específico del juego</CustomCursor>
+  <!-- EN: Hide hats on UI -->
+  <HatsShownOnlyOnMap>Ocultar sombreros equipados</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Escala de interfaz</UIScale>
   <!-- EN: Keyboard configuration -->
   <KeyboardConfig>Configuración del teclado</KeyboardConfig>
   <!-- EN: Controller configuration -->
   <ControllerConfig>Configuración del control</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>Modificar</ModifyConfig>
   <!-- EN: Choose language -->
   <ChooseLanguage>Escoger idioma</ChooseLanguage>
   <!-- EN: Reset learning helper -->
@@ -50,18 +66,26 @@
   <SimulateNotOwningRoyalty>Simular no poseer DLC Royalty</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
   <SimulateNotOwningIdeology>Simular no poseer DLC Ideology</SimulateNotOwningIdeology>
+  <!-- EN: Simulate not owning Biotech -->
+  <SimulateNotOwningBiotech>Simular no poseer DLC Biotech</SimulateNotOwningBiotech>
   <!-- EN: Verbose logging -->
   <LogVerbose>Registro elocuente</LogVerbose>
-  <!-- EN: Open save data folder -->
-  <OpenSaveGameDataFolder>Abrir carpeta de datos guardados</OpenSaveGameDataFolder>
-  <!-- EN: Show save data location -->
-  <ShowSaveGameDataLocation>Mostrar ubicación de los datos guardados</ShowSaveGameDataLocation>
-  <!-- EN: Open log file folder -->
-  <OpenLogFileFolder>Abrir carpeta de registros</OpenLogFileFolder>
-  <!-- EN: Show log file location -->
-  <ShowLogFileLocation>Mostrar ubicación del archivo de registro</ShowLogFileLocation>
-  <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>Carpeta de datos guardados</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>ubicación de los datos guardados</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>Carpeta de archivos de registro</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>Ubicación de los archivos de registro</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>Abrir</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>Mostrar</ShowFolder>
+  <!-- EN: Preferred "Name in Game" characters -->
   <NamesYouWantToSee>Los personajes preferidos creados por jugadores. Tendrán más probabilidad de aparecer aleatoriamente durante el juego:</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>Estos personajes tendrán más probabilidades de aparecer aleatoriamente durante el juego.</NamesYouWantToSeeSubText>
   <!-- EN: Add name -->
   <AddName>Añadir nombre</AddName>
   <!-- EN: Type the first name, nickname, or last name. -->
@@ -72,12 +96,14 @@
   <ChangeStoryteller>Configuración de cuentacuentos</ChangeStoryteller>
   <!-- EN: Autosave interval -->
   <AutosaveInterval>Autoguardado cada</AutosaveInterval>
-  <!-- EN: Temperature mode -->
-  <TemperatureMode>Modo temperatura</TemperatureMode>
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>El número de días de juego entre cada autoguardado.</AutosaveIntervalTooltip>
+  <!-- EN: Temperature unit -->
+  <TemperatureMode>Unidad de temperatura</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Mostrar hora real</ShowRealtimeClock>
-  <!-- EN: Disable tiny fonts -->
-  <DisableTinyText>Desactivar fuentes pequeñas</DisableTinyText>
+  <!-- EN: Disable tiny font -->
+  <DisableTinyText>Desactivar fuente pequeña</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Número máximo de colonias: {0}</MaxNumberOfPlayerSettlements>
   <!-- EN: Map mouse drag sensitivity -->
@@ -96,12 +122,20 @@
   <TextureCompression>Compresión de texturas</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>Desactivar la compresión de texturas utilizará mucha más memoria de vídeo, pero hace que las texturas se vean ligeramente mejor en las áreas detalladas. Desactívalo solo si sabes que tienes mucha memoria de vídeo extra.\n\nTen en cuenta que el uso de ciertos mods suele consumir mucha más memoria de vídeo, por lo que es posible que tengas que activar esta opción si añades ciertos mods.</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>Suavizar saltos de cámara</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>Cuando está activada, la cámara hará un paneo rápido al enfocar una nueva ubicación. Cuando se desactiva, la cámara saltará instantáneamente.</SmoothCameraJumpsDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
   <Resolution>Resolución</Resolution>
   <!-- EN: Fullscreen -->
   <Fullscreen>Pantalla completa</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>Pantalla completa sin bordes</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>Para ejecutar RimWorld en modo de pantalla completa sin bordes:\n1) Abre Steam\n2) Ve a la pestaña "Biblioteca" en la parte superior\n3) Busca RimWorld en la lista y haz clic con el botón derecho\n4) Elige "Propiedades... "\n5) Añade "-popupwindow" sin comillas a "Opciones de lanzamiento" en la pestaña "General"\n6) Reinicia el juego\n7) Si se hace correctamente, no verás esta ventana\n\nSugerencia: Usa la tecla de Windows + Shift + Izquierda/Derecha para mover la ventana entre tus monitores.</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
@@ -110,13 +144,15 @@
   <NoConfigurableMods>No hay mods configurables cargados.</NoConfigurableMods>
   
   <!-- Options reset -->
-  <!-- EN: Restore to default settings -->
-  <RestoreToDefaultSettings>Volver a configuración predeterminada</RestoreToDefaultSettings>
-  <!-- EN: Your options have been reset. The game will now restart automatically. -->
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>Restablecer todos los ajustes por defecto</RestoreToDefaultSettingsLabel>
+  <!-- EN: Restore defaults -->
+  <RestoreToDefaultSettings>Restaurar los valores predeterminados</RestoreToDefaultSettings>
+  <!-- EN: All settings have been reset. The game will now restart automatically. -->
   <ResetAndRestart>Los ajustes se han reiniciado. El juego se reiniciará automáticamente.</ResetAndRestart>
-  <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
-  <ResetAndRestartConfirmationDialog>Todos los ajustes se restablecerán a los valores predeterminados y se reiniciará el juego. ¡Todo el progreso no guardado se perderá!\n\n¿Continuar?</ResetAndRestartConfirmationDialog>
-  <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
+  <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
+  <ResetAndRestartConfirmationDialog>Todos los ajustes se restablecerán a los valores predeterminados y se reiniciará el juego. Todo el progreso no guardado se perderá.\n\n¿Continuar?</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
   <ChangedTextureCompressionRestart>Cambiar la opción de compresión de la textura requiere un reinicio. ¡Todo el progreso no guardado se perderá!\n\n¿Continuar?</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
