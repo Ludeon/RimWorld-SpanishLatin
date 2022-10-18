@@ -1,26 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- EN: level -->
-  <Level>nivel</Level>
-  <!-- EN: Progress to next level -->
+  <!-- EN: Skill level -->
+  <Level>Nivel de habilidad</Level>
+  <!-- EN: Progress to next learned level -->
   <ProgressToNextLevel>Progreso al siguiente nivel</ProgressToNextLevel>
   <!-- EN: Experience -->
   <Experience>Experiencia</Experience>
   <!-- EN: Passion -->
   <Passion>Pasión</Passion>
-  <!-- EN: None\n   -Learns {0} -->
-  <PassionNone>Ninguno\n   -Aprende {0}</PassionNone>
-  <!-- EN: Interested\n   -Learns {0} -->
-  <PassionMinor>Interesado\n   -Aprende {0}</PassionMinor>
-  <!-- EN: Burning\n   -Learns {0} -->
-  <PassionMajor>Apasionado\n   -Aprende {0}</PassionMajor>
+  <!-- EN: No passion -->
+  <PassionNone>Sin pasión</PassionNone>
+  <!-- EN: Passion -->
+  <PassionMinor>Pasión</PassionMinor>
+  <!-- EN: Burning passion -->
+  <PassionMajor>Apasionado</PassionMajor>
+  <!-- EN: Learning speed -->
+  <LearningSpeed>Velocidad de aprendizaje</LearningSpeed>
   <!-- EN: Learned max today ({0}/{1}, further learning multiplied by {2}) -->
   <LearnedMaxToday>Ha aprendido el máximo de hoy ({0}/{1}, el aprendizaje futuro se multiplicará por {2})</LearnedMaxToday>
+  <!-- EN: Children learn skills by watching adults work and by taking lessons at a lesson desk. -->
+  <ChildrenLearn>Los niños aprenden habilidades viendo trabajar a los adultos y recibiendo lecciones en un pupitre.</ChildrenLearn>
   <!-- EN: Effects at level {0} -->
   <EffectsAtLevel>Afecta al nivel {0}</EffectsAtLevel>
   <!-- EN: MAX -->
   <SkillMax>MÁX</SkillMax>
+  <!-- EN: Learned level -->
+  <LearnedLevel>Nivel de conocimiento</LearnedLevel>
+  <!-- EN: Negative level adjusted to zero. -->
+  <NegativeLevelAdjustedToZero>Nivel negativo ajustado a cero.</NegativeLevelAdjustedToZero>
+  <!-- EN: Level capped at {0}. -->
+  <LevelCappedAtMax>Nivel limitado a {0}.</LevelCappedAtMax>
+  <!-- EN: {GENE_label} gene -->
+  <GeneLabelWithDesc>Gen {GENE_label}</GeneLabelWithDesc>
 
   <!-- EN: Barely heard of it -->
   <Skill0>Apenas ha oido hablar de ello</Skill0>

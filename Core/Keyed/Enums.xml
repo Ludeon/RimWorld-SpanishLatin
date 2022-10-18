@@ -148,16 +148,16 @@
   <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
-  <!-- EN: No medical care -->
-  <MedicalCareCategory_NoCare>Sin atención médica</MedicalCareCategory_NoCare>
-  <!-- EN: Doctor care, but no medicine -->
-  <MedicalCareCategory_NoMeds>Tratamiento médico, sin medicinas</MedicalCareCategory_NoMeds>
-  <!-- EN: Herbal medicine or worse -->
-  <MedicalCareCategory_HerbalOrWorse>Medicina herbal o peor</MedicalCareCategory_HerbalOrWorse>
-  <!-- EN: Industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>Medicina normal o peor</MedicalCareCategory_NormalOrWorse>
-  <!-- EN: Best quality medicine -->
-  <MedicalCareCategory_Best>Medicina de la mejor calidad</MedicalCareCategory_Best>
+  <!-- EN: no medical care -->
+  <MedicalCareCategory_NoCare>sin atención médica</MedicalCareCategory_NoCare>
+  <!-- EN: doctor care, but no medicine -->
+  <MedicalCareCategory_NoMeds>tratamiento médico, sin medicinas</MedicalCareCategory_NoMeds>
+  <!-- EN: herbal medicine or worse -->
+  <MedicalCareCategory_HerbalOrWorse>medicina herbal o peor</MedicalCareCategory_HerbalOrWorse>
+  <!-- EN: industrial-tech medicine or worse -->
+  <MedicalCareCategory_NormalOrWorse>medicina normal o peor</MedicalCareCategory_NormalOrWorse>
+  <!-- EN: best quality medicine -->
+  <MedicalCareCategory_Best>medicina de la mejor calidad</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
   <!-- EN: Ignore -->
@@ -204,6 +204,10 @@
   <PawnGenerationContext_PlayerStarter>personajes iniciales</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
   <PawnGenerationContext_NonPlayer>personajes ajenos al jugador</PawnGenerationContext_NonPlayer>
+
+  <!-- Screen shake mode -->
+  <!-- EN: Screen shake intensity -->
+  <ScreenShakeIntensity>Intensidad de sacudida de pantalla</ScreenShakeIntensity>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
@@ -213,6 +217,24 @@
   <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>Domado(todos)</AnimalNameDisplayMode_TameAll>
   
+  <!-- Mech name display mode -->
+  <!-- EN: Show player mech names -->
+  <ShowMechNames>Ver nombre de meca del jugador</ShowMechNames>
+  <!-- EN: While drafted -->
+  <MechNameDisplayMode_WhileDrafted>Miestras esté reclutado</MechNameDisplayMode_WhileDrafted>
+  <!-- EN: always -->
+  <MechNameDisplayMode_Always>siempre</MechNameDisplayMode_Always>
+
+  <!-- Show weapons under portrait mode -->
+  <!-- EN: Weapons below portrait -->
+  <ShowWeaponsUnderPortrait>Armas debajo del retrato</ShowWeaponsUnderPortrait>
+  <!-- EN: Show weapons below each person's portrait on the colonist bar at the top of the screen -->
+  <ShowWeaponsUnderPortraitTooltip>Muestra las armas debajo del retrato de cada persona en la barra de colonos en la parte superior de la pantalla</ShowWeaponsUnderPortraitTooltip>
+  <!-- EN: always -->
+  <ShowWeapons_Always>siempre</ShowWeapons_Always>
+  <!-- EN: while drafted -->
+  <ShowWeapons_WhileDrafted>miestras esté reclutado</ShowWeapons_WhileDrafted>
+
   <!-- Temperature -->
   <!-- EN: Celsius -->
   <Celsius>Celcios</Celsius>

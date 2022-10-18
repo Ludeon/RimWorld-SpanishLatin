@@ -50,6 +50,8 @@
   <TabTransporterContents>Contenido</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>Contenido</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>Autocortar</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -122,6 +124,23 @@
   <ConsideredGuilty>Se le considera culpable (expira en {0})</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Se le considera culpable</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>Última reducción de resistencia</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>Cuánto se redujo la resistencia de {0_nameDef} en {1} cuando fue reclutad{0_gender ? o : a} por última vez.</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>Opinión del reclutador</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>Capacidad de negociación del reclutador</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>Lealtad inquebrantable</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>Este prisionero es posee una lealtad inquebrantable a su hogar que se niega a ser reclutado por completo.</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>Su lealtad se extiende a sus creencias y no se puede convertir.</NonRecruitableTipCannotConvert>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -168,10 +187,10 @@
   <WontBleedOutSoon>sin peligro inmediato</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>Resumen</HealthOverview>
-  <!-- EN: Operations ({0}) -->
-  <MedicalOperationsShort>Operaciones ({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
-  <MedicalOperationsMechanoidsShort>Modificaciones ({0})</MedicalOperationsMechanoidsShort>
+  <!-- EN: Operations -->
+  <MedicalOperationsShort>Operaciones</MedicalOperationsShort>
+  <!-- EN: Modifications -->
+  <MedicalOperationsMechanoidsShort>Modificaciones</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Operaciones médicas</MedicalOperations>
   <!-- EN: amputate -->
@@ -186,6 +205,8 @@
   <SocialInteractionsLower>Interacciones sociales</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>Tasa de hambre</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>Consumo de alimento</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>Cansancio</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +262,6 @@
   <TrainingNeedsPrerequisite>Requisito necesario: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(sin relaciones)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Secuestrado(a)</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -253,10 +272,10 @@
   <Slave>Esclavo</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Líder de facción</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
-  <OpinionOf>Mi opinión de {1_labelShort}</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>La opinión de {1_labelShort} de mi</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {0} -->
+  <OpinionOf>Mi opinión de {0}</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
+  <SomeonesOpinionOfMe>La opinión de {0} de mi</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>He muerto</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -398,7 +417,10 @@
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>El corral no está cerrado</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>El corral no está cerrado, por lo que la acción de autocortar no se realizará.</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <WindTurbineAutoCut_EnabledCheckbox>Autocortar plantas que bloquean la aeroturbina</WindTurbineAutoCut_EnabledCheckbox>
 
 </LanguageData>

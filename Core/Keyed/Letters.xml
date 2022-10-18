@@ -10,11 +10,13 @@
   <RejectLetter>Rechazar</RejectLetter>
   <!-- EN: Read more -->
   <ReadMore>Leer más</ReadMore>
+  <!-- EN: You have {0} more letters -->
+  <MoreLetters>Tienes {0} mensajes más</MoreLetters>
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Verano</LetterLabelFirstSummerWarning>
-  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
-  <FirstSummerWarning>¡El verano ha comenzado! Pero el invierno se acerca.\n\nTus cultivos no crecerán durante el frío invierno. Asegúrate de guardar varios meses de comida, mientras aún puedes.\n\nRecuerda que puedes construir un cuarto refrigerador para prevenir que la comida se estropee.\n\nCompra, roba o crea vestimenta abrigada, o te congelarás cuando salgas.</FirstSummerWarning>
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <FirstSummerWarning>¡El verano ha comenzado! Pero el invierno se acerca.\n\nTus cultivos no crecerán durante el frío invierno. Asegúrate de guardar varios meses de comida, mientras aún puedes.\n\nRecuerda que puedes construir un cuarto refrigerador para prevenir que la comida se estropee.\n\nPara prepararte para el invierno, compra, roba o crea vestimenta abrigada, o te congelarás cuando salgas.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>Las relaciones con {0} se han roto completamente. Ahora son hostiles contigo.</LetterRelationsChange_Hostile>  
@@ -45,7 +47,7 @@
   <!-- EN: Death -->
   <Death>Muerte</Death>
 
-  <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
+  <!-- EN: A {1_label} has short-circuited due to precipitation and started a fire. -->
   <ShortCircuitRain>Un(a) {1_label} ha sufrido un corto circuito por la lluvia y se ha incendiado.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
@@ -76,8 +78,10 @@
   <LetterLabelBirthday>Cumpleaños</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>¡Hoy es el cumpleaños cronológico de {0}! Biológicamente, {1} tiene {3} años.\n\nCronológicamente, {1} ha cumplido {2} años.\n\nToma en cuenta que como las personas no envejecen durante el criptosueño, el cumpleaños cronológico es diferente del biológico.</BirthdayChronological>
-  <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
-  <BirthdayBiologicalAgeInjuries>{0_nameFull} ha llegado a la edad biológica de {1}.\n\nDesafortunadamente, {0_nameFull} ha desarrollado las siguientes enfermedades debido al envejecimiento:\n{2}</BirthdayBiologicalAgeInjuries>
+  <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
+  <LetterBirthdayBiological>{0_nameFull} ha alcanzado la edad biológica de {1}.</LetterBirthdayBiological>
+  <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
+  <BirthdayBiologicalAgeInjuries>{0_nameFull} ha llegado a la edad biológica de {1}. Desafortunadamente, {0_nameFull} ha desarrollado las siguientes enfermedades debido al envejecimiento</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Enfermedad</LetterLabelNewDisease>
@@ -419,24 +423,12 @@
   <LetterPredatorHuntingColonist>Un(a) {PREDATOR} ¡está cazando a {PREY_definite} para alimentarse!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
-  <!-- EN: {0} blocked {1} on: {2}. -->
-  <LetterDisease_Blocked>{0} bloqueado {1} con: {2}.</LetterDisease_Blocked>
+  <!-- EN: {0} blocked {1} on -->
+  <LetterDisease_Blocked>{0} bloqueado {1} con</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Enfermedad: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_label} se ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico, también de que {PAWN_pronoun} reciba el tratamiento adecuado y permanezca en la cama el mayor tiempo posible.</LetterTraitDisease>
-
-  <!-- Surgery -->
-  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <LetterLabelSurgeryFailed>La cirugía falló en {PATIENT_labelShort}</LetterLabelSurgeryFailed>
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} se ha equivocado un poco mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} se ha equivocado catastróficamente mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se ha equivocado de forma ridícula mientras operaba a {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} ha cometido un error fatal mientras estaba operando a {PATIENT_labelShort} debido a los desafíos extraordinarios de: {2}</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -552,5 +544,26 @@
   <LetterLabelSiteCountdownStarted>Caravana detectada</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
   <LetterTextSiteCountdownStarted>Tu caravana ha sido detectada. En {0}, el refuerzo {1} de {2} comenzará a llegar a la zona.\n\nReforma tu caravana y comienza a moverte para evitar a {1}. Ahora es visible un temporizador en cuenta regresiva para su llegada.</LetterTextSiteCountdownStarted>
+
+  <!-- EN: Unwavering prisoner -->
+  <LetterLabelUnrecruitablePawnCaptured>Prisionero inquebrantable</LetterLabelUnrecruitablePawnCaptured>
+  <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} posee una lealtad inquebrantable a su hogar y se negará a ser reclutad{PAWN_gender ? o : a} por completo.\n\nPuedes ver si alguien es inquebrantablemente leal seleccionándolo.</LetterTextUnrecruitablePawnCaptured>
+  <!-- EN: enslave {PAWN_objective} -->
+  <OptionalEnslaveDesc>esclavizar{PAWN_objective}</OptionalEnslaveDesc>
+
+  <!-- Lung rot -->
+  <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
+  <LetterTextLungRot>{PAWN} ha enfermado de {1} debido a la exposición prolongada al exposición al gas de putrefacción (que desprenden los cadáveres en descomposición).\n\nAsegúrate de que tienes una cama médica y un médico. Asegúrate de que {PAWN_definite} reciba el tratamiento adecuado.</LetterTextLungRot>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>Oferta de reclutamiento: {PAWN_nameDef}</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>{PAWN_nameDef} desea unirse a tu facción.</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>{PAWN_nameDef} cree que {PAWN_pronoun} es feliz en {MAP_definite} y desea unirse a ti permanentemente.</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>Aceptar</LetterJoinOfferAccept>
 
 </LanguageData>
