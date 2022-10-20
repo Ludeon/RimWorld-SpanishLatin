@@ -110,7 +110,7 @@
     <li>circumstance_phrase->while [Quantity_adjphrase] [Enemy]s search</li>
     <li>circumstance_phrase->from [Quantity_adjphrase] [Enemy]s</li>
     <li>circumstance_phrase->from [Quantity_adjphrase] enemy [Animal]s</li>
-    <li>circumstance_phrase->from a [huge] [Enemy]</li>
+    <li>circumstance_phrase->from a [AdjectiveLarge] [Enemy]</li>
     <li>desc_sentence->[PAWN_nameDef]'s pursuers are brandishing [Weapon]s.</li>
     <li>desc_sentence->[PAWN_nameDef]'s pursuers are wreathed in [Color] smoke.</li>
     <li>desc_sentence->[PAWN_nameDef]'s pursuers wear [AdjectiveAngsty] expressions.</li>
@@ -133,17 +133,12 @@
     <li>circumstance_phrase->mientras [Quantity_adjphrase] [Enemy]s le buscan</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] [Enemy]s</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] [AnimalAnyPl]</li>
-    <li>circumstance_phrase->de [hugeIndef] [Enemy]</li>
+    <li>circumstance_phrase->de un [AdjectiveLarge] [Enemy]</li>
     <li>desc_sentence->los perseguidores de [PAWN_nameDef] están blandiendo sus [WeaponCacAnyIndefPl].</li>
     <li>desc_sentence->los perseguidores de [PAWN_nameDef] están envueltos en un humo [Color].</li>
     <li>desc_sentence->los perseguidores de [PAWN_nameDef] tienen una expresión [AdjectiveAngsty].</li>
     <li>desc_sentence->[PAWN_nameDef] está sudando.</li>
     <li>desc_sentence->[PAWN_nameDef] está jadeando.</li>
-    <li>hugeIndef->un enorme</li>
-    <li>hugeIndef->un gran</li>
-    <li>hugeIndef->un inmenso</li>
-    <li>hugeIndef->un gigantesco</li>
-    <li>hugeIndef->un colosal</li>
   </CaravanFled.rulePack.rulesStrings>
   
   <!-- EN: caravan formed -->
