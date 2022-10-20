@@ -3,7 +3,8 @@
   
   <!-- EN:
     <li>r_deityType->[god] of [memeConcept]</li>
-    <li>god(p=7)->God</li>
+    <li>god(p=7, gender!=Female)->God</li>
+    <li>god(p=7, gender==Female)->Goddess</li>
     <li>god(p=4)->[memeGod]</li>
     <li>god(p=3)->Spirit</li>
     <li>god->Creator</li>
@@ -11,11 +12,14 @@
   -->
   <DeityTypeMakerGlobal.rulePack.rulesStrings>
     <li>r_deityType->[god] de[memeConceptDef]</li>
-    <li>god(p=7)->Dios</li>
+    <li>god(p=7, gender!=Female)->Dios</li>
+    <li>god(p=7, gender==Female)->Diosa</li>
     <li>god(p=4)->[memeGod]</li>
     <li>god(p=3)->Espíritu</li>
-    <li>god->Creador</li>
-    <li>god->Amo</li>
+    <li>god(gender!=Female)->Creador</li>
+    <li>god(gender==Female)->Creadora</li>
+    <li>god(gender!=Female)->Amo</li>
+    <li>god(gender==Female)->Ama</li>
   </DeityTypeMakerGlobal.rulePack.rulesStrings>
   
 </LanguageData>

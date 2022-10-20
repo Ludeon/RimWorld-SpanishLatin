@@ -302,10 +302,10 @@
   <Stat_Hediff_HungerRateOffset_Desc>Una compensación en la velocidad a la que la comida necesita agotarse.</Stat_Hediff_HungerRateOffset_Desc>
   <!-- EN: Rest fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Tasa de caída de descanso</Stat_Hediff_TirednessOffset_Name>
-  <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessOffset_Desc>Una compensación que se aplica a la velocidad a la que la necesidad de descanso de las criaturas cae.</Stat_Hediff_TirednessOffset_Desc>
-  <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>Un multiplicador que se aplica a la velocidad de caída de la necesidad de descanso de las criaturas.</Stat_Hediff_TirednessFactor_Desc>
+  <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
+  <Stat_Hediff_TirednessOffset_Desc>Una compensación que se aplica a la velocidad a la que la necesidad de sueño de las criaturas cae.</Stat_Hediff_TirednessOffset_Desc>
+  <!-- EN: A multiplier applied to the rate at which the creature's sleep need falls. -->
+  <Stat_Hediff_TirednessFactor_Desc>Un multiplicador que se aplica a la velocidad de caída de la necesidad de sueño de las criaturas.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
   <Stat_Hediff_PreventsInfection_Desc>Si esto evitará o no las infecciones.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
@@ -366,8 +366,6 @@
   <Stat_Thing_Plant_AgeDesc>Cuánto tiempo lleva esto vivo.</Stat_Thing_Plant_AgeDesc>
   <!-- EN: Lifespan -->
   <Stat_Thing_Plant_Lifespan>Vida útil</Stat_Thing_Plant_Lifespan>
-  <!-- EN: How long this plant can survive after planting. Regardless of growth or damage, plants die if they become too old. -->
-  <Stat_Thing_Plant_LifespanDesc>Cuánto tiempo puede sobrevivir esta planta después de la plantación. Independientemente del crecimiento o de los daños, las plantas mueren si envejecen demasiado.</Stat_Thing_Plant_LifespanDesc>
   <!-- EN: Paintable -->
   <Stat_Building_Paintable>Pintable</Stat_Building_Paintable>
   <!-- EN: Whether this can be painted using dye. -->
@@ -526,5 +524,5 @@
   <Stat_Source_OfficialExpansionReport>Este contenido procede de la expansión oficial</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>Este contenido proviene del mod</Stat_Source_ModReport>
-  
+
 </LanguageData>

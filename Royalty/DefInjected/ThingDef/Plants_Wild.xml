@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: chopped anima stump -->
+  <ChoppedStump_Anima.label>tocón ánima cortado</ChoppedStump_Anima.label>
+  <!-- EN: A stump left behind after an anima tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <ChoppedStump_Anima.description>Un tocón que queda tras la tala de un árbol ánima. El tocón se puede extraer, pero produce muy poca madera aprovechable. Si se deja al aire libre, el tocón se deteriorará con el tiempo.</ChoppedStump_Anima.description>
+  
   <!-- EN: anima grass -->
   <Plant_GrassAnima.label>hierba ánima</Plant_GrassAnima.label>
   <!-- EN: A grass infused with luminous microorganisms. Tribal peoples find that anima grass grows around the base of an anima tree as they meditate. It seems to reflect some kind of strengthening of the tree's psychic power.\n\nOffworld scientists have tried to study the phenomenon, but the grass degenerates into normal plant matter when observed too closely.\n\nAnimals refuse eat anima grass. Tribal stories say this is done out of respect and fear. -->
@@ -16,5 +21,10 @@
   <Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterText>El árbol ánima ahora tiene {0} hierbas ánima alrededor. ¡Esto es suficiente para que una persona tribal comience su primer ritual de vinculación!\n\nEl ritual de vinculación proporciona un nivel de psicoenlace y la capacidad de usar poderes psíquicos. La actualización a un nivel superior requiere de 20 hierbas ánima.\n\nLos requisitos de hierba ánima para vincular los rituales para actualizar a los psicoemisores son:\n\n{1}\n\nNota: Solo aquellos con el tipo de enfoque natural pueden meditar o vincularse con árboles ánima. Puede ver los tipos de enfoque de una persona mirando su tarjeta de información con el botón "i".</Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterText>
   <!-- EN: The anima tree has died and emitted a disturbing psychic scream. -->
   <Plant_TreeAnima.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>El árbol ánima ha muerto y emitió un inquietante grito psíquico.</Plant_TreeAnima.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>
+  
+  <!-- EN: smashed anima stump -->
+  <SmashedStump_Anima.label>tocón ánima dañado</SmashedStump_Anima.label>
+  <!-- EN: The remnants of an anima tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <SmashedStump_Anima.description>Los restos de un árbol ánima destruido por los daños. Es feo. El tocón puede extraerse, pero produce muy poca madera utilizable. Si se deja al aire libre, el tocón se deteriorará con el tiempo.</SmashedStump_Anima.description>
   
 </LanguageData>

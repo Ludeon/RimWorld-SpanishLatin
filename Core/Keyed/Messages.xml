@@ -113,8 +113,14 @@
   <MessageMustDesignateHuntable>Debes designar animales cazables.</MessageMustDesignateHuntable>
   <!-- EN: Must designate tameable animals. -->
   <MessageMustDesignateTameable>Debes designar animales domesticables.</MessageMustDesignateTameable>
-  <!-- EN: Must designate abandoned artificial structures. -->
-  <MessageMustDesignateClaimable>Debes designar estructuras abandonadas.</MessageMustDesignateClaimable>
+  <!-- EN: Must designate abandoned claimable structures or items. -->
+  <MessageMustDesignateClaimable>Debes designar las estructuras o artículos reclamables abandonados.</MessageMustDesignateClaimable>
+  <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
+  <MessageMustDesignatePaintableBuildings>Debes designar los edificios pintables y que no estén pintados {0_label}.</MessageMustDesignatePaintableBuildings>
+  <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
+  <MessageMustDesignatePaintableFloors>Debes designar los suelos pintables que no estén pintados {0_label}.</MessageMustDesignatePaintableFloors>
+  <!-- EN: Must designate painted buildings or floors. -->
+  <MessageMustDesignatePainted>Debes designar edificios o suelos pintados.</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
   <MessageMustDesignateDeconstructibleMechCluster>Primero debes derrotar al clúster de mecas antes de poder desconstruirlos.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
@@ -133,6 +139,10 @@
   <MessageMustDesignateForbiddable>Debes designar artículos no prohibidos.</MessageMustDesignateForbiddable>
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Debes designar artículos permitidos.</MessageMustDesignateUnforbiddable>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>No puedes reclamar {CLAIMABLE_labelShort} mientras haya {THREAT_factionPawnsPlural} con capacidad de combate cerca.</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotAdoptWhileThreatsAreNear>No puedes adoptar {CLAIMABLE_labelShort} mientras haya {THREAT_factionPawnsPlural} con capacidad de combate cerca.</MessageCannotAdoptWhileThreatsAreNear>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>¡{1_labelShort} se rehusó a ser arrestad{1_gender ? o : a}!</MessageRefusedArrest>
@@ -141,8 +151,8 @@
   <MessageNoMedicalBeds>No hay camas hospitalarias disponibles.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>No hay camas de animales disponibles.</MessageNoAnimalBeds>
-  <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
-  <MessageTooLowMedCare>La operación requiere un nivel de {0} o mejor, pero {PAWN_labelShort} solo llega a "{2}".</MessageTooLowMedCare>
+  <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
+  <MessageWarningNoMedicineForRestriction>Advertencia: La restricción de medicina de {PAWN_nameDef} ({RESTRICTIONLABEL}) impide realizar esta operación. Considera cambiar su restricción de medicina.</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} ha muerto. Causa: {1}.</PawnDiedBecauseOf>
@@ -687,6 +697,8 @@
   <MessageRitualRoleMustBeAnimal>{0} debe ser un animal.</MessageRitualRoleMustBeAnimal>
   <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0} debe ser un humano.</MessageRitualRoleMustBeHumanlike>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeABaby>{0} no puede ser un bebé.</MessageRitualRoleCannotBeABaby>
   <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>No hay roles disponibles para {0_labelShort}.</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
@@ -695,6 +707,8 @@
   <MessageRitualRoleMustHaveEyes>{0} debe tener ojos</MessageRitualRoleMustHaveEyes>
   <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>{0_labelShort} no requiere más escarificación.</MessageRitualRoleMustRequireScarification>
+  <!-- EN: {0_labelShort} does not require blinding. -->
+  <MessageRitualRoleMustRequireBlinding>{0_labelShort} no requiere cegamiento.</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0} debe ser un prisionero o un esclavo.</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
@@ -717,6 +731,10 @@
   <MessageRitualRoleMustHaveIdeoToDoRole>solo {0} puede desempeñar el rol de {1}.</MessageRitualRoleMustHaveIdeoToDoRole>
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>debe ser colono para el rol {0}.</MessageRitualRoleMustBeColonist>
+  <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
+  <MessageRitualWontAttendExtremeTemperature>{0_labelShort} no asistirá debido a la temperatura extrema en el área del ritual.</MessageRitualWontAttendExtremeTemperature>
+  <!-- EN: must be colonist and not enslaved for the {0} role. -->
+  <MessageRitualRoleMustBeFreeColonist>debe ser colono y no esclavizado para el rol {0}.</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>{0} debes tener un animal con un tamaño corporal mínimo de {1}.</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
@@ -729,6 +747,10 @@
   <MessageRitualRoleMustNotBeImprisonedWildMan>{0} no puede ser un hombre/mujer salvaje encarcelado/a.</MessageRitualRoleMustNotBeImprisonedWildMan>
   <!-- EN: {0} must be free. -->
   <MessageRitualRoleMustNotBeImprisoned>{0} debe ser libre.</MessageRitualRoleMustNotBeImprisoned>
+  <!-- EN: {0} cannot be a child. -->
+  <MessageRitualRoleCannotBeChild>{0} no puede ser un niño.</MessageRitualRoleCannotBeChild>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeBaby>{0} no puede ser un bebé.</MessageRitualRoleCannotBeBaby>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>Debes seleccionar un lugar para continuar.</MessagePlayerMustSelectTile>
@@ -748,5 +770,23 @@
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>Advertencia: {0} ha sido marcado para ser cortado.</MessageWarningCutImportantPlant>
+
+  <!-- EN: {0_labelShort} is incapable of manipulation. -->
+  <MessageIncapableOfManipulation>{0_labelShort} es incapaz de ser manipulad{0_gender ? o : a}.</MessageIncapableOfManipulation>
+
+  <!-- EN: {0_labelShort} activation canceled -->
+  <MessageActivationCanceled>{0_labelShort} activación cancelada</MessageActivationCanceled>
+
+  <!-- EN: Nothing is currently buildable in category -->
+  <NothingAvailableInCategory>Actualmente no se puede construir nada en la categoría</NothingAvailableInCategory>
+
+  <!-- EN: Storage settings linked for {0} buildings. -->
+  <SettingsLinkedFor>Ajustes de almacenamiento vinculados para {0} edificios.</SettingsLinkedFor>
+  <!-- EN: Storage settings unlinked for {0} buildings. -->
+  <SettingsUnlinkedFor>Ajustes de almacenamiento desvinculados para {0} edificios.</SettingsUnlinkedFor>
+  <!-- EN: Storage settings copied to clipboard. -->
+  <StorageSettingsCopiedToClipboard>Ajustes de almacenamiento copiados en el portapapeles.</StorageSettingsCopiedToClipboard>
+  <!-- EN: Storage settings pasted from clipboard. -->
+  <StorageSettingsPastedFromClipboard>Ajustes de almacenamiento pegados desde el portapapeles.</StorageSettingsPastedFromClipboard>
 
 </LanguageData>

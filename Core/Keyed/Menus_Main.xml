@@ -164,6 +164,8 @@
   <ModReorderConflict_MustLoadBefore>No se puede mover {0}: Debe ser cargado antes de {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Cancelar subscripción</Unsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe? -->
+  <ConfirmUnsubscribe>¿Estás seguro de que quieres cancelar tu suscripción?</ConfirmUnsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
   <ConfirmUnsubscribeFrom>¿Estás seguro de que quieres cancelar tu suscripción de {0}?</ConfirmUnsubscribeFrom>
   <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
@@ -721,10 +723,8 @@
   <!-- Factions -->
   <!-- EN: Factions -->
   <Factions>Facciones</Factions>
-  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
-  <RecommendedFactionCount>Los problemas de juego pueden ocurrir con más de {0} facciones.</RecommendedFactionCount>
-  <!-- EN: max {0} visible factions allowed -->
-  <TotalFactionsAllowed>máx. {0} facciones visibles permitidas</TotalFactionsAllowed>
+  <!-- EN: max {0} basic factions allowed -->
+  <TotalFactionsAllowed>máx. {0} facciones básicas permitidas</TotalFactionsAllowed>
   <!-- EN: max {0} -->
   <MaxFactionsForType>máx {0}</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->

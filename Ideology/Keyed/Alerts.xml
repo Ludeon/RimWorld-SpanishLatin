@@ -19,16 +19,16 @@
 
   <!-- EN: {0} opportunity -->
   <RitualOpportunity>Oportunidad: {0}</RitualOpportunity>
-  <!-- EN: {0} opportunity for -->
-  <RitualOpportunityFor>Oportunidad: {0} para</RitualOpportunityFor>
-  <!-- EN: Expires in -->
-  <RitualExpiresIn>Expira en</RitualExpiresIn>
-  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>Completar {RITUAL_labelDef} tendrá estos efectos</RitualCompletionEffects>
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>Oportunidad: {0} para {1}</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
+  <RitualExpiresIn>Expira en {0}, el {1}.</RitualExpiresIn>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>Para comenzar el ritual, selecciona un(a) {FOCUS} y haz clic en el comando "Comenzar {Ritual_label}".</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>Para comenzar el ritual, selecciona una de las siguientes opciones y haz clic en el comando "Comenzar {Ritual_label}".</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>Para comenzar el ritual, selecciona un objeto de enfoque y haz clic en el comando "Comenzar {RITUAL_label}" Los siguientes son objetos de enfoque válidos:\n{1}</RitualTargetsExplanation>
-  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>Los siguientes roles tienen un papel en {RITUAL_label}:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>Haz clic para ir a los objetivos</RitualJumpToTargets>
   <!-- EN: In order to perform {0} you need to fill these roles -->
@@ -75,8 +75,8 @@
   <AlertRitualComingDesc>Pronto habrá una oportunidad para realizar los siguientes rituales</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>Las oportunidades caducan al cabo de {0} días, y se repiten el mismo día cada año.</AlertRitualComingExtra>
-  <!-- EN: {0} on {1}, {2} left -->
-  <AlertRitualComingEntry>{0} en el {1}, quedan {2}</AlertRitualComingEntry>
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
+  <AlertRitualComingEntry>{0} en el {1}, {2} antes de que surja la oportunidad</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>Reversión de edad exigida</AlertAgeReversalDemandNear>
