@@ -12,7 +12,7 @@
   <Artilleryman28.titleShortFemale>artillera</Artilleryman28.titleShortFemale>
   
   <!-- EN: [PAWN_pronoun] was a strong soldier in a long war of succession. In [PAWN_possessive] final battle, [PAWN_possessive] unit was sacrified to cover a retreat. [PAWN_nameDef] watched [PAWN_possessive] comrades die and was the only survivor.\n\nThe experience broke [PAWN_objective] inside, leaving [PAWN_objective] without the coping strategies to moderate [PAWN_possessive] emotions.\n\n[PAWN_nameDef] learned to draw in the hospital. -->
-  <BrokenSoldier29.baseDesc>fue {PAWN_gender ? un soldado : una soldado} fuerte en una larga guerra de sucesión. En su batalla final, su unidad fue sacrificada para cubrir una retirada. [PAWN_nameDef] vio morir a sus camaradas y fue la única persona en sobrevivir.\n\nLa experiencia [PAWN_objective] rompió por adentro, dejando[PAWN_objective] sin las estrategias afrontadoras para moderar sus emociones.\n\n[PAWN_nameDef] aprendió a dibujar en el hospital.</BrokenSoldier29.baseDesc>
+  <BrokenSoldier29.baseDesc>fue {PAWN_gender ? un soldado : una soldado} fuerte en una larga guerra de sucesión. En su batalla final, su unidad fue sacrificada para cubrir una retirada. [PAWN_nameDef] vio morir a sus camaradas y fue la única persona en sobrevivir.\n\nLa experiencia [PAWN_objective] rompió por dentro, dejando[PAWN_objective] sin las estrategias afrontadoras para moderar sus emociones.\n\n[PAWN_nameDef] aprendió a dibujar en el hospital.</BrokenSoldier29.baseDesc>
   <!-- EN: broken soldier -->
   <BrokenSoldier29.title>soldado afligido</BrokenSoldier29.title>
   <BrokenSoldier29.titleFemale>soldado afligida</BrokenSoldier29.titleFemale>
@@ -57,7 +57,7 @@
   <Firebomber51.titleShortFemale>bombardera</Firebomber51.titleShortFemale>
   
   <!-- EN: Despite being in an infantry battalion, [PAWN_nameDef] rarely fired a gun. [PAWN_possessive] specialty was the rapid construction of defenses, traps, defensive installations, and sapping tunnels. -->
-  <InfantryEngineer46.baseDesc>A pesar de estar en un batallón de infantería, [PAWN_nameDef] rara vez disparó un arma. Su especialidad era la construcción rápida de defensas, trampas, instalaciones defensivas y túneles de savia.</InfantryEngineer46.baseDesc>
+  <InfantryEngineer46.baseDesc>A pesar de estar en un batallón de infantería, [PAWN_nameDef] rara vez disparó un arma. Su especialidad era la construcción rápida de defensas, trampas, instalaciones defensivas y túneles de escape.</InfantryEngineer46.baseDesc>
   <!-- EN: infantry engineer -->
   <InfantryEngineer46.title>ingeniero de infantería</InfantryEngineer46.title>
   <InfantryEngineer46.titleFemale>ingeniera de infantería</InfantryEngineer46.titleFemale>
@@ -87,7 +87,7 @@
   <IntelligenceAgent21.titleShort>agente</IntelligenceAgent21.titleShort>
   
   <!-- EN: [PAWN_nameDef] was an ordinary infanteer in an imperial battalion.\n\nConscripted at a young age to add bodies the army, [PAWN_nameDef] learned the methods of fighting well enough to satisfy [PAWN_possessive] officers. However, [PAWN_pronoun] never quite understood what was going on around [PAWN_objective] enough to really believe in it. -->
-  <LineInfanteer20.baseDesc>[PAWN_nameDef] era un{PAWN_gender ?  : a} soldado de infantería ordinari{PAWN_gender ? o : a} en un batallón imperial.\n\nConscrito desde muy joven para agregar cuerpos al ejército, [PAWN_nameDef] aprendió los métodos de lucha lo suficientemente bien como para satisfacer a sus oficiales. Sin embargo, nunca entendió lo que estaba sucediendo a su alrededor lo suficiente como para creer realmente en ello.</LineInfanteer20.baseDesc>
+  <LineInfanteer20.baseDesc>[PAWN_nameDef] era un{PAWN_gender ?  : a} soldado de infantería ordinari{PAWN_gender ? o : a} en un batallón imperial.\n\Reclutado desde muy joven para sumar fuerzas al ejército, [PAWN_nameDef] aprendió los métodos de lucha lo suficientemente bien como para satisfacer a sus oficiales. Sin embargo, nunca entendió lo que estaba sucediendo a su alrededor lo suficiente como para creer realmente en ello.</LineInfanteer20.baseDesc>
   <!-- EN: line infanteer -->
   <LineInfanteer20.title>soldado de infantería</LineInfanteer20.title>
   <!-- EN: infanteer -->
@@ -164,7 +164,7 @@
   <RoyalGuard51.titleShortFemale>guardiana</RoyalGuard51.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef]'s role was to launch through the vacuum of space, land on the enemy ship's hull, punch holes to the interior, and conquer it in room-to-room combat. [PAWN_pronoun] became very good at wielding heavy cataphract weapons to cut both steel and flesh.\n\n[PAWN_pronoun] also developed a taste for the drugs [PAWN_pronoun] used to cope with the overwhelming stress. -->
-  <Shipcracker37.baseDesc>El papel de [PAWN_nameDef] era lanzarse a través del vacío del espacio, aterrizar en el casco de la nave enemiga, perforar agujeros en el interior y conquistarla en un combate de habitación en habitación. [PAWN_pronoun] se volvió muy buen{PAWN_gender ? o : a} empuñando armas pesadas catafractas para cortar acero y carne.\n\n[PAWN_pronoun] también desarrolló un gusto por las drogas que utilizaba para hacer frente al estrés abrumador.</Shipcracker37.baseDesc>
+  <Shipcracker37.baseDesc>El papel de [PAWN_nameDef] era lanzarse a través del vacío del espacio, aterrizar en el casco de la nave enemiga, infiltrarse en el interior y conquistarla en un combate de habitación en habitación. [PAWN_pronoun] se volvió muy buen{PAWN_gender ? o : a} empuñando armas pesadas catafractas para cortar acero y carne.\n\n[PAWN_pronoun] también desarrolló un gusto por las drogas que utilizaba para hacer frente al estrés abrumador.</Shipcracker37.baseDesc>
   <!-- EN: shipcracker -->
   <Shipcracker37.title>navegante</Shipcracker37.title>
   <Shipcracker37.titleFemale>navegante</Shipcracker37.titleFemale>
