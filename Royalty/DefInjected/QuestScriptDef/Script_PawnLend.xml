@@ -8,11 +8,13 @@
     <li>disease->malaria</li>
     <li>disease->infection</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] needs people to help [dutyRoyalDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
-    <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists[minAgeOrOlder]</li>
     <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
     <li>colonists(colonistsToLendCount==1)->colonist</li>
     <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> [minAge] years old or older</li>
     <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
@@ -23,11 +25,13 @@
     <li>disease->malaria</li>
     <li>disease->infección</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_TheCap] [asker_royalTitleInCurrentFaction] [asker_nameFull] de la facción [asker_faction_name] necesita de personas para ayudarle a [dutyRoyalDescription].\n\nTe está pidiendo que le prestes a [colonistCountToLend] para servirle durante [lendForDays] días.\n\n[willSendShuttle]</li>
-    <li>colonistCountToLend(colonistsToLendCount==1)->un colono</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonos</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colono[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonos[minAgeOrOlder]</li>
     <li>willSendShuttle->[asker_pronoun] enviará un transbordador para recoger [colonists].</li>
     <li>colonists(colonistsToLendCount==1)->al colono</li>
     <li>colonists(colonistsToLendCount>1)->a los colonos</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> de [minAge] años o más</li>
     <li>pawnListHaveConjugation(colonistsToLendCount==1)->ha</li>
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->han</li>
   </PawnLend.questDescriptionRules.rulesStrings>
