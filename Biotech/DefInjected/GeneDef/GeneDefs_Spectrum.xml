@@ -4,7 +4,7 @@
   <!-- EN: aggressive -->
   <Aggression_Aggressive.label>agresividad</Aggression_Aggressive.label>
   <!-- EN: Carriers of this gene are quick to anger. They are twice as likely to start social fights. When they have mental breaks, they are twice as likely to choose an aggressive kind of break. -->
-  <Aggression_Aggressive.description>Los portadores de este gen se enfadan rápidamente. Tienen el doble de probabilidades de iniciar peleas sociales. Cuando tienen colapsos mentales, tienen el doble de probabilidades de elegir un tipo de colapso agresivo.</Aggression_Aggressive.description>
+  <Aggression_Aggressive.description>Los portadores de este gen se enfadan rápidamente. Tienen el doble de probabilidades de iniciar peleas. Cuando tienen colapsos mentales, tienen el doble de probabilidades de elegir un tipo de colapso agresivo.</Aggression_Aggressive.description>
   <!-- EN: aggro -->
   <Aggression_Aggressive.symbolPack.prefixSymbols.0.symbol>TODO</Aggression_Aggressive.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: hate -->
@@ -21,7 +21,7 @@
   <!-- EN: dead calm -->
   <Aggression_DeadCalm.label>calma total</Aggression_DeadCalm.label>
   <!-- EN: Carriers of this gene feel calm in every situation and have a very placid demeanor. They will never start social fights or have aggressive mental breaks. -->
-  <Aggression_DeadCalm.description>Los portadores de este gen se sienten tranquilos en cualquier situación y tienen un comportamiento muy plácido. Nunca iniciarán peleas sociales ni tendrán rupturas mentales agresivas.</Aggression_DeadCalm.description>
+  <Aggression_DeadCalm.description>Los portadores de este gen se sienten tranquilos en cualquier situación y tienen un comportamiento muy plácido. Nunca iniciarán peleas ni tendrán colapsos mentales agresivos.</Aggression_DeadCalm.description>
   <!-- EN: calm -->
   <Aggression_DeadCalm.labelShortAdj>calma</Aggression_DeadCalm.labelShortAdj>
   <!-- EN: still -->
@@ -34,9 +34,9 @@
   <Aggression_DeadCalm.symbolPack.prefixSymbols.3.symbol>TODO</Aggression_DeadCalm.symbolPack.prefixSymbols.3.symbol>
   
   <!-- EN: hyper-aggressive -->
-  <Aggression_HyperAggressive.label>superagresividad</Aggression_HyperAggressive.label>
+  <Aggression_HyperAggressive.label>hiperagresividad</Aggression_HyperAggressive.label>
   <!-- EN: Carriers of this gene are hormonally high-strung and very aggressive. They are three times as likely to start social fights. Any mental break they have will be of an aggressive type. -->
-  <Aggression_HyperAggressive.description>Los portadores de este gen son hormonalmente muy nerviosos y muy agresivos. Son tres veces más propensos a iniciar peleas sociales. Cualquier colapso mental que tengan será del tipo agresivo.</Aggression_HyperAggressive.description>
+  <Aggression_HyperAggressive.description>Los portadores de este gen son hormonalmente muy nerviosos y muy agresivos. Son tres veces más propensos a iniciar peleas. Cualquier colapso mental que tengan será del tipo agresivo.</Aggression_HyperAggressive.description>
   <!-- EN: aggro -->
   <Aggression_HyperAggressive.symbolPack.prefixSymbols.0.symbol>TODO</Aggression_HyperAggressive.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: hate -->
@@ -113,7 +113,7 @@
   <Beauty_VeryUgly.symbolPack.prefixSymbols.6.symbol>TODO</Beauty_VeryUgly.symbolPack.prefixSymbols.6.symbol>
   
   <!-- EN: delicate -->
-  <Delicate.label>delicadeza</Delicate.label>
+  <Delicate.label>delicado</Delicate.label>
   <!-- EN: Carriers of this gene take greater injuries than others from the same damage. They have thin, brittle bones and less binding molecules in joints and flesh. -->
   <Delicate.description>Los portadores de este gen sufren más lesiones que los demás por el mismo daño. Tienen huesos delgados y frágiles y menos moléculas de unión en las articulaciones y la carne.</Delicate.description>
   <!-- EN: frail -->
@@ -234,7 +234,7 @@
   <MaxTemp_SmallIncrease.symbolPack.prefixSymbols.0.symbol>TODO</MaxTemp_SmallIncrease.symbolPack.prefixSymbols.0.symbol>
   
   <!-- EN: strong melee damage -->
-  <MeleeDamage_Strong.label>gran daño cuerpo a cuerpo</MeleeDamage_Strong.label>
+  <MeleeDamage_Strong.label>gran daño CaC</MeleeDamage_Strong.label>
   <!-- EN: Carriers of this gene do more damage in close-quarters combat. Extra-strong fast-twitch muscle fibers make their strikes accurate and powerful. -->
   <MeleeDamage_Strong.description>Los portadores de este gen hacen más daño en el combate cuerpo a cuerpo. Las fibras musculares extrafuertes de contracción rápida hacen que sus golpes sean precisos y potentes.</MeleeDamage_Strong.description>
   <!-- EN: strong -->
@@ -255,7 +255,7 @@
   <MeleeDamage_Strong.symbolPack.wholeNameSymbols.1.symbol>TODO</MeleeDamage_Strong.symbolPack.wholeNameSymbols.1.symbol>
   
   <!-- EN: weak melee damage -->
-  <MeleeDamage_Weak.label>débil daño cuerpo a cuerpo</MeleeDamage_Weak.label>
+  <MeleeDamage_Weak.label>débil al daño CaC</MeleeDamage_Weak.label>
   <!-- EN: Carriers of this gene do less damage in close-quarters combat. Weak fast-twitch muscle fibers make their strikes shaky and weak. -->
   <MeleeDamage_Weak.description>Los portadores de este gen hacen menos daño en el combate cuerpo a cuerpo. La debilidad de las fibras musculares de contracción rápida hace que sus golpes sean temblorosos y débiles.</MeleeDamage_Weak.description>
   <!-- EN: weak -->
@@ -301,9 +301,9 @@
   <MinTemp_SmallIncrease.symbolPack.prefixSymbols.0.symbol>TODO</MinTemp_SmallIncrease.symbolPack.prefixSymbols.0.symbol>
   
   <!-- EN: depressive -->
-  <Mood_Depressive.label>depresión</Mood_Depressive.label>
+  <Mood_Depressive.label>depresivo</Mood_Depressive.label>
   <!-- EN: Carriers of this gene are highly predisposed to negative emotion. They'll see the bad in every situation and have a much lower mood than others. -->
-  <Mood_Depressive.description>Los portadores de este gen están muy predispuestos a las emociones negativas. Verán lo malo en cada situación y tendrán un estado de ánimo mucho más bajo que los demás.</Mood_Depressive.description>
+  <Mood_Depressive.description>Los portadores de este gen están muy predispuestos a las emociones negativas. Verán lo malo en cada situación y tendrán un humor mucho más bajo que los demás.</Mood_Depressive.description>
   <!-- EN: sad -->
   <Mood_Depressive.symbolPack.prefixSymbols.0.symbol>TODO</Mood_Depressive.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: gray -->
@@ -314,9 +314,9 @@
   <Mood_Depressive.symbolPack.prefixSymbols.3.symbol>TODO</Mood_Depressive.symbolPack.prefixSymbols.3.symbol>
   
   <!-- EN: optimist -->
-  <Mood_Optimist.label>optimismo</Mood_Optimist.label>
+  <Mood_Optimist.label>optimista</Mood_Optimist.label>
   <!-- EN: Carriers of this gene are predisposed to optimistic feelings. They'll have higher mood than others. -->
-  <Mood_Optimist.description>Los portadores de este gen están predispuestos a tener sentimientos optimistas. Tendrán un estado de ánimo más elevado que los demás.</Mood_Optimist.description>
+  <Mood_Optimist.description>Los portadores de este gen están predispuestos a tener sentimientos optimistas. Tendrán un humor más elevado que los demás.</Mood_Optimist.description>
   <!-- EN: bright -->
   <Mood_Optimist.symbolPack.prefixSymbols.0.symbol>TODO</Mood_Optimist.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: sun -->
@@ -335,7 +335,7 @@
   <!-- EN: pessimist -->
   <Mood_Pessimist.label>pesismista</Mood_Pessimist.label>
   <!-- EN: Carriers of this gene are predisposed to pessimistic perceptions. They'll tend to interpret things negatively and have lower mood than others. -->
-  <Mood_Pessimist.description>Los portadores de este gen están predispuestos a tener percepciones pesimistas. Tendrán tendencia a interpretar las cosas negativamente y a tener un estado de ánimo más bajo que los demás.</Mood_Pessimist.description>
+  <Mood_Pessimist.description>Los portadores de este gen están predispuestos a tener percepciones pesimistas. Tendrán tendencia a interpretar las cosas negativamente y a tener un humor más bajo que los demás.</Mood_Pessimist.description>
   <!-- EN: sad -->
   <Mood_Pessimist.symbolPack.prefixSymbols.0.symbol>TODO</Mood_Pessimist.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: gray -->
@@ -348,7 +348,7 @@
   <!-- EN: sanguine -->
   <Mood_Sanguine.label>alegre</Mood_Sanguine.label>
   <!-- EN: Carriers of this gene are highly predisposed to optimism and not at all inclined to think negatively. They'll have much higher mood than others. -->
-  <Mood_Sanguine.description>Los portadores de este gen están muy predispuestos al optimismo y no tienen ninguna tendencia a pensar de forma negativa. Tendrán un estado de ánimo mucho más elevado que los demás.</Mood_Sanguine.description>
+  <Mood_Sanguine.description>Los portadores de este gen están muy predispuestos al optimismo y no tienen ninguna tendencia a pensar de forma negativa. Tendrán un humor mucho más elevado que los demás.</Mood_Sanguine.description>
   <!-- EN: bright -->
   <Mood_Sanguine.symbolPack.prefixSymbols.0.symbol>TODO</Mood_Sanguine.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: sun -->
@@ -487,7 +487,7 @@
   <Pain_Reduced.symbolPack.prefixSymbols.2.symbol>TODO</Pain_Reduced.symbolPack.prefixSymbols.2.symbol>
   
   <!-- EN: psychically deaf -->
-  <PsychicAbility_Deaf.label>psicosordo</PsychicAbility_Deaf.label>
+  <PsychicAbility_Deaf.label>sordera psíquica</PsychicAbility_Deaf.label>
   <!-- EN: Carriers of this gene are deaf to all psychic energy and influence outside their own minds. They cannot be affected by psychic influence, nor can they ever wield psychic power. -->
   <PsychicAbility_Deaf.description>Los portadores de este gen son sordos a toda energía e influencia psíquica fuera de sus propias mentes. No pueden ser afectados por la influencia psíquica, ni tampoco pueden ejercer el poder psíquico.</PsychicAbility_Deaf.description>
   <!-- EN: psy-deaf -->
@@ -536,7 +536,7 @@
   <!-- EN: Carriers of this gene are much more psychically-sensitive than most. -->
   <PsychicAbility_Extreme.description>Los portadores de este gen son mucho más sensibles psíquicamente que la mayoría.</PsychicAbility_Extreme.description>
   <!-- EN: psy-extreme -->
-  <PsychicAbility_Extreme.labelShortAdj>psiextremismo</PsychicAbility_Extreme.labelShortAdj>
+  <PsychicAbility_Extreme.labelShortAdj>psicoextremismo</PsychicAbility_Extreme.labelShortAdj>
   <!-- EN: psy -->
   <PsychicAbility_Extreme.symbolPack.prefixSymbols.0.symbol>TODO</PsychicAbility_Extreme.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: senso -->
@@ -590,7 +590,7 @@
   <!-- EN: tox immunity -->
   <ToxResist_Total.label>inmunidad a las toxinas</ToxResist_Total.label>
   <!-- EN: Carriers of this gene are totally immune to toxic buildup from all sources including polluted terrain, toxic fallout, tox gas, and direct attacks with venom or injected poison. They are also not bothered by acidic smog.\n\nThe carrier's biochemical pathways are modified to route around interference from nearly all known toxins. Along with enhancements to the kidneys and liver, this keeps carriers comfortable in even the most toxic of environments. -->
-  <ToxResist_Total.description>Los portadores de este gen son totalmente inmunes a la acumulación de tóxicos de todas las fuentes, incluyendo el terreno contaminado, la lluvia tóxica, el gas tóxico, y los ataques directos con veneno o veneno inyectado.\n\nLas vías bioquímicas del portador están modificadas para evitar la interferencia de casi todas las toxinas conocidas. Junto con las mejoras en los riñones y el hígado, esto mantiene a los portadores cómodos incluso en los entornos más tóxicos.</ToxResist_Total.description>
+  <ToxResist_Total.description>Los portadores de este gen son totalmente inmunes a la acumulación de tóxicos de todas las fuentes, incluyendo el terreno contaminado, la lluvia tóxica, el gas tóxico, y los ataques directos con veneno o veneno inyectado. Tampoco les molesta la niebla tóxica.\n\nLas vías bioquímicas del portador están modificadas para evitar la interferencia de casi todas las toxinas conocidas. Junto con las mejoras en los riñones y el hígado, esto mantiene a los portadores cómodos incluso en los entornos más tóxicos.</ToxResist_Total.description>
   <!-- EN: Tox gas immunity -->
   <ToxResist_Total.customEffectDescriptions.0>Inmunidad al gas tóxico</ToxResist_Total.customEffectDescriptions.0>
   <!-- EN: tox-immune -->
@@ -599,7 +599,7 @@
   <ToxResist_Total.symbolPack.prefixSymbols.0.symbol>TODO</ToxResist_Total.symbolPack.prefixSymbols.0.symbol>
   
   <!-- EN: intense UV sensitivity -->
-  <UVSensitivity_Intense.label>sensibilidad intensa a rayos UV</UVSensitivity_Intense.label>
+  <UVSensitivity_Intense.label>supersensibilidad a rayos UV</UVSensitivity_Intense.label>
   <!-- EN: Carriers of this gene have biological compounds in their skin that react dangerously to UV radiation. They are intensely sensitive to sunlight. -->
   <UVSensitivity_Intense.description>Los portadores de este gen tienen compuestos biológicos en su piel que reaccionan peligrosamente a la radiación UV. Son intensamente sensibles a la luz solar.</UVSensitivity_Intense.description>
   <!-- EN: UV-vulnerable -->
@@ -624,7 +624,7 @@
   <!-- EN: Carriers of this gene have biological compounds in their skin that react painfully to UV radiation. They are unusually sensitive to sunlight. -->
   <UVSensitivity_Mild.description>Los portadores de este gen tienen compuestos biológicos en la piel que reaccionan dolorosamente a la radiación UV. Son inusualmente sensibles a la luz solar.</UVSensitivity_Mild.description>
   <!-- EN: UV-sensitive -->
-  <UVSensitivity_Mild.labelShortAdj>Sensible a los rayos UV</UVSensitivity_Mild.labelShortAdj>
+  <UVSensitivity_Mild.labelShortAdj>sensible a los rayos UV</UVSensitivity_Mild.labelShortAdj>
   <!-- EN: dark -->
   <UVSensitivity_Mild.symbolPack.prefixSymbols.0.symbol>TODO</UVSensitivity_Mild.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: tunnel -->
