@@ -337,11 +337,15 @@
   <RoomRequirementNoBiotechBuildings>sin construcciones biotecnológicas permitidas</RoomRequirementNoBiotechBuildings>
 
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will result in serious blood loss, leaving {PAWN_objective} unconscious.\n\nAre you sure? -->
-  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>Hemoalimentarse de {PAWN_nameDef} le provocará una hemorragia grave, dejando{PAWN_objective} inconsciente.\n\n¿Estás seguro?</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
-  <!-- EN: Bloodfeeding on {PAWN_nameDef} will kill {PAWN_objective}.\n\nAre you sure? -->
-  <WarningPawnWillDieFromBloodfeeding>Hemoalimentarse de {PAWN_nameDef} lo matará\n\n¿Estás seguro?</WarningPawnWillDieFromBloodfeeding>
+  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>Chupar sangre de {PAWN_nameDef} le provocará una hemorragia grave, dejando{PAWN_objective} inconsciente.\n\n¿Estás seguro?</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
+  <!-- EN: Bloodfeeding on {PAWN_nameDef} will kill .\n\nAre you sure? -->
+  <WarningPawnWillDieFromBloodfeeding>Chupar sangre de {PAWN_nameDef} {PAWN_objective} matará.\n\n¿Estás seguro?</WarningPawnWillDieFromBloodfeeding>
 
   <!-- EN: {0_labelShort} must have a tendable wound. -->
   <AbilityMustHaveTendableWound>{0_labelShort} debe tener una herida sin atender.</AbilityMustHaveTendableWound>
+
+  <!-- Abandon home (including mechs) -->
+  <!-- EN: Some of your colonists, animals or mechs are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
+  <ConfirmAbandonHomeWithColonyPawnsIncMechs>Algunos de tus colonos, animales o mecas están en esta zona. ¿Estás seguro de que quieres abandonarla?\n\nLas siguientes personas, animales y mecas se quedarán atrás:\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs><!-- text_todo -->
 
 </LanguageData>
