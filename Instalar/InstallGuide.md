@@ -1,6 +1,7 @@
 # Instalación de las traducciones:
-Para simplificar el proceso de instalación (y actualización) de las traducciones, se hará uso de un script que automatizará la tarea.
-Igualmente, hará falta un poco preparación, y el proceso variará ligeramente dependiendo del sistema operativo que usemos.
+Para simplificar el proceso de instalación (y actualización) de las traducciones, he creado un script para hacer el proceso más liviano.
+
+NOTA: el proceso variará ligeramente dependiendo del sistema operativo que usemos.
 
 ## Windows:
 ### Pasos para actualizar las traducciones:
@@ -24,4 +25,5 @@ Opción 2:
 
 ---
 ## Linux:
-TODO: Desarrollar el script para Linux
+
+TODO (@Xeros08): Desarrollar el script para Linux

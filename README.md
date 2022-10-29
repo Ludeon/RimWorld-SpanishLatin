@@ -18,6 +18,12 @@ Consulta esta [página](http://ludeon.com/forums/index.php?topic=2933.0) para ob
 
 - - -
 ## Instalación:
+### Instalación de las últimas traducciones
+Las traducciones que vienen con el juego no se actualizan automáticamente.
+
+Cada vez que el juego se actualiza, Ludeon saca los archivos de los repositorios oficiales y los "empaqueta" para incluirlos en el juego.
+
+Podeís seguir una de estas dos guias ([manual](#manual) o [automática](Instalar/InstallGuide.md)) para actualizar a las más recientes. 
 ### Manual
 1. Debes descargar los archivos comprimidos como un *ZIP*, para ello selecciona y despliega la pestaña *CODE*, al tener este archivo en tu pc, descomprime y encontrarás tres carpetas Core, Royalty e Ideology. 
 2. Crea una carpeta con este nombre _SpanishLatin (Español(Latinoamérica))_ y copia dentro el contenido de la carpeta Core
@@ -27,7 +33,6 @@ Consulta esta [página](http://ludeon.com/forums/index.php?topic=2933.0) para ob
 de instalación es: ___RimWorld/Data/Royalty/Languages/___ y Para *Ideolody* el directorio:  ___RimWorld/Data/Ideology/Languages/___
 6. Repite este proceso para el resto de *DLCs*
 
-### [Automatizada](Instalar/InstallGuide.md)
 - - -
 Si quieres ver esta guía de instalación con imágenes pasa por nuestro discord.
 
