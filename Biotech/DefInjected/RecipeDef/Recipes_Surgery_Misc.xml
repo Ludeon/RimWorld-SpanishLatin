@@ -2,23 +2,23 @@
 <LanguageData>
   
   <!-- EN: blood transfusion -->
-  <BloodTransfusion.label>transfusión de sangre</BloodTransfusion.label>
+  <BloodTransfusion.label>transfusión sanguínea</BloodTransfusion.label>
   <!-- EN: Use hemogen packs to reduce the effects of blood loss. Each hemogen pack used recovers 35% blood loss. The operation will also restore hemogen to hemogenic individuals. -->
-  <BloodTransfusion.description>Utiliza packs de hemogen para reducir los efectos de la pérdida de sangre. Cada pack de hemogen utilizado recupera el 35% de la pérdida de sangre. La operación también restablecerá el hemogen a los individuos hemogénicos.</BloodTransfusion.description>
+  <BloodTransfusion.description>Utiliza packs de hemógeno para reducir los efectos de la hemorragia. Cada pack de hemógeno utilizado recupera el 35% de la hemorragia. La operación también restablecerá el hemógeno a los individuos hemogénicos.</BloodTransfusion.description>
   <!-- EN: performing blood transfusion on TargetA. -->
   <BloodTransfusion.jobString>realizando transfusión sanguínea a TargetA.</BloodTransfusion.jobString>
   
   <!-- EN: extract hemogen pack -->
-  <ExtractHemogenPack.label>extraer pack de hemogen</ExtractHemogenPack.label>
+  <ExtractHemogenPack.label>extraer pack de hemógeno</ExtractHemogenPack.label>
   <!-- EN: Extract a hemogen pack from the target. The operation will fail to produce a hemogen pack if the target does not have enough blood.\n\nHemogen packs can be administered to others to reduce blood loss or to satiate those who feed on blood. -->
-  <ExtractHemogenPack.description>Extrae un pack de hemogen del objetivo. La operación no producirá un pack de hemogen si el objetivo no tiene suficiente sangre.\n\nLos packs de hemogen pueden ser administrados a otros para reducir la pérdida de sangre o para saciar a aquellos que se alimentan de sangre.</ExtractHemogenPack.description>
+  <ExtractHemogenPack.description>Extrae un pack de hemógeno del objetivo. La operación no producirá un pack de hemógeno si el objetivo no tiene suficiente sangre.\n\nLos packs de hemógeno pueden ser administrados a otros para reducir las hemorragias o para saciar a aquellos que se alimentan de sangre.</ExtractHemogenPack.description>
   <!-- EN: Extracting hemogen pack. -->
-  <ExtractHemogenPack.jobString>Extrayendo pack de hemogen.</ExtractHemogenPack.jobString>
+  <ExtractHemogenPack.jobString>Extrayendo pack de hemógeno.</ExtractHemogenPack.jobString>
   
   <!-- EN: extract ovum for IVF -->
-  <ExtractOvum.label>extraer óvulo para in vitro</ExtractOvum.label>
+  <ExtractOvum.label>extraer óvulo para FIV</ExtractOvum.label>
   <!-- EN: Extract an ovum into a storage capsule. It can then be fertilized by a man, and finally implanted into a mother to start a pregnancy. -->
-  <ExtractOvum.description>Extrae un óvulo en una cápsula de almacenamiento. A continuación, puede ser fecundado por un hombre y, finalmente, implantado en una madre para iniciar un embarazo.</ExtractOvum.description>
+  <ExtractOvum.description>Extrae un óvulo en una cápsula de almacenamiento para la fecundación in vitro (FIV). A continuación, puede ser fecundado por un hombre y, finalmente, implantado en una madre para iniciar un embarazo.</ExtractOvum.description>
   <!-- EN: extracting ovum from TargetA. -->
   <ExtractOvum.jobString>extrayendo óvulo de TargetA.</ExtractOvum.jobString>
   
@@ -32,7 +32,7 @@
   <!-- EN: implant IUD -->
   <ImplantIUD.label>implantar DIU</ImplantIUD.label>
   <!-- EN: Implant a small metal device in the uterus to prevent pregnancies. It can later be removed, but there is a small chance of leaving the patient permanently sterile. This surgery terminates pregnancies in the first trimester. -->
-  <ImplantIUD.description>Implanta un pequeño dispositivo metálico en el útero para evitar embarazos. Posteriormente puede retirarse, pero existe una pequeña posibilidad de dejar a la paciente permanentemente estéril. Esta cirugía interrumpe los embarazos en el primer trimestre.</ImplantIUD.description>
+  <ImplantIUD.description>Implanta un pequeño dispositivo metálico en el útero para evitar embarazos también conocido como dispositivo intrauterino (DIU). Posteriormente puede retirarse, pero existe una pequeña probabilidad de dejar a la paciente permanentemente estéril. Esta cirugía interrumpe los embarazos en el primer trimestre.</ImplantIUD.description>
   <!-- EN: implanting a IUD in TargetA. -->
   <ImplantIUD.jobString>implantando DIU a TargetA.</ImplantIUD.jobString>
   <!-- EN: {0} has successfully implanted an IUD in {1}. -->
@@ -73,7 +73,7 @@
   <!-- EN: perform tubal ligation -->
   <TubalLigation.label>realizar ligadura de trompas</TubalLigation.label>
   <!-- EN: Permanently render a patient sterile and unable to reproduce. -->
-  <TubalLigation.description>Vuelve a un paciente estéril e incapaz de reproducirse de forma permanente.</TubalLigation.description>
+  <TubalLigation.description>Vuelve a una paciente estéril e incapaz de reproducirse de forma permanente.</TubalLigation.description>
   <!-- EN: performing tubal ligation on TargetA. -->
   <TubalLigation.jobString>realizando una ligadura de trompas a TargetA.</TubalLigation.jobString>
   <!-- EN: {0} has successfully performed tubal ligation on {1}. -->

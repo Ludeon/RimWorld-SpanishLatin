@@ -4,13 +4,13 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.3.3389-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.4.3531-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld version 1.3.3389
+This is the Latin American Spanish translation of Rimworld version 1.4.3531
 
-Esta es la traducción para latinoamérica de Rimworld versión 1.3.3389
+Esta es la traducción para latinoamérica de Rimworld versión 1.4.3531
 
 See this [page](http://ludeon.com/forums/index.php?topic=2933.0) for license info:
 
@@ -29,14 +29,14 @@ Podeís seguir una de estas dos guias ([manual](#manual) o [automática](Instala
 2. Crea una carpeta con este nombre _SpanishLatin (Español(Latinoamérica))_ y copia dentro el contenido de la carpeta Core
 3. Copia tu nueva carpeta en el directorio de instalación de RimWorld en: ___RimWorld/Data/Core/Languages/___
 4. Borra el archivo con extensión *.tar* llamado __SpanishLatin (Español(Latinoamérica)).tar__ ubicado en ese mismo directorio.
-5. Repite el mismo proceso con la carpeta *Royalty*, Sí, vas a usar nuevamente una carpeta con el nombre _SpanishLatin (Español(Latinoamérica))_ pero esta vez el directorio
-de instalación es: ___RimWorld/Data/Royalty/Languages/___ y Para *Ideolody* el directorio:  ___RimWorld/Data/Ideology/Languages/___
+5. Repite el mismo proceso con la carpeta *Royalty*, *Ideolody* y *Biotech* -Sí, vas a usar nuevamente una carpeta con el nombre _SpanishLatin (Español(Latinoamérica))_ pero esta vez el directorio
+de instalación es: ___RimWorld/Data/Royalty/Languages/___  para *Ideolody* el directorio:  ___RimWorld/Data/Ideology/Languages/___ y para *Biotech* ___RimWorld/Data/Biotech/Languages/___
 6. Repite este proceso para el resto de *DLCs*
 
 - - -
 Si quieres ver esta guía de instalación con imágenes pasa por nuestro discord.
 
-Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 24/03/2022. 
+Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 31/10/2022. 
 - - -
 Para mayor información de cómo colaborar en la traducción, puedes revisar la [Wiki](https://github.com/Ludeon/RimWorld-SpanishLatin/wiki) se ha creado para ello. 
 - - -
@@ -50,7 +50,7 @@ Thanks to Ideology contributors:
 * __IzumiKei (Inactive)__
 * __akvirac (Inactive)__
 * __[Mora145](https://github.com/mora145) (Inactive)__
-* __[BernyGonzalez](https://github.com/BernyGonzalez) (Inactive)__
+* __[BernyGonzalez](https://github.com/BernyGonzalez) (Active)__
 
 Thanks to AM for the 1.1xxx version:
 

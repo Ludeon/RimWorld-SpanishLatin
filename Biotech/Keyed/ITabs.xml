@@ -26,7 +26,7 @@
   <!-- EN: never -->
   <AutofeedModeNever>nunca</AutofeedModeNever>
   <!-- EN: childcare -->
-  <AutofeedModeChildcare>cuidado infantil</AutofeedModeChildcare>
+  <AutofeedModeChildcare>guardería</AutofeedModeChildcare>
   <!-- EN: urgent -->
   <AutofeedModeUrgent>urgente</AutofeedModeUrgent>
   <!-- EN: Nobody can feed this baby. -->
@@ -34,9 +34,9 @@
   <!-- EN: {FEEDER_nameDef} will not automatically feed {BABY_nameDef}. -->
   <AutofeedModeTooltipNever>{FEEDER_nameDef} no alimentará automáticamente a {BABY_nameDef}.</AutofeedModeTooltipNever>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
-  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} alimentará a {BABY_nameDef} como trabajo de cuidado infantil.</AutofeedModeTooltipChildcare>
+  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} alimentará a {BABY_nameDef} como trabajo de guardería.</AutofeedModeTooltipChildcare>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
-  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} alimentará a {BABY_nameDef} de día o de noche, incluso si {FEEDER_nameDef} no está asignad{FEEDER_gender ? o : a}  al cuidado infantil o es incapaz de hacerlo.</AutofeedModeTooltipUrgent>
+  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} alimentará a {BABY_nameDef} de día o de noche, incluso si {FEEDER_nameDef} no está asignad{FEEDER_gender ? o : a}  al trabajo de guardería o sea incapaz de hacerlo.</AutofeedModeTooltipUrgent>
   <!-- EN: Consumable foods -->
   <BabyFoodConsumables>Alimentos consumibles</BabyFoodConsumables>
 
