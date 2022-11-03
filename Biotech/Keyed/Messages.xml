@@ -105,7 +105,9 @@
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
-  <MessagePawnKilledRipscanner>El cerebro de {PAWN_nameDef} fue destruido por el subnúcleo del rasgaescáner.</MessagePawnKilledRipscanner> 
+  <MessagePawnKilledRipscanner>El cerebro de {PAWN_nameDef} fue destruido por el rasgaescáner de subnúcleos.</MessagePawnKilledRipscanner>
+  <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
+  <MessageSubcoreSoftscannerCompleted>El flexiescaneo de subnúcleos se ha completado para {PAWN_nameDef}.</MessageSubcoreSoftscannerCompleted><!-- text_todo -->
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>No se puede resucitar a los cadáveres disecados.</MessageCannotResurrectDessicatedCorpse>
@@ -140,5 +142,7 @@
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>Advertencia: {0_labelShort} está llevando a un bebé mientras está reclutado(a).</MessageDraftedPawnCarryingBaby>
+  <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} está trasladando a {BABY_nameDef} a un lugar con una temperatura más segura.</MessageTakingBabyToSafeTemperature><!-- text_todo -->
 
 </LanguageData>
