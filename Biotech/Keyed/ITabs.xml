@@ -86,25 +86,25 @@
   <!-- EN: zero chance -->
   <CantRomanceTargetZeroChance>sin posibilidades</CantRomanceTargetZeroChance>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
-  <CantRomanceInitiateMessagePrisoner>{0_labelShort} no puede intentar un romance porque {0_pronoun} es un{0_gender ? un prisionero : una prisionera}.</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort} no puede intentar un romance porque {0_pronoun} es {0_gender ? un prisionero : una prisionera}.</CantRomanceInitiateMessagePrisoner>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
-  <CantRomanceInitiateMessageSlave>{0_labelShort} no puede intentar un romance porque {0_pronoun} es un{0_gender ? un esclavo : una esclava}.</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageSlave>{0_labelShort} no puede intentar un romance porque {0_pronoun} es {0_gender ? un esclavo : una esclava}.</CantRomanceInitiateMessageSlave>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
-  <CantRomanceInitiateMessageAsexual>{0_labelShort} no puede intentar un romance porque {0_pronoun} tiene el rasgo asexual.</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageAsexual>{0_labelShort} no puede intentar un romance porque tiene el rasgo asexual.</CantRomanceInitiateMessageAsexual>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
-  <CantRomanceInitiateMessageDowned>{0_labelShort} no puede intentar un romance porque {0_pronoun} está incapacitad{0_gender ? o : a}.</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDowned>{0_labelShort} no puede intentar un romance porque está incapacitad{0_gender ? o : a}.</CantRomanceInitiateMessageDowned>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>{0_labelShort} no puede intentar un romance porque {0_pronoun} está reclutad{0_gender ? o : a}.</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort} no puede intentar un romance porque está reclutad{0_gender ? o : a}.</CantRomanceInitiateMessageDrafted>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
-  <CantRomanceInitiateMessageMentalState>{0_labelShort} no puede intentar un romance porque {0_pronoun} está en un estado mental no apto.</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageMentalState>{0_labelShort} no puede intentar un romance porque está en un estado mental no apto.</CantRomanceInitiateMessageMentalState>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
-  <CantRomanceInitiateMessageTalk>{0_labelShort} no puede intentar un romance porque {0_pronoun} no puede hablar.</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageTalk>{0_labelShort} no puede intentar un romance porque no puede hablar.</CantRomanceInitiateMessageTalk>
   <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
   <CantRomanceInitiateMessageCooldown>{0_labelShort} intentó un romance recientemente y debe esperar {1} hasta volver a intentarlo.</CantRomanceInitiateMessageCooldown>
   <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
-  <TryRomanceFailedMessage>El intento de romance de {0_labelShort} a {1_labelShort} no tuvo éxito.</TryRomanceFailedMessage>
+  <TryRomanceFailedMessage>El intento de romance de {0_labelShort} con {1_labelShort} no tuvo éxito.</TryRomanceFailedMessage>
   <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
-  <RomanceExistingRelationshipWarning>Tener un romance con {INITIATOR_nameDef} podría sembrar el resentimiento entre las parejas existentes, provocar rupturas y causar altercados.</RomanceExistingRelationshipWarning>
+  <RomanceExistingRelationshipWarning>El hecho de que {INITIATOR_nameDef} rompa con {TARGET_nameDef} podría sembrar el resentimiento entre las parejas existentes, provocar rupturas y causar altercados.</RomanceExistingRelationshipWarning>
   <!-- EN: Romance chance -->
   <RomanceChance>Oportunidad de romance</RomanceChance>
   <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
