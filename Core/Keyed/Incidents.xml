@@ -2,9 +2,9 @@
 <LanguageData>
 
   <!-- EN: Mad {ANIMAL_labelShort} -->
-  <LetterLabelAnimalInsanitySingle>Un(a) {ANIMAL_labelShort} ha enloquecido</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_indefinite} ha enloquecido</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>Un(a) {ANIMAL_label} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
+  <AnimalInsanitySingle>{ANIMAL_indefinite} ha enloquecido. Atacará todo lo que vea.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>Un grupo de {0} han enloquecido</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
@@ -133,13 +133,13 @@
   
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
-  <LetterLabelAnimalSelfTame>{1_kind} se ha autodomesticado</LetterLabelAnimalSelfTame>
+  <LetterLabelAnimalSelfTame>{1_kindIndef} se ha autodomesticado</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
-  <LetterAnimalSelfTame>Un(a) {0} ha sido domesticado(a).</LetterAnimalSelfTame>
+  <LetterAnimalSelfTame>{0} se ha amansado.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndNameNumerical>Un(a) {0} ha sido domesticado(a) y se le ha designado como {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndNameNumerical>{0} se ha amansado y se le ha designado como {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndName>Un(a) {0} ha sido domesticado(a). Los colonos han decidido llamarle {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndName>{0} se ha amansado. Los colonos han decidido llamarle {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
