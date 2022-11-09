@@ -4,13 +4,13 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.4.3537-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.4.3542-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld version 1.4.3537
+This is the Latin American Spanish translation of Rimworld version 1.4.3542
 
-Esta es la traducción para latinoamérica de Rimworld versión 1.4.3537
+Esta es la traducción para latinoamérica de Rimworld versión 1.4.3542
 
 See this [page](http://ludeon.com/forums/index.php?topic=2933.0) for license info:
 
@@ -23,7 +23,7 @@ Las traducciones que vienen con el juego no se actualizan automáticamente.
 
 Cada vez que el juego se actualiza, Ludeon saca los archivos de los repositorios oficiales y los "empaqueta" para incluirlos en el juego.
 
-Podeís seguir una de estas dos guias ([manual](#manual) o [automática](Instalar/InstallGuide.md)) para actualizar a las más recientes. 
+Podeís seguir una de estas dos guías ([manual](#manual) o [automática](Instalar/InstallGuide.md)) para actualizar a las más recientes. 
 ### Manual
 1. Debes descargar los archivos comprimidos como un *ZIP*, para ello selecciona y despliega la pestaña *CODE*, al tener este archivo en tu pc, descomprime y encontrarás tres carpetas Core, Royalty e Ideology. 
 2. Crea una carpeta con este nombre _SpanishLatin (Español(Latinoamérica))_ y copia dentro el contenido de la carpeta Core
@@ -44,6 +44,14 @@ Current translation and adaptation by:
 
 * __[Zerstrick](https://github.com/zerstrick)__
 
+Thanks to Biotech contributors: 
+
+* __[BernyGonzalez](https://github.com/BernyGonzalez) (Active)__
+* __[Zakees](https://github.com/Zakees) (Inactive)__
+* __[TheNoobGamer21613](https://github.com/TheNoobGamer21613) (Inactive)__ 
+* __[Incoherent](https://github.com/notfraaan) (Inactive)__ 
+* __[Zerstrick](https://github.com/zerstrick) (Active)__
+
 Thanks to Ideology contributors: 
 
 * __Evilservant6 (Inactive)__
@@ -51,6 +59,13 @@ Thanks to Ideology contributors:
 * __akvirac (Inactive)__
 * __[Mora145](https://github.com/mora145) (Inactive)__
 * __[BernyGonzalez](https://github.com/BernyGonzalez) (Active)__
+* __[Zerstrick](https://github.com/zerstrick) (Active)__
+
+Thanks to Royalty contributors:
+
+* __Argon111 (Inactive)__
+* __[Azarashi](https://github.com/AzarashiEsp) (Inactive)__
+* __[Zerstrick](https://github.com/zerstrick) (Active)__
 
 Thanks to AM for the 1.1xxx version:
 
