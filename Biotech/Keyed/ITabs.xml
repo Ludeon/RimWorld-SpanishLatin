@@ -20,7 +20,7 @@
 
   <!-- Feeding tab (human babies) -->
   <!-- EN: Feeding -->
-  <TabFeeding>Alimentación</TabFeeding>
+  <TabFeeding>Nutrición</TabFeeding>
   <!-- EN: Auto feed settings -->
   <AutofeedSectionHeader>Ajustes de alimentación automática</AutofeedSectionHeader>
   <!-- EN: never -->
@@ -34,7 +34,7 @@
   <!-- EN: {FEEDER_nameDef} will not automatically feed {BABY_nameDef}. -->
   <AutofeedModeTooltipNever>{FEEDER_nameDef} no alimentará automáticamente a {BABY_nameDef}.</AutofeedModeTooltipNever>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
-  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} alimentará a {BABY_nameDef} como trabajo de cuida niños.</AutofeedModeTooltipChildcare>
+  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} alimentará a {BABY_nameDef} por estar asignad{FEEDER_gender ? o : a} como cuida niños.</AutofeedModeTooltipChildcare>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
   <AutofeedModeTooltipUrgent>{FEEDER_nameDef} alimentará a {BABY_nameDef} de día o de noche, incluso si {FEEDER_nameDef} no está asignad{FEEDER_gender ? o : a}  al trabajo de cuida niños o sea incapaz de hacerlo.</AutofeedModeTooltipUrgent>
   <!-- EN: Consumable foods -->
