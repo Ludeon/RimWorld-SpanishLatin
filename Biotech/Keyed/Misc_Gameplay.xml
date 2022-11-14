@@ -26,7 +26,7 @@
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0} mecas</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
-  <BossWithApparel>{BOSS} con {APPAREL}</BossWithApparel><!-- text_todo -->
+  <BossWithApparel>{BOSS} con {APPAREL}</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -115,6 +115,8 @@
   <WaitingFor>Esperando</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>Incontrolado</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>{0} llegando</BossgroupIncoming><!-- text_todo -->
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -168,7 +170,7 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef} deberá tomar un mortisueño pronto para evitar la extenuación.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>Determina si {PAWN_nameDef} ingerirá automáticamente packs de hemógeno cuando su hemógeno esté por debajo de {MIN}.</AutoTakeHemogenDesc><!-- text_todo -->
+  <AutoTakeHemogenDesc>Determina si {PAWN_nameDef} ingerirá automáticamente packs de hemógeno cuando su hemógeno esté por debajo de {MIN}.</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>Consumir hemógeno a continuación</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -275,6 +277,10 @@
   <EjectAllDesc>Tirar todos los packs de genes al suelo.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>Packs de genes almacenados</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>Autocarga</GenepackAutoLoad><!-- text_todo -->
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>Si está activo, los transportistas almacenarán automáticamente este pack de genes en un banco de genes.</GenepackAutoLoadDesc><!-- text_todo -->
   <!-- EN: Forced traits -->
   <ForcedTraits>Rasgos forzados</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -393,8 +399,8 @@
   <WaitingForPawn>Esperando por {PAWN_nameDef}.</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>Extrayendo genes de {PAWN_nameDef}.</ExtractingXenogermFrom>
-  <!-- EN: Extraction paused: No power -->
-  <ExtractionPausedNoPower>Extracción pausada: No hay energía</ExtractionPausedNoPower>
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
+  <ExtractionPausedNoPower>Extracción pausada: Sin energía (interrupción en {TIME})</ExtractionPausedNoPower><!-- text_todo -->
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>{CHEMICAL_label} ingerido por última vez hace {DURATION}.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
@@ -408,7 +414,7 @@
   <!-- EN: deathless -->
   <Deathless>inmortal</Deathless>
   <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
-  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} necesita ingerir {0} de forma regular para sobrevivir. Después de {DEFICIENCYDURATION} sin {0}, {PAWN_pronoun} sufrirá una deficiencia de {0}. Después de {COMADURACIÓN}, caerá en coma. Después de {DEATHDURATION}, morirá.</GeneDefChemicalNeedDurationDesc>
+  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} necesita ingerir {0} de forma regular para sobrevivir. Después de {DEFICIENCYDURATION} sin {0}, sufrirá una deficiencia de {0}. Después de {COMADURATION}, caerá en coma. Después de {DEATHDURATION}, morirá.</GeneDefChemicalNeedDurationDesc>
   <!-- EN: {CHEMICAL_label} dependency -->
   <ChemicalDependency>Dependencia a {CHEMICAL_label}</ChemicalDependency>
   <!-- EN: Xenogerm -->
@@ -604,7 +610,7 @@
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>Esperando ingredientes</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
-  <SubcoreScannerWaitingForIngredientsDesc>Primero hay que cargar los siguientes ingredientes</SubcoreScannerWaitingForIngredientsDesc> <!-- text_todo -->
+  <SubcoreScannerWaitingForIngredientsDesc>Primero hay que cargar los siguientes ingredientes</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>Tiene {0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -700,7 +706,7 @@
   <!-- EN: Fertilize -->
   <Fertilize>Fertilizar</Fertilize>
   <!-- EN: Fertilize {0_label} -->
-  <FertilizeThing>Fertilizar {0_label}</FertilizeThing><!-- text_todo -->
+  <FertilizeThing>Fertilizar {0_label}</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>No se puede fertilizar</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->

@@ -27,6 +27,8 @@
   <MessageAbsorbingXenogermWillAngerFaction>Absorber el xenogermen de {PAWN_nameDef} enfadará a {0}.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label} solo puede ser usado en colonos, prisioneros y esclavos.</MessageCannotUseOnOtherFactions>
+  <!-- EN: {0_labelShort} will not become a non-preferred xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} no se convertirá en un xenotipo no preferido.</MessageCannotBecomeNonPreferredXenotype><!-- text_todo -->
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>Autoañadir a {MECH_nameDef} a la caravana, ya que está escoltando a {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
@@ -43,6 +45,8 @@
   <MessagePregnancyTerminated>El embarazo de {PAWN_nameDef} fue finalizado con éxito.</MessagePregnancyTerminated>
   
   <!-- Pollution -->
+  <!-- EN: {0} has been angered ({1}) -->
+  <MessageAngeredPollutedCell>{0} se ha enfadado ({1})</MessageAngeredPollutedCell> <!-- text_todo -->
   <!-- EN: Need unpolluted terrain. -->
   <MessageWarningPollutedCell>Necesita terreno no contaminado.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
@@ -103,11 +107,14 @@
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
   <MessageBedExposedToSunlight>El {BED_labelShort} que está asignado para el mortisueño de {PAWN_nameDef} se expuso a la luz solar. {PAWN_nameDef} no podrá tomar su mortisueño aquí.</MessageBedExposedToSunlight>
 
+  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} fue expulsad{PAWN_gender ? o : a} de un extractor de genes por falta de energía.</GeneExtractorNoPowerEjectedMessage><!-- text_todo -->
+
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
   <MessagePawnKilledRipscanner>El cerebro de {PAWN_nameDef} fue destruido por el rasgaescáner de subnúcleos.</MessagePawnKilledRipscanner>
   <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
-  <MessageSubcoreSoftscannerCompleted>El flexiescaneo de subnúcleos se ha completado para {PAWN_nameDef}.</MessageSubcoreSoftscannerCompleted><!-- text_todo -->
+  <MessageSubcoreSoftscannerCompleted>El flexiescaneo de subnúcleos se ha completado para {PAWN_nameDef}.</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>No se puede resucitar a los cadáveres disecados.</MessageCannotResurrectDessicatedCorpse>
@@ -143,6 +150,13 @@
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>Advertencia: {0_labelShort} está llevando a un bebé mientras está reclutado(a).</MessageDraftedPawnCarryingBaby>
   <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
-  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} está trasladando a {BABY_nameDef} a un lugar con una temperatura más segura.</MessageTakingBabyToSafeTemperature><!-- text_todo -->
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} está trasladando a {BABY_nameDef} a un lugar con una temperatura más segura.</MessageTakingBabyToSafeTemperature>
+
+  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
+  <MessagePregnancyFailed>Embarazo fallido entre {MOTHER_nameDef} y {FATHER_nameDef}</MessagePregnancyFailed><!-- text_todo -->
+  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
+  <MessageFerilizeFailed>{PAWN_nameDef} falló en la fecundación del óvulo</MessageFerilizeFailed><!-- text_todo -->
+  <!-- EN: Combined genes exceeded metabolism limits. -->
+  <CombinedGenesExceedMetabolismLimits>Los genes combinados superaron los límites del metabolismo.</CombinedGenesExceedMetabolismLimits><!-- text_todo -->
 
 </LanguageData>
