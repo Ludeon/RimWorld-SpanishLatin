@@ -1,35 +1,166 @@
+KEY;1_NOM;2_GEN;3_DAT;4_ACC;5_NOM_ART;6_GEN_ART;7_DAT_ART;8_ACC_ART
+// Plural declension (without and with article)
+// NOTE: Ingame pluralization use this file automatically (always index 1).
+//
+// Usage syntax: {lookup: TEXT; FILE_NO_EXT; INDEX}
+// TEXT is the key to access a row.
+// FILE_NO_EXT is the file in which TEXT should be looked up. Omit the extension.
+// INDEX determines the column to be used. Can be omitted if you need index 1.
+// For example, {lookup: {0}; plural; 2} looks up 2_GEN.
+//
+// plants
+planta de maíz;plantas de maíz
+planta de algodón;plantas de algodón
+hongo de hilodiablo;hongos de hilodiablo
+planta de heno;plantas de heno
+raizanadora;raizanadoras
+planta de lúpulo;plantas de lúpulo
+planta de papa;plantas de papa
+planta psicoide;plantas psicoide
+planta de arroz;plantas de arroz
+planta de hojahumeante;plantas de hojahumeante
+planta de fresa;plantas de fresa
+árbol de cacao;árboles de cacao
+lirio de día;lirios de día
+rosa;rosas
+agarilux;agariluces
+bryolux;bryoluces
+bryaseta;bryasetas
+//
+// drugs
+cerveza;cervezas
+mosto;mostos
+ambrosía;ambrosías
+//
+// apparel
+cinturón escudo;cinturones escudo
+casco antibalas;cascos antibalas
+casco recon;cascos recon
+bombín;bombines
+sombrero vaquero:sombreros vaqueros
+capucha;capuchas
+casco marine;cascos marines
+casco de lámina psíquica;cascos de láminas psíquicas
+casco sencillo;cascos sencillos
+tocado tribal;tocados tribales
+gorro;gorros
+máscara de guerra;máscaras de guerra
+pack de bomba espuma cortafuego;packs de bombas espumas cortafuego
+pack de bomba de humo;packs de bombas de humo
+lanza de locura psíquica;lanzas de locura psíquica
+lanza de conmoción psíquica;lanzas de conmoción psíquica
+armadura recon;armaduras recon
+camiseta;camisetas
+capa;capas
+camisa;camisas
+gabardina;gabardinas
+chaqueta antibalas;chaquetas antibalas
+pantalón antibalas;pantalones antibalas
+chaleco antibalas;chalecos antibalas
+chaqueta;chaquetas
+pantalón;pantalone
+anorak;anoraks
+armadura de placas;armaduras de placas
+armadura marine;armaduras marine
+túnica tribal;túnicas tribales
+//
+// weapon
+hacha brechera;hachas brecheras
+//
+// building
+antigua cápsula de criptosueño:antiguas cápsulas de criptosueño
+lámpara ancestral;lámparas ancestrales
+antigua barrera de hormigón;antiguas barreras de hormigón
+farola antigua;farolas antiguas
+urna;urnas
+escultura grande;esculturas grandes
+escultura mediana;esculturas medianas
+escultura pequeña;esculturas pequeñas
+hombre de nieve;hombres de nieve
+parte de nave (defoliador):partes de nave (defoliador)
+parte de nave (zumbador psíquico);partes de nave (zumbador psíquico)
+escombro de nave;escombros de nave
+transbordador;transbordadores
+transbordador estrellado;transbordadores estrellados
+cama (animal);camas (animal)
+caja de dormir;cajas de dormir
+lugar para dormir (animal);lugares para dormir (animal)
+sillón;sillones
+cama;camas
+saco de dormir;sacos de dormir
+saco de dormir doble;sacos de dormir doble
+silla de comedor;sillas de comedor
+cama doble;camas dobles
+doble lugar para dormir;doble lugar para dormir
+cómoda;cómodas
+mesa auxiliar;mesas auxiliares
+cama hospitalaria;camas hospitalarias
+maceta;macetas
+cama real;camas reales
+estante;estantes
+estante pequeño;estantes pequeños
+lugar para dormir;lugares para dormir
+lámpara de pie;lámparas de pie
+taburete;taburetes
+lámpara solar;lámparas solares
+mesa (1x2);mesas (1x2)
+mesa (2x2);mesas (2x2)
+mesa (2x4);mesas (2x4)
+mesa (3x3);mesas (3x3)
+antorcha;antorchas
+mesa de billar;mesas de billar
+mesa de ajedrez;mesas de ajedrez
+televisión de pantalla plana;televisores de pantalla plana
+tablero de ur;tableros de ur
+balitas;balitas
+vara para herraduras;varas para herraduras
+megapantalla;megapantallas
+mesa de póker;mesas de póker
+telescopio;telescopios
+televisión;televisores
+celda de energía incendiaria;celdas de energía incendiaria
+sarcófago de criptosueño ancestral;sarcófagos de criptosueño ancestrales
+lugar de enganche para caravanas;lugares de enganche para caravanas
+consola de comunicaciones;consolas de comunicaciones
+sarcófago de criptosueño;sarcófagos de criptosueño
+caja de huevos;cajas de huevos
+rociador de espuma cortafuego;rociadores de espuma cortafuego
+tumba;tumbas
+escáner de profundidad;escáneres de profundidad
+escáner de minerales de largo alcance;escáneres de minerales de largo alcance
+lugar de matrimonio;lugares de matrimonio
+bomba de humedad;bombas de humedad
+multianalizador;multianalizadores
+baliza de comercio orbital;balizas de comercio orbital
+lugar de fiestas;lugares de fiestas
+marcador de corral;marcadores de corral
+lanzador de cápsulas;lanzadores de cápsulas
+sarcófago;sarcófagos
+estela enorme;estelas enormes
+estela grande;estelas grandes
+gabinete para herramientas;gabinetes para herramientas
+cápsula de transporte;cápsulas de transporte
+monitor de signos vitales;monitores de signos vitales
+instrumento musical inacabado;instrumentos musicales inacabados
+derrumbe de rocas;derrumbes de rocas
+
 bolsas de arena
 bolsas de arena desperdigadas
 bolsas de arena(anteproyecto)
 bolsas de arena(en construcción)
-cataratas
-cortinas
-croquetas
+
 granadas de fragmentación
 granadas PEM
 lanzar coctel molotov
 lanzar granada PEM
-lombrices intestinales
+
 mandíbulas
 mecanitas fibrosos
 mecanitas sensoriales
-papas
 raciones de supervivencia
 rocas elevadas
-gacelas
-garras
-iguanas
-panteras
-alpacas
-vacas
 cabras
 ovejas
 liebres
 liebres blancas
-megarañas
 ratas-bum
-chinchillas
-ratas
-ardillas
-tortugas
-cobras
