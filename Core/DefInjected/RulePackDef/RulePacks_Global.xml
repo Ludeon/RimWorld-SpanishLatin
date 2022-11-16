@@ -407,6 +407,9 @@
     <!--ATTENDER-->
     <li>ATTENDER_o_a(ATTENDER_gender!=Female)->o</li>
     <li>ATTENDER_o_a(ATTENDER_gender==Female)->a</li>
+    <!--SENDER-->
+    <li>un_una_sender(ATTENDER_gender!=Female)->un</li>
+    <li>un_una_sender(ATTENDER_gender==Female)->una</li>
     <!-- prueba 
     <li>RECIPIENT_indefinite(RECIPIENT==Hare)->una liebre</li>
     <li>RECIPIENT_definite(RECIPIENT==Hare)->la liebre</li> -->

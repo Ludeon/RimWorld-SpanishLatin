@@ -27,8 +27,8 @@
   <MessageAbsorbingXenogermWillAngerFaction>Absorber el xenogermen de {PAWN_nameDef} enfadará a {0}.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label} solo puede ser usado en colonos, prisioneros y esclavos.</MessageCannotUseOnOtherFactions>
-  <!-- EN: {0_labelShort} will not become a non-preferred xenotype. -->
-  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} no se convertirá en un xenotipo no preferido.</MessageCannotBecomeNonPreferredXenotype><!-- text_todo -->
+  <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} se niega a convertirse en un xenotipo desagradable.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>Autoañadir a {MECH_nameDef} a la caravana, ya que está escoltando a {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
@@ -46,7 +46,7 @@
   
   <!-- Pollution -->
   <!-- EN: {0} has been angered ({1}) -->
-  <MessageAngeredPollutedCell>{0} se ha enfadado ({1})</MessageAngeredPollutedCell> <!-- text_todo -->
+  <MessageAngeredPollutedCell>{0} se ha enfadado ({1})</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
   <MessageWarningPollutedCell>Necesita terreno no contaminado.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
@@ -108,7 +108,7 @@
   <MessageBedExposedToSunlight>El {BED_labelShort} que está asignado para el mortisueño de {PAWN_nameDef} se expuso a la luz solar. {PAWN_nameDef} no podrá tomar su mortisueño aquí.</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
-  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} fue expulsad{PAWN_gender ? o : a} de un extractor de genes por falta de energía.</GeneExtractorNoPowerEjectedMessage><!-- text_todo -->
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} fue expulsad{PAWN_gender ? o : a} de un extractor de genes por falta de energía.</GeneExtractorNoPowerEjectedMessage>
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
@@ -153,10 +153,10 @@
   <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} está trasladando a {BABY_nameDef} a un lugar con una temperatura más segura.</MessageTakingBabyToSafeTemperature>
 
   <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
-  <MessagePregnancyFailed>Embarazo fallido entre {MOTHER_nameDef} y {FATHER_nameDef}</MessagePregnancyFailed><!-- text_todo -->
+  <MessagePregnancyFailed>Embarazo fallido entre {MOTHER_nameDef} y {FATHER_nameDef}</MessagePregnancyFailed>
   <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
-  <MessageFerilizeFailed>{PAWN_nameDef} falló en la fecundación del óvulo</MessageFerilizeFailed><!-- text_todo -->
+  <MessageFerilizeFailed>{PAWN_nameDef} falló en la fecundación del óvulo</MessageFerilizeFailed>
   <!-- EN: Combined genes exceeded metabolism limits. -->
-  <CombinedGenesExceedMetabolismLimits>Los genes combinados superaron los límites del metabolismo.</CombinedGenesExceedMetabolismLimits><!-- text_todo -->
+  <CombinedGenesExceedMetabolismLimits>Los genes combinados superaron los límites del metabolismo.</CombinedGenesExceedMetabolismLimits>
 
 </LanguageData>
