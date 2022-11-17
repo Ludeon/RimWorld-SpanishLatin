@@ -83,9 +83,13 @@
   <!-- EN: Mental breaks are never violent. -->
   <NeverAggroMentalBreak>Los colapsos mentales nunca son violentos.</NeverAggroMentalBreak>
   <!-- EN: {0_label} addiction chance factor -->
-  <AddictionChanceFactor>Probabilidad de adicción a {0_label}</AddictionChanceFactor>
+  <AddictionChanceFactor>Probabilidad de adicción {replace: a {0_definite}; "a el "-"al "}</AddictionChanceFactor>
+  <!-- EN: {0_label} overdose chance factor -->
+  <OverdoseChanceFactor>{0_label} factor de probabilidad de sobredosis</OverdoseChanceFactor><!-- text_todo -->
+  <!-- EN: {0_label} tolerance buildup factor -->
+  <ToleranceBuildupFactor>{0_label} factor de acumulación de tolerancia</ToleranceBuildupFactor><!-- text_todo -->
   <!-- EN: Immune to {0_label} addiction. -->
-  <AddictionImmune>Inmune a la adicción a {0_label}.</AddictionImmune>
+  <AddictionImmune>Inmune a la adicción {replace: a {0_definite}; "a el "-"al "}.</AddictionImmune>
   <!-- EN: Immune to food poisoning. -->
   <FoodPoisoningImmune>Inmune a la intoxicación alimentaria.</FoodPoisoningImmune>
   <!-- EN: Will never do social fights. -->
@@ -121,5 +125,14 @@
 
   <!-- EN: Growth vat speed -->
   <StatsReport_GrowthVatSpeedFactor>Vel. de la tina de crecimiento</StatsReport_GrowthVatSpeedFactor>
+
+  <!-- EN: Carriers cannot build a tolerance to {0_label}. -->
+  <GeneToleranceBuildupImmune>Los portadores no pueden crear una tolerancia {replace: a {0_definite}; "a el "-"al "}.</GeneToleranceBuildupImmune><!-- text_todo -->
+  <!-- EN: Carriers build a tolerance to {0_label} {1} as quickly. -->
+  <GeneToleranceBuildupFactor>Los portadores construyen una tolerancia {replace: a {0_definite}; "a el "-"al "} {1} con la misma rapidez.</GeneToleranceBuildupFactor><!-- text_todo -->
+  <!-- EN: Carriers cannot overdose on {0_label}. -->
+  <GeneOverdoseImmune>Los portadores no pueden tener una sobredosis de {0_label}.</GeneOverdoseImmune><!-- text_todo -->
+  <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
+  <GeneOverdoseFactor>Los portadores tienen {1} la misma probabilidad de sobredosis de {0_label}.</GeneOverdoseFactor><!-- text_todo -->
 
 </LanguageData>
