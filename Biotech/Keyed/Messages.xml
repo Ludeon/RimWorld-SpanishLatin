@@ -148,7 +148,7 @@
   <MessageCannotPostponeGrowthMoment>Deberás elegir como crecerá {PAWN_nameDef} ahora.</MessageCannotPostponeGrowthMoment>
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
-  <MessageDraftedPawnCarryingBaby>Advertencia: {0_labelShort} está llevando a un bebé mientras está reclutado(a).</MessageDraftedPawnCarryingBaby>
+  <MessageDraftedPawnCarryingBaby>Advertencia: {0_labelShort} está llevando a un bebé mientras está reclutad{0_gender ? o : a}.</MessageDraftedPawnCarryingBaby>
   <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
   <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} está trasladando a {BABY_nameDef} a un lugar con una temperatura más segura.</MessageTakingBabyToSafeTemperature>
 

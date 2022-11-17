@@ -42,7 +42,7 @@
   <!-- EN: great deathrest chamber -->
   <DeathrestChamber.stages.great_deathrest_chamber.label>cámara de mortisueño genial</DeathrestChamber.stages.great_deathrest_chamber.label>
   <!-- EN: I deathrested in an impressive chamber. I feel rejuvenated. -->
-  <DeathrestChamber.stages.great_deathrest_chamber.description>He mortisoñado en una cámara impresionante. Me siento rejuvenecido(a).</DeathrestChamber.stages.great_deathrest_chamber.description>
+  <DeathrestChamber.stages.great_deathrest_chamber.description>He mortisoñado en una cámara impresionante. Me siento rejuvenecid{PAWN_gender ? o : a}.</DeathrestChamber.stages.great_deathrest_chamber.description>
   <!-- EN: excellent deathrest chamber -->
   <DeathrestChamber.stages.excellent_deathrest_chamber.label>cámara de mortisueño excelente</DeathrestChamber.stages.excellent_deathrest_chamber.label>
   <!-- EN: I deathrested in a very impressive chamber. I feel amazing. -->
@@ -150,7 +150,7 @@
   <!-- EN: psychic bond distance -->
   <PsychicBondProximity.stages.psychic_bond_distance.label>vínculo psíquico a distancia</PsychicBondProximity.stages.psychic_bond_distance.label>
   <!-- EN: The distance makes it so hard to hear. I feel alone, like standing in a dark, silent cavern. -->
-  <PsychicBondProximity.stages.psychic_bond_distance.description>La distancia hace que sea difícil escuchar. Me siento solo(a), como si estuviera en una caverna oscura y silenciosa.</PsychicBondProximity.stages.psychic_bond_distance.description>
+  <PsychicBondProximity.stages.psychic_bond_distance.description>La distancia hace que sea difícil escuchar. Me siento sol{PAWN_gender ? o : a}, como si estuviera en una caverna oscura y silenciosa.</PsychicBondProximity.stages.psychic_bond_distance.description>
   
   <!-- EN: recluse alone -->
   <Recluse.stages.recluse_alone.label>reclus{PAWN_gender ? o : a} sol{PAWN_gender ? o : a}s</Recluse.stages.recluse_alone.label>
