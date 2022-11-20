@@ -394,20 +394,20 @@
     <li>desc_sentence->[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</li>
   -->
   <TamedAnimal.rulePack.rulesStrings>
-    <li>tale_noun->[TAMER_nameDef] domó a [ANIMAL_nameDef]</li>
-    <li>tale_noun->[TAMER_nameDef] domesticó a [ANIMAL_nameDef]</li>
-    <li>image->[TAMER_nameFull] domando a un(a) [ANIMAL_nameDef] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] ofreciendo un bocado de comida a un(a) [ANIMAL_nameDef] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] susurrando al oído de [ANIMAL_label] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] calmando a un(a) [ANIMAL_label] salvaje [circumstance_group]</li>
+    <li>tale_noun->[TAMER_nameDef] domó a [ANIMAL_nameIndef]</li>
+    <li>tale_noun->[TAMER_nameDef] domesticó a [ANIMAL_nameIndef]</li>
+    <li>image->[TAMER_nameFull] domando a [ANIMAL_nameIndef] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] ofreciendo un bocado de comida a [ANIMAL_indefinite] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] susurrando al oído de [ANIMAL_indefinite] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] calmando a [ANIMAL_indefinite] salvaje [circumstance_group]</li>
     <li>circumstance_phrase->con gran precaución</li>
     <li>circumstance_phrase->con una sonrisa</li>
     <li>circumstance_phrase->con gran cansancio, pero feliz</li>
     <li>desc_sentence->[ANIMAL_nameDef] gruñe agresivamente.</li>
     <li>desc_sentence->[ANIMAL_nameDef] parece que tiene sueño y estar embriagado(a) de amor.</li>
     <li>desc_sentence->[ANIMAL_nameDef] parece estar en un estado hipnótico.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] parece asustado(a) pero interesado(a).</li>
-    <li>desc_sentence->[ANIMAL_nameDef] parece fascinado(a).</li>
+    <li>desc_sentence->[ANIMAL_nameDef] parece tener miedo pero muestra interés.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] parece mostrar fascinación.</li>
     <li>desc_sentence->[TAMER_nameDef] proyecta mucho amor hacia [ANIMAL_nameDef].</li>
   </TamedAnimal.rulePack.rulesStrings>
   

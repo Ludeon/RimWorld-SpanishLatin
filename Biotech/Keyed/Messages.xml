@@ -124,9 +124,9 @@
 
   <!-- Childcare -->
   <!-- EN: {FEEDER_labelShort} cannot perform childcare tasks. -->
-  <MessageChildcareDisabled>{FEEDER_labelShort} no puede realizar tareas de cuida niños.</MessageChildcareDisabled>
+  <MessageChildcareDisabled>{FEEDER_labelShort} no puede realizar tareas de cuidar niños.</MessageChildcareDisabled>
   <!-- EN: {FEEDER_labelShort} is not assigned to do childcare tasks. -->
-  <MessageChildcareNotAssigned>{FEEDER_labelShort} no está asignado para realizar tareas de cuida niños.</MessageChildcareNotAssigned>
+  <MessageChildcareNotAssigned>{FEEDER_labelShort} no está asignad{FEEDER_gender ? o : a} para realizar tareas de cuidar niños.</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
   <MessageTooManyCustomXenotypes>Ya posees el número máximo de xenotipos personalizados. Debes borrar algunos si deseas crear más.</MessageTooManyCustomXenotypes>

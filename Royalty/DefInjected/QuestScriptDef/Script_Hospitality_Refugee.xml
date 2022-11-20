@@ -402,7 +402,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef], un(a) [factionOpponent_faction_pawnSingular] de la facción [factionOpponent_faction_name], se ha enterado que [asker_nameDef] [otherLodgers] [areIs] siendo [hostedSingOrPlural] en [map_definite]. [factionOpponent_pronoun] está enemistado con [asker_nameDef] y quiere ver[asker_objective] muert[asker_o_a].\n\n[factionOpponent_pronoun] te enviará la siguiente recompensa si matas a todos los miembros de la facción [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef], un [factionOpponent_faction_pawnSingular] de la facción [factionOpponent_faction_name], se ha enterado que [asker_nameDef] [otherLodgers] [areIs] siendo [hostedSingOrPlural] en [map_definite]. [factionOpponent_pronoun] está enemistado con [asker_nameDef] y quiere ver[asker_objective] muert[asker_o_a].\n\n[factionOpponent_pronoun] te enviará la siguiente recompensa si matas a todos los miembros de la facción [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>

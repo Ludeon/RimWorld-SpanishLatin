@@ -48,7 +48,7 @@
   <Death>Muerte</Death>
 
   <!-- EN: A {1_label} has short-circuited due to precipitation and started a fire. -->
-  <ShortCircuitRain>Un(a) {1_label} ha sufrido un corto circuito por la lluvia y se ha incendiado.</ShortCircuitRain>
+  <ShortCircuitRain>{1_indefinite} ha sufrido un corto circuito por la lluvia y se ha incendiado.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
   <LetterLabelAreaRevealed>Área revelada</LetterLabelAreaRevealed>
@@ -418,9 +418,9 @@
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
-  <LetterLabelPredatorHuntingColonist>Un(a) {PREDATOR_labelShort} está cazando a {PREY_definite}</LetterLabelPredatorHuntingColonist>
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_indefinite} está cazando a {PREY_definite}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>Un(a) {PREDATOR} ¡está cazando a {PREY_definite} para alimentarse!</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR_indefinite} ¡está cazando a {PREY_definite} para alimentarse!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on -->

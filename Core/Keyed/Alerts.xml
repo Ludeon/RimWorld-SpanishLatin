@@ -293,9 +293,9 @@
   <AlertAnimalPenNotEnclosedDesc>Un marcador de corral no está cerrado.\n\nCierra el corral utilizando vallas, barricadas, puertas, muros o portones para evitar que los animales se alejen.\n\nSi solo dispones de marcadores de corral no cerrados, tus adiestradores pueden conducir a los animales errantes de vuelta a casa, pero esto debe repetirse de vez en cuando, cuando los animales se alejen de nuevo.</AlertAnimalPenNotEnclosedDesc>
 
   <!-- EN: {ANIMAL_labelShort} in animal pen -->
-  <AlertPredatorInAnimalPen>{ANIMAL_labelShort} en el corral de animales</AlertPredatorInAnimalPen>
+  <AlertPredatorInAnimalPen>{ANIMAL_nameIndef} en el corral de animales</AlertPredatorInAnimalPen>
   <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
-  <AlertPredatorInAnimalPenDesc>Un(a) {ANIMAL_labelShort} depredador(a) ha entrado en un corral.\n\nPuede decidir cazar tus animales.\n\nPuedes matarle o esperar a que se vaya.</AlertPredatorInAnimalPenDesc>
+  <AlertPredatorInAnimalPenDesc>{ANIMAL_nameIndef} depredador(a) ha entrado en un corral.\n\nPuede decidir cazar tus animales.\n\nPuedes matarle o esperar a que se vaya.</AlertPredatorInAnimalPenDesc>
 
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>Animal errante se aleja</AlertAnimalIsRoaming>
