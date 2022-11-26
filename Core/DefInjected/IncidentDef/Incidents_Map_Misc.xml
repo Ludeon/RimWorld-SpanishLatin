@@ -93,10 +93,10 @@
   <WandererJoin.letterText>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y se ha unido a la colonia. {PAWN_pronoun} está dispuest{PAWN_gender ? o : a} a contribuir, pero no se irá voluntariamente. Sino quieres a {PAWN_nameDef}, puedes desterrar{PAWN_objective} , vender{PAWN_objective} a la esclavitud, o simplemente matar{PAWN_objective}. Sin embargo, tus otros colonos pueden encontrar esto perturbador.</WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->
-  <WildManWandersIn.label>persona salvaje entró en el área</WildManWandersIn.label>
+  <WildManWandersIn.label>persona salvaje deambula</WildManWandersIn.label>
   <!-- EN: {0} wanders in -->
-  <WildManWandersIn.letterLabel>{0} Deambulante</WildManWandersIn.letterLabel>
+  <WildManWandersIn.letterLabel>{0_gender ? Un : Una} {0} está deambulando</WildManWandersIn.letterLabel>
   <!-- EN: A {1} living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame {PAWN_objective}. -->
-  <WildManWandersIn.letterText>Una persona que vive entre animales salvajes ha entrado en la zona. {PAWN_pronoun} se llama {0}.\n\nPuedes intentar domar{PAWN_objective}.</WildManWandersIn.letterText>
+  <WildManWandersIn.letterText>{PAWN_gender ? Un : Una} {1} que vive entre animales salvajes ha entrado en la zona. {PAWN_pronoun} se llama {0}.\n\nPuedes intentar domar{PAWN_objective}.</WildManWandersIn.letterText>
   
 </LanguageData>
