@@ -20,7 +20,7 @@
   <!-- EN: a bite wound -->
   <Bite.labelNoun>una mordedura</Bite.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Bite.labelNounPretty>la {0} en esta parte del cuerpo "{1}"</Bite.labelNounPretty>
+  <Bite.labelNounPretty>la {0} en {1_gender ? el : la} {1}</Bite.labelNounPretty>
   
   <!-- EN: bruise -->
   <Bruise.label>hematoma</Bruise.label>
@@ -37,7 +37,7 @@
   <!-- EN: a bruise -->
   <Bruise.labelNoun>un hematoma</Bruise.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Bruise.labelNounPretty>el {0} en esta parte del cuerpo "{1}"</Bruise.labelNounPretty>
+  <Bruise.labelNounPretty>el {0} en {1_gender ? el : la} {1}</Bruise.labelNounPretty>
   
   <!-- EN: burn -->
   <Burn.label>quemadura</Burn.label>
@@ -58,7 +58,7 @@
   <!-- EN: a burn -->
   <Burn.labelNoun>una quemadura</Burn.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Burn.labelNounPretty>la {0} en esta parte del cuerpo "{1}"</Burn.labelNounPretty>
+  <Burn.labelNounPretty>la {0} en {1_gender ? el : la} {1}</Burn.labelNounPretty>
   
   <!-- EN: chemical burn -->
   <ChemicalBurn.label>quemadura química</ChemicalBurn.label>
@@ -73,7 +73,7 @@
   <!-- EN: a chemical burn -->
   <ChemicalBurn.labelNoun>una quemadura química</ChemicalBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <ChemicalBurn.labelNounPretty>la {0} en esta parte del cuerpo "{1}"</ChemicalBurn.labelNounPretty>
+  <ChemicalBurn.labelNounPretty>la {0} en {1_gender ? el : la} {1}</ChemicalBurn.labelNounPretty>
   
   <!-- EN: crack -->
   <Crack.label>fractura</Crack.label>
@@ -92,7 +92,7 @@
   <!-- EN: a crack wound -->
   <Crack.labelNoun>una herida por fractura</Crack.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Crack.labelNounPretty>la {0} en esta parte del cuerpo "{1}"</Crack.labelNounPretty>
+  <Crack.labelNounPretty>la {0} en {1_gender ? el : la} {1}</Crack.labelNounPretty>
   
   <!-- EN: crush -->
   <Crush.label>aplastamiento</Crush.label>
@@ -111,7 +111,7 @@
   <!-- EN: a crush wound -->
   <Crush.labelNoun>una herida por aplastamiento</Crush.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Crush.labelNounPretty>el {0} en esta parte del cuerpo "{1}"</Crush.labelNounPretty>
+  <Crush.labelNounPretty>el {0} en {1_gender ? el : la} {1}</Crush.labelNounPretty>
   
   <!-- EN: cut -->
   <Cut.label>corte</Cut.label>
@@ -132,7 +132,7 @@
   <!-- EN: a cut -->
   <Cut.labelNoun>un corte</Cut.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Cut.labelNounPretty>el {0} en esta parte del cuerpo "{1}"</Cut.labelNounPretty>
+  <Cut.labelNounPretty>el {0} en {1_gender ? el : la} {1}</Cut.labelNounPretty>
   
   <!-- EN: cut -->
   <ExecutionCut.label>corte</ExecutionCut.label>
@@ -145,7 +145,7 @@
   <!-- EN: a cut -->
   <ExecutionCut.labelNoun>un corte</ExecutionCut.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <ExecutionCut.labelNounPretty>el {0} en esta parte del cuerpo "{1}"</ExecutionCut.labelNounPretty>
+  <ExecutionCut.labelNounPretty>el {0} en {1_gender ? el : la} {1}</ExecutionCut.labelNounPretty>
   
   <!-- EN: frostbite -->
   <Frostbite.label>congelación</Frostbite.label>
@@ -162,7 +162,7 @@
   <!-- EN: Lost to frostbite -->
   <Frostbite.injuryProps.destroyedLabel>Pérdido(a) por congelamiento</Frostbite.injuryProps.destroyedLabel>
   <!-- EN: {0} in the {1} -->
-  <Frostbite.labelNounPretty>la {0} en esta parte del cuerpo "{1}"</Frostbite.labelNounPretty>
+  <Frostbite.labelNounPretty>la {0} en {1_gender ? el : la} {1}</Frostbite.labelNounPretty>
   
   <!-- EN: gunshot -->
   <Gunshot.label>disparo</Gunshot.label>
@@ -185,7 +185,7 @@
   <!-- EN: a gunshot wound -->
   <Gunshot.labelNoun>una herida de bala</Gunshot.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Gunshot.labelNounPretty>el {0} en esta parte del cuerpo "{1}"</Gunshot.labelNounPretty>
+  <Gunshot.labelNounPretty>el {0} en {1_gender ? el : la} {1}</Gunshot.labelNounPretty>
   
   <!-- EN: misc -->
   <Misc.label>multiples daños</Misc.label>
@@ -204,7 +204,7 @@
   <!-- EN: an injury -->
   <Misc.labelNoun>una lesión</Misc.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Misc.labelNounPretty>los {0} en esta parte del cuerpo "{1}"</Misc.labelNounPretty>
+  <Misc.labelNounPretty>los {0} en {1_gender ? el : la} {1}</Misc.labelNounPretty>
   
   <!-- EN: missing body part -->
   <MissingBodyPart.label>parte del cuerpo faltante</MissingBodyPart.label>
@@ -213,7 +213,7 @@
   <!-- EN: a missing body part -->
   <MissingBodyPart.labelNoun>una parte del cuerpo pérdida</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->
-  <MissingBodyPart.labelNounPretty>la pérdida del/la {1}</MissingBodyPart.labelNounPretty>
+  <MissingBodyPart.labelNounPretty>la pérdida {1_gender ? del : de la} {1}</MissingBodyPart.labelNounPretty>
   
   <!-- EN: scratch -->
   <Scratch.label>arañazo</Scratch.label>
@@ -234,7 +234,7 @@
   <!-- EN: a scratch -->
   <Scratch.labelNoun>un arañazo</Scratch.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Scratch.labelNounPretty>el {0} en esta parte del cuerpo "{1}"</Scratch.labelNounPretty>
+  <Scratch.labelNounPretty>el {0} en {1_gender ? el : la} {1}</Scratch.labelNounPretty>
   
   <!-- EN: shredded -->
   <Shredded.label>desgarre</Shredded.label>
@@ -255,7 +255,7 @@
   <!-- EN: a shredded wound -->
   <Shredded.labelNoun>una herida desgarrada</Shredded.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Shredded.labelNounPretty>el {0} en esta parte del cuerpo "{1}"</Shredded.labelNounPretty>
+  <Shredded.labelNounPretty>el {0} en {1_gender ? el : la} {1}</Shredded.labelNounPretty>
   
   <!-- EN: stab -->
   <Stab.label>puñalada</Stab.label>
@@ -276,7 +276,7 @@
   <!-- EN: a stab wound -->
   <Stab.labelNoun>una puñalada</Stab.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Stab.labelNounPretty>la {0} en esta parte del cuerpo "{1}"</Stab.labelNounPretty>
+  <Stab.labelNounPretty>la {0} en {1_gender ? el : la} {1}</Stab.labelNounPretty>
   
   <!-- EN: surgical cut -->
   <SurgicalCut.label>corte quirúrgico</SurgicalCut.label>
@@ -293,6 +293,6 @@
   <!-- EN: a surgical cut -->
   <SurgicalCut.labelNoun>un corte quirúrgico</SurgicalCut.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <SurgicalCut.labelNounPretty>el {0} en esta parte del cuerpo "{1}"</SurgicalCut.labelNounPretty>
+  <SurgicalCut.labelNounPretty>el {0} {1_gender ? el : la} {1}</SurgicalCut.labelNounPretty>
   
 </LanguageData>
