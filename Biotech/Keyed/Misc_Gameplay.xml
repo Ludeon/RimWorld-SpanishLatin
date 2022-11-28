@@ -142,7 +142,7 @@
   <!-- EN: Auto-wake -->
   <AutoWake>Autodespertar</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>Cuando esté encendido, {PAWN_nameDef} será despertad{PAWN__gender ? o : a} de forma automática una vez su mortisueño haya sido completado.\n\nCuando esté apagado, continuará su mortisueño hasta que {PAWN_objective} despiertes manualmente.</AutoWakeDesc>
+  <AutoWakeDesc>Cuando esté encendido, {PAWN_nameDef} será despertad{PAWN_gender ? o : a} de forma automática una vez su mortisueño haya sido completado.\n\nCuando esté apagado, continuará su mortisueño hasta que {PAWN_objective} despiertes manualmente.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} está mortisoñando.</IsDeathresting>
   <!-- EN: Cannot deathrest -->
