@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: [PAWN_nameDef] designed and constructed buildings. On [PAWN_possessive] glitterworld home, most of the technical aspects of architecture were handled by an AI. This enabled [PAWN_objective] to push the artistic limits of the craft, but also meant [PAWN_pronoun] never had to get [PAWN_possessive] hands dirty at building sites. -->
-  <Architect28.baseDesc>[PAWN_nameDef] diseñaba y construía edificios. En el glitterworld donde nació, la mayoría de los aspectos técnicos los manejaba una IA. Esto [PAWN_objective] mantenía en los límites artísticos de su oficio, pero también significaba que nunca tenía que ensuciarse las manos en la construcción.</Architect28.baseDesc>
+  <Architect28.baseDesc>[PAWN_nameDef] diseñaba y construía edificios. En el glitterworld donde nació, la mayoría de los aspectos técnicos arquitectónicos los manejaba una IA. Esto le permitía desafíar los límites artísticos del oficio, pero también significaba que nunca tenía que ensuciarse las manos en las zonas de construcción.</Architect28.baseDesc>
   <!-- EN: architect -->
   <Architect28.title>arquitecto</Architect28.title>
   <Architect28.titleFemale>arquitecta</Architect28.titleFemale>
@@ -11,7 +11,7 @@
   <Architect28.titleShortFemale>arquitecta</Architect28.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] lived on a peaceful glitterworld where all menial work was done by robots and people devoted themselves to leisure. [PAWN_pronoun] managed the plant and animal life of a sprawling park, where citizens came to admire the natural beauty. -->
-  <BiosphereManager95.baseDesc>[PAWN_nameDef] vivió en un pacífico glitterworld donde todos los trabajo serviles lo realizaban robots y las personas se dedicaban al ocio. Administraba la vida animal y vegetal de un enorme parque, donde los ciudadanos acudían a admirar la belleza natural.</BiosphereManager95.baseDesc>
+  <BiosphereManager95.baseDesc>[PAWN_nameDef] vivió en un glitterworld pacífico donde los robots efectuaban todo el trabajo servil mientras que las personas se dedicaban al ocio. [PAWN_pronoun] administraba la vida animal y vegetal de un enorme parque enorme, donde los ciudadanos acudían a admirar la belleza natural.</BiosphereManager95.baseDesc>
   <!-- EN: biosphere manager -->
   <BiosphereManager95.title>gerente de biosfera</BiosphereManager95.title>
   <BiosphereManager95.titleFemale>gerente de biosfera</BiosphereManager95.titleFemale>
@@ -29,7 +29,7 @@
   <CharityWorker36.titleShortFemale>altruista</CharityWorker36.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] had an amazing ability to relate to others and mediate conflict. [PAWN_pronoun] was selected to train as an empath. The training intensified [PAWN_possessive] natural abilities, but [PAWN_pronoun] became unable to harm others. -->
-  <GlitterworldEmpath26.baseDesc>[PAWN_nameDef] tenía una habilidad innata para relacionarse con otros y mediar conflictos. [PAWN_pronoun] fue seleccionad{PAWN_gender ? o : a} para entrenar como empátic{PAWN_gender ? o : a}.\n\nEl entrenamiento intensificó sus habilidades naturales, pero [PAWN_objective] volvió incapaz de dañar a otros.</GlitterworldEmpath26.baseDesc>
+  <GlitterworldEmpath26.baseDesc>[PAWN_nameDef] tenía una habilidad innata para empatizar con los demás y mediar conflictos. [PAWN_pronoun] fue seleccionad{PAWN_gender ? o : a} para entrenar como empátic{PAWN_gender ? o : a}.\n\nEl entrenamiento intensificó sus habilidades naturales, pero [PAWN_objective] volvió incapaz de dañar a otros.</GlitterworldEmpath26.baseDesc>
   <!-- EN: glitterworld empath -->
   <GlitterworldEmpath26.title>empático de glitterworld</GlitterworldEmpath26.title>
   <GlitterworldEmpath26.titleFemale>empática de glitterworld</GlitterworldEmpath26.titleFemale>
@@ -38,7 +38,7 @@
   <GlitterworldEmpath26.titleShortFemale>empática</GlitterworldEmpath26.titleShortFemale>
   
   <!-- EN: Though glitterworlds are peaceful places, they often remain prepared for war. [PAWN_nameDef]'s unit rarely saw any real action.\n\nThough [PAWN_pronoun] pursued [PAWN_possessive] artistic hobbies, [PAWN_possessive] subordinates preferred to entertain themselves by brawling, so [PAWN_nameDef] got good at breaking up fights. -->
-  <GlitterworldOfficer60.baseDesc>Aunque los glitterworlds son lugares pacíficos, a menudo permanencen preparados para la guerra. La unidad de [PAWN_nameDef] a duras penas vio un poco de acción.\n\nAunque prefirió pasatiempos artísticos, sus subordinados prefirieron entretenerse peleando, por lo que [PAWN_nameDef] desarrolló habilidad para detener peleas.</GlitterworldOfficer60.baseDesc>
+  <GlitterworldOfficer60.baseDesc>Aunque los glitterworlds son lugares pacíficos, a menudo permanencen listos para la guerra. La unidad de [PAWN_nameDef] a duras penas vio un poco de acción.\n\nAunque prefirió pasatiempos artísticos, sus subordinados prefirieron entretenerse peleando, por lo que [PAWN_nameDef] desarrolló habilidad para detener peleas.</GlitterworldOfficer60.baseDesc>
   <!-- EN: glitterworld officer -->
   <GlitterworldOfficer60.title>oficial de glitterworld</GlitterworldOfficer60.title>
   <GlitterworldOfficer60.titleFemale>oficial de glitterworld</GlitterworldOfficer60.titleFemale>
@@ -47,7 +47,7 @@
   <GlitterworldOfficer60.titleShortFemale>oficial</GlitterworldOfficer60.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] worked as a surgeon on a world mostly free of disease and human suffering.\n\n[PAWN_possessive] job mostly involved elaborate and creative cosmetic surgeries. [PAWN_pronoun] has a good understanding of human biology, but never had to remove a cancer — or a bullet. -->
-  <GlitterworldSurgeon15.baseDesc>[PAWN_nameDef] trabajó como cirujan{PAWN_gender ? o : a} en un mundo mayormente libre de enfermedad y sufrimiento.\n\nSu trabajo consistía principalmente de cirugías cosméticas creativas y elaboradas. [PAWN_pronoun] tiene un buen entendimiento de la biología humana, pero realmente nunca ha tenido que extirpar un cáncer o extraer una bala.</GlitterworldSurgeon15.baseDesc>
+  <GlitterworldSurgeon15.baseDesc>[PAWN_nameDef] trabajó como cirujan{PAWN_gender ? o : a} en un mundo mayormente libre de enfermedades y sufrimiento humano.\n\nSu trabajo consistía principalmente de cirugías cosméticas creativas y elaboradas. [PAWN_pronoun] tiene un buen entendimiento de la biología humana, pero nunca ha tenido que extirpar un cáncer o extraer una bala.</GlitterworldSurgeon15.baseDesc>
   <!-- EN: glitterworld surgeon -->
   <GlitterworldSurgeon15.title>cirujano glitterworld</GlitterworldSurgeon15.title>
   <GlitterworldSurgeon15.titleFemale>cirujana glitterworld</GlitterworldSurgeon15.titleFemale>
@@ -56,7 +56,7 @@
   <GlitterworldSurgeon15.titleShortFemale>cirujana</GlitterworldSurgeon15.titleShortFemale>
   
   <!-- EN: Interstellar warfare is won by technology, so glitterworld navies are always on the peak of modern research. Even better, they have first access to archotechnological artifacts because they find them in space.\n\n[PAWN_nameDef] worked in a navy lab. -->
-  <NavyScientist52.baseDesc>Las guerras interestelares se ganan con tecnología, así que las armadas imperiales siempre están a la vanguardia en investigación y desarrollo. Aún mejor, tienen acceso de primera mano a artefactos trascendentales porque son los primeros en encontrarlos a la deriva en el espacio.\n\n[PAWN_nameDef] trabajó en un laboratorio de la armada.</NavyScientist52.baseDesc>
+  <NavyScientist52.baseDesc>Las guerras interestelares se ganan con tecnología, así que las armadas imperiales siempre están a la vanguardia de investigación y desarrollo. Aún mejor, tienen acceso de primera mano a artefactos trascendentales porque son los primeros en encontrarlos a la deriva en el espacio.\n\n[PAWN_nameDef] trabajó en un laboratorio de la armada.</NavyScientist52.baseDesc>
   <!-- EN: navy scientist -->
   <NavyScientist52.title>científico espacial</NavyScientist52.title>
   <NavyScientist52.titleFemale>científica espacial</NavyScientist52.titleFemale>
@@ -65,7 +65,7 @@
   <NavyScientist52.titleShortFemale>científica</NavyScientist52.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] lived on a glitterworld, penning wildly successful novels. [PAWN_pronoun] lived a carefree lifestyle, spending [PAWN_possessive] days writing and [PAWN_possessive] nights partying - and never did a day's manual labour in [PAWN_possessive] life. -->
-  <Novelist7.baseDesc>[PAWN_nameDef] vivía en un glitterworld, escribiendo novelas muy exitosas. [PAWN_pronoun] vivía una vida despreocupante, escribiendo durante el día y parrandeando durante la noche, y nunca tuvo un solo día de trabajo manual en su vida.</Novelist7.baseDesc>
+  <Novelist7.baseDesc>[PAWN_nameDef] vivía en un glitterworld, escribiendo novelas muy exitosas. [PAWN_pronoun] vivía una vida sin preocupaciones, escribiendo durante el día y parrandeando durante la noche; jamás en su vida tuvo día de trabajo manual.</Novelist7.baseDesc>
   <!-- EN: novelist -->
   <Novelist7.title>novelista</Novelist7.title>
   <Novelist7.titleFemale>novelista</Novelist7.titleFemale>
@@ -74,7 +74,7 @@
   <Novelist7.titleShortFemale>novelista</Novelist7.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] started off sculpting person-sized chunks of stone, but [PAWN_pronoun] soon began to think bigger. With the help of mining robots, [PAWN_pronoun] learned how to carve huge monuments out of cliffsides. Soon the nature parks of the glitterworld where [PAWN_pronoun] lived were full of giant rock figures. -->
-  <Sculptor63.baseDesc>[PAWN_nameDef] empezó esculpiendo piedras del tamaño de una persona, pero pronto empezó a pensar en grande. Con la ayuda de robots mineros, [PAWN_pronoun] aprendió a esculpir gigantescos monumentos en acantilados. Pronto, los parques naturales del glitterworld donde vivía se llenaron con monumentales esculturas.</Sculptor63.baseDesc>
+  <Sculptor63.baseDesc>[PAWN_nameDef] empezó esculpiendo piedras del tamaño de una persona, pero pronto comenzó a pensar en grande. Con la ayuda de robots mineros, [PAWN_pronoun] aprendió a esculpir gigantescos monumentos a partir de acantilados. Pronto, los parques naturales del glitterworld donde vivía se llenaron con monumentales esculturas.</Sculptor63.baseDesc>
   <!-- EN: sculptor -->
   <Sculptor63.title>escultor</Sculptor63.title>
   <Sculptor63.titleFemale>escultora</Sculptor63.titleFemale>
