@@ -356,6 +356,8 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->Betrayal reward: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] promised you a reward if you killed [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] has heard news this has been done and is sending you the following via drop pod (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Betrayal reward retracted</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] has learned that all surviving members of the [faction_name] have joined your faction! [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>betrayalOfferFailedLetterLabel->Betrayal reward retracted</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] has learned that one of the members of the [faction_name] is no longer at [map_definite]. [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -370,6 +372,8 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->Recompensa por traición: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] te prometió una recompensa si matabas a [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] ha escuchado noticias de que esto se ha hecho y te está enviando lo siguiente a través de una cápsula de escape (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Recompensa por traición retirada</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] se ha enterado que todos los miembros supervivientes de la facción [faction_name] ¡se han unido a tu facción! [factionOpponent_nameDef] quería que todos los miembros de la facción [faction_name] murieran y, por tanto, se ha retractado de su oferta.</li>
     <li>betrayalOfferFailedLetterLabel->Recompensa por traición retractada</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] se ha enterado que uno de los miembros de la facción [faction_name] ya no se encuentra en [map_definite]. [factionOpponent_nameDef] quería que todos los miembros de la facción [faction_name] murieran y por lo tanto se ha retractado de su oferta.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
