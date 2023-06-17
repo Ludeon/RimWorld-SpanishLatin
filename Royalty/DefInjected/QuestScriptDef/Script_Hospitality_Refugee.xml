@@ -412,6 +412,7 @@
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2,lodgers0==Male)->y otro [lodgersLabel]</li>
     <li>otherLodgers(lodgerCount==2,lodgers0!=Male)->y otra [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->y varios [lodgersLabelPlural]</li>
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)-> Y todos los demás miembros de la facción [faction_name]</li>
     <li>areIs(lodgerCount==1)->está</li>
