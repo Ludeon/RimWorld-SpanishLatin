@@ -102,7 +102,7 @@
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} tiene estas relaciones con tus colonos:</PawnHasTheseRelationshipsWithColonists>
 
   <!-- EN: Ancient danger -->
-  <LetterLabelAncientShrineWarning>Peligro antiguo</LetterLabelAncientShrineWarning>
+  <LetterLabelAncientShrineWarning>Peligro ancestral</LetterLabelAncientShrineWarning>
   <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
   <AncientShrineWarning>A medida que {PAWN_nameDef} se acerca al antiguo muro, le invade una sensación de aprensión. No sabe muy bien por qué, pero siente que esa polvorienta estructura puede encerrar un gran peligro.</AncientShrineWarning>
 
@@ -306,15 +306,15 @@
 
   <!-- Long-range mineral scanner -->
   <!-- EN: Distant resource scanned -->
-  <LetterLabelFoundPreciousLump>Minerales preciosos encontrados</LetterLabelFoundPreciousLump>
+  <LetterLabelFoundPreciousLump>Recursos distantes escaneados</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Usando tu escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado cerca una veta de {0}.\n\nDesafortunadamente, no durará, otros lo explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Usando tu escáner de minerales de largo alcance, {WORKER_labelShort} ha encontrado cerca una veta de {0} a cierta distancia.\n\nDesafortunadamente, no durará mucho tiempo, otros la explotarán primero en {1} días si no lo hacemos nosotros.\n\n{2}.</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
-  <LetterLabelDeepScannerFoundLump>Escaneado bajo tierra</LetterLabelDeepScannerFoundLump>
+  <LetterLabelDeepScannerFoundLump>Escaneado subterráneo</LetterLabelDeepScannerFoundLump>
   <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
-  <LetterDeepScannerFoundLump>¡{FINDER_nameDef} ha encontrado una veta de {0} enterrada usando el escáner que penetra en el suelo!</LetterDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>¡{FINDER_nameDef} ha encontrado una veta de {0} enterrada usando el escáner de penetración del suelo!</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -414,7 +414,7 @@
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Rescatado se une</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>Has rescatado a {PAWN_nameDef} y {PAWN_pronoun} se ha unido a tu grupo.\n\nPuedes tomar{PAWN_objective} reformando la caravana en la pantalla Mundo, seleccionando esta zona y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>Has rescatado a {PAWN_nameDef} y se ha unido a tu grupo.\n\nPuedes tomar{PAWN_objective} reformando la caravana en la pantalla Mundo, seleccionando esta zona y eligiendo la opción "Reformar caravana".</LetterRescueQuestFinished>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -428,11 +428,11 @@
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Enfermedad: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
-  <LetterTraitDisease>{PAWN_label} se ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico, también de que {PAWN_pronoun} reciba el tratamiento adecuado y permanezca en la cama el mayor tiempo posible.</LetterTraitDisease>
+  <LetterTraitDisease>{PAWN_label} se ha enfermado de {1}.\n\nAsegúrate de tener una cama médica y un médico, también de que reciba el tratamiento adecuado y permanezca en la cama el mayor tiempo posible.</LetterTraitDisease>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Una nueva misión esta disponible. Se llama "{0}".</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>Hay una nueva misión disponible. Se llama "{0}".</LetterQuestBecameAvailable>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>Si no aceptas la misión dentro de {0}, caducará.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
@@ -458,7 +458,7 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef} se une</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y se está uniendo a la colonia.</LetterRefugeeJoins>
+  <LetterRefugeeJoins>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y se unirá a la colonia.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
@@ -532,7 +532,7 @@
   <LetterBladelinkWeaponBondedLabel>Vinculación de IA: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial (IA) de está arma: {WEAPON_labelShort}.\nDe ahora en adelante, esta arma: {WEAPON_labelShort} se negará a ser manejada por nadie, a excepción de {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} ha establecido un vínculo con la Inteligencia Artificial de este arma: {WEAPON_labelShort}.\nDe ahora en adelante, {WEAPON_labelShort} se negará a estar bajo el control de nadie, a excepción de {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
