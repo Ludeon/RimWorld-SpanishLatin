@@ -27,9 +27,9 @@
   <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
   <SuppressionDesc>La represión es el efecto psicológico del miedo y el control sobre un esclavo. Si la represión es baja, los esclavos son más propensos a rebelarse.</SuppressionDesc>
   <!-- EN: Suppression fall rate -->
-  <SuppressionFallRate>Tasa de caída de la represión</SuppressionFallRate>
+  <SuppressionFallRate>Caída de represión</SuppressionFallRate>
   <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
-  <SuppressionFallRateDesc>La represión disminuye con el tiempo dependiendo de su nivel actual:\n\n- {1}+ represión: {0} por día\n- {4}-{3} represión: {2} por día\n- {6}- represión: {5} por día\n\nLa ropa y el terror también pueden afectar a la tasa de caída de la represión. El cálculo de la tasa de caída de este esclavo es</SuppressionFallRateDesc>
+  <SuppressionFallRateDesc>La represión disminuye con el tiempo dependiendo de su nivel actual:\n\n-  >{1} represión: {0} diario\n- Entre {1} y {3} represión: {2} diario\n- &lt;{6} represión: {5} diario\n\nLa ropa y el terror también pueden afectar a la tasa de caída de la represión. El cálculo de la tasa de caída de este esclavo es</SuppressionFallRateDesc>
   <!-- EN: Cannot emancipate -->
   <CannotEmancipate>No se puede emancipar</CannotEmancipate>
   <!-- EN: Cannot imprison -->
@@ -39,7 +39,7 @@
   <!-- EN: Terror -->
   <Terror>Terror</Terror>
   <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
-  <TerrorDescription>El terror es una forma de mantener a los esclavos reprimidos. Aumenta cuando el esclavo pasa tiempo cerca de cosas aterradoras como las esculturas de terror. Un esclavo solo puede ser afectado por tres fuentes de terror a la vez.\n\nMientras que el terror es alto, la represión cae más lentamente de la siguiente manera</TerrorDescription>
+  <TerrorDescription>El terror es una forma de mantener a los esclavos reprimidos. Aumenta cuando el esclavo pasa tiempo cerca de cosas aterradoras como las esculturas de terror. Un esclavo solo puede ser afectado por tres fuentes de terror a la vez.\n\nMientras el terror sea alto, la represión caerá más lentamente de la siguiente manera</TerrorDescription>
   <!-- EN: Recent terrifying observations -->
   <TerrorCurrentThoughts>Recientes observaciones aterradoras</TerrorCurrentThoughts>
 

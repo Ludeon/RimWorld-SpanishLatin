@@ -29,6 +29,8 @@
   <DeleteCustom>Borrar personalizada</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>Crear una nueva</CreateNew>
+  <!-- EN: Create fluid -->
+  <CreateFluid>Crear fluido</CreateFluid>
   <!-- EN: Load existing -->
   <LoadExisting>Cargar una existente</LoadExisting>
   <!-- EN: Create custom ideoligion -->
@@ -99,6 +101,10 @@
   <SetIdeoColor>Establecer color de ideo</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Establecer color favorito</SetFavoriteColor>
+  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <FavoriteColorPickerTip>El color favorito de {PAWN_nameDef}. Tener más del 60% de su ropa de este color, o del color de su ideoligión, le hará ligeramente más feliz.</FavoriteColorPickerTip>
+  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <IdeoColorPickerTip>El color de la ideoligión de {PAWN_nameDef}. Tener más del 60% de su ropa de este color, o de su color favorito, le hará ligeramente más feliz.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Configurar la ideoligión de tu facción</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
@@ -160,15 +166,15 @@
   <UnableToLoadIdeoPreceptNotAllowed>El precepto {PRECEPT} no está permitido para las facciones que no son de jugadores</UnableToLoadIdeoPreceptNotAllowed>
 
   <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
-  <RitualTargetGraveInfo>Una tumba que contiene el cadáver de {PAWN_labelShort}</RitualTargetGraveInfo>
+  <RitualTargetGraveInfo>Tumba con el cadáver de {PAWN_labelShort}</RitualTargetGraveInfo>
   <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
-  <RitualTargetEmptyGraveInfo>Una tumba vacía para lamentar la muerte de {PAWN_labelShort}</RitualTargetEmptyGraveInfo>
+  <RitualTargetEmptyGraveInfo>Tumba vacía para lamentar la muerte de {PAWN_labelShort}</RitualTargetEmptyGraveInfo>
   <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
-  <RitualTargetGraveInfoAbstract>Una tumba que contiene el cadáver de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <RitualTargetGraveInfoAbstract>Tumba con el cadáver de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
   <!-- EN: Grave containing a corpse -->
-  <RitualTargetGraveInfoAbstractNoIdeo>Una tumba que contiene un cadáver</RitualTargetGraveInfoAbstractNoIdeo>
+  <RitualTargetGraveInfoAbstractNoIdeo>Tumba con un cadáver</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
-  <RitualTargetEmptyGraveInfoAbstract>Una tumba vacía para lamentar la muerte de {IDEO_memberNameIndef}</RitualTargetEmptyGraveInfoAbstract>
+  <RitualTargetEmptyGraveInfoAbstract>Tumba vacía para lamentar la muerte de {IDEO_memberNameIndef}</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>El cuerpo de {PAWN_labelShort} debe ser enterrado primero</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
@@ -192,7 +198,7 @@
   <!-- EN: a lit campfire -->
   <RitualTargetCampfirePartyInfo>Una fogata encendida</RitualTargetCampfirePartyInfo>
   <!-- EN: an unconnected Gauranlen tree -->
-  <RitualTargetUnconnectedGaruanlenTreeInfo>Un árbol Gauranlen sin conexión</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <RitualTargetUnconnectedGaruanlenTreeInfo>Un árbol gauranlen sin conexión</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Ya está conectado a {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
@@ -257,7 +263,7 @@
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
   <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>¡La conmoción del {0} atrajo a algunos animales curiosos!\n\nParecen acostrumbrados al contacto humano y se están uniendo a la colonia.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
-  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>El {0} indujo una vaina Gauranlen a brotar cerca.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>El {0} indujo una vaina gauranlen a brotar cerca.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
   <!-- EN: Can't apply reward -->
   <RitualAttachedOutcomeCantApply>No se puede aplicar la recompensa</RitualAttachedOutcomeCantApply>
   <!-- EN: No valid spot -->
@@ -292,8 +298,6 @@
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Para uso de esclavos</ForSlaveUse>
-  <!-- EN: Slave -->
-  <Slave>Esclavo</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
   <SellingAsSlave>Si vendes a alguien a otra facción que no sea la suya, se convertirá en esclavo.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
@@ -388,7 +392,7 @@
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>Información sobre la reliquia encontrada</RelicInfoFound>
-  <!-- EN: inactive, requires atleast {0} {1}s (have {2}) -->
+  <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
   <InactiveRoleRequiresMoreBelievers>inactivo, requiere al menos {0} {1}s (tienes {2})</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->
@@ -500,9 +504,9 @@
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
   <DryadProducesResourcesDesc>{DRYAD_labelPlural} producen {RESOURCES} cada {DURATION}.</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
-  <DryadCannotChangeMaster>{ANIMAL_nameDef} tiene una conexión con {MASTER_nameDef} a través de su árbol Gauranlen. Su amo no puede ser cambiado.</DryadCannotChangeMaster>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef} tiene una conexión con {MASTER_nameDef} a través de su árbol gauranlen. Su amo no puede ser cambiado.</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
-  <ConnectionStrengthTooWeakForGaumakerPod>La fuerza de la conexión es demasiado baja para crear la vaina Gauranlen.</ConnectionStrengthTooWeakForGaumakerPod>
+  <ConnectionStrengthTooWeakForGaumakerPod>La fuerza de la conexión es demasiado baja para crear la vaina gauranlen.</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
   <Unconnected>Desconectado</Unconnected>
   <!-- EN: Dryads -->
@@ -632,7 +636,7 @@
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} completó su ciclo de reversión de edad.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <AgeReversalExpectationDeadline>{PAWN_pronoun} espera la siguiente reversión de edad en {DEADLINE} días.</AgeReversalExpectationDeadline>
+  <AgeReversalExpectationDeadline>Esperará la siguiente reversión de edad en {DEADLINE} días.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>El ciclo de placer de {PAWN_labelShort} está completo.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->

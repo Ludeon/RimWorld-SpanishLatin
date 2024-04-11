@@ -88,6 +88,8 @@
   <ChooseRoleHint>A veces puede ser mejor esperar hasta que la colonia esté más establecida antes de asignar los roles.</ChooseRoleHint>
   <!-- EN: Unlocked by -->
   <UnlockedByMeme>Desbloqueado por</UnlockedByMeme>
+  <!-- EN: Origin -->
+  <Origin>Origen</Origin>
   <!-- EN: Unlocked roles -->
   <MemeUnlocksRoles>Roles desbloqueados</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
@@ -113,6 +115,8 @@
   <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} es {ROLE_label}</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
   <AbilityIdeoConvertBreakdownTrait>Rasgo {TRAIT}</AbilityIdeoConvertBreakdownTrait>
+  <!-- EN: Precept {PRECEPT} -->
+  <AbilityIdeoConvertBreakdownPercept>Precepto {PRECEPT}</AbilityIdeoConvertBreakdownPercept>
   <!-- EN: {RELICCOUNT} installed relics on map -->
   <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} reliquias instaladas en el mapa</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
@@ -248,8 +252,10 @@
   <ReLoadShuttle>Recargar transbordador</ReLoadShuttle>
 
   <!-- Medical settings -->
-  <!-- EN: Enslaved colonist -->
-  <MedGroupEnslavedColonist>Colono esclavizado</MedGroupEnslavedColonist>
+  <!-- EN: Slaves -->
+  <MedGroupSlaves>Esclavos</MedGroupSlaves>
+  <!-- EN: Enslaved members of your colony. -->
+  <MedGroupSlavesDesc>Miembros esclavizados de su colonia.</MedGroupSlavesDesc>
 
   <!-- Dryad upgrades -->
   <!-- EN: Choose dryad caste -->
@@ -301,7 +307,7 @@
   <!-- EN: Existing follower -->
   <ExistingFollowerOfPlayerIdeoligion>Seguidor actual</ExistingFollowerOfPlayerIdeoligion>
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
-  <AbandonArchotechStructuresWarningDialog>Están abandonando un sitio que contiene estructuras arqueotécnicas que aún no han estudiado completamente.\n\nPodrán reasentarse aquí más adelante, pero tu colonia será borrada.</AbandonArchotechStructuresWarningDialog>
+  <AbandonArchotechStructuresWarningDialog>Están abandonando un sitio que contiene estructuras arqueotéc que aún no han estudiado completamente.\n\nPodrán reasentarse aquí más adelante, pero tu colonia será borrada.</AbandonArchotechStructuresWarningDialog>
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
   <ItemQuantityTooltip>{0} cantidad que se puede llevar a la nueva colonia.\n\nLa cantidad máxima permitida es: {1}</ItemQuantityTooltip>
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
