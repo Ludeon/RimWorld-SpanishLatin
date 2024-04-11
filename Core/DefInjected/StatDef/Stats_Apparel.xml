@@ -55,12 +55,12 @@
   <!-- EN: Insulation - Heat (armor stat) -->
   <Insulation_Heat.labelForFullStatList>Aislamiento - Calor (estadística de armadura)</Insulation_Heat.labelForFullStatList>
   
-  <!-- EN: Smokepop pack radius -->
-  <SmokepopBeltRadius.label>Radio de cinturón de humo</SmokepopBeltRadius.label>
-  <!-- EN: The area obscured when a smokepop pack detonates. -->
-  <SmokepopBeltRadius.description>El área alrededor de la detonación se torna oscurecida cuando se activa el cinturón de humo.</SmokepopBeltRadius.description>
+  <!-- EN: Effect radius -->
+  <PackRadius.label>Radio de efecto</PackRadius.label>
+  <!-- EN: The area affected when this pack detonates. -->
+  <PackRadius.description>El área afectada cuando este paquete detona.</PackRadius.description>
   <!-- EN: {0} c -->
-  <SmokepopBeltRadius.formatString>{0} c</SmokepopBeltRadius.formatString>
+  <PackRadius.formatString>{0} c</PackRadius.formatString>
   
   <!-- EN: Armor - Material effect multiplier -->
   <StuffEffectMultiplierArmor.label>Armadura - Multiplicador de efecto material</StuffEffectMultiplierArmor.label>

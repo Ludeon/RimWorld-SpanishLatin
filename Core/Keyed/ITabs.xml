@@ -29,7 +29,7 @@
   <!-- EN: Basics -->
   <TabBasics>Básicos</TabBasics>
   <!-- EN: Stats -->
-  <TabStats>Estadísticas</TabStats>
+  <TabStats>Stats.</TabStats>
   <!-- EN: Records -->
   <TabRecords>Registros</TabRecords>
   <!-- EN: Art -->
@@ -48,8 +48,14 @@
   <TabFormingCaravan>Caravana</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Contenido</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>Viajar</TabMapPortalContents>
   <!-- EN: Contents -->
   <TabCasketContents>Contenido</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>Detalles</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>Estudiar</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>Autocortar</TabWindTurbineAutoCut>
   
@@ -82,6 +88,8 @@
   <PasteBillTip>Pegar</PasteBillTip>
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>no puede añadir más</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>Finaliza en</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -104,10 +112,10 @@
   <NotWhileAsleep>No mientras duerme</NotWhileAsleep>
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>Fuga en proceso</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
-  <FactorForDoorCount>Multiplicador de recuento de puertas</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
-  <FactorForMovement>Multiplicador de movimiento</FactorForMovement>
+  <!-- EN: Door count -->
+  <FactorForDoorCount>Recuento de puertas</FactorForDoorCount>
+  <!-- EN: Movement -->
+  <FactorForMovement>Movimiento</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Precio del esclavo</SlavePrice>
   <!-- EN: The base market value of this slave if sold. -->
@@ -138,6 +146,8 @@
   <NonRecruitableTip>Este prisionero posee una lealtad inquebrantable a su hogar que se niega a ser reclutado por completo.</NonRecruitableTip>
   <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
   <NonRecruitableTipCannotConvert>Su lealtad se extiende a sus creencias y no se puede convertir.</NonRecruitableTipCannotConvert>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>Qué tipo de medicamento se le puede dar a este prisionero.</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -213,13 +223,19 @@
   <PainFactor>Dolor</PainFactor>
   <!-- EN: Prevents infection -->
   <PreventsInfection>Previene infecciones</PreventsInfection>
-  <!-- EN: Self-tend -->
-  <SelfTend>Autoatenderse</SelfTend>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>Autoatenderse</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>{0} con la opción de autoatenderse activada, el colono se atendera a sí mismo con una eficiencia de {1} por sobre la eficiencia normal.</SelfTendTip>
+  <AllowSelfTendTip>{0} con la autoatención activada se atenderán automáticamente en el acto al {1} de la eficiencia normal.</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>morirá en {0}</DeathIn>
-  
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>Permitir med.</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>Qué tipo de medicina puede administrarse a esta persona.</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>Qué tipo de comida se le puede dar a esta persona.</FoodRestrictionDescription>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>Ninguno(a)</None>
@@ -268,8 +284,8 @@
   <Lent>Prestado a la facción {FACTION_name}, regresa en {1}</Lent>
   <!-- EN: Missing -->
   <Missing>Desaparecido(a)</Missing>
-  <!-- EN: Slave -->
-  <Slave>Esclavo</Slave>
+  <!-- EN: slave -->
+  <Slave>esclavo</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Líder de facción</FactionLeader>
   <!-- EN: Opinion of {0} -->
@@ -422,5 +438,17 @@
 
   <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>Autocortar plantas que bloqueen</WindTurbineAutoCut_EnabledCheckbox>
+  
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>Progreso del estudio</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>En curso</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>Completado</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>Activar estudiar</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>Aún no hay descubrimientos</StudyNotesTab_NoDiscoveries>
 
 </LanguageData>

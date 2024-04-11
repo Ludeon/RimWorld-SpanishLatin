@@ -11,6 +11,11 @@
   <!-- EN: To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher. -->
   <BillsTab.helpText>Para hacer que los colonos utilicen las mesas de trabajo, selecciona una y pulsa la pestaña de PROYECTOS. Aquí podrás asignar qué comidas se cocinan, qué productos se elaboran y qué criaturas se despiezan.</BillsTab.helpText>
   
+  <!-- EN: books -->
+  <Books.label>libros</Books.label>
+  <!-- EN: Colonists read books for recreation, to gain skills, to unlock research, and more. You can see a specific book's effects by selecting it and opening its 'Details' tab.\n\nTo choose what colonists will read, open the ASSIGN tab and configure READING POLICIES.\n\nStore books in bookcases to passively enhance intellectual and reading work done nearby, and increase the beauty of the bookcase. Bookcases passively increase research speed, XP gained from reading, and recreation gained from reading in the same room. -->
+  <Books.helpText>Los colonos leen libros para su recreación, para adquirir habilidades, para desbloquear investigaciones y mucho más. Puedes ver los efectos de un libro concreto seleccionándolo y abriendo su pestaña "DETALLES".\n\nPara elegir lo que leerán los colonos, abre la pestaña ASIGNAR y configura las POLÍTICAS DE LECTURA.\n\nGuarda los libros en estanterías para mejorar pasivamente el trabajo intelectual y de lectura realizado cerca, y aumentar la belleza de las estanterías. Las estanterías aumentan de forma pasiva la velocidad de investigación, la EXP obtenida al leer y la recreación obtenida al leer en la misma habitación.</Books.helpText>
+  
   <!-- EN: Build orbital trade beacon -->
   <BuildOrbitalTradeBeacon.label>Comercio orbital</BuildOrbitalTradeBeacon.label>
   <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
@@ -71,8 +76,8 @@
   
   <!-- EN: Prisoner tab -->
   <PrisonerTab.label>Pestaña de prisioneros</PrisonerTab.label>
-  <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored or executed, whether they eat, and what kind of medical care they get.\n\nColonists with the Warden work type will interact with the prisoner. -->
-  <PrisonerTab.helpText>Cuando selecciones un prisionero, haz clic en la pestaña PRISIONERO para escoger la manera en que será tratado.\n\nPuedes establecer si serán reclutados, ignorados o ejecutados, si comen, y qué tipo de atención médica reciben.\n\nNecesitarás un colono que trabaje de vigilante para ocuparse de los prisioneros.</PrisonerTab.helpText>
+  <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored, or executed, and what kind of medical care they get. You can set food restrictions for the prisoner in their health tab.\n\nColonists with the Warden work type will interact with the prisoner. -->
+  <PrisonerTab.helpText>Cuando selecciones un prisionero, haz clic en la pestaña PRISIONERO para escoger la manera en que será tratado.\n\nPuedes establecer si serán reclutados, ignorados o ejecutados, y qué tipo de atención médica reciben. Puedes establecer restricciones alimentarias para el prisionero en su pestaña de salud.\n\nLos colonos con el tipo de trabajo Vigilante interactuarán con el prisionero.</PrisonerTab.helpText>
   
   <!-- EN: Order queueing -->
   <QueueOrders.label>Cola de órdenes</QueueOrders.label>

@@ -50,6 +50,15 @@
   <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick -->
   <Disease_MuscleParasites.letterText>{0} de tus {1} se han enfermado de {2}.\n\nAsegúrate de tener una cama médica y un médico, también de que reciban el tratamiento adecuado y de que pasen el mayor tiempo posible en la cama.\n\nLos siguientes {1} se han enfermado</Disease_MuscleParasites.letterText>
   
+  <!-- EN: organ decay -->
+  <Disease_OrganDecay.label>degeneración de órganos</Disease_OrganDecay.label>
+  <!-- EN: Without a cure or replacement of some kind, {PAWN_labelShort} will die. -->
+  <Disease_OrganDecay.diseaseLethalLetterText>Sin una cura o reemplazo de algún tipo, {PAWN_labelShort} morirá.</Disease_OrganDecay.diseaseLethalLetterText>
+  <!-- EN: Organ decay: {PAWN_labelShort} -->
+  <Disease_OrganDecay.letterLabel>degeneración de órganos: {PAWN_labelShort}</Disease_OrganDecay.letterLabel>
+  <!-- EN: {PAWN_labelShort} has developed a flesh-eating infection known as organ decay in {PAWN_possessive} {2}!\n\nThe affected organ will slowly lose function over the next {3} days, before dying completely.\n\nIf you want {PAWN_labelShort} to stay healthy, install a replacement {2}. This could be a bionic, or a natural organ taken from a donor. -->
+  <Disease_OrganDecay.letterText>{PAWN_labelShort} ¡ha desarrollado una infección carnívora conocida como degeneración de órganos en su {2}!\n\nEl órgano afectado perderá lentamente su función durante los {3} días siguientes, antes de morir por completo.\n\nSi quieres que {PAWN_labelShort} siga gozando de buena salud, implanta un sustituto de {2}. Puede ser biónico o un órgano natural extraído de un donante.</Disease_OrganDecay.letterText>
+  
   <!-- EN: plague -->
   <Disease_Plague.label>peste</Disease_Plague.label>
   <!-- EN: Disease: Plague -->
@@ -69,6 +78,6 @@
   <!-- EN: Disease: Sleeping sickness -->
   <Disease_SleepingSickness.letterLabel>Enfermedad: Enfermedad del sueño</Disease_SleepingSickness.letterLabel>
   <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick -->
-  <Disease_SleepingSickness.letterText>{0} de tus {1} se han enfermado de {2}.\n\nAsegúrate de tener una cama médica y un médico, también de que reciban el tratamiento adecuado y de que pasen el mayor tiempo posible en la cama.\n\nLos siguientes {1} se han enfermado}</Disease_SleepingSickness.letterText>
+  <Disease_SleepingSickness.letterText>{0} de tus {1} se han enfermado de {2}.\n\nAsegúrate de tener una cama médica y un médico, también de que reciban el tratamiento adecuado y de que pasen el mayor tiempo posible en la cama.\n\nLos siguientes {1} se han enfermado</Disease_SleepingSickness.letterText>
   
 </LanguageData>

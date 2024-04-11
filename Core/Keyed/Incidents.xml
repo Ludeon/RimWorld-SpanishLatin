@@ -32,18 +32,18 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Cápsula de transporte estrellada</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} se está estrellando en las cercanías en una cápsula de escape. Si {PAWN_pronoun} sobrevive al impacto, resultará gravemente herid{PAWN_gender ? o : a}.</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} se está estrellando en las cercanías en una cápsula de escape. Si sobrevive al impacto, resultará gravemente herid{PAWN_gender ? o : a}.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
   <RefugeePodCrash_Child>{PAWN_nameDef} es {PAWN_gender ? un niño: una niña} de {AGE}.</RefugeePodCrash_Child>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef} no está afiliad{PAWN_gender ? o : a} a ninguna facción. Puedes rescatar{PAWN_objective} y esperar que {PAWN_pronoun} se una libremente, o capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>{PAWN_nameDef} es enemigo y proviene de la facción {PAWN_factionName}. Puedes capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef} es enemig{PAWN_gender ? o : a} y proviene de la facción {PAWN_factionName}. Puedes capturar{PAWN_objective} para fines de reclutamiento o esclavitud.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
   <RefugeePodCrash_NonHostile>{PAWN_nameDef} es de la facción {PAWN_factionName}. Si {PAWN_objective} rescatas, {PAWN_pronoun} podría unirse libremente a tu asentamiento, de lo contrario, {PAWN_pronoun} regresaría a su hogar y difundiría buena voluntad entre ambas facciones\n\nTambién podrías capturar{PAWN_objective} con fines de reclutamiento o esclavitud, pero esto enojará a su facción.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
-  <LetterLabelWandererJoins>Vagabundo se une: {PAWN_nameDef}</LetterLabelWandererJoins>
+  <LetterLabelWandererJoins>Errante se une: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
   <LetterWandererJoins>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} ha llegado y quiere unirse a la colonia.\n\n[PAWN_pronoun] está dispuest{PAWN_gender ? o : a} a contribuir, pero no se irá voluntariamente, alegando que no tiene otro sitio al que ir. Puedes optar por rechazar{PAWN_objective} y enviar{PAWN_objective} lejos. Sin embargo, tus colonos se sentirán molestos al rechazar a alguien necesitado</LetterWandererJoins>
 
@@ -145,7 +145,7 @@
   <!-- EN: {0} join -->
   <LetterLabelFarmAnimalsWanderIn>Un grupo de {0} se han unido</LetterLabelFarmAnimalsWanderIn>
   <!-- EN: A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <LetterFarmAnimalsWanderIn>Un grupo de {0} abandonados(as) o perdidos(as), se han adentrado en esta zona.\n\nParecen acostumbrados(as) al contacto humano y se están uniendo a la colonia.</LetterFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>Un grupo de {0} se han adentrado en esta zona, carecen de dueño y deambulan sin rumbo.\n\nTal parece que han acostumbrado al contacto humano y se están uniendo a la colonia.</LetterFarmAnimalsWanderIn>
   
   <!-- Thrumbo passes -->
   <!-- EN: Rare thrumbos -->

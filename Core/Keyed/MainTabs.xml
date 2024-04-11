@@ -27,7 +27,7 @@
   <!-- EN: Will not do -->
   <Priority0>No lo hará</Priority0>
   <!-- EN: Top priority -->
-  <Priority1>Máxima prioridad</Priority1>
+  <Priority1>Prioridad Máx.</Priority1>
   <!-- EN: High priority -->
   <Priority2>Prioridad alta</Priority2>
   <!-- EN: Normal priority -->
@@ -44,8 +44,6 @@
   <WorkDisabledByQuest>Desactivado por la misión "{0}"</WorkDisabledByQuest>
   
   <!-- Assign tab -->
-  <!-- EN: Manage outfits -->
-  <ManageOutfits>Gestionar atuendo</ManageOutfits>
   <!-- EN: Unchangeable -->
   <Unchangeable>Inmutable</Unchangeable>
   <!-- EN: Clr. forced -->
@@ -56,12 +54,16 @@
   <ApparelLockedLower>bloqueado</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Atuendo forzado</ForcedApparel>
-  <!-- EN: Edit... -->
-  <AssignTabEdit>Editar...</AssignTabEdit>
+  <!-- EN: Edit -->
+  <AssignTabEdit>Editar</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>Gestionar políticas de vestuario</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>Gestionar políticas de drogas</ManageDrugPolicies>
-  <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>Gestionar políticas alimenticias</ManageFoodRestrictions>
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>Gestionar políticas alimentarias</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>Gestionar políticas de lectura</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -87,7 +89,7 @@
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>Esta criatura es un depredador. Cuando tiene hambre, cazará criaturas más pequeñas... y en algunos casos, incluso a personas.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
-  <IsInMentalState>Esta criatura se encuentra actualmente en el estado mental: {0}</IsInMentalState>
+  <IsInMentalState>Esta criatura se halla en el estado mental: {0}</IsInMentalState>
   
   <!-- Factions tab -->
   <!-- EN: Hostile -->
@@ -198,14 +200,22 @@
   <InProgress>En progreso</InProgress>
   <!-- EN: Locked -->
   <Locked>Bloqueado</Locked>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>Prerrequisitos</ResearchPrerequisites>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>Prerrequisitos</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>Tecnoplanos requeridos {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
   <InsufficientTechprintsApplied>Tecnoplanos insuficientes aplicados ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>Prerrequisito(s) no completado</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>Ningún proyecto activo.</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>Proyectos activos</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>Proyecto activo</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>Detener investigación</StopResearch>
   <!-- EN: Missing required research facilities -->
   <MissingRequiredResearchFacilities>Faltan instalaciones de investigación necesarias</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
@@ -220,6 +230,10 @@
   <TechLevelTooLow>Tu nivel de tecnología de facción es {0}, pero el nivel de tecnología de este proyecto es {1}. La velocidad de investigación se multiplicará por {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>Desbloqueado con</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>Investiga uno o varios de los prerrequisitos de este proyecto para descubrirlo.</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>desconocida</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -348,9 +362,22 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Crea necesidad</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>Cambiar por defecto...</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
   <ClickToEdit>Clic para editar</ClickToEdit>
-
+  <!-- EN: Assign -->
+  <AssignButton>Asignar</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>Desasignar</UnassignButton>
+  
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>Probabilidad de colapso mental</BookMentalBreakChance>
+  
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>Multi. de ganancia  de recreacción</BookJoyFactor>
+  
 </LanguageData>

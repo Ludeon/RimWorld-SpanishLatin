@@ -4,7 +4,7 @@
   <!-- EN: animals learning factor -->
   <AnimalsLearningFactor.label>factor de aprendizaje animal</AnimalsLearningFactor.label>
   <!-- EN: A multiplier on the learning rate for animals skill. -->
-  <AnimalsLearningFactor.description>Un multiplicador de la tasa de aprendizaje de la habilidad de los animales.</AnimalsLearningFactor.description>
+  <AnimalsLearningFactor.description>Un multiplicador del ritmo de aprendizaje de la habilidad de los animales.</AnimalsLearningFactor.description>
   
   <!-- EN: bed hunger rate multiplier -->
   <BedHungerRateFactor.label>multi. de tasa de hambre en cama</BedHungerRateFactor.label>
@@ -19,20 +19,32 @@
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
   <CarryingCapacity.description>La cantidad de cosas que esta criatura puede llevar en sus manos, boca u otros manipuladores.\n\nEsto es independiente de la capacidad de llevar carga en viajes largos por todo el mundo.</CarryingCapacity.description>
   
-  <!-- EN: Maximum comfortable temperature -->
-  <ComfyTemperatureMax.label>temperatura máxima agradable</ComfyTemperatureMax.label>
+  <!-- EN: max comfortable temperature -->
+  <ComfyTemperatureMax.label>temperatura máx. agradable</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
   <ComfyTemperatureMax.description>Por encima de esta temperatura los personajes no estarán contentos.\n\nMuy por encima de esta temperatura desarrollaran golpe de calor y finalmente morirán.</ComfyTemperatureMax.description>
   
-  <!-- EN: Minimum comfortable temperature -->
-  <ComfyTemperatureMin.label>temperatura mínima agradable</ComfyTemperatureMin.label>
+  <!-- EN: min comfortable temperature -->
+  <ComfyTemperatureMin.label>temperatura mín. agradable</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
   <ComfyTemperatureMin.description>Por debajo de esta temperatura los personajes no estarán contentos.\n\nMuy por debajo de esta temperatura desarrollaran hipotermia, congelación y finalmente morirán.</ComfyTemperatureMin.description>
+  
+  <!-- EN: crawl speed -->
+  <CrawlSpeed.label>velocidad de arrastrarse</CrawlSpeed.label>
+  <!-- EN: Speed of crawling in cells per second. -->
+  <CrawlSpeed.description>Velocidad de arrastrarse en celdas por segundo.</CrawlSpeed.description>
+  <!-- EN: {0} c/s -->
+  <CrawlSpeed.formatString>{0} a/s</CrawlSpeed.formatString>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>velocidad de alimentación</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>Un multiplicador sobre la velocidad de alimentación.</EatingSpeed.description>
+  
+  <!-- EN: EMP resistance -->
+  <EMPResistance.label>Resistencia al PEM</EMPResistance.label>
+  <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
+  <EMPResistance.description>Este mecanoide cuenta con filamentos especiales de blindaje y disipación de impactos que reducen el efecto del daño por PEM en este porcentaje. Esto reduce la duración de los aturdimientos causados por el PEM.</EMPResistance.description>
   
   <!-- EN: filth rate -->
   <FilthRate.label>tasa de suciedad</FilthRate.label>
@@ -47,7 +59,7 @@
   <!-- EN: global learning factor -->
   <GlobalLearningFactor.label>factor de aprendizaje global</GlobalLearningFactor.label>
   <!-- EN: A multiplier on the learning rate for all skills. -->
-  <GlobalLearningFactor.description>Un multiplicador en la tasa de aprendizaje de todas las habilidades.</GlobalLearningFactor.description>
+  <GlobalLearningFactor.description>Un multiplicador en el ritmo de aprendizaje de todas las habilidades.</GlobalLearningFactor.description>
   
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>velocidad de inmunización</ImmunityGainSpeed.label>
@@ -58,6 +70,11 @@
   <InjuryHealingFactor.label>factor de curación de heridas</InjuryHealingFactor.label>
   <!-- EN: The multiplier applied to a person's injury healing rate. -->
   <InjuryHealingFactor.description>El multiplicador aplicado a la tasa de curación de las lesiones de una persona.</InjuryHealingFactor.description>
+  
+  <!-- EN: recreation fall rate -->
+  <JoyFallRateFactor.label>tasa de caídas de recreación</JoyFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's recreation need falls. -->
+  <JoyFallRateFactor.description>Un multiplicador de la velocidad a la que disminuye la necesidad de ocio de una persona.</JoyFallRateFactor.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>cantidad de cuero</LeatherAmount.label>

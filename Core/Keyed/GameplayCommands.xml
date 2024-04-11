@@ -109,11 +109,6 @@
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Comienza una cuenta regresiva para la detonación.</CommandDetonateDesc>
 
-  <!-- EN: Rename -->
-  <CommandRenameZoneLabel>Renombrar</CommandRenameZoneLabel>
-  <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>Renombra esta área.</CommandRenameZoneDesc>
-
   <!-- EN: Hide -->
   <CommandHideZoneLabel>Esconder</CommandHideZoneLabel>
   <!-- EN: Unhide -->
@@ -242,10 +237,16 @@
   <CommandSunLampMakeGrowingZoneLabel>Crear área de cultivo</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <!-- EN: Auto Rearm -->
+  <!-- EN: Auto rearm -->
   <CommandAutoRearm>Autorearmar</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>Si está activado, la trampa automáticamente se reemplazará después de cada uso.</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>Autoreconstruir</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>Si esta opción está activada, {BUILDING_definite} será reemplazado automáticamente tras su detonación.</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -293,7 +294,7 @@
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Sintonizado para</CommandSelectMineralToScanFor>
   <!-- EN: Select the mineral type to scan for. -->
-  <CommandSelectMineralToScanForDesc>Selecciona el tipo de mineral a buscar.</CommandSelectMineralToScanForDesc><!-- text_todo -->
+  <CommandSelectMineralToScanForDesc>Selecciona el tipo de mineral a buscar.</CommandSelectMineralToScanForDesc>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -316,7 +317,17 @@
   <CommandReformCaravanDesc>Reagrupa a un grupo de colonos. Los colonos dejarán el área actual y esperarán nuevas órdenes.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>Aún hay algunos enemigos en el área.</CommandReformCaravanFailHostilePawns>
-  
+
+  <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>Enviar caravana</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>Enviar caravana...</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>Envía una caravana a este destino desde una colonia seleccionada que pueda llegar a este lugar.</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>Tus asentamientos no tienen camino a esta ubicación.</CommandSendCaravanCantReach>
+
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>Dividir</CommandSplitCaravan>
@@ -531,7 +542,7 @@
   
   <!-- Dismiss shuttle -->
   <!-- EN: Dismiss -->
-  <CommandShuttleDismiss>Despedir</CommandShuttleDismiss>
+  <CommandShuttleDismiss>Despachar</CommandShuttleDismiss>
   <!-- EN: Unload all contents and send the shuttle away. -->
   <CommandShuttleDismissDesc>Descarga todo el contenido y envía el transbordador fuera del área.</CommandShuttleDismissDesc>
 
@@ -631,6 +642,8 @@
   <UnlinkStorageSettingsDesc>Desvincula esto de los ajustes de almacenamiento de otros edificios para que sus ajustes se puedan establecer de forma independiente.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>Configuración de almacenamiento vinculado</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>1 edificio</OneBuilding>
   <!-- EN: {0} buildings -->
   <NumBuildings>{0} edificios</NumBuildings>
   <!-- EN: Stores -->
@@ -642,5 +655,15 @@
 
   <!-- EN: {0_labelShort} is unconscious. -->
   <CommandDisabledUnconscious>{0_labelShort} está inconsciente.</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>Activar estudio</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>Determina si los vigilantes estudiarán esto automáticamente o no. Las cosas prohibidas nunca se estudiarán.</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>No quedan usos.</CommandNoUsesLeft>
   
 </LanguageData>

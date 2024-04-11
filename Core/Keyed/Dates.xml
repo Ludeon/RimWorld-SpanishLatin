@@ -11,11 +11,13 @@
   <DateReadoutTip>Días desde tu llegada: {0}\nCuadrun actual: {4}\nEstación local: {2}\n\nEl año esta dividido en 4 cuadrunes de {3} días cada uno. Los Cuadrunes son los mismos en cualquier parte del mundo, sin embargo las estaciones son diferentes en diferentes lugares.\n\nLas estaciones locales para cada cuadrun son:\n{5}</DateReadoutTip>
 
   <!-- EN: {0} of {1}, {2} -->
-  <FullDate>{0} de {1} del {2}</FullDate>
+  <FullDate>{replace: {0}; ".º"-" "} de {1} de {2}</FullDate>
   <!-- EN: {0} {1} {2} -->
   <ShortDate>{0} {1} {2}</ShortDate>
+  <!-- EN: {0}, {1} -->
+  <MonthYearDate>{0}, {1}</MonthYearDate>
   <!-- EN: {0} of {1}, {2} -->
-  <DateReadout>{0} de {1} de {2}</DateReadout>
+  <DateReadout>{replace: {0}; ".º"-" "} de {1} de {2}</DateReadout>
   <!-- EN: {0} of {1} -->
   <SeasonFullDate>{0} de {1}</SeasonFullDate>
   <!-- EN: Whole year -->

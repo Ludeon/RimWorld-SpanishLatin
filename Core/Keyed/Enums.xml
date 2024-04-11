@@ -95,7 +95,7 @@
   <!-- EN: Urgently hungry -->
   <HungerLevel_UrgentlyHungry>Muy hambriento</HungerLevel_UrgentlyHungry>
   <!-- EN: Hungry -->
-  <HungerLevel_Hungry>Hambiento</HungerLevel_Hungry>
+  <HungerLevel_Hungry>Hambriento</HungerLevel_Hungry>
   <!-- EN: Fed -->
   <HungerLevel_Fed>Saciado</HungerLevel_Fed>
 
@@ -189,7 +189,7 @@
   <!-- EN: ultra -->
   <TechLevel_Ultra>ultra</TechLevel_Ultra>
   <!-- EN: archotech -->
-  <TechLevel_Archotech>arqueotécnico</TechLevel_Archotech>
+  <TechLevel_Archotech>arqueotéc</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
@@ -216,6 +216,28 @@
   <AnimalNameDisplayMode_TameNamed>Domado(con nombre)</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>Domado(todos)</AnimalNameDisplayMode_TameAll>
+
+  <!-- Highlight display mode -->
+  <!-- EN: Character highlighting -->
+  <DotHighlightDisplayMode>Resaltado de personajes</DotHighlightDisplayMode>
+  <!-- EN: Highlight hostiles -->
+  <DotHighlightDisplayMode_HighlightHostiles>Resaltar hostiles</DotHighlightDisplayMode_HighlightHostiles>
+  <!-- EN: Highlight all -->
+  <DotHighlightDisplayMode_HighlightAll>Resaltar todo</DotHighlightDisplayMode_HighlightAll> 
+  
+  <!-- Highlight style -->
+  <!-- EN: Highlight mode -->
+  <HighlightStyleMode>Modo de resaltado</HighlightStyleMode>
+  <!-- EN: Dots -->
+  <HighlightStyleMode_Dots>Puntos</HighlightStyleMode_Dots>
+  <!-- EN: Silhouettes -->
+  <HighlightStyleMode_Silhouettes>Siluetas</HighlightStyleMode_Silhouettes> 
+
+  <!-- Mood gradient display strength-->
+  <!-- EN: Visible mood -->
+  <VisibleMood>Humor visible</VisibleMood>
+  <!-- EN: When on, displays a visual indicator on a character's portrait when they are at risk of a mental break. -->
+  <VisibleMoodDesc>Cuando está activado, muestra un indicador visual en el retrato de un personaje cuando corre el riesgo de sufrir un colapso mental.</VisibleMoodDesc>
   
   <!-- Mech name display mode -->
   <!-- EN: Show player mech names -->

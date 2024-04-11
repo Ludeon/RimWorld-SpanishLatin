@@ -51,12 +51,25 @@
   <!-- EN: Mine -->
   <DesignatorMine>Minar</DesignatorMine>
   <!-- EN: Designate areas of rock to be mined out. -->
-  <DesignatorMineDesc>Designa paredes de roca para excavar.</DesignatorMineDesc>
+  <DesignatorMineDesc>Designa muros de roca para excavar.</DesignatorMineDesc>
+
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>Minar veta</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>Designa una roca para ser minada. Los colonos seguirán minando hasta que hayan extraído toda la roca conectada del mismo tipo.</DesignatorMineVeinDesc>
 
   <!-- EN: Smooth surface -->
   <DesignatorSmoothSurface>Alisar superficie</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
-  <DesignatorSmoothSurfaceDesc>Designa el terreno de piedra y paredes ásperas para alisarla.</DesignatorSmoothSurfaceDesc>
+  <DesignatorSmoothSurfaceDesc>Designa el terreno de piedra áspera y paredes ásperas para alisarla.</DesignatorSmoothSurfaceDesc>
+  <!-- EN: Smooth walls -->
+  <DesignatorSmoothWalls>Alisar superficie</DesignatorSmoothWalls>
+  <!-- EN: Designate rough stone walls to be smoothed. -->
+  <DesignatorSmoothWallsDesc>Designa muros de piedra áspera para alisarla.</DesignatorSmoothWallsDesc>
+  <!-- EN: Smooth terrain -->
+  <DesignatorSmoothFloors>Alisar superficie</DesignatorSmoothFloors>
+  <!-- EN: Designate rough stone terrain to be smoothed. -->
+  <DesignatorSmoothFloorsDesc>Designa el terreno de piedra áspera para alisarlo.</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>Planificación</DesignatorPlan>
@@ -300,5 +313,10 @@
   <NoColonistWithAllSkillsForConstructing>Ninguno de tus {0} tiene todas las habilidades requeridas.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithSkillHaveDisabledConstructingTip>Todos los {0} que tienen esta habilidad no están asignados a {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
+
+  <!-- EN: Extract skull -->
+  <DesignatorExtractSkull>Extraer cráneo</DesignatorExtractSkull>
+  <!-- EN: Extract the skull from a corpse. -->
+  <DesignatorExtractSkullDesc>Extrae el cráneo de un cadáver.</DesignatorExtractSkullDesc>
 
 </LanguageData>

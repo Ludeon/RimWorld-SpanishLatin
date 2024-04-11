@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: acid burn -->
+  <AcidBurn.label>quemadura de ácido</AcidBurn.label>
+  <!-- EN: An acid burn. -->
+  <AcidBurn.description>Una quemadura de ácido.</AcidBurn.description>
+  <!-- EN: acid burn scar -->
+  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de quemadura de ácido</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Dissolved off -->
+  <AcidBurn.injuryProps.destroyedLabel>Disuelto(a)</AcidBurn.injuryProps.destroyedLabel>
+  <!-- EN: an acid burn -->
+  <AcidBurn.labelNoun>una quemadura de ácido</AcidBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <AcidBurn.labelNounPretty>la {0} en {1_gender ? el : la} {1}</AcidBurn.labelNounPretty>
+  
   <!-- EN: bite -->
   <Bite.label>mordida</Bite.label>
   <!-- EN: A bite wound. -->
@@ -134,6 +147,30 @@
   <!-- EN: {0} in the {1} -->
   <Cut.labelNounPretty>el {0} en {1_gender ? el : la} {1}</Cut.labelNounPretty>
   
+  <!-- EN: decayed organ -->
+  <Decayed.label>órgano dañado</Decayed.label>
+  <!-- EN: This organ has completely decayed. -->
+  <Decayed.description>Este órgano se ha dañado por completo.</Decayed.description>
+  <!-- EN: a decayed organ -->
+  <Decayed.labelNoun>un órgano dañado</Decayed.labelNoun>
+  <!-- EN: decayed {1} -->
+  <Decayed.labelNounPretty>{1} dañado</Decayed.labelNounPretty>
+  
+  <!-- EN: electrical burn -->
+  <ElectricalBurn.label>quemadura eléctrica</ElectricalBurn.label>
+  <!-- EN: An electical burn. -->
+  <ElectricalBurn.description>Una quemadura eléctrica.</ElectricalBurn.description>
+  <!-- EN: electrical burn scar -->
+  <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz quemadura eléctrica</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <ElectricalBurn.injuryProps.destroyedLabel>Quemado(a)</ElectricalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <ElectricalBurn.injuryProps.destroyedOutLabel>Achicharrado(a)</ElectricalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an electrical burn -->
+  <ElectricalBurn.labelNoun>una quemadura eléctrica</ElectricalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ElectricalBurn.labelNounPretty>la {0} en {1_gender ? el : la} {1}</ElectricalBurn.labelNounPretty>
+  
   <!-- EN: cut -->
   <ExecutionCut.label>corte</ExecutionCut.label>
   <!-- EN: A cut made during execution. -->
@@ -177,7 +214,7 @@
   <!-- EN: permanent gunshot injury -->
   <Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>herida permanente de disparo</Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
   <!-- EN: old gunshot -->
-  <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>vieja cicatriz de disparo</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
+  <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de disparo</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Shot off -->
   <Gunshot.injuryProps.destroyedLabel>Destrozado(a)</Gunshot.injuryProps.destroyedLabel>
   <!-- EN: Shot out -->
@@ -187,9 +224,9 @@
   <!-- EN: {0} in the {1} -->
   <Gunshot.labelNounPretty>el {0} en {1_gender ? el : la} {1}</Gunshot.labelNounPretty>
   
-  <!-- EN: misc -->
-  <Misc.label>multiples daños</Misc.label>
-  <!-- EN: Miscellanous injuries. -->
+  <!-- EN: wound -->
+  <Misc.label>herida</Misc.label>
+  <!-- EN: Miscellaneous injuries. -->
   <Misc.description>Lesiones varias.</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>enyesado</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
@@ -204,7 +241,7 @@
   <!-- EN: an injury -->
   <Misc.labelNoun>una lesión</Misc.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Misc.labelNounPretty>los {0} en {1_gender ? el : la} {1}</Misc.labelNounPretty>
+  <Misc.labelNounPretty>la {0} en {1_gender ? el : la} {1}</Misc.labelNounPretty>
   
   <!-- EN: missing body part -->
   <MissingBodyPart.label>parte del cuerpo faltante</MissingBodyPart.label>

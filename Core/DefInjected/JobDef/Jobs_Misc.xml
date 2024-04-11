@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: activating TargetA. -->
-  <ActivateThing.reportString>activando TargetA.</ActivateThing.reportString>
-  
   <!-- EN: applying TargetB. -->
   <ApplyTechprint.reportString>aplicando a TargetB.</ApplyTechprint.reportString>
   
@@ -46,6 +43,9 @@
   <!-- EN: delivering TargetA. -->
   <DeliverToCell.reportString>entregando a TargetA.</DeliverToCell.reportString>
   
+  <!-- EN: dismissing trader. -->
+  <DismissTrader.reportString>despidiendo al comerciante.</DismissTrader.reportString>
+  
   <!-- EN: dropping TargetA. -->
   <DropEquipment.reportString>tirando TargetA al suelo.</DropEquipment.reportString>
   
@@ -56,10 +56,16 @@
   <EnterCryptosleepCasket.reportString>entrando en el sarcófago de criptosueño.</EnterCryptosleepCasket.reportString>
   
   <!-- EN: entering TargetA. -->
+  <EnterPortal.reportString>entrando en TargetA.</EnterPortal.reportString>
+  
+  <!-- EN: entering TargetA. -->
   <EnterTransporter.reportString>entrando en TargetA.</EnterTransporter.reportString>
   
   <!-- EN: equipping TargetA. -->
   <Equip.reportString>equipando TargetA.</Equip.reportString>
+  
+  <!-- EN: extinguishing fires nearby. -->
+  <ExtinguishFiresNearby.reportString>extinguiendo los incendios cercanos.</ExtinguishFiresNearby.reportString>
   
   <!-- EN: extinguishing self. -->
   <ExtinguishSelf.reportString>extinguiendo fuego en sí mismo.</ExtinguishSelf.reportString>
@@ -104,6 +110,9 @@
   <HaulCorpseToPublicPlace.reportString>transportando cadáver de TargetA.</HaulCorpseToPublicPlace.reportString>
   
   <!-- EN: hauling TargetA. -->
+  <HaulToPortal.reportString>llevando TargetA.</HaulToPortal.reportString>
+  
+  <!-- EN: hauling TargetA. -->
   <HaulToTransporter.reportString>llevando TargetA.</HaulToTransporter.reportString>
   
   <!-- EN: idling. -->
@@ -120,6 +129,9 @@
   
   <!-- EN: insulting TargetA. -->
   <Insult.reportString>insultando a TargetA.</Insult.reportString>
+  
+  <!-- EN: activating TargetA. -->
+  <InteractThing.reportString>activando TargetA.</InteractThing.reportString>
   
   <!-- EN: lying down. -->
   <LayDown.reportString>recostándose.</LayDown.reportString>
@@ -145,6 +157,9 @@
   <!-- EN: picking up TargetA. -->
   <PickupToHold.reportString>recogiendo TargetA.</PickupToHold.reportString>
   
+  <!-- EN: reading TargetA -->
+  <Reading.reportString>leyendo TargetA.</Reading.reportString>
+  
   <!-- EN: rearming TargetA. -->
   <RearmTurret.reportString>recargando TargetA.</RearmTurret.reportString>
   
@@ -168,6 +183,9 @@
   
   <!-- EN: fighting with TargetA. -->
   <SocialFight.reportString>peleando con TargetA.</SocialFight.reportString>
+  
+  <!-- EN: staring. -->
+  <StandAndStare.reportString>mirando.</StandAndStare.reportString>
   
   <!-- EN: stripping TargetA. -->
   <Strip.reportString>desvistiendo a TargetA.</Strip.reportString>
@@ -211,6 +229,9 @@
   <!-- EN: Doing something. -->
   <UseVerbOnThingStatic.reportString>Haciendo algo.</UseVerbOnThingStatic.reportString>
   
+  <!-- EN: Doing something. -->
+  <UseVerbOnThingStaticReserve.reportString>Haciendo algo.</UseVerbOnThingStaticReserve.reportString>
+  
   <!-- EN: vomiting. -->
   <Vomit.reportString>vomitando.</Vomit.reportString>
   
@@ -219,6 +240,9 @@
   
   <!-- EN: sleeping. -->
   <Wait_Asleep.reportString>durmiendo.</Wait_Asleep.reportString>
+  
+  <!-- EN: sleeping. -->
+  <Wait_AsleepDormancy.reportString>durmiendo.</Wait_AsleepDormancy.reportString>
   
   <!-- EN: watching for targets. -->
   <Wait_Combat.reportString>buscando objetivos.</Wait_Combat.reportString>

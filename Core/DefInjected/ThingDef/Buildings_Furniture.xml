@@ -36,6 +36,21 @@
   <!-- EN: A simple double-wide bed that lays on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed. Caravans can use bedrolls while traveling for better sleep. -->
   <BedrollDouble.description>Una simple cama doble que se apoya en el suelo, generalmente hecha de tela o cuero, a menudo forrada con piel. Es ligero y puede enrollarse para facilitar el transporte, pero no es tan cómodo como una cama típica. Las caravanas pueden utilizar sacos de dormir mientras viajan para dormir mejor.</BedrollDouble.description>
   
+  <!-- EN: bookcase -->
+  <Bookcase.label>estante de libros</Bookcase.label>
+  <!-- EN: A wide bookcase for storing and displaying up to ten books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+  <Bookcase.description>Una amplia estantería de libros para almacenar y exponer hasta diez libros. Los libros almacenados aquí realzarán pasivamente el trabajo académico realizado en las proximidades y aumentarán la belleza del estante de libros. Los libros almacenados nunca se deteriorarán.</Bookcase.description>
+  
+  <!-- EN: small bookcase -->
+  <BookcaseSmall.label>pequeño estante de libros</BookcaseSmall.label>
+  <!-- EN: A narrow bookcase for storing and displaying up to five books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+  <BookcaseSmall.description>Estantería estrecha para guardar y exponer hasta cinco libros. Los libros almacenados aquí realzarán pasivamente el trabajo académico realizado en las proximidades y aumentarán la belleza del estante de libros. Los libros almacenados nunca se deteriorarán.</BookcaseSmall.description>
+  
+  <!-- EN: couch -->
+  <Couch.label>sofá</Couch.label>
+  <!-- EN: A large double-wide seat which is cushioned for maximum comfort. Perfect for a luxurious rec room or a homey reading nook. -->
+  <Couch.description>Un gran asiento de doble ancho acolchado para el máximo confort. Perfecto para una lujosa sala de recreo o un rincón de lectura hogareño.</Couch.description>
+  
   <!-- EN: dining chair -->
   <DiningChair.label>silla de comedor</DiningChair.label>
   <!-- EN: A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. -->
@@ -60,6 +75,11 @@
   <EndTable.label>mesa auxiliar</EndTable.label>
   <!-- EN: A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect. -->
   <EndTable.description>Una mesita de noche. Hace que las camas cercanas sean un poco más cómodas. Debe ser colocada adyacente a la cabecera de la cama. Colocar más de una mesa auxiliar cerca de la misma cama no tendrá ningún efecto.</EndTable.description>
+  
+  <!-- EN: flood light -->
+  <FloodLight.label>foco proyector</FloodLight.label>
+  <!-- EN: A high-intensity light that's good for large outdoor spaces. -->
+  <FloodLight.description>Una luz de alta intensidad adecuada para grandes espacios exteriores.</FloodLight.description>
   
   <!-- EN: hospital bed -->
   <HospitalBed.label>cama hospitalaria</HospitalBed.label>
@@ -132,5 +152,15 @@
   <TorchLamp.label>antorcha</TorchLamp.label>
   <!-- EN: A wooden torch for lighting an area. People need light to move and work at full speed. Can be automatically refueled with wood. Produces a small amount of heat. -->
   <TorchLamp.description>Una antorcha de madera que iluminará a su alrededor. La gente necesita luz para moverse y trabajar a toda velocidad. Se puede repostar automáticamente con madera. Genera una pequeña cantidad de calor.</TorchLamp.description>
+  
+  <!-- EN: wall torch lamp -->
+  <TorchWallLamp.label>antorcha de pared</TorchWallLamp.label>
+  <!-- EN: A wall-mounted wooden torch for lighting an area. It is not as bright as a regular torch lamp, but it can be mounted on walls. Produces a small amount of heat. -->
+  <TorchWallLamp.description>Una antorcha de madera montada en la pared para iluminar una zona. No es tan brillante como una lámpara normal, pero se puede montar en la pared. Produce una pequeña cantidad de calor.</TorchWallLamp.description>
+  
+  <!-- EN: wall lamp -->
+  <WallLamp.label>lámpara de pared</WallLamp.label>
+  <!-- EN: A wall-mounted lamp that lights an area using electricity. It is less powerful than a standing lamp, but can be mounted on walls. -->
+  <WallLamp.description>Lámpara de pared que ilumina una zona con electricidad. Es menos potente que una lámpara de pie, pero puede montarse en la pared.</WallLamp.description>
   
 </LanguageData>

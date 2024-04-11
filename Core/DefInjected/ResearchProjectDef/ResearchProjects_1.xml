@@ -5,105 +5,413 @@
   <Brewing.label>fermentación de cerveza</Brewing.label>
   <!-- EN: Build a brewery and fermenting vats to transform hops into tasty, tasty beer. -->
   <Brewing.description>Construye una mesa de trabajo para convertir el lúpulo en deliciosa cerveza.</Brewing.description>
+  <!-- EN:
+    <li>subject->brewing</li>
+    <li>subject_story->brewed a unique stout that became famous across the system</li>
+    <li>subject_story->retired to run a public house on an animal world</li>
+    <li>subject_story->specialized in climate-controlled fermentation techniques</li>
+    <li>subject_gerund->constructing breweries</li>
+    <li>subject_gerund->brewing beer</li>
+  -->
+  <Brewing.generalRules.rulesStrings>
+    <li>subject->elaboración de cerveza</li>
+    <li>subject_story->elaboró una stout única que se hizo famosa en todo el sistema</li>
+    <li>subject_story->se retiró para dirigir una taberna en un mundo animal</li>
+    <li>subject_story->se especializó en técnicas de fermentación controlada por el clima</li>
+    <li>subject_gerund->construcción de cervecerías</li>
+    <li>subject_gerund->elaboración de cerveza</li>
+  </Brewing.generalRules.rulesStrings>
   
-  <!-- EN: carpet making -->
+  <!-- EN: carpet-making -->
   <CarpetMaking.label>elaboración de alfombras</CarpetMaking.label>
   <!-- EN: Weave beautiful carpets from cloth. -->
   <CarpetMaking.description>Teje hermosas alfombras de tela.</CarpetMaking.description>
+  <!-- EN:
+    <li>subject->carpet-making</li>
+    <li>subject_story->learned to weave carpets from hair, for a distant Emperor</li>
+    <li>subject_story->left behind an unparalleled collection of carpets and tapestries</li>
+    <li>subject_story->settled on a medieval moon, where the carpetweaving craft was truly appreciated</li>
+    <li>subject_gerund->weaving carpets</li>
+  -->
+  <CarpetMaking.generalRules.rulesStrings>
+    <li>subject->fabricación de alfombras</li>
+    <li>subject_story->aprendió a tejer alfombras con cabello, para un emperador lejano</li>
+    <li>subject_story->dejó atrás una colección incomparable de alfombras y tapices</li>
+    <li>subject_story->se estableció en una luna medieval, donde el oficio de tejer alfombras era realmente apreciado</li>
+    <li>subject_gerund->tejido de alfombras</li>
+  </CarpetMaking.generalRules.rulesStrings>
   
   <!-- EN: cocoa -->
   <Cocoa.label>cacao</Cocoa.label>
-  <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation, and it's valuable on the market too. -->
+  <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
   <Cocoa.description>Siembra árboles de cacao para cosechar tu propio chocolate delicioso. Comer chocolate satisface la necesidad de recreación, y también es valioso en el mercado.</Cocoa.description>
+  <!-- EN:
+    <li>subject->cocoa</li>
+    <li>subject->chocolate</li>
+    <li>subject_story->became obsessed with chocolate and had to be restrained</li>
+    <li>subject_story->studied the fermentation process of cocoa for a thesis</li>
+    <li>subject_story->set up the best chocolate shop in the sector</li>
+    <li>subject_gerund->producing chocolate</li>
+    <li>subject_gerund->cultivating cocoa</li>
+  -->
+  <Cocoa.generalRules.rulesStrings>
+    <li>subject->cacao</li>
+    <li>subject->chocolate</li>
+    <li>subject_story->se obsesionó con el chocolate y tuvo que ser retenido</li>
+    <li>subject_story->estudió el proceso de fermentación del cacao para una tesis</li>
+    <li>subject_story->estableció la mejor tienda de chocolate en el sector</li>
+    <li>subject_gerund->producción de chocolate</li>
+    <li>subject_gerund->cultivo de cacao</li>
+  </Cocoa.generalRules.rulesStrings>
   
   <!-- EN: complex clothing -->
   <ComplexClothing.label>ropa compleja</ComplexClothing.label>
   <!-- EN: Tailor complicated garments like pants, dusters, and cowboy hats. -->
   <ComplexClothing.description>Confecciona prendas de vestir complicadas como pantalones, gabardinas y sombreros vaqueros.</ComplexClothing.description>
+  <!-- EN:
+    <li>subject->complex tailoring</li>
+    <li>subject_story->tailored hard-wearing clothes for urbworld cityfolk</li>
+    <li>subject_story->would relax by sewing and telling stories to the village children</li>
+    <li>subject_story->learned to craft clothing to be worn at their troupe's grand performances</li>
+    <li>subject_gerund->tailoring complex clothes</li>
+  -->
+  <ComplexClothing.generalRules.rulesStrings>
+    <li>subject->confección compleja</li>
+    <li>subject_story->confeccionó prendas resistentes para los habitantes de la ciudad de urbworld</li>
+    <li>subject_story->se relajaba cosiendo y contando historias a los niños del pueblo</li>
+    <li>subject_story->aprendió a confeccionar ropa para ser usada en las grandes actuaciones de su grupo</li>
+    <li>subject_gerund->confección de ropa compleja</li>
+  </ComplexClothing.generalRules.rulesStrings>
   
   <!-- EN: complex furniture -->
   <ComplexFurniture.label>mobiliario complejo</ComplexFurniture.label>
-  <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiard tables, and poker tables, vents, sarcophagi, and more. -->
+  <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more. -->
   <ComplexFurniture.description>Construye muebles complejos como camas, mesitas de noche, sillas de comedor, sillones, tocadores, gabinetes de herramientas, mesas de billar y mesas de póker, respiraderos, sarcófagos y más.</ComplexFurniture.description>
+  <!-- EN:
+    <li>subject->carpentry</li>
+    <li>subject_story->studied woodcarving under a master carpenter</li>
+    <li>subject_story->built a town of log-cabins singlehandedly</li>
+    <li>subject_story->established a factory, selling high-quality furniture to passing traders</li>
+    <li>subject_gerund->building complex furniture</li>
+  -->
+  <ComplexFurniture.generalRules.rulesStrings>
+    <li>subject->carpintería</li>
+    <li>subject_story->estudió el tallado de madera bajo la tutela de un maestro carpintero</li>
+    <li>subject_story->construyó por sí solo un pueblo de cabañas de troncos</li>
+    <li>subject_story->estableció una fábrica, vendiendo muebles de alta calidad a los comerciantes que pasaban</li>
+    <li>subject_gerund->construcción de muebles complejos</li>
+  </ComplexFurniture.generalRules.rulesStrings>
   
   <!-- EN: devilstrand -->
   <Devilstrand.label>hilodiablo</Devilstrand.label>
   <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
   <Devilstrand.description>Siembra los hongo hilodiablo, un hongo de lento crecimiento del que se puede cosechar una valiosa fibra textil.</Devilstrand.description>
+  <!-- EN:
+    <li>subject->devilstrand cultivation</li>
+    <li>subject_story->used devilstrand as a natural firebreak</li>
+    <li>subject_story->established the techniques for cultivating devilstrand easily</li>
+    <li>subject_story->became obsessed with mushrooms and became the self-declared Princess of their kingdom</li>
+    <li>subject_gerund->cultivating devilstrand</li>
+  -->
+  <Devilstrand.generalRules.rulesStrings>
+    <li>subject->cultivo de hilodiablo</li>
+    <li>subject_story->utilizó hilodiablo como una barrera natural contra incendios</li>
+    <li>subject_story->estableció las técnicas para cultivar hilodiablo fácilmente</li>
+    <li>subject_story->se obsesionó con los hongos y se autoproclamó Princesa de su reino</li>
+    <li>subject_gerund->cultivo de hilodiablo</li>
+  </Devilstrand.generalRules.rulesStrings>
   
   <!-- EN: drug production -->
   <DrugProduction.label>producción de drogas</DrugProduction.label>
   <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
   <DrugProduction.description>Construye un laboratorio de drogas para la síntesis de drogas básicas. Es necesario seguir investigando para fabricar drogas más específicas.</DrugProduction.description>
+  <!-- EN:
+    <li>subject->drug production</li>
+    <li>subject->drug synthesis</li>
+    <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+    <li>subject_story->learned how to craft drugs from recycled chemicals, leading to many years spent in prison</li>
+    <li>subject_story->worked as a chemist, but slipped into peddling illegal drugs on the side</li>
+    <li>subject_gerund->building drug labs</li>
+    <li>subject_gerund->producing drugs</li>
+  -->
+  <DrugProduction.generalRules.rulesStrings>
+    <li>subject->producción de drogas</li>
+    <li>subject->síntesis de drogas</li>
+    <li>subject_story->trabajó en un laboratorio de asteroides en el límite del espacio habitado</li>
+    <li>subject_story->aprendió a elaborar drogas a partir de productos químicos reciclados, lo que resultó en muchos años en prisión</li>
+    <li>subject_story->trabajó como químico, pero se deslizó en el tráfico de drogas ilegales como actividad paralela</li>
+    <li>subject_gerund->construcción de laboratorios de drogas</li>
+    <li>subject_gerund->producción de drogas</li>
+  </DrugProduction.generalRules.rulesStrings>
   
   <!-- EN: go-juice production -->
   <GoJuiceProduction.label>producción de jugo-go</GoJuiceProduction.label>
   <!-- EN: Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain. -->
   <GoJuiceProduction.description>Prepara jugo-go, una droga sintética que mejora el rendimiento en el combate y que mejora el tiro, el combate cuerpo a cuerpo, la capacidad de movimiento, y atenúa el dolor.</GoJuiceProduction.description>
+  <!-- EN:
+    <li>subject->go-juice production</li>
+    <li>subject_story->was expelled for taking go-juice during team sports matches</li>
+    <li>subject_story->found go-juice massively increased productivity in mines and lumberyards</li>
+    <li>subject_story->never went on a mission without go-juice or juggernaut in a pocket</li>
+    <li>subject_gerund->synthesizing go-juice</li>
+  -->
+  <GoJuiceProduction.generalRules.rulesStrings>
+    <li>subject->producción de jugo-go</li>
+    <li>subject_story->se le expulsó por tomar jugo-go durante partidos deportivos.</li>
+    <li>subject_story->descubrió que el jugo-go aumentaba enormemente la productividad en las minas y aserraderos</li>
+    <li>subject_story->nunca emprendió una misión sin jugo-go o juggernaut en el bolsillo.</li>
+    <li>subject_gerund->síntesis de jugo-go</li>
+  </GoJuiceProduction.generalRules.rulesStrings>
   
   <!-- EN: greatbow -->
   <Greatbow.label>arco grande</Greatbow.label>
   <!-- EN: Craft greatbows for killing enemies at great range. -->
   <Greatbow.description>Crea arcos grandes para matar enemigos a gran distancia.</Greatbow.description>
+  <!-- EN:
+    <li>subject->greatbows</li>
+    <li>subject_story->fired an arrow right through the iron helmet of a feudal king</li>
+    <li>subject_story->hunted muffalos for their fur on a feral world</li>
+    <li>subject_story->lived alone in the greenwood, a hail of arrows greeting anyone who approached within a mile of its edge</li>
+    <li>subject_gerund->crafting greatbows</li>
+  -->
+  <Greatbow.generalRules.rulesStrings>
+    <li>subject->arcos grandes</li>
+    <li>subject_story->disparó una flecha justo a través del casco de hierro de un rey feudal</li>
+    <li>subject_story->cazó múfalos por su piel en un mundo feral</li>
+    <li>subject_story->vivió aisladamente en el bosque, una lluvia de flechas saludaba a cualquiera que se acercara a menos de una milla de su zona</li>
+    <li>subject_gerund->fabricación de arcos grandes</li>
+  </Greatbow.generalRules.rulesStrings>
   
   <!-- EN: long blades -->
   <LongBlades.label>Cuchillas largas</LongBlades.label>
   <!-- EN: Craft longswords and spears. -->
   <LongBlades.description>Fabrica espadas largas y lanzas.</LongBlades.description>
+  <!-- EN:
+    <li>subject->medieval weaponry</li>
+    <li>subject_story->rode with the Betaduke's Fifth Light Cavalry as they conquered the sector</li>
+    <li>subject_story->was enslaved as a weaponsmith beneath the arena on an iron age planet</li>
+    <li>subject_story->trained the hoplites on a warworld to use their weapons' reach</li>
+    <li>subject_gerund->smithing medieval weapons</li>
+  -->
+  <LongBlades.generalRules.rulesStrings>
+    <li>subject->armamento medieval</li>
+    <li>subject_story->cabalgó con la Quinta Caballería Ligera del Betaduque mientras conquistaban el sector</li>
+    <li>subject_story->fue esclavizado como armero bajo la arena en un planeta en la edad de hierro</li>
+    <li>subject_story->entrenó a los hoplitas en un warworld para que usaran el alcance de sus armas</li>
+    <li>subject_gerund->forjado de armas medievales</li>
+  </LongBlades.generalRules.rulesStrings>
   
   <!-- EN: passive cooler -->
   <PassiveCooler.label>enfriador pasivo</PassiveCooler.label>
   <!-- EN: Make passive coolers, to cool indoor spaces without using electricity. -->
   <PassiveCooler.description>Crea enfriadores pasivos, una manera de enfriar espacios bajo techo sin usar electricidad.</PassiveCooler.description>
+  <!-- EN:
+    <li>subject->evaporation</li>
+    <li>subject->passive coolers</li>
+    <li>subject_story->moved to a sweltering tropical world and developed unique techniques for staying cool</li>
+    <li>subject_story->researched primitive techniques for cooling areas in the comfort of a coreworld's libraries</li>
+    <li>subject_story->noticed, on the shores of an oceanic planet, that it was cooler where the sea spray settled</li>
+    <li>subject_gerund->building passive coolers</li>
+  -->
+  <PassiveCooler.generalRules.rulesStrings>
+    <li>subject->evaporación</li>
+    <li>subject->enfriadores pasivos</li>
+    <li>subject_story->se mudó a un mundo tropical abrasador y desarrolló técnicas únicas para mantenerse fresco</li>
+    <li>subject_story->estudió técnicas primitivas para enfriar áreas en la comodidad de las bibliotecas de un coreworld</li>
+    <li>subject_story->observó, en las orillas de un planeta oceánico, que era más fresco donde se asentaba la bruma marina</li>
+    <li>subject_gerund->construcción de enfriadores pasivos</li>
+  </PassiveCooler.generalRules.rulesStrings>
   
   <!-- EN: pemmican -->
   <Pemmican.label>pemmican</Pemmican.label>
   <!-- EN: Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling. -->
   <Pemmican.description>Prepara pemmican, una combinación de carne y plantas secas. No sabe increíble, pero aguanta un año sin refrigeración. Genial para viajar.</Pemmican.description>
+  <!-- EN:
+    <li>subject->pemmican production</li>
+    <li>subject_story->mastered pemmican production during a long pilgrimage to the planet's Spire</li>
+    <li>subject_story->survived solely on pemmican when a passenger liner crashed on a glassworld</li>
+    <li>subject_story->taught pemmican production to feral tribes</li>
+    <li>subject_gerund->making pemmican</li>
+  -->
+  <Pemmican.generalRules.rulesStrings>
+    <li>subject->producción de pemmican</li>
+    <li>subject_story->dominó la producción de pemmican durante una larga peregrinación al espira del planeta</li>
+    <li>subject_story->sobrevivió únicamente con pemmican cuando un transatlántico se estrelló en un glassworld</li>
+    <li>subject_story->enseñó la producción de pemmican a tribus salvajes</li>
+    <li>subject_gerund->producción de pemmican</li>
+  </Pemmican.generalRules.rulesStrings>
   
   <!-- EN: penoxycyline production -->
   <PenoxycylineProduction.label>producción de penoxicilina</PenoxycylineProduction.label>
   <!-- EN: Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start. -->
   <PenoxycylineProduction.description>Prepara penoxiclina, un medicamento para la prevención de enfermedades que bloquea la peste, la malaria y muchas enfermedades más antes de que empiecen.</PenoxycylineProduction.description>
+  <!-- EN:
+    <li>subject->penoxycyline production</li>
+    <li>subject_story->lectured to the United Planets about preventative medicine</li>
+    <li>subject_story->was driven out of Dawn Falls as a quack, for selling a medicine that "doesn't do anything"</li>
+    <li>subject_story->prevented an outbreak of malaria from spreading through careful penoxycyline dosage</li>
+    <li>subject_gerund->synthesizing penoxycyline</li>
+  -->
+  <PenoxycylineProduction.generalRules.rulesStrings>
+    <li>subject->producción de penoxicilina</li>
+    <li>subject_story->dio una conferencia a los Planetas Unidos sobre medicina preventiva</li>
+    <li>subject_story->fue expulsado de Dawn Falls por charlatán, por vender una medicina que "no hace nada"</li>
+    <li>subject_story->previno que un brote de malaria se propagara mediante una cuidadosa dosificación de penoxicilina</li>
+    <li>subject_gerund->síntesis de penoxicilina</li>
+  </PenoxycylineProduction.generalRules.rulesStrings>
   
   <!-- EN: plate armor -->
   <PlateArmor.label>armadura de placas</PlateArmor.label>
   <!-- EN: Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively. -->
   <PlateArmor.description>Forja trajes de armadura de placas de metal o madera. Esta pesada armadura ralentiza notablemente los movimientos, pero protege con gran eficacia.</PlateArmor.description>
+  <!-- EN:
+    <li>subject->plate armor</li>
+    <li>subject_story->crafted armor from scrap, when the authorities surrounded their family's shack</li>
+    <li>subject_story->became known as the Green Smith, when moss grew on the wooden armor</li>
+    <li>subject_story->started the first armorworker's collective on an urbworld</li>
+    <li>subject_gerund->smithing plate armor</li>
+  -->
+  <PlateArmor.generalRules.rulesStrings>
+    <li>subject->armadura de placas</li>
+    <li>subject_story->forjó armaduras con desechos cuando las autoridades rodearon la choza de su familia</li>
+    <li>subject_story->se hizo conocido como el Herrero Verde, cuando el musgo creció en la armadura de madera</li>
+    <li>subject_story->puso en marcha el primer colectivo de trabajadores de armaduras en un urbworld</li>
+    <li>subject_gerund->forjado de armaduras de placas</li>
+  </PlateArmor.generalRules.rulesStrings>
   
   <!-- EN: psychite refining -->
   <PsychiteRefining.label>refinado de psiquita</PsychiteRefining.label>
   <!-- EN: Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug. -->
   <PsychiteRefining.description>Refina las hojas psicoides para convertirlas en escama y yayo, diferentes formas de la droga eufórica de psiquita.</PsychiteRefining.description>
+  <!-- EN:
+    <li>subject->psychite production</li>
+    <li>subject_story->used his university job as cover for his drug-dealing</li>
+    <li>subject_story->started a commune where low-dose flake was mixed into the food</li>
+    <li>subject_story->campaigned for the legalisation of yayo on a nearby urbworld</li>
+    <li>subject_gerund->refining psychite</li>
+  -->
+  <PsychiteRefining.generalRules.rulesStrings>
+    <li>subject->producción de psiquita</li>
+    <li>subject_story->utilizó su trabajo universitario como tapadera para su tráfico de drogas</li>
+    <li>subject_story->fundó una comuna donde la droga de baja dosis se mezclaba en la comida</li>
+    <li>subject_story->hizo campañas para la legalización de yayo en un urbworld cercano</li>
+    <li>subject_gerund->refinado de psiquita</li>
+  </PsychiteRefining.generalRules.rulesStrings>
   
   <!-- EN: psychoid brewing -->
   <PsychoidBrewing.label>elaboración psicoide</PsychoidBrewing.label>
   <!-- EN: Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove. -->
   <PsychoidBrewing.description>Prepara hojas psicoides en un té ligeramente eufórico y adictivo en la fogata o en la estufa.</PsychoidBrewing.description>
+  <!-- EN:
+    <li>subject->psychoid</li>
+    <li>subject_story->joined a short-lived psychoid commune on a cult world</li>
+    <li>subject_story->experimented with psychoid to help traumatized soldiers</li>
+    <li>subject_story->legalized psychoid for mass production across several coreworlds, when he had the power to do so</li>
+    <li>subject_gerund->brewing psychoid</li>
+  -->
+  <PsychoidBrewing.generalRules.rulesStrings>
+    <li>subject->psicoides</li>
+    <li>subject_story->se unió a una comuna psicoide de corta duración en un mundo sectario</li>
+    <li>subject_story->experimentó con psicoides para ayudar a soldados traumatizados</li>
+    <li>subject_story->legalizó el psicoide para su producción masiva en varios coreworlds, cuando tuvo el poder para hacerlo</li>
+    <li>subject_gerund->elaboración de psicoides</li>
+  </PsychoidBrewing.generalRules.rulesStrings>
   
   <!-- EN: recurve bow -->
   <RecurveBow.label>arco recurvo</RecurveBow.label>
   <!-- EN: Build the recurve bow, an effective and inexpensive ranged weapon. -->
   <RecurveBow.description>Construye el arco recurvo, un arma a distancia efectiva y económica.</RecurveBow.description>
+  <!-- EN:
+    <li>subject->bowyery</li>
+    <li>subject->bow-making</li>
+    <li>subject_story->tracked a rabid boomalope for four days before killing it with a single arrow</li>
+    <li>subject_story->settled near a yew forest to secure the perfect materials for bows</li>
+    <li>subject_story->raised the colony children as hunter-gatherers, with every one a master archer</li>
+    <li>subject_gerund->crafting bows</li>
+  -->
+  <RecurveBow.generalRules.rulesStrings>
+    <li>subject->fabricación de arcos</li>
+    <li>subject->creación de arcos</li>
+    <li>subject_story->rastreó a un bumalope rabioso durante cuatro días antes de matarlo con una sola flecha</li>
+    <li>subject_story->se estableció cerca de un bosque de tejos para asegurar los materiales perfectos para los arcos</li>
+    <li>subject_story->crió a los niños de la colonia como cazadores-recolectores, siendo cada uno un arquero maestro</li>
+    <li>subject_gerund->fabricación de arcos</li>
+  </RecurveBow.generalRules.rulesStrings>
   
   <!-- EN: smithing -->
-  <Smithing.label>herrería</Smithing.label>
+  <Smithing.label>forja</Smithing.label>
   <!-- EN: Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles. -->
   <Smithing.description>Construye herrerías para fabricar armas metálicas como cuchillos, gladius y mazas. Trabaje el metal para hacer baldosas limpias y hermosas.</Smithing.description>
+  <!-- EN:
+    <li>subject->blacksmithing</li>
+    <li>subject_story->settled in a medieval hamlet and mastered simple metal crafting</li>
+    <li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds</li>
+    <li>subject_gerund->smithing</li>
+  -->
+  <Smithing.generalRules.rulesStrings>
+    <li>subject->forja de hierro</li>
+    <li>subject_story->se estableció en una aldea medieval y dominó la creación de metales simples</li>
+    <li>subject_story->construyó herrerías de glitterworlds para los gremios de recreación del Renacimiento</li>
+    <li>subject_gerund->forjado</li>
+  </Smithing.generalRules.rulesStrings>
   
   <!-- EN: stonecutting -->
   <Stonecutting.label>cantería</Stonecutting.label>
   <!-- EN: Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways. -->
   <Stonecutting.description>Corta trozos de roca y conviértalos en bloques de piedra para su uso en la construcción. Construye hermosos suelos de baldosas de piedra o feas pasarelas de concreto.</Stonecutting.description>
+  <!-- EN:
+    <li>subject->masonry</li>
+    <li>subject_story->was the first in a line of temple designers, all sharing the same name</li>
+    <li>subject_story->developed unique techniques for cutting the hardest rock with basic tools</li>
+    <li>subject_story->tiled the entirety of the viceroy's palace on a medieval world</li>
+    <li>subject_gerund->stonecutting</li>
+    <li>subject_gerund->cutting stones</li>
+  -->
+  <Stonecutting.generalRules.rulesStrings>
+    <li>subject->albañilería</li>
+    <li>subject_story->fue la primer persona en una línea de diseñadores de templos, todos compartiendo el mismo nombre</li>
+    <li>subject_story->desarrolló técnicas únicas para cortar la roca más dura con herramientas básicas</li>
+    <li>subject_story->acondicionó toda el palacio del virrey en un mundo medieval</li>
+    <li>subject_gerund->cortado de piedras</li>
+    <li>subject_gerund->cantería</li>
+  </Stonecutting.generalRules.rulesStrings>
   
   <!-- EN: tree sowing -->
   <TreeSowing.label>siembra de árboles</TreeSowing.label>
   <!-- EN: Sow the local biome's natural trees in your fields. -->
   <TreeSowing.description>Siembra los árboles naturales del bioma local en sus campos.</TreeSowing.description>
+  <!-- EN:
+    <li>subject->tree sowing</li>
+    <li>subject_story->propagated trees across a long-dead planetoid, trying to bring life back</li>
+    <li>subject_story->published a paper about maintaining natural ecosystems</li>
+    <li>subject_story->worked in a tree nursery on an animal world</li>
+    <li>subject_gerund->sowing trees</li>
+  -->
+  <TreeSowing.generalRules.rulesStrings>
+    <li>subject->siembra de árboles</li>
+    <li>subject_story->propagó árboles en un planetoide ya muerto, tratando de devolverle la vida</li>
+    <li>subject_story->publicó un artículo sobre el mantenimiento de ecosistemas naturales</li>
+    <li>subject_story->trabajó en un vivero de árboles en un mundo animal</li>
+    <li>subject_gerund->siembra de árboles</li>
+  </TreeSowing.generalRules.rulesStrings>
   
   <!-- EN: wake-up production -->
   <WakeUpProduction.label>producción de despertar</WakeUpProduction.label>
   <!-- EN: Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep. -->
   <WakeUpProduction.description>Sintetiza despertar, una droga que mejora el rendimiento en el trabajo y que reemplaza la necesidad de dormir.</WakeUpProduction.description>
+  <!-- EN:
+    <li>subject->wake-up production</li>
+    <li>subject_story->tried to overcome caffeine addiction by taking wake-up</li>
+    <li>subject_story->treated narcoleptics and sleepwalkers with carefully timed wake-up doses</li>
+    <li>subject_story->moved everyone to the dark side of an asteroid and used wake-up to maintain their biorhythms</li>
+    <li>subject_gerund->synthesizing wake-up</li>
+  -->
+  <WakeUpProduction.generalRules.rulesStrings>
+    <li>subject->producción de despertar</li>
+    <li>subject_story->intentó superar la adicción a la cafeína tomando despertar</li>
+    <li>subject_story->trató a narcolépticos y sonámbulos con dosis de despertar cuidadosamente cronometradas</li>
+    <li>subject_story->mudó a todos al lado oscuro de un asteroide y utilizó despertar para mantener sus biorritmos</li>
+    <li>subject_gerund->síntesis de despertar</li>
+  </WakeUpProduction.generalRules.rulesStrings>
   
 </LanguageData>

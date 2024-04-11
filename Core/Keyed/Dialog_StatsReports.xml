@@ -18,6 +18,8 @@
   <StatsReport_RelevantHediffs>Condiciones médicas relevantes</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
   <StatsReport_LifeStage>Etapa de vida</StatsReport_LifeStage>
+  <!-- EN: Shambler crawling -->
+  <StatsReport_ShamblerCrawling>Caminante arrastrándose</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>Material</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -42,6 +44,8 @@
   <StatsReport_ShootingExampleDistances>Posibilidades de acertar a distancias crecientes</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Valor final</StatsReport_FinalValue>
+  <!-- EN: Max value -->
+  <StatsReport_MaxValue>Valor Máx.</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
   <StatsReport_MultiplierFor>Multiplicador para {0}</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
@@ -158,6 +162,8 @@
   <!-- EN: Satisfies user's title requirements -->
   <StatsReport_SatisfiesTitle>Satisface los requisitos de título del usuario</StatsReport_SatisfiesTitle>
 
+  <!-- EN: Age -->
+  <Stat_Age_Label>Edad</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
   <Stat_RecreationType_Desc>Diferentes fuentes de recreación satisfacen diferentes tipos de recreación. Los colonos se aburrirán si siempre hacen el mismo tipo de recreación, por ello es importante aportar una gran variedad de fuentes recreativas con diferentes tipos de recreación.</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
@@ -200,6 +206,10 @@
   <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Ropa (para la desnudez)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Si los nudistas considerarán este artículo como una prenda de vestir. Si no es así, los nudistas nunca se molestarán por llevar esto.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <!-- EN: Gender -->
+  <Stat_Thing_Apparel_Gender>Sexo</Stat_Thing_Apparel_Gender>
+  <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
+  <Stat_Thing_Apparel_Gender_Desc>Ciertas prendas suelen ser preferidas por un sexo. Cualquier otra persona puede sentirse infeliz llevándola.</Stat_Thing_Apparel_Gender_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Qué partes del cuerpo cubre esto.\n\nLa armadura no protege las partes del cuerpo que no cubre.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -294,6 +304,8 @@
   <Stat_Hediff_Pain_Desc>La cantidad de dolor causado por esta afección.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>La compensación en la eficiencia aplicada a las partes del cuerpo afectadas por esto.</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: How efficiently this functions compared to a natural body part. -->
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>La eficacia de su funcionamiento en comparación con una parte natural del cuerpo.</Stat_Hediff_PartEfficiencyAbsolute_Desc>
   <!-- EN: The mental abilities this affects. -->
   <Stat_Hediff_Affects_Desc>Las habilidades mentales que esto afecta.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
@@ -302,8 +314,8 @@
   <Stat_Hediff_HungerRateFactor_Desc>Un multiplicador de la velocidad a la que se agotan los alimentos.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateOffset_Desc>Una compensación en la velocidad a la que la comida necesita agotarse.</Stat_Hediff_HungerRateOffset_Desc>
-  <!-- EN: Rest fall rate -->
-  <Stat_Hediff_TirednessOffset_Name>Tasa de caída de descanso</Stat_Hediff_TirednessOffset_Name>
+  <!-- EN: Sleep fall rate -->
+  <Stat_Hediff_TirednessOffset_Name>Tasa de caída del sueño</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
   <Stat_Hediff_TirednessOffset_Desc>Una compensación que se aplica a la velocidad a la que la necesidad de sueño de las criaturas cae.</Stat_Hediff_TirednessOffset_Desc>
   <!-- EN: A multiplier applied to the rate at which the creature's sleep need falls. -->
@@ -351,7 +363,7 @@
   <!-- EN: Replaces parts -->
   <Stat_Thing_ReplacesParts>Sustitución de piezas</Stat_Thing_ReplacesParts>
   <!-- EN: Body parts which are replaced by this when installed. -->
-  <Stat_Thing_ReplacesParts_Desc>Piezas de la carrocería que son sustituidas por ésta cuando se instalan.</Stat_Thing_ReplacesParts_Desc>
+  <Stat_Thing_ReplacesParts_Desc>Piezas de la carrocería que son sustituidas por esta cuando se instalan.</Stat_Thing_ReplacesParts_Desc>
   <!-- EN: Biocoding -->
   <Stat_Thing_Biocoded_Name>Biocodificado</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
@@ -376,6 +388,14 @@
   <Stat_Building_PaintColor>Color de pintura</Stat_Building_PaintColor>
   <!-- EN: The color this building was painted. -->
   <Stat_Building_PaintColorDesc>El color con el que se pintó este edificio.</Stat_Building_PaintColorDesc>
+  <!-- EN: Resources to make -->
+  <Stat_Building_ResourcesToMake>Recursos para construir</Stat_Building_ResourcesToMake>
+  <!-- EN: The resources required to construct this. -->
+  <Stat_Building_ResourcesToMakeDesc>Los recursos necesarios para su construcción.</Stat_Building_ResourcesToMakeDesc>
+  <!-- EN: The weapon mounted on this creature. -->
+  <Stat_Thing_TurretDesc>El arma montada sobre esta criatura.</Stat_Thing_TurretDesc>
+  <!-- EN: The ingredients needed to make this. -->
+  <Stat_Thing_Ingredients>Los ingredientes necesarios para hacer esto.</Stat_Thing_Ingredients>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -395,7 +415,7 @@
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
   <Stat_Thing_Drug_MinToleranceForAddiction_Desc>La tolerancia mínima requerida para volverse adicto a esta droga.\n\nSi un usuario está por debajo de este nivel de tolerancia, no puede volverse adicto por tomar una dosis.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>Un adulto solo se volverá adicto si toma la droga con más frecuencia que ésta.\n\nSe calcula a partir de la tolerancia mínima de la droga para el adicto, el aumento de la tolerancia por dosis y la tasa de disminución de la tolerancia. Algunas drogas no tienen un intervalo seguro. Estas drogas pueden crear adicción con cualquier dosis, incluso con la primera.\n\nTen en cuenta que el intervalo de dosis seguro depende del tamaño del cuerpo de la persona.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Un adulto solo se volverá adicto si toma la droga con más frecuencia que esta.\n\nSe calcula a partir de la tolerancia mínima de la droga para el adicto, el aumento de la tolerancia por dosis y la tasa de disminución de la tolerancia. Algunas drogas no tienen un intervalo seguro. Estas drogas pueden crear adicción con cualquier dosis, incluso con la primera.\n\nTen en cuenta que el intervalo de dosis seguro depende del tamaño del cuerpo de la persona.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
   <Stat_Thing_Drug_RandomODChance_Desc>La probabilidad de una sobredosis aleatoria al tomar esta droga. Pueden ocurrir sobredosis aleatorias con cualquier dosis, ya sea el primer intento de un nuevo usuario o el centésimo golpe de un adicto experimentado.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
@@ -526,5 +546,9 @@
   <Stat_Source_OfficialExpansionReport>Este contenido procede de la expansión oficial</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>Este contenido proviene del mod</Stat_Source_ModReport>
-  
+
+  <!-- EN: Contained book beauty -->
+  <ContainedBookBeauty>Belleza contenida del libro</ContainedBookBeauty>
+  <!-- EN: {0} hits -->
+  <Stat_TrapDamageHitCount>{0} aciertos</Stat_TrapDamageHitCount>
 </LanguageData>

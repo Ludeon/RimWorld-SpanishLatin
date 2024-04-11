@@ -3,8 +3,8 @@
   
   <!-- EN: destroy apparel -->
   <DestroyApparel.label>destruir ropa</DestroyApparel.label>
-  <!-- EN: Use heat to destroy unwanted apparels. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
-  <DestroyApparel.description>Usa el calor para destruir las prendas de vestir no deseadas. Este proceso es más rápido que la fundición y funciona en artículos no fundibles, pero no genera recursos.</DestroyApparel.description>
+  <!-- EN: Use heat to destroy unwanted apparel. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
+  <DestroyApparel.description>Usa el calor para destruir la prenda de vestir no deseada. Este proceso es más rápido que la fundición y funciona en artículos no fundibles, pero no genera recursos.</DestroyApparel.description>
   <!-- EN: Destroying apparel. -->
   <DestroyApparel.jobString>Destruyendo ropa.</DestroyApparel.jobString>
   
@@ -72,6 +72,13 @@
   <SmeltApparel.description>Usar el calor y fuertes electroimanes para descomponer la ropa metálica como las armaduras en recursos útiles.</SmeltApparel.description>
   <!-- EN: Smelting apparel. -->
   <SmeltApparel.jobString>Fundiendo vestimenta.</SmeltApparel.jobString>
+  
+  <!-- EN: smelt or destroy thing -->
+  <SmeltOrDestroyThing.label>fundir o destruir cosa</SmeltOrDestroyThing.label>
+  <!-- EN: Use heat and strong electromagnets to break down metallic things like weapons and armor into useful resources, or destroy them if they are not smeltable. -->
+  <SmeltOrDestroyThing.description>Utiliza calor y potentes electroimanes para descomponer objetos metálicos como armas y armaduras en recursos útiles, o destruirlos si no se pueden fundir.</SmeltOrDestroyThing.description>
+  <!-- EN: Smelting/destroying things. -->
+  <SmeltOrDestroyThing.jobString>Fundiendo/destruyendo cosas.</SmeltOrDestroyThing.jobString>
   
   <!-- EN: smelt weapon -->
   <SmeltWeapon.label>fundir arma</SmeltWeapon.label>

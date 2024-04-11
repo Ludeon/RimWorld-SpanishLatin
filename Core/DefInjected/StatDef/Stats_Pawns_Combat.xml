@@ -16,6 +16,16 @@
   <!-- EN: Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon. -->
   <MeleeArmorPenetration.description>Penetración media de armadura de todos los ataques en combate cuerpo a cuerpo (CaC).\n\nEsta estadística incluye el arma usada actualmente.</MeleeArmorPenetration.description>
   
+  <!-- EN: melee cooldown -->
+  <MeleeCooldownFactor.label>Enfriamiento CaC</MeleeCooldownFactor.label>
+  <!-- EN: A multiplier on the time this creature takes to recover after making a melee attack. -->
+  <MeleeCooldownFactor.description>Un multiplicador del tiempo que tarda esta criatura en recuperarse tras realizar un ataque cuerpo a cuerpo.</MeleeCooldownFactor.description>
+  
+  <!-- EN: melee damage factor -->
+  <MeleeDamageFactor.label>factor de daño CaC</MeleeDamageFactor.label>
+  <!-- EN: A multiplier on the amount of melee damage inflicted by this person. -->
+  <MeleeDamageFactor.description>Un multiplicador de la cantidad de daño cuerpo a cuerpo infligido por esta persona.</MeleeDamageFactor.description>
+  
   <!-- EN: melee dodge chance -->
   <MeleeDodgeChance.label>prob. de esquivar golpes CaC.</MeleeDodgeChance.label>
   <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
@@ -43,6 +53,11 @@
   <!-- EN: Chance to spring a trap the character is unaware of. -->
   <PawnTrapSpringChance.description>Probabilidad de que se active una trampa oculta.</PawnTrapSpringChance.description>
   
+  <!-- EN: ranged cooldown multiplier -->
+  <RangedCooldownFactor.label>multi. de enfriamiento de rango</RangedCooldownFactor.label>
+  <!-- EN: A multiplier on the cooldown between bursts when using a ranged weapon. -->
+  <RangedCooldownFactor.description>Un multiplicador del enfriamiento entre ráfagas al usar un arma a distancia.</RangedCooldownFactor.description>
+  
   <!-- EN: accuracy factor (long) -->
   <ShootingAccuracyFactor_Long.label>factor de precisión (largo)</ShootingAccuracyFactor_Long.label>
   <!-- EN: A multiplier on accuracy at a distance of 40 cells or more. -->
@@ -69,5 +84,10 @@
   <ShootingAccuracyPawn.description>Probabilidad mínima de no fallar por celda de distancia de disparo.\n\nLa posibilidad de un golpe también se ve afectada por muchos otros factores.\n\nLos detalles de la probabilidad de impacto de cualquier disparo se puede ver seleccionando un tirador y pasando el ratón por encima de un objetivo.</ShootingAccuracyPawn.description>
   <!-- EN: shooting accuracy (people) -->
   <ShootingAccuracyPawn.labelForFullStatList>precisión de disparo (personas)</ShootingAccuracyPawn.labelForFullStatList>
+  
+  <!-- EN: stagger time multiplier -->
+  <StaggerDurationFactor.label>multi. de tiempo de escalonamiento</StaggerDurationFactor.label>
+  <!-- EN: A multiplier on the duration of the stagger-slowdown that occurs when damage is taken. -->
+  <StaggerDurationFactor.description>Un multiplicador de la duración de la ralentización del escalonamiento que se produce cuando se recibe daño.</StaggerDurationFactor.description>
   
 </LanguageData>
