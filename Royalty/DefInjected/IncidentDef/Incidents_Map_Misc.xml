@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: mech cluster -->
+  <MechCluster.label>clúster de mecas</MechCluster.label>
+  <!-- EN: Mechanoid cluster -->
+  <MechCluster.letterLabel>Clúster de mecanoides</MechCluster.letterLabel>
+  <!-- EN: A mechanoid combat cluster is landing nearby. The cluster will be initially dormant, so you can take time to decide how to attack it.\n\nIt may remain dormant until disturbed, or it may have a timer or proximity activators.\n\nEven dormant mech clusters aren't harmless. A dormant cluster may assemble mechanoid attackers from time to time, or have some broader negative effect that must be dealt with eventually. -->
+  <MechCluster.letterText>Un grupo de combate mecanoide está aterrizando cerca. El clúster estará inicialmente inactivo, así que puedes tomarte tu tiempo para decidir cómo atacarlo.\n\nPuede permanecer inactivo hasta que se le moleste, o puede tener un temporizador o activadores de proximidad.\n\nNi siquiera los clúster de mecanoides inactivos son inofensivos. Un clúster inactivo puede reunir atacantes mecanoides de vez en cuando, o tener algún efecto negativo más amplio al que haya que hacer frente en algún momento.</MechCluster.letterText>
+  
   <!-- EN: abasia join -->
-  <WandererJoinAbasia.label>abasia se une</WandererJoinAbasia.label>
-  <WandererJoinAbasia.letterLabel>Cápsula de transporte estrellada: {PAWN_nameDef}</WandererJoinAbasia.letterLabel>
-  <WandererJoinAbasia.letterText>{PAWN_gender ? Un : Una} {PAWN_title} de nombre {PAWN_nameDef} está cayendo en las cercanías, [PAWN_pronoun] viene dentro de una cápsula de transporte dañada que chocará contra el suelo.\n\n{PAWN_nameDef} sufre de {HEDIFF_label} y no podrá caminar.\n\nSe recuperará naturalmente después de muchos días. También hay una posibilidad de una recuperación rápida y afortunada. La enfermedad conocida como: {HEDIFF_label}, también puede ser curada por una operación especial que requiere una gran cantidad de medicina de glitterworld.\n\n{PAWN_nameDef} está dispuest{PAWN_gender ? o : a} a contribuir una vez que se haya recuperado, pero no se irá voluntariamente. Si no quieres que a {PAWN_nameDef}, puedes desterrar{PAWN_objective}, vender{PAWN_objective} a la esclavitud o dejar{PAWN_objective} morir. Sin embargo, tus otros colonos pueden encontrar esto perturbador.</WandererJoinAbasia.letterText>
+  <WandererJoinAbasia.label>persona con abasia se une</WandererJoinAbasia.label>
   
 </LanguageData>

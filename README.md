@@ -4,13 +4,13 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.4.3901-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.5.4061-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld version 1.4.3901
+This is the Latin American Spanish translation of Rimworld version 1.5.4061
 
-Esta es la traducción para latinoamérica de Rimworld versión 1.4.3901
+Esta es la traducción para latinoamérica de Rimworld versión 1.5.4061
 
 See this [page](http://ludeon.com/forums/index.php?topic=2933.0) for license info:
 
@@ -36,13 +36,18 @@ de instalación es: ___RimWorld/Data/Royalty/Languages/___  para *Ideolody* el d
 - - -
 Si quieres ver esta guía de instalación con imágenes pasa por nuestro discord.
 
-Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 04/12/2022. 
+Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 11/04/2023. 
 - - -
 Para mayor información de cómo colaborar en la traducción, puedes revisar la [Wiki](https://github.com/Ludeon/RimWorld-SpanishLatin/wiki) se ha creado para ello. 
 - - -
 Current translation and adaptation by:
 
-* __[Zerstrick](https://github.com/zerstrick)__
+* __[Zerstrick](https://github.com/zerstrick)__ (main translator)
+
+Thanks to Anomaly contributors: 
+
+* __[BernyGonzalez](https://github.com/BernyGonzalez) (Active)__
+* __[Zerstrick](https://github.com/zerstrick)__ 
 
 Thanks to Biotech contributors: 
 

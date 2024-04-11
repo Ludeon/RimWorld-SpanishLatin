@@ -5,15 +5,69 @@
   <Harp.label>arpa</Harp.label>
   <!-- EN: Craft the harp, a simple stationary musical instrument popular among nobility in some cultures. -->
   <Harp.description>Fabrica un arpa, un simple instrumento musical estacionario que es popular entre la nobleza de varias culturas.</Harp.description>
+  <!-- EN:
+    <li>subject->harps</li>
+    <li>subject->simple string instruments</li>
+    <li>subject_story->trained in the school of music</li>
+    <li>subject_story->constructed a harp from common feral world materials</li>
+    <li>subject_story->performed a harp solo for the Imperial nobility</li>
+    <li>subject_story->practiced glissandos every day</li>
+    <li>subject_story->researched the cultural significance of stringed instrument usage</li>
+    <li>subject_gerund->playing the harp</li>
+  -->
+  <Harp.generalRules.rulesStrings>
+    <li>subject->arpas</li>
+    <li>subject->instrumentos de cuerda simples</li>
+    <li>subject_story->se entrenó en la escuela de música</li>
+    <li>subject_story->construyó un arpa con materiales comunes del mundo feral</li>
+    <li>subject_story->realizó un solo de arpa para la nobleza imperial</li>
+    <li>subject_story->practicó glissandos todos los días</li>
+    <li>subject_story->investigó el significado cultural del uso de instrumentos de cuerda</li>
+    <li>subject_gerund->tocar el arpa</li>
+  </Harp.generalRules.rulesStrings>
   
   <!-- EN: harpsichord -->
   <Harpsichord.label>clavicordio</Harpsichord.label>
   <!-- EN: Craft the harpsichord, a complex stationary musical instrument. -->
   <Harpsichord.description>Fabrica un clavicordio, un complejo instrumento musical estacionario.</Harpsichord.description>
+  <!-- EN:
+    <li>subject->harpsichord</li>
+    <li>subject_story->led a renaissance in the harpsichord in the coreworld systems</li>
+    <li>subject_story->tuned harpsichords for concert use on Glitterworlds</li>
+    <li>subject_story->took up a role as lead harpischordist for the local philharmonic</li>
+    <li>subject_story->constructed dual-keyboard harpsichords focused on harmonics</li>
+    <li>subject_gerund->playing the harpsichord</li>
+  -->
+  <Harpsichord.generalRules.rulesStrings>
+    <li>subject->clavicordio</li>
+    <li>subject_story->lideró un renacimiento en el clavicordio en los sistemas del coreworld</li>
+    <li>subject_story->ajustó clavicordios para su uso en conciertos en los glitterworlds</li>
+    <li>subject_story->asumió el papel de clavecinista principal para la filarmónica local</li>
+    <li>subject_story->construyó clavicordios de doble teclado centrados en la armonía</li>
+    <li>subject_gerund->tocar el clavicordio</li>
+  </Harpsichord.generalRules.rulesStrings>
   
   <!-- EN: piano -->
   <Piano.label>piano</Piano.label>
   <!-- EN: Craft the piano, an advanced stationary musical instrument. -->
   <Piano.description>Fabrica un piano, un instrumento musical estacionario avanzado.</Piano.description>
+  <!-- EN:
+    <li>subject->piano</li>
+    <li>subject_story->was acquainted with the entire corpus of stringed instruments</li>
+    <li>subject_story->joined a music academy, where the students learned about composers as much as the piano itself</li>
+    <li>subject_story->transported pianos between the coreworlds</li>
+    <li>subject_story->recorded the techniques of several master pianists</li>
+    <li>subject_story->constructed a strange piano</li>
+    <li>subject_gerund->playing the piano</li>
+  -->
+  <Piano.generalRules.rulesStrings>
+    <li>subject->piano</li>
+    <li>subject_story->se familiarizó con todo el contenido de instrumentos de cuerda</li>
+    <li>subject_story->se unió a una academia de música, donde los estudiantes aprendían sobre compositores tanto como sobre el piano en sí</li>
+    <li>subject_story->transportaba pianos entre los coreworlds</li>
+    <li>subject_story->grabó las técnicas de varios pianistas maestros</li>
+    <li>subject_story->construyó un piano extraño</li>
+    <li>subject_gerund->tocar el piano piano</li>
+  </Piano.generalRules.rulesStrings>
   
 </LanguageData>

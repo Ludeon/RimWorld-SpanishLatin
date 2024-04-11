@@ -28,6 +28,10 @@
   <CommandCallRoyalAidWarningNonHostileFactions>Estás a punto de pedir ayuda, pero hay gente de facciones a las que {0_name} no es hostil. Cualquier soldado que llames no los atacará: {1}</CommandCallRoyalAidWarningNonHostileFactions>
   <!-- EN: Not enough honor. -->
   <CommandCallRoyalAidNotEnoughFavor>No hay suficiente honor.</CommandCallRoyalAidNotEnoughFavor>
+  <!-- EN: {FACTION_name} cannot reach this area. -->
+  <CommandCallRoyalAidMapUnreachable>La facción {FACTION_name} no puede llegar a esta zona.</CommandCallRoyalAidMapUnreachable>
+  <!-- EN: Cannot call aid here. -->
+  <CommandCallRoyalAidInvalidMap>No se puede llamar a la ayuda aquí.</CommandCallRoyalAidInvalidMap>
   
   <!-- Call laborers -->
   <!-- EN: Call laborers -->
@@ -54,10 +58,14 @@
   <CommandPsycastPawnIsUnconscious>El usuario de la habilidad se desmayó.</CommandPsycastPawnIsUnconscious>
   <!-- EN: Need at least {0} psyfocus to cast this. -->
   <CommandPsycastLowPsyfocus>Necesitas al menos {0} de psicofoco para emitir esto.</CommandPsycastLowPsyfocus>
+  <!-- EN: Psychic insanity immune. -->
+  <CommandPsycastInsanityImmune>inmune a la locura psíquica</CommandPsycastInsanityImmune>
   <!-- EN: H -->
-  <NeuralHeatLetter>H</NeuralHeatLetter>
+  <NeuralHeatLetter>C</NeuralHeatLetter>
   <!-- EN: P -->
   <PsyfocusLetter>P</PsyfocusLetter>
+  <!-- EN: Psychic insanity immune -->
+  <IneffectivePsychicImmune>inmune a la locura psíquica</IneffectivePsychicImmune>
 
   <!-- Select monument marker -->
   <!-- EN: Select monument -->
