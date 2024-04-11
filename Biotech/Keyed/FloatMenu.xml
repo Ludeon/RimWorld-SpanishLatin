@@ -49,7 +49,7 @@
   <!-- EN: Occupied -->
   <Occupied>Ocupado</Occupied>
   <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
-  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} fue expulsad{PAWN_gender ? o : a} de una tina de crecimiento</OccupantEjectedFromGrowthVat>
+  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} fue expulsad{PAWN_gender ? o : a} de un tanque de crecimiento</OccupantEjectedFromGrowthVat>
   <!-- EN: {PAWN_nameDef} must be younger than {AGEYEARS} years old. -->
   <TooOld>{PAWN_nameDef} debe tener menos de {AGEYEARS} años de edad.</TooOld>
   <!-- EN: {PAWN_nameDef} is too old. -->
@@ -132,9 +132,9 @@
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
   <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} no está asignada a cuidar niños</BreastfeedFailReason_MomNotAssignedToChildcare>
   <!-- EN: {MOM_labelShort} is inside a container -->
-  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} está dentro de un contenedor</BreastfeedFailReason_MomInsideContainer> <!-- text_todo -->
+  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} está dentro de un contenedor</BreastfeedFailReason_MomInsideContainer>
   <!-- EN: {MOM_labelShort} is being carried -->
-  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} está siendo transportada</BreastfeedFailReason_MomBeingCarried> <!-- text_todo -->
+  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} está siendo transportada</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
   <OrderImplantationIntoPawn>Ordenar la implantación en {PAWN_nameDef}</OrderImplantationIntoPawn>
@@ -148,13 +148,6 @@
   <!-- EN: No available recharger -->
   <CannotCarryToRechargerNoneAvailable>No hay recargador disponible</CannotCarryToRechargerNoneAvailable>
 
-  <!-- EN: Cannot study -->
-  <CannotStudy>No puede estudiar</CannotStudy>
-  <!-- EN: already studied -->
-  <AlreadyStudied>ya ha estudiado</AlreadyStudied>
-  <!-- EN: no reachable, un-reserved research bench available -->
-  <NoResearchBench>no hay un banco de investigación accesible y sin reservar disponible</NoResearchBench>
-
   <!-- EN: Hemogen packs disabled by food restriction. -->
   <NotAllowedHemogen>Los packs de hemógeno se han deshabilitado por la restricción de alimentos.</NotAllowedHemogen>
 
@@ -165,6 +158,11 @@
   <ResultingMetTooLow>El metabolismo resultante será demasiado bajo</ResultingMetTooLow>
 
   <!-- EN: attempted romance too recently -->
-  <RomanceOnCooldown>intentó un romance hace poco</RomanceOnCooldown><!-- text_todo -->
+  <RomanceOnCooldown>intentó un romance hace poco</RomanceOnCooldown>
+
+  <!-- EN: Take to safe location -->
+  <CarryToSafePlace>Llevar a lugar seguro</CarryToSafePlace>
+  <!-- EN: Cannot take to safe location -->
+  <CannotCarryToSafePlace>No se puede llevar a lugar seguro</CannotCarryToSafePlace>
 
 </LanguageData>

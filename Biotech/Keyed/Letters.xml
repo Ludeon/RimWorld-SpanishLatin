@@ -9,7 +9,7 @@
   <!-- EN: Mechlink installed -->
   <LetterLabelMechlinkInstalled>Mecaenlace instalado</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>¡{PAWN_labelShort} ha instalado un mecaenlace! {PAWN_pronoun} es ahora un mecanizador y puede crear y controlar mecanoides.\n\nInvestiga la tecnología básica de los mecas para empezar.\n\n(*SectionTitle)Creando mecas:(/SectionTitle) Tu mecanizador puede crear mecas en un edificio de producción llamado gestador de mecas.\n\n(*/SectionTitle)Acerca de la banda ancha:(/SectionTitle) Los mecanizadores pueden controlar tantos mecas como su banda ancha total les permita. Selecciona a {PAWN_labelShort} y mira {PAWN_possessive} indicador de "banda ancha" para ver cuanta banda ancha está usando actualmente y cuanto tiene disponible. La banda ancha puede aumentarse con ciertos atuendos y construyendo edificios de nodos de banda.\n\n(*SectionTitle)Acerca de los grupos de control:(/SectionTitle) Los mecanizadores controlan los mecas en grupos. Cada grupo de control puede configurarse en uno de estos modos:\n\n- Trabajo\n- Escolta\n- Recarga\n- Autocarga latente\n\nPara saber más sobre lo que hace cada modo, selecciona el ícono de modo de trabajo en uno de los grupos de control de {PAWN_labelShort} y pasa el ratón por encima de las diferentes órdenes de trabajo. El número máximo de grupos de control puede aumentarse con ropa e implantes.\n\n(/SectionTitle)Acerca de la invocación de amenaza:(/SectionTitle) Los mecanizadores pueden indicarles a los antiguos mecas líderes que ataquen tu colonia para obtener objetos raros de ellos. Debes hacerlo para mejorar tu mecanizador más allá de ciertos límites, pero ten cuidado con el peligro.</LetterMechlinkInstalled>
+  <LetterMechlinkInstalled>¡{PAWN_labelShort} se ha instalado un mecaenlace! ahora es un mecanizador y puede crear y controlar mecanoides.\n\nInvestiga la tecnología básica de los mecas para empezar.\n\n(*SectionTitle)Creando mecas:(/SectionTitle) Tu mecanizador puede crear mecas en un edificio de producción llamado gestador de mecas.\n\n(*SectionTitle)Acerca de la banda ancha:(/SectionTitle) Los mecanizadores pueden controlar tantos mecas como su banda ancha total les permita. Selecciona a {PAWN_labelShort} y mira {PAWN_possessive} indicador de "banda ancha" para ver cuanta banda ancha está usando actualmente y cuanto tiene disponible. La banda ancha puede aumentarse con ciertos atuendos y construyendo edificios de nodos de banda.\n\n(*SectionTitle)Acerca de los grupos de control:(/SectionTitle) Los mecanizadores controlan los mecas en grupos. Cada grupo de control puede configurarse en uno de estos modos:\n\n- Trabajo\n- Escolta\n- Recarga\n- Autocarga latente\n\nPara saber más sobre lo que hace cada modo, selecciona el ícono de modo de trabajo en uno de los grupos de control de {PAWN_labelShort} y pasa el ratón por encima de las diferentes órdenes de trabajo. El número máximo de grupos de control puede aumentarse con ropa e implantes.\n\n(*SectionTitle)Acerca de la invocación de amenaza:(/SectionTitle) Los mecanizadores pueden indicarles a los antiguos mecas líderes que ataquen tu colonia para obtener objetos raros de ellos. Debes hacerlo para mejorar tu mecanizador más allá de ciertos límites, pero ten cuidado con el peligro.</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
   <MentalStateReason_Gene>Esto sucedió debido a</MentalStateReason_Gene>
@@ -34,10 +34,10 @@
   <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterBossgroupCallerUnlocked>Ahora puedes construir una {PARENT_label} la cual un mecanizador puede utilizar para invocar a un {LEADER_label}. Si derrotas al {LEADER_label}, dejará caer los siguientes objetos:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
-  <!-- EN: {0_nameDef}'s mechlink available -->
-  <LetterLabelMechanitorCasketOpened>El mecaenlace de {0_nameDef} está disponible</LetterLabelMechanitorCasketOpened>
-  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {0_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
-  <LetterMechanitorCasketOpened>Has encontrado el cadáver de un antiguo mecanizador!\n\nExtrae {0_possessive} mecaenlace seleccionando un colono y haciendo clic con el botón derecho en el cadáver.</LetterMechanitorCasketOpened>
+  <!-- EN: {PAWN_nameDef}'s mechlink available -->
+  <LetterLabelMechanitorCasketOpened>El mecaenlace de {PAWN_nameDef} está disponible</LetterLabelMechanitorCasketOpened>
+  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {PAWN_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
+  <LetterMechanitorCasketOpened>Has encontrado el cadáver de un antiguo mecanizador!\n\nExtrae su mecaenlace seleccionando un colono y haciendo clic con el botón derecho en el cadáver.</LetterMechanitorCasketOpened>
   <!-- EN: Mechanitor casket found -->
   <LetterLabelMechanitorCasketFound>Se ha encontrado el sarcófago de un mecanizador</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
@@ -56,7 +56,7 @@
   <!-- EN: {0_nameDef} became an adult -->
   <LetterLabelBecameAdult>{0_nameDef} se convirtió en un adulto</LetterLabelBecameAdult>
   <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
-  <LetterBecameChild>¡El bebé {0_nameDef} ha crecido y se ha convertido en {0_gender ? un niño : una niña}! {0_pronoun} ya es lo suficientemente mayor como para hacer el siguiente trabajo:</LetterBecameChild>
+  <LetterBecameChild>¡El bebé {0_nameDef} ha crecido y se ha convertido en {0_gender ? un niño : una niña}! {0_pronoun} ya es lo suficientemente mayor como para los siguientes trabajos:</LetterBecameChild>
   <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
   <LetterBecameChildChanges>Los niños pueden hacer varios tipos de trabajo. A medida que crecen, son capaces de realizar más tipos de trabajo.\n\nTambién realizan diversas actividades recreativas específicas para niños.\n\nLos niños necesitan llevar ropa especial de tamaño infantil.</LetterBecameChildChanges>
   <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
@@ -84,17 +84,17 @@
   <!-- EN: {0} vat birth -->
   <LetterVatBirth>{0} nacimiento en tina</LetterVatBirth>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
-  <LetterVatHealthyBaby>¡El embrión de {0_nameDef} y {1_nameDef} ha terminado de gestarse en una tina de crecimiento y se ha convertido en un bebé sano!</LetterVatHealthyBaby>
+  <LetterVatHealthyBaby>¡El embrión de {0_nameDef} y {1_nameDef} ha terminado de gestarse en un tanque de crecimiento y se ha convertido en un bebé sano!</LetterVatHealthyBaby>
   <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
-  <LetterVatHealthyBabyNoParents>Un embrión ha terminado de gestarse en una tina de crecimiento y se ha convertido en un bebé sano.</LetterVatHealthyBabyNoParents>
+  <LetterVatHealthyBabyNoParents>Un embrión ha terminado de gestarse en un tanque de crecimiento y se ha convertido en un bebé sano.</LetterVatHealthyBabyNoParents>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllness>El embrión de {0_nameDef} y {1_nameDef} ha terminado de gestarse en una tina de crecimiento y se ha convertido en un bebé. Por desgracia, el bebé está enfermo.</LetterVatInfantIllness>
+  <LetterVatInfantIllness>El embrión de {0_nameDef} y {1_nameDef} ha terminado de gestarse en un tanque de crecimiento y se ha convertido en un bebé. Por desgracia, el bebé está enfermo.</LetterVatInfantIllness>
   <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllnessNoParents>Un embrión ha terminado de gestarse en una tina de crecimiento y se ha convertido en un bebé. Por desgracia, el bebé está enfermo.</LetterVatInfantIllnessNoParents>
+  <LetterVatInfantIllnessNoParents>Un embrión ha terminado de gestarse en un tanque de crecimiento y se ha convertido en un bebé. Por desgracia, el bebé está enfermo.</LetterVatInfantIllnessNoParents>
   <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
-  <LetterVatStillborn>El bebé formado en una tina de crecimiento a partir del embrión de {0_nameDef} y {1_nameDef} nació muerto.</LetterVatStillborn>
+  <LetterVatStillborn>El bebé formado en un tanque de crecimiento a partir del embrión de {0_nameDef} y {1_nameDef} nació muerto.</LetterVatStillborn>
   <!-- EN: The baby formed in a growth vat was stillborn. -->
-  <LetterVatSillbornNoParents>El bebé formado en una tina de crecimiento nació muerto.</LetterVatSillbornNoParents>
+  <LetterVatSillbornNoParents>El bebé formado en un tanque de crecimiento nació muerto.</LetterVatSillbornNoParents>
   <!-- EN: {0_labelShort} in labor! -->
   <LetterColonistPregnancyLaborLabel>{0_labelShort} ¡en parto!</LetterColonistPregnancyLaborLabel>
   <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
@@ -115,7 +115,7 @@
   <!-- EN: within -->
   <Within>dentro</Within>
   <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
-  <LetterPartTempBabyName>Al bebé se le ha dado el nombre temporal de {0_nombreFull}.</LetterPartTempBabyName>
+  <LetterPartTempBabyName>Al bebé se le ha dado el nombre temporal de {0_nameFull}.</LetterPartTempBabyName>
   <!-- EN: You can change it until {0} after birth. -->
   <LetterPartLiveBirthNameDeadline>Puedes cambiarlo hasta {0} después del nacimiento.</LetterPartLiveBirthNameDeadline>
   <!-- EN: Would you like to give the baby another name? -->
@@ -130,9 +130,9 @@
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
   <BirthdayBiologicalAgeWorkTypes>{0_nameDef} es ahora lo suficientemente mayor como para hacer el siguiente trabajo</BirthdayBiologicalAgeWorkTypes>
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassion>Elige 1 habilidad para que {0_nameDef} aumente su pasión para</BirthdayPickPassion>
+  <BirthdayPickPassion>Elige 1 habilidad por la que {0_nameDef} tendrá más pasión</BirthdayPickPassion>
   <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassions>Elige {1} habilidades para que {0_nameDef} aumente su pasión para</BirthdayPickPassions>
+  <BirthdayPickPassions>Elige {1} habilidades por las que {0_nameDef} tendrá más pasión</BirthdayPickPassions>
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
   <BirthdayPickTrait>Elige un rasgo para {0_nameDef}</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
@@ -187,7 +187,7 @@
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
   <LetterTextRegenerationComa>En cambio, ha caído en un coma regenerativo.</LetterTextRegenerationComa>
   <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
-  <DeathrestLostSkill>Debido al shock neural de un traumático mortisueño, {PAWN_nameDef} ha perdido {XPLOSS} XP en su habilidad de {SKILL}.</DeathrestLostSkill>
+  <DeathrestLostSkill>Debido al shock neural de un traumático mortisueño, {PAWN_nameDef} ha perdido {XPLOSS} EXP en su habilidad de {SKILL}.</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>Daño letal recibido.</DeathrestLethalDamage>
 

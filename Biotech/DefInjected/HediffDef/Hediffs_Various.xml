@@ -4,7 +4,7 @@
   <!-- EN: bio-starvation -->
   <BioStarvation.label>bioinanición</BioStarvation.label>
   <!-- EN: This person was in a growth vat which wasn't functioning properly due to lack of power or nutrition feedstock. This has left their body in a state of bio-starvation. -->
-  <BioStarvation.description>Esta persona estaba en una tina de crecimiento que no funcionaba correctamente debido a la falta de energía o de materia prima nutritiva. Esto ha dejado su cuerpo en un estado de bioinanición.</BioStarvation.description>
+  <BioStarvation.description>Esta persona estaba en una tanque de crecimiento que no funcionaba correctamente debido a la falta de energía o de materia prima nutritiva. Esto ha dejado su cuerpo en un estado de bioinanición.</BioStarvation.description>
   
   <!-- EN: deathresting -->
   <Deathrest.label>mortisoñando</Deathrest.label>
@@ -22,8 +22,9 @@
   <GeneticDrugNeed.description>Esta persona tiene una dependencia bioquímica inducida genéticamente a una droga específica. Sin dosis regulares de la droga, su cuerpo no puede mantenerse en un estado saludable y sufrirá una degradación su salud y humor hasta que muera.\n\nSurte efecto a partir de los 13 años.</GeneticDrugNeed.description>
   <!-- EN: deficiency -->
   <GeneticDrugNeed.stages.deficiency.label>deficiencia</GeneticDrugNeed.stages.deficiency.label>
+  <GeneticDrugNeed.stages.deficiency.overrideLabel>coma por deficiencia</GeneticDrugNeed.stages.deficiency.overrideLabel>
   <!-- EN: deficiency coma -->
-  <GeneticDrugNeed.stages.2.overrideLabel>coma por deficiencia</GeneticDrugNeed.stages.2.overrideLabel>
+  <GeneticDrugNeed.stages.3.overrideLabel>coma por deficiencia</GeneticDrugNeed.stages.3.overrideLabel>
   
   <!-- EN: hemogen craving -->
   <HemogenCraving.label>antojo de hemógenos</HemogenCraving.label>
@@ -70,14 +71,14 @@
   <ScanningSickness.description>Esta persona fue escaneada por un flexiescáner para producir un subnúcleo mecanoide. El dispositivo de escaneo de alta energía ha causado alteraciones en su química cerebral que tardarán en resolverse. No habrá ningún daño a largo plazo.</ScanningSickness.description>
   
   <!-- EN: vat growing -->
-  <VatGrowing.label>crecimiento en tina</VatGrowing.label>
+  <VatGrowing.label>crecimiento en tanque</VatGrowing.label>
   <!-- EN: The growth vat is stimulating this person's body to increase the rate of cell division and aging. -->
-  <VatGrowing.description>La tina de crecimiento está estimulando el cuerpo de esta persona para aumentar la tasa de división celular y el envejecimiento.</VatGrowing.description>
+  <VatGrowing.description>El tanque de crecimiento está estimulando el cuerpo de esta persona para aumentar la tasa de división celular y el envejecimiento.</VatGrowing.description>
   
   <!-- EN: vat learning -->
-  <VatLearning.label>aprendizaje en tina</VatLearning.label>
+  <VatLearning.label>aprendizaje en tanque</VatLearning.label>
   <!-- EN: The growth vat is electrically stimulating this person's brain to induce skill development. This process is not very effective, and will only partially replace the skills missed from not growing in the outside world. -->
-  <VatLearning.description>La tina de crecimiento estimula eléctricamente el cerebro de esta persona para inducir el desarrollo de habilidades. Este proceso no es muy eficaz, y solo sustituirá parcialmente las habilidades perdidas por no crecer en el mundo exterior.</VatLearning.description>
+  <VatLearning.description>El tanque de crecimiento estimula eléctricamente el cerebro de esta persona para inducir el desarrollo de habilidades. Este proceso no es muy eficaz, y solo sustituirá parcialmente las habilidades perdidas por no crecer en el mundo exterior.</VatLearning.description>
   
   <!-- EN: xenogermination coma -->
   <XenogerminationComa.label>coma xenogerminativo</XenogerminationComa.label>

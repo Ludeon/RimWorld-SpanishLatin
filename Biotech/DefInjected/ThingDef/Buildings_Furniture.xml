@@ -15,10 +15,8 @@
   <Blackboard.label>pizarrón</Blackboard.label>
   <!-- EN: A flat stone-like surface for writing on with chalk. Placed near a lesson desk, blackboards increase childrens' learning rate during lessons. Up to three blackboards can be used at a time. -->
   <Blackboard.description>Una superficie plana similar a la piedra para escribir con tiza. Colocadas cerca de un pupitre, las pizarras aumentan el ritmo de aprendizaje de los niños durante las clases. Se pueden utilizar hasta tres pizarras a la vez.</Blackboard.description>
-  <!-- EN: When near a desk where a lesson is taking place, this building increases the student's learning rate. This effect can stack up to three times. -->
-  <Blackboard.comps.CompStatEntry.reportText>Cuando está cerca de un pupitre en el que se imparte una clase, este edificio aumenta el ritmo de aprendizaje del alumno. Este efecto puede acumularse hasta tres veces.</Blackboard.comps.CompStatEntry.reportText>
-  <!-- EN: Learning rate bonus -->
-  <Blackboard.comps.CompStatEntry.statLabel>Bono de tasa de aprendizaje</Blackboard.comps.CompStatEntry.statLabel>
+  <!-- EN: Learning rate -->
+  <Blackboard.comps.CompInspectStringBlackboard.inspectString>Ritmo de aprendizaje</Blackboard.comps.CompInspectStringBlackboard.inspectString>
   
   <!-- EN: crib -->
   <Crib.label>cuna</Crib.label>
@@ -32,9 +30,9 @@
   <!-- EN: A multiplier on how quickly children learn during lessons which are assisted by this. -->
   <SchoolDesk.comps.CompStatEntrySchoolDesk.reportText>Un multiplicador de la rapidez con la que los niños aprenden durante las clases al utilizarlos.</SchoolDesk.comps.CompStatEntrySchoolDesk.reportText>
   <!-- EN: Learning rate bonus -->
-  <SchoolDesk.comps.CompStatEntrySchoolDesk.statLabel>Bono de tasa de aprendizaje</SchoolDesk.comps.CompStatEntrySchoolDesk.statLabel>
+  <SchoolDesk.comps.CompStatEntrySchoolDesk.statLabel>Bono de ritmo de aprendizaje</SchoolDesk.comps.CompStatEntrySchoolDesk.statLabel>
   <!-- EN: Learning rate bonus -->
-  <SchoolDesk.comps.CompInspectStringSchooldesk.inspectString>Bono de tasa de aprendizaje</SchoolDesk.comps.CompInspectStringSchooldesk.inspectString>
+  <SchoolDesk.comps.CompInspectStringSchooldesk.inspectString>Bono de ritmo de aprendizaje</SchoolDesk.comps.CompInspectStringSchooldesk.inspectString>
   
   <!-- EN: toy box -->
   <ToyBox.label>caja de juguetes</ToyBox.label>

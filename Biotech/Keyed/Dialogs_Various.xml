@@ -18,8 +18,10 @@
   <MechControllerMentalState>{PAWN_labelShort} está en el estado mental "{MENTALSTATE_label}".</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
   <ConfirmDisassemblingMech>¿Quieres desarmar permanentemente a {0}?\n\nDesarmar permanentemente a {0} recuperará</ConfirmDisassemblingMech>
-  <!-- EN: A mechanitor must be capable of smithing to create mechanoids\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink>Un mecanizador debe ser capaz de forjar para crear mecanoides\n\n¿Seguro que quieres continuar?</ConfirmInstallMechlink>
+  <!-- EN: A mechanitor must be capable of smithing to create mechanoids.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Smithing>Un mecanizador debe ser capaz de forjar para crear mecanoides.\n\n¿Seguro que quieres continuar?</ConfirmInstallMechlink_Smithing>
+  <!-- EN: A mechanitor must be capable of intellectual tasks to unlock mechanitor research.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Intellectual>Un mecanizador debe ser capaz de realizar tareas intelectuales para desbloquear la investigación mecanizadora.\n\n¿Seguro que quieres continuar?</ConfirmInstallMechlink_Intellectual>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>banda ancha insuficiente</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
@@ -217,7 +219,7 @@
 
   <!-- Deathrest -->
   <!-- EN: Waking {PAWN_nameDef} before {MINDURATION} has passed will interrupt {PAWN_possessive} deathrest, leaving {PAWN_objective} sick for days while {PAWN_pronoun} recovers. Waking early means {PAWN_nameDef} will not benefit from any deathrest buildings. {PAWN_pronoun} has been deathresting for {CURDURATION}.\n\nAre you sure you wish to wake {PAWN_nameDef}? -->
-  <WarningWakingInterruptsDeathrest>Despertar a {PAWN_nameDef} antes de que pasen {MINDURATION} interrumpirá su mortisueño, enfermándo{PAWN_objetivo} por días mientras se recupera. Despertarlo antes supone que {PAWN_nameDef} no se beneficiará de los edificios de mortisueño. {PAWN_pronoun} ha estado mortisoñando durante {CURDURATION}.\n\n¿Seguro que quieres despertar a {PAWN_nameDef}?</WarningWakingInterruptsDeathrest>
+  <WarningWakingInterruptsDeathrest>Despertar a {PAWN_nameDef} antes de que pasen {MINDURATION} interrumpirá su mortisueño, enfermándo{PAWN_objective} por días mientras se recupera. Despertarlo antes supone que {PAWN_nameDef} no se beneficiará de los edificios de mortisueño. {PAWN_pronoun} ha estado mortisoñando durante {CURDURATION}.\n\n¿Seguro que quieres despertar a {PAWN_nameDef}?</WarningWakingInterruptsDeathrest>
 
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->

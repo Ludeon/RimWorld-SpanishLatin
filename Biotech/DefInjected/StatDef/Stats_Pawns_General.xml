@@ -18,20 +18,15 @@
   <!-- EN: {0}s -->
   <ControlTakingTime.formatString>{0}s</ControlTakingTime.formatString>
   
-  <!-- EN: EMP resistance -->
-  <EMPResistance.label>Resistencia al PEM</EMPResistance.label>
-  <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
-  <EMPResistance.description>Este mecanoide cuenta con filamentos especiales de blindaje y disipación de impactos que reducen el efecto del daño por PEM en este porcentaje. Esto reduce la duración de los aturdimientos causados por el PEM.</EMPResistance.description>
-  
   <!-- EN: fertility -->
   <Fertility.label>fertilidad</Fertility.label>
   <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
   <Fertility.description>La fertilidad afecta a la posibilidad de que se produzca un embarazo. La posibilidad de embarazo depende de la fertilidad de ambos miembros de la pareja. Esto también afecta a la posibilidad de implantar con éxito un embrión en una madre de alquiler.</Fertility.description>
   
   <!-- EN: growth vat occupant speed -->
-  <GrowthVatOccupantSpeed.label>vel. de crecimiento en la tina</GrowthVatOccupantSpeed.label>
+  <GrowthVatOccupantSpeed.label>vel. de crecimiento en tanque</GrowthVatOccupantSpeed.label>
   <!-- EN: A multiplier on how quickly this person will grow when in a growth vat. -->
-  <GrowthVatOccupantSpeed.description>Un multiplicador de la rapidez con la que esta persona crecerá cuando esté en una tina de crecimiento.</GrowthVatOccupantSpeed.description>
+  <GrowthVatOccupantSpeed.description>Un multiplicador de la rapidez con la que esta persona crecerá cuando esté en un tanque de crecimiento.</GrowthVatOccupantSpeed.description>
   
   <!-- EN: hemogen gain multiplier -->
   <HemogenGainFactor.label>multi. de ganancia de hemógeno</HemogenGainFactor.label>
@@ -102,7 +97,6 @@
   <WastepacksPerRecharge.label>packs de residuos por recarga</WastepacksPerRecharge.label>
   <!-- EN: How many toxic wastepacks this mechanoid will generate at a mech recharger when going from 0 to 100% energy. Larger mechanoids will generally create more toxic wastepacks. -->
   <WastepacksPerRecharge.description>Cuántos packs de residuos tóxicos generará este mecanoide en una recarga de meca cuando pase de 0 a 100% de energía. Los mecanoides más grandes suelen generar más packs de residuos tóxicos.</WastepacksPerRecharge.description>
-  <!-- EN: Relevant stats -->
   <WastepacksPerRecharge.statFactorsExplanationHeader>Estadísticas relevantes</WastepacksPerRecharge.statFactorsExplanationHeader>
   
 </LanguageData>

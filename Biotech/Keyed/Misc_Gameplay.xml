@@ -77,6 +77,8 @@
   <Groups>Grupos</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Cargando los recursos de gestación del meca</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>Tiempo restante de este ciclo</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>Iniciando el ciclo de gestación del meca</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -145,16 +147,14 @@
   <AutoWakeDesc>Cuando esté encendido, {PAWN_nameDef} será despertad{PAWN_gender ? o : a} de forma automática una vez su mortisueño haya sido completado.\n\nCuando esté apagado, continuará su mortisueño hasta que {PAWN_objective} despiertes manualmente.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} está mortisoñando.</IsDeathresting>
-  <!-- EN: Cannot deathrest -->
-  <CannotDeathrest>Imposible mortisoñar</CannotDeathrest>
+  <!-- EN: cannot deathrest -->
+  <CannotDeathrest>imposible mortisoñar</CannotDeathrest>
   <!-- EN: Start deathrest -->
   <StartDeathrest>Comenzar mortisueño</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
   <ConfirmExitDeathrestUnderMinDays>Completar el mortisueño de manera segura tomará {MINDURATION}, pero {PAWN_nameDef} deberá mortisoñar solo por {CURDURATION}.\n\nDespertar a {PAWN_nameDef} puede interrumpir su mortisueño, tirando su metabolismo fuera de balance y haciendo{PAWN_objective} que enferme por días.\n\n¿Estás seguro de que deseas despertar{PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>mortisoñando</Deathresting>
-  <!-- EN: complete -->
-  <Complete>completar</Complete>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>puede levantarse de manera segura ahora.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -297,8 +297,8 @@
   <ComplexityTotal>Complejidad total</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>La complejidad total de todos los genes en uso.</ComplexityTotalDesc>
-  <!-- EN: Metabolic efficiency -->
-  <Metabolism>Eficiencia metabólica</Metabolism>
+  <!-- EN: metabolic efficiency -->
+  <Metabolism>eficiencia metabólica</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>La eficiencia metabólica total de los genes cuando se ensamblan. Una alta eficiencia quiere decir que una persona necesitará menos comida, en cambio, si tiene baja eficiencia deberá comer más.</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
@@ -402,7 +402,7 @@
   <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
   <ExtractionPausedNoPower>Extracción pausada: Sin energía (interrupción en {TIME})</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
-  <LastIngestedDurationAgo>{CHEMICAL_label} ingerido por última vez hace {DURATION}.</LastIngestedDurationAgo>
+  <LastIngestedDurationAgo>La última vez que ingirió {CHEMICAL_label} fue hace {DURATION}.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
   <NamedXenogerm>Xenogermen {NAME}</NamedXenogerm>
   <!-- EN: Inserted {0} -->
@@ -429,8 +429,6 @@
   <LethalInjuries>Heridas letales</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>mortisueño</Deathrest>
-  <!-- EN: Buildings -->
-  <Buildings>Edificios</Buildings>
   <!-- EN: capacity -->
   <Capacity>capacidad</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
@@ -446,8 +444,6 @@
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>Los niños quieren aprender de diferentes actividades en diferentes momentos.</LearningDesireTooltip>
-  <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>El deseo de aprendizaje actual de {0_nameDef}:</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>La salud del desarrollo es la media de las necesidades de aprendizaje de un niño desde su último cumpleaños.\n\nLos niños con mayor salud de desarrollo tendrán más opciones en los momentos de crecimiento y se apasionarán más por las habilidades.</DevelopmentHealthGizmoTooltip>
 
@@ -485,6 +481,8 @@
   <GestatingMech>Gestando a {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>{0} fue gestado</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>Requiere a {PAWN_nameDef} para seguir gestando</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>Requiere a {PAWN_nameDef} para completarse</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
@@ -550,15 +548,15 @@
   <!-- EN: Biostarvation -->
   <Biostarvation>Bioinanición</Biostarvation>
   <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
-  <BiostarvationExplanation>Una o más tinas de crecimiento están experimentando bioinanición por falta de nutrición o de energía.\n\nSi la bioinanición alcanza el 100%, las personas contenidas morirán.</BiostarvationExplanation>
+  <BiostarvationExplanation>Uno o más tanques de crecimiento están experimentando bioinanición por falta de nutrición o de energía.\n\nSi la bioinanición alcanza el 100%, las personas contenidas morirán.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
-  <InsertPersonGrowthVatDesc>Inserta una persona dentro de la tina de crecimiento. Envejecerá 20 veces más rápido de lo normal.</InsertPersonGrowthVatDesc>
+  <InsertPersonGrowthVatDesc>Introduce a una persona dentro del tanque de crecimiento. Envejecerá 20 veces más rápido de lo normal.</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>Implanta un embrión en la tina de crecimiento. Luego de gestar por {0} días, un bebé completamente formado será producido por la tina de crecimiento, esperemos que en buen estado.</InsertEmbryoGrowthVatDesc>
+  <InsertEmbryoGrowthVatDesc>Implanta un embrión en el tanque de crecimiento. Luego de gestar por {0} días, un bebé completamente formado será producido por la tanque de crecimiento, esperemos que en buen estado.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
-  <ImplantEmbryo>Inserta embrión</ImplantEmbryo>
+  <ImplantEmbryo>Introducir embrión</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
-  <CannotInsertEmbryo>No se puede insertar embrión</CannotInsertEmbryo>
+  <CannotInsertEmbryo>No se puede introducir un embrión</CannotInsertEmbryo>
   <!-- EN: Already contains embryo. -->
   <EmbryoAlreadyInside>Ya contiene un embrión.</EmbryoAlreadyInside>
   <!-- EN: No embryos -->
@@ -572,9 +570,9 @@
   <!-- EN: Person selected -->
   <PersonSelected>Persona seleccionada</PersonSelected>
   <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
-  <NoPawnsCanEnterGrowthVat>Sin personas sin bioinanición de edad aceptable. Para entrar en la tina de crecimiento, la persona debe tener menos de {0} años y no estar actualmente en bioinanición</NoPawnsCanEnterGrowthVat>
+  <NoPawnsCanEnterGrowthVat>No hay personas no bioalimentadas en edad aceptable. Para entrar en el tanque de crecimiento, la persona debe tener menos de {0} años y no estar actualmente en bioinanición.</NoPawnsCanEnterGrowthVat>
   <!-- EN: Aging speed -->
-  <AgingSpeed>Velocidad de envejecimiento</AgingSpeed>
+  <AgingSpeed>Vel. de envejecimiento</AgingSpeed>
 
   <!-- Mech charger -->
   <!-- EN: Waste -->
@@ -650,9 +648,9 @@
 
   <!-- Mechs -->
   <!-- EN: Mech stun pulse on death -->
-  <MechStunPulseWarning>Pulso de aturdimiento al morir del meca</MechStunPulseWarning>
+  <MechStunPulseWarning>Pulso de aturdimiento meca al morir</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
-  <IsLowEnergySelfShutdown>{PAWN_nameDef} está en autoapagado por su bajo nivel de energía.</IsLowEnergySelfShutdown>
+  <IsLowEnergySelfShutdown>{PAWN_nameDef} se ha apagado por su bajo nivel de energía.</IsLowEnergySelfShutdown>
   
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
@@ -708,7 +706,7 @@
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>No se puede fertilizar</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
-  <FertilizeGizmoDescription>Elige un hombre para fertilizar este óvulo para crear un embrión. El embrión podrá ser implantado en una madre para comenzar un embarazo, o en una tina de crecimiento. Los padres biológicos del niño resultante podrán ser la mujer que proporcionó el óvulo y el hombre que lo fertilizó.</FertilizeGizmoDescription>
+  <FertilizeGizmoDescription>Elige un hombre para fertilizar este óvulo para crear un embrión. El embrión podrá ser implantado en una madre para comenzar un embarazo, o en un tanque de crecimiento. Los padres biológicos del niño resultante podrán ser la mujer que proporcionó el óvulo y el hombre que lo fertilizó.</FertilizeGizmoDescription>
   <!-- EN: Cancel fertilization by {0} -->
   <FertilizeCancel>Cancelar la fertilización por {0}</FertilizeCancel>
   <!-- EN: sterile -->
@@ -729,28 +727,28 @@
   <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
   <ImplantDescription>Implanta este embrión en una madre sustituta para comenzar con el embarazo.</ImplantDescription>
   <!-- EN: Insert in growth vat -->
-  <InsertGrowthVatLabel>Inserta en una tina de crecimiento</InsertGrowthVatLabel>
+  <InsertGrowthVatLabel>Inserta en un tanque de crecimiento</InsertGrowthVatLabel>
 
   <!-- EN: Cannot implant -->
   <ImplantCannotFloatOption>No se puede implantar</ImplantCannotFloatOption>
   <!-- EN: No woman can be a surrogate mother. -->
   <ImplantDisabledNoWomen>Ninguna mujer puede ser madre sustituta.</ImplantDisabledNoWomen>
   <!-- EN: No available growth vats. -->
-  <ImplantDisabledNoVats>Sin tinas de crecimiento disponibles.</ImplantDisabledNoVats>
+  <ImplantDisabledNoVats>Sin tanques de crecimiento disponibles.</ImplantDisabledNoVats>
   <!-- EN: Implant {0} -->
   <ImplantSurgeryLabel>Implantar a {0}</ImplantSurgeryLabel>
   <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
-  <ImplantSurgeryConfirm>Las chances de éxito de la implantación para el {0} en {1} es {2}.\n\nLas chances de éxito dependen de la fertilidad de la madre sustituta. Pueden ser menores si la madre es muy anciana o muy joven.</ImplantSurgeryConfirm>
+  <ImplantSurgeryConfirm>La probabilidad de éxito de la implantación para el {0} en {1} es de {2}.\n\nLa probabilidad de éxito depende de la fertilidad de la madre sustituta. Pueden ser menores si la madre es muy anciana o muy joven.</ImplantSurgeryConfirm>
   <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
-  <ImplantEmbryoCancelVat>Eyectar el {0} de la tina de crecimiento ahora mismo podría destruirlo antes de que el bebé sea formado.\n\n¿Seguro que deseas continuar?</ImplantEmbryoCancelVat>
+  <ImplantEmbryoCancelVat>Eyectar el {0} del tanque de crecimiento ahora mismo podría destruirlo antes de que el bebé sea formado.\n\n¿Seguro que deseas continuar?</ImplantEmbryoCancelVat>
   <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
   <ImplantFailedMessage>Fallo al implantar el {0} en {1}.</ImplantFailedMessage>
   <!-- EN: Cancel embryo insertion -->
   <ImplantEmbryoCancel>Cancelar la inserción del embrión.</ImplantEmbryoCancel>
   <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
-  <EmbryoEjectedFromGrowthVat>{0} fue eyectado de una tina de crecimiento y destruido.</EmbryoEjectedFromGrowthVat>
+  <EmbryoEjectedFromGrowthVat>El {0} fue eyectado de un tanque de crecimiento y destruido.</EmbryoEjectedFromGrowthVat>
   <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
-  <EmbryoEjectedFromGrowthVatBiostarvation>{0} fue destruido en una tina de crecimiento debido a la bioinanición.</EmbryoEjectedFromGrowthVatBiostarvation>
+  <EmbryoEjectedFromGrowthVatBiostarvation>El {0} fue destruido en una tanque de crecimiento debido a la bioinanición.</EmbryoEjectedFromGrowthVatBiostarvation>
 
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
   <IvfPregnancyLetterText>{0} ¡fue embarazada con éxito gracias a la implantación del embrión!</IvfPregnancyLetterText>
