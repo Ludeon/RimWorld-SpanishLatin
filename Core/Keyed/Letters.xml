@@ -155,7 +155,7 @@
   <!-- EN: This happened because of: {0}. -->
   <MentalStateReason_Hediff>Esto sucedió por culpa de: {0}.</MentalStateReason_Hediff>
   <!-- EN: This happened because of {0_definite}'s death. -->
-  <MentalStateReason_BondedHumanDeath>Esto sucedió debido a la muerte de {0_definite}.</MentalStateReason_BondedHumanDeath>
+  <MentalStateReason_BondedHumanDeath>Esto sucedió debido a la muerte {replace: de {0_definite}; "de el "-"del "}.</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>El último evento fue</LastFactionRelationsEvent>
 

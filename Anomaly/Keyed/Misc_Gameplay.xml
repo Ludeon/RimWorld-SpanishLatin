@@ -305,11 +305,11 @@
   <!-- EN: Capture -->
   <CaptureEntity>Capturar</CaptureEntity>
   <!-- EN: Capture {0_definite}. It must be restrained on a holding platform. Once restrained, it can be studied. -->
-  <CaptureEntityDesc>Captura a {0_definite}. Debe ser inmovilizad{0_gender ? o : a} en una plataforma de contención. Una vez inmovilizad{0_gender ? o : a}, puede ser estudiad{0_gender ? o : a}.</CaptureEntityDesc>
+  <CaptureEntityDesc>Captura {replace: a {0_definite}; "a el "-"al "}. Debe ser inmovilizad{0_gender ? o : a} en una plataforma de contención. Una vez inmovilizad{0_gender ? o : a}, puede ser estudiad{0_gender ? o : a}.</CaptureEntityDesc>
   <!-- EN: Cancel capture -->
   <CancelCapture>Cancelar captura</CancelCapture>
   <!-- EN: Cancel capturing {0_definite}. -->
-  <CancelCaptureDesc>Cancela la captura de {0_definite}.</CancelCaptureDesc>
+  <CancelCaptureDesc>Cancela la captura {replace: de {0_definite}; "de el "-"del "}.</CancelCaptureDesc>
   <!-- EN: ready to study -->
   <ReadyToStudy>listo para el estudio</ReadyToStudy>
   <!-- EN: No active anomaly research project selected for {0} knowledge category. -->
@@ -321,7 +321,7 @@
   <!-- EN: Choose a location for the nociosphere to teleport to. -->
   <ChooseNociosphereDest>Elige un lugar al que teletransportar la nociosfera.</ChooseNociosphereDest>
   <!-- EN: Transfer {0_definite} -->
-  <TransferEntity>Trasladar a {replace: a {0_definite}; "a el "-"al "}</TransferEntity>
+  <TransferEntity>Trasladar {replace: a {0_definite}; "a el "-"al "}</TransferEntity>
   <!-- EN: Transfer the contained entity to another holding platform. -->
   <TransferEntityDesc>Traslada la entidad confinada a otra plataforma de contención.</TransferEntityDesc>
   <!-- EN: Cancel transfer -->
