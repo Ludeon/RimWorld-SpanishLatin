@@ -42,12 +42,12 @@ Para mayor información de cómo colaborar en la traducción, puedes revisar la 
 - - -
 Current translation and adaptation by:
 
-* __[Zerstrick](https://github.com/zerstrick)__ (main translator)
+* __[Zerstrick](https://github.com/zerstrick) (main translator)__
 
 Thanks to Anomaly contributors: 
 
 * __[BernyGonzalez](https://github.com/BernyGonzalez) (Active)__
-* __[Zerstrick](https://github.com/zerstrick)__ 
+* __[Zerstrick](https://github.com/zerstrick) (Active)__
 
 Thanks to Biotech contributors: 
 
