@@ -308,9 +308,9 @@
   <ReloadCannotCarryEnough>No puede llevar suficiente {AMMO_label} para recargar 1 carga.</ReloadCannotCarryEnough>
   
   <!-- EN: Cannot pick up {1_labelShort} -->
-  <CannotPickUp>{1_labelShort} no se puede recoger</CannotPickUp>
+  <CannotPickUp>No se puede recoger {1_labelShort}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
-  <CannotPickUpAll>{1_label} no se puede recoger (todos)</CannotPickUpAll>
+  <CannotPickUpAll>No se puede recoger {1_label} (todos)</CannotPickUpAll>
   <!-- EN: Pick up {1_labelShort} x1 -->
   <PickUpOne>Recoger {1_labelShort} x1</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
@@ -392,7 +392,7 @@
   <!-- EN: Rest until healed -->
   <UseMedicalBed>Descansar hasta curarse</UseMedicalBed>
   <!-- EN: not injured -->
-  <NotInjured>No tiene heridas</NotInjured>
+  <NotInjured>no tiene heridas</NotInjured>
   <!-- EN: no doctor -->
   <NoDoctor>sin médico</NoDoctor>
   <!-- EN: medical bed not for slaves -->
@@ -440,7 +440,7 @@
   <!-- EN: Enter {0} -->
   <CommandEnterPortal>Entrar en {0}</CommandEnterPortal>
   <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>Seleccione personas y objetos para entrar en el {0}.</CommandEnterPortalDesc>
+  <CommandEnterPortalDesc>Selecciona a las personas y objetos para entrar en el {0}.</CommandEnterPortalDesc>
   <!-- EN: Cancel entering -->
   <CommandCancelEnterPortal>Cancelar entrada</CommandCancelEnterPortal>
   <!-- EN: Cancel loading people or items into this. -->
@@ -461,7 +461,7 @@
   <CannotGenericWorkCustom>No se puede {0}</CannotGenericWorkCustom>
 
   <!-- EN: Cannot prioritize: Incapable of {0} -->
-  <CannotMissingHealthActivities>No se puede priorizar: Incapaz de {0}</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>No se puede priorizar: incapaz de {0}</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
@@ -470,17 +470,17 @@
   <CannotGenericAlreadyAmCustom>Ya se está {0}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Cannot prioritize: Will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>No se puede priorizar: Nunca hará {0}</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>No se puede priorizar: nunca hará {0}</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>carece del título necesario</MissingTitleAbility>
 
   <!-- EN: Cannot prioritize: Will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>No se puede priorizar: Nunca hará {0}</CannotPrioritizeWorkGiverDisabled>
+  <CannotPrioritizeWorkGiverDisabled>No se puede priorizar: nunca hará {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>nunca hará {0}</WillNever>
 
   <!-- EN: Cannot prioritize: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>No se puede priorizar: No asignado a {0}</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>No se puede priorizar: no asignado a {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>no asignado</NotAssigned>
   <!-- EN: not assigned to {0} -->
@@ -492,7 +492,7 @@
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
   <CannotPrioritizeForbidden>No se puede priorizar: {1_label} está prohibido(a)</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
-  <CannotPrioritizeCellForbidden>No puede priorizar: Prohibido</CannotPrioritizeCellForbidden>
+  <CannotPrioritizeCellForbidden>No puede priorizar: prohibido</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Está fuera del área permitida</CannotPrioritizeForbiddenOutsideAllowedArea>
   <!-- EN: Cannot prioritize burying -->

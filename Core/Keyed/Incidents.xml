@@ -73,18 +73,18 @@
   <TraderArrivalNoFaction>No están afiliados a ninguna facción.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>{PAWN_gender ? Un : Una} {PAWN_title} de {1} está de paso por la zona. {PAWN_pronoun} se llama {PAWN_nameFull}.</SingleTravelerPassing>
+  <SingleTravelerPassing>{PAWN_gender ? Un : Una} {PAWN_title} de {1} está de paso por la zona. Se llama {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>Un grupo de viajeros de {0} están de paso por la zona.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Visitante</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>{PAWN_gender ? Un : Una} {PAWN_title} de {1} está visitando la colonia.\n\n{PAWN_pronoun} se llama {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>{PAWN_gender ? Un : Una} {PAWN_title} de {1} está visitando la colonia.\n\nSe llama {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>{PAWN_pronoun} parece tener algunos objetos para comerciar.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesTraderInfo>Parece tener algunos objetos para comerciar.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun} es líder de la facción.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>Es {PAWN_gender ? el : la} líder de la facción.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Visitantes</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
