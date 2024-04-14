@@ -586,11 +586,11 @@
   <MessageBillValidationStoreZoneInsufficient>El "{0}" de {1} ya no puede entregar todos los productos a la reserva {2}.</MessageBillValidationStoreZoneInsufficient>
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
-  <MessageAnimalReturnedWild>Debido a la falta de manutención, {1_labelShort} ha regresado a la naturaleza.</MessageAnimalReturnedWild>
+  <MessageAnimalReturnedWild>Por falta de persistencia en el adiestramiento, {1_labelShort} ha regresado a la naturaleza.</MessageAnimalReturnedWild>
   <!-- EN: {1_labelShort} has been returned to the wild. -->
-  <MessageAnimalReturnedWildReleased>A un(a) {1_labelShort} se le ha regresado a la naturaleza.</MessageAnimalReturnedWildReleased>
+  <MessageAnimalReturnedWildReleased>A {1_labelShort} se le ha regresado a la naturaleza.</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
-  <MessageAnimalLostSkill>Debido a la falta de entrenamiento, {ANIMAL_labelShort} ha perdido una habilidad: {1}</MessageAnimalLostSkill>
+  <MessageAnimalLostSkill>Por falta de persistencia en el adiestramiento, {ANIMAL_labelShort} ha perdido una habilidad: {1}</MessageAnimalLostSkill>
 
   <!-- EN: Translation report written to {0} -->
   <MessageTranslationReportSaved>Informe de traducción guardado en {0}</MessageTranslationReportSaved>
@@ -605,7 +605,7 @@
   <MessagePermitCooldownFinished>{0_labelShort} ahora puede usar libremente "{1}".</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} ¡está cazando a {PREY_definite} ({PREY_kindBase}) para alimentarse!</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR_indefinite} ¡está cazando a {PREY_definite} ({PREY_kindBase}) para alimentarse!</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>La resistencia del prisionero {PRISONER_labelShort} ha sido destruida por {WARDEN_labelShort}.</MessagePrisonerResistanceBroken>
