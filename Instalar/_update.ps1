@@ -1,8 +1,8 @@
 ﻿<#
 	.SYNOPSIS
-	Este script se encarga de instalar/actualizar las últimas traducciones.
+	Este script se encarga de instalar/actualizar las ultimas traducciones.
 	.DESCRIPTION
-	Este script se encarga de instalar/actualizar las traducciones del juego a las traducciones más recientes disponibles para la traducción al Español (latino) directamente desde los repositorios oficiales.
+	Este script se encarga de instalar/actualizar las traducciones del juego a las traducciones más recientes disponibles para la traduccion al Español (Castellano) directamente desde los repositorios oficiales.
 	
 	Originalmente desarrollado por Xeros08 (Aser Granado Amores).
 
@@ -131,6 +131,7 @@ UpdateContent -LocalRepo $local_repo -Name "Core"
 UpdateContent -LocalRepo $local_repo -Name "Royalty"
 UpdateContent -LocalRepo $local_repo -Name "Ideology"
 UpdateContent -LocalRepo $local_repo -Name "Biotech"
+UpdateContent -LocalRepo $local_repo -Name "Anomaly"
 
 # Delete the downloaded repo
 Remove-Item -Recurse -Force ".\$local_repo"
