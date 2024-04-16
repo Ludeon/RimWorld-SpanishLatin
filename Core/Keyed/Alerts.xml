@@ -153,7 +153,7 @@
   <NeedResearchProjectDesc>Tienes el equipo necesario para investigar pero no has seleccionado un proyecto.\n\n(Haz clic para abrir el menú de investigación.)</NeedResearchProjectDesc>
 
   <!-- EN: {0} colonists idle -->
-  <ColonistsIdle>{0} colono(s) ocioso(s)</ColonistsIdle>
+  <ColonistsIdle>{replace: ^{0} colonos ociosos; "^1 colonos ociosos"-"1 colono ocioso"; "^"-""}</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>Estos colonos están vagando sin nada que hacer:\n{0}\n\nDeberías encontrarles algo productivo que realizar.</ColonistsIdleDesc>
   
@@ -295,7 +295,7 @@
   <!-- EN: {ANIMAL_labelShort} in animal pen -->
   <AlertPredatorInAnimalPen>{ANIMAL_nameIndef} en el corral de animales</AlertPredatorInAnimalPen>
   <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
-  <AlertPredatorInAnimalPenDesc>{ANIMAL_nameIndef} depredador(a) ha entrado en un corral.\n\nPuede decidir cazar tus animales.\n\nPuedes matarle o esperar a que se vaya.</AlertPredatorInAnimalPenDesc>
+  <AlertPredatorInAnimalPenDesc>{ANIMAL_nameIndef} ha entrado en un corral. ¡Es un depredador!\n\nPuede decidir cazar tus animales.\n\nPuedes matarle o esperar a que se vaya.</AlertPredatorInAnimalPenDesc>
 
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>Animal errante se aleja</AlertAnimalIsRoaming>
@@ -315,7 +315,7 @@
   <!-- EN: Raids arriving in {0} -->
   <AlertTimedRaidsArrivingIn>Incursiones llegando en {0}</AlertTimedRaidsArrivingIn>
   <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
-  <AlertTimedRaidsArrivingInDesc>Los enemigos han sido atraídos a los siguientes lugares y empezarán a llegar con fuerza pronto.\n\n{0}</AlertTimedRaidsArrivingInDesc>
+  <AlertTimedRaidsArrivingInDesc>Los enemigos han sido atraídos a los siguientes lugares y empezarán a llegar en multitud pronto.\n\n{0}</AlertTimedRaidsArrivingInDesc>
   <!-- EN: Arriving at {0} in {1} -->
   <AlertTimedRaidsArrivingAt>Llegando a {0} en {1}</AlertTimedRaidsArrivingAt>
 
@@ -325,7 +325,7 @@
   <FactionWillBecomeHostileIfNotLeavingWithinDesc>Estas facciones se volverán hostiles si te quedas más tiempo en su asentamiento o puesto de avanzada:\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
 
   <!-- EN: {0} trees dying -->
-  <AlertMinifiedTreeAboutToDie>{0} árboles muriendo</AlertMinifiedTreeAboutToDie>
+  <AlertMinifiedTreeAboutToDie>{replace: ^{0} árboles muriendo; "^1 árboles muriendo"-"1 árbol muriendo"; "^"-""}</AlertMinifiedTreeAboutToDie>
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
   <AlertMinifiedTreeAboutToDieDesc>{0} árboles extraídos van a morir es menos de un día. Esto hará que algunos colonos estén descontentos por sus creencias.\n\nPuedes evitarlo replantando estos árboles.</AlertMinifiedTreeAboutToDieDesc>
 
