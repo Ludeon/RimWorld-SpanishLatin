@@ -75,7 +75,7 @@ function updateTranslation() {
     echo "Traducción ${azul}$1${rc} aplicada"
 }
 
-# Establecemos variables para acceder al repositorio Github de la traducción al castellano
+# Establecemos variables para acceder al repositorio Github de la traducción al español latino
 github_user="Ludeon"
 repo_name="RimWorld-Spanish"
 repo_url="https://api.github.com/repos/${github_user}/${repo_name}/zipball/master"

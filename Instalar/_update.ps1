@@ -2,7 +2,7 @@
 	.SYNOPSIS
 	Este script se encarga de instalar/actualizar las ultimas traducciones.
 	.DESCRIPTION
-	Este script se encarga de instalar/actualizar las traducciones del juego a las traducciones más recientes disponibles para la traduccion al Español (Castellano) directamente desde los repositorios oficiales.
+	Este script se encarga de instalar/actualizar las traducciones del juego a las traducciones más recientes disponibles para la traduccion al Español (Latino) directamente desde los repositorios oficiales.
 	
 	Originalmente desarrollado por Xeros08 (Aser Granado Amores).
 
