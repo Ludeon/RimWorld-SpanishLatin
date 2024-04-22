@@ -531,9 +531,9 @@
     <li>writingQualityAdjective(quality==2)->mediocre</li>
     <li>writingQualityAdjective(quality==1)->mal redactada</li>
     <li>writingQualityAdjective(quality==0)->incoherente</li>
-    <li>writingQualitySentence(quality[greater_than]4)->Es [excellentDesc] [excellentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->Es [decentDesc] [decentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]2)->Es [awfulDesc] [awfulExtra]</li>
+    <li>writingQualitySentence(quality[greater_than]4)->[excellentDesc] [excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->[decentDesc] [decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->[awfulDesc] [awfulExtra]</li>
     <!-- EN: 
     <li>excellentDesc->a thoughtful exploration of the human spirit</li>
     <li>excellentDesc->deeply insightful about the complexity of the world</li>
@@ -546,15 +546,15 @@
     <li>excellentExtra->. It blows the reader's mind at least three times</li>
     <li>excellentExtra->. The plot twists are unpredictable but also feel inevitable</li>
     <li>excellentExtra->. The characters feel like real people</li>-->
-    <li>excellentDesc->una emocionante historia abrumadora</li>
-    <li>excellentDesc->una reflexiva exploración del espíritu humano</li>
-    <li>excellentDesc->profundamente perspicaz sobre la complejidad del mundo</li>
-    <li>excellentDesc->escrita con rigor y rica en emociones</li>
-    <li>excellentDesc->creativa y original</li>
-    <li>excellentDesc->tremendamente original y extraordinariamente bien elaborado</li>
-    <li>excellentDesc->rebosante en sentido del humor</li>
+    <li>excellentDesc->Es una emocionante historia abrumadora</li>
+    <li>excellentDesc->es una reflexiva exploración del espíritu humano</li>
+    <li>excellentDesc->Es profundamente perspicaz sobre la complejidad del mundo</li>
+    <li>excellentDesc->Está escrita con rigor y llena en emociones</li>
+    <li>excellentDesc->Es creativa y original</li>
+    <li>excellentDesc->Es tremendamente original y extraordinariamente bien elaborada</li>
+    <li>excellentDesc->Es rebosante en sentido del humor</li>
     <li>excellentExtra->. Cada ritmo de la historia fluye naturalmente hacia el siguiente</li>
-    <li>excellentExtra->. Es un libro apasionante y muy difícil de dejar</li>
+    <li>excellentExtra->. Es una novela apasionante y muy difícil de dejar</li>
     <li>excellentExtra->. Deja boquiabierto al lector al menos tres veces</li>
     <li>excellentExtra->. Los giros de la trama son impredecibles, pero también inevitables</li>
     <li>excellentExtra->. Los personajes parecen personas reales</li>
@@ -566,13 +566,13 @@
     <li>decentDesc->gripping during some parts</li>
     <li>decentDesc->original and quirky</li>
     <li>decentDesc->appealing to a certain type of reader</li>-->
-    <li>decentDesc->una historia decente</li>
-    <li>decentDesc->interesante y atractiva</li>
-    <li>decentDesc->centrada en una idea interesante</li>
-    <li>decentDesc->algo humorístico de vez en cuando</li>
-    <li>decentDesc->cautivadora durante algunas partes</li>
-    <li>decentDesc->original y extravagante</li>
-    <li>decentDesc->atractiva para un determinado tipo de lector</li>
+    <li>decentDesc->Es una historia decente</li>
+    <li>decentDesc->Es interesante y atractiva</li>
+    <li>decentDesc->Está centrada en una idea interesante</li>
+    <li>decentDesc->Es algo humorística de vez en cuando</li>
+    <li>decentDesc->Es cautivadora durante algunas partes</li>
+    <li>decentDesc->Es original y extravagante</li>
+    <li>decentDesc->Es atractiva para un determinado tipo de lector</li>
     <!-- EN: 
     <li>decentExtra-> but has some glaring plot holes</li>
     <li>decentExtra-> but is often hard to follow</li>
@@ -602,15 +602,15 @@
     <li>awfulDesc->dominated by an author self-insert character</li>
     <li>awfulDesc->bizarre yet unoriginal</li>
     <li>awfulDesc->far, far too long</li>-->
-    <li>awfulDesc->horriblemente redactada</li>
-    <li>awfulDesc->terriblemente redactada</li>
-    <li>awfulDesc->difícil de leer</li>
-    <li>awfulDesc->difícil de entender</li>
-    <li>awfulDesc->carente de visión artística</li>
-    <li>awfulDesc->llena de agujeros argumentales y personajes genéricos</li>
-    <li>awfulDesc->dominada por un autor autoinsertado</li>
-    <li>awfulDesc->extraña y poco original</li>
-    <li>awfulDesc->demasiada, demasiada larga</li>
+    <li>awfulDesc->Está horriblemente redactada</li>
+    <li>awfulDesc->Está terriblemente redactada</li>
+    <li>awfulDesc->Es difícil de leer</li>
+    <li>awfulDesc->Es difícil de entender</li>
+    <li>awfulDesc->Está carente de visión artística</li>
+    <li>awfulDesc->Está llena de agujeros argumentales y personajes genéricos</li>
+    <li>awfulDesc->Está dominada por un autor autoinsertado</li>
+    <li>awfulDesc->Es extraña y poco original</li>
+    <li>awfulDesc->Es demasiada, demasiada larga</li>
     <!-- EN: 
     <li>awfulExtra-> and the writing is borderline incoherent</li>
     <li>awfulExtra-> and is extremely hard to follow</li>
@@ -642,7 +642,7 @@
     <li>date_form->in [date_season]</li>-->
     <li>date_form->hace poco</li>
     <li>date_form->hace muchos siglos</li>
-    <li>date_form->en el [date]</li>
+    <li>date_form->el [date]</li>
     <li>date_form->en [date_season]</li>
     <!-- EN: 
     <li>bookType(p=4)->novel</li>
@@ -2028,7 +2028,7 @@
     <li>midworld->Haihan</li>
     <li>midworld->Seolure</li>
     <li>midworld->Panga</li>
-    <li>midworld->New London CXI </li>
+    <li>midworld->New London CXI</li>
     <li>midworld->San Delenda</li>
     <li>mineworld->Xanides</li>
     <li>mineworld->Bingham</li>

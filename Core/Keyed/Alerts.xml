@@ -165,9 +165,9 @@
   <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>Tratamiento médico necesario</ColonistNeedsTreatment>
   <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDesc>Estas personas necesitan atención médica. Sin ella, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama hospitalaria.\n\n(Primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Entonces, selecciona a una persona herida y haz clic derecho en la cama hospitalaria para convertirla en paciente)</ColonistNeedsTreatmentDesc>
+  <ColonistNeedsTreatmentDesc>Estas personas necesitan atención médica. Sin ella, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama hospitalaria.\n\n(Para ello, primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Entonces, selecciona a una persona herida y haz clic derecho en la cama hospitalaria para convertirla en paciente)</ColonistNeedsTreatmentDesc>
   <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDescController>Estas personas necesitan atención médica. Sin ella, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama hospitalaria.\n\n(Primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Entonces, selecciona a una persona herida y pulsa el botón del disparador izquierdo en la cama hospitalaria para convertirla en paciente)</ColonistNeedsTreatmentDescController>
+  <ColonistNeedsTreatmentDescController>Estas personas necesitan atención médica. Sin ella, podrían morir por sus heridas o estas podrían volverse permanentes.\n{0}\n\nTrátalos enviándolos a una cama hospitalaria.\n\n(Para ello, primero, asigna una cama hospitalaria, seleccionándola y designándola como tal. Entonces, selecciona a una persona herida y pulsa el botón del disparador izquierdo en la cama hospitalaria para convertirla en paciente)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermia</AlertHypothermia>
@@ -327,11 +327,11 @@
   <!-- EN: {0} trees dying -->
   <AlertMinifiedTreeAboutToDie>{replace: ^{0} árboles muriendo; "^1 árboles muriendo"-"1 árbol muriendo"; "^"-""}</AlertMinifiedTreeAboutToDie>
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
-  <AlertMinifiedTreeAboutToDieDesc>{0} árboles extraídos van a morir es menos de un día. Esto hará que algunos colonos estén descontentos por sus creencias.\n\nPuedes evitarlo replantando estos árboles.</AlertMinifiedTreeAboutToDieDesc>
+  <AlertMinifiedTreeAboutToDieDesc>{replace: ^{0} árboles extraídos van; "^1 árboles extraídos van"-"1 árbol extraído va"; "^"-""} a morir en menos de un día. Esto hará que algunos colonos estén descontentos por sus creencias.\n\nPuedes evitarlo replantando nuevamente.</AlertMinifiedTreeAboutToDieDesc>
 
   <!-- EN: Need research bench -->
   <NeedResearchBench>Necesitas un banco de investigación</NeedResearchBench>
   <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
-  <NeedResearchBenchDesc>Tienes un proyecto de investigación activo "{0}". Este proyecto requiere que construyas un {1}.</NeedResearchBenchDesc>
+  <NeedResearchBenchDesc>Tienes un proyecto de investigación activo "{0}". Este proyecto requiere que construyas {1_indefinite}.</NeedResearchBenchDesc>
   
 </LanguageData>

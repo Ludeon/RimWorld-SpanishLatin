@@ -205,9 +205,9 @@
     <li>desc_sentence->[VICTIM_nameDef] appears to be badly wounded.</li>
   -->
   <KidnappedColonist.rulePack.rulesStrings>
-    <li>tale_noun->[VICTIM_nameDef] secuestró a [VICTIM_nameDef]</li>
+    <li>tale_noun->[KIDNAPPER_nameDef] secuestró {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>tale_noun->[VICTIM_nameDef] fue secuestrad[VICTIM_o_a] por [KIDNAPPER_nameDef]</li>
-    <li>tale_noun->secuestraron a [VICTIM_nameDef]</li>
+    <li>tale_noun->secuestraron {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>image->[KIDNAPPER_nameFull] arrastrando a [VICTIM_nameFull] con dirección a [KIDNAPPER_factionName] [circumstance_group]</li>
     <li>image->[KIDNAPPER_nameFull] de la facción [KIDNAPPER_factionName] secuestrando a [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[KIDNAPPER_nameFull] secuestrando a [VICTIM_nameFull] [circumstance_group]</li>
@@ -257,10 +257,10 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledBy.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] asesinó a [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] asesinó {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>tale_noun->[VICTIM_nameDef] fue asesinad[VICTIM_o_a] por [KILLER_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] murió a manos de [KILLER_nameDef]</li>
-    <li>tale_noun->asesinaron a [VICTIM_nameDef]</li>
+    <li>tale_noun->asesinaron {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
     <li>image->[VICTIM_nameFull] siendo asesinad[VICTIM_o_a] por [KILLER_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] matando a [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] acabando con la vida de [VICTIM_nameFull] [circumstance_group]</li>

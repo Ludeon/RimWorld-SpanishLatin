@@ -115,13 +115,13 @@
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} de {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>Esta acción hará que {PAWN_nameDef} pierda {PAWN_possessive} título de {TITLE}. No recibirás ninguna compensación al renunciar a tu título.\n\nEsto tendrá los siguientes efectos:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>Esta acción hará que {PAWN_nameDef} pierda sus título de {TITLE}. No recibirás ninguna compensación al renunciar a tu título.\n\nEsto tendrá los siguientes efectos:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>{PAWN_pronoun} perderá estos permisos</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLoosePermits>Perderá estos permisos</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} perderá {POINTS} puntos de permiso no gastados con la facción {FACTION_name}.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} mantendrá todos {PAWN_possessive}s niveles de psicoenlace y psicoemisiones.</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>Mantendrá todos sus niveles de psicoenlace y psicoemisiones.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>desconocido</UnknownLower>
   <!-- EN: On -->
@@ -1776,7 +1776,7 @@
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Un esclavo. La propiedad humana de otros.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} está durmiendo. Si se incluye en el ritual, {0_pronoun} se despertará para participar.</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort} está durmiendo. Si se incluye en el ritual, se despertará para participar.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
   <RitualBeginSleepingWarning>Algunos de los participantes seleccionados están durmiendo. Se despertarán una vez que comience el ritual.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->

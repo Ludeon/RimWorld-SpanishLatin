@@ -15,6 +15,7 @@
   -->
   <Brewing.generalRules.rulesStrings>
     <li>subject->elaboración de cerveza</li>
+    <li>subject_def->de la elaboración de cervezas</li>
     <li>subject_story->elaboró una stout única que se hizo famosa en todo el sistema</li>
     <li>subject_story->se retiró para dirigir una taberna en un mundo animal</li>
     <li>subject_story->se especializó en técnicas de fermentación controlada por el clima</li>
@@ -34,7 +35,8 @@
     <li>subject_gerund->weaving carpets</li>
   -->
   <CarpetMaking.generalRules.rulesStrings>
-    <li>subject->fabricación de alfombras</li>
+    <li>subject->elaboración de alfombras</li>
+    <li>subject_def->de la elaboración de alfombras</li>
     <li>subject_story->aprendió a tejer alfombras con cabello, para un emperador lejano</li>
     <li>subject_story->dejó atrás una colección incomparable de alfombras y tapices</li>
     <li>subject_story->se estableció en una luna medieval, donde el oficio de tejer alfombras era realmente apreciado</li>
@@ -57,6 +59,8 @@
   <Cocoa.generalRules.rulesStrings>
     <li>subject->cacao</li>
     <li>subject->chocolate</li>
+    <li>subject_def->del cacao</li>
+    <li>subject_def->del chocolate</li>
     <li>subject_story->se obsesionó con el chocolate y tuvo que ser retenido</li>
     <li>subject_story->estudió el proceso de fermentación del cacao para una tesis</li>
     <li>subject_story->estableció la mejor tienda de chocolate en el sector</li>
@@ -77,6 +81,7 @@
   -->
   <ComplexClothing.generalRules.rulesStrings>
     <li>subject->confección compleja</li>
+    <li>subject_def->de la confección compleja</li>
     <li>subject_story->confeccionó prendas resistentes para los habitantes de la ciudad de urbworld</li>
     <li>subject_story->se relajaba cosiendo y contando historias a los niños del pueblo</li>
     <li>subject_story->aprendió a confeccionar ropa para ser usada en las grandes actuaciones de su grupo</li>
@@ -96,6 +101,7 @@
   -->
   <ComplexFurniture.generalRules.rulesStrings>
     <li>subject->carpintería</li>
+    <li>subject_def->de la carpintería</li>
     <li>subject_story->estudió el tallado de madera bajo la tutela de un maestro carpintero</li>
     <li>subject_story->construyó por sí solo un pueblo de cabañas de troncos</li>
     <li>subject_story->estableció una fábrica, vendiendo muebles de alta calidad a los comerciantes que pasaban</li>
@@ -115,6 +121,7 @@
   -->
   <Devilstrand.generalRules.rulesStrings>
     <li>subject->cultivo de hilodiablo</li>
+    <li>subject_def->del cultivo de hilodiablo</li>
     <li>subject_story->utilizó hilodiablo como una barrera natural contra incendios</li>
     <li>subject_story->estableció las técnicas para cultivar hilodiablo fácilmente</li>
     <li>subject_story->se obsesionó con los hongos y se autoproclamó Princesa de su reino</li>
@@ -137,6 +144,8 @@
   <DrugProduction.generalRules.rulesStrings>
     <li>subject->producción de drogas</li>
     <li>subject->síntesis de drogas</li>
+    <li>subject_def->de la producción de drogas</li>
+    <li>subject_def->de la síntesis de drogas</li>
     <li>subject_story->trabajó en un laboratorio de asteroides en el límite del espacio habitado</li>
     <li>subject_story->aprendió a elaborar drogas a partir de productos químicos reciclados, lo que resultó en muchos años en prisión</li>
     <li>subject_story->trabajó como químico, pero se deslizó en el tráfico de drogas ilegales como actividad paralela</li>
@@ -157,6 +166,7 @@
   -->
   <GoJuiceProduction.generalRules.rulesStrings>
     <li>subject->producción de jugo-go</li>
+    <li>subject_def->de la producción de jugo-go</li>
     <li>subject_story->se le expulsó por tomar jugo-go durante partidos deportivos.</li>
     <li>subject_story->descubrió que el jugo-go aumentaba enormemente la productividad en las minas y aserraderos</li>
     <li>subject_story->nunca emprendió una misión sin jugo-go o juggernaut en el bolsillo.</li>
@@ -175,7 +185,8 @@
     <li>subject_gerund->crafting greatbows</li>
   -->
   <Greatbow.generalRules.rulesStrings>
-    <li>subject->arcos grandes</li>
+    <li>subject->arco grande</li>
+    <li>subject_def->de los arcos grandes</li>
     <li>subject_story->disparó una flecha justo a través del casco de hierro de un rey feudal</li>
     <li>subject_story->cazó múfalos por su piel en un mundo feral</li>
     <li>subject_story->vivió aisladamente en el bosque, una lluvia de flechas saludaba a cualquiera que se acercara a menos de una milla de su zona</li>
@@ -183,7 +194,7 @@
   </Greatbow.generalRules.rulesStrings>
   
   <!-- EN: long blades -->
-  <LongBlades.label>Cuchillas largas</LongBlades.label>
+  <LongBlades.label>cuchillas largas</LongBlades.label>
   <!-- EN: Craft longswords and spears. -->
   <LongBlades.description>Fabrica espadas largas y lanzas.</LongBlades.description>
   <!-- EN:
@@ -195,6 +206,7 @@
   -->
   <LongBlades.generalRules.rulesStrings>
     <li>subject->armamento medieval</li>
+    <li>subject_def->del armamento medieval</li>
     <li>subject_story->cabalgó con la Quinta Caballería Ligera del Betaduque mientras conquistaban el sector</li>
     <li>subject_story->fue esclavizado como armero bajo la arena en un planeta en la edad de hierro</li>
     <li>subject_story->entrenó a los hoplitas en un warworld para que usaran el alcance de sus armas</li>
@@ -215,7 +227,9 @@
   -->
   <PassiveCooler.generalRules.rulesStrings>
     <li>subject->evaporación</li>
-    <li>subject->enfriadores pasivos</li>
+    <li>subject->enfriador pasivo</li>
+    <li>subject_def->de la evaporación</li>
+    <li>subject_def->de los enfriadores pasivos</li>
     <li>subject_story->se mudó a un mundo tropical abrasador y desarrolló técnicas únicas para mantenerse fresco</li>
     <li>subject_story->estudió técnicas primitivas para enfriar áreas en la comodidad de las bibliotecas de un coreworld</li>
     <li>subject_story->observó, en las orillas de un planeta oceánico, que era más fresco donde se asentaba la bruma marina</li>
@@ -235,6 +249,7 @@
   -->
   <Pemmican.generalRules.rulesStrings>
     <li>subject->producción de pemmican</li>
+    <li>subject_def->de la producción de pemmican</li>
     <li>subject_story->dominó la producción de pemmican durante una larga peregrinación al espira del planeta</li>
     <li>subject_story->sobrevivió únicamente con pemmican cuando un transatlántico se estrelló en un glassworld</li>
     <li>subject_story->enseñó la producción de pemmican a tribus salvajes</li>
@@ -254,8 +269,9 @@
   -->
   <PenoxycylineProduction.generalRules.rulesStrings>
     <li>subject->producción de penoxicilina</li>
-    <li>subject_story->dio una conferencia a los Planetas Unidos sobre medicina preventiva</li>
-    <li>subject_story->fue expulsado de Dawn Falls por charlatán, por vender una medicina que "no hace nada"</li>
+    <li>subject_def->de la producción de penoxicilina</li>
+    <li>subject_story->dio una conferencia en los Planetas Unidos sobre medicina preventiva</li>
+    <li>subject_story->Se le expulsó de Dawn Falls por farsante, por vender una medicina que "no hace nada"</li>
     <li>subject_story->previno que un brote de malaria se propagara mediante una cuidadosa dosificación de penoxicilina</li>
     <li>subject_gerund->síntesis de penoxicilina</li>
   </PenoxycylineProduction.generalRules.rulesStrings>
@@ -273,6 +289,7 @@
   -->
   <PlateArmor.generalRules.rulesStrings>
     <li>subject->armadura de placas</li>
+    <li>subject_def->de la armadura de placas</li>
     <li>subject_story->forjó armaduras con desechos cuando las autoridades rodearon la choza de su familia</li>
     <li>subject_story->se hizo conocido como el Herrero Verde, cuando el musgo creció en la armadura de madera</li>
     <li>subject_story->puso en marcha el primer colectivo de trabajadores de armaduras en un urbworld</li>
@@ -292,6 +309,7 @@
   -->
   <PsychiteRefining.generalRules.rulesStrings>
     <li>subject->producción de psiquita</li>
+    <li>subject_def->de la producción de psiquita</li>
     <li>subject_story->utilizó su trabajo universitario como tapadera para su tráfico de drogas</li>
     <li>subject_story->fundó una comuna donde la droga de baja dosis se mezclaba en la comida</li>
     <li>subject_story->hizo campañas para la legalización de yayo en un urbworld cercano</li>
@@ -310,10 +328,11 @@
     <li>subject_gerund->brewing psychoid</li>
   -->
   <PsychoidBrewing.generalRules.rulesStrings>
-    <li>subject->psicoides</li>
+    <li>subject->psicoide</li>
+    <li>subject_def->de los psicoides</li>
     <li>subject_story->se unió a una comuna psicoide de corta duración en un mundo sectario</li>
     <li>subject_story->experimentó con psicoides para ayudar a soldados traumatizados</li>
-    <li>subject_story->legalizó el psicoide para su producción masiva en varios coreworlds, cuando tuvo el poder para hacerlo</li>
+    <li>subject_story->legalizó los psicoides para su producción masiva en varios coreworlds, cuando tuvo el poder para hacerlo</li>
     <li>subject_gerund->elaboración de psicoides</li>
   </PsychoidBrewing.generalRules.rulesStrings>
   
@@ -332,6 +351,8 @@
   <RecurveBow.generalRules.rulesStrings>
     <li>subject->fabricación de arcos</li>
     <li>subject->creación de arcos</li>
+    <li>subject_def->de la fabricación de arcos</li>
+    <li>subject_def->de la creación de arcos</li>
     <li>subject_story->rastreó a un bumalope rabioso durante cuatro días antes de matarlo con una sola flecha</li>
     <li>subject_story->se estableció cerca de un bosque de tejos para asegurar los materiales perfectos para los arcos</li>
     <li>subject_story->crió a los niños de la colonia como cazadores-recolectores, siendo cada uno un arquero maestro</li>
@@ -350,6 +371,7 @@
   -->
   <Smithing.generalRules.rulesStrings>
     <li>subject->forja de hierro</li>
+    <li>subject_def->de la forja de hierro</li>
     <li>subject_story->se estableció en una aldea medieval y dominó la creación de metales simples</li>
     <li>subject_story->construyó herrerías de glitterworlds para los gremios de recreación del Renacimiento</li>
     <li>subject_gerund->forjado</li>
@@ -369,6 +391,7 @@
   -->
   <Stonecutting.generalRules.rulesStrings>
     <li>subject->albañilería</li>
+    <li>subject_def->de la albañilería</li>
     <li>subject_story->fue la primer persona en una línea de diseñadores de templos, todos compartiendo el mismo nombre</li>
     <li>subject_story->desarrolló técnicas únicas para cortar la roca más dura con herramientas básicas</li>
     <li>subject_story->acondicionó toda el palacio del virrey en un mundo medieval</li>
@@ -389,6 +412,7 @@
   -->
   <TreeSowing.generalRules.rulesStrings>
     <li>subject->siembra de árboles</li>
+    <li>subject_def->de la siembra de árboles</li>
     <li>subject_story->propagó árboles en un planetoide ya muerto, tratando de devolverle la vida</li>
     <li>subject_story->publicó un artículo sobre el mantenimiento de ecosistemas naturales</li>
     <li>subject_story->trabajó en un vivero de árboles en un mundo animal</li>
@@ -408,6 +432,7 @@
   -->
   <WakeUpProduction.generalRules.rulesStrings>
     <li>subject->producción de despertar</li>
+    <li>subject_def->de la producción de despertar</li>
     <li>subject_story->intentó superar la adicción a la cafeína tomando despertar</li>
     <li>subject_story->trató a narcolépticos y sonámbulos con dosis de despertar cuidadosamente cronometradas</li>
     <li>subject_story->mudó a todos al lado oscuro de un asteroide y utilizó despertar para mantener sus biorritmos</li>

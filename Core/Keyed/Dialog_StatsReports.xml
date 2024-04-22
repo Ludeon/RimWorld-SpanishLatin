@@ -335,13 +335,13 @@
   <!-- EN: The amount of power this building will draw from the power grid. -->
   <Stat_Thing_PowerConsumption_Desc>La cantidad de energía que este edificio consumirá de la red eléctrica.</Stat_Thing_PowerConsumption_Desc>
   <!-- EN: {CHARGENOUN_plural} remaining -->
-  <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural} restante</Stat_Thing_ReloadChargesRemaining_Name>
+  <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural} restantes</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
-  <Stat_Thing_ReloadChargesRemaining_Desc>El número de {CHARGENOUN_plural} restante en este objeto. si se vacía, la habilidad especial ya no podrá ser utilizada.</Stat_Thing_ReloadChargesRemaining_Desc>
+  <Stat_Thing_ReloadChargesRemaining_Desc>El número de {CHARGENOUN_plural} restantes en este objeto. si se vacía, la habilidad especial ya no podrá ser utilizada.</Stat_Thing_ReloadChargesRemaining_Desc>
   <!-- EN: {CHARGENOUN_plural} -->
   <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
   <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
-  <Stat_Thing_ReloadMaxCharges_Desc>El máximo número de {CHARGENOUN_plural} que este tiene.</Stat_Thing_ReloadMaxCharges_Desc>
+  <Stat_Thing_ReloadMaxCharges_Desc>El máximo número de {CHARGENOUN_plural} que este objeto tiene.</Stat_Thing_ReloadMaxCharges_Desc>
   <!-- EN: {CHARGENOUN} reload cost -->
   <Stat_Thing_ReloadRefill_Name>{CHARGENOUN} costo de recarga</Stat_Thing_ReloadRefill_Name>
   <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
@@ -349,11 +349,11 @@
   <!-- EN: Reload cost per {CHARGENOUN} -->
   <Stat_Thing_ReloadPerCharge_Name>Costo de recarga por {CHARGENOUN}</Stat_Thing_ReloadPerCharge_Name>
   <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
-  <Stat_Thing_ReloadPerCharge_Desc>La cantidad de artículos necesarios para recargar un(a) {CHARGENOUN}. Multiples {CHARGENOUN_plural} pueden ser recargados(as) a la vez.</Stat_Thing_ReloadPerCharge_Desc>
+  <Stat_Thing_ReloadPerCharge_Desc>La cantidad de artículos necesarios para recargar {CHARGENOUN_indefinite}. Multiples {CHARGENOUN_plural} pueden ser recargad{CHARGENOUN_gender ? os : as} a la vez.</Stat_Thing_ReloadPerCharge_Desc>
   <!-- EN: Vanish on exhaust -->
   <Stat_Thing_ReloadDestroyOnEmpty_Name>Desaparece al acabarse</Stat_Thing_ReloadDestroyOnEmpty_Name>
   <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Desc>Este artículo desaparecerá cuando su último(a) {CHARGENOUN} sea usado(a).</Stat_Thing_ReloadDestroyOnEmpty_Desc>
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>Este artículo desaparecerá cuando su últim{CHARGENOUN_gender ? o : a} {CHARGENOUN} sea usad{CHARGENOUN_gender ? o : a}.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>La eficiencia general de esta parte del cuerpo.</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Install sites -->
