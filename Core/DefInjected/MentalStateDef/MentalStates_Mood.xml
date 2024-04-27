@@ -7,7 +7,6 @@
   <BedroomTantrum.baseInspectLine>Estado mental: rabieta</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
   <BedroomTantrum.beginLetter>{0} está teniendo una rabieta.\n\nVa a destruir los muebles de su habitación.</BedroomTantrum.beginLetter>
-  <BedroomTantrum.beginLetterLabel>rabieta</BedroomTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>{0} ya no está teniendo una rabieta.</BedroomTantrum.recoveryMessage>
   
@@ -16,8 +15,7 @@
   <!-- EN: Mental state: Berserk -->
   <Berserk.baseInspectLine>Estado mental: frenético</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <Berserk.beginLetter>¡{0} se ha puesto frenétic{PAWN_gender ? o : a}!\n\nAtacará a quien vea.</Berserk.beginLetter>
-  <Berserk.beginLetterLabel>frenético</Berserk.beginLetterLabel>
+  <Berserk.beginLetter>¡{0} se ha puesto frenétic{0_gender ? o : a}!\n\nAtacará a quien vea.</Berserk.beginLetter>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>La ira frenética de {0} se ha terminado.</Berserk.recoveryMessage>
   
@@ -48,7 +46,6 @@
   <CorpseObsession.baseInspectLine>Estado mental: obsesión con cadáveres</CorpseObsession.baseInspectLine>
   <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to find a corpse and present it for all to see. -->
   <CorpseObsession.beginLetter>{0} se ha obsesionado con los cadáveres.\n\nVa a desenterrar un cadáver y lo dejará a la vista de todos.</CorpseObsession.beginLetter>
-  <CorpseObsession.beginLetterLabel>Obsesión con cadáveres</CorpseObsession.beginLetterLabel>
   <!-- EN: {0} is no longer having a corpse obsession. -->
   <CorpseObsession.recoveryMessage>{0} dejó de obsesionarse con los cadáveres.</CorpseObsession.recoveryMessage>
   
@@ -58,7 +55,6 @@
   <FireStartingSpree.baseInspectLine>Estado mental: piromanía</FireStartingSpree.baseInspectLine>
   <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
   <FireStartingSpree.beginLetter>{0} tiene un ataque piromaníaco.\n\nDeambularán por un tiempo, iniciando incendios al azar.</FireStartingSpree.beginLetter>
-  <FireStartingSpree.beginLetterLabel>piromanía</FireStartingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on a fire starting spree. -->
   <FireStartingSpree.recoveryMessage>Se ha calmado el ataque de piromanía de {0}.</FireStartingSpree.recoveryMessage>
   
@@ -79,7 +75,6 @@
   <InsultingSpree.baseInspectLine>Estado mental: repartiendo insultos</InsultingSpree.baseInspectLine>
   <!-- EN: {0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others. -->
   <InsultingSpree.beginLetter>{0} está insultando a todo aquel que pase.\n\nDeambulará por ahí, insultando aleatoriamente a otros.</InsultingSpree.beginLetter>
-  <InsultingSpree.beginLetterLabel>repartiendo insultos</InsultingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on an insulting spree. -->
   <InsultingSpree.recoveryMessage>{0} ya no está repartiendo insultos.</InsultingSpree.recoveryMessage>
   
@@ -100,7 +95,6 @@
   <MurderousRage.baseInspectLine>Estado mental: ira asesina</MurderousRage.baseInspectLine>
   <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
   <MurderousRage.beginLetter>{0} ha caído en una ira asesina.\n\nHa decidido matar a {1}.</MurderousRage.beginLetter>
-  <MurderousRage.beginLetterLabel>ira asesina</MurderousRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a murderous rage. -->
   <MurderousRage.recoveryMessage>{0} ha salido de su ira asesina.</MurderousRage.recoveryMessage>
   
@@ -120,7 +114,6 @@
   <Slaughterer.baseInspectLine>Estado mental: sacrificio animal</Slaughterer.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
   <Slaughterer.beginLetter>{0} tiene un colapso mental y va a descargar su ira con tus animales.</Slaughterer.beginLetter>
-  <Slaughterer.beginLetterLabel>sacrificio animal</Slaughterer.beginLetterLabel>
   <!-- EN: {0} is no longer slaughtering random animals. -->
   <Slaughterer.recoveryMessage>{0} ya no está sacrificando tus animales.</Slaughterer.recoveryMessage>
   
@@ -130,7 +123,6 @@
   <Tantrum.baseInspectLine>Estado mental: rabieta</Tantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures. -->
   <Tantrum.beginLetter>{0} está teniendo una rabieta.\n\nDestrozará muebles, objetos y estructuras al azar.</Tantrum.beginLetter>
-  <Tantrum.beginLetterLabel>rabieta</Tantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <Tantrum.recoveryMessage>{0} ya no está teniendo una rabieta.</Tantrum.recoveryMessage>
   
@@ -140,7 +132,6 @@
   <TargetedInsultingSpree.baseInspectLine>Estado mental: repartiendo insultos contra {0}</TargetedInsultingSpree.baseInspectLine>
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
   <TargetedInsultingSpree.beginLetter>{0} ha fijado su rabia contra {1}.\n\nSeguirá a {1}, lanzándole insultos.</TargetedInsultingSpree.beginLetter>
-  <TargetedInsultingSpree.beginLetterLabel>repartiendo insultos</TargetedInsultingSpree.beginLetterLabel>
   <TargetedInsultingSpree.recoveryMessage>{0} ya no está repartiendo insultos</TargetedInsultingSpree.recoveryMessage>
   
   <!-- EN: tantrum -->
@@ -149,7 +140,6 @@
   <TargetedTantrum.baseInspectLine>Estado mental: rabieta</TargetedTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}. -->
   <TargetedTantrum.beginLetter>{0} está teniendo una rabieta.\n\nVa a destruir {1}.</TargetedTantrum.beginLetter>
-  <TargetedTantrum.beginLetterLabel>rabieta</TargetedTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <TargetedTantrum.recoveryMessage>{0} ya no está teniendo una rabieta.</TargetedTantrum.recoveryMessage>
   
@@ -158,7 +148,7 @@
   <!-- EN: Mental state: Hiding in room -->
   <Wander_OwnRoom.baseInspectLine>Estado mental: escondiéndose en la habitación</Wander_OwnRoom.baseInspectLine>
   <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.beginLetter>{0} está encerrad{PAWN_gender ? o : a} en su habitación.</Wander_OwnRoom.beginLetter>
+  <Wander_OwnRoom.beginLetter>{0} se ha encerrado en su habitación.</Wander_OwnRoom.beginLetter>
   <!-- EN: hide in room -->
   <Wander_OwnRoom.beginLetterLabel>se ha encerrado en una habitación</Wander_OwnRoom.beginLetterLabel>
   <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
