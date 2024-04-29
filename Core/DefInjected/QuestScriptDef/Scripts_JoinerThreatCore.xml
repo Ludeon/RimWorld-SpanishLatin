@@ -41,8 +41,8 @@
     <li>questName->[runnerIndef] y los [enemyFaction_pawnsPlural]</li>
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
-    <li>runnerIndef(joiner_gender!=Female)->un Refugiado</li>
-    <li>runnerIndef(joiner_gender==Female)->una Refugiada</li>
+    <li>runnerIndef(joiner_gender!=Female)->un refugiado</li>
+    <li>runnerIndef(joiner_gender==Female)->una refugiada</li>
     <li>runnerIndef(childCount==1,priority=1,joiner_gender!=Female)->un niño</li>
     <li>runnerIndef(childCount==1,priority=1,joiner_gender==Female)->una niña</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
