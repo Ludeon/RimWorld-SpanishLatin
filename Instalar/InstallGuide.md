@@ -38,5 +38,3 @@
 - Si experimentas algún problema durante la ejecución del script, asegúrate de tener todos los requisitos previos instalados correctamente y verifica que el script esté ubicado en la carpeta principal del juego RimWorld.
 
 ¡Listo! Ahora deberías poder instalar y actualizar fácilmente las traducciones para tu juego RimWorld utilizando el script proporcionado, ya sea en Windows o Linux.
-
-Espero que esta guía sea útil para ti. Si tienes alguna pregunta adicional o necesitas más ayuda, no dudes en decírmelo. Estoy aquí para ayudarte.
