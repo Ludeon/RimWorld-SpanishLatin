@@ -95,15 +95,15 @@
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] ha muerto.</li>
     <!--<li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] died: Anger</li>
     <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>-->
-    <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] murió: Ira</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] murió: ira</li>
     <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
     <!--<li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] died: Revenge</li>
     <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>-->
-    <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] murió: Venganza</li>
+    <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] murió: venganza</li>
     <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
     <!--<li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] died: Departure</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>-->
-    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] murió: Partida</li>
+    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] murió: partida</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <!--<li>lodgersAllDiedLetterLabel->Quest failed</li>
     <li>lodgersAllDiedLetterText->{SUBJECT_definite}, the [lastOrNot] desperate [faction_pawnSingular] [whoAskedToStay], has died.\n\n[questOver]</li>-->
@@ -112,15 +112,15 @@
     <!--<li>letterIntroArrested->You arrested {SUBJECT_definite}, [oneOfThe].</li>
     <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] arrested: Anger</li>-->
     <li>letterIntroArrested->Arrestaste a {SUBJECT_definite}, [oneOfThe].</li>
-    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] arrestad[o_a]: Ira</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] arrestad[o_a]: ira</li>
     <!--<li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
     <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] arrested: Revenge</li>-->
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
-    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] arrestad[o_a]: Venganza</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] arrestad[o_a]: venganza</li>
     <!--<li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
     <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] arrested: Departure</li>-->
     <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
-    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] arrestad[o_a]: Partida</li>
+    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] arrestad[o_a]: partida</li>
     <!--<li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->Quest failed</li>-->
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
@@ -131,15 +131,15 @@
     <li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], fue deshonrad[o_a] por una cirugía.</li>
     <!--<li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] violated: Anger</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>-->
-    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] deshonrad[o_a]: Ira</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] deshonrad[o_a]: ira</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
     <!--<li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violated: Revenge</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>-->
-    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] deshonrad[o_a]: Venganza</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] deshonrad[o_a]: venganza</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
     <!--<li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] arrested: Departure</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>-->
-    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] deshonrad[o_a]: Partida</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] deshonrad[o_a]: partida</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
     <!--<li>mutinyLetterLabel->Betrayal</li>
     <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], was the target of a psychic ritual.</li>
@@ -150,11 +150,11 @@
     <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] violated: Departure</li>
     <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>-->
     <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], fue el objetivo de un ritual psíquico.</li>
-    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] deshonrad[o_a]: Ira</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] deshonrad[o_a]: ira</li>
     <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
-    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] deshonrad[o_a]: Venganza</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] deshonrad[o_a]: venganza</li>
     <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
-    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] deshonrad[o_a]: Partida</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] deshonrad[o_a]: partida</li>
     <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <!--<li>mutinyLetterLabel->Betrayal</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] turning against you!\n\nIt seems [lodgersPronoun] had this treachery planned all along.</li>-->
@@ -167,7 +167,7 @@
     <!--<li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] leaving</li>
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you've done.</li>-->
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] [areIs] partiendo</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} te agradece por permitirle quedarse en [map_definite] durante [questDurationTicks_duration]. {FACTION_leaderPronoun} ahora se está yendo con su gente.\n\n{FACTION_leaderNameDef} dice que no olvidará lo que has hecho por ellos.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} te agradece por permitirle quedarse en [map_definite] durante [questDurationTicks_duration]. Ahora se está yendo con su gente.\n\n{FACTION_leaderNameDef} dice que no olvidará lo que has hecho por ellos.</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -237,7 +237,7 @@
     <li>lodgersObjective(lodgerCount>=2)->los</li>
     <!--<li>lodgersPossessive(lodgerCount==1)->[asker_possessive]</li>
     <li>lodgersPossessive(lodgerCount>=2)->their</li>-->
-    <li>lodgersPossessive(lodgerCount==1)->[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount==1)->su</li>
     <li>lodgersPossessive(lodgerCount>=2)->su</li>
     <!--<li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->the [lodgersLabelPlural]</li>-->
@@ -246,7 +246,7 @@
     <li>can_rest(lodgerCount==1)->podrá</li>
     <li>can_rest(lodgerCount>=2)->podrán</li>
     <!--<li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] begs you for permission to stay at [map_definite] for [questDurationTicks_duration] so [lodgersPronoun] can rest and regroup.\n\nIn return, [lodgersPronoun] [offer] to work and fight for free during that time.\n\n[joinInfo] [lodgersPronoun] may also reward you later for helping [lodgersObjective] - but there is no way to know [lodgersPossessive] true intentions.\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [lodgersObjective], without diplomatic consequences.</li>-->
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] te pide permiso para quedarse en [map_definite] durante [questDurationTicks_duration] y así [lodgersPronoun] [can_rest] descansar y recuperarse.\n\nA cambio, te [offer] trabajar y luchar gratis durante ese tiempo.\n\n[joinInfo] también [mayAlso] recompensarte más tarde por ayudar[lodgersObjective], pero no hay forma de saber sus verdaderas intenciones.\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puede elegir entre matar[lodgersObjective], arrestar[lodgersObjective], vender[lodgersObjective] o extraer sus órganos sin que ocasione alguna consecuencia diplomática.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] te pide permiso para quedarse en [map_definite] durante [questDurationTicks_duration] y así [lodgersPronoun] [can_rest] descansar y recuperarse.\n\nA cambio, te [offer] trabajar y luchar gratis durante ese tiempo.\n\n[joinInfo] también [mayAlso] recompensarte más tarde por ayudar[lodgersObjective], pero no hay forma de saber sus verdaderas intenciones.\n\n[travelerInfo] parte de ninguna facción. Si lo deseas, puede elegir entre matar[lodgersObjective], arrestar[lodgersObjective], vender[lodgersObjective], o "cosechar sus órganos", sin que esto ocacione alguna consecuencia diplomática.</li>
     <!--<li>approachInfo(lodgerCount==1)->A desperate [faction_pawnSingular] named [asker_nameDef] is approaching.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] is approaching with a child in tow.</li>
@@ -260,7 +260,7 @@
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] desesperados se están acercando. Su líder se llama [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperados incluyendo un niño se acercan. Su líder se llama [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperados incluyendo algunos niños se acercan. Su líder se llama [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Un grupo de [lodgerCount] [faction_pawnsPlural] se acercan desesperados. Está conformado por [asker_nameDef] y [lodgersCountMinusOne] niños que tomó bajo su tutela.</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Un grupo de [lodgerCount] [faction_pawnsPlural] se acercan desesperados, está conformado por [asker_nameDef] y [lodgersCountMinusOne] niños que tomó bajo su tutela.</li>
     <!--<li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have lost [asker_possessive] home in a recent attack.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to woken up from cryptosleep all alone and friendless.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been chased from [asker_possessive] home by a vengeful ex-lover.</li>
