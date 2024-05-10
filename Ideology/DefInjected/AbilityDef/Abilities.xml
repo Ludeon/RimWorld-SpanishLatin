@@ -27,6 +27,7 @@
   <Convert.label>convertir</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
   <Convert.description>Intenta convertir a alguien a la ideoligión del orador. Esto reducirá la certeza del objetivo en sus propias creencias. La reducción de la certeza depende de la capacidad de negociación del orador.</Convert.description>
+  <Convert.cachedTooltip>Convertir\n\nIntenta convertir a alguien a la ideoligión del orador. Esto reducirá la certeza del objetivo en sus propias creencias. La reducción de la certeza depende de la capacidad de negociación del orador.\n\nTiempo de lanzamiento: 3s</Convert.cachedTooltip>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
   <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} no logró convertir a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} se molestó por el intento y su certeza cayó de {CERTAINTYBEFORE} a {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
@@ -36,6 +37,7 @@
   <Counsel.label>aconsejar</Counsel.label>
   <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
   <Counsel.description>Ofrece consejo a una persona para anular el efecto de un recuerdo triste. Las probabilidades de éxito dependen de las habilidades sociales del orador y de su relación con el oyente.</Counsel.description>
+  <Counsel.cachedTooltip>Aconsejar\n\nOfrece consejo a una persona para anular el efecto de un recuerdo triste. Las probabilidades de éxito dependen de las habilidades sociales del orador y de su relación con el oyente.\n\nTiempo de lanzamiento: 3s</Counsel.cachedTooltip>
   <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
   <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} arruinó el intento de aconsejar a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} se molestó.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
@@ -72,6 +74,7 @@
   <PreachHealth.label>predicado de salud</PreachHealth.label>
   <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
   <PreachHealth.description>Predica la fuerza moral a una persona enferma o herida a través de los conceptos de tu ideología. Esto mejorará su tasa de curación de heridas y la ganancia de inmunidad.</PreachHealth.description>
+  <PreachHealth.cachedTooltip>Predicado de salud\n\nPredica la fuerza moral a una persona enferma o herida a través de los conceptos de tu ideología. Esto mejorará su tasa de curación de heridas y la ganancia de inmunidad.\n\nTiempo de lanzamiento: 12s\nDuración del efecto: 1 día</PreachHealth.cachedTooltip>
   
   <!-- EN: production command -->
   <ProductionCommand.label>mando de producción</ProductionCommand.label>
@@ -82,6 +85,7 @@
   <Reassure.label>guiar</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
   <Reassure.description>Aumenta la certeza de alguien en sus propias creencias. La certeza recuperada se basa en la capacidad de negociación del orador.</Reassure.description>
+  <Reassure.cachedTooltip>Guiar\n\nAumenta la certeza de alguien en sus propias creencias. La certeza recuperada se basa en la capacidad de negociación del orador.\n\nTiempo de lanzamiento: 3s</Reassure.cachedTooltip>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
   <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} guió a {RECIPIENT_labelShort}, aumentando su certeza en {IDEO} de {BEFORECERTAINTY} a {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   

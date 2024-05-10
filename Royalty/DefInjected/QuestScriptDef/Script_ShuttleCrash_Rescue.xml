@@ -28,7 +28,7 @@
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
     <li>failLetterEndingCommon->Has fallado la misión "[resolvedQuestName]".</li>
     <li>successLetterEndingCommon->Has completado con éxito la misión "[resolvedQuestName]".</li>
-    <li>goodwillSomeCiviliansLost->No todo [pawnLabel] [asker_faction_pawnSingular] podrá ser rescatado. [goodwillNegativelyAffected]</li>
+    <li>goodwillSomeCiviliansLost->No todos los [pawnLabelPlural] [asker_faction_pawnSingular] podrán ser rescatados. [goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->Ninguno de los [pawnLabelPlural] [asker_faction_pawnSingular] podrían ser rescatados. [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->Tu buena voluntad con la facción [asker_faction_name] ha sido afectada negativamente por cada [pawnLabel] dejado atrás.</li>
     <li>commanderLandingDesc->[asker_nameDef], [asker_The] comandante que pidió aterrizar su transbordador en [map_definite]</li>
@@ -37,7 +37,7 @@
     <li>rescueShuttleArrivedLetterLabel->El transbordador de rescate llegó</li>
     <li>rescueShuttleArrivedLetterText->El transbordador de rescate ha llegado para recoger a [pawnLabelSingleOrPluralDef] que se [crashedLanded]. Asegúrate de tener a [thesePeople] en el transbordador antes de que despegue en [leaveDelay_duration]:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Misión cumplida: [resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDesc], ha escapado. [asker_pronoun] está agradecid[asker_o_a] por la ayuda que recibió en [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc], ha escapado. Está agradecid[asker_o_a] por la ayuda que recibió en [map_definite].\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->Misión cumplida: [resolvedQuestName]</li>
     <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], pudo escapar.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->Misión fallida: [resolvedQuestName]</li>
@@ -47,7 +47,7 @@
     <li>askerDiedLetterLabel->Misión fallida: [resolvedQuestName]</li>
     <li>askerDiedLetterText->[commanderLandingDesc] ha muerto.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->Misión fallida: [resolvedQuestName]</li>
-    <li>shuttleDestroyedLetterText->El transbordador enviado a recoger a los [asker_faction_pawnsPlural]  estrellados ha sido destruido. Los [asker_faction_pawnsPlural] saldrán ahora a pie.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterText->El transbordador enviado a recoger a los [asker_faction_pawnsPlural] estrellados ha sido destruido. Los [asker_faction_pawnsPlural] saldrán ahora a pie.\n\n[failLetterEndingCommon]</li>
   </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>

@@ -41,9 +41,9 @@
   <MessageVisitorsAnomalousWeather>Los {0} de {1} están abandonando el mapa debido a un clima peligroso.</MessageVisitorsAnomalousWeather>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
-  <MessageWornApparelDeterioratedAway>El siguiente artículo: "{0}" que vestía {1_nameFull} se ha deshecho por completo.</MessageWornApparelDeterioratedAway>
+  <MessageWornApparelDeterioratedAway>{0_definite} que vestía {1_nameFull} se deretioró por completo.</MessageWornApparelDeterioratedAway>
   <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway>{0} se ha deteriorado en el almacén.</MessageDeterioratedAway>
+  <MessageDeterioratedAway>{lookup: {0_indefinite}; fix_indefinite_plural} se {replace: {lookup: {0_indefinite}; fix_indefinite_plural; 2}; "{0_indefinite}"-"ha"} deretiorado en el almacén.</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>{0_definite} ha comenzado.</MessageSeasonBegun>
@@ -201,10 +201,10 @@
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} ha sido cazado por {PREDATOR}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>{PREY_labelShort} ¡está bajo el ataque de {PREDATOR}!</MessageAttackedByPredator>
+  <MessageAttackedByPredator>¡{PREY_labelShort} está bajo el ataque de {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort} ¡ha comenzado a alejarse! abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>¡{PAWN_labelShort} ha comenzado a alejarse! abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Una colmena de insectos se ha reproducido.</MessageHiveReproduced>
@@ -270,7 +270,7 @@
   <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} ya no está lanzando insultos contra {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
 
   <!-- EN: {1_label} has rotted away in storage. -->
-  <MessageRottedAwayInStorage>{1_label} se han echado a perder en el almacén.</MessageRottedAwayInStorage>
+  <MessageRottedAwayInStorage>{1_indefinite} se ha echado a perder en el almacén.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>{PAWN_labelShort} se ha intoxicado con: {FOOD_labelShort}. Causa: {2}.</MessageFoodPoisoning>

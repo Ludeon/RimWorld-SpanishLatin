@@ -50,15 +50,14 @@
   
   <!-- EN: lone genius -->
   <LoneGenius.label>genio solitario</LoneGenius.label>
-  <LoneGenius.labelFemale>genio solitaria</LoneGenius.labelFemale>
+  <LoneGenius.labelFemale>genia solitaria</LoneGenius.labelFemale>
   <!-- EN: A lone figure is approaching the colony. -->
   <LoneGenius.letterLabel>Una figura solitaria se acerca a la colonia.</LoneGenius.letterLabel>
   <!-- EN: The strange figure keeps muttering about some scientific breakthrough. All {PAWN_pronoun} needs is a laboratory. If you let {PAWN_objective} stay, {PAWN_pronoun} will share {PAWN_possessive} vast knowledge with you. It's hard to tell whether {PAWN_pronoun}'s insane or a genius - or both. -->
   <LoneGenius.letterPrompt>La extraña figura sigue murmurando sobre algún avance científico. Todo lo que necesita es un laboratorio. Si dejas que se quede, compartirá sus vastos conocimientos contigo. Es difícil saber si está loc{PAWN_gender ? o : a} o es {PAWN_gender ? un genio : una genio}, o ambas cosas.</LoneGenius.letterPrompt>
   
   <!-- EN: timeless one -->
-  <TimelessOne.label>el eterno</TimelessOne.label>
-  <TimelessOne.labelFemale>la eterna</TimelessOne.labelFemale>
+  <TimelessOne.label>intemporal</TimelessOne.label>
   <!-- EN: A teenager is approaching the colony. {PAWN_pronoun} has a strange air of confidence around {PAWN_objective}. -->
   <TimelessOne.letterLabel>Un{PAWN_gender ?  : a} adolescente se acerca a la colonia. Tiene un extraño aire de confianza que le rodea.</TimelessOne.letterLabel>
   <!-- EN: {PAWN_nameDef} is barely more than a child but in {PAWN_possessive} thoughtful eyes you sense an ancient wisdom. When {PAWN_pronoun} speaks, the words seem to come from an unnatural knowledge of endless time. {PAWN_pronoun} says that the stars brought {PAWN_objective} here to fulfill {PAWN_possessive} destiny. {PAWN_pronoun} wants to stay with you and help. -->
