@@ -26,22 +26,29 @@
     <li>itemAdj->venerated</li>
   -->
   <RelicHunt.questNameRules.rulesStrings>
-    <li>questName->La [hunt] para hallar [item]</li>
+    <li>questName->La [hunt] para hallar [item3]</li>
     <li>questName->En [hunt1] de[item1]</li>
     <li>questName(classicMode==False)->[item] de [ideo_name]</li>
     <li>questName->[item] [itemAdj]</li>
+    <li>questName->[item_Fem] [itemAdj_Fem]</li>
     <li>hunt->cacería</li>
     <li>hunt1->búsqueda</li>
     <li>hunt->misión</li>
-    <li>item->la reliquia [relic_name]</li>
-    <li>item(p=4)->la reliquia</li>
+    <li>item_Fem->la reliquia [relic_name]</li>
+    <li>item_Fem(p=4)->la reliquia</li>
     <li>item(p=4)->el artefacto</li>
     <li>item1-> la reliquia [relic_name]</li>
     <li>item1(p=4)-> la reliquia</li>
     <li>item1(p=4)->l artefacto</li>
     <li>itemAdj->ancestral</li>
-    <li>itemAdj->reverenciado(a)</li>
-    <li>itemAdj->venerado(a)</li>
+    <li>itemAdj->reverenciado</li>
+    <li>itemAdj->venerado</li>
+    <li>itemAdj_Fem->ancestral</li>
+    <li>itemAdj_Fem->reverenciada</li>
+    <li>itemAdj_Fem->venerada</li>
+    <li>item3->la reliquia [relic_name]</li>
+    <li>item3(p=4)->la reliquia</li>
+    <li>item3(p=4)->el artefacto</li>
   </RelicHunt.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -179,34 +179,42 @@
     <li>firstSentence(tierSection==3)->[PAWN_pronoun] se siente con [nounAttitudeGood] para [nounFuture].</li>
     <li>firstSentence(tierSection==3)->[PAWN_pronoun] se muestra con interés por una serie de nuevas actividades, entre ellas [situationLearning].</li>
     <li>firstSentence(tierSection==3)->[PAWN_pronoun] ha mostrado un excelente [nounGrowth].</li>
-    <li>secondSentence(tierSection==3)->[PAWN_nameDef] agradece que rara vez se sienta [feelingBad] y se interesa en pasar más tiempo en [situationFun].</li>
+    <li>secondSentence(tierSection==3,PAWN_gender!=Female)->[PAWN_nameDef] agradece que rara vez se sienta [feelingBad] y se interesa en pasar más tiempo en [situationFun].</li>
+    <li>secondSentence(tierSection==3,PAWN_gender==Female)->[PAWN_nameDef] agradece que rara vez se sienta [feelingBad_Fem] y se interesa en pasar más tiempo en [situationFun].</li>
     <li>secondSentence(tierSection==3)->[PAWN_nameDef] gusta de [situationLearning] pero es más feliz mientras se pone a [situationFun].</li>
     <li>secondSentence(tierSection==3)->Cuando [PAWN_nameDef] sea mayor, quiere pasar su tiempo [taskWorkGerund].</li>
     <li>secondSentence(tierSection==3)->Sobre todo, a [PAWN_nameDef] le encanta [situationFun].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] ha mostrado un [nounGrowth] y quiere mantenerlo [situationLearningGerund].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] tiene un [nounAttitudeGood] por saber más.</li>
-    <li>firstSentence(tierSection==2)->Emocionado(a) por [nounFuture], a [PAWN_pronoun] le gustaría pasar tiempo [situationLearningGerund].</li>
+    <li>firstSentence(tierSection==2,PAWN_gender!=Female)->Emocionado por [nounFuture], a [PAWN_pronoun] le gustaría pasar tiempo [situationLearningGerund].</li>
+    <li>firstSentence(tierSection==2,PAWN_gender==Female)->Emocionada por [nounFuture], a [PAWN_pronoun] le gustaría pasar tiempo [situationLearningGerund].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] ha desarrollado una nueva pasión por [situationLearning].</li>
     <li>secondSentence(tierSection==2)->[PAWN_nameDef] disfruta [situationFun].</li>
     <li>secondSentence(tierSection==2)->[PAWN_nameDef] espera poder pasar más tiempo sin crecer para [situationFun].</li>
     <li>secondSentence(tierSection==2)->[PAWN_nameDef] piensa que [taskWork] es aburrido.</li>
     <li>secondSentence(tierSection==2)->Concretamente, [PAWN_nameDef] quisiera centrarse en [situationLearning].</li>
     <li>firstSentence(tierSection==1)->[PAWN_pronoun] ha mostrado poco de [nounGrowth] y tiene pocas expectativas para [nounFuture].</li>
-    <li>firstSentence(tierSection==1)->Aunque es optimista respecto a [nounFuture], [PAWN_pronoun] ha mostrado poco [nounGrowth].</li>
+    <li>firstSentence(tierSection==1)->Aunque es optimista respecto sobre [nounFuture], [PAWN_pronoun] ha mostrado poco [nounGrowth].</li>
     <li>firstSentence(tierSection==1)->[PAWN_pronoun] espera que las cosas mejoren en [nounFuture].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] ha mostrado un mínimo de [nounGrowth], quejándose de que [situationLearning] es aburrido.</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] desea tener más tiempo para [situationFun] pero está muy ocupado(a) preocupándose por [situationBad].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] a menudo se siente [feelingBad] mientras [situationFunVar].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] tiene un extraño temor de que por [situationFun] y que acabará [situationBadGerund].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] tiene pesadillas periódicas sobre [situationBad].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] ha mostrado un mínimo de [nounGrowth], quejándose de que [situationLearning] le resulta aburrido.</li>
+    <li>secondSentence(tierSection==1,PAWN_gender!=Female)->[PAWN_nameDef] desea tener más tiempo para [situationFun] pero está muy ocupado preocupándose por [situationBad].</li>
+    <li>secondSentence(tierSection==1,PAWN_gender==Female)->[PAWN_nameDef] desea tener más tiempo para [situationFun] pero está muy ocupada preocupándose por [situationBad_Fem].</li>
+    <li>secondSentence(tierSection==1,PAWN_gender!=Female)->[PAWN_nameDef] a menudo se siente [feelingBad] mientras [situationFunVar].</li>
+    <li>secondSentence(tierSection==1,PAWN_gender==Female)->[PAWN_nameDef] a menudo se siente [feelingBad_Fem] mientras [situationFunVar].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] tiene un extraño temor por [situationFun] y que acabará [situationBadGerund].</li>
+    <li>secondSentence(tierSection==1,PAWN_gender!=Female)->[PAWN_nameDef] tiene pesadillas periódicas sobre [situationBad].</li>
+    <li>secondSentence(tierSection==1,PAWN_gender==Female)->[PAWN_nameDef] tiene pesadillas periódicas sobre [situationBad_Fem].</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] a menudo quiere estar [situationLearningGerund] pero rara vez tiene la oportunidad de hacerlo.</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] no ha mostrado [nounGrowth].</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] no ha conseguido desarrollar nuevas pasiones y tiene poco [nounAttitudeGood] por [nounFuture].</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] ha mostrado poco interés en aprender y sobre todo no le gusta [situationLearning].</li>
     <li>secondSentence(tierSection==0)->[PAWN_nameDef] solo le interesa [situationFun].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] se ve constantemente frenado(a) por el miedo a [situationBad].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] vive con el temor de resultar gravemente herido(a) como consecuencia de [situationBad].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] tiene una pesadilla recurrente en la que [PAWN_pronoun] está [situationFunGerund] lo que resulta en imaginarse [situationBadGerund].</li>
+    <li>secondSentence(tierSection==0,PAWN_gender!=Female)->[PAWN_nameDef] se ve constantemente frenado por el miedo a [situationBad].</li>
+    <li>secondSentence(tierSection==0,PAWN_gender==Female)->[PAWN_nameDef] se ve constantemente frenada por el miedo a [situationBad].</li>
+    <li>secondSentence(tierSection==0,PAWN_gender==Female)->[PAWN_nameDef] vive con el temor de resultar gravemente herida como consecuencia de [situationBad].</li>
+    <li>secondSentence(tierSection==0,PAWN_gender!=Female)->[PAWN_nameDef] vive con el temor de resultar gravemente herido como consecuencia de [situationBad_Fem].</li>
+    <li>secondSentence(tierSection==0,PAWN_gender==Female)->[PAWN_nameDef] tiene una pesadilla recurrente en la que está [situationFunGerund] lo que resulta en imaginarse [situationBadGerund_Fem].</li>
+    <li>secondSentence(tierSection==0,PAWN_gender!=Female)->[PAWN_nameDef] tiene una pesadilla recurrente en la que está [situationFunGerund] lo que resulta en imaginarse [situationBadGerund].</li>
     <li>adjGood->gran</li>
     <li>adjGood->insaciable</li>
     <li>adjGood->intenso</li>
@@ -218,11 +226,16 @@
     <li>adjGood->interminable</li>
     <li>adjGood->puro</li>
     <li>adjGood->impresionante</li>
-    <li>feelingBad->solo(a)</li>
-    <li>feelingBad->temeroso(a)</li>
-    <li>feelingBad->herido(a)</li>
-    <li>feelingBad->muy enfermo(a)</li>
-    <li>feelingBad->enfermo(a)</li>
+    <li>feelingBad->solo</li>
+    <li>feelingBad->temeroso</li>
+    <li>feelingBad->herido</li>
+    <li>feelingBad->muy enfermo</li>
+    <li>feelingBad->enfermo</li>
+    <li>feelingBad_Fem->sola</li>
+    <li>feelingBad_Fem->temerosa</li>
+    <li>feelingBad_Fem->herida</li>
+    <li>feelingBad_Fem->muy enferma</li>
+    <li>feelingBad_Fem->enferma</li>
     <li>nounAttitudeGood->entusiasmo</li>
     <li>nounAttitudeGood->fervor</li>
     <li>nounAttitudeGood->optimismo</li>
@@ -244,7 +257,7 @@
     <li>situationFun->hablar en la radio sobre [topicLearning]</li>
     <li>situationFun->charlar en la radio con forasteros</li>
     <li>situationFun->dibujar imágenes de [friendNamePlural] en el suelo</li>
-    <li>situationFun->soñar despierto(a) sobre [topicLearning]</li>
+    <li>situationFun->soñar sobre [topicLearning]</li>
     <li>situationFun->correr en la naturaleza</li>
     <li>situationFun->tener aventuras con [friendNamePlural]</li>
     <li>situationFun->encontrar el tesoro escondido</li>
@@ -274,7 +287,7 @@
     <li>situationFunVar->escribe una historia sobre un [friendNameSingular] que caza [enemyNamePlural]</li>
     <li>situationFunVar->finge una pelea contra [enemyNamePlural]</li>
     <li>situationFunVar->cuenta historias sobre [enemyNamePlural]</li>
-    <li>situationFunGerund->explorar la naturaleza con [friendNamePlural]</li>
+    <li>situationFunGerund->explorando la naturaleza con unos [friendNamePlural]</li>
     <li>situationFunGerund->jugando [Game]</li>
     <li>situationFunGerund->jugando [Game] con amigos</li>
     <li>situationFunGerund->jugando con un [friendNameSingular]</li>
@@ -286,7 +299,6 @@
     <li>situationFunGerund->hablando en la radio sobre [topicLearning]</li>
     <li>situationFunGerund->charlando en la radio con forasteros</li>
     <li>situationFunGerund->dibujando imágenes de [friendNamePlural] en el suelo</li>
-    <li>situationFunGerund->soñando despierto(a) sobre [topicLearning]</li>
     <li>situationFunGerund->corriendo en la naturaleza</li>
     <li>situationFunGerund->teniendo aventuras con [friendNamePlural]</li>
     <li>situationFunGerund->encontrando el tesoro escondido</li>
@@ -313,26 +325,46 @@
     <li>situationAspirational->ayudar a otros</li>
     <li>situationAspirational->hacerse muy famoso</li>
     <li>situationAspirational->dejar este planeta</li>
-    <li>situationBad->ser atacado(a) por [enemyNamePlural]</li>
-    <li>situationBad->ser secuestrado(a) por [enemyNamePlural]</li>
-    <li>situationBad->ser cazado(a) por un[enemyNameSingular]</li>
-    <li>situationBad->ser perseguido(a) por un[enemyNameSingular]</li>
+    <li>situationBad->ser atacado por [enemyNamePlural]</li>
+    <li>situationBad->ser secuestrado por [enemyNamePlural]</li>
+    <li>situationBad->ser cazado por un [enemyNameSingular]</li>
+    <li>situationBad->ser perseguido por un [enemyNameSingular]</li>
     <li>situationBad->inhalar gas tóxico</li>
-    <li>situationBad->coger la putrefacción pulmonar</li>
-    <li>situationBad->coger la peste</li>
-    <li>situationBad->coger la intoxicación alimentaria</li>
+    <li>situationBad->enfermarse de putrefacción pulmonar</li>
+    <li>situationBad->enfermarse con la peste</li>
+    <li>situationBad->enfermarse de intoxicación alimentaria</li>
     <li>situationBad->ver morir a sus seres queridos</li>
     <li>situationBad->comer sin mesa</li>
-    <li>situationBadGerund->siendo atacado(a) por [enemyNamePlural]</li>
-    <li>situationBadGerund->siendo secuestrado(a) por [enemyNamePlural]</li>
-    <li>situationBadGerund->siendo cazado(a) por un[enemyNameSingular]</li>
-    <li>situationBadGerund->siendo perseguido(a) por un[enemyNameSingular]</li>
+    <li>situationBad_Fem->ser atacada por [enemyNamePlural]</li>
+    <li>situationBad_Fem->ser secuestrada por [enemyNamePlural]</li>
+    <li>situationBad_Fem->ser cazada por un [enemyNameSingular]</li>
+    <li>situationBad_Fem->ser perseguida por un [enemyNameSingular]</li>
+    <li>situationBad_Fem->inhalar gas tóxico</li>
+    <li>situationBad_Fem->enfermarse de putrefacción pulmonar</li>
+    <li>situationBad_Fem->enfermarse con la peste</li>
+    <li>situationBad_Fem->enfermarse de intoxicación alimentaria</li>
+    <li>situationBad_Fem->ver morir a sus seres queridos</li>
+    <li>situationBad_Fem->comer sin mesa</li>
+    <li>situationBadGerund->siendo atacado por [enemyNamePlural]</li>
+    <li>situationBadGerund->siendo secuestrado por [enemyNamePlural]</li>
+    <li>situationBadGerund->siendo cazado por un [enemyNameSingular]</li>
+    <li>situationBadGerund->siendo perseguido por un [enemyNameSingular]</li>
     <li>situationBadGerund->inhalado gas tóxico</li>
     <li>situationBadGerund->cogiendo la putrefacción pulmonar</li>
     <li>situationBadGerund->cogiendo la peste</li>
     <li>situationBadGerund->cogiendo la intoxicación alimentaria</li>
     <li>situationBadGerund->viendo morir a sus seres queridos</li>
     <li>situationBadGerund->comiendo sin mesa</li>
+    <li>situationBadGerund_Fem->siendo atacada por [enemyNamePlural]</li>
+    <li>situationBadGerund_Fem->siendo secuestrada por [enemyNamePlural]</li>
+    <li>situationBadGerund_Fem->siendo cazada por un [enemyNameSingular]</li>
+    <li>situationBadGerund_Fem->siendo perseguida por un [enemyNameSingular]</li>
+    <li>situationBadGerund_Fem->inhalado gas tóxico</li>
+    <li>situationBadGerund_Fem->cogiendo la putrefacción pulmonar</li>
+    <li>situationBadGerund_Fem->cogiendo la peste</li>
+    <li>situationBadGerund_Fem->cogiendo la intoxicación alimentaria</li>
+    <li>situationBadGerund_Fem->viendo morir a sus seres queridos</li>
+    <li>situationBadGerund_Fem->comiendo sin mesa</li>
     <li>topicLearning->el universo</li>
     <li>topicLearning->la ciencia</li>
     <li>topicLearning->diferentes culturas</li>
@@ -391,7 +423,7 @@
     <li>enemyNameSingular-> escorial [AdjectiveBadass]</li>
     <li>enemyNameSingular-> extraño</li>
     <li>enemyNameSingular-> sanguífago</li>
-    <li>enemyNameSingular->a mujer sin ojos</li>
+    <li>enemyNameSingular-> mujer sin ojos</li>
     <li>enemyNameSingular-> hombre con un garfio por mano</li>
   </GrowthMomentFlavor.rulePack.rulesStrings>
   
