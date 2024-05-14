@@ -625,7 +625,7 @@
   <!-- EN: adults -->
   <Adults>adultos</Adults>
   <!-- EN: child -->
-  <Child>niño</Child>
+  <Child>{PAWN_gender ? niño : niña}</Child>
   <!-- EN: children -->
   <Children>niños</Children>
   <!-- EN: baby -->
@@ -633,7 +633,7 @@
   <!-- EN: babies -->
   <Babies>bebés</Babies>
   <!-- EN: feral child -->
-  <FeralChild>niño salvaje</FeralChild>
+  <FeralChild>{PAWN_gender ? niño salvaje : niña salvaje}</FeralChild>
   <!-- EN: Wearable by -->
   <WearableBy>Equipable por</WearableBy>
 
