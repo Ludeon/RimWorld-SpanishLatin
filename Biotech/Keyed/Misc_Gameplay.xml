@@ -625,7 +625,7 @@
   <!-- EN: adults -->
   <Adults>adultos</Adults>
   <!-- EN: child -->
-  <Child>{PAWN_gender ? niño : niña}</Child>
+  <Child>niñ{PAWN_gender ? o  : a}</Child>
   <!-- EN: children -->
   <Children>niños</Children>
   <!-- EN: baby -->
@@ -633,7 +633,7 @@
   <!-- EN: babies -->
   <Babies>bebés</Babies>
   <!-- EN: feral child -->
-  <FeralChild>{PAWN_gender ? niño salvaje : niña salvaje}</FeralChild>
+  <FeralChild>niñ{PAWN_gender ? o  : a} salvaje</FeralChild>
   <!-- EN: Wearable by -->
   <WearableBy>Equipable por</WearableBy>
 
@@ -751,7 +751,7 @@
   <EmbryoEjectedFromGrowthVatBiostarvation>El {0} fue destruido en una tanque de crecimiento debido a la bioinanición.</EmbryoEjectedFromGrowthVatBiostarvation>
 
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
-  <IvfPregnancyLetterText>{0} ¡fue embarazada con éxito gracias a la implantación del embrión!</IvfPregnancyLetterText>
+  <IvfPregnancyLetterText>¡{0} fue embarazada con éxito gracias a la implantación del embrión!</IvfPregnancyLetterText>
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>El bebé tendrá la composición genética de {0} y {1}.</IvfPregnancyLetterParents>
 
