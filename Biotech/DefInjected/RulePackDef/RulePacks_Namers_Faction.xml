@@ -148,6 +148,7 @@
   <NamerFactionPirateYttakin.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
     <li>r_name->[faction] [placeNameCore]</li>
+    <li>r_name->[placeNameCore] [factionEnd]</li>
     <li>r_name->[faction] de [placeNameCore]</li>
     <li>faction->clan rugido</li>
     <li>faction->tribu</li>
@@ -156,7 +157,7 @@
     <li>faction->manada</li>
     <li>faction->familia</li>
     <li>faction->pelaje</li>
-    <li>faction->peludos</li>
+    <li>factionEnd->peludos</li>
   </NamerFactionPirateYttakin.rulePack.rulesStrings>
   
   <!-- EN:
@@ -179,7 +180,7 @@
     <li>faction->nave rápida</li>
     <li>faction->nave veloz</li>
     <li>faction->quemacasa</li>
-    <li>faction->casa de fuego</li>
+    <li>faction->fuegogar</li>
   </NamerFactionTribalImpid.rulePack.rulesStrings>
   
   <!-- EN:
