@@ -43,16 +43,16 @@
     <li>prefix->[blastDefCap] {replace: de [WEAPON_definite]; ">el "-">del "} {replace: de [INITIATOR_definite]; ">el "-">del "}</li>
     <li>prefix->[projectileD] {replace: de [INITIATOR_definite]; ">el "-">del "}</li>
     <li>prefix->[WEAPON_definite] {replace: de [INITIATOR_definite]; ">el "-">del "}</li>
-    <li>r_logentry->[prefix] ha [injured] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
-    <li>r_logentry->[prefix] ha [destroyed_past] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry->[prefix] ha [destroyed_past] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} [strikeAdv].</li>
-    <li>r_logentry->[prefix] ha [destroyed_past] [strikeAdv] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry->[prefix] ha [destroyed_past] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} y también ha [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] ha [damaged_past] [damaged_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] ha [damaged_past] [damaged_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} [strikeAdv].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] ha [damaged_past] [strikeAdv] [damaged_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry->[INITIATOR_definite] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
-    <li>r_logentry->[INITIATOR_definite] ha [damaged_past] [strikeAdv] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
+    <li>r_logentry->[prefix] ha [injured] [RECIPIENT_nameAl].</li>
+    <li>r_logentry->[prefix] ha [destroyed_past] [destroyed_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry->[prefix] ha [destroyed_past] [destroyed_targetsDef] [RECIPIENT_nameDel] [strikeAdv].</li>
+    <li>r_logentry->[prefix] ha [destroyed_past] [strikeAdv] [destroyed_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry->[prefix] ha [destroyed_past] [destroyed_targetsDef] [RECIPIENT_nameDel] y también ha [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] ha [damaged_past] [damaged_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] ha [damaged_past] [damaged_targetsDef] [RECIPIENT_nameDel] [strikeAdv].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] ha [damaged_past] [strikeAdv] [damaged_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry->[INITIATOR_definite] ha [damaged_past] [RECIPIENT_nameAl].</li>
+    <li>r_logentry->[INITIATOR_definite] ha [damaged_past] [strikeAdv] [RECIPIENT_nameAl].</li>
     <li>r_logentry(RECIPIENT_gender!=Female)->[RECIPIENT_definite] fue [damaged_past1]o.</li>
     <li>r_logentry(p=0.001,RECIPIENT_gender!=Female)->[RECIPIENT_definite] quedó atrapado en una explosión.</li>
     <li>r_logentry(p=0.001,RECIPIENT_gender!=Female)->[RECIPIENT_definite] fue golpeado por una explosión.</li>
@@ -151,25 +151,25 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
-    <li>r_logentry->[projectile] de [INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry->[projectile] de [INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} [to] [destroyed_suffix].</li>
-    <li>r_logentry(p=2)->[projectile] de [INITIATOR_definite] [missed] a [ORIGINALTARGET_definite] y ha [destroyed_past] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry(p=2)->[projectile] de [INITIATOR_definite] [missed] a [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry->[destroyed_targetsDef1] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} fue [destroyed_past] por [projectile] de [INITIATOR_definite].</li>
-    <li>r_logentry->[destroyed_targetsDef2] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} fueron [destroyed_past]s por [projectile] de [INITIATOR_definite].</li>
-    <li>r_logentry->[destroyed_targetsDef1] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} fue [destroyed_past] en [destroyed_suffix] por [projectile] de [INITIATOR_definite].</li>
-    <li>r_logentry->[destroyed_targetsDef2] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} fueron [destroyed_past]s en [destroyed_suffix] por [projectile] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[projectile] de [INITIATOR_definite] ha [damaged_past] [damaged_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[projectile] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] y ha [damaged_past] [damaged_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[projectile] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[damaged_targetsDef1] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} fue [damaged_past] por [projectile] de [INITIATOR_definite].</li>
-    <li>r_logentry(p=3)->[projectile] de [INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} y [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
-    <li>r_logentry(p=6)->[projectile] de [INITIATOR_definite] [missed] a [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}, [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] le dio {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [projectile].</li>
-    <li>r_logentry(p=0.2)->[projectile] de [INITIATOR_definite] alcanzó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] y alcanzó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [projectile].</li>
-    <li>r_logentry(p=0.4)->[projectile] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] y alcanzó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [projectile] que tenía como destino a [ORIGINALTARGET_definite].</li>
+    <li>r_logentry->[projectile] de [INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry->[projectile] de [INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] [RECIPIENT_nameDel] [to] [destroyed_suffix].</li>
+    <li>r_logentry(p=2)->[projectile] de [INITIATOR_definite] [missed] a [ORIGINALTARGET_definite] y ha [destroyed_past] [destroyed_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry(p=2)->[projectile] de [INITIATOR_definite] [missed] a [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry->[destroyed_targetsDef1] [RECIPIENT_nameDel] fue [destroyed_past] por [projectile] de [INITIATOR_definite].</li>
+    <li>r_logentry->[destroyed_targetsDef2] [RECIPIENT_nameDel] fueron [destroyed_past]s por [projectile] de [INITIATOR_definite].</li>
+    <li>r_logentry->[destroyed_targetsDef1] [RECIPIENT_nameDel] fue [destroyed_past] en [destroyed_suffix] por [projectile] de [INITIATOR_definite].</li>
+    <li>r_logentry->[destroyed_targetsDef2] [RECIPIENT_nameDel] fueron [destroyed_past]s en [destroyed_suffix] por [projectile] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[projectile] de [INITIATOR_definite] ha [damaged_past] [damaged_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[projectile] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] y ha [damaged_past] [damaged_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[projectile] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damaged_targetsDef1] [RECIPIENT_nameDel] fue [damaged_past] por [projectile] de [INITIATOR_definite].</li>
+    <li>r_logentry(p=3)->[projectile] de [INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] [RECIPIENT_nameDel] y [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(p=6)->[projectile] de [INITIATOR_definite] [missed] a [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targetsDef] [RECIPIENT_nameDel], [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] le dio [RECIPIENT_nameAl] con [projectile].</li>
+    <li>r_logentry(p=0.2)->[projectile] de [INITIATOR_definite] alcanzó [RECIPIENT_nameAl] .</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] y alcanzó [RECIPIENT_nameAl]  con [projectile].</li>
+    <li>r_logentry(p=0.4)->[projectile] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] y alcanzó [RECIPIENT_nameAl] .</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó [RECIPIENT_nameAl]  con [projectile] que tenía como destino a [ORIGINALTARGET_definite].</li>
     <li>WEAPON_projectile_label(p=0.05)->disparo</li>
     <!--Dejar WEAPON_projectile_indefinite con este nombre aunque no sea indefinido zerstrick(5/3/2022) -->
     <li>WEAPON_projectile_indefinite(p=0.05)->el disparo</li>
@@ -238,18 +238,18 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDeflect.rulePack.rulesStrings>
-    <li>r_logentry->[projectile] de [INITIATOR_definite] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} [damaged_targetsDef][deflected_result].</li>
+    <li>r_logentry->[projectile] de [INITIATOR_definite] ha [damaged_past] [RECIPIENT_nameAl]  [damaged_targetsDef][deflected_result].</li>
     <li>r_logentry(p=2)->[projectile] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] y ha [damaged_past] [damaged_target_possessive_opt][RECIPIENT_definite][deflected_result].</li>
     <li>r_logentry->[damaged_target_possessive_opt] fue [damaged_past] por [projectile] de [INITIATOR_definite][deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó a [damaged_target_possessive_opt] con [projectile][deflected_result].</li>
     <li>r_logentry(p=0.2)->[projectile] de [INITIATOR_definite] golpeó a [damaged_target_possessive_opt][deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} y golpeó a [damaged_target_possessive_opt] con [projectile][deflected_result].</li>
-    <li>r_logentry(p=0.4)->[projectile] de [INITIATOR_definite] [missed] {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} y golpeó a [damaged_target_possessive_opt][deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [RECIPIENT_nameAl]  y golpeó a [damaged_target_possessive_opt] con [projectile][deflected_result].</li>
+    <li>r_logentry(p=0.4)->[projectile] de [INITIATOR_definite] [missed] [RECIPIENT_nameAl]  y golpeó a [damaged_target_possessive_opt][deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] golpeó a [damaged_target_possessive_opt] con [projectile] que iba destinado a [ORIGINALTARGET_definite][deflected_result].</li>
     <li>WEAPON_projectile_label(p=0.05)->disparo</li>
     <li>projectile(p=0.05)->el disparo</li>
-    <li>damaged_target_possessive_opt->{replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}</li>
-    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_definite] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}</li>
+    <li>damaged_target_possessive_opt->[RECIPIENT_nameAl] </li>
+    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_definite] [RECIPIENT_nameDel]</li>
     <li>deflected_result-> [adverb_deflected]</li>
     <li>deflected_result->, [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
@@ -294,10 +294,10 @@
     <li>verb_shot(p=0.2)->discharged</li>
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [shotat] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [INITIATOR_possessive] [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_nameAl]  con [INITIATOR_possessive] [WEAPON_label].</li>
     <li>r_logentry->[INITIATOR_definite] [shotatC] [RECIPIENT_indefinite] con [INITIATOR_possessive] [WEAPON_label].</li>
     <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] contra [RECIPIENT_indefinite].</li>
-    <li>r_logentry->[INITIATOR_definite] [shotat] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_nameAl] .</li>
     <li>r_logentry->[INITIATOR_definite] [shotatC] [RECIPIENT_indefinite].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_definite] [shot_an] contra [RECIPIENT_definite] con una [burst] de [projectile].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [projectile_indefinite].</li>
@@ -353,8 +353,8 @@
     <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [projectile1] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
-    <li>r_logentry->[INITIATOR_definite] [threw_a] [projectile] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
+    <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [projectile1] [RECIPIENT_nameAl] .</li>
+    <li>r_logentry->[INITIATOR_definite] [threw_a] [projectile] [RECIPIENT_nameAl] .</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [INITIATOR_possessive] [projectile1].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a] [projectile].</li>
     <li>threw_a->[adjective_threw] [verb_threw]</li>
@@ -424,7 +424,7 @@
   -->
   <Combat_RangedMiss.rulePack.rulesStrings>
     <li>r_logentry->[projectile] de [INITIATOR_definite] [missed].</li>
-    <li>r_logentry->[INITIATOR_definite] falló {replace: a [ORIGINALTARGET_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
+    <li>r_logentry->[INITIATOR_definite] falló [RECIPIENT_nameAl] .</li>
     <li>r_logentry->[ORIGINALTARGET_definite] [avoidance], haciendo que [projectileD] de [INITIATOR_definite] [missing].</li>
     <li>missed(p=4)->falló</li>
     <li>missed(p=2)->falló por un pequeño margen</li>
