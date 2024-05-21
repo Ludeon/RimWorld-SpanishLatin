@@ -32,12 +32,12 @@
     <li>deflecting->glancing</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_definite] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} en [recipient_part0_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [implement] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillDescMelee], ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} en [recipient_part0_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] atacó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} para [damaged_inf][RECIPIENT_objective] con [implement] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] usó [implement] para [damaged_inf] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} [deflected_result].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_definite] ha [damaged_past] [RECIPIENT_nameAl] en [recipient_part0_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] ha [damaged_past] [RECIPIENT_nameAl] con [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] ha [damaged_past] [RECIPIENT_nameAl] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillDescMelee], ha [damaged_past] [RECIPIENT_nameAl] en [recipient_part0_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] atacó [RECIPIENT_nameAl] para [damaged_inf][RECIPIENT_objective] con [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] usó [implement] para [damaged_inf] [RECIPIENT_nameAl] [deflected_result].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>deflected_result->, pero [TOOL_definite] [deflected] [harmlessly_opt]</li>
@@ -75,7 +75,7 @@
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>result->pero [RECIPIENT_definite] saltó fuera del camino</li>
-    <li>result->pero cayó en el engaño de la finta {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}</li>
+    <li>result->pero cayó en el engaño de la finta [RECIPIENT_nameDel]</li>
     <li>result->pero el ataque fue claramente evadido</li>
   </Combat_Dodge.rulePack.rulesStrings>
   
@@ -102,26 +102,26 @@
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   -->
   <Combat_Hit.rulePack.rulesStrings>
-    <li>r_logentry(p=1.0)->[INITIATOR_definite] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} en [recipient_part0_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} en [recipient_part0_definite] [strikeAdv].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} en [recipient_part0_definite], [flavortext_consequence].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} en [recipient_part0_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], ha [damaged_past] [strikeAdv] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} en [recipient_part0_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}.</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} [destroyed_suffix].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] {replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "} con [implement].</li>
-    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [implement].</li>
-    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [implement].</li>
+    <li>r_logentry(p=1.0)->[INITIATOR_definite] ha [damaged_past] [RECIPIENT_nameAl] en [recipient_part0_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [damaged_past] [RECIPIENT_nameAl] en [recipient_part0_definite] [strikeAdv].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [damaged_past] [RECIPIENT_nameAl] en [recipient_part0_definite], [flavortext_consequence].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], ha [damaged_past] [RECIPIENT_nameAl] en [recipient_part0_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], ha [damaged_past] [strikeAdv] [RECIPIENT_nameAl] en [recipient_part0_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] [RECIPIENT_nameDel].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] [RECIPIENT_nameDel] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] ha [destroyed_past] [destroyed_targetsDef] [RECIPIENT_nameDel] con [implement].</li>
+    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] ha [damaged_past] [RECIPIENT_nameAl] con [implement].</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] ha [damaged_past] [RECIPIENT_nameAl] con [implement].</li>
     <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets]</li>
     <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
     <li>result(p=1)->[destroyed_present] con [RECIPIENT_possessive] [destroyed_targets] y [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
-    <li>action(p=1.0)->[INITIATOR_definite] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}</li>
-    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], ha [damaged_past] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}</li>
-    <li>action(p=0.3)->[INITIATOR_definite] golpeó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} logrando [damaged_inf][RECIPIENT_objective] con [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], golpeó {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} logrando [damaged_inf][RECIPIENT_objective] con [implement]</li>
+    <li>action(p=1.0)->[INITIATOR_definite] ha [damaged_past] [RECIPIENT_nameAl] con [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] ha [damaged_past] [RECIPIENT_nameAl]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], ha [damaged_past] [RECIPIENT_nameAl]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] golpeó [RECIPIENT_nameAl] logrando [damaged_inf][RECIPIENT_objective] con [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], golpeó [RECIPIENT_nameAl] logrando [damaged_inf][RECIPIENT_objective] con [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] usó [implement] para [damaged_inf] a [RECIPIENT_definite]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] usó [implement] [skillAdv] para [damaged_inf] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}</li>
+    <li>action(p=0.3)->[INITIATOR_definite] usó [implement] [skillAdv] para [damaged_inf] [RECIPIENT_nameAl]</li>
   </Combat_Hit.rulePack.rulesStrings>
   
   <!-- EN:
@@ -145,10 +145,10 @@
   -->
   <Combat_Miss.rulePack.rulesStrings>
     <li>r_logentry(p=0.3)->[RECIPIENT_definite] evitó que [WEAPON_definite] de [INITIATOR_definite] le pudiera [damaged_inf].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] falló {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} y no pudo [damaged_inf][RECIPIENT_objective] con [implement].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mientras intentaba [damaged_inf] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "} con [implement].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mientras intentaba [damaged_inf] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}.</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] intentó [damaged_inf] [skillAdvMaybe] {replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}, pero [failtype].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] falló [RECIPIENT_nameAl] y no pudo [damaged_inf][RECIPIENT_objective] con [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mientras intentaba [damaged_inf] [RECIPIENT_nameAl] con [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mientras intentaba [damaged_inf] [RECIPIENT_nameAl].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] intentó [damaged_inf] [skillAdvMaybe] [RECIPIENT_nameAl], pero [failtype].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>failtype(p=5)->falló</li>

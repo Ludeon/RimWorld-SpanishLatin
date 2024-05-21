@@ -1062,6 +1062,8 @@
     <li>WeaponCacAnyPl->[WeaponCac_FemPlural]</li>
     <li>WeaponCacAnyIndefPl->unos [WeaponCac_Plural]</li>
     <li>WeaponCacAnyIndefPl->unas [WeaponCac_FemPlural]</li>
+    <li>RECIPIENT_nameAl->{replace: a [RECIPIENT_definite]; "a &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>al "}</li>
+    <li>RECIPIENT_nameDel->{replace: de [RECIPIENT_definite]; "de &lt;color=#D09B61FF>el "-"&lt;color=#D09B61FF>del "}</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:

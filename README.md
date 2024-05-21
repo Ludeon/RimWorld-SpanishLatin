@@ -87,7 +87,7 @@ Thanks to AM for the 10f. version.
 Thanks for original spanish translation.
 
 * __[Mora145](https://github.com/mora145) (Inactive)__
-* __[Destiny609](https://github.com/Destiny609) (Inactive)__
+* __[NNeoNeTT](https://github.com/NNeoNeTT) (Inactive)__ 
 * __Gaesata (Inactive)__
 * __Vhiden (Inactive)__
 * __Emsaic (Inactive)__
