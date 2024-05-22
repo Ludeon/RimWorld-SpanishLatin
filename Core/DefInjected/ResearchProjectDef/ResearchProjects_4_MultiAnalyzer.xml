@@ -14,7 +14,9 @@
   -->
   <AdvancedFabrication.generalRules.rulesStrings>
     <li>subject->fabricación de componentes avanzados</li>
+    <li>subject_FemMas->fabricación de componentes avanzados</li>
     <li>subject_def->de la fabricación de componentes avanzados</li>
+    <li>subject_def2->a la fabricación de componentes avanzados</li>
     <li>subject_story->comerció componentes avanzados con colonos desesperados</li>
     <li>subject_story->aprendió los secretos de la fabricación de componentes avanzados y murió sin revelarlos</li>
     <li>subject_story->se negó ante el costo extremo de la elaboración de componentes avanzados y eligió un estilo de vida más simple</li>
@@ -35,7 +37,9 @@
   -->
   <Bionics.generalRules.rulesStrings>
     <li>subject->prótesis biónicas</li>
+    <li>subject_FemMas->las prótesis biónicas</li>
     <li>subject_def->de las prótesis biónicas</li>
+    <li>subject_def2->a las prótesis biónicas</li>
     <li>subject_story->trabajó principalmente con soldados desfigurados, creando elementos faciales biónicos a medida para que pudieran regresar con sus seres queridos</li>
     <li>subject_story->estudió videos de movimiento humano a velocidad reducida para perfeccionar la fabricación de prótesis biónicas</li>
     <li>subject_story->se ofreció para que le implantaran varios prototipos biónicos, terminando siendo más máquina que hombre</li>
@@ -44,9 +48,9 @@
   </Bionics.generalRules.rulesStrings>
   
   <!-- EN: pulse-charged munitions -->
-  <ChargedShot.label>disparo de cargas</ChargedShot.label>
+  <ChargedShot.label>municiones de pulso cargadas</ChargedShot.label>
   <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
-  <ChargedShot.description>Construye armas que disparen municiones cargadas con pulsos para causar daño extra. Tenga en cuenta que estos también requieren componentes avanzados.</ChargedShot.description>
+  <ChargedShot.description>Construye armas que disparen municiones de pulso cargadas para causar daño extra. Ten en cuenta que estas también requieren componentes avanzados.</ChargedShot.description>
   <!-- EN:
     <li>subject->pulse munitions</li>
     <li>subject_story->studied glitterworld monorails and modified the tech for weapons</li>
@@ -57,10 +61,12 @@
   -->
   <ChargedShot.generalRules.rulesStrings>
     <li>subject->municiones de pulso</li>
+    <li>subject_FemMas->las municiones de pulso</li>
     <li>subject_def->de las municiones de pulso</li>
+    <li>subject_def2->a las municiones de pulso</li>
     <li>subject_story->estudió los monorraíles del glitterworld y modificó la tecnología para armas</li>
-    <li>subject_story->mató a un rastreador mecánico haciéndolo retroceder con una lanza de carga</li>
-    <li>subject_story->aprendió a cargar municiones de rifle con carga retenida, aumentando considerablemente su letalidad</li>
+    <li>subject_story->mató a un rastreador mecánico haciéndolo retroceder con una lanza de cargas</li>
+    <li>subject_story->aprendió a cargar municiones de rifle con cargas retenidas, aumentando considerablemente su letalidad</li>
     <li>subject_gerund->construcción de municiones de pulso</li>
     <li>subject_gerund->utilización de municiones de pulso</li>
   </ChargedShot.generalRules.rulesStrings>
@@ -79,8 +85,10 @@
   -->
   <Cryptosleep.generalRules.rulesStrings>
     <li>subject->criptosueño</li>
+    <li>subject_FemMas->el criptosueño</li>
     <li>subject_def->del criptosueño</li>
-    <li>subject_story->tenía la intención de probar un prototipo de un sarcófago de criptosueño y despertó una generación después, sin nadie</li>
+    <li>subject_def2->al criptosueño</li>
+    <li>subject_story->tenía la intención de probar un prototipo de un sarcófago de criptosueño y despertó una generación después, completamente sol{ANYPAWN_gender ? o : a}</li>
     <li>subject_story->condenó al peor criminal del sistema a un criptosueño indefinido en lugar de la muerte</li>
     <li>subject_story->utilizó una cápsula de criptosueño para resguardar a los enfermos terminales, para que pudieran ver a sus hijos una vez que hubieran crecido</li>
     <li>subject_gerund->construcción de sarcófagos de criptosueño</li>
@@ -105,7 +113,9 @@
   -->
   <Fabrication.generalRules.rulesStrings>
     <li>subject->bancos de fabricación de alta tecnología</li>
+    <li>subject_FemMas->los bancos de fabricación de alta tecnología</li>
     <li>subject_def->de los bancos de fabricación de alta tecnología</li>
+    <li>subject_def2->a los bancos de fabricación de alta tecnología</li>
     <li>subject_story->pasó muchos años fabricando componentes avanzados, para hacer bancos de fabricación y crear más componentes avanzados</li>
     <li>subject_story->intercambió todo para construir un solo banco de fabricación</li>
     <li>subject_story->construyó maravillas tecnológicas que los aldeanos salvajes adoraban como mágicas</li>
@@ -126,7 +136,9 @@
   -->
   <MultiAnalyzer.generalRules.rulesStrings>
     <li>subject->multianálisis</li>
+    <li>subject_FemMas->el multianálisis</li>
     <li>subject_def->del multianálisis</li>
+    <li>subject_def2->al multianálisis</li>
     <li>subject_story->automatizó un laboratorio de investigación</li>
     <li>subject_story->desbloqueó los secretos trans-espectro del universo</li>
     <li>subject_story->ayudó a identificar nuevos isótopos estables</li>
@@ -134,9 +146,9 @@
   </MultiAnalyzer.generalRules.rulesStrings>
   
   <!-- EN: marine armor -->
-  <PoweredArmor.label>armadura marine</PoweredArmor.label>
+  <PoweredArmor.label>armadura de marine</PoweredArmor.label>
   <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
-  <PoweredArmor.description>Construye una armadura marine, una armadura motorizada de uso general utilizada por las tropas de choque de alta tecnología. Tengan en cuenta que estas también requieren componentes avanzados.</PoweredArmor.description>
+  <PoweredArmor.description>Construye una armadura de marine, una armadura motorizada de uso general utilizada por las tropas de choque de alta tecnología. Tengan en cuenta que estas también requieren componentes avanzados.</PoweredArmor.description>
   <!-- EN:
     <li>subject->marine armor</li>
     <li>subject_story->was employed by the shock troops to maintain their armor</li>
@@ -147,20 +159,22 @@
     <li>subject_gerund->constructing general-use advanced armor</li>
   -->
   <PoweredArmor.generalRules.rulesStrings>
-    <li>subject->armadura marine</li>
-    <li>subject_def->de la armadura marine</li>
-    <li>subject_story->fue empleado por las tropas de choque para mantener su armadura</li>
+    <li>subject->armadura de marine</li>
+    <li>subject_FemMas->la armadura de marine</li>
+    <li>subject_def->de la armadura de marine</li>
+    <li>subject_def2->a la armadura de marine</li>
+    <li>subject_story->fue emplead{ANYPAWN_gender ? o : a} por las tropas de choque para mantener su armadura</li>
     <li>subject_story->probó la armadura caminando, desarmado, a través de un hostil pueblo salvaje sin recibir un rasguño</li>
     <li>subject_story->pretendía que la armadura protegiera contra el clima hostil del planeta, pero también funcionó bien contra los piratas</li>
     <li>subject_gerund->fabricación de armaduras de tropas de choque</li>
-    <li>subject_gerund->fabricación de armaduras marine</li>
+    <li>subject_gerund->fabricación de armaduras de marine</li>
     <li>subject_gerund->fabricación de armaduras avanzadas de uso general</li>
   </PoweredArmor.generalRules.rulesStrings>
   
   <!-- EN: recon armor -->
-  <ReconArmor.label>armadura recon</ReconArmor.label>
+  <ReconArmor.label>armadura de reconocimiento</ReconArmor.label>
   <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
-  <ReconArmor.description>Fabrica una armadura motorizada de reconocimiento, una ligera armadura que usan las tropas exploradoras que necesitan protección en movimiento. Tenga en cuenta que estas también requieren componentes avanzados.</ReconArmor.description>
+  <ReconArmor.description>Fabrica una armadura motorizada de reconocimiento, una ligera armadura que usan las tropas exploradoras que necesitan protección en movimiento. Ten en cuenta que estas también requieren componentes avanzados.</ReconArmor.description>
   <!-- EN:
     <li>subject->recon armor</li>
     <li>subject_story->led the rebel scouts against the Imperial forces, until captured</li>
@@ -170,12 +184,14 @@
     <li>subject_gerund->reducing armor weight</li>
   -->
   <ReconArmor.generalRules.rulesStrings>
-    <li>subject->armadura recon</li>
-    <li>subject_def->de la armadura recon</li>
+    <li>subject->armadura de reconocimiento</li>
+    <li>subject_FemMas->la armadura de reconocimiento</li>
+    <li>subject_def->de la armadura de reconocimiento</li>
+    <li>subject_def2->a la armadura de reconocimiento</li>
     <li>subject_story->lideró a los exploradores rebeldes contra las fuerzas imperiales, hasta ser capturado</li>
     <li>subject_story->creó una armadura motorizada ligera y resistente para que los portadores de martillos se acercaran al enemigo</li>
-    <li>subject_story->pretendía que la armadura recon fuera más para cazadores que para soldados. De todos modos, se vendió bien.</li>
-    <li>subject_gerund->fabricación de armaduras recon</li>
+    <li>subject_story->pretendía que la armadura de reconocimiento fuera más para cazadores que para soldados. De todos modos, se vendió bien.</li>
+    <li>subject_gerund->fabricación de armaduras de reconocimiento</li>
     <li>subject_gerund->reducción del peso de armadura</li>
   </ReconArmor.generalRules.rulesStrings>
   
@@ -192,7 +208,9 @@
   -->
   <RocketswarmLauncher.generalRules.rulesStrings>
     <li>subject->torretas de cohetes</li>
+    <li>subject_FemMas->las torretas de cohetes</li>
     <li>subject_def->de las torretas de cohetes</li>
+    <li>subject_def2->a las torretas de cohetes</li>
     <li>subject_story->testificó sobre el uso de lanzacohetes múltiple contra objetivos civiles</li>
     <li>subject_story->construyó defensas de último recurso, incluidas trampas y lanzadores, por si alguna vez se amenazaba el asentamiento</li>
     <li>subject_story->comenzó construcción de cohetes primitivos para llegar al espacio, pero la alta tasa de fallos hizo que se reutilizaran como armas</li>
@@ -212,10 +230,12 @@
   -->
   <SniperTurret.generalRules.rulesStrings>
     <li>subject->torretas de balas de uranio</li>
+    <li>subject_FemMas->las torretas de balas de uranio</li>
     <li>subject_def->de las torretas de balas de uranio</li>
-    <li>subject_story->encabezó la limpieza después de la guerra, recolectando balas de uranio radiactivo gastadas en la línea del frente</li>
+    <li>subject_def2->a las torretas de balas de uranio</li>
+    <li>subject_story->encabezó la limpieza después de la guerra, recolectando balas de uranio radiactivo gastadas en la línea frontal</li>
     <li>subject_story->vio cómo una torreta atravesaba directamente un asalto de mecanoides y necesitó entender cómo fue posible</li>
-    <li>subject_story->estudió los efectos de la densidad de munición en la armadura</li>
+    <li>subject_story->estudió los efectos de la densidad de la munición en la armadura</li>
     <li>subject_gerund->construcción de torretas de balas de uranio</li>
   </SniperTurret.generalRules.rulesStrings>
   
@@ -233,9 +253,11 @@
   -->
   <VitalsMonitor.generalRules.rulesStrings>
     <li>subject->monitoreo de signos vitales</li>
-    <li>subject_def->del monitoreo de signos vitales</li>
+    <li>subject_FemMas->el monitoreo de los signos vitales</li>
+    <li>subject_def->del monitoreo de los signos vitales</li>
+    <li>subject_def2->al monitoreo de los signos vitales</li>
     <li>subject_story->luchó en un hospital abarrotado y juró trabajar por un cambio</li>
-    <li>subject_story->cuidó a un superviviente de glassworld hasta su recuperación</li>
+    <li>subject_story->cuidó a un superviviente de un glassworld hasta su recuperación</li>
     <li>subject_story->monitoreó la sala de aislamiento de forma remota, enviando mecanoides para tratamientos</li>
     <li>subject_gerund->monitoreo de signos vitales</li>
     <li>subject_gerund->construcción de monitores de signos vitales</li>

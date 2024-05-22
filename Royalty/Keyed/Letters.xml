@@ -18,7 +18,7 @@
   <LetterRoyalTitleExpectation>{PAWN_possessive}s expectativas nunca serán más bajas que {1}.</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>Debido a que {PAWN_labelShort} es {1}, {PAWN_pronoun} exige que sus privilegios de título sean completamente respetados, {PAWN_pronoun} puede rechazar hacer cierto tipos de trabajo, comer comida de clase baja y en ocasiones emitirá decretos.</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>Debido a que {PAWN_labelShort} es {1}, {PAWN_pronoun} exige que sus privilegios de título sean completamente respetados. {PAWN_pronoun} puede rechazar hacer cierto tipos de trabajo, comer comida de clase baja y en ocasiones emitirá decretos.</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>¡{PAWN_labelShort} recibió el título de {TITLE} de la facción {FACTION_name}!</LetterGainedRoyalTitle>
@@ -104,12 +104,12 @@
 
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
-  <WildDecree>Decreto salvaje</WildDecree>
+  <WildDecree>Decreto extravagante</WildDecree>
   <!-- EN: {0_nameIndef} issues decree -->
   <LetterLabelRandomDecree>{0_nameIndef} emite decreto</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}, en un intento de aliviar su estrés, emitió un decreto real salvaje y ahora exige que se cumpla.\n     \nSi no se cumple a tiempo, {0_nameIndef} será infeliz.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}, en un intento de aliviar su estrés, emitió un decreto real extravagante y ahora exige que se cumpla.\n     \nSi no se cumple a tiempo, {0_nameIndef} será infeliz.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
   <LetterRandomDecree>{0_nameIndef}, para afirmar su título de {0_bestRoyalTitleIndef}, ha emitido un decreto y ahora exige que se cumpla.\n    \nSi no se cumple a tiempo, {0_nameIndef} se volverá muy infeliz.</LetterRandomDecree>
