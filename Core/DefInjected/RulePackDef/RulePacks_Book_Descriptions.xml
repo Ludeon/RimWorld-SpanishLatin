@@ -1569,7 +1569,7 @@
     <li>learning_story-> era especialista en [subject] en el coreworld [coreworld]</li>
     <li>learning_story-> poseía las fábricas en el indworld [indworld], complaciendo [ANYPAWN_possessive] pasión en [subject] mientras [ANYPAWN_possessive]s trabajadores servían como esclavos</li>
     <li>learning_story-> aprendió sobre [subject] encarcarcelad[ANYPAWN_o_a] en la prisión Cellcity V de [prisonworld], siempre protestando [ANYPAWN_possessive] inocencia</li>
-    <li>learning_story-> reconstruyó este esquema sobre [subject] en las colmenas del trashworld [trashworld], recogiendo fragmentos desechados por ciudadanos ociosos de un glitterworld</li>
+    <li>learning_story-> reconstruyó este esquema sobre [subject] en las colmenas del trashworld [trashworld], recogiendo fragmentos desechados por ciudadanos ociosos de un mundobrillante</li>
     <li>learning_story-> criaba apatovoros clonados en [dinoworld] y cambiaba su carne por conocimientos sobre [subject]</li>
     <li>learning_story-> vivió en los rasgacielos de [urbworld], donde el conocimiento sobre [subject] era común</li>
     <li>learning_story-> se crió en las deadlands de [ruinworld], aprendiendo sobre [subject] para sobrevivir</li>
@@ -1593,9 +1593,9 @@
     <li>calltoadventure-> sentía que su vida estaba estancada. Entonces un día, encontró [subject]</li>
     <li>calltoadventure-> se le encomendó iniciar una nueva colonia, por [ANYPAWN_possessive] propia cuenta, centrada sobre [subject]</li>
     <li>calltoadventure-> al fallecer su hermano mayor, [ANYPAWN_objective] dejó como únic[ANYPAWN_o_a] especialista en [subject] de la familia</li>
-    <li>calltoadventure-> supo de una colonia abandonada de un glitterworld que se centraba en [subject]</li>
+    <li>calltoadventure-> supo de una colonia abandonada de un mundobrillante que se centraba en [subject]</li>
     <li>calltoadventure-> estaba en un crucero solar cuando fue capturado por piratas de [feudalworld]. Como experto en [subject], le pidieron un rescate por un alto precio</li>
-    <li>calltoadventure-> perdió el rumbo hacia el deadworld [deadworld], donde aprendió sobre [subject]</li>
+    <li>calltoadventure-> perdió el rumbo hacia el mundomuerto [deadworld], donde aprendió sobre [subject]</li>
     <li>calltoadventure-> descubrió un archivo de datos sobre [subject] en un mecanoide roto y aprendió de él</li>
     <li>calltoadventure-> siguió a un topoterrario por su madriguera, donde aprendió sobre [subject]</li>
     <li>calltoadventure-> fue criad[ANYPAWN_o_a] por un clan Yttakin amantes de [subject] en [iceworld]</li>
@@ -1671,12 +1671,12 @@
     <li>digression_subject->neutroamine barter in the rich skyrippers of [coreworld]</li>-->
     <li>digression_subject->el amor y la guerra</li>
     <li>digression_subject->distinciones políticas interminables y cada vez menores</li>
-    <li>digression_subject->tendencias gastronómicas de un glitterworld</li>
+    <li>digression_subject->tendencias gastronómicas de un mundobrillante</li>
     <li>digression_subject->los mercados de la moda de [animalworld] y [urbworld]</li>
     <li>digression_subject->chismes difamatorios sobre el uso generalizado de potenciadores del amor</li>
     <li>digression_subject->las disposiciones militares de la flota [glitterworld] un siglo antes</li>
     <li>digression_subject->las misteriosas relaciones del mundo central con los agujeros negros supermasivos</li>
-    <li>digression_subject->el [deadworld] deadworld y rumores sobre su destino</li>
+    <li>digression_subject->el mundomuerto [deadworld] y rumores sobre su destino</li>
     <li>digression_subject->las variantes de las especies en el planeta de los dinosaurios de [dinoworld]</li>
     <li>digression_subject->[ANYPAWN_possessive] experiencia del feudalismo en [feudalworld]</li>
     <li>digression_subject->la falta de microbios en las ciudades caídas de [glassworld]</li>
@@ -1763,25 +1763,45 @@
     <li>negative_adjective->deficiente</li>
     <li>appearance(p=3)->[phys_desc]</li>
     <li>appearance->[nonphys_desc]</li>
-    <!-- EN: -->
-    <!-- EN: -->
-    <!-- EN: -->
-    <!-- EN: -->
-    <!-- EN: -->
-    <!-- EN: -->
+    <!-- EN: 
+    <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
+    <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
+    <li>phys_desc(p=2)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]3)->this document [badsmells] of [stink]</li>
+    <li>phys_desc(quality[greater_than]4)->this document [smells] of [scent]</li>-->
     <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
     <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
     <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
     <li>phys_desc(p=2)->[physical_yet_statement]</li>
     <li>phys_desc(quality[less_than]3)->este documento [badsmells] a [stink]</li>
     <li>phys_desc(quality[greater_than]4)->este documento [smells] a [scent]</li>
+    <!-- EN: 
+    <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
+    <li>nonphys_desc->[technical_nonphys_desc]</li>
+    <li>nonphys_desc->[academic_nonphys_desc]</li>-->
     <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
     <li>nonphys_desc->[technical_nonphys_desc]</li>
     <li>nonphys_desc->[academic_nonphys_desc]</li>
+    <!-- EN: 
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] but [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] but [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] and [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. Also, [negative_physical_statement2]</li>-->
     <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] pero [positive_physical_statement2]</li>
     <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] pero [negative_physical_statement2]</li>
     <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] y [positive_physical_statement2]</li>
-    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. También, [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. También, [negative_physical_statement2]
+    <!-- EN: 
+    <li><li>negative_physical_statement->[negative_physical_statement1]</li>
+    <li>negative_physical_statement->[negative_physical_statement2]</li>
+    <li>negative_physical_statement1->jagged tears mar the calfskin cover</li>
+    <li>negative_physical_statement1->one of the [author]'s pupils signed the front leaf</li>
+    <li>negative_physical_statement1->a sour-tasting ichor coats it</li>
+    <li>negative_physical_statement2->the decayed cover sticks to the reader's hands</li>
+    <li>negative_physical_statement2->maggots have made their home beneath the foolscap and flies flutter out as the book is opened</li>
+    <li>negative_physical_statement2->the pages appear to be written on crumbling parchment</li>
+    <li>negative_physical_statement2->the pages are saturated with red ink</li>-->
     <li>negative_physical_statement->[negative_physical_statement1]</li>
     <li>negative_physical_statement->[negative_physical_statement2]</li>
     <li>negative_physical_statement1->rasgaduras irregulares estropean la cubierta de piel</li>
@@ -1791,6 +1811,16 @@
     <li>negative_physical_statement2->los gusanos se han alojado bajo la tapa y las moscas revolotean al abrir el libro</li>
     <li>negative_physical_statement2->las páginas parecen estar escritas en un pergamino desmenuzado</li>
     <li>negative_physical_statement2->las páginas están saturadas de tinta roja</li>
+    <!-- EN: 
+    <li>positive_physical_statement->[positive_physical_statement1]</li>
+    <li>positive_physical_statement->[positive_physical_statement2]</li>
+    <li>positive_physical_statement1->inside the pages are pristine</li>
+    <li>positive_physical_statement1->the pages are composed of a thin plasteel derivative</li>
+    <li>positive_physical_statement1->each page is made of a flexible, diamond-like structure</li>
+    <li>positive_physical_statement1->it is warm to the touch</li>
+    <li>positive_physical_statement2->it bears the kitemark of a respected coreworld publishing house - [coreworld] Schematics</li>
+    <li>positive_physical_statement2->the edges of the page are still un-cut</li>
+    <li>positive_physical_statement2->semi-precious plastics glisten on its surface</li>-->
     <li>positive_physical_statement->[positive_physical_statement1]</li>
     <li>positive_physical_statement->[positive_physical_statement2]</li>
     <li>positive_physical_statement1->el interior de las páginas está impecable</li>
@@ -1800,15 +1830,39 @@
     <li>positive_physical_statement2->lleva la marca de una respetada editorial de coreworld, Esquemas [coreworld]</li>
     <li>positive_physical_statement2->los bordes de la página aún no están cortados</li>
     <li>positive_physical_statement2->los plásticos semipreciosos brillan más en su superficie</li>
+    <!-- EN: 
+    <li>otherwordly_nonphys_desc->holding the [author]'s schematic, the room swims</li>
+    <li>otherwordly_nonphys_desc->just looking at the schematic hurts the reader's head</li>
+    <li>otherwordly_nonphys_desc->looking at the schematic, the runes seem to move in the corner of the reader's eye</li>
+    <li>otherwordly_nonphys_desc->whispers permeate the area around the [author]'s schematic</li>
+    <li>otherwordly_nonphys_desc->the [author]'s schematic bears the psychic imprint of something impossibly ancient</li>-->
     <li>otherwordly_nonphys_desc->sosteniendo el esquema [OftheAuthor], la habitación nadó</li>
     <li>otherwordly_nonphys_desc->solo con mirar el esquema duele la cabeza del lector</li>
     <li>otherwordly_nonphys_desc->mirando el esquema, las runas parecen moverse en el borde del ojo del lector</li>
     <li>otherwordly_nonphys_desc->los murmullos se extienden alrededor del esquema [OftheAuthor].</li>
     <li>otherwordly_nonphys_desc->el esquema [OftheAuthor] lleva la huella psíquica de algo imposiblemente antiguo</li>
+    <!-- EN: 
+    <li>technical_nonphys_desc->the notation is unusual, drawn from an extinct Impid dialect</li>
+    <li>technical_nonphys_desc->wires run through the pages of the schematic, though the device is nearly defunct</li>
+    <li>technical_nonphys_desc->the same mechanism is explained by the [author] in three different languages</li>-->
     <li>technical_nonphys_desc->la complejidad del esquema está más allá del lector promedio</li>
     <li>technical_nonphys_desc->la notación es inusual, extraída de un dialecto diabliño extinto</li>
     <li>technical_nonphys_desc->los hilos recorren las páginas del esquema, aunque el aparato está casi desaparecido</li>
     <li>technical_nonphys_desc->[theAuthor] explica el mismo mecanismo en tres idiomas diferentes</li>
+    <!-- EN: 
+    <li>academic_nonphys_desc->this schematic is dedicated to a genie tutor who inspired the [author]</li>
+    <li>academic_nonphys_desc->this document is marked with the crest of the institution which sponsored the [author]</li>
+    <li>badsmells->smells heavily</li>
+    <li>badsmells->has the stench</li>
+    <li>badsmells->smells weakly</li>
+    <li>badsmells->reeks</li>
+    <li>badsmells->stinks</li>
+    <li>stink->corpse slime</li>
+    <li>stink->brimstone and rotten eggs</li>
+    <li>stink->slow, ancient death</li>
+    <li>stink->something akin to Yttakin sweat</li>
+    <li>stink->Waster breath</li>
+    <li>stink->a Hussar locker room</li>-->
     <li>academic_nonphys_desc->este esquema [OftheAuthor] está dedicado al tutor genio que [ANYPAWN_objective] inspiró</li>
     <li>academic_nonphys_desc->este documento [OftheAuthor] lleva el escudo de la institución que [ANYPAWN_objective] ha patrocinado</li>
     <li>badsmells->huele mucho</li>
@@ -1822,6 +1876,18 @@
     <li>stink->algo parecido al sudor Yttakin</li>
     <li>stink->Aliento escorial</li>
     <li>stink->un vestuario de Húsares</li>
+    <!-- EN: 
+    <li>smells->has a heady scent</li>
+    <li>smells->has an odor</li>
+    <li>smells->has a perfume</li>
+    <li>smells->has an aroma</li>
+    <li>scent->must, like the bottom of a grape barrel</li>
+    <li>scent->Highmate pheromones</li>
+    <li>scent->frankincense</li>
+    <li>scent->sandalwood</li>
+    <li>scent->sweet boomrat juice</li>
+    <li>scent->Glitterworld spice</li>
+    <li>scent->fresh Gauranlen seeds</li>-->
     <li>smells->tiene un aroma embriagador</li>
     <li>smells->tiene un olor</li>
     <li>smells->tiene un perfume</li>
@@ -1830,15 +1896,79 @@
     <li>scent->feromonas de altocompañante</li>
     <li>scent->incienso</li>
     <li>scent->sándalo</li>
-    <li>scent->jugo dulce de boomrat</li>
-    <li>scent->especias glitterworld</li>
+    <li>scent->jugo dulce de bumarata</li>
+    <li>scent->especias de mundobrillante</li>
     <li>scent->semillas frescas de gauranlen</li>
+    <!-- EN: 
+    <li>conjunction->and </li>
+    <li>conjunction->but </li>
+    <li>conjunction->yet </li>
+    <li>conjunction->though </li>
+    <li>conjunction->besides </li>
+    <li>conjunction->. In addition,</li>-->
     <li>conjunction->y </li>
     <li>conjunction->pero </li>
     <li>conjunction->aún </li>
     <li>conjunction->aunque </li>
     <li>conjunction->además de </li>
     <li>conjunction->. Además,</li>
+    <!-- EN:
+    <li>author(p=4)->author</li>
+    <li>author(p=4)->writer</li>
+    <li>author->inventor</li>
+    <li>author->creator</li>
+    <li>author(p=2)->developer</li>
+    <li>author(p=4)->designer</li>
+    <li>author->engineer</li>
+    <li>author->artificer</li>
+    <li>author->boffin</li>
+    <li>author->specialist</li>
+    <li>author->technician</li>
+    <li>author->expert</li>
+    <li>author->craftsman</li>
+    No se usa en esta traducción-->
+    <!-- EN:
+    <li>anAuthorDesc(p=2)->a</li>
+    <li>anAuthorDesc->a young</li>
+    <li>anAuthorDesc->an old</li>
+    <li>anAuthorDesc->a terrified</li>
+    <li>anAuthorDesc->a sorrowful</li>
+    <li>anAuthorDesc->an elderly</li>
+    <li>anAuthorDesc->a wise</li>
+    <li>anAuthorDesc->a headstrong</li>
+    <li>anAuthorDesc->a foolish</li>
+    <li>anAuthorDesc->an innocent</li>
+    <li>anAuthorDesc->a disturbed</li>
+    <li>anAuthorDesc->an eldritch</li>
+    <li>anAuthorDesc->an outrageous</li>
+    <li>anAuthorDesc->an archetypal</li>
+    <li>anAuthorDesc->a boring</li>
+    <li>anAuthorDesc->a crazed</li>
+    <li>anAuthorDesc->an immoral</li>
+    <li>anAuthorDesc->a moral</li>
+    <li>anAuthorDesc->an amoral</li>
+    <li>anAuthorDesc->a shadowy</li>-->
+    <!-- EN: 
+    <li>anAuthorDesc(p=2)->un</li>
+    <li>anAuthorDesc->un joven</li>
+    <li>anAuthorDesc->un viejo</li>
+    <li>anAuthorDesc->un aterrorizado</li>
+    <li>anAuthorDesc->un triste</li>
+    <li>anAuthorDesc->un anciano</li>
+    <li>anAuthorDesc->un sabio</li>
+    <li>anAuthorDesc->un testarudo</li>
+    <li>anAuthorDesc->un tonto</li>
+    <li>anAuthorDesc->un inocente</li>
+    <li>anAuthorDesc->un perturbado</li>
+    <li>anAuthorDesc->un eldritch</li>
+    <li>anAuthorDesc->un escandaloso</li>
+    <li>anAuthorDesc->un arqueotipo</li>
+    <li>anAuthorDesc->un aburrido</li>
+    <li>anAuthorDesc->un loco</li>
+    <li>anAuthorDesc->an immoral</li>
+    <li>anAuthorDesc->un moral</li>
+    <li>anAuthorDesc->un amoral</li>
+    <li>anAuthorDesc->un oscuro</li>-->
     <li>OftheAuthor(ANYPAWN_gender!=Female,p=4)->del autor</li>
     <li>OftheAuthor(ANYPAWN_gender==Female,p=4)->de la autora</li>
     <li>OftheAuthor(ANYPAWN_gender!=Female,p=4)->del escritor</li>
@@ -1892,26 +2022,208 @@
     <li>theAuthor(ANYPAWN_gender!=Female)->el artesano</li>
     <li>theAuthor(ANYPAWN_gender==Female)->la artesana</li>
     <!-- EN: 
-    <li>anAuthorDesc(p=2)->un</li>
-    <li>anAuthorDesc->un joven</li>
-    <li>anAuthorDesc->un viejo</li>
-    <li>anAuthorDesc->un aterrorizado</li>
-    <li>anAuthorDesc->un triste</li>
-    <li>anAuthorDesc->un anciano</li>
-    <li>anAuthorDesc->un sabio</li>
-    <li>anAuthorDesc->un testarudo</li>
-    <li>anAuthorDesc->un tonto</li>
-    <li>anAuthorDesc->un inocente</li>
-    <li>anAuthorDesc->un perturbado</li>
-    <li>anAuthorDesc->un eldritch</li>
-    <li>anAuthorDesc->un escandaloso</li>
-    <li>anAuthorDesc->un arqueotipo</li>
-    <li>anAuthorDesc->un aburrido</li>
-    <li>anAuthorDesc->un loco</li>
-    <li>anAuthorDesc->an immoral</li>
-    <li>anAuthorDesc->un moral</li>
-    <li>anAuthorDesc->un amoral</li>
-    <li>anAuthorDesc->un oscuro</li>-->
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Steller's World</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda</li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->New China</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->New London CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>-->
     <li>worldname->[glitterworld]</li>
     <li>worldname->[urbworld]</li>
     <li>worldname->[deadworld]</li>
@@ -2010,7 +2322,7 @@
     <li>iceworld->Christensen</li>
     <li>iceworld->Barnes</li>
     <li>indworld->Irithir</li>
-    <li>indworld->New China</li>
+    <li>indworld->Nueva China</li>
     <li>indworld->Hudders</li>
     <li>indworld->Iver</li>
     <li>indworld->Achesta</li>
@@ -2028,7 +2340,7 @@
     <li>midworld->Haihan</li>
     <li>midworld->Seolure</li>
     <li>midworld->Panga</li>
-    <li>midworld->New London CXI</li>
+    <li>midworld->Nueva Londres CXI</li>
     <li>midworld->San Delenda</li>
     <li>mineworld->Xanides</li>
     <li>mineworld->Bingham</li>
@@ -2044,7 +2356,7 @@
     <li>oceanicworld->Baia</li>
     <li>oceanicworld->Thonis</li>
     <li>oceanicworld->Moaui</li>
-    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Barrotes</li>
     <li>prisonworld->Aldgate</li>
     <li>prisonworld->Borren</li>
     <li>prisonworld->Hoalo</li>
@@ -2055,10 +2367,10 @@
     <li>rimworld->La Grand</li>
     <li>rimworld->Dalles</li>
     <li>rimworld->Twig Falls</li>
-    <li>rimworld->Old Boise</li>
+    <li>rimworld->Vieja Boise</li>
     <li>rimworld->Puerta del Diablo</li>
     <li>rimworld->Laramiere</li>
-    <li>ruinworld->Earth</li>
+    <li>ruinworld->Tierra</li>
     <li>ruinworld->Ilwaba</li>
     <li>ruinworld->Xennoa</li>
     <li>ruinworld->Pichu</li>
@@ -2114,6 +2426,12 @@
     <li>warworld->Punica</li>
     <li>warworld->Cimbria XII</li>
     <li>warworld->Barkitos</li>
+    <!-- EN: -->
+    <!-- EN: -->
+    <!-- EN: -->
+    <!-- EN: -->
+    <!-- EN: -->
+    <!-- EN: -->
     <li>schematic_container->manual</li>
     <li>schematic_container->compendio</li>
     <li>schematic_container->fólder</li>
@@ -2724,8 +3042,8 @@
     <li>notable_adjective->elegante</li>
     <li>notable_adjective->simple</li>
     <li>notable_adjective->funcional</li>
-    <li>notable_adjective->urbworld</li>
-    <li>notable_adjective->Glitterworld</li>
+    <li>notable_adjective->mundourbano</li>
+    <li>notable_adjective->mundobrillante</li>
     <li>notable_adjective->primitivo</li>
     <li>notable_adjective->decorativo</li>
     <li>exterior_quality(quality[greater_than]4)->El exterior de este libro está finamente encuadernado y</li>
