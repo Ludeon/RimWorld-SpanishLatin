@@ -1791,7 +1791,7 @@
     <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] pero [positive_physical_statement2]</li>
     <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] pero [negative_physical_statement2]</li>
     <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] y [positive_physical_statement2]</li>
-    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. También, [negative_physical_statement2]
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. También, [negative_physical_statement2]</li>
     <!-- EN: 
     <li><li>negative_physical_statement->[negative_physical_statement1]</li>
     <li>negative_physical_statement->[negative_physical_statement2]</li>
@@ -2909,6 +2909,7 @@
     <li>discussion->Este [textbook] proporciona [useful_information] sobre [subject][detail]</li>
     <li>discussion->Este [textbook] establece la autoridad del autor sobre [subject][detail]</li>
     <li>discussion->Los que buscan [understanding_synonym] sobre [subject] se dirigen a este [textbook] [notable_adjective][detail]</li>
+    <li>discussion->Los que buscan [understanding_synonym] sobre [subject] se dirigen a este [notable_adjec] [textbook][detail]</li>
     <li>discussion->Un [textbook] normalizado sobre [subject][detail]</li>
     <li>discussion->Una primera edición del [textbook] del autor sobre [subject][detail]</li>
     <li>detail->. El [precis_synonym] se centra en los aspectos más hábiles del tema</li>
@@ -3030,7 +3031,7 @@
     <li>understanding_synonym->una experiencia</li>
     <li>understanding_synonym->sabiduría</li>
     <li>understanding_synonym->un repaso</li>
-    <li>notable_adjective->famoso</li>
+    <li>notable_adjec->famoso</li>
     <li>notable_adjective->oscuro</li>
     <li>notable_adjective->icónico</li>
     <li>notable_adjective->clasico</li>
@@ -3038,12 +3039,12 @@
     <li>notable_adjective->familiar</li>
     <li>notable_adjective->intemporal</li>
     <li>notable_adjective->asimétrico</li>
-    <li>notable_adjective->armonioso</li>
+    <li>notable_adjec->armonioso</li>
     <li>notable_adjective->elegante</li>
-    <li>notable_adjective->simple</li>
+    <li>notable_adjec->simple</li>
     <li>notable_adjective->funcional</li>
-    <li>notable_adjective->mundourbano</li>
-    <li>notable_adjective->mundobrillante</li>
+    <li>notable_adjective->del mundourbano</li>
+    <li>notable_adjective->del mundobrillante</li>
     <li>notable_adjective->primitivo</li>
     <li>notable_adjective->decorativo</li>
     <li>exterior_quality(quality[greater_than]4)->El exterior de este libro está finamente encuadernado y</li>
