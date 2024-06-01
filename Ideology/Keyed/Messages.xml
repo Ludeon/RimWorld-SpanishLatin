@@ -128,7 +128,7 @@
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>Advertencia: {PAWNKINDLABELPLURAL} son venerados por todos los {PAWNS}, y no serán perjudicados.</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>Advertencia: {PAWNKINDLABELPLURALDEF} son los animales venerados por todos los {PAWNS} y no se les lastimará.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
@@ -144,9 +144,9 @@
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
   <MessageSleepingThreatDelayActivated>{0_pawnsPlural} se despertarán en {1}.</MessageSleepingThreatDelayActivated>
   <!-- EN: Infestation arriving. -->
-  <MessageInfestationDelayActivated>Infestación llegando</MessageInfestationDelayActivated>
+  <MessageInfestationDelayActivated>Infestación llegando.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>{0} ¡ha sido alterado y podría explotar pronto!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+  <MessageFuelNodeDelayActivated>¡{0} ha sido alterado y podría explotar pronto!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
   <!-- Fluid ideo messages -->
   <!-- EN: Development points changed from {0} to {1} ({2}). -->
