@@ -119,7 +119,7 @@
   <!-- EN: Inspect genes -->
   <InspectGenes>Inspeccionar genes</InspectGenes>
   <!-- EN: Inspect baby genes -->
-  <InspectBabyGenes>Inspeccionar genes de bebé</InspectBabyGenes>
+  <InspectBabyGenes>Inspeccionar genes del bebé</InspectBabyGenes>
   <!-- EN: no xenogerm implanted -->
   <NoXenogermImplanted>sin xenogermen implantado</NoXenogermImplanted>
   <!-- EN: germline genes -->
@@ -298,7 +298,7 @@
 
 
   <!-- EN: Choose mech accent color -->
-  <ChooseMechAccentColor>Escoger color acentuado de meca</ChooseMechAccentColor>
+  <ChooseMechAccentColor>Elegir color acentuado del meca</ChooseMechAccentColor>
 
   <!-- Faction specific comms overrides -->
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->
@@ -341,9 +341,9 @@
   <!-- EN: Next growth tier -->
   <NextGrowthTier>Siguiente desarrollo</NextGrowthTier>
   <!-- EN: Choose {0} passions from {1} options. -->
-  <NumPassionsFromOptions>Escoge {replace: ^{0} pasiones; "^1 pasiones"-"1 pasión"; "^"-""} entre {1} opciones.</NumPassionsFromOptions>
+  <NumPassionsFromOptions>Escoge {replace: ^{0} pasiones; "^1 pasiones"-"1 pasión"; "^"-""} entre {replace: ^{1} opciones; "^1 opciones"-"1 opción"; "^"-""}.</NumPassionsFromOptions>
   <!-- EN: Choose {0} trait from {1} options. -->
-  <NumTraitsFromOptions>Escoge {replace: ^{0} rasgos; "^1 rasgos"-"1 rasgo"; "^"-""} entre {1} opciones.</NumTraitsFromOptions>
+  <NumTraitsFromOptions>Escoge {replace: ^{0} rasgos; "^1 rasgos"-"1 rasgo"; "^"-""} entre {replace: ^{1} opciones; "^1 opciones"-"1 opción"; "^"-""}.</NumTraitsFromOptions>
   <!-- EN: Next growth moment at age -->
   <NextGrowthMomentAt>Siguiente momento de crecimiento a la edad</NextGrowthMomentAt>
 

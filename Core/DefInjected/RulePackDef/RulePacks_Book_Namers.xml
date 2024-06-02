@@ -531,25 +531,29 @@
     <li>title->The [lifeEvent] [discussionNoun] and [subject_primary]</li> -->
     <li>title->Diseño [subject_primary_def]</li>
     <li>title->Notas sobre [subject_primary]</li>
-    <li>title->Un gran avance en [subject_primary]</li>
-    <li>title->Un estudio sobre [subject_primary]</li>
-    <li>title->Aplicaciones novedosas para [subject_primary]</li>
+    <li>title->Grandes avances en [subject_primary]</li>
+    <li>title->Un estudio sobre [subject_primary_FemMas]</li>
+    <li>title->Aplicaciones novedosas para [subject_primary_FemMas]</li>
     <li>title->Entendimiento [subject_primary_def]</li>
     <li>title->Los principios [subject_primary_def]</li>
     <li>title->Los fundamentos [subject_primary_def]</li>
     <li>title->[subject_primary]: parte [volNumeral]</li>
+    <li>title->[subject_primary_FemMas]: parte [volNumeral]</li>
     <li>title->[subject_primary] vol. [volNumeral]</li>
+    <li>title->[subject_primary_FemMas] vol. [volNumeral]</li>
     <li>title->[subject_primary] [randAdjective]</li>
+    <li>title->[subject_primary_FemMas] [randAdjective]</li>
     <li>title->[subject_primary] [randAdjective] vol. [volNumeral]</li>
+    <li>title->[subject_primary_FemMas] [randAdjective] vol. [volNumeral]</li>
     <li>title->[maybe_authored_title]</li>
-    <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] en el sector [subject_secondary_def]</li>
-    <li>title->[studiesStart] [subject_primary] siguiendo [lifeEvent]</li>
-    <li>title->[anecdotes] de [studiesStart] [subject_primary]</li>
-    <li>title->[studiesStart] [subject_primary]: [discussionNoun_indef] [randAdjective]</li>
-    <li>title->[referenceType] de [subject_primary] [randAdjective]</li>
-    <li>title->[referenceType] de [subject_primary] [randAdjective], vol. [volNumeral]</li>
-    <li>title->[studiesStart] [subject_primary] [randAdjective], vol. [volNumeral]</li>
-    <li>title->[referenceType] de [studiesStart] [subject_primary] [randAdjective]</li>
+    <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary_def] en el sector [subject_secondary_def]</li>
+    <li>title->[studiesStart] [subject_primary_def] siguiendo [lifeEvent]</li>
+    <li>title->[anecdotes] de [studiesStart] [subject_primary_def]</li>
+    <li>title->[studiesStart] [subject_primary_def]: [discussionNoun_indef] [randAdjective]</li>
+    <li>title->[referenceType] [subject_primary_def] [randAdjective]</li>
+    <li>title->[referenceType] [subject_primary_def] [randAdjective], vol. [volNumeral]</li>
+    <li>title->[studiesStart] [subject_primary_def] [randAdjective], vol. [volNumeral]</li>
+    <li>title->[referenceType] de [studiesStart] [subject_primary_def] [randAdjective]</li>
     <li>title->[lifeEvent], [discussionNoun] sobre [subject_primary]</li>
     <!-- EN:  
     <li>studiesStart->Studies in</li>
@@ -563,17 +567,17 @@
     <li>studiesStart->Applications of</li>
     <li>studiesStart->Shaping the future of</li>
     <li>studiesStart->Documenting of</li>-->
-    <li>studiesStart->estudios en</li>
-    <li>studiesStart->fundamentos de</li>
-    <li>studiesStart->gestión de</li>
-    <li>studiesStart->historias de</li>
-    <li>studiesStart->trabajo de</li>
-    <li>studiesStart->representación de</li>
-    <li>studiesStart->supervivencia de</li>
-    <li>studiesStart->avances de</li>
-    <li>studiesStart->aplicaciones de</li>
-    <li>studiesStart->definición del futuro de</li>
-    <li>studiesStart->documentación de</li>
+    <li>studiesStart->estudios</li>
+    <li>studiesStart->fundamentos</li>
+    <li>studiesStart->gestión</li>
+    <li>studiesStart->historias</li>
+    <li>studiesStart->trabajo</li>
+    <li>studiesStart->representación</li>
+    <li>studiesStart->supervivencia</li>
+    <li>studiesStart->avances</li>
+    <li>studiesStart->aplicaciones</li>
+    <li>studiesStart->definición del futuro</li>
+    <li>studiesStart->documentación</li>
     <!-- EN:  
     <li>referenceType->Encyclopedia</li>
     <li>referenceType->Dictionary</li>
@@ -713,15 +717,16 @@
     <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] and [subject_secondary]</li>
     <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] and [randTheme]</li>
     <li>subjectsTuple->[subject_primary] and [randTheme]</li>-->
-    <li>authored_title_gen->Guía d[subject_primary_def] de [ANYPAWN_nameIndef]</li>
-    <li>authored_title_gen->Introducción de [ANYPAWN_nameIndef] a [subject_primary]</li>
-    <li>authored_title_gen_two->Guía de [ANYPAWN_nameIndef] para [subjectsTuple]</li>
-    <li>authored_title_gen_two->Introducción de [ANYPAWN_nameIndef] a [subjectsTuple]</li>
-    <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] y [subject_secondary]</li>
-    <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] [randTheme]</li>
-    <li>subjectsTuple_def(has_subject_secondary==true,p=2)->[subject_primary_def] y [subject_secondary]</li>
-    <li>subjectsTuple_def(has_subject_secondary==true)->[subject_secondary_def] [randTheme]</li>
-    <li>subjectsTuple->[subject_primary] [randTheme]</li>
+    <li>authored_title_gen->Guía [subject_primary_def] de [ANYPAWN_nameIndef]</li>
+    <li>authored_title_gen->Introducción de [ANYPAWN_nameIndef] [subject_primary_def2]</li>
+    <li>authored_title_gen_two->Guía de [ANYPAWN_nameIndef] para [subjectsTuple_FemMas]</li>
+    <li>authored_title_gen_two->Introducción de [ANYPAWN_nameIndef] [subjectsTuple]</li>
+    <li>subjectsTuple_FemMas(has_subject_secondary==true,p=2)->[subject_primary_FemMas] y [subject_secondary_FemMas]</li>
+    <li>subjectsTuple_FemMas(has_subject_secondary==true)->[subject_secondary_FemMas] [randTheme]</li>
+    <li>subjectsTuple_FemMas->[subject_primary_FemMas] [randTheme]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary_def2] y [subject_secondary_FemMas]</li>
+    <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary_def2] [randTheme]</li>
+    <li>subjectsTuple->[subject_primary_def2] [randTheme]</li>
     <!-- EN:  
     <li>randAdjective->Basic</li>
     <li>randAdjective->Best</li>
@@ -750,12 +755,12 @@
     <li>randAdjective->intelectual</li>
     <li>randAdjective->interesante</li>
     <li>randAdjective->crepúscular</li>
-    <li>randAdjective->de deathworld</li>
+    <li>randAdjective->de mundomuerte</li>
     <li>randAdjective->mortal</li>
     <li>randAdjective->sepulcral</li>
     <li>randAdjective->útil</li>
     <li>randAdjective->de terror</li>
-    <li>randAdjective->de subworld</li>
+    <li>randAdjective->de mundosub</li>
     <li>randAdjective->inquietante</li>
     <li>randAdjective->de supervivencia</li>
     <li>randAdjective->horripilante</li>
@@ -1071,7 +1076,7 @@
     <li>randAdjective->regular</li>
     <li>randAdjective->magistral</li>
     <li>randAdjective->decente</li>
-    <li>randAdjective->de glitterworld</li>
+    <li>randAdjective->de mundobrillante</li>
     <li>randAdjective->rural</li>
     <li>randAdjective->medieval</li>
     <li>randAdjective->mediocre</li>

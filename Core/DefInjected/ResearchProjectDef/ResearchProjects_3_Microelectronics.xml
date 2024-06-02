@@ -14,7 +14,9 @@
   -->
   <DeepDrilling.generalRules.rulesStrings>
     <li>subject->minería profunda</li>
+    <li>subject_FemMas->la minería profunda</li>
     <li>subject_def->de la minería profunda</li>
+    <li>subject_def2->a la minería profunda</li>
     <li>subject_story->se mudó con una corporación dirigida por topoterrarios, estudiando sus excavaciones más profundas</li>
     <li>subject_story->perforó hasta la raíz un casquete de hielo para descubrir el bioma prehumano extinto del mundo</li>
     <li>subject_story->se enriqueció con los recursos extraídos del núcleo del mundo</li>
@@ -39,14 +41,16 @@
   -->
   <FlatscreenTelevision.generalRules.rulesStrings>
     <li>subject->televisores de pantalla plana</li>
+    <li>subject_FemMas->los televisores de pantalla plana</li>
     <li>subject_def->de los televisores de pantalla plana</li>
+    <li>subject_def2->a los televisores de pantalla plana</li>
     <li>subject_story->experimentó con la eliminación de tubos de los televisores</li>
     <li>subject_story->hizo campañas para emisiones galácticas de alta resolución de [tv_content]</li>
     <li>subject_story->se convirtió en un ejecutivo de televisión, a cargo de [tv_content]</li>
     <li>tv_content->telenovelas</li>
     <li>tv_content->programas de noticias</li>
     <li>tv_content->propaganda revolucionaria</li>
-    <li>tv_content->moda glitterworld</li>
+    <li>tv_content->la moda de los mundobrillantes</li>
     <li>tv_content->caricaturas</li>
     <li>subject_gerund->producción de televisores de pantalla plana</li>
   </FlatscreenTelevision.generalRules.rulesStrings>
@@ -65,11 +69,15 @@
   -->
   <GroundPenetratingScanner.generalRules.rulesStrings>
     <li>subject->geofísica</li>
+    <li>subject_FemMas->la geofísica</li>
     <li>subject->escáneres de profundidad</li>
+    <li>subject_FemMas->los escáneres de profundidad</li>
     <li>subject_def->de la geofísica</li>
+    <li>subject_def2->a la geofísica</li>
     <li>subject_def->de los escáneres de profundidad</li>
+    <li>subject_def2->a los escáneres de profundidad</li>
     <li>subject_story->descubrió los huesos de antiguos gigantes, muy por debajo de la superficie del planeta</li>
-    <li>subject_story->tropezó con una veta de oro mientras buscaba estaño y se volvió increíblemente rico</li>
+    <li>subject_story->tropezó con una veta de oro mientras buscaba estaño y se volvió increíblemente ric{ANYPAWN_gender ? o : a}</li>
     <li>subject_story->escaneó el suelo en busca de antiguos campos de minas para proteger a la población</li>
     <li>subject_gerund->construcción de escáneres geofísicos</li>
   </GroundPenetratingScanner.generalRules.rulesStrings>
@@ -87,10 +95,12 @@
   -->
   <HeavyTurrets.generalRules.rulesStrings>
     <li>subject->torretas de cañón automáticas</li>
+    <li>subject_FemMas->las torretas de cañón automáticas</li>
     <li>subject_def->de las torretas de cañón automáticas</li>
+    <li>subject_def2->a las torretas de cañón automáticas</li>
     <li>subject_story->repelió un asalto de cultistas sin ayuda, escondiéndose detrás de un muro de torretas</li>
     <li>subject_story->se le contrató para establecer un perímetro defensivo de sacos de arena y torretas para los lugareños</li>
-    <li>subject_story->construyó una torreta tras otra, sin preguntar quién las compró</li>
+    <li>subject_story->construyó una torreta tras otra, sin preguntar quién las compraba</li>
     <li>subject_gerund->fabricación de torretas de cañón automáticas pesadas</li>
   </HeavyTurrets.generalRules.rulesStrings>
   
@@ -107,11 +117,13 @@
   -->
   <HospitalBed.generalRules.rulesStrings>
     <li>subject->hospitalización</li>
+    <li>subject_FemMas->la hospitalización</li>
     <li>subject_def->de la hospitalización</li>
+    <li>subject_def2->a la hospitalización</li>
     <li>subject_story->supervisó una revolución en los estándares de atención médica</li>
     <li>subject_story->construyó el primer hospital público del sistema</li>
     <li>subject_story->se centró en el lucro, vendiendo sus suites médicas a los ricos</li>
-    <li>subject_gerund->construcción de camas hospítalarias</li>
+    <li>subject_gerund->construcción de camas hospitalarias</li>
   </HospitalBed.generalRules.rulesStrings>
   
   <!-- EN: long-range mineral scanner -->
@@ -126,11 +138,13 @@
     <li>subject_gerund->constructing long-range mineral scanners</li>
   -->
   <LongRangeMineralScanner.generalRules.rulesStrings>
-    <li>subject->detección mineral de largo alcance</li>
-    <li>subject_def->de la detección mineral de largo alcance</li>
+    <li>subject->detección minerales de largo alcance</li>
+    <li>subject_FemMas->la detección minerales de largo alcance</li>
+    <li>subject_def->de la detección minerales de largo alcance</li>
+    <li>subject_def2->a la detección minerales de largo alcance</li>
     <li>subject_story->construyó tantos escáneres que toda la geología del planeta quedó al descubierto</li>
     <li>subject_story->descubrió con un escáner lo que estaban extrayendo en otros asentamientos y obtuvo enormes ganancias mediante el comercio</li>
-    <li>subject_story->extrajo todo el jade del planeta para hacer imágenes religiosas</li>
+    <li>subject_story->extrajo todo el jade del planeta para hacer efigies religiosas</li>
     <li>subject_gerund->construcción de escáneres de minerales de largo alcance</li>
   </LongRangeMineralScanner.generalRules.rulesStrings>
   
@@ -147,12 +161,16 @@
     <li>subject_gerund->producing industrial-tech medicine</li>
   -->
   <MedicineProduction.generalRules.rulesStrings>
-    <li>subject->síntesis médica</li>
-    <li>subject->producción de medicamentos</li>
-    <li>subject_def->de la síntesis médica</li>
-    <li>subject_def->de la producción de medicamentos</li>
-    <li>subject_story->estudió la medicina de urbworld, con el objetivo de distribuir el conocimiento de manera más amplia</li>
-    <li>subject_story->se sintió desconcertad por los orígenes de la neutroamina y se propuso investigar más al respecto</li>
+    <li>subject->síntesis de medicinas</li>
+    <li>subject_FemMas->la síntesis de medicinas</li>
+    <li>subject->producción de medicinas</li>
+    <li>subject_FemMas->la producción de medicinas</li>
+    <li>subject_def->de la síntesis de medicinas</li>
+    <li>subject_def2->a la síntesis de medicinas</li>
+    <li>subject_def->de la producción de medicinas</li>
+    <li>subject_def2->a la producción de medicinas</li>
+    <li>subject_story->estudió la medicina de un mundourbano, con el objetivo de distribuir el conocimiento de manera más amplia</li>
+    <li>subject_story->se sintió desconcertad{ANYPAWN_gender ? o : a} por los orígenes de la neutroamina y se propuso investigar más al respecto</li>
     <li>subject_story->se apoderó de los recursos de un traficante de drogas y produjo medicamentos útiles en su lugar</li>
     <li>subject_gerund->producción de medicamentos de tecnología industrial</li>
   </MedicineProduction.generalRules.rulesStrings>
@@ -170,8 +188,10 @@
   -->
   <MicroelectronicsBasics.generalRules.rulesStrings>
     <li>subject->microelectrónica</li>
+    <li>subject_FemMas->la microelectrónica</li>
     <li>subject_def->de la microelectrónica</li>
-    <li>subject_story->se dedicó al desarrollo de microelectrónica</li>
+    <li>subject_def2->a la microelectrónica</li>
+    <li>subject_story->se dedicó al desarrollo de la microelectrónica</li>
     <li>subject_story->construyó la primera de muchas variantes de bancos de investigación</li>
     <li>subject_story->se mudó de pueblo en pueblo, elogiando las virtudes de la investigación pura</li>
     <li>subject_gerund->fabricación de microelectrónica</li>
@@ -190,8 +210,10 @@
   -->
   <MoisturePump.generalRules.rulesStrings>
     <li>subject->bombas de humedad</li>
+    <li>subject_FemMas->las bombas de humedad</li>
     <li>subject_def->de las bombas de humedad</li>
-    <li>subject_story->estudió las antiguas bombas de humedad de molino de viento de la Tierra</li>
+    <li>subject_def2->a las bombas de humedad</li>
+    <li>subject_story->estudió las antiguas bombas de humedad de los molinos de viento de la Tierra</li>
     <li>subject_story->drenó los grandes pantanos que criaban enfermedades</li>
     <li>subject_story->intentó drenar los mares insensatamente</li>
     <li>subject_gerund->construcción de bombas de humedad</li>
@@ -210,7 +232,9 @@
   -->
   <MultibarrelWeapons.generalRules.rulesStrings>
     <li>subject->miniguns</li>
+    <li>subject_FemMas->las miniguns</li>
     <li>subject_def->de las miniguns</li>
+    <li>subject_def2->a las miniguns</li>
     <li>subject_story->construyó una minigun portátil única, que fue lo único obtenible después de la desaparición del escuadrón</li>
     <li>subject_story->diseñó tolvas masivas para asegurar que la munición de la minigun no se agotara</li>
     <li>subject_story->construyó armas explícitamente para matar a todas las personas en una habitación</li>
@@ -230,10 +254,12 @@
   -->
   <PrecisionRifling.generalRules.rulesStrings>
     <li>subject->fusiles</li>
+    <li>subject_FemMas->los fusiles</li>
     <li>subject_def->de los fusiles</li>
+    <li>subject_def2->a los fusiles</li>
     <li>subject_story->mejoró las tolerancias de los procesos de una fundición, lo que permitió la producción de fusiles de calidad</li>
-    <li>subject_story->fue cazado por neandertales pero construyó un fusil de francotirador para matar de forma segura a su líder</li>
-    <li>subject_story->saltó a la fama brevemente por disparar una fruta de ambrosía de la mano del señor feudal</li>
+    <li>subject_story->fue perseguid{ANYPAWN_gender ? o : a} por neandertales pero construyó un fusil de francotirador para matar de forma segura a su líder</li>
+    <li>subject_story->saltó a la fama brevemente por disparar una fruta de ambrosía de la mano de un señor feudal</li>
     <li>subject_gerund->fabricación de fusiles</li>
   </PrecisionRifling.generalRules.rulesStrings>
   
@@ -250,7 +276,9 @@
   -->
   <ShieldBelt.generalRules.rulesStrings>
     <li>subject->escudos personales</li>
+    <li>subject_FemMas->los escudos personales</li>
     <li>subject_def->de los escudos personales</li>
+    <li>subject_def2->a los escudos personales</li>
     <li>subject_story->sobrevivió a un intento de asesinato gracias a un prototipo de escudo</li>
     <li>subject_story->jugó al billar con astucia, usando un repelente de momento oculto</li>
     <li>subject_story->mató a un enemigo acercando una cuchilla lo suficientemente lento como para evitar su escudo</li>
@@ -270,7 +298,9 @@
   -->
   <TransportPod.generalRules.rulesStrings>
     <li>subject->cápsulas de transporte</li>
+    <li>subject_FemMas->las cápsulas de transporte</li>
     <li>subject_def->de las cápsulas de transporte</li>
+    <li>subject_def2->a las cápsulas de transporte</li>
     <li>subject_story->aterrizó una cápsula de transporte en medio de una tribu salvaje y apenas logró escapar con vida</li>
     <li>subject_story->gastó una fortuna enviando una cápsula de transporte al objeto de su afecto, llevando consigo un solo anillo de bodas</li>
     <li>subject_story->evitó la hambruna mediante un despliegue juicioso de cápsulas</li>

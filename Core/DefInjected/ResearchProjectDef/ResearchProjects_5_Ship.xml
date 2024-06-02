@@ -18,10 +18,12 @@
   -->
   <ShipBasics.generalRules.rulesStrings>
     <li>subject->ingeniería de naves espaciales</li>
+    <li>subject_FemMas->la ingeniería de naves espaciales</li>
     <li>subject_def->de la ingeniería de naves espaciales</li>
-    <li>subject_story->reclutó ingenieros de naves espaciales para una flota de glitterworld</li>
-    <li>subject_story->fue diseñador estructural en un distrito skyripper de un urbworld</li>
-    <li>subject_story->recuperó restos de naves en el cinturón de escombros de un deadworld</li>
+    <li>subject_def2->a la ingeniería de naves espaciales</li>
+    <li>subject_story->reclutó ingenieros de naves espaciales para una flota de un mundobrillante</li>
+    <li>subject_story->fue {ANYPAWN_gender ? el diseñador : la diseñadora} estructural en un distrito rasgacielos de un mundourbano</li>
+    <li>subject_story->recuperó restos de naves en el cinturón de escombros de un mundomuerto</li>
     <li>subject_gerund->construcción de estructuras de naves espaciales</li>
   </ShipBasics.generalRules.rulesStrings>
   
@@ -41,9 +43,13 @@
   -->
   <ShipComputerCore.generalRules.rulesStrings>
     <li>subject->incentivización de núcleo de IA centrales</li>
+    <li>subject_FemMas->la incentivización de núcleo de IA centrales</li>
     <li>subject->mantenimiento de la inteligencia artificial de naves espaciales</li>
+    <li>subject_FemMas->el mantenimiento de la inteligencia artificial de naves espaciales</li>
     <li>subject_def->de la incentivización de núcleo de IA centrales</li>
+    <li>subject_def2->a la incentivización de núcleo de IA centrales</li>
     <li>subject_def->del mantenimiento de la inteligencia artificial de naves espaciales</li>
+    <li>subject_def2->al mantenimiento de la inteligencia artificial de naves espaciales</li>
     <li>subject_story->recuperó el control de un núcleo de nave aberrante con una reacondicionamiento cuidadoso</li>
     <li>subject_story->estableció simulaciones de gestión de colonias para ocupar el núcleo de la nave durante los largos años de viaje interestelar</li>
     <li>subject_story->acompañó al núcleo de una nave durante un viaje interestelar "corto", aprendiendo mucho sobre los núcleos en el proceso</li>
@@ -65,9 +71,11 @@
   -->
   <ShipCryptosleep.generalRules.rulesStrings>
     <li>subject->sarcófago de criptosueño de grado nave espacial</li>
+    <li>subject_FemMas->el sarcófago de criptosueño de grado nave espacial</li>
     <li>subject_def->del sarcófago de criptosueño de grado nave espacial</li>
-    <li>subject_story->reemplazó los sarcófago de criptosueño fallidos en el CMC Celeste, para que la vieja nave generacional pudiera ser utilizada nuevamente</li>
-    <li>subject_story->fue accidentalmente eyectado en el espacio profundo, sobreviviendo en un sarcófago diseñado por sí mismo durante dos meses</li>
+    <li>subject_def2->al sarcófago de criptosueño de grado nave espacial</li>
+    <li>subject_story->reemplazó los sarcófagos de criptosueños fallidos en el CMC Celeste, para que la vieja nave generacional pudiera ser utilizada nuevamente</li>
+    <li>subject_story->fue accidentalmente eyectad{ANYPAWN_gender ? o : a} al espacio profundo, sobreviviendo en un sarcófago diseñado por sí mism{ANYPAWN_gender ? o : a} durante dos meses</li>
     <li>subject_story->dio una conferencia sobre las diferencias entre el equipo de grado planetario y grado de nave espacial</li>
     <li>subject_gerund->construcción de sarcófagos de criptosueño endurecidos</li>
   </ShipCryptosleep.generalRules.rulesStrings>
@@ -86,9 +94,13 @@
   -->
   <ShipEngine.generalRules.rulesStrings>
     <li>subject->teoría Johnson-Tanaka</li>
+    <li>subject_FemMas->la teoría Johnson-Tanaka</li>
     <li>subject->transferencia exótica de momento</li>
+    <li>subject_FemMas->la transferencia exótica de momento</li>
     <li>subject_def->de la teoría Johnson-Tanaka</li>
-    <li>subject_def->de la transferencia exótica de momentum</li>
+    <li>subject_def2->a la teoría Johnson-Tanaka</li>
+    <li>subject_def->de la transferencia exótica de momento</li>
+    <li>subject_def2->a la transferencia exótica de momento</li>
     <li>subject_story->dio clases en la universidad sobre Johnson, Tanaka y efectos a escala cuántica</li>
     <li>subject_story->construyó un motor Johnson-Tanaka desde los principios básicos para una tesis</li>
     <li>subject_story->mantuvo un motor Johnson-Tanaka durante dos décadas, mientras la nave viajaba entre las estrellas</li>
@@ -98,7 +110,7 @@
   <!-- EN: starship reactor -->
   <ShipReactor.label>reactor de nave espacial</ShipReactor.label>
   <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
-  <ShipReactor.description>Construye un reactor nuclear de larga duración para propulsar una nave espacial. Tenga en cuenta que los reactores tienen un largo proceso de arranque que atraerá a los atacantes.</ShipReactor.description>
+  <ShipReactor.description>Construye un reactor nuclear de larga duración para propulsar una nave espacial. Ten en cuenta que los reactores tienen un largo proceso de arranque que atraerá a los atacantes.</ShipReactor.description>
   <!-- EN:
     <li>subject->starship nuclear reactor</li>
     <li>subject_story->constructed a new reactor for a colony ship, but never lived to see it lift off</li>
@@ -108,7 +120,9 @@
   -->
   <ShipReactor.generalRules.rulesStrings>
     <li>subject->reactores nucleares de naves espaciales</li>
+    <li>subject_FemMas->los reactores nucleares de naves espaciales</li>
     <li>subject_def->de los reactores nucleares de naves espaciales</li>
+    <li>subject_def2->a los reactores nucleares de naves espaciales</li>
     <li>subject_story->construyó un nuevo reactor para una nave colonial, pero nunca vivió para verlo despegar</li>
     <li>subject_story->defendió la nave mientras el reactor se ponía en marcha, contra saqueadores desesperados por salir del planeta</li>
     <li>subject_story->utilizó un reactor de nave espacial como energía de respaldo para un banco de genes enterrado bajo la capa de hielo del planeta</li>
@@ -129,9 +143,11 @@
   -->
   <ShipSensorCluster.generalRules.rulesStrings>
     <li>subject->navegación interestelar</li>
+    <li>subject_FemMas->la navegación interestelar</li>
     <li>subject_def->de la navegación interestelar</li>
-    <li>subject_story->utilizó prototipos de sensores de nave espacial para detectar un asteroide capaz de nivel de extinción y evacuar el planeta</li>
-    <li>subject_story->trabajó como navegante y chef en un yate estelar de un glitterworld</li>
+    <li>subject_def2->a la navegación interestelar</li>
+    <li>subject_story->utilizó sensores prototipo de nave estelar para detectar un asteroide a nivel de extinción que se acercaba y evacuar el planeta</li>
+    <li>subject_story->trabajó como navegante y chef en un yate estelar de un mundobrilante</li>
     <li>subject_story->perfeccionó el diseño de sensores de largo alcance, mejorando su utilidad</li>
     <li>subject_gerund->navegación en el espacio interestelar</li>
     <li>subject_gerund->construcción de sensores de nave espacial</li>

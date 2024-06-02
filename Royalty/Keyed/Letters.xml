@@ -18,7 +18,7 @@
   <LetterRoyalTitleExpectation>{PAWN_possessive}s expectativas nunca serán más bajas que {1}.</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>Debido a que {PAWN_labelShort} es {1}, {PAWN_pronoun} exige que sus privilegios de título sean completamente respetados, {PAWN_pronoun} puede rechazar hacer cierto tipos de trabajo, comer comida de clase baja y en ocasiones emitirá decretos.</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>Debido a que {PAWN_labelShort} es {1}, {PAWN_pronoun} exige que sus privilegios de título sean completamente respetados. {PAWN_pronoun} puede rechazar hacer cierto tipos de trabajo, comer comida de clase baja y en ocasiones emitirá decretos.</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>¡{PAWN_labelShort} recibió el título de {TITLE} de la facción {FACTION_name}!</LetterGainedRoyalTitle>
@@ -104,12 +104,12 @@
 
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
-  <WildDecree>Decreto salvaje</WildDecree>
+  <WildDecree>Decreto extravagante</WildDecree>
   <!-- EN: {0_nameIndef} issues decree -->
   <LetterLabelRandomDecree>{0_nameIndef} emite decreto</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}, en un intento de aliviar su estrés, emitió un decreto real salvaje y ahora exige que se cumpla.\n     \nSi no se cumple a tiempo, {0_nameIndef} será infeliz.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}, en un intento de aliviar su estrés, emitió un decreto real extravagante y ahora exige que se cumpla.\n     \nSi no se cumple a tiempo, {0_nameIndef} será infeliz.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
   <LetterRandomDecree>{0_nameIndef}, para afirmar su título de {0_bestRoyalTitleIndef}, ha emitido un decreto y ahora exige que se cumpla.\n    \nSi no se cumple a tiempo, {0_nameIndef} se volverá muy infeliz.</LetterRandomDecree>
@@ -164,6 +164,6 @@
   <!-- EN: Transport pod crash: {0_nameDef} -->
   <LetterLabelWandererJoinsAbasia>Cápsula de transporte estrellada: {0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>{0_gender ? Un : Una} {0_title} de nombre {0_nameDef} se ha estrellado en una cápsula de transporte en las cercanías.\n\n{0_pronoun} sufre de {1_label} y no podrá caminar.\n\nSe recuperará naturalmente después de muchos días. También hay una posibilidad de una recuperación rápida y afortunada. La {1_label} también puede ser curada con una operación especial que requiere una gran cantidad de medicina de glitterworld.\n\n{0_nameDef} está dispuest{0_gender ? o : a} a contribuir una vez que se haya recuperado, pero no se irá voluntariamente. Si no quieres que se quede, puedes optar por desterrar{0_objective}, vender{0_objective} como esclav{0_gender ? o : a} o dejar{0_objective} morir. Sin embargo, tus otros colonos pueden encontrar esto perturbador.</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>{0_gender ? Un : Una} {0_title} de nombre {0_nameDef} se ha estrellado en una cápsula de transporte en las cercanías.\n\nSufre de {1_label} y no podrá caminar.\n\nSe recuperará naturalmente después de muchos días. También hay una posibilidad de una recuperación rápida y afortunada. La {1_label} también puede ser curada con una operación especial que requiere una gran cantidad de medicina de mundobrillante.\n\n{0_nameDef} está dispuest{0_gender ? o : a} a contribuir una vez que se haya recuperado, pero no se irá voluntariamente. Si no quieres que se quede, puedes optar por desterrar, vender como esclav{0_gender ? o : a} o dejar{0_objective} morir. Sin embargo, tus otros colonos pueden encontrar esto perturbador.</LetterTextWandererJoinsAbasia>
 
 </LanguageData>
