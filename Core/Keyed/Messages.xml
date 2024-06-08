@@ -204,7 +204,7 @@
   <MessageAttackedByPredator>¡{PREY_labelShort} está bajo el ataque de {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>¡{PAWN_labelShort} ha comenzado a alejarse! abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>¡{PAWN_gender ? La : El} {PAWN_labelShort} ha comenzado a alejarse! abandonará el mapa a menos que un adiestrador de animales le atrape y lleve a un corral.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Una colmena de insectos se ha reproducido.</MessageHiveReproduced>
