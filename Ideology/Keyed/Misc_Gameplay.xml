@@ -204,7 +204,7 @@
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite} sufrió una interrupción de conexión recientemente. Puede volver a conectarse en {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({1} total). -->
-  <RitualTargetWoodInfo>Necesitas {0} maderas para cada participante ({1} en total).</RitualTargetWoodInfo>
+  <RitualTargetWoodInfo>Necesitas {replace: ^{0} maderas; "^1 maderas"-"1 madera"; "^"-""} para cada participante ({1} en total).</RitualTargetWoodInfo>
   <!-- EN: A participant cannot reach enough wood. -->
   <RitualTargetWoodInfoAppend>Un participante no puede alcanzar suficiente madera.</RitualTargetWoodInfoAppend>
   <!-- EN: {0} participants cannot reach enough wood. -->
