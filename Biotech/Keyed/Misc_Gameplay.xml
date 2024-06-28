@@ -416,7 +416,7 @@
   <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
   <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} necesita ingerir {0} de forma regular para sobrevivir. Después de {DEFICIENCYDURATION} sin {0}, sufrirá una deficiencia de {0}. Después de {COMADURATION}, caerá en coma. Después de {DEATHDURATION}, morirá.</GeneDefChemicalNeedDurationDesc>
   <!-- EN: {CHEMICAL_label} dependency -->
-  <ChemicalDependency>Dependencia a {CHEMICAL_label}</ChemicalDependency>
+  <ChemicalDependency>Dependencia {replace: a {CHEMICAL_definite}; "a el "-"al "}</ChemicalDependency>
   <!-- EN: Xenogerm -->
   <Xenogerm>Xenogermen</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
@@ -770,7 +770,7 @@
   <MyChildIsSad>mi hijo(a) está triste</MyChildIsSad> 
   
   <!-- EN: Genetic {CHEMICAL_label} dependency -->
-  <GeneticChemicalDependency_Label>Dependencia genética de {CHEMICAL_label}</GeneticChemicalDependency_Label>
+  <GeneticChemicalDependency_Label>Dependencia genética {replace: a {CHEMICAL_indefinite}; "a el "-"al "}</GeneticChemicalDependency_Label>
   <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
   <GeneticChemicalDependency_Desc>Necesito {CHEMICAL_label} debido a mi deficiencia genética. Hace ya un buen tiempo que no consumo.</GeneticChemicalDependency_Desc>
 
