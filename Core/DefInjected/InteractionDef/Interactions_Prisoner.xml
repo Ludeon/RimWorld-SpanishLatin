@@ -41,10 +41,10 @@
   -->
   <BuildRapport.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] sobre [subject] a [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] habló a [RECIPIENT_nameDef] sobre [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] preguntó a [RECIPIENT_nameDef] sobre [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] habló con [RECIPIENT_nameDef] sobre [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] le preguntó a [RECIPIENT_nameDef] sobre [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] alentó a [RECIPIENT_nameDef] a [talkabout] sobre [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] expresó a [RECIPIENT_nameDef] [talkabout] sobre [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ofreció a [RECIPIENT_nameDef] la oportunidad de [talkabout] sobre [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] expresó interés en [PersonalCharacteristicDef] de [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] ha preguntado a [RECIPIENT_nameDef] sobre su [PersonalCharacteristic].</li>
     <li>toldastoryabout(p=2)->contó una historia</li>
@@ -62,14 +62,14 @@
     <li>talkabout->encontrar puntos en común</li>
     <li>subject->la colonia</li>
     <li>subject->la comunidad</li>
-    <li>subject->animales</li>
-    <li>subject->negocios</li>
-    <li>subject->amistad</li>
-    <li>subject->viajes</li>
-    <li>subject->religión</li>
-    <li>subject->lealtad</li>
+    <li>subject->unirse a la colonia</li>
+    <li>subject->cambiar de equipo</li>
+    <li>subject->encontrar amigos</li>
+    <li>subject->conocer a nuevas personas</li>
+    <li>subject->reconsiderar sus ideas</li>
+    <li>subject->replantearse su lealtad</li>
     <li>subject->su salud</li>
-    <li>subject->su familia</li>
+    <li>subject->el futuro</li>
     <li>subject(p=4)->[ConceptPositive]</li>
     <li>subject(p=2)->su [PersonalCharacteristic]</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
