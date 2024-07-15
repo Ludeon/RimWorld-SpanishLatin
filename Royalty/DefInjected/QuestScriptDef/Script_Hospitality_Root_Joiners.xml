@@ -92,6 +92,13 @@
     <li>lodgersWasWere(lodgersCount>=2)->were</li>-->
     <li>lodgersWasWere(lodgersCount==1)->estaba</li>
     <li>lodgersWasWere(lodgersCount>=2)->estaban</li>
+    <li>lodgersSay(lodgersCount==1)->dice</li>
+    <li>lodgersSay(lodgersCount>=2)->dicen</li>
+    <li>lodgersWilling(lodgersCount==1,lodgers0!=Female)->dispuesto</li>
+    <li>lodgersWilling(lodgersCount==1,lodgers0==Female)->dispuesta</li>
+    <li>lodgersWilling(lodgersCount>=2)->dispuestos</li>
+    <li>lodgersLeave(lodgersCount==1)->dejará</li>
+    <li>lodgersLeave(lodgersCount>=2)->dejarán</li>
     <!--<li>appreciateAppreciates(lodgersCount==1)->appreciates</li>
     <li>appreciateAppreciates(lodgersCount>=2)->appreciate</li>-->
     <li>appreciateAppreciates(lodgersCount==1)->apreciaría</li>
