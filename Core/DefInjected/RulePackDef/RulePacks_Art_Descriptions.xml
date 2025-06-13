@@ -51,14 +51,14 @@
     <li>artextra_clause->the scene takes place on the outskirts of a [Community]</li>
     <li>artextra_clause->the scene takes place inside a [Community] built near a [TerrainFeature]</li>
     <li>artextra_clause->a [Character] [idles] [side_position]</li>
-    <li>artextra_clause->a [PAWN_adj] [Character] [idles] [side_position]</li>
+    <li>artextra_clause->a [pawn_adj] [Character] [idles] [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s appear [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [PAWN_adj] [Character]s appear [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [pawn_adj] [Character]s appear [side_position]</li>
     <li>artextra_clause->a [Animal] [idles] [side_position]</li>
     <li>artextra_clause->if you squint your eyes, the [composition] composition of the image reveals the outline of [subimageany]</li>
-    <li>artextra_clause->the [emotional_expression] head of a [PAWN_adj] [PersonJob] watches over all</li>
-    <li>artextra_clause->a [PAWN_adj] [PersonJob] watches over all while [emotional_expression]</li>
-    <li>artextra_clause->the head of a [PAWN_adj] [PersonJob] watches over all</li>
+    <li>artextra_clause->the [emotional_expression] head of a [pawn_adj] [PersonJob] watches over all</li>
+    <li>artextra_clause->a [pawn_adj] [PersonJob] watches over all while [emotional_expression]</li>
+    <li>artextra_clause->the head of a [pawn_adj] [PersonJob] watches over all</li>
     <li>artextra_clause->the whole image is depicted by the careful arrangement of [subimageplural]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
@@ -224,18 +224,18 @@
     <li>artextra_clause->la escena toma lugar en las afueras de [CommunityIndef]</li>
     <li>artextra_clause->la escena toma lugar dentro de [CommunityIndef] cerca de [TerrainFeatureIndef]</li>
     <li>artextra_clause->[CharacterIndef] [idles] [side_position]</li>
-    <li>artextra_clause->[CharacterIndefMas] [PAWN_adj] [idles] [side_position]</li>
-    <li>artextra_clause->[CharacterIndefFem] [PAWN_adj_Fem] [idles] [side_position]</li>
+    <li>artextra_clause->[CharacterIndefMas] [pawn_adj] [idles] [side_position]</li>
+    <li>artextra_clause->[CharacterIndefFem] [pawn_adj_Fem] [idles] [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [CharacterEnemyPlural] se ven [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [CharacterEnemyPlural] [PAWN_adj]s se ven [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [CharacterEnemyPlural] [pawn_adj]s se ven [side_position]</li>
     <li>artextra_clause->[AnimalIndef] [idles] [side_position]</li>
     <li>artextra_clause->si entrecierras los ojos, puedes ver que la composición de la imagen revela la silueta de [subimageany]</li>
-    <li>artextra_clause->la cabeza de un [PersonJob] [emotional_expression] [PAWN_adj] lo observa todo</li>
-    <li>artextra_clause->la cabeza de una [PersonJob_Fem] [emotional_expression] [PAWN_adj_Fem] lo observa todo</li>
-    <li>artextra_clause->un [PersonJob] [PAWN_adj] lo observa todo [emotional_expression]</li>
-    <li>artextra_clause->un [PersonJob] [PAWN_adj] lo mira todo desde las alturas</li>
-    <li>artextra_clause->una [PersonJob_Fem] [PAWN_adj_Fem] lo observa todo [emotional_expression]</li>
-    <li>artextra_clause->una [PersonJob_Fem] [PAWN_adj_Fem] lo mira todo desde las alturas</li>
+    <li>artextra_clause->la cabeza de un [PersonJob] [emotional_expression] [pawn_adj] lo observa todo</li>
+    <li>artextra_clause->la cabeza de una [PersonJob_Fem] [emotional_expression] [pawn_adj_Fem] lo observa todo</li>
+    <li>artextra_clause->un [PersonJob] [pawn_adj] lo observa todo [emotional_expression]</li>
+    <li>artextra_clause->un [PersonJob] [pawn_adj] lo mira todo desde las alturas</li>
+    <li>artextra_clause->una [PersonJob_Fem] [pawn_adj_Fem] lo observa todo [emotional_expression]</li>
+    <li>artextra_clause->una [PersonJob_Fem] [pawn_adj_Fem] lo mira todo desde las alturas</li>
     <li>artextra_clause->la imagen completa está formada por el arreglo cuidadoso de [subimageplural]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
@@ -262,6 +262,20 @@
     <li>pawn_adj->vistiendo [ApparelIndef]</li>
     <li>pawn_adj->empuñando [WeaponIndef]</li>
     <li>pawn_adj->comiéndose [VegetableIndef]</li>
+    <li>pawn_adjPl->sonrientes</li>
+    <li>pawn_adjPl->durmientes</li>
+    <li>pawn_adjPl->muertos</li>
+    <li>pawn_adjPl->locos</li>
+    <li>pawn_adjPl->jóvenes</li>
+    <li>pawn_adjPl->viejos</li>
+    <li>pawn_adjPl->lunáticos</li>
+    <li>pawn_adjPl->enojados</li>
+    <li>pawn_adjPl->expectantes</li>
+    <li>pawn_adjPl->cubiertos de [Gore_Plural]</li>
+    <li>pawn_adjPl->nerviosos</li>
+    <li>pawn_adjPl->vistiendo [ApparelIndef]</li>
+    <li>pawn_adjPl->empuñando [WeaponIndef]</li>
+    <li>pawn_adjPl->comiéndose [VegetableIndef]</li>
     <li>pawn_adj_Fem->sonriente</li>
     <li>pawn_adj_Fem->durmiente</li>
     <li>pawn_adj_Fem->muerta</li>
@@ -317,7 +331,7 @@
     <li>style_clause->la imagen contrasta [ConceptAnyFull] con [ConceptAnyFull]</li>
     <li>style_clause->la estructura [composition] de la imagen casi entra en conflicto con el estilo [artstyle_adj]</li>
     <li>style_clause->el trabajo tiene tonalidades de [Color] y [Color]</li>
-    <li>style_clause->casi cada silueta parece ser [composition]</li>
+    <li>style_clause->cada cada silueta parece ser [composition]</li>
     <li>symbolizes->simboliza</li>
     <li>symbolizes->parece simbolizar</li>
     <li>symbolizes->representa</li>
@@ -345,7 +359,7 @@
     <li>composition->rectangular</li>
     <li>composition->cuadrada</li>
     <li>composition->desbalanceada</li>
-    <li>composition->bien balanceada</li>
+    <li>composition->balanceada</li>
     <li>composition->dinámica</li>
     <li>composition->estática</li>
     <li>composition->vertical</li>

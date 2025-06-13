@@ -4,10 +4,12 @@
   <!-- EN: civil outlander union -->
   <OutlanderCivil.label>unión civil de forasteros</OutlanderCivil.label>
   <!-- EN: These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard. -->
-  <OutlanderCivil.description>Estas personas han vivido aquí durante décadas o siglos, y han perdido la mayor parte de la tecnología que los trajo a este mundo. Normalmente trabajan con maquinaria sencilla y se defienden con armas de pólvora avanzadas.\n\nSe ocupan de los asuntos prácticos del comercio, la confianza y la supervivencia.\n\nEste grupo en particular tiene en alta estima el comportamiento civil.</OutlanderCivil.description>
+  <OutlanderCivil.description>Estas personas han vivido aquí durante décadas o siglos y han perdido la mayor parte de la tecnología que los trajo a este mundo. Normalmente trabajan con maquinaria sencilla y se defienden con armas de pólvora avanzadas.\n\nSe ocupan de los asuntos prácticos del comercio, la confianza y la supervivencia.\n\nEste grupo en particular tiene en alta estima el comportamiento civil.</OutlanderCivil.description>
   <!-- EN: prime councilor -->
   <OutlanderCivil.leaderTitle>primer consejero</OutlanderCivil.leaderTitle>
   <OutlanderCivil.leaderTitleFemale>primera consejera</OutlanderCivil.leaderTitleFemale>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <OutlanderCivil.messageDefendersAttacking>{0} de {1} están atacando tu {2}.</OutlanderCivil.messageDefendersAttacking>
   <!-- EN: outlander -->
   <OutlanderCivil.pawnSingular>forastero</OutlanderCivil.pawnSingular>
   <!-- EN: outlanders -->
@@ -16,10 +18,12 @@
   <!-- EN: rough outlander union -->
   <OutlanderRough.label>unión forasteros rudos</OutlanderRough.label>
   <!-- EN: These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group has a streak of barbarity in them. -->
-  <OutlanderRough.description>Estas personas han vivido aquí durante décadas o siglos, y han perdido la mayor parte de la tecnología que los trajo a este mundo. Normalmente trabajan con maquinaria sencilla y se defienden con armas de pólvora avanzadas.\n\nSe preocupan por los asuntos prácticos del comercio, la confianza y la supervivencia.</OutlanderRough.description>
+  <OutlanderRough.description>Estas personas han vivido aquí durante décadas o siglos y han perdido la mayor parte de la tecnología que los trajo a este mundo. Normalmente trabajan con maquinaria sencilla y se defienden con armas de pólvora avanzadas.\n\nSe preocupan por los asuntos prácticos del comercio, la confianza y la supervivencia.</OutlanderRough.description>
   <!-- EN: prime councilor -->
   <OutlanderRough.leaderTitle>primer consejero</OutlanderRough.leaderTitle>
   <OutlanderRough.leaderTitleFemale>primera consejera</OutlanderRough.leaderTitleFemale>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <OutlanderRough.messageDefendersAttacking>{0} de {1} están atacando tu {2}.</OutlanderRough.messageDefendersAttacking>
   <!-- EN: outlander -->
   <OutlanderRough.pawnSingular>forastero</OutlanderRough.pawnSingular>
   <!-- EN: outlanders -->
@@ -32,6 +36,8 @@
   <!-- EN: boss -->
   <Pirate.leaderTitle>capitán</Pirate.leaderTitle>
   <Pirate.leaderTitleFemale>capitana</Pirate.leaderTitleFemale>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Pirate.messageDefendersAttacking>{0} de {1} están atacando tu {2}.</Pirate.messageDefendersAttacking>
   <!-- EN: pirate -->
   <Pirate.pawnSingular>pirata</Pirate.pawnSingular>
   <!-- EN: pirates -->
@@ -44,6 +50,8 @@
   <!-- EN: chief -->
   <TribeCivil.leaderTitle>jefe</TribeCivil.leaderTitle>
   <TribeCivil.leaderTitleFemale>jefa</TribeCivil.leaderTitleFemale>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <TribeCivil.messageDefendersAttacking>{0} de {1} están atacando tu {2}.</TribeCivil.messageDefendersAttacking>
   <!-- EN: tribesman -->
   <TribeCivil.pawnSingular>tribal</TribeCivil.pawnSingular>
   <!-- EN: tribespeople -->
@@ -56,6 +64,8 @@
   <!-- EN: chief -->
   <TribeRough.leaderTitle>jefe</TribeRough.leaderTitle>
   <TribeRough.leaderTitleFemale>jefa</TribeRough.leaderTitleFemale>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <TribeRough.messageDefendersAttacking>{0} de {1} están atacando tu {2}.</TribeRough.messageDefendersAttacking>
   <!-- EN: tribesman -->
   <TribeRough.pawnSingular>tribal</TribeRough.pawnSingular>
   <!-- EN: tribespeople -->
@@ -68,6 +78,8 @@
   <!-- EN: chief -->
   <TribeSavage.leaderTitle>jefe</TribeSavage.leaderTitle>
   <TribeSavage.leaderTitleFemale>jefa</TribeSavage.leaderTitleFemale>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <TribeSavage.messageDefendersAttacking>{0} de {1} están atacando tu {2}.</TribeSavage.messageDefendersAttacking>
   <!-- EN: tribesman -->
   <TribeSavage.pawnSingular>tribal</TribeSavage.pawnSingular>
   <!-- EN: tribespeople -->

@@ -322,6 +322,8 @@
   <QuestPawnNotOnColonyMap>{PAWN_definite} debe estar en tu colonia natal</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
   <QuestRequiresNoDangerOnMap>El mapa despejado de cualquier enemigo de la facción del otorgante</QuestRequiresNoDangerOnMap>
+  <!-- EN: that {PROJECT_label} has been researched. -->
+  <QuestRequiresResearch>que {PROJECT_label} ha sido investigado.</QuestRequiresResearch>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>para terminar la misión de la ceremonia de concesión en curso</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -358,6 +360,10 @@
   <QuestNeutralTo>neutral a {0}</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
   <QuestRequiredThingStudied>{0_labelShort} estudiado</QuestRequiredThingStudied>
+  <!-- EN: cannot accept {GERUND} {LAYER} -->
+  <QuestRequiredLayer>no puede aceptar {GERUND} {LAYER}</QuestRequiredLayer> <!-- text_todo -->
+  <!-- EN: cannot accept in space -->
+  <QuestNotSpace>no puede aceptar en el espacio</QuestNotSpace> <!-- text_todo -->
 
   <!-- Health tab -->
   <!-- EN: Creates need -->

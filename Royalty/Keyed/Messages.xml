@@ -4,17 +4,15 @@
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>El transbordador no puede aterrizar en la plataforma: {0}.</ShuttleBlocked>
-  <!-- EN: The shuttle has arrived. -->
-  <MessageShuttleArrived>El transbordador ha llegado.</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
   <MessageShuttleArrivedContentsLost>El transbordador llegó, pero como no había colonos dentro, el contenido se perdió.</MessageShuttleArrivedContentsLost>
-  <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>No se puede llamar al transbordador</CannotCallShuttle>
 
   <!-- EN: Cannot land in undiscovered area. -->
   <ShuttleCannotLand_Fogged>No puede aterrizar en terreno sin descubrir.</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
   <ShuttleCannotLand_Unwalkable>El terreno debe ser transitable.</ShuttleCannotLand_Unwalkable>
+  <!-- EN: Terrain does not support {0}. -->
+  <ShuttleCannotLand_Unaffordable>El terreno no soporta {0}.</ShuttleCannotLand_Unaffordable> <!-- text_todo -->
 
   <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
   <MessageBestowerWaiting>Selecciona a {BESTOWER_definite} y haz clic en "Iniciar ceremonia de concesión" para comenzar la ceremonia.</MessageBestowerWaiting>

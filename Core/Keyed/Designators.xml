@@ -16,6 +16,11 @@
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>Desarma este objeto y recupera parte de los recursos usados en su construcción.</DesignatorDeconstructDesc>
 
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>Desarmar conducto</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>Desarma los conductos de energía y recuperar parte de sus recursos.</DesignatorDeconstructConduitDesc>
+
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Desinstalar</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
@@ -45,8 +50,8 @@
 
   <!-- EN: Hunt -->
   <DesignatorHunt>Cazar</DesignatorHunt>
-  <!-- EN: Mark animals to be hunted by your hunters. -->
-  <DesignatorHuntDesc>Designa animales para cazar.</DesignatorHuntDesc>
+  <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
+  <DesignatorHuntDesc>Designalos animales que serán cazados por tus cazadores.\n\nSolo cazarán los cazadores con armas a distancia adecuadas.</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
   <DesignatorMine>Minar</DesignatorMine>
@@ -73,8 +78,8 @@
 
   <!-- EN: Plan -->
   <DesignatorPlan>Planificación</DesignatorPlan>
-  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
-  <DesignatorPlanDesc>Dibuja un anteproyecto. Esto no hace nada excepto ayudarte visualmente a planificar las futuras construcciones.</DesignatorPlanDesc>
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
+  <DesignatorPlanDesc>Dibuja un anteproyecto. Esto no hace nada excepto ayudarte visualmente a planificar las futuras construcciones.\n\nHaz clic con el botón derecho del ratón para ocultar o desocultar todas las áreas de planificación.</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
   <DesignatorPlanRemove>Borrar planificación</DesignatorPlanRemove>
@@ -122,7 +127,7 @@
   <!-- EN: Clear snow removal area -->
   <DesignatorAreaSnowClearClear>Borrar área de remoción de nieve</DesignatorAreaSnowClearClear>
   <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
-  <DesignatorAreaSnowClearClearDesc>Borra un área de remoción de nieve. Los colonos no seguirán tratando de mantener esta área sin nieve.</DesignatorAreaSnowClearClearDesc>
+  <DesignatorAreaSnowClearClearDesc>Borra un área de remoción de nieve. Los colonos no seguirán tratando de mantener esta área despejada de nieve.</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
   <DesignatorExpandAreaAllowed>Expandir área asignable</DesignatorExpandAreaAllowed>
@@ -168,8 +173,8 @@
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>Retirar puente</DesignatorRemoveBridge>
-  <!-- EN: Remove bridges to reveal the terrain underneath. -->
-  <DesignatorRemoveBridgeDesc>Retire la plataforma para revelar el terreno que hay debajo.</DesignatorRemoveBridgeDesc>
+  <!-- EN: Deconstruct bridges to reclaim partial resources. -->
+  <DesignatorRemoveBridgeDesc>Desarma puentes para recuperar recursos parciales.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>Desvestir</DesignatorStrip>
@@ -181,6 +186,11 @@
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Abre tumbas y otros contenedores ocupados.</DesignatorOpenDesc>
   
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>Expulsar combustible</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>Expulsa todo el combustible contenido al suelo.</DesignatorEjectFuelDesc>
+
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Sacrificar</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -190,6 +200,8 @@
   <DesignatorTame>Domesticar</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Domestica un animal salvaje.</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>Los animales infectados con escariosis no pueden ser domesticados.</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>Liberar animal</DesignatorReleaseAnimalToWild>
@@ -240,6 +252,16 @@
   <!-- EN: Grabbed color -->
   <GrabbedColor>Color elegido</GrabbedColor>
 
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>Expandir plano</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>Nuevo plano</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>Reducir plano</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>Quitar planos.</DesignatorPlanShrinkDesc>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>Material no elegido</UnchosenStuff>
@@ -259,6 +281,10 @@
   <WouldBlockInteractionSpot>{0} bloquearía Un punto de interacción de {1}.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>El terreno aquí ya es {0}.</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>Ya hay cimientos aquí.</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>El terreno existente aquí no se puede eliminar.</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>La superficie ya está marcada para el alisado.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -299,6 +325,11 @@
   <ExpandOrCreateZone>Expandir {0} o\nCrear nuevo {1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>Crear nuevo {0}</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>Expandir {0} o\nCrear nuevo plan</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>Crear nuevo plan</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->

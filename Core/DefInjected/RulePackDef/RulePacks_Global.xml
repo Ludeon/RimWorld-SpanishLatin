@@ -95,6 +95,7 @@
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
     <li>ColorBadass_Fem->Words/Nouns/Colors_BadassFem</li>
     <li>Color_Fem->Words/Nouns/Colors_Fem</li>
+    <li>Color_FemPl->Words/Nouns/Colors_FemPl</li>
     <li>Color_FemCap->Words/Nouns/Colors_FemCap</li>
     <!--Comunidades:-->
     <li>Community->Words/Nouns/Communities</li>
@@ -296,7 +297,7 @@
     <li>joiner_A(joiner_gender==Female)->Una</li>
     <li>joiner_o_a(joiner_gender!=Female)->o</li>
     <li>joiner_o_a(joiner_gender==Female)->a</li>
-    <!-- regla especial para la misión JoinerTheat-->
+    <!--regla especial para la misión JoinerTheat-->
     <li>joiner_especial(joiner_gender!=Female)->la hija</li>
     <li>joiner_especial(joiner_gender==Female)->el hijo</li>
     <!--lodgers-->

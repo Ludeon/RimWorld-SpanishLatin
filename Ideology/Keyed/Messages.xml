@@ -84,6 +84,8 @@
   <MessageBeggarsLeavingWithItemsPlural>Los {0} han aceptado los artículos solicitados y se marchan.</MessageBeggarsLeavingWithItemsPlural>
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>{0_nameDef} murió sin ningún tratamiento.</MessageWandererLeftToDie>
+  <!-- EN: {0_nameDef} was left to die. -->
+  <MessageWandererLeftBehind>{0_nameDef} fue abandonad{0_gender ? o : a} a su suerte..</MessageWandererLeftBehind>
   <!-- EN: {0_nameDef} was recruited. -->
   <MessageWandererRecruited>{0_nameDef} fue reclutad{0_gender ? o : a}.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
@@ -112,7 +114,7 @@
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
-  <MessageAncientTerminalDiscovered>¡Has descubierto un antiguo terminal con información sobre el {0}!</MessageAncientTerminalDiscovered>
+  <MessageAncientTerminalDiscovered>¡Has descubierto una antigua terminal con información sobre el {0}!</MessageAncientTerminalDiscovered>
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
   <MessageAncientComplexBackToShuttle>¡Has descubierto información secreta sobre {0}! Vuelve al transbordador para lanzarlo.</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->

@@ -85,7 +85,7 @@
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] ha pedido a [RECIPIENT_nameDef] unirse a la colonia.</li>
-    <li>r_logentry->[INITIATOR_nameDef] prometió [goodthing] a [RECIPIENT_nameDef], y le ha pedido unirse a la colonia.</li>
+    <li>r_logentry->[INITIATOR_nameDef] prometió [goodthing] a [RECIPIENT_nameDef] y le ha pedido unirse a la colonia.</li>
     <li>goodthing(p=0.5)->[ConceptPositive]</li>
     <li>goodthing->comidas sabrosas</li>
     <li>goodthing->un dulce hogar</li>
@@ -110,9 +110,9 @@
     <li>freedom->self-determination</li>
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] habló sobre la alegría de la [freedom], y ofreció un medio para escapar.</li>
+    <li>r_logentry->[INITIATOR_nameDef] habló sobre la alegría de la [freedom] y ofreció un medio para escapar.</li>
     <li>r_logentry->[INITIATOR_nameDef] habló sobre la belleza del [TerrainFeature] y la libertad.</li>
-    <li>r_logentry->[INITIATOR_nameDef] demostró una forma de escape a [RECIPIENT_nameDef], y prometió [freedom].</li>
+    <li>r_logentry->[INITIATOR_nameDef] demostró una forma de escape a [RECIPIENT_nameDef] y prometió [freedom].</li>
     <li>r_logentry->[INITIATOR_nameDef] convenció a [RECIPIENT_nameDef] de que la seguridad es pobre y ha alentado una fuga.</li>
     <li>freedom->libertad</li>
     <li>freedom->autodeterminación</li>
