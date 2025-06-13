@@ -246,6 +246,14 @@
   <Stat_Race_RoamInterval_Desc>La frecuencia con la que un animal domesticado intentará alejarse y salir del mapa.\n\nLos animales solo deambularán si tienen un camino directo hacia el borde del mapa. Puedes usar vallas, barricadas, muros y puertas para evitarlo.\n\nLos adiestradores de animales pueden atar con una soga a los animales que deambulan y llevarlos de vuelta a un corral.</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>El valor recreativo al ingerir esto. Los números más altos satisfarán más la necesidad de recreación.</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The weight of this creature and their equipment. -->
+  <Stat_Mass_Desc>El peso de esta criatura y su equipo.</Stat_Mass_Desc>
+  <!-- EN: Base mass -->
+  <Stat_Mass_Base>Masa base</Stat_Mass_Base>
+  <!-- EN: Mass from equipment -->
+  <Stat_Mass_Equipment>Masa del equipo</Stat_Mass_Equipment>
+  <!-- EN: Total mass -->
+  <Stat_Mass_Total>Masa total</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>El tamaño del cuerpo de esta criatura, en comparación con un humano adulto promedio.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -260,6 +268,12 @@
   <Stat_Thing_Weapon_BurstShotFireRate_Desc>La cadencia de fuego de esta arma durante cada ráfaga.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>El alcance máximo de esta arma.</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: Range multiplier -->
+  <Stat_Thing_Weapon_Range_Multiplier>Multiplicador de alcance</Stat_Thing_Weapon_Range_Multiplier>
+  <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
+  <Stat_Thing_Weapon_Range_Clamped>Reducido de {ORIGINAL} a {CAP} por el tiempo.</Stat_Thing_Weapon_Range_Clamped>
+  <!-- EN: Aiming time multiplier -->
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>Multiplicador del tiempo de puntería</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>El radio de dispersión aleatoria en los disparos de esta arma.\n\nY los valores altos hacen que los proyectiles se dispersen al azar alrededor del objetivo.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
@@ -551,4 +565,18 @@
   <ContainedBookBeauty>Belleza contenida del libro</ContainedBookBeauty>
   <!-- EN: {0} hits -->
   <Stat_TrapDamageHitCount>{0} aciertos</Stat_TrapDamageHitCount>
+
+  <!-- EN: The amount of progress that has been made towards hacking this object. -->
+  <Stat_Thing_HackingProgress>La cantidad de avances que se han hecho para hackear este objeto.</Stat_Thing_HackingProgress>
+
+  <!-- EN: Multiplier for {0} terrain -->
+  <StatsReport_TerrainSpeedMultiplier>Multiplicador para terreno {0}</StatsReport_TerrainSpeedMultiplier>
+
+  <!-- EN: {0} trained -->
+  <StatsReport_Trainable>{0} entrenado</StatsReport_Trainable>
+  <!-- EN: Available training -->
+  <StatsReport_AvailableTraining>Entrenamiento disponible</StatsReport_AvailableTraining>
+  <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
+  <StatsReport_AvailableTraining_Desc>Las tareas para las que se puede entrenar a esta criatura. El entrenamiento disponible depende de la capacidad de entrenamiento, el tamaño corporal y la especie de la criatura.</StatsReport_AvailableTraining_Desc>
+  
 </LanguageData>

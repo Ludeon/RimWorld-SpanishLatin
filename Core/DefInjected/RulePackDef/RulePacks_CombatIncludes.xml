@@ -143,8 +143,8 @@
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
     <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->[recipient_part0_label] y [recipient_part1_label]</li>
-    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], y [recipient_part2_label]</li>
-    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], y [recipient_part3_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label] y [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label] y [recipient_part3_label]</li>
     <li>damaged_present(deflected!=True)->hiriendo</li>
     <li>damaged_present(deflected!=True)->lesionando</li>
     <li>destroyed(p=0.5)->destruido</li>
@@ -289,30 +289,30 @@
     <!--definidos-->
     <li>destroyed_targetsDef(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_definite]</li>
     <li>destroyed_targetsDef(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_definite] y [recipient_part_destroyed1_definite]</li>
-    <li>destroyed_targetsDef(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_definite], [recipient_part_destroyed1_definite], y [recipient_part_destroyed2_definite]</li>
-    <li>destroyed_targetsDef->[recipient_part_destroyed0_definite], [recipient_part_destroyed1_definite], [recipient_part_destroyed2_definite], y [recipient_part_destroyed3_definite]</li>
+    <li>destroyed_targetsDef(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_definite], [recipient_part_destroyed1_definite] y [recipient_part_destroyed2_definite]</li>
+    <li>destroyed_targetsDef->[recipient_part_destroyed0_definite], [recipient_part_destroyed1_definite], [recipient_part_destroyed2_definite] y [recipient_part_destroyed3_definite]</li>
     <li>damaged_targetsDef(recipient_part_damaged_count==1)->[recipient_part_damaged0_definite]</li>
     <li>damaged_targetsDef(recipient_part_damaged_count==2)->[recipient_part_damaged0_definite] y [recipient_part_damaged1_definite]</li>
-    <li>damaged_targetsDef(recipient_part_damaged_count==3)->[recipient_part_damaged0_definite], [recipient_part_damaged1_definite], y [recipient_part_damaged2_definite]</li>
-    <li>damaged_targetsDef->[recipient_part_damaged0_label], [recipient_part_damaged1_definite], [recipient_part_damaged2_definite], y [recipient_part_damaged3_definite]</li>
+    <li>damaged_targetsDef(recipient_part_damaged_count==3)->[recipient_part_damaged0_definite], [recipient_part_damaged1_definite] y [recipient_part_damaged2_definite]</li>
+    <li>damaged_targetsDef->[recipient_part_damaged0_label], [recipient_part_damaged1_definite], [recipient_part_damaged2_definite] y [recipient_part_damaged3_definite]</li>
     <!--Definido para combat Ranged-->
     <li>destroyed_targetsDef1(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_definite]</li>
     <li>destroyed_targetsDef2(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_definite] y [recipient_part_destroyed1_definite]</li>
-    <li>destroyed_targetsDef2(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_definite], [recipient_part_destroyed1_definite], y [recipient_part_destroyed2_definite]</li>
-    <li>destroyed_targetsDef2->[recipient_part_destroyed0_definite], [recipient_part_destroyed1_definite], [recipient_part_destroyed2_definite], y [recipient_part_destroyed3_definite]</li>
+    <li>destroyed_targetsDef2(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_definite], [recipient_part_destroyed1_definite] y [recipient_part_destroyed2_definite]</li>
+    <li>destroyed_targetsDef2->[recipient_part_destroyed0_definite], [recipient_part_destroyed1_definite], [recipient_part_destroyed2_definite] y [recipient_part_destroyed3_definite]</li>
     <li>damaged_targetsDef1(recipient_part_damaged_count==1)->[recipient_part_damaged0_definite]</li>
     <li>damaged_targetsDef2(recipient_part_damaged_count==2)->[recipient_part_damaged0_definite] y [recipient_part_damaged1_definite]</li>
-    <li>damaged_targetsDef2(recipient_part_damaged_count==3)->[recipient_part_damaged0_definite], [recipient_part_damaged1_definite], y [recipient_part_damaged2_definite]</li>
-    <li>damaged_targetsDef2->[recipient_part_damaged0_label], [recipient_part_damaged1_definite], [recipient_part_damaged2_definite], y [recipient_part_damaged3_definite]</li>
+    <li>damaged_targetsDef2(recipient_part_damaged_count==3)->[recipient_part_damaged0_definite], [recipient_part_damaged1_definite] y [recipient_part_damaged2_definite]</li>
+    <li>damaged_targetsDef2->[recipient_part_damaged0_label], [recipient_part_damaged1_definite], [recipient_part_damaged2_definite] y [recipient_part_damaged3_definite]</li>
     <!--Sin definir-->
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
     <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] y [recipient_part_destroyed1_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], y [recipient_part_destroyed2_label]</li>
-    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], y [recipient_part_destroyed3_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label] y [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label] y [recipient_part_destroyed3_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] y [recipient_part_damaged1_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], y [recipient_part_damaged2_label]</li>
-    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], y [recipient_part_damaged3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label] y [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label] y [recipient_part_damaged3_label]</li>
   </Combat_WoundIncludes.rulePack.rulesStrings>
   
 </LanguageData>

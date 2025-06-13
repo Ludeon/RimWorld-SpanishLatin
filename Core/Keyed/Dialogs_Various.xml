@@ -23,7 +23,7 @@
   <Disable>Desactivar</Disable>
   <!-- EN: Modify -->
   <Modify>Modificar</Modify>
-  <!-- EN: Settle here anyways? -->
+  <!-- EN: Settle here anyway? -->
   <ConfirmSettle>¿Asentarse aquí de todos modos?</ConfirmSettle>
   <!-- EN: add -->
   <Add>añadir</Add>
@@ -168,7 +168,7 @@
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
   <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} piensa que también el asentamiento debería tener un nombre. ¿Cómo debe llamarse este asentamiento?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
-  <PlayerFactionAndBaseGainsName>Tu facción ahora es conocida como {0}, y el asentamiento es, {1}.</PlayerFactionAndBaseGainsName>
+  <PlayerFactionAndBaseGainsName>Tu facción ahora es conocida como {0} y el asentamiento es {1}.</PlayerFactionAndBaseGainsName>
   
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
@@ -249,10 +249,10 @@
   <SelectedCharactersMustInclude>Debe incluir exactamente {SUMMARY}</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
-  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>Advertencia: Vas a aterrizar en un ambiente congelado. Podría ser muy difícil (sino que imposible) sobrevivir. Si no pretendes enfrentarte a un reto extremo, mejor escoge otro lugar o el mismo, pero en otra estación del año.</MapTemperatureDangerWarning>
+  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
+  <MapWinterWarning>Advertencia: Aterrizarás en invierno. Puede ser difícil o casi imposible sobrevivir. Si no tienes intención de enfrentarte a un reto extremo, elige otra estación.</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>El juego está diseñado para jugar en mapas de tamaño mediano.\n\n¡Estos tamaños proporcionan mucho espacio! Los mapas de gran tamaño no solo disminuyen el rendimiento, sino que también rompen el diseño del juego. La IA tomará decisiones estúpidas, y el equilibrio del juego se verá gravemente afectado de varias maneras. Estos tamaños se incluyen solo por razones de tradición y pruebas, por favor no los utilice sin una razón específica.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>El juego está diseñado para jugar en mapas de tamaño mediano. Estos tamaños ofrecen espacio de sobra.\n\nLos mapas de gran tamaño no solo disminuyen el rendimiento, sino que también rompen el diseño del juego. La IA tomará decisiones estúpidas, y el equilibrio del juego se verá gravemente afectado de varias maneras. Estos tamaños se incluyen solo por razones de tradición y pruebas, por favor no los utilice sin una razón específica.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>Tamaño del mapa</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -700,6 +700,8 @@
   <TradeModeTip>Volver al modo de comercio.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>La facción {FACTION_name} no está dispuesta a enviar una caravana porque {NEGOTIATOR_nameDef} carece del título de {TITLE} requerido.</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>La facción {FACTION_name} no está dispuesta a enviar un comerciante orbital porque {NEGOTIATOR_nameDef} carece del título {TITLE} requerido.</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -728,6 +730,10 @@
   <Send>Enviar</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Número disponible para enviar con la caravana.</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>Número disponible para transporte.</TransporterColonyThingCountTip> <!-- text_todo -->
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>Número disponible para transferir.</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
   <!-- EN: People and animals -->
   <PawnsTab>Personas y animales</PawnsTab>
   <!-- EN: Items -->
@@ -948,6 +954,8 @@
   <DuplicatePolicyTip>Crear un duplicado de la política seleccionada.</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>Renombrar esta política.</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>Haz que esta política sea la que se aplique por defecto a los nuevos colonos.</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>¿Está seguro de que desea eliminar la política: {0}?</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1059,6 +1067,8 @@
   <SchematicPolicy>Esquemas</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>Novelas</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>Mapas</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1138,8 +1148,10 @@
   <ConfirmBanishPawnDialog_IndividualThoughts>Desterrar a {1_labelShort} hará que las siguientes personas tengan los siguientes pensamientos:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>El grupo de cápsulas no está completamente cargado. Falta {1_labelShort}. ¿Lanzar de todos modos?</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: The following still need to be loaded -->
+  <ConfirmSendNotCompletelyLoadedLaunchable>Todavía hay que cargar lo siguiente</ConfirmSendNotCompletelyLoadedLaunchable>
+  <!-- EN: Launch anyway? -->
+  <ConfirmSendLaunchAnyway>¿Lanzar de todos modos?</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1413,6 +1425,10 @@
   <SearchTheMap>Buscar en el mapa actual.</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>Busca en el mapa actual objetos, edificios, personas, animales, plantas y mucho más.</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>Buscar en el mundo</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>Busca en el mundo características específicas, puntos de interés, misiones o asentamientos.</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{0} resultados encontrados</MapSearchResults>
   <!-- EN: 1 result found -->

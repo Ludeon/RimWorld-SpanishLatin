@@ -64,6 +64,13 @@
   <!-- EN: remove floor -->
   <ConstructRemoveFloors.verb>remover suelo</ConstructRemoveFloors.verb>
   
+  <!-- EN: remove foundation -->
+  <ConstructRemoveFoundations.label>remover cimientos</ConstructRemoveFoundations.label>
+  <!-- EN: removing foundation -->
+  <ConstructRemoveFoundations.gerund>removiendo cimiento</ConstructRemoveFoundations.gerund>
+  <!-- EN: remove foundation -->
+  <ConstructRemoveFoundations.verb>remover cimiento</ConstructRemoveFoundations.verb>
+  
   <!-- EN: smooth floors -->
   <ConstructSmoothFloors.label>alisar suelos</ConstructSmoothFloors.label>
   <!-- EN: smoothing -->
@@ -92,6 +99,13 @@
   <!-- EN: deconstruct -->
   <Deconstruct.verb>desarmar</Deconstruct.verb>
   
+  <!-- EN: deconstruct structures for blueprints -->
+  <DeconstructForBlueprint.label>desarmar estructuras de anteproyectos</DeconstructForBlueprint.label>
+  <!-- EN: deconstructing -->
+  <DeconstructForBlueprint.gerund>desarmando</DeconstructForBlueprint.gerund>
+  <!-- EN: deconstruct -->
+  <DeconstructForBlueprint.verb>desarmar</DeconstructForBlueprint.verb>
+  
   <!-- EN: deliver food to prisoners -->
   <DeliverFoodToPrisoner.label>llevar comida a prisioneros</DeliverFoodToPrisoner.label>
   <!-- EN: delivering food for -->
@@ -117,43 +131,43 @@
   <DoBillsBrew.label>fermentar cerveza</DoBillsBrew.label>
   <!-- EN: brewing at -->
   <DoBillsBrew.gerund>fermentando en</DoBillsBrew.gerund>
-  <!-- EN: brew -->
-  <DoBillsBrew.verb>fermentar</DoBillsBrew.verb>
+  <!-- EN: brew at -->
+  <DoBillsBrew.verb>fermentar en</DoBillsBrew.verb>
   
   <!-- EN: butcher creatures -->
   <DoBillsButcherFlesh.label>despiezar criaturas</DoBillsButcherFlesh.label>
   <!-- EN: butchering at -->
   <DoBillsButcherFlesh.gerund>despiezando en</DoBillsButcherFlesh.gerund>
-  <!-- EN: butcher -->
-  <DoBillsButcherFlesh.verb>despiezar</DoBillsButcherFlesh.verb>
+  <!-- EN: butcher at -->
+  <DoBillsButcherFlesh.verb>despiezar en</DoBillsButcherFlesh.verb>
   
   <!-- EN: cook meals at stove -->
   <DoBillsCook.label>cocinar en la estufa</DoBillsCook.label>
   <!-- EN: cooking at -->
   <DoBillsCook.gerund>cocinando en</DoBillsCook.gerund>
-  <!-- EN: cook -->
-  <DoBillsCook.verb>cocinar</DoBillsCook.verb>
+  <!-- EN: cook at -->
+  <DoBillsCook.verb>cocinar en</DoBillsCook.verb>
   
   <!-- EN: cook meals at campfire -->
   <DoBillsCookCampfire.label>cocinar en la fogata</DoBillsCookCampfire.label>
   <!-- EN: cooking at -->
   <DoBillsCookCampfire.gerund>cocinando en</DoBillsCookCampfire.gerund>
-  <!-- EN: cook -->
-  <DoBillsCookCampfire.verb>cocinar</DoBillsCookCampfire.verb>
+  <!-- EN: cook at -->
+  <DoBillsCookCampfire.verb>cocinar en</DoBillsCookCampfire.verb>
   
   <!-- EN: do cremation bills -->
   <DoBillsCremate.label>cremar cuerpos</DoBillsCremate.label>
   <!-- EN: cremating at -->
   <DoBillsCremate.gerund>cremando en</DoBillsCremate.gerund>
-  <!-- EN: cremate -->
-  <DoBillsCremate.verb>cremar a</DoBillsCremate.verb>
+  <!-- EN: cremate at -->
+  <DoBillsCremate.verb>cremar en</DoBillsCremate.verb>
   
   <!-- EN: fabricate things -->
   <DoBillsFabricationBench.label>fabricar cosas</DoBillsFabricationBench.label>
   <!-- EN: fabricating things at -->
   <DoBillsFabricationBench.gerund>fabricando cosas en</DoBillsFabricationBench.gerund>
-  <!-- EN: fabricate -->
-  <DoBillsFabricationBench.verb>fabricar</DoBillsFabricationBench.verb>
+  <!-- EN: fabricate things at -->
+  <DoBillsFabricationBench.verb>fabricar cosas en</DoBillsFabricationBench.verb>
   
   <!-- EN: do bills at campfire -->
   <DoBillsHaulCampfire.label>hacer las tareas en la fogata</DoBillsHaulCampfire.label>
@@ -166,22 +180,22 @@
   <DoBillsMachiningTable.label>operaciones de maquinado</DoBillsMachiningTable.label>
   <!-- EN: working at -->
   <DoBillsMachiningTable.gerund>trabajando en</DoBillsMachiningTable.gerund>
-  <!-- EN: work -->
-  <DoBillsMachiningTable.verb>trabajar</DoBillsMachiningTable.verb>
+  <!-- EN: work at -->
+  <DoBillsMachiningTable.verb>trabajar en</DoBillsMachiningTable.verb>
   
   <!-- EN: make apparel -->
   <DoBillsMakeApparel.label>confeccionar ropa</DoBillsMakeApparel.label>
   <!-- EN: tailoring at -->
   <DoBillsMakeApparel.gerund>confeccionando en</DoBillsMakeApparel.gerund>
-  <!-- EN: tailor -->
-  <DoBillsMakeApparel.verb>confeccionar</DoBillsMakeApparel.verb>
+  <!-- EN: tailor at -->
+  <DoBillsMakeApparel.verb>confeccionar en</DoBillsMakeApparel.verb>
   
   <!-- EN: make weapons -->
   <DoBillsMakeWeapons.label>fabricación de armas</DoBillsMakeWeapons.label>
   <!-- EN: smithing at -->
   <DoBillsMakeWeapons.gerund>forjando en</DoBillsMakeWeapons.gerund>
-  <!-- EN: smith -->
-  <DoBillsMakeWeapons.verb>forjar</DoBillsMakeWeapons.verb>
+  <!-- EN: smith at -->
+  <DoBillsMakeWeapons.verb>forjar en</DoBillsMakeWeapons.verb>
   
   <!-- EN: operate on animals -->
   <DoBillsMedicalAnimalOperation.label>operar animales</DoBillsMedicalAnimalOperation.label>
@@ -201,43 +215,43 @@
   <DoBillsProduceDrugs.label>sintetizar drogas</DoBillsProduceDrugs.label>
   <!-- EN: producing drugs at -->
   <DoBillsProduceDrugs.gerund>producciendo drogas en</DoBillsProduceDrugs.gerund>
-  <!-- EN: produce drugs -->
-  <DoBillsProduceDrugs.verb>producir</DoBillsProduceDrugs.verb>
+  <!-- EN: produce drugs at -->
+  <DoBillsProduceDrugs.verb>producir en</DoBillsProduceDrugs.verb>
   
   <!-- EN: work at refinery -->
-  <DoBillsRefinery.label>trabajar en una refinería</DoBillsRefinery.label>
+  <DoBillsRefinery.label>trabajar en la refinería</DoBillsRefinery.label>
   <!-- EN: refining chemicals at -->
-  <DoBillsRefinery.gerund>refinando productos químicos en</DoBillsRefinery.gerund>
-  <!-- EN: refine chemicals -->
-  <DoBillsRefinery.verb>refinar productos químicos</DoBillsRefinery.verb>
+  <DoBillsRefinery.gerund>refinando químicos en</DoBillsRefinery.gerund>
+  <!-- EN: refine chemicals at -->
+  <DoBillsRefinery.verb>refinar químicos en</DoBillsRefinery.verb>
   
   <!-- EN: make things at art bench -->
   <DoBillsSculpt.label>hacer cosas en el banco artístico</DoBillsSculpt.label>
   <!-- EN: sculpting at -->
   <DoBillsSculpt.gerund>esculpiendo en</DoBillsSculpt.gerund>
-  <!-- EN: sculpt -->
-  <DoBillsSculpt.verb>esculpir</DoBillsSculpt.verb>
+  <!-- EN: sculpt at -->
+  <DoBillsSculpt.verb>esculpir en</DoBillsSculpt.verb>
   
   <!-- EN: smelt items -->
   <DoBillsSmelter.label>fundir objetos</DoBillsSmelter.label>
   <!-- EN: refining at -->
   <DoBillsSmelter.gerund>fundiendo en</DoBillsSmelter.gerund>
-  <!-- EN: refine -->
-  <DoBillsSmelter.verb>fundir</DoBillsSmelter.verb>
+  <!-- EN: refine at -->
+  <DoBillsSmelter.verb>fundir en</DoBillsSmelter.verb>
   
   <!-- EN: make stone blocks -->
   <DoBillsStonecut.label>hacer bloques de piedra</DoBillsStonecut.label>
   <!-- EN: cutting stone blocks at -->
-  <DoBillsStonecut.gerund>cortando los bloques de piedra en</DoBillsStonecut.gerund>
-  <!-- EN: stonecut -->
-  <DoBillsStonecut.verb>cortar</DoBillsStonecut.verb>
+  <DoBillsStonecut.gerund>cortando bloques de piedra en</DoBillsStonecut.gerund>
+  <!-- EN: cut stone blocks at -->
+  <DoBillsStonecut.verb>cortar bloques de piedra en</DoBillsStonecut.verb>
   
   <!-- EN: make things at crafting spot -->
   <DoBillsUseCraftingSpot.label>fabricar cosas en el lugar de artesanía</DoBillsUseCraftingSpot.label>
   <!-- EN: crafting at -->
   <DoBillsUseCraftingSpot.gerund>fabricando en</DoBillsUseCraftingSpot.gerund>
-  <!-- EN: craft -->
-  <DoBillsUseCraftingSpot.verb>fabricar</DoBillsUseCraftingSpot.verb>
+  <!-- EN: craft at -->
+  <DoBillsUseCraftingSpot.verb>fabricar en</DoBillsUseCraftingSpot.verb>
   
   <!-- EN: feed animals -->
   <DoctorFeedAnimals.label>alimentar animales</DoctorFeedAnimals.label>
@@ -309,6 +323,13 @@
   <!-- EN: drill -->
   <Drill.verb>taladrar</Drill.verb>
   
+  <!-- EN: eject fuel -->
+  <EjectFuel.label>expulsar combustible</EjectFuel.label>
+  <!-- EN: ejecting fuel from -->
+  <EjectFuel.gerund>expulsando combustible de</EjectFuel.gerund>
+  <!-- EN: eject fuel -->
+  <EjectFuel.verb>expulsar combustible</EjectFuel.verb>
+  
   <!-- EN: empty egg box -->
   <EmptyEggBox.label>vaciar caja de huevos</EmptyEggBox.label>
   <!-- EN: emptying -->
@@ -376,8 +397,8 @@
   <GroundPenetratingScan.label>operar escáner de profundidad</GroundPenetratingScan.label>
   <!-- EN: scanning at -->
   <GroundPenetratingScan.gerund>escaneando en</GroundPenetratingScan.gerund>
-  <!-- EN: scan -->
-  <GroundPenetratingScan.verb>escanear</GroundPenetratingScan.verb>
+  <!-- EN: scan at -->
+  <GroundPenetratingScan.verb>escanear en</GroundPenetratingScan.verb>
   
   <!-- EN: harvest crops -->
   <GrowerHarvest.label>cosechar cultivos</GrowerHarvest.label>
@@ -392,6 +413,13 @@
   <GrowerSow.gerund>sembrando</GrowerSow.gerund>
   <!-- EN: sow -->
   <GrowerSow.verb>sembrar</GrowerSow.verb>
+  
+  <!-- EN: hack buildings -->
+  <Hack.label>hackear edificios</Hack.label>
+  <!-- EN: hacking -->
+  <Hack.gerund>hackeando</Hack.gerund>
+  <!-- EN: hack -->
+  <Hack.verb>hackear</Hack.verb>
   
   <!-- EN: feed animals -->
   <HandlingFeedPatientAnimals.label>alimentar a los animales</HandlingFeedPatientAnimals.label>
@@ -453,8 +481,8 @@
   <LongRangeScan.label>operar escáner de largo alcance</LongRangeScan.label>
   <!-- EN: scanning at -->
   <LongRangeScan.gerund>escaneando en</LongRangeScan.gerund>
-  <!-- EN: scan -->
-  <LongRangeScan.verb>escanear</LongRangeScan.verb>
+  <!-- EN: scan at -->
+  <LongRangeScan.verb>escanear en</LongRangeScan.verb>
   
   <!-- EN: milk animals -->
   <Milk.label>ordeñar animales</Milk.label>
@@ -540,8 +568,8 @@
   <!-- EN: rope -->
   <RebalanceAnimalsInPens.verb>llevar con soga</RebalanceAnimalsInPens.verb>
   
-  <!-- EN: refuel fuelable buildings -->
-  <Refuel.label>repostar edificios repostables</Refuel.label>
+  <!-- EN: refuel buildings -->
+  <Refuel.label>repostar edificios</Refuel.label>
   <!-- EN: refueling -->
   <Refuel.gerund>repostando</Refuel.gerund>
   <!-- EN: refuel -->
@@ -599,9 +627,9 @@
   <!-- EN: do research -->
   <Research.label>hacer investigaciones</Research.label>
   <!-- EN: researching at -->
-  <Research.gerund>investigando</Research.gerund>
-  <!-- EN: research -->
-  <Research.verb>investigar</Research.verb>
+  <Research.gerund>investigando en</Research.gerund>
+  <!-- EN: research at -->
+  <Research.verb>investigar en</Research.verb>
   
   <!-- EN: shear animals -->
   <Shear.label>esquilar animales</Shear.label>

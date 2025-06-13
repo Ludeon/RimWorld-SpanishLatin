@@ -3,19 +3,19 @@
   
   <!-- EN:
     <li>questDescription(siteFaction==Pirate)->Pirates have set up an outpost near [map_definite] to harass you. [allSitePartsDescriptions]\n\nThe outpost will remain until you send a team there to attack and destroy it.</li>
-    <li>questDescription(siteFaction==Mechanoids)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
+    <li>questDescription(siteFaction==Mechanoid)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
   -->
   <ProblemCauser.questDescriptionRules.rulesStrings>
     <li>questDescription(siteFaction==Pirate)->Los piratas han establecido un puesto de avanzada cerca de [map_definite] para acosarte. [allSitePartsDescriptions]\n\nEl puesto de avanzada permanecerá hasta que envíes un equipo para atacarlo y destruirlo.</li>
-    <li>questDescription(siteFaction==Mechanoids)->Un clúster de mecanoides ha aterrizado no muy lejos de [map_definite]. [allSitePartsDescriptions]\n\nEl clúster de mecas permanecerá hasta que envíes un equipo para atacarlo y destruirlo.</li>
+    <li>questDescription(siteFaction==Mechanoid)->Un clúster de mecanoides ha aterrizado no muy lejos de [map_definite]. [allSitePartsDescriptions]\n\nEl clúster de mecas permanecerá hasta que envíes un equipo para atacarlo y destruirlo.</li>
   </ProblemCauser.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>
-    <li>questName(siteFaction==Mechanoids)->Mech cluster with a [problemCauserLabel]</li>
+    <li>questName(siteFaction==Mechanoid)->Mech cluster with a [problemCauserLabel]</li>
   -->
   <ProblemCauser.questNameRules.rulesStrings>
     <li>questName(siteFaction==Pirate)->Piratas con un [problemCauserLabel]</li>
-    <li>questName(siteFaction==Mechanoids)->Clúster de mecas con un [problemCauserLabel]</li>
+    <li>questName(siteFaction==Mechanoid)->Clúster de mecas con un [problemCauserLabel]</li>
   </ProblemCauser.questNameRules.rulesStrings>
   <!-- EN: [problemCauserLabel] destroyed -->
   <ProblemCauser.LetterLabelSuccess.slateRef>El [problemCauserLabel] ha sido destruido</ProblemCauser.LetterLabelSuccess.slateRef>
