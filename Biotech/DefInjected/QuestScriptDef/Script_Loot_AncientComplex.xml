@@ -7,9 +7,9 @@
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
-    <li>questDescription->Has [discoveryDesc] de un antiguo complejo cercano que contiene los restos de un mecanizador muerto hace tiempo.\n\nLos mecanizadores pueden crear, controlar y manipular mecanoides para trabajar y combatir. Si consigues entrar en el complejo y recoger el cadáver del mecanizador, podrás extraer su mecaenlace y convertir a uno de tus propios colonos en un mecanizador.\n\nTen en cuenta que este tipo de estructuras pueden contener una variedad de amenazas y su actividad en el complejo podría atraer una atención no deseada.</li>
-    <li>discoveryDesc(discovered==false)->enterado</li>
-    <li>discoveryDesc(discovered==true)->determinado la ubicación</li>
+    <li>questDescription->[discoveryDesc] de un antiguo complejo cercano que contiene los restos de un mecanizador muerto hace tiempo.\n\nLos mecanizadores pueden crear, controlar y manipular mecanoides para trabajar y combatir. Si consigues entrar en el complejo y recoger el cadáver del mecanizador, podrás extraer su mecaenlace y convertir a uno de tus propios colonos en un mecanizador.\n\nTen en cuenta que este tipo de estructuras pueden contener una variedad de amenazas y su actividad en el complejo podría atraer una atención no deseada.</li>
+    <li>discoveryDesc(discovered==false)->Te has enterado de la ubicación</li>
+    <li>discoveryDesc(discovered==true)->Has determinado la ubicación</li>
   </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
