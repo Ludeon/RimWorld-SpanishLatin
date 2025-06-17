@@ -4,13 +4,13 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.6.4492-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.6.4493-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of RimWorld version 1.6.4492
+This is the Latin American Spanish translation of RimWorld version 1.6.4493
 
-Esta es la traducción para latinoamérica de RimWorld versión 1.6.4492
+Esta es la traducción para latinoamérica de RimWorld versión 1.6.4493
 
 See this [page](http://ludeon.com/forums/index.php?topic=2933.0) for license info:
 
