@@ -285,7 +285,7 @@
   <!-- EN: no power -->
   <NoPower>sin energía</NoPower>
   <!-- EN: not in {0} -->
-  <NotInRoomRole>no en {0}</NotInRoomRole>
+  <NotInRoomRole>no está en {0_indefinite}</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>Velocidad de trabajo</WorkSpeedPenalty>
   <!-- EN: Disabled -->
@@ -352,6 +352,8 @@
   <Requires>Requiere</Requires>
   <!-- EN: Replaces -->
   <Replaces>Sustituye</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>TODO</MissingPartWithLabel> <!-- text_todo -->
   <!-- EN: {0}x any of -->
   <NumAnyOf>x{0} cualquiera de</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -2128,10 +2130,10 @@
   <Settled>Ocupado</Settled>
   <!-- EN: Abandoned -->
   <Abandoned>Abandonado</Abandoned>
-  <!-- EN: Cannot perform in {GERUND} {LAYER} -->
-  <CannotPerformPlanetLayer>No se puede realizar en {GERUND} {LAYER}.</CannotPerformPlanetLayer>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>No se puede realizar en {GERUND} {LAYER}</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
-  <ThisWillNotAffectLayer>Esto no le afectará {GERUND} {LAYER}.</ThisWillNotAffectLayer>
+  <ThisWillNotAffectLayer>Esto no te afectará {GERUND} {LAYER}.</ThisWillNotAffectLayer>
 
   <!-- Pocket maps -->
   <!-- EN: Enter {0} -->
