@@ -149,7 +149,7 @@
   <!-- EN: no suitable food -->
   <NoFoodToFillHopper>no hay comida adecuada</NoFoodToFillHopper>
   <!-- EN: self-tend disabled -->
-  <SelfTendDisabled>autoatenderse deshabilitado</SelfTendDisabled>
+  <SelfTendDisabled>autoatenderse desactivado</SelfTendDisabled>
   <!-- EN: reserved for prisoners -->
   <ReservedForPrisoners>revervado para prisioneros</ReservedForPrisoners>
   <!-- EN: cannot reach -->
@@ -435,7 +435,7 @@
   <CannotOpen>No se puede abrir {0_label}</CannotOpen>
   
   <!-- EN: Enter {0} -->
-  <EnterMap>Entrar a {0}</EnterMap>
+  <EnterMap>Entrar {replace: a {0_definite}; "a el "-"al "}</EnterMap>
   <!-- EN: Visit {0} -->
   <VisitSettlement>Visitar {0}</VisitSettlement>
   <!-- EN: Visit {0} -->
