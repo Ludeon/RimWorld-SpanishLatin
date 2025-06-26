@@ -1019,13 +1019,13 @@
   <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{1} {PAWN_gender}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{replace: {0}; "macho {NAME}"-"{NAME} macho"; "hembra {NAME}"-"{NAME} hembra"} de {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} en {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{0} bajo {1}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
-  <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
+  <PawnMainDescLifestageWrap>{0} {2_lifeStageAdjective}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Facción</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
