@@ -654,8 +654,8 @@
   <!-- EN: Random find interval -->
   <ScanAverageInterval>Intervalo de búsqueda aleatorio</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
-  <ScanningProgressToGuaranteedFind>Progreso para garantizar búsqueda</ScanningProgressToGuaranteedFind>
-  
+  <ScanningProgressToGuaranteedFind>Progreso hacia hallazgo garantizado</ScanningProgressToGuaranteedFind>
+
   <!-- Meditation -->
   <!-- EN: meditating at -->
   <MeditatingAt>meditando en</MeditatingAt>
@@ -1845,7 +1845,7 @@
   <!-- EN: {0} progress -->
   <RitualOutcomeProgress>Progreso {0}</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
-  <RitualOutcomeQualityAbstract>La calidad depende de: {0}</RitualOutcomeQualityAbstract>
+  <RitualOutcomeQualityAbstract>La calidad de {replace: {0}; ":"-" "} depende de:</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
   <RitualOutcomeQualitySpecific>{0} obtuvo una calidad total de {1}, determinada por estos factores</RitualOutcomeQualitySpecific>
   <!-- EN: Performed recently -->
@@ -2088,6 +2088,8 @@
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>bloqueado por techo</BlockedByRoof>
+  <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
+  <BlockedByTerrain>Bloqueado por terreno (requiere soporte de terreno {0_label})</BlockedByTerrain> <!-- text_todo -->
 
   <!-- Craters -->
   <!-- EN: Fill in -->
@@ -2174,8 +2176,8 @@
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
   <CannotUseScannerRoofed>Bloqueado por techo</CannotUseScannerRoofed> <!-- text_todo -->
-  <!-- EN: Does not function in this biome -->
-  <CannotUseScannerNoBedrock>No funciona en este bioma</CannotUseScannerNoBedrock> <!-- text_todo -->
+  <!-- EN: Biome does not contain drillable resources -->
+  <CannotUseScannerNoBedrock>El bioma no posee recursos perforables</CannotUseScannerNoBedrock> <!-- text_todo -->
   
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->

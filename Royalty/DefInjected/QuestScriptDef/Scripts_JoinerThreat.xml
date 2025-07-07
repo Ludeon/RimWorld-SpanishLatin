@@ -130,7 +130,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction], de nombre [joiner_nameDef] está llamando desde las cercanías. [joiner_pronoun] está rogando unirse a ti en [map_definite].[joiner_relationInfo]\n\n[joiner_nameDef] dice que hay algún tipo de amenaza que [joiner_objective] está persiguiendo sin embargo no está dispuest[joiner_o_a] a decir qué es ni qué tan cerca está de alcanzarle. [joiner_pronoun] también se niega a contarte más sobre si mism[joiner_o_a] y apela por tu comprensión para que le ayudes.</li>
+    <li>questDescription->[introduction], de nombre [joiner_nameDef] está llamando desde las cercanías. [joiner_pronoun] está rogando unirse a ti en [map_definite].[joiner_relationInfo]\n\n[joiner_nameDef] dice que hay algún tipo de amenaza que [joiner_objective] está persiguiendo sin embargo no está dispuest[joiner_o_a] a decir qué es ni qué tan cerca está de alcanzarle. También se niega a contarte más sobre si mism[joiner_o_a] y apela por tu comprensión para que le ayudes.</li>
     <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
     <li>introduction(childCount==1,priority=1,joiner_gender!=Female)->Un niño de [joiner_age] años</li>
     <li>introduction->[joiner_titleIndef] de [joiner_age] años</li>

@@ -690,15 +690,15 @@
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
   <CommandLeaveRitual>Abandonar {RITUAL_label}</CommandLeaveRitual>
-  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>Deja de participar en el ritual de {RITUAL_label}. El ritual continuará mientras tenga al menos un participante.</CommandLeaveRitualDesc>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>Deja de participar en el ritual de {RITUAL_label}. El evento continuará mientras tenga al menos un participante.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
   <CommandLeaveLastParticipant>Este es el último participante en el ritual de {RITUAL_label}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>Cancelar {RITUAL_label}</CommandCancelRitual>
-  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>Termina el ritual de {RITUAL_label} inmediatamente. La obligación del ritual permanecerá. Puedes reiniciar el ritual más tarde.</CommandCancelRitualDesc>
+  <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
+  <CommandCancelRitualDesc>Termina el ritual de {RITUAL_label} inmediatamente. Puedes reiniciar el evento más tarde.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>¿Estás seguro de que quieres cancelar el ritual de {RITUAL_label}?</CommandCancelRitualConfirm>
 

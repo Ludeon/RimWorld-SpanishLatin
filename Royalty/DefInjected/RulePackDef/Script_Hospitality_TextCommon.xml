@@ -111,8 +111,8 @@
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->habrán (*Threat)[threatCount] incursiones(/Threat) de fuerza [threatSize]x y aproximadamente de este tamaño:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)un grupo de mecas(/Threat) se desplegará en las cercanías.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)dos grupos de mecas(/Threat) se desplegarán en las cercanías.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)un grupo de mecas(/Threat) de [threatSize]x tamaño se desplegará en las cercanías.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)dos grupos de mecas(/Threat) de [threatSize]x tamaño se desplegará en las cercanías.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)un grupo de mecas(/Threat) de tamaño x[threatSize] se desplegará en las cercanías.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)dos grupos de mecas(/Threat) de tamaño x[threatSize] se desplegarán en las cercanías.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recientemente [mechViolation], y es objetivo de un enjambre mecanoide en órbita.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Los prisioneros recientemente [mechViolationMultiHuman], y son objetivo de un enjambre mecanoide en órbita.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recientemente [mechViolation], y es objetivo de una colmena mecanoide.</li>
@@ -127,12 +127,12 @@
     <li>lodgersHasHave(lodgersCount>=2)->have</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->them</li>-->
-    <li>mechViolation->logró de alguna manera enfurer a una inteligencia artificial</li>
-    <li>mechViolation->hackeo una terminal de una supercomputadora ancestral</li>
+    <li>mechViolation->logró de alguna manera enfurecer a una inteligencia artificial</li>
+    <li>mechViolation->hackeó una terminal de una supercomputadora ancestral</li>
     <li>mechViolation->mató a un niño humano que significaba mucho para un arqueotéc</li>
     <li>mechViolation->intento hackear un nodo de control mecanoide</li>
     <li>mechViolation->intento robar algo de un depósito ancestral</li>
-    <li>mechViolationMultiHuman->lograron de alguna manera enfurer a una inteligencia artificial</li>
+    <li>mechViolationMultiHuman->lograron de alguna manera enfurecer a una inteligencia artificial</li>
     <li>mechViolationMultiHuman->hackearon una terminal de una supercomputadora ancestral</li>
     <li>mechViolationMultiHuman->mataron a un niño humano que significaba mucho para un arqueotéc</li>
     <li>mechViolationMultiHuman->intentaron hackear un nodo de control mecanoide</li>
