@@ -369,9 +369,9 @@
   <MessageTransportPodsArrivedAndAddedToCaravan>Tus cápsulas de transporte han llegado. El contenido ha sido guardado en {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
-  <MessageFinishedLoadingTransporters>Tus colonos han terminado de cargar las cápsulas de transporte.</MessageFinishedLoadingTransporters>
-  <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingShuttle>El transbordador está cargado con la carga requerida y puede despegar cuando esté listo.</MessageFinishedLoadingShuttle> <!-- text_todo -->
+  <MessageFinishedLoadingTransporters>Carga de cápsula de transporte completada. Lanzar cuando estés listo.</MessageFinishedLoadingTransporters>
+  <!-- EN: {SHUTTLE_label} is loaded with required cargo and can launch when ready. -->
+  <MessageFinishedLoadingShuttle>El transbordador {SHUTTLE_label} está cargado con la carga requerida y puede despegar cuando estés listo.</MessageFinishedLoadingShuttle> <!-- text_todo -->
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Tu {1} no puede terminar de cargar las cápsulas de transporte porque algunos artículos o personas no están disponibles ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
