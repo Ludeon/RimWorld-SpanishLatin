@@ -353,7 +353,7 @@
   <!-- EN: Replaces -->
   <Replaces>Sustituye</Replaces>
   <!-- EN: missing {0} -->
-  <MissingPartWithLabel>falta {0}</MissingPartWithLabel> <!-- text_todo -->
+  <MissingPartWithLabel>falta {0}</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
   <NumAnyOf>x{0} cualquiera de</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -601,7 +601,7 @@
   <!-- EN: Activate -->
   <Activate>Activar</Activate> 
   <!-- EN: Deactivate -->
-  <Deactivate>Desactivar</Deactivate> <!-- text_todo -->
+  <Deactivate>Desactivar</Deactivate>
   <!-- EN: Activation -->
   <Activation>Activación</Activation>
   <!-- EN: complete -->
@@ -655,7 +655,7 @@
   <ScanAverageInterval>Intervalo de búsqueda aleatorio</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>Progreso hacia hallazgo garantizado</ScanningProgressToGuaranteedFind>
-
+  
   <!-- Meditation -->
   <!-- EN: meditating at -->
   <MeditatingAt>meditando en</MeditatingAt>
@@ -1043,7 +1043,7 @@
   <!-- EN: In shock due to pain -->
   <PainShock>En shock por el dolor</PainShock>
   <!-- EN: Pain shock -->
-  <PainShockShort>Shock doloroso</PainShockShort>
+  <PainShockShort>En shock</PainShockShort>
   <!-- EN: Incapacitated -->
   <Incapacitated>Incapacitado</Incapacitated>
   <!-- EN: In restraints (slowed) -->
@@ -1847,7 +1847,7 @@
   <!-- EN: {0} quality depends on -->
   <RitualOutcomeQualityAbstract>La calidad de {replace: {0}; ":"-" "} depende de:</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <RitualOutcomeQualitySpecific>{0} obtuvo una calidad total de {1}, determinada por estos factores</RitualOutcomeQualitySpecific>
+  <RitualOutcomeQualitySpecific>{0_definite} obtuvo una calidad total de {1}, determinada por estos factores</RitualOutcomeQualitySpecific>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>Realizado recientemente</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
@@ -1861,7 +1861,7 @@
   <!-- EN: {0_labelShort} is incapable of {1}. -->
   <AbilityDisabledNoCapacity>{0_labelShort} es incapaz de {1}.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Todos los que participaron en el ritual ganaron {0} de humor durante {1} días.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Todos los que participaron en el ritual ganan {0} de humor durante {1} días.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>Este ritual no tiene compensaciones de calidad, por lo que siempre se espera el mejor resultado</RitualOutcomeNoQuality>
 
@@ -2078,7 +2078,7 @@
   <!-- EN: About to explode -->
   <AboutToExplode>Pronto explotará</AboutToExplode>
   <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>Sin combustible para expulsar</RefuelableNoFuelToEject> <!-- text_todo -->
+  <RefuelableNoFuelToEject>Sin combustible para expulsar</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>¡Ya está disponible la nueva expansión Anomaly!</MainScreen_AnomalyAvailableNow>
@@ -2089,7 +2089,7 @@
   <!-- EN: blocked by roof -->
   <BlockedByRoof>bloqueado por techo</BlockedByRoof>
   <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
-  <BlockedByTerrain>Bloqueado por terreno (requiere soporte de terreno {0_label})</BlockedByTerrain> <!-- text_todo -->
+  <BlockedByTerrain>Bloqueado por terreno (requiere soporte de terreno {0_label})</BlockedByTerrain>
 
   <!-- Craters -->
   <!-- EN: Fill in -->
@@ -2175,9 +2175,9 @@
 
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>Bloqueado por techo</CannotUseScannerRoofed> <!-- text_todo -->
+  <CannotUseScannerRoofed>Bloqueado por techo</CannotUseScannerRoofed>
   <!-- EN: Biome does not contain drillable resources -->
-  <CannotUseScannerNoBedrock>El bioma no posee recursos perforables</CannotUseScannerNoBedrock> <!-- text_todo -->
+  <CannotUseScannerNoBedrock>El bioma no posee recursos perforables</CannotUseScannerNoBedrock>
   
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
