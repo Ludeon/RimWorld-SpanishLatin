@@ -1329,7 +1329,7 @@
 
   <!-- Building placement restricters -->
   <!-- EN: {0} will have work speed penalty -->
-  <WillGetWorkSpeedPenalty>{0} tendrá una penalización en su velocidad de trabajo</WillGetWorkSpeedPenalty>
+  <WillGetWorkSpeedPenalty>{0_definite} tendrá una penalización en su velocidad de trabajo</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>No se puede ubicar bajo techo.</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
@@ -1375,7 +1375,7 @@
   <!-- EN: Contains -->
   <CasketContains>Contiene</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>¡Advertencia!\n\n¡{PAWN_nameDef} es tu último colono en pie! Si {PAWN_objective} dejas entrar en ese sarcófago no podrás seguir jugando. ¿Estás seguro que quieres continuar?</CasketWarning>
+  <CasketWarning>¡Advertencia!\n\n¡{PAWN_nameDef} es tu últim{PAWN_gender ? o : a} colon{PAWN_gender ? o : a} con vida! Si {PAWN_objective} dejas entrar en ese sarcófago no podrás seguir jugando. ¿Estás seguro que quieres continuar?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1779,14 +1779,14 @@
   <HealingRestoreBodyPart>Se ha restaurado {1_definite} de {0_nameDef}.</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>Precaución: Colocar un edificio aquí ¡enfurecerá a la facción {FACTION_name}!</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>Precaución: ¡Colocar un edificio aquí enfurecerá a la facción {FACTION_name}!</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>Elige el sitio de aterrizaje</ChooseLandingSite>
 
   <!-- LordJobs -->
   <!-- EN: Outcome chances at {0} quality -->
-  <LordJobOutcomeChances>Posibilidades de resultado con {0} de calidad</LordJobOutcomeChances>
+  <LordJobOutcomeChances>Resultados posibles con una calidad del {0}</LordJobOutcomeChances>
   <!-- EN: Expected duration -->
   <ExpectedLordJobDuration>Duración esperada</ExpectedLordJobDuration>
 
