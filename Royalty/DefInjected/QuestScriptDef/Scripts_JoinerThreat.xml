@@ -94,8 +94,8 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription(animalCount==1)->[introduction], llamad[joiner_o_a] [joiner_nameDef] está llamando desde las cercanías. Dice que [animal_a] (*Threat)[animalKind_label] cazahombres(/Threat) ¡[joiner_objective] está cazando!\n\nTe ruega por su seguridad y a cambio ofrece unirse a tu asentamiento en [map_definite].[joiner_relationInfo]\n\nSi [joiner_objective] aceptas, [animal_the] [animalKind_label] cazahombres, llegará en [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] está sufriendo una crisis de pánico y no puede darte más información.</li>
-    <li>manhunterArrivalLetterEnd(animalCount==1)->[animal_the] [animalKind_label] está persiguiendo a [joiner_nameDef].</li>
+    <li>questDescription(animalCount==1)->[introduction], llamad[joiner_o_a] [joiner_nameDef] está llamando desde las cercanías. Dice que (*Threat)[animalKind_indefinite] cazahombres(/Threat) ¡[joiner_objective] está cazando!\n\nTe ruega por su seguridad y a cambio ofrece unirse a tu asentamiento en [map_definite].[joiner_relationInfo]\n\nSi [joiner_objective] aceptas, [animalKind_definite] cazahombres, llegará en [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] está sufriendo una crisis de pánico y no puede darte más información.</li>
+    <li>manhunterArrivalLetterEnd(animalCount==1)->[animalKind_definite] está persiguiendo a [joiner_nameDef].</li>
     <li>questDescription(animalCount>=2)->[introduction], llamad[joiner_o_a] [joiner_nameDef] está llamando desde las cercanías. Dice que (*Threat)una manada de [animalCount] [animalKind_labelPlural] cazahombres(/Threat) ¡están cazando[joiner_objective]!\n\nTe ruega por su seguridad y a cambio ofrece unirse a tu asentamiento en [map_definite].[joiner_relationInfo]\n\nSi [joiner_objective] aceptas, la manada de [animalKind_labelPlural] cazahombres, llegarán en [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] está sufriendo una crisis de pánico y no puede darte más información.</li>
     <li>manhunterArrivalLetterEnd(animalCount>=2)->La manada de [animalKind_labelPlural] están persiguiendo a [joiner_nameDef].</li>
     <li>introduction(childCount==1,priority=1,joiner_gender==Female)->Una niña de [joiner_age] años</li>
@@ -111,10 +111,10 @@
     <li>questName(animalCount>=2)->the [animalKind_labelPlural] and [joiner_nameDef]</li>
   -->
   <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
-    <li>questName(animalCount==1)->[animal_the] [animalKind_label] de [joiner_nameDef]</li>
-    <li>questName(animalCount==1)->[joiner_nameDef] y [animal_a] [animalKind_label]</li>
-    <li>questName(animalCount==1)->[animal_the] [animalKind_label] y [joiner_nameDef]</li>
-    <li>questName(animalCount==1)->[animal_a] [animalKind_label] y [joiner_nameDef]</li>
+    <li>questName(animalCount==1)->[animalKind_definite] de [joiner_nameDef]</li>
+    <li>questName(animalCount==1)->[joiner_nameDef] y [animalKind_indefinite]</li>
+    <li>questName(animalCount==1)->[animalKind_definite] y [joiner_nameDef]</li>
+    <li>questName(animalCount==1)->[animalKind_indefinite] y [joiner_nameDef]</li>
     <li>questName(animalCount>=2)->[joiner_nameDef] y la manada de [animalKind_labelPlural]</li>
     <li>questName(animalCount>=2)->[joiner_nameDef] y el grupo de [animalKind_labelPlural]</li>
     <li>questName(animalCount>=2)->Una manada de [animalKind_labelPlural] y [joiner_nameDef]</li>
