@@ -5,6 +5,12 @@
   <AcidBurn.label>quemadura de ácido</AcidBurn.label>
   <!-- EN: An acid burn. -->
   <AcidBurn.description>Una quemadura de ácido.</AcidBurn.description>
+  <!-- EN: tended -->
+  <AcidBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>atendido</AcidBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <AcidBurn.comps.HediffComp_TendDuration.labelTendedWell>vendado</AcidBurn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <AcidBurn.comps.HediffComp_TendDuration.labelTendedWellInner>atendido</AcidBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: acid burn scar -->
   <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de quemadura de ácido</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Dissolved off -->
@@ -100,6 +106,12 @@
   <ChemicalBurn.label>quemadura química</ChemicalBurn.label>
   <!-- EN: A chemical burn. -->
   <ChemicalBurn.description>Una quemadura química.</ChemicalBurn.description>
+  <!-- EN: tended -->
+  <ChemicalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>atendido</ChemicalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <ChemicalBurn.comps.HediffComp_TendDuration.labelTendedWell>vendado</ChemicalBurn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <ChemicalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>atendido</ChemicalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: chemical burn scar -->
   <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de quemadura química</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off (chemical) -->
@@ -174,6 +186,8 @@
   <Decayed.label>órgano dañado</Decayed.label>
   <!-- EN: This organ has completely decayed. -->
   <Decayed.description>Este órgano se ha dañado por completo.</Decayed.description>
+   <!-- EN: Decayed -->
+  <Decayed.injuryProps.destroyedLabel>Dañado</Decayed.injuryProps.destroyedLabel>
   <!-- EN: a decayed organ -->
   <Decayed.labelNoun>un órgano dañado</Decayed.labelNoun>
   <!-- EN: decayed {1} -->
@@ -185,6 +199,12 @@
   <ElectricalBurn.description>Una quemadura eléctrica.</ElectricalBurn.description>
   <!-- EN: electrical burn scar -->
   <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz quemadura eléctrica</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: tended -->
+  <ElectricalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>atendido</ElectricalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWell>vendado</ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>atendido</ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Burned off -->
   <ElectricalBurn.injuryProps.destroyedLabel>Quemado(a)</ElectricalBurn.injuryProps.destroyedLabel>
   <!-- EN: Burned out -->
