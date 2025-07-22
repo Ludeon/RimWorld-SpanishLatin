@@ -103,16 +103,16 @@
     <li>r_name(p=1)->[ship_word] [narrative_name]</li>
     <li>r_name(p=1.5)->[ship_wordFem] [narrative_nameFem]</li>
     <li>r_name(p=0.5)->[ship_prefex] [ship_word] [Color]</li>
-    <li>r_name(p=0.5)->[ship_prefexFem] [ship_wordFem] [Color_Fem]</li>
+    <li>r_name(p=0.5)->[ship_prefexFem] [ship_wordFem] [ColorF]</li>
     <li>r_name(p=0.5)->[ship_prefex] [ship_word] [AdjectiveBadass]</li>
-    <li>r_name(p=0.5)->[ship_prefexFem] [ship_wordFem] [AdjectiveBadass_Fem]</li>
+    <li>r_name(p=0.5)->[ship_prefexFem] [ship_wordFem] [AdjectiveBadassF]</li>
     <li>r_name(p=0.5)->[ship_prefex] [bird] [AdjectiveBadass]</li>
     <li>r_name(p=0.5)->[ship_prefex] [ship_word] [AdjectiveFriendly]</li>
-    <li>r_name(p=0.5)->[ship_prefexFem] [ship_wordFem] [AdjectiveFriendly_Fem]</li>
+    <li>r_name(p=0.5)->[ship_prefexFem] [ship_wordFem] [AdjectiveFriendlyF]</li>
     <li>r_name(p=0.5)->[ship_prefex] [AnimalBadass] [flying_adjective]</li>
     <li>r_name(p=0.5)->[storyname]</li>
     <li>r_name(p=0.2)->[greekmyth_noun] [Color]</li>
-    <li>r_name(p=0.2)->[greekmyth_nounFem] [Color_Fem]</li>
+    <li>r_name(p=0.2)->[greekmyth_nounFem] [ColorF]</li>
     <li>r_name(p=0.2)->[ship_prefex] [greekmyth_noun]</li>
     <li>r_name(p=0.2)->[ship_prefexFem] [greekmyth_nounFem]</li>
     <li>ship_prefex(p=2)->el</li>
@@ -120,9 +120,9 @@
     <li>ship_prefexFem(p=2)->la</li>
     <li>ship_prefexFem(p=2)-></li>
     <li>narrative_name->[thing_badass] [AdjectiveNatural]</li>
-    <li>narrative_nameFem->[thing_badassFem] [AdjectiveNaturalFem]</li>
+    <li>narrative_nameFem->[thing_badassFem] [AdjectiveNaturalF]</li>
     <li>narrative_name->[thing_badass] [AdjectiveLarge]</li>
-    <li>narrative_nameFem->[thing_badassFem] [AdjectiveLarge_Fem]</li>
+    <li>narrative_nameFem->[thing_badassFem] [AdjectiveLargeF]</li>
     <li>narrative_name->[thing_badass] [Direction]</li>
     <li>narrative_nameFem->[thing_badassFem] [Direction]</li>
     <li>narrative_name->[thing_badass]</li>
@@ -191,7 +191,7 @@
     <li>flying_adjective->alado</li>
     <li>ship_wordFem(p=5)->nave</li>
     <li>ship_wordFem(p=5)->gravinave</li>
-    <li>ship_wordFem(p=2)->nave [AdjectiveNaturalFem]</li>
+    <li>ship_wordFem(p=2)->nave [AdjectiveNaturalF]</li>
     <li>ship_word->buque de guerra</li>
     <li>ship_wordFem->fragata</li>
     <li>ship_wordFem->embarcación</li>

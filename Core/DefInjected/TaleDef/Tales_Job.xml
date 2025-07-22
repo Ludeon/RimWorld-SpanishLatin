@@ -30,11 +30,11 @@
     <li>image->[ORGANIZER_nameFull] le está presentando a [ATTENDER_nameFull] a un amigo [circumstance_group]</li>
     <li>circumstance_phrase->con una gran sonrisa</li>
     <li>circumstance_phrase->mientras ríe</li>
-    <li>circumstance_phrase->con una sonrisa [AdjectiveFriendly_Fem]</li>
+    <li>circumstance_phrase->con una sonrisa [AdjectiveFriendlyF]</li>
     <li>circumstance_phrase->mientras se carcajea</li>
     <li>circumstance_phrase->con semblante [AdjectiveFriendly]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] están en la conversación.</li>
-    <li>desc_sentence->El área está decorada con tonos [Color_Plural] y [Color_Plural].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] están en la conversación.</li>
+    <li>desc_sentence->El área está decorada con tonos [ColorPl] y [ColorPl].</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] juegan cerca.</li>
   </AttendedParty.rulePack.rulesStrings>
   
@@ -67,7 +67,7 @@
     <li>circumstance_phrase->mientras una tormenta de nieve oscurece el cielo</li>
     <li>circumstance_phrase->mientras sus amigos construyen un fuerte</li>
     <li>circumstance_phrase->mientras sus amigos construyen otros hombres de nieve</li>
-    <li>desc_sentence->Una aurora [Color_Fem] brilla en el fondo.</li>
+    <li>desc_sentence->Una aurora [ColorF] brilla en el fondo.</li>
     <li>desc_sentence->A la distancia, [CommunityIndef] se cubre de nieve.</li>
     <li>desc_sentence->Un campo de [Vegetable]s apenas es visible a través de la nieve.</li>
     <li>desc_sentence->[TerrainFeatureIndefCap] con una cobertura de nieve se observa a lo lejos.</li>
@@ -109,7 +109,7 @@
     <li>circumstance_phrase->divagando en sus pensamientos</li>
     <li>circumstance_phrase->mientras contempla un lejano [TerrainFeature]</li>
     <li>circumstance_phrase->y hablando en voz baja a la lápida</li>
-    <li>desc_sentence->Una aurora [Color_Fem] ilumina el fondo.</li>
+    <li>desc_sentence->Una aurora [ColorF] ilumina el fondo.</li>
     <li>desc_sentence->A la distancia, [CommunityIndef] se cubre de nieve.</li>
     <li>desc_sentence->Una imagen espectral de [CORPSE_nameDef] observa la escena con semblante [AdjectiveFriendly].</li>
     <li>desc_sentence->Una imagen espectral de [CORPSE_nameDef] está junto a [VISITOR_nameDef], con semblante [AdjectiveFriendly].</li>
@@ -151,8 +151,8 @@
     <li>desc_sentence->[OBJECT_definite] parece ser mucho más grande que [PAWN_nameDef].</li>
     <li>desc_sentence->[OBJECT_definite] brilla con un suave tono [Color].</li>
     <li>desc_sentence->[OBJECT_definite] tiene muchos detalles intrincados.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] se maravillan con [OBJECT_definite].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan con asombro.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] se maravillan con [OBJECT_definite].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] observan con asombro.</li>
   </CompletedLongConstructionProject.rulePack.rulesStrings>
   
   <!-- EN: completed long crafting project -->
@@ -188,8 +188,8 @@
     <li>desc_sentence->[OBJECT_definite] parece ser mucho más grande que [PAWN_nameDef].</li>
     <li>desc_sentence->[OBJECT_definite] brilla con un suave tono [Color].</li>
     <li>desc_sentence->[OBJECT_definite] tiene muchos detalles intrincados.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] se maravillan con [OBJECT_definite].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan con asombro.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] se maravillan con [OBJECT_definite].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] observan con asombro.</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
   
   <!-- EN: entered cryptosleep -->
@@ -225,7 +225,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s se acerca al lugar.</li>
     <li>desc_sentence->[PAWN_nameDef] irradia determinación.</li>
     <li>desc_sentence->[PAWN_nameDef] está con una herida expuesta.</li>
-    <li>desc_sentence->Una aurora [Color_Fem] brilla en el fondo.</li>
+    <li>desc_sentence->Una aurora [ColorF] brilla en el fondo.</li>
     <li>desc_sentence->[Quantity_adjphrase] sarcófagos de criptosueño rodean la escena.</li>
   </EnteredCryptosleep.rulePack.rulesStrings>
   
@@ -263,7 +263,7 @@
     <li>desc_sentence->La escena está rodeada de [Quantity_adjphrase] experimentos fallidos.</li>
     <li>desc_sentence->La escena está rodeada de [Quantity_adjphrase] libros.</li>
     <li>desc_sentence->Su habilidad es visible en el trabajo.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan con asombro.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] observan con asombro.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] observan con asombro.</li>
     <li>desc_sentence->[Quantity_adjphrase] espíritus etéreos de antiguos maestros observan desde el cielo.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
@@ -306,7 +306,7 @@
     <li>desc_sentence->La escena está rodeada de [Quantity_adjphrase] experimentos fallidos.</li>
     <li>desc_sentence->La escena está rodeada de [Quantity_adjphrase] libros.</li>
     <li>desc_sentence->Su habilidad es visible en el trabajo.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan con asombro.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] observan con asombro.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] observan con asombro.</li>
     <li>desc_sentence->[Quantity_adjphrase] espíritus etéreos de antiguos maestros observan desde el cielo.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
@@ -375,10 +375,10 @@
     <li>circumstance_phrase->emitiendo serenidad</li>
     <li>circumstance_phrase->con sonrisa tranquila</li>
     <li>circumstance_phrase(PAWN_gender==Male)->con su rostro feliz empieza a [VerbFriendly]</li>
-    <li>circumstance_phrase(PAWN_gender!=Male)->con su rostro feliz empieza a [VerbFriendly_Fem]</li>
+    <li>circumstance_phrase(PAWN_gender!=Male)->con su rostro feliz empieza a [VerbFriendlyF]</li>
     <li>circumstance_phrase->brillando tenuemente</li>
-    <li>circumstance_phrase->rodead[PAWN_o_a] por un aura [Color_Fem]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] le observan.</li>
+    <li>circumstance_phrase->rodead[PAWN_o_a] por un aura [ColorF]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] le observan.</li>
     <li>desc_sentence->[PAWN_pronoun] está rodead[PAWN_o_a] por [Quantity_adjphrase] [AnimalAnyPl].</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] descansan apaciblemente.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s están absortos por la escena.</li>
@@ -469,15 +469,15 @@
     <li>circumstance_phrase->con un semblante [AdjectiveAngsty]</li>
     <li>circumstance_phrase->con semblante [AdjectiveAngsty]</li>
     <li>circumstance_phrase->murmurando para sí</li>
-    <li>desc_sentence->Una aurora [Color_Fem] brilla a la distancia.</li>
+    <li>desc_sentence->Una aurora [ColorF] brilla a la distancia.</li>
     <li>desc_sentence->A la distancia se observa [CommunityIndef].</li>
     <li>desc_sentence->A la distancia se observa [TerrainFeatureIndef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] juegan también.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] juegan también.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] juegan cerca.</li>
-    <li>desc_sentence->[PAWN_nameDef] brilla con un aura [Color_Fem].</li>
+    <li>desc_sentence->[PAWN_nameDef] brilla con un aura [ColorF].</li>
     <li>desc_sentence->Las facciones de [PAWN_nameDef] se ven exageradas.</li>
     <li>desc_sentence->[PAWN_nameDef] se impone sobre la escena.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] se ven derrotados.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] se ven derrotados.</li>
   </PlayedGame.rulePack.rulesStrings>
   
   <!-- EN: prayed -->
@@ -510,8 +510,8 @@
     <li>circumstance_phrase->murmurando suavemente</li>
     <li>circumstance_phrase->mostrando un semblante contemplativo</li>
     <li>circumstance_phrase->brillando tenuemente</li>
-    <li>circumstance_phrase->rodead[PAWN_o_a] de un aura [Color_Fem]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] le observan.</li>
+    <li>circumstance_phrase->rodead[PAWN_o_a] de un aura [ColorF]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] le observan.</li>
     <li>desc_sentence->[PAWN_pronoun] está rodead[PAWN_o_a] por [Quantity_adjphrase] [AnimalAnyPl].</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] descansan apaciblemente.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s están absortos por la escena.</li>
@@ -625,7 +625,7 @@
     <li>circumstance_phrase->divagando en sus pensamientos</li>
     <li>circumstance_phrase->mientras contempla un [TerrainFeature] lejano</li>
     <li>circumstance_phrase->y hablando en voz baja a la lápida</li>
-    <li>desc_sentence->Una aurora [Color_Fem] ilumina el fondo.</li>
+    <li>desc_sentence->Una aurora [ColorF] ilumina el fondo.</li>
     <li>desc_sentence->A la distancia, [CommunityIndef] se cubre de nieve.</li>
     <li>desc_sentence->La imagen espectral de [CORPSE_nameDef] observa la escena con semblante [AdjectiveFriendly].</li>
     <li>desc_sentence->La imagen espectral de [CORPSE_nameDef] está junto a [VISITOR_nameDef], con semblante [AdjectiveFriendly].</li>

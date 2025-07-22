@@ -45,9 +45,9 @@
     <li>image->un [Character] [desc_pawn] rodeado de [CharacterEnemyPlural]</li>
     <li>image->un [Character_Human] jugando [GameAny]</li>
     <li>image->un [Character_Human] [desc_pawn] y jugando [GameAny] con [Quantity_adjphrase] [Character_Human]s</li>
-    <li>image->un [Character] [desc_pawn] empuñando [WeaponCacIndef]</li>
+    <li>image->un [Character] [desc_pawn] empuñando [WeaponPvpIndef]</li>
     <li>image->un [Character] [desc_pawn] comiendo [VegetableAny]</li>
-    <li>image->[Quantity_adjphrase] [PersonJob_Plural] comiendo [VegetableAny]s juntos</li>
+    <li>image->[Quantity_adjphrase] [PersonJobPl] comiendo [VegetableAny]s juntos</li>
     <li>image->una pequeña celebridad [NamePerson] [desc_pawn]</li>
     <li>image->un [Character_Human] vistiendo [ApparelIndef] [desc_pawn]</li>
     <li>image->[CommunityIndef]</li>
@@ -71,9 +71,9 @@
     <li>desc_pawn->visto a través de un espejo</li>
     <li>desc_pawn->representado en una silueta</li>
     <li>desc_pawn->montado sobre un [Animal]</li>
-    <li>desc_pawn->montado sobre una [Animal_Fem]</li>
+    <li>desc_pawn->montado sobre una [AnimalF]</li>
     <li>desc_pawn->viéndose reflejado en [AdjectiveAnyIndef]</li>
-    <li>desc_pawn->cubierto de [Gore_Plural]</li>
+    <li>desc_pawn->cubierto de [GorePl]</li>
     <li>desc_pawn_Fem(p=12)-></li>
     <li>desc_pawn_Fem->volando por los aires</li>
     <li>desc_pawn_Fem->flotando en el aire</li>
@@ -83,9 +83,9 @@
     <li>desc_pawn_Fem->vista a través de un espejo</li>
     <li>desc_pawn_Fem->representada en una silueta</li>
     <li>desc_pawn_Fem->montada sobre en un [Animal]</li>
-    <li>desc_pawn_Fem->montada sobre en una [Animal_Fem]</li>
+    <li>desc_pawn_Fem->montada sobre en una [AnimalF]</li>
     <li>desc_pawn_Fem->viéndose reflejada en [AdjectiveAnyIndef]</li>
-    <li>desc_pawn_Fem->cubierta de [Gore_Plural]</li>
+    <li>desc_pawn_Fem->cubierta de [GorePl]</li>
   </TalelessImages.rulePack.rulesStrings>
   
 </LanguageData>

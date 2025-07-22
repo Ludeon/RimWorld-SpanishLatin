@@ -253,12 +253,12 @@
     <li>opponent->la injusticia</li>
     <li>opponent->el miedo</li>
     <li>opponent->un peligroso [Enemy]</li>
-    <li>opponent->una peligrosa [Enemy_Fem]</li>
+    <li>opponent->una peligrosa [EnemyF]</li>
     <li>opponent->[PersonJobIndef] rival</li>
     <li>opponent->el sinsentido del [ConceptPositive]</li>
-    <li>opponent->el sinsentido de la [ConceptPositive_Fem]</li>
+    <li>opponent->el sinsentido de la [ConceptPositiveF]</li>
     <li>opponent->su malvado [PersonFamily]</li>
-    <li>opponent->su malvada [PersonFamily_Fem]</li>
+    <li>opponent->su malvada [PersonFamilyF]</li>
     <li>opponent->las normas sociales de [protagHis] comunidad</li>
     <!-- EN: 
     <li>seeks->seeks</li>
@@ -333,11 +333,11 @@
     <li>seekObjective->un misterioso cubo dorado</li>
     <li>seekObjective->un demonio dentro de su propia cabeza</li>
     <li>seekObjective->el [Vegetable] más sabroso del universo</li>
-    <li>seekObjective->la [Vegetable_Fem] más sabrosa del universo</li>
+    <li>seekObjective->la [VegetableF] más sabrosa del universo</li>
     <li>seekObjective->un reluciente [Weapon]</li>
-    <li>seekObjective->una reluciente [Weapon_Fem]</li>
+    <li>seekObjective->una reluciente [WeaponF]</li>
     <li>seekObjective->su mascota un [Animal] perdido</li>
-    <li>seekObjective->su mascota una [Animal_Fem] perdida</li>
+    <li>seekObjective->su mascota una [AnimalF] perdida</li>
     <li>seekObjective->piezas para reconstruir un [Mechanoid] destruido</li>
     <li>seekObjective->[TerrainFeatureIndef] que vio en un sueño</li>
     <li>seekObjective->un viejo amor</li>
@@ -484,16 +484,16 @@
     <li>storySource->experiencia bélica</li>
     <li>storySource->miedo más profundo</li>
     <li>storySource->sueño con viajar a las estrellas</li>
-    <li>storySource->amor por las [Vegetable_Fem]s frescas</li>
-    <li>storySource->amor por los [Vegetable_Fem]s frescos</li>
+    <li>storySource->amor por las [VegetableF]s frescas</li>
+    <li>storySource->amor por los [VegetableF]s frescos</li>
     <li>storySource(ANYPAWN_gender!=Female)->tiempo como [PersonJob]</li>
-    <li>storySource(ANYPAWN_gender==Female)->tiempo como [PersonJob_Fem]</li>
+    <li>storySource(ANYPAWN_gender==Female)->tiempo como [PersonJobF]</li>
     <li>storySource->[Weapon] favorito</li>
-    <li>storySource->[Weapon_Fem] favorita</li>
-    <li>storySource->experiencia luchando contra [Mechanoid_Plural]</li>
+    <li>storySource->[WeaponF] favorita</li>
+    <li>storySource->experiencia luchando contra [MechanoidPl]</li>
     <li>storySource->visión de la juventud que crece en [CommunityIndef]</li>
     <li>storySource->[BodyPart] gigantesco</li>
-    <li>storySource->[BodyPart_Fem] gigantesca</li>
+    <li>storySource->[BodyPartF] gigantesca</li>
     <li>storySource->recuerdo de un amigo desaparecido</li>
     <li>storySource->pasión por la música</li>
     <li>storySource->curiosidad por las ruinas antiguas</li>
@@ -504,7 +504,7 @@
     <li>storySource->conexión con una criatura mítica</li>
     <li>storySource->afecto por un paisaje concreto</li>
     <li>storySource(ANYPAWN_gender!=Female)->aspiración de convertirse en un renombrado [PersonJob]</li>
-    <li>storySource(ANYPAWN_gender==Female)->aspiración de convertirse en una renombrada [PersonJob_Fem]</li>
+    <li>storySource(ANYPAWN_gender==Female)->aspiración de convertirse en una renombrada [PersonJobF]</li>
     <li>storySource->lucha contra la ansiedad social</li>
     <li>storySource->anhelo aventurero más allá del horizonte</li>
     <li>storySource->vínculo con un compañero robótico</li>

@@ -135,10 +135,10 @@
     <li>beasts->animals</li>
   -->
   <ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
-    <li>questName(animalCount==1)->[beastFem] [AdjectiveBadass_Fem]</li>
+    <li>questName(animalCount==1)->[beastFem] [AdjectiveBadassF]</li>
     <li>questName(animalCount==1)->[beastMas] [AdjectiveBadass]</li>
     <li>questName(animalCount==1)->[beast] [Adjective1]</li>
-    <li>questName(animalCount>=2)->[beastsFem] [AdjectiveBadass_Fem]s</li>
+    <li>questName(animalCount>=2)->[beastsFem] [AdjectiveBadassF]s</li>
     <li>questName(animalCount>=2)->[beastsMas] [AdjectiveBadass]s</li>
     <li>questName(animalCount>=2)->[beasts] [Adjective]</li>
     <li>beast->[animalKind_label]</li>

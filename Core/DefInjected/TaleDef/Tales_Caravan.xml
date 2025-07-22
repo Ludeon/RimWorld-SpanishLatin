@@ -40,16 +40,16 @@
     <li>circumstance_phrase->se da vueltas alrededor de las carretas</li>
     <li>circumstance_phrase->grita ¡victoria!</li>
     <li>circumstance_phrase->agita sus [WeaponAnyPl]</li>
-    <li>circumstance_phrase->con el cuerpo cubierto de [Gore_Plural]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s están avanzando mientras blanden sus [WeaponCacAnyPl].</li>
-    <li>desc_sentence->Un gran ejercito de [Enemy]s avanza, empuñando sus [WeaponCacAnyPl].</li>
+    <li>circumstance_phrase->con el cuerpo cubierto de [GorePl]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s están avanzando mientras blanden sus [WeaponPvpAnyPl].</li>
+    <li>desc_sentence->Un gran ejercito de [Enemy]s avanza, empuñando sus [WeaponPvpAnyPl].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avanzan con semblante [AdjectiveBadass].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avanzan con semblante [AdjectiveAngsty].</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] avanzan con un resplandor [Color] en sus ojos.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] avanzan, cubiertos de [Gore_Plural].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] avanzan, cubiertas de [Gore_Plural].</li>
-    <li>desc_sentence->El suelo está cubierto de [Gore_Plural].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] huyen de la zona.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPl] avanzan, cubiertos de [GorePl].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalFPl] avanzan, cubiertas de [GorePl].</li>
+    <li>desc_sentence->El suelo está cubierto de [GorePl].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] huyen de la zona.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] huyen de la zona.</li>
   </CaravanAmbushDefeated.rulePack.rulesStrings>
   
@@ -77,20 +77,20 @@
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
     <li>tale_noun->la caravana de [PAWN_nameDef] derrotaba a un emplazamiento enemigo</li>
     <li>image->[PAWN_nameFull] corriendo hacia un [Enemy], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] empuñando [WeaponCacIndef], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] atacando con [WeaponCacIndef], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] empuñando [WeaponPvpIndef], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] atacando con [WeaponPvpIndef], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] irguiéndose con orgullo, [circumstance_group]</li>
     <li>circumstance_phrase->con expresión [AdjectiveBadass] en sus ojos</li>
     <li>circumstance_phrase->con expresión [AdjectiveAngsty] en sus ojos</li>
     <li>circumstance_phrase->gritando ¡victoria!</li>
-    <li>circumstance_phrase->con el cuerpo cubierto de [Gore_Plural]</li>
+    <li>circumstance_phrase->con el cuerpo cubierto de [GorePl]</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s se cubren del ataque.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s huyen del área.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s visiblemente heridos.</li>
     <li>desc_sentence->[CommunityIndef] arde a la distancia.</li>
     <li>desc_sentence->[CommunityIndef] humea a la distancia.</li>
-    <li>desc_sentence->El suelo está cubierto de [Gore_Plural].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] huyen del área.</li>
+    <li>desc_sentence->El suelo está cubierto de [GorePl].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] huyen del área.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] huyen del área.</li>
   </CaravanAssaultSuccessful.rulePack.rulesStrings>
   
@@ -126,7 +126,7 @@
     <li>image->[PAWN_nameFull] corriendo frenéticamente [circumstance_group]</li>
     <li>image->[PAWN_nameFull] corriendo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] detrás de un [TerrainFeature], oculto [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] detrás de una [TerrainFeature_Fem], oculta [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] detrás de una [TerrainFeatureF], oculta [circumstance_group]</li>
     <li>image->[PAWN_nameFull] preparando una retirada del combate [circumstance_group]</li>
     <li>image->[PAWN_nameFull] paseando casualmente [circumstance_group]</li>
     <li>circumstance_phrase->mientras [Quantity_adjphrase] [Enemy]s le persiguen</li>
@@ -134,7 +134,7 @@
     <li>circumstance_phrase->de [Quantity_adjphrase] [Enemy]s</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] [AnimalAnyPl]</li>
     <li>circumstance_phrase->de un [AdjectiveLarge] [Enemy]</li>
-    <li>desc_sentence->los perseguidores de [PAWN_nameDef] están empuñando sus [WeaponCacAnyIndefPl].</li>
+    <li>desc_sentence->los perseguidores de [PAWN_nameDef] están empuñando sus [WeaponPvpAnyIndefPl].</li>
     <li>desc_sentence->los perseguidores de [PAWN_nameDef] están envueltos en un humo [Color].</li>
     <li>desc_sentence->los perseguidores de [PAWN_nameDef] tienen una expresión [AdjectiveAngsty].</li>
     <li>desc_sentence->[PAWN_nameDef] está sudando.</li>
@@ -178,7 +178,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [ally]s ayudan con los preparativos.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s se alejan de la escena.</li>
     <li>desc_sentence->[TerrainFeatureIndefCac] es visible a lo lejos.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan desde la distancia.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] observan desde la distancia.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] vagan pacíficamente.</li>
   </CaravanFormed.rulePack.rulesStrings>
   
