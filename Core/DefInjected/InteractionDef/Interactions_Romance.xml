@@ -109,7 +109,7 @@
     <li>wootactic->contar un cuento sobre [TalkTopicAny]</li>
     <li>wootactic->bromear sobre [TalkTopicAny]</li>
     <li>wootactic->[boasting] [INITIATOR_possessive] propio [PersonalCharacteristic]</li>
-    <li>wootactic->[boasting] [INITIATOR_possessive] propia [PersonalCharacteristic_Fem]</li>
+    <li>wootactic->[boasting] [INITIATOR_possessive] propia [PersonalCharacteristicF]</li>
     <li>wootactic->comparar[RECIPIENT_objective] con una [romantic_adj] [romantic_noun]</li>
     <li>wootactic->describir[RECIPIENT_objective] como una [romantic_adj] [romantic_noun]</li>
     <li>boasting->alardear sobre</li>
@@ -142,7 +142,7 @@
     <li>romantic_adj->exquisita</li>
     <li>romantic_adj->preciosa</li>
     <li>romantic_adj->espléndida</li>
-    <li>romantic_adj(p=3)->[AdjectiveBadass_Fem]</li>
+    <li>romantic_adj(p=3)->[AdjectiveBadassF]</li>
     <li>romantic_noun->flor</li>
     <li>romantic_noun->estatua</li>
     <li>romantic_noun->nube</li>
@@ -151,9 +151,9 @@
     <li>romantic_noun->luna</li>
     <li>romantic_noun->casa</li>
     <li>romantic_noun->aurora</li>
-    <li>romantic_noun->árbol de [TreeType_Fem]</li>
-    <li>romantic_noun(p=2)->[TerrainFeature_Fem]</li>
-    <li>romantic_noun(p=2)->[NaturalObject_Fem]</li>
+    <li>romantic_noun->árbol de [TreeTypeF]</li>
+    <li>romantic_noun(p=2)->[TerrainFeatureF]</li>
+    <li>romantic_noun(p=2)->[NaturalObjectF]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

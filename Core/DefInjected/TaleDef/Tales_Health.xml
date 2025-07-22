@@ -42,9 +42,9 @@
   -->
   <Downed.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponCacIndef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponPvpIndef]</li>
     <li>tale_noun->ocurrió [wound_name_present1] {replace: de [VICTIM_nameDef]; "de el "-"del "} por [KILLER_nameDef]</li>
-    <li>tale_noun->ocurrió [wound_name_present1] {replace: de [VICTIM_nameDef]; "de el "-"del "} con [WeaponCacIndef]</li>
+    <li>tale_noun->ocurrió [wound_name_present1] {replace: de [VICTIM_nameDef]; "de el "-"del "} con [WeaponPvpIndef]</li>
     <li>tale_noun->ocurrió [wound_name_present1] {replace: de [VICTIM_nameDef]; "de el "-"del "}</li>
     <li>image->[VICTIM_nameFull] siendo incapacitad[VICTIM_o_a] por [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -62,7 +62,7 @@
     <li>wound_name_present1->el lisiamiento</li>
     <li>wound_name_present1->el noqueo</li>
     <li>wound_name_present1->el desmayo</li>
-    <li>with_weapon_optional->con [WeaponCacIndef] [circumstance_group]</li>
+    <li>with_weapon_optional->con [WeaponPvpIndef] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->aparentemente sin remordimiento</li>
     <li>circumstance_phrase->con fría eficiencia</li>
@@ -114,10 +114,10 @@
     <li>circumstance_phrase->incapaz de mover un músculo</li>
     <li>desc_sentence->El último proyecto de [PAWN_nameDef] está cerca, completado.</li>
     <li>desc_sentence->Una construcción maravillosa rodea a [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan agradecidos por el esfuerzo heroico de [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] yacen cerca en un estado similar.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] observan agradecidos por el esfuerzo heroico de [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] yacen cerca en un estado similar.</li>
     <li>desc_sentence->La escena toma lugar dentro de un [Community] recientemente construido.</li>
-    <li>desc_sentence->La escena toma lugar dentro de una [Community_Fem] recientemente construida.</li>
+    <li>desc_sentence->La escena toma lugar dentro de una [CommunityF] recientemente construida.</li>
   </Exhausted.rulePack.rulesStrings>
   
   <!-- EN: gave birth -->
@@ -154,10 +154,10 @@
     <li>circumstance_phrase->que se intenta aferrar a su madre</li>
     <li>circumstance_phrase->que mira a su alrededor con una expresión de serenidad</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] duermen apaciblemente cerca.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observan la escena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] observan la escena.</li>
     <li>desc_sentence->Un [PersonJob] observa desde la distancia.</li>
     <li>desc_sentence->La escena toma lugar dentro de un [Community] recién construido.</li>
-    <li>desc_sentence->La escena toma lugar dentro de una [Community_Fem] recién construida.</li>
+    <li>desc_sentence->La escena toma lugar dentro de una [CommunityF] recién construida.</li>
   </GaveBirth.rulePack.rulesStrings>
   
   <!-- EN: heatstroke revealed -->
@@ -283,8 +283,8 @@
     <li>circumstance_phrase->mientras se rasca un sarpullido</li>
     <li>circumstance_phrase->mientras recibe atención de un médico</li>
     <li>desc_sentence->[Quantity_adjphrase] cadáveres de [AnimalAnyPl] rodean el área.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature_Pl] [Color_Plural] retorcidos rodean la escena.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] tienen la misma aflicción.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeaturePl] [ColorPl] retorcidos rodean la escena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPl] tienen la misma aflicción.</li>
     <li>desc_sentence->La escena toma lugar dentro de un bosque de [TreeTypeAny]s.</li>
     <li>desc_sentence->Hay [Quantity_adjphrase] [AnimalAnyPl] muriendo en el suelo.</li>
   </IllnessRevealed.rulePack.rulesStrings>
@@ -396,9 +396,9 @@
   -->
   <KilledLongRange.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_past]  {replace: a [VICTIM_nameDef]; "a el "-"al "} a larga distancia</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past]  {replace: a [VICTIM_nameDef]; "a el "-"al "} a larga distancia con un [Weapon_Ranged]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past]  {replace: a [VICTIM_nameDef]; "a el "-"al "} a larga distancia con un [WeaponLR]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_past] a larga distancia  {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a larga distancia  {replace: a [VICTIM_nameDef]; "a el "-"al "} con un [Weapon_Ranged]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] a larga distancia  {replace: a [VICTIM_nameDef]; "a el "-"al "} con un [WeaponLR]</li>
     <li>image->[KILLER_nameFull] apuntando a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] fríamente a [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -410,7 +410,7 @@
     <li>wound_name_present->matando</li>
     <li>wound_name_present->eliminando</li>
     <li>wound_name_present->ejecutando</li>
-    <li>with_weapon_optional->con un [Weapon_Ranged] [circumstance_group]</li>
+    <li>with_weapon_optional->con un [WeaponLR] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->aparentemente sin remordimiento</li>
     <li>circumstance_phrase->con pulso firme</li>
@@ -422,7 +422,7 @@
     <li>desc_sentence->Un [PersonJob] observa silenciosamente [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] tiene un semblante [AdjectiveAngsty].</li>
     <li>desc_sentence->[VICTIM_nameDef] tiene los ojos cerrados.</li>
-    <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [Gore_Plural].</li>
+    <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [GorePl].</li>
     <li>desc_sentence->[KILLER_nameDef] muestra sus dientes.</li>
     <li>desc_sentence->[KILLER_nameDef] parece satisfech[KILLER_o_a].</li>
     <li>desc_sentence->[KILLER_nameDef] parece perturbad[KILLER_o_a] por lo que está haciendo.</li>
@@ -499,12 +499,12 @@
     <li>desc_sentence->Un [PersonJob] observa silenciosamente [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] tiene un semblante [AdjectiveAngsty].</li>
     <li>desc_sentence->[VICTIM_nameDef] tiene los ojos cerrados.</li>
-    <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [Gore_Plural].</li>
-    <li>desc_sentence->Tanto [VICTIM_nameDef] como [KILLER_nameDef] están cubiertos de [Gore_Plural].</li>
+    <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [GorePl].</li>
+    <li>desc_sentence->Tanto [VICTIM_nameDef] como [KILLER_nameDef] están cubiertos de [GorePl].</li>
     <li>desc_sentence->El cadáver {replace: de [VICTIM_nameDef]; "de el "-"del "} se eleva sobre [KILLER_nameDef].</li>
     <li>desc_sentence->El enorme cadáver {replace: de [VICTIM_nameDef]; "de el "-"del "} cubre [TerrainFeatureIndef].</li>
     <li>desc_sentence->Los ojos {replace: de [VICTIM_nameDef]; "de el "-"del "} brillan con un intenso color [Color].</li>
-    <li>desc_sentence->[KILLER_nameDef] está cubiert[KILLER_o_a] de [Gore_Plural].</li>
+    <li>desc_sentence->[KILLER_nameDef] está cubiert[KILLER_o_a] de [GorePl].</li>
     <li>desc_sentence->[KILLER_nameDef] muestra sus dientes.</li>
     <li>desc_sentence->[KILLER_nameDef] parece satisfech[KILLER_o_a].</li>
     <li>desc_sentence->[KILLER_nameDef] parece triunfante.</li>
@@ -554,9 +554,9 @@
   -->
   <KilledMelee.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} en combate cuerpo a cuerpo</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} en combate cuerpo a cuerpo con [WeaponCacIndef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] {replace: a [VICTIM_nameDef]; "a el "-"al "} en combate cuerpo a cuerpo con [WeaponPvpIndef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_past] en combate cuerpo a cuerpo {replace: a [VICTIM_nameDef]; "a el "-"al "}</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_past] en combate cuerpo a cuerpo {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponCacIndef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_past] en combate cuerpo a cuerpo {replace: a [VICTIM_nameDef]; "a el "-"al "} con [WeaponPvpIndef]</li>
     <li>image->[KILLER_nameFull] golpeando a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] fríamente a [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -569,7 +569,7 @@
     <li>wound_name_present->liquidando</li>
     <li>wound_name_present->masacrando</li>
     <li>wound_name_present->mutilando</li>
-    <li>with_weapon_optional->con [WeaponCacIndef] [circumstance_group]</li>
+    <li>with_weapon_optional->con [WeaponPvpIndef] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->aparentemente sin remordimiento</li>
     <li>circumstance_phrase->con fría eficiencia</li>
@@ -580,9 +580,9 @@
     <li>desc_sentence->Un [PersonJob] observa silenciosamente [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] tiene un semblante [AdjectiveAngsty].</li>
     <li>desc_sentence->[VICTIM_nameDef] tiene los ojos cerrados.</li>
-    <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [Gore_Plural].</li>
-    <li>desc_sentence->Tanto [VICTIM_nameDef] como [KILLER_nameDef] están cubiertos de [Gore_Plural].</li>
-    <li>desc_sentence->[KILLER_nameDef] está cubiert[KILLER_o_a] de [Gore_Plural].</li>
+    <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [GorePl].</li>
+    <li>desc_sentence->Tanto [VICTIM_nameDef] como [KILLER_nameDef] están cubiertos de [GorePl].</li>
+    <li>desc_sentence->[KILLER_nameDef] está cubiert[KILLER_o_a] de [GorePl].</li>
     <li>desc_sentence->[KILLER_nameDef] muestra sus dientes.</li>
     <li>desc_sentence->[KILLER_nameDef] parece satisfech[KILLER_o_a].</li>
     <li>desc_sentence->[KILLER_nameDef] parece perturbad[KILLER_o_a] por lo que está haciendo.</li>
@@ -629,7 +629,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] observan.</li>
     <li>desc_sentence->Un [PersonJob] observa silenciosamente [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] tiene un semblante [AdjectiveAngsty].</li>
-    <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [Gore_Plural].</li>
+    <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [GorePl].</li>
     <li>desc_sentence->[VICTIM_nameDef] está rodead[VICTIM_o_a] por explosiones.</li>
     <li>desc_sentence->[VICTIM_nameDef] está rodead[VICTIM_o_a] de cráteres.</li>
     <li>desc_sentence->[KILLER_nameDef] parece satisfech[KILLER_o_a].</li>
@@ -679,8 +679,8 @@
     <li>circumstance_phrase->con un sarpullido visible</li>
     <li>desc_sentence->[Quantity_adjphrase] cadáveres retorcidos de [AnimalAnyPl] rodean el área.</li>
     <li>desc_sentence->Las ropas de [PAWN_nameDef] se caen a pedazos.</li>
-    <li>desc_sentence->El cielo tiene una neblina [Color_Fem].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature_Pl] [Color_Plural] rodean la escena.</li>
+    <li>desc_sentence->El cielo tiene una neblina [ColorF].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeaturePl] [ColorPl] rodean la escena.</li>
     <li>desc_sentence->La escena toma lugar dentro de un bosque retorcido de [TreeType]s.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] agonizantes cubren el suelo.</li>
   </ToxicityRevealed.rulePack.rulesStrings>
@@ -771,7 +771,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPl] observan.</li>
     <li>desc_sentence->Un [PersonJob] observa silenciosamente [side_position].</li>
     <li>desc_sentence->La sangre se encharca alrededor del cuerpo {replace: de [VICTIM_nameDef]; "de el "-"del "}.</li>
-    <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [Gore_Plural].</li>
+    <li>desc_sentence->[VICTIM_nameDef] está cubiert[VICTIM_o_a] de [GorePl].</li>
     <li>desc_sentence->[VICTIM_nameDef] tiene un semblante [AdjectiveAngsty].</li>
     <li>desc_sentence->[VICTIM_nameDef] se retuerce de dolor.</li>
     <li>desc_sentence->[VICTIM_nameDef] se retuerce de agonía.</li>

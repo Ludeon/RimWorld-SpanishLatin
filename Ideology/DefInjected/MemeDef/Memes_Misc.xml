@@ -53,7 +53,7 @@
     <li>animistBasis(tag=meme_AnimalPersonhood)    ->Los espíritus del pensamiento y la conciencia viven dentro de los animales y los seres humanos por igual.</li>
     <li>animistFact(tag=meme_AnimalPersonhood)     ->Los espíritus de los animales de la naturaleza son los mismos que residen en los seres humanos.</li>
     <li>veneratedOrAnyAnimalPl(priority=10)->[veneratedAnimalPl]</li>
-    <li>veneratedOrAnyAnimalPl->[Animal_Plural]</li>
+    <li>veneratedOrAnyAnimalPl->[AnimalPl]</li>
     <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
     <li>veneratedOrAnyAnimal->[Animal]</li>
     <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label], [animal2_thingDef_label],</li>
@@ -1073,7 +1073,7 @@
     <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd], los arqueotécnicos partirán, y conducirán delante de ellos a los que cuidaron bien sus propios rebaños. El resto se quedará atrás en el desierto.</li>
     <li>animistFact(tag=meme_Rancher)     ->Los animales de la naturaleza son los espíritus de los esclavos, y exigen ser tomados a su servicio.</li>
     <li>ranchingAnimal(p=4)->[veneratedAnimalPl]</li>
-    <li>ranchingAnimal->[Animal_Plural]</li>
+    <li>ranchingAnimal->[AnimalPl]</li>
     <li>rancherParent1->granjero</li>
     <li>rancherParent1->carnicero</li>
     <li>rancherParent1->quesero</li>

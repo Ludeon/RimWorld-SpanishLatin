@@ -128,9 +128,9 @@
     <li>r_logentry->[INITIATOR_nameDef] llamó a [target] [insultcomparison].</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[characteristicDef]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->su [PersonalCharacteristicCube]</li>
-    <li>characteristicDef->la [PersonalCharacteristic_fem]</li>
+    <li>characteristicDef->la [PersonalCharacteristicF]</li>
     <li>characteristicDef->el [PersonalCharacteristic]</li>
-    <li>characteristicDef->de la [PersonalCharacteristic_fem]</li>
+    <li>characteristicDef->de la [PersonalCharacteristicF]</li>
     <li>characteristicDef->del [PersonalCharacteristic]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[PersonFamily] de [RECIPIENT_nameDef]</li>
@@ -176,7 +176,7 @@
     <li>r_logentry->[INITIATOR_nameDef] [complimented] [characteristic] de [RECIPIENT_nameDef].</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[characteristicDef]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->su [PersonalCharacteristicCube]</li>
-    <li>characteristicDef->la [PersonalCharacteristic_fem]</li>
+    <li>characteristicDef->la [PersonalCharacteristicF]</li>
     <li>characteristicDef->el [PersonalCharacteristic]</li>
     <li>complimented(p=3)->alabó</li>
     <li>complimented->alabó</li>
@@ -218,7 +218,7 @@
     <li>r_logentry->[INITIATOR_nameDef] [madefunof] [characteristic] de [target].</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[characteristicDef]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->de su [PersonalCharacteristicCube]</li>
-    <li>characteristicDef->de la [PersonalCharacteristic_fem]</li>
+    <li>characteristicDef->de la [PersonalCharacteristicF]</li>
     <li>characteristicDef->del [PersonalCharacteristic]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[PersonFamily] de [RECIPIENT_nameDef]</li>

@@ -459,29 +459,29 @@
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
     <li>r_name->[terrain_word] [narrative_name]</li>
     <li>r_name(p=0.05)->[terrain_word] [storyname]</li>
-    <li>narrative_name(p=12)->[WordTribal_Cap]</li>
+    <li>narrative_name(p=12)->[WordTribalCap]</li>
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
     <li>narrative_name->[NaturalObject] [Color]</li>
-    <li>narrative_name->[NaturalObject_Fem] [Color_Fem]</li>
+    <li>narrative_name->[NaturalObjectF] [ColorF]</li>
     <li>narrative_name->el [BodyPart] [AdjectiveNatural]</li>
-    <li>narrative_name->la [BodyPartFem] [AdjectiveNaturalFem]</li>
+    <li>narrative_name->la [BodyPartFem] [AdjectiveNaturalF]</li>
     <li>narrative_name->[AnimalAny]</li>
     <li>narrative_name->[ColorAny]</li>
     <li>narrative_name->el [Animal] [Color]</li>
-    <li>narrative_name->la [Animal_Fem] [Color_Fem]</li>
+    <li>narrative_name->la [AnimalF] [ColorF]</li>
     <li>narrative_name->[Animal] [AdjectiveNatural]</li>
-    <li>narrative_name->[Animal_Fem] [AdjectiveNaturalFem]</li>
+    <li>narrative_name->[AnimalF] [AdjectiveNaturalF]</li>
     <!-- Para animal y partes del cuerpo, pendiente crear dos archivos de partes del cuerpo de animales y dividirlos en aves y mamiferos 
     <li>narrative_name->[Animal][BodyPart]</li> dejar en forma de comentario hasta hacer esos archivos -->
     <li>narrative_name->el [Animal] [Color]</li>
-    <li>narrative_name->la [Animal_Fem] [Color_Fem]</li>
+    <li>narrative_name->la [AnimalF] [ColorF]</li>
     <li>narrative_name->[Animal] [AdjectiveNatural]</li>
     <li>storyname(p=50)->[story_result] de [subject]</li>
     <li>storyname(p=2)->[BodyPartAny] de [subject]</li>
     <li>storyname->[Gore] de [subject]</li>
     <li>subject(p=5)->[NamePerson]</li>
     <li>subject->[AnimalAny]</li>
-    <li>subject->[WordTribal_Cap]</li>
+    <li>subject->[WordTribalCap]</li>
     <li>subject->[PlaceOutlander]</li>
     <li>story_result->locura</li>
     <li>story_result->vicio</li>

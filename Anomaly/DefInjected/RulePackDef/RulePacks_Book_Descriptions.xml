@@ -324,7 +324,7 @@
     <li>author(p=3,ANYPAWN_gender!=Female)->el autor</li>
     <li>author(p=3,ANYPAWN_gender!=Female)->[anAuthorDesc] [PersonJob]</li>
     <li>author(p=3,ANYPAWN_gender==Female)->la autora</li>
-    <li>author(p=3,ANYPAWN_gender==Female)->[anAuthorDesc_Fem] [PersonJob_Fem]</li>
+    <li>author(p=3,ANYPAWN_gender==Female)->[anAuthorDesc_Fem] [PersonJobF]</li>
     <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] investigador</li>
     <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] espiritista</li>
     <li>author(ANYPAWN_gender!=Female)->[anAuthorDesc] ocultista</li>
@@ -469,7 +469,7 @@
     <li>experiencesWithMonsters->[tellsAStoryOf] experiencias que compartió con unos [entities]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] experiencias que compartió con unas [entities_Fem]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en un remoto [TerrainFeature]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en una remota [TerrainFeature_Fem]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo se infiltró en una secta secreta que tiene una base oculta en una remota [TerrainFeatureF]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo fue la cacería de un misterioso cubo dorado</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] meditaciones profundas guiadas por un supralacayo de un culto arqueoista</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo colapsó su vida bajo la influencia psíquica de algo llamado Horax</li>
@@ -480,7 +480,7 @@
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo un científico intenta utilizar antiguos medios arqueotecnológicos para reanimar a su esposa muerta</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo existió una expedición exploradora forastera que sobrevivió a lluvias de sangre y a un cielo que intentó aplastarlos hasta la muerte con una tinta ennegrecida</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] cómo un equipo científico investigó una antigua fosa en el suelo llena de terroríficas criaturas carnosas</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] cómo un chamán tribal intentó de encontrar la forma de detener los ataques nocturnos de [Animal_Plural] muertos reanimados a su aldea</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] cómo un chamán tribal intentó de encontrar la forma de detener los ataques nocturnos de [AnimalPl] muertos reanimados a su aldea</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] un mito tribal sobre un antiguo dios de la ira cuya influencia afecta a todos los pueblos y los héroes que lo encerraron en una pequeña prisión de piedra</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] sus brutales experimentos con un [entity]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] sus brutales experimentos con una [entity_Fem]</li>
@@ -499,12 +499,12 @@
     <li>targetHuman->[anAuthorDesc_Male]</li>
     <li>ritual_incident->llovió sangre durante tres días lo cual volvió locos a sus amigos</li>
     <li>ritual_incident->[entity_incident]</li>
-    <li>entity_incident->perdió su [BodyPart_Human] en un ataque de una [entity_Fem]</li>
-    <li>entity_incident->perdió su [BodyPart_Human] en un ataque de un [entity]</li>
+    <li>entity_incident->perdió su [BodyPartHuman] en un ataque de una [entity_Fem]</li>
+    <li>entity_incident->perdió su [BodyPartHuman] en un ataque de un [entity]</li>
     <li>entity_incident->contempló a un [entity]</li>
     <li>entity_incident->contempló a una [entity_Fem]</li>
-    <li>entity_incident_Var->perder su [BodyPart_Human] en un ataque de una [entity_Fem]</li>
-    <li>entity_incident_Var->perder su [BodyPart_Human] en un ataque de un [entity]</li>
+    <li>entity_incident_Var->perder su [BodyPartHuman] en un ataque de una [entity_Fem]</li>
+    <li>entity_incident_Var->perder su [BodyPartHuman] en un ataque de un [entity]</li>
     <li>entity_incident_Var->contemplar a un [entity]</li>
     <li>entity_incident_Var->contemplar a una [entity_Fem]</li>
     <li>specificHorrorStory->En un momento dado, el autor relata oscuros rituales en los que se obligaba a las víctimas a mutilarse con cristales rotos.</li>
@@ -525,7 +525,7 @@
     <li>entities->cadáveres andantes</li>
     <li>entities->monstruos sedientos de dolor</li>
     <li>entitiesy_Fem->criaturas de carne y hueso expuesto</li>
-    <li>entities->cadáveres andante de unos [Animal_Plural]</li>
+    <li>entities->cadáveres andante de unos [AnimalPl]</li>
     <li>entities_Fem->figuras con forma de hombre hechas de metal y cuchillas</li>
     <li>entities_Fem->esferas mecánicas flotantes que emite dolor</li>
     <li>entities->hermosos cubos dorados que destruyen mentes</li>

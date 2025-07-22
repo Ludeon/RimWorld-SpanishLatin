@@ -237,7 +237,7 @@
     <li>physicalDescription->garabateado en tinta negra</li>
     <li>physicalDescription->cosido en piel de alce</li>
     <li>physicalDescription->escrito en piel seca de [Animal]</li>
-    <li>physicalDescription->escrito en piel seca de [Animal_Fem]</li>
+    <li>physicalDescription->escrito en piel seca de [AnimalF]</li>
     <li>physicalDescription->manufacturado con pergamino ennegrecido</li>
     <li>physicalDescription->delicadamente plegado en dieciséis secciones</li>
     <li>physicalDescription->impreso por una prensa industrial</li>
@@ -255,7 +255,7 @@
     <li>mapContents->cientos de pequeños dibujos de [mapSubject] [mapSubjectAdj]</li>
     <li>mapContents->cientos de pequeños dibujos de [mapSubjectFem] [mapSubjectAdj]</li>
     <li>mapContents->bocetos rápidos de [mapSubjectAndAdj]</li>
-    <li>mapContents->listas de notables [mapSubject]. ¡La lista más larga se titula "[AdjectiveBadass_Fem]" y está marcada con un círculo en tinta roja!</li>
+    <li>mapContents->listas de notables [mapSubject]. ¡La lista más larga se titula "[AdjectiveBadassF]" y está marcada con un círculo en tinta roja!</li>
     <li>mapContents->bordes quemados y líneas borrosas. El mapa central muestra [mapSubjectAndAdj] pero las líneas están ocultas por manchas de[stain] </li>
     <li>mapContents->nuevos diagramas en cada página. Algunos diagramas entran en gran detalle sobre [mapSubject], los cuales son sin duda alguna [mapSubjectAdj]</li>
     <li>mapContents->nuevos diagramas en cada página. Algunos diagramas entran en gran detalle sobre [mapSubjectFem], las cuales son sin duda alguna [mapSubjectAdjFem]</li>
@@ -263,9 +263,9 @@
     <li>mapContents->una mezcla de fantásticas [mapSubjectFem] e históricas [mapSubjectFem]</li>
     <li>mapContents->docenas de diagramas antiguos de [mapSubjectAndAdj]</li>
     <li>mapContents->dibujos temáticos. Una gran [depiction] central que se asemeja a un [Animal], dibujado en un estilo [artstyle_adj]</li>
-    <li>mapContents->dibujos temáticos. Una gran [depiction] central que se asemeja a una [Animal_Fem], dibujada en un estilo [artstyle_adj]</li>
+    <li>mapContents->dibujos temáticos. Una gran [depiction] central que se asemeja a una [AnimalF], dibujada en un estilo [artstyle_adj]</li>
     <li>mapContents->miles de símbolos extraños, muchos de los cuales se asemejan a [mapSubjectInde]. El símbolo más común se parece a un [Animal] [emotionalState] dibujado en un estilo [artstyle_adj]</li>
-    <li>mapContents->miles de símbolos extraños, muchos de los cuales se asemejan a [mapSubjectInde]. El símbolo más común se parece a una [Animal_Fem] [emotionalStateFem] dibujada en un estilo [artstyle_adj]</li>
+    <li>mapContents->miles de símbolos extraños, muchos de los cuales se asemejan a [mapSubjectInde]. El símbolo más común se parece a una [AnimalF] [emotionalStateFem] dibujada en un estilo [artstyle_adj]</li>
     <li>mapContents->signos evidentes de antigüedad. Un diagrama, dibujado con otra mano, muestra el antiguo [mapSubject] de [place]</li>
     <li>mapContents->signos evidentes de antigüedad. Un diagrama, dibujado con otra mano, muestra la antigua [mapSubjectFem] de [place]</li>
     <li>mapContents->diagramas detallados de los [mapSubjectPl] de [place] y su relación con [mapSubjectAndAdj]</li>
@@ -280,8 +280,8 @@
     <li>mapContents->las coordenadas de varias [mapSubjectAndAdjFem]</li>
     <li>mapContents->coordenadas resaltadas con marcador amarillo</li>
     <li>mapContents->dibujos de territorios cercanos. Símbolos toscos marcan refugios seguros y escondites ocultos</li>
-    <li>mapContents->las ubicaciones de [Quantity_adjphrase] santuarios de [Animal_Plural]. Las "X" rojas también denotan varias tumbas</li>
-    <li>mapContents->las ubicaciones de [Quantity_adjphrase] santuarios de [Animal_FemPlural]. Las "X" rojas también denotan varias tumbas</li>
+    <li>mapContents->las ubicaciones de [Quantity_adjphrase] santuarios de [AnimalPl]. Las "X" rojas también denotan varias tumbas</li>
+    <li>mapContents->las ubicaciones de [Quantity_adjphrase] santuarios de [AnimalFPl]. Las "X" rojas también denotan varias tumbas</li>
     <li>mapContents->nada de importancia. O eso parece</li>
     <li>mapContents->líneas de cuadrícula desvanecidas. Cada cuadrante contiene [mapSubjectAndAdj]</li>
     <li>mapContents->[Quantity_adjphrase] [mapSubjectPl] representados en un estilo [artstyle_adj]. Debajo de cada uno hay un [Animal] [AdjectiveAny]</li>
@@ -298,7 +298,7 @@
     <li>specialFact->Las marcas toscas e irregulares cambian lentamente con el tiempo, revelando un significado oculto.</li>
     <li>specialFact->Afirma revelar la esencia misma de la tierra, guiando al lector hacia un lugar de gran poder natural.</li>
     <li>specialFact->Oculto entre los muchos pliegues hay un trozo de papel con el dibujo de un [Animal] [emotionalState].</li>
-    <li>specialFact->Oculto entre los muchos pliegues hay un trozo de papel con el dibujo de una [Animal_Fem] [emotionalStateFem].</li>
+    <li>specialFact->Oculto entre los muchos pliegues hay un trozo de papel con el dibujo de una [AnimalF] [emotionalStateFem].</li>
     <li>specialFact->Tocar el mapa durante mucho tiempo deja manchas rojas tenues en las yemas de los dedos del lector.</li>
     <li>specialFact->Entre los pliegues del mapa se pueden encontrar granos de arena.</li>
     <li>specialFact->Las anotaciones en el mapa sugieren que guarda la clave de un secreto mayor.</li>
@@ -313,23 +313,23 @@
     <li>specialFact->Una caligrafía elegante nombra algunos [mapSubject], pero un dibujo aislado solo lleva una marca críptica: un símbolo de [mapSymbolInde].</li>
     <li>specialFact->Una caligrafía elegante nombra algunas [mapSubjectFem], pero un dibujo aislado solo lleva una marca críptica: un símbolo de [mapSymbolInde].</li>
     <li>specialFact->El mapa contiene una breve biografía de su autor, un destacado [PersonJob] de [place].</li>
-    <li>specialFact->El mapa contiene una breve biografía de su autor, una destacada [PersonJob_Fem] de [place].</li>
+    <li>specialFact->El mapa contiene una breve biografía de su autor, una destacada [PersonJobF] de [place].</li>
     <li>specialFact->El mapa fue creado por un infame [PersonBadass].</li>
-    <li>specialFact->El mapa fue creado por una infame [PersonBadass_Fem].</li>
+    <li>specialFact->El mapa fue creado por una infame [PersonBadassF].</li>
     <li>specialFact->El mapa fue creado por un [PersonBadass] [emotionalState].</li>
-    <li>specialFact->El mapa fue creado por una [PersonBadass_Fem] [emotionalStateFem].</li>
+    <li>specialFact->El mapa fue creado por una [PersonBadassF] [emotionalStateFem].</li>
     <li>specialFact->La simplicidad del mapa sugiere que fue hecho apresuradamente por un [PersonBadass] que necesitaba mantenerse un paso por delante de las autoridades.</li>
     <li>specialFact->La simplicidad del mapa sugiere que fue hecho apresuradamente por una [PersonBadassFem] que necesitaba mantenerse un paso por delante de las autoridades.</li>
     <li>specialFact->Algunas zonas clave están rodeadas con anotaciones como “evitar [Enemy]s” y “fuerte como un [Animal]”.</li>
-    <li>specialFact->Algunas zonas clave están rodeadas con anotaciones como “evitar [Enemy]s” y “fuerte como una [Animal_Fem]”.</li>
+    <li>specialFact->Algunas zonas clave están rodeadas con anotaciones como “evitar [Enemy]s” y “fuerte como una [AnimalF]”.</li>
     <li>specialFact->En el mapa, una [mapSymbol] está rodeada y marcada con “[smell] y [stain]”.</li>
     <li>specialFact->En el mapa, un [mapSymbolMale] está rodeado y marcado con “[smell] y [stain]”.</li>
     <li>specialFact->En los márgenes está escrito un poema de mil años de antigüedad titulado “Diabolus”.</li>
-    <li>specialFact->La leyenda del mapa identifica [mapSymbolPl] [Color_FemPl] como guaridas de [Enemy]s y [mapSymbolPl] [Color_FemPl] como zonas de caza de [Animal].</li>
-    <li>specialFact->La leyenda del mapa identifica [mapSymbolPl] [Color_FemPl] como guaridas de [Enemy]s y [mapSymbolPl] [Color_FemPl] como zonas de caza de [Animal_Fem].</li>
+    <li>specialFact->La leyenda del mapa identifica [mapSymbolPl] [ColorFPl] como guaridas de [Enemy]s y [mapSymbolPl] [ColorFPl] como zonas de caza de [Animal].</li>
+    <li>specialFact->La leyenda del mapa identifica [mapSymbolPl] [ColorFPl] como guaridas de [Enemy]s y [mapSymbolPl] [ColorFPl] como zonas de caza de [AnimalF].</li>
     <li>specialFact->La escala del mapa es claramente incorrecta.</li>
     <li>specialFact->El mapa tiene un sello de cera desvaído [noteLocation]. Se asemeja a un [Animal] [emotionalState].</li>
-    <li>specialFact->El mapa tiene un sello de cera desvaído [noteLocation]. Se asemeja a una [Animal_Fem] [emotionalStateFem].</li>
+    <li>specialFact->El mapa tiene un sello de cera desvaído [noteLocation]. Se asemeja a una [AnimalF] [emotionalStateFem].</li>
     <li>maybe_questInfo-></li>
     <li>maybe_questInfo(p=3)->[questInfo]</li>
     <li>questInfo->Una zona del mapa está marcada con un círculo y etiquetada: "¡[mapText]!"</li>
@@ -338,25 +338,25 @@
     <li>questInfo->Una nota [noteLocation] dice: "[mapText]."</li>
     <li>questInfo->Una nota escrita apresuradamente [noteLocation] dice: "¡[mapText]!"</li>
     <li>questInfo->Un enigma críptico ha sido garabateado [noteLocation]. Termina con "...[mapText]."</li>
-    <li>questInfo->Junto a una [mapSymbol] [Color_Fem] están las palabras "[mapText]."</li>
+    <li>questInfo->Junto a una [mapSymbol] [ColorF] están las palabras "[mapText]."</li>
     <li>questInfo->Junto a un [mapSymbolMale] [Color] están las palabras "[mapText]."</li>
     <li>questInfo->Grabadas en el mapa están las palabras "[mapText]."</li>
     <li>questInfo->Una gran [mapSymbol] está dibujada cerca de un [mapFeature]. Está etiquetado como "[mapText]."</li>
-    <li>questInfo->Una rosa de los vientos [Color_Fem] está grabada en el mapa. Extrañamente, el norte y el sur están mal etiquetados. En el centro de la brújula están las palabras: "[mapText]."</li>
+    <li>questInfo->Una rosa de los vientos [ColorF] está grabada en el mapa. Extrañamente, el norte y el sur están mal etiquetados. En el centro de la brújula están las palabras: "[mapText]."</li>
     <li>questInfo->El anterior propietario del mapa claramente ha estado buscando algo. Una zona está marcada junto a las palabras: "[mapText]."</li>
     <li>questInfo->Al sostener el mapa a contraluz, se pueden ver las palabras. "[mapText]."</li>
-    <li>questInfo->[noteLocation], una [mapSymbol] [Color_Fem] está etiquetada "¡[mapText]!"</li>
+    <li>questInfo->[noteLocation], una [mapSymbol] [ColorF] está etiquetada "¡[mapText]!"</li>
     <li>questInfo->[noteLocation], [mapSymbolInde] lleva la etiqueta "¿[mapText]?"</li>
     <li>questInfo->[noteLocation], algunas notas están borrosas. Lo único legible es: "confirmado... [mapText]."</li>
     <li>questInfo->[noteLocation] se ve un dibujo rudimentario de un [PersonBadass] [emotionalState]. Debajo están las palabras: "[mapText]."</li>
     <li>questInfo->Un [Animal] está dibujado a lápiz [noteLocation]. Debajo están las palabras: "[mapText]."</li>
-    <li>questInfo->Una [Animal_Fem] está dibujada a lápiz [noteLocation]. Debajo están las palabras: "[mapText]."</li>
-    <li>questInfo->La leyenda del mapa etiqueta a las [mapSymbolPL] [Color_FemPl] como "[mapText]."</li>
+    <li>questInfo->Una [AnimalF] está dibujada a lápiz [noteLocation]. Debajo están las palabras: "[mapText]."</li>
+    <li>questInfo->La leyenda del mapa etiqueta a las [mapSymbolPL] [ColorFPl] como "[mapText]."</li>
     <li>questInfo->Una gran X roja está marcada sobre una ubicación. Junto a ella, "[mapText]" está escrito en una pequeña letra.</li>
     <li>questInfo->Al inspeccionar más de cerca, parece que alguien ha intentado borrar las palabras "[mapText]" del mapa.</li>
-    <li>questInfo->Cerca de un ícono de una calavera [Color_Fem], alguien ha escrito en letras grandes: "[mapText]."</li>
+    <li>questInfo->Cerca de un ícono de una calavera [ColorF], alguien ha escrito en letras grandes: "[mapText]."</li>
     <li>questInfo->Un símbolo inusual está dibujado [noteLocation]. Debajo están las palabras "[mapText]."</li>
-    <li>questInfo->Una daga [Color_Fem] está grabada en el mapa, apuntando hacia las palabras "[mapText]."</li>
+    <li>questInfo->Una daga [ColorF] está grabada en el mapa, apuntando hacia las palabras "[mapText]."</li>
     <li>questInfo->[noteLocation] es una lista de verificación. Cada elemento de la lista ha sido tachado. Solo uno permanece: "[mapText]."</li>
     <li>maybe_condition-></li>
     <li>maybe_condition->[conditionSmell]</li>
@@ -378,7 +378,7 @@
     <li>smell->almendras</li>
     <li>smell->lejía</li>
     <li>smell->heces de [Animal]</li>
-    <li>smell->heces de [Animal_Fem]</li>
+    <li>smell->heces de [AnimalF]</li>
     <li>conditionStains->Arañazos y manchas de [stain] ocultan algunos detalles, lo que dificulta la lectura.</li>
     <li>conditionStains->Las manchas de [stain] y marcas de quemaduras indican un uso habitual en condiciones difíciles.</li>
     <li>conditionStains->Los diagramas están ocultos por lo que parece ser [stain].</li>
@@ -431,14 +431,14 @@
     <li>mapSymbol->luna</li>
     <li>mapSymbol->torre</li>
     <li>mapSymbol->caravela</li>
-    <li>mapSymbol->[Animal_Fem]</li>
+    <li>mapSymbol->[AnimalF]</li>
     <li>mapSymbolPl->llaves</li>
     <li>mapSymbolPl->"equis"</li>
     <li>mapSymbolPl->estrellas</li>
     <li>mapSymbolPl->lunas</li>
     <li>mapSymbolPl->torres</li>
     <li>mapSymbolPl->caravelas</li>
-    <li>mapSymbolPl->[Animal_Plural]</li>
+    <li>mapSymbolPl->[AnimalPl]</li>
     <li>mapSymbolMale->[Animal]</li>
     <li>mapSymbolInde->un [Animal]</li>
     <li>mapSymbolInde->una [mapSymbol]</li>
@@ -449,7 +449,7 @@
     <li>mapText->el hambre acecha</li>
     <li>mapText->no dejar rastro</li>
     <li>mapText->[Animal] enloquecido</li>
-    <li>mapText->[Animal_Fem] enloquecida</li>
+    <li>mapText->[AnimalF] enloquecida</li>
     <li>mapText->ataque de asaltantes</li>
     <li>mapText->nuestra última caravana</li>
     <li>mapText->sin sobrevivientes</li>
