@@ -9,7 +9,7 @@
   <!-- EN: beam -->
   <Beam.label>láser</Beam.label>
   <!-- EN: {0} has been beamed to death. -->
-  <Beam.deathMessage>{0} le atravesó un rayo láser mortal.</Beam.deathMessage>
+  <Beam.deathMessage>{0} fue abatid{0_gender ? o : a} por un rayo láser letal.</Beam.deathMessage>
   
   <!-- EN: bomb -->
   <Bomb.label>explosión</Bomb.label>
@@ -44,12 +44,12 @@
   <!-- EN: nerve -->
   <Nerve.label>nervio</Nerve.label>
   <!-- EN: {0} has been killed by nerve shock. -->
-  <Nerve.deathMessage>{0} ha muerto por shock nervioso.</Nerve.deathMessage>
+  <Nerve.deathMessage>{0} ha muerto por un shock nervioso.</Nerve.deathMessage>
   
   <!-- EN: nerve stun -->
   <NerveStun.label>aturdimiento del nervio</NerveStun.label>
   <!-- EN: {0} has been killed. -->
-  <NerveStun.deathMessage>{0} ha muerto</NerveStun.deathMessage>
+  <NerveStun.deathMessage>{0} ha sido asesinad{0_gender ? o : a}.</NerveStun.deathMessage>
   
   <!-- EN: rotting -->
   <Rotting.label>pudrición</Rotting.label>

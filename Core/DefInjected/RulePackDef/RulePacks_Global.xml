@@ -165,7 +165,7 @@
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
     <li>TerrainFeatureF->Words/Nouns/TerrainFeatures_Fem</li>
     <li>TerrainFeaturePl->Words/Nouns/TerrainFeatures_Plural</li>
-    <li>TerrainFeaturePlF->Words/Nouns/TerrainFeatures_PluralFem</li>
+    <li>TerrainFeatureFPl->Words/Nouns/TerrainFeatures_PluralFem</li>
     <!--Nombre de los árboles:-->
     <li>TreeType->Words/Nouns/TreeTypes</li>
     <li>TreeTypeF->Words/Nouns/TreeTypes_Fem</li>
@@ -579,7 +579,7 @@
     <li>TerrainFeatureIndefCap->Un [TerrainFeature]</li>
     <li>TerrainFeatureIndefCap->Una [TerrainFeatureF]</li>
     <li>TerrainFeaturePlAny->[TerrainFeaturePl]</li>
-    <li>TerrainFeaturePlAny->[TerrainFeaturePlF]</li>
+    <li>TerrainFeaturePlAny->[TerrainFeatureFPl]</li>
     <li>TreeTypeAny->[TreeType]</li>
     <li>TreeTypeAny->[TreeTypeF]</li>
     <li>TreeTypeIndef->un [TreeType]</li>
