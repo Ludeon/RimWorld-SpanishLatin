@@ -1,3 +1,5 @@
+# Version: 2.0
+
 #['madera', 'acero', 'arenisca', 'granito', 'caliza', 'pizarra', 'mármol', 'jade', 'plata', 'uranio', 'plastiacero', 'oro', 'bioferrita']
 def agregar_materiales(texto):
     # Definimos las listas de materiales 
