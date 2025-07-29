@@ -1,0 +1,199 @@
+KEY;1_NOM;2_GEN;3_DAT;4_ACC;5_NOM_ART;6_GEN_ART;7_DAT_ART;8_ACC_ART
+// Plural declension (without and with article)
+// NOTE: Ingame pluralization use this file automatically (always index 1).
+//
+// Usage syntax: {lookup: TEXT; FILE_NO_EXT; INDEX}
+// TEXT is the key to access a row.
+// FILE_NO_EXT is the file in which TEXT should be looked up. Omit the extension.
+// INDEX determines the column to be used. Can be omitted if you need index 1.
+// For example, {lookup: {0}; book; 2} looks up 2_GEN.
+//
+animales;los animales;de los animales;a los animales
+pastoreo;el pastoreo;del pastoreo;al pastoreo
+ganadería;la ganadería;de la ganadería;a la ganadería
+domesticación;la domesticación;de la domesticación;a la domesticación
+crianza;la crianza;de la crianza;a la crianza
+zoología;la zoología;de la zoología;a la zoología
+zootecnia;la zootecnia;de la zootecnia;a la zootecnia
+labranza;la labranza;de la labranza;a la labranza
+domesticación;la domesticación;de la domesticación;a la domesticación
+vida salvaje;la vida salvaje;de la vida salvaje;a la vida salvaje
+fauna;la fauna;de la fauna;a la fauna
+avicultura;la avicultura;de la avicultura;a la avicultura
+//
+arte;el arte;del arte;al arte
+cerámica;la cerámica;de la cerámica;a la cerámica
+esculpido;el esculpido;del esculpido;al esculpido
+pintura;la pintura;de la pintura;a la pintura
+creatividad;la creatividad;de la creatividad;a la creatividad
+expresión artística;la expresión artística;de la expresión artística;a la expresión artística
+estética;la estética;de la estética;a la estética
+diseño;el diseño;del diseño;al diseño
+escultura;la escultura;de la escultura;a la escultura
+impresionismo;el impresionismo;del impresionismo;al impresionismo
+artesanía;la artesanía;de la artesanía;a la artesanía
+//
+construcción;la construcción;de la construcción;a la construcción
+edificación;la edificación;de la edificación;a la edificación
+arquitectura;la arquitectura;de la arquitectura;a la arquitectura
+ingeniería;la ingeniería;de la ingeniería;a la ingeniería
+diseño;el diseño;del diseño;al diseño
+restauración;la restauración;de la restauración;a la restauración
+estructuras;las estructuras;de las estructuras;a las estructuras
+cimentación;la cimentación;de la cimentación;a la cimentación
+carpintería;la carpintería;de la carpintería;a la carpintería
+infraestructura;la infraestructura;de la infraestructura;a la infraestructura
+//
+cocina;la cocina;de la cocina;a la cocina
+comida;la comida;de la comida;a la comida
+horneado;el horneado;del horneado;al horneado
+alta cocina;la alta cocina;de la alta cocina;a la alta cocina
+recetas;las recetas;de las recetas;a las recetas
+gastronomía;la gastronomía;de la gastronomía;a la gastronomía
+sabores;los sabores;de los sabores;a los sabores
+ingredientes;los ingredientes;de los ingredientes;a los ingredientes
+especias;las especias;de las especias;a las especias
+nutrición;la nutrición;de la nutrición;a la nutrición
+degustación;la degustación;de la degustación;a la degustación
+recetario;el recetario;del recetario;al recetario
+cocina;la cocina;de la cocina;a la cocina
+salsas;las salsas;de las salsas;a las salsas
+comidas;las comidas;de las comidas;a las comidas
+//
+elaboración;la elaboración;de la elaboración;a la elaboración
+montaje;el montaje;del montaje;al montaje
+fabricación;la fabricación;de la fabricación;a la fabricación
+manualidad;la manualidad;de la manualidad;a la manualidad
+confección;la confección;de la confección;a la confección
+producción;la producción;de la producción;a la producción
+artesanía;la artesanía;de la artesanía;a la artesanía
+maquinado;el maquinado;del maquinado;al maquinado
+artesanía;la artesanía;de la artesanía;a la artesanía
+//
+física;la física;de la física;a la física
+química;la química;de la química;a la química
+dinámica orbital;la dinámica orbital;de la dinámica orbital;a la dinámica orbital
+matemáticas;las matemáticas;de las matemáticas;a las matemáticas
+biología;la biología;de la biología;a la biología
+ciencia;la ciencia;de la ciencia;a la ciencia
+investigación;la investigación;de la investigación;a la investigación
+innovación;la innovación;de la innovación;a la innovación
+descubrimiento;el descubrimiento;del descubrimiento;al descubrimiento
+análisis;el análisis;del análisis;al análisis
+experimentación;la experimentación;de la experimentación;a la experimentación
+conocimiento;el conocimiento;del conocimiento;al conocimiento
+exploración;la exploración;de la exploración;a la exploración
+física;la física;de la física;a la física
+química;la química;de la química;a la química
+análisis de datos;el análisis de datos;del análisis de datos;al análisis de datos
+investigación científica;la investigación científica;de la investigación científica;a la investigación científica
+crecimiento intelectual;el crecimiento intelectual;del crecimiento intelectual;a la crecimiento intelectual
+actividades académicas;las actividades académicas;de las actividades académicas;a las actividades académicas
+análisis cuantitativo;el análisis cuantitativo;del análisis cuantitativo;a la análisis cuantitativo
+diseño de experimentos;el diseño de experimentos;del diseño de experimentos;a la diseño de experimentos
+métodos de investigación;los métodos de investigación;de los métodos de investigación;a los métodos de investigación
+investigación intelectual;la investigación intelectual;de la investigación intelectual;a la investigación intelectual
+//
+medicina;la medicina;de la medicina;a la medicina
+cirugía;la cirugía;de la cirugía;a la cirugía
+bacterias;las bacterias;de las bacterias;a las bacterias
+reparación cutánea;la reparación cutánea;de la reparación cutánea;a la reparación cutánea
+sanidad;la sanidad;de la sanidad;a la sanidad
+ciencia médica;la ciencia médica;de la ciencia médica;a la ciencia médica
+fisiología;la fisiología;de la fisiología;a la fisiología
+farmacología;la farmacología;de la farmacología;a la farmacología
+tratamiento;el tratamiento;del tratamiento;al tratamiento
+diagnósticos;los diagnósticos;de los diagnósticos;a los diagnósticos
+intervención quirúrgica;la intervención quirúrgica;de la intervención quirúrgica;a la intervención quirúrgica
+anatomía;la anatomía;de la anatomía;a la anatomía
+bacteriología;la bacteriología;de la bacteriología;a la bacteriología
+patología;la patología;de la patología;a la patología
+gestión de enfermedades;la gestión de enfermedades;de la gestión de enfermedades;a la gestión de enfermedades
+atención al paciente;la atención al paciente;de la atención al paciente;a la atención al paciente
+medicina de urgencias;la medicina de urgencias;de la medicina de urgencias;a la medicina de urgencias
+enfermería;la enfermería;de la enfermería;a la enfermería
+investigación médica;la investigación médica;de la investigación médica;a la investigación médica
+salud pública;la salud pública;de la salud pública;a la salud pública
+virología;la virología;de la virología;a la virología
+ciencias de la salud;las ciencias de la salud;de las ciencias de la salud;a las ciencias de la salud
+//
+lucha;la lucha;de la lucha;a la lucha
+cuerpo a cuerpo;el cuerpo a cuerpo;del cuerpo a cuerpo;al cuerpo a cuerpo
+combate;el combate;del combate;al combate
+artes marciales;las artes marciales;de las artes marciales;a las artes marciales
+esgrima;la esgrima;de la esgrima;a la esgrima
+armamento;el armamento;del armamento;al armamento
+pelea;la pelea;de la pelea;a la pelea
+pugilismo;el pugilismo;del pugilismo;al pugilismo
+vallado;el vallado;del vallado;al vallado
+caballería;la caballería;de la caballería;a la caballería
+duelo;el duelo;del duelo;al duelo
+//
+minería;la minería;de la minería;a la minería
+cavado;el cavado;del cavado;al cavado
+cantera;la cantera;de la cantera;a la cantera
+minado a cielo abierto;el minado a cielo abierto;del minado a cielo abierto;al minado a cielo abierto
+excavación;la excavación;de la excavación;a la excavación
+prospección;la prospección;de la prospección;a la prospección
+mineral;el mineral;del mineral;al mineral
+túneles;los túneles;de los túneles;a los túneles
+perforación;la perforación;de la perforación;a la perforación
+minerales;los minerales;de los minerales;a los minerales
+gemología;la gemología;de la gemología;a la gemología
+geología;la geología;de la geología;a la geología
+movimiento de tierras;el movimiento de tierras;del movimiento de tierras;al movimiento de tierras
+//
+plantas;las plantas;de las plantas;a las plantas
+hierbas;las hierbas;de las hierbas;a las hierbas
+vegetales;los vegetales;de los vegetales;a los vegetales
+flora;la flora;de la flora;a la flora
+cultivación;la cultivación;de la cultivación;a la cultivación
+horticultura;la horticultura;de la horticultura;a la horticultura
+agricultura;la agricultura;de la agricultura;a la agricultura
+jardinería;la jardinería;de la jardinería;a la jardinería
+fruticultura;la fruticultura;de la fruticultura;a la fruticultura
+cosecha;la cosecha;de la cosecha;a la cosecha
+permacultura;la permacultura;de la permacultura;a la permacultura
+botánica;la botánica;de la botánica;a la botánica
+gestión de cultivos;la gestión de cultivos;de la gestión de cultivos;a la gestión de cultivos
+enriquecimiento del suelo;el enriquecimiento del suelo;del enriquecimiento del suelo;al enriquecimiento del suelo
+agricultura ecológica;la agricultura ecológica;de la agricultura ecológica;a la agricultura ecológica
+producción alimentaria;la producción alimentaria;de la producción alimentaria;a la producción alimentaria
+cultivos;los cultivos;de los cultivos;a los cultivos
+//
+fusiles;los fusiles;de los fusiles;a los fusiles
+armas;las armas;de las armas;a las armas
+puntería;la puntería;de la puntería;a la puntería
+disparos;los disparos;de los disparos;a los disparos
+juego de armas;el juego de armas;del juego de armas;al juego de armas
+tiro;el tiro;del tiro;al tiro
+armas de fuego;las armas de fuego;de las armas de fuego;a las armas de fuego
+francotiradores;los francotiradores;de los francotiradores;a los francotiradores
+balística;la balística;de la balística;a la balística
+combate a larga distancia;el combate a larga distancia;del combate a larga distancia;al combate a larga distancia
+tiro de precisión;el tiro de precisión;del tiro de precisión;al tiro de precisión
+destreza con el fusil;la destreza con el fusil;de la destreza con el fusil;a la destreza con el fusil
+práctica de tiro;la práctica de tiro;de la práctica de tiro;a la práctica de tiro
+disparos punzantes;los disparos punzantes;de los disparos punzantes;a los disparos punzantes
+tácticas a distancia;las tácticas a distancia;de las tácticas a distancia;a las tácticas a distancia
+colocación del disparo;la colocación del disparo;de la colocación del disparo;a la colocación del disparo
+manejo de armas;el manejo de armas;del manejo de armas;al manejo de armas
+tiro a distancia;el tiro a distancia;del tiro a distancia;al tiro a distancia
+//
+comunicación;la comunicación;de la comunicación;a la comunicación
+red;la red;de la red;a la red
+resolución de conflictos;la resolución de conflictos;de la resolución de conflictos;a la resolución de conflictos
+colaboración;la colaboración;de la colaboración;a la colaboración
+liderazgo;el liderazgo;del liderazgo;al liderazgo
+empatía;la empatía;de la empatía;a la empatía
+negociaciones;las negociaciones;de las negociaciones;a las negociaciones
+comercio;el comercio;del comercio;al comercio
+audición;la audición;de la audición;a la audición
+diplomacia;la diplomacia;de la diplomacia;a la diplomacia
+trabajo en equipo;el trabajo en equipo;del trabajo en equipo;al trabajo en equipo
+etiqueta;la etiqueta;de la etiqueta;a la etiqueta
+carisma;el carisma;del carisma;al carisma
+inteligencia social;la inteligencia social;de la inteligencia social;a la inteligencia social
+asertividad;la asertividad;de la asertividad;a la asertividad
+inteligencia emocional;la inteligencia emocional;de la inteligencia emocional;a la inteligencia emocional
+habilidades comunicativas;las habilidades comunicativas;de las habilidades comunicativas;a las habilidades comunicativas
