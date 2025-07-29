@@ -949,39 +949,39 @@
     <li>titleBasic(p=6)->[subject_primary], una literatura [randAdjective]</li>
     <li>titleBasic(p=6)->[randNoun] y [subject_primary]</li>
     <li>titleBasic->Lecciones de [subject_primary]</li>
-    <li>titleBasic->Pensamientos en [subject_primary]</li>
-    <li>titleBasic->Una guía para [subject_primary]</li>
-    <li>titleBasic->Introducción a [subject_primary]</li>
+    <li>titleBasic->Pensamientos sobre [subject_primary]</li>
+    <li>titleBasic->Una guía para {lookup: [subject_primary]; book}</li>
+    <li>titleBasic->Introducción {lookup: [subject_primary]; book; 3}</li>
     <li>titleBasic->Un manual sobre [subject_primary]</li>
-    <li>titleBasic->Fundamentos de [subject_primary]</li>
+    <li>titleBasic->Fundamentos {lookup: [subject_primary]; book; 2}</li>
     <li>titleBasic->Maestría en [subject_primary]</li>
-    <li>titleBasic->Los cimientos de [subject_primary]</li>
-    <li>titleBasic->Navegando el [subject_primary]</li>
+    <li>titleBasic->Los cimientos {lookup: [subject_primary]; book; 2}</li>
+    <li>titleBasic->Conocimientos sobre {lookup: [subject_primary]; book}</li>
     <li>titleBasic->Conceptos clave en [subject_primary]</li>
-    <li>titleBasic->El Arte de [subject_primary]</li>
+    <li>titleBasic->El arte {lookup: [subject_primary]; book; 2}</li>
     <li>titleBasic->Clase magistral: [subject_primary]</li>
     <li>titleBasic->Descodificando: [subject_primary]</li>
-    <li>titleBasic->Técnicas avanzadas en [subject_primary]</li>
-    <li>titleBasic->Desbloqueo de [subject_primary]</li>
-    <li>titleBasic->Guía práctica para [subject_primary]</li>
-    <li>titleBasic->Explorando el [subject_primary]</li>
+    <li>titleBasic->Técnicas avanzadas sobre [subject_primary]</li>
+    <li>titleBasic->Desbloqueo {lookup: [subject_primary]; book; 2}</li>
+    <li>titleBasic->Una guía práctica para {lookup: [subject_primary]; book}</li>
+    <li>titleBasic->Explorando {lookup: [subject_primary]; book}</li>
     <li>titleBasic->Consejos profesionales: [subject_primary]</li>
     <li>titleBasic->Entendimiento sobre [subject_primary]</li>
-    <li>titleBasic->Viaje a través de [subject_primary]</li>
-    <li>titleBasic->El camino de [subject_primary]</li>
-    <li>titleBasic->Perspectivas sobre [subject_primary]</li>
-    <li>titleBasic->Desentrañado de [subject_primary]</li>
-    <li>titleBasic->Secretos de [subject_primary]</li>
-    <li>titleBasic->Máster de [subject_primary]</li>
-    <li>titleBasic->Estudio en profundidad de [subject_primary]</li>
+    <li>titleBasic->Viaje a través {lookup: [subject_primary]; book; 2}</li>
+    <li>titleBasic->El camino {lookup: [subject_primary]; book; 2}</li>
+    <li>titleBasic->Perspectivas sobre {lookup: [subject_primary]; book}</li>
+    <li>titleBasic->Desentrañado {lookup: [subject_primary]; book}</li>
+    <li>titleBasic->Los secretos {lookup: [subject_primary]; book; 2}</li>
+    <li>titleBasic->Maestría sobre [subject_primary]</li>
+    <li>titleBasic->Estudio en profundidad {lookup: [subject_primary]; book; 2}</li>
     <li>titleAuthoredNoSubject->Estudios de [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredNoSubject->Estudios [randAdjective] de [ANYPAWN_nameIndef]s</li>
+    <li>titleAuthoredNoSubject->Estudios [randAdjective] de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Diario de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Crónicas de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Memorias de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Bitácora de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Reflexiones de [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredNoSubject->Aventuras de [ANYPAWN_nameIndef]s</li>
+    <li>titleAuthoredNoSubject->Aventuras de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Reflexiones de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Exploración de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Testimonios de [ANYPAWN_nameIndef].</li>
@@ -998,68 +998,76 @@
     <li>titleAuthoredNoSubject->Las Crónicas de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Las Memorias de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] en [subject_primary]</li>
-    <li>titleAuthoredOneSubject->Guía de [subject_primary] de [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredOneSubject->Introducción de [ANYPAWN_nameIndef] a [subject_primary]</li>
-    <li>titleAuthoredOneSubject->La Exploración de [ANYPAWN_nameIndef] en [subject_primary]</li>
-    <li>titleAuthoredOneSubject->Opiniones de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
-    <li>titleAuthoredOneSubject->Manual de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
-    <li>titleAuthoredOneSubject->Perspectivas de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
-    <li>titleAuthoredOneSubject->Manual de [ANYPAWN_nameIndef] para [subject_primary]</li>
-    <li>titleAuthoredOneSubject->Análisis de [subject_primary] por parte de [ANYPAWN_nameIndef].</li>
-    <li>titleAuthoredOneSubject->Acercamiento de [ANYPAWN_nameIndef] a [subject_primary]</li>
-    <li>titleAuthoredOneSubject->Descubrimientos de [ANYPAWN_nameIndef] en [subject_primary]</li>
-    <li>titleAuthoredOneSubject->Reflexiones de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->La guía {lookup: [subject_primary]; book; 2} de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Introducción de [ANYPAWN_nameIndef] {lookup: [subject_primary]; book; 3}</li>
+    <li>titleAuthoredOneSubject->La Exploración de [ANYPAWN_nameIndef] en {lookup: [subject_primary]; book}</li>
+    <li>titleAuthoredOneSubject->Opiniones de [ANYPAWN_nameIndef] sobre {lookup: [subject_primary]; book}</li>
+    <li>titleAuthoredOneSubject->Manual de [ANYPAWN_nameIndef] sobre {lookup: [subject_primary]; book}</li>
+    <li>titleAuthoredOneSubject->Perspectivas de [ANYPAWN_nameIndef] sobre {lookup: [subject_primary]; book}</li>
+    <li>titleAuthoredOneSubject->Manual de [ANYPAWN_nameIndef] para {lookup: [subject_primary]; book}</li>
+    <li>titleAuthoredOneSubject->Análisis {lookup: [subject_primary]; book; 2} por parte de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Acercamiento de [ANYPAWN_nameIndef] {lookup: [subject_primary]; book; 3}</li>
+    <li>titleAuthoredOneSubject->Los descubrimientos de [ANYPAWN_nameIndef] en [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Reflexiones de [ANYPAWN_nameIndef] sobre {lookup: [subject_primary]; book}</li>
     <li>titleAuthoredOneSubject->Estudio de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
     <li>titleAuthoredOneSubject->Investigación de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
-    <li>titleAuthoredOneSubject->Investigación de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] en [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->Guía de [subjectsTuple] de [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredTwoSubjects->Introducción de [ANYPAWN_nameIndef] a [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->La guía [subjectsTupleDe] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Introducción de [ANYPAWN_nameIndef] [subjectsTupleA]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] en [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->Guía de [subjectsTuple] de [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredTwoSubjects->Introducción de [ANYPAWN_nameIndef] a [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->La guía de [ANYPAWN_nameIndef] sobre [subjectsTupleElla]</li>
+    <li>titleAuthoredTwoSubjects->Introducción de [ANYPAWN_nameIndef] [subjectsTupleA]</li>
     <li>titleAuthoredTwoSubjects->La Exploración de [ANYPAWN_nameIndef] en [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->Opiniones de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Opiniones de [ANYPAWN_nameIndef] sobre [subjectsTupleElla]</li>
     <li>titleAuthoredTwoSubjects->Manual de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->Perspectivas de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->Manual de [ANYPAWN_nameIndef] para [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->Análisis de [subjectsTuple] por parte de [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredTwoSubjects->Acercamiento de [ANYPAWN_nameIndef] a [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->Descubrimientos de [ANYPAWN_nameIndef] en [subjectsTuple].</li>
+    <li>titleAuthoredTwoSubjects->Manual de [ANYPAWN_nameIndef] para [subjectsTupleElla]</li>
+    <li>titleAuthoredTwoSubjects->Análisis [subjectsTupleDe] por parte de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Acercamiento de [ANYPAWN_nameIndef] [subjectsTupleA]</li>
+    <li>titleAuthoredTwoSubjects->Los descubrimientos de [ANYPAWN_nameIndef] en [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->Reflexiones de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->Estudio de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->Investigación de [ANYPAWN_nameIndef] en [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->Investigación de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Investigación de [ANYPAWN_nameIndef] sobre [subjectsTupleElla]</li>
     <li>titleBasicTwoSubjects->[subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Introducción a [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Lo Mejor de [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Combinación de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Introducción [subjectsTupleA]</li>
+    <li>titleBasicTwoSubjects->Lo Mejor [subjectsTupleDe]</li>
+    <li>titleBasicTwoSubjects->Combinación [subjectsTupleDe]</li>
     <li>titleBasicTwoSubjects->Lecciones sobre [subjectsTuple]</li>
     <li>titleBasicTwoSubjects->Un Manual sobre [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Fundamentos de [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Maestría en [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Los Cimientos de [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Navegando el [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Fundamentos [subjectsTupleDe]</li>
+    <li>titleBasicTwoSubjects->Maestría sobre [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Los Cimientos [subjectsTupleDe]</li>
+    <li>titleBasicTwoSubjects->Manual de [subjectsTuple]</li>
     <li>titleBasicTwoSubjects->Conceptos clave en [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->El Arte de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->El Arte [subjectsTupleDe]</li>
     <li>titleBasicTwoSubjects->Clase magistral: [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Descodificando sobre [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Descodificando [subjectsTupleElla]</li>
     <li>titleBasicTwoSubjects->Técnicas avanzadas en [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Desbloqueo de [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Guía práctica para [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Explorando el [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Desbloqueo [subjectsTupleDe]</li>
+    <li>titleBasicTwoSubjects->Guía práctica para [subjectsTupleElla]</li>
+    <li>titleBasicTwoSubjects->Explorando [subjectsTupleElla]</li>
     <li>titleBasicTwoSubjects->Consejos profesionales: [subjectsTuple]</li>
     <li>titleBasicTwoSubjects->Entendimiento sobre [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Viaje a través de [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->El Camino de [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Perspectivas sobre [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Desentrañado de [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Secretos de [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Máster en [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->Estudio en profundidad de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Viaje a través [subjectsTupleDe]</li>
+    <li>titleBasicTwoSubjects->El Camino [subjectsTupleDe]</li>
+    <li>titleBasicTwoSubjects->Perspectivas sobre [subjectsTupleElla]</li>
+    <li>titleBasicTwoSubjects->Desentrañado [subjectsTupleElla]</li>
+    <li>titleBasicTwoSubjects->Secretos [subjectsTupleDe]</li>
+    <li>titleBasicTwoSubjects->Maestría en [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Un estudio en profundidad [subjectsTupleDe]</li>
     <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary] y [subject_secondary]</li>
     <li>subjectsTuple->[subject_secondary], [subject_primary] y [randTheme]</li>
     <li>subjectsTuple->[subject_primary] y [randTheme]</li>
+    <li>subjectsTupleElla(has_subject_secondary==true,p=6)->{lookup: [subject_primary]; book} y {lookup: [subject_secondary]; book}</li>
+    <li>subjectsTupleElla->{lookup: [subject_secondary]; book}, {lookup: [subject_primary]; book} y [randTheme]</li>
+    <li>subjectsTupleElla->{lookup: [subject_primary]; book} y [randTheme]</li>
+    <li>subjectsTupleDe(has_subject_secondary==true,p=6)->{lookup: [subject_primary]; book; 2} y {lookup: [subject_secondary]; book}</li>
+    <li>subjectsTupleDe->{lookup: [subject_secondary]; book; 2}, {lookup: [subject_primary]; book} y [randTheme]</li>
+    <li>subjectsTupleDe->{lookup: [subject_primary]; book; 2} y [randTheme]</li>
+    <li>subjectsTupleA(has_subject_secondary==true,p=6)->{lookup: [subject_primary]; book; 3} y {lookup: [subject_secondary]; book}</li>
+    <li>subjectsTupleA->{lookup: [subject_secondary]; book; 3}, {lookup: [subject_primary]; book} y [randTheme]</li>
+    <li>subjectsTupleA->{lookup: [subject_primary]; book; 3} y [randTheme]</li>
     <li>randNoun->Muerte</li>
     <li>randNoun->Vida</li>
     <li>randNoun->Amor</li>
