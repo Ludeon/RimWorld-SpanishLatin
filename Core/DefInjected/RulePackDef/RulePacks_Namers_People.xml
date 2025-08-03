@@ -22,15 +22,15 @@
   -->
   <NamerPersonCorunan.rulePack.rulesStrings>
     <li>r_name(p=2)->[WordTribal] [WordTribalCap]</li>
-    <li>r_name(p=0.3)->[WordTribal] "[AnimalBadassAny_Cap]" [WordTribalCap]</li>
-    <li>r_name(p=0.2)->[WordTribal] [Animal_Cap] [ColorCap]</li>
-    <li>r_name(p=0.2)->[WordTribal] [AnimalFCap] [ColorFCap]</li>
-    <li>r_name->[Animal] [WordTribalCap]</li>
-    <li>r_name->[AnimalF] [WordTribalCap]</li>
-    <li>r_name->[Animal] [ColorCap] [WordTribalNameCap]</li>
-    <li>r_name->[Animal] [WordTribalNameCap]</li>
-    <li>r_name->[AnimalF] [ColorFCap] [WordTribalNameCap]</li>
-    <li>r_name->[AnimalF] [WordTribalNameCap]</li>
+    <li>r_name->[WordTribal] "[AnimalBadassAny_Cap]" [WordTribalCap]</li>
+    <li>r_name->[WordTribal] [Animal_Cap] [ColorCap]</li>
+    <li>r_name->[WordTribal] [AnimalFCap] [ColorFCap]</li>
+    <li>r_name(p=0.33)->[Animal] [WordTribalCap]</li>
+    <li>r_name(p=0.33)->[AnimalF] [WordTribalCap]</li>
+    <li>r_name(p=0.33)->[Animal] [ColorCap] [WordTribalNameCap]</li>
+    <li>r_name(p=0.33)->[Animal] [WordTribalNameCap]</li>
+    <li>r_name(p=0.33)->[AnimalF] [ColorFCap] [WordTribalNameCap]</li>
+    <li>r_name(p=0.33)->[AnimalF] [WordTribalNameCap]</li>
     <li>r_name(p=0.5)->[TribalFirstName] [TribalLastName]</li>
   </NamerPersonCorunan.rulePack.rulesStrings>
   
