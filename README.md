@@ -4,13 +4,13 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.6.4539-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.6.4545-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of RimWorld version 1.6.4539
+This is the Latin American Spanish translation of RimWorld version 1.6.4545
 
-Esta es la traducción para latinoamérica de RimWorld versión 1.6.4539
+Esta es la traducción para latinoamérica de RimWorld versión 1.6.4545
 
 See this [page](http://ludeon.com/forums/index.php?topic=2933.0) for license info:
 
@@ -35,7 +35,7 @@ Podeís seguir una de estas dos guías ([manual](#manual) o [automática](Instal
 - - -
 Si quieres ver esta guía de instalación con imágenes pasa por nuestro discord.
 
-Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 17/07/2025. 
+Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 08/08/2025. 
 - - -
 Para mayor información de cómo colaborar en la traducción, puedes revisar la [Wiki](https://github.com/Ludeon/RimWorld-SpanishLatin/wiki) se ha creado para ello. 
 - - -
