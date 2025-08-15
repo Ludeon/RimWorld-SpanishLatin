@@ -248,7 +248,9 @@
   <!-- EN: Must include exactly {SUMMARY} -->
   <SelectedCharactersMustInclude>Debe incluir exactamente {SUMMARY}</SelectedCharactersMustInclude>
   <!-- EN: All colonists must be {0} -->
-  <SelectedCharactersMustBeOfAllowedDevelopmentalStages>Todos los colonos deben ser {0}</SelectedCharactersMustBeOfAllowedDevelopmentalStages> <!-- text_todo -->
+  <SelectedCharactersMustBeOfAllowedDevelopmentalStages>Todos los colonos deben ser {0}</SelectedCharactersMustBeOfAllowedDevelopmentalStages>
+  <!-- EN: At least one colonist must be capable of {0} -->
+  <SelectedCharacterMustBeCapableOf>Al menos un colono debe ser capaz de {0}.</SelectedCharacterMustBeCapableOf>
 
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
@@ -1231,7 +1233,7 @@
   <!-- EN: {0_labelShort} is already inspired. -->
   <AbilityAlreadyInspired>{0_labelShort} ya está inspirad{0_gender ? o : a}.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
-  <AbilityCantGetInspiredNow>{0_labelShort} no puede conseguir una inspiración en este momento.</AbilityCantGetInspiredNow>
+  <AbilityCantGetInspiredNow>{0_labelShort} no puede inspirarse ahora.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
   <AbilityMustBeNotSameIdeo>{0_labelShort} debe ser de una ideoligión diferente a la de {1_labelShort}.</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
