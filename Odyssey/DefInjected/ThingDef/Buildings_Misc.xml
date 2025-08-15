@@ -61,7 +61,19 @@
   <AncientHatch.comps.CompHackable.hackedMessage>{HACKER_labelShort} ha terminado de hackear {SUBJECT_labelNoParenthesisDef}.</AncientHatch.comps.CompHackable.hackedMessage>
   <!-- EN: Hack to open. -->
   <AncientHatch.comps.CompHackable.notHackedInspectString>Hackear para abrir.</AncientHatch.comps.CompHackable.notHackedInspectString>
-  
+  <!-- EN: Sealed -->
+  <AncientHatch.comps.CompSealable.cannotEnterLabel>Sellado</AncientHatch.comps.CompSealable.cannotEnterLabel>
+  <!-- EN: Cannot seal -->
+  <AncientHatch.comps.CompSealable.cannotSealLabel>No se puede sellar</AncientHatch.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <AncientHatch.comps.CompSealable.confirmSealText>El sellado del acceso al almacén antiguo es permanente. Cualquier cosa o persona que quede dentro se perderá para siempre.{0}\n\n¿Estás seguro de que quieres continuar?</AncientHatch.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <AncientHatch.comps.CompSealable.sealCommandDesc>Elige a un colono para sellar permanentemente el acceso. Cualquier cosa o persona que quede dentro se perderá para siempre.</AncientHatch.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Seal entrance -->
+  <AncientHatch.comps.CompSealable.sealCommandLabel>Sellar acceso</AncientHatch.comps.CompSealable.sealCommandLabel>
+  <!-- EN: Permanently sealed. -->
+  <AncientHatch.comps.CompSealable.sealedInspectString>Acceso sellado permanentemente.</AncientHatch.comps.CompSealable.sealedInspectString>
+
   <!-- EN: ancient stockpile exit -->
   <AncientHatchExit.label>salida de almacén antiguo</AncientHatchExit.label>
   <!-- EN: A ladder which links to the surface hatch above. -->
