@@ -383,8 +383,9 @@
     <li>founder_Heroe(founder_gender==Male)->Un héroe</li>
     <li>founder_Heroe(founder_gender!=Male)->Una heroína</li>
     <!-- pilgrim -->
-    <li>siendo(pilgrimCount==1)->y está siedo respetado</li>
-    <li>siendo(pilgrimCount>=2)->y están siendo respetados</li>
+    <li>siendo(pilgrimCount==1,pawns0==Male)->es respetado</li>
+    <li>siendo(pilgrimCount==1,pawns0!=Male)->es respetada</li>
+    <li>siendo(pilgrimCount>=2)->son respetados</li>
     <li>mayOffers(pilgrimCount==1)->puede</li>
     <li>mayOffers(pilgrimCount>=2)->pueden</li>
     <!--Tales Jobs-->
