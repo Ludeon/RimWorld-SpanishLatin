@@ -4,13 +4,13 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.6.4563-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.6.4565-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of RimWorld version 1.6.4563
+This is the Latin American Spanish translation of RimWorld version 1.6.4565
 
-Esta es la traducción para latinoamérica de RimWorld versión 1.6.4563
+Esta es la traducción para latinoamérica de RimWorld versión 1.6.4565
 
 See this [page](http://ludeon.com/forums/index.php?topic=2933.0) for license info:
 
@@ -35,7 +35,7 @@ Podeís seguir una de estas dos guías ([manual](#manual) o [automática](Instal
 - - -
 Si quieres ver esta guía de instalación con imágenes pasa por nuestro discord.
 
-Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 08/08/2025. 
+Grupo de Discord: [Team Facción Hispana](https://discord.gg/EjK52KM) actualizado el 27/08/2025. 
 - - -
 Para mayor información de cómo colaborar en la traducción, puedes revisar la [Wiki](https://github.com/Ludeon/RimWorld-SpanishLatin/wiki) se ha creado para ello. 
 - - -
@@ -47,6 +47,7 @@ Thanks to Odyssey contributors:
 
 * __[BernyGonzalez](https://github.com/BernyGonzalez) (Active)__
 * __[Zerstrick](https://github.com/zerstrick) (Active)__
+* __[VITO1189](https://github.com/leticiacostan) (Active)__ 
 * __[Israel Gallego Mateos-Carnal (Anth)](https://github.com/Wolf-Igmc4) (Spanish Translator)__
 
 Thanks to Anomaly contributors: 
@@ -86,9 +87,7 @@ Thanks to AM for the 1.019XX version:
 * __[Etaglibash](https://github.com/Etaglibash) (Inactive)__
 * __[Andres6936](https://github.com/Andres6936) (Inactive)__
 
-
 Thanks to AM for the 10f. version.
-
 Thanks for original spanish translation.
 
 * __[Mora145](https://github.com/mora145) (Inactive)__
