@@ -48,7 +48,7 @@ Thanks to Odyssey contributors:
 * __[BernyGonzalez](https://github.com/BernyGonzalez) (Active)__
 * __[Zerstrick](https://github.com/zerstrick) (Active)__
 * __[VITO1189](https://github.com/leticiacostan) (Active)__ 
-* __[Israel Gallego Mateos-Carnal (Anth)](https://github.com/Wolf-Igmc4) (Spanish Translator)__
+* __[Israel Gallego (Anth)](https://github.com/Wolf-Igmc4) (Spanish Translator)__
 
 Thanks to Anomaly contributors: 
 
