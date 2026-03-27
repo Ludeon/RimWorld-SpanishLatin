@@ -36,23 +36,23 @@
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
   <AutofeedModeTooltipChildcare>{FEEDER_nameDef} alimentará a {BABY_nameDef} por estar asignad{FEEDER_gender ? o : a} a cuidar niños.</AutofeedModeTooltipChildcare>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
-  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} alimentará a {BABY_nameDef} de día o de noche, incluso si {FEEDER_nameDef} no está asignad{FEEDER_gender ? o : a}  a cuidar niños o sea incapaz de hacerlo.</AutofeedModeTooltipUrgent>
+  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} alimentará a {BABY_nameDef} de día o de noche, incluso si {FEEDER_nameDef} no está asignad{FEEDER_gender ? o : a} a cuidar niños o sea incapaz de hacerlo.</AutofeedModeTooltipUrgent>
   <!-- EN: Consumable foods -->
   <BabyFoodConsumables>Alimentos consumibles</BabyFoodConsumables>
 
   <!-- Social tab (human babies) -->
   <!-- EN: ideoligion exposure -->
-  <IdeoExposureSectionHeader>exposición a la ideología</IdeoExposureSectionHeader>
+  <IdeoExposureSectionHeader>exposición a la ideoligión</IdeoExposureSectionHeader>
   <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
-  <IdeoExposureNoExposure>{BABY_labelShort} aún no ha sido expuest{BABY_gender ? o : a} a ninguna ideología.</IdeoExposureNoExposure>
+  <IdeoExposureNoExposure>{BABY_labelShort} aún no ha sido expuest{BABY_gender ? o : a} a ninguna ideoligión.</IdeoExposureNoExposure>
   <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
-  <IdeoExposureNoExposureDetail>{BABY_pronoun} puede ser expuest{BABY_gender ? o : a} a las ideologias al interactuar con los seguidores de una ideoligión. Estas interacciones incluyen ser amamantados, llevados en brazos, jugar con ellos, etc. A la edad de {CHILDAGE}, {BABY_labelShort} se unirá a una de las ideoligiones a las que {BABY_pronoun} haya estado expuesto.</IdeoExposureNoExposureDetail>
+  <IdeoExposureNoExposureDetail>Puede ser expuest{BABY_gender ? o : a} a las ideoligiones al interactuar con los seguidores de una ideoligión. Estas interacciones incluyen ser amamantado, llevado en brazos, jugar con {BABY_pronoun}, etc. A la edad de {CHILDAGE}, {BABY_labelShort} se unirá a una de las ideoligiones a las que haya estado expuest{BABY_gender ? o : a}.</IdeoExposureNoExposureDetail>
   <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
   <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} tiene un {PERCENT} de probabilidades de unirse a la ideoligión {IDEO_name}.</IdeoExposurePointsTooltipJoinLikelihood>
   <!-- EN: As {BABY_labelShort} interacts with followers of an ideoligion {BABY_pronoun} becomes more likely to join that ideoligion. {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to at the age of {CHILDAGE}. -->
-  <IdeoExposurePointsTooltipJoinDescription>A medida que {BABY_labelShort} se relaciona con los seguidores de una ideoligión, {BABY_pronoun} tiene más probabilidades de unirse a esa ideoligión. {BABY_labelShort} se unirá a una de las ideoligiones a las que {BABY_pronoun} ha estado expuest{BABY_gender ? o : a} a la edad de {CHILDAGE}.</IdeoExposurePointsTooltipJoinDescription>
+  <IdeoExposurePointsTooltipJoinDescription>A medida que {BABY_labelShort} se relaciona con los seguidores de una ideoligión, {BABY_pronoun} tiene más probabilidades de unirse a esa ideoligión. {BABY_labelShort} se unirá a una de las ideoligiones a las que ha estado expuest{BABY_gender ? o : a} a la edad de {CHILDAGE}.</IdeoExposurePointsTooltipJoinDescription>
   <!-- EN: Ideoligion exposure is measured by exposure points. Interactions like being breastfed, carried, or played with will cause {BABY_labelShort} to gain exposure points for the ideoligions followed by those {BABY_pronoun} interacts with. -->
-  <IdeoExposurePointsTooltipExposureDescription>La exposición a las ideoligiones se mide por puntos de exposición. Interacciones como ser amamantado, cargado o jugar, harán que {BABY_labelShort} gane puntos de exposición para las ideoligiones seguidas de aquellas con las que {BABY_pronoun} interactúa.</IdeoExposurePointsTooltipExposureDescription>
+  <IdeoExposurePointsTooltipExposureDescription>La exposición a las ideoligiones se mide por puntos de exposición. Interacciones como ser amamantado, cargado o jugar, harán que {BABY_labelShort} gane puntos de exposición para las ideoligiones seguidas de aquellas con las que interactúa.</IdeoExposurePointsTooltipExposureDescription>
   <!-- EN: {IDEO_name} exposure points -->
   <IdeoExposurePointsTooltipIdeoExposure>Puntos de exposición de {IDEO_name}</IdeoExposurePointsTooltipIdeoExposure>
   <!-- EN: Total exposure points -->

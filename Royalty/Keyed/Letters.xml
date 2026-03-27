@@ -147,7 +147,7 @@
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
   <LetterPartBestowingExtraHonor>{PAWN_labelShort} recibió {1} de honor en señal de respeto de la facción {FACTION_name}, por reunir a {3} espectadores.</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
-  <LetterPartNoExtraHonor>{PAWN_labelShort} no recibió ningún honor extra ya que no había muchos espectadores.</LetterPartNoExtraHonor>
+  <LetterPartNoExtraHonor>{PAWN_labelShort} no recibió ningún honor extra porque no había muchos espectadores.</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
   <LetterPartMoodBonus>Todos los espectadores de la ceremonia recibieron una bonificación de humor.</LetterPartMoodBonus>
 
@@ -164,6 +164,6 @@
   <!-- EN: Transport pod crash: {0_nameDef} -->
   <LetterLabelWandererJoinsAbasia>Cápsula de transporte estrellada: {0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>{0_gender ? Un : Una} {0_title} de nombre {0_nameDef} se ha estrellado en una cápsula de transporte en las cercanías.\n\nSufre de {1_label} y no podrá caminar.\n\nSe recuperará de forma natural después de muchos días. También hay una posibilidad de una recuperación rápida y afortunada. La {1_label} también puede ser curada con una operación especial que requiere una gran cantidad de medicina de mundobrillante.\n\n{0_nameDef} está dispuest{0_gender ? o : a} a contribuir una vez que se haya recuperado, pero no se irá voluntariamente. Si no quieres que se quede, puedes optar por desterrar, vender como esclav{0_gender ? o : a} o dejar{0_objective} morir. Sin embargo, tus otros colonos pueden encontrar esto perturbador.</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>{0_gender ? Un : Una} {0_title} de nombre {0_nameDef} se ha estrellado en una cápsula de transporte en las cercanías.\n\nSufre de {1_label} y no podrá caminar.\n\nSe recuperará de forma natural después de muchos días. También existe la posibilidad de una recuperación rápida y afortunada. La {1_label} también puede ser curada con una operación especial que requiere una gran cantidad de medicina de mundobrillante.\n\n{0_nameDef} está dispuest{0_gender ? o : a} a contribuir una vez que se haya recuperado, pero no se irá voluntariamente. Si no quieres que se quede, puedes optar por desterrar, vender como esclav{0_gender ? o : a} o dejar{0_objective} morir. Sin embargo, tus otros colonos pueden encontrar esto perturbador.</LetterTextWandererJoinsAbasia>
 
 </LanguageData>

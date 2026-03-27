@@ -27,7 +27,7 @@
   <!-- EN: colonist banished -->
   <ColonistBanished.stages.colonist_banished.label>colono desterrado</ColonistBanished.stages.colonist_banished.label>
   <!-- EN: We just banished someone. I hope they make it, but I'm worried. -->
-  <ColonistBanished.stages.colonist_banished.description>Acabamos de desterrar a alguien. Espero que lo logren, pero estoy afligid{PAWN_gender ? o : a}.</ColonistBanished.stages.colonist_banished.description>
+  <ColonistBanished.stages.colonist_banished.description>Acabamos de desterrar a alguien. Espero que sobrevivan, pero estoy afligid{PAWN_gender ? o : a}.</ColonistBanished.stages.colonist_banished.description>
   
   <!-- EN: colonist banished to death -->
   <ColonistBanishedToDie.stages.colonist_banished_to_death.label>colono desterrado y abandonado</ColonistBanishedToDie.stages.colonist_banished_to_death.label>
@@ -60,12 +60,12 @@
   <!-- EN: denied joining -->
   <DeniedJoining.stages.denied_joining.label>ingreso denegado</DeniedJoining.stages.denied_joining.label>
   <!-- EN: We just denied someone's request to join us. I hope they make it. -->
-  <DeniedJoining.stages.denied_joining.description>Acabamos de denegar la solicitud de alguien para unirse a nosotros.</DeniedJoining.stages.denied_joining.description>
+  <DeniedJoining.stages.denied_joining.description>Acabamos de denegar la solicitud de alguien para unirse a nosotros. Espero que sobreviva.</DeniedJoining.stages.denied_joining.description>
   
   <!-- EN: failed to rescue {0} -->
   <FailedToRescueRelative.stages.failed_to_rescue.label>rescate fallido {0}</FailedToRescueRelative.stages.failed_to_rescue.label>
   <!-- EN: We had a chance to rescue my relative, and failed. I could have helped! -->
-  <FailedToRescueRelative.stages.failed_to_rescue.description>Fallamos en rescatar a uno de mis parientes. Saber que podría haberle ayudado hace que sea aún más difícil sobrellevar la muerte de mi ser querido.</FailedToRescueRelative.stages.failed_to_rescue.description>
+  <FailedToRescueRelative.stages.failed_to_rescue.description>Tuvimos la oportunidad de rescatar a mi pariente, pero fallamos. ¡Podría haber ayudado!</FailedToRescueRelative.stages.failed_to_rescue.description>
   
   <!-- EN: freed from slavery -->
   <FreedFromSlavery.stages.freed_from_slavery.label>liberad{PAWN_gender ? o : a} de la esclavitud</FreedFromSlavery.stages.freed_from_slavery.label>
@@ -78,7 +78,7 @@
   <HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>Extraer la carne de sus cuerpos es tan sangriento y satisfactorio.</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>
   
   <!-- EN: killed someone -->
-  <KilledHumanlikeBloodlust.stages.killed_someone.label>alguien asesinado</KilledHumanlikeBloodlust.stages.killed_someone.label>
+  <KilledHumanlikeBloodlust.stages.killed_someone.label>he matado a alguien</KilledHumanlikeBloodlust.stages.killed_someone.label>
   <!-- EN: I killed someone! What a rush! -->
   <KilledHumanlikeBloodlust.stages.killed_someone.description>¡He matado a alguien! ¡Qué intenso!</KilledHumanlikeBloodlust.stages.killed_someone.description>
   
@@ -169,7 +169,7 @@
   <!-- EN: rescued {0} -->
   <RescuedRelative.stages.rescued.label>{0} rescatad{0_gender ? o : a}</RescuedRelative.stages.rescued.label>
   <!-- EN: We rescued one of my relatives. Finally, I can breathe a sigh of relief. -->
-  <RescuedRelative.stages.rescued.description>Rescatamos a uno de mis parientes. Ahora que sé que está a salvo, finalmente puedo respirar con alivio.</RescuedRelative.stages.rescued.description>
+  <RescuedRelative.stages.rescued.description>Rescatamos a uno de mis parientes. Finalmente puedo respirar con alivio.</RescuedRelative.stages.rescued.description>
   
   <!-- EN: disturbed sleep -->
   <SleepDisturbed.stages.disturbed_sleep.label>sueño perturbado</SleepDisturbed.stages.disturbed_sleep.label>

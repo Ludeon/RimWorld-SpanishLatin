@@ -78,18 +78,18 @@
   <DidSurgery.rulePack.rulesStrings>
     <li>tale_noun->[SURGEON_nameDef] operó a [PATIENT_nameDef]</li>
     <li>tale_noun->[SURGEON_nameDef] realizó una operación médica a [PATIENT_nameDef]</li>
-    <li>tale_noun->operaron de [PATIENT_nameDef]</li>
+    <li>tale_noun->operación de [PATIENT_nameDef]</li>
     <li>image->[SURGEON_nameFull] poniendo a [PATIENT_nameFull] a dormir con anestesia [circumstance_group]</li>
     <li>image->[SURGEON_nameFull] con los dedos dentro de [PATIENT_nameDef] en medio de una operación [circumstance_group]</li>
     <li>image->[SURGEON_nameFull] abriendo a [PATIENT_nameFull] con un bisturí [circumstance_group]</li>
     <li>circumstance_phrase->mientras [PATIENT_nameFull] tiembla de miedo</li>
     <li>circumstance_phrase->mientras la sangre encharca los pies de [SURGEON_nameDef]</li>
-    <li>circumstance_phrase->mientras le rodea de intrumentos quirúrgicos amenazadores</li>
+    <li>circumstance_phrase->mientras le rodea de instrumentos quirúrgicos amenazadores</li>
     <li>circumstance_phrase->con herramientas improvisadas pero eficaces</li>
     <li>desc_sentence->[SURGEON_nameDef] suda profusamente.</li>
     <li>desc_sentence->[SURGEON_nameDef] parece muy confundid[SURGEON_o_a].</li>
     <li>desc_sentence->[SURGEON_nameDef] tiene sangre en su rostro.</li>
-    <li>desc_sentence->[SURGEON_nameDef] se agita y se retuerce.</li>
+    <li>desc_sentence->[PATIENT_nameDef] se agita y se retuerce.</li>
   </DidSurgery.rulePack.rulesStrings>
   
   <!-- EN: prisoner executed -->
@@ -138,7 +138,7 @@
     <li>circumstance_phrase->sonriendo dominantemente</li>
     <li>circumstance_phrase->con lágrimas en sus ojos</li>
     <li>circumstance_phrase->con una mirada de total indiferencia</li>
-    <li>circumstance_phrase->inflingiendo un dolor innecesario</li>
+    <li>circumstance_phrase->infligiendo un dolor innecesario</li>
     <li>circumstance_phrase->mientras piensa en otra cosa</li>
     <li>circumstance_phrase->por el bien común</li>
     <li>desc_sentence->[EXECUTIONER_nameDef] suda profusamente.</li>
@@ -356,7 +356,7 @@
     <li>tale_noun->[SELLER_nameDef] vendió a [PRISONER_nameDef] como esclav[PRISONER_o_a]</li>
     <li>tale_noun->[PRISONER_nameDef] fue vendid[PRISONER_o_a] como esclav[PRISONER_o_a] por [SELLER_nameDef]</li>
     <li>image->[TRADER_nameFull] comprando a [PRISONER_nameFull] a [SELLER_nameFull] [circumstance_group]</li>
-    <li>image->[SELLER_nameFull] vendiendo a [PRISONER_nameFull] a [SELLER_nameFull] [circumstance_group]</li>
+    <li>image->[SELLER_nameFull] vendiendo a [PRISONER_nameFull] a [TRADER_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->mientras los demás colonos observan con desapruebo</li>
     <li>circumstance_phrase->mientras [SELLER_nameDef] cuenta su dinero</li>
     <li>circumstance_phrase->mientras [PRISONER_nameDef] se queja</li>
@@ -502,7 +502,7 @@
     <li>desc_sentence->[TRAINER_nameDef] se ve aburrid[TRAINER_o_a].</li>
     <li>desc_sentence->[TRAINER_nameDef] agita su puño amenazadoramente.</li>
     <li>desc_sentence->[TRAINER_nameDef] frunce su ceño.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] parece confundido(a).</li>
+    <li>desc_sentence->[ANIMAL_nameDef] muestra signos de confusión.</li>
     <li>desc_sentence->[ANIMAL_nameDef] tiene un arma en su hocico.</li>
     <li>desc_sentence->[ANIMAL_nameDef] gruñe.</li>
     <li>desc_sentence->[TRAINER_nameDef] sacude su cabeza con frustración.</li>
