@@ -3,7 +3,7 @@
 
   <!-- Various -->
   <!-- EN: hit points -->
-  <HitPointsBasic>puntos de daño</HitPointsBasic>
+  <HitPointsBasic>durabilidad</HitPointsBasic>
   <!-- EN: Work left -->
   <WorkLeft>Trabajo restante</WorkLeft>
   <!-- EN: Contents -->
@@ -183,7 +183,7 @@
   <!-- EN: people -->
   <People>personas</People>
   <!-- EN: time passed -->
-  <TimePassed>tiempo transcurrrido</TimePassed>
+  <TimePassed>tiempo transcurrido</TimePassed>
   <!-- EN: current radius -->
   <CurrentRadius>radio actual</CurrentRadius>
   <!-- EN: radius expands in -->
@@ -225,7 +225,7 @@
   <!-- EN: {0} in mental state -->
   <CaravanPawnsInMentalState>{0} en estado mental</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>{0} derribado</CaravanPawnsDowned>
+  <CaravanPawnsDowned>{replace: ^{0} inconscientes; "^1 inconscientes"-"1 inconsciente"; "^"-""}</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
   <CaravanTraveling>Viajando.</CaravanTraveling>
   <!-- EN: Waiting. -->
@@ -631,9 +631,9 @@
   <!-- EN: flying -->
   <Flying>volando</Flying>
   <!-- EN: Prevent cutting -->
-  <PreventCutting>Evitar cortar</PreventCutting>
+  <PreventCutting>No cortar</PreventCutting>
   <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>Cuando está activo, los colonos no cortaran esta planta.</PreventCuttingDesc>
+  <PreventCuttingDesc>Cuando está activo, los colonos no cortarán esta planta.</PreventCuttingDesc>
 
   <!-- EN: Resulting from trait -->
   <ComesFromTrait>Resultado del rasgo</ComesFromTrait>
@@ -1237,7 +1237,7 @@
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
-  <HitPoints>{0} puntos de daño</HitPoints>
+  <HitPoints>{0} de durabilidad</HitPoints>
   <!-- EN: any quality -->
   <AnyQuality>cualquier calidad</AnyQuality>
   <!-- EN: {0} only -->
@@ -2095,7 +2095,7 @@
   <!-- EN: Fill in -->
   <DesignatorFillIn>Rellenar</DesignatorFillIn>
   <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
-  <DesignatorFillInDesc>Rellena esta fosa madriguera.</DesignatorFillInDesc>
+  <DesignatorFillInDesc>Designa este cráter para rellenarlo. Un colono asignado a construcción lo rellenará.</DesignatorFillInDesc>
 
   <!-- Hacking -->
   <!-- EN: Hack progress -->

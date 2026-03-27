@@ -38,7 +38,7 @@
   <Bartender62.titleShortFemale>cantinera</Bartender62.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] protected whoever paid [PAWN_objective]. [PAWN_pronoun] gained proficiency in many different combat forms, and was known for [PAWN_possessive] ruthlessness against those who crossed [PAWN_objective]. -->
-  <Bodyguard58.description>[PAWN_nameDef] encontró trabajo en un mundo medieval, protegiendo del peligro a quien sea que le pagara. Ganó habilidad en varias formas de combate y se le conocía por su implacabilidad contra aquellos que se cruzaran en su camino.</Bodyguard58.description>
+  <Bodyguard58.description>[PAWN_nameDef] protegió a quienquiera que le pagara. Se volvió expert{PAWN_gender ? o : a} en muchas formas de combate y se le conocía por su implacabilidad contra aquellos que se cruzaban en su camino.</Bodyguard58.description>
   <!-- EN: bodyguard -->
   <Bodyguard58.title>guardaespalda</Bodyguard58.title>
   <Bodyguard58.titleFemale>guardaespalda</Bodyguard58.titleFemale>
@@ -92,7 +92,7 @@
   <ConceptualArtist39.titleShortFemale>artista</ConceptualArtist39.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was a construction worker. [PAWN_pronoun] lead a team which built everything from office blocks to cathedrals.\n\n[PAWN_possessive] busy job and numerous nearby fast-food outlets meant [PAWN_pronoun] never cooked for [PAWN_objective]self. -->
-  <ConstructionEngineer32.description>[PAWN_nameDef] fue {PAWN_gender ? un obrero : una obrera} de la construcción en un mundo medieval. Lideró a un equipo que construía de todo, desde oficinas hasta catedrales.\n\nSu trabajo consumía todo su tiempo, por lo que siempre se alimentaba de comida rápida. Jamás ha cocinado algo en su vida.</ConstructionEngineer32.description>
+  <ConstructionEngineer32.description>[PAWN_nameDef]  trabajó como {PAWN_gender ? obrero : obrera}. Lideró un equipo que construía de todo, desde bloques de oficinas hasta catedrales.\n\nSu trabajo consumía todo su tiempo, por lo que siempre se alimentaba de comida rápida. Jamás ha cocinado para sí mism{PAWN_gender ? o : a} en su vida.</ConstructionEngineer32.description>
   <!-- EN: construction engineer -->
   <ConstructionEngineer32.title>ingeniero civil</ConstructionEngineer32.title>
   <ConstructionEngineer32.titleFemale>ingeniera civil</ConstructionEngineer32.titleFemale>
@@ -113,7 +113,7 @@
   <CorporateManager76.description>[PAWN_nameDef] trabajó en una oficina enorme de planta abierta, asegurando que su equipo de trabajadores asignado permaneciera principalmente en la tarea.\n\nEl trabajo era intensamente político. Para avanzar, [PAWN_nameDef] aprendió cómo organizar las cosas para así tomar el crédito por el trabajo realizado por casi cualquier persona.</CorporateManager76.description>
   <!-- EN: corporate manager -->
   <CorporateManager76.title>gerente corporativo</CorporateManager76.title>
-  <CorporateManager76.titleFemale>gerente corporativo</CorporateManager76.titleFemale>
+  <CorporateManager76.titleFemale>gerente corporativa</CorporateManager76.titleFemale>
   <!-- EN: manager -->
   <CorporateManager76.titleShort>gerente</CorporateManager76.titleShort>
   <CorporateManager76.titleShortFemale>gerente</CorporateManager76.titleShortFemale>
@@ -155,7 +155,7 @@
   <Drifter67.titleShortFemale>errante</Drifter67.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] denies involvement in the crimes that brought about [PAWN_possessive] incarceration in a brutal penal colony. [PAWN_pronoun] escaped by tunneling beneath the perimeter using modified cutlery. -->
-  <EscapedConvict90.description>[PAWN_nameDef] niega cualquier relación con los crímenes que [PAWN_objective] llevaron a su encarcelamiento en una brutal colonia penal. Escapó excavando un tunel por debajo de la muralla perimetral usando cubiertos modificados.</EscapedConvict90.description>
+  <EscapedConvict90.description>[PAWN_nameDef] niega cualquier relación con los crímenes que [PAWN_objective] llevaron a su encarcelamiento en una brutal colonia penal. Escapó excavando un túnel por debajo de la muralla perimetral usando cubiertos modificados.</EscapedConvict90.description>
   <!-- EN: escaped convict -->
   <EscapedConvict90.title>convicto prófugo</EscapedConvict90.title>
   <EscapedConvict90.titleFemale>convicta prófuga</EscapedConvict90.titleFemale>
@@ -173,7 +173,7 @@
   <Evangelist39.titleShortFemale>evangelista</Evangelist39.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was an explosive engineer employed in mines. [PAWN_pronoun] took [PAWN_possessive] job very seriously and was well-versed in the technicalities - so much so that [PAWN_pronoun] refused to demean [PAWN_objective]self by helping with the clean-up once [PAWN_possessive] carefully-calculated explosion was complete. -->
-  <ExplosivesExpert26.description>[PAWN_nameDef] era {PAWN_gender ? un ingeniero  : una ingeniera} de explosivos encargad{PAWN_gender ? o  : a} de unas minas. Tomaba su trabajo muy seriamente y el aspecto técnico se lo sabía de memoria, tanto que se rehusaba a degradarse ayudando con la limpieza de su muy cuidadosamente calculada explosión.</ExplosivesExpert26.description>
+  <ExplosivesExpert26.description>[PAWN_nameDef] era {PAWN_gender ? un ingeniero : una ingeniera} de explosivos encargad{PAWN_gender ? o : a} de unas minas. Tomaba su trabajo muy seriamente y el aspecto técnico se lo sabía de memoria, tanto que se rehusaba a degradarse ayudando con la limpieza de su muy cuidadosamente calculada explosión.</ExplosivesExpert26.description>
   <!-- EN: explosives expert -->
   <ExplosivesExpert26.title>experto en explosivos</ExplosivesExpert26.title>
   <ExplosivesExpert26.titleFemale>experta en explosivos</ExplosivesExpert26.titleFemale>
@@ -200,7 +200,7 @@
   <FurnitureBuilder83.titleShortFemale>fabricante</FurnitureBuilder83.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] worked at the mansion of a powerful family, tending the lavish gardens as part of a team of servants. -->
-  <Gardener99.description>[PAWN_nameDef] trabajó en la mansión de una poderosa familia adinerada, atendiendo los lujosos jardínes junto con un equipo de sirvientes.</Gardener99.description>
+  <Gardener99.description>[PAWN_nameDef] trabajó en la mansión de una poderosa familia adinerada, atendiendo los lujosos jardines junto con un equipo de sirvientes.</Gardener99.description>
   <!-- EN: gardener -->
   <Gardener99.title>jardinero</Gardener99.title>
   <Gardener99.titleFemale>jardinera</Gardener99.titleFemale>
@@ -256,7 +256,7 @@
   <Inventor6.titleShortFemale>inventora</Inventor6.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] life in prisons, where [PAWN_pronoun] was put to work in the kitchens. [PAWN_pronoun] had a habit of getting into fights, and developed an aggressive way of speaking. -->
-  <Jailbird40.description>[PAWN_nameDef] estuvo la mayor parte de su vida en prisión, donde trabajó en las cocinas. Tenía el habito de encontrar pelea y desarrolló una manera agresiva de hablar.</Jailbird40.description>
+  <Jailbird40.description>[PAWN_nameDef] estuvo la mayor parte de su vida en prisión, donde trabajó en las cocinas. Tenía el hábito de meterse en peleas y desarrolló una manera agresiva de hablar.</Jailbird40.description>
   <!-- EN: jailbird -->
   <Jailbird40.title>expresidiario</Jailbird40.title>
   <Jailbird40.titleFemale>expresidiaria</Jailbird40.titleFemale>
@@ -292,7 +292,7 @@
   <LowWageWorker7.titleShortFemale>obrera</LowWageWorker7.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was obsessed with old machines and arcane pieces of technology. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved taking them apart to see how they worked.\n\n[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening. -->
-  <MachineCollector55.description>[PAWN_nameDef] tenía una obsesión con máquinas antiguas y arcaicas piezas de tecnología. Las obtenía dondequiera que pudiera encontrarlas y le encantaba desarmarlas para ver como funcionaban.\n\nTenía el hábito de hablar de su colección hasta mucho después de que la otra persona ya había dejado de escuchar.</MachineCollector55.description>
+  <MachineCollector55.description>[PAWN_nameDef] tenía una obsesión con máquinas antiguas y arcaicas piezas de tecnología. Las obtenía dondequiera que pudiera encontrarlas y le encantaba desarmarlas para ver cómo funcionaban.\n\nTenía el hábito de hablar de su colección hasta mucho después de que la otra persona ya había dejado de escuchar.</MachineCollector55.description>
   <!-- EN: machine collector -->
   <MachineCollector55.title>buscador de máquinas</MachineCollector55.title>
   <MachineCollector55.titleFemale>buscadora de máquinas</MachineCollector55.titleFemale>
@@ -319,7 +319,7 @@
   <Model99.titleShortFemale>modelo</Model99.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] worked in a hospital, doing routine work such as changing bandages and taking temperatures.\n\nIt was a busy job, but [PAWN_pronoun] could always find time for a chat with a patient. -->
-  <Nurse61.description>[PAWN_nameDef] trabajó en un hospital, haciendo trabajo de rutina como cambiar vendajes y tomar temperaturas.\n\nEra un trabajo duro, pero siempre podía encontrar tiempo para charlar con un paciente.</Nurse61.description>
+  <Nurse61.description>[PAWN_nameDef] trabajó en un hospital, haciendo el trabajo de rutina como cambiar vendajes y tomar temperaturas.\n\nEra un trabajo duro, pero siempre podía encontrar tiempo para charlar con un paciente.</Nurse61.description>
   <!-- EN: nurse -->
   <Nurse61.title>enfermero</Nurse61.title>
   <Nurse61.titleFemale>enfermera</Nurse61.titleFemale>
@@ -375,7 +375,7 @@
   <Ranger96.titleShortFemale>guardabosques</Ranger96.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was part of a revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n[PAWN_pronoun] traveled [PAWN_possessive] homeworld, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training. -->
-  <Recruiter14.description>[PAWN_nameDef] era parte de una orden de artistas marciales venerada, infames tanto por su habilidad en combate como por su práctica de rehusarse a tratar a los heridos. Viajó a traves de su planeta natal, juzgando a los jóvenes para determinar si eran aptos para el entrenamiento.</Recruiter14.description>
+  <Recruiter14.description>[PAWN_nameDef] era parte de una orden de artistas marciales venerada, infames tanto por su habilidad en combate como por su práctica de rehusarse a tratar a los heridos. Viajó a través de su planeta natal, juzgando a los jóvenes para determinar si eran aptos para el entrenamiento.</Recruiter14.description>
   <!-- EN: recruiter -->
   <Recruiter14.title>reclutador</Recruiter14.title>
   <Recruiter14.titleFemale>reclutadora</Recruiter14.titleFemale>
@@ -411,7 +411,7 @@
   <Torturer37.titleShortFemale>torturadora</Torturer37.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] treated sick and injured animals for a living. Seeing their suffering affected [PAWN_possessive] stance on the practice of eating meat, and for many years [PAWN_pronoun] lived as a vegetarian. -->
-  <Veterinarian99.description>[PAWN_nameDef] trataba a los animales enfermos y heridos para ganarse la vida. El sufrimiento que observó afectó su actitud hacia la carne y por muchos años vivió como vegetarian{PAWN_gender ? o : a}, rechazando la tradición culinaria de su planeta natal.</Veterinarian99.description>
+  <Veterinarian99.description>[PAWN_nameDef] trataba a los animales enfermos y heridos para ganarse la vida. El sufrimiento que observó afectó su actitud hacia la carne y por muchos años vivió como vegetarian{PAWN_gender ? o : a}.</Veterinarian99.description>
   <!-- EN: veterinarian -->
   <Veterinarian99.title>veterinario</Veterinarian99.title>
   <Veterinarian99.titleFemale>veterinaria</Veterinarian99.titleFemale>

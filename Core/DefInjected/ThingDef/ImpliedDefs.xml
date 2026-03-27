@@ -514,8 +514,8 @@
   <!-- EN: cápsula de transporte (anteproyecto) -->
   <Blueprint_TransportPod.label>cápsula de transporte (anteproyecto)</Blueprint_TransportPod.label>
   
-  <!-- EN: mina antimateria (anteproyecto) -->
-  <Blueprint_TrapIED_AntigrainWarhead.label>mina antimateria (anteproyecto)</Blueprint_TrapIED_AntigrainWarhead.label>
+  <!-- EN: mina antigrano (anteproyecto) -->
+  <Blueprint_TrapIED_AntigrainWarhead.label>mina antigrano (anteproyecto)</Blueprint_TrapIED_AntigrainWarhead.label>
   
   <!-- EN: mina PEM (anteproyecto) -->
   <Blueprint_TrapIED_EMP.label>mina PEM (anteproyecto)</Blueprint_TrapIED_EMP.label>
@@ -793,10 +793,10 @@
   <!-- EN: El cuerpo sin vida de una termita. -->
   <Corpse_Mech_Termite.description>El cuerpo inerte de una termita.</Corpse_Mech_Termite.description>
   
-  <!-- EN: Cadáver de megascarabajo -->
-  <Corpse_Megascarab.label>cadáver de megascarabajo</Corpse_Megascarab.label>
-  <!-- EN: El cuerpo sin vida de un megascarabajo. -->
-  <Corpse_Megascarab.description>El cuerpo sin vida de un megascarabajo.</Corpse_Megascarab.description>
+  <!-- EN: Cadáver de megaescarabajo -->
+  <Corpse_Megascarab.label>cadáver de megaescarabajo</Corpse_Megascarab.label>
+  <!-- EN: El cuerpo sin vida de un megaescarabajo. -->
+  <Corpse_Megascarab.description>El cuerpo sin vida de un megaescarabajo.</Corpse_Megascarab.description>
   
   <!-- EN: Cadáver de megaperezoso -->
   <Corpse_Megasloth.label>cadáver de megaperezoso</Corpse_Megasloth.label>
@@ -935,8 +935,8 @@
   
   <!-- EN: puerta automática (en construcción) -->
   <Frame_Autodoor.label>puerta automática (en construcción)</Frame_Autodoor.label>
-  <!-- EN: Separa habitaciones. La automatización de esta puerta permite a la gente pasar a traves de ella sin ser ralentizados. -->
-  <Frame_Autodoor.description>Separa habitaciones. La automatización de esta puerta permite a la gente pasar a traves de ella sin ser ralentizados.</Frame_Autodoor.description>
+  <!-- EN: Separa habitaciones. La automatización de esta puerta permite a la gente pasar a través de ella sin ser ralentizados. -->
+  <Frame_Autodoor.description>Separa habitaciones. La automatización de esta puerta permite a la gente pasar a través de ella sin ser ralentizados.</Frame_Autodoor.description>
   
   <!-- EN: batería (en construcción) -->
   <Frame_Battery.label>batería (en construcción)</Frame_Battery.label>
@@ -1010,7 +1010,7 @@
   
   <!-- EN: enfriador (en construcción) -->
   <Frame_Cooler.label>enfriador (en construcción)</Frame_Cooler.label>
-  <!-- EN: Un dispositivo eléctrico que puede ser empotrado en un muro. El aire frío sale por un lado, mientras que el escape caliente sale por el otro. Puede utilizarse para enfriar habitaciones durante el verano o para crear una habitación frigorífica. -->
+  <!-- EN: Una máquina de enfriamiento del aire que puede ser empotrada en un muro. El aire frío sale por un lado, mientras que el escape caliente sale por el otro. Puede utilizarse para enfriar habitaciones durante el verano o para crear una habitación frigorífica. -->
   <Frame_Cooler.description>Un dispositivo eléctrico que puede ser empotrado en un muro. El aire frío sale por un lado, mientras que el escape caliente sale por el otro. Puede utilizarse para enfriar habitaciones durante el verano o para crear una habitación frigorífica.</Frame_Cooler.description>
   
   <!-- EN: lugar de artesanía (en construcción) -->
@@ -1130,8 +1130,8 @@
   
   <!-- EN: televisión de pantalla plana (en construcción) -->
   <Frame_FlatscreenTelevision.label>televisión de pantalla plana (en construcción)</Frame_FlatscreenTelevision.label>
-  <!-- EN: Un televisor de pantalla plana de alta tecnología con una imagen nítida y un color intenso. Capta transmisiones de satélites antiguos y tarjetas de datos ubicuas. -->
-  <Frame_FlatscreenTelevision.description>Un televisor de pantalla plana de alta tecnología con una imagen nítida y un color intenso. Capta transmisiones de satélites antiguos y tarjetas de datos ubicuas.</Frame_FlatscreenTelevision.description>
+  <!-- EN: Un televisor de pantalla plana de alta tecnología con una imagen nítida y un color intenso. Recibe transmisiones de antiguos satélites y de omnipresentes tarjetas de datos. -->
+  <Frame_FlatscreenTelevision.description>Un televisor de pantalla plana de alta tecnología con una imagen nítida y un color intenso. Recibe transmisiones de satélites antiguos y tarjetas de datos ubicuas.</Frame_FlatscreenTelevision.description>
   
   <!-- EN: forja de leña (en construcción) -->
   <Frame_FueledSmithy.label>forja de leña (en construcción)</Frame_FueledSmithy.label>
@@ -1250,7 +1250,7 @@
   
   <!-- EN: enfriador pasivo (en construcción) -->
   <Frame_PassiveCooler.label>enfriador pasivo (en construcción)</Frame_PassiveCooler.label>
-  <!-- EN: Un enfriamiento tradicional, que trabaja con la evaporación del agua. Al cabo de unos días, debe reponerse con madera. No es lo suficientemente eficiente para refrigerar los alimentos. -->
+  <!-- EN: Un enfriador tradicional sin electricidad que funciona mediante la evaporación del agua. Hay que reponer la leña con regularidad. No es lo suficientemente eficiente para refrigerar los alimentos. -->
   <Frame_PassiveCooler.description>Un enfriamiento tradicional, que trabaja con la evaporación del agua. Al cabo de unos días, debe reponerse con madera. No es lo suficientemente eficiente para refrigerar los alimentos.</Frame_PassiveCooler.description>
   
   <!-- EN: baldosa de cemento (en construcción) -->
@@ -1306,7 +1306,7 @@
   <!-- EN: viga estrutural de nave (en construcción) -->
   <Frame_Ship_Beam.label>viga estrutural de nave (en construcción)</Frame_Ship_Beam.label>
   <!-- EN: Una viga estructural alrededor de la cual se puede construir una nave espacial. Incluye todos los conductos y tuberías de tránsito necesarios para las comunicaciones, la energía y el transporte de materiales. -->
-  <Frame_Ship_Beam.description>Una viga estructural alrededor de la cual se puede contruir una nave espacial.Una viga estructural alrededor de la cual se puede construir una nave espacial. Incluye todos los conductos y tuberías de tránsito necesarios para las comunicaciones, la energía y el transporte de materiales.</Frame_Ship_Beam.description>
+  <Frame_Ship_Beam.description>Una viga estructural alrededor de la cual se puede construir una nave espacial. Una viga estructural alrededor de la cual se puede construir una nave espacial. Incluye todos los conductos y tuberías de tránsito necesarios para las comunicaciones, la energía y el transporte de materiales.</Frame_Ship_Beam.description>
   
   <!-- EN: computadora central de nave (en construcción) -->
   <Frame_Ship_ComputerCore.label>computadora central de nave (en construcción)</Frame_Ship_ComputerCore.label>
@@ -1325,8 +1325,8 @@
   
   <!-- EN: reactor de nave (en construcción) -->
   <Frame_Ship_Reactor.label>reactor de nave (en construcción)</Frame_Ship_Reactor.label>
-  <!-- EN: Produce energía para la nave durante su viaje a traves del espacio. El despegue requiere un largo proceso de encendido que probablemente atraiga a los asaltantes. -->
-  <Frame_Ship_Reactor.description>Produce energía para la nave durante su viaje a traves del espacio. El despegue requiere un largo proceso de encendido que probablemente atraiga a los asaltantes.</Frame_Ship_Reactor.description>
+  <!-- EN: Produce energía para la nave durante su viaje a través del espacio. El despegue requiere un largo proceso de encendido que probablemente atraiga a los asaltantes. -->
+  <Frame_Ship_Reactor.description>Produce energía para la nave durante su viaje a través del espacio. El despegue requiere un largo proceso de encendido que probablemente atraiga a los asaltantes.</Frame_Ship_Reactor.description>
   
   <!-- EN: módulo de sensores (en construcción) -->
   <Frame_Ship_SensorCluster.label>módulo de sensores (en construcción)</Frame_Ship_SensorCluster.label>
@@ -1453,30 +1453,30 @@
   <!-- EN: Una cápsula de transporte capaz de transportar personas, animales y objetos. Puede ser usada para transporte, ataques sorpresa o para enviar refuerzos a una batalla. -->
   <Frame_TransportPod.description>Una cápsula de transporte capaz de transportar personas, animales y objetos. Puede ser usada para transporte, ataques sorpresa o para enviar refuerzos a una batalla.</Frame_TransportPod.description>
   
-  <!-- EN: mina antimateria (en construcción) -->
-  <Frame_TrapIED_AntigrainWarhead.label>mina antimateria (en construcción)</Frame_TrapIED_AntigrainWarhead.label>
-  <!-- EN: Una ojiva antimateria de alta tecnología conectada a un gatillo casero. Cuando se dispara, la ojiva antimateria se detona, creando una explosión masiva. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos. -->
-  <Frame_TrapIED_AntigrainWarhead.description>Una ojiva de antimateria de alta tecnología conectada a un gatillo casero. Cuando se dispara, la ojiva de antimateria se detona, creando una explosión masiva. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</Frame_TrapIED_AntigrainWarhead.description>
+  <!-- EN: mina antigrano (en construcción) -->
+  <Frame_TrapIED_AntigrainWarhead.label>mina antigrano (en construcción)</Frame_TrapIED_AntigrainWarhead.label>
+  <!-- EN: Una ojiva antigrano impulsada por antimateria conectada a un detonador que se activa al contacto o al impacto de balas. Como está oculta en el terreno circundante, no puede colocarse adyacente a otras trampas. Los animales pueden detectar estas trampas cuando están tranquilos. -->
+  <Frame_TrapIED_AntigrainWarhead.description>Una ojiva antigrano impulsada por antimateria conectada a un detonador que se activa al contacto o al impacto de balas. Como está oculta en el terreno circundante, no puede colocarse adyacente a otras trampas. Los animales pueden detectarla cuando están tranquilos.</Frame_TrapIED_AntigrainWarhead.description>
   
   <!-- EN: mina PEM (en construcción) -->
   <Frame_TrapIED_EMP.label>mina PEM (en construcción)</Frame_TrapIED_EMP.label>
-  <!-- EN: Una simple trampa que consiste en un cartucho PEM y un gatillo casero. La explosión puede paralizar criaturas mecánicas durante unos segundos. Puede ser disparado incluso por aquellos que no son afectados por explosiones PEM. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos. -->
-  <Frame_TrapIED_EMP.description>Una simple trampa que consiste en un cartucho PEM y un gatillo casero. La explosión puede paralizar criaturas mecánicas durante unos segundos. Puede ser disparado incluso por aquellos que no son afectados por explosiones PEM. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</Frame_TrapIED_EMP.description>
+  <!-- EN: Un par de proyectiles EMP conectados a un detonador que se activa al contacto o al impacto de balas. La explosión puede paralizar a los mecanoides durante unos segundos. Como está oculto en el terreno circundante, no puede colocarse adyacente a otras trampas. Los animales pueden detectar estas trampas cuando están tranquilos. -->
+  <Frame_TrapIED_EMP.description>Un par de proyectiles EMP conectados a un detonador que se activa al contacto o al impacto de balas. La explosión puede paralizar a los mecanoides durante unos segundos. Como está oculto en el terreno circundante, no puede colocarse adyacente a otras trampas. Los animales pueden detectar estas trampas cuando están tranquilos</Frame_TrapIED_EMP.description>
   
   <!-- EN: mina de espuma cortafuego (en construcción) -->
   <Frame_TrapIED_Firefoam.label>mina de espuma cortafuego (en construcción)</Frame_TrapIED_Firefoam.label>
-  <!-- EN: Cuando alguien toca el gatillo, la trampa explota y rocía una espuma extintora de fuego a su alrededor. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos. -->
-  <Frame_TrapIED_Firefoam.description>Cuando alguien toca el gatillo, la trampa explota y rocía una espuma extintora de fuego a su alrededor. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</Frame_TrapIED_Firefoam.description>
+  <!-- EN: Un par de proyectiles de espuma cortafuego conectados a un detonador que se activa al contacto o al impacto de balas. Como está oculta en el terreno circundante, no puede colocarse adyacente a otras trampas. Los animales pueden detectar estas trampas cuando están tranquilos. -->
+  <Frame_TrapIED_Firefoam.description>Un par de proyectiles de espuma cortafuego conectados a un detonador que se activa al contacto o al impacto de balas. Como está oculta en el terreno circundante, no puede colocarse adyacente a otras trampas. Los animales pueden detectar estas trampas cuando están tranquilos</Frame_TrapIED_Firefoam.description>
   
   <!-- EN: mina (en construcción) -->
   <Frame_TrapIED_HighExplosive.label>mina (en construcción)</Frame_TrapIED_HighExplosive.label>
-  <!-- EN: Una bala de mortero conectada a un gatillo casero. Cuando alguien altera el gatillo, el proyectil explota. El disparador improvisado tiene un retardo aleatorio que puede permitir que un enemigo ágil escape. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos. -->
-  <Frame_TrapIED_HighExplosive.description>Una bala de mortero conectada a un gatillo casero. Cuando alguien altera el gatillo, el proyectil explota. El disparador improvisado tiene un retardo aleatorio que puede permitir que un enemigo ágil escape. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</Frame_TrapIED_HighExplosive.description>
+  <!-- EN: Un par de proyectiles de alto explosivo conectados a un detonador que se activa al contacto o al impacto de balas. Como está oculta en el terreno circundante, no puede colocarse adyacente a otras trampas. Los animales pueden detectar estas trampas cuando están tranquilos. -->
+  <Frame_TrapIED_HighExplosive.description>Un par de proyectiles de alto explosivo conectados a un detonador que se activa al contacto o al impacto de balas. Como está oculta en el terreno circundante, no puede colocarse adyacente a otras trampas. Los animales pueden detectar estas trampas cuando están tranquilos.</Frame_TrapIED_HighExplosive.description>
   
   <!-- EN: mina incendiaria (en construcción) -->
   <Frame_TrapIED_Incendiary.label>mina incendiaria (en construcción)</Frame_TrapIED_Incendiary.label>
-  <!-- EN: Explosivos mezclados en una pasta incendiaria con un detonante químico para su dispersión. Su disparador químico es simple y confiable. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos. -->
-  <Frame_TrapIED_Incendiary.description>Explosivos mezclados en una pasta incendiaria con un detonante químico para su dispersión. Su disparador químico es simple y confiable. Dado que está oculta en el terreno circundante, no puede colocarse junto a otras trampas. Los animales pueden sentirlas cuando están tranquilos.</Frame_TrapIED_Incendiary.description>
+  <!-- EN: Un par de proyectiles incendiarios conectados a un detonador que se activa al contacto o al impacto de balas. Como está oculta en el terreno circundante, no puede colocarse adyacente a otras trampas. Los animales pueden detectar estas trampas cuando están tranquilos. -->
+  <Frame_TrapIED_Incendiary.description>Un par de proyectiles incendiarios conectados a un detonador que se activa al contacto o al impacto de balas. Como está oculta en el terreno circundante, no puede colocarse adyacente a otras trampas. Los animales pueden detectar estas trampas cuando están tranquilos.</Frame_TrapIED_Incendiary.description>
   
   <!-- EN: televisión (en construcción) -->
   <Frame_TubeTelevision.label>televisión (en construcción)</Frame_TubeTelevision.label>
