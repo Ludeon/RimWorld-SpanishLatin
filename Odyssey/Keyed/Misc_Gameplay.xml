@@ -21,7 +21,7 @@
   <!-- EN: no substructure -->
   <CannotLaunchNoSubstructure>no hay subestructura</CannotLaunchNoSubstructure>
   <!-- EN: no unblocked functioning thrusters -->
-  <CannotLaunchNoThrusters>no hay propulsores funcionando desbloqueados</CannotLaunchNoThrusters>
+  <CannotLaunchNoThrusters>no hay propulsores operativos desbloqueados</CannotLaunchNoThrusters>
   <!-- EN: engine cooldown: {0} -->
   <CannotLaunchOnCooldown>motor en enfriamiento: {0}</CannotLaunchOnCooldown>
   <!-- EN: Choose where to land -->
@@ -65,7 +65,7 @@
   <!-- EN: Can't place close to the map edge -->
   <GravshipInNoBuildArea>No se puede colocar cerca del borde del mapa</GravshipInNoBuildArea>
   <!-- EN: Can't place in blocked area -->
-  <GravshipInBlockedArea>No se puede colocar en el área bloqueada.</GravshipInBlockedArea>
+  <GravshipInBlockedArea>No se puede colocar en el área bloqueada</GravshipInBlockedArea>
   <!-- EN: Can't place on {0_label} -->
   <GravshipBlockedByTerrain>No se puede colocar en {0_label}</GravshipBlockedByTerrain>
   <!-- EN: Must be connected to solid ground -->
@@ -95,7 +95,7 @@
   <!-- EN: Not connected to gravship -->
   <ShieldNotConnectedToGravship>No conectado a gravinave</ShieldNotConnectedToGravship>
   <!-- EN: Gravship launch called off -->
-  <GravshipLaunchInterrupted>Lanzamiento de la nave gravinave cancelado.</GravshipLaunchInterrupted>
+  <GravshipLaunchInterrupted>Lanzamiento de la nave gravinave cancelado</GravshipLaunchInterrupted>
   <!-- EN: Not connected to grav engine. -->
   <NotConnectedToGravEngine>No está conectado al motor gravitacional.</NotConnectedToGravEngine>
   <!-- EN: Not functional -->
@@ -105,9 +105,9 @@
   <!-- EN: blocked by {0_label} -->
   <ThrusterBlockedBy>Bloqueado por {0_label}</ThrusterBlockedBy>
   <!-- EN: must be outside -->
-  <MustBeOutside>Debe estar afuera</MustBeOutside>
+  <MustBeOutside>debe estar afuera</MustBeOutside>
   <!-- EN: blocked by substructure -->
-  <BlockedBySubstructure>Bloqueado por subestructura</BlockedBySubstructure>
+  <BlockedBySubstructure>bloqueado por subestructura</BlockedBySubstructure>
   <!-- EN: {PAWN_nameDef} cannot board {1} -->
   <FailedToBoardGravship>{PAWN_nameDef} no puede embarcar en {1}</FailedToBoardGravship>
   <!-- EN: {PAWN_nameDef} cannot exit {1} -->
@@ -237,7 +237,7 @@
   <!-- EN: equip outfit... -->
   <SwapOutfitGizmo>equipar atuendo...</SwapOutfitGizmo>
   <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
-  <SwapOutfitDesc>Ordena a un colono a usar toda la ropa del soporte. El colono colocará cualquier ropa no equipada de vuelta en el soporte.</SwapOutfitDesc>
+  <SwapOutfitDesc>Ordena a un colono que se ponga toda la ropa del soporte. El colono colocará de vuelta en el soporte cualquier prenda que no tenga equipada.</SwapOutfitDesc>
   <!-- EN: cannot equip outfit -->
   <CannotSwapOutfit>no se puede equipar el atuendo</CannotSwapOutfit>
   <!-- EN: outfit stand is empty -->
@@ -318,7 +318,7 @@
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>Animales atacar objetivo</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
-  <AnimalsAttackTargetDesc>Dirige a todos los animales entrenados a atacar un objetivo específico.</AnimalsAttackTargetDesc>
+  <AnimalsAttackTargetDesc>Ordena a todos los animales entrenados que ataquen a un objetivo específico.</AnimalsAttackTargetDesc>
   <!-- EN: Cancel attack -->
   <CancelAttack>Cancelar ataque</CancelAttack>
   <!-- EN: Clear this animal's current target. -->
