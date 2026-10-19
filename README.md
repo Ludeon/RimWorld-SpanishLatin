@@ -4,13 +4,13 @@
   <img src="https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.6.4739-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.7.4982-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of RimWorld version 1.6.4739
+This is the Latin American Spanish translation of RimWorld version 1.7.4982
 
-Esta es la traducción para latinoamérica de RimWorld versión 1.6.4739
+Esta es la traducción para latinoamérica de RimWorld versión 1.7.4982
 
 See this [page](http://ludeon.com/forums/index.php?topic=2933.0) for license info:
 
@@ -48,7 +48,7 @@ Thanks to Odyssey contributors:
 * __[BernyGonzalez](https://github.com/BernyGonzalez) (Active)__
 * __[Zerstrick](https://github.com/zerstrick) (Active)__
 * __[VITO1189](https://github.com/leticiacostan) (Active)__ 
-* __[Israel Gallego Mateos-Carnal (Anth)](https://github.com/Wolf-Igmc4) (Spanish Translator)__
+* __[Israel Gallego (Anth)](https://github.com/Wolf-Igmc4) (Spanish Translator)__
 
 Thanks to Anomaly contributors: 
 
