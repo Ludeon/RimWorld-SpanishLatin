@@ -52,6 +52,10 @@
   <HatsShownOnlyOnMap>Ocultar sombreros equipados</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Escala de interfaz</UIScale>
+  <!-- EN: Respect system display scaling -->
+  <RespectSystemScaling>Respetar la escala de pantalla del S.O</RespectSystemScaling>
+  <!-- EN: When enabled, the UI scale is multiplied by the operating system's display scaling. Disable to apply the UI scale as-is. -->
+  <RespectSystemScaling_Tooltip>Cuando está activada, la escala de la interfaz se multiplica por el factor de escala de pantalla del sistema operativo. Desactívala para aplicar la escala de la interfaz tal cual.</RespectSystemScaling_Tooltip>
   <!-- EN: Keyboard configuration -->
   <KeyboardConfig>Configuración del teclado</KeyboardConfig>
   <!-- EN: Controller configuration -->
@@ -138,6 +142,8 @@
   <TextureCompression>Compresión de texturas</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>Desactivar la compresión de texturas utilizará mucha más memoria de vídeo, pero hace que las texturas se vean ligeramente mejor en las áreas detalladas. Desactívalo solo si sabes que tienes mucha memoria de vídeo extra.\n\nTen en cuenta que el uso de ciertos mods suele consumir mucha más memoria de vídeo, por lo que es posible que tengas que activar esta opción si añades ciertos mods.</TextureCompression_Tooltip>
+  <!-- EN: Texture compression in the Waylith engine is higher quality and always enabled. -->
+  <TextureCompressionAlwaysOn_Tooltip>La compresión de texturas del motor Waylith es de mayor calidad y está siempre activada.</TextureCompressionAlwaysOn_Tooltip>
   <!-- EN: Smooth camera jumps -->
   <SmoothCameraJumps>Suavizar saltos de cámara</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
@@ -154,6 +160,24 @@
   <Fullscreen>Pantalla completa</Fullscreen>
   <!-- EN: Borderless fullscreen -->
   <BorderlessFullscreen>Pantalla completa sin bordes</BorderlessFullscreen>
+  <!-- EN: Display mode -->
+  <DisplayMode>Modo de pantalla</DisplayMode>
+  <!-- EN: Windowed -->
+  <DisplayMode_Windowed>Modo Ventana</DisplayMode_Windowed>
+  <!-- EN: Exclusive fullscreen -->
+  <DisplayMode_ExclusiveFullscreen>Pantalla completa exclusiva</DisplayMode_ExclusiveFullscreen>
+  <!-- EN: Monitor -->
+  <Monitor>Monitor</Monitor>
+  <!-- EN: Automatic -->
+  <Monitor_Automatic>Automático</Monitor_Automatic>
+  <!-- EN: Graphics card -->
+  <Gpu>Tarjeta gráfica</Gpu>
+  <!-- EN: Automatic -->
+  <Gpu_Automatic>Automático</Gpu_Automatic>
+  <!-- EN: {0} (in use) -->
+  <Gpu_InUse>{0} (en uso)</Gpu_InUse>
+  <!-- EN: Changing the graphics card requires a restart. Unsaved progress will be lost.\n\nRestart now? -->
+  <GpuChangedRestart>Cambiar la tarjeta gráfica requiere un reinicio. El progreso no guardado se perderá.\n\n¿Reiniciar ahora?</GpuChangedRestart>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
   <BorderlessFullscreenInstructions>Para ejecutar RimWorld en modo de pantalla completa sin bordes:\n\n1) Abre Steam\n2) Ve a la pestaña "Biblioteca" en la parte superior\n3) Busca RimWorld en la lista y haz clic con el botón derecho\n4) Elige "Propiedades... "\n5) Añade "-popupwindow" sin comillas a "Opciones de lanzamiento" en la pestaña "General"\n6) Reinicia el juego\n7) Si se hace correctamente, no verás esta ventana\n\nSugerencia: Usa la tecla de Windows + Shift + Izquierda/Derecha para mover la ventana entre tus monitores.</BorderlessFullscreenInstructions>
 

@@ -336,6 +336,21 @@
   <Incompatible>Incompatible</Incompatible>
   <!-- EN: Tag as translation -->
   <TagAsTranslation>Etiquetar como traducción</TagAsTranslation>
+  <!-- EN: Build asset pack -->
+  <UploadBuildAssetPack>Crear paquete de recursos</UploadBuildAssetPack>
+  <!-- EN: Packs textures and sounds into an asset pack in each load folder before uploading, to improve download and load times. Untick this to upload the mod folder as it is. -->
+  <UploadBuildAssetPackTip>Empaqueta las texturas y los sonidos en un paquete de recursos en cada carpeta de carga antes de subir el mod, para mejorar los tiempos de descarga y carga. Desmarca esta opción para subir la carpeta del mod tal cual.</UploadBuildAssetPackTip>
+  <!-- EN: Don't upload source textures -->
+  <UploadSkipSourceTextures>No subir las texturas originales</UploadSkipSourceTextures>
+  <!-- EN: Skips uploading the original image and sound files that were included in asset packs. Leave this unticked if you necesitas compatibilidad con RimWorld 1.6 o versiones anteriores. -->
+  <UploadSkipSourceTexturesTip>Omite la subida de los archivos originales de imagen y sonido incluidos en los paquetes de recursos. Deja esta opción desmarcada si necesitas compatibilidad con RimWorld 1.6 o versiones anteriores.</UploadSkipSourceTexturesTip>
+  <!-- EN: Baking asset packs -->
+  <BakingModAssetPacks>Generando paquetes de recursos</BakingModAssetPacks>
+  <!-- EN: Baking asset packs for {0} -->
+  <BakingModAssetPacksFor>Generando paquetes de recursos para {0}</BakingModAssetPacksFor>
+  <!-- EN: Baking the asset packs for {0} failed, the mod was not uploaded: -->
+  <ModAssetPackBakeFailed>No se pudieron generar los paquetes de recursos para {0}. El mod no se subió:</ModAssetPackBakeFailed>
+
   <!-- EN: Too many (max {0}):  -->
   <TooMany>Demasiado (máx {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
