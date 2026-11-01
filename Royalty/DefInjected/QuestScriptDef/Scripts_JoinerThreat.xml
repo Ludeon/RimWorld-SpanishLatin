@@ -37,7 +37,7 @@
     <li>hidingFrom(gameCondition==WeatherController)->un satélite de control climático defectuoso</li>
     <li>condDesc(gameCondition==WeatherController)->Si se une a tu asentamiento, el clima será forzado para crear [forcedWeather_indefinite] durante [gameConditionDuration_duration] hasta que se reinicie el satélite.</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->una vengativa inteligencia artificial que ofendió recientemente</li>
-    <li>condDesc(gameCondition==PsychicDrone)->Si se une a tu asentamiento, la inteligencia artificial atacará [map_definite] con un zumbador psíquido de nivel [psychicDroneLevel] durante [gameConditionDuration_duration], reduciendo el humor de todos los colonos de sexo [psychicDroneGender].</li>
+    <li>condDesc(gameCondition==PsychicDrone)->Si se une a tu asentamiento, la inteligencia artificial atacará [map_definite] con un zumbador psíquico de nivel [psychicDroneLevel] durante [gameConditionDuration_duration], reduciendo el humor de todos los colonos de sexo [psychicDroneGender].</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->una inquietante inteligencia artificial a quien despertó de su letargo</li>
     <li>condDesc(gameCondition==PsychicSuppression)->Si se une a tu asentamiento, la inteligencia artificial golpeará [map_definite] con ondas de represión psíquica durante [gameConditionDuration_duration], reduciendo la conciencia de todos los colonos de sexo [psychicSuppressorGender].</li>
     <li>introduction(childCount==1,priority=1,joiner_gender==Female)->¡Una niña de [joiner_age] años</li>
