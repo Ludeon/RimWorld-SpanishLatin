@@ -101,9 +101,9 @@
     <li>endSection->[helpersParagraph] [animalKindCorrect] [animal_arrive] a [map_definite] [manhuntersDelayTicks_duration] después de que aceptes.</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->Un comerciante te está llamando porque ¡(*Threat)[animalKindDef_indefinite] salvaje(/Threat)!, lo está cazando! Requiere tu ayuda para alejar a esta amenaza lejos de él. [endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKindDef_definite] estaba cazando a un comerciante en las cercanías.</li>
-    <li>questDescription(askerIsNull==true,animalCount==2)->Un comerciante está llamando. Un par de (*Threat)[animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
-    <li>questDescription(askerIsNull==true,animalCount==3)->Un comerciante está llamando. Un trío de (*Threat)[animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
-    <li>questDescription(askerIsNull==true,animalCount>=4)->Un comerciante está llamando. Un grupo de (*Threat)[animalCount] [animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==2)->Un comerciante está llamando. ¡Un par de (*Threat)[animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==3)->Un comerciante está llamando. ¡Un trío de (*Threat)[animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount>=4)->Un comerciante está llamando. ¡Un grupo de (*Threat)[animalCount] [animalKind_labelPlural] salvajes(/Threat) lo están cazando! Quiere tu ayuda para alejar a estos animales lejos de él. [endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==2)->el par de [animalKind_labelPlural] estaban cazando a un comerciante en las cercanías.</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==3)->el trío de [animalKind_labelPlural] estaban cazando a un comerciante en las cercanías.</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=4)->el grupo de [animalKind_labelPlural] estaban cazando a un comerciante en las cercanías.</li>
