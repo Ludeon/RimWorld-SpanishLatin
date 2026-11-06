@@ -687,7 +687,7 @@
   <DisasterSurvivor29.titleShortFemale>superviviente</DisasterSurvivor29.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was uprooted when marauders attacked [PAWN_possessive] family farm, destroying machinery and killing farmhands and beasts alike.\n\nAfter the death of all [PAWN_pronoun] knew, [PAWN_pronoun] was left in the ruins to fend for [PAWN_objective]self. -->
-  <DisasterSurvivor65.description>[PAWN_nameDef] fue desarraigad{PAWN_gender ? o : a} cuando unos merodeadores atacaron la granja de su familia, destruyendo la maquinaria y matando a labradores y bestias por igual\n\nTras la muerte de todo lo que conocía, fue abandonad{PAWN_gender ? o : a} a su suerte en las ruinas..</DisasterSurvivor65.description>
+  <DisasterSurvivor65.description>[PAWN_nameDef] fue desarraigad{PAWN_gender ? o : a} cuando unos merodeadores atacaron la granja de su familia, destruyendo la maquinaria y matando a labradores y bestias por igual\n\nTras la muerte de todo lo que conocía, fue abandonad{PAWN_gender ? o : a} a su suerte en las ruinas.</DisasterSurvivor65.description>
   <!-- EN: disaster survivor -->
   <DisasterSurvivor65.title>sobreviviente de desastre</DisasterSurvivor65.title>
   <DisasterSurvivor65.titleFemale>sobreviviente de desastre</DisasterSurvivor65.titleFemale>
@@ -1160,8 +1160,8 @@
   <!-- EN: [PAWN_nameDef] grew up on the streets of a world in the early stages of its industrial revolution. [PAWN_pronoun] passed [PAWN_possessive] days stealing, begging and tinkering with discarded machine scraps, always on the lookout for a way to escape poverty. -->
   <IndworldUrchin73.description>[PAWN_nameDef] creció en las calles de un mundo que atravezaba por las primeras etapas de industrialización. Pasó sus días pidiendo limosna y jugando con máquinas inservibles, siempre buscando una manera de escapar de la pobreza.</IndworldUrchin73.description>
   <!-- EN: indworld urchin -->
-  <IndworldUrchin73.title>pilluelo de mundoindustrial</IndworldUrchin73.title>
-  <IndworldUrchin73.titleFemale>pilluela de mundoindustrial</IndworldUrchin73.titleFemale>
+  <IndworldUrchin73.title>pilluelo mundoindustrial</IndworldUrchin73.title>
+  <IndworldUrchin73.titleFemale>pilluela mundoindustrial</IndworldUrchin73.titleFemale>
   <!-- EN: urchin -->
   <IndworldUrchin73.titleShort>pilluelo</IndworldUrchin73.titleShort>
   <IndworldUrchin73.titleShortFemale>pilluela</IndworldUrchin73.titleShortFemale>
@@ -1208,7 +1208,7 @@
   <KidScientist53.titleShortFemale>científica</KidScientist53.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was a bloodlusting child. Villagers thought [PAWN_objective] the product of a snake demon and human coupling.\n\nAfter watching how [PAWN_possessive] human father betrayed and murdered [PAWN_possessive] mother, [PAWN_pronoun] longed to see how many more humans [PAWN_pronoun] could get to fall into [PAWN_possessive] hands. -->
-  <Killer41.description>[PAWN_nameDef] era {PAWN_gender ?  un niño : una niña} sanguinario. Los aldeanos [PAWN_objective] consideraban el producto de un demonio serpiente y un acoplamiento humano.\n\nDespués de ver cómo su padre humano traicionó y asesinó a su madre, anhelaba ver cuántos humanos más podrían llegar a caer en sus manos.</Killer41.description>
+  <Killer41.description>[PAWN_nameDef] era {PAWN_gender ? un niño sanguinario : una niña sanguinaria}. Los aldeanos [PAWN_objective] consideraban el producto de un demonio serpiente y un acoplamiento humano.\n\nDespués de ver cómo su padre humano traicionó y asesinó a su madre, anhelaba ver cuántos humanos más podrían llegar a caer en sus manos.</Killer41.description>
   <!-- EN: killer -->
   <Killer41.title>asesino</Killer41.title>
   <Killer41.titleFemale>asesina</Killer41.titleFemale>
@@ -1260,7 +1260,7 @@
   <MarineCadet73.titleShort>cadete</MarineCadet73.titleShort>
   
   <!-- EN: The only son of a well respected mechanoid inventor, [PAWN_nameDef] had access to the materials to subvert and modify [PAWN_possessive] father's creations.\n\n[PAWN_pronoun] used drugs to increase [PAWN_possessive] productivity. Unfortunately, the side-effects included persistent delusions of being mechanized, which limited [PAWN_possessive] social life. -->
-  <MechanoidHacker93.description>El único hijo de un respetado inventor mecanoide, [PAWN_nameDef] tuvo acceso a los materiales para subvertir y modificar las creaciones de su padre.\n\n[Usó medicamentos para aumentar su productividad. Desafortunadamente, los efectos secundarios incluyeron delirios persistentes de mecanización, lo que limitó su vida social.</MechanoidHacker93.description>
+  <MechanoidHacker93.description>El único hijo de un respetado inventor mecanoide, [PAWN_nameDef] tuvo acceso a los materiales para subvertir y modificar las creaciones de su padre.\n\nUsó medicamentos para aumentar su productividad. Desafortunadamente, los efectos secundarios incluyeron delirios persistentes de mecanización, lo que limitó su vida social.</MechanoidHacker93.description>
   <!-- EN: mechanoid hacker -->
   <MechanoidHacker93.title>hacker de mecanoides</MechanoidHacker93.title>
   <MechanoidHacker93.titleFemale>hacker de mecanoides</MechanoidHacker93.titleFemale>
@@ -1271,8 +1271,8 @@
   <!-- EN: [PAWN_nameDef] grew up in an urbworld as the only child of a pair of mechanoid designers.\nThey encouraged [PAWN_possessive] interest in the machines. Eventually, [PAWN_pronoun] became obsessed with building [PAWN_possessive] own.\n\nUnfortunately this also lead to [PAWN_objective] being a loner as [PAWN_pronoun] preferred technical books to friends. -->
   <MechanoidNerd10.description>[PAWN_nameDef] creció en un mundourbano como {PAWN_gender ? el unigénito : la unigénita} de una pareja de diseñadores de mecanoides.\nEllos alentaron su interés en las máquinas. Eventualmente, [PAWN_pronoun] se obsesionó con construir uno propio.\n\nDesafortunadamente, esto [PAWN_objective] convirtió en una persona solitaria pues siempre prefirió los libros técnicos a los amigos.</MechanoidNerd10.description>
   <!-- EN: mechanoid nerd -->
-  <MechanoidNerd10.title>nerd mecanoide</MechanoidNerd10.title>
-  <MechanoidNerd10.titleFemale>nerd mecanoide</MechanoidNerd10.titleFemale>
+  <MechanoidNerd10.title>nerd de mecanoides</MechanoidNerd10.title>
+  <MechanoidNerd10.titleFemale>nerd de mecanoides</MechanoidNerd10.titleFemale>
   <!-- EN: mechanerd -->
   <MechanoidNerd10.titleShort>mecanerd</MechanoidNerd10.titleShort>
   <MechanoidNerd10.titleShortFemale>mecanerd</MechanoidNerd10.titleShortFemale>
@@ -2435,8 +2435,8 @@
   <!-- EN: [PAWN_nameDef] was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
   <UrbworldUrchin6.description>[PAWN_nameDef] nació en los barrios más oscuros de su mundourbano. Abandonad{PAWN_gender ? o : a} por su madre, aprendió a sobrevivir por su cuenta, luchando por cada trozo de comida que veía.\n\nCon el tiempo, cuando sus talentos superaron a los de sus compañeros, ascendió de las profundidades a las calles de la superficie y dejó atrás a su madre.</UrbworldUrchin6.description>
   <!-- EN: urbworld urchin -->
-  <UrbworldUrchin6.title>ladrón de mundourbano</UrbworldUrchin6.title>
-  <UrbworldUrchin6.titleFemale>ladrona de mundourbano</UrbworldUrchin6.titleFemale>
+  <UrbworldUrchin6.title>ladrón mundourbano</UrbworldUrchin6.title>
+  <UrbworldUrchin6.titleFemale>ladrona mundourbano</UrbworldUrchin6.titleFemale>
   <!-- EN: urchin -->
   <UrbworldUrchin6.titleShort>ladronzuelo</UrbworldUrchin6.titleShort>
   <UrbworldUrchin6.titleShortFemale>ladronzuela</UrbworldUrchin6.titleShortFemale>
@@ -2444,8 +2444,8 @@
   <!-- EN: Abandoned among the filthy concrete spires, [PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_pronoun] never received formal education, and often resorted to doing menial labor in exchange for food. Sometimes [PAWN_pronoun] lied, cheated, and stole to survive. -->
   <UrbworldUrchin90.description>Abandonad{PAWN_gender ? o : a} entre las sucias torres de hormigón, [PAWN_nameDef] nunca conoció a sus padres. Nunca recibió educación formal y a menudo recurrió a trabajos serviles a cambio de comida. A veces mentía, engañaba y robaba para sobrevivir.</UrbworldUrchin90.description>
   <!-- EN: urbworld urchin -->
-  <UrbworldUrchin90.title>ladrón de mundourbano</UrbworldUrchin90.title>
-  <UrbworldUrchin90.titleFemale>ladrona de mundourbano</UrbworldUrchin90.titleFemale>
+  <UrbworldUrchin90.title>ladrón mundourbano</UrbworldUrchin90.title>
+  <UrbworldUrchin90.titleFemale>ladrona mundourbano</UrbworldUrchin90.titleFemale>
   <!-- EN: urchin -->
   <UrbworldUrchin90.titleShort>ladronzuelo</UrbworldUrchin90.titleShort>
   <UrbworldUrchin90.titleShortFemale>ladronzuela</UrbworldUrchin90.titleShortFemale>
